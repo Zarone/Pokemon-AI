@@ -21,8 +21,8 @@ local x_offset = 0
 local y_offset = 0
 
 local debug_map = true
-local debug_box_size = 4
-local debug_box_margin = 10
+local debug_box_size = 3
+local debug_box_margin = 8
 
 function reset_map()
     local_map = {{0}}
@@ -36,7 +36,6 @@ local pf = { -- pathfinder
     ismoving = true,
     frame_counter = 0,
     frame_per_move = 30
-    -- frame_per_stop = 5
 }
 
 pf.try_move_start = function()
@@ -70,23 +69,28 @@ pf.try_move = function(dir_x, dir_y) -- arguments are either (-1, 0), (0, -1), (
         elseif pf.frame_counter > pf.frame_per_move then
             -- moved unsucessfully
 
-            -- expand the map
-            if (y + y_offset + 1 + dir_y < map_y_start) then
-                map_y_start = y + y_offset + 1 + dir_y
-            elseif (y + y_offset + 1 + dir_y > map_y_end) then
-                map_y_end = y + y_offset + 1 + dir_y
-            end
+            if not (is_npc_at(x + x_offset + dir_x, y + y_offset + dir_y)) then
 
-            if (x + x_offset + 1 + dir_x < map_x_start) then
-                map_x_start = x + x_offset + 1 + dir_x
-            elseif (x + x_offset + dir_x + 1 > map_x_end) then
-                map_x_end = x + x_offset + 1 + dir_x
-            end
+                print("no npc found at: ", x + x_offset + dir_x, y + y_offset + dir_y)
 
-            if (local_map[y + y_offset + 1 + dir_y] == nil) then -- if the new row is nil
-                local_map[y + y_offset + 1] = {}
+                -- expand the map
+                if (y + y_offset + 1 + dir_y < map_y_start) then
+                    map_y_start = y + y_offset + 1 + dir_y
+                elseif (y + y_offset + 1 + dir_y > map_y_end) then
+                    map_y_end = y + y_offset + 1 + dir_y
+                end
+    
+                if (x + x_offset + 1 + dir_x < map_x_start) then
+                    map_x_start = x + x_offset + 1 + dir_x
+                elseif (x + x_offset + dir_x + 1 > map_x_end) then
+                    map_x_end = x + x_offset + 1 + dir_x
+                end
+    
+                if (local_map[y + y_offset + 1 + dir_y] == nil) then -- if the new row is nil
+                    local_map[y + y_offset + 1] = {}
+                end
+                local_map[y + y_offset + 1 + dir_y][x + x_offset + 1 + dir_x] = 2
             end
-            local_map[y + y_offset + 1 + dir_y][x + x_offset + 1 + dir_x] = 2
 
             pf.ismoving = false
         end
@@ -159,8 +163,7 @@ function debug_npc_view()
     end
 end
 
-local temp = true
-while true do
+function update_map()
     old_x = x
     old_y = y
 
@@ -214,6 +217,11 @@ while true do
         debug_map_view()
         debug_npc_view()
     end
+end
+
+local temp = true
+while true do
+    update_map()
 
     if temp then
         pf.try_move_start()
