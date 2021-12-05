@@ -31,5 +31,3 @@ while true do
     end
     emu.frameadvance()
 end
-
--- 788 745
