@@ -101,6 +101,36 @@ function lmd.reset_map()
     lmd.map_y_end = 1
 end
 
+lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
+    return math.sqrt((node_x - dest_x) ^ 2 + (node_y - dest_y) ^ 2)
+end
+
+lmd.pf.evaluate_neighbors = function(node_x, node_y, dest_x, dest_y, cost_of_current_node)
+    neighbors = {}
+
+    -- adjust this to insert at correct location
+
+    if (lmd.local_map[node_y + 1] ~= nil) then
+        table.insert(neighbors, {node_x, node_y + 1, cost_of_current_node + 1,
+                                 lmd.pf.find_heuristic_cost(node_x, node_y + 1, dest_x, dest_y)})
+    end
+
+    return neighbors
+end
+
+lmd.pf.pathfind_start = function(dest_x, dest_y)
+    stack = {} -- create stack
+    -- local example_node = { x, y, literal_cost, heuristic_cost }
+
+    -- Loop through accessible nodes from current point, 
+    -- rank them based on heuristic distance and distance from starting position.
+    -- Push them to stack, best nodes at the top
+
+    -- Create a loop that goes through stack. Each iteration, look at the top node, rank its available options using a cost function, then add those to the stack best nodes on top.
+    -- At any point if we’re unsure about the status (walking or blocked), attempt to traverse it and if the tile is traversable restart algorithm.
+
+end
+
 function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
     ingame_y = grid_y - lmd.y_offset -- + 1
     ingame_x = grid_x - lmd.x_offset -- + 1
