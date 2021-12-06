@@ -108,11 +108,24 @@ end
 lmd.pf.evaluate_neighbors = function(node_x, node_y, dest_x, dest_y, cost_of_current_node)
     neighbors = {}
 
-    -- adjust this to insert at correct location
+    l_cost = cost_of_current_node + 1 -- literal cost
+
+    neighbor_insert = function(h_cost, insert_x, insert_y)
+        i = 1
+        while i < #neighbors and h_cost+l_cost < neighbors[i][3] + neighbors[i][4] do
+            i = i + 1
+        end
+        table.insert(neighbors, i, {node_x, node_y - 1, l_cost, h_cost})
+    end
 
     if (lmd.local_map[node_y + 1] ~= nil) then
-        table.insert(neighbors, {node_x, node_y + 1, cost_of_current_node + 1,
-                                 lmd.pf.find_heuristic_cost(node_x, node_y + 1, dest_x, dest_y)})
+        h_cost = lmd.pf.find_heuristic_cost(node_x, node_y + 1, dest_x, dest_y)
+        neighbor_insert(h_cost, node_x, node_y + 1)
+    end
+
+    if (lmd.local_map[node_y - 1] ~= nil) then
+        h_cost = lmd.pf.find_heuristic_cost(node_x, node_y - 1, dest_x, dest_y)
+        neighbor_insert(h_cost, node_x, node_y - 1)
     end
 
     return neighbors
