@@ -110,23 +110,31 @@ lmd.pf.evaluate_neighbors = function(node_x, node_y, dest_x, dest_y, cost_of_cur
 
     l_cost = cost_of_current_node + 1 -- literal cost
 
-    neighbor_insert = function(h_cost, insert_x, insert_y)
-        i = 1
-        while i < #neighbors and h_cost+l_cost < neighbors[i][3] + neighbors[i][4] do
-            i = i + 1
+    neighbor_insert = function(insert_x, insert_y)
+        if (lmd.local_map[insert_y] ~= nil) then -- if the row exists
+
+            -- if the neighbor is a movable tile without an npc
+            if (lmd.local_map[insert_y][insert_x] == 1 and not lmd.is_npc_at(insert_x, insert_y)) then
+
+                h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
+
+                -- the reason for this loop is to find the ideal place to insert neighbor
+                -- you want the best nodes furthest on the stack
+                i = 1
+                while i < #neighbors and h_cost + l_cost < neighbors[i][3] + neighbors[i][4] do
+                    i = i + 1
+                end
+                table.insert(neighbors, i, {insert_x, insert_y, l_cost, h_cost})
+
+            end
         end
-        table.insert(neighbors, i, {node_x, node_y - 1, l_cost, h_cost})
+
     end
 
-    if (lmd.local_map[node_y + 1] ~= nil) then
-        h_cost = lmd.pf.find_heuristic_cost(node_x, node_y + 1, dest_x, dest_y)
-        neighbor_insert(h_cost, node_x, node_y + 1)
-    end
-
-    if (lmd.local_map[node_y - 1] ~= nil) then
-        h_cost = lmd.pf.find_heuristic_cost(node_x, node_y - 1, dest_x, dest_y)
-        neighbor_insert(h_cost, node_x, node_y - 1)
-    end
+    neighbor_insert(node_x, node_y + 1)
+    neighbor_insert(node_x, node_y - 1)
+    neighbor_insert(node_x + 1, node_y)
+    neighbor_insert(node_x - 1, node_y)
 
     return neighbors
 end
@@ -272,5 +280,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         lmd.debug_npc_view()
     end
 end
+
+lmd.pf.evaluate_neighbors(1, 1, 3, 3, 0)
 
 return lmd
