@@ -111,10 +111,18 @@ lmd.pf.evaluate_neighbors = function(node_x, node_y, dest_x, dest_y, cost_of_cur
     l_cost = cost_of_current_node + 1 -- literal cost
 
     neighbor_insert = function(insert_x, insert_y)
-        if (lmd.local_map[insert_y] ~= nil) then -- if the row exists
+        -- if the row doesn't exist
+        -- or if the row exists, and the element does not equal an unmovable space
+        if ((lmd.local_map[insert_y] == nil) or
+            (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
 
-            -- if the neighbor is a movable tile without an npc
-            if (lmd.local_map[insert_y][insert_x] == 1 and not lmd.is_npc_at(insert_x, insert_y)) then
+            -- if the neighbor is without an npc
+
+            npc_bool = lmd.is_npc_at(insert_x, insert_y)
+
+            -- print(insert_x, insert_y, npc_bool)
+
+            if not npc_bool then
 
                 h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
 
@@ -143,6 +151,10 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
     stack = {} -- create stack
     -- local example_node = { x, y, literal_cost, heuristic_cost }
 
+    -- the x, y or node 1 would be visited_nodes_x[1], visited_nodes_y[1]
+    visited_nodes_x = {} -- tracks the visited x-coordinates
+    visited_nodes_y = {} -- tracks the visited y-coordinates
+
     -- Loop through accessible nodes from current point, 
     -- rank them based on heuristic distance and distance from starting position.
     -- Push them to stack, best nodes at the top
@@ -153,8 +165,8 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
 end
 
 function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
-    ingame_y = grid_y - lmd.y_offset -- + 1
-    ingame_x = grid_x - lmd.x_offset -- + 1
+    ingame_y = grid_y - lmd.y_offset - 1
+    ingame_x = grid_x - lmd.x_offset - 1
 
     if (ingame_x == lmd.x and ingame_y == lmd.y) then
         return false
@@ -166,9 +178,11 @@ function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
         x_addr = editat + 227 * 0x24 - 2 + 16 * (14 + 16 * i)
         -- y_addr = x_addr + 8
         if (memory.readword(x_addr) == ingame_x and memory.readword(x_addr + 8) == ingame_y) then
+            print(grid_x, grid_y, "found npc")
             return true
         end
     end
+        print(grid_x, grid_y, "npc not found")
     return false
 end
 
@@ -280,7 +294,5 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         lmd.debug_npc_view()
     end
 end
-
-lmd.pf.evaluate_neighbors(1, 1, 3, 3, 0)
 
 return lmd
