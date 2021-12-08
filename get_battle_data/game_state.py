@@ -85,7 +85,37 @@ class GameState:
 
         return [ [*self.player1boosts, *self.player2boosts, *p1_active, *p1_bench, *p2_active, *p2_bench], self.player1won]
 
+    def next_turn(self):
+        for i in range(self.next_line, len(self.log)):
+            if self.log[i].startswith("|turn"):
+                if self.log[i].split("|")[2].strip() != str(self.current_turn):
+                    break
+            if self.log[i].startswith("|switch"):
+                player = 3
+                if self.log[i].startswith("p1a", 8):
+                    player = 1
+                elif self.log[i].startswith("p2a", 8):
+                    player = 2
+                
+                target_pokemon = self.log[i].split("|")[3].split(",")[0]
+
+                if (player == 1):
+                    for j in range(len(self.player1team)):
+                        if self.player1team[j]["name"] == target_pokemon:
+                            self.player1active = j
+                            break
+                elif (player == 2):
+                    for j in range(len(self.player2team)):
+                        if self.player2team[j]["name"] == target_pokemon:
+                            self.player2active = j
+                            break
+
+        self.current_turn += 1
+
     def __init__(self, log_lines, debug=False):
+        self.log = log_lines
+        self.next_line = 0
+        self.current_turn = 1
         self.player1name = log_lines[0].split("|j|☆")[1].strip()
         self.player2name = log_lines[1].split("|j|☆")[1].strip()
         self.player1team = []
@@ -102,6 +132,7 @@ class GameState:
             print(self.player1name, self.player2name)
 
         for line in log_lines:
+            self.next_line += 1
             if line.startswith("|poke"):
                 split_player = None
 
@@ -151,6 +182,7 @@ class GameState:
                         if self.player2team[i]["name"] == target_pokemon:
                             self.player2active = i
                             break
+                    break
             elif line.strip() == "|start":
                 turn_zero = True
         

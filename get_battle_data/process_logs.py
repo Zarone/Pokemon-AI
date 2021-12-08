@@ -32,5 +32,6 @@ import os
 for file in os.listdir("./raw_logs/"):
     log = open("raw_logs/"+file, "r")
     new_game = gs.GameState(log.readlines(), False)
-    print(len(new_game.get_output()[0]))
+    # print(len(new_game.get_output()[0]))
+    new_game.next_turn()
     log.close()
