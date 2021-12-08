@@ -111,6 +111,7 @@ class GameState:
                             break
 
         self.current_turn += 1
+        print(self.player1active, self.player2active)
 
     def __init__(self, log_lines, debug=False):
         self.log = log_lines
