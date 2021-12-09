@@ -1,0 +1,215 @@
+|j|☆skykid500
+|j|☆Xsssd
+|t:|1639051877
+|gametype|singles
+|player|p1|skykid500|hau|1068
+|player|p2|Xsssd|red|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golisopod, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Drednaw, M|
+|poke|p1|Barbaracle, M|
+|poke|p2|Starmie|
+|poke|p2|Gliscor, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Infernape, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Feraligatr, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Xsssd)
+|
+|t:|1639051896
+|start
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1639051902
+|move|p2a: Porygon-Z|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|54/100
+|move|p1a: Pelipper|U-turn|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|89/100
+|
+|t:|1639051910
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1639051914
+|move|p1a: Barraskewda|Liquidation|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639051922
+|switch|p2a: Starmie|Starmie, shiny|100/100
+|turn|3
+|
+|t:|1639051929
+|switch|p1a: Pelipper|Pelipper, F, shiny|54/100
+|move|p2a: Starmie|Protect||[still]
+|-fail|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1639051932
+|move|p2a: Starmie|Hydro Pump|p1a: Pelipper|[miss]
+|-miss|p2a: Starmie|p1a: Pelipper
+|move|p1a: Pelipper|Knock Off|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|73/100
+|-enditem|p2a: Starmie|Focus Sash|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1639051936
+|move|p2a: Starmie|Blizzard|p1a: Pelipper
+|-damage|p1a: Pelipper|17/100
+|move|p1a: Pelipper|U-turn|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|54/100
+|
+|t:|1639051939
+|switch|p1a: Golisopod|Golisopod, F, shiny|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1639051944
+|move|p2a: Starmie|Protect|p2a: Starmie
+|-singleturn|p2a: Starmie|Protect
+|move|p1a: Golisopod|First Impression|p2a: Starmie
+|-activate|p2a: Starmie|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1639051948
+|move|p2a: Starmie|Protect||[still]
+|-fail|p2a: Starmie
+|move|p1a: Golisopod|Sucker Punch||[still]
+|-fail|p1a: Golisopod
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1639051952
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100/100
+|move|p1a: Golisopod|Liquidation|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|59/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1639051958
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|move|p2a: Starmie|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|53/100
+|
+|upkeep
+|turn|10
+|
+|t:|1639051964
+|move|p2a: Starmie|Protect|p2a: Starmie
+|-singleturn|p2a: Starmie|Protect
+|move|p1a: Dragonite|Thunder|p2a: Starmie
+|-activate|p2a: Starmie|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1639051969
+|switch|p1a: Golisopod|Golisopod, F, shiny|100/100
+|move|p2a: Starmie|Blizzard|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|88/100
+|-status|p1a: Golisopod|frz
+|
+|upkeep
+|turn|12
+|
+|t:|1639051974
+|switch|p1a: Pelipper|Pelipper, F, shiny|17/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Starmie|Blizzard|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639051981
+|switch|p1a: Dragonite|Dragonite, F, shiny|53/100
+|turn|13
+|
+|t:|1639051983
+|move|p2a: Starmie|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639051986
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100
+|turn|14
+|
+|t:|1639051989
+|move|p2a: Starmie|Protect|p2a: Starmie
+|-singleturn|p2a: Starmie|Protect
+|move|p1a: Barraskewda|Close Combat|p2a: Starmie
+|-activate|p2a: Starmie|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1639051997
+|move|p1a: Barraskewda|Close Combat|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|18/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Starmie|Blizzard|p1a: Barraskewda|[miss]
+|-miss|p2a: Starmie|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|-message|skykid500 forfeited.
+|
+|win|Xsssd
+|raw|skykid500's rating: 1068 &rarr; <strong>1044</strong><br />(-24 for losing)
+|raw|Xsssd's rating: 1000 &rarr; <strong>1048</strong><br />(+48 for winning)
+|l|☆skykid500

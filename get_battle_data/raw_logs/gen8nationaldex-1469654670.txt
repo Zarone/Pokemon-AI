@@ -1,0 +1,116 @@
+|j|☆TiceDaMidside
+|j|☆xanvandersteen
+|t:|1639040367
+|gametype|singles
+|player|p1|TiceDaMidside|blackbelt-gen4|1327
+|player|p2|xanvandersteen|169|1603
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Thundurus, M|
+|poke|p1|Clefable, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Houndoom, M|
+|poke|p1|Rillaboom, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Manectric, F|
+|poke|p2|Greninja, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Volcanion|
+|teampreview
+|
+|t:|1639040374
+|start
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|t:|1639040389
+|move|p1a: Thundurus|Thunder Wave|p2a: Greninja
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Greninja
+|move|p2a: Greninja|Ice Beam|p1a: Thundurus
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|10/100
+|
+|upkeep
+|turn|2
+|
+|t:|1639040399
+|move|p2a: Greninja|Ice Beam|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1639040403
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1639040410
+|move|p1a: Rillaboom|Grassy Glide|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1639040415
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|turn|4
+|
+|t:|1639040419
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Landorus|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|94/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TiceDaMidside)
+|
+|t:|1639040463
+|switch|p2a: Kommo-o|Kommo-o, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|99/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1639040472
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|move|p1a: Torkoal|Clear Smog|p2a: Kommo-o
+|-damage|p2a: Kommo-o|59/100
+|-clearboost|p2a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kommo-o|65/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|xanvandersteen forfeited.
+|
+|win|TiceDaMidside
+|raw|TiceDaMidside's rating: 1327 &rarr; <strong>1360</strong><br />(+33 for winning)
+|raw|xanvandersteen's rating: 1603 &rarr; <strong>1570</strong><br />(-33 for losing)
+|l|☆xanvandersteen

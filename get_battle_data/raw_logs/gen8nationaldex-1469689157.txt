@@ -1,0 +1,97 @@
+|j|‽more bull dozer
+|j|☆Polthegamer
+|t:|1639046464
+|gametype|singles
+|player|p1|more bull dozer|101|1000
+|player|p2|Polthegamer|170|1078
+|teamsize|p1|1
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Pyukumuku, M|
+|poke|p2|Dusclops, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Pyroar, F|
+|poke|p2|Scizor, M|
+|poke|p2|Blaziken, M|
+|poke|p2|Excadrill, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Polthegamer)
+|
+|t:|1639046474
+|start
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|1
+|
+|t:|1639046492
+|move|p2a: Azumarill|Toxic|p1a: Pyukumuku|[miss]
+|-miss|p2a: Azumarill|p1a: Pyukumuku
+|move|p1a: Pyukumuku|Block|p2a: Azumarill
+|-activate|p2a: Azumarill|trapped
+|
+|upkeep
+|turn|2
+|
+|t:|1639046496
+|move|p2a: Azumarill|Toxic|p1a: Pyukumuku|[miss]
+|-miss|p2a: Azumarill|p1a: Pyukumuku
+|move|p1a: Pyukumuku|Rest|p1a: Pyukumuku
+|-fail|p1a: Pyukumuku|heal
+|
+|upkeep
+|turn|3
+|
+|t:|1639046521
+|move|p2a: Azumarill|Toxic|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|tox
+|move|p1a: Pyukumuku|Recover||[still]
+|-fail|p1a: Pyukumuku|heal
+|
+|-damage|p1a: Pyukumuku|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1639046534
+|move|p2a: Azumarill|Protect|p2a: Azumarill
+|-singleturn|p2a: Azumarill|Protect
+|move|p1a: Pyukumuku|Rest|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|slp|[from] move: Rest
+|-heal|p1a: Pyukumuku|100/100 slp|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1639046544
+|move|p2a: Azumarill|Bubble Beam|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|94/100 slp
+|cant|p1a: Pyukumuku|slp
+|
+|upkeep
+|turn|6
+|inactive|more bull dozer has 120 seconds left.
+|
+|t:|1639046581
+|move|p2a: Azumarill|Draining Kiss|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|86/100 slp
+|cant|p1a: Pyukumuku|slp
+|
+|upkeep
+|turn|7
+|c|☆Polthegamer|toxic dic head
+|-message|Polthegamer forfeited.
+|
+|win|more bull dozer
+|raw|more bull dozer's rating: 1000 &rarr; <strong>1049</strong><br />(+49 for winning)
+|raw|Polthegamer's rating: 1078 &rarr; <strong>1052</strong><br />(-26 for losing)
+|l|☆Polthegamer

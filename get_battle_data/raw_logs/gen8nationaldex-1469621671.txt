@@ -1,0 +1,39 @@
+|j|☆New_guy2
+|j|☆Rhyfinn4
+|t:|1639034167
+|gametype|singles
+|player|p1|New_guy2|policeman-gen4|1240
+|player|p2|Rhyfinn4|ninjaboy|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Greninja, M|
+|poke|p1|Scizor, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Zapdos|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Mimikyu, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Swampert, M|
+|poke|p2|Greninja, M|
+|poke|p2|Zapdos|
+|poke|p2|Kartana|
+|poke|p2|Blaziken, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rhyfinn4)
+|-message|New_guy2 forfeited.
+|
+|win|Rhyfinn4
+|raw|New_guy2's rating: 1240 &rarr; <strong>1213</strong><br />(-27 for losing)
+|raw|Rhyfinn4's rating: 1208 &rarr; <strong>1235</strong><br />(+27 for winning)
+|l|☆New_guy2

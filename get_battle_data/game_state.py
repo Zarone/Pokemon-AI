@@ -89,8 +89,9 @@ class GameState:
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|turn"):
                 if self.log[i].split("|")[2].strip() != str(self.current_turn):
+                    self.next_line = i+1
                     break
-            if self.log[i].startswith("|switch"):
+            elif self.log[i].startswith("|switch"):
                 player = 3
                 if self.log[i].startswith("p1a", 8):
                     player = 1
@@ -109,9 +110,11 @@ class GameState:
                         if self.player2team[j]["name"] == target_pokemon:
                             self.player2active = j
                             break
+            elif self.log[i].startswith("|-damage"):
+                print("implement changed health")
 
+        # print(self.player1active, self.player2active, self.current_turn)
         self.current_turn += 1
-        print(self.player1active, self.player2active)
 
     def __init__(self, log_lines, debug=False):
         self.log = log_lines

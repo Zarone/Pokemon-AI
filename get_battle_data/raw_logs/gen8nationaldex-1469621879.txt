@@ -1,0 +1,312 @@
+|j|‽QuickestLelever
+|j|☆Rhyfinn4
+|t:|1639034204
+|gametype|singles
+|player|p1|QuickestLelever|wallace|1148
+|player|p2|Rhyfinn4|ninjaboy|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Greninja, M|
+|poke|p1|Inteleon, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Araquanid, F|
+|poke|p1|Swampert, F|
+|poke|p1|Volcanion|
+|poke|p2|Pelipper, M|
+|poke|p2|Swampert, F|
+|poke|p2|Greninja, M|
+|poke|p2|Zapdos|
+|poke|p2|Kartana|
+|poke|p2|Blaziken, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rhyfinn4)
+|
+|t:|1639034226
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1639034244
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Volcanion
+|-damage|p1a: Volcanion|77/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1639034253
+|move|p1a: Volcanion|Steam Eruption|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|33/100
+|move|p2a: Pelipper|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|73/100
+|
+|t:|1639034261
+|switch|p2a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1639034266
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Zapdos|Thunder|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1639034270
+|switch|p2a: Kartana|Kartana|100/100
+|detailschange|p1a: Swampert|Swampert-Mega, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Ice Punch|p2a: Kartana
+|-damage|p2a: Kartana|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1639034279
+|move|p1a: Swampert|Liquidation|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|24/100
+|move|p2a: Kartana|Leaf Blade|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|14/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034286
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|6
+|
+|t:|1639034303
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Greninja|Water Shuriken|p2a: Swampert
+|-damage|p2a: Swampert|91/100
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|75/100
+|-damage|p2a: Swampert|64/100
+|-damage|p2a: Swampert|53/100
+|-hitcount|p2a: Swampert|4
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|Rhyfinn4 has 120 seconds left.
+|
+|t:|1639034329
+|detailschange|p2a: Swampert|Swampert-Mega, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: Greninja|Water Shuriken|p2a: Swampert
+|-damage|p2a: Swampert|45/100
+|-damage|p2a: Swampert|36/100
+|-damage|p2a: Swampert|28/100
+|-hitcount|p2a: Swampert|3
+|move|p2a: Swampert|Earthquake|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034338
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|turn|8
+|
+|t:|1639034350
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Araquanid|Liquidation|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|none
+|upkeep
+|
+|t:|1639034359
+|switch|p2a: Pelipper|Pelipper, M|33/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|9
+|
+|t:|1639034366
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|83/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Araquanid|Sticky Web|p2a: Pelipper
+|-sidestart|p2: Rhyfinn4|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1639034372
+|move|p2a: Pelipper|Defog|p1a: Araquanid
+|-unboost|p1a: Araquanid|evasion|1
+|-sideend|p2: Rhyfinn4|Sticky Web|[from] move: Defog|[of] p2a: Pelipper
+|move|p1a: Araquanid|Liquidation|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1639034378
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|96/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Araquanid|Liquidation|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1639034384
+|move|p2a: Pelipper|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|42/100
+|-start|p1a: Araquanid|confusion
+|-activate|p1a: Araquanid|confusion
+|move|p1a: Araquanid|Liquidation|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1639034393
+|move|p2a: Pelipper|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034400
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|14
+|
+|t:|1639034414
+|switch|p2a: Kartana|Kartana|14/100
+|move|p1a: Inteleon|Focus Energy|p1a: Inteleon
+|-start|p1a: Inteleon|move: Focus Energy
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1639034420
+|move|p1a: Inteleon|Ice Beam|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034430
+|switch|p2a: Swampert|Swampert-Mega, F|28/100
+|turn|16
+|
+|t:|1639034435
+|move|p2a: Swampert|Earthquake|p1a: Inteleon
+|-crit|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|-weather|none
+|upkeep
+|c|☆Rhyfinn4|irony
+|
+|t:|1639034443
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|17
+|
+|t:|1639034452
+|switch|p2a: Pelipper|Pelipper, M|23/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Keldeo|Secret Sword|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|5/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1639034461
+|move|p1a: Keldeo|Secret Sword|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034476
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|19
+|
+|t:|1639034480
+|move|p2a: Greninja|Extrasensory|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|47/100
+|move|p1a: Keldeo|Secret Sword|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034487
+|switch|p2a: Swampert|Swampert-Mega, F|28/100
+|turn|20
+|
+|t:|1639034491
+|move|p2a: Swampert|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639034495
+|switch|p1a: Volcanion|Volcanion|73/100
+|turn|21
+|
+|t:|1639034498
+|move|p2a: Swampert|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|win|Rhyfinn4
+|raw|QuickestLelever's rating: 1148 &rarr; <strong>1129</strong><br />(-19 for losing)
+|raw|Rhyfinn4's rating: 1235 &rarr; <strong>1254</strong><br />(+19 for winning)

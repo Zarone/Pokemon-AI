@@ -6,6 +6,11 @@ desired outputs:
     a array like:
       [
         [
+          Future Additions
+            # info for both players
+            stealth_rocks, sticky_webs, etc
+            # status conditions
+
           # total length should be 298
 
           # stat boost array for each player
@@ -33,5 +38,8 @@ for file in os.listdir("./raw_logs/"):
     log = open("raw_logs/"+file, "r")
     new_game = gs.GameState(log.readlines(), False)
     # print(len(new_game.get_output()[0]))
+    new_game.next_turn()
+    new_game.next_turn()
+    new_game.next_turn()
     new_game.next_turn()
     log.close()

@@ -1,0 +1,342 @@
+|j|☆MssnL
+|j|☆xRailyx
+|t:|1639045654
+|gametype|singles
+|player|p1|MssnL|jasmine|1198
+|player|p2|xRailyx|backpacker|1281
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Infernape, M|
+|poke|p1|Mew|
+|poke|p1|Jolteon, M|
+|poke|p1|Salamence, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Swampert, F|
+|poke|p2|Ursaring, M|
+|poke|p2|Vespiquen, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Scolipede, M|
+|poke|p2|Abomasnow, M|
+|poke|p2|Tyranitar, F|
+|teampreview
+|
+|t:|1639045671
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Flare|Talonflame, F, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xRailyx)
+|l|☆xRailyx
+|inactive|xRailyx disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆xRailyx
+|inactive|xRailyx reconnected and has 130 seconds left.
+|player|p2|xRailyx|backpacker
+|
+|t:|1639045713
+|move|p1a: Jolteon|Thunder Wave|p2a: Flare
+|-status|p2a: Flare|par
+|move|p2a: Flare|U-turn|p1a: Jolteon
+|-damage|p1a: Jolteon|60/100
+|
+|t:|1639045721
+|switch|p2a: Eilat|Tyranitar, F, shiny|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Eilat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|54/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1639045730
+|move|p1a: Jolteon|Reflect|p1a: Jolteon
+|-sidestart|p1: MssnL|Reflect
+|move|p2a: Eilat|Dragon Dance|p2a: Eilat
+|-boost|p2a: Eilat|atk|1
+|-boost|p2a: Eilat|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|47/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1639045738
+|move|p1a: Jolteon|Thunder Wave|p2a: Eilat
+|-status|p2a: Eilat|par
+|cant|p2a: Eilat|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|41/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1639045746
+|move|p1a: Jolteon|Light Screen|p1a: Jolteon
+|-sidestart|p1: MssnL|move: Light Screen
+|move|p2a: Eilat|Dragon Dance|p2a: Eilat
+|-boost|p2a: Eilat|atk|1
+|-boost|p2a: Eilat|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|35/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1639045757
+|move|p1a: Jolteon|Volt Switch|p2a: Eilat
+|-damage|p2a: Eilat|79/100 par
+|
+|t:|1639045764
+|switch|p1a: Swampert|Swampert, F|100/100|[from]move: Volt Switch
+|move|p2a: Eilat|Dragon Dance|p2a: Eilat
+|-boost|p2a: Eilat|atk|1
+|-boost|p2a: Eilat|spe|1
+|
+|-weather|none
+|-heal|p2a: Eilat|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1639045776
+|detailschange|p1a: Swampert|Swampert-Mega, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2a: Eilat|Ice Punch|p1a: Swampert
+|-damage|p1a: Swampert|69/100
+|move|p1a: Swampert|Earthquake|p2a: Eilat
+|-supereffective|p2a: Eilat
+|-damage|p2a: Eilat|0 fnt
+|faint|p2a: Eilat
+|
+|upkeep
+|
+|t:|1639045786
+|switch|p2a: Yeti|Abomasnow, M, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Yeti
+|turn|7
+|
+|t:|1639045796
+|detailschange|p2a: Yeti|Abomasnow-Mega, M, shiny
+|-mega|p2a: Yeti|Abomasnow|Abomasite
+|move|p1a: Swampert|Flip Turn|p2a: Yeti
+|-resisted|p2a: Yeti
+|-damage|p2a: Yeti|85/100
+|
+|t:|1639045802
+|switch|p1a: Jolteon|Jolteon, M|35/100|[from]move: Flip Turn
+|move|p2a: Yeti|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1639045803
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|8
+|
+|t:|1639045819
+|move|p1a: Infernape|Overheat|p2a: Yeti
+|-supereffective|p2a: Yeti
+|-damage|p2a: Yeti|0 fnt
+|-unboost|p1a: Infernape|spa|2
+|faint|p2a: Yeti
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Infernape|94/100|[from] Hail
+|upkeep
+|
+|t:|1639045824
+|switch|p2a: Salomon|Ursaring, M|100/100
+|turn|9
+|
+|t:|1639045828
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Salomon|Retaliate|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|-damage|p2a: Salomon|84/100|[from] item: Rocky Helmet|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salomon|78/100|[from] Sandstorm
+|-sideend|p1: MssnL|Reflect
+|upkeep
+|turn|10
+|
+|t:|1639045844
+|move|p1a: Tyranitar|Pursuit|p2a: Salomon
+|-damage|p2a: Salomon|50/100
+|move|p2a: Salomon|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Salomon|def|1
+|-unboost|p2a: Salomon|spd|1
+|-damage|p2a: Salomon|33/100|[from] item: Rocky Helmet|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salomon|27/100|[from] Sandstorm
+|upkeep
+|
+|t:|1639045851
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|11
+|
+|t:|1639045861
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Salomon|Play Rough|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|10/100
+|-unboost|p1a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|4/100|[from] Sandstorm
+|-damage|p2a: Salomon|21/100|[from] Sandstorm
+|-sideend|p1: MssnL|move: Light Screen
+|upkeep
+|turn|12
+|
+|t:|1639045876
+|move|p1a: Salamence|Dual Wingbeat|p2a: Salomon
+|-damage|p2a: Salomon|0 fnt
+|faint|p2a: Salomon
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-hitcount|p2: Salomon|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|0 fnt|[from] Sandstorm
+|faint|p1a: Salamence
+|upkeep
+|
+|t:|1639045895
+|switch|p1a: Swampert|Swampert-Mega, F|69/100
+|switch|p2a: Socrates|Scolipede, M, shiny|100/100
+|turn|13
+|
+|t:|1639045906
+|move|p2a: Socrates|Poison Jab|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|51/100
+|move|p1a: Swampert|Liquidation|p2a: Socrates
+|-damage|p2a: Socrates|28/100
+|-unboost|p2a: Socrates|def|1
+|
+|-weather|none
+|-heal|p2a: Socrates|34/100|[from] item: Leftovers
+|-ability|p2a: Socrates|Speed Boost|boost
+|-boost|p2a: Socrates|spe|1
+|upkeep
+|turn|14
+|
+|t:|1639045918
+|move|p2a: Socrates|Protect|p2a: Socrates
+|-singleturn|p2a: Socrates|Protect
+|move|p1a: Swampert|Liquidation|p2a: Socrates
+|-activate|p2a: Socrates|move: Protect
+|
+|-heal|p2a: Socrates|40/100|[from] item: Leftovers
+|-ability|p2a: Socrates|Speed Boost|boost
+|-boost|p2a: Socrates|spe|1
+|upkeep
+|turn|15
+|
+|t:|1639045931
+|move|p2a: Socrates|Megahorn|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-heal|p2a: Socrates|46/100|[from] item: Leftovers
+|-ability|p2a: Socrates|Speed Boost|boost
+|-boost|p2a: Socrates|spe|1
+|upkeep
+|
+|t:|1639045937
+|switch|p1a: Mew|Mew|100/100
+|turn|16
+|
+|t:|1639045944
+|move|p2a: Socrates|Megahorn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|11/100
+|move|p1a: Mew|Dazzling Gleam|p2a: Socrates
+|-resisted|p2a: Socrates
+|-damage|p2a: Socrates|25/100
+|
+|-heal|p2a: Socrates|31/100|[from] item: Leftovers
+|-heal|p1a: Mew|18/100|[from] item: Leftovers
+|-ability|p2a: Socrates|Speed Boost|boost
+|-boost|p2a: Socrates|spe|1
+|upkeep
+|turn|17
+|
+|t:|1639045958
+|move|p2a: Socrates|Poison Jab|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-heal|p2a: Socrates|37/100|[from] item: Leftovers
+|-ability|p2a: Socrates|Speed Boost|boost
+|-boost|p2a: Socrates|spe|1
+|upkeep
+|
+|t:|1639045960
+|switch|p1a: Infernape|Infernape, M|94/100
+|turn|18
+|
+|t:|1639045977
+|move|p1a: Infernape|Fake Out|p2a: Socrates
+|-damage|p2a: Socrates|17/100
+|cant|p2a: Socrates|flinch
+|
+|-heal|p2a: Socrates|23/100|[from] item: Leftovers
+|-ability|p2a: Socrates|Speed Boost|boost
+|-boost|p2a: Socrates|spe|1
+|upkeep
+|turn|19
+|
+|t:|1639045986
+|move|p1a: Infernape|Vacuum Wave|p2a: Socrates
+|-resisted|p2a: Socrates
+|-crit|p2a: Socrates
+|-damage|p2a: Socrates|12/100
+|move|p2a: Socrates|Poison Jab|p1a: Infernape
+|-damage|p1a: Infernape|32/100
+|
+|-heal|p2a: Socrates|18/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1639045997
+|move|p2a: Socrates|Protect|p2a: Socrates
+|-singleturn|p2a: Socrates|Protect
+|move|p1a: Infernape|Overheat|p2a: Socrates
+|-activate|p2a: Socrates|move: Protect
+|
+|-heal|p2a: Socrates|24/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639046005
+|move|p2a: Socrates|Poison Jab|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|win|xRailyx
+|raw|MssnL's rating: 1198 &rarr; <strong>1179</strong><br />(-19 for losing)
+|raw|xRailyx's rating: 1281 &rarr; <strong>1300</strong><br />(+19 for winning)
+|l|☆MssnL
+|c|☆xRailyx|Gg wp

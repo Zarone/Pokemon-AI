@@ -1,0 +1,241 @@
+|j|☆XxeduardoxX46
+|j|☆mrs buttwuash
+|t:|1639034745
+|gametype|singles
+|player|p1|XxeduardoxX46|ash-kalos|1238
+|player|p2|mrs buttwuash|lass-gen4dp|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lopunny, F|
+|poke|p1|Shedinja|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Minior-Green|
+|poke|p1|Stunfisk, F|
+|poke|p1|Hitmontop, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dracozolt|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Clefable, F|
+|poke|p2|Kartana|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1639034751
+|start
+|switch|p1a: Stunfisk|Stunfisk, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|t:|1639034760
+|detailschange|p2a: Garchomp|Garchomp-Mega, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Stunfisk|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: mrs buttwuash|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1639034767
+|move|p2a: Garchomp|Earthquake|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|faint|p1a: Stunfisk
+|
+|upkeep
+|
+|t:|1639034777
+|switch|p1a: Minior|Minior-Green|100/100
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|3
+|
+|t:|1639034787
+|move|p2a: Garchomp|Iron Head|p1a: Minior
+|-supereffective|p1a: Minior
+|-enditem|p1a: Minior|Focus Sash
+|-damage|p1a: Minior|1/100
+|move|p1a: Minior|Shell Smash|p1a: Minior
+|-unboost|p1a: Minior|def|1
+|-unboost|p1a: Minior|spd|1
+|-boost|p1a: Minior|atk|2
+|-boost|p1a: Minior|spa|2
+|-boost|p1a: Minior|spe|2
+|
+|-formechange|p1a: Minior|Minior-Green||[from] ability: Shields Down
+|upkeep
+|turn|4
+|
+|t:|1639034799
+|move|p1a: Minior|Acrobatics|p2a: Garchomp
+|-damage|p2a: Garchomp|20/100
+|move|p2a: Garchomp|Scale Shot|p1a: Minior
+|-damage|p1a: Minior|0 fnt
+|faint|p1a: Minior
+|-hitcount|p1: Minior|1
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1639034805
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|turn|5
+|
+|t:|1639034815
+|move|p1a: Hitmontop|Fake Out|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1639034822
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hitmontop|atk|1
+|turn|6
+|
+|t:|1639034831
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1639034839
+|move|p1a: Mandibuzz|Foul Play|p2a: Landorus
+|-damage|p2a: Landorus|25/100
+|-zpower|p2a: Landorus
+|move|p2a: Landorus|Supersonic Skystrike|p1a: Mandibuzz|[zeffect]
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1639034845
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|turn|8
+|
+|t:|1639034850
+|move|p1a: Hitmontop|Fake Out|p2a: Landorus
+|-damage|p2a: Landorus|12/100
+|cant|p2a: Landorus|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1639034854
+|move|p1a: Hitmontop|Triple Axel|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|1
+|
+|upkeep
+|
+|t:|1639034859
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|t:|1639034868
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Hitmontop|Mach Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hitmontop|95/100|[from] Sandstorm
+|-heal|p2a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639034876
+|move|p1a: Hitmontop|Triple Axel|p2a: Clefable|[miss]
+|-miss|p1a: Hitmontop|p2a: Clefable
+|move|p2a: Clefable|Teleport|p2a: Clefable
+|
+|t:|1639034881
+|switch|p2a: Dracozolt|Dracozolt|100/100|[from]move: Teleport
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hitmontop|89/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1639034891
+|move|p2a: Dracozolt|Bolt Beak|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|-damage|p2a: Dracozolt|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1639034893
+|switch|p1a: Lopunny|Lopunny, F|100/100
+|turn|13
+|
+|t:|1639034899
+|detailschange|p1a: Lopunny|Lopunny-Mega, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Dracozolt
+|-damage|p2a: Dracozolt|51/100
+|cant|p2a: Dracozolt|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|94/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1639034923
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Dracozolt|Bolt Beak|p1a: Shedinja
+|-immune|p1a: Shedinja|[from] ability: Wonder Guard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shedinja|0 fnt|[from] Sandstorm
+|faint|p1a: Shedinja
+|upkeep
+|
+|t:|1639034932
+|switch|p1a: Lopunny|Lopunny-Mega, F|94/100
+|turn|15
+|
+|t:|1639034935
+|move|p1a: Lopunny|Fake Out|p2a: Dracozolt
+|-crit|p2a: Dracozolt
+|-damage|p2a: Dracozolt|6/100
+|cant|p2a: Dracozolt|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|88/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1639034941
+|move|p2a: Dracozolt|Bolt Beak|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|faint|p1a: Lopunny
+|-damage|p2a: Dracozolt|0 fnt|[from] item: Life Orb
+|faint|p2a: Dracozolt
+|
+|win|mrs buttwuash
+|raw|XxeduardoxX46's rating: 1238 &rarr; <strong>1204</strong><br />(-34 for losing)
+|raw|mrs buttwuash's rating: 1114 &rarr; <strong>1148</strong><br />(+34 for winning)
+|l|☆XxeduardoxX46

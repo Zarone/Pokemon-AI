@@ -1,0 +1,356 @@
+|j|☆Aahe
+|j|☆KAVYANSHANUKANOJIA
+|t:|1639035407
+|gametype|singles
+|player|p1|Aahe|psychic-gen2|
+|player|p2|KAVYANSHANUKANOJIA|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heracross, F|
+|poke|p1|Shuckle, M|
+|poke|p1|Magnezone|
+|poke|p1|Tapu Koko|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Latias, F|
+|poke|p2|Mew|
+|poke|p2|Tapu Koko|
+|poke|p2|Gyarados, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Hawlucha, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KAVYANSHANUKANOJIA)
+|c|☆KAVYANSHANUKANOJIA|Gl
+|
+|t:|1639035414
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1639035420
+|move|p2a: Mew|Taunt|p1a: Shuckle
+|-start|p1a: Shuckle|move: Taunt
+|-enditem|p1a: Shuckle|Mental Herb
+|-end|p1a: Shuckle|move: Taunt
+|move|p1a: Shuckle|Sticky Web|p2a: Mew
+|-sidestart|p2: KAVYANSHANUKANOJIA|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1639035426
+|move|p2a: Mew|Taunt|p1a: Shuckle
+|-start|p1a: Shuckle|move: Taunt
+|cant|p1a: Shuckle|move: Taunt|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1639035433
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Mew|Stealth Rock|p1a: Tapu Koko
+|-sidestart|p1: Aahe|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1639035437
+|move|p1a: Tapu Koko|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|64/100
+|
+|t:|1639035441
+|switch|p1a: Latias|Latias, F|100/100|[from]move: U-turn
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|move|p2a: Mew|Spikes|p1a: Latias
+|-sidestart|p1: Aahe|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1639035445
+|move|p1a: Latias|Draco Meteor|p2a: Mew
+|-damage|p2a: Mew|1/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: Mew|Explosion|p1a: Latias
+|-damage|p1a: Latias|13/100
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1639035455
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Latias|atk|1
+|turn|6
+|
+|t:|1639035460
+|detailschange|p2a: Gyarados|Gyarados-Mega, F
+|-mega|p2a: Gyarados|Gyarados|Gyaradosite
+|-ability|p2a: Gyarados|Mold Breaker
+|move|p1a: Latias|Thunder Wave|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1639035475
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|-damage|p1a: Shuckle|76/100|[from] Stealth Rock
+|-damage|p1a: Shuckle|63/100|[from] Spikes
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|
+|t:|1639035483
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Shuckle|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: KAVYANSHANUKANOJIA|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1639035494
+|move|p2a: Gyarados|Waterfall|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|t:|1639035514
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|10
+|
+|t:|1639035544
+|move|p1a: Tapu Koko|Wild Charge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-damage|p1a: Tapu Koko|71/100|[from] Recoil
+|
+|upkeep
+|c|☆Aahe|XD !
+|inactive|KAVYANSHANUKANOJIA has 270 seconds left.
+|
+|t:|1639035555
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Stealth Rock
+|-activate|p2a: Tapu Koko|move: Sticky Web
+|-unboost|p2a: Tapu Koko|spe|1
+|turn|11
+|
+|t:|1639035562
+|move|p1a: Tapu Koko|U-turn|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|75/100
+|
+|t:|1639035579
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|-damage|p1a: Magnezone|88/100|[from] Spikes
+|-damage|p1a: Magnezone|82/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|Reflect|p2a: Tapu Koko
+|-sidestart|p2: KAVYANSHANUKANOJIA|Reflect
+|
+|upkeep
+|turn|12
+|
+|t:|1639035585
+|move|p2a: Tapu Koko|Light Screen|p2a: Tapu Koko
+|-sidestart|p2: KAVYANSHANUKANOJIA|move: Light Screen
+|move|p1a: Magnezone|Steel Beam|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|8/100
+|-damage|p1a: Magnezone|32/100|[from] mindblown
+|
+|upkeep
+|turn|13
+|
+|t:|1639035605
+|switch|p1a: Latias|Latias, F|13/100
+|-damage|p1a: Latias|0 fnt|[from] Stealth Rock
+|faint|p1a: Latias
+|move|p2a: Tapu Koko|Taunt|p1: Latias|[notarget]
+|-fail|p2a: Tapu Koko
+|
+|upkeep
+|
+|t:|1639035611
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|88/100|[from] Spikes
+|-damage|p1a: Heracross|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1639035616
+|move|p2a: Tapu Koko|U-turn|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|64/100
+|
+|t:|1639035620
+|switch|p2a: Hawlucha|Hawlucha, M|100/100|[from]move: U-turn
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p1a: Heracross|Substitute|p1a: Heracross
+|-start|p1a: Heracross|Substitute
+|-damage|p1a: Heracross|39/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+|
+|t:|1639035626
+|detailschange|p1a: Heracross|Heracross-Mega, F
+|-mega|p1a: Heracross|Heracross|Heracronite
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Heracross|Rock Blast|p2a: Hawlucha
+|-damage|p2a: Hawlucha|82/100
+|-damage|p2a: Hawlucha|76/100
+|-damage|p2a: Hawlucha|70/100
+|-damage|p2a: Hawlucha|64/100
+|-damage|p2a: Hawlucha|58/100
+|-hitcount|p2a: Hawlucha|5
+|
+|upkeep
+|turn|16
+|c|☆Aahe|baby ur rly musty
+|
+|t:|1639035646
+|move|p2a: Hawlucha|Acrobatics|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-end|p1a: Heracross|Substitute
+|move|p1a: Heracross|Rock Blast|p2a: Hawlucha
+|-damage|p2a: Hawlucha|52/100
+|-damage|p2a: Hawlucha|45/100
+|-damage|p2a: Hawlucha|39/100
+|-damage|p2a: Hawlucha|33/100
+|-crit|p2a: Hawlucha
+|-damage|p2a: Hawlucha|6/100
+|-hitcount|p2a: Hawlucha|5
+|
+|upkeep
+|turn|17
+|c|☆KAVYANSHANUKANOJIA|Wdym
+|inactive|Aahe has 270 seconds left.
+|c|☆Aahe|im huungry
+|
+|t:|1639035674
+|move|p2a: Hawlucha|Acrobatics|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+|
+|t:|1639035693
+|switch|p1a: Magnezone|Magnezone|32/100
+|-damage|p1a: Magnezone|26/100|[from] Stealth Rock
+|-damage|p1a: Magnezone|13/100|[from] Spikes
+|turn|18
+|
+|t:|1639035696
+|move|p2a: Hawlucha|Acrobatics|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-sideend|p2: KAVYANSHANUKANOJIA|Reflect
+|upkeep
+|
+|t:|1639035699
+|switch|p1a: Tapu Koko|Tapu Koko|71/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|19
+|
+|t:|1639035706
+|move|p2a: Hawlucha|Stone Edge|p1a: Tapu Koko|[miss]
+|-miss|p2a: Hawlucha|p1a: Tapu Koko
+|move|p1a: Tapu Koko|U-turn|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|c|☆Aahe|you won XD !
+|
+|t:|1639035715
+|switch|p1a: Zapdos|Zapdos-Galar|100/100|[from]move: U-turn
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|
+|-sideend|p2: KAVYANSHANUKANOJIA|move: Light Screen
+|upkeep
+|
+|t:|1639035722
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|-activate|p2a: Blaziken|move: Sticky Web
+|-unboost|p2a: Blaziken|spe|1
+|turn|20
+|
+|t:|1639035731
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|move|p2a: Blaziken|Flare Blitz|p1a: Zapdos
+|-damage|p1a: Zapdos|15/100
+|-damage|p2a: Blaziken|62/100|[from] Recoil
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|21
+|
+|t:|1639035743
+|-zpower|p1a: Zapdos
+|move|p1a: Zapdos|Supersonic Skystrike|p2a: Blaziken|[zeffect]
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1639035747
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|22
+|c|☆Aahe|XD !
+|
+|t:|1639035752
+|move|p1a: Zapdos|Brave Bird|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-damage|p1a: Zapdos|0 fnt|[from] Recoil
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1639035755
+|switch|p1a: Tapu Koko|Tapu Koko|71/100
+|switch|p2a: Tapu Koko|Tapu Koko|8/100
+|-activate|p2a: Tapu Koko|move: Sticky Web
+|-unboost|p2a: Tapu Koko|spe|1
+|-damage|p2a: Tapu Koko|0 fnt|[from] Stealth Rock
+|faint|p2a: Tapu Koko
+|
+|win|Aahe
+|l|☆KAVYANSHANUKANOJIA
+|c|☆Aahe|LMFAO

@@ -1,0 +1,338 @@
+|j|☆Alex.Van-R
+|j|☆Cesar2543
+|t:|1639036886
+|gametype|singles
+|player|p1|Alex.Van-R|hugh|1345
+|player|p2|Cesar2543|palmer|1444
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tapu Lele|
+|poke|p1|Alakazam, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxapex, M|
+|poke|p2|Mawile, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Garchomp, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Victini|
+|teampreview
+|
+|t:|1639036904
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Victini|Victini|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|turn|1
+|
+|t:|1639036913
+|move|p2a: Victini|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|96/100
+|
+|t:|1639036921
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|76/100
+|
+|t:|1639036927
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1639036962
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|
+|t:|1639036965
+|switch|p2a: Mawile|Mawile, F|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Mawile
+|-sidestart|p2: Cesar2543|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1639036971
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Fire Fang|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Mawile|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1639036985
+|switch|p1a: Landorus|Landorus-Therian, M|96/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mawile|atk|1
+|turn|4
+|
+|t:|1639037002
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639037011
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|
+|t:|1639037014
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|-damage|p1a: Landorus|77/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1639037031
+|switch|p1a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1639037046
+|move|p1a: Alakazam|Nasty Plot|p1a: Alakazam
+|-boost|p1a: Alakazam|spa|2
+|move|p2a: Ferrothorn|Knock Off|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Cesar2543|Pls miss
+|
+|t:|1639037094
+|move|p1a: Alakazam|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Alakazam|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639037099
+|switch|p1a: Landorus|Landorus-Therian, M|77/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|8
+|
+|t:|1639037107
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|-damage|p1a: Landorus|65/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1639037113
+|switch|p1a: Moltres|Moltres-Galar|100/100|[from]move: U-turn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Moltres
+|-start|p1a: Moltres|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|-damage|p1a: Moltres|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1639037132
+|switch|p2a: Rotom|Rotom-Wash|82/100
+|-damage|p2a: Rotom|70/100|[from] Stealth Rock
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|-damage|p1a: Moltres|76/100|[from] Leech Seed|[of] p2a: Rotom
+|-heal|p2a: Rotom|91/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1639037137
+|move|p1a: Moltres|Fiery Wrath|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|move|p2a: Rotom|Volt Switch|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|39/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|t:|1639037152
+|switch|p2a: Landorus|Landorus-Therian, M|88/100|[from]move: Volt Switch
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|
+|-damage|p1a: Moltres|27/100|[from] Leech Seed|[of] p2a: Landorus
+|-heal|p2a: Landorus|90/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1639037170
+|switch|p2a: Mawile|Mawile-Mega, F|88/100
+|-damage|p2a: Mawile|82/100|[from] Stealth Rock
+|move|p1a: Moltres|Fiery Wrath|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|37/100
+|
+|-damage|p1a: Moltres|14/100|[from] Leech Seed|[of] p2a: Mawile
+|-heal|p2a: Mawile|54/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1639037185
+|move|p1a: Moltres|Air Slash|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|18/100
+|move|p2a: Mawile|Ice Punch|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1639037201
+|switch|p1a: Landorus|Landorus-Therian, M|65/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mawile|atk|1
+|turn|13
+|
+|t:|1639037205
+|switch|p2a: Landorus|Landorus-Therian, M|90/100
+|-damage|p2a: Landorus|78/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|
+|t:|1639037212
+|switch|p1a: Tapu Lele|Tapu Lele, shiny|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|upkeep
+|turn|14
+|
+|t:|1639037217
+|move|p2a: Landorus|U-turn|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|57/100
+|
+|t:|1639037220
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1639037252
+|move|p1a: Tapu Lele|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tapu Lele
+|-start|p1a: Tapu Lele|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|38/100|[from] item: Leftovers
+|-damage|p1a: Tapu Lele|45/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1639037259
+|switch|p1a: Landorus|Landorus-Therian, M|65/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|switch|p2a: Victini|Victini|100/100
+|
+|-heal|p1a: Landorus|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1639037270
+|move|p2a: Victini|Blue Flare|p1a: Landorus|[miss]
+|-miss|p2a: Victini|p1a: Landorus
+|move|p1a: Landorus|Toxic|p2a: Victini
+|-status|p2a: Victini|tox
+|
+|-heal|p1a: Landorus|77/100|[from] item: Leftovers
+|-damage|p2a: Victini|94/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|t:|1639037282
+|move|p2a: Victini|Blue Flare|p1a: Landorus
+|-damage|p1a: Landorus|26/100
+|move|p1a: Landorus|U-turn|p2a: Victini
+|-damage|p2a: Victini|71/100 tox
+|
+|t:|1639037293
+|switch|p1a: Tapu Lele|Tapu Lele, shiny|45/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|-damage|p2a: Victini|59/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1639037305
+|move|p2a: Victini|U-turn|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|23/100
+|
+|t:|1639037308
+|switch|p2a: Mawile|Mawile-Mega, F|18/100|[from]move: U-turn
+|-damage|p2a: Mawile|12/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Psyshock|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|t:|1639037316
+|switch|p2a: Landorus|Landorus-Therian, M|70/100
+|-damage|p2a: Landorus|58/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Lele|atk|1
+|turn|20
+|
+|t:|1639037321
+|move|p2a: Landorus|U-turn|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|-message|Alex.Van-R forfeited.
+|
+|win|Cesar2543
+|raw|Alex.Van-R's rating: 1345 &rarr; <strong>1331</strong><br />(-14 for losing)
+|raw|Cesar2543's rating: 1444 &rarr; <strong>1458</strong><br />(+14 for winning)
+|l|☆Alex.Van-R

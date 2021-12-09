@@ -1,0 +1,235 @@
+|j|☆COBRIEN
+|j|☆LittleLunasTestacc
+|t:|1639051077
+|gametype|singles
+|player|p1|COBRIEN|2|1073
+|player|p2|LittleLunasTestacc|clerkf|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Krookodile, F|
+|poke|p1|Charizard, F|
+|poke|p1|Xurkitree|
+|poke|p1|Cottonee, L1, M|
+|poke|p2|Victini|
+|poke|p2|Greninja, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Koko|
+|poke|p2|Beedrill, M|
+|poke|p2|Rillaboom, F|
+|teampreview
+|
+|t:|1639051084
+|start
+|switch|p1a: Cottonee|Cottonee, L1, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cottonee|atk|1
+|turn|1
+|
+|t:|1639051090
+|move|p1a: Cottonee|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|move|p2a: Landorus|U-turn|p1a: Cottonee
+|-enditem|p1a: Cottonee|Focus Sash
+|-damage|p1a: Cottonee|9/100
+|
+|t:|1639051094
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from]move: U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p1a: Cottonee|17/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1639051104
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1639051112
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|detailschange|p1a: Charizard|Charizard-Mega-Y, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1639051122
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1639051125
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Greninja|Hydro Pump|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Serperior|83/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1639051133
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|67/100
+|-boost|p1a: Serperior|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Serperior|89/100|[from] Grassy Terrain
+|-heal|p2a: Beedrill|73/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1639051143
+|switch|p1a: Charizard|Charizard-Mega-Y, F|84/100
+|detailschange|p2a: Beedrill|Beedrill-Mega, M
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Beedrill|Fell Stinger|p1a: Charizard
+|-resisted|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1639051151
+|move|p2a: Beedrill|Poison Jab|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|none
+|upkeep
+|
+|t:|1639051159
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|turn|8
+|
+|t:|1639051165
+|move|p2a: Beedrill|Fell Stinger|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|-boost|p2a: Beedrill|atk|3
+|
+|upkeep
+|
+|t:|1639051171
+|switch|p1a: Cottonee|Cottonee, L1, M|17/100
+|turn|9
+|
+|t:|1639051176
+|move|p1a: Cottonee|Memento|p2a: Beedrill
+|-unboost|p2a: Beedrill|atk|2
+|-unboost|p2a: Beedrill|spa|2
+|faint|p1a: Cottonee
+|move|p2a: Beedrill|U-turn|p1: Cottonee|[notarget]
+|-fail|p2a: Beedrill
+|
+|upkeep
+|
+|t:|1639051183
+|switch|p1a: Xurkitree|Xurkitree|100/100
+|turn|10
+|
+|t:|1639051189
+|move|p2a: Beedrill|Drill Run|p1a: Xurkitree
+|-supereffective|p1a: Xurkitree
+|-damage|p1a: Xurkitree|0 fnt
+|faint|p1a: Xurkitree
+|
+|upkeep
+|
+|t:|1639051195
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|11
+|
+|t:|1639051200
+|move|p2a: Beedrill|Drill Run|p1a: Cloyster
+|-damage|p1a: Cloyster|63/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|upkeep
+|turn|12
+|
+|t:|1639051209
+|move|p1a: Cloyster|Icicle Spear|p2a: Beedrill
+|-damage|p2a: Beedrill|14/100
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|-hitcount|p2: Beedrill|2
+|
+|upkeep
+|
+|t:|1639051213
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|13
+|
+|t:|1639051218
+|move|p1a: Cloyster|Icicle Spear|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|82/100
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|63/100
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|43/100
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|22/100
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|2/100
+|-hitcount|p2a: Greninja|5
+|move|p2a: Greninja|Dark Pulse|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|upkeep
+|
+|t:|1639051233
+|switch|p1a: Serperior|Serperior, M|89/100
+|turn|14
+|
+|t:|1639051236
+|move|p2a: Greninja|Dark Pulse|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|win|LittleLunasTestacc
+|raw|COBRIEN's rating: 1073 &rarr; <strong>1052</strong><br />(-21 for losing)
+|raw|LittleLunasTestacc's rating: 1072 &rarr; <strong>1101</strong><br />(+29 for winning)
+|l|☆COBRIEN
+|c|☆LittleLunasTestacc|Gg

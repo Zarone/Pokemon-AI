@@ -1,0 +1,249 @@
+|j|☆Ash Ketchum 344
+|j|☆Legendary alain op
+|t:|1639051426
+|gametype|singles
+|player|p1|Ash Ketchum 344|lucas|
+|player|p2|Legendary alain op|picnicker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Weavile, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Unfezant, M|
+|poke|p1|Metagross|
+|poke|p1|Charizard, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Goodra, F|
+|poke|p2|Greninja, M|
+|poke|p2|Pikachu-Kalos, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Noivern, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Legendary alain op)
+|inactive|Ash Ketchum 344 also wants the timer to be on.
+|
+|t:|1639051452
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Pikachu|Pikachu-Kalos, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1639051461
+|move|p2a: Pikachu|Fake Out|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|95/100
+|cant|p1a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pikachu|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1639051477
+|move|p2a: Pikachu|Grass Knot|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|move|p1a: Tyranitar|Earthquake|p2a: Pikachu
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1639051488
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|3
+|
+|t:|1639051497
+|move|p2a: Hawlucha|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1639051505
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|4
+|
+|t:|1639051515
+|move|p1a: Weavile|Triple Axel|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|31/100
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|-hitcount|p2: Hawlucha|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1639051536
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|5
+|
+|t:|1639051546
+|move|p2a: Talonflame|Flare Blitz|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Talonflame|71/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1639051553
+|switch|p1a: Unfezant|Unfezant, M|100/100
+|turn|6
+|
+|t:|1639051561
+|move|p2a: Talonflame|Acrobatics|p1a: Unfezant
+|-damage|p1a: Unfezant|55/100
+|move|p1a: Unfezant|Brave Bird|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|-damage|p1a: Unfezant|36/100|[from] Recoil
+|
+|-heal|p1a: Unfezant|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639051574
+|switch|p2a: Noivern|Noivern, F|100/100
+|-item|p1a: Unfezant|Leftovers|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|7
+|
+|t:|1639051589
+|move|p2a: Noivern|Outrage|p1a: Unfezant
+|-damage|p1a: Unfezant|0 fnt
+|faint|p1a: Unfezant
+|
+|upkeep
+|
+|t:|1639051594
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|8
+|
+|t:|1639051601
+|move|p2a: Noivern|Outrage|p1a: Bisharp|[from]lockedmove
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|71/100
+|-start|p2a: Noivern|confusion|[fatigue]
+|move|p1a: Bisharp|Iron Head|p2a: Noivern
+|-damage|p2a: Noivern|40/100
+|
+|upkeep
+|turn|9
+|
+|t:|1639051625
+|-activate|p2a: Noivern|confusion
+|-damage|p2a: Noivern|26/100|[from] confusion
+|move|p1a: Bisharp|Iron Head|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1639051637
+|switch|p2a: Goodra|Goodra, F|100/100
+|turn|10
+|
+|t:|1639051654
+|move|p2a: Goodra|Thunderbolt|p1a: Bisharp
+|-damage|p1a: Bisharp|28/100
+|move|p1a: Bisharp|Power-Up Punch|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|74/100
+|-boost|p1a: Bisharp|atk|1
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p2a: Goodra|80/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639051670
+|move|p1a: Bisharp|Sucker Punch|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1639051676
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|12
+|
+|t:|1639051683
+|move|p2a: Greninja|Water Shuriken|p1a: Bisharp
+|-damage|p1a: Bisharp|16/100
+|-damage|p1a: Bisharp|4/100
+|-hitcount|p1a: Bisharp|2
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|13
+|
+|t:|1639051695
+|move|p2a: Greninja|Water Shuriken|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|-hitcount|p1: Bisharp|1
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639051698
+|switch|p1a: Metagross|Metagross|100/100
+|turn|14
+|
+|t:|1639051706
+|move|p2a: Greninja|Dark Pulse|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|-damage|p2a: Greninja|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639051710
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|15
+|
+|t:|1639051725
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p2a: Greninja|Surf|p1a: Charizard
+|-damage|p1a: Charizard|6/100
+|-damage|p2a: Greninja|61/100|[from] item: Life Orb
+|move|p1a: Charizard|Outrage|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|win|Ash Ketchum 344

@@ -10,10 +10,10 @@ def get_battle_ids(formats, pages_per_format): #50 battles per page
     for format in formats:
       for i in range(pages_per_format):
         raw_json = json.loads(requests.get(SEARCH_URL+"format="+format+"&page="+str(i+1)).text)
-        id_list.append(raw_json[0]["id"])
-        id_list.append(raw_json[1]["id"])
-        # for element in raw_json:
-        #   id_list.append(element["id"])
+        # id_list.append(raw_json[0]["id"])
+        # id_list.append(raw_json[1]["id"])
+        for element in raw_json:
+          id_list.append(element["id"])
     return(id_list)
 
 def get_raw_data_file(formats, pages_per_format):

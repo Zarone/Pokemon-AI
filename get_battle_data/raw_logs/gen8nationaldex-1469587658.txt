@@ -1,0 +1,315 @@
+|j|☆TBB8121
+|j|☆slio4president
+|t:|1639028080
+|gametype|singles
+|player|p1|TBB8121|lance|1534
+|player|p2|slio4president|tuber|1686
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arcanine, M|
+|poke|p1|Ampharos, F|
+|poke|p1|Swampert, M|
+|poke|p1|Zoroark, F|
+|poke|p1|Florges, F|
+|poke|p1|Rillaboom, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Pinsir, F|
+|poke|p2|Slowbro, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Zapdos-Galar|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TBB8121)
+|
+|t:|1639028110
+|start
+|switch|p1a: Ampharos|Ampharos, F|100/100
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|1
+|
+|t:|1639028124
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|detailschange|p1a: Ampharos|Ampharos-Mega, F
+|-mega|p1a: Ampharos|Ampharos|Ampharosite
+|-ability|p1a: Ampharos|Mold Breaker
+|move|p1a: Ampharos|Dragon Pulse|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|71/100
+|
+|-heal|p2a: Excadrill|77/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1639028143
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Swampert
+|-sidestart|p1: TBB8121|move: Stealth Rock
+|
+|-heal|p2a: Excadrill|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1639028152
+|move|p2a: Excadrill|Toxic|p1a: Swampert|[miss]
+|-miss|p2a: Excadrill|p1a: Swampert
+|move|p1a: Swampert|Flip Turn|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|21/100
+|
+|t:|1639028175
+|switch|p1a: Ampharos|Ampharos-Mega, F|100/100|[from]move: Flip Turn
+|-damage|p1a: Ampharos|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Excadrill|27/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639028188
+|move|p1a: Ampharos|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|16/100
+|
+|t:|1639028195
+|switch|p1a: Swampert|Swampert, M|100/100|[from]move: U-turn
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|65/100
+|
+|-heal|p2a: Excadrill|22/100|[from] item: Leftovers
+|-heal|p1a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639028209
+|move|p2a: Excadrill|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|move|p1a: Swampert|Ice Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Swampert|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|71/100 tox|[from] psn
+|upkeep
+|
+|t:|1639028225
+|switch|p2a: Pinsir|Pinsir, F|100/100
+|turn|6
+|
+|t:|1639028241
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Swampert|Roar|p2a: Pinsir
+|drag|p2a: Conkeldurr|Conkeldurr, M|100/100
+|
+|-heal|p1a: Swampert|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|65/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1639028253
+|move|p1a: Swampert|Flip Turn|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|75/100
+|
+|t:|1639028257
+|switch|p1a: Florges|Florges, F|100/100|[from]move: Flip Turn
+|-damage|p1a: Florges|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Florges
+|-resisted|p1a: Florges
+|-damage|p1a: Florges|68/100
+|-heal|p2a: Conkeldurr|86/100|[from] drain|[of] p1a: Florges
+|
+|-heal|p1a: Florges|74/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639028270
+|move|p1a: Florges|Defog|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|evasion|1
+|-sideend|p1: TBB8121|Stealth Rock|[from] move: Defog|[of] p1a: Florges
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Florges
+|-damage|p1a: Florges|43/100
+|
+|-heal|p1a: Florges|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1639028283
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Florges|Moonblast|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|64/100
+|
+|-heal|p1a: Florges|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1639028296
+|move|p2a: Tapu Fini|Trick|p1a: Florges
+|-activate|p2a: Tapu Fini|move: Trick|[of] p1a: Florges
+|-item|p1a: Florges|Choice Scarf|[from] move: Trick
+|-item|p2a: Tapu Fini|Leftovers|[from] move: Trick
+|move|p1a: Florges|Moonblast|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|29/100
+|-unboost|p2a: Tapu Fini|spa|1
+|
+|-heal|p2a: Tapu Fini|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639028309
+|move|p2a: Tapu Fini|Moonblast|p1a: Florges
+|-damage|p1a: Florges|39/100
+|move|p1a: Florges|Moonblast|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|3/100
+|
+|-heal|p2a: Tapu Fini|9/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1639028321
+|move|p2a: Tapu Fini|Moonblast|p1a: Florges
+|-damage|p1a: Florges|21/100
+|move|p1a: Florges|Moonblast|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+|
+|t:|1639028326
+|switch|p2a: Pinsir|Pinsir, F|100/100
+|turn|13
+|
+|t:|1639028331
+|move|p2a: Pinsir|Frustration|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|-ability|p2a: Pinsir|Moxie|boost
+|-boost|p2a: Pinsir|atk|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1639028338
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Pinsir|atk|1
+|turn|14
+|
+|t:|1639028360
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|switch|p1a: Ampharos|Ampharos-Mega, F|88/100
+|
+|upkeep
+|turn|15
+|j| salmonelephant
+|
+|t:|1639028376
+|switch|p2a: Conkeldurr|Conkeldurr, M|86/100
+|move|p1a: Ampharos|Extrasensory|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|33/100
+|
+|upkeep
+|turn|16
+|
+|t:|1639028387
+|move|p1a: Ampharos|Extrasensory|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|t:|1639028409
+|switch|p2a: Pinsir|Pinsir, F|100/100
+|turn|17
+|
+|t:|1639028414
+|detailschange|p2a: Pinsir|Pinsir-Mega, F
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p1a: Ampharos|Extrasensory|p2a: Pinsir
+|-damage|p2a: Pinsir|51/100
+|move|p2a: Pinsir|Close Combat|p1a: Ampharos
+|-supereffective|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|-unboost|p2a: Pinsir|def|1
+|-unboost|p2a: Pinsir|spd|1
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1639028425
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Pinsir|atk|1
+|turn|18
+|
+|t:|1639028445
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|switch|p1a: Swampert|Swampert, M|65/100 tox
+|
+|-heal|p1a: Swampert|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|65/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1639028454
+|move|p1a: Swampert|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: slio4president|move: Stealth Rock
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1639028461
+|switch|p2a: Pinsir|Pinsir-Mega, F|51/100|[from]move: Teleport
+|-damage|p2a: Pinsir|1/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|58/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1639028477
+|move|p2a: Pinsir|Frustration|p1a: Swampert
+|-damage|p1a: Swampert|13/100 tox
+|move|p1a: Swampert|Flip Turn|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|t:|1639028487
+|switch|p1a: Ampharos|Ampharos-Mega, F|100/100|[from]move: Flip Turn
+|-ability|p1a: Ampharos|Mold Breaker
+|
+|upkeep
+|
+|t:|1639028491
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-damage|p2a: Zapdos|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1639028495
+|move|p2a: Zapdos|Thunderous Kick|p1a: Ampharos
+|-damage|p1a: Ampharos|55/100
+|-unboost|p1a: Ampharos|def|1
+|move|p1a: Ampharos|Volt Switch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-message|slio4president forfeited.
+|
+|win|TBB8121
+|raw|TBB8121's rating: 1534 &rarr; <strong>1562</strong><br />(+28 for winning)
+|raw|slio4president's rating: 1686 &rarr; <strong>1658</strong><br />(-28 for losing)
+|l|☆slio4president

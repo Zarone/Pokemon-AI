@@ -1,0 +1,403 @@
+|j|☆ScarpeRengard
+|j|☆xczzxc
+|t:|1639042480
+|gametype|singles
+|player|p1|ScarpeRengard|norman|
+|player|p2|xczzxc|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Greninja, M|
+|poke|p1|Kartana|
+|poke|p1|Volcanion|
+|poke|p1|Tyranitar, M|
+|poke|p2|Celesteela|
+|poke|p2|Gliscor, M|
+|poke|p2|Slowbro, F|
+|poke|p2|Xurkitree|
+|poke|p2|Victini|
+|poke|p2|Clefable, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScarpeRengard)
+|inactive|ScarpeRengard has 270 seconds left.
+|inactive|ScarpeRengard has 240 seconds left.
+|
+|t:|1639042547
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1639042551
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Volcanion|Steam Eruption|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1639042557
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|71/100
+|-status|p2a: Slowbro|brn
+|
+|-damage|p2a: Slowbro|64/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1639042561
+|move|p1a: Volcanion|Earth Power|p2a: Slowbro
+|-damage|p2a: Slowbro|28/100 brn
+|move|p2a: Slowbro|Future Sight|p1a: Volcanion
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Slowbro|22/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1639042567
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Volcanion|Will-O-Wisp||[still]
+|-fail|p1a: Volcanion
+|
+|upkeep
+|turn|5
+|
+|t:|1639042572
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-end|p1a: Greninja|move: Future Sight
+|-immune|p1a: Greninja
+|upkeep
+|turn|6
+|
+|t:|1639042577
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Greninja|Blizzard|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1639042580
+|switch|p2a: Slowbro|Slowbro, F|55/100 brn
+|move|p1a: Greninja|Water Shuriken|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|51/100 brn
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|46/100 brn
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|42/100 brn
+|-hitcount|p2a: Slowbro|3
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Slowbro|36/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1639042584
+|move|p1a: Greninja|Dark Pulse|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639042588
+|switch|p2a: Victini|Victini|100/100
+|turn|9
+|
+|t:|1639042593
+|move|p1a: Greninja|Water Shuriken|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|66/100
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|33/100
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|1/100
+|-hitcount|p2a: Victini|3
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|move|p2a: Victini|U-turn|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|3/100
+|
+|t:|1639042603
+|switch|p2a: Celesteela|Celesteela|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|c|☆ScarpeRengard|i like celesteela's roar
+|
+|t:|1639042622
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Celesteela|Giga Drain|p1a: Volcanion
+|-damage|p1a: Volcanion|78/100
+|
+|upkeep
+|turn|11
+|
+|t:|1639042625
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Volcanion|Will-O-Wisp|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1639042628
+|switch|p2a: Victini|Victini|1/100
+|move|p1a: Volcanion|Flamethrower|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|upkeep
+|
+|t:|1639042633
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|13
+|
+|t:|1639042638
+|move|p1a: Volcanion|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Mystical Fire|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|73/100
+|-unboost|p1a: Volcanion|spa|1
+|
+|-damage|p2a: Clefable|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1639042650
+|switch|p1a: Kartana|Kartana|100/100
+|move|p2a: Clefable|Mystical Fire|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|-heal|p2a: Clefable|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Clefable|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1639042674
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|t:|1639042685
+|move|p1a: Tyranitar|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|38/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clefable|32/100 brn|[from] Sandstorm
+|-heal|p2a: Clefable|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Clefable|32/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1639042691
+|switch|p2a: Celesteela|Celesteela|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Celesteela
+|-damage|p2a: Celesteela|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Celesteela|59/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1639042712
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Tyranitar|Ice Punch|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Celesteela|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1639042716
+|move|p1a: Tyranitar|Ice Punch|p2a: Celesteela
+|-damage|p2a: Celesteela|41/100
+|move|p2a: Celesteela|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Celesteela|47/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|65/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|58/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1639042723
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Tyranitar|Stone Edge|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-weather|none
+|-heal|p2a: Celesteela|64/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|52/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|75/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1639042727
+|move|p1a: Tyranitar|Stone Edge|p2a: Celesteela
+|-damage|p2a: Celesteela|30/100
+|move|p2a: Celesteela|Iron Defense|p2a: Celesteela
+|-boost|p2a: Celesteela|def|2
+|
+|-heal|p2a: Celesteela|36/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|40/100|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|47/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1639042731
+|switch|p1a: Volcanion|Volcanion|73/100
+|move|p2a: Celesteela|Protect||[still]
+|-fail|p2a: Celesteela
+|
+|-heal|p2a: Celesteela|53/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1639042738
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Volcanion|Flamethrower|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-heal|p2a: Celesteela|59/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1639042741
+|switch|p2a: Clefable|Clefable, F|32/100 brn
+|move|p1a: Volcanion|Will-O-Wisp|p2a: Clefable
+|-fail|p2a: Clefable|brn
+|
+|-heal|p2a: Clefable|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Clefable|32/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1639042747
+|move|p1a: Volcanion|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1639042750
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|turn|25
+|
+|t:|1639042753
+|move|p2a: Gliscor|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|18/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1639042757
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|turn|26
+|
+|t:|1639042762
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-zpower|p2a: Xurkitree
+|move|p2a: Xurkitree|Z-Hypnosis|p1a: Blaziken|[anim]Hypnosis
+|-boost|p2a: Xurkitree|spe|1|[zeffect]
+|-status|p1a: Blaziken|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|27
+|
+|t:|1639042774
+|move|p2a: Xurkitree|Thunderbolt|p1a: Blaziken
+|-damage|p1a: Blaziken|9/100 slp
+|cant|p1a: Blaziken|slp
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|28
+|
+|t:|1639042777
+|move|p2a: Xurkitree|Thunderbolt|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+|
+|t:|1639042785
+|switch|p1a: Tyranitar|Tyranitar, M|40/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|29
+|
+|t:|1639042793
+|move|p2a: Xurkitree|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|7/100
+|move|p1a: Tyranitar|Earthquake|p2a: Xurkitree
+|-supereffective|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1639042795
+|switch|p2a: Celesteela|Celesteela|59/100
+|turn|30
+|
+|t:|1639042799
+|move|p1a: Tyranitar|Stone Edge|p2a: Celesteela|[miss]
+|-miss|p1a: Tyranitar|p2a: Celesteela
+|move|p2a: Celesteela|Leech Seed|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Celesteela|66/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] Leech Seed|[of] p2a: Celesteela
+|-heal|p2a: Celesteela|71/100|[silent]
+|faint|p1a: Tyranitar
+|upkeep
+|-message|xczzxc forfeited.
+|
+|win|ScarpeRengard
+|l|☆xczzxc

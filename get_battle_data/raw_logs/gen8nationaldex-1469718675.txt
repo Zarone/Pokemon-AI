@@ -1,0 +1,201 @@
+|j|☆P4gli4
+|j|☆Manutas
+|t:|1639051401
+|gametype|singles
+|player|p1|P4gli4|101|1000
+|player|p2|Manutas|hilbert|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Galvantula, F|
+|poke|p1|Diancie|
+|poke|p1|Meowstic-F, F|
+|poke|p1|Slurpuff, F|
+|poke|p1|Boltund, M|
+|poke|p1|Bisharp, F|
+|poke|p2|Venusaur, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Clefable, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Alakazam, M|
+|poke|p2|Gyarados, M|
+|teampreview
+|
+|t:|1639051409
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|t:|1639051422
+|move|p1a: Diancie|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Manutas|move: Stealth Rock
+|move|p2a: Clefable|Toxic|p1a: Diancie
+|-status|p1a: Diancie|tox
+|
+|-damage|p1a: Diancie|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1639051431
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Skill Swap|p2a: Clefable
+|-activate|p1a: Diancie|move: Skill Swap|Magic Guard|Magic Bounce|[of] p2a: Clefable
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1639051445
+|move|p1a: Diancie|Diamond Storm|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639051455
+|move|p1a: Diancie|Diamond Storm|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|6/100
+|-boost|p1a: Diancie|def|2
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|12/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639051467
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|62/100
+|
+|-heal|p2a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1639051479
+|move|p1a: Galvantula|Sticky Web|p2a: Clefable
+|move|p2a: Clefable|Sticky Web|p1a: Galvantula|[from]ability: Magic Bounce
+|-sidestart|p1: P4gli4|move: Sticky Web
+|move|p2a: Clefable|Toxic|p1a: Galvantula
+|-status|p1a: Galvantula|tox
+|
+|-heal|p2a: Clefable|74/100|[from] item: Leftovers
+|-damage|p1a: Galvantula|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1639051498
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639051520
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Bisharp|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|14/100
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|20/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1639051536
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|75/100|[from] Stealth Rock
+|move|p1a: Bisharp|Iron Head|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|7/100
+|-damage|p1a: Bisharp|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1639051546
+|move|p1a: Bisharp|Sucker Punch|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-damage|p1a: Bisharp|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639051556
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1639051561
+|move|p2a: Venusaur|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|37/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p2a: Venusaur|94/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1639051575
+|move|p1a: Bisharp|Sucker Punch|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|-damage|p1a: Bisharp|27/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639051582
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1639051588
+|move|p1a: Bisharp|Sucker Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Bisharp|18/100|[from] item: Life Orb
+|
+|upkeep
+|l|☆Manutas
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by P4gli4)
+|inactive|Manutas has 30 seconds to reconnect!
+|inactive|Manutas has 20 seconds to reconnect!
+|inactive|Manutas has 15 seconds to reconnect!
+|inactive|Manutas has 10 seconds to reconnect!
+|inactive|Manutas has 5 seconds to reconnect!
+|-message|Manutas lost due to inactivity.
+|
+|win|P4gli4
+|raw|P4gli4's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|Manutas's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

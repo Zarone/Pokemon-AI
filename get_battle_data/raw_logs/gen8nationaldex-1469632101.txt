@@ -1,0 +1,406 @@
+|j|☆MyPBBteam
+|j|☆Cesar2543
+|t:|1639036167
+|gametype|singles
+|player|p1|MyPBBteam|clown|1379
+|player|p2|Cesar2543|palmer|1451
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Aerodactyl, M|
+|poke|p1|Salamence, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Celesteela|
+|poke|p1|Mantine, F|
+|poke|p2|Mawile, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Garchomp, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Victini|
+|teampreview
+|
+|t:|1639036193
+|start
+|switch|p1a: Celesteela|Celesteela|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|t:|1639036201
+|move|p2a: Victini|Blue Flare|p1a: Celesteela|[miss]
+|-miss|p2a: Victini|p1a: Celesteela
+|move|p1a: Celesteela|Air Slash|p2a: Victini
+|-damage|p2a: Victini|62/100
+|
+|upkeep
+|turn|2
+|
+|t:|1639036205
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Victini|Blue Flare|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|80/100
+|
+|-heal|p1a: Mantine|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1639036210
+|move|p2a: Victini|U-turn|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|80/100
+|
+|t:|1639036215
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Mantine|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Mantine|86/100|[from] item: Leftovers
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1639036225
+|move|p2a: Rotom|Will-O-Wisp|p1a: Mantine
+|-status|p1a: Mantine|brn
+|move|p1a: Mantine|Mirror Coat||[still]
+|-fail|p1a: Mantine
+|
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Mantine|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|-damage|p1a: Mantine|86/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1639036233
+|move|p2a: Rotom|Volt Switch|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|15/100 brn
+|
+|t:|1639036238
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|move|p1a: Mantine|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/100
+|
+|-heal|p1a: Mantine|21/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Mantine|15/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1639036249
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Salamence
+|-damage|p1a: Salamence|73/100
+|-enditem|p1a: Salamence|Yache Berry|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1639036257
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1639036266
+|move|p1a: Salamence|Dual Wingbeat|p2a: Landorus|[miss]
+|-miss|p1a: Salamence|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|55/100
+|
+|t:|1639036273
+|switch|p2a: Rotom|Rotom-Wash|88/100 tox|[from]move: U-turn
+|
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1639036286
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Gliscor
+|-status|p1a: Gliscor|brn
+|
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|-damage|p1a: Gliscor|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1639036291
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Rotom|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|69/100 tox|[from] psn
+|upkeep
+|
+|t:|1639036307
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|11
+|
+|t:|1639036312
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1639036324
+|move|p2a: Landorus|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|80/100
+|
+|t:|1639036335
+|switch|p2a: Mawile|Mawile, F|100/100|[from]move: U-turn
+|move|p1a: Thundurus|Sludge Wave|p2a: Mawile
+|-immune|p2a: Mawile
+|
+|upkeep
+|turn|13
+|
+|t:|1639036343
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Thundurus|Thunderbolt|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|t:|1639036346
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|14
+|c|☆Cesar2543|!dt thundurus-t
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">642</span> <span class="col iconcol"><psicon pokemon="thundurustherian"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/thundurustherian" target="_blank">Thundurus-Therian</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Electric.png" alt="Electric" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Flying.png" alt="Flying" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col abilitycol">Volt Absorb</span><span class="col abilitycol"></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />79</span> <span class="col statcol"><em>Atk</em><br />105</span> <span class="col statcol"><em>Def</em><br />70</span> <span class="col statcol"><em>SpA</em><br />145</span> <span class="col statcol"><em>SpD</em><br />80</span> <span class="col statcol"><em>Spe</em><br />101</span> <span class="col bstcol"><em>BST<br />580</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 642&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 5&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 3 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 61 kg <em>(80 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Blue&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Undiscovered&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|
+|t:|1639036381
+|move|p2a: Garchomp|Stone Edge|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1639036388
+|switch|p1a: Celesteela|Celesteela|100/100
+|turn|15
+|
+|t:|1639036396
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Celesteela|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|16
+|
+|t:|1639036401
+|move|p1a: Celesteela|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|12/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Celesteela
+|-start|p1a: Celesteela|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|18/100|[from] item: Leftovers
+|-damage|p1a: Celesteela|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|32/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1639036407
+|switch|p2a: Victini|Victini|62/100
+|move|p1a: Celesteela|Air Slash|p2a: Victini
+|-damage|p2a: Victini|21/100
+|
+|-heal|p1a: Celesteela|94/100|[from] item: Leftovers
+|-damage|p1a: Celesteela|82/100|[from] Leech Seed|[of] p2a: Victini
+|-heal|p2a: Victini|36/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1639036416
+|switch|p1a: Mantine|Mantine, F|15/100 brn
+|move|p2a: Victini|Psychic|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|upkeep
+|
+|t:|1639036426
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|19
+|
+|t:|1639036436
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Landorus
+|-damage|p2a: Landorus|79/100
+|-damage|p2a: Landorus|56/100
+|-hitcount|p2a: Landorus|2
+|
+|upkeep
+|turn|20
+|
+|t:|1639036448
+|switch|p1a: Celesteela|Celesteela|82/100
+|move|p2a: Landorus|U-turn|p1a: Celesteela
+|-resisted|p1a: Celesteela
+|-damage|p1a: Celesteela|76/100
+|
+|t:|1639036452
+|switch|p2a: Victini|Victini|36/100|[from]move: U-turn
+|
+|-heal|p1a: Celesteela|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639036461
+|move|p2a: Victini|Blue Flare|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|
+|upkeep
+|
+|t:|1639036467
+|switch|p1a: Aerodactyl|Aerodactyl-Mega, M|100/100
+|turn|22
+|
+|t:|1639036472
+|switch|p2a: Ferrothorn|Ferrothorn, M|32/100
+|move|p1a: Aerodactyl|Dragon Dance|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|atk|1
+|-boost|p1a: Aerodactyl|spe|1
+|
+|-heal|p2a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1639036481
+|move|p1a: Aerodactyl|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Aerodactyl|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1639036488
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|24
+|
+|t:|1639036495
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Garchomp
+|-damage|p2a: Garchomp|57/100
+|-damage|p1a: Aerodactyl|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p2a: Garchomp|11/100
+|-damage|p1a: Aerodactyl|64/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-hitcount|p2a: Garchomp|2
+|-zpower|p2a: Garchomp
+|move|p2a: Garchomp|Continental Crush|p1a: Aerodactyl|[zeffect]
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|upkeep
+|
+|t:|1639036508
+|switch|p1a: Salamence|Salamence, M|55/100
+|turn|25
+|
+|t:|1639036513
+|move|p2a: Garchomp|Stone Edge|p1a: Salamence|[miss]
+|-miss|p2a: Garchomp|p1a: Salamence
+|move|p1a: Salamence|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1639036520
+|switch|p2a: Rotom|Rotom-Wash|69/100 tox
+|turn|26
+|
+|t:|1639036526
+|move|p1a: Salamence|Dual Wingbeat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|51/100 tox
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|36/100 tox
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Salamence
+|-status|p1a: Salamence|brn
+|
+|-heal|p2a: Rotom|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|36/100 tox|[from] psn
+|-damage|p1a: Salamence|49/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1639036536
+|move|p1a: Salamence|Dual Wingbeat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|27/100 tox
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|18/100 tox
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Volt Switch|p1a: Salamence
+|-damage|p1a: Salamence|15/100 brn
+|
+|t:|1639036544
+|switch|p2a: Landorus|Landorus-Therian, M|56/100|[from]move: Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|
+|-damage|p1a: Salamence|9/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1639036550
+|move|p2a: Landorus|Hidden Power|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|Cesar2543
+|raw|MyPBBteam's rating: 1379 &rarr; <strong>1363</strong><br />(-16 for losing)
+|raw|Cesar2543's rating: 1451 &rarr; <strong>1467</strong><br />(+16 for winning)
+|l|☆MyPBBteam
+|c|☆Cesar2543|Gg
+|c|☆Cesar2543|Wp

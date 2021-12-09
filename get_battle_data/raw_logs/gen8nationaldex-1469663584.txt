@@ -1,0 +1,399 @@
+|j|☆ScarpeRengard
+|j|☆xczzxc
+|t:|1639042006
+|gametype|singles
+|player|p1|ScarpeRengard|norman|
+|player|p2|xczzxc|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Heatran, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Blacephalon|
+|poke|p1|Blaziken, M|
+|poke|p2|Glastrier|
+|poke|p2|Gliscor, F|
+|poke|p2|Slowbro, F|
+|poke|p2|Xurkitree|
+|poke|p2|Victini|
+|poke|p2|Clefable, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScarpeRengard)
+|c|☆ScarpeRengard|What.
+|c|☆ScarpeRengard|145 atk on glastrier base
+|c|☆ScarpeRengard|it's like a zacian
+|inactive|ScarpeRengard has 270 seconds left.
+|c|☆ScarpeRengard|wtf
+|c|☆ScarpeRengard|WAIT
+|c|☆ScarpeRengard|FUCK
+|c|☆ScarpeRengard|TRICK ROOM
+|c|☆ScarpeRengard|NOO
+|c|☆ScarpeRengard|ok :)
+|
+|t:|1639042056
+|start
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1639042077
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Gliscor|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|45/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1639042081
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Volcarona|Giga Drain|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1639042085
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Volcarona|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|78/100
+|-heal|p1a: Volcarona|59/100|[from] drain|[of] p2a: Clefable
+|
+|-heal|p2a: Clefable|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639042089
+|-zpower|p1a: Volcarona
+|move|p1a: Volcarona|Savage Spin-Out|p2a: Clefable|[zeffect]
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|43/100
+|move|p2a: Clefable|Mystical Fire|p1a: Volcarona
+|-damage|p1a: Volcarona|41/100
+|-unboost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Clefable|49/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639042105
+|move|p1a: Volcarona|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|28/100
+|-heal|p1a: Volcarona|55/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|78/100
+|
+|-heal|p2a: Clefable|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1639042109
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Clefable|Mystical Fire|p1a: Volcarona
+|-damage|p1a: Volcarona|38/100
+|-unboost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1639042112
+|move|p1a: Volcarona|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|70/100
+|-heal|p1a: Volcarona|51/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Mystical Fire|p1a: Volcarona
+|-damage|p1a: Volcarona|34/100
+|-unboost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639042115
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Clefable|Mystical Fire|p1a: Volcarona
+|-damage|p1a: Volcarona|15/100
+|-unboost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Clefable|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1639042120
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Clefable|Mystical Fire|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|84/100
+|-unboost|p1a: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1639042123
+|move|p2a: Clefable|Encore||[still]
+|-fail|p2a: Clefable
+|move|p1a: Torkoal|Stealth Rock|p2a: Clefable
+|-sidestart|p2: xczzxc|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639042130
+|move|p2a: Clefable|Encore|p1a: Torkoal
+|-start|p1a: Torkoal|Encore
+|move|p1a: Torkoal|Stealth Rock||[still]
+|-fail|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1639042142
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1639042146
+|move|p1a: Blaziken|Bulk Up|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|1
+|-boost|p1a: Blaziken|def|1
+|move|p2a: Gliscor|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|31/100
+|
+|-weather|none
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1639042164
+|move|p1a: Blaziken|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|59/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Blaziken
+|move|p2a: Gliscor|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|c|☆ScarpeRengard|yes
+|c|☆ScarpeRengard|smart move!??!
+|c|☆ScarpeRengard|you take poison now!?!?
+|c|☆ScarpeRengard|OH.
+|inactive|ScarpeRengard has 270 seconds left.
+|
+|t:|1639042195
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|15
+|
+|t:|1639042197
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Gliscor|U-turn|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|93/100
+|
+|t:|1639042199
+|switch|p2a: Clefable|Clefable, F|99/100|[from]move: U-turn
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Clefable|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1639042202
+|move|p1a: Charizard|Flare Blitz|p2a: Clefable
+|-damage|p2a: Clefable|20/100
+|-damage|p1a: Charizard|60/100|[from] Recoil
+|move|p2a: Clefable|Moonblast|p1a: Charizard
+|-damage|p1a: Charizard|18/100
+|-unboost|p1a: Charizard|spa|1
+|
+|-heal|p2a: Clefable|26/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1639042210
+|move|p1a: Charizard|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1639042216
+|switch|p2a: Gliscor|Gliscor, F|72/100 tox
+|-damage|p2a: Gliscor|59/100 tox|[from] Stealth Rock
+|turn|18
+|
+|t:|1639042224
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Charizard|Dragon Claw|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1639042227
+|move|p1a: Charizard|Dragon Claw|p2a: Gliscor
+|-damage|p2a: Gliscor|10/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1639042232
+|switch|p1a: Torkoal|Torkoal, F|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|20
+|
+|t:|1639042237
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|73/100 tox
+|-singleturn|p2a: Gliscor|move: Roost
+|move|p1a: Torkoal|Body Press|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1639042241
+|move|p2a: Gliscor|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|48/100
+|move|p1a: Torkoal|Lava Plume|p2a: Gliscor
+|-damage|p2a: Gliscor|25/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1639042249
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1639042256
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Heatran|Flash Cannon|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1639042259
+|move|p1a: Heatran|Magma Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|none
+|upkeep
+|
+|t:|1639042267
+|switch|p2a: Glastrier|Glastrier|100/100
+|-damage|p2a: Glastrier|75/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1639042275
+|move|p1a: Heatran|Flash Cannon|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|9/100
+|move|p2a: Glastrier|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1639042279
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|turn|26
+|
+|t:|1639042297
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Blacephalon|Shadow Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1639042303
+|switch|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1639042307
+|move|p1a: Blacephalon|Shadow Ball|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|-message|xczzxc forfeited.
+|
+|win|ScarpeRengard
+|l|☆xczzxc

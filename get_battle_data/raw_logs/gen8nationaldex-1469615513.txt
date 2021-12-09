@@ -1,0 +1,196 @@
+|j|☆Tanhaji
+|j|☆Bu6tter
+|t:|1639033006
+|gametype|singles
+|player|p1|Tanhaji|lucas|1222
+|player|p2|Bu6tter|dawn-gen4pt|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Venusaur, F|
+|poke|p1|Trevenant, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Ludicolo, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Serperior, F|
+|poke|p2|Smeargle, F|
+|poke|p2|Greninja, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Celesteela|
+|poke|p2|Gyarados, M|
+|poke|p2|Breloom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bu6tter)
+|c|☆Tanhaji|gl
+|c|☆Bu6tter|gl
+|
+|t:|1639033018
+|start
+|switch|p1a: Ludicolo|Ludicolo, F|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|turn|1
+|
+|t:|1639033025
+|move|p2a: Smeargle|Sticky Web|p1a: Ludicolo
+|-sidestart|p1: Tanhaji|move: Sticky Web
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1639033030
+|move|p2a: Smeargle|Stealth Rock|p1a: Ludicolo
+|-sidestart|p1: Tanhaji|move: Stealth Rock
+|move|p1a: Ludicolo|Scald|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-status|p2a: Smeargle|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Smeargle|0 fnt|[from] brn
+|faint|p2a: Smeargle
+|upkeep
+|
+|t:|1639033050
+|switch|p2a: Celesteela|Celesteela|100/100
+|turn|3
+|
+|t:|1639033058
+|move|p1a: Ludicolo|Scald|p2a: Celesteela
+|-damage|p2a: Celesteela|57/100
+|move|p2a: Celesteela|Air Slash|p1a: Ludicolo
+|-supereffective|p1a: Ludicolo
+|-damage|p1a: Ludicolo|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|53/100|[from] ability: Rain Dish
+|-heal|p1a: Ludicolo|59/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639033068
+|move|p2a: Celesteela|Protect|p2a: Celesteela
+|-singleturn|p2a: Celesteela|Protect
+|move|p1a: Ludicolo|Scald|p2a: Celesteela
+|-activate|p2a: Celesteela|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|65/100|[from] ability: Rain Dish
+|-heal|p1a: Ludicolo|71/100|[from] item: Leftovers
+|-heal|p2a: Celesteela|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639033079
+|move|p1a: Ludicolo|Scald|p2a: Celesteela
+|-crit|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|-weather|none
+|-heal|p1a: Ludicolo|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639033086
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|6
+|
+|t:|1639033090
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|83/100|[from] ability: Rain Dish
+|-heal|p1a: Ludicolo|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1639033098
+|move|p2a: Breloom|Mach Punch|p1a: Ludicolo
+|-damage|p1a: Ludicolo|7/100
+|move|p1a: Ludicolo|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|13/100|[from] ability: Rain Dish
+|-heal|p1a: Ludicolo|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639033103
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|8
+|
+|t:|1639033109
+|move|p2a: Greninja|Ice Beam|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|-activate|p2a: Greninja|ability: Battle Bond
+|detailschange|p2a: Greninja|Greninja-Ash, M
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639033116
+|switch|p1a: Serperior|Serperior, F|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|9
+|
+|t:|1639033122
+|move|p1a: Serperior|Leaf Storm|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639033125
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|10
+|
+|t:|1639033134
+|move|p1a: Serperior|Leaf Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Gliscor
+|
+|-weather|none
+|-heal|p1a: Serperior|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639033136
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|turn|11
+|
+|t:|1639033141
+|move|p1a: Serperior|Leaf Storm|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Gyarados
+|
+|win|Tanhaji
+|raw|Tanhaji's rating: 1222 &rarr; <strong>1253</strong><br />(+31 for winning)
+|raw|Bu6tter's rating: 1304 &rarr; <strong>1279</strong><br />(-25 for losing)
+|c|☆Tanhaji|gg
+|l|☆Bu6tter

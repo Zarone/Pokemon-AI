@@ -1,0 +1,185 @@
+|j|☆Ahxjxhchc
+|j|☆Soyunnoobnomematen
+|t:|1639029543
+|gametype|singles
+|player|p1|Ahxjxhchc|102|1023
+|player|p2|Soyunnoobnomematen|1|1000
+|teamsize|p1|2
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Chatot, F|
+|poke|p1|Uxie|
+|poke|p2|Charizard, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Sceptile, F|
+|poke|p2|Metagross|
+|poke|p2|Melmetal|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|t:|1639029554
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: El mamado|Melmetal|100/100
+|turn|1
+|
+|t:|1639029564
+|move|p1a: Uxie|Reflect|p1a: Uxie
+|-sidestart|p1: Ahxjxhchc|Reflect
+|move|p2a: El mamado|Thunderbolt|p1a: Uxie
+|-damage|p1a: Uxie|87/100
+|-status|p1a: Uxie|par
+|
+|upkeep
+|turn|2
+|
+|t:|1639029570
+|move|p2a: El mamado|Thunderbolt|p1a: Uxie
+|-damage|p1a: Uxie|73/100 par
+|move|p1a: Uxie|Light Screen|p1a: Uxie
+|-sidestart|p1: Ahxjxhchc|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|t:|1639029592
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Uxie|Yawn|p2a: Dragonite
+|-start|p2a: Dragonite|move: Yawn|[of] p1a: Uxie
+|
+|upkeep
+|turn|4
+|
+|t:|1639029595
+|move|p2a: Dragonite|Dragon Claw|p1a: Uxie
+|-damage|p1a: Uxie|61/100 par
+|move|p1a: Uxie|Memento|p2a: Dragonite
+|-unboost|p2a: Dragonite|atk|2
+|-unboost|p2a: Dragonite|spa|2
+|faint|p1a: Uxie
+|
+|-end|p2a: Dragonite|move: Yawn|[silent]
+|-status|p2a: Dragonite|slp
+|upkeep
+|
+|t:|1639029601
+|switch|p1a: Chatot|Chatot, F|100/100
+|turn|5
+|
+|t:|1639029604
+|move|p1a: Chatot|Agility|p1a: Chatot
+|-boost|p1a: Chatot|spe|2
+|cant|p2a: Dragonite|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1639029608
+|move|p1a: Chatot|Nasty Plot|p1a: Chatot
+|-boost|p1a: Chatot|spa|2
+|-curestatus|p2a: Dragonite|slp|[msg]
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1639029613
+|move|p1a: Chatot|Boomburst|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|12/100
+|-enditem|p2a: Dragonite|Aguav Berry|[eat]
+|-heal|p2a: Dragonite|45/100|[from] item: Aguav Berry
+|-enditem|p1a: Chatot|Throat Spray
+|-boost|p1a: Chatot|spa|1|[from] item: Throat Spray
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1639029619
+|move|p1a: Chatot|Boomburst|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-sideend|p1: Ahxjxhchc|Reflect
+|upkeep
+|
+|t:|1639029631
+|switch|p2a: El mamado|Melmetal|100/100
+|turn|9
+|
+|t:|1639029633
+|move|p1a: Chatot|Heat Wave|p2a: El mamado
+|-supereffective|p2a: El mamado
+|-damage|p2a: El mamado|0 fnt
+|faint|p2a: El mamado
+|
+|-sideend|p1: Ahxjxhchc|move: Light Screen
+|upkeep
+|
+|t:|1639029641
+|switch|p2a: El shiny|Metagross, shiny|100/100
+|turn|10
+|
+|t:|1639029645
+|move|p1a: Chatot|Heat Wave|p2a: El shiny
+|-supereffective|p2a: El shiny
+|-damage|p2a: El shiny|0 fnt
+|faint|p2a: El shiny
+|
+|upkeep
+|
+|t:|1639029651
+|switch|p2a: El flamas|Charizard, F|100/100
+|turn|11
+|
+|t:|1639029656
+|detailschange|p2a: El flamas|Charizard-Mega-X, F
+|-mega|p2a: El flamas|Charizard|Charizardite X
+|move|p1a: Chatot|Boomburst|p2a: El flamas
+|-damage|p2a: El flamas|0 fnt
+|faint|p2a: El flamas
+|
+|upkeep
+|
+|t:|1639029665
+|switch|p2a: El esporas|Sceptile, F|100/100
+|turn|12
+|
+|t:|1639029670
+|move|p1a: Chatot|Boomburst|p2a: El esporas
+|-damage|p2a: El esporas|0 fnt
+|faint|p2a: El esporas
+|
+|upkeep
+|c|☆Soyunnoobnomematen|madre mia
+|c|☆Soyunnoobnomematen|que paliza me estas dando
+|
+|t:|1639029688
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|13
+|
+|t:|1639029699
+|move|p1a: Chatot|Boomburst|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|Ahxjxhchc
+|raw|Ahxjxhchc's rating: 1023 &rarr; <strong>1057</strong><br />(+34 for winning)
+|raw|Soyunnoobnomematen's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆Soyunnoobnomematen|gg
+|l|☆Soyunnoobnomematen

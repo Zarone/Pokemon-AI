@@ -1,0 +1,487 @@
+|j|☆Cloyos
+|j|☆Pyr00o
+|t:|1639030792
+|gametype|singles
+|player|p1|Cloyos|steven|1142
+|player|p2|Pyr00o|266|1276
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Lopunny, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Chansey, F|
+|poke|p2|Manectric, M|
+|poke|p2|Tapu Koko|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Hydreigon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cloyos)
+|j| seankk
+|l| seankk
+|
+|t:|1639030809
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+|
+|t:|1639030823
+|move|p2a: Tapu Koko|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|72/100
+|
+|t:|1639030826
+|switch|p2a: Gliscor|Gliscor, F|100/100|[from]move: U-turn
+|move|p1a: Galvantula|Sticky Web|p2a: Gliscor
+|-sidestart|p2: Pyr00o|move: Sticky Web
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1639030837
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Gliscor|Stealth Rock|p1a: Chansey
+|-sidestart|p1: Cloyos|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1639030845
+|move|p2a: Gliscor|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|88/100
+|
+|t:|1639030847
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Chansey|Counter|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|
+|-heal|p2a: Corviknight|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639030857
+|move|p2a: Corviknight|Defog|p1a: Chansey
+|-unboost|p1a: Chansey|evasion|1
+|-sideend|p1: Cloyos|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Pyr00o|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Electric Terrain
+|move|p1a: Chansey|Counter||[still]
+|-fail|p1a: Chansey
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639030871
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Chansey|Sing|p2a: Tapu Koko|[miss]
+|-miss|p1a: Chansey|p2a: Tapu Koko
+|
+|upkeep
+|turn|6
+|
+|t:|1639030879
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Tapu Koko|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|92/100
+|-damage|p2a: Tapu Koko|84/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|
+|t:|1639030884
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1639030898
+|move|p2a: Urshifu|Surging Strikes|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|58/100
+|-damage|p2a: Urshifu|78/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|25/100
+|-damage|p2a: Urshifu|61/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-damage|p2a: Urshifu|45/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|faint|p1a: Hippowdon
+|-hitcount|p1: Hippowdon|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|39/100|[from] Sandstorm
+|upkeep
+|
+|t:|1639030911
+|switch|p1a: Lopunny|Lopunny, M|100/100
+|turn|8
+|
+|t:|1639030921
+|switch|p2a: Corviknight|Corviknight, M|74/100
+|-ability|p2a: Corviknight|Pressure
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|94/100|[from] Sandstorm
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1639030935
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|84/100
+|-damage|p2a: Corviknight|66/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1639030948
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Heatran|Earth Power|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1639030968
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Gliscor|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|97/100
+|
+|t:|1639030972
+|switch|p2a: Manectric|Manectric, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1639030979
+|switch|p1a: Heatran|Heatran, F|84/100
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p2a: Manectric|Rising Voltage|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1639030988
+|switch|p1a: Galvantula|Galvantula, F|72/100
+|turn|13
+|
+|t:|1639030995
+|move|p2a: Manectric|Overheat|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-unboost|p2a: Manectric|spa|2
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1639031002
+|switch|p1a: Chansey|Chansey, F|88/100
+|turn|14
+|
+|t:|1639031004
+|move|p2a: Manectric|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|83/100
+|
+|t:|1639031016
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox|[from]move: Volt Switch
+|move|p1a: Chansey|Sing|p2a: Gliscor|[miss]
+|-miss|p1a: Chansey|p2a: Gliscor
+|
+|upkeep
+|turn|15
+|
+|t:|1639031025
+|move|p2a: Gliscor|Stealth Rock|p1a: Chansey
+|-sidestart|p1: Cloyos|move: Stealth Rock
+|move|p1a: Chansey|Counter||[still]
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|16
+|
+|t:|1639031033
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|39/100
+|move|p1a: Chansey|Counter||[still]
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|17
+|
+|t:|1639031050
+|move|p2a: Urshifu|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|57/100
+|
+|t:|1639031052
+|switch|p2a: Corviknight|Corviknight, M|72/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Chansey|Sing|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Sing
+|
+|-heal|p2a: Corviknight|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1639031062
+|cant|p2a: Corviknight|slp
+|move|p1a: Chansey|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Pyr00o|move: Stealth Rock
+|
+|-heal|p2a: Corviknight|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1639031079
+|-curestatus|p2a: Corviknight|slp|[msg]
+|move|p2a: Corviknight|Defog|p1a: Chansey
+|-unboost|p1a: Chansey|evasion|1
+|-sideend|p1: Cloyos|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Pyr00o|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Chansey|Sing|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Sing
+|
+|-heal|p2a: Corviknight|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1639031096
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|39/100
+|move|p1a: Chansey|Stealth Rock|p2a: Urshifu
+|-sidestart|p2: Pyr00o|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1639031103
+|move|p2a: Urshifu|Close Combat|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Chansey
+|
+|upkeep
+|
+|t:|1639031109
+|switch|p1a: Lopunny|Lopunny-Mega, M|94/100
+|turn|22
+|
+|t:|1639031127
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Lopunny|High Jump Kick|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1639031134
+|switch|p2a: Tapu Koko|Tapu Koko|84/100
+|-damage|p2a: Tapu Koko|72/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|23
+|
+|t:|1639031142
+|switch|p2a: Corviknight|Corviknight, M|90/100 slp
+|-damage|p2a: Corviknight|78/100 slp|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Lopunny|Return|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100 slp
+|
+|-heal|p2a: Corviknight|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1639031152
+|switch|p1a: Togekiss|Togekiss, M|97/100
+|cant|p2a: Corviknight|slp
+|
+|-heal|p2a: Corviknight|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1639031159
+|move|p1a: Togekiss|Ancient Power|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100 slp
+|-boost|p1a: Togekiss|atk|1
+|-boost|p1a: Togekiss|def|1
+|-boost|p1a: Togekiss|spa|1
+|-boost|p1a: Togekiss|spd|1
+|-boost|p1a: Togekiss|spe|1
+|-curestatus|p2a: Corviknight|slp|[msg]
+|move|p2a: Corviknight|Defog|p1a: Togekiss
+|-unboost|p1a: Togekiss|evasion|1
+|-sideend|p2: Pyr00o|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Electric Terrain
+|
+|-heal|p2a: Corviknight|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1639031171
+|move|p1a: Togekiss|Ancient Power|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|90/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|96/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1639031179
+|move|p1a: Togekiss|Ancient Power|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|move|p2a: Corviknight|Brave Bird|p1a: Togekiss
+|-damage|p1a: Togekiss|67/100
+|-damage|p2a: Corviknight|68/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1639031186
+|move|p1a: Togekiss|Ancient Power|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|-boost|p1a: Togekiss|atk|1
+|-boost|p1a: Togekiss|def|1
+|-boost|p1a: Togekiss|spa|1
+|-boost|p1a: Togekiss|spd|1
+|-boost|p1a: Togekiss|spe|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|29
+|
+|t:|1639031200
+|move|p1a: Togekiss|Aura Sphere|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|move|p2a: Corviknight|Brave Bird|p1a: Togekiss
+|-damage|p1a: Togekiss|47/100
+|-damage|p2a: Corviknight|39/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|45/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1639031210
+|move|p1a: Togekiss|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|18/100
+|move|p2a: Corviknight|Brave Bird|p1a: Togekiss
+|-damage|p1a: Togekiss|27/100
+|-damage|p2a: Corviknight|13/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|19/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1639031218
+|move|p1a: Togekiss|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1639031222
+|switch|p2a: Tapu Koko|Tapu Koko|72/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|32
+|
+|t:|1639031227
+|move|p1a: Togekiss|Air Slash|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|18/100
+|cant|p2a: Tapu Koko|flinch
+|
+|upkeep
+|turn|33
+|
+|t:|1639031232
+|move|p1a: Togekiss|Air Slash|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-crit|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|upkeep
+|
+|t:|1639031236
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|39/100
+|turn|34
+|
+|t:|1639031239
+|move|p2a: Urshifu|Aqua Jet|p1a: Togekiss
+|-damage|p1a: Togekiss|9/100
+|move|p1a: Togekiss|Draining Kiss|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-heal|p1a: Togekiss|50/100|[from] drain|[of] p2a: Urshifu
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1639031243
+|switch|p2a: Manectric|Manectric-Mega, M|100/100
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Togekiss|atk|1
+|turn|35
+|
+|t:|1639031251
+|move|p1a: Togekiss|Air Slash|p2a: Manectric
+|-resisted|p2a: Manectric
+|-damage|p2a: Manectric|48/100
+|cant|p2a: Manectric|flinch
+|
+|upkeep
+|turn|36
+|n|!Pyr00o|pyr00o
+|-message|Pyr00o forfeited.
+|
+|win|Cloyos
+|raw|Cloyos's rating: 1142 &rarr; <strong>1176</strong><br />(+34 for winning)
+|raw|Pyr00o's rating: 1276 &rarr; <strong>1242</strong><br />(-34 for losing)
+|l|!Pyr00o
