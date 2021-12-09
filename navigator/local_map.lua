@@ -27,70 +27,78 @@ lmd.debug_box_size = 3
 lmd.debug_box_margin = 8
 
 lmd.pf = { -- pathfinder
-    ismoving = true,
+    path = {},
+    ismoving = false,
+    move_x_dir = nil,
+    move_y_dir = nil,
     frame_counter = 0,
     frame_per_move = 30
 }
 
-lmd.pf.try_move_start = function()
+lmd.pf.try_move_start = function(dir_x, dir_y)
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
-    print("start move")
+    lmd.pf.ismoving = true
+    lmd.pf.move_x_dir = dir_x
+    lmd.pf.move_y_dir = dir_y
+    -- print("start move")
 end
 
-lmd.pf.try_move = function(dir_x, dir_y) -- arguments are either (-1, 0), (0, -1), (0, 1) or (1, 0)
+lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or (1, 0)
     -- if not pathfinder.ismoving then
     -- print("start moving", pathfinder.frame_counter, pathfinder.frame_per_move)
 
-    if (lmd.pf.ismoving) then
-        dir = {}
+    dir = {}
 
-        if (dir_x == 0 and dir_y == 1) then
-            dir.up = true
-        elseif (dir_x == 0 and dir_y == -1) then
-            dir.down = true
-        elseif (dir_x == 1 and dir_y == 0) then
-            dir.right = true
-        elseif (dir_x == -1 and dir_y == 0) then
-            dir.left = true
-        end
+    if (lmd.pf.move_x_dir == 0 and lmd.pf.move_y_dir == -1) then
+        dir.up = true
+    elseif (lmd.pf.move_x_dir == 0 and lmd.pf.move_y_dir == 1) then
+        dir.down = true
+    elseif (lmd.pf.move_x_dir == 1 and lmd.pf.move_y_dir == 0) then
+        dir.right = true
+    elseif (lmd.pf.move_x_dir == -1 and lmd.pf.move_y_dir == 0) then
+        dir.left = true
+    end
 
-        joypad.set(0, dir)
+    joypad.set(0, dir)
 
-        if not (lmd.pf.last_x == lmd.x and lmd.pf.last_y == lmd.y) then
-            -- moved successfully
-            lmd.pf.ismoving = false
-        elseif lmd.pf.frame_counter > lmd.pf.frame_per_move then
-            -- moved unsucessfully
+    if not (lmd.pf.last_x == lmd.x and lmd.pf.last_y == lmd.y) then
+        -- moved successfully
+        return 0
+    elseif lmd.pf.frame_counter > lmd.pf.frame_per_move then
+        -- moved unsucessfully
 
-            if not (lmd.is_npc_at(lmd.x + lmd.x_offset + dir_x, lmd.y + lmd.y_offset + dir_y)) then
+        if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir, lmd.y + lmd.y_offset + lmd.pf.move_y_dir)) then
 
-                print("no npc found at: ", lmd.x + lmd.x_offset + dir_x, lmd.y + lmd.y_offset + dir_y)
+            print("no npc found at: ", lmd.x + lmd.x_offset + lmd.pf.move_x_dir,
+                lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
 
-                -- expand the map
-                if (lmd.y + lmd.y_offset + 1 + dir_y < lmd.map_y_start) then
-                    lmd.map_y_start = lmd.y + lmd.y_offset + 1 + dir_y
-                elseif (lmd.y + lmd.y_offset + 1 + dir_y > lmd.map_y_end) then
-                    lmd.map_y_end = lmd.y + lmd.y_offset + 1 + dir_y
-                end
-
-                if (lmd.x + lmd.x_offset + 1 + dir_x < lmd.map_x_start) then
-                    lmd.map_x_start = lmd.x + lmd.x_offset + 1 + dir_x
-                elseif (lmd.x + lmd.x_offset + dir_x + 1 > lmd.map_x_end) then
-                    lmd.map_x_end = lmd.x + lmd.x_offset + 1 + dir_x
-                end
-
-                if (lmd.local_map[lmd.y + lmd.y_offset + 1 + dir_y] == nil) then -- if the new row is nil
-                    lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
-                end
-                lmd.local_map[lmd.y + lmd.y_offset + 1 + dir_y][lmd.x + lmd.x_offset + 1 + dir_x] = 2
+            -- expand the map
+            if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
+                lmd.map_y_start = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
+            elseif (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir > lmd.map_y_end) then
+                lmd.map_y_end = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
             end
 
-            lmd.pf.ismoving = false
+            if (lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir < lmd.map_x_start) then
+                lmd.map_x_start = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
+            elseif (lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
+                lmd.map_x_end = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
+            end
+
+            if (lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] == nil) then -- if the new row is nil
+                lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
+            end
+            -- print(lmd.local_map, lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
+            lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
+            return 2
         end
 
-        lmd.pf.frame_counter = lmd.pf.frame_counter + 1
+        return 3
     end
+
+    lmd.pf.frame_counter = lmd.pf.frame_counter + 1
+    return 1
 end
 
 lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
@@ -99,12 +107,12 @@ end
 
 lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
     neighbors = {}
-    
+
     neighbor_insert = function(insert_x, insert_y)
         -- if the row doesn't exist
         -- or if the row exists, and the element does not equal an unmovable space
         if ((lmd.local_map[insert_y] == nil) or
-        (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
+            (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
 
             -- if the neighbor is without an npc
             npc_bool = lmd.is_npc_at(insert_x, insert_y)
@@ -112,13 +120,13 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
             if not npc_bool then
 
                 h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
-                
+
                 new_node_path = nil
-                if #given_node[3]==0 then
+                if #given_node[3] == 0 then
                     new_node_path = {{insert_x, insert_y}}
                 else
-                    new_node_path = { unpack(given_node[3]) }
-                    table.insert(new_node_path, #new_node_path+1, {insert_x, insert_y})
+                    new_node_path = {unpack(given_node[3])}
+                    table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
                 end
 
                 -- the reason for this loop is to find the ideal place to insert neighbor
@@ -129,7 +137,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                 end
 
                 table.insert(neighbors, i, {insert_x, insert_y, new_node_path, h_cost})
-                
+
             end
         end
 
@@ -139,13 +147,11 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
     neighbor_insert(given_node[1], given_node[2] - 1)
     neighbor_insert(given_node[1] + 1, given_node[2])
     neighbor_insert(given_node[1] - 1, given_node[2])
-    
+
     return neighbors
 end
 
--- lmd.pf.pathfinder_run = function()
-
-lmd.pf.pathfind_start = function(dest_x, dest_y)
+lmd.pf.find_path = function(dest_x, dest_y)
     stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack
     -- local example_node = { x, y, { -- previous nodes -- }, heuristic_cost }
 
@@ -161,15 +167,18 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
 
         -- get top element of stack
         current_node = stack[#stack]
-                
+
         if (current_node[4] < 0.01) then
             print("final node: ", current_node)
+            for i = #current_node[3], 1, -1 do
+                table.insert(lmd.pf.path, (current_node[3][i]))
+            end
             break
         end
 
         -- find neighbors of element
         current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
-        
+
         -- remove top element of stack
         table.remove(stack)
 
@@ -183,7 +192,7 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
                     has_been_visited = true
                     break
                 end
-            end 
+            end
 
             if not has_been_visited then
                 table.insert(stack, #stack + 1, node)
@@ -193,9 +202,56 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
         end
 
     end
+end
 
-    -- At any point if we’re unsure about the status (walking or blocked), attempt to traverse it and if the tile is traversable restart algorithm.
+lmd.pf.follow_path = function()
+    -- At any point if we’re unsure about the status (walking or blocked), 
+    -- attempt to traverse it and if the tile is traversable restart algorithm.
+    if not lmd.pf.ismoving then
+        dir_x = lmd.pf.path[#lmd.pf.path][1] - (lmd.x_offset + lmd.x + 1)
+        dir_y = lmd.pf.path[#lmd.pf.path][2] - (lmd.y_offset + lmd.y + 1)
 
+        lmd.pf.try_move_start(dir_x, dir_y)    
+
+    else
+        -- try_move can return 
+        -- 0: successfully moved to destination
+        -- 1: has not completed move
+        -- 2: unknown obstacle blocked path
+        -- 3: npc blocked path
+
+        move_result = lmd.pf.try_move()
+        if move_result == 0 then
+            lmd.pf.ismoving = false
+            lmd.pf.frame_counter = 0
+            table.remove(lmd.pf.path)
+        elseif move_result == 1 then
+            return
+        elseif move_result == 2 then
+            lmd.pf.ismoving = false
+            lmd.pf.frame_counter = 0
+            lmd.pf.path = {}
+        elseif move_result == 3 then
+            lmd.pf.ismoving = false
+            lmd.pf.frame_counter = 0
+            lmd.pf.path = {}
+        end
+    end
+end
+
+lmd.pf.manage_path_to = function(dest_x, dest_y)
+    if lmd.x+lmd.x_offset+1 == dest_x and lmd.y+lmd.y_offset+1 == dest_y  then
+        print("at destination")
+        return
+    else 
+        if #lmd.pf.path == 0 then
+            print("finding new path")
+            lmd.pf.find_path(dest_x, dest_y)
+        else
+            -- print("following path: ", lmd.pf.path)
+            lmd.pf.follow_path()
+        end
+    end
 end
 
 function lmd.reset_map()
@@ -332,13 +388,9 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
     if debug_map then
         lmd.debug_map_view()
         lmd.debug_npc_view()
+        gui.text(1, 30, lmd.x+lmd.x_offset+1)
+        gui.text(11, 30, lmd.y+lmd.y_offset+1)
     end
 end
-
--- while true do
-lmd.update_map()
-lmd.pf.pathfind_start(5, 0)
--- emu.frameadvance()
--- end
 
 return lmd

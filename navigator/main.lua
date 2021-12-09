@@ -9,6 +9,7 @@ local mode = 1
 while true do
     if (mode == 1) then
         lmd.update_map(true)
+        lmd.pf.manage_path_to(5, 2)
     end
 
     emu.frameadvance()
