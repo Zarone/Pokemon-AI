@@ -93,26 +93,18 @@ lmd.pf.try_move = function(dir_x, dir_y) -- arguments are either (-1, 0), (0, -1
     end
 end
 
-function lmd.reset_map()
-    lmd.local_map = {{0}}
-    lmd.map_x_start = 1
-    lmd.map_x_end = 1
-    lmd.map_y_start = 1
-    lmd.map_y_end = 1
-end
-
 lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
     return math.sqrt((node_x - dest_x) ^ 2 + (node_y - dest_y) ^ 2)
 end
 
 lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
     neighbors = {}
-
+    
     neighbor_insert = function(insert_x, insert_y)
         -- if the row doesn't exist
         -- or if the row exists, and the element does not equal an unmovable space
         if ((lmd.local_map[insert_y] == nil) or
-            (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
+        (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
 
             -- if the neighbor is without an npc
             npc_bool = lmd.is_npc_at(insert_x, insert_y)
@@ -120,8 +112,14 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
             if not npc_bool then
 
                 h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
-                new_node_path = given_node[3]
-                table.insert(new_node_path, {insert_x, insert_y})
+                
+                new_node_path = nil
+                if #given_node[3]==0 then
+                    new_node_path = {{insert_x, insert_y}}
+                else
+                    new_node_path = { unpack(given_node[3]) }
+                    table.insert(new_node_path, #new_node_path+1, {insert_x, insert_y})
+                end
 
                 -- the reason for this loop is to find the ideal place to insert neighbor
                 -- you want the best nodes to have highest indexes on the stack
@@ -131,7 +129,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                 end
 
                 table.insert(neighbors, i, {insert_x, insert_y, new_node_path, h_cost})
-
+                
             end
         end
 
@@ -141,7 +139,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
     neighbor_insert(given_node[1], given_node[2] - 1)
     neighbor_insert(given_node[1] + 1, given_node[2])
     neighbor_insert(given_node[1] - 1, given_node[2])
-
+    
     return neighbors
 end
 
@@ -163,9 +161,7 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
 
         -- get top element of stack
         current_node = stack[#stack]
-        
-        print("searching: ", current_node)
-        
+                
         if (current_node[4] < 0.01) then
             print("final node: ", current_node)
             break
@@ -196,11 +192,18 @@ lmd.pf.pathfind_start = function(dest_x, dest_y)
             end
         end
 
-        print("table after check", stack)
     end
 
     -- At any point if we’re unsure about the status (walking or blocked), attempt to traverse it and if the tile is traversable restart algorithm.
 
+end
+
+function lmd.reset_map()
+    lmd.local_map = {{0}}
+    lmd.map_x_start = 1
+    lmd.map_x_end = 1
+    lmd.map_y_start = 1
+    lmd.map_y_end = 1
 end
 
 function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
