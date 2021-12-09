@@ -3,21 +3,26 @@
 desired outputs:
 
   for each turn:
-    a json like:
-      {
+    a array like:
+      [
+        [
+          # total length should be 298
 
-        stat boost array for each player
-        statboosts: [ atk, spatk, def, spdef, spe ]
+          # stat boost array for each player
+          atk, spatk, def, spdef, spe
 
-        for each of you and your opponent's pokemon
-        ownteam / opponent's team: { [types], %HP, [basestats] },
-        17 types
-        [ isFire, isWater, isGrass, etc ]
+          # for each of you and your opponent's pokemon
+          # make sure to include the active pokemon seperately
+          
+          %HP, *basestats, *types
+          
+          # 17 types
+          # types = [ isFire, isWater, isGrass, etc ]
 
-        make sure to include the active pokemon seperately
+        ]
 
         won 
-      }
+      ]
 
 '''
 
@@ -27,4 +32,6 @@ import os
 for file in os.listdir("./raw_logs/"):
     log = open("raw_logs/"+file, "r")
     new_game = gs.GameState(log.readlines(), False)
+    # print(len(new_game.get_output()[0]))
+    new_game.next_turn()
     log.close()
