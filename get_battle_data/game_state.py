@@ -1,4 +1,5 @@
 import json
+from os import stat
 
 def get_pokemon_data(pokemon):
     pokemon_raw = open("gamedata/pokedex.json", "r")
@@ -13,6 +14,9 @@ def get_pokemon_data(pokemon):
 
     pokemon_info["HP%"] = 100
     pokemon_info["name"] = filter_name
+
+    # for status: 0 is none, 1 is burn, 2 is freeze, 3 is paralysis, 4 is poison, 5 is badly poisoned, 6 is sleep
+    pokemon_info["non-volatile-status"] = 0
 
     return pokemon_info
 
@@ -56,12 +60,31 @@ def get_types_array(typelist):
     
     return types
 
+def get_status_array(status):
+    status = [0 for _ in range(5)]
+
+    if status == 1:
+        status[0] = 1
+    elif status == 2:
+        status[1] = 1
+    elif status == 3:
+        status[2] = 1
+    elif status == 4:
+        status[3] = 1
+    elif status == 5:
+        status[3] = 2
+    elif status == 6:
+        status[4] = 1
+
+    return status
+
 def get_array(pokedata):
     hp = pokedata["HP%"]
     basestats = pokedata["baseStats"]
     types = get_types_array(pokedata["types"])
+    status = get_status_array(pokedata["non-volatile-status"])
     
-    return [hp, *[basestats[key] for key in basestats], *types]
+    return [hp, *[basestats[key] for key in basestats], *types, *status]
 
 class GameState:
     def get_output(self):
@@ -83,8 +106,20 @@ class GameState:
                 for val in get_array(self.player2team[i]):
                     p2_bench.append(val)
 
-        return [ [*self.player1boosts, *self.player2boosts, *p1_active, *p1_bench, *p2_active, *p2_bench], self.player1won]
 
+        return [ 
+                [
+                    self.numberofweatherturns,
+                    *self.weathertype,
+                    *self.player1hazards,
+                    *self.player2hazards,
+                    *self.player1volatilestatus,
+                    *self.player2volatilestatus,
+                    *self.player1boosts,
+                    *self.player2boosts,
+                    *p1_active, *p1_bench, *p2_active, *p2_bench
+                 ], self.player1won
+            ]
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|turn"):
@@ -111,7 +146,19 @@ class GameState:
                             self.player2active = j
                             break
             elif self.log[i].startswith("|-damage"):
-                print("implement changed health")
+                print("implement damage")
+            elif self.log[i].startswith("|-heal"):
+                print("implement heal")
+            elif self.log[i].startswith("|-status"):
+                print("implement status change")
+            elif self.log[i].startswith("|-boost"):
+                print("implement boost")
+            elif self.log[i].startswith("|-unboost"):
+                print("implement unboost")
+            elif self.log[i].startswith("|-sidestart"):
+                print("implement new field")
+            elif self.log[i].startswith("|-sideend"):
+                print("implement field move end")
 
         # print(self.player1active, self.player2active, self.current_turn)
         self.current_turn += 1
@@ -129,6 +176,19 @@ class GameState:
         self.player2active = None
         self.player1boosts = [0 for _ in range(5)]
         self.player2boosts = [0 for _ in range(5)]
+
+        # right now these just check leech seed
+        # but later I could add taunt, and other stuff like that
+        self.player1volatilestatus = [0 for _ in range(1)] 
+        self.player2volatilestatus = [0 for _ in range(1)]
+
+        # spikes, toxic spikes, stealth rocks
+        self.player1hazards = [0 for _ in range(3)]
+        self.player2hazards = [0 for _ in range(3)]
+
+        # weather: 0 => sun, 1 => rain, 2 => sand, 3 => hail
+        self.numberofweatherturns = 0
+        self.weathertype = [0 for _ in range(4)]
 
         turn_zero = False #there's a period when the game has started but there's no active
 
