@@ -13,9 +13,16 @@ while true do
         objective = goals.attempt_goal()
         
         if objective[1] == 0 then -- if the goal is to move to coordinates
-            if lmd.pf.manage_path_to( unpack(objective[2]) ) then
+            local_path_response = lmd.pf.manage_path_to( unpack(objective[2]) )
+            if local_path_response == 1 then
                 goals.objective_complete()
                 print("objective complete")
+
+                if objective[3] then
+                    print("returning control to decision maker")
+                    mode = 0
+                end
+            elseif local_path_response == 2 then -- if the player warped
                 mode = 0
             end
         end

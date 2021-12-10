@@ -4,8 +4,11 @@ goal_manager = {
     -- array of goals
     -- first value corresponds to type of action
     -- 0: go to coords {x, y}
+    -- second value is data for the first value
+    -- third value states whether or not control should return to decision maker
     goals = {
-        {0, {-2, -7}}
+        {0, {-2, -7}, false},
+        {0, {1, 1}, true}
     }
 }
 
