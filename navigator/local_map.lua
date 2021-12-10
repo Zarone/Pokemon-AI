@@ -63,15 +63,17 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
     joypad.set(0, dir)
 
     if not (lmd.pf.last_x == lmd.x and lmd.pf.last_y == lmd.y) then
+        print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
         -- moved successfully
         return 0
     elseif lmd.pf.frame_counter > lmd.pf.frame_per_move then
+        print("move unsucessful:", lmd.x + lmd.x_offset + lmd.pf.move_x_dir+1, 1+lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
         -- moved unsucessfully
 
-        if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir, lmd.y + lmd.y_offset + lmd.pf.move_y_dir)) then
+        if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir+1, lmd.y + lmd.y_offset + lmd.pf.move_y_dir+1)) then
 
-            print("no npc found at: ", lmd.x + lmd.x_offset + lmd.pf.move_x_dir,
-                lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
+            print("no npc found at: ", lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir,
+                lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
 
             -- expand the map
             if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
@@ -87,9 +89,10 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
             end
 
             if (lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] == nil) then -- if the new row is nil
-                lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
+                lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
             end
-            -- print(lmd.local_map, lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
+
+            print(lmd.local_map, lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
             lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
             return 2
         end
@@ -169,7 +172,6 @@ lmd.pf.find_path = function(dest_x, dest_y)
         current_node = stack[#stack]
 
         if (current_node[4] < 0.01) then
-            print("final node: ", current_node)
             for i = #current_node[3], 1, -1 do
                 table.insert(lmd.pf.path, (current_node[3][i]))
             end
@@ -241,17 +243,15 @@ end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
     if lmd.x+lmd.x_offset+1 == dest_x and lmd.y+lmd.y_offset+1 == dest_y  then
-        print("at destination")
-        return
+        return true
     else 
         if #lmd.pf.path == 0 then
-            print("finding new path")
             lmd.pf.find_path(dest_x, dest_y)
         else
-            -- print("following path: ", lmd.pf.path)
             lmd.pf.follow_path()
         end
     end
+    return false
 end
 
 function lmd.reset_map()
