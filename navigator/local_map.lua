@@ -33,10 +33,15 @@ lmd.pf = { -- pathfinder
     move_x_dir = nil,
     move_y_dir = nil,
     frame_counter = 0,
-    frame_per_move = 30
+    frame_per_move = 80,
+    is_warping = false,
+    warp_frame_counter = 0,
+    warp_frames_per_warp = 120
 }
 
 lmd.pf.try_move_start = function(dir_x, dir_y)
+    print("try_move_start: ", lmd.map_id)
+
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
     lmd.pf.last_map = lmd.map_id
@@ -77,6 +82,52 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 lmd.pf.ismoving = false
                 return 0 -- indicate successfuly move
             else
+
+                lmd.pf.ismoving = false
+                -- print("try_move: map has changed")
+                if lmd.map_id ~= nil then
+
+                    -- expand the map
+                    if (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 < lmd.map_y_start) then
+                        lmd.map_y_start = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
+                    elseif (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 > lmd.map_y_end) then
+                        lmd.map_y_end = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
+                    end
+
+                    if (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 < lmd.map_x_start) then
+                        lmd.map_x_start = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
+                    elseif (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
+                        lmd.map_x_end = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
+                    end
+
+                    -- set the last location to a warp
+
+                    -- if the new row is nil
+                    if lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] == nil then
+                        lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] = {}
+                    end
+
+                    lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1] = 3
+
+                    -- print(lmd.local_map)
+
+                    -- saves the map to a file
+                    export_data = {
+                        map = lmd.local_map,
+                        map_x_start = lmd.map_x_start,
+                        map_x_end = lmd.map_x_end,
+                        map_y_start = lmd.map_y_start,
+                        map_y_end = lmd.map_y_end,
+                        y_offset = lmd.y_offset,
+                        x_offset = lmd.x_offset
+
+                    }
+                    table.save(export_data, string.format("./map_cache/%d.lua", (lmd.pf.last_map)))
+                    -- print("saved map ", export_data, " to ", lmd.pf.last_map)
+                    lmd.pf.load_map()
+
+                end
+
                 return 4 -- indicate the player warped
             end
         else
@@ -87,8 +138,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
             if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
                 lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
 
-                print("no npc found at: ", lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir,
-                    lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
+                -- print("no npc found at: ", lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir,
+                --     lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
 
                 -- expand the map
                 if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
@@ -107,7 +158,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                     lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
                 end
 
-                print('here')
                 lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] =
                     2
                 return 2 -- indicate failed move
@@ -246,8 +296,9 @@ lmd.pf.follow_path = function()
             lmd.pf.ismoving = false
             lmd.pf.frame_counter = 0
             table.remove(lmd.pf.path)
+            return 0 -- indicates complete move
         elseif move_result == 1 then
-            return 1
+            return 1 -- indicates incomplete
         elseif move_result == 2 then
             lmd.pf.ismoving = false
             lmd.pf.frame_counter = 0
@@ -257,29 +308,73 @@ lmd.pf.follow_path = function()
             lmd.pf.frame_counter = 0
             lmd.pf.path = {}
         elseif move_result == 4 then
-            return 2
+            lmd.pf.ismoving = false
+            lmd.pf.path = {}
+            lmd.pf.frame_counter = 0
+
+            lmd.pf.is_warping = true
+            lmd.pf.warp_frame_counter = 0
+            return 2 -- indicates warp
         end
     end
-    return 0
+end
+
+lmd.pf.load_map = function()
+    -- print("load map called")
+    lmd.map_id = mem.get_map()
+
+    -- first check to see if the map is already stored somewhere
+    saved_map = io.open(string.format("./map_cache/%d.lua", (lmd.map_id)), "r")
+    if saved_map ~= nil then
+        saved_map:close()
+
+        import_data = table.load(string.format("./map_cache/%d.lua", (lmd.map_id)))
+
+        lmd.local_map = import_data.map
+        lmd.map_x_start = import_data.map_x_start
+        lmd.map_x_end = import_data.map_x_end
+        lmd.map_y_start = import_data.map_y_start
+        lmd.map_y_end = import_data.map_y_end
+        lmd.y_offset = import_data.y_offset
+        lmd.x_offset = import_data.x_offset
+        -- print("loaded found map", import_data)
+    else
+        -- print "try_move: reset_map"
+        lmd.reset_map()
+    end
 end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
-    if lmd.x + lmd.x_offset + 1 == dest_x and lmd.y + lmd.y_offset + 1 == dest_y then
-        return 1 -- indicates destination has been reached
-    else
-        if #lmd.pf.path == 0 then
-            lmd.pf.find_path(dest_x, dest_y)
-        else
-            -- lmd.pf.follow_path can return:
-            -- 0: still working on path
-            -- 1: completed path
-            -- 2: global map has changed
 
-            if lmd.pf.follow_path() == 2 then
-                return 2 -- indicates player has warped 
+    if #lmd.pf.path == 0 then
+        if lmd.pf.is_warping then
+            if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
+                lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
+            else
+                -- print("warp delay end")
+                lmd.pf.load_map()
+                lmd.pf.is_warping = false
             end
+        else
+            -- print("using map ", lmd.local_map)
+            -- print("using local coordinates", lmd.x+lmd.x_offset+1, lmd.y+lmd.y_offset+1)
+            -- print("manage_path_to: find new path to ", dest_x, dest_y)
+            if lmd.x+lmd.x_offset+1 == dest_x and lmd.y+lmd.y_offset+1 == dest_y then return 1 end
+            lmd.pf.find_path(dest_x, dest_y)
+        end
+    else
+        -- lmd.pf.follow_path can return:
+        -- 0: still working on path
+        -- 1: completed path
+        -- 2: global map has changed
+
+        follow_path_res = lmd.pf.follow_path()
+
+        if follow_path_res == 2 then
+            return 2 -- indicates player has warped 
         end
     end
+
     return 0 -- indicates destination has not been reached
 end
 
@@ -291,6 +386,7 @@ function lmd.reset_map()
     lmd.map_y_end = 1
     lmd.y_offset = -lmd.y
     lmd.x_offset = -lmd.x
+    -- print("reset map")
 end
 
 function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
@@ -314,6 +410,9 @@ function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
 end
 
 function lmd.debug_map_view()
+    if lmd.pf.is_warping then
+        return
+    end
     for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows 
         for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
 
@@ -329,7 +428,7 @@ function lmd.debug_map_view()
                     color = {0, 0, 255, 255}
                 else
                     print("strange nodetype detected: " .. node_type)
-                    color = {255,192,203, 255}
+                    color = {255, 192, 203, 255}
                 end
 
                 y_alt = lmd.debug_box_margin * (lmd.y + lmd.y_offset - (i - 1))
@@ -375,59 +474,17 @@ function lmd.debug_player_view()
 end
 
 function lmd.update_map(debug_map) -- boolean debug_map decides whether or not to render map
+
     old_x = lmd.x
     old_y = lmd.y
 
     lmd.x, lmd.y = mem.get_pos()
     if lmd.map_id ~= mem.get_map() then -- if the map has changed
 
-        if lmd.map_id ~= nil then
-
-            -- set the last location to a warp
-            lmd.local_map[lmd.y_offset + old_y + 1][lmd.x_offset + old_x + 1] = 3
-
-            -- saves the map to a file
-            export_data = {
-                map = lmd.local_map,
-                map_x_start = lmd.map_x_start,
-                map_x_end = lmd.map_x_end,
-                map_y_start = lmd.map_y_start,
-                map_y_end = lmd.map_y_end,
-                y_offset = lmd.y_offset,
-                x_offset = lmd.x_offset
-            }
-            table.save(export_data, string.format("./map_cache/%d.lua", (lmd.map_id)))
-
-            -- store_map = io.open(string.format("./map_cache/%d.lua", (lmd.map_id)), "w")
-            -- store_map:write(string.format(
-            --     "map_data = {}\nmap_data.map = %s\nmap_data.map_x_start = %d\nmap_data.map_x_end = %d\nmap_data.map_y_start = %d\nmap_data.map_y_end = %d\nmap_data.x_offset = %d\nmap_data.y_offset = %d\nreturn map_data",
-            --     table_to_string(lmd.local_map), lmd.map_x_start, lmd.map_x_end, lmd.map_y_start, lmd.map_y_end,
-            --     lmd.x_offset, lmd.y_offset))
-            -- if (store_map ~= nil) then
-            --     store_map:close()
-            -- end
-        end
-
-        lmd.map_id = mem.get_map()
-
-        -- first check to see if the map is already stored somewhere
-        saved_map = io.open(string.format("./map_cache/%d.lua", (lmd.map_id)), "r")
-        if saved_map ~= nil then
-            saved_map:close()
-
-            import_data = table.load(string.format("./map_cache/%d.lua", (lmd.map_id)))
-
-            lmd.local_map = import_data.map
-            lmd.map_x_start = import_data.map_x_start
-            lmd.map_x_end = import_data.map_x_end
-            lmd.map_y_start = import_data.map_y_start
-            lmd.map_y_end = import_data.map_y_end
-            lmd.y_offset = import_data.y_offset
-            lmd.x_offset = import_data.x_offset
-        else
-            print("new map")
+        if lmd.map_id == nil then
             lmd.reset_map()
         end
+        lmd.map_id = mem.get_map()
 
     elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
 
