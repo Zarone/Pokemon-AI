@@ -18,11 +18,12 @@ while true do
                 goals.objective_complete()
                 print("objective complete")
 
-                if objective[3] then
+                if objective[3][1] == 0 then
                     print("returning control to decision maker")
                     mode = 0
                 end
             elseif local_path_response == 2 then -- if the player warped
+                print("has warped")
                 mode = 0
             end
         end
