@@ -1,6 +1,7 @@
 local lmd = {} -- local map data
 
 mem = require "memory_retrieval"
+gmd = require "global_map" -- global map data
 dofile("table_helper.lua")
 
 lmd.x = nil
@@ -23,7 +24,6 @@ lmd.map_y_end = 1
 lmd.x_offset = 0
 lmd.y_offset = 0
 
--- local debug_map = true
 lmd.debug_box_size = 3
 lmd.debug_box_margin = 8
 
@@ -33,14 +33,14 @@ lmd.pf = { -- pathfinder
     move_x_dir = nil,
     move_y_dir = nil,
     frame_counter = 0,
-    frame_per_move = 80,
+    frame_per_move = 50,
     is_warping = false,
     warp_frame_counter = 0,
-    warp_frames_per_warp = 120
+    warp_frames_per_warp = 100
 }
 
 lmd.pf.try_move_start = function(dir_x, dir_y)
-    print("try_move_start: ", lmd.map_id)
+    -- print("try_move_start: ", lmd.map_id)
 
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
@@ -48,7 +48,7 @@ lmd.pf.try_move_start = function(dir_x, dir_y)
     lmd.pf.ismoving = true
     lmd.pf.move_x_dir = dir_x
     lmd.pf.move_y_dir = dir_y
-    print("start move to " .. lmd.x_offset + lmd.x + dir_x + 1 .. " " .. lmd.y_offset + dir_y + lmd.y + 1)
+    -- print("start move to " .. lmd.x_offset + lmd.x + dir_x + 1 .. " " .. lmd.y_offset + dir_y + lmd.y + 1)
 end
 
 lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or (1, 0)
@@ -78,14 +78,15 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
             -- if the map hasn't changed
             if (lmd.map_id == lmd.pf.last_map) then
-                print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
+                -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
                 lmd.pf.ismoving = false
                 return 0 -- indicate successfuly move
             else
 
                 lmd.pf.ismoving = false
-                -- print("try_move: map has changed")
                 if lmd.map_id ~= nil then
+                    
+                    -- set the last location to a warp
 
                     -- expand the map
                     if (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 < lmd.map_y_start) then
@@ -100,8 +101,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                         lmd.map_x_end = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
                     end
 
-                    -- set the last location to a warp
-
                     -- if the new row is nil
                     if lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] == nil then
                         lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] = {}
@@ -109,7 +108,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                     lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1] = 3
 
-                    -- print(lmd.local_map)
+                    gmd.map[lmd.pf.last_map] = {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir, lmd.pf.last_y + lmd.pf.move_y_dir}
 
                     -- saves the map to a file
                     export_data = {
@@ -123,7 +122,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                     }
                     table.save(export_data, string.format("./map_cache/%d.lua", (lmd.pf.last_map)))
-                    -- print("saved map ", export_data, " to ", lmd.pf.last_map)
                     lmd.pf.load_map()
 
                 end
@@ -192,22 +190,27 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 
                 h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
 
-                new_node_path = nil
-                if #given_node[3] == 0 then
-                    new_node_path = {{insert_x, insert_y}}
-                else
-                    new_node_path = {unpack(given_node[3])}
-                    table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
+                -- if it's not a warp
+                if lmd.local_map[insert_y] == nil or lmd.local_map[insert_y][insert_x] ~= 3 or h_cost < 0.01 then
+                    
+                    new_node_path = nil
+                    if #given_node[3] == 0 then
+                        new_node_path = {{insert_x, insert_y}}
+                    else
+                        new_node_path = {unpack(given_node[3])}
+                        table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
+                    end
+    
+                    -- the reason for this loop is to find the ideal place to insert neighbor
+                    -- you want the best nodes to have highest indexes on the stack
+                    i = 1
+                    while i < #neighbors + 1 and h_cost + #new_node_path < #neighbors[i][3] + neighbors[i][4] do
+                        i = i + 1
+                    end
+    
+                    table.insert(neighbors, i, {insert_x, insert_y, new_node_path, h_cost})
+                    
                 end
-
-                -- the reason for this loop is to find the ideal place to insert neighbor
-                -- you want the best nodes to have highest indexes on the stack
-                i = 1
-                while i < #neighbors + 1 and h_cost + #new_node_path < #neighbors[i][3] + neighbors[i][4] do
-                    i = i + 1
-                end
-
-                table.insert(neighbors, i, {insert_x, insert_y, new_node_path, h_cost})
 
             end
         end
@@ -320,7 +323,6 @@ lmd.pf.follow_path = function()
 end
 
 lmd.pf.load_map = function()
-    -- print("load map called")
     lmd.map_id = mem.get_map()
 
     -- first check to see if the map is already stored somewhere
@@ -337,9 +339,7 @@ lmd.pf.load_map = function()
         lmd.map_y_end = import_data.map_y_end
         lmd.y_offset = import_data.y_offset
         lmd.x_offset = import_data.x_offset
-        -- print("loaded found map", import_data)
     else
-        -- print "try_move: reset_map"
         lmd.reset_map()
     end
 end
@@ -351,16 +351,13 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
             if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
                 lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
             else
-                -- print("warp delay end")
                 lmd.pf.load_map()
                 lmd.pf.is_warping = false
             end
         else
-            -- print("using map ", lmd.local_map)
-            -- print("using local coordinates", lmd.x+lmd.x_offset+1, lmd.y+lmd.y_offset+1)
-            -- print("manage_path_to: find new path to ", dest_x, dest_y)
             if lmd.x+lmd.x_offset+1 == dest_x and lmd.y+lmd.y_offset+1 == dest_y then return 1 end
             lmd.pf.find_path(dest_x, dest_y)
+            print(lmd.pf.path)
         end
     else
         -- lmd.pf.follow_path can return:
@@ -378,6 +375,30 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
     return 0 -- indicates destination has not been reached
 end
 
+lmd.pf.abs_manage_path_to = function(dest_x, dest_y)
+    -- print("abs_manage_path_to: ", dest_x, dest_y)
+    return lmd.pf.manage_path_to(dest_x+lmd.x_offset+1, dest_y+lmd.y_offset+1)
+end
+
+lmd.gpf = { -- global pathfinder
+    current_path = nil
+}
+
+lmd.gpf.find_global_path = function(to_map, to_x, to_y)
+    if lmd.map_id == to_map then
+        lmd.gpf.current_path = {{to_x, to_y}}
+        return true
+    else
+        global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
+        if global_pathfinding_res then
+            lmd.gpf.current_path = { unpack(global_pathfinding_res), {to_x, to_y} }
+            return true
+        else
+            return false
+        end
+    end
+end
+
 function lmd.reset_map()
     lmd.local_map = {{1}}
     lmd.map_x_start = 1
@@ -386,7 +407,6 @@ function lmd.reset_map()
     lmd.map_y_end = 1
     lmd.y_offset = -lmd.y
     lmd.x_offset = -lmd.x
-    -- print("reset map")
 end
 
 function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
@@ -416,6 +436,7 @@ function lmd.debug_map_view()
     for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows 
         for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
 
+            -- print(lmd.local_map, i, j)
             node_type = lmd.local_map[i][j]
             color = {}
 
@@ -529,7 +550,10 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         lmd.debug_npc_view()
         lmd.debug_player_view()
         gui.text(1, 30, lmd.x + lmd.x_offset + 1)
-        gui.text(11, 30, lmd.y + lmd.y_offset + 1)
+        gui.text(31, 30, lmd.y + lmd.y_offset + 1)
+        gui.text(1, 50, lmd.x)
+        gui.text(31, 50, lmd.y)
+        gui.text(1, 70, string.format("Map Id: %s", lmd.map_id))
     end
 end
 

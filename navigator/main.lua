@@ -1,5 +1,5 @@
-local lmd = require "local_map"
-local goals = require "goals" 
+local md = require "local_map" -- map data
+local goals = require "goals"
 
 -- the purpose of "mode" is to determine what
 -- game actions the bot is attempting to perform
@@ -8,32 +8,68 @@ local goals = require "goals"
 local mode = 1
 
 while true do
-    lmd.update_map(true)
+    md.update_map(true)
     if (mode == 1) then
         objective = goals.attempt_goal()
-        
-        if objective ~= -1 then
-            print("main: current goal, ", goals.current_goal)
-            if objective[1] == 0 then -- if the goal is to move to coordinates
-                local_path_response = lmd.pf.manage_path_to( unpack(objective[2]) )
-                print("main: local_path_response, ", local_path_response)
-                if local_path_response == 1 then
-                    goals.objective_complete()
-                    print("objective complete")
-    
-                    if objective[3][1] == 0 then
-                        print("returning control to decision maker")
-                        mode = 0
+
+        if objective ~= -1 then -- if we aren't out of goals to complete
+            if objective[1] == 0 or objective[1] == 1 then -- if the goal is to move to coordinates
+                to_map, to_x, to_y = unpack(objective[2])
+
+                -- print(to_map == md.map_id, to_x == md.x, to_y == md.y)
+                -- print(to_map,md.map_id, to_x,md.x, to_y,md.y)
+                -- if to_map == md.map_id and to_x == md.x and to_y == md.y then
+                --     goals.objective_complete()
+                --     if objective[3][1] == 0 then -- if the goal return control to main
+                --         mode = 0
+                --     end
+                -- else
+                -- print(md.gpf.current_path)
+                -- print(to_map, to_x, to_y)
+                if md.gpf.current_path == nil then
+                    if not md.gpf.find_global_path(to_map, to_x, to_y) then
+                        print("not enough information to traverse global map")
+                    else
+                        print("enough information to traverse global map")
                     end
-                elseif local_path_response == 2 then -- if the player warped
-                    -- print("main: has warped")
-                    goals.objective_fail()
-                    -- if objective[3][2] == 0 then
-                    --     print("returning control to decision maker from fail")
+                end
+
+                local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1])) -- check the result of our path manager
+                
+                -- print(local_path_response)
+                
+                if local_path_response == 1 then -- if the destination has been reached
+                    print("local destination reached")
+                    table.remove(md.gpf.current_path, 1)
+                    goals.objective_complete()
+
+                    -- if objective[3][1] == 0 then -- if the goal return control to main
                     --     mode = 0
                     -- end
-                    -- mode = 0
+                elseif local_path_response == 2 then -- if the player warped
+                    print "warped"
+
+                    change = false
+                    if objective[1] == 1 then
+                        if to_map == md.pf.last_map and to_x == md.pf.last_x + md.pf.move_x_dir and to_y == md.pf.last_y +
+                            md.pf.move_y_dir then
+                            goals.objective_complete()
+                            md.gpf.current_path = nil
+                            change = true
+                        end
+                    end
+
+                    if not change then
+                        if not md.gpf.find_global_path(to_map, to_x, to_y) then
+                            print("not enough information to traverse global map")
+                        else
+                            print("enough information to traverse global map")
+                        end
+                    end
+                    -- goals.objective_fail()
                 end
+                -- end
+
             end
         end
     end

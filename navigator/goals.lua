@@ -7,11 +7,10 @@ goal_manager = {
     -- second value is data for the first value
     -- third value states how the current_goal should change upon {completion, failure}
     goals = {
-        {0, {1, 3}, {1, 1}},
-        {0, {1, 0}, {0, 1}},
-        {0, {1, 0}, {1, 1}},
-        {0, {1, 4}, {1, 1}},
-        {0, {1, 3}, {1, 1}},
+        {1, {390, 6, 11}, {1, 1}},
+        {1, {389, 782, 748}, {1, 1}},
+        {1, {390, 6, 11}, {1, 1}},
+        {0, {389, 777, 742}, {1, 1}}
     }
 }
 
