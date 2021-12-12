@@ -110,9 +110,9 @@ gmd.go_to_map = function(current_map, current_x, current_y, to_map) -- returns p
 
 end
 
-gmd.map[1] = {{2, 3, 4, 2, 2}, {4, 3, 1, 4, 6}}
-gmd.map[2] = {{3, 1, 1, 4, 1}}
+-- gmd.map[1] = {{2, 3, 4, 2, 2}, {4, 3, 1, 4, 6}}
+-- gmd.map[2] = {{3, 1, 1, 4, 1}}
 
-print(gmd.go_to_map(1, 3, 3, 3))
+-- print(gmd.go_to_map(1, 3, 3, 3))
 
 return gmd

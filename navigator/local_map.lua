@@ -1,7 +1,7 @@
 local lmd = {} -- local map data
 
 mem = require "memory_retrieval"
-gmd = require "global_map" -- global map data
+local gmd = require "global_map" -- global map data
 dofile("table_helper.lua")
 
 lmd.x = nil
@@ -398,11 +398,13 @@ lmd.gpf = { -- global pathfinder
 
 lmd.gpf.find_global_path = function(to_map, to_x, to_y)
     if lmd.map_id == to_map then
-        lmd.gpf.current_path = {{to_x, to_y}}
+            print("find_global_path: 1")
+            lmd.gpf.current_path = {{to_x, to_y}}
         return true
     else
         global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
         if global_pathfinding_res then
+            print("find_global_path: 2")
             lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x, to_y}}
             return true
         else
@@ -504,7 +506,19 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
     end
 end
 
+lmd.get_global_map_data = function()
+    return {fully_explored = gmd.fully_explored, map = gmd.map}
+end
+
+lmd.set_global_map_data = function(data)
+    gmd.fully_explored = data.fully_explored
+    gmd.map = data.map
+    print("set global map data to: ", gmd.fully_explored, gmd.map)
+end
+
 function lmd.reset_map()
+    print("reset map")
+
     lmd.local_map = {{1}}
     lmd.map_x_start = 1
     lmd.map_x_end = 1
@@ -607,7 +621,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
     lmd.x, lmd.y = mem.get_pos()
     if lmd.map_id ~= mem.get_map() then -- if the map has changed
 
-        if lmd.map_id == nil then
+        if lmd.map_id == nil or not lmd.is_moving then
             lmd.reset_map()
         end
         lmd.map_id = mem.get_map()
@@ -642,6 +656,8 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
                 lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
             end
         end
+
+        print(lmd.x, old_x, lmd.x_offset, lmd.y, old_y, lmd.y_offset, lmd.local_map)
 
         if (lmd.x ~= old_x) then -- if the x changed
             if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then

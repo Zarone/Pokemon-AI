@@ -32,4 +32,17 @@ function mem.get_npc_mem()
 
 end
 
+function mem.is_dialogue_onscreen()
+    -- maybe: 0x0224F77D
+    -- maybe: 0x022842A9
+    -- maybe: 0x022842A9
+
+    -- maybe means can't move: 0x0224F77D
+    return memory.readbyteunsigned(0x0224F77D)
+end
+
+function mem.is_in_battle()
+    return memory.readbyteunsigned(0x02122DE6)    
+end
+
 return mem
