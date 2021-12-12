@@ -2,17 +2,17 @@ return {
 -- Table: {1}
 {
    ["map"]={2},
-   ["y_offset"]=-6,
+   ["y_offset"]=-749,
    ["map_y_end"]=1,
-   ["x_offset"]=-5,
-   ["map_y_start"]=-6,
-   ["map_x_start"]=-4,
+   ["x_offset"]=-782,
+   ["map_y_start"]=0,
+   ["map_x_start"]=1,
    ["map_x_end"]=1,
 },
 -- Table: {2}
 {
    {3},
-   [-6]={4},
+   [0]={4},
 },
 -- Table: {3}
 {
@@ -20,6 +20,6 @@ return {
 },
 -- Table: {4}
 {
-   [-4]=3,
+   3,
 },
 }

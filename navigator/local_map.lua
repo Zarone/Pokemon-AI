@@ -84,6 +84,9 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
             else
 
                 lmd.pf.ismoving = false
+
+                print("try_move: has warped")
+
                 if lmd.map_id ~= nil then
 
                     -- set the last location to a warp
@@ -131,6 +134,9 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                     }
                     table.save(export_data, string.format("./map_cache/%d.lua", (lmd.pf.last_map)))
+                    print("saved map data to: ", lmd.pf.last_map)
+                    print("saved map data was: ", export_data)
+
                     lmd.pf.load_map()
 
                 end
@@ -138,8 +144,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 return 4 -- indicate the player warped
             end
         else
-            print("try_move: move unsucessful:", lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
-                1 + lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
+            -- print("try_move: move unsucessful:", lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
+                -- 1 + lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
             -- moved unsucessfully
 
             if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
@@ -349,6 +355,8 @@ lmd.pf.load_map = function()
         lmd.map_y_end = import_data.map_y_end
         lmd.y_offset = import_data.y_offset
         lmd.x_offset = import_data.x_offset
+
+        print("imported map data: ", import_data)
     else
         lmd.reset_map()
     end
@@ -398,13 +406,11 @@ lmd.gpf = { -- global pathfinder
 
 lmd.gpf.find_global_path = function(to_map, to_x, to_y)
     if lmd.map_id == to_map then
-            print("find_global_path: 1")
             lmd.gpf.current_path = {{to_x, to_y}}
         return true
     else
         global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
         if global_pathfinding_res then
-            print("find_global_path: 2")
             lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x, to_y}}
             return true
         else
@@ -513,7 +519,7 @@ end
 lmd.set_global_map_data = function(data)
     gmd.fully_explored = data.fully_explored
     gmd.map = data.map
-    print("set global map data to: ", gmd.fully_explored, gmd.map)
+    -- print("set global map data to: ", gmd.fully_explored, gmd.map)
 end
 
 function lmd.reset_map()
@@ -555,7 +561,12 @@ function lmd.debug_map_view()
     for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows 
         for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
 
-            -- print(lmd.local_map, i, j)
+            if lmd.local_map == nil or lmd.local_map[i] == nil then
+                print("debug_map: error in map, here's the map and the search coordinates: ", lmd.local_map, i, j)
+                print("reloading map")
+                lmd.pf.load_map()
+                return
+            end
             node_type = lmd.local_map[i][j]
             color = {}
 
@@ -621,7 +632,13 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
     lmd.x, lmd.y = mem.get_pos()
     if lmd.map_id ~= mem.get_map() then -- if the map has changed
 
-        if lmd.map_id == nil or not lmd.is_moving then
+        print("update map: map is wrong")
+
+        -- if lmd.map_id == nil or not lmd.is_moving then
+        --     lmd.reset_map()
+        -- end
+
+        if lmd.map_id == nil then
             lmd.reset_map()
         end
         lmd.map_id = mem.get_map()
@@ -657,9 +674,12 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
             end
         end
 
-        print(lmd.x, old_x, lmd.x_offset, lmd.y, old_y, lmd.y_offset, lmd.local_map)
-
         if (lmd.x ~= old_x) then -- if the x changed
+            if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then
+                print("error in update map, so reloading map")
+                lmd.pf.load_map()
+                return
+            end
             if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
                 lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
             end

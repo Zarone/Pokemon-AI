@@ -11,14 +11,14 @@ local button_masher = require "button_masher"
 local mode = 1
 
 
-function exit()
-    print("saving data")
-    -- saves global map data
-    table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal }, "./map_cache/global_map_cache.lua")
-end
+-- function exit()
+--     print("saving data")
+--     -- saves global map data
+--     table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal }, "./map_cache/global_map_cache.lua")
+-- end
 
--- runs exit function on close
-emu.registerexit(exit)
+-- -- runs exit function on close
+-- emu.registerexit(exit)
 
 -- loaded_saved_data = table.load("./map_cache/global_map_cache.lua")
 -- if loaded_saved_data ~= nil then
@@ -36,16 +36,18 @@ while true do
     controls = joypad.get(1)
     is_text_onscreen = mem.is_dialogue_onscreen()
     is_in_battle = mem.is_in_battle()
+    can_move = mem.can_move()
 
     -- print(is_text_onscreen)
 
     if is_in_battle > 0 then
-        -- print("is in battle")
+        print("is in battle")
         button_masher.mash({A = true})
     elseif (is_text_onscreen > 0) then
         -- print("there's on screen dialogue, time to button mash")
         button_masher.mash({A = true})
     elseif (mode == 1) then
+        -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()
 
         if objective ~= -1 then -- if we aren't out of goals to complete
@@ -56,14 +58,15 @@ while true do
                     if not md.gpf.find_global_path(to_map, to_x, to_y) then
                         -- print("not enough information to traverse global map: wander")
                         md.wander()
+                        print(md.local_map)
                     else
-                        print("enough information to traverse global map")
+                        -- print("enough information to traverse global map")
                     end
                 else
                     -- check the result of our path manager
-                    print(md.gpf.current_path)
                     local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
-                    -- print(local_path_response)
+                    -- print("main: decided on path: ", md.gpf.current_path[1])
+                    -- print("main: result of path: ", local_path_response)
 
                     if local_path_response == 1 then -- if the destination has been reached
                         print("local destination reached")
