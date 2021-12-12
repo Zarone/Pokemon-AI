@@ -16,60 +16,44 @@ while true do
             if objective[1] == 0 or objective[1] == 1 then -- if the goal is to move to coordinates
                 to_map, to_x, to_y = unpack(objective[2])
 
-                -- print(to_map == md.map_id, to_x == md.x, to_y == md.y)
-                -- print(to_map,md.map_id, to_x,md.x, to_y,md.y)
-                -- if to_map == md.map_id and to_x == md.x and to_y == md.y then
-                --     goals.objective_complete()
-                --     if objective[3][1] == 0 then -- if the goal return control to main
-                --         mode = 0
-                --     end
-                -- else
-                -- print(md.gpf.current_path)
-                -- print(to_map, to_x, to_y)
                 if md.gpf.current_path == nil then
                     if not md.gpf.find_global_path(to_map, to_x, to_y) then
-                        print("not enough information to traverse global map")
+                        -- print("not enough information to traverse global map: wander")
+                        md.wander()
                     else
                         print("enough information to traverse global map")
                     end
-                end
+                else
+                    -- check the result of our path manager
+                    local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
+                    print(local_path_response)
 
-                local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1])) -- check the result of our path manager
-                
-                -- print(local_path_response)
-                
-                if local_path_response == 1 then -- if the destination has been reached
-                    print("local destination reached")
-                    table.remove(md.gpf.current_path, 1)
-                    goals.objective_complete()
+                    if local_path_response == 1 then -- if the destination has been reached
+                        print("local destination reached")
+                        table.remove(md.gpf.current_path, 1)
+                        goals.objective_complete()
 
-                    -- if objective[3][1] == 0 then -- if the goal return control to main
-                    --     mode = 0
-                    -- end
-                elseif local_path_response == 2 then -- if the player warped
-                    print "warped"
-
-                    change = false
-                    if objective[1] == 1 then
-                        if to_map == md.pf.last_map and to_x == md.pf.last_x + md.pf.move_x_dir and to_y == md.pf.last_y +
-                            md.pf.move_y_dir then
-                            goals.objective_complete()
-                            md.gpf.current_path = nil
-                            change = true
+                        if objective[3][1] == 0 then -- if the goal return control to main
+                            mode = 0
                         end
-                    end
+                    elseif local_path_response == 2 then -- if the player warped
+                        print "warped"
 
-                    if not change then
-                        if not md.gpf.find_global_path(to_map, to_x, to_y) then
-                            print("not enough information to traverse global map")
+                        if objective[1] == 1 then -- if the objective was to warp
+
+                            -- if the player successfully went to location and warped
+                            if to_map == md.pf.last_map and to_x == md.pf.last_x + md.pf.move_x_dir and to_y == md.pf.last_y +
+                                md.pf.move_y_dir then
+                                goals.objective_complete()
+                                md.gpf.current_path = nil
+                            end
                         else
-                            print("enough information to traverse global map")
+                            goals.objective_fail()
                         end
                     end
-                    -- goals.objective_fail()
                 end
-                -- end
 
+                
             end
         end
     end

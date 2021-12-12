@@ -85,7 +85,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                 lmd.pf.ismoving = false
                 if lmd.map_id ~= nil then
-                    
+
                     -- set the last location to a warp
 
                     -- expand the map
@@ -106,9 +106,18 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                         lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] = {}
                     end
 
-                    lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1] = 3
+                    lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x +
+                        lmd.pf.move_x_dir + 1] = 3
 
-                    gmd.map[lmd.pf.last_map] = {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir, lmd.pf.last_y + lmd.pf.move_y_dir}
+                    if gmd.map[lmd.pf.last_map] == nil then
+                        gmd.map[lmd.pf.last_map] = {}
+                    end
+
+                    table.insert(gmd.map[lmd.pf.last_map], {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir,
+                    lmd.pf.last_y + lmd.pf.move_y_dir, lmd.x, lmd.y})
+
+                    -- gmd.map[lmd.pf.last_map] = {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir,
+                    --                             lmd.pf.last_y + lmd.pf.move_y_dir}
 
                     -- saves the map to a file
                     export_data = {
@@ -129,7 +138,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 return 4 -- indicate the player warped
             end
         else
-            print("move unsucessful:", lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
+            print("try_move: move unsucessful:", lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
                 1 + lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
             -- moved unsucessfully
 
@@ -192,7 +201,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 
                 -- if it's not a warp
                 if lmd.local_map[insert_y] == nil or lmd.local_map[insert_y][insert_x] ~= 3 or h_cost < 0.01 then
-                    
+
                     new_node_path = nil
                     if #given_node[3] == 0 then
                         new_node_path = {{insert_x, insert_y}}
@@ -200,16 +209,16 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                         new_node_path = {unpack(given_node[3])}
                         table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
                     end
-    
+
                     -- the reason for this loop is to find the ideal place to insert neighbor
                     -- you want the best nodes to have highest indexes on the stack
                     i = 1
                     while i < #neighbors + 1 and h_cost + #new_node_path < #neighbors[i][3] + neighbors[i][4] do
                         i = i + 1
                     end
-    
+
                     table.insert(neighbors, i, {insert_x, insert_y, new_node_path, h_cost})
-                    
+
                 end
 
             end
@@ -306,6 +315,7 @@ lmd.pf.follow_path = function()
             lmd.pf.ismoving = false
             lmd.pf.frame_counter = 0
             lmd.pf.path = {}
+            return 3 -- indicates move failed
         elseif move_result == 3 then
             lmd.pf.ismoving = false
             lmd.pf.frame_counter = 0
@@ -355,9 +365,10 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
                 lmd.pf.is_warping = false
             end
         else
-            if lmd.x+lmd.x_offset+1 == dest_x and lmd.y+lmd.y_offset+1 == dest_y then return 1 end
+            if lmd.x + lmd.x_offset + 1 == dest_x and lmd.y + lmd.y_offset + 1 == dest_y then
+                return 1 -- indicates player is at destination
+            end
             lmd.pf.find_path(dest_x, dest_y)
-            print(lmd.pf.path)
         end
     else
         -- lmd.pf.follow_path can return:
@@ -369,6 +380,8 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
 
         if follow_path_res == 2 then
             return 2 -- indicates player has warped 
+        elseif follow_path_res == 3 then
+            return 3 -- indicates player has attempted and failed move
         end
     end
 
@@ -376,8 +389,7 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
 end
 
 lmd.pf.abs_manage_path_to = function(dest_x, dest_y)
-    -- print("abs_manage_path_to: ", dest_x, dest_y)
-    return lmd.pf.manage_path_to(dest_x+lmd.x_offset+1, dest_y+lmd.y_offset+1)
+    return lmd.pf.manage_path_to(dest_x + lmd.x_offset + 1, dest_y + lmd.y_offset + 1)
 end
 
 lmd.gpf = { -- global pathfinder
@@ -391,10 +403,103 @@ lmd.gpf.find_global_path = function(to_map, to_x, to_y)
     else
         global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
         if global_pathfinding_res then
-            lmd.gpf.current_path = { unpack(global_pathfinding_res), {to_x, to_y} }
+            lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x, to_y}}
             return true
         else
             return false
+        end
+    end
+end
+
+lmd.wander_to = nil
+
+lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
+    -- print "wander: new call"
+    if lmd.wander_to == nil then
+        if gmd.fully_explored[lmd.map_id] == true then
+            print("implement navigation to new map")
+        else
+            -- if the row doesn't exist
+            -- or if the row exists, and the element does not equal an unmovable space
+
+            queue = {}
+
+            -- gives starting node
+            table.insert(queue, {lmd.x + lmd.x_offset + 1, lmd.y + lmd.y_offset + 1})
+
+            visited_nodes = {}
+
+            function insert_node(insert_x, insert_y)
+                -- print("wander: insert node: ", {insert_x, insert_y})
+
+                -- if the computer has already visited this node
+                if visited_nodes[insert_x] ~= nil and visited_nodes[insert_x][insert_y] ~= nil then
+                    return 0
+                end
+
+                -- print("before called is_npc")
+                npc_bool = lmd.is_npc_at(insert_x, insert_y)
+                if npc_bool then
+                    return 0
+                end
+                -- print("after called is_npc")
+
+                -- if this neighbor is unknown
+                if (lmd.local_map[insert_y] == nil or (lmd.local_map[insert_y][insert_x] == nil)) then
+                    lmd.wander_to = {insert_x, insert_y}
+                    return 1
+                end
+
+                -- if it's not a warp or a unmovable tile
+                if ((lmd.local_map[insert_y][insert_x] ~= 2 and lmd.local_map[insert_y][insert_x] ~= 3)) then
+                    table.insert(queue, {insert_x, insert_y})
+                    -- print("acceptable: ", insert_x, insert_y)
+                end
+
+                return 0
+            end
+
+            while #queue > 0 do
+                current_node = queue[1]
+                -- print("wander: current node: ", current_node)
+
+                has_found_blank_tile = 0
+
+                if has_found_blank_tile < 1 then
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] - 1)
+                end
+
+                if has_found_blank_tile < 1 then
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] + 1)
+                end
+
+                if has_found_blank_tile < 1 then
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] + 1, current_node[2])
+                end
+
+                if has_found_blank_tile < 1 then
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] - 1, current_node[2])
+                end
+
+                if has_found_blank_tile > 0 then
+                    return
+                end
+
+                if (visited_nodes[current_node[1]] == nil) then
+                    visited_nodes[current_node[1]] = {}
+                end
+                visited_nodes[current_node[1]][current_node[2]] = true
+
+                table.remove(queue, 1)
+            end
+        end
+    else
+        manage_path_res = lmd.pf.manage_path_to(unpack(lmd.wander_to))
+
+        -- print("wander: manage_path_res: ", manage_path_res)
+
+        if (manage_path_res == 1 or manage_path_res == 3) then
+            lmd.wander_to = nil
         end
     end
 end
