@@ -160,7 +160,6 @@ class GameState:
             elif self.log[i].startswith("|-sideend"):
                 print("implement field move end")
 
-        # print(self.player1active, self.player2active, self.current_turn)
         self.current_turn += 1
 
     def __init__(self, log_lines, debug=False):

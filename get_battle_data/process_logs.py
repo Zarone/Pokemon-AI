@@ -58,6 +58,9 @@ import os
 
 log = open("raw_logs/gen8nationaldex-1469632101.txt", "r")
 new_game = gs.GameState(log.readlines(), False)
-# print(new_game.get_output()[0])
-print(len(new_game.get_output()[0]))
+# print(len(new_game.get_output()[0]))
+new_game.next_turn()
+new_game.next_turn()
+new_game.next_turn()
+new_game.next_turn()
 log.close()
