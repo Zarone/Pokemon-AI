@@ -51,16 +51,21 @@ desired outputs:
 import game_state as gs
 import os
 
-# for file in os.listdir("./raw_logs/"):
-#     log = open("raw_logs/"+file, "r")
-#     new_game = gs.GameState(log.readlines(), False)
-#     log.close()
+for file in os.listdir("./raw_logs/"):
+    log = open("raw_logs/"+file, "r")
+    new_game = gs.GameState(log.readlines(), False)
+    new_game.next_turn()
+    log.close()
 
-log = open("raw_logs/gen8nationaldex-1469632101.txt", "r")
-new_game = gs.GameState(log.readlines(), False)
+# log = open("raw_logs/gen8nationaldex-1469658534.txt", "r")
+# new_game = gs.GameState(log.readlines(), False)
 # print(len(new_game.get_output()[0]))
-new_game.next_turn()
-new_game.next_turn()
-new_game.next_turn()
-new_game.next_turn()
-log.close()
+# new_game.next_turn()
+# new_game.next_turn()
+# new_game.next_turn()
+# new_game.next_turn()
+# new_game.next_turn()
+# new_game.next_turn()
+# new_game.next_turn()
+# new_game.next_turn()
+# log.close()

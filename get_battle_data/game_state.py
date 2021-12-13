@@ -19,7 +19,7 @@ def get_pokemon_data(pokemon):
     pokemon_info["non-volatile-status"] = 0
 
     return pokemon_info
-
+    
 def get_types_array(typelist):
     types = [0 for _ in range(17)]
 
@@ -87,6 +87,31 @@ def get_array(pokedata):
     return [hp, *[basestats[key] for key in basestats], *types, *status]
 
 class GameState:
+    def is_form_of(self, pokemon_form, pokemon_target):
+        if pokemon_target == pokemon_form: return True
+        pokemon_raw = open("gamedata/pokedex.json", "r")
+        pokemon_data = json.load(pokemon_raw)
+        pokemon_raw.close()
+
+        filter_target_name = pokemon_target.translate(
+            dict((ord(char), None) for char in "â€™’")
+        )
+        filter_form_name = pokemon_form.translate(
+            dict((ord(char), None) for char in "â€™’")
+        )
+
+        if not filter_target_name in pokemon_data:
+            filter_target_name = self.nickname_table[filter_target_name].translate(
+                dict((ord(char), None) for char in "â€™’")
+            )
+
+        if not "otherFormes" in pokemon_data[filter_target_name]:
+            return False
+        else:
+            for form in pokemon_data[filter_target_name]["otherFormes"]:
+                if form == filter_form_name:
+                    return True
+        return False
     def get_output(self):
         p1_active = None
         p1_bench = []
@@ -127,6 +152,7 @@ class GameState:
                     self.next_line = i+1
                     break
             elif self.log[i].startswith("|switch"):
+                print(self.log[i])
                 player = 3
                 if self.log[i].startswith("p1a", 8):
                     player = 1
@@ -137,20 +163,68 @@ class GameState:
 
                 if (player == 1):
                     for j in range(len(self.player1team)):
-                        if self.player1team[j]["name"] == target_pokemon:
+                        if self.is_form_of(self.player1team[j]["name"], target_pokemon):
                             self.player1active = j
                             break
                 elif (player == 2):
                     for j in range(len(self.player2team)):
-                        if self.player2team[j]["name"] == target_pokemon:
+                        if self.is_form_of(self.player2team[j]["name"], target_pokemon):
                             self.player2active = j
                             break
-            elif self.log[i].startswith("|-damage"):
-                print("implement damage")
-            elif self.log[i].startswith("|-heal"):
-                print("implement heal")
+            elif self.log[i].startswith("|-damage") or self.log[i].startswith("|-heal"):
+                player = 3
+
+                player_string = self.log[i].split("|")[2].split(":")[0]
+                pokemon_string = self.log[i].split("|")[2].split(":")[1].strip()
+                new_hp = self.log[i].split("|")[3].split("/")[0]
+
+                if player_string == "p1a":
+                    player = 1
+                elif player_string == "p2a":
+                    player = 2
+                else:
+                    print("player not identified")
+
+                if player == 1:
+                    for p in range(len(self.player1team)):
+                        if self.is_form_of(self.player1team[p]['name'], pokemon_string):
+                            self.player1team[p]["HP%"] = int(new_hp)
+                elif player == 2:
+                    for p in range(len(self.player2team)):
+                        if self.is_form_of(self.player2team[p]['name'], pokemon_string):
+                            self.player2team[p]["HP%"] = int(new_hp)
             elif self.log[i].startswith("|-status"):
-                print("implement status change")
+                print(self.log[i])
+                info = self.log[i].split("|")
+                condition = info[3].rstrip()
+                pinfo = info[2]
+                user_info = pinfo.split(":")[0]
+                pokemon_string = pinfo.split(":")[1].strip()
+
+                condition_int = 0
+
+                if(condition == "brn"):
+                    condition_int = 1
+                elif condition == "par":
+                    condition_int == 3
+                elif condition == "psn":
+                    condition_int = 4
+                elif condition == "tox":
+                    condition_int = 5
+                elif condition == "slp":
+                    condition_int = 6
+                else:
+                    print("unhandled condition, assuming it's freeze: ", condition)
+                    condition_int = 2
+
+                if(user_info == "p1a"):
+                    for p in range(len(self.player1team)):
+                        if (self.is_form_of(self.player1team[p]['name'], pokemon_string)):
+                            self.player1team[p]["non-volatile-status"] = condition_int
+                elif(user_info == "p2a"):
+                    for p in range(len(self.player2team)):
+                        if (self.is_form_of(self.player2team[p]['name'], pokemon_string)):
+                            self.player2team[p]["non-volatile-status"] = condition_int
             elif self.log[i].startswith("|-boost"):
                 print("implement boost")
             elif self.log[i].startswith("|-unboost"):
@@ -159,6 +233,40 @@ class GameState:
                 print("implement new field")
             elif self.log[i].startswith("|-sideend"):
                 print("implement field move end")
+            elif self.log[i].startswith("|-curestatus"):
+                info = self.log[i].split("|")
+                # condition = info[3].rstrip()
+                # pinfo = info[2]
+                # user_info = pinfo.split(":")[0]
+                # pokemon_string = pinfo.split(":")[1].strip()
+
+                # condition_int = 0
+
+                # if(condition == "brn"):
+                #     condition_int = 1
+                # elif condition == "par":
+                #     condition_int == 3
+                # elif condition == "psn":
+                #     condition_int = 4
+                # elif condition == "tox":
+                #     condition_int = 5
+                # elif condition == "slp":
+                #     condition_int = 6
+                # else:
+                #     print("unhandled condition, assuming it's freeze: ", condition)
+                #     condition_int = 2
+
+                # if(user_info == "p1a"):
+                #     for p in range(len(self.player1team)):
+                #         if (is_form_of(self.player1team[p]['name'], pokemon_string)):
+                #             self.player1team[p]["non-volatile-status"] = condition_int
+                #             print(self.player1team[p])
+                # elif(user_info == "p2a"):
+                #     for p in range(len(self.player2team)):
+                #         if (is_form_of(self.player2team[p]['name'], pokemon_string)):
+                #             self.player2team[p]["non-volatile-status"] = condition_int
+                #             print(self.player2team[p])
+                # print("implement cure status")
 
         self.current_turn += 1
 
@@ -166,8 +274,8 @@ class GameState:
         self.log = log_lines
         self.next_line = 0
         self.current_turn = 1
-        self.player1name = log_lines[0].split("|j|☆")[1].strip()
-        self.player2name = log_lines[1].split("|j|☆")[1].strip()
+        self.player1name = log_lines[0].split("|j|")[1].strip()
+        self.player2name = log_lines[1].split("|j|")[1].strip()
         self.player1team = []
         self.player2team = []
         self.player1won = None
@@ -175,6 +283,7 @@ class GameState:
         self.player2active = None
         self.player1boosts = [0 for _ in range(5)]
         self.player2boosts = [0 for _ in range(5)]
+        self.nickname_table = {}
 
         # right now these just check leech seed
         # but later I could add taunt, and other stuff like that
@@ -234,6 +343,10 @@ class GameState:
                     turn_zero = False
 
                 target_pokemon = line.split("|")[3].split(",")[0]
+
+                nickname = line.split("|")[2].split(":")[1].lstrip()
+                self.nickname_table[nickname] = target_pokemon
+                print(target_pokemon, nickname)
 
                 if (player == 1):
                     for i in range(len(self.player1team)):
