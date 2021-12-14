@@ -7,7 +7,7 @@ desired outputs:
       [
         [
 
-          # total length should be 371
+          # total length should be 373
 
           # weather (also tracks number of turns it's been out) (would add 5)
             # sun
@@ -31,7 +31,7 @@ desired outputs:
               # leech seed
 
           # stat boost array for each player
-          atk, spatk, def, spdef, spe
+          atk, spatk, def, spdef, spe, evasion
 
           # for each of you and your opponent's pokemon
           # make sure to include the active pokemon seperately
@@ -54,14 +54,21 @@ import os
 for file in os.listdir("./raw_logs/"):
     log = open("raw_logs/"+file, "r")
     new_game = gs.GameState(log.readlines(), False)
-    new_game.next_turn()
     # new_game.next_turn()
     # new_game.next_turn()
+    # new_game.next_turn()
+    # new_game.next_turn()
+    # new_game.next_turn()
+    # new_game.next_turn()
+    # new_game.next_turn()
+    print(len(new_game.get_output()))
     log.close()
 
-# log = open("raw_logs/gen8nationaldex-1469658534.txt", "r")
+# log = open("raw_logs/gen8nationaldex-1469721540.txt", "r")
 # new_game = gs.GameState(log.readlines(), False)
 # print(len(new_game.get_output()[0]))
+# new_game.next_turn()
+# new_game.next_turn()
 # new_game.next_turn()
 # new_game.next_turn()
 # new_game.next_turn()

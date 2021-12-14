@@ -141,6 +141,9 @@ class GameState:
                 for val in get_array(self.player2team[i]):
                     p2_bench.append(val)
 
+        print(*p1_active)
+        print("\n")
+
         return [
             [
                 self.numberofweatherturns,
@@ -166,10 +169,10 @@ class GameState:
                 player = 3
                 if self.log[i].startswith("p1a", 8):
                     player = 1                
-                    self.player1boosts = [0 for _ in range(5)]
+                    self.player1boosts = [0 for _ in range(6)]
                 elif self.log[i].startswith("p2a", 8):
                     player = 2
-                    self.player2boosts = [0 for _ in range(5)]
+                    self.player2boosts = [0 for _ in range(6)]
 
                 target_pokemon = self.log[i].split("|")[3].split(",")[0]
 
@@ -247,7 +250,6 @@ class GameState:
                 player_string = split_line[2].split(":")[0]
                 stat_string = split_line[3]
                 stage_string = split_line[4].rstrip()
-                # print(player_string, stat_string, int(stage_string))
 
                 stat_index = 5
                 if stat_string == "atk":
@@ -260,6 +262,8 @@ class GameState:
                     stat_index = 3
                 elif stat_string == "spe":
                     stat_index = 4
+                elif stat_string == "evasion":
+                    stat_index = 5
                 else:
                     print("stat not recognized: ", stat_string)
 
@@ -284,6 +288,8 @@ class GameState:
                     stat_index = 3
                 elif stat_string == "spe":
                     stat_index = 4
+                elif stat_string == "evasion":
+                    stat_index = 5
                 else:
                     print("stat not recognized: ", stat_string)
 
@@ -293,8 +299,10 @@ class GameState:
                     self.player2boosts[stat_index] -= int(stage_string)
             elif self.log[i].startswith("|-sidestart"):
                 print("implement new field")
+                print(self.log[i])
             elif self.log[i].startswith("|-sideend"):
                 print("implement field move end")
+                print(self.log[i])
             elif self.log[i].startswith("|-curestatus"):
                 info = self.log[i].split("|")
                 pinfo = info[2]
@@ -309,15 +317,10 @@ class GameState:
                         if (self.is_form_of(self.player2team[p]['name'], pokemon_string)):
                             self.player2team[p]["non-volatile-status"] = 0
             elif self.log[i].startswith("|-weather"):
-                print("implement weather")
-                # print(self.weathertype)
-                # print(self.numberofweatherturns)
-
                 log_split = self.log[i].split('|')
                 weather_type = log_split[2].strip()
 
                 if (len(log_split) < 4 or log_split[3].startswith("[from]")): # that means that it's a trigger
-                    # print(self.log[i])
                     self.numberofweatherturns = 0
                     if weather_type == "SunnyDay":
                         self.weathertype = [1, 0, 0, 0]
@@ -327,16 +330,12 @@ class GameState:
                         self.weathertype = [0, 0, 1, 0]
                     elif weather_type == "Hail":
                         self.weathertype = [0, 0, 0, 1]
+                    elif weather_type == "none":
+                        self.weathertype = [0, 0, 0, 0]
                     else:
                         print("unknown weather condition: ", weather_type)
                 elif log_split[3].startswith("[upkeep]"):
-                    self.numberofweatherturns = 0
-
-
-                    print(self.log[i])
-
-                # handle |-weather|none
-                
+                    self.numberofweatherturns += 1                
 
         self.current_turn += 1
 
@@ -351,8 +350,8 @@ class GameState:
         self.player1won = None
         self.player1active = None
         self.player2active = None
-        self.player1boosts = [0 for _ in range(5)]
-        self.player2boosts = [0 for _ in range(5)]
+        self.player1boosts = [0 for _ in range(6)]
+        self.player2boosts = [0 for _ in range(6)]
         self.nickname_table = {}
 
         # right now these just check leech seed
