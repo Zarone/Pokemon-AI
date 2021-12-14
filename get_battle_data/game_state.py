@@ -310,6 +310,33 @@ class GameState:
                             self.player2team[p]["non-volatile-status"] = 0
             elif self.log[i].startswith("|-weather"):
                 print("implement weather")
+                # print(self.weathertype)
+                # print(self.numberofweatherturns)
+
+                log_split = self.log[i].split('|')
+                weather_type = log_split[2].strip()
+
+                if (len(log_split) < 4 or log_split[3].startswith("[from]")): # that means that it's a trigger
+                    # print(self.log[i])
+                    self.numberofweatherturns = 0
+                    if weather_type == "SunnyDay":
+                        self.weathertype = [1, 0, 0, 0]
+                    elif weather_type == "RainDance":
+                        self.weathertype = [0, 1, 0, 0]
+                    elif weather_type == "Sandstorm":
+                        self.weathertype = [0, 0, 1, 0]
+                    elif weather_type == "Hail":
+                        self.weathertype = [0, 0, 0, 1]
+                    else:
+                        print("unknown weather condition: ", weather_type)
+                elif log_split[3].startswith("[upkeep]"):
+                    self.numberofweatherturns = 0
+
+
+                    print(self.log[i])
+
+                # handle |-weather|none
+                
 
         self.current_turn += 1
 
