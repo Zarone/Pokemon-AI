@@ -1,6 +1,7 @@
 import json
 from os import stat
 
+
 def get_pokemon_data(pokemon):
     pokemon_raw = open("gamedata/pokedex.json", "r")
     pokemon_data = json.load(pokemon_raw)
@@ -19,7 +20,8 @@ def get_pokemon_data(pokemon):
     pokemon_info["non-volatile-status"] = 0
 
     return pokemon_info
-    
+
+
 def get_types_array(typelist):
     types = [0 for _ in range(17)]
 
@@ -57,8 +59,9 @@ def get_types_array(typelist):
         types[15] = 1
     if ("Water" in typelist):
         types[16] = 1
-    
+
     return types
+
 
 def get_status_array(status):
     status = [0 for _ in range(5)]
@@ -78,17 +81,20 @@ def get_status_array(status):
 
     return status
 
+
 def get_array(pokedata):
     hp = pokedata["HP%"]
     basestats = pokedata["baseStats"]
     types = get_types_array(pokedata["types"])
     status = get_status_array(pokedata["non-volatile-status"])
-    
+
     return [hp, *[basestats[key] for key in basestats], *types, *status]
+
 
 class GameState:
     def is_form_of(self, pokemon_form, pokemon_target):
-        if pokemon_target == pokemon_form: return True
+        if pokemon_target == pokemon_form:
+            return True
         pokemon_raw = open("gamedata/pokedex.json", "r")
         pokemon_data = json.load(pokemon_raw)
         pokemon_raw.close()
@@ -105,6 +111,9 @@ class GameState:
                 dict((ord(char), None) for char in "â€™’")
             )
 
+        if filter_target_name == pokemon_form:
+            return True
+
         if not "otherFormes" in pokemon_data[filter_target_name]:
             return False
         else:
@@ -112,12 +121,13 @@ class GameState:
                 if form == filter_form_name:
                     return True
         return False
+
     def get_output(self):
         p1_active = None
         p1_bench = []
         p2_active = None
         p2_bench = []
-        
+
         for i in range(6):
             if i == self.player1active:
                 p1_active = get_array(self.player1team[i])
@@ -131,20 +141,20 @@ class GameState:
                 for val in get_array(self.player2team[i]):
                     p2_bench.append(val)
 
+        return [
+            [
+                self.numberofweatherturns,
+                *self.weathertype,
+                *self.player1hazards,
+                *self.player2hazards,
+                *self.player1volatilestatus,
+                *self.player2volatilestatus,
+                *self.player1boosts,
+                *self.player2boosts,
+                *p1_active, *p1_bench, *p2_active, *p2_bench
+            ], self.player1won
+        ]
 
-        return [ 
-                [
-                    self.numberofweatherturns,
-                    *self.weathertype,
-                    *self.player1hazards,
-                    *self.player2hazards,
-                    *self.player1volatilestatus,
-                    *self.player2volatilestatus,
-                    *self.player1boosts,
-                    *self.player2boosts,
-                    *p1_active, *p1_bench, *p2_active, *p2_bench
-                 ], self.player1won
-            ]
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|turn"):
@@ -152,14 +162,19 @@ class GameState:
                     self.next_line = i+1
                     break
             elif self.log[i].startswith("|switch"):
-                print(self.log[i])
+
                 player = 3
                 if self.log[i].startswith("p1a", 8):
-                    player = 1
+                    player = 1                
+                    self.player1boosts = [0 for _ in range(5)]
                 elif self.log[i].startswith("p2a", 8):
                     player = 2
-                
+                    self.player2boosts = [0 for _ in range(5)]
+
                 target_pokemon = self.log[i].split("|")[3].split(",")[0]
+
+                nickname = self.log[i].split("|")[2].split(":")[1].lstrip()
+                self.nickname_table[nickname] = target_pokemon
 
                 if (player == 1):
                     for j in range(len(self.player1team)):
@@ -175,8 +190,11 @@ class GameState:
                 player = 3
 
                 player_string = self.log[i].split("|")[2].split(":")[0]
-                pokemon_string = self.log[i].split("|")[2].split(":")[1].strip()
-                new_hp = self.log[i].split("|")[3].split("/")[0]
+                pokemon_string = self.log[i].split(
+                    "|")[2].split(":")[1].strip()
+
+                new_hp = self.log[i].split("|")[3].split(
+                    "/")[0].split("fnt")[0].rstrip()
 
                 if player_string == "p1a":
                     player = 1
@@ -194,7 +212,6 @@ class GameState:
                         if self.is_form_of(self.player2team[p]['name'], pokemon_string):
                             self.player2team[p]["HP%"] = int(new_hp)
             elif self.log[i].startswith("|-status"):
-                print(self.log[i])
                 info = self.log[i].split("|")
                 condition = info[3].rstrip()
                 pinfo = info[2]
@@ -226,47 +243,73 @@ class GameState:
                         if (self.is_form_of(self.player2team[p]['name'], pokemon_string)):
                             self.player2team[p]["non-volatile-status"] = condition_int
             elif self.log[i].startswith("|-boost"):
-                print("implement boost")
+                split_line = self.log[i].split("|")
+                player_string = split_line[2].split(":")[0]
+                stat_string = split_line[3]
+                stage_string = split_line[4].rstrip()
+                # print(player_string, stat_string, int(stage_string))
+
+                stat_index = 5
+                if stat_string == "atk":
+                    stat_index = 0
+                elif stat_string == "def":
+                    stat_index = 1
+                elif stat_string == "spa":
+                    stat_index = 2
+                elif stat_string == "spd":
+                    stat_index = 3
+                elif stat_string == "spe":
+                    stat_index = 4
+                else:
+                    print("stat not recognized: ", stat_string)
+
+                if (player_string == "p1a"):
+                    self.player1boosts[stat_index] += int(stage_string)
+                elif (player_string == "p2a"):
+                    self.player2boosts[stat_index] += int(stage_string)
             elif self.log[i].startswith("|-unboost"):
-                print("implement unboost")
+                split_line = self.log[i].split("|")
+                player_string = split_line[2].split(":")[0]
+                stat_string = split_line[3]
+                stage_string = split_line[4].rstrip()
+
+                stat_index = 5
+                if stat_string == "atk":
+                    stat_index = 0
+                elif stat_string == "def":
+                    stat_index = 1
+                elif stat_string == "spa":
+                    stat_index = 2
+                elif stat_string == "spd":
+                    stat_index = 3
+                elif stat_string == "spe":
+                    stat_index = 4
+                else:
+                    print("stat not recognized: ", stat_string)
+
+                if (player_string == "p1a"):
+                    self.player1boosts[stat_index] -= int(stage_string)
+                elif (player_string == "p2a"):
+                    self.player2boosts[stat_index] -= int(stage_string)
             elif self.log[i].startswith("|-sidestart"):
                 print("implement new field")
             elif self.log[i].startswith("|-sideend"):
                 print("implement field move end")
             elif self.log[i].startswith("|-curestatus"):
                 info = self.log[i].split("|")
-                # condition = info[3].rstrip()
-                # pinfo = info[2]
-                # user_info = pinfo.split(":")[0]
-                # pokemon_string = pinfo.split(":")[1].strip()
-
-                # condition_int = 0
-
-                # if(condition == "brn"):
-                #     condition_int = 1
-                # elif condition == "par":
-                #     condition_int == 3
-                # elif condition == "psn":
-                #     condition_int = 4
-                # elif condition == "tox":
-                #     condition_int = 5
-                # elif condition == "slp":
-                #     condition_int = 6
-                # else:
-                #     print("unhandled condition, assuming it's freeze: ", condition)
-                #     condition_int = 2
-
-                # if(user_info == "p1a"):
-                #     for p in range(len(self.player1team)):
-                #         if (is_form_of(self.player1team[p]['name'], pokemon_string)):
-                #             self.player1team[p]["non-volatile-status"] = condition_int
-                #             print(self.player1team[p])
-                # elif(user_info == "p2a"):
-                #     for p in range(len(self.player2team)):
-                #         if (is_form_of(self.player2team[p]['name'], pokemon_string)):
-                #             self.player2team[p]["non-volatile-status"] = condition_int
-                #             print(self.player2team[p])
-                # print("implement cure status")
+                pinfo = info[2]
+                user_info = pinfo.split(":")[0]
+                pokemon_string = pinfo.split(":")[1].strip()
+                if(user_info == "p1a"):
+                    for p in range(len(self.player1team)):
+                        if (self.is_form_of(self.player1team[p]['name'], pokemon_string)):
+                            self.player1team[p]["non-volatile-status"] = 0
+                elif(user_info == "p2a"):
+                    for p in range(len(self.player2team)):
+                        if (self.is_form_of(self.player2team[p]['name'], pokemon_string)):
+                            self.player2team[p]["non-volatile-status"] = 0
+            elif self.log[i].startswith("|-weather"):
+                print("implement weather")
 
         self.current_turn += 1
 
@@ -287,7 +330,7 @@ class GameState:
 
         # right now these just check leech seed
         # but later I could add taunt, and other stuff like that
-        self.player1volatilestatus = [0 for _ in range(1)] 
+        self.player1volatilestatus = [0 for _ in range(1)]
         self.player2volatilestatus = [0 for _ in range(1)]
 
         # spikes, toxic spikes, stealth rocks
@@ -298,7 +341,7 @@ class GameState:
         self.numberofweatherturns = 0
         self.weathertype = [0 for _ in range(4)]
 
-        turn_zero = False #there's a period when the game has started but there's no active
+        turn_zero = False  # there's a period when the game has started but there's no active
 
         if debug:
             print(self.player1name, self.player2name)
@@ -333,7 +376,8 @@ class GameState:
                 else:
                     print("can't figure out what player it is")
             elif line.startswith("|win"):
-                self.player1won = line.split("|win|")[1].strip() == self.player1name
+                self.player1won = line.split(
+                    "|win|")[1].strip() == self.player1name
             elif turn_zero and line.startswith("|switch"):
                 player = 3
                 if line.startswith("p1a", 8):
@@ -346,7 +390,6 @@ class GameState:
 
                 nickname = line.split("|")[2].split(":")[1].lstrip()
                 self.nickname_table[nickname] = target_pokemon
-                print(target_pokemon, nickname)
 
                 if (player == 1):
                     for i in range(len(self.player1team)):
@@ -361,7 +404,7 @@ class GameState:
                     break
             elif line.strip() == "|start":
                 turn_zero = True
-        
+
         if (debug):
             print(self.player1team)
             print(self.player2team)

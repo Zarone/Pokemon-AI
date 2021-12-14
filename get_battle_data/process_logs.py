@@ -55,6 +55,8 @@ for file in os.listdir("./raw_logs/"):
     log = open("raw_logs/"+file, "r")
     new_game = gs.GameState(log.readlines(), False)
     new_game.next_turn()
+    # new_game.next_turn()
+    # new_game.next_turn()
     log.close()
 
 # log = open("raw_logs/gen8nationaldex-1469658534.txt", "r")
