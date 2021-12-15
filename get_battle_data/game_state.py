@@ -88,6 +88,8 @@ def get_array(pokedata):
     types = get_types_array(pokedata["types"])
     status = get_status_array(pokedata["non-volatile-status"])
 
+    # [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]
+    # [100, 75, 75, 75, 130, 95, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
     return [hp, *[basestats[key] for key in basestats], *types, *status]
 
 
@@ -128,21 +130,31 @@ class GameState:
         p2_active = None
         p2_bench = []
 
+        team1max = len(self.player1team) - 1
+        team2max = len(self.player2team) - 1
+
         for i in range(6):
-            if i == self.player1active:
-                p1_active = get_array(self.player1team[i])
-            else:
-                for val in get_array(self.player1team[i]):
+            if i > team1max:
+                for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]:
                     p1_bench.append(val)
-
-            if i == self.player2active:
-                p2_active = get_array(self.player2team[i])
             else:
-                for val in get_array(self.player2team[i]):
-                    p2_bench.append(val)
+                if i == self.player1active:
+                    p1_active = get_array(self.player1team[i])
+                else:
+                    for val in get_array(self.player1team[i]):
+                        p1_bench.append(val)
 
-        print(*p1_active)
-        print("\n")
+            if i > team2max:
+                for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]:
+                    p2_bench.append(val)
+            else:
+                if i == self.player2active:
+                    p2_active = get_array(self.player2team[i])
+                else:
+                    for val in get_array(self.player2team[i]):
+                        p2_bench.append(val)
+
+        # print("\n")
 
         return [
             [
@@ -298,11 +310,94 @@ class GameState:
                 elif (player_string == "p2a"):
                     self.player2boosts[stat_index] -= int(stage_string)
             elif self.log[i].startswith("|-sidestart"):
-                print("implement new field")
-                print(self.log[i])
+                split_line = self.log[i].split("|")
+                move_split = split_line[3].split(":")
+                player_string = split_line[2].split(":")[0]
+
+                move_name = ""
+
+                if len(move_split) == 1: 
+                    move_name = move_split[0].strip()
+                elif len(move_split) == 2:
+                    move_name = move_split[1].strip()
+
+                move_index = len(self.player1hazards)
+
+                if move_name == "Spikes":
+                    move_index = 0
+                elif move_name == "Stealth Rock":
+                    move_index = 1
+                elif move_name == "Toxic Spikes":
+                    move_index = 2
+                elif move_name == "Reflect":
+                    move_index = 3
+                elif move_name == "Light Screen":
+                    move_index = 4
+                elif move_name == "Tailwind":
+                    move_index = 5
+                elif move_name == "Sticky Web":
+                    move_index = 6
+                else:
+                    print("couldn't find entry hazard: ", move_name)
+                
+                if move_index != 6:
+                    if (player_string == "p1"):
+                        if move_index == 0 and self.player1hazards[move_index] < 3:
+                            self.player1hazards[move_index] += 1
+                        elif move_index == 1 and self.player1hazards[move_index] == 0:
+                            self.player1hazards[move_index] = 1
+                        elif move_index == 2 and self.player1hazards[move_index] < 2:
+                            self.player1hazards[move_index] += 1
+                        elif move_index == 3 or move_index == 4 or move_index == 6:
+                            self.player1hazards[move_index] = 1
+                    elif (player_string == "p2"):
+                        if move_index == 0 and self.player2hazards[move_index] < 3:
+                            self.player2hazards[move_index] += 1
+                        elif move_index == 1 and self.player2hazards[move_index] == 0:
+                            self.player2hazards[move_index] = 1
+                        elif move_index == 2 and self.player2hazards[move_index] < 2:
+                            self.player2hazards[move_index] += 1
+                        elif move_index == 3 or move_index == 4 or move_index == 6:
+                            self.player2hazards[move_index] = 1  
+
+
             elif self.log[i].startswith("|-sideend"):
-                print("implement field move end")
-                print(self.log[i])
+                split_line = self.log[i].split("|")
+                move_split = split_line[3].split(":")
+                player_string = split_line[2].split(":")[0]
+
+                move_name = ""
+
+                if len(move_split) == 1: 
+                    move_name = move_split[0].strip()
+                elif len(move_split) == 2:
+                    move_name = move_split[1].strip()
+
+                move_index = len(self.player1hazards)
+
+                if move_name == "Spikes":
+                    move_index = 0
+                elif move_name == "Stealth Rock":
+                    move_index = 1
+                elif move_name == "Toxic Spikes":
+                    move_index = 2
+                elif move_name == "Reflect":
+                    move_index = 3
+                elif move_name == "Light Screen":
+                    move_index = 4
+                elif move_name == "Tailwind":
+                    move_index = 5
+                elif move_name == "Sticky Web":
+                    move_index = 6
+                else:
+                    print("couldn't find entry hazard: ", move_name)
+                
+                if move_index != 6:
+                    if (player_string == "p1"):
+                        self.player1hazards[move_index] = 0    
+                    elif (player_string == "p2"):
+                        self.player2hazards[move_index] = 0    
+
             elif self.log[i].startswith("|-curestatus"):
                 info = self.log[i].split("|")
                 pinfo = info[2]
@@ -359,9 +454,9 @@ class GameState:
         self.player1volatilestatus = [0 for _ in range(1)]
         self.player2volatilestatus = [0 for _ in range(1)]
 
-        # spikes, toxic spikes, stealth rocks
-        self.player1hazards = [0 for _ in range(3)]
-        self.player2hazards = [0 for _ in range(3)]
+        # spikes, toxic spikes, stealth rocks, reflect, lightscreen, tailwind
+        self.player1hazards = [0 for _ in range(6)]
+        self.player2hazards = [0 for _ in range(6)]
 
         # weather: 0 => sun, 1 => rain, 2 => sand, 3 => hail
         self.numberofweatherturns = 0
@@ -375,6 +470,7 @@ class GameState:
         for line in log_lines:
             self.next_line += 1
             if line.startswith("|poke"):
+                # print(line)
                 split_player = None
 
                 player = 3
