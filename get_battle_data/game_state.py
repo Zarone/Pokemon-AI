@@ -172,7 +172,9 @@ class GameState:
 
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
-            if self.log[i].startswith("|turn"):
+            if self.log[i].startswith("|win") or self.log[i].startswith("|tie"):
+                return True
+            elif self.log[i].startswith("|turn"):
                 if self.log[i].split("|")[2].strip() != str(self.current_turn):
                     self.next_line = i+1
                     break
@@ -237,6 +239,8 @@ class GameState:
 
                 if(condition == "brn"):
                     condition_int = 1
+                elif condition == "frz":
+                    condition_int = 2
                 elif condition == "par":
                     condition_int == 3
                 elif condition == "psn":
@@ -246,8 +250,7 @@ class GameState:
                 elif condition == "slp":
                     condition_int = 6
                 else:
-                    print("unhandled condition, assuming it's freeze: ", condition)
-                    condition_int = 2
+                    print("unhandled condition: ", condition)
 
                 if(user_info == "p1a"):
                     for p in range(len(self.player1team)):
@@ -337,10 +340,12 @@ class GameState:
                     move_index = 5
                 elif move_name == "Sticky Web":
                     move_index = 6
+                elif move_name == "Aurora Veil":
+                    move_index = 7
                 else:
                     print("couldn't find entry hazard: ", move_name)
                 
-                if move_index != 6:
+                if move_index != 6 and move_index != 7:
                     if (player_string == "p1"):
                         if move_index == 0 and self.player1hazards[move_index] < 3:
                             self.player1hazards[move_index] += 1
@@ -359,8 +364,6 @@ class GameState:
                             self.player2hazards[move_index] += 1
                         elif move_index == 3 or move_index == 4 or move_index == 6:
                             self.player2hazards[move_index] = 1  
-
-
             elif self.log[i].startswith("|-sideend"):
                 split_line = self.log[i].split("|")
                 move_split = split_line[3].split(":")
@@ -389,15 +392,16 @@ class GameState:
                     move_index = 5
                 elif move_name == "Sticky Web":
                     move_index = 6
+                elif move_name == "Aurora Veil":
+                    move_index = 7
                 else:
                     print("couldn't find entry hazard: ", move_name)
                 
-                if move_index != 6:
+                if move_index != 6 and move_index != 7:
                     if (player_string == "p1"):
                         self.player1hazards[move_index] = 0    
                     elif (player_string == "p2"):
                         self.player2hazards[move_index] = 0    
-
             elif self.log[i].startswith("|-curestatus"):
                 info = self.log[i].split("|")
                 pinfo = info[2]
@@ -433,6 +437,7 @@ class GameState:
                     self.numberofweatherturns += 1                
 
         self.current_turn += 1
+        return False
 
     def __init__(self, log_lines, debug=False):
         self.log = log_lines

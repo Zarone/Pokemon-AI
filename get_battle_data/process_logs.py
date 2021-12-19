@@ -54,31 +54,18 @@ desired outputs:
 import game_state as gs
 import os
 
-for file in os.listdir("./raw_logs/"):
-    log = open("raw_logs/"+file, "r", encoding='utf-8', errors='ignore')
-    new_game = gs.GameState(log.readlines(), False)
-    new_game.next_turn()
-    new_game.next_turn()
-    new_game.next_turn()
-    new_game.next_turn()
-    new_game.next_turn()
-    new_game.next_turn()
-    new_game.next_turn()
-    # print(len(new_game.get_output()[0]))
-    # new_game.get_output()
-    log.close()
 
-# log = open("raw_logs/gen8nationaldex-1469706689.txt", "r", encoding='utf-8', errors='ignore')
-# new_game = gs.GameState(log.readlines(), False)
-# print(len(new_game.get_output()[0]))
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# new_game.next_turn()
-# log.close()
+def get_all_logs():
+  for file in os.listdir("./raw_logs/"):
+      get_log(file)
+
+def get_log(log_name):
+  log = open("raw_logs/"+log_name, "r", encoding='utf-8', errors='ignore')
+  new_game = gs.GameState(log.readlines(), False)
+  for i in range(50):
+    if (new_game.next_turn()): return
+    # print(i, len(new_game.get_output()[0]))
+  log.close()
+
+# get_log("gen8nationaldex-1469587658.txt")
+get_all_logs()

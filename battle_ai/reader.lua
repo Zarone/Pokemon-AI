@@ -14,9 +14,9 @@ showdown_init = string.format(
 ' | %s simulate-battle]],
     FORMAT, team1, team2, SHOWDOWN_FILE)
 
-print(showdown_init)
+-- print(showdown_init)
 
--- file = io.popen(showdown_init, "r")
--- res = file:read("*a")
--- print(res)
--- file:close()
+file = io.popen(showdown_init, "r")
+res = file:read("*a")
+file:close()
+print(res)
