@@ -1,4 +1,4 @@
-|t:|1639949457
+|t:|1639950932
 |gametype|singles
 |player|p1|A||
 |player|p2|B||
@@ -17,18 +17,18 @@
 |poke|p1|Articuno|
 |poke|p1|Ludicolo, M|
 |poke|p1|Volbeat, M|
-|poke|p1|Seismitoad, M|
-|poke|p1|Alomomola, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Alomomola, M|
 |poke|p1|Armaldo, F|
 |poke|p2|Articuno|
-|poke|p2|Ludicolo, M|
+|poke|p2|Ludicolo, F|
 |poke|p2|Volbeat, M|
 |poke|p2|Seismitoad, F|
 |poke|p2|Alomomola, F|
 |poke|p2|Armaldo, F|
 |teampreview
 |
-|t:|1639949457
+|t:|1639950932
 |start
 |split|p1
 |switch|p1a: Articuno|Articuno|384/384
@@ -36,18 +36,18 @@
 |split|p2
 |switch|p2a: Articuno|Articuno|384/384
 |switch|p2a: Articuno|Articuno|100/100
-|-ability|p2a: Articuno|Pressure
 |-ability|p1a: Articuno|Pressure
+|-ability|p2a: Articuno|Pressure
 |turn|1
 |
-|t:|1639949457
+|t:|1639950932
 |split|p2
 |switch|p2a: Volbeat|Volbeat, M|333/333
 |switch|p2a: Volbeat|Volbeat, M|100/100
 |move|p1a: Articuno|Ice Beam|p2a: Volbeat
 |split|p2
-|-damage|p2a: Volbeat|159/333
-|-damage|p2a: Volbeat|48/100
+|-damage|p2a: Volbeat|179/333
+|-damage|p2a: Volbeat|54/100
 |
 |upkeep
 |turn|2

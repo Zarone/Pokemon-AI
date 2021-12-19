@@ -188,6 +188,35 @@ class GameState:
             print("player not specified")
             return []
 
+    def save_showdown_input(self):
+        json_data = {}
+        
+        json_data["weatherType"] = self.weathertype
+        json_data["weatherTurns"] = self.numberofweatherturns
+        json_data["player1hazards"] = self.player1hazards
+        json_data["player2hazards"] = self.player2hazards
+        json_data["player1volatilestatus"] = self.player1volatilestatus
+        json_data["player2volatilestatus"] = self.player2volatilestatus
+        json_data["player1boosts"] = self.player1boosts
+        json_data["player2boosts"] = self.player2boosts
+        json_data["player1team"] = self.player1team
+        json_data["player2team"] = self.player2team
+        
+        with open('battleState.json', 'w') as f:
+            json.dump(json_data, f)
+        
+
+            # *self.numberofweatherturns,
+            # *self.weathertype,
+            # *self.player1hazards,
+            # *self.player2hazards,
+            # *self.player1volatilestatus,
+            # *self.player2volatilestatus,
+            # *self.player1boosts,
+            # *self.player2boosts,
+#             *p1_active, *p1_bench, *p2_active, *p2_bench
+#         ], self.player1won
+
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|win") or self.log[i].startswith("|tie"):

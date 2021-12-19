@@ -15,19 +15,20 @@ showdown_init = string.format(
     FORMAT, team1, team2, SHOWDOWN_FILE)
 
 ps_stream = io.popen(showdown_init, "r")
-file = io.open("last.txt", "w")
+-- file = io.open("last.txt", "w")
 while true do
     res = ps_stream:read("L")
     -- print(res)
     if (res == nil) then
         break
     elseif res:sub(1, 1) == "|" and not (res:sub(2, 4) == "req") then
-        file:write(res)
+        print(res)
+        -- file:write(res)
     end
 end
 ps_stream:close()
-file:close()
+-- file:close()
 
-log_stream = io.popen("python3 process_logs.py", "w")
+-- log_stream = io.popen("python3 process_logs.py", "w")
 -- print(log_stream:read("a"))
-log_stream:close()
+-- log_stream:close()

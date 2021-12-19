@@ -64,8 +64,9 @@ def get_log(log_name):
   new_game = gs.GameState(log.readlines(), False)
   for i in range(50):
     if (new_game.next_turn()): return
-    print(i, new_game.get_output())
-    print("\n")
+    new_game.save_showdown_input()
+    # print(i, new_game.get_output())
+    # print("\n")
   log.close()
 
 get_log("last.txt")
