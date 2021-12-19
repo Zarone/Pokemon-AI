@@ -14,9 +14,20 @@ showdown_init = string.format(
 ' | %s simulate-battle]],
     FORMAT, team1, team2, SHOWDOWN_FILE)
 
--- print(showdown_init)
-
-file = io.popen(showdown_init, "r")
-res = file:read("*a")
+ps_stream = io.popen(showdown_init, "r")
+file = io.open("last.txt", "w")
+while true do
+    res = ps_stream:read("L")
+    -- print(res)
+    if (res == nil) then
+        break
+    elseif res:sub(1, 1) == "|" and not (res:sub(2, 4) == "req") then
+        file:write(res)
+    end
+end
+ps_stream:close()
 file:close()
-print(res)
+
+log_stream = io.popen("python3 process_logs.py", "w")
+-- print(log_stream:read("a"))
+log_stream:close()

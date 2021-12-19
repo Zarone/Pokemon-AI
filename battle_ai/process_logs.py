@@ -57,15 +57,16 @@ import os
 
 def get_all_logs():
   for file in os.listdir("./raw_logs/"):
-      get_log(file)
+      get_log("raw_logs/"+file)
 
 def get_log(log_name):
-  log = open("raw_logs/"+log_name, "r", encoding='utf-8', errors='ignore')
+  log = open(log_name, "r", encoding='utf-8', errors='ignore')
   new_game = gs.GameState(log.readlines(), False)
   for i in range(50):
     if (new_game.next_turn()): return
-    # print(i, len(new_game.get_output()[0]))
+    print(i, new_game.get_output())
+    print("\n")
   log.close()
 
-# get_log("gen8nationaldex-1469587658.txt")
-get_all_logs()
+get_log("last.txt")
+# get_log("../get_battle_data/raw_logs/gen8nationaldex-1469587658.txt")

@@ -124,7 +124,7 @@ class GameState:
                     return True
         return False
 
-    def get_output(self):
+    def get_output(self, player): #player is either 1 or 2
         p1_active = None
         p1_bench = []
         p2_active = None
@@ -156,19 +156,37 @@ class GameState:
 
         # print("\n")
 
-        return [
-            [
-                self.numberofweatherturns,
-                *self.weathertype,
-                *self.player1hazards,
-                *self.player2hazards,
-                *self.player1volatilestatus,
-                *self.player2volatilestatus,
-                *self.player1boosts,
-                *self.player2boosts,
-                *p1_active, *p1_bench, *p2_active, *p2_bench
-            ], self.player1won
-        ]
+        if player == 1:
+            return [
+                [
+                    self.numberofweatherturns,
+                    *self.weathertype,
+                    *self.player1hazards,
+                    *self.player2hazards,
+                    *self.player1volatilestatus,
+                    *self.player2volatilestatus,
+                    *self.player1boosts,
+                    *self.player2boosts,
+                    *p1_active, *p1_bench, *p2_active, *p2_bench
+                ], self.player1won
+            ]
+        elif player == 2:
+            return [
+                [
+                    self.numberofweatherturns,
+                    *self.weathertype,
+                    *self.player2hazards,
+                    *self.player1hazards,
+                    *self.player2volatilestatus,
+                    *self.player1volatilestatus,
+                    *self.player2boosts,
+                    *self.player1boosts,
+                    *p2_active, *p2_bench, *p1_active, *p1_bench
+                ], not self.player1won
+            ]
+        else:
+            print("player not specified")
+            return []
 
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
@@ -443,8 +461,8 @@ class GameState:
         self.log = log_lines
         self.next_line = 0
         self.current_turn = 1
-        self.player1name = log_lines[0].split("|j|")[1].strip()
-        self.player2name = log_lines[1].split("|j|")[1].strip()
+        self.player1name = None
+        self.player2name = None
         self.player1team = []
         self.player2team = []
         self.player1won = None
@@ -474,7 +492,12 @@ class GameState:
 
         for line in log_lines:
             self.next_line += 1
-            if line.startswith("|poke"):
+            if line.startswith("|player"):
+                if(line.split("|")[2] == "p1"):
+                    self.player1name = line.split("|")[3]
+                elif(line.split("|")[2] == "p2"):
+                    self.player2name = line.split("|")[3]
+            elif line.startswith("|poke"):
                 # print(line)
                 split_player = None
 
