@@ -3,9 +3,18 @@
 desired outputs:
 
   for each turn:
-    a array like:
+    an array like:
       [
         [
+
+          # to add:
+            volatile status conditions or maybe entry hazards I don't know:
+              Confused
+              Flinch
+              Taunted
+              Yawning
+              Perish Song
+
 
           # total length should be 379
 

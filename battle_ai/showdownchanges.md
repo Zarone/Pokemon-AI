@@ -33,6 +33,26 @@ battle.ts
     	"baseSpecies.name",
     	this.sides[1] && this.sides[1].pokemon[0].baseSpecies.name
     );
+    console.log(
+    		this.sides[0] &&
+    			this.sides[0].sideConditions.spikes &&
+    			this.sides[0].sideConditions.spikes.id
+    	);
+    	console.log(
+    		this.sides[0] &&
+    			this.sides[0].sideConditions.spikes &&
+    			this.sides[0].sideConditions.spikes.layers
+    	);
+    	console.log(
+    		this.sides[1] &&
+    			this.sides[1].sideConditions.stealthrock &&
+    			this.sides[1].sideConditions.stealthrock.id
+    	);
+    	console.log(
+    		this.sides[0] &&
+    			this.sides[0].sideConditions.stealthrock &&
+    			this.sides[0].sideConditions.stealthrock.layers
+    	);
 
 I don't know the use of these:
 
