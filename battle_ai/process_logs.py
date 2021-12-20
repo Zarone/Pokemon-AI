@@ -13,6 +13,7 @@ desired outputs:
               Taunted: volatile status
               Yawning: volatile status
               Perish Song: volatile status
+              Substitute: volatile status
 
 
           # total length should be 379

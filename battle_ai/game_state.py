@@ -227,9 +227,11 @@ class GameState:
                 if self.log[i].startswith("p1a", 8):
                     player = 1                
                     self.player1boosts = [0 for _ in range(7)]
+                    self.player1volatilestatus = [0 for _ in range(6)]
                 elif self.log[i].startswith("p2a", 8):
                     player = 2
                     self.player2boosts = [0 for _ in range(7)]
+                    self.player2volatilestatus = [0 for _ in range(6)]
 
                 target_pokemon = self.log[i].split("|")[3].split(",")[0]
 
@@ -482,8 +484,40 @@ class GameState:
                         print("unknown weather condition: ", weather_type)
                 elif log_split[3].startswith("[upkeep]"):
                     self.numberofweatherturns += 1                
-            elif self.log[i].startswith("|-filedactive"):
-                print(self.log[i])
+            elif self.log[i].startswith("|-start"):
+                log_split = self.log[i].split("|")
+                player_string = log_split[2].split(":")[0].lstrip()
+                effect_string = log_split[3].split(":")
+
+                if len(effect_string) > 1:
+                    effect_string = effect_string[1].strip()
+                else:
+                    effect_string = effect_string[0].strip()
+
+                effect_int = -1
+                effect_value = -1
+
+                if effect_string == "Leech Seed":
+                    effect_int = 0
+                    effect_value = 1
+                elif effect_string == "Taunt":
+                    self.player1volatilestatus[1] = 1
+                elif effect_string == "confusion":
+                    self.player1volatilestatus[2] = 1
+                elif effect_string == "Yawn":
+                    self.player1volatilestatus[3] == 1
+                elif effect_string == "perish3":
+                    self.player1volatilestatus[4] == 1
+                elif effect_string == "perish2":
+                    self.player1volatilestatus[4] == 2
+                elif effect_string == "perish1":
+                    self.player1volatilestatus[4] == 3
+                elif effect_string == "perish0":
+                    self.player1volatilestatus[4] == 0
+                elif effect_string == "Substitute":
+                    self.player1volatilestatus[5] == 1
+                
+            #     print(self.log[i])
 
         self.current_turn += 1
         return False
@@ -504,9 +538,9 @@ class GameState:
         self.player2boosts = [0 for _ in range(7)]
         self.nickname_table = {}
 
-        # leechseed, confused, taunt, yawn, perishsong 
-        self.player1volatilestatus = [0 for _ in range(5)]
-        self.player2volatilestatus = [0 for _ in range(5)]
+        # leechseed, confused, taunt, yawn, perishsong, substitute
+        self.player1volatilestatus = [0 for _ in range(6)]
+        self.player2volatilestatus = [0 for _ in range(6)]
 
         # spikes, toxic spikes, stealth rocks, reflect, lightscreen, tailwind
         self.player1hazards = [0 for _ in range(6)]
