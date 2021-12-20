@@ -9,11 +9,10 @@ desired outputs:
 
           # to add:
             volatile status conditions or maybe entry hazards I don't know:
-              Confused
-              Flinch
-              Taunted
-              Yawning
-              Perish Song
+              Confused: volatile status
+              Taunted: volatile status
+              Yawning: volatile status
+              Perish Song: volatile status
 
 
           # total length should be 379
@@ -63,10 +62,11 @@ desired outputs:
 import game_state as gs
 import os
 
+raw_log_dir = "../get_battle_data/raw_logs/"
 
 def get_all_logs():
-  for file in os.listdir("./raw_logs/"):
-      get_log("raw_logs/"+file)
+  for file in os.listdir(raw_log_dir):
+      get_log(raw_log_dir+file)
 
 def get_log(log_name):
   log = open(log_name, "r", encoding='utf-8', errors='ignore')
@@ -78,5 +78,6 @@ def get_log(log_name):
     # print("\n")
   log.close()
 
-get_log("last.txt")
+get_all_logs()
+# get_log("last.txt")
 # get_log("../get_battle_data/raw_logs/gen8nationaldex-1469587658.txt")

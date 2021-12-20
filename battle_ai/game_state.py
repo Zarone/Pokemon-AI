@@ -226,10 +226,10 @@ class GameState:
                 player = 3
                 if self.log[i].startswith("p1a", 8):
                     player = 1                
-                    self.player1boosts = [0 for _ in range(6)]
+                    self.player1boosts = [0 for _ in range(7)]
                 elif self.log[i].startswith("p2a", 8):
                     player = 2
-                    self.player2boosts = [0 for _ in range(6)]
+                    self.player2boosts = [0 for _ in range(7)]
 
                 target_pokemon = self.log[i].split("|")[3].split(",")[0]
 
@@ -309,7 +309,7 @@ class GameState:
                 stat_string = split_line[3]
                 stage_string = split_line[4].rstrip()
 
-                stat_index = 5
+                stat_index = 7
                 if stat_string == "atk":
                     stat_index = 0
                 elif stat_string == "def":
@@ -337,7 +337,7 @@ class GameState:
                 stat_string = split_line[3]
                 stage_string = split_line[4].rstrip()
 
-                stat_index = 5
+                stat_index = 7
                 if stat_string == "atk":
                     stat_index = 0
                 elif stat_string == "def":
@@ -350,7 +350,7 @@ class GameState:
                     stat_index = 4
                 elif stat_string == "accuracy":
                     stat_index = 5
-                elif stage_string == "evasion":
+                elif stat_string == "evasion":
                     stat_index = 6
                 else:
                     print("stat not recognized: ", stat_string)
@@ -482,6 +482,8 @@ class GameState:
                         print("unknown weather condition: ", weather_type)
                 elif log_split[3].startswith("[upkeep]"):
                     self.numberofweatherturns += 1                
+            elif self.log[i].startswith("|-filedactive"):
+                print(self.log[i])
 
         self.current_turn += 1
         return False
@@ -502,10 +504,9 @@ class GameState:
         self.player2boosts = [0 for _ in range(7)]
         self.nickname_table = {}
 
-        # right now these just check leech seed
-        # but later I could add taunt, and other stuff like that
-        self.player1volatilestatus = [0 for _ in range(1)]
-        self.player2volatilestatus = [0 for _ in range(1)]
+        # leechseed, confused, taunt, yawn, perishsong 
+        self.player1volatilestatus = [0 for _ in range(5)]
+        self.player2volatilestatus = [0 for _ in range(5)]
 
         # spikes, toxic spikes, stealth rocks, reflect, lightscreen, tailwind
         self.player1hazards = [0 for _ in range(6)]
