@@ -199,23 +199,19 @@ class GameState:
         json_data["player2volatilestatus"] = self.player2volatilestatus
         json_data["player1boosts"] = self.player1boosts
         json_data["player2boosts"] = self.player2boosts
-        json_data["player1team"] = self.player1team
-        json_data["player2team"] = self.player2team
+        new_team1 = [self.player1team[self.player1active]]
+        for i in range(len(self.player1team)):
+            if not (i == self.player1active):
+                new_team1.append(self.player1team[i])
+        new_team2 = [self.player2team[self.player2active]]
+        for i in range(len(self.player2team)):
+            if not (i == self.player2active):
+                new_team2.append(self.player2team[i])
+        json_data["player1team"] = new_team1
+        json_data["player2team"] = new_team2
         
         with open('battleState.json', 'w') as f:
             json.dump(json_data, f)
-        
-
-            # *self.numberofweatherturns,
-            # *self.weathertype,
-            # *self.player1hazards,
-            # *self.player2hazards,
-            # *self.player1volatilestatus,
-            # *self.player2volatilestatus,
-            # *self.player1boosts,
-            # *self.player2boosts,
-#             *p1_active, *p1_bench, *p2_active, *p2_bench
-#         ], self.player1won
 
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
@@ -324,8 +320,10 @@ class GameState:
                     stat_index = 3
                 elif stat_string == "spe":
                     stat_index = 4
-                elif stat_string == "evasion":
+                elif stat_string == "accuracy":
                     stat_index = 5
+                elif stat_string == "evasion":
+                    stat_index = 6
                 else:
                     print("stat not recognized: ", stat_string)
 
@@ -350,8 +348,10 @@ class GameState:
                     stat_index = 3
                 elif stat_string == "spe":
                     stat_index = 4
-                elif stat_string == "evasion":
+                elif stat_string == "accuracy":
                     stat_index = 5
+                elif stage_string == "evasion":
+                    stat_index = 6
                 else:
                     print("stat not recognized: ", stat_string)
 
@@ -497,8 +497,9 @@ class GameState:
         self.player1won = None
         self.player1active = None
         self.player2active = None
-        self.player1boosts = [0 for _ in range(6)]
-        self.player2boosts = [0 for _ in range(6)]
+        # atk, def, spa, spd, spe, accuracy, evasion
+        self.player1boosts = [0 for _ in range(7)]
+        self.player2boosts = [0 for _ in range(7)]
         self.nickname_table = {}
 
         # right now these just check leech seed

@@ -1,4 +1,4 @@
-|t:|1639950932
+|t:|1639964736
 |gametype|singles
 |player|p1|A||
 |player|p2|B||
@@ -14,40 +14,41 @@
 |rule|Dynamax Clause: You cannot dynamax
 |rule|Sleep Clause Mod: Limit one foe put to sleep
 |clearpoke
-|poke|p1|Articuno|
-|poke|p1|Ludicolo, M|
+|poke|p1|Pachirisu, M|
+|poke|p1|Ludicolo, F|
 |poke|p1|Volbeat, M|
-|poke|p1|Seismitoad, F|
-|poke|p1|Alomomola, M|
-|poke|p1|Armaldo, F|
-|poke|p2|Articuno|
+|poke|p1|Seismitoad, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Armaldo, M|
+|poke|p2|Pachirisu, F|
 |poke|p2|Ludicolo, F|
 |poke|p2|Volbeat, M|
 |poke|p2|Seismitoad, F|
 |poke|p2|Alomomola, F|
-|poke|p2|Armaldo, F|
+|poke|p2|Armaldo, M|
 |teampreview
 |
-|t:|1639950932
+|t:|1639964736
 |start
 |split|p1
-|switch|p1a: Articuno|Articuno|384/384
-|switch|p1a: Articuno|Articuno|100/100
+|switch|p1a: Pachirisu|Pachirisu, M|324/324
+|switch|p1a: Pachirisu|Pachirisu, M|100/100
 |split|p2
-|switch|p2a: Articuno|Articuno|384/384
-|switch|p2a: Articuno|Articuno|100/100
-|-ability|p1a: Articuno|Pressure
-|-ability|p2a: Articuno|Pressure
+|switch|p2a: Pachirisu|Pachirisu, F|324/324
+|switch|p2a: Pachirisu|Pachirisu, F|100/100
+|-ability|p1a: Pachirisu|Pressure
+|-ability|p2a: Pachirisu|Pressure
 |turn|1
 |
-|t:|1639950932
+|t:|1639964736
 |split|p2
 |switch|p2a: Volbeat|Volbeat, M|333/333
 |switch|p2a: Volbeat|Volbeat, M|100/100
-|move|p1a: Articuno|Ice Beam|p2a: Volbeat
+|move|p1a: Pachirisu|Nuzzle|p2a: Volbeat
 |split|p2
-|-damage|p2a: Volbeat|179/333
-|-damage|p2a: Volbeat|54/100
+|-damage|p2a: Volbeat|324/333
+|-damage|p2a: Volbeat|98/100
+|-status|p2a: Volbeat|par
 |
 |upkeep
 |turn|2
