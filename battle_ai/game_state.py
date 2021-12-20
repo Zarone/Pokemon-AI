@@ -501,23 +501,38 @@ class GameState:
                     effect_int = 0
                     effect_value = 1
                 elif effect_string == "Taunt":
-                    self.player1volatilestatus[1] = 1
+                    effect_int = 1
+                    effect_value = 1
                 elif effect_string == "confusion":
-                    self.player1volatilestatus[2] = 1
+                    effect_int = 2
+                    effect_value = 1
                 elif effect_string == "Yawn":
-                    self.player1volatilestatus[3] == 1
+                    effect_int = 3
+                    effect_value = 1
                 elif effect_string == "perish3":
-                    self.player1volatilestatus[4] == 1
+                    effect_int = 4
+                    effect_value = 1
                 elif effect_string == "perish2":
-                    self.player1volatilestatus[4] == 2
+                    effect_int = 4
+                    effect_value = 2
                 elif effect_string == "perish1":
-                    self.player1volatilestatus[4] == 3
+                    effect_int = 4
+                    effect_value = 3
                 elif effect_string == "perish0":
-                    self.player1volatilestatus[4] == 0
+                    effect_int = 4
+                    effect_value = 0
                 elif effect_string == "Substitute":
-                    self.player1volatilestatus[5] == 1
+                    effect_int = 5
+                    effect_value = 1
+                else:
+                    print("effect not handled properly: ", effect_string)
                 
-            #     print(self.log[i])
+                if player_string.startswith("p1a"):
+                    self.player1volatilestatus[effect_int] = effect_value
+                elif player_string.startswith("p2a"):
+                    self.player2volatilestatus[effect_int] = effect_value
+                else:
+                    print("player not found: ", player_string)
 
         self.current_turn += 1
         return False
