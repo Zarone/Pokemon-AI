@@ -7,16 +7,7 @@ desired outputs:
       [
         [
 
-          # to add:
-            volatile status conditions or maybe entry hazards I don't know:
-              Confused: volatile status
-              Taunted: volatile status
-              Yawning: volatile status
-              Perish Song: volatile status
-              Substitute: volatile status
-
-
-          # total length should be 379
+          # total length should be 407
 
           # weather (also tracks number of turns it's been out) (would add 5)
             # sun
@@ -32,7 +23,7 @@ desired outputs:
             # lightscreen
             # tailwind
 
-          # status conditions ( would add 5*12+1*2 = 62 )
+          # status conditions ( would add 5*12+14*2 = 88 )
             # non-volatile ( for each pokemon )
               # burn
               # freeze
@@ -41,13 +32,27 @@ desired outputs:
               # sleep
             # volatile
               # leech seed
+              # Confused
+              # Taunted
+              # Yawning
+              # Perish Song
+              # Substitute
+              # Focus Energy
+              # Ingrain
+              # typechange
+              # disable
+              # encore
+              # futuresight
+              # autotomize
+              # aquaring
 
-          # stat boost array for each player
-          atk, spatk, def, spdef, spe, evasion
+          # stat boost array for each player (7*2)
+          atk, spatk, def, spdef, spe, evasion, accuray
 
           # for each of you and your opponent's pokemon
           # make sure to include the active pokemon seperately
           
+          # (1+6+17)*12 = 288
           %HP, *basestats, *types
           
           # 17 types
@@ -72,10 +77,10 @@ def get_all_logs():
 def get_log(log_name):
   log = open(log_name, "r", encoding='utf-8', errors='ignore')
   new_game = gs.GameState(log.readlines(), False)
-  for i in range(50):
+  for i in range(100):
     if (new_game.next_turn()): return
     new_game.save_showdown_input()
-    # print(i, new_game.get_output())
+    print(i, len(new_game.get_output(1)[0]))
     # print("\n")
   log.close()
 

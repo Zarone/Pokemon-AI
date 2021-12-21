@@ -1,6 +1,8 @@
 import json
 from os import stat
-
+VOLATILE_CONDITIONS = 14
+BOOSTS = 7
+HAZARDS = 6
 
 def get_pokemon_data(pokemon):
     pokemon_raw = open("gamedata/pokedex.json", "r")
@@ -226,12 +228,12 @@ class GameState:
                 player = 3
                 if self.log[i].startswith("p1a", 8):
                     player = 1                
-                    self.player1boosts = [0 for _ in range(7)]
-                    self.player1volatilestatus = [0 for _ in range(6)]
+                    self.player1boosts = [0 for _ in range(BOOSTS)]
+                    self.player1volatilestatus = [0 for _ in range(VOLATILE_CONDITIONS)]
                 elif self.log[i].startswith("p2a", 8):
                     player = 2
-                    self.player2boosts = [0 for _ in range(7)]
-                    self.player2volatilestatus = [0 for _ in range(6)]
+                    self.player2boosts = [0 for _ in range(BOOSTS)]
+                    self.player2volatilestatus = [0 for _ in range(VOLATILE_CONDITIONS)]
 
                 target_pokemon = self.log[i].split("|")[3].split(",")[0]
 
@@ -494,7 +496,7 @@ class GameState:
                 else:
                     effect_string = effect_string[0].strip()
 
-                effect_int = -1
+                effect_int = None
                 effect_value = -1
 
                 if effect_string == "Leech Seed":
@@ -524,15 +526,40 @@ class GameState:
                 elif effect_string == "Substitute":
                     effect_int = 5
                     effect_value = 1
+                elif effect_string == "Focus Energy":
+                    effect_int = 6
+                    effect_value = 1
+                elif effect_string == "Ingrain":
+                    effect_int = 7
+                    effect_value = 1
+                elif effect_string == "typechange":
+                    effect_int = 8
+                    effect_value = 1
+                elif effect_string == "Disable":
+                    effect_int = 9
+                    effect_value = 1
+                elif effect_string == "Encore":
+                    effect_int = 10
+                    effect_value = 1
+                elif effect_string == "Future Sight":
+                    effect_int = 11
+                    effect_value = 1
+                elif effect_string == "Autotomize":
+                    effect_int = 12
+                    effect_value = 1
+                elif effect_string == "Aqua Ring":
+                    effect_int = 13
+                    effect_value = 1
                 else:
                     print("effect not handled properly: ", effect_string)
                 
-                if player_string.startswith("p1a"):
-                    self.player1volatilestatus[effect_int] = effect_value
-                elif player_string.startswith("p2a"):
-                    self.player2volatilestatus[effect_int] = effect_value
-                else:
-                    print("player not found: ", player_string)
+                if effect_int < len(self.player1volatilestatus):
+                    if player_string.startswith("p1a"):
+                        self.player1volatilestatus[effect_int] = effect_value
+                    elif player_string.startswith("p2a"):
+                        self.player2volatilestatus[effect_int] = effect_value
+                    else:
+                        print("player not found: ", player_string)
 
         self.current_turn += 1
         return False
@@ -549,17 +576,18 @@ class GameState:
         self.player1active = None
         self.player2active = None
         # atk, def, spa, spd, spe, accuracy, evasion
-        self.player1boosts = [0 for _ in range(7)]
-        self.player2boosts = [0 for _ in range(7)]
+        self.player1boosts = [0 for _ in range(BOOSTS)]
+        self.player2boosts = [0 for _ in range(BOOSTS)]
         self.nickname_table = {}
 
-        # leechseed, confused, taunt, yawn, perishsong, substitute
-        self.player1volatilestatus = [0 for _ in range(6)]
-        self.player2volatilestatus = [0 for _ in range(6)]
+        # leechseed, confused, taunt, yawn, perishsong, substitute, Focus Energy, 
+        # Ingrain, typechange, disable, encore, futuresight, autotomize, aquaring
+        self.player1volatilestatus = [0 for _ in range(VOLATILE_CONDITIONS)]
+        self.player2volatilestatus = [0 for _ in range(VOLATILE_CONDITIONS)]
 
         # spikes, toxic spikes, stealth rocks, reflect, lightscreen, tailwind
-        self.player1hazards = [0 for _ in range(6)]
-        self.player2hazards = [0 for _ in range(6)]
+        self.player1hazards = [0 for _ in range(HAZARDS)]
+        self.player2hazards = [0 for _ in range(HAZARDS)]
 
         # weather: 0 => sun, 1 => rain, 2 => sand, 3 => hail
         self.numberofweatherturns = 0
