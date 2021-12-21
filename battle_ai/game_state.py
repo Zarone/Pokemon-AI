@@ -1,5 +1,5 @@
 import json
-from os import stat
+
 VOLATILE_CONDITIONS = 14
 BOOSTS = 7
 HAZARDS = 6
