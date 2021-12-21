@@ -79,11 +79,11 @@ def get_log(log_name):
   new_game = gs.GameState(log.readlines(), False)
   for i in range(100):
     if (new_game.next_turn()): return
-    new_game.save_showdown_input()
-    print(i, len(new_game.get_output(1)[0]))
+    # new_game.save_showdown_input()
+    # print(i, len(new_game.get_output(1)[0]))
     # print("\n")
   log.close()
 
-get_all_logs()
-# get_log("last.txt")
+# get_all_logs()
+get_log("last.txt")
 # get_log("../get_battle_data/raw_logs/gen8nationaldex-1469587658.txt")

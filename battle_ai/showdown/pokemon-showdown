@@ -16,6 +16,8 @@
 // of interfacing with the simulator from non-JS languages. Otherwise we error
 // on the side of caution and run `node build` to ensure we're always running
 // with the latest code.
+let fs = require("fs");
+
 var built = false;
 function build() {
 	require("child_process").execSync("node build", {
@@ -248,7 +250,10 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 					replay: spectate ? "spectator" : replay,
 				});
 				stdin.pipeTo(battleStream);
-				battleStream.pipeTo(stdout);
+				// battleStream.pipeTo(stdout);
+
+				let logFile = fs.createWriteStream("last.txt");
+				battleStream.pipeTo(logFile, { noEnd: true });
 			}
 			break;
 		case "unpack-team":

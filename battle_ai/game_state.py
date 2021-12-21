@@ -217,12 +217,11 @@ class GameState:
 
     def next_turn(self):
         for i in range(self.next_line, len(self.log)):
-            if self.log[i].startswith("|win") or self.log[i].startswith("|tie"):
-                return True
-            elif self.log[i].startswith("|turn"):
+            if self.log[i].startswith("|turn"):
                 if self.log[i].split("|")[2].strip() != str(self.current_turn):
                     self.next_line = i+1
-                    break
+                    if i == (len(self.log) - 1):
+                        return True
             elif self.log[i].startswith("|switch"):
 
                 player = 3
@@ -560,6 +559,8 @@ class GameState:
                         self.player2volatilestatus[effect_int] = effect_value
                     else:
                         print("player not found: ", player_string)
+            elif self.log[i].startswith("|win") or self.log[i].startswith("|tie"):
+                return True
 
         self.current_turn += 1
         return False
