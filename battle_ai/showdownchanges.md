@@ -12,6 +12,9 @@ battle.ts
     		}
     	});
 
+
+    // the variables if I want to set them in future
+
     console.log("weatherType: ", this.field.weather);
     console.log(
     	"weatherTurn: ",
@@ -54,21 +57,6 @@ battle.ts
     		this.sides[0].sideConditions.stealthrock.layers
     );
 
-I don't know the use of these:
+pokemon-showdown
 
-    	// console.log(
-    	// 	"position",
-    	// 	this.sides[0] && this.sides[0].pokemon[0].position
-    	// );
-    	// console.log(
-    	// 	"isActive",
-    	// 	this.sides[0] && this.sides[0].pokemon[0].isActive
-    	// );
-    	// console.log(
-    	// 	"show cure",
-    	// 	this.sides[0] && this.sides[0].pokemon[0].showCure
-    	// );
-    	// console.log(
-    	// 	"volatileStaleness",
-    	// 	this.sides[0] && this.sides[0].pokemon[0].volatileStaleness
-    	// );
+    battleStream.pipeTo(logFile, { noEnd: true });
