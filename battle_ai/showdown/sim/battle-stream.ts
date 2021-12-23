@@ -63,6 +63,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	_write(chunk: string) {
+		// console.log(this.battle && this.battle.log);
+
 		if (this.noCatch) {
 			this._writeLines(chunk);
 		} else {
@@ -73,6 +75,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				return;
 			}
 		}
+
+		// console.log(this.battle && this.battle.log);
+
 		if (this.battle) this.battle.sendUpdates();
 	}
 
@@ -111,11 +116,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	_writeLine(type: string, message: string) {
-		// console.log("write lines, line type: ", type);
-		// console.log("write lines, line message: ", message);
 		switch (type) {
 			case "start":
-				console.log("start called");
 				const options = JSON.parse(message);
 				options.send = (t: string, data: any) => {
 					if (Array.isArray(data)) data = data.join("\n");
@@ -124,17 +126,21 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				};
 				if (this.debug) options.debug = true;
 				this.battle = new Battle(options);
+				// console.log("start called, battle: ", this.battle.log);
 				break;
 			case "player":
 				const [slot, optionsText] = splitFirst(message, " ");
-				console.log("player call: slot", slot);
-				console.log("player call: optionText", optionsText);
 				this.battle!.setPlayer(slot as SideID, JSON.parse(optionsText));
+				// console.log(
+				// 	"player call, battle: ",
+				// 	this.battle && this.battle.log
+				// );
 				break;
 			case "p1":
 			case "p2":
 			case "p3":
 			case "p4":
+				console.log(type);
 				if (message === "undo") {
 					this.battle!.undoChoice(type);
 				} else {

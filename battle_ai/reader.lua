@@ -9,16 +9,15 @@ sf = string.format
 showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
 
 ps_stream = io.popen(showdown_init, "w")
--- io.stdout:setvbuf 'no' 
 
 ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")
 ps_stream:write(sf([[>player p1 {"name":"A", "team": "%s"}]], team1) .. "\n")
 ps_stream:write(sf([[>player p2 {"name":"B", "team": "%s"}]], team2) .. "\n")
 ps_stream:write([[>p1 team 123456]] .. "\n")
-ps_stream:write([[>p2 team 12345]] .. "\n")
-ps_stream:write([[>p1 move 1]] .. "\n")
-ps_stream:write([[>p2 move 3]] .. "\n")
--- ps_stream:flush()
+ps_stream:write([[>p2 team 123456]] .. "\n")
+-- ps_stream:write([[>p1 move 1]] .. "\n")
+-- ps_stream:write([[>p2 move 3]] .. "\n")
+ps_stream:close()
 -- while true do print(test_file:read("a")) end
 
 -- lines = {}
@@ -40,7 +39,6 @@ ps_stream:write([[>p2 move 3]] .. "\n")
 --     print(line_iter())
 -- end
 
-ps_stream:close()
 
 -- if I do process_logs in lua:
 ---    I can just run that, analyze the log from last.txt and

@@ -1,0 +1,1 @@
+The first thing to do, is to go into showdown/sim/battle-stream.ts BattleStream.\_writeLine(type: string, message: string). Using a new this.overload, tell the ">player" command to instead load an object from battleState.json. Extract the needed data, then run a new "setPlayer()"

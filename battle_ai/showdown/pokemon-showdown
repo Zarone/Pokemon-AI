@@ -204,7 +204,7 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 					require("./.sim-dist/battle-stream").BattleTextStream;
 				var Streams = require("./.lib-dist/streams");
 				var stdin = Streams.stdin();
-				var stdout = Streams.stdout();
+				// var stdout = Streams.stdout();
 
 				var args = process.argv.slice(3);
 

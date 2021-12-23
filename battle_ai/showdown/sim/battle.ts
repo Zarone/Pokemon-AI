@@ -3072,6 +3072,7 @@ export class Battle {
 		// returns whether or not we ended in a callback
 		switch (action.choice) {
 			case "start": {
+				console.log("start start: ", this.log);
 				for (const side of this.sides) {
 					if (side.pokemonLeft) side.pokemonLeft = side.pokemon.length;
 				}

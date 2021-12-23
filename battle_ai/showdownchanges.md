@@ -1,6 +1,11 @@
 battle.ts
 
     let fs = require("fs");
+
+battle.ts (Battle.runAction right at the beggining of case start, set relevant battle data)
+
+    // read state from battleState.json
+
     fs.readFile("./battleState.json", "utf8", (err: any, data: any) => {
     		if (err) {
     			console.log(`Error reading file from disk: ${err}`);
@@ -12,49 +17,23 @@ battle.ts
     		}
     	});
 
-    // the variables if I want to set them in future
+    // the variables if I want to set
 
-    console.log("weatherType: ", this.field.weather);
-    console.log(
-    	"weatherTurn: ",
-    	this.field.getWeather().duration - field.weatherState.duration
-    );
-    console.log("status", this.sides[1] && this.sides[1].pokemon[0].status);
-    console.log(
-    		"volatiles",
-    		// this.sides[0] && this.sides[0].pokemon[0].volatiles,
-    		this.sides[1] &&
-    			this.sides[1].pokemon[0].volatiles &&
-    			Object.keys(this.sides[1].pokemon[0].volatiles)
-    	);
-    console.log("hp", this.sides[0] && this.sides[0].pokemon[0].hp);
-    console.log("types", this.sides[0] && this.sides[0].pokemon[0].types);
-    console.log("boosts", this.sides[0] && this.sides[0].pokemon[0].boosts);
-    console.log("level", this.sides[0] && this.sides[0].pokemon[0].level);
-    console.log(
-    	"baseSpecies.name",
-    	this.sides[1] && this.sides[1].pokemon[0].baseSpecies.name
-    );
-    console.log(
-    		this.sides[0] &&
-    		this.sides[0].sideConditions.spikes &&
-    		this.sides[0].sideConditions.spikes.id
-    );
-    console.log(
-    	this.sides[0] &&
-    		this.sides[0].sideConditions.spikes &&
-    		this.sides[0].sideConditions.spikes.layers
-    );
-    console.log(
-    	this.sides[1] &&
-    		this.sides[1].sideConditions.stealthrock &&
-    		this.sides[1].sideConditions.stealthrock.id
-    );
-    console.log(
-    	this.sides[0] &&
-    		this.sides[0].sideConditions.stealthrock &&
-    		this.sides[0].sideConditions.stealthrock.layers
-    );
+    this.field.weather
+    this.field.getWeather().duration - field.weatherState.duration
+    this.sides[1].pokemon[0].status
+    Object.keys(this.sides[1].pokemon[0].volatiles)
+    this.sides[0].pokemon[0].hp
+    this.sides[0].pokemon[0].types
+    this.sides[0].pokemon[0].boosts
+    this.sides[0].pokemon[0].level
+    this.sides[1].pokemon[0].baseSpecies.name
+    this.sides[0].sideConditions.spikes
+    this.sides[0].sideConditions.spikes.id
+    this.sides[0].sideConditions.spikes.layers
+    this.sides[0].sideConditions.stealthrock
+    this.sides[1].sideConditions.stealthrock.id
+    this.sides[0].sideConditions.stealthrock.layers
 
 pokemon-showdown
 
