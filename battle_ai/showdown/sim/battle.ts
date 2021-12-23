@@ -301,16 +301,16 @@ export class Battle {
 			}
 		}
 
-		fs.readFile("./battleState.json", "utf8", (err: any, data: any) => {
-			if (err) {
-				console.log(`Error reading file from disk: ${err}`);
-			} else {
-				// parse JSON string to JSON object
-				const databases = JSON.parse(data);
+		// fs.readFile("./battleState.json", "utf8", (err: any, data: any) => {
+		// 	if (err) {
+		// 		console.log(`Error reading file from disk: ${err}`);
+		// 	} else {
+		// 		// parse JSON string to JSON object
+		// 		const databases = JSON.parse(data);
 
-				console.log(databases);
-			}
-		});
+		// 		console.log(databases);
+		// 	}
+		// });
 	}
 
 	toJSON(): AnyObject {

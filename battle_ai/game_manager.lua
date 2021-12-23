@@ -1,7 +1,13 @@
 -- open pokemon showdown client in write mode
-    -- mod pokemon showdown to write log to file
 
--- create a gamestate object, passing in the current log file
+-- read memory locations from emulator, format into battleState.json
+-- mod pokemon showdown to read battleState.json and pass state in
+    -- some variables are needed by battleState but not the AI,
+    -- IVs, EVs, moveset, nature, ability, level, happiness
+
+-- mod pokemon showdown to write it's log to file
+
+-- create a gamestate object, passing in the current log file (last.txt)
 
 -- start loop
     -- pass the current gamestate to a decision making function,
@@ -21,3 +27,4 @@
     -- if next_turn returns true,
     -- that means the log has given "|win" or "|tie" and that the game is over
         -- end loop
+

@@ -18,13 +18,13 @@ ps_stream:write([[>p1 team 123456]] .. "\n")
 ps_stream:write([[>p2 team 12345]] .. "\n")
 ps_stream:write([[>p1 move 1]] .. "\n")
 ps_stream:write([[>p2 move 3]] .. "\n")
-ps_stream:flush()
+-- ps_stream:flush()
 -- while true do print(test_file:read("a")) end
 
-lines = {}
-for element in io.lines("last.txt") do
-    table.insert(lines, element)
-end
+-- lines = {}
+-- for element in io.lines("last.txt") do
+--     table.insert(lines, element)
+-- end
 -- test_file = io.open("last.txt", "r")
 -- line_iter = test_file:lines()
 -- for i = 0, 100, 1 do

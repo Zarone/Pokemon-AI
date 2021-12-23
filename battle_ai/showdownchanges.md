@@ -12,7 +12,6 @@ battle.ts
     		}
     	});
 
-
     // the variables if I want to set them in future
 
     console.log("weatherType: ", this.field.weather);
@@ -59,4 +58,6 @@ battle.ts
 
 pokemon-showdown
 
+    // this saves the game log to a file
+    let logFile = fs.createWriteStream("last_log.txt");
     battleStream.pipeTo(logFile, { noEnd: true });

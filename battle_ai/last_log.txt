@@ -1,0 +1,79 @@
+sideupdate
+p1
+|request|{"teamPreview":true,"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Articuno","details":"Articuno","condition":"384/384","active":true,"stats":{"atk":185,"def":236,"spa":316,"spd":286,"spe":206},"moves":["leechseed","confuseray","spikes"],"baseAbility":"pressure","item":"","pokeball":"pokeball","ability":"pressure"},{"ident":"p1: Ludicolo","details":"Ludicolo, F","condition":"302/302","active":false,"stats":{"atk":158,"def":176,"spa":306,"spd":236,"spe":239},"moves":["surf","gigadrain","icebeam","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Volbeat","details":"Volbeat, M","condition":"333/333","active":false,"stats":{"atk":163,"def":273,"spa":130,"spd":208,"spe":206},"moves":["tailglow","batonpass","encore","raindance"],"baseAbility":"prankster","item":"damprock","pokeball":"pokeball","ability":"prankster"},{"ident":"p1: Seismitoad","details":"Seismitoad, F","condition":"351/351","active":false,"stats":{"atk":203,"def":186,"spa":295,"spd":187,"spe":247},"moves":["hydropump","earthpower","stealthrock","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Alomomola","details":"Alomomola, M","condition":"534/534","active":false,"stats":{"atk":167,"def":284,"spa":116,"spd":127,"spe":166},"moves":["wish","protect","toxic","raindance"],"baseAbility":"regenerator","item":"damprock","pokeball":"pokeball","ability":"regenerator"},{"ident":"p1: Armaldo","details":"Armaldo, M","condition":"323/323","active":false,"stats":{"atk":383,"def":237,"spa":158,"spd":196,"spe":157},"moves":["xscissor","stoneedge","aquatail","rapidspin"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball","ability":"swiftswim"}]}}
+
+sideupdate
+p2
+|request|{"teamPreview":true,"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo","condition":"416/416","active":true,"stats":{"atk":230,"def":216,"spa":446,"spd":216,"spe":296},"moves":["toxicspikes","stealthrock","reflect"],"baseAbility":"pressure","item":"","pokeball":"pokeball","ability":"pressure"},{"ident":"p2: Ludicolo","details":"Ludicolo, M","condition":"302/302","active":false,"stats":{"atk":158,"def":176,"spa":306,"spd":236,"spe":239},"moves":["surf","gigadrain","icebeam","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p2: Volbeat","details":"Volbeat, M","condition":"333/333","active":false,"stats":{"atk":163,"def":273,"spa":130,"spd":208,"spe":206},"moves":["tailglow","batonpass","encore","raindance"],"baseAbility":"prankster","item":"damprock","pokeball":"pokeball","ability":"prankster"},{"ident":"p2: Seismitoad","details":"Seismitoad, M","condition":"351/351","active":false,"stats":{"atk":203,"def":186,"spa":295,"spd":187,"spe":247},"moves":["hydropump","earthpower","stealthrock","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p2: Alomomola","details":"Alomomola, F","condition":"534/534","active":false,"stats":{"atk":167,"def":284,"spa":116,"spd":127,"spe":166},"moves":["wish","protect","toxic","raindance"],"baseAbility":"regenerator","item":"damprock","pokeball":"pokeball","ability":"regenerator"},{"ident":"p2: Armaldo","details":"Armaldo, F","condition":"323/323","active":false,"stats":{"atk":383,"def":237,"spa":158,"spd":196,"spe":157},"moves":["xscissor","stoneedge","aquatail","rapidspin"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball","ability":"swiftswim"}]}}
+
+sideupdate
+p1
+|request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Confuse Ray","id":"confuseray","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Articuno","details":"Articuno","condition":"384/384","active":true,"stats":{"atk":185,"def":236,"spa":316,"spd":286,"spe":206},"moves":["leechseed","confuseray","spikes"],"baseAbility":"pressure","item":"","pokeball":"pokeball","ability":"pressure"},{"ident":"p1: Ludicolo","details":"Ludicolo, F","condition":"302/302","active":false,"stats":{"atk":158,"def":176,"spa":306,"spd":236,"spe":239},"moves":["surf","gigadrain","icebeam","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Volbeat","details":"Volbeat, M","condition":"333/333","active":false,"stats":{"atk":163,"def":273,"spa":130,"spd":208,"spe":206},"moves":["tailglow","batonpass","encore","raindance"],"baseAbility":"prankster","item":"damprock","pokeball":"pokeball","ability":"prankster"},{"ident":"p1: Seismitoad","details":"Seismitoad, F","condition":"351/351","active":false,"stats":{"atk":203,"def":186,"spa":295,"spd":187,"spe":247},"moves":["hydropump","earthpower","stealthrock","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Alomomola","details":"Alomomola, M","condition":"534/534","active":false,"stats":{"atk":167,"def":284,"spa":116,"spd":127,"spe":166},"moves":["wish","protect","toxic","raindance"],"baseAbility":"regenerator","item":"damprock","pokeball":"pokeball","ability":"regenerator"},{"ident":"p1: Armaldo","details":"Armaldo, M","condition":"323/323","active":false,"stats":{"atk":383,"def":237,"spa":158,"spd":196,"spe":157},"moves":["xscissor","stoneedge","aquatail","rapidspin"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball","ability":"swiftswim"}]}}
+
+sideupdate
+p2
+|request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Stealth Rock","id":"stealthrock","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Reflect","id":"reflect","pp":32,"maxpp":32,"target":"allySide","disabled":false}]}],"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo","condition":"416/416","active":true,"stats":{"atk":230,"def":216,"spa":446,"spd":216,"spe":296},"moves":["toxicspikes","stealthrock","reflect"],"baseAbility":"pressure","item":"","pokeball":"pokeball","ability":"pressure"},{"ident":"p2: Ludicolo","details":"Ludicolo, M","condition":"302/302","active":false,"stats":{"atk":158,"def":176,"spa":306,"spd":236,"spe":239},"moves":["surf","gigadrain","icebeam","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p2: Volbeat","details":"Volbeat, M","condition":"333/333","active":false,"stats":{"atk":163,"def":273,"spa":130,"spd":208,"spe":206},"moves":["tailglow","batonpass","encore","raindance"],"baseAbility":"prankster","item":"damprock","pokeball":"pokeball","ability":"prankster"},{"ident":"p2: Seismitoad","details":"Seismitoad, M","condition":"351/351","active":false,"stats":{"atk":203,"def":186,"spa":295,"spd":187,"spe":247},"moves":["hydropump","earthpower","stealthrock","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p2: Alomomola","details":"Alomomola, F","condition":"534/534","active":false,"stats":{"atk":167,"def":284,"spa":116,"spd":127,"spe":166},"moves":["wish","protect","toxic","raindance"],"baseAbility":"regenerator","item":"damprock","pokeball":"pokeball","ability":"regenerator"},{"ident":"p2: Armaldo","details":"Armaldo, F","condition":"323/323","active":false,"stats":{"atk":383,"def":237,"spa":158,"spd":196,"spe":157},"moves":["xscissor","stoneedge","aquatail","rapidspin"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball","ability":"swiftswim"}]}}
+
+sideupdate
+p1
+|request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Confuse Ray","id":"confuseray","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Articuno","details":"Articuno","condition":"384/384","active":true,"stats":{"atk":185,"def":236,"spa":316,"spd":286,"spe":206},"moves":["leechseed","confuseray","spikes"],"baseAbility":"pressure","item":"","pokeball":"pokeball","ability":"pressure"},{"ident":"p1: Ludicolo","details":"Ludicolo, F","condition":"302/302","active":false,"stats":{"atk":158,"def":176,"spa":306,"spd":236,"spe":239},"moves":["surf","gigadrain","icebeam","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Volbeat","details":"Volbeat, M","condition":"333/333","active":false,"stats":{"atk":163,"def":273,"spa":130,"spd":208,"spe":206},"moves":["tailglow","batonpass","encore","raindance"],"baseAbility":"prankster","item":"damprock","pokeball":"pokeball","ability":"prankster"},{"ident":"p1: Seismitoad","details":"Seismitoad, F","condition":"351/351","active":false,"stats":{"atk":203,"def":186,"spa":295,"spd":187,"spe":247},"moves":["hydropump","earthpower","stealthrock","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Alomomola","details":"Alomomola, M","condition":"534/534","active":false,"stats":{"atk":167,"def":284,"spa":116,"spd":127,"spe":166},"moves":["wish","protect","toxic","raindance"],"baseAbility":"regenerator","item":"damprock","pokeball":"pokeball","ability":"regenerator"},{"ident":"p1: Armaldo","details":"Armaldo, M","condition":"323/323","active":false,"stats":{"atk":383,"def":237,"spa":158,"spd":196,"spe":157},"moves":["xscissor","stoneedge","aquatail","rapidspin"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball","ability":"swiftswim"}]}}
+
+sideupdate
+p2
+|request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Stealth Rock","id":"stealthrock","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Reflect","id":"reflect","pp":31,"maxpp":32,"target":"allySide","disabled":false}]}],"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo","condition":"364/416","active":true,"stats":{"atk":230,"def":216,"spa":446,"spd":216,"spe":296},"moves":["toxicspikes","stealthrock","reflect"],"baseAbility":"pressure","item":"","pokeball":"pokeball","ability":"pressure"},{"ident":"p2: Ludicolo","details":"Ludicolo, M","condition":"302/302","active":false,"stats":{"atk":158,"def":176,"spa":306,"spd":236,"spe":239},"moves":["surf","gigadrain","icebeam","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p2: Volbeat","details":"Volbeat, M","condition":"333/333","active":false,"stats":{"atk":163,"def":273,"spa":130,"spd":208,"spe":206},"moves":["tailglow","batonpass","encore","raindance"],"baseAbility":"prankster","item":"damprock","pokeball":"pokeball","ability":"prankster"},{"ident":"p2: Seismitoad","details":"Seismitoad, M","condition":"351/351","active":false,"stats":{"atk":203,"def":186,"spa":295,"spd":187,"spe":247},"moves":["hydropump","earthpower","stealthrock","raindance"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p2: Alomomola","details":"Alomomola, F","condition":"534/534","active":false,"stats":{"atk":167,"def":284,"spa":116,"spd":127,"spe":166},"moves":["wish","protect","toxic","raindance"],"baseAbility":"regenerator","item":"damprock","pokeball":"pokeball","ability":"regenerator"},{"ident":"p2: Armaldo","details":"Armaldo, F","condition":"323/323","active":false,"stats":{"atk":383,"def":237,"spa":158,"spd":196,"spe":157},"moves":["xscissor","stoneedge","aquatail","rapidspin"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball","ability":"swiftswim"}]}}
+
+update
+|t:|1640192536
+|gametype|singles
+|player|p1|A||
+|player|p2|B||
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Articuno|
+|poke|p1|Ludicolo, F|
+|poke|p1|Volbeat, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Armaldo, M|
+|poke|p2|Mewtwo|
+|poke|p2|Ludicolo, M|
+|poke|p2|Volbeat, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Armaldo, F|
+|teampreview
+|
+|t:|1640192536
+|start
+|split|p1
+|switch|p1a: Articuno|Articuno|384/384
+|switch|p1a: Articuno|Articuno|100/100
+|split|p2
+|switch|p2a: Mewtwo|Mewtwo|416/416
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|-ability|p1a: Articuno|Pressure
+|turn|1
+|
+|t:|1640192536
+|move|p2a: Mewtwo|Reflect|p2a: Mewtwo
+|-sidestart|p2: B|Reflect
+|move|p1a: Articuno|Leech Seed|p2a: Mewtwo
+|-start|p2a: Mewtwo|move: Leech Seed
+|
+|split|p2
+|-damage|p2a: Mewtwo|364/416|[from] Leech Seed|[of] p1a: Articuno
+|-damage|p2a: Mewtwo|88/100|[from] Leech Seed|[of] p1a: Articuno
+|upkeep
+|turn|2
+

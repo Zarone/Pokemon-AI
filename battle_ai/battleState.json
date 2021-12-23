@@ -1,1 +1,183 @@
-{"weatherType": [0, 0, 0, 0], "weatherTurns": 0, "player1hazards": [0, 0, 0, 0, 0, 0], "player2hazards": [0, 0, 0, 1, 0, 0], "player1volatilestatus": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "player2volatilestatus": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "player1boosts": [0, 0, 0, 0, 0, 0, 0], "player2boosts": [0, 0, 0, 0, 0, 0, 0], "player1team": [{"baseStats": {"hp": 80, "atk": 85, "spa": 30, "spd": 30, "spe": 25, "def": 95}, "types": ["Ground", "Rock"], "HP%": 100, "name": "Rhyhorn", "non-volatile-status": 0}, {"baseStats": {"hp": 80, "atk": 70, "spa": 90, "spd": 100, "spe": 70, "def": 70}, "types": ["Water", "Grass"], "HP%": 100, "name": "Ludicolo", "non-volatile-status": 0}, {"baseStats": {"hp": 65, "atk": 73, "spa": 47, "spd": 85, "spe": 85, "def": 75}, "types": ["Bug"], "HP%": 100, "name": "Volbeat", "non-volatile-status": 0}, {"baseStats": {"hp": 105, "atk": 95, "spa": 85, "spd": 75, "spe": 74, "def": 75}, "types": ["Water", "Ground"], "HP%": 100, "name": "Seismitoad", "non-volatile-status": 0}, {"baseStats": {"hp": 165, "atk": 75, "spa": 40, "spd": 45, "spe": 65, "def": 80}, "types": ["Water"], "HP%": 100, "name": "Alomomola", "non-volatile-status": 0}, {"baseStats": {"hp": 75, "atk": 125, "spa": 70, "spd": 80, "spe": 45, "def": 100}, "types": ["Rock", "Bug"], "HP%": 100, "name": "Armaldo", "non-volatile-status": 0}], "player2team": [{"otherFormes": ["Mewtwo-Mega-X", "Mewtwo-Mega-Y"], "baseStats": {"hp": 106, "atk": 110, "spa": 154, "spd": 90, "spe": 130, "def": 90}, "types": ["Psychic"], "HP%": 88, "name": "Mewtwo", "non-volatile-status": 0}, {"baseStats": {"hp": 80, "atk": 70, "spa": 90, "spd": 100, "spe": 70, "def": 70}, "types": ["Water", "Grass"], "HP%": 100, "name": "Ludicolo", "non-volatile-status": 0}, {"baseStats": {"hp": 65, "atk": 73, "spa": 47, "spd": 85, "spe": 85, "def": 75}, "types": ["Bug"], "HP%": 100, "name": "Volbeat", "non-volatile-status": 0}, {"baseStats": {"hp": 105, "atk": 95, "spa": 85, "spd": 75, "spe": 74, "def": 75}, "types": ["Water", "Ground"], "HP%": 100, "name": "Seismitoad", "non-volatile-status": 0}, {"baseStats": {"hp": 165, "atk": 75, "spa": 40, "spd": 45, "spe": 65, "def": 80}, "types": ["Water"], "HP%": 100, "name": "Alomomola", "non-volatile-status": 0}, {"baseStats": {"hp": 75, "atk": 125, "spa": 70, "spd": 80, "spe": 45, "def": 100}, "types": ["Rock", "Bug"], "HP%": 100, "name": "Armaldo", "non-volatile-status": 0}]}
+{
+  "weatherType": [0, 0, 0, 0],
+  "weatherTurns": 0,
+  "player1hazards": [0, 0, 0, 0, 0, 0],
+  "player2hazards": [0, 0, 0, 1, 0, 0],
+  "player1volatilestatus": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "player2volatilestatus": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "player1boosts": [0, 0, 0, 0, 0, 0, 0],
+  "player2boosts": [0, 0, 0, 0, 0, 0, 0],
+  "player1team": [
+    {
+      "baseStats": {
+        "hp": 80,
+        "atk": 85,
+        "spa": 30,
+        "spd": 30,
+        "spe": 25,
+        "def": 95
+      },
+      "types": ["Ground", "Rock"],
+      "HP%": 100,
+      "name": "Rhyhorn",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 80,
+        "atk": 70,
+        "spa": 90,
+        "spd": 100,
+        "spe": 70,
+        "def": 70
+      },
+      "types": ["Water", "Grass"],
+      "HP%": 100,
+      "name": "Ludicolo",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 65,
+        "atk": 73,
+        "spa": 47,
+        "spd": 85,
+        "spe": 85,
+        "def": 75
+      },
+      "types": ["Bug"],
+      "HP%": 100,
+      "name": "Volbeat",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 105,
+        "atk": 95,
+        "spa": 85,
+        "spd": 75,
+        "spe": 74,
+        "def": 75
+      },
+      "types": ["Water", "Ground"],
+      "HP%": 100,
+      "name": "Seismitoad",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 165,
+        "atk": 75,
+        "spa": 40,
+        "spd": 45,
+        "spe": 65,
+        "def": 80
+      },
+      "types": ["Water"],
+      "HP%": 100,
+      "name": "Alomomola",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 75,
+        "atk": 125,
+        "spa": 70,
+        "spd": 80,
+        "spe": 45,
+        "def": 100
+      },
+      "types": ["Rock", "Bug"],
+      "HP%": 100,
+      "name": "Armaldo",
+      "non-volatile-status": 0
+    }
+  ],
+  "player2team": [
+    {
+      "otherFormes": ["Mewtwo-Mega-X", "Mewtwo-Mega-Y"],
+      "baseStats": {
+        "hp": 106,
+        "atk": 110,
+        "spa": 154,
+        "spd": 90,
+        "spe": 130,
+        "def": 90
+      },
+      "types": ["Psychic"],
+      "HP%": 88,
+      "name": "Mewtwo",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 80,
+        "atk": 70,
+        "spa": 90,
+        "spd": 100,
+        "spe": 70,
+        "def": 70
+      },
+      "types": ["Water", "Grass"],
+      "HP%": 100,
+      "name": "Ludicolo",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 65,
+        "atk": 73,
+        "spa": 47,
+        "spd": 85,
+        "spe": 85,
+        "def": 75
+      },
+      "types": ["Bug"],
+      "HP%": 100,
+      "name": "Volbeat",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 105,
+        "atk": 95,
+        "spa": 85,
+        "spd": 75,
+        "spe": 74,
+        "def": 75
+      },
+      "types": ["Water", "Ground"],
+      "HP%": 100,
+      "name": "Seismitoad",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 165,
+        "atk": 75,
+        "spa": 40,
+        "spd": 45,
+        "spe": 65,
+        "def": 80
+      },
+      "types": ["Water"],
+      "HP%": 100,
+      "name": "Alomomola",
+      "non-volatile-status": 0
+    },
+    {
+      "baseStats": {
+        "hp": 75,
+        "atk": 125,
+        "spa": 70,
+        "spd": 80,
+        "spe": 45,
+        "def": 100
+      },
+      "types": ["Rock", "Bug"],
+      "HP%": 100,
+      "name": "Armaldo",
+      "non-volatile-status": 0
+    }
+  ]
+}
