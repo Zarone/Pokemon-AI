@@ -9,8 +9,8 @@ goal_manager = {
     -- second value is data for the first value
     -- third value states how the current_goal should change upon {completion, failure}
     goals = {
-        -- {0, {391, 5, 7}, {1, 1}},
-        -- {2, {{A = true}, 100}, {1, 1}}
+        {0, {391, 5, 7}, {1, 1}},
+        {2, {{A = true}, 100}, {1, 1}},
         {0, {389, 777, 742}, {1, 1}}
         -- {0, {391, 3, 4}, {1, 1}},
         -- {2, {{up = true}, 100}, {1, 1}},

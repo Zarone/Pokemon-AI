@@ -58,7 +58,7 @@ while true do
                     if not md.gpf.find_global_path(to_map, to_x, to_y) then
                         -- print("not enough information to traverse global map: wander")
                         md.wander()
-                        print(md.local_map)
+                        -- print(md.local_map)
                     else
                         -- print("enough information to traverse global map")
                     end

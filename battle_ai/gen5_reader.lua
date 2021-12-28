@@ -27,17 +27,16 @@ function check_mem_in_battle_slot(num)
     -- accuracy boost: memory.readbyte(get_battle_slot(num) + 303 )
     -- evasion boost: memory.readbyte(get_battle_slot(num) + 304 )
 
-    -- for i = 1, 547 do
+    -- for i = 0, 512 do
     --     print(i, memory.readbyte(get_battle_slot(num) + i))
     -- end
-    -- for i = 2, 547, 2 do
-    --     print(i, read_halfword(get_battle_slot(num) + i))
-    -- end
+
+
 end
 
 t = 0
 
-function fn()
+function get_pokemon_info()
 
     if t > 90 then
         t = 0
@@ -76,7 +75,7 @@ function fn()
         -- check_mem_in_battle_slot(4)
         -- check_mem_in_battle_slot(5)
 
-        -- check_mem_in_battle_slot(6)
+        check_mem_in_battle_slot(6)
         -- check_mem_in_battle_slot(7)
         -- check_mem_in_battle_slot(8)
         -- check_mem_in_battle_slot(9)
@@ -88,4 +87,32 @@ function fn()
     end
 end
 
+function fn()
+
+end
+
 gui.register(fn)
+
+-- can_attack: memory.readbyte(022A6A9D)
+
+-- remaining turns of weather: memory.readbyte(021F63F8)
+-- 1 when harsh sun: memory.readbyte(021F63F4)
+-- 2 when rain: memory.readbyte(021F63F4)
+-- 3 when hail: memory.readbyte(021F63F4)
+-- 4 when sand: memory.readbyte(021F63F4)
+-- weather, backup 02269C0C
+-- turns of trick room: 021F6440
+
+-- battle prng state: 021F6388
+
+-- check out 021F3CC7
+-- toxic spikes goes off when this is 0: 021F3CB4
+
+
+-- right after hyper beam
+-- 62
+-- 0000000000111110
+
+-- next turn
+-- 81
+-- 0000000001010001
