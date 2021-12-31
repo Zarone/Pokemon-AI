@@ -1,49 +1,38 @@
-SHOWDOWN_FILE = "./showdown/pokemon-showdown"
-FORMAT = "gen8nationaldex"
-team1 =
-    "Articuno|||pressure|leechseed,confuseray,spikes,|Modest|252,,,252,4,||,,,30,30,|||]Ludicolo||lifeorb|swiftswim|surf,gigadrain,icebeam,raindance|Modest|4,,,252,,252|||||]Volbeat||damprock|prankster|tailglow,batonpass,encore,raindance|Bold|248,,252,,8,|M||||]Seismitoad||lifeorb|swiftswim|hydropump,earthpower,stealthrock,raindance|Modest|,,,252,4,252|||||]Alomomola||damprock|regenerator|wish,protect,toxic,raindance|Bold|252,,252,,4,|||||]Armaldo||leftovers|swiftswim|xscissor,stoneedge,aquatail,rapidspin|Adamant|128,252,4,,,124|||||"
-team2 =
-    "Mewtwo|||pressure|toxicspikes,stealthrock,reflect,|Modest|252,,,252,4,||,,,30,30,|||]Ludicolo||lifeorb|swiftswim|surf,gigadrain,icebeam,raindance|Modest|4,,,252,,252|||||]Volbeat||damprock|prankster|tailglow,batonpass,encore,raindance|Bold|248,,252,,8,|M||||]Seismitoad||lifeorb|swiftswim|hydropump,earthpower,stealthrock,raindance|Modest|,,,252,4,252|||||]Alomomola||damprock|regenerator|wish,protect,toxic,raindance|Bold|252,,252,,4,|||||]Armaldo||leftovers|swiftswim|xscissor,stoneedge,aquatail,rapidspin|Adamant|128,252,4,,,124|||||"
-
 sf = string.format
-showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
 
-ps_stream = io.popen(showdown_init, "w")
+Writer = {}
+Writer.__index = Writer
 
-ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")
-ps_stream:write(sf([[>player p1 {"name":"A", "team": "%s"}]], team1) .. "\n")
-ps_stream:write(sf([[>player p2 {"name":"B", "team": "%s"}]], team2) .. "\n")
-ps_stream:write([[>p1 team 123456]] .. "\n")
-ps_stream:write([[>p2 team 123456]] .. "\n")
--- ps_stream:write([[>p1 move 1]] .. "\n")
--- ps_stream:write([[>p2 move 3]] .. "\n")
-ps_stream:close()
--- while true do print(test_file:read("a")) end
+function Writer.new(team1, team2)
 
--- lines = {}
--- for element in io.lines("last.txt") do
---     table.insert(lines, element)
--- end
--- test_file = io.open("last.txt", "r")
--- line_iter = test_file:lines()
--- for i = 0, 100, 1 do
---     print(line_iter())
--- end
+    instance = setmetatable({}, Writer)
+    SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
+    
+    -- mac: 
+    -- SHOWDOWN_FILE = "./showdown/pokemon-showdown"
+    -- windows: 
+    -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
+    
+    FORMAT = "gen8nationaldex"
+    Team1 = team1 or "Articuno|||pressure|leechseed,confuseray,spikes,|Modest|252,,,252,4,||,,,30,30,|||]Ludicolo||lifeorb|swiftswim|surf,gigadrain,icebeam,raindance|Modest|4,,,252,,252|||||]Volbeat||damprock|prankster|tailglow,batonpass,encore,raindance|Bold|248,,252,,8,|M||||]Seismitoad||lifeorb|swiftswim|hydropump,earthpower,stealthrock,raindance|Modest|,,,252,4,252|||||]Alomomola||damprock|regenerator|wish,protect,toxic,raindance|Bold|252,,252,,4,|||||]Armaldo||leftovers|swiftswim|xscissor,stoneedge,aquatail,rapidspin|Adamant|128,252,4,,,124|||||"
+    Team2 = team2 or "Mewtwo|||pressure|toxicspikes,stealthrock,reflect,|Modest|252,,,252,4,||,,,30,30,|||]Ludicolo||lifeorb|swiftswim|surf,gigadrain,icebeam,raindance|Modest|4,,,252,,252|||||]Volbeat||damprock|prankster|tailglow,batonpass,encore,raindance|Bold|248,,252,,8,|M||||]Seismitoad||lifeorb|swiftswim|hydropump,earthpower,stealthrock,raindance|Modest|,,,252,4,252|||||]Alomomola||damprock|regenerator|wish,protect,toxic,raindance|Bold|252,,252,,4,|||||]Armaldo||leftovers|swiftswim|xscissor,stoneedge,aquatail,rapidspin|Adamant|128,252,4,,,124|||||"
 
--- print("new turn\n\n\n\n\n\n")
+    showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
 
--- ps_stream:write([[>p1 move 2]] .. "\n")
--- ps_stream:write([[>p2 move 1]] .. "\n")
+    instance.ps_stream = io.popen(showdown_init, "w")
 
--- for i = 0, 100, 1 do
---     print(line_iter())
--- end
+    instance.ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")
+    instance.ps_stream:write(sf([[>player p1 {"name":"A", "team": "%s"}]], team1) .. "\n")
+    instance.ps_stream:write(sf([[>player p2 {"name":"B", "team": "%s"}]], team2) .. "\n")
+    instance.ps_stream:write([[>p1 team 123456]] .. "\n")
+    instance.ps_stream:write([[>p2 team 123456]] .. "\n")
 
+    return instance
+end
 
--- if I do process_logs in lua:
----    I can just run that, analyze the log from last.txt and
----    then just pass that value into the neural network as state
+function Writer:close()
+    self.ps_stream:close()
+    print("stream successfully closed")
+end
 
--- log_stream = io.popen("python3 process_logs.py", "w")
--- print(log_stream:read("a"))
--- log_stream:close()
+return { Writer = Writer }

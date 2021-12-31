@@ -9,8 +9,13 @@ function get_battle_slot(num)
     return 0x0226F026 + num*(9+16*33+11)
 end
 
+function get_possible_evs_ivs_nature(stat)
+
+end
+
 function check_mem_in_battle_slot(num)
     -- current HP: read_halfword(get_battle_slot(num) + 62)
+    -- max hp: read_halfword(get_battle_slot(num) + 60)
     -- current atk: read_halfword(get_battle_slot(num) + 284)
     -- current def: read_halfword(get_battle_slot(num) + 286)
     -- current spa: read_halfword(get_battle_slot(num) + 288)
@@ -26,6 +31,16 @@ function check_mem_in_battle_slot(num)
     -- spe boost: memory.readbyte(get_battle_slot(num) + 302 )
     -- accuracy boost: memory.readbyte(get_battle_slot(num) + 303 )
     -- evasion boost: memory.readbyte(get_battle_slot(num) + 304 )
+
+    -- possible IV spread: 365-270
+    -- possible EV spread: 359-364
+
+    print(read_halfword(get_battle_slot(num) + 60))
+    print(read_halfword(get_battle_slot(num) + 284))
+    print(read_halfword(get_battle_slot(num) + 286))
+    print(read_halfword(get_battle_slot(num) + 288))
+    print(read_halfword(get_battle_slot(num) + 290))
+    print(read_halfword(get_battle_slot(num) + 292))
 
     -- for i = 0, 512 do
     --     print(i, memory.readbyte(get_battle_slot(num) + i))
@@ -87,14 +102,33 @@ function get_pokemon_info()
     end
 end
 
-function fn()
+-- last_str = ""
+-- function fn()
+--     str = {}
+--     startChar = 0x02296380
+--     endChar = startChar+2*memory.readbyte(0x0229637A)-1
+--     for i = startChar, endChar , 2 do
+--         byteVal = memory.readbyte(i)
+--         if byteVal == 254 then
+--             table.insert(str, " ")
+--         else
+--             table.insert(str, string.char(memory.readbyte(i)))
+--         end
+--     end
+--     -- print(str)
+--     new_str = table.concat(str, "")
+--     if last_str ~= new_str then
+--         print(new_str)
+--     end
+--     last_str = new_str
+-- end
 
-end
+-- fn()
 
-gui.register(fn)
+gui.register(get_pokemon_info)
 
 -- can_attack: memory.readbyte(022A6A9D)
-
+-- something to do with stealth rock: 0x21f4534
 -- remaining turns of weather: memory.readbyte(021F63F8)
 -- 1 when harsh sun: memory.readbyte(021F63F4)
 -- 2 when rain: memory.readbyte(021F63F4)
@@ -105,14 +139,8 @@ gui.register(fn)
 
 -- battle prng state: 021F6388
 
--- check out 021F3CC7
+-- check out for hazards 021F3CC7
 -- toxic spikes goes off when this is 0: 021F3CB4
 
-
--- right after hyper beam
--- 62
--- 0000000000111110
-
--- next turn
--- 81
--- 0000000001010001
+-- for substitute, 0226F246, or 0226D896
+-- when sub is active it's value is 64 or "0100 0000" in binary
