@@ -1,4 +1,4 @@
-dofile "gen_4_5_table.lua"
+dofile "gen4_5_table.lua"
 
 local bnd,br,bxr=bit.band,bit.bor,bit.bxor
 local rshift, lshift=bit.rshift, bit.lshift

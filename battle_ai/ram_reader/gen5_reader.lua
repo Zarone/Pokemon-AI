@@ -21,7 +21,11 @@ function check_mem_in_battle_slot(num)
     -- current spa: read_halfword(get_battle_slot(num) + 288)
     -- current spd: read_halfword(get_battle_slot(num) + 290)
     -- current spe: read_halfword(get_battle_slot(num) + 292)
+    -- is paralyzed: read_halfword(get_battle_slot(num) + 78) 
+    -- is sleeping: 82
+    -- is frozen: 86
     -- is burned: read_halfword(get_battle_slot(num) + 90) 
+    -- is poisoned, val is 121 if toxic: read_halfword(get_battle_slot(num) + 94) 
     -- turns of sleep: memory.readbyte(get_battle_slot(num) + 220)
     
     -- atk boost: memory.readbyte(get_battle_slot(num) + 298 )
@@ -35,12 +39,12 @@ function check_mem_in_battle_slot(num)
     -- possible IV spread: 365-270
     -- possible EV spread: 359-364
 
-    print(read_halfword(get_battle_slot(num) + 60))
-    print(read_halfword(get_battle_slot(num) + 284))
-    print(read_halfword(get_battle_slot(num) + 286))
-    print(read_halfword(get_battle_slot(num) + 288))
-    print(read_halfword(get_battle_slot(num) + 290))
-    print(read_halfword(get_battle_slot(num) + 292))
+    -- print(read_halfword(get_battle_slot(num) + 60))
+    -- print(read_halfword(get_battle_slot(num) + 284))
+    -- print(read_halfword(get_battle_slot(num) + 286))
+    -- print(read_halfword(get_battle_slot(num) + 288))
+    -- print(read_halfword(get_battle_slot(num) + 290))
+    -- print(read_halfword(get_battle_slot(num) + 292))
 
     -- for i = 0, 512 do
     --     print(i, memory.readbyte(get_battle_slot(num) + i))
@@ -131,9 +135,9 @@ gui.register(get_pokemon_info)
 -- something to do with stealth rock: 0x21f4534
 -- remaining turns of weather: memory.readbyte(021F63F8)
 -- 1 when harsh sun: memory.readbyte(021F63F4)
--- 2 when rain: memory.readbyte(021F63F4)
--- 3 when hail: memory.readbyte(021F63F4)
--- 4 when sand: memory.readbyte(021F63F4)
+-- 2 when rain:      memory.readbyte(021F63F4)
+-- 3 when hail:      memory.readbyte(021F63F4)
+-- 4 when sand:      memory.readbyte(021F63F4)
 -- weather, backup 02269C0C
 -- turns of trick room: 021F6440
 
