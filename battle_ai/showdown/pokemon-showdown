@@ -252,7 +252,7 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 				stdin.pipeTo(battleStream);
 				// battleStream.pipeTo(stdout);
 
-				let logFile = fs.createWriteStream("last_log.txt");
+				let logFile = fs.createWriteStream("./state_files/last_log.txt");
 				battleStream.pipeTo(logFile, { noEnd: true });
 			}
 			break;
