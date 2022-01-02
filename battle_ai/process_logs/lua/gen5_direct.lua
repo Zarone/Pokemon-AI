@@ -1,8 +1,44 @@
 GameReader = {}
 GameReader.__index = GameReader
 
+-- function get_name()
+--     name = {}
+--     for i = 0x2234fb0, 0x2234fbC, 2 do
+--         val = memory.readbyte(i)
+--         if(val == 255) then break 
+--         else
+--             table.insert(name, string.format("%c", val))
+--         end
+--     end
+--     return (table.concat(name, ""))
+-- end
+
+function get_enemy_name()
+    for i = 0x02000000, 0x02FFFFFF do
+        if memory.readbyte(i) == 83 then
+            if memory.readbyte(i+2) == 104 then    
+                if memory.readbyte(i+4) == 97 then
+                    print(string.format("%x", i), memory.readbyte(i+6))
+                end
+            end
+        end
+    end
+    -- name = {}
+    -- for i = 0x2234fb0, 0x2234fbC, 2 do
+    --     val = memory.readbyte(i)
+    --     if(val == 255) then break 
+    --     else
+    --         table.insert(name, string.format("%c", val))
+    --     end
+    -- end
+    -- return (table.concat(name, ""))
+end
+
 function GameReader.new()
     instance = setmetatable({}, GameReader)
+
+    -- instance.name = get_name()
+    instance.enemy_name = get_enemy_name()
 
     instance.last_str = ""
     -- hazards in order: spikes, toxic spikes, stealth rocks, 
@@ -25,8 +61,39 @@ function GameReader:process_line(line)
     player = nil
     hazard = nil -- 1 is spikes, 2 is toxic spikes, 3 is stealth rocks
     new_hazard = nil
+    
+        -- Go! \xf000Ă\x0001\x0000!
+        -- Go! \xf000Ă\x0001\x0000 and\xfffe\xf000Ă\x0001\x0001!
+        -- Go! \xf000Ă\x0001\x0000,\xfffe\xf000Ă\x0001\x0001, and \xf000Ă\x0001\x0002!
+        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent\xfffeout \xf000Ă\x0001\x0002!
+        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002 and \xf000Ă\x0001\x0003!
+        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002, \xf000Ă\x0001\x0003,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0004!
+        -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001!
+        -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001 and \xf000Ă\x0001\x0002!
+        -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001, \xf000Ă\x0001\x0002,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0003!
+        -- You're in charge, \xf000Ă\x0001\x0000!
+        -- Go for it, \xf000Ă\x0001\x0000!
+        -- Just a little more!\xfffeHang in there, \xf000Ă\x0001\x0000!
+        -- Your foe's weak!\xfffeGet 'em, \xf000Ă\x0001\x0000!
+        -- \xf000Ă\x0001\x0000, switch out!\xfffeCome back!
+        -- \xf000Ă\x0001\x0000, come back!
+        -- \xf000Ă\x0001\x0000, enough!\xfffeGet back!
+        -- \xf000Ă\x0001\x0000, OK!\xfffeCome back!
+        -- \xf000Ă\x0001\x0000, good job!\xfffeGet back!
+        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001\xfffewithdrew \xf000Ă\x0001\x0002!
+        -- \xf000Ā\x0001\x0000\xfffewithdrew \xf000Ă\x0001\x0001!
 
-    if line == "Spikes were scattered all around your team\'s feet!" then
+    if line:find("Go!", 0) then
+        print("switch")
+    elseif line:find("You're in charge,", 0) then
+        print("switch")
+    elseif line:find("Go for it,", 0) then
+        print("switch")
+    elseif line:find("Just a little more!", 0) then
+        print("switch")
+    elseif line:find("Your foe's weak!", 0) then
+        print("switch")
+    elseif line == "Spikes were scattered all around your team\'s feet!" then
         hazard_change = true
         hazard = 1
         player = 1
@@ -236,10 +303,6 @@ function GameReader:get_line()
         self:process_line(new_str)
     end
     self.last_str = new_str
-end
-
-function GameReader:read()
-    self:process_line(self:get_line())
 end
 
 function GameReader:pass_turn()
