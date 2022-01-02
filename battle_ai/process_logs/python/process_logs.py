@@ -7,7 +7,7 @@ desired outputs:
       [
         [
 
-          # total length should be 407
+          # total length should be 413
 
           # weather (also tracks number of turns it's been out) (would add 5)
             # sun
@@ -15,13 +15,16 @@ desired outputs:
             # sand
             # hail
 
-          # entry hazards (would add 6*2=12)
-            # spikes (up to 3)
+          # entry hazards (would add 9*2=18)
+            # spikes
+            # toxic spikes
             # stealth rocks
-            # toxic spikes (up to 2)
             # reflect
-            # lightscreen
+            # light screen
+            # safeguard
+            # mist
             # tailwind
+            # lucky chant
 
           # status conditions ( would add 5*12+14*2 = 88 )
             # non-volatile ( for each pokemon )

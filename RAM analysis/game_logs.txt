@@ -2995,18 +2995,18 @@ The Lucky Chant shielded your team\xfffefrom critical hits!
 The Lucky Chant shielded the opposing team\xfffefrom critical hits!
 Your team's Lucky Chant wore off!
 The opposing team's Lucky Chant wore off!
-Spikes were scattered all around\xfffeyour team's feet!
-Spikes were scattered all around\xfffethe feet of the foe's team!
-The spikes disappeared from\xfffearound your team's feet!
-The spikes disappeared from\xfffearound the foe's team's feet!
-Poison spikes were scattered all\xfffearound your team's feet!
-Poison spikes were scattered all\xfffearound the foe's team's feet!
-The poison spikes disappeared\xfffefrom around your team's feet!
-The poison spikes disappeared\xfffefrom around the foe's team's feet!
-Pointed stones float in the air\xfffearound your team!
-Pointed stones float in the air\xfffearound your foe's team!
-The pointed stones disappeared\xfffefrom around your team!
-The pointed stones disappeared\xfffefrom around the foe's team!
+Spikes were scattered all around your team's feet!
+Spikes were scattered all around the feet of the foe's team!
+The spikes disappeared from around your team's feet!
+The spikes disappeared from around the foe's team's feet!
+Poison spikes were scattered all around your team's feet!
+Poison spikes were scattered all around the foe's team's feet!
+The poison spikes disappeared from around your team's feet!
+The poison spikes disappeared from around the foe's team's feet!
+Pointed stones float in the air around your team!
+Pointed stones float in the air around your foe's team!
+The pointed stones disappeared from around your team!
+The pointed stones disappeared from around the foe's team!
 Wide Guard protected your team!
 Wide Guard protected the foe's team!
 Quick Guard protected your team!
