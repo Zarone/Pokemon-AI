@@ -26,10 +26,10 @@ game_reader = GameReader.new()
 --     }
 -- }))
 
-print(game_reader.name)
+-- print(game_reader.name)
 
--- function fn()
---     game_reader:get_line()
--- end
+function fn()
+    game_reader:get_line()
+end
 
--- gui.register(fn)
+gui.register(fn)

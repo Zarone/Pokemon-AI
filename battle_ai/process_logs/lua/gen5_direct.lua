@@ -13,16 +13,16 @@ GameReader.__index = GameReader
 --     return (table.concat(name, ""))
 -- end
 
-function get_enemy_name()
-    for i = 0x02000000, 0x02FFFFFF do
-        if memory.readbyte(i) == 83 then
-            if memory.readbyte(i+2) == 104 then    
-                if memory.readbyte(i+4) == 97 then
-                    print(string.format("%x", i), memory.readbyte(i+6))
-                end
-            end
-        end
-    end
+-- function get_enemy_name()
+--     for i = 0x02000000, 0x02FFFFFF do
+--         if memory.readbyte(i) == 83 then
+--             if memory.readbyte(i+2) == 104 then    
+--                 if memory.readbyte(i+4) == 97 then
+--                     print(string.format("%x", i), memory.readbyte(i+6))
+--                 end
+--             end
+--         end
+--     end
     -- name = {}
     -- for i = 0x2234fb0, 0x2234fbC, 2 do
     --     val = memory.readbyte(i)
@@ -32,13 +32,13 @@ function get_enemy_name()
     --     end
     -- end
     -- return (table.concat(name, ""))
-end
+-- end
 
 function GameReader.new()
     instance = setmetatable({}, GameReader)
 
     -- instance.name = get_name()
-    instance.enemy_name = get_enemy_name()
+    -- instance.enemy_name = gaaaet_enemy_name()
 
     instance.last_str = ""
     -- hazards in order: spikes, toxic spikes, stealth rocks, 
@@ -55,10 +55,20 @@ function GameReader.new()
     return instance
 end
 
+function last_substring(str, sep)
+    sep = sep or "%S+"
+    last = nil
+    for i in string.gmatch(str, sep) do
+        print(i)
+        last = v
+    end
+    return(v)
+end
+
 function GameReader:process_line(line)
 
-    hazard_change = false
     player = nil
+    hazard_change = false
     hazard = nil -- 1 is spikes, 2 is toxic spikes, 3 is stealth rocks
     new_hazard = nil
     
@@ -84,15 +94,16 @@ function GameReader:process_line(line)
         -- \xf000Ā\x0001\x0000\xfffewithdrew \xf000Ă\x0001\x0001!
 
     if line:find("Go!", 0) then
-        print("switch")
+        print("switch to: ", last_substring(line))
+        -- player = 1
     elseif line:find("You're in charge,", 0) then
-        print("switch")
+        print("switch to: ", last_substring(line))
     elseif line:find("Go for it,", 0) then
-        print("switch")
+        print("switch to: ", last_substring(line))
     elseif line:find("Just a little more!", 0) then
-        print("switch")
+        print("switch to: ", last_substring(line))
     elseif line:find("Your foe's weak!", 0) then
-        print("switch")
+        print("switch to: ", last_substring(line))
     elseif line == "Spikes were scattered all around your team\'s feet!" then
         hazard_change = true
         hazard = 1
