@@ -34,7 +34,7 @@ GameReader.__index = GameReader
     -- return (table.concat(name, ""))
 -- end
 
-function GameReader.new()
+function GameReader.new(nicknames)
     instance = setmetatable({}, GameReader)
 
     -- instance.name = get_name()
@@ -52,17 +52,18 @@ function GameReader.new()
         volatiles = {}
     }
 
+    instance.nicknames = nicknames
+
     return instance
 end
 
 function last_substring(str, sep)
-    sep = sep or "%S+"
+    sep = sep or "[^%s!]+"
     last = nil
     for i in string.gmatch(str, sep) do
-        print(i)
-        last = v
+        last = i
     end
-    return(v)
+    return(last)
 end
 
 function GameReader:process_line(line)

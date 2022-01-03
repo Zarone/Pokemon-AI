@@ -1,4 +1,4 @@
-dofile "gen4_5_table.lua"
+dofile "./ram_reader/gen4_5_table.lua"
 
 local bnd,br,bxr=bit.band,bit.bor,bit.bxor
 local rshift, lshift=bit.rshift, bit.lshift
@@ -286,6 +286,26 @@ function PokeReader:get(mode)
             self.nat = self.pid % 25
         end
         
+
+        -- Block C
+        self.prng = self.checksum
+        for i = 1, BlockC[self.shiftvalue + 1] - 1 do
+            self.prng = mult32(self.prng,0x5F748241) + 0xCBA72510 -- 16 cycles
+        end
+
+        -- self.nickname = {}
+
+        
+                
+        self.nickname = {}
+        for i = 1, 11 do
+            self.prng = mult32(self.prng,0x41C64E6D) + 0x6073
+            letter = getbits(bxr(memory.readword(self.pidAddr + self.BlockCoff + 8 + 2*(i-1)), gettop(self.prng)), 0, 8)
+            if letter == 255 then break end
+            self.nickname[i] = string.char(letter)
+        end
+
+
         -- Block D
         self.prng = self.checksum
         for i = 1, BlockD[self.shiftvalue + 1] - 1 do
@@ -325,6 +345,7 @@ function PokeReader:get(mode)
                 tbl.level = self.level
                 tbl.item = item_gen5[self.heldItem+1]
                 tbl.happiness = self.friendship_or_steps_to_hatch
+                tbl.nickname = table.concat(self.nickname)
             end
             party[q] = tbl
         end

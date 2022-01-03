@@ -311,6 +311,7 @@ export class Battle {
 		// 		console.log(databases);
 		// 	}
 		// });
+
 	}
 
 	toJSON(): AnyObject {

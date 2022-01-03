@@ -1,15 +1,24 @@
 -- require "showdown_writer"
--- require "./ram_reader/gen_5_pokemonreader"
--- IGReader = PokeReader.new(4, 5, 1)
+require "./ram_reader/gen5_pokemonreader"
+IGReader = PokeReader.new(4, 5, 1)
 -- team1 = Writer.to_packed_team(IGReader:get(1))
 -- team2 = Writer.to_packed_team(IGReader:get(2))
 -- showdown_instance = Writer.new(team1, team2)
+-- showdown_instance:write(">p1 switch 2\n")
+-- showdown_instance:write(">p2 switch 3\n")
 -- showdown_instance:close()
 -- json = require "lunajson"
 -- require "./ram_reader/gen5_statereader"
-require "./process_logs/lua/gen5_direct"
+-- require "./process_logs/lua/gen5_logreader"
 
-game_reader = GameReader.new()
+print(IGReader:get(1)[1].nickname)
+-- print(IGReader:get(1)[2].nickname)
+-- print(IGReader:get(1)[3].nickname)
+-- print(IGReader:get(1)[4].nickname)
+-- print(IGReader:get(1)[5].nickname)
+-- print(IGReader:get(1)[6].nickname)
+
+-- game_reader = GameReader.new()
 
 -- file = io.open("./state_files/battleState.json", "w")
 -- file:write(json.encode({
@@ -28,8 +37,8 @@ game_reader = GameReader.new()
 
 -- print(game_reader.name)
 
-function fn()
-    game_reader:get_line()
-end
+-- function fn()
+    -- game_reader:get_line()
+-- end
 
-gui.register(fn)
+-- gui.register(fn)

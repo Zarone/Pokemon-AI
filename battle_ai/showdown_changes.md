@@ -34,6 +34,8 @@ battle.ts (Battle.runAction right at the beggining of case start, set relevant b
     this.sides[0].sideConditions.stealthrock
     this.sides[1].sideConditions.stealthrock.id
     this.sides[0].sideConditions.stealthrock.layers
+    this.sides[0].active
+    this.sides[1].active
 
 pokemon-showdown
 
