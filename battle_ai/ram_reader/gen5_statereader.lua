@@ -62,11 +62,14 @@ function StateReader.get_player_status()
     return statuses
 end
 
+function StateReader.is_wild_battle()
+    return read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
+    read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)
+end
+
 function StateReader.get_enemy_status() 
 
-    -- if it's a wild battle
-    if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
-        read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
+    if self.is_wild_battle() then
         return {status_in_battle_slot(1)}
     else
         statuses = {}

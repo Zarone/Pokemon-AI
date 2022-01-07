@@ -23,18 +23,18 @@ GameReader.__index = GameReader
 --             end
 --         end
 --     end
-    -- name = {}
-    -- for i = 0x2234fb0, 0x2234fbC, 2 do
-    --     val = memory.readbyte(i)
-    --     if(val == 255) then break 
-    --     else
-    --         table.insert(name, string.format("%c", val))
-    --     end
-    -- end
-    -- return (table.concat(name, ""))
+-- name = {}
+-- for i = 0x2234fb0, 0x2234fbC, 2 do
+--     val = memory.readbyte(i)
+--     if(val == 255) then break 
+--     else
+--         table.insert(name, string.format("%c", val))
+--     end
+-- end
+-- return (table.concat(name, ""))
 -- end
 
-function GameReader.new(nicknames)
+function GameReader.new(wild_battle)
     instance = setmetatable({}, GameReader)
 
     -- instance.name = get_name()
@@ -52,18 +52,39 @@ function GameReader.new(nicknames)
         volatiles = {}
     }
 
-    instance.nicknames = nicknames
+    -- instance.nicknames = nicknames
+    instance.active = 0
+    instance.enemy_active = 0
+    instance.wild_battle = wild_battle
 
     return instance
 end
 
-function last_substring(str, sep)
-    sep = sep or "[^%s!]+"
-    last = nil
-    for i in string.gmatch(str, sep) do
-        last = i
+-- function last_substring(str, sep)
+--     sep = sep or "[^%s!]+"
+--     last = nil
+--     for i in string.gmatch(str, sep) do
+--         last = i
+--     end
+--     return(last)
+-- end
+
+function GameReader:new_active()
+    -- 02271CBE
+    -- self.active = memory.readbyte(0x021F44AA)
+    -- self.active = memory.readbyte(0x02271CBE)
+    -- self.active = memory.readbyte(0x021F44AB)
+    if self.wild_battle then
+        print('wild')
+        self.active = memory.readbyte(0x022724C8)
+    else
+        print('trainer')
+        self.active = memory.readbyte(0x02273226)
     end
-    return(last)
+end
+
+function GameReader:new_enemy_active()
+    self.enemy_active = memory.readbyte(0x02273229) - 12
 end
 
 function GameReader:process_line(line)
@@ -72,39 +93,42 @@ function GameReader:process_line(line)
     hazard_change = false
     hazard = nil -- 1 is spikes, 2 is toxic spikes, 3 is stealth rocks
     new_hazard = nil
-    
-        -- Go! \xf000Ă\x0001\x0000!
-        -- Go! \xf000Ă\x0001\x0000 and\xfffe\xf000Ă\x0001\x0001!
-        -- Go! \xf000Ă\x0001\x0000,\xfffe\xf000Ă\x0001\x0001, and \xf000Ă\x0001\x0002!
-        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent\xfffeout \xf000Ă\x0001\x0002!
-        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002 and \xf000Ă\x0001\x0003!
-        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002, \xf000Ă\x0001\x0003,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0004!
-        -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001!
-        -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001 and \xf000Ă\x0001\x0002!
-        -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001, \xf000Ă\x0001\x0002,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0003!
-        -- You're in charge, \xf000Ă\x0001\x0000!
-        -- Go for it, \xf000Ă\x0001\x0000!
-        -- Just a little more!\xfffeHang in there, \xf000Ă\x0001\x0000!
-        -- Your foe's weak!\xfffeGet 'em, \xf000Ă\x0001\x0000!
-        -- \xf000Ă\x0001\x0000, switch out!\xfffeCome back!
-        -- \xf000Ă\x0001\x0000, come back!
-        -- \xf000Ă\x0001\x0000, enough!\xfffeGet back!
-        -- \xf000Ă\x0001\x0000, OK!\xfffeCome back!
-        -- \xf000Ă\x0001\x0000, good job!\xfffeGet back!
-        -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001\xfffewithdrew \xf000Ă\x0001\x0002!
-        -- \xf000Ā\x0001\x0000\xfffewithdrew \xf000Ă\x0001\x0001!
+
+    -- Go! \xf000Ă\x0001\x0000!
+    -- Go! \xf000Ă\x0001\x0000 and\xfffe\xf000Ă\x0001\x0001!
+    -- Go! \xf000Ă\x0001\x0000,\xfffe\xf000Ă\x0001\x0001, and \xf000Ă\x0001\x0002!
+    -- You're in charge, \xf000Ă\x0001\x0000!
+    -- Go for it, \xf000Ă\x0001\x0000!
+    -- Just a little more!\xfffeHang in there, \xf000Ă\x0001\x0000!
+    -- Your foe's weak!\xfffeGet 'em, \xf000Ă\x0001\x0000!
+
+    -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent\xfffeout \xf000Ă\x0001\x0002!
+    -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002 and \xf000Ă\x0001\x0003!
+    -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002, \xf000Ă\x0001\x0003,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0004!
+    -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001!
+    -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001 and \xf000Ă\x0001\x0002!
+    -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001, \xf000Ă\x0001\x0002,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0003!
 
     if line:find("Go!", 0) then
-        print("switch to: ", last_substring(line))
+        self:new_active()
+        print("switch,", self.active)
+        -- print("switch to: ", last_substring(line))
         -- player = 1
     elseif line:find("You're in charge,", 0) then
-        print("switch to: ", last_substring(line))
+        self:new_active()
+        print("switch,", self.active)
     elseif line:find("Go for it,", 0) then
-        print("switch to: ", last_substring(line))
+        self:new_active()
+        print("switch,", self.active)
     elseif line:find("Just a little more!", 0) then
-        print("switch to: ", last_substring(line))
+        self:new_active()
+        print("switch,", self.active)
     elseif line:find("Your foe's weak!", 0) then
-        print("switch to: ", last_substring(line))
+        self:new_active()
+        print("switch,", self.active)
+    elseif line:find("sent out") then
+        self:new_enemy_active()
+        print("enemy switch", self.enemy_active)
     elseif line == "Spikes were scattered all around your team\'s feet!" then
         hazard_change = true
         hazard = 1

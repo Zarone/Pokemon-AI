@@ -46,9 +46,9 @@ function check_mem_in_battle_slot(num)
     -- print(read_halfword(get_battle_slot(num) + 290))
     -- print(read_halfword(get_battle_slot(num) + 292))
 
-    -- for i = 0, 512 do
-    --     print(i, memory.readbyte(get_battle_slot(num) + i))
-    -- end
+    for i = 0, 512 do
+        print(i, memory.readbyte(get_battle_slot(num) + i))
+    end
 
 
 end
@@ -87,14 +87,14 @@ function get_pokemon_info()
         -- check_mem_in_battle_slot(-2)
         -- check_mem_in_battle_slot(-1)
 
-        -- check_mem_in_battle_slot(0)
+        check_mem_in_battle_slot(0)
         -- check_mem_in_battle_slot(1)
         -- check_mem_in_battle_slot(2)
         -- check_mem_in_battle_slot(3)
         -- check_mem_in_battle_slot(4)
         -- check_mem_in_battle_slot(5)
 
-        check_mem_in_battle_slot(6)
+        -- check_mem_in_battle_slot(6)
         -- check_mem_in_battle_slot(7)
         -- check_mem_in_battle_slot(8)
         -- check_mem_in_battle_slot(9)
