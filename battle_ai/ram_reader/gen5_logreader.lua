@@ -13,39 +13,15 @@ GameReader.__index = GameReader
 --     return (table.concat(name, ""))
 -- end
 
--- function get_enemy_name()
---     for i = 0x02000000, 0x02FFFFFF do
---         if memory.readbyte(i) == 83 then
---             if memory.readbyte(i+2) == 104 then    
---                 if memory.readbyte(i+4) == 97 then
---                     print(string.format("%x", i), memory.readbyte(i+6))
---                 end
---             end
---         end
---     end
--- name = {}
--- for i = 0x2234fb0, 0x2234fbC, 2 do
---     val = memory.readbyte(i)
---     if(val == 255) then break 
---     else
---         table.insert(name, string.format("%c", val))
---     end
--- end
--- return (table.concat(name, ""))
--- end
-
 function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance = setmetatable({}, GameReader)
-
-    -- instance.name = get_name()
-    -- instance.enemy_name = gaaaet_enemy_name()
 
     instance.last_str = ""
     -- hazards in order: spikes, toxic spikes, stealth rocks, 
     -- reflect, light screen, safeguard, mist, tailwind, lucky chant
     instance.player = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
-        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 0, 0}
         -- # Seeded
         -- # Confused
         -- # Taunted
@@ -65,7 +41,7 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     }
     instance.enemy = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
-        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 0, 0}
     }
 
     instance.nicknames = nicknames
@@ -77,15 +53,6 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     return instance
 end
 
--- function last_substring(str, sep)
---     sep = sep or "[^%s!]+"
---     last = nil
---     for i in string.gmatch(str, sep) do
---         last = i
---     end
---     return(last)
--- end
-
 function GameReader:new_active()
     -- 02271CBE
     -- self.active = memory.readbyte(0x021F44AA)
@@ -96,7 +63,7 @@ function GameReader:new_active()
     else
         self.active = memory.readbyte(0x02273226)
     end
-    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, None, 0, self.player.volatiles[11], 0, 0, 0}
+    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, self.player.volatiles[11], 0, 0, 0}
     -- # Seeded
     -- # Confused
     -- # Taunted
@@ -117,7 +84,7 @@ end
 
 function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
-    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, None, 0, self.enemy.volatiles[11], 0, 0, 0}
+    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, self.enemy.volatiles[11], 0, 0, 0}
 end
 
 function GameReader:process_line(line)
@@ -129,18 +96,15 @@ function GameReader:process_line(line)
 
     if line:find("Go!", 0) then
         self:new_active()
-        print("switch", self.active)
     elseif line:find("You're in charge,", 0) then
         self:new_active()
-        print("switch,", self.active)
     elseif line:find("Go for it,", 0) then
         self:new_active()
-        print("switch,", self.active)
     elseif line:find("Just a little more!", 0) then
         self:new_active()
     elseif line:find("Your foe's weak!", 0) then
         self:new_active()
-    elseif line:find("sent out") then
+    elseif line:find("sent out", 0) then
         self:new_enemy_active()
     elseif line == self.nicknames[self.active + 1] .. " was seeded!" then
         self.player.volatiles[1] = 1
@@ -171,6 +135,12 @@ function GameReader:process_line(line)
         (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
             " fell for the taunt!") then
         self.enemy.volatiles[3] = 1
+    elseif line == self.nicknames[self.active + 1] .. "'s taunt wore off!" then
+        self.player.volatiles[3] = 0
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s taunt wore off!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s taunt wore off!") then
+        self.enemy.volatiles[3] = 0
     elseif line == self.nicknames[self.active + 1] .. " grew drowsy!" then
         self.player.volatiles[4] = 1
     elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " grew drowsy!") or
@@ -216,11 +186,11 @@ function GameReader:process_line(line)
         end
     elseif line:sub(-13, -2) == "ger disabled" then
         if line:sub(0, 8) == "The wild" then
-            self.enemy.volatiles[9] = None
+            self.enemy.volatiles[9] = ""
         elseif line:sub(0, 9) == "The foe's" then
-            self.enemy.volatiles[9] = None
+            self.enemy.volatiles[9] = ""
         else 
-            self.player.volatiles[9] = None
+            self.player.volatiles[9] = ""
         end
     elseif line == self.nicknames[self.active + 1] .. " received an encore!" then
         self.player.volatiles[10] = 1
@@ -233,33 +203,53 @@ function GameReader:process_line(line)
     elseif line ==
         (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s encore ended!" or
             "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s encore ended!") then
-        self.enemy.volatiles[10] = 0               
-
-
-        -- \xf000Ă\x0001\x0000 foresaw\xfffean attack!
-        -- The wild \xf000Ă\x0001\x0000 foresaw\xfffean attack!
-        -- The foe's \xf000Ă\x0001\x0000 foresaw\xfffean attack!
-
-        --     \xf000Ă\x0001\x0000 surrounded\xfffeitself with a veil of water!
-        -- The wild \xf000Ă\x0001\x0000 surrounded\xfffeitself with a veil of water!
-        -- The foe's \xf000Ă\x0001\x0000 surrounded\xfffeitself with a veil of water!
-
-        -- \xf000Ă\x0001\x0000\xfffefell in love!
-        -- The wild \xf000Ă\x0001\x0000\xfffefell in love!
-        -- The foe's \xf000Ă\x0001\x0000\xfffefell in love!
-        -- \xf000Ă\x0001\x0000\xfffefell in love from the \xf000ĉ\x0001\x0001!
-        -- The wild \xf000Ă\x0001\x0000\xfffefell in love from the \xf000ĉ\x0001\x0001!
-        -- The foe's \xf000Ă\x0001\x0000\xfffefell in love from the \xf000ĉ\x0001\x0001!
-        -- \xf000Ă\x0001\x0000 is in love\xfffewith \xf000Ă\x0001\x0001!
-        -- The wild \xf000Ă\x0001\x0000 is in love\xfffewith \xf000Ă\x0001\x0001!
-        -- The foe's \xf000Ă\x0001\x0000 is in love\xfffewith \xf000Ă\x0001\x0001!
-        -- \xf000Ă\x0001\x0000 got over its\xfffeinfatuation.
-        -- The wild \xf000Ă\x0001\x0000 got over its\xfffeinfatuation.
-        -- The foe's \xf000Ă\x0001\x0000 got over its\xfffeinfatuation.
-
-        -- \xf000Ă\x0001\x0000\xfffeis tormented!
-        -- The wild \xf000Ă\x0001\x0000\xfffeis tormented!
-        -- The foe's \xf000Ă\x0001\x0000\xfffeis tormented!
+        self.enemy.volatiles[10] = 0
+    elseif line:sub(-12, -2) == "w an attack" then
+        if line:sub(0, 8) == "The wild" then
+            self.player.volatiles[11] = 1
+        elseif line:sub(0, 9) == "The foe's" then
+            self.player.volatiles[11] = 1
+        else 
+            self.enemy.volatiles[11] = 1
+        end
+    elseif line:sub(-15, -2) == "e Sight attack" then
+        if line:sub(0, 8) == "The wild" then
+            self.enemy.volatiles[11] = 0
+        elseif line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[11] = 0
+        else 
+            self.player.volatiles[11] = 0
+        end
+    elseif line:sub(-12, -2) == "il of water" then
+        if line:sub(0, 8) == "The wild" or line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[12] = 1
+        else 
+            self.player.volatiles[12] = 1
+        end
+    elseif line:sub(-10, -2) == "l in love" then
+        if line:sub(0, 8) == "The wild" or line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[13] = 1
+        else 
+            self.player.volatiles[13] = 1
+        end
+    elseif line:sub(-14, -2) == "s infatuation" then
+        if line:sub(0, 8) == "The wild" or line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[13] = 0
+        else 
+            self.player.volatiles[13] = 0
+        end
+    elseif line:sub(-13, -2) == "is tormented" then
+        if line:sub(0, 8) == "The wild" or line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[14] = 1
+        else 
+            self.player.volatiles[14] = 1
+        end
+    elseif line:sub(-13, -2) == "ent wore off" then
+        if line:sub(0, 8) == "The wild" or line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[14] = 0
+        else 
+            self.player.volatiles[14] = 0
+        end
     elseif line == "Spikes were scattered all around your team\'s feet!" then
         hazard_change = true
         hazard = 1
@@ -447,6 +437,7 @@ function GameReader:process_line(line)
             self.player.hazards[hazard] = new_hazard
         elseif player == 2 then
             self.enemy.hazards[hazard] = new_hazard
+            print("enemy hazards set", self.enemy.hazards)
         else
             print("somethings wrong with player variable")
         end
@@ -517,6 +508,4 @@ function GameReader:pass_turn()
     end
 end
 
-return {
-    GameReader = GameReader
-}
+return GameReader

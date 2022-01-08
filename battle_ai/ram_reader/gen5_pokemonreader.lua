@@ -353,4 +353,4 @@ function PokeReader:get(mode)
     return party
 end
 
-return {PokeReader = PokeReader}
+return PokeReader

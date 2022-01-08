@@ -70,6 +70,4 @@ function Writer.to_packed_team(tbl)
 
 end
 
-return {
-    Writer = Writer
-}
+return Writer

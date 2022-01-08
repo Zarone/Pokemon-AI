@@ -1,36 +1,36 @@
 sideupdate
 p1
-|request|{"teamPreview":true,"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Qwilfish","details":"Qwilfish, L47, M","condition":"125/125","active":true,"stats":{"atk":98,"def":95,"spa":62,"spd":65,"spe":91},"moves":["spikes","pinmissile","takedown","aquatail"],"baseAbility":"swiftswim","item":"focussash","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Abomasnow","details":"Abomasnow, L66, F","condition":"256/256","active":false,"stats":{"atk":144,"def":120,"spa":144,"spd":196,"spe":91},"moves":["substitute","leechseed","blizzard","gigadrain"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball","ability":"snowwarning"},{"ident":"p1: Nidoqueen","details":"Nidoqueen, F","condition":"342/342","active":false,"stats":{"atk":241,"def":231,"spa":207,"spd":249,"spe":188},"moves":["toxicspikes","superpower","earthpower","furyswipes"],"baseAbility":"poisonpoint","item":"none","pokeball":"pokeball","ability":"poisonpoint"},{"ident":"p1: Darkrai","details":"Darkrai, L72","condition":"203/203","active":false,"stats":{"atk":127,"def":154,"spa":267,"spd":155,"spe":277},"moves":["darkvoid","darkpulse","dreameater","raindance"],"baseAbility":"baddreams","item":"focussash","pokeball":"pokeball","ability":"baddreams"},{"ident":"p1: Crustle","details":"Crustle, L35, M","condition":"101/101","active":false,"stats":{"atk":78,"def":94,"spa":56,"spd":66,"spe":43},"moves":["bugbite","stealthrock","rockslide","slash"],"baseAbility":"sturdy","item":"none","pokeball":"pokeball","ability":"sturdy"},{"ident":"p1: Hydreigon","details":"Hydreigon, F","condition":"326/326","active":false,"stats":{"atk":221,"def":216,"spa":349,"spd":216,"spe":324},"moves":["dracometeor","fly","darkpulse","focusblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball","ability":"levitate"}]}}
+|request|{"teamPreview":true,"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Mewtwo","details":"Mewtwo, L70","condition":"233/233","active":true,"stats":{"atk":153,"def":152,"spa":251,"spd":139,"spe":190},"moves":["psychocut","disable","futuresight","guardswap"],"baseAbility":"pressure","item":"none","pokeball":"pokeball","ability":"pressure"},{"ident":"p1: Crustle","details":"Crustle, L35, F","condition":"101/101","active":false,"stats":{"atk":78,"def":94,"spa":56,"spd":66,"spe":43},"moves":["bugbite","stealthrock","rockslide","slash"],"baseAbility":"sturdy","item":"none","pokeball":"pokeball","ability":"sturdy"},{"ident":"p1: Nidoqueen","details":"Nidoqueen, F","condition":"342/342","active":false,"stats":{"atk":241,"def":231,"spa":207,"spd":249,"spe":188},"moves":["toxicspikes","superpower","earthpower","furyswipes"],"baseAbility":"poisonpoint","item":"none","pokeball":"pokeball","ability":"poisonpoint"},{"ident":"p1: Qwilfish","details":"Qwilfish, L47, M","condition":"125/125","active":false,"stats":{"atk":98,"def":95,"spa":62,"spd":65,"spe":91},"moves":["spikes","pinmissile","takedown","aquatail"],"baseAbility":"swiftswim","item":"focussash","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Hydreigon","details":"Hydreigon, M","condition":"326/326","active":false,"stats":{"atk":221,"def":216,"spa":349,"spd":216,"spe":324},"moves":["dracometeor","fly","darkpulse","focusblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball","ability":"levitate"},{"ident":"p1: Blaziken","details":"Blaziken, L77, F","condition":"234/234","active":false,"stats":{"atk":288,"def":136,"spa":172,"spd":136,"spe":200},"moves":["highjumpkick","rockslide","protect","flareblitz"],"baseAbility":"speedboost","item":"leftovers","pokeball":"pokeball","ability":"speedboost"}]}}
 
 sideupdate
 p2
-|request|{"teamPreview":true,"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, M","condition":"184/184","active":true,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball","ability":"mummy"},{"ident":"p2: Jellicent","details":"Jellicent, L71, F","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball","ability":"cursedbody"},{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":false,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball","ability":"snowcloak"},{"ident":"p2: Drifblim","details":"Drifblim, L71, F","condition":"315/315","active":false,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball","ability":"aftermath"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"228/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball","ability":"ironfist"},{"ident":"p2: Chandelure","details":"Chandelure, L73, M","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball","ability":"flamebody"}]}}
+|request|{"teamPreview":true,"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, M","condition":"184/184","active":true,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball","ability":"mummy"},{"ident":"p2: Jellicent","details":"Jellicent, L71, M","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball","ability":"cursedbody"},{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":false,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball","ability":"snowcloak"},{"ident":"p2: Drifblim","details":"Drifblim, L71, M","condition":"315/315","active":false,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball","ability":"aftermath"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"228/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball","ability":"ironfist"},{"ident":"p2: Chandelure","details":"Chandelure, L73, F","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball","ability":"flamebody"}]}}
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
@@ -38,85 +38,73 @@ undefined
 
 sideupdate
 p1
-|request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Pin Missile","id":"pinmissile","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Take Down","id":"takedown","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Qwilfish","details":"Qwilfish, L47, M","condition":"125/125","active":true,"stats":{"atk":98,"def":95,"spa":62,"spd":65,"spe":91},"moves":["spikes","pinmissile","takedown","aquatail"],"baseAbility":"swiftswim","item":"focussash","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Abomasnow","details":"Abomasnow, L66, F","condition":"256/256","active":false,"stats":{"atk":144,"def":120,"spa":144,"spd":196,"spe":91},"moves":["substitute","leechseed","blizzard","gigadrain"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball","ability":"snowwarning"},{"ident":"p1: Nidoqueen","details":"Nidoqueen, F","condition":"342/342","active":false,"stats":{"atk":241,"def":231,"spa":207,"spd":249,"spe":188},"moves":["toxicspikes","superpower","earthpower","furyswipes"],"baseAbility":"poisonpoint","item":"none","pokeball":"pokeball","ability":"poisonpoint"},{"ident":"p1: Darkrai","details":"Darkrai, L72","condition":"203/203","active":false,"stats":{"atk":127,"def":154,"spa":267,"spd":155,"spe":277},"moves":["darkvoid","darkpulse","dreameater","raindance"],"baseAbility":"baddreams","item":"focussash","pokeball":"pokeball","ability":"baddreams"},{"ident":"p1: Crustle","details":"Crustle, L35, M","condition":"101/101","active":false,"stats":{"atk":78,"def":94,"spa":56,"spd":66,"spe":43},"moves":["bugbite","stealthrock","rockslide","slash"],"baseAbility":"sturdy","item":"none","pokeball":"pokeball","ability":"sturdy"},{"ident":"p1: Hydreigon","details":"Hydreigon, F","condition":"326/326","active":false,"stats":{"atk":221,"def":216,"spa":349,"spd":216,"spe":324},"moves":["dracometeor","fly","darkpulse","focusblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball","ability":"levitate"}]}}
+|request|{"active":[{"moves":[{"move":"Psycho Cut","id":"psychocut","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Disable","id":"disable","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Future Sight","id":"futuresight","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Guard Swap","id":"guardswap","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Mewtwo","details":"Mewtwo, L70","condition":"233/233","active":true,"stats":{"atk":153,"def":152,"spa":251,"spd":139,"spe":190},"moves":["psychocut","disable","futuresight","guardswap"],"baseAbility":"pressure","item":"none","pokeball":"pokeball","ability":"pressure"},{"ident":"p1: Crustle","details":"Crustle, L35, F","condition":"101/101","active":false,"stats":{"atk":78,"def":94,"spa":56,"spd":66,"spe":43},"moves":["bugbite","stealthrock","rockslide","slash"],"baseAbility":"sturdy","item":"none","pokeball":"pokeball","ability":"sturdy"},{"ident":"p1: Nidoqueen","details":"Nidoqueen, F","condition":"342/342","active":false,"stats":{"atk":241,"def":231,"spa":207,"spd":249,"spe":188},"moves":["toxicspikes","superpower","earthpower","furyswipes"],"baseAbility":"poisonpoint","item":"none","pokeball":"pokeball","ability":"poisonpoint"},{"ident":"p1: Qwilfish","details":"Qwilfish, L47, M","condition":"125/125","active":false,"stats":{"atk":98,"def":95,"spa":62,"spd":65,"spe":91},"moves":["spikes","pinmissile","takedown","aquatail"],"baseAbility":"swiftswim","item":"focussash","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Hydreigon","details":"Hydreigon, M","condition":"326/326","active":false,"stats":{"atk":221,"def":216,"spa":349,"spd":216,"spe":324},"moves":["dracometeor","fly","darkpulse","focusblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball","ability":"levitate"},{"ident":"p1: Blaziken","details":"Blaziken, L77, F","condition":"234/234","active":false,"stats":{"atk":288,"def":136,"spa":172,"spd":136,"spe":200},"moves":["highjumpkick","rockslide","protect","flareblitz"],"baseAbility":"speedboost","item":"leftovers","pokeball":"pokeball","ability":"speedboost"}]}}
 
 sideupdate
 p2
-|request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, M","condition":"184/184","active":true,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball","ability":"mummy"},{"ident":"p2: Jellicent","details":"Jellicent, L71, F","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball","ability":"cursedbody"},{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":false,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball","ability":"snowcloak"},{"ident":"p2: Drifblim","details":"Drifblim, L71, F","condition":"315/315","active":false,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball","ability":"aftermath"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"228/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball","ability":"ironfist"},{"ident":"p2: Chandelure","details":"Chandelure, L73, M","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball","ability":"flamebody"}]}}
+|request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, M","condition":"184/184","active":true,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball","ability":"mummy"},{"ident":"p2: Jellicent","details":"Jellicent, L71, M","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball","ability":"cursedbody"},{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":false,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball","ability":"snowcloak"},{"ident":"p2: Drifblim","details":"Drifblim, L71, M","condition":"315/315","active":false,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball","ability":"aftermath"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"228/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball","ability":"ironfist"},{"ident":"p2: Chandelure","details":"Chandelure, L73, F","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball","ability":"flamebody"}]}}
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Qwilfish
+active 1: p1a: Mewtwo
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Cofagrigus
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Froslass
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Froslass
 undefined
 
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Froslass
 undefined
 
-active 1: p1a: Abomasnow
-undefined
-
-active 2: p2a: Froslass
-undefined
-
-active 1: p1a: Abomasnow
-undefined
-
-active 2: p2a: Froslass
-undefined
-
-active 1: p1a: Abomasnow
+active 1: p1a: Crustle
 undefined
 
 active 2: p2a: Froslass
@@ -124,14 +112,14 @@ undefined
 
 sideupdate
 p1
-|request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Giga Drain","id":"gigadrain","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Abomasnow","details":"Abomasnow, L66, F","condition":"256/256","active":true,"stats":{"atk":144,"def":120,"spa":144,"spd":196,"spe":91},"moves":["substitute","leechseed","blizzard","gigadrain"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball","ability":"snowwarning"},{"ident":"p1: Qwilfish","details":"Qwilfish, L47, M","condition":"125/125","active":false,"stats":{"atk":98,"def":95,"spa":62,"spd":65,"spe":91},"moves":["spikes","pinmissile","takedown","aquatail"],"baseAbility":"swiftswim","item":"focussash","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Nidoqueen","details":"Nidoqueen, F","condition":"342/342","active":false,"stats":{"atk":241,"def":231,"spa":207,"spd":249,"spe":188},"moves":["toxicspikes","superpower","earthpower","furyswipes"],"baseAbility":"poisonpoint","item":"none","pokeball":"pokeball","ability":"poisonpoint"},{"ident":"p1: Darkrai","details":"Darkrai, L72","condition":"203/203","active":false,"stats":{"atk":127,"def":154,"spa":267,"spd":155,"spe":277},"moves":["darkvoid","darkpulse","dreameater","raindance"],"baseAbility":"baddreams","item":"focussash","pokeball":"pokeball","ability":"baddreams"},{"ident":"p1: Crustle","details":"Crustle, L35, M","condition":"101/101","active":false,"stats":{"atk":78,"def":94,"spa":56,"spd":66,"spe":43},"moves":["bugbite","stealthrock","rockslide","slash"],"baseAbility":"sturdy","item":"none","pokeball":"pokeball","ability":"sturdy"},{"ident":"p1: Hydreigon","details":"Hydreigon, F","condition":"326/326","active":false,"stats":{"atk":221,"def":216,"spa":349,"spd":216,"spe":324},"moves":["dracometeor","fly","darkpulse","focusblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball","ability":"levitate"}]}}
+|request|{"active":[{"moves":[{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Stealth Rock","id":"stealthrock","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Slash","id":"slash","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"A","id":"p1","pokemon":[{"ident":"p1: Crustle","details":"Crustle, L35, F","condition":"101/101","active":true,"stats":{"atk":78,"def":94,"spa":56,"spd":66,"spe":43},"moves":["bugbite","stealthrock","rockslide","slash"],"baseAbility":"sturdy","item":"none","pokeball":"pokeball","ability":"sturdy"},{"ident":"p1: Mewtwo","details":"Mewtwo, L70","condition":"233/233","active":false,"stats":{"atk":153,"def":152,"spa":251,"spd":139,"spe":190},"moves":["psychocut","disable","futuresight","guardswap"],"baseAbility":"pressure","item":"none","pokeball":"pokeball","ability":"pressure"},{"ident":"p1: Nidoqueen","details":"Nidoqueen, F","condition":"342/342","active":false,"stats":{"atk":241,"def":231,"spa":207,"spd":249,"spe":188},"moves":["toxicspikes","superpower","earthpower","furyswipes"],"baseAbility":"poisonpoint","item":"none","pokeball":"pokeball","ability":"poisonpoint"},{"ident":"p1: Qwilfish","details":"Qwilfish, L47, M","condition":"125/125","active":false,"stats":{"atk":98,"def":95,"spa":62,"spd":65,"spe":91},"moves":["spikes","pinmissile","takedown","aquatail"],"baseAbility":"swiftswim","item":"focussash","pokeball":"pokeball","ability":"swiftswim"},{"ident":"p1: Hydreigon","details":"Hydreigon, M","condition":"326/326","active":false,"stats":{"atk":221,"def":216,"spa":349,"spd":216,"spe":324},"moves":["dracometeor","fly","darkpulse","focusblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball","ability":"levitate"},{"ident":"p1: Blaziken","details":"Blaziken, L77, F","condition":"234/234","active":false,"stats":{"atk":288,"def":136,"spa":172,"spd":136,"spe":200},"moves":["highjumpkick","rockslide","protect","flareblitz"],"baseAbility":"speedboost","item":"leftovers","pokeball":"pokeball","ability":"speedboost"}]}}
 
 sideupdate
 p2
-|request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":true,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball","ability":"snowcloak"},{"ident":"p2: Jellicent","details":"Jellicent, L71, F","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball","ability":"cursedbody"},{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, M","condition":"184/184","active":false,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball","ability":"mummy"},{"ident":"p2: Drifblim","details":"Drifblim, L71, F","condition":"315/315","active":false,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball","ability":"aftermath"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"228/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball","ability":"ironfist"},{"ident":"p2: Chandelure","details":"Chandelure, L73, M","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball","ability":"flamebody"}]}}
+|request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"B","id":"p2","pokemon":[{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":true,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball","ability":"snowcloak"},{"ident":"p2: Jellicent","details":"Jellicent, L71, M","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball","ability":"cursedbody"},{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, M","condition":"184/184","active":false,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball","ability":"mummy"},{"ident":"p2: Drifblim","details":"Drifblim, L71, M","condition":"315/315","active":false,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball","ability":"aftermath"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"228/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball","ability":"ironfist"},{"ident":"p2: Chandelure","details":"Chandelure, L73, F","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball","ability":"flamebody"}]}}
 
 update
-|t:|1641172957
+|t:|1641682863
 |gametype|singles
 |player|p1|A||
 |player|p2|B||
@@ -147,40 +135,39 @@ update
 |rule|Dynamax Clause: You cannot dynamax
 |rule|Sleep Clause Mod: Limit one foe put to sleep
 |clearpoke
-|poke|p1|Qwilfish, L47, M|
-|poke|p1|Abomasnow, L66, F|
+|poke|p1|Mewtwo, L70|
+|poke|p1|Crustle, L35, F|
 |poke|p1|Nidoqueen, F|
-|poke|p1|Darkrai, L72|
-|poke|p1|Crustle, L35, M|
-|poke|p1|Hydreigon, F|
+|poke|p1|Qwilfish, L47, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Blaziken, L77, F|
 |poke|p2|Cofagrigus, L71, M|
-|poke|p2|Jellicent, L71, F|
+|poke|p2|Jellicent, L71, M|
 |poke|p2|Froslass, L71, F|
-|poke|p2|Drifblim, L71, F|
+|poke|p2|Drifblim, L71, M|
 |poke|p2|Golurk, L71|
-|poke|p2|Chandelure, L73, M|
+|poke|p2|Chandelure, L73, F|
 |teampreview
 |
-|t:|1641172958
+|t:|1641682863
 |start
 |split|p1
-|switch|p1a: Qwilfish|Qwilfish, L47, M|125/125
-|switch|p1a: Qwilfish|Qwilfish, L47, M|100/100
+|switch|p1a: Mewtwo|Mewtwo, L70|233/233
+|switch|p1a: Mewtwo|Mewtwo, L70|100/100
 |split|p2
 |switch|p2a: Cofagrigus|Cofagrigus, L71, M|184/184
 |switch|p2a: Cofagrigus|Cofagrigus, L71, M|100/100
+|-ability|p1a: Mewtwo|Pressure
 |turn|1
 |
-|t:|1641172958
+|t:|1641682863
 |split|p1
-|switch|p1a: Abomasnow|Abomasnow, L66, F|256/256
-|switch|p1a: Abomasnow|Abomasnow, L66, F|100/100
-|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|switch|p1a: Crustle|Crustle, L35, F|101/101
+|switch|p1a: Crustle|Crustle, L35, F|100/100
 |split|p2
 |switch|p2a: Froslass|Froslass, L71, F|201/201
 |switch|p2a: Froslass|Froslass, L71, F|100/100
 |
-|-weather|Hail|[upkeep]
 |upkeep
 |turn|2
 

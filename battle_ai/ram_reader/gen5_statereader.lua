@@ -69,7 +69,7 @@ end
 
 function StateReader.get_enemy_status() 
 
-    if self.is_wild_battle() then
+    if StateReader.is_wild_battle() then
         return {status_in_battle_slot(1)}
     else
         statuses = {}
