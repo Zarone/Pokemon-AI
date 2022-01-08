@@ -34,7 +34,7 @@ GameReader.__index = GameReader
 -- return (table.concat(name, ""))
 -- end
 
-function GameReader.new(wild_battle)
+function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance = setmetatable({}, GameReader)
 
     -- instance.name = get_name()
@@ -45,14 +45,31 @@ function GameReader.new(wild_battle)
     -- reflect, light screen, safeguard, mist, tailwind, lucky chant
     instance.player = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
-        volatiles = {}
+        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+        -- # Seeded
+        -- # Confused
+        -- # Taunted
+        -- # Yawning
+        -- # Perish Song (0 for none, 1 for 3 turns left, 2 for 2 turns left, 3 for 1 turn left)
+
+        -- # Substitute
+        -- # Focus Energy
+        -- # Ingrain
+        -- # disable (0 for none, or 1,2,3,4 for disabled move)
+        -- # encore
+
+        -- # futuresight
+        -- # aquaring
+        -- # attract
+        -- # torment
     }
     instance.enemy = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
-        volatiles = {}
+        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
     }
 
-    -- instance.nicknames = nicknames
+    instance.nicknames = nicknames
+    instance.nicknames_enemy = nicknames_enemy
     instance.active = 0
     instance.enemy_active = 0
     instance.wild_battle = wild_battle
@@ -75,16 +92,32 @@ function GameReader:new_active()
     -- self.active = memory.readbyte(0x02271CBE)
     -- self.active = memory.readbyte(0x021F44AB)
     if self.wild_battle then
-        print('wild')
         self.active = memory.readbyte(0x022724C8)
     else
-        print('trainer')
         self.active = memory.readbyte(0x02273226)
     end
+    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}
+    -- # Seeded
+    -- # Confused
+    -- # Taunted
+    -- # Yawning
+    -- # Perish Song (0 for none, 1 for 3 turns left, 2 for 2 turns left, 3 for 1 turn left)
+
+    -- # Substitute
+    -- # Focus Energy
+    -- # Ingrain
+    -- # disable (0 for none, or 1,2,3,4 for disabled move)
+    -- # encore
+
+    -- # futuresight
+    -- # aquaring
+    -- # attract
+    -- # torment
 end
 
 function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
+    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.enemy.volatiles[11], 0, 0, 0}
 end
 
 function GameReader:process_line(line)
@@ -94,26 +127,8 @@ function GameReader:process_line(line)
     hazard = nil -- 1 is spikes, 2 is toxic spikes, 3 is stealth rocks
     new_hazard = nil
 
-    -- Go! \xf000Ă\x0001\x0000!
-    -- Go! \xf000Ă\x0001\x0000 and\xfffe\xf000Ă\x0001\x0001!
-    -- Go! \xf000Ă\x0001\x0000,\xfffe\xf000Ă\x0001\x0001, and \xf000Ă\x0001\x0002!
-    -- You're in charge, \xf000Ă\x0001\x0000!
-    -- Go for it, \xf000Ă\x0001\x0000!
-    -- Just a little more!\xfffeHang in there, \xf000Ă\x0001\x0000!
-    -- Your foe's weak!\xfffeGet 'em, \xf000Ă\x0001\x0000!
-
-    -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent\xfffeout \xf000Ă\x0001\x0002!
-    -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002 and \xf000Ă\x0001\x0003!
-    -- \xf000Ď\x0001\x0000 \xf000Ā\x0001\x0001 sent out\xfffe\xf000Ă\x0001\x0002, \xf000Ă\x0001\x0003,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0004!
-    -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001!
-    -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001 and \xf000Ă\x0001\x0002!
-    -- \xf000Ā\x0001\x0000 sent out\xfffe\xf000Ă\x0001\x0001, \xf000Ă\x0001\x0002,\xf000븀\x0000\xfffeand \xf000Ă\x0001\x0003!
-
     if line:find("Go!", 0) then
         self:new_active()
-        print("switch,", self.active)
-        -- print("switch to: ", last_substring(line))
-        -- player = 1
     elseif line:find("You're in charge,", 0) then
         self:new_active()
         print("switch,", self.active)
@@ -122,13 +137,116 @@ function GameReader:process_line(line)
         print("switch,", self.active)
     elseif line:find("Just a little more!", 0) then
         self:new_active()
-        print("switch,", self.active)
     elseif line:find("Your foe's weak!", 0) then
         self:new_active()
-        print("switch,", self.active)
     elseif line:find("sent out") then
         self:new_enemy_active()
-        print("enemy switch", self.enemy_active)
+    elseif line == self.nicknames[self.active + 1] .. " was seeded!" then
+        self.player.volatiles[1] = 1
+    elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " was seeded!") or
+        (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " was seeded!") then
+        self.enemy.volatiles[1] = 1
+    elseif line == self.nicknames[self.active + 1] .. " became confused!" or line == self.nicknames[self.active + 1] ..
+        " became confused due to fatigue!" then
+        self.player.volatiles[2] = 1
+    elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
+        " became confused!" or line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
+        " became confused due to fatique!") or
+        (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
+            " became confused!" or line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
+            " became confused due to fatigue!") then
+        self.enemy.volatiles[2] = 1
+    elseif line == self.nicknames[self.active + 1] .. " snapped out of its confusion." then
+        self.player.volatiles[2] = 0
+    elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
+        " snapped out of confusion!") or
+        (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
+            " snapped out of confusion!") then
+        self.enemy.volatiles[2] = 0
+    elseif line == self.nicknames[self.active + 1] .. " fell for the taunt!" then
+        self.player.volatiles[3] = 1
+    elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
+        " fell for the taunt!") or
+        (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
+            " fell for the taunt!") then
+        self.enemy.volatiles[3] = 1
+    elseif line == self.nicknames[self.active + 1] .. " grew drowsy!" then
+        self.player.volatiles[4] = 1
+    elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " grew drowsy!") or
+        (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " grew drowsy!") then
+        self.enemy.volatiles[4] = 1
+    elseif line.find(self.nicknames[self.active + 1] .. "'s perish count", 0) then
+        self.player.volatiles[5] = 4 - tonumber(line:sub(-2, -2))
+    elseif line.find(self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
+                         "'s perish count" or "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
+                         "'s perish count") then
+        self.enemy.volatiles[5] = 4 - tonumber(line:sub(-2, -2))
+    elseif line == self.nicknames[self.active + 1] .. " put in a substitute!" then
+        self.player.volatiles[6] = 1
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " put in a substitute!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " put in a substitute!") then
+        self.enemy.volatiles[6] = 1
+    elseif line == self.nicknames[self.active + 1] .. "'s substitute faded!" then
+        self.player.volatiles[6] = 0
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s substitute faded!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s substitute faded!") then
+        self.enemy.volatiles[6] = 0
+    elseif line == self.nicknames[self.active + 1] .. " is tightening its focus!" then
+        self.player.volatiles[7] = 1
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " is tightening its focus!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " is tightening its focus!") then
+        self.enemy.volatiles[7] = 1
+    elseif line == self.nicknames[self.active + 1] .. " planted its roots!" then
+        self.player.volatiles[8] = 1
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " planted its roots!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " planted its roots!") then
+        self.enemy.volatiles[8] = 1
+
+        -- \xf000Ă\x0001\x0000's \xf000ć\x0001\x0001\xfffewas disabled!
+        -- The wild \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 was disabled!
+        -- The foe's \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 was disabled!
+        -- \xf000Ă\x0001\x0000's \xf000ć\x0001\x0001\xfffeis disabled!
+        -- The wild \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 is disabled!
+        -- The foe's \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 is disabled!
+        -- \xf000Ă\x0001\x0000 is no\xfffelonger disabled!
+        -- The wild \xf000Ă\x0001\x0000 is no\xfffelonger disabled!
+        -- The foe's \xf000Ă\x0001\x0000 is no\xfffelonger disabled!
+
+        -- \xf000Ă\x0001\x0000 received\xfffean encore!
+        -- The wild \xf000Ă\x0001\x0000 received\xfffean encore!
+        -- The foe's \xf000Ă\x0001\x0000 received\xfffean encore!
+        -- \xf000Ă\x0001\x0000's encore\xfffeended!
+        -- The wild \xf000Ă\x0001\x0000's encore\xfffeended!
+        -- The foe's \xf000Ă\x0001\x0000's encore\xfffeended!
+
+        -- \xf000Ă\x0001\x0000 foresaw\xfffean attack!
+        -- The wild \xf000Ă\x0001\x0000 foresaw\xfffean attack!
+        -- The foe's \xf000Ă\x0001\x0000 foresaw\xfffean attack!
+
+        --     \xf000Ă\x0001\x0000 surrounded\xfffeitself with a veil of water!
+        -- The wild \xf000Ă\x0001\x0000 surrounded\xfffeitself with a veil of water!
+        -- The foe's \xf000Ă\x0001\x0000 surrounded\xfffeitself with a veil of water!
+
+        -- \xf000Ă\x0001\x0000\xfffefell in love!
+        -- The wild \xf000Ă\x0001\x0000\xfffefell in love!
+        -- The foe's \xf000Ă\x0001\x0000\xfffefell in love!
+        -- \xf000Ă\x0001\x0000\xfffefell in love from the \xf000ĉ\x0001\x0001!
+        -- The wild \xf000Ă\x0001\x0000\xfffefell in love from the \xf000ĉ\x0001\x0001!
+        -- The foe's \xf000Ă\x0001\x0000\xfffefell in love from the \xf000ĉ\x0001\x0001!
+        -- \xf000Ă\x0001\x0000 is in love\xfffewith \xf000Ă\x0001\x0001!
+        -- The wild \xf000Ă\x0001\x0000 is in love\xfffewith \xf000Ă\x0001\x0001!
+        -- The foe's \xf000Ă\x0001\x0000 is in love\xfffewith \xf000Ă\x0001\x0001!
+        -- \xf000Ă\x0001\x0000 got over its\xfffeinfatuation.
+        -- The wild \xf000Ă\x0001\x0000 got over its\xfffeinfatuation.
+        -- The foe's \xf000Ă\x0001\x0000 got over its\xfffeinfatuation.
+
+        -- \xf000Ă\x0001\x0000\xfffeis tormented!
+        -- The wild \xf000Ă\x0001\x0000\xfffeis tormented!
+        -- The foe's \xf000Ă\x0001\x0000\xfffeis tormented!
     elseif line == "Spikes were scattered all around your team\'s feet!" then
         hazard_change = true
         hazard = 1

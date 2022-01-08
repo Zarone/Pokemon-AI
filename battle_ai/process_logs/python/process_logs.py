@@ -7,7 +7,7 @@ desired outputs:
       [
         [
 
-          # total length should be 413
+          # total length should be 409
 
           # weather (also tracks number of turns it's been out) (would add 5)
             # sun
@@ -26,7 +26,7 @@ desired outputs:
             # tailwind
             # lucky chant
 
-          # status conditions ( would add 5*12+14*2 = 88 )
+          # status conditions ( would add 5*12+12*2 = 84 )
             # non-volatile ( for each pokemon )
               # burn
               # freeze
@@ -42,12 +42,12 @@ desired outputs:
               # Substitute
               # Focus Energy
               # Ingrain
-              # typechange
               # disable
               # encore
               # futuresight
-              # autotomize
               # aquaring
+              # attract
+              # torment
 
           # stat boost array for each player (7*2)
           atk, spatk, def, spdef, spe, evasion, accuray
