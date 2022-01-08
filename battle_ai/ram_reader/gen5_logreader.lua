@@ -96,7 +96,7 @@ function GameReader:new_active()
     else
         self.active = memory.readbyte(0x02273226)
     end
-    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}
+    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, None, 0, self.player.volatiles[11], 0, 0, 0}
     -- # Seeded
     -- # Confused
     -- # Taunted
@@ -117,7 +117,7 @@ end
 
 function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
-    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.enemy.volatiles[11], 0, 0, 0}
+    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, None, 0, self.enemy.volatiles[11], 0, 0, 0}
 end
 
 function GameReader:process_line(line)
@@ -129,6 +129,7 @@ function GameReader:process_line(line)
 
     if line:find("Go!", 0) then
         self:new_active()
+        print("switch", self.active)
     elseif line:find("You're in charge,", 0) then
         self:new_active()
         print("switch,", self.active)
@@ -175,9 +176,9 @@ function GameReader:process_line(line)
     elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " grew drowsy!") or
         (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " grew drowsy!") then
         self.enemy.volatiles[4] = 1
-    elseif line.find(self.nicknames[self.active + 1] .. "'s perish count", 0) then
+    elseif line:find(self.nicknames[self.active + 1] .. "'s perish count", 0) then
         self.player.volatiles[5] = 4 - tonumber(line:sub(-2, -2))
-    elseif line.find(self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
+    elseif line:find(self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
                          "'s perish count" or "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
                          "'s perish count") then
         self.enemy.volatiles[5] = 4 - tonumber(line:sub(-2, -2))
@@ -205,23 +206,35 @@ function GameReader:process_line(line)
         (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " planted its roots!" or
             "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " planted its roots!") then
         self.enemy.volatiles[8] = 1
+    elseif line:sub(-13, -2) == "was disabled" then
+        if line:sub(0, 8) == "The wild" then
+            self.enemy.volatiles[9] = line:sub(13+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+        elseif line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[9] = line:sub(14+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+        else 
+            self.player.volatiles[9] = line:sub(4+#(self.nicknames[self.active+1]), -15)
+        end
+    elseif line:sub(-13, -2) == "ger disabled" then
+        if line:sub(0, 8) == "The wild" then
+            self.enemy.volatiles[9] = None
+        elseif line:sub(0, 9) == "The foe's" then
+            self.enemy.volatiles[9] = None
+        else 
+            self.player.volatiles[9] = None
+        end
+    elseif line == self.nicknames[self.active + 1] .. " received an encore!" then
+        self.player.volatiles[10] = 1
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " received an encore!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " received an encore!") then
+        self.enemy.volatiles[10] = 1
+    elseif line == self.nicknames[self.active + 1] .. "'s encore ended!" then
+        self.player.volatiles[10] = 0
+    elseif line ==
+        (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s encore ended!" or
+            "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. "'s encore ended!") then
+        self.enemy.volatiles[10] = 0               
 
-        -- \xf000Ă\x0001\x0000's \xf000ć\x0001\x0001\xfffewas disabled!
-        -- The wild \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 was disabled!
-        -- The foe's \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 was disabled!
-        -- \xf000Ă\x0001\x0000's \xf000ć\x0001\x0001\xfffeis disabled!
-        -- The wild \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 is disabled!
-        -- The foe's \xf000Ă\x0001\x0000's\xfffe\xf000ć\x0001\x0001 is disabled!
-        -- \xf000Ă\x0001\x0000 is no\xfffelonger disabled!
-        -- The wild \xf000Ă\x0001\x0000 is no\xfffelonger disabled!
-        -- The foe's \xf000Ă\x0001\x0000 is no\xfffelonger disabled!
-
-        -- \xf000Ă\x0001\x0000 received\xfffean encore!
-        -- The wild \xf000Ă\x0001\x0000 received\xfffean encore!
-        -- The foe's \xf000Ă\x0001\x0000 received\xfffean encore!
-        -- \xf000Ă\x0001\x0000's encore\xfffeended!
-        -- The wild \xf000Ă\x0001\x0000's encore\xfffeended!
-        -- The foe's \xf000Ă\x0001\x0000's encore\xfffeended!
 
         -- \xf000Ă\x0001\x0000 foresaw\xfffean attack!
         -- The wild \xf000Ă\x0001\x0000 foresaw\xfffean attack!
