@@ -1,8 +1,10 @@
-local md = require "local_map" -- map data
-local goals = require "goals"
-dofile("table_helper.lua")
-local mem = require "memory_retrieval"
-local button_masher = require "button_masher"
+local md = require "./navigator/local_map" -- map data
+local goals = require "./navigator/goals"
+dofile("./navigator/table_helper.lua")
+local mem = require "./navigator/memory_retrieval"
+-- local button_masher = require "button_masher"
+local output_manager = require "./navigator/output_manager"
+local BattleManager = require "./battle_ai/battle_manager"
 
 -- the purpose of "mode" is to determine what
 -- game actions the bot is attempting to perform
@@ -10,6 +12,8 @@ local button_masher = require "button_masher"
 -- 1 => goals
 local mode = 1
 
+local battleState = nil
+local was_in_battle = false
 
 -- function exit()
 --     print("saving data")
@@ -40,12 +44,22 @@ while true do
 
     -- print(is_text_onscreen)
 
-    if is_in_battle > 0 then
+    if was_in_battle and not is_in_battle then
+        battleState = nil
+    end
+
+    if is_in_battle then
         print("is in battle")
-        button_masher.mash({A = true})
-    elseif (is_text_onscreen > 0) then
-        -- print("there's on screen dialogue, time to button mash")
-        button_masher.mash({A = true})
+        if not was_in_battle then
+            was_in_battle = true
+            battleState = BattleManager.new()
+        end
+        -- button_masher.mash({A = true})
+        -- output_manager.press( {{{A = true}, 5}}, 5 )
+    elseif (is_text_onscreen) then
+        print("there's on screen dialogue, time to button mash")
+        -- button_masher.mash({A = true})
+        output_manager.press( {{{A = true}, 5}}, 5 )
     elseif (mode == 1) then
         -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()

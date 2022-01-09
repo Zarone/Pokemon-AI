@@ -40,11 +40,12 @@ function mem.is_dialogue_onscreen()
     -- maybe means can't move: 0x0224F77D
 
     -- maybe: 0x0225C5DF
-    return memory.readbyteunsigned(0x0225C5DF)
+    return memory.readbyteunsigned(0x0225C5DF) == 2
 end
 
 function mem.is_in_battle()
-    return memory.readbyteunsigned(0x02122DE6)    
+    return memory.readbyteunsigned(0x022D5C0B) ~= 0
+    -- return memory.readbyteunsigned(0x02122DE6)    
 end
 
 function mem.can_move()

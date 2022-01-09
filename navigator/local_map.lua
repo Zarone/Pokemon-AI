@@ -1,8 +1,8 @@
 local lmd = {} -- local map data
 
-mem = require "memory_retrieval"
-local gmd = require "global_map" -- global map data
-dofile("table_helper.lua")
+mem = require "./navigator/memory_retrieval"
+local gmd = require "./navigator/global_map" -- global map data
+dofile("./navigator/table_helper.lua")
 
 lmd.x = nil
 lmd.y = nil

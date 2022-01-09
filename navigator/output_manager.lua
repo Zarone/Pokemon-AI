@@ -50,20 +50,22 @@ end
 
 done = false
 
-while true do
-    -- joypad.set({down = true})
-    if not done then
-        done = output_manager.press(
-            {
-                {{A = true}, 5}, 
-                {{up = true}, 5}, 
-                {{left = true}, 5}, 
-                {{down = true}, 5}, 
-                -- {{right = true}, 5}, 
-                {{A = true}, 5},
-            }, 
-            60
-        )
-    end
-    emu.frameadvance()
-end
+return output_manager
+
+-- while true do
+--     -- joypad.set({down = true})
+--     if not done then
+--         done = output_manager.press(
+--             {
+--                 {{A = true}, 5}, 
+--                 {{up = true}, 5}, 
+--                 {{left = true}, 5}, 
+--                 {{down = true}, 5}, 
+--                 -- {{right = true}, 5}, 
+--                 {{A = true}, 5},
+--             }, 
+--             60
+--         )
+--     end
+--     emu.frameadvance()
+-- end

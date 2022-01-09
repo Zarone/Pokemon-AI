@@ -1,4 +1,4 @@
-dofile "./ram_reader/gen4_5_table.lua"
+dofile "./battle_ai/ram_reader/gen4_5_table.lua"
 
 local bnd,br,bxr=bit.band,bit.bor,bit.bxor
 local rshift, lshift=bit.rshift, bit.lshift
