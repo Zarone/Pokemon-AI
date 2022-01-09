@@ -57,6 +57,7 @@ function values_to_string(nums)
 end
 
 function to_packed_pokemon(tbl)
+    -- print(tbl)
     return
         tbl.name .. "||" .. tbl.item .. "|" .. tbl.ability .. "|" .. moves_to_string(tbl.moves) .. "|" .. tbl.nature ..
             "|" .. values_to_string(tbl.evs) .. "||" .. values_to_string(tbl.ivs) .. "||" .. tbl.level .. "|" ..

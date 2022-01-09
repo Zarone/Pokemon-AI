@@ -93,8 +93,9 @@ function GameReader:process_line(line)
     hazard_change = false
     hazard = nil -- 1 is spikes, 2 is toxic spikes, 3 is stealth rocks
     new_hazard = nil
-
-    if line:find("Go!", 0) then
+    if line:sub(0, 6) == "What w" then
+        return true
+    elseif line:find("Go!", 0) then
         self:new_active()
     elseif line:find("You're in charge,", 0) then
         self:new_active()
@@ -442,6 +443,7 @@ function GameReader:process_line(line)
             print("somethings wrong with player variable")
         end
     end
+    return false
 end
 
 function GameReader:get_line()
@@ -457,10 +459,15 @@ function GameReader:get_line()
         end
     end
     new_str = table.concat(str, "")
+
+    returnVal = false
+
     if self.last_str ~= new_str then
-        self:process_line(new_str)
+        returnVal = self:process_line(new_str)
     end
     self.last_str = new_str
+
+    return returnVal
 end
 
 function GameReader:pass_turn()

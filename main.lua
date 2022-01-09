@@ -45,15 +45,18 @@ while true do
     -- print(is_text_onscreen)
 
     if was_in_battle and not is_in_battle then
+        print("battle ended")
         battleState = nil
     end
 
     if is_in_battle then
-        print("is in battle")
+        -- print("is in battle")
         if not was_in_battle then
+            print("battle started")
             was_in_battle = true
             battleState = BattleManager.new()
         end
+        print(battleState:act())
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
     elseif (is_text_onscreen) then

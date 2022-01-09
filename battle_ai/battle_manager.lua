@@ -13,10 +13,16 @@ function BattleManager.new()
     x = PokeReader.new(4, 5)
     instance.IGReader = x
     team1 = instance.IGReader:get(1)
-    team2 = instance.IGReader:get(2)
+    team2 = nil
+    if StateReader.is_wild_battle then
+        team2 = instance.IGReader:get(5)
+    else
+        team2 = instance.IGReader:get(2)
+    end
     str_team1 = Writer.to_packed_team(team1)
     str_team2 = Writer.to_packed_team(team2)
-    instance.showdown_instance = Writer.new(str_team1, str_team2)
+    x = Writer.new(str_team1, str_team2)
+    instance.showdown_instance = x
     -- instance.showdown_instance:write(">p1 switch 2\n")
     -- instance.showdown_instance:write(">p2 switch 3\n")
     instance.showdown_instance:close()
@@ -36,7 +42,28 @@ function BattleManager.new()
 end
 
 
+
+function BattleManager.act(self)
+    -- get_line returns true when user can attack
     
+    if self.game_reader:get_line() then
+        return self:get_action()    
+    else
+        return 0
+    end
+
+    -- either 0 for no action, 1 for moveslot 1... 4 for moveslot 4, 5 for switch to party slot 1, 10 for party slot 6 
+end
+
+function BattleManager:get_action()
+    return 1 -- indicates moveslot 1
+end
+
+return BattleManager
+
+-- function BattleManager.can_attack()
+--     return memory.readbyte(0x022A6A9D)
+-- end
 
 -- file = io.open("./state_files/battleState.json", "w")
 -- file:write(
@@ -59,13 +86,3 @@ end
 --         }
 --     })
 -- )
-
-function BattleManager:between_turns()
-    self.game_reader:get_line()
-end
-
-function BattleManager:get_action()
-    return 0 -- indicates moveslot 1
-end
-
-return BattleManager
