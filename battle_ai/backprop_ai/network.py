@@ -1,6 +1,14 @@
 import numpy as np
 import random
 
+def ReLu(x): return max(0, x)
+def LeakyReLu(x): 
+    if (x > 0):
+        return x
+    else:
+        return x*0.01
+def TanH(x):
+    return np.tanh(x)
 
 class Network():
     def __init__(self, sizes):
@@ -18,7 +26,7 @@ class Network():
                         for x, y in zip(self.sizes[:-1], self.sizes[1:])]
 
     # Stochastic Gradient Descent
-    def SGD(self, training_data, epochs, per_batch, learning_rate, activation):
+    def SGD(self, training_data, epochs, per_batch, learning_rate, activation, cost):
         # training_data is list of elements like (x, y),
         # where x is the input and y is the correct output
 
@@ -27,26 +35,26 @@ class Network():
             mini_batches = [training_data[j:j+per_batch]
                             for j in range(0, len(training_data), per_batch)]
             for batch in mini_batches:
-                self.train_batch(batch, learning_rate, activation)
+                self.train_batch(batch, learning_rate, activation, cost)
         pass
 
-    def train_batch(self, mini_batch, learning_rate, activation):
+    def train_batch(self, mini_batch, learning_rate, activation, cost):
         x = np.asarray([_x for _x, _y in mini_batch]).transpose()
         y = np.asarray([_y for _x, _y in mini_batch]).transpose()
 
         nabla_b, nabla_w = None
         if activation == "relu":
-            self.backprop(x, y)
+            self.backprop(x, y, ReLu, cost)
         elif activation == "lrelu":
-            self.backprop(x, y)
+            self.backprop(x, y, LeakyReLu, cost)
         elif activation == "tanh":
-            self.backprop(x, y)
+            self.backprop(x, y, TanH, cost)
 
         self.weights = [w-(learning_rate/len(mini_batch))*nw for w, nw in zip(self.weights, nabla_w)]
         self.biases = [b-(learning_rate/len(mini_batch))*nb for b, nb in zip(self.biases, nabla_b)]
 
 
-    def backprop(self, x, y, activation):
+    def backprop(self, x, y, activation_func, cost):
         nabla_b = [np.zeros(b.shape) for b in self.biases]
         nabla_w = [np.zeros(w.shape) for w in self.weights]
 
@@ -56,8 +64,10 @@ class Network():
         for b, w in zip(self.biases, self.weights):
             z = np.dot(w, activation) + b
             zs.append(z)
-            activation = activation(z)
+            activation = activation_func(z)
             activations.append(activation)
+
+
 
 net = Network([4, 4])
 net.SGD(
