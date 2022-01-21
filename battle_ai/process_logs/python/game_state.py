@@ -5,7 +5,7 @@ BOOSTS = 7
 HAZARDS = 6
 
 def get_pokemon_data(pokemon):
-    pokemon_raw = open("gamedata/pokedex.json", "r")
+    pokemon_raw = open("../../gamedata/pokedex.json", "r")
     pokemon_data = json.load(pokemon_raw)
     pokemon_raw.close()
 
@@ -99,7 +99,7 @@ class GameState:
     def is_form_of(self, pokemon_form, pokemon_target):
         if pokemon_target == pokemon_form:
             return True
-        pokemon_raw = open("gamedata/pokedex.json", "r")
+        pokemon_raw = open("../../gamedata/pokedex.json", "r")
         pokemon_data = json.load(pokemon_raw)
         pokemon_raw.close()
 
@@ -211,16 +211,18 @@ class GameState:
                 new_team2.append(self.player2team[i])
         json_data["player1team"] = new_team1
         json_data["player2team"] = new_team2
-        
-        with open('battleState.json', 'w') as f:
-            json.dump(json_data, f)
 
     def next_turn(self):
+
+        # returning true indicates that the turn was successfully managed
+
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|turn"):
                 if self.log[i].split("|")[2].strip() != str(self.current_turn):
                     self.next_line = i+1
                     if i == (len(self.log) - 1):
+                        return False
+                    else:
                         return True
             elif self.log[i].startswith("|switch"):
 
@@ -563,7 +565,7 @@ class GameState:
                 return True
 
         self.current_turn += 1
-        return False
+        return True
 
     def __init__(self, log_lines, debug=False):
         self.log = log_lines
@@ -600,6 +602,7 @@ class GameState:
             print(self.player1name, self.player2name)
 
         for line in log_lines:
+            # print(line)
             self.next_line += 1
             if line.startswith("|player"):
                 if(line.split("|")[2] == "p1"):
@@ -660,7 +663,8 @@ class GameState:
                         if self.player2team[i]["name"] == target_pokemon:
                             self.player2active = i
                             break
-                    break
+                    # break
+                    turn_zero = False
             elif line.strip() == "|start":
                 turn_zero = True
 

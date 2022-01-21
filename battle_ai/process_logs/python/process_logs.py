@@ -70,23 +70,34 @@ desired outputs:
 
 import game_state as gs
 import os
+import msgpack
 
-raw_log_dir = "../get_battle_data/raw_logs/"
+raw_log_dir = "../../../get_battle_data/raw_logs/"
 
 def get_all_logs():
   for file in os.listdir(raw_log_dir):
-      get_log(raw_log_dir+file)
+      if file != ".DS_Store":
+        print(file)
+        get_log(raw_log_dir+file, file)
 
-def get_log(log_name):
+def get_log(log_name, file):
   log = open(log_name, "r", encoding='utf-8', errors='ignore')
   new_game = gs.GameState(log.readlines(), False)
-  for i in range(100):
-    if (new_game.next_turn()): return
-    # new_game.save_showdown_input()
+  maxTurns = 100
+  for i in range(maxTurns):
+    if (new_game.next_turn()):
+      outputFile = open('../../state_files/processed_logs/'+file+"-"+str(i), 'wb')
+      outputFile.write(msgpack.packb(new_game.get_output(1)))
+      outputFile.close()
+      
+      # return
+    # print(str(i)+" out of "+str(maxTurns))
     # print(i, len(new_game.get_output(1)[0]))
     # print("\n")
-  log.close()
+  # log.close()
+  # new_game.next_turn()
+  # new_game.next_turn()
 
-# get_all_logs()
-get_log("last.txt")
+get_all_logs()
+# get_log("last.txt")
 # get_log("../get_battle_data/raw_logs/gen8nationaldex-1469587658.txt")

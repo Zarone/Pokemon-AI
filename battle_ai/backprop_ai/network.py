@@ -1,82 +1,31 @@
-import numpy as np
-import random
+import msgpack
+import os
 
-def ReLu(x): return max(0, x)
-def LeakyReLu(x): 
-    if (x > 0):
-        return x
-    else:
-        return x*0.01
-def TanH(x):
-    return np.tanh(x)
+from sklearn.neural_network import MLPClassifier
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
 
-class Network():
-    def __init__(self, sizes):
-        self.sizes = sizes
-        self.init_weights()
+process_log_dir = "../state_files/processed_logs/"
 
-    def init_weights(self):
+def get_data():
+    x = []
+    y = []
+    for fileName in os.listdir(process_log_dir):
+        file = open(process_log_dir+fileName, "rb")
+        val = msgpack.unpackb(file.read())
+        x.append(val[0])
+        y.append(int(val[1]))
+    return x, y
 
-        # uses guassian random distribution
-        # weights with mean = 0, standard deviation = (1/sqrt(n))
-        # biases with mean = 0, standard deviation = 1
+X, y = get_data()
+print(y[0:5])
 
-        self.biases = [np.random.randn(y, 1) for y in self.sizes[1:]]
-        self.weights = [np.random.randn(y, x)/np.sqrt(x)
-                        for x, y in zip(self.sizes[:-1], self.sizes[1:])]
+# X, y = make_classification(n_samples=100, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
+clf = MLPClassifier(random_state=1, max_iter=300).fit(X_train, y_train)
 
-    # Stochastic Gradient Descent
-    def SGD(self, training_data, epochs, per_batch, learning_rate, activation, cost):
-        # training_data is list of elements like (x, y),
-        # where x is the input and y is the correct output
-
-        for i in range(epochs):
-            random.shuffle(training_data)
-            mini_batches = [training_data[j:j+per_batch]
-                            for j in range(0, len(training_data), per_batch)]
-            for batch in mini_batches:
-                self.train_batch(batch, learning_rate, activation, cost)
-        pass
-
-    def train_batch(self, mini_batch, learning_rate, activation, cost):
-        x = np.asarray([_x for _x, _y in mini_batch]).transpose()
-        y = np.asarray([_y for _x, _y in mini_batch]).transpose()
-
-        nabla_b, nabla_w = None
-        if activation == "relu":
-            self.backprop(x, y, ReLu, cost)
-        elif activation == "lrelu":
-            self.backprop(x, y, LeakyReLu, cost)
-        elif activation == "tanh":
-            self.backprop(x, y, TanH, cost)
-
-        self.weights = [w-(learning_rate/len(mini_batch))*nw for w, nw in zip(self.weights, nabla_w)]
-        self.biases = [b-(learning_rate/len(mini_batch))*nb for b, nb in zip(self.biases, nabla_b)]
-
-
-    def backprop(self, x, y, activation_func, cost):
-        nabla_b = [np.zeros(b.shape) for b in self.biases]
-        nabla_w = [np.zeros(w.shape) for w in self.weights]
-
-        zs = []
-        activations = [x]
-        activation = x
-        for b, w in zip(self.biases, self.weights):
-            z = np.dot(w, activation) + b
-            zs.append(z)
-            activation = activation_func(z)
-            activations.append(activation)
-
-
-
-net = Network([4, 4])
-net.SGD(
-    [
-        [np.array([0, 0, 1, 2, 3]), np.array([0, 0, 0, 0, 0, 1])],
-        [np.array([0, 0, 1, 2, 3]), np.array([0, 0, 0, 0, 0, 1])],
-        [np.array([0, 0, 1, 2, 3]), np.array([0, 0, 0, 0, 0, 1])],
-        [np.array([0, 0, 1, 2, 3]), np.array([0, 0, 0, 0, 0, 1])],
-        [np.array([0, 0, 1, 2, 3]), np.array([0, 0, 0, 0, 0, 1])],
-    ],
-    1, 5, 0.03
+print(
+        clf.predict(
+            X[0:5]
+        )
 )
