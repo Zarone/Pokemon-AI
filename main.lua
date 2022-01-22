@@ -28,12 +28,10 @@ local was_in_battle = false
 -- if loaded_saved_data ~= nil then
 --     goals.current_goal = loaded_saved_data.current_goal
 --     print("current_goal: ", goals.current_goal)    
-    
+
 --     md.set_global_map_data(loaded_saved_data.global_map_data)
 --     loaded_saved_data = nil
 -- end
-
-
 
 while true do
     md.update_map(true)
@@ -46,6 +44,7 @@ while true do
 
     if was_in_battle and not is_in_battle then
         print("battle ended")
+        was_in_battle = false
         battleState = nil
     end
 
@@ -56,13 +55,70 @@ while true do
             was_in_battle = true
             battleState = BattleManager.new()
         end
-        print(battleState:act())
+        action = battleState:act()
+        -- print "should i pres  things"
+        if action == 0 then
+            output_manager.reset()
+        elseif action == 1 then
+            -- print("press things")
+            output_manager.press({{{}, 5}, {{
+                A = true
+            }, 5}, {{
+                up = true
+            }, 5}, {{
+                left = true
+            }, 5}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 2 then
+            -- print("press things")
+            output_manager.press({{{}, 5}, {{
+                A = true
+            }, 5}, {{
+                up = true
+            }, 5}, {{
+                left = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 3 then
+            -- print("press things")
+            output_manager.press({{{}, 5}, {{
+                A = true
+            }, 5}, {{
+                up = true
+            }, 5}, {{
+                left = true
+            }, 5}, {{
+                down = true
+            }, 5}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 4 then
+            -- print("press things")
+            output_manager.press(
+                {
+                    {{}, 5},
+                    {{A = true}, 5}, 
+                    {{up = true}, 5}, 
+                    {{left = true}, 5}, 
+                    {{down = true}, 5}, 
+                    {{right = true}, 5}, 
+                    {{A = true}, 5},
+                }, 
+                25
+            )
+        end
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
     elseif (is_text_onscreen) then
         print("there's on screen dialogue, time to button mash")
         -- button_masher.mash({A = true})
-        output_manager.press( {{{A = true}, 5}}, 5 )
+        output_manager.press({{{
+            A = true
+        }, 5}}, 5)
     elseif (mode == 1) then
         -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()
@@ -87,7 +143,7 @@ while true do
 
                     if local_path_response == 1 then -- if the destination has been reached
                         print("local destination reached")
-                        
+
                         -- maybe check this spot if there's a bug in the future, I don't know why this was here
                         -- table.remove(md.gpf.current_path, 1)
 
@@ -104,18 +160,17 @@ while true do
                         if objective[1] == 1 then -- if the objective was to warp
 
                             -- if the player successfully went to location and warped
-                            if to_map == md.pf.last_map and to_x == md.pf.last_x + md.pf.move_x_dir and to_y == md.pf.last_y +
-                                md.pf.move_y_dir then
+                            if to_map == md.pf.last_map and to_x == md.pf.last_x + md.pf.move_x_dir and to_y ==
+                                md.pf.last_y + md.pf.move_y_dir then
                                 goals.objective_complete()
                                 md.gpf.current_path = nil
                             end
-                        -- else
-                        --     goals.objective_fail()
+                            -- else
+                            --     goals.objective_fail()
                         end
                     end
                 end
 
-                
             elseif objective[1] == 2 then
                 if (button_masher.mash(objective[2][1], 100)) then
                     goals.objective_complete()

@@ -5,6 +5,13 @@ output_manager.progress_of_output = 0
 output_manager.pause_progress = 0
 output_manager.between_actions = false
 
+output_manager.reset = function()
+    output_manager.current_sequence_index = 1
+    output_manager.progress_of_output = 0
+    output_manager.pause_progress = 0
+    output_manager.between_actions = false
+end
+
 output_manager.press = function(sequence, time_between_actions)
     -- sequence looks like {{buttonMap1, 10}, {buttonMap2, 5}}
     -- 

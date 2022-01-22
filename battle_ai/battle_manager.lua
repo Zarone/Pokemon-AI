@@ -8,24 +8,21 @@ BattleManager = {}
 BattleManager.__index = BattleManager
 
 function BattleManager.new()
-    instance = setmetatable({}, BattleManager)
     
-    x = PokeReader.new(4, 5)
-    instance.IGReader = x
-    team1 = instance.IGReader:get(1)
+    instance_IGReader = PokeReader.new(4, 5)
+    team1 = instance_IGReader:get(1)
     team2 = nil
     if StateReader.is_wild_battle then
-        team2 = instance.IGReader:get(5)
+        team2 = instance_IGReader:get(5)
     else
-        team2 = instance.IGReader:get(2)
+        team2 = instance_IGReader:get(2)
     end
     str_team1 = Writer.to_packed_team(team1)
     str_team2 = Writer.to_packed_team(team2)
-    x = Writer.new(str_team1, str_team2)
-    instance.showdown_instance = x
+    -- instance.showdown_instance = x
     -- instance.showdown_instance:write(">p1 switch 2\n")
     -- instance.showdown_instance:write(">p2 switch 3\n")
-    instance.showdown_instance:close()
+    -- instance.showdown_instance:close()
     
     names = {}
     names_enemy = {}
@@ -37,18 +34,34 @@ function BattleManager.new()
         table.insert(names_enemy, v.nickname)
     end
     
-    instance.game_reader = GameReader.new(StateReader.is_wild_battle(), names, names_enemy)
+    instance = setmetatable({
+        game_reader = GameReader.new(StateReader.is_wild_battle(), names, names_enemy),
+        IGReader = instance_IGReader,
+        showdown_instance = nil,--Writer.new(str_team1, str_team2),
+        queued_move = nil
+    }, BattleManager)
+    print(instance.showdown_instance)
     return instance
 end
 
 
 
 function BattleManager.act(self)
+    -- print("act")
     -- get_line returns true when user can attack
     
     if self.game_reader:get_line() then
-        return self:get_action()    
+        if self.queued_move == nil then
+            self.showdown_instance = Writer.new(str_team1, str_team2)
+            self:get_action()
+        end 
+        return self.queued_move
     else
+        if self.queued_move ~= nil then
+            print("user can't attack")
+            self.showdown_instance:close()
+            self.queued_move = nil
+        end
         return 0
     end
 
@@ -56,7 +69,9 @@ function BattleManager.act(self)
 end
 
 function BattleManager:get_action()
-    return 1 -- indicates moveslot 1
+    returnAction = 4 -- indicates moveslot 1
+    
+    self.queued_move = returnAction
 end
 
 return BattleManager
