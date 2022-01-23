@@ -136,7 +136,6 @@ while true do
             if action == 0 then
                 output_manager.reset()
             elseif action == 1 then
-                -- print("press things")
                 output_manager.press({
                     {{}, 5},
                     {{
@@ -151,7 +150,6 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 2 then
-                -- print("press things")
                 output_manager.press(
                 {
                     {{}, 5},
@@ -166,7 +164,6 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 3 then
-                -- print("press things")
                 output_manager.press({
                     {{}, 5},
                     {{
@@ -183,7 +180,6 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 4 then
-                -- print("press things")
                 output_manager.press({
                     {{}, 5},
                     {{
@@ -318,7 +314,6 @@ while true do
             end
         end
 
-        -- print "should i pres  things"
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
     elseif (is_text_onscreen) then

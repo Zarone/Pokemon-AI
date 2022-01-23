@@ -40,7 +40,6 @@ function BattleManager.new()
         showdown_instance = nil,--Writer.new(str_team1, str_team2),
         queued_move = nil
     }, BattleManager)
-    print(instance.showdown_instance)
     return instance
 end
 
@@ -52,6 +51,7 @@ function BattleManager.act(self)
     
     if self.game_reader:get_line() then
         if self.queued_move == nil then
+            self:saveState()
             self.showdown_instance = Writer.new(str_team1, str_team2)
             self:get_action()
         end 
@@ -78,30 +78,35 @@ function BattleManager:get_switch()
     return 3
 end
 
+function BattleManager:saveState()
+    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
+    print("stateFile:", stateFile)
+    stateFile:write(
+        json.encode({
+            weather = StateReader.get_weather(),
+            turns_left_of_weather = StateReader.get_remaining_weather_turns(),
+            player = {
+                boosts = {StateReader.get_player_boosts()},
+                statuses = {StateReader.get_player_status()},
+                hazards = self.game_reader.player.hazards,
+                volatiles = self.game_reader.player.volatiles,
+                active = self.game_reader.active
+            },
+            enemy = {
+                boosts = {StateReader.get_enemy_boosts()},
+                statuses = {StateReader.get_enemy_status()},
+                hazards = self.game_reader.enemy.hazards,
+                volatiles = self.game_reader.enemy.volatiles,
+                active = self.game_reader.enemy_active
+            }
+        })
+    )
+    stateFile:close()
+end
+
 return BattleManager
 
 -- function BattleManager.can_attack()
 --     return memory.readbyte(0x022A6A9D)
 -- end
 
--- file = io.open("./state_files/battleState.json", "w")
--- file:write(
---     json.encode({
---         weather = StateReader.get_weather(),
---         turns_left_of_weather = StateReader.get_remaining_weather_turns(),
---         player = {
---             boosts = {StateReader.get_player_boosts()},
---             statuses = {StateReader.get_player_status()},
---             hazards = game_reader.player.hazards,
---             volatiles = game_reader.player.volatiles,
---             active = game_reader.active
---         },
---         enemy = {
---             boosts = {StateReader.get_enemy_boosts()},
---             statuses = {StateReader.get_enemy_status()},
---             hazards = game_reader.enemy.hazards,
---             volatiles = game_reader.enemy.volatiles,
---             active = game_reader.enemy_active
---         }
---     })
--- )

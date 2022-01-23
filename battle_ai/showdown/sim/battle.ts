@@ -301,7 +301,7 @@ export class Battle {
 			}
 		}
 
-		// fs.readFile("./battleState.json", "utf8", (err: any, data: any) => {
+		// fs.readFile("./battleStateForShowdown.json", "utf8", (err: any, data: any) => {
 		// 	if (err) {
 		// 		console.log(`Error reading file from disk: ${err}`);
 		// 	} else {
