@@ -44,7 +44,13 @@ function mem.is_dialogue_onscreen()
 end
 
 function mem.is_in_battle()
-    return memory.readbyteunsigned(0x022D5C0B) ~= 0
+    -- 20, -150
+    -- 85 -156
+    r1, g1, b1 = gui.getpixel(20, -150)
+    r2, g2 = gui.getpixel(85, -156)
+
+    return r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 173
+    -- return memory.readbyteunsigned(0x022D5C0B) ~= 0
     -- return memory.readbyteunsigned(0x02122DE6)    
 end
 

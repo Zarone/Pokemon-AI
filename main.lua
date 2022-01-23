@@ -98,18 +98,121 @@ while true do
             }, 5}}, 25)
         elseif action == 4 then
             -- print("press things")
-            output_manager.press(
-                {
-                    {{}, 5},
-                    {{A = true}, 5}, 
-                    {{up = true}, 5}, 
-                    {{left = true}, 5}, 
-                    {{down = true}, 5}, 
-                    {{right = true}, 5}, 
-                    {{A = true}, 5},
-                }, 
-                25
-            )
+            output_manager.press({{{}, 5}, {{
+                A = true
+            }, 5}, {{
+                up = true
+            }, 5}, {{
+                left = true
+            }, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 5 then
+            output_manager.press({{{}, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 60}, {{
+                A = true
+            }, 20}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 6 then
+            output_manager.press({{{}, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 60}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 20}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 7 then
+            output_manager.press({{{}, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 60}, {{
+                down = true
+            }, 5}, {{
+                A = true
+            }, 20}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 8 then
+            output_manager.press({{{}, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 60}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 20}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 9 then
+            output_manager.press({{{}, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 60}, {{
+                down = true
+            }, 5}, {{
+                down = true
+            }, 5}, {{
+                A = true
+            }, 20}, {{
+                A = true
+            }, 5}}, 25)
+        elseif action == 10 then
+            output_manager.press({{{}, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 60}, {{
+                down = true
+            }, 5}, {{
+                down = true
+            }, 5}, {{
+                right = true
+            }, 5}, {{
+                A = true
+            }, 20}, {{
+                A = true
+            }, 5}}, 25)
         end
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
