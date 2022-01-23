@@ -48,8 +48,12 @@ function mem.is_in_battle()
     -- 85 -156
     r1, g1, b1 = gui.getpixel(20, -150)
     r2, g2 = gui.getpixel(85, -156)
+-- 120, 80 => {57, 8, 16}
+-- 120, 125 => {66, 66, 66}
+    r3, g3, b3 = gui.getpixel(120, 80)
+    r4, g4 = gui.getpixel(120, 125)
 
-    return r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 173
+    return (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 173) or (r3 == 57 and g3 == 8 and b3 == 16 and r4 == 66 and g4 == 66)
     -- return memory.readbyteunsigned(0x022D5C0B) ~= 0
     -- return memory.readbyteunsigned(0x02122DE6)    
 end

@@ -445,18 +445,8 @@ function GameReader:process_line(line)
 end
 
 function GameReader:get_line()
-    str = {}
-    startChar = 0x02296380
-    endChar = startChar + 2 * memory.readbyte(0x0229637A) - 1
-    for i = startChar, endChar, 2 do
-        byteVal = memory.readbyte(i)
-        if byteVal == 254 then
-            table.insert(str, " ")
-        else
-            table.insert(str, string.char(memory.readbyte(i)))
-        end
-    end
-    new_str = table.concat(str, "")
+    
+    new_str = self.line_text()
 
     returnVal = false
 
@@ -471,6 +461,21 @@ function GameReader:get_line()
     self.last_str = new_str
 
     return returnVal
+end
+
+function GameReader:line_text()
+    str = {}
+    startChar = 0x02296380
+    endChar = startChar + 2 * memory.readbyte(0x0229637A) - 1
+    for i = startChar, endChar, 2 do
+        byteVal = memory.readbyte(i)
+        if byteVal == 254 then
+            table.insert(str, " ")
+        else
+            table.insert(str, string.char(memory.readbyte(i)))
+        end
+    end
+    return table.concat(str, "")
 end
 
 function GameReader:pass_turn()

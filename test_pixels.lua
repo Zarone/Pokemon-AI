@@ -11,13 +11,13 @@
 -- end
 
 while true do
-    x = 235
-    y = 172
+    x = 120
+    y = 80
     print( {gui.getpixel(x, y)} )
     -- gui.box(x, y, x+5, y+5, {255, 255, 255})
     -- gui.pixel(x, y, {255, 0, 255})
     emu.frameadvance()
 end
 
--- 20, -150
--- 85 -156
+-- 120, 80 => {57, 8, 16}
+-- 120, 125 => {66, 66, 66}

@@ -69,13 +69,13 @@ function BattleManager.act(self)
 end
 
 function BattleManager:get_action()
-    returnAction = 10 -- indicates moveslot 1
+    returnAction = 3 -- indicates moveslot 3
     
     self.queued_move = returnAction
 end
 
 function BattleManager:get_switch()
-    return 6
+    return 3
 end
 
 return BattleManager
