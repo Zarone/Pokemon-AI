@@ -12,7 +12,7 @@ function BattleManager.new()
     instance_IGReader = PokeReader.new(4, 5)
     team1 = instance_IGReader:get(1)
     team2 = nil
-    if StateReader.is_wild_battle then
+    if StateReader.is_wild_battle() then
         team2 = instance_IGReader:get(5)
     else
         team2 = instance_IGReader:get(2)
@@ -72,6 +72,10 @@ function BattleManager:get_action()
     returnAction = 10 -- indicates moveslot 1
     
     self.queued_move = returnAction
+end
+
+function BattleManager:get_switch()
+    return 6
 end
 
 return BattleManager

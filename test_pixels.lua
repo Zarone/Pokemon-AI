@@ -11,8 +11,8 @@
 -- end
 
 while true do
-    x = 85
-    y = -156
+    x = 235
+    y = 172
     print( {gui.getpixel(x, y)} )
     -- gui.box(x, y, x+5, y+5, {255, 255, 255})
     -- gui.pixel(x, y, {255, 0, 255})
