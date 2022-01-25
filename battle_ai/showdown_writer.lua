@@ -6,7 +6,8 @@ Writer.__index = Writer
 function Writer.new(team1, team2)
 
     instance = setmetatable({}, Writer)
-    SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
+    -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
+    SHOWDOWN_FILE = "node ./battle_ai/showdown/pokemon-showdown"
 
     -- mac: 
     -- SHOWDOWN_FILE = "./showdown/pokemon-showdown"
@@ -20,7 +21,8 @@ function Writer.new(team1, team2)
                 "Mewtwo|||pressure|toxicspikes,stealthrock,reflect,|Modest|252,,,252,4,||,,,30,30,|||]Ludicolo||lifeorb|swiftswim|surf,gigadrain,icebeam,raindance|Modest|4,,,252,,252|||||]Volbeat||damprock|prankster|tailglow,batonpass,encore,raindance|Bold|248,,252,,8,|M||||]Seismitoad||lifeorb|swiftswim|hydropump,earthpower,stealthrock,raindance|Modest|,,,252,4,252|||||]Alomomola||damprock|regenerator|wish,protect,toxic,raindance|Bold|252,,252,,4,|||||]Armaldo||leftovers|swiftswim|xscissor,stoneedge,aquatail,rapidspin|Adamant|128,252,4,,,124|||||"
 
     showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
-
+                
+    print("running ", showdown_init )
     instance.ps_stream = io.popen(showdown_init, "w")
 
     instance.ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")

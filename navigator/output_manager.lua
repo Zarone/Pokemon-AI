@@ -29,7 +29,7 @@ output_manager.press = function(sequence, time_between_actions)
         output_manager.progress_of_output = output_manager.progress_of_output + 1
         button_info = sequence[output_manager.current_sequence_index][1]
         joypad.set(0, button_info)
-        print(button_info)
+        -- print(button_info)
 
         -- if current button press is completed 
         if output_manager.progress_of_output > sequence[output_manager.current_sequence_index][2] then

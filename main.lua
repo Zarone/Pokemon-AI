@@ -65,7 +65,8 @@ while true do
                 A = true
             }, 5}}, 25)
             -- action = battleState:get_switch()
-        elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
+        elseif 1 == 0 then -- if forced switch
+        -- elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
             is_forced_switch = true
             action = battleState:get_switch()
             if action == 1 then
@@ -127,11 +128,11 @@ while true do
             if (output_manager.current_sequence_index == 1 and output_manager.between_actions) then
                 is_forced_switch = false
             end
-        elseif text_end == "oints!" or text_end == "inted!" or text_end == "nning!" then --  aaa----if battle is over and money or exp gains are happening
+        elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
             output_manager.press({
                 {{A = true}, 5}
             }, 25)
-        else
+        elseif can_move then
             action = battleState:act()
             if action == 0 then
                 output_manager.reset()
@@ -312,6 +313,8 @@ while true do
                     A = true
                 }, 5}}, 25)
             end
+        else
+            battleState.game_reader:get_line()
         end
 
         -- button_masher.mash({A = true})

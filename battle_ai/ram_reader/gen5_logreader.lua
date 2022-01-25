@@ -63,6 +63,7 @@ function GameReader:new_active()
     else
         self.active = memory.readbyte(0x02273226)
     end
+    print("new active: ", self.active)
     self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, self.player.volatiles[11], 0, 0, 0}
     -- # Seeded
     -- # Confused
@@ -84,6 +85,7 @@ end
 
 function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
+    print("new enemy active: ", self.enemy_active)
     self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, self.enemy.volatiles[11], 0, 0, 0}
 end
 
