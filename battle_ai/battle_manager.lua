@@ -41,11 +41,6 @@ end
 function BattleManager.new()
     
     -- instance_IGReader = PokeReader.new(4, 5)
-
-    -- instance.showdown_instance = x
-    -- instance.showdown_instance:write(">p1 switch 2\n")
-    -- instance.showdown_instance:write(">p2 switch 3\n")
-    -- instance.showdown_instance:close()
     
     -- team1, team2 = BattleManager.get_teams(instance_IGReader)
     team1 = {
@@ -100,7 +95,7 @@ function BattleManager:act_open()
         -- self:saveState()
 
         -- team1, team2 = BattleManager.get_teams_packed(self.IGReader)
-        team1 = "Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|70,,]Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|72,,]Nidoqueen||none|Poison Point|toxicspikes,superpower,earthpower,furyswipes|Sassy|85,85,85,85,85,85||31,31,31,31,31,31||100|76,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|72,,]Hydreigon||Choice Specs|Levitate|dracometeor,fly,darkpulse,focusblast|Timid|6,0,0,252,0,252||31,31,31,31,31,31||100|255,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,,"
+        team1 = "Mewtwo||none|Pressure|raindance,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|70,,]Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|72,,]Nidoqueen||none|Poison Point|toxicspikes,superpower,earthpower,furyswipes|Sassy|85,85,85,85,85,85||31,31,31,31,31,31||100|76,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|72,,]Hydreigon||Choice Specs|Levitate|dracometeor,fly,darkpulse,focusblast|Timid|6,0,0,252,0,252||31,31,31,31,31,31||100|255,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,sunnyday,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,,"
         team2 = "Cofagrigus||none|Mummy|shadowball,psychic,willowisp,energyball|Sassy|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Jellicent||none|Cursed Body|shadowball,psychic,hydropump,sludgewave|Careful|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Froslass||none|Snow Cloak|shadowball,psychic,blizzard,iceshard|Impish|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Drifblim||none|Aftermath|shadowball,psychic,acrobatics,thunder|Quirky|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Golurk||none|Iron Fist|shadowpunch,earthquake,hammerarm,curse|Jolly|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Chandelure||none|Flame Body|shadowball,psychic,fireblast,payback|Calm|0,0,0,0,0,0||30,30,30,30,30,30||73|255,,"
         -- print(team1, team2)
         self.showdown_instance = Writer.new(team1, team2)
@@ -111,7 +106,7 @@ end
 
 function BattleManager:act_close()
     if self.queued_move ~= nil then
-        print("user can't attack")
+        print("BattleManager:act_close(), user can't attack")
         self.showdown_instance:close()
         self.queued_move = nil
     end
@@ -121,11 +116,16 @@ end
 function BattleManager:get_action()
     returnAction = 1 -- indicates moveslot 1
     
-    print("get_action")
+    print("BattleManager:get_action()")
+
+    -- self.showdown_instance:write(">p1 switch "..tostring(self.game_reader.active-1).."\n")
+    -- self.showdown_instance:write(">p2 switch "..tostring(self.game_reader.enemy_active-1).."\n")
     self.showdown_instance:write(">p1 switch 6\n")
-    self.showdown_instance:write(">p2 switch 6\n")
-    self.showdown_instance:write(">p1 switch 6\n")
-    self.showdown_instance:write(">p2 switch 6\n")
+    self.showdown_instance:write(">p2 switch 1\n")
+    self.showdown_instance:write(">p1 move 1\n")
+    self.showdown_instance:write(">p2 move 4\n")
+    self.showdown_instance:write(">p1 move 1\n")
+    self.showdown_instance:write(">p2 move 4\n")
 
     self.queued_move = returnAction
 end

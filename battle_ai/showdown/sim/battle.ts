@@ -301,17 +301,6 @@ export class Battle {
 			}
 		}
 
-		// fs.readFile("./battleStateForShowdown.json", "utf8", (err: any, data: any) => {
-		// 	if (err) {
-		// 		console.log(`Error reading file from disk: ${err}`);
-		// 	} else {
-		// 		// parse JSON string to JSON object
-		// 		const databases = JSON.parse(data);
-
-		// 		console.log(databases);
-		// 	}
-		// });
-
 	}
 
 	toJSON(): AnyObject {
@@ -3068,6 +3057,10 @@ export class Battle {
 	}
 
 	runAction(action: Action) {
+        console.log(action.choice)
+        console.log("weather", this.field && this.field.weatherState)
+        console.log("\n")
+
 		const pokemonOriginalHP = action.pokemon?.hp;
 		let residualPokemon: (readonly [Pokemon, number])[] = [];
 		// returns whether or not we ended in a callback
@@ -3077,6 +3070,40 @@ export class Battle {
 				for (const side of this.sides) {
 					if (side.pokemonLeft) side.pokemonLeft = side.pokemon.length;
 				}
+
+                fs.readFile("./debug_tools/testing_battleState.json", "utf8", (err: any, data: any) => {
+                    if (err) {
+                        console.log(`Error reading file from disk: ${err}`);
+                    } else {
+                        // parse JSON string to JSON object
+                        const databases = JSON.parse(data);
+        
+                        let importData = databases;
+
+
+                        // // set weather
+                        // if (importData.weather == 4) {
+                        //     this.field.weatherState
+                        //     //sand
+                        // } else if (importData.weather == 3){
+                        //     //hail
+                        // } else if (importData.weather == 2){
+                        //     //rain
+                        // } else if (importData.weather == 1){
+                        //     // sun
+                        // }
+                        
+
+                        // console.log(importData.weather)
+                        // console.log(importData.turns_left_of_weather)
+
+
+                        // for (let i = 0; i < 6; i++){
+                        //     console.log(importData.player.statuses[0][i])
+                        // }
+                    }
+                });
+
 
 				this.add("start");
 

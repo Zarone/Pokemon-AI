@@ -1,0 +1,1 @@
+./battle_ai/showdown/build ; lua53 ./battle_ai/battle_manager.lua

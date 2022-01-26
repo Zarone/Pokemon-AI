@@ -4,6 +4,9 @@ battle.ts
 
 battle.ts (Battle.runAction right at the beggining of case start, set relevant battle data)
 
+    this.send() sends info to stream for debugging
+    console.log() also sends to lua console for some reason
+
     // read state from battleState.json
 
     fs.readFile("./battleState.json", "utf8", (err: any, data: any) => {
