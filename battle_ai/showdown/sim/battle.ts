@@ -300,7 +300,6 @@ export class Battle {
 				this.setPlayer(side, options[side]!);
 			}
 		}
-
 	}
 
 	toJSON(): AnyObject {
@@ -3057,53 +3056,19 @@ export class Battle {
 	}
 
 	runAction(action: Action) {
-        console.log(action.choice)
-        console.log("weather", this.field && this.field.weatherState)
-        console.log("\n")
+		// console.log(action.choice);
+		// console.log("weather", this.field && this.field.weatherState);
+		// console.log("\n");
 
 		const pokemonOriginalHP = action.pokemon?.hp;
 		let residualPokemon: (readonly [Pokemon, number])[] = [];
 		// returns whether or not we ended in a callback
 		switch (action.choice) {
 			case "start": {
-				console.log("start start: ", this.log);
+				// console.log("start start: ", this.log);
 				for (const side of this.sides) {
 					if (side.pokemonLeft) side.pokemonLeft = side.pokemon.length;
 				}
-
-                fs.readFile("./debug_tools/testing_battleState.json", "utf8", (err: any, data: any) => {
-                    if (err) {
-                        console.log(`Error reading file from disk: ${err}`);
-                    } else {
-                        // parse JSON string to JSON object
-                        const databases = JSON.parse(data);
-        
-                        let importData = databases;
-
-
-                        // // set weather
-                        // if (importData.weather == 4) {
-                        //     this.field.weatherState
-                        //     //sand
-                        // } else if (importData.weather == 3){
-                        //     //hail
-                        // } else if (importData.weather == 2){
-                        //     //rain
-                        // } else if (importData.weather == 1){
-                        //     // sun
-                        // }
-                        
-
-                        // console.log(importData.weather)
-                        // console.log(importData.turns_left_of_weather)
-
-
-                        // for (let i = 0; i < 6; i++){
-                        //     console.log(importData.player.statuses[0][i])
-                        // }
-                    }
-                });
-
 
 				this.add("start");
 
@@ -3135,6 +3100,7 @@ export class Battle {
 					);
 				}
 				this.midTurn = true;
+
 				break;
 			}
 
@@ -3254,6 +3220,50 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
+				console.log("field out fs 1", this.field != null);
+				let data = fs.readFileSync(
+					"./debug_tools/testing_battleState.json",
+					"utf8"
+				);
+
+				// parse JSON string to JSON object
+				const databases = JSON.parse(data);
+				console.log("field in fs", this.field != null);
+
+				let importData = databases;
+
+				// set weather
+				// if (importData.weather == 4) {
+				// 	//sand
+				// 	this.field.setWeather("Sandstorm");
+				// 	this.field.weatherState.duration =
+				// 		importData.turns_left_of_weather;
+				// } else if (importData.weather == 3) {
+				// 	//hail
+				// 	this.field.setWeather("hail");
+				// 	this.field.weatherState.duration =
+				// 		importData.turns_left_of_weather;
+				// } else if (importData.weather == 2) {
+				// 	//rain
+				// 	this.field.setWeather("RainDance");
+				// 	this.field.weatherState.duration =
+				// 		importData.turns_left_of_weather;
+				// } else if (importData.weather == 1) {
+				// 	// sun
+				// 	this.field.setWeather("sunnyday");
+				// 	this.field.weatherState.duration =
+				// 		importData.turns_left_of_weather;
+				// }
+
+				// console.log(importData.weather)
+				// console.log(importData.turns_left_of_weather)
+
+				// for (let i = 0; i < 6; i++){
+				//     console.log(importData.player.statuses[0][i])
+				// }
+
+				console.log("field out fs 2", this.field != null);
+
 				this.eachEvent("BeforeTurn");
 				break;
 			case "residual":

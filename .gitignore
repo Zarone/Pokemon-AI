@@ -3,3 +3,4 @@
 ./navigator/map_cache/*
 RAM analysis/states/*
 RAM analysis/predict.json
+battle_ai/state_files/last_log.txt
