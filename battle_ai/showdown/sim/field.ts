@@ -42,7 +42,10 @@ export class Field {
 		source: Pokemon | "debug" | null = null,
 		sourceEffect: Effect | null = null
 	) {
+        // console.log("\n")
 		// console.log("status", status);
+        // console.log("source", source);
+        // console.log("sourceEffect", sourceEffect)
 		status = this.battle.dex.conditions.get(status);
 		if (!sourceEffect && this.battle.effect)
 			sourceEffect = this.battle.effect;

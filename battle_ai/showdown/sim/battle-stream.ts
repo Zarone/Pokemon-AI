@@ -140,7 +140,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			case "p2":
 			case "p3":
 			case "p4":
-				console.log(type);
 				if (message === "undo") {
 					this.battle!.undoChoice(type);
 				} else {
