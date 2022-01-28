@@ -3243,24 +3243,6 @@ export class Battle {
 				this.sides[0].active[0].setBoost(boost1);
 				this.sides[1].active[0].setBoost(boost2);
 
-				// if(this.importData.player.hazards[0] == 1){
-				// 	this.sides[0].addSideCondition("stealthrock")
-				// }
-				// if(this.importData.player.hazards[1] == 1){
-				// 	this.sides[0].addSideCondition("")
-				// }
-				// if(this.importData.player.hazards[2] == 1){
-				// 	this.sides[0].addSideCondition("")
-				// }
-				// if(this.importData.player.hazards[3] == 1){
-				// 	this.sides[0].addSideCondition("")
-				// }
-				// if(this.importData.player.hazards[4] == 1){
-				// 	this.sides[0].addSideCondition("")
-				// }
-
-				// this.sides[0].addSideCondition()
-
 				break;
 			}
 
@@ -3381,6 +3363,61 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
+                for (let i = 0; i < this.importData.player.hazards[0]; i++){
+                    this.sides[0].addSideCondition("spikes", "debug")
+                }
+                for (let i = 0; i < this.importData.player.hazards[1]; i++){
+                    this.sides[0].addSideCondition("toxicspikes", "debug")
+                }
+                for (let i = 0; i < this.importData.player.hazards[2]; i++){
+                    this.sides[0].addSideCondition("stealthrock", "debug")
+                }
+				if(this.importData.player.hazards[3] == 1){
+					this.sides[0].addSideCondition("reflect", "debug")
+				}
+				if(this.importData.player.hazards[4] == 1){
+					this.sides[0].addSideCondition("lightscreen", "debug")
+				}
+				if(this.importData.player.hazards[5] == 1){
+					this.sides[0].addSideCondition("safeguard", "debug")
+				}
+                if(this.importData.player.hazards[6] == 1){
+					this.sides[0].addSideCondition("mist", "debug")
+				}
+                if(this.importData.player.hazards[7] == 1){
+					this.sides[0].addSideCondition("tailwind", "debug")
+				}
+                if(this.importData.player.hazards[8] == 1){
+					this.sides[0].addSideCondition("luckychant", "debug")
+				}
+                for (let i = 0; i < this.importData.enemy.hazards[0]; i++){
+                    this.sides[1].addSideCondition("spikes", "debug")
+                }
+                for (let i = 0; i < this.importData.enemy.hazards[1]; i++){
+                    this.sides[1].addSideCondition("toxicspikes", "debug")
+                }
+                for (let i = 0; i < this.importData.enemy.hazards[2]; i++){
+                    this.sides[1].addSideCondition("stealthrock", "debug")
+                }
+				if(this.importData.enemy.hazards[3] == 1){
+					this.sides[1].addSideCondition("reflect", "debug")
+				}
+				if(this.importData.enemy.hazards[4] == 1){
+					this.sides[1].addSideCondition("lightscreen", "debug")
+				}
+				if(this.importData.enemy.hazards[5] == 1){
+					this.sides[1].addSideCondition("safeguard", "debug")
+				}
+                if(this.importData.enemy.hazards[6] == 1){
+					this.sides[1].addSideCondition("mist", "debug")
+				}
+                if(this.importData.enemy.hazards[7] == 1){
+					this.sides[1].addSideCondition("tailwind", "debug")
+				}
+                if(this.importData.enemy.hazards[8] == 1){
+					this.sides[1].addSideCondition("luckychant", "debug")
+				}
+                
 				this.eachEvent("BeforeTurn");
 				break;
 			case "residual":

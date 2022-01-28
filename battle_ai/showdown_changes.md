@@ -26,7 +26,7 @@ battle.ts
     }
 
 
-    // inside Battle.runAction() under switch case "start"
+inside Battle.runAction() under switch case "start"
 
     // switch to correct 'mon
 
@@ -185,10 +185,6 @@ battle.ts
     this.sides[0].active[0].setBoost(boost1);
     this.sides[1].active[0].setBoost(boost2);
 
-
-
-
-
     // the variables if I want to set
     this.field.getWeather().duration - field.weatherState.duration
     this.sides[1].pokemon[0].status
@@ -204,6 +200,66 @@ battle.ts
     this.sides[0].sideConditions.stealthrock.layers
     this.sides[0].active
     this.sides[1].active
+
+
+inside Battle.runAction() under switch case "beforeTurn"
+
+    // can't be in start for some reason (somehow interferes with switch logic)
+    // sets hazards
+    for (let i = 0; i < this.importData.player.hazards[0]; i++){
+        this.sides[0].addSideCondition("spikes", "debug")
+    }
+    for (let i = 0; i < this.importData.player.hazards[1]; i++){
+        this.sides[0].addSideCondition("toxicspikes", "debug")
+    }
+    for (let i = 0; i < this.importData.player.hazards[2]; i++){
+        this.sides[0].addSideCondition("stealthrock", "debug")
+    }
+    if(this.importData.player.hazards[3] == 1){
+        this.sides[0].addSideCondition("reflect", "debug")
+    }
+    if(this.importData.player.hazards[4] == 1){
+        this.sides[0].addSideCondition("lightscreen", "debug")
+    }
+    if(this.importData.player.hazards[5] == 1){
+        this.sides[0].addSideCondition("safeguard", "debug")
+    }
+    if(this.importData.player.hazards[6] == 1){
+        this.sides[0].addSideCondition("mist", "debug")
+    }
+    if(this.importData.player.hazards[7] == 1){
+        this.sides[0].addSideCondition("tailwind", "debug")
+    }
+    if(this.importData.player.hazards[8] == 1){
+        this.sides[0].addSideCondition("luckychant", "debug")
+    }
+    for (let i = 0; i < this.importData.enemy.hazards[0]; i++){
+        this.sides[1].addSideCondition("spikes", "debug")
+    }
+    for (let i = 0; i < this.importData.enemy.hazards[1]; i++){
+        this.sides[1].addSideCondition("toxicspikes", "debug")
+    }
+    for (let i = 0; i < this.importData.enemy.hazards[2]; i++){
+        this.sides[1].addSideCondition("stealthrock", "debug")
+    }
+    if(this.importData.enemy.hazards[3] == 1){
+        this.sides[1].addSideCondition("reflect", "debug")
+    }
+    if(this.importData.enemy.hazards[4] == 1){
+        this.sides[1].addSideCondition("lightscreen", "debug")
+    }
+    if(this.importData.enemy.hazards[5] == 1){
+        this.sides[1].addSideCondition("safeguard", "debug")
+    }
+    if(this.importData.enemy.hazards[6] == 1){
+        this.sides[1].addSideCondition("mist", "debug")
+    }
+    if(this.importData.enemy.hazards[7] == 1){
+        this.sides[1].addSideCondition("tailwind", "debug")
+    }
+    if(this.importData.enemy.hazards[8] == 1){
+        this.sides[1].addSideCondition("luckychant", "debug")
+    }
 
 pokemon-showdown
 
