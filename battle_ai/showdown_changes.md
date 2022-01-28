@@ -21,7 +21,7 @@ battle.ts
         // parse JSON string to JSON object
         const databases = JSON.parse(data);
         this.importData = databases;
-        
+
         // ...
     }
 
@@ -50,6 +50,40 @@ battle.ts
         this.field.weatherState.duration =
         this.importData.turns_left_of_weather;
     }
+
+
+    // inside Battle.runAction() under switch case "start"
+
+    // switch to correct 'mon
+
+    // ...
+    for (const side of this.sides) {
+        for (let i = 0; i < side.active.length; i++) {
+            if (!side.pokemonLeft) {
+                // forfeited before starting
+                side.active[i] = side.pokemon[i];
+                side.active[i].fainted = true;
+                side.active[i].hp = 0;
+            } else {
+                // this.actions.switchIn(side.pokemon[i], i);
+
+                this.actions.switchIn(side.pokemon[i], i);
+                if (side.id == "p1") {
+                    this.actions.switchIn(
+                        side.pokemon[this.importData.player.active],
+                        i
+                    );
+                } else if (side.id == "p2") {
+                    this.actions.switchIn(
+                        side.pokemon[this.importData.enemy.active],
+                        i
+                    );
+                }
+            }
+        }
+    }
+    // ...
+
 
 
     // the variables if I want to set

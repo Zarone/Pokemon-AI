@@ -164,17 +164,16 @@ export class Battle {
 	trunc: (num: number, bits?: number) => number;
 	clampIntRange: (num: any, min?: number, max?: number) => number;
 	toID = toID;
-    importData: any;
+	importData: any;
 	constructor(options: BattleOptions) {
+		let data = fs.readFileSync(
+			"./debug_tools/testing_battleState.json",
+			"utf8"
+		);
 
-        let data = fs.readFileSync(
-            "./debug_tools/testing_battleState.json",
-            "utf8"
-        );
-
-        // parse JSON string to JSON object
-        const databases = JSON.parse(data);
-        this.importData = databases;
+		// parse JSON string to JSON object
+		const databases = JSON.parse(data);
+		this.importData = databases;
 
 		this.log = [];
 		this.add("t:", Math.floor(Date.now() / 1000));
@@ -3100,15 +3099,18 @@ export class Battle {
 						} else {
 							// this.actions.switchIn(side.pokemon[i], i);
 
-							this.actions.switchIn(side.pokemon[0], i);
-                            // if(side.id == "p1"){
-                            //     // console.log("switch p1 to ", this.importData.player.active)
-                            //     this.actions.switchIn(side.pokemon[this.importData.player.active], i);
-                            // } else if (side.id == "p2"){
-                            //     // console.log("switch p2 to ", this.importData.enemy.active)
-                            //     this.actions.switchIn(side.pokemon[this.importData.enemy.active], i);
-                            // }
-							// // this.actions.switchIn(side.pokemon[i], this.importData.active-1);
+							this.actions.switchIn(side.pokemon[i], i);
+							if (side.id == "p1") {
+								this.actions.switchIn(
+									side.pokemon[this.importData.player.active],
+									i
+								);
+							} else if (side.id == "p2") {
+								this.actions.switchIn(
+									side.pokemon[this.importData.enemy.active],
+									i
+								);
+							}
 						}
 					}
 				}
@@ -3188,9 +3190,9 @@ export class Battle {
 						action.pokemon
 					);
 				}
-                // console.log(action.target,
-                //     action.pokemon.position,
-                //     action.sourceEffect)
+				// console.log(action.target,
+				//     action.pokemon.position,
+				//     action.sourceEffect)
 				if (
 					this.actions.switchIn(
 						action.target,
@@ -3244,29 +3246,27 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-				
-
 				// set weather
 				if (this.importData.weather == 4) {
 					//sand
 					this.field.setWeather("Sandstorm", this.sides[0].active[0]);
 					this.field.weatherState.duration =
-                    this.importData.turns_left_of_weather;
+						this.importData.turns_left_of_weather;
 				} else if (this.importData.weather == 3) {
 					//hail
 					this.field.setWeather("hail", this.sides[0].active[0]);
 					this.field.weatherState.duration =
-                    this.importData.turns_left_of_weather;
+						this.importData.turns_left_of_weather;
 				} else if (this.importData.weather == 2) {
 					//rain
 					this.field.setWeather("RainDance", this.sides[0].active[0]);
 					this.field.weatherState.duration =
-                    this.importData.turns_left_of_weather;
+						this.importData.turns_left_of_weather;
 				} else if (this.importData.weather == 1) {
 					// sun
 					this.field.setWeather("sunnyday", this.sides[0].active[0]);
 					this.field.weatherState.duration =
-                    this.importData.turns_left_of_weather;
+						this.importData.turns_left_of_weather;
 				}
 
 				// console.log(importData.weather)
@@ -3275,7 +3275,6 @@ export class Battle {
 				// for (let i = 0; i < 6; i++){
 				//     console.log(importData.player.statuses[0][i])
 				// }
-
 
 				this.eachEvent("BeforeTurn");
 				break;
