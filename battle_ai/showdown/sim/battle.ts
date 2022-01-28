@@ -3119,6 +3119,148 @@ export class Battle {
 				}
 				this.midTurn = true;
 
+				// set weather
+				if (this.importData.weather == 4) {
+					//sand
+					this.field.setWeather("Sandstorm", this.sides[0].active[0]);
+					this.field.weatherState.duration =
+						this.importData.turns_left_of_weather;
+				} else if (this.importData.weather == 3) {
+					//hail
+					this.field.setWeather("hail", this.sides[0].active[0]);
+					this.field.weatherState.duration =
+						this.importData.turns_left_of_weather;
+				} else if (this.importData.weather == 2) {
+					//rain
+					this.field.setWeather("RainDance", this.sides[0].active[0]);
+					this.field.weatherState.duration =
+						this.importData.turns_left_of_weather;
+				} else if (this.importData.weather == 1) {
+					// sun
+					this.field.setWeather("sunnyday", this.sides[0].active[0]);
+					this.field.weatherState.duration =
+						this.importData.turns_left_of_weather;
+				}
+
+				for (let i = 0; i < 6; i++) {
+					if (this.importData.player.statuses[0][i][0] == 1) {
+						// paralysis
+						this.sides[0].pokemon[i].setStatus("par");
+					} else if (this.importData.player.statuses[0][i][1] == 1) {
+						// sleep
+						this.sides[0].pokemon[i].setStatus("slp");
+					} else if (this.importData.player.statuses[0][i][2] == 1) {
+						// freeze
+						this.sides[0].pokemon[i].setStatus("frz");
+					} else if (this.importData.player.statuses[0][i][3] == 1) {
+						// burn
+						this.sides[0].pokemon[i].setStatus("brn");
+					} else if (this.importData.player.statuses[0][i][4] > 0) {
+						// poison
+						this.sides[0].pokemon[i].setStatus("psn");
+					}
+
+					if (this.importData.enemy.statuses[0][i][0] == 1) {
+						// paralysis
+						this.sides[1].pokemon[i].setStatus("par");
+					} else if (this.importData.enemy.statuses[0][i][1] == 1) {
+						// sleep
+						this.sides[1].pokemon[i].setStatus("slp");
+					} else if (this.importData.enemy.statuses[0][i][2] == 1) {
+						// freeze
+						this.sides[1].pokemon[i].setStatus("frz");
+					} else if (this.importData.enemy.statuses[0][i][3] == 1) {
+						// burn
+						this.sides[1].pokemon[i].setStatus("brn");
+					} else if (this.importData.enemy.statuses[0][i][4] > 0) {
+						// poison
+						this.sides[1].pokemon[i].setStatus("psn");
+					}
+				}
+
+				let boost1 = {
+					atk:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][0] - 6,
+					def:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][1] - 6,
+					spa:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][2] - 6,
+					spd:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][3] - 6,
+					spe:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][4] - 6,
+					accuracy:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][5] - 6,
+					evasion:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][6] - 6,
+				};
+
+				let boost2 = {
+					atk:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][0] - 6,
+					def:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][1] - 6,
+					spa:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][2] - 6,
+					spd:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][3] - 6,
+					spe:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][4] - 6,
+					accuracy:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][5] - 6,
+					evasion:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][6] - 6,
+				};
+
+				this.sides[0].active[0].setBoost(boost1);
+				this.sides[1].active[0].setBoost(boost2);
+
+				// if(this.importData.player.hazards[0] == 1){
+				// 	this.sides[0].addSideCondition("stealthrock")
+				// }
+				// if(this.importData.player.hazards[1] == 1){
+				// 	this.sides[0].addSideCondition("")
+				// }
+				// if(this.importData.player.hazards[2] == 1){
+				// 	this.sides[0].addSideCondition("")
+				// }
+				// if(this.importData.player.hazards[3] == 1){
+				// 	this.sides[0].addSideCondition("")
+				// }
+				// if(this.importData.player.hazards[4] == 1){
+				// 	this.sides[0].addSideCondition("")
+				// }
+
+				// this.sides[0].addSideCondition()
+
 				break;
 			}
 
@@ -3239,117 +3381,6 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-				// set weather
-				if (this.importData.weather == 4) {
-					//sand
-					this.field.setWeather("Sandstorm", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				} else if (this.importData.weather == 3) {
-					//hail
-					this.field.setWeather("hail", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				} else if (this.importData.weather == 2) {
-					//rain
-					this.field.setWeather("RainDance", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				} else if (this.importData.weather == 1) {
-					// sun
-					this.field.setWeather("sunnyday", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				}
-
-				for (let i = 0; i < 6; i++) {
-					if (this.importData.player.statuses[0][i][0] == 1) {
-						// paralysis
-						this.sides[0].pokemon[i].setStatus("par");
-					} else if (this.importData.player.statuses[0][i][1] == 1) {
-						// sleep
-						this.sides[0].pokemon[i].setStatus("slp");
-					} else if (this.importData.player.statuses[0][i][2] == 1) {
-						// freeze
-						this.sides[0].pokemon[i].setStatus("frz");
-					} else if (this.importData.player.statuses[0][i][3] == 1) {
-						// burn
-						this.sides[0].pokemon[i].setStatus("brn");
-					} else if (this.importData.player.statuses[0][i][4] > 0) {
-						// poison
-						this.sides[0].pokemon[i].setStatus("psn");
-					}
-
-					if (this.importData.enemy.statuses[0][i][0] == 1) {
-						// paralysis
-						this.sides[1].pokemon[i].setStatus("par");
-					} else if (this.importData.enemy.statuses[0][i][1] == 1) {
-						// sleep
-						this.sides[1].pokemon[i].setStatus("slp");
-					} else if (this.importData.enemy.statuses[0][i][2] == 1) {
-						// freeze
-						this.sides[1].pokemon[i].setStatus("frz");
-					} else if (this.importData.enemy.statuses[0][i][3] == 1) {
-						// burn
-						this.sides[1].pokemon[i].setStatus("brn");
-					} else if (this.importData.enemy.statuses[0][i][4] > 0) {
-						// poison
-						this.sides[1].pokemon[i].setStatus("psn");
-					}
-				}
-
-				this.sides[0].active[0].setBoost({
-					atk: this.importData.player.boosts[0][
-						this.importData.player.active
-					][0],
-					def: this.importData.player.boosts[0][
-						this.importData.player.active
-					][1],
-					spa: this.importData.player.boosts[0][
-						this.importData.player.active
-					][2],
-					spd: this.importData.player.boosts[0][
-						this.importData.player.active
-					][3],
-					spe: this.importData.player.boosts[0][
-						this.importData.player.active
-					][4],
-					accuracy:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][5],
-					evasion:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][6],
-				});
-
-				this.sides[1].active[0].setBoost({
-					atk: this.importData.enemy.boosts[0][
-						this.importData.enemy.active
-					][0],
-					def: this.importData.enemy.boosts[0][
-						this.importData.enemy.active
-					][1],
-					spa: this.importData.enemy.boosts[0][
-						this.importData.enemy.active
-					][2],
-					spd: this.importData.enemy.boosts[0][
-						this.importData.enemy.active
-					][3],
-					spe: this.importData.enemy.boosts[0][
-						this.importData.enemy.active
-					][4],
-					accuracy:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][5],
-					evasion:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][6],
-				});
-
 				this.eachEvent("BeforeTurn");
 				break;
 			case "residual":

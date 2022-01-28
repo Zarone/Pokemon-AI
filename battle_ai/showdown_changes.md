@@ -26,7 +26,37 @@ battle.ts
     }
 
 
-    // inside Battle.runAction() under switch case "beforeTurn"
+    // inside Battle.runAction() under switch case "start"
+
+    // switch to correct 'mon
+
+    // ...
+    for (const side of this.sides) {
+        for (let i = 0; i < side.active.length; i++) {
+            if (!side.pokemonLeft) {
+                // forfeited before starting
+                side.active[i] = side.pokemon[i];
+                side.active[i].fainted = true;
+                side.active[i].hp = 0;
+            } else {
+                // this.actions.switchIn(side.pokemon[i], i);
+
+                this.actions.switchIn(side.pokemon[i], i);
+                if (side.id == "p1") {
+                    this.actions.switchIn(
+                        side.pokemon[this.importData.player.active],
+                        i
+                    );
+                } else if (side.id == "p2") {
+                    this.actions.switchIn(
+                        side.pokemon[this.importData.enemy.active],
+                        i
+                    );
+                }
+            }
+        }
+    }
+    // ...
 
     // set weather
     if (this.importData.weather == 4) {
@@ -88,51 +118,84 @@ battle.ts
         }
     }
 
+    // set boosts
 
-    // inside Battle.runAction() under switch case "start"
+    let boost1 = {
+        atk:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][0] - 6,
+        def:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][1] - 6,
+        spa:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][2] - 6,
+        spd:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][3] - 6,
+        spe:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][4] - 6,
+        accuracy:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][5] - 6,
+        evasion:
+            this.importData.player.boosts[0][
+                this.importData.player.active
+            ][6] - 6,
+    };
 
-    // switch to correct 'mon
+    let boost2 = {
+        atk:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][0] - 6,
+        def:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][1] - 6,
+        spa:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][2] - 6,
+        spd:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][3] - 6,
+        spe:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][4] - 6,
+        accuracy:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][5] - 6,
+        evasion:
+            this.importData.enemy.boosts[0][
+                this.importData.enemy.active
+            ][6] - 6,
+    };
 
-    // ...
-    for (const side of this.sides) {
-        for (let i = 0; i < side.active.length; i++) {
-            if (!side.pokemonLeft) {
-                // forfeited before starting
-                side.active[i] = side.pokemon[i];
-                side.active[i].fainted = true;
-                side.active[i].hp = 0;
-            } else {
-                // this.actions.switchIn(side.pokemon[i], i);
+    this.sides[0].active[0].setBoost(boost1);
+    this.sides[1].active[0].setBoost(boost2);
 
-                this.actions.switchIn(side.pokemon[i], i);
-                if (side.id == "p1") {
-                    this.actions.switchIn(
-                        side.pokemon[this.importData.player.active],
-                        i
-                    );
-                } else if (side.id == "p2") {
-                    this.actions.switchIn(
-                        side.pokemon[this.importData.enemy.active],
-                        i
-                    );
-                }
-            }
-        }
-    }
-    // ...
+
 
 
 
     // the variables if I want to set
     this.field.getWeather().duration - field.weatherState.duration
     this.sides[1].pokemon[0].status
+    this.sides[0].pokemon[0].boosts
 
     Object.keys(this.sides[1].pokemon[0].volatiles)
     this.sides[0].pokemon[0].hp
-    this.sides[0].pokemon[0].types
-    this.sides[0].pokemon[0].boosts
-    this.sides[0].pokemon[0].level
-    this.sides[1].pokemon[0].baseSpecies.name
     this.sides[0].sideConditions.spikes
     this.sides[0].sideConditions.spikes.id
     this.sides[0].sideConditions.spikes.layers

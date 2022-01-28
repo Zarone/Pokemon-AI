@@ -306,6 +306,7 @@ export class Side {
 		source: Pokemon | "debug" | null = null,
 		sourceEffect: Effect | null = null
 	): boolean {
+		console.log(status);
 		if (!source && this.battle.event && this.battle.event.target)
 			source = this.battle.event.target;
 		if (source === "debug") source = this.active[0];
