@@ -124,6 +124,8 @@ function BattleManager:get_action()
     -- self.showdown_instance:write(">p2 switch 1\n")
     self.showdown_instance:write(">p1 move 1\n")
     self.showdown_instance:write(">p2 move 4\n")
+    self.showdown_instance:write(">p1 move 2\n")
+    self.showdown_instance:write(">p2 move 4\n")
     -- self.showdown_instance:write(">p1 move 1\n")
     -- self.showdown_instance:write(">p2 move 4\n")
 

@@ -3066,16 +3066,11 @@ export class Battle {
 	}
 
 	runAction(action: Action) {
-		// console.log(action.choice);
-		// console.log("weather", this.field && this.field.weatherState);
-		// console.log("\n");
-
 		const pokemonOriginalHP = action.pokemon?.hp;
 		let residualPokemon: (readonly [Pokemon, number])[] = [];
 		// returns whether or not we ended in a callback
 		switch (action.choice) {
 			case "start": {
-				// console.log("start start: ", this.log);
 				for (const side of this.sides) {
 					if (side.pokemonLeft) side.pokemonLeft = side.pokemon.length;
 				}
@@ -3190,9 +3185,7 @@ export class Battle {
 						action.pokemon
 					);
 				}
-				// console.log(action.target,
-				//     action.pokemon.position,
-				//     action.sourceEffect)
+
 				if (
 					this.actions.switchIn(
 						action.target,
@@ -3269,12 +3262,55 @@ export class Battle {
 						this.importData.turns_left_of_weather;
 				}
 
-				// console.log(importData.weather)
-				// console.log(importData.turns_left_of_weather)
+				// console.log("0, 0: ", this.sides[0].pokemon[0].status);
+				// console.log("0, 1: ", this.sides[0].pokemon[1].status);
+				// console.log("0, 2: ", this.sides[0].pokemon[2].status);
+				// console.log("0, 3: ", this.sides[0].pokemon[3].status);
+				// console.log("0, 4: ", this.sides[0].pokemon[4].status);
+				// console.log("0, 5: ", this.sides[0].pokemon[5].status);
+				// console.log("1, 0: ", this.sides[1].pokemon[0].status);
+				// console.log("1, 1: ", this.sides[1].pokemon[1].status);
+				// console.log("1, 2: ", this.sides[1].pokemon[2].status);
+				// console.log("1, 3: ", this.sides[1].pokemon[3].status);
+				// console.log("1, 4: ", this.sides[1].pokemon[4].status);
+				// console.log("1, 5: ", this.sides[1].pokemon[5].status);
+				// console.log("\n");
 
-				// for (let i = 0; i < 6; i++){
-				//     console.log(importData.player.statuses[0][i])
-				// }
+				for (let i = 0; i < 6; i++) {
+					if (this.importData.player.statuses[0][i][0] == 1) {
+						// paralysis
+						this.sides[0].pokemon[i].setStatus("par");
+					} else if (this.importData.player.statuses[0][i][1] == 1) {
+						// sleep
+						this.sides[0].pokemon[i].setStatus("slp");
+					} else if (this.importData.player.statuses[0][i][2] == 1) {
+						// freeze
+						this.sides[0].pokemon[i].setStatus("frz");
+					} else if (this.importData.player.statuses[0][i][3] == 1) {
+						// burn
+						this.sides[0].pokemon[i].setStatus("brn");
+					} else if (this.importData.player.statuses[0][i][4] > 0) {
+						// poison
+						this.sides[0].pokemon[i].setStatus("psn");
+					}
+
+					if (this.importData.enemy.statuses[0][i][0] == 1) {
+						// paralysis
+						this.sides[1].pokemon[i].setStatus("par");
+					} else if (this.importData.enemy.statuses[0][i][1] == 1) {
+						// sleep
+						this.sides[1].pokemon[i].setStatus("slp");
+					} else if (this.importData.enemy.statuses[0][i][2] == 1) {
+						// freeze
+						this.sides[1].pokemon[i].setStatus("frz");
+					} else if (this.importData.enemy.statuses[0][i][3] == 1) {
+						// burn
+						this.sides[1].pokemon[i].setStatus("brn");
+					} else if (this.importData.enemy.statuses[0][i][4] > 0) {
+						// poison
+						this.sides[1].pokemon[i].setStatus("psn");
+					}
+				}
 
 				this.eachEvent("BeforeTurn");
 				break;
