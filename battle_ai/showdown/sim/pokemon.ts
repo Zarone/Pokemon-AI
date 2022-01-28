@@ -1810,7 +1810,6 @@ export class Pokemon {
 		sourceEffect: Effect | null = null,
 		ignoreImmunities = false
 	) {
-		console.log("setStatus", status);
 		if (!this.hp) return false;
 		status = this.battle.dex.conditions.get(status);
 		if (this.battle.event) {

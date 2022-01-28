@@ -3262,20 +3262,6 @@ export class Battle {
 						this.importData.turns_left_of_weather;
 				}
 
-				// console.log("0, 0: ", this.sides[0].pokemon[0].status);
-				// console.log("0, 1: ", this.sides[0].pokemon[1].status);
-				// console.log("0, 2: ", this.sides[0].pokemon[2].status);
-				// console.log("0, 3: ", this.sides[0].pokemon[3].status);
-				// console.log("0, 4: ", this.sides[0].pokemon[4].status);
-				// console.log("0, 5: ", this.sides[0].pokemon[5].status);
-				// console.log("1, 0: ", this.sides[1].pokemon[0].status);
-				// console.log("1, 1: ", this.sides[1].pokemon[1].status);
-				// console.log("1, 2: ", this.sides[1].pokemon[2].status);
-				// console.log("1, 3: ", this.sides[1].pokemon[3].status);
-				// console.log("1, 4: ", this.sides[1].pokemon[4].status);
-				// console.log("1, 5: ", this.sides[1].pokemon[5].status);
-				// console.log("\n");
-
 				for (let i = 0; i < 6; i++) {
 					if (this.importData.player.statuses[0][i][0] == 1) {
 						// paralysis
@@ -3311,6 +3297,58 @@ export class Battle {
 						this.sides[1].pokemon[i].setStatus("psn");
 					}
 				}
+
+				this.sides[0].active[0].setBoost({
+					atk: this.importData.player.boosts[0][
+						this.importData.player.active
+					][0],
+					def: this.importData.player.boosts[0][
+						this.importData.player.active
+					][1],
+					spa: this.importData.player.boosts[0][
+						this.importData.player.active
+					][2],
+					spd: this.importData.player.boosts[0][
+						this.importData.player.active
+					][3],
+					spe: this.importData.player.boosts[0][
+						this.importData.player.active
+					][4],
+					accuracy:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][5],
+					evasion:
+						this.importData.player.boosts[0][
+							this.importData.player.active
+						][6],
+				});
+
+				this.sides[1].active[0].setBoost({
+					atk: this.importData.enemy.boosts[0][
+						this.importData.enemy.active
+					][0],
+					def: this.importData.enemy.boosts[0][
+						this.importData.enemy.active
+					][1],
+					spa: this.importData.enemy.boosts[0][
+						this.importData.enemy.active
+					][2],
+					spd: this.importData.enemy.boosts[0][
+						this.importData.enemy.active
+					][3],
+					spe: this.importData.enemy.boosts[0][
+						this.importData.enemy.active
+					][4],
+					accuracy:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][5],
+					evasion:
+						this.importData.enemy.boosts[0][
+							this.importData.enemy.active
+						][6],
+				});
 
 				this.eachEvent("BeforeTurn");
 				break;

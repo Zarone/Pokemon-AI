@@ -1,0 +1,1 @@
+./battle_ai/showdown/build ; lua ./battle_ai/battle_manager.lua

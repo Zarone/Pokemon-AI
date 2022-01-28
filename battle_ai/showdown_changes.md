@@ -126,6 +126,7 @@ battle.ts
     // the variables if I want to set
     this.field.getWeather().duration - field.weatherState.duration
     this.sides[1].pokemon[0].status
+
     Object.keys(this.sides[1].pokemon[0].volatiles)
     this.sides[0].pokemon[0].hp
     this.sides[0].pokemon[0].types
