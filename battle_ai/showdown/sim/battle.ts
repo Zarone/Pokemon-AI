@@ -3098,10 +3098,17 @@ export class Battle {
 							side.active[i].fainted = true;
 							side.active[i].hp = 0;
 						} else {
-							this.actions.switchIn(side.pokemon[i], i);
-                            console.log(side.id)
-                            console.log(this.importData.player.active)
-							// this.actions.switchIn(side.pokemon[i], this.importData.active-1);
+							// this.actions.switchIn(side.pokemon[i], i);
+
+							this.actions.switchIn(side.pokemon[0], i);
+                            // if(side.id == "p1"){
+                            //     // console.log("switch p1 to ", this.importData.player.active)
+                            //     this.actions.switchIn(side.pokemon[this.importData.player.active], i);
+                            // } else if (side.id == "p2"){
+                            //     // console.log("switch p2 to ", this.importData.enemy.active)
+                            //     this.actions.switchIn(side.pokemon[this.importData.enemy.active], i);
+                            // }
+							// // this.actions.switchIn(side.pokemon[i], this.importData.active-1);
 						}
 					}
 				}
@@ -3181,6 +3188,9 @@ export class Battle {
 						action.pokemon
 					);
 				}
+                // console.log(action.target,
+                //     action.pokemon.position,
+                //     action.sourceEffect)
 				if (
 					this.actions.switchIn(
 						action.target,

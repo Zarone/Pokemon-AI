@@ -234,7 +234,9 @@ export class BattleQueue {
 				// TODO: what actually happens here?
 				if (target) action.targetLoc = action.pokemon.getLocOf(target);
 			}
+            console.log("calling here from battle-queue.ts")
 			action.originalTarget = action.pokemon.getAtLoc(action.targetLoc);
+            console.log("oroginal target", action.originalTarget.details)
 		}
 		if (!deferPriority) this.battle.getActionSpeed(action);
 		return actions as any;
