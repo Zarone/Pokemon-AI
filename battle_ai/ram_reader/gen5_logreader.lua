@@ -26,7 +26,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance.player = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
         volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-        disabled_move = ""
+        disabled_move = "",
+        last_move = ""
         -- # Seeded
         -- # Confused
         -- # Taunted
@@ -47,7 +48,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance.enemy = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
         volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-        disabled_move = ""
+        disabled_move = "",
+        last_move = ""
     }
 
     instance.nicknames = nicknames
@@ -71,6 +73,7 @@ function GameReader:new_active()
     end
     print("new active: ", self.active)
     self.player.disabled_move = ""
+    self.player.last_move = ""
     self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}
     -- # Seeded
     -- # Confused
@@ -94,6 +97,7 @@ function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
     print("new enemy active: ", self.enemy_active)
     self.enemy.disabled_move = ""
+    self.enemy.last_move = ""
     self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.enemy.volatiles[11], 0, 0, 0}
 end
 
@@ -115,6 +119,12 @@ function GameReader:process_line(line)
         self:new_active()
     elseif line:find("sent out", 0) then
         self:new_enemy_active()
+    elseif line:sub(0, #self.nicknames[self.active + 1] + 5) == self.nicknames[self.active + 1] .. " used" then
+        self.player.last_move = move_to_id(line:sub(#self.nicknames[self.active + 1] + 7, -2))
+    elseif line:sub(0, #self.nicknames_enemy[self.enemy_active + 1] + 14) == "The wild "..self.nicknames_enemy[self.enemy_active + 1].." used" then
+        self.enemy.last_move = move_to_id(line:sub(#self.nicknames_enemy[self.enemy_active + 1] + 16, -2))
+    elseif line:sub(0, #self.nicknames_enemy[self.enemy_active + 1] + 15) == "The foe's "..self.nicknames_enemy[self.enemy_active + 1].." used" then
+        self.enemy.last_move = move_to_id(line:sub(#self.nicknames_enemy[self.enemy_active + 1] + 17, -2))
     elseif line == self.nicknames[self.active + 1] .. " was seeded!" then
         self.player.volatiles[1] = 1
     elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " was seeded!") or

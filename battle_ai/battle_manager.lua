@@ -143,7 +143,7 @@ function BattleManager:get_action()
 
     self.showdown_instance:write(">p1 move 2\n")
     self.showdown_instance:write(">p2 move 4\n")
-    self.showdown_instance:write(">p1 move 3\n")
+    self.showdown_instance:write(">p1 move 2\n")
     self.showdown_instance:write(">p2 move 4\n")
 
     self.queued_move = returnAction
@@ -167,6 +167,7 @@ function BattleManager:saveState()
                 volatiles = self.game_reader.player.volatiles,
                 active = self.game_reader.active,
                 disable_move = self.game_reader.player.disabled_move,
+                last_move = self.game_reader.player.last_move,
                 health = StateReader.get_player_health()
             },
             enemy = {
@@ -176,6 +177,7 @@ function BattleManager:saveState()
                 volatiles = self.game_reader.enemy.volatiles,
                 active = self.game_reader.enemy_active,
                 disable_move = self.game_reader.enemy.disabled_move,
+                last_move = self.game_reader.enemy.last_move,
                 health = StateReader.get_enemy_health()
             }
         })

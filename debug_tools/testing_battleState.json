@@ -52,7 +52,8 @@
       ],
       "hazards": [2, 0, 0, 0, 0, 0, 0, 0, 0],
       "disable_move": "shadowball",
-      "volatiles": [0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0]
+      "last_move": "energyball",
+      "volatiles": [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 0, 0, 0, 0]
     }
   }
   
