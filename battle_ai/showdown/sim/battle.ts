@@ -3382,23 +3382,29 @@ export class Battle {
                 for (let i = 0; i < this.importData.player.hazards[2]; i++){
                     this.sides[0].addSideCondition("stealthrock", "debug")
                 }
-				if(this.importData.player.hazards[3] == 1){
-					this.sides[0].addSideCondition("reflect", "debug")
+				if(this.importData.player.hazards[3] != 0){
+                    this.sides[0].addSideCondition("reflect", "debug")
+                    this.sides[0].sideConditions["reflect"].duration = this.importData.player.hazards[3]
 				}
-				if(this.importData.player.hazards[4] == 1){
+				if(this.importData.player.hazards[4] != 0){
 					this.sides[0].addSideCondition("lightscreen", "debug")
+                    this.sides[0].sideConditions["lightscreen"].duration = this.importData.player.hazards[4]
 				}
-				if(this.importData.player.hazards[5] == 1){
+				if(this.importData.player.hazards[5] != 0){
 					this.sides[0].addSideCondition("safeguard", "debug")
+                    this.sides[0].sideConditions["safeguard"].duration = this.importData.player.hazards[5]
 				}
-                if(this.importData.player.hazards[6] == 1){
+                if(this.importData.player.hazards[6] != 0){
 					this.sides[0].addSideCondition("mist", "debug")
+                    this.sides[0].sideConditions["mist"].duration = this.importData.player.hazards[6]
 				}
-                if(this.importData.player.hazards[7] == 1){
+                if(this.importData.player.hazards[7] != 0){
 					this.sides[0].addSideCondition("tailwind", "debug")
+                    this.sides[0].sideConditions["tailwind"].duration = this.importData.player.hazards[7]
 				}
-                if(this.importData.player.hazards[8] == 1){
+                if(this.importData.player.hazards[8] != 0){
 					this.sides[0].addSideCondition("luckychant", "debug")
+                    this.sides[0].sideConditions["luckychant"].duration = this.importData.player.hazards[8]
 				}
                 for (let i = 0; i < this.importData.enemy.hazards[0]; i++){
                     this.sides[1].addSideCondition("spikes", "debug")
@@ -3409,24 +3415,32 @@ export class Battle {
                 for (let i = 0; i < this.importData.enemy.hazards[2]; i++){
                     this.sides[1].addSideCondition("stealthrock", "debug")
                 }
-				if(this.importData.enemy.hazards[3] == 1){
+				if(this.importData.enemy.hazards[3] != 0){
 					this.sides[1].addSideCondition("reflect", "debug")
+                    this.sides[1].sideConditions["reflect"].duration = this.importData.enemy.hazards[3]
 				}
-				if(this.importData.enemy.hazards[4] == 1){
+				if(this.importData.enemy.hazards[4] != 0){
 					this.sides[1].addSideCondition("lightscreen", "debug")
+                    this.sides[1].sideConditions["lightscreen"].duration = this.importData.enemy.hazards[4]
 				}
-				if(this.importData.enemy.hazards[5] == 1){
+				if(this.importData.enemy.hazards[5] != 0){
 					this.sides[1].addSideCondition("safeguard", "debug")
+                    this.sides[1].sideConditions["safeguard"].duration = this.importData.enemy.hazards[5]
 				}
-                if(this.importData.enemy.hazards[6] == 1){
+                if(this.importData.enemy.hazards[6] != 0){
 					this.sides[1].addSideCondition("mist", "debug")
+                    this.sides[1].sideConditions["mist"].duration = this.importData.enemy.hazards[6]
 				}
-                if(this.importData.enemy.hazards[7] == 1){
+                if(this.importData.enemy.hazards[7] != 0){
 					this.sides[1].addSideCondition("tailwind", "debug")
+                    this.sides[1].sideConditions["tailwind"].duration = this.importData.enemy.hazards[7]
 				}
-                if(this.importData.enemy.hazards[8] == 1){
+                if(this.importData.enemy.hazards[8] != 0){
 					this.sides[1].addSideCondition("luckychant", "debug")
+                    this.sides[1].sideConditions["luckychant"].duration = this.importData.enemy.hazards[8]
 				}
+                console.log(this.sides[0].sideConditions)
+                console.log(this.sides[1].sideConditions)
                 
 				this.eachEvent("BeforeTurn");
 				break;
