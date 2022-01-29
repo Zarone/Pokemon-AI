@@ -30,6 +30,15 @@ function status_in_battle_slot(num)
     }
 end
 
+function health_in_battle_slot(num)
+    return read_halfword(get_battle_slot(num) + 62)
+end
+
+function StateReader.is_wild_battle()
+    return read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
+    read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)
+end
+
 function StateReader.get_player_boosts()
     boosts = {}
     for i = -12, -7 do
@@ -62,11 +71,6 @@ function StateReader.get_player_status()
     return statuses
 end
 
-function StateReader.is_wild_battle()
-    return read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
-    read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)
-end
-
 function StateReader.get_enemy_status() 
 
     if StateReader.is_wild_battle() then
@@ -77,6 +81,27 @@ function StateReader.get_enemy_status()
             table.insert(statuses, status_in_battle_slot(i))
         end
         return statuses
+    end
+
+end
+
+function StateReader.get_player_health()
+    health = {}
+    for i = -12, -7 do
+        table.insert(health, health_in_battle_slot(i))
+    end
+    return health
+end
+
+function StateReader.get_enemy_health() 
+    if StateReader.is_wild_battle() then
+        return {health_in_battle_slot(1)}
+    else
+        health = {}
+        for i = -6, -1 do
+            table.insert(health, health_in_battle_slot(i))
+        end
+        return health
     end
 
 end

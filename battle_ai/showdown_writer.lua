@@ -60,16 +60,28 @@ end
 
 function to_packed_pokemon(tbl)
     -- print(tbl)
-    return
-        tbl.name .. "||" .. tbl.item .. "|" .. tbl.ability .. "|" .. moves_to_string(tbl.moves) .. "|" .. tbl.nature ..
-            "|" .. values_to_string(tbl.evs) .. "||" .. values_to_string(tbl.ivs) .. "||" .. tbl.level .. "|" ..
-            tbl.happiness .. ",,"
+    if tbl == nil then
+        return ""
+    else
+        return
+            tbl.name .. "||" .. tbl.item .. "|" .. tbl.ability .. "|" .. moves_to_string(tbl.moves) .. "|" .. tbl.nature ..
+                "|" .. values_to_string(tbl.evs) .. "||" .. values_to_string(tbl.ivs) .. "||" .. tbl.level .. "|" ..
+                tbl.happiness .. ",,"
+    end
 end
 
 function Writer.to_packed_team(tbl)
     -- NICKNAME|SPECIES|ITEM|ABILITY|MOVES|NATURE|EVS|GENDER|IVS|SHINY|LEVEL|HAPPINESS,POKEBALL,HIDDENPOWERTYPE
-    return to_packed_pokemon(tbl[1]) .. "]" .. to_packed_pokemon(tbl[2]) .. "]" .. to_packed_pokemon(tbl[3]) .. "]" ..
-               to_packed_pokemon(tbl[4]) .. "]" .. to_packed_pokemon(tbl[5]) .. "]" .. to_packed_pokemon(tbl[6])
+    team_tbl = {}
+    table.insert(team_tbl, to_packed_pokemon(tbl[1]))
+    -- for k, v in pairs(tbl) do
+    --     print(k)
+    -- end
+    for i = 2, #tbl, 1 do
+        table.insert(team_tbl, "]")
+        table.insert(team_tbl, to_packed_pokemon(tbl[i]))
+    end
+    return table.concat(team_tbl, "")
 
 end
 

@@ -350,7 +350,11 @@ function PokeReader:get(mode)
             party[q] = tbl
         end
     end
-    return party
+    if mode == 5 then
+        return { party[1] }
+    else
+        return party
+    end
 end
 
 return PokeReader

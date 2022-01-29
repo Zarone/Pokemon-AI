@@ -168,6 +168,7 @@ export class Battle {
 	constructor(options: BattleOptions) {
 		let data = fs.readFileSync(
 			"./debug_tools/testing_battleState.json",
+            // "./battle_ai/state_files/battleStateForShowdown.json",
 			"utf8"
 		);
 
@@ -3143,39 +3144,43 @@ export class Battle {
 				}
 
 				for (let i = 0; i < 6; i++) {
-					if (this.importData.player.statuses[0][i][0] == 1) {
-						// paralysis
-						this.sides[0].pokemon[i].setStatus("par");
-					} else if (this.importData.player.statuses[0][i][1] == 1) {
-						// sleep
-						this.sides[0].pokemon[i].setStatus("slp");
-					} else if (this.importData.player.statuses[0][i][2] == 1) {
-						// freeze
-						this.sides[0].pokemon[i].setStatus("frz");
-					} else if (this.importData.player.statuses[0][i][3] == 1) {
-						// burn
-						this.sides[0].pokemon[i].setStatus("brn");
-					} else if (this.importData.player.statuses[0][i][4] > 0) {
-						// poison
-						this.sides[0].pokemon[i].setStatus("psn");
-					}
+                    if (i < this.importData.player.statuses[0].length){
+                        if (this.importData.player.statuses[0][i][0] == 1) {
+                            // paralysis
+                            this.sides[0].pokemon[i].setStatus("par");
+                        } else if (this.importData.player.statuses[0][i][1] == 1) {
+                            // sleep
+                            this.sides[0].pokemon[i].setStatus("slp");
+                        } else if (this.importData.player.statuses[0][i][2] == 1) {
+                            // freeze
+                            this.sides[0].pokemon[i].setStatus("frz");
+                        } else if (this.importData.player.statuses[0][i][3] == 1) {
+                            // burn
+                            this.sides[0].pokemon[i].setStatus("brn");
+                        } else if (this.importData.player.statuses[0][i][4] > 0) {
+                            // poison
+                            this.sides[0].pokemon[i].setStatus("psn");
+                        }
+                    }
 
-					if (this.importData.enemy.statuses[0][i][0] == 1) {
-						// paralysis
-						this.sides[1].pokemon[i].setStatus("par");
-					} else if (this.importData.enemy.statuses[0][i][1] == 1) {
-						// sleep
-						this.sides[1].pokemon[i].setStatus("slp");
-					} else if (this.importData.enemy.statuses[0][i][2] == 1) {
-						// freeze
-						this.sides[1].pokemon[i].setStatus("frz");
-					} else if (this.importData.enemy.statuses[0][i][3] == 1) {
-						// burn
-						this.sides[1].pokemon[i].setStatus("brn");
-					} else if (this.importData.enemy.statuses[0][i][4] > 0) {
-						// poison
-						this.sides[1].pokemon[i].setStatus("psn");
-					}
+                    if (i < this.importData.enemy.statuses[0].length){
+                        if (this.importData.enemy.statuses[0][i][0] == 1) {
+                            // paralysis
+                            this.sides[1].pokemon[i].setStatus("par");
+                        } else if (this.importData.enemy.statuses[0][i][1] == 1) {
+                            // sleep
+                            this.sides[1].pokemon[i].setStatus("slp");
+                        } else if (this.importData.enemy.statuses[0][i][2] == 1) {
+                            // freeze
+                            this.sides[1].pokemon[i].setStatus("frz");
+                        } else if (this.importData.enemy.statuses[0][i][3] == 1) {
+                            // burn
+                            this.sides[1].pokemon[i].setStatus("brn");
+                        } else if (this.importData.enemy.statuses[0][i][4] > 0) {
+                            // poison
+                            this.sides[1].pokemon[i].setStatus("psn");
+                        }
+                    }
 				}
 
 				let boost1 = {
