@@ -81,9 +81,12 @@ inside Battle.runAction() under switch case "start"
         this.importData.turns_left_of_weather;
     }
 
-    // set status conditions
+    // set status conditions and health
     for (let i = 0; i < 6; i++) {
         if (i < this.importData.player.statuses[0].length){
+
+            this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
+
             if (this.importData.player.statuses[0][i][0] == 1) {
                 // paralysis
                 this.sides[0].pokemon[i].setStatus("par");
@@ -103,6 +106,8 @@ inside Battle.runAction() under switch case "start"
         }
 
         if (i < this.importData.enemy.statuses[0].length){
+            this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
+            
             if (this.importData.enemy.statuses[0][i][0] == 1) {
                 // paralysis
                 this.sides[1].pokemon[i].setStatus("par");
@@ -193,8 +198,6 @@ inside Battle.runAction() under switch case "start"
     this.field.getWeather().duration - field.weatherState.duration
     this.sides[1].pokemon[0].status
     this.sides[0].pokemon[0].boosts
-
-    Object.keys(this.sides[1].pokemon[0].volatiles)
     this.sides[0].pokemon[0].hp
     this.sides[0].sideConditions.spikes
     this.sides[0].sideConditions.spikes.id
@@ -204,6 +207,8 @@ inside Battle.runAction() under switch case "start"
     this.sides[0].sideConditions.stealthrock.layers
     this.sides[0].active
     this.sides[1].active
+
+    Object.keys(this.sides[1].pokemon[0].volatiles)
 
 
 inside Battle.runAction() under switch case "beforeTurn"

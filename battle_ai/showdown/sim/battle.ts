@@ -3145,6 +3145,9 @@ export class Battle {
 
 				for (let i = 0; i < 6; i++) {
                     if (i < this.importData.player.statuses[0].length){
+
+                        this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
+
                         if (this.importData.player.statuses[0][i][0] == 1) {
                             // paralysis
                             this.sides[0].pokemon[i].setStatus("par");
@@ -3164,6 +3167,8 @@ export class Battle {
                     }
 
                     if (i < this.importData.enemy.statuses[0].length){
+                        this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
+                        
                         if (this.importData.enemy.statuses[0][i][0] == 1) {
                             // paralysis
                             this.sides[1].pokemon[i].setStatus("par");
