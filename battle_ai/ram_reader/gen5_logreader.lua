@@ -21,7 +21,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     -- reflect, light screen, safeguard, mist, tailwind, lucky chant
     instance.player = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
-        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 0, 0}
+        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+        disabled_move = ""
         -- # Seeded
         -- # Confused
         -- # Taunted
@@ -41,7 +42,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     }
     instance.enemy = {
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
-        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 0, 0}
+        volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+        disabled_move = ""
     }
 
     instance.nicknames = nicknames
@@ -64,7 +66,8 @@ function GameReader:new_active()
         self.active = memory.readbyte(0x02273226)
     end
     print("new active: ", self.active)
-    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, self.player.volatiles[11], 0, 0, 0}
+    self.player.disabled_move = ""
+    self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}
     -- # Seeded
     -- # Confused
     -- # Taunted
@@ -74,7 +77,7 @@ function GameReader:new_active()
     -- # Substitute
     -- # Focus Energy
     -- # Ingrain
-    -- # disable (0 for none, or 1,2,3,4 for disabled move)
+    -- # disable
     -- # encore
 
     -- # futuresight
@@ -86,7 +89,8 @@ end
 function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
     print("new enemy active: ", self.enemy_active)
-    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, "", 0, self.enemy.volatiles[11], 0, 0, 0}
+    self.enemy.disabled_move = ""
+    self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.enemy.volatiles[11], 0, 0, 0}
 end
 
 function GameReader:process_line(line)
@@ -130,12 +134,12 @@ function GameReader:process_line(line)
             " snapped out of confusion!") then
         self.enemy.volatiles[2] = 0
     elseif line == self.nicknames[self.active + 1] .. " fell for the taunt!" then
-        self.player.volatiles[3] = 1
+        self.player.volatiles[3] = 3
     elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
         " fell for the taunt!") or
         (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
             " fell for the taunt!") then
-        self.enemy.volatiles[3] = 1
+        self.enemy.volatiles[3] = 3
     elseif line == self.nicknames[self.active + 1] .. "'s taunt wore off!" then
         self.player.volatiles[3] = 0
     elseif line ==
@@ -179,19 +183,25 @@ function GameReader:process_line(line)
         self.enemy.volatiles[8] = 1
     elseif line:sub(-13, -2) == "was disabled" then
         if line:sub(0, 8) == "The wild" then
-            self.enemy.volatiles[9] = line:sub(13+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+            self.enemy.disabled_move = line:sub(13+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+            self.enemy.volatiles[9] = 4
         elseif line:sub(0, 9) == "The foe's" then
-            self.enemy.volatiles[9] = line:sub(14+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+            self.enemy.disabled_move = line:sub(14+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+            self.enemy.volatiles[9] = 4
         else 
-            self.player.volatiles[9] = line:sub(4+#(self.nicknames[self.active+1]), -15)
+            self.player.disabled_move = line:sub(4+#(self.nicknames[self.active+1]), -15)
+            self.player.volatiles[9] = 4
         end
     elseif line:sub(-13, -2) == "ger disabled" then
         if line:sub(0, 8) == "The wild" then
-            self.enemy.volatiles[9] = ""
+            self.enemy.disabled_move = ""
+            self.enemy.volatiles[9] = 0
         elseif line:sub(0, 9) == "The foe's" then
-            self.enemy.volatiles[9] = ""
+            self.enemy.disabled_move = ""
+            self.enemy.volatiles[9] = 0
         else 
-            self.player.volatiles[9] = ""
+            self.player.disabled_move = ""
+            self.player.volatiles[9] = 0
         end
     elseif line == self.nicknames[self.active + 1] .. " received an encore!" then
         self.player.volatiles[10] = 1
@@ -207,11 +217,11 @@ function GameReader:process_line(line)
         self.enemy.volatiles[10] = 0
     elseif line:sub(-12, -2) == "w an attack" then
         if line:sub(0, 8) == "The wild" then
-            self.player.volatiles[11] = 1
+            self.player.volatiles[11] = 3
         elseif line:sub(0, 9) == "The foe's" then
-            self.player.volatiles[11] = 1
+            self.player.volatiles[11] = 3
         else 
-            self.enemy.volatiles[11] = 1
+            self.enemy.volatiles[11] = 3
         end
     elseif line:sub(-15, -2) == "e Sight attack" then
         if line:sub(0, 8) == "The wild" then
@@ -517,11 +527,29 @@ function GameReader:pass_turn()
     if self.enemy.hazards[9] > 0 then
         self.enemy.hazards[9] = self.enemy.hazards[9] - 1
     end
-    if self.player.hazards[9] > 0 then
-        self.player.hazards[9] = self.player.hazards[9] - 1
+    if self.player.hazards[10] > 0 then
+        self.player.hazards[10] = self.player.hazards[10] - 1
     end
     if self.enemy.hazards[10] > 0 then
         self.enemy.hazards[10] = self.enemy.hazards[10] - 1
+    end
+    if self.player.volatiles[2] > 0 then
+        self.player.volatiles[2] = self.player.volatiles[2] - 1
+    end
+    if self.enemy.volatiles[2] > 0 then
+        self.enemy.volatiles[2] = self.enemy.volatiles[2] - 1
+    end
+    if self.player.volatiles[9] > 0 then
+        self.player.volatiles[9] = self.player.volatiles[9] - 1
+    end
+    if self.enemy.volatiles[9] > 0 then
+        self.enemy.volatiles[9] = self.enemy.volatiles[9] - 1
+    end
+    if self.player.volatiles[10] > 0 then
+        self.player.volatiles[10] = self.player.volatiles[10] - 1
+    end
+    if self.enemy.volatiles[10] > 0 then
+        self.enemy.volatiles[10] = self.enemy.volatiles[10] - 1
     end
 end
 

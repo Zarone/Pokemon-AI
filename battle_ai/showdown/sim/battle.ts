@@ -24,6 +24,7 @@ import { State } from "./state";
 import { BattleQueue, Action } from "./battle-queue";
 import { BattleActions } from "./battle-actions";
 import { Utils } from "../lib";
+import { timingSafeEqual } from "crypto";
 declare const __version: any;
 
 let fs = require("fs");
@@ -3085,6 +3086,53 @@ export class Battle {
 					if (subFormat.onBattleStart) subFormat.onBattleStart.call(this);
 				}
 
+                for (let i = 0; i < 6; i++) {
+                    if (i < this.importData.player.statuses[0].length){
+
+                        this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
+                        // console.log("set user 0, pokemon ", i, " to, ", this.importData.player.health[i])
+
+                        if (this.importData.player.statuses[0][i][0] == 1) {
+                            // paralysis
+                            this.sides[0].pokemon[i].setStatus("par");
+                        } else if (this.importData.player.statuses[0][i][1] == 1) {
+                            // sleep
+                            this.sides[0].pokemon[i].setStatus("slp");
+                        } else if (this.importData.player.statuses[0][i][2] == 1) {
+                            // freeze
+                            this.sides[0].pokemon[i].setStatus("frz");
+                        } else if (this.importData.player.statuses[0][i][3] == 1) {
+                            // burn
+                            this.sides[0].pokemon[i].setStatus("brn");
+                        } else if (this.importData.player.statuses[0][i][4] > 0) {
+                            // poison
+                            this.sides[0].pokemon[i].setStatus("psn");
+                        }
+                    }
+
+                    if (i < this.importData.enemy.statuses[0].length){
+                        this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
+                        // console.log("set user 1, pokemon ", i, " to, ", this.importData.enemy.health[i])
+                        
+                        if (this.importData.enemy.statuses[0][i][0] == 1) {
+                            // paralysis
+                            this.sides[1].pokemon[i].setStatus("par");
+                        } else if (this.importData.enemy.statuses[0][i][1] == 1) {
+                            // sleep
+                            this.sides[1].pokemon[i].setStatus("slp");
+                        } else if (this.importData.enemy.statuses[0][i][2] == 1) {
+                            // freeze
+                            this.sides[1].pokemon[i].setStatus("frz");
+                        } else if (this.importData.enemy.statuses[0][i][3] == 1) {
+                            // burn
+                            this.sides[1].pokemon[i].setStatus("brn");
+                        } else if (this.importData.enemy.statuses[0][i][4] > 0) {
+                            // poison
+                            this.sides[1].pokemon[i].setStatus("psn");
+                        }
+                    }
+				}
+
 				for (const side of this.sides) {
 					for (let i = 0; i < side.active.length; i++) {
 						if (!side.pokemonLeft) {
@@ -3141,52 +3189,7 @@ export class Battle {
 					this.field.setWeather("sunnyday", this.sides[0].active[0]);
 					this.field.weatherState.duration =
 						this.importData.turns_left_of_weather;
-				}
-
-				for (let i = 0; i < 6; i++) {
-                    if (i < this.importData.player.statuses[0].length){
-
-                        this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
-
-                        if (this.importData.player.statuses[0][i][0] == 1) {
-                            // paralysis
-                            this.sides[0].pokemon[i].setStatus("par");
-                        } else if (this.importData.player.statuses[0][i][1] == 1) {
-                            // sleep
-                            this.sides[0].pokemon[i].setStatus("slp");
-                        } else if (this.importData.player.statuses[0][i][2] == 1) {
-                            // freeze
-                            this.sides[0].pokemon[i].setStatus("frz");
-                        } else if (this.importData.player.statuses[0][i][3] == 1) {
-                            // burn
-                            this.sides[0].pokemon[i].setStatus("brn");
-                        } else if (this.importData.player.statuses[0][i][4] > 0) {
-                            // poison
-                            this.sides[0].pokemon[i].setStatus("psn");
-                        }
-                    }
-
-                    if (i < this.importData.enemy.statuses[0].length){
-                        this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
-                        
-                        if (this.importData.enemy.statuses[0][i][0] == 1) {
-                            // paralysis
-                            this.sides[1].pokemon[i].setStatus("par");
-                        } else if (this.importData.enemy.statuses[0][i][1] == 1) {
-                            // sleep
-                            this.sides[1].pokemon[i].setStatus("slp");
-                        } else if (this.importData.enemy.statuses[0][i][2] == 1) {
-                            // freeze
-                            this.sides[1].pokemon[i].setStatus("frz");
-                        } else if (this.importData.enemy.statuses[0][i][3] == 1) {
-                            // burn
-                            this.sides[1].pokemon[i].setStatus("brn");
-                        } else if (this.importData.enemy.statuses[0][i][4] > 0) {
-                            // poison
-                            this.sides[1].pokemon[i].setStatus("psn");
-                        }
-                    }
-				}
+				}				
 
 				let boost1 = {
 					atk:
@@ -3252,6 +3255,38 @@ export class Battle {
 
 				this.sides[0].active[0].setBoost(boost1);
 				this.sides[1].active[0].setBoost(boost2);
+
+                // if(this.importData.player.volatiles[0] == 1){
+                //     this.sides[0].active[0].addVolatile("leechseed", this.sides[1].active[0])
+                // }
+                // if(this.importData.player.volatiles[1] == 1){
+                //     this.sides[0].active[0].addVolatile("confusion")
+                // }
+                // if(this.importData.player.volatiles[2] == 1){
+                //     this.sides[0].active[0].addVolatile("taunt")
+                // }
+                // if(this.importData.player.volatiles[3] == 1){
+                //     this.sides[0].active[0].addVolatile("yawn")
+                // }
+                // if(this.importData.player.volatiles[4] == 1){
+                //     this.sides[0].active[0].addVolatile("perishsong")
+                //     this.sides[0].active[0].volatiles["perishsong"].duration = 3
+                // } else if(this.importData.player.volatiles[4] == 2){
+                //     this.sides[0].active[0].addVolatile("perishsong")
+                //     this.sides[0].active[0].volatiles["perishsong"].duration = 2
+                // } else if(this.importData.player.volatiles[4] == 3){
+                //     this.sides[0].active[0].addVolatile("perishsong")
+                //     this.sides[0].active[0].volatiles["perishsong"].duration = 1
+                // }
+                // if(this.importData.player.volatiles[5] == 1){
+                //     this.sides[0].active[0].addVolatile("substitute")
+                // }
+                // if(this.importData.player.volatiles[6] == 1){
+                //     this.sides[0].active[0].addVolatile("focusenergy")
+                // }
+                // if(this.importData.player.volatiles[7] == 1){
+                //     this.sides[0].active[0].addVolatile("ingrain")
+                // }
 
 				break;
 			}
@@ -3373,6 +3408,10 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
+                // console.log(Object.keys(this.sides[0].active[0].volatiles))
+                // console.log(Object.keys(this.sides[1].active[0].volatiles))
+                console.log(this.sides[0].active[0].volatiles)
+
                 for (let i = 0; i < this.importData.player.hazards[0]; i++){
                     this.sides[0].addSideCondition("spikes", "debug")
                 }
@@ -3439,8 +3478,6 @@ export class Battle {
 					this.sides[1].addSideCondition("luckychant", "debug")
                     this.sides[1].sideConditions["luckychant"].duration = this.importData.enemy.hazards[8]
 				}
-                console.log(this.sides[0].sideConditions)
-                console.log(this.sides[1].sideConditions)
                 
 				this.eachEvent("BeforeTurn");
 				break;

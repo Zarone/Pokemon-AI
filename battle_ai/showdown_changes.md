@@ -28,6 +28,53 @@ battle.ts
 
 inside Battle.runAction() under switch case "start"
 
+    // set status conditions and health
+    for (let i = 0; i < 6; i++) {
+        if (i < this.importData.player.statuses[0].length){
+
+            this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
+
+            if (this.importData.player.statuses[0][i][0] == 1) {
+                // paralysis
+                this.sides[0].pokemon[i].setStatus("par");
+            } else if (this.importData.player.statuses[0][i][1] == 1) {
+                // sleep
+                this.sides[0].pokemon[i].setStatus("slp");
+            } else if (this.importData.player.statuses[0][i][2] == 1) {
+                // freeze
+                this.sides[0].pokemon[i].setStatus("frz");
+            } else if (this.importData.player.statuses[0][i][3] == 1) {
+                // burn
+                this.sides[0].pokemon[i].setStatus("brn");
+            } else if (this.importData.player.statuses[0][i][4] > 0) {
+                // poison
+                this.sides[0].pokemon[i].setStatus("psn");
+            }
+        }
+
+        if (i < this.importData.enemy.statuses[0].length){
+            this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
+            
+            if (this.importData.enemy.statuses[0][i][0] == 1) {
+                // paralysis
+                this.sides[1].pokemon[i].setStatus("par");
+            } else if (this.importData.enemy.statuses[0][i][1] == 1) {
+                // sleep
+                this.sides[1].pokemon[i].setStatus("slp");
+            } else if (this.importData.enemy.statuses[0][i][2] == 1) {
+                // freeze
+                this.sides[1].pokemon[i].setStatus("frz");
+            } else if (this.importData.enemy.statuses[0][i][3] == 1) {
+                // burn
+                this.sides[1].pokemon[i].setStatus("brn");
+            } else if (this.importData.enemy.statuses[0][i][4] > 0) {
+                // poison
+                this.sides[1].pokemon[i].setStatus("psn");
+            }
+        }
+    }
+
+
     // switch to correct 'mon
 
     // ...
@@ -79,52 +126,6 @@ inside Battle.runAction() under switch case "start"
         this.field.setWeather("sunnyday", this.sides[0].active[0]);
         this.field.weatherState.duration =
         this.importData.turns_left_of_weather;
-    }
-
-    // set status conditions and health
-    for (let i = 0; i < 6; i++) {
-        if (i < this.importData.player.statuses[0].length){
-
-            this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
-
-            if (this.importData.player.statuses[0][i][0] == 1) {
-                // paralysis
-                this.sides[0].pokemon[i].setStatus("par");
-            } else if (this.importData.player.statuses[0][i][1] == 1) {
-                // sleep
-                this.sides[0].pokemon[i].setStatus("slp");
-            } else if (this.importData.player.statuses[0][i][2] == 1) {
-                // freeze
-                this.sides[0].pokemon[i].setStatus("frz");
-            } else if (this.importData.player.statuses[0][i][3] == 1) {
-                // burn
-                this.sides[0].pokemon[i].setStatus("brn");
-            } else if (this.importData.player.statuses[0][i][4] > 0) {
-                // poison
-                this.sides[0].pokemon[i].setStatus("psn");
-            }
-        }
-
-        if (i < this.importData.enemy.statuses[0].length){
-            this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
-            
-            if (this.importData.enemy.statuses[0][i][0] == 1) {
-                // paralysis
-                this.sides[1].pokemon[i].setStatus("par");
-            } else if (this.importData.enemy.statuses[0][i][1] == 1) {
-                // sleep
-                this.sides[1].pokemon[i].setStatus("slp");
-            } else if (this.importData.enemy.statuses[0][i][2] == 1) {
-                // freeze
-                this.sides[1].pokemon[i].setStatus("frz");
-            } else if (this.importData.enemy.statuses[0][i][3] == 1) {
-                // burn
-                this.sides[1].pokemon[i].setStatus("brn");
-            } else if (this.importData.enemy.statuses[0][i][4] > 0) {
-                // poison
-                this.sides[1].pokemon[i].setStatus("psn");
-            }
-        }
     }
 
     // set boosts
