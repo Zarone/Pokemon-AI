@@ -3287,6 +3287,24 @@ export class Battle {
                 // if(this.importData.player.volatiles[7] == 1){
                 //     this.sides[0].active[0].addVolatile("ingrain")
                 // }
+                // if (this.importData.player.volatiles[8] != 0){
+                //     this.sides[0].active[0].addVolatile("disable")
+                //     console.log(Object.keys(this.sides[0].active[0].volatiles))
+                //     console.log(Object.keys(this.sides[1].active[0].volatiles))
+                //     this.sides[0].active[0].volatiles["disable"].duration = this.importData.player.volatiles[8]
+                //     this.sides[0].active[0].volatiles["disable"].move = this.importData.player.disabled_move
+                // }
+
+                if (this.importData.enemy.volatiles[8] != 0){
+                    this.sides[1].active[0].lastMove = {id: this.importData.enemy.disable_move as string}
+                    this.sides[1].active[0].addVolatile('disable', this.sides[0].active[0])
+                    this.sides[1].active[0].volatiles["disable"].duration = this.importData.enemy.volatiles[8]
+                    // console.log(this.importData.enemy.disable_move)
+                    // this.sides[1].active[0].disableMove(this.importData.enemy.disable_move)
+                    // console.log(Object.keys(this.sides[0].active[0].volatiles))
+                    // console.log(this.sides[1].active[0].volatiles)
+                    // this.sides[1].active[0].volatiles["disable"].move = this.importData.enemy.disabled_move
+                }
 
 				break;
 			}
@@ -3408,9 +3426,11 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-                // console.log(Object.keys(this.sides[0].active[0].volatiles))
-                // console.log(Object.keys(this.sides[1].active[0].volatiles))
-                console.log(this.sides[0].active[0].volatiles)
+                // console.log(this.sides[1].active[0].lastMove)
+                console.log(Object.keys(this.sides[0].active[0].volatiles))
+                console.log(Object.keys(this.sides[1].active[0].volatiles))
+                // console.log(this.sides[0].active[0].volatiles)
+                // console.log(this.sides[1].active[0].volatiles)
 
                 for (let i = 0; i < this.importData.player.hazards[0]; i++){
                     this.sides[0].addSideCondition("spikes", "debug")

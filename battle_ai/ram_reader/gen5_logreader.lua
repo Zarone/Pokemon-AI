@@ -13,6 +13,10 @@ GameReader.__index = GameReader
 --     return (table.concat(name, ""))
 -- end
 
+function move_to_id(move)
+    return move:gsub(" ", ""):gsub("-", ""):lower()
+end
+
 function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance = setmetatable({}, GameReader)
 
@@ -183,13 +187,13 @@ function GameReader:process_line(line)
         self.enemy.volatiles[8] = 1
     elseif line:sub(-13, -2) == "was disabled" then
         if line:sub(0, 8) == "The wild" then
-            self.enemy.disabled_move = line:sub(13+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+            self.enemy.disabled_move = move_to_id(line:sub(13+#(self.nicknames_enemy[self.enemy_active+1]), -15))
             self.enemy.volatiles[9] = 4
         elseif line:sub(0, 9) == "The foe's" then
-            self.enemy.disabled_move = line:sub(14+#(self.nicknames_enemy[self.enemy_active+1]), -15)
+            self.enemy.disabled_move = move_to_id(line:sub(14+#(self.nicknames_enemy[self.enemy_active+1]), -15))
             self.enemy.volatiles[9] = 4
         else 
-            self.player.disabled_move = line:sub(4+#(self.nicknames[self.active+1]), -15)
+            self.player.disabled_move = move_to_id(line:sub(4+#(self.nicknames[self.active+1]), -15))
             self.player.volatiles[9] = 4
         end
     elseif line:sub(-13, -2) == "ger disabled" then
