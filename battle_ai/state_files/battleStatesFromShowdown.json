@@ -1,0 +1,7 @@
+[
+    [
+        [] /* list of possible gamestates from actions 0-0
+        it's a list because, if a pokemon faints the team, the
+        team with the fainted pokemon can send in a new pokemon*/
+    ]
+]
