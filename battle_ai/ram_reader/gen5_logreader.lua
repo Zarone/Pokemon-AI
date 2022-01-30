@@ -218,11 +218,11 @@ function GameReader:process_line(line)
             self.player.volatiles[9] = 0
         end
     elseif line == self.nicknames[self.active + 1] .. " received an encore!" then
-        self.player.volatiles[10] = 1
+        self.player.volatiles[10] = 3
     elseif line ==
         (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " received an encore!" or
             "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " received an encore!") then
-        self.enemy.volatiles[10] = 1
+        self.enemy.volatiles[10] = 3
     elseif line == self.nicknames[self.active + 1] .. "'s encore ended!" then
         self.player.volatiles[10] = 0
     elseif line ==
