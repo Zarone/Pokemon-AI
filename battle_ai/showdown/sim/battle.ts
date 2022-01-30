@@ -3535,13 +3535,6 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-                console.log(Object.keys(this.sides[0].active[0].volatiles))
-                console.log(Object.keys(this.sides[1].active[0].volatiles))
-                // console.log(this.sides[0].active[0].volatiles)
-                // console.log(this.sides[1].active[0].volatiles)
-                // console.log(this.sides[0].slotConditions[0].futuremove)
-                // console.log(this.sides[1].slotConditions[0].futuremove)
-
                 for (let i = 0; i < this.importData.player.hazards[0]; i++){
                     this.sides[0].addSideCondition("spikes", "debug")
                 }

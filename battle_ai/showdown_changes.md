@@ -129,7 +129,6 @@ inside Battle.runAction() under switch case "start"
     }
 
     // set boosts
-
     let boost1 = {
         atk:
             this.importData.player.boosts[0][
@@ -194,6 +193,166 @@ inside Battle.runAction() under switch case "start"
 
     this.sides[0].active[0].setBoost(boost1);
     this.sides[1].active[0].setBoost(boost2);
+
+    // set volatile conditions
+    if(this.importData.player.volatiles[0] == 1){
+        this.sides[0].active[0].addVolatile("leechseed", this.sides[1].active[0])
+    }
+    if(this.importData.player.volatiles[1] == 1){
+        this.sides[0].active[0].addVolatile("confusion")
+    }
+    if(this.importData.player.volatiles[2] != 0){
+        this.sides[0].active[0].addVolatile("taunt")
+    this.sides[0].active[0].volatiles["taunt"].duration = this.importData.player.volatiles[2]
+    }
+    if(this.importData.player.volatiles[3] == 1){
+        this.sides[0].active[0].addVolatile("yawn")
+    }
+    if(this.importData.player.volatiles[4] == 1){
+        this.sides[0].active[0].addVolatile("perishsong")
+        this.sides[0].active[0].volatiles["perishsong"].duration = 3
+    } else if(this.importData.player.volatiles[4] == 2){
+        this.sides[0].active[0].addVolatile("perishsong")
+        this.sides[0].active[0].volatiles["perishsong"].duration = 2
+    } else if(this.importData.player.volatiles[4] == 3){
+        this.sides[0].active[0].addVolatile("perishsong")
+        this.sides[0].active[0].volatiles["perishsong"].duration = 1
+    }
+    if(this.importData.player.volatiles[5] == 1){
+        this.sides[0].active[0].addVolatile("substitute")
+    }
+    if(this.importData.player.volatiles[6] == 1){
+        this.sides[0].active[0].addVolatile("focusenergy")
+    }
+    if(this.importData.player.volatiles[7] == 1){
+        this.sides[0].active[0].addVolatile("ingrain")
+    }
+    if (this.importData.player.volatiles[8] != 0){
+        this.sides[0].active[0].lastMove = {id: this.importData.player.disable_move as ID} as ActiveMove
+        this.sides[0].active[0].addVolatile('disable', this.sides[1].active[0])
+        this.sides[0].active[0].volatiles["disable"].duration = this.importData.player.volatiles[8]
+    }
+    if (this.importData.player.volatiles[9] != 0){
+        this.sides[0].active[0].lastMove = {id: this.importData.player.last_move as ID} as ActiveMove
+        this.sides[0].active[0].addVolatile("encore")
+    this.sides[0].active[0].volatiles["encore"].duration = this.importData.player.volatiles[9];
+    }
+    if (this.importData.player.volatiles[10] != 0){
+        console.log(this.importData.player.volatiles[10])
+        this.sides[0].addSlotCondition(this.sides[0].active[0], "futuremove", this.sides[1].active[0])
+        this.sides[0].slotConditions[0]["futuremove"].duration = this.importData.player.volatiles[10];
+        this.sides[0].slotConditions[0]["futuremove"].move = "futuresight";
+        this.sides[0].slotConditions[0]["futuremove"].moveData = {
+            id: 'futuresight',
+            name: 'Future Sight',
+            accuracy: 100,
+            basePower: 120,
+            category: 'Special',
+            priority: 0,
+            flags: {},
+            ignoreImmunity: false,
+            effectType: 'Move',
+            isFutureMove: true,
+            type: 'Psychic'
+        };
+    }
+    if (this.importData.player.volatiles[11] != 0){
+        this.sides[0].active[0].addVolatile("aquaring")
+    }
+    if (this.importData.player.volatiles[12] != 0){
+        this.sides[0].active[0].addVolatile("attract", this.sides[1].active[0])
+    }
+    if (this.importData.player.volatiles[13] != 0){
+        this.sides[0].active[0].addVolatile("torment")
+    }
+
+
+
+    if (this.importData.enemy.volatiles[1] == 1) {
+        this.sides[1].active[0].addVolatile("confusion");
+    }
+    if (this.importData.enemy.volatiles[2] != 0) {
+        this.sides[1].active[0].addVolatile("taunt");
+        this.sides[1].active[0].volatiles["taunt"].duration =
+            this.importData.enemy.volatiles[2];
+    }
+    if (this.importData.enemy.volatiles[3] == 1) {
+        this.sides[1].active[0].addVolatile("yawn");
+    }
+    if (this.importData.enemy.volatiles[4] == 1) {
+        this.sides[1].active[0].addVolatile("perishsong");
+        this.sides[1].active[0].volatiles["perishsong"].duration = 3;
+    } else if (this.importData.enemy.volatiles[4] == 2) {
+        this.sides[1].active[0].addVolatile("perishsong");
+        this.sides[1].active[0].volatiles["perishsong"].duration = 2;
+    } else if (this.importData.enemy.volatiles[4] == 3) {
+        this.sides[1].active[0].addVolatile("perishsong");
+        this.sides[1].active[0].volatiles["perishsong"].duration = 1;
+    }
+    if (this.importData.enemy.volatiles[5] == 1) {
+        this.sides[1].active[0].addVolatile("substitute");
+    }
+    if (this.importData.enemy.volatiles[6] == 1) {
+        this.sides[1].active[0].addVolatile("focusenergy");
+    }
+    if (this.importData.enemy.volatiles[7] == 1) {
+        this.sides[1].active[0].addVolatile("ingrain");
+    }
+    if (this.importData.enemy.volatiles[8] != 0) {
+        this.sides[1].active[0].lastMove = {
+            id: this.importData.enemy.disable_move as ID,
+        } as ActiveMove;
+        this.sides[1].active[0].addVolatile(
+            "disable",
+            this.sides[0].active[0]
+        );
+        this.sides[1].active[0].volatiles["disable"].duration =
+            this.importData.enemy.volatiles[8];
+    }
+    if (this.importData.enemy.volatiles[9] != 0) {
+        this.sides[1].active[0].lastMove = {
+            id: this.importData.enemy.last_move as ID,
+        } as ActiveMove;
+        this.sides[1].active[0].addVolatile("encore");
+        this.sides[1].active[0].volatiles["encore"].duration =
+            this.importData.enemy.volatiles[9];
+    }
+    if (this.importData.enemy.volatiles[10] != 0) {
+        this.sides[1].addSlotCondition(
+            this.sides[1].active[0],
+            "futuremove",
+            this.sides[1].active[0]
+        );
+        this.sides[1].slotConditions[0]["futuremove"].duration =
+            this.importData.enemy.volatiles[10];
+        this.sides[1].slotConditions[0]["futuremove"].move =
+            "futuresight";
+        this.sides[1].slotConditions[0]["futuremove"].moveData = {
+            id: "futuresight",
+            name: "Future Sight",
+            accuracy: 100,
+            basePower: 120,
+            category: "Special",
+            priority: 0,
+            flags: {},
+            ignoreImmunity: false,
+            effectType: "Move",
+            isFutureMove: true,
+            type: "Psychic",
+        };
+    }
+    if (this.importData.enemy.volatiles[11] != 0) {
+        this.sides[1].active[0].addVolatile("aquaring");
+    }
+    if (this.importData.enemy.volatiles[12] != 0) {
+        this.sides[1].active[0].addVolatile(
+            "attract",
+            this.sides[0].active[0]
+        );
+    }
+    if (this.importData.enemy.volatiles[13] != 0) {
+        this.sides[1].active[0].addVolatile("torment");
+    }
 
     // the variables if I want to set
     this.field.getWeather().duration - field.weatherState.duration
