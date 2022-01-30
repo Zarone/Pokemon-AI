@@ -429,8 +429,33 @@ inside Battle.runAction() under switch case "beforeTurn"
     if(this.importData.enemy.hazards[8] == 1){
         this.sides[1].addSideCondition("luckychant", "debug")
     }
+
 pokemon-showdown
 
     // this saves the game log to a file
     let logFile = fs.createWriteStream("last_log.txt");
     battleStream.pipeTo(logFile, { noEnd: true });
+
+battle-stream.ts
+
+    // declare property initChunk for battle restart later
+    initChunk: string | undefined;
+
+    // ... 
+    
+    // add case "run-all" to simulate all possibilities
+    case "run-all":
+        for (let i = 1; i < 5; i++){
+            for (let j = 1; j < 5; j++){
+                console.log(`about to move ${i} ${j}`)
+                this._writeLine("p1", `move ${i}`)
+                this._writeLine("p2", `move ${j}`)
+                console.log(this.battle?.log)
+                console.log(this.battle?.turn)
+                // export resulting data before "start"
+                console.log("about to restart")
+                this._write(this.initChunk as string)
+            }
+        }
+
+        break;

@@ -45,6 +45,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	replay: boolean | "spectator";
 	keepAlive: boolean;
 	battle: Battle | null;
+    initChunk: string | undefined;
 
 	constructor(
 		options: {
@@ -63,25 +64,26 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	_write(chunk: string) {
-		// console.log(this.battle && this.battle.log);
-
+        // console.log(this.battle && this.battle.log);
+        
 		if (this.noCatch) {
-			this._writeLines(chunk);
+            this._writeLines(chunk);
 		} else {
-			try {
-				this._writeLines(chunk);
+            try {
+                this._writeLines(chunk);
 			} catch (err: any) {
-				this.pushError(err, true);
+                this.pushError(err, true);
 				return;
 			}
 		}
-
+        
 		// console.log(this.battle && this.battle.log);
-
+        
 		if (this.battle) this.battle.sendUpdates();
 	}
-
+    
 	_writeLines(chunk: string) {
+        this.initChunk = this.initChunk || chunk.slice(0, -11);
 		for (const line of chunk.split("\n")) {
 			if (line.startsWith(">")) {
 				const [type, message] = splitFirst(line.slice(1), " ");
@@ -146,6 +148,21 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 					this.battle!.choose(type, message);
 				}
 				break;
+            case "run-all":
+                for (let i = 1; i < 5; i++){
+                    for (let j = 1; j < 5; j++){
+                        console.log(`about to move ${i} ${j}`)
+                        this._writeLine("p1", `move ${i}`)
+                        this._writeLine("p2", `move ${j}`)
+                        console.log(this.battle?.log)
+                        console.log(this.battle?.turn)
+                        // export resulting data before "start"
+                        console.log("about to restart")
+                        this._write(this.initChunk as string)
+                    }
+                }
+
+                break;
 			case "forcewin":
 			case "forcetie":
 				this.battle!.win(type === "forcewin" ? (message as SideID) : null);
@@ -262,7 +279,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			case "version":
 			case "version-origin":
 				break;
-			default:
+            default:
 				throw new Error(`Unrecognized command ">${type} ${message}"`);
 		}
 	}

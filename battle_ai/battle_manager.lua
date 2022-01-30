@@ -141,10 +141,10 @@ function BattleManager:get_action()
     
     print("BattleManager:get_action()")
 
-    self.showdown_instance:write(">p1 move 2\n")
-    self.showdown_instance:write(">p2 move 4\n")
-    self.showdown_instance:write(">p1 move 2\n")
-    self.showdown_instance:write(">p2 move 4\n")
+    -- self.showdown_instance:write(">p1 move 2\n")
+    -- self.showdown_instance:write(">p2 move 4\n")
+    -- self.showdown_instance:write(">p1 move 2\n")
+    -- self.showdown_instance:write(">p2 move 4\n")
 
     self.queued_move = returnAction
 end

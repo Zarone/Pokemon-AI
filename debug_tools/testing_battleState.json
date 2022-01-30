@@ -26,7 +26,7 @@
       ],
       "last_move": "rockslide",
       "hazards": [0, 0, 0, 0, 0, 0, 0, 0, 0],
-      "volatiles": [0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      "volatiles": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     },
     "enemy": {
       "health": [104, 244, 201, 315, 228, 192],
@@ -54,7 +54,7 @@
       "hazards": [2, 0, 0, 0, 0, 0, 0, 0, 0],
       "disable_move": "shadowball",
       "last_move": "energyball",
-      "volatiles": [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 1, 0, 0, 0]
+      "volatiles": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
     }
   }
   
