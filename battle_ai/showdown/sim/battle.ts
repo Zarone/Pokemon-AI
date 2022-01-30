@@ -343,11 +343,19 @@ export class Battle {
 	}
 
 	random(m?: number, n?: number) {
-		return this.prng.next(m, n);
+        if (m !== undefined && n !== undefined){
+            return n*0.5 + m;
+        } else if (m !== undefined){
+            return m*0.5;
+        } else {
+            return 0.5
+        }
+		// return this.prng.next(m, n);
 	}
 
 	randomChance(numerator: number, denominator: number) {
-		return this.prng.randomChance(numerator, denominator);
+        return numerator/denominator > 0.5;
+		// return this.prng.randomChance(numerator, denominator);
 	}
 
 	sample<T>(items: readonly T[]): T {

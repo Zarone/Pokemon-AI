@@ -149,19 +149,17 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				}
 				break;
             case "run-all":
-                for (let i = 1; i < 5; i++){
-                    for (let j = 1; j < 5; j++){
-                        console.log(`about to move ${i} ${j}`)
-                        this._writeLine("p1", `move ${i}`)
-                        this._writeLine("p2", `move ${j}`)
-                        console.log(this.battle?.log)
-                        console.log(this.battle?.turn)
-                        // export resulting data before "start"
-                        console.log("about to restart")
-                        this._write(this.initChunk as string)
-                    }
-                }
-
+                // for (let i = 1; i < 5; i++){
+                //     for (let j = 1; j < 5; j++){
+                //         this._writeLine("p1", `move ${i}`)
+                //         this._writeLine("p2", `move ${j}`)
+                //         // export resulting data before "start"
+                        
+                //         this._write(this.initChunk as string)
+                //     }
+                // }
+                this._writeLine("p1", `move ${2}`)
+                this._writeLine("p2", `move ${4}`)
                 break;
 			case "forcewin":
 			case "forcetie":

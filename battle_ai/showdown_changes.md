@@ -4,6 +4,24 @@ battle.ts
 
 battle.ts
 
+
+    // overwrote some random function to try and make the most likely events occur
+    random(m?: number, n?: number) {
+        if (m !== undefined && n !== undefined){
+            return n*0.5 + m;
+        } else if (m !== undefined){
+            return m*0.5;
+        } else {
+            return 0.5
+        }
+		// return this.prng.next(m, n);
+	}
+
+	randomChance(numerator: number, denominator: number) {
+        return numerator/denominator > 0.5;
+		// return this.prng.randomChance(numerator, denominator);
+	}
+
     this.send() // sends info to stream for debugging
     console.log() // also sends to lua console for some reason
 
