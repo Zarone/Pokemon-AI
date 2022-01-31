@@ -169,7 +169,7 @@ export class Battle {
 	constructor(options: BattleOptions) {
 		let data = fs.readFileSync(
 			"./debug_tools/testing_battleState.json",
-            // "./battle_ai/state_files/battleStateForShowdown.json",
+			// "./battle_ai/state_files/battleStateForShowdown.json",
 			"utf8"
 		);
 
@@ -343,18 +343,18 @@ export class Battle {
 	}
 
 	random(m?: number, n?: number) {
-        if (m !== undefined && n !== undefined){
-            return n*0.5 + m;
-        } else if (m !== undefined){
-            return m*0.5;
-        } else {
-            return 0.5
-        }
+		if (m !== undefined && n !== undefined) {
+			return n * 0.5 + m;
+		} else if (m !== undefined) {
+			return m * 0.5;
+		} else {
+			return 0.5;
+		}
 		// return this.prng.next(m, n);
 	}
 
 	randomChance(numerator: number, denominator: number) {
-        return numerator/denominator > 0.5;
+		return numerator / denominator > 0.5;
 		// return this.prng.randomChance(numerator, denominator);
 	}
 
@@ -3094,51 +3094,62 @@ export class Battle {
 					if (subFormat.onBattleStart) subFormat.onBattleStart.call(this);
 				}
 
-                for (let i = 0; i < 6; i++) {
-                    if (i < this.importData.player.statuses[0].length){
+				for (let i = 0; i < 6; i++) {
+					if (i < this.importData.player.statuses[0].length) {
+						if (this.importData.player.health[i] == 0) {
+							this.sides[0].pokemon[i].faint();
+						} else {
+							this.sides[0].pokemon[i].sethp(
+								this.importData.player.health[i]
+							);
+						}
+						// console.log("set user 0, pokemon ", i, " to, ", this.importData.player.health[i])
 
-                        this.sides[0].pokemon[i].sethp(this.importData.player.health[i])
-                        // console.log("set user 0, pokemon ", i, " to, ", this.importData.player.health[i])
+						if (this.importData.player.statuses[0][i][0] == 1) {
+							// paralysis
+							this.sides[0].pokemon[i].setStatus("par");
+						} else if (this.importData.player.statuses[0][i][1] == 1) {
+							// sleep
+							this.sides[0].pokemon[i].setStatus("slp");
+						} else if (this.importData.player.statuses[0][i][2] == 1) {
+							// freeze
+							this.sides[0].pokemon[i].setStatus("frz");
+						} else if (this.importData.player.statuses[0][i][3] == 1) {
+							// burn
+							this.sides[0].pokemon[i].setStatus("brn");
+						} else if (this.importData.player.statuses[0][i][4] > 0) {
+							// poison
+							this.sides[0].pokemon[i].setStatus("psn");
+						}
+					}
 
-                        if (this.importData.player.statuses[0][i][0] == 1) {
-                            // paralysis
-                            this.sides[0].pokemon[i].setStatus("par");
-                        } else if (this.importData.player.statuses[0][i][1] == 1) {
-                            // sleep
-                            this.sides[0].pokemon[i].setStatus("slp");
-                        } else if (this.importData.player.statuses[0][i][2] == 1) {
-                            // freeze
-                            this.sides[0].pokemon[i].setStatus("frz");
-                        } else if (this.importData.player.statuses[0][i][3] == 1) {
-                            // burn
-                            this.sides[0].pokemon[i].setStatus("brn");
-                        } else if (this.importData.player.statuses[0][i][4] > 0) {
-                            // poison
-                            this.sides[0].pokemon[i].setStatus("psn");
-                        }
-                    }
+					if (i < this.importData.enemy.statuses[0].length) {
+						if (this.importData.enemy.health[i] == 0) {
+							this.sides[1].pokemon[i].faint();
+						} else {
+							this.sides[1].pokemon[i].sethp(
+								this.importData.enemy.health[i]
+							);
+						}
+						// console.log("set user 1, pokemon ", i, " to, ", this.importData.enemy.health[i])
 
-                    if (i < this.importData.enemy.statuses[0].length){
-                        this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
-                        // console.log("set user 1, pokemon ", i, " to, ", this.importData.enemy.health[i])
-                        
-                        if (this.importData.enemy.statuses[0][i][0] == 1) {
-                            // paralysis
-                            this.sides[1].pokemon[i].setStatus("par");
-                        } else if (this.importData.enemy.statuses[0][i][1] == 1) {
-                            // sleep
-                            this.sides[1].pokemon[i].setStatus("slp");
-                        } else if (this.importData.enemy.statuses[0][i][2] == 1) {
-                            // freeze
-                            this.sides[1].pokemon[i].setStatus("frz");
-                        } else if (this.importData.enemy.statuses[0][i][3] == 1) {
-                            // burn
-                            this.sides[1].pokemon[i].setStatus("brn");
-                        } else if (this.importData.enemy.statuses[0][i][4] > 0) {
-                            // poison
-                            this.sides[1].pokemon[i].setStatus("psn");
-                        }
-                    }
+						if (this.importData.enemy.statuses[0][i][0] == 1) {
+							// paralysis
+							this.sides[1].pokemon[i].setStatus("par");
+						} else if (this.importData.enemy.statuses[0][i][1] == 1) {
+							// sleep
+							this.sides[1].pokemon[i].setStatus("slp");
+						} else if (this.importData.enemy.statuses[0][i][2] == 1) {
+							// freeze
+							this.sides[1].pokemon[i].setStatus("frz");
+						} else if (this.importData.enemy.statuses[0][i][3] == 1) {
+							// burn
+							this.sides[1].pokemon[i].setStatus("brn");
+						} else if (this.importData.enemy.statuses[0][i][4] > 0) {
+							// poison
+							this.sides[1].pokemon[i].setStatus("psn");
+						}
+					}
 				}
 
 				for (const side of this.sides) {
@@ -3197,7 +3208,7 @@ export class Battle {
 					this.field.setWeather("sunnyday", this.sides[0].active[0]);
 					this.field.weatherState.duration =
 						this.importData.turns_left_of_weather;
-				}				
+				}
 
 				let boost1 = {
 					atk:
@@ -3264,80 +3275,100 @@ export class Battle {
 				this.sides[0].active[0].setBoost(boost1);
 				this.sides[1].active[0].setBoost(boost2);
 
-                if(this.importData.player.volatiles[0] == 1){
-                    this.sides[0].active[0].addVolatile("leechseed", this.sides[1].active[0])
-                }
-                if(this.importData.player.volatiles[1] == 1){
-                    this.sides[0].active[0].addVolatile("confusion")
-                }
-                if(this.importData.player.volatiles[2] != 0){
-                    this.sides[0].active[0].addVolatile("taunt")
-                this.sides[0].active[0].volatiles["taunt"].duration = this.importData.player.volatiles[2]
-                }
-                if(this.importData.player.volatiles[3] == 1){
-                    this.sides[0].active[0].addVolatile("yawn")
-                }
-                if(this.importData.player.volatiles[4] == 1){
-                    this.sides[0].active[0].addVolatile("perishsong")
-                    this.sides[0].active[0].volatiles["perishsong"].duration = 3
-                } else if(this.importData.player.volatiles[4] == 2){
-                    this.sides[0].active[0].addVolatile("perishsong")
-                    this.sides[0].active[0].volatiles["perishsong"].duration = 2
-                } else if(this.importData.player.volatiles[4] == 3){
-                    this.sides[0].active[0].addVolatile("perishsong")
-                    this.sides[0].active[0].volatiles["perishsong"].duration = 1
-                }
-                if(this.importData.player.volatiles[5] == 1){
-                    this.sides[0].active[0].addVolatile("substitute")
-                }
-                if(this.importData.player.volatiles[6] == 1){
-                    this.sides[0].active[0].addVolatile("focusenergy")
-                }
-                if(this.importData.player.volatiles[7] == 1){
-                    this.sides[0].active[0].addVolatile("ingrain")
-                }
-                if (this.importData.player.volatiles[8] != 0){
-                    this.sides[0].active[0].lastMove = {id: this.importData.player.disable_move as ID} as ActiveMove
-                    this.sides[0].active[0].addVolatile('disable', this.sides[1].active[0])
-                    this.sides[0].active[0].volatiles["disable"].duration = this.importData.player.volatiles[8]
-                }
-                if (this.importData.player.volatiles[9] != 0){
-                    this.sides[0].active[0].lastMove = {id: this.importData.player.last_move as ID} as ActiveMove
-                    this.sides[0].active[0].addVolatile("encore")
-                this.sides[0].active[0].volatiles["encore"].duration = this.importData.player.volatiles[9];
-                }
-                if (this.importData.player.volatiles[10] != 0){
-                    console.log(this.importData.player.volatiles[10])
-                    this.sides[0].addSlotCondition(this.sides[0].active[0], "futuremove", this.sides[1].active[0])
-                    this.sides[0].slotConditions[0]["futuremove"].duration = this.importData.player.volatiles[10];
-                    this.sides[0].slotConditions[0]["futuremove"].move = "futuresight";
-                    this.sides[0].slotConditions[0]["futuremove"].moveData = {
-                        id: 'futuresight',
-                        name: 'Future Sight',
-                        accuracy: 100,
-                        basePower: 120,
-                        category: 'Special',
-                        priority: 0,
-                        flags: {},
-                        ignoreImmunity: false,
-                        effectType: 'Move',
-                        isFutureMove: true,
-                        type: 'Psychic'
-                    };
-                }
-                if (this.importData.player.volatiles[11] != 0){
-                    this.sides[0].active[0].addVolatile("aquaring")
-                }
-                if (this.importData.player.volatiles[12] != 0){
-                    this.sides[0].active[0].addVolatile("attract", this.sides[1].active[0])
-                }
-                if (this.importData.player.volatiles[13] != 0){
-                    this.sides[0].active[0].addVolatile("torment")
-                }
+				if (this.importData.player.volatiles[0] == 1) {
+					this.sides[0].active[0].addVolatile(
+						"leechseed",
+						this.sides[1].active[0]
+					);
+				}
+				if (this.importData.player.volatiles[1] == 1) {
+					this.sides[0].active[0].addVolatile("confusion");
+				}
+				if (this.importData.player.volatiles[2] != 0) {
+					this.sides[0].active[0].addVolatile("taunt");
+					this.sides[0].active[0].volatiles["taunt"].duration =
+						this.importData.player.volatiles[2];
+				}
+				if (this.importData.player.volatiles[3] == 1) {
+					this.sides[0].active[0].addVolatile("yawn");
+				}
+				if (this.importData.player.volatiles[4] == 1) {
+					this.sides[0].active[0].addVolatile("perishsong");
+					this.sides[0].active[0].volatiles["perishsong"].duration = 3;
+				} else if (this.importData.player.volatiles[4] == 2) {
+					this.sides[0].active[0].addVolatile("perishsong");
+					this.sides[0].active[0].volatiles["perishsong"].duration = 2;
+				} else if (this.importData.player.volatiles[4] == 3) {
+					this.sides[0].active[0].addVolatile("perishsong");
+					this.sides[0].active[0].volatiles["perishsong"].duration = 1;
+				}
+				if (this.importData.player.volatiles[5] == 1) {
+					this.sides[0].active[0].addVolatile("substitute");
+				}
+				if (this.importData.player.volatiles[6] == 1) {
+					this.sides[0].active[0].addVolatile("focusenergy");
+				}
+				if (this.importData.player.volatiles[7] == 1) {
+					this.sides[0].active[0].addVolatile("ingrain");
+				}
+				if (this.importData.player.volatiles[8] != 0) {
+					this.sides[0].active[0].lastMove = {
+						id: this.importData.player.disable_move as ID,
+					} as ActiveMove;
+					this.sides[0].active[0].addVolatile(
+						"disable",
+						this.sides[1].active[0]
+					);
+					this.sides[0].active[0].volatiles["disable"].duration =
+						this.importData.player.volatiles[8];
+				}
+				if (this.importData.player.volatiles[9] != 0) {
+					this.sides[0].active[0].lastMove = {
+						id: this.importData.player.last_move as ID,
+					} as ActiveMove;
+					this.sides[0].active[0].addVolatile("encore");
+					this.sides[0].active[0].volatiles["encore"].duration =
+						this.importData.player.volatiles[9];
+				}
+				if (this.importData.player.volatiles[10] != 0) {
+					console.log(this.importData.player.volatiles[10]);
+					this.sides[0].addSlotCondition(
+						this.sides[0].active[0],
+						"futuremove",
+						this.sides[1].active[0]
+					);
+					this.sides[0].slotConditions[0]["futuremove"].duration =
+						this.importData.player.volatiles[10];
+					this.sides[0].slotConditions[0]["futuremove"].move =
+						"futuresight";
+					this.sides[0].slotConditions[0]["futuremove"].moveData = {
+						id: "futuresight",
+						name: "Future Sight",
+						accuracy: 100,
+						basePower: 120,
+						category: "Special",
+						priority: 0,
+						flags: {},
+						ignoreImmunity: false,
+						effectType: "Move",
+						isFutureMove: true,
+						type: "Psychic",
+					};
+				}
+				if (this.importData.player.volatiles[11] != 0) {
+					this.sides[0].active[0].addVolatile("aquaring");
+				}
+				if (this.importData.player.volatiles[12] != 0) {
+					this.sides[0].active[0].addVolatile(
+						"attract",
+						this.sides[1].active[0]
+					);
+				}
+				if (this.importData.player.volatiles[13] != 0) {
+					this.sides[0].active[0].addVolatile("torment");
+				}
 
-
-
-                if (this.importData.enemy.volatiles[1] == 1) {
+				if (this.importData.enemy.volatiles[1] == 1) {
 					this.sides[1].active[0].addVolatile("confusion");
 				}
 				if (this.importData.enemy.volatiles[2] != 0) {
@@ -3543,73 +3574,85 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-                for (let i = 0; i < this.importData.player.hazards[0]; i++){
-                    this.sides[0].addSideCondition("spikes", "debug")
-                }
-                for (let i = 0; i < this.importData.player.hazards[1]; i++){
-                    this.sides[0].addSideCondition("toxicspikes", "debug")
-                }
-                for (let i = 0; i < this.importData.player.hazards[2]; i++){
-                    this.sides[0].addSideCondition("stealthrock", "debug")
-                }
-				if(this.importData.player.hazards[3] != 0){
-                    this.sides[0].addSideCondition("reflect", "debug")
-                    this.sides[0].sideConditions["reflect"].duration = this.importData.player.hazards[3]
+				for (let i = 0; i < this.importData.player.hazards[0]; i++) {
+					this.sides[0].addSideCondition("spikes", "debug");
 				}
-				if(this.importData.player.hazards[4] != 0){
-					this.sides[0].addSideCondition("lightscreen", "debug")
-                    this.sides[0].sideConditions["lightscreen"].duration = this.importData.player.hazards[4]
+				for (let i = 0; i < this.importData.player.hazards[1]; i++) {
+					this.sides[0].addSideCondition("toxicspikes", "debug");
 				}
-				if(this.importData.player.hazards[5] != 0){
-					this.sides[0].addSideCondition("safeguard", "debug")
-                    this.sides[0].sideConditions["safeguard"].duration = this.importData.player.hazards[5]
+				for (let i = 0; i < this.importData.player.hazards[2]; i++) {
+					this.sides[0].addSideCondition("stealthrock", "debug");
 				}
-                if(this.importData.player.hazards[6] != 0){
-					this.sides[0].addSideCondition("mist", "debug")
-                    this.sides[0].sideConditions["mist"].duration = this.importData.player.hazards[6]
+				if (this.importData.player.hazards[3] != 0) {
+					this.sides[0].addSideCondition("reflect", "debug");
+					this.sides[0].sideConditions["reflect"].duration =
+						this.importData.player.hazards[3];
 				}
-                if(this.importData.player.hazards[7] != 0){
-					this.sides[0].addSideCondition("tailwind", "debug")
-                    this.sides[0].sideConditions["tailwind"].duration = this.importData.player.hazards[7]
+				if (this.importData.player.hazards[4] != 0) {
+					this.sides[0].addSideCondition("lightscreen", "debug");
+					this.sides[0].sideConditions["lightscreen"].duration =
+						this.importData.player.hazards[4];
 				}
-                if(this.importData.player.hazards[8] != 0){
-					this.sides[0].addSideCondition("luckychant", "debug")
-                    this.sides[0].sideConditions["luckychant"].duration = this.importData.player.hazards[8]
+				if (this.importData.player.hazards[5] != 0) {
+					this.sides[0].addSideCondition("safeguard", "debug");
+					this.sides[0].sideConditions["safeguard"].duration =
+						this.importData.player.hazards[5];
 				}
-                for (let i = 0; i < this.importData.enemy.hazards[0]; i++){
-                    this.sides[1].addSideCondition("spikes", "debug")
-                }
-                for (let i = 0; i < this.importData.enemy.hazards[1]; i++){
-                    this.sides[1].addSideCondition("toxicspikes", "debug")
-                }
-                for (let i = 0; i < this.importData.enemy.hazards[2]; i++){
-                    this.sides[1].addSideCondition("stealthrock", "debug")
-                }
-				if(this.importData.enemy.hazards[3] != 0){
-					this.sides[1].addSideCondition("reflect", "debug")
-                    this.sides[1].sideConditions["reflect"].duration = this.importData.enemy.hazards[3]
+				if (this.importData.player.hazards[6] != 0) {
+					this.sides[0].addSideCondition("mist", "debug");
+					this.sides[0].sideConditions["mist"].duration =
+						this.importData.player.hazards[6];
 				}
-				if(this.importData.enemy.hazards[4] != 0){
-					this.sides[1].addSideCondition("lightscreen", "debug")
-                    this.sides[1].sideConditions["lightscreen"].duration = this.importData.enemy.hazards[4]
+				if (this.importData.player.hazards[7] != 0) {
+					this.sides[0].addSideCondition("tailwind", "debug");
+					this.sides[0].sideConditions["tailwind"].duration =
+						this.importData.player.hazards[7];
 				}
-				if(this.importData.enemy.hazards[5] != 0){
-					this.sides[1].addSideCondition("safeguard", "debug")
-                    this.sides[1].sideConditions["safeguard"].duration = this.importData.enemy.hazards[5]
+				if (this.importData.player.hazards[8] != 0) {
+					this.sides[0].addSideCondition("luckychant", "debug");
+					this.sides[0].sideConditions["luckychant"].duration =
+						this.importData.player.hazards[8];
 				}
-                if(this.importData.enemy.hazards[6] != 0){
-					this.sides[1].addSideCondition("mist", "debug")
-                    this.sides[1].sideConditions["mist"].duration = this.importData.enemy.hazards[6]
+				for (let i = 0; i < this.importData.enemy.hazards[0]; i++) {
+					this.sides[1].addSideCondition("spikes", "debug");
 				}
-                if(this.importData.enemy.hazards[7] != 0){
-					this.sides[1].addSideCondition("tailwind", "debug")
-                    this.sides[1].sideConditions["tailwind"].duration = this.importData.enemy.hazards[7]
+				for (let i = 0; i < this.importData.enemy.hazards[1]; i++) {
+					this.sides[1].addSideCondition("toxicspikes", "debug");
 				}
-                if(this.importData.enemy.hazards[8] != 0){
-					this.sides[1].addSideCondition("luckychant", "debug")
-                    this.sides[1].sideConditions["luckychant"].duration = this.importData.enemy.hazards[8]
+				for (let i = 0; i < this.importData.enemy.hazards[2]; i++) {
+					this.sides[1].addSideCondition("stealthrock", "debug");
 				}
-                
+				if (this.importData.enemy.hazards[3] != 0) {
+					this.sides[1].addSideCondition("reflect", "debug");
+					this.sides[1].sideConditions["reflect"].duration =
+						this.importData.enemy.hazards[3];
+				}
+				if (this.importData.enemy.hazards[4] != 0) {
+					this.sides[1].addSideCondition("lightscreen", "debug");
+					this.sides[1].sideConditions["lightscreen"].duration =
+						this.importData.enemy.hazards[4];
+				}
+				if (this.importData.enemy.hazards[5] != 0) {
+					this.sides[1].addSideCondition("safeguard", "debug");
+					this.sides[1].sideConditions["safeguard"].duration =
+						this.importData.enemy.hazards[5];
+				}
+				if (this.importData.enemy.hazards[6] != 0) {
+					this.sides[1].addSideCondition("mist", "debug");
+					this.sides[1].sideConditions["mist"].duration =
+						this.importData.enemy.hazards[6];
+				}
+				if (this.importData.enemy.hazards[7] != 0) {
+					this.sides[1].addSideCondition("tailwind", "debug");
+					this.sides[1].sideConditions["tailwind"].duration =
+						this.importData.enemy.hazards[7];
+				}
+				if (this.importData.enemy.hazards[8] != 0) {
+					this.sides[1].addSideCondition("luckychant", "debug");
+					this.sides[1].sideConditions["luckychant"].duration =
+						this.importData.enemy.hazards[8];
+				}
+
 				this.eachEvent("BeforeTurn");
 				break;
 			case "residual":
