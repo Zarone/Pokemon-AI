@@ -119,8 +119,38 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		this.push(`${type}\n${data}`);
 	}
 
+	getHazard(hazard: string){
+		if (this.battle?.sides[0].sideConditions[hazard] == null){
+			return 0;
+		} else if (this.battle?.sides[0].sideConditions[hazard].duration){
+			return this.battle?.sides[0].sideConditions[hazard].duration
+		} else if (this.battle?.sides[0].sideConditions[hazard].layers){
+			return this.battle?.sides[0].sideConditions[hazard].layers
+		}
+	}
+
 	getJson() {
-		return this.battle?.sides[0].pokemon[0].hp;
+		let weather = this.battle?.field.weather;
+		let hazards = [ this.getHazard("spikes"), this.getHazard("toxicspikes"), 
+			this.getHazard("stealthrock"), this.getHazard("reflect"), this.getHazard("lightscreen"), 
+			this.getHazard("safeguard"), this.getHazard("mist"), this.getHazard("tailwind"), 
+			this.getHazard("luckychant") ]
+		let statusP1 = [];
+		let statusP2 = [];
+
+		for (let i = 0; i < 6; i++){
+			statusP1.push(this.battle?.sides[0].pokemon[i].status)
+			statusP2.push(this.battle?.sides[1].pokemon[i].status)
+		}
+
+		console.log(statusP1, statusP2)
+		
+		return {
+			weather,
+			hazards,
+			statusP1,
+			statusP2
+		};
 	}
 
 	playFromAction(i: number, j: number) {
@@ -169,18 +199,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			case "run-all":
 				for (let i = 1; i < 11; i++) {
 					for (let j = 1; j < 11; j++) {
-						console.log(`${i} ${j}`);
-						this.battle?.send("new battle", `${i} ${j}`);
-						if (i < 5) {
-							console.log("p1", `move ${i}`);
-						} else {
-							console.log("p1", `switch ${i - 4}`);
-						}
-						if (j < 5) {
-							console.log("p2", `move ${j}`);
-						} else {
-							console.log("p2", `switch ${j - 4}`);
-						}
+
 						this.playFromAction(i, j);
 						this.battle?.sendUpdates();
 
@@ -193,7 +212,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							this.battle?.sides[1].choice.error === ""
 						) {
 							// if there's no errors or forced switches
-							console.log("no force switch no error");
 							thisOutput.push(this.getJson());
 						}
 
@@ -201,7 +219,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							this.battle?.sides[0].choice.forcedSwitchesLeft !== 0 &&
 							this.battle?.sides[1].choice.forcedSwitchesLeft !== 0
 						) {
-							console.log("double ko");
 							for (let k = 5; k < 11; k++) {
 								for (let l = 5; l < 11; l++) {
 									if (k !== 5 || l !== 5) {
@@ -224,8 +241,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								!!this.battle?.sides[0].choice.forcedSwitchesLeft &&
 								this.battle?.sides[0].choice.forcedSwitchesLeft > 0
 							) {
-								console.log("player 1 pokemon ko");
-								// this.battle?.send("", `${i} ${j}: p1 switch 1`);
 								this._writeLine("p1", "switch 1");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
@@ -276,8 +291,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								!!this.battle?.sides[1].choice.forcedSwitchesLeft &&
 								this.battle?.sides[1].choice.forcedSwitchesLeft > 0
 							) {
-								console.log("player 2 pokemon ko");
-								// this.battle?.send("", `${i} ${j}: p2 switch 1`);
 								this._writeLine("p2", "switch 1");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
@@ -325,7 +338,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							}
 						}
 
-						console.log(i, j, thisOutput);
 						this.jsonOutput = this.jsonOutput || [];
 						this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
 						this.jsonOutput[j - 1][i - 1] = thisOutput;
@@ -334,7 +346,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							this._write(this.initChunk as string);
 					}
 				}
-				// console.log(this.jsonOutput);
 				fs.writeFileSync(
 					"./battle_ai/state_files/battleStatesFromShowdown.json",
 					JSON.stringify(this.jsonOutput)

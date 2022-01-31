@@ -460,20 +460,209 @@ battle-stream.ts
     initChunk: string | undefined;
 
     // ... 
+
+    // add new helper functions
+    getHazard(hazard: string){
+		if (this.battle?.sides[0].sideConditions[hazard] == null){
+			return 0;
+		} else if (this.battle?.sides[0].sideConditions[hazard].duration){
+			return this.battle?.sides[0].sideConditions[hazard].duration
+		} else if (this.battle?.sides[0].sideConditions[hazard].layers){
+			return this.battle?.sides[0].sideConditions[hazard].layers
+		}
+	}
+
+	getJson() {
+		let weather = this.battle?.field.weather;
+		let hazards = [ this.getHazard("spikes"), this.getHazard("toxicspikes"), 
+			this.getHazard("stealthrock"), this.getHazard("reflect"), this.getHazard("lightscreen"), 
+			this.getHazard("safeguard"), this.getHazard("mist"), this.getHazard("tailwind"), 
+			this.getHazard("luckychant") ]
+		let statusP1 = [];
+		let statusP2 = [];
+
+		for (let i = 0; i < 6; i++){
+			statusP1.push(this.battle?.sides[0].pokemon[i].status)
+			statusP2.push(this.battle?.sides[1].pokemon[i].status)
+		}
+
+		console.log(statusP1, statusP2)
+		
+		return {
+			weather,
+			hazards,
+			statusP1,
+			statusP2
+		};
+	}
+
+	playFromAction(i: number, j: number) {
+		if (i < 5) {
+			this._writeLine("p1", `move ${i}`);
+		} else {
+			this._writeLine("p1", `switch ${i - 4}`);
+		}
+		if (j < 5) {
+			this._writeLine("p2", `move ${j}`);
+		} else {
+			this._writeLine("p2", `switch ${j - 4}`);
+		}
+	}
     
     // add case "run-all" to simulate all possibilities
     case "run-all":
-        for (let i = 1; i < 5; i++){
-            for (let j = 1; j < 5; j++){
-                console.log(`about to move ${i} ${j}`)
-                this._writeLine("p1", `move ${i}`)
-                this._writeLine("p2", `move ${j}`)
-                console.log(this.battle?.log)
-                console.log(this.battle?.turn)
-                // export resulting data before "start"
-                console.log("about to restart")
-                this._write(this.initChunk as string)
+        for (let i = 1; i < 11; i++) {
+            for (let j = 1; j < 11; j++) {
+
+                this.playFromAction(i, j);
+                this.battle?.sendUpdates();
+
+                let thisOutput = [];
+
+                if (
+                    this.battle?.sides[0].choice.forcedSwitchesLeft == 0 &&
+                    this.battle?.sides[1].choice.forcedSwitchesLeft == 0 &&
+                    this.battle?.sides[0].choice.error === "" &&
+                    this.battle?.sides[1].choice.error === ""
+                ) {
+                    // if there's no errors or forced switches
+                    thisOutput.push(this.getJson());
+                }
+
+                if (
+                    this.battle?.sides[0].choice.forcedSwitchesLeft !== 0 &&
+                    this.battle?.sides[1].choice.forcedSwitchesLeft !== 0
+                ) {
+                    for (let k = 5; k < 11; k++) {
+                        for (let l = 5; l < 11; l++) {
+                            if (k !== 5 || l !== 5) {
+                                this.playFromAction(k, j);
+                            }
+
+                            this._writeLine("p1", `switch ${k - 4}`);
+                            this._writeLine("p2", `switch ${l - 4}`);
+                            this.battle?.sendUpdates();
+                            if (this.battle?.sides[0].choice.error === "")
+                                thisOutput.push(this.getJson());
+
+                            if (k !== 10 || l !== 10) {
+                                this._write(this.initChunk as string);
+                            }
+                        }
+                    }
+                } else {
+                    if (
+                        !!this.battle?.sides[0].choice.forcedSwitchesLeft &&
+                        this.battle?.sides[0].choice.forcedSwitchesLeft > 0
+                    ) {
+                        this._writeLine("p1", "switch 1");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[0].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p1 switch 2`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p1", "switch 2");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[0].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p1 switch 3`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p1", "switch 3");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[0].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p1 switch 4`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p1", "switch 4");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[0].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p1 switch 5`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p1", "switch 5");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[0].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p1 switch 6`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p1", "switch 6");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[0].choice.error === "")
+                            thisOutput.push(this.getJson());
+                    }
+
+                    if (
+                        !!this.battle?.sides[1].choice.forcedSwitchesLeft &&
+                        this.battle?.sides[1].choice.forcedSwitchesLeft > 0
+                    ) {
+                        this._writeLine("p2", "switch 1");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[1].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p2 switch 2`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p2", "switch 2");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[1].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p2 switch 3`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p2", "switch 3");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[1].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p2 switch 4`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p2", "switch 4");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[1].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p2 switch 5`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p2", "switch 5");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[1].choice.error === "")
+                            thisOutput.push(this.getJson());
+                        this._write(this.initChunk as string);
+
+                        // this.battle?.send("", `${i} ${j}: p2 switch 6`);
+                        this.playFromAction(i, j);
+                        this._writeLine("p2", "switch 6");
+                        this.battle?.sendUpdates();
+                        if (this.battle?.sides[1].choice.error === "")
+                            thisOutput.push(this.getJson());
+                    }
+                }
+
+                this.jsonOutput = this.jsonOutput || [];
+                this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
+                this.jsonOutput[j - 1][i - 1] = thisOutput;
+
+                if (i !== 10 || j !== 10)
+                    this._write(this.initChunk as string);
             }
         }
-
+        fs.writeFileSync(
+            "./battle_ai/state_files/battleStatesFromShowdown.json",
+            JSON.stringify(this.jsonOutput)
+        );
+        // recall that battle.possibleSwitches exists when doing switches
         break;
