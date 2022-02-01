@@ -204,7 +204,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	getStats(pokemon: Pokemon[]) {
 		let stats = [];
 		for (let i = 0; i < 6; i++) {
-			stats[i] = pokemon[i].storedStats;
+			stats[i] = pokemon[i].storedStats as any;
+			stats[i]["hp"] = pokemon[i].baseMaxhp;
 		}
 		return stats;
 	}
@@ -217,7 +218,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return types;
 	}
 
-	getJson() {
+	getJson(activePokemonName: string | undefined) {
 		let weather = this.battle?.field.weather;
 		let hazards = [
 			this.getHazard("spikes"),
@@ -268,6 +269,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			statsP2,
 			typesP1,
 			typesP2,
+			activePokemonName,
 		};
 	}
 
@@ -318,7 +320,14 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				for (let i = 1; i < 11; i++) {
 					for (let j = 1; j < 11; j++) {
 						this.playFromAction(i, j);
+
 						this.battle?.sendUpdates();
+
+						let activeNickname = undefined;
+
+						if (i > 4) {
+							activeNickname = this.battle?.sides[0].active[0].name;
+						}
 
 						let thisOutput = [];
 
@@ -329,7 +338,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							this.battle?.sides[1].choice.error === ""
 						) {
 							// if there's no errors or forced switches
-							thisOutput.push(this.getJson());
+							thisOutput.push(this.getJson(activeNickname));
 						}
 
 						if (
@@ -346,7 +355,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 									this._writeLine("p2", `switch ${l - 4}`);
 									this.battle?.sendUpdates();
 									if (this.battle?.sides[0].choice.error === "")
-										thisOutput.push(this.getJson());
+										thisOutput.push(this.getJson(activeNickname));
 
 									if (k !== 10 || l !== 10) {
 										this._write(this.initChunk as string);
@@ -361,7 +370,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 1");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 2`);
@@ -369,7 +378,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 2");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 3`);
@@ -377,7 +386,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 3");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 4`);
@@ -385,7 +394,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 4");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 5`);
@@ -393,7 +402,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 5");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 6`);
@@ -401,7 +410,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 6");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 							}
 
 							if (
@@ -411,7 +420,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 1");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 2`);
@@ -419,7 +428,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 2");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 3`);
@@ -427,7 +436,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 3");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 4`);
@@ -435,7 +444,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 4");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 5`);
@@ -443,7 +452,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 5");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 6`);
@@ -451,7 +460,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 6");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "")
-									thisOutput.push(this.getJson());
+									thisOutput.push(this.getJson(activeNickname));
 							}
 						}
 

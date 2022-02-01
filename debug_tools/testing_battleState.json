@@ -2,7 +2,7 @@
   "turns_left_of_weather": 255,
   "weather": 1,
   "player": {
-    "health": [10, 0, 342, 0, 326, 45],
+    "health": [100, 100, 342, 100, 326, 45],
     "statuses": [
       [
         [0, 0, 0, 0, 0],
@@ -26,8 +26,8 @@
     ],
     "disable_move": "highjumpkick",
     "last_move": "rockslide",
-    "hazards": [1, 0, 0, 2, 0, 0, 0, 0, 0],
-    "volatiles": [1, 3, 0, 1, 1, 0, 1, 1, 3, 0, 3, 3, 3, 0]
+    "hazards": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "volatiles": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   "enemy": {
     "health": [104, 244, 201, 315, 228, 192],

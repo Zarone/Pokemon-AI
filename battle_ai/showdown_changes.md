@@ -459,6 +459,30 @@ battle-stream.ts
     // ...
 
     // add new helper functions
+    pushMessage(type: string, data: string) {
+    	if (this.replay) {
+    		if (type === "update") {
+    			if (this.replay === "spectator") {
+    				this.push(
+    					data.replace(
+    						/\n\|split\|p[1234]\n(?:[^\n]*)\n([^\n]*)/g,
+    						"\n$1"
+    					)
+    				);
+    			} else {
+    				this.push(
+    					data.replace(
+    						/\n\|split\|p[1234]\n([^\n]*)\n(?:[^\n]*)/g,
+    						"\n$1"
+    					)
+    				);
+    			}
+    		}
+    		return;
+    	}
+    	this.push(`${type}\n${data}`);
+    }
+
     getHazard(hazard: string) {
     	if (this.battle?.sides[0].sideConditions[hazard] == null) {
     		return 0;
@@ -544,7 +568,8 @@ battle-stream.ts
     getStats(pokemon: Pokemon[]) {
     	let stats = [];
     	for (let i = 0; i < 6; i++) {
-    		stats[i] = pokemon[i].storedStats;
+    		stats[i] = pokemon[i].storedStats as any;
+    		stats[i]["hp"] = pokemon[i].baseMaxhp;
     	}
     	return stats;
     }
@@ -557,7 +582,7 @@ battle-stream.ts
     	return types;
     }
 
-    getJson() {
+    getJson(activePokemonName: string | undefined) {
     	let weather = this.battle?.field.weather;
     	let hazards = [
     		this.getHazard("spikes"),
@@ -608,6 +633,7 @@ battle-stream.ts
     		statsP2,
     		typesP1,
     		typesP2,
+    		activePokemonName,
     	};
     }
 
@@ -628,9 +654,15 @@ battle-stream.ts
     case "run-all":
         for (let i = 1; i < 11; i++) {
             for (let j = 1; j < 11; j++) {
-
                 this.playFromAction(i, j);
+
                 this.battle?.sendUpdates();
+
+                let activeNickname = undefined;
+
+                if (i > 4) {
+                    activeNickname = this.battle?.sides[0].active[0].name;
+                }
 
                 let thisOutput = [];
 
@@ -641,7 +673,7 @@ battle-stream.ts
                     this.battle?.sides[1].choice.error === ""
                 ) {
                     // if there's no errors or forced switches
-                    thisOutput.push(this.getJson());
+                    thisOutput.push(this.getJson(activeNickname));
                 }
 
                 if (
@@ -658,7 +690,7 @@ battle-stream.ts
                             this._writeLine("p2", `switch ${l - 4}`);
                             this.battle?.sendUpdates();
                             if (this.battle?.sides[0].choice.error === "")
-                                thisOutput.push(this.getJson());
+                                thisOutput.push(this.getJson(activeNickname));
 
                             if (k !== 10 || l !== 10) {
                                 this._write(this.initChunk as string);
@@ -673,7 +705,7 @@ battle-stream.ts
                         this._writeLine("p1", "switch 1");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[0].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p1 switch 2`);
@@ -681,7 +713,7 @@ battle-stream.ts
                         this._writeLine("p1", "switch 2");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[0].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p1 switch 3`);
@@ -689,7 +721,7 @@ battle-stream.ts
                         this._writeLine("p1", "switch 3");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[0].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p1 switch 4`);
@@ -697,7 +729,7 @@ battle-stream.ts
                         this._writeLine("p1", "switch 4");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[0].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p1 switch 5`);
@@ -705,7 +737,7 @@ battle-stream.ts
                         this._writeLine("p1", "switch 5");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[0].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p1 switch 6`);
@@ -713,7 +745,7 @@ battle-stream.ts
                         this._writeLine("p1", "switch 6");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[0].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                     }
 
                     if (
@@ -723,7 +755,7 @@ battle-stream.ts
                         this._writeLine("p2", "switch 1");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[1].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p2 switch 2`);
@@ -731,7 +763,7 @@ battle-stream.ts
                         this._writeLine("p2", "switch 2");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[1].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p2 switch 3`);
@@ -739,7 +771,7 @@ battle-stream.ts
                         this._writeLine("p2", "switch 3");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[1].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p2 switch 4`);
@@ -747,7 +779,7 @@ battle-stream.ts
                         this._writeLine("p2", "switch 4");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[1].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p2 switch 5`);
@@ -755,7 +787,7 @@ battle-stream.ts
                         this._writeLine("p2", "switch 5");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[1].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                         this._write(this.initChunk as string);
 
                         // this.battle?.send("", `${i} ${j}: p2 switch 6`);
@@ -763,7 +795,7 @@ battle-stream.ts
                         this._writeLine("p2", "switch 6");
                         this.battle?.sendUpdates();
                         if (this.battle?.sides[1].choice.error === "")
-                            thisOutput.push(this.getJson());
+                            thisOutput.push(this.getJson(activeNickname));
                     }
                 }
 
