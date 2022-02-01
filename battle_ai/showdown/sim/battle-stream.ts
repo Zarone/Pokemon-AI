@@ -119,37 +119,155 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		this.push(`${type}\n${data}`);
 	}
 
-	getHazard(hazard: string){
-		if (this.battle?.sides[0].sideConditions[hazard] == null){
+	getHazard(hazard: string) {
+		if (this.battle?.sides[0].sideConditions[hazard] == null) {
 			return 0;
-		} else if (this.battle?.sides[0].sideConditions[hazard].duration){
-			return this.battle?.sides[0].sideConditions[hazard].duration
-		} else if (this.battle?.sides[0].sideConditions[hazard].layers){
-			return this.battle?.sides[0].sideConditions[hazard].layers
+		} else if (this.battle?.sides[0].sideConditions[hazard].duration) {
+			return this.battle?.sides[0].sideConditions[hazard].duration;
+		} else if (this.battle?.sides[0].sideConditions[hazard].layers) {
+			return this.battle?.sides[0].sideConditions[hazard].layers;
 		}
+	}
+
+	getVolatiles(side: Side) {
+		let volatiles = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+		for (let i = 0; i < 6; i++) {
+			// console.log(Object.keys(side.pokemon[i].volatiles));
+			if (side.pokemon[i].volatiles["leechseed"]) {
+				volatiles[0] = 1;
+			}
+			if (side.pokemon[i].volatiles["confusion"]) {
+				volatiles[1] = side.pokemon[i].volatiles["confusion"].duration;
+			}
+			if (side.pokemon[i].volatiles["taunt"]) {
+				volatiles[2] = side.pokemon[i].volatiles["taunt"].duration;
+			}
+			if (side.pokemon[i].volatiles["yawn"]) {
+				volatiles[3] = 1;
+			}
+			if (side.pokemon[i].volatiles["perishsong"]) {
+				if (side.pokemon[i].volatiles["perishsong"].duration == 3) {
+					volatiles[4] = 1;
+				} else if (side.pokemon[i].volatiles["perishsong"].duration == 2) {
+					volatiles[4] = 2;
+				} else if (side.pokemon[i].volatiles["perishsong"].duration == 1) {
+					volatiles[4] = 3;
+				}
+			}
+			if (side.pokemon[i].volatiles["substitute"]) {
+				volatiles[5] = 1;
+			}
+			if (side.pokemon[i].volatiles["focusenergy"]) {
+				volatiles[6] = 1;
+			}
+			if (side.pokemon[i].volatiles["ingrain"]) {
+				volatiles[7] = 1;
+			}
+			if (side.pokemon[i].volatiles["disable"]) {
+				volatiles[8] = side.pokemon[i].volatiles["disable"].duration;
+			}
+			if (side.pokemon[i].volatiles["encore"]) {
+				volatiles[9] = side.pokemon[i].volatiles["encore"].duration;
+			}
+			if (side.slotConditions[0]["futuremove"]) {
+				volatiles[10] = side.slotConditions[0]["futuremove"].duration;
+			}
+			if (side.pokemon[i].volatiles["aquaring"]) {
+				volatiles[11] = 1;
+			}
+			if (side.pokemon[i].volatiles["attract"]) {
+				volatiles[12] = 1;
+			}
+			if (side.pokemon[i].volatiles["torment"]) {
+				volatiles[13] = 1;
+			}
+		}
+		return volatiles;
+	}
+
+	getBoosts(pokemon: Pokemon[]) {
+		let boosts = [];
+		for (let i = 0; i < 6; i++) {
+			boosts[i] = pokemon[i].boosts;
+		}
+		return boosts;
+	}
+
+	getHP(pokemon: Pokemon[]) {
+		let hp = [];
+		for (let i = 0; i < 6; i++) {
+			hp[i] = Math.round((pokemon[i].hp / pokemon[i].maxhp) * 100);
+		}
+		return hp;
+	}
+
+	getStats(pokemon: Pokemon[]) {
+		let stats = [];
+		for (let i = 0; i < 6; i++) {
+			stats[i] = pokemon[i].storedStats;
+		}
+		return stats;
+	}
+
+	getTypes(pokemon: Pokemon[]) {
+		let types = [];
+		for (let i = 0; i < 6; i++) {
+			types[i] = pokemon[i].types;
+		}
+		return types;
 	}
 
 	getJson() {
 		let weather = this.battle?.field.weather;
-		let hazards = [ this.getHazard("spikes"), this.getHazard("toxicspikes"), 
-			this.getHazard("stealthrock"), this.getHazard("reflect"), this.getHazard("lightscreen"), 
-			this.getHazard("safeguard"), this.getHazard("mist"), this.getHazard("tailwind"), 
-			this.getHazard("luckychant") ]
+		let hazards = [
+			this.getHazard("spikes"),
+			this.getHazard("toxicspikes"),
+			this.getHazard("stealthrock"),
+			this.getHazard("reflect"),
+			this.getHazard("lightscreen"),
+			this.getHazard("safeguard"),
+			this.getHazard("mist"),
+			this.getHazard("tailwind"),
+			this.getHazard("luckychant"),
+		];
 		let statusP1 = [];
 		let statusP2 = [];
 
-		for (let i = 0; i < 6; i++){
-			statusP1.push(this.battle?.sides[0].pokemon[i].status)
-			statusP2.push(this.battle?.sides[1].pokemon[i].status)
+		for (let i = 0; i < 6; i++) {
+			statusP1.push(this.battle?.sides[0].pokemon[i].status);
+			statusP2.push(this.battle?.sides[1].pokemon[i].status);
 		}
 
-		console.log(statusP1, statusP2)
-		
+		let volatilesP1 = this.getVolatiles(this.battle?.sides[0] as Side);
+		let volatilesP2 = this.getVolatiles(this.battle?.sides[1] as Side);
+
+		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
+		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
+
+		let hpP1 = this.getHP(this.battle?.sides[0].pokemon as Pokemon[]);
+		let hpP2 = this.getHP(this.battle?.sides[1].pokemon as Pokemon[]);
+
+		let statsP1 = this.getStats(this.battle?.sides[0].pokemon as Pokemon[]);
+		let statsP2 = this.getStats(this.battle?.sides[1].pokemon as Pokemon[]);
+
+		let typesP1 = this.getTypes(this.battle?.sides[0].pokemon as Pokemon[]);
+		let typesP2 = this.getTypes(this.battle?.sides[1].pokemon as Pokemon[]);
+
 		return {
 			weather,
 			hazards,
 			statusP1,
-			statusP2
+			statusP2,
+			volatilesP1,
+			volatilesP2,
+			boostsP1,
+			boostsP2,
+			hpP1,
+			hpP2,
+			statsP1,
+			statsP2,
+			typesP1,
+			typesP2,
 		};
 	}
 
@@ -199,7 +317,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			case "run-all":
 				for (let i = 1; i < 11; i++) {
 					for (let j = 1; j < 11; j++) {
-
 						this.playFromAction(i, j);
 						this.battle?.sendUpdates();
 

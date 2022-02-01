@@ -132,14 +132,14 @@ function GameReader:process_line(line)
         self.enemy.volatiles[1] = 1
     elseif line == self.nicknames[self.active + 1] .. " became confused!" or line == self.nicknames[self.active + 1] ..
         " became confused due to fatigue!" then
-        self.player.volatiles[2] = 1
+        self.player.volatiles[2] = 5
     elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
         " became confused!" or line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..
         " became confused due to fatique!") or
         (not self.wild_battle and line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
             " became confused!" or line == "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] ..
             " became confused due to fatigue!") then
-        self.enemy.volatiles[2] = 1
+        self.enemy.volatiles[2] = 5
     elseif line == self.nicknames[self.active + 1] .. " snapped out of its confusion." then
         self.player.volatiles[2] = 0
     elseif (self.wild_battle and line == "The wild " .. self.nicknames_enemy[self.enemy_active + 1] ..

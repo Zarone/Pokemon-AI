@@ -56,7 +56,7 @@ desired outputs:
           # make sure to include the active pokemon seperately
           
           # (1+6+17)*12 = 288
-          %HP, *basestats, *types
+          %HP, *stats (or basestats), *types
           
           # 17 types
           # types = [ isFire, isWater, isGrass, etc ]

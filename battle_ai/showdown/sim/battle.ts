@@ -3281,8 +3281,10 @@ export class Battle {
 						this.sides[1].active[0]
 					);
 				}
-				if (this.importData.player.volatiles[1] == 1) {
+				if (this.importData.player.volatiles[1] != 0) {
 					this.sides[0].active[0].addVolatile("confusion");
+					this.sides[0].active[0].volatiles["confusion"].duration =
+						this.importData.player.volatiles[1];
 				}
 				if (this.importData.player.volatiles[2] != 0) {
 					this.sides[0].active[0].addVolatile("taunt");
@@ -3331,7 +3333,6 @@ export class Battle {
 						this.importData.player.volatiles[9];
 				}
 				if (this.importData.player.volatiles[10] != 0) {
-					console.log(this.importData.player.volatiles[10]);
 					this.sides[0].addSlotCondition(
 						this.sides[0].active[0],
 						"futuremove",
@@ -3368,8 +3369,16 @@ export class Battle {
 					this.sides[0].active[0].addVolatile("torment");
 				}
 
-				if (this.importData.enemy.volatiles[1] == 1) {
+				if (this.importData.enemy.volatiles[0] == 1) {
+					this.sides[1].active[0].addVolatile(
+						"leechseed",
+						this.sides[0].active[0]
+					);
+				}
+				if (this.importData.enemy.volatiles[1] != 0) {
 					this.sides[1].active[0].addVolatile("confusion");
+					this.sides[1].active[0].volatiles["confusion"].duration =
+						this.importData.enemy.volatiles[1];
 				}
 				if (this.importData.enemy.volatiles[2] != 0) {
 					this.sides[1].active[0].addVolatile("taunt");

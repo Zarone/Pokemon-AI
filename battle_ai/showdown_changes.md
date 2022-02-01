@@ -4,7 +4,6 @@ battle.ts
 
 battle.ts
 
-
     // overwrote some random function to try and make the most likely events occur
     random(m?: number, n?: number) {
         if (m !== undefined && n !== undefined){
@@ -14,13 +13,13 @@ battle.ts
         } else {
             return 0.5
         }
-		// return this.prng.next(m, n);
-	}
+    	// return this.prng.next(m, n);
+    }
 
-	randomChance(numerator: number, denominator: number) {
+    randomChance(numerator: number, denominator: number) {
         return numerator/denominator > 0.5;
-		// return this.prng.randomChance(numerator, denominator);
-	}
+    	// return this.prng.randomChance(numerator, denominator);
+    }
 
     this.send() // sends info to stream for debugging
     console.log() // also sends to lua console for some reason
@@ -42,7 +41,6 @@ battle.ts
 
         // ...
     }
-
 
 inside Battle.runAction() under switch case "start"
 
@@ -72,7 +70,7 @@ inside Battle.runAction() under switch case "start"
 
         if (i < this.importData.enemy.statuses[0].length){
             this.sides[1].pokemon[i].sethp(this.importData.enemy.health[i])
-            
+
             if (this.importData.enemy.statuses[0][i][0] == 1) {
                 // paralysis
                 this.sides[1].pokemon[i].setStatus("par");
@@ -388,7 +386,6 @@ inside Battle.runAction() under switch case "start"
 
     Object.keys(this.sides[1].pokemon[0].volatiles)
 
-
 inside Battle.runAction() under switch case "beforeTurn"
 
     // can't be in start for some reason (somehow interferes with switch logic)
@@ -459,56 +456,174 @@ battle-stream.ts
     // declare property initChunk for battle restart later
     initChunk: string | undefined;
 
-    // ... 
+    // ...
 
     // add new helper functions
-    getHazard(hazard: string){
-		if (this.battle?.sides[0].sideConditions[hazard] == null){
-			return 0;
-		} else if (this.battle?.sides[0].sideConditions[hazard].duration){
-			return this.battle?.sides[0].sideConditions[hazard].duration
-		} else if (this.battle?.sides[0].sideConditions[hazard].layers){
-			return this.battle?.sides[0].sideConditions[hazard].layers
-		}
-	}
+    getHazard(hazard: string) {
+    	if (this.battle?.sides[0].sideConditions[hazard] == null) {
+    		return 0;
+    	} else if (this.battle?.sides[0].sideConditions[hazard].duration) {
+    		return this.battle?.sides[0].sideConditions[hazard].duration;
+    	} else if (this.battle?.sides[0].sideConditions[hazard].layers) {
+    		return this.battle?.sides[0].sideConditions[hazard].layers;
+    	}
+    }
 
-	getJson() {
-		let weather = this.battle?.field.weather;
-		let hazards = [ this.getHazard("spikes"), this.getHazard("toxicspikes"), 
-			this.getHazard("stealthrock"), this.getHazard("reflect"), this.getHazard("lightscreen"), 
-			this.getHazard("safeguard"), this.getHazard("mist"), this.getHazard("tailwind"), 
-			this.getHazard("luckychant") ]
-		let statusP1 = [];
-		let statusP2 = [];
+    getVolatiles(side: Side) {
+    	let volatiles = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    	for (let i = 0; i < 6; i++) {
+    		// console.log(Object.keys(side.pokemon[i].volatiles));
+    		if (side.pokemon[i].volatiles["leechseed"]) {
+    			volatiles[0] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["confusion"]) {
+    			volatiles[1] = side.pokemon[i].volatiles["confusion"].duration;
+    		}
+    		if (side.pokemon[i].volatiles["taunt"]) {
+    			volatiles[2] = side.pokemon[i].volatiles["taunt"].duration;
+    		}
+    		if (side.pokemon[i].volatiles["yawn"]) {
+    			volatiles[3] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["perishsong"]) {
+    			if (side.pokemon[i].volatiles["perishsong"].duration == 3) {
+    				volatiles[4] = 1;
+    			} else if (side.pokemon[i].volatiles["perishsong"].duration == 2) {
+    				volatiles[4] = 2;
+    			} else if (side.pokemon[i].volatiles["perishsong"].duration == 1) {
+    				volatiles[4] = 3;
+    			}
+    		}
+    		if (side.pokemon[i].volatiles["substitute"]) {
+    			volatiles[5] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["focusenergy"]) {
+    			volatiles[6] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["ingrain"]) {
+    			volatiles[7] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["disable"]) {
+    			volatiles[8] = side.pokemon[i].volatiles["disable"].duration;
+    		}
+    		if (side.pokemon[i].volatiles["encore"]) {
+    			volatiles[9] = side.pokemon[i].volatiles["encore"].duration;
+    		}
+    		if (side.slotConditions[0]["futuremove"]) {
+    			volatiles[10] = side.slotConditions[0]["futuremove"].duration;
+    		}
+    		if (side.pokemon[i].volatiles["aquaring"]) {
+    			volatiles[11] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["attract"]) {
+    			volatiles[12] = 1;
+    		}
+    		if (side.pokemon[i].volatiles["torment"]) {
+    			volatiles[13] = 1;
+    		}
+    	}
+    	return volatiles;
+    }
 
-		for (let i = 0; i < 6; i++){
-			statusP1.push(this.battle?.sides[0].pokemon[i].status)
-			statusP2.push(this.battle?.sides[1].pokemon[i].status)
-		}
+    getBoosts(pokemon: Pokemon[]) {
+    	let boosts = [];
+    	for (let i = 0; i < 6; i++) {
+    		boosts[i] = pokemon[i].boosts;
+    	}
+    	return boosts;
+    }
 
-		console.log(statusP1, statusP2)
-		
-		return {
-			weather,
-			hazards,
-			statusP1,
-			statusP2
-		};
-	}
+    getHP(pokemon: Pokemon[]) {
+    	let hp = [];
+    	for (let i = 0; i < 6; i++) {
+    		hp[i] = Math.round((pokemon[i].hp / pokemon[i].maxhp) * 100);
+    	}
+    	return hp;
+    }
 
-	playFromAction(i: number, j: number) {
-		if (i < 5) {
-			this._writeLine("p1", `move ${i}`);
-		} else {
-			this._writeLine("p1", `switch ${i - 4}`);
-		}
-		if (j < 5) {
-			this._writeLine("p2", `move ${j}`);
-		} else {
-			this._writeLine("p2", `switch ${j - 4}`);
-		}
-	}
-    
+    getStats(pokemon: Pokemon[]) {
+    	let stats = [];
+    	for (let i = 0; i < 6; i++) {
+    		stats[i] = pokemon[i].storedStats;
+    	}
+    	return stats;
+    }
+
+    getTypes(pokemon: Pokemon[]) {
+    	let types = [];
+    	for (let i = 0; i < 6; i++) {
+    		types[i] = pokemon[i].types;
+    	}
+    	return types;
+    }
+
+    getJson() {
+    	let weather = this.battle?.field.weather;
+    	let hazards = [
+    		this.getHazard("spikes"),
+    		this.getHazard("toxicspikes"),
+    		this.getHazard("stealthrock"),
+    		this.getHazard("reflect"),
+    		this.getHazard("lightscreen"),
+    		this.getHazard("safeguard"),
+    		this.getHazard("mist"),
+    		this.getHazard("tailwind"),
+    		this.getHazard("luckychant"),
+    	];
+    	let statusP1 = [];
+    	let statusP2 = [];
+
+    	for (let i = 0; i < 6; i++) {
+    		statusP1.push(this.battle?.sides[0].pokemon[i].status);
+    		statusP2.push(this.battle?.sides[1].pokemon[i].status);
+    	}
+
+    	let volatilesP1 = this.getVolatiles(this.battle?.sides[0] as Side);
+    	let volatilesP2 = this.getVolatiles(this.battle?.sides[1] as Side);
+
+    	let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
+    	let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
+
+    	let hpP1 = this.getHP(this.battle?.sides[0].pokemon as Pokemon[]);
+    	let hpP2 = this.getHP(this.battle?.sides[1].pokemon as Pokemon[]);
+
+    	let statsP1 = this.getStats(this.battle?.sides[0].pokemon as Pokemon[]);
+    	let statsP2 = this.getStats(this.battle?.sides[1].pokemon as Pokemon[]);
+
+    	let typesP1 = this.getTypes(this.battle?.sides[0].pokemon as Pokemon[]);
+    	let typesP2 = this.getTypes(this.battle?.sides[1].pokemon as Pokemon[]);
+
+    	return {
+    		weather,
+    		hazards,
+    		statusP1,
+    		statusP2,
+    		volatilesP1,
+    		volatilesP2,
+    		boostsP1,
+    		boostsP2,
+    		hpP1,
+    		hpP2,
+    		statsP1,
+    		statsP2,
+    		typesP1,
+    		typesP2,
+    	};
+    }
+
+    playFromAction(i: number, j: number) {
+    	if (i < 5) {
+    		this._writeLine("p1", `move ${i}`);
+    	} else {
+    		this._writeLine("p1", `switch ${i - 4}`);
+    	}
+    	if (j < 5) {
+    		this._writeLine("p2", `move ${j}`);
+    	} else {
+    		this._writeLine("p2", `switch ${j - 4}`);
+    	}
+    }
+
     // add case "run-all" to simulate all possibilities
     case "run-all":
         for (let i = 1; i < 11; i++) {
