@@ -12,6 +12,9 @@ if not using_test_data then
     GameReader = require "./battle_ai/ram_reader/gen5_logreader"
 end
 
+package.cpath = ";./battle_ai/backprop_ai/include/?.so"
+require "processor"
+
 BattleManager = {}
 BattleManager.__index = BattleManager
 
@@ -137,6 +140,7 @@ function BattleManager:act_close()
 end
 
 function BattleManager:get_action()
+    print(processor.get_move())
     returnAction = 1 -- indicates moveslot 1
     
     print("BattleManager:get_action()")
