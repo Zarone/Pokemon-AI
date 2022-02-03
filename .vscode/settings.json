@@ -3,6 +3,7 @@
   "files.associations": {
     "stdio.h": "c",
     "lauxlib.h": "c",
-    "lua.h": "c"
+    "lua.h": "c",
+    "__locale": "c"
   }
 }
