@@ -544,9 +544,6 @@ function GameReader:pass_turn()
     if self.player.hazards[10] > 0 then
         self.player.hazards[10] = self.player.hazards[10] - 1
     end
-    if self.enemy.hazards[10] > 0 then
-        self.enemy.hazards[10] = self.enemy.hazards[10] - 1
-    end
     if self.player.volatiles[2] > 0 then
         self.player.volatiles[2] = self.player.volatiles[2] - 1
     end

@@ -4,34 +4,14 @@
 #include "mpack/mpack.h"
 #include <stdio.h>
 
+#define L1 409
+#define L2 100
+#define L3 1 
+
 struct Weights {
-    double h_layer_1[407][100];
-    double h_layer_2[100][1];
+    double h_layer_1[L1][L2];
+    double h_layer_2[L2][L3];
 };
-
-static char *readcontent(const char *filename)
-{
-    char *fcontent = NULL;
-    int fsize = 0;
-    FILE *fp;
-
-    fp = fopen(filename, "r");
-    if(fp) {
-        fseek(fp, 0, SEEK_END);
-        fsize = ftell(fp);
-        rewind(fp);
-
-        fcontent = (char*) malloc(sizeof(char) * fsize);
-        fread(fcontent, 1, fsize, fp);
-
-        fclose(fp);
-    }
-    return fcontent;
-}
-
-double get_value(mpack_tag_t *tag){
-    return mpack_tag_double_value(tag);
-}
 
 void parse_element(mpack_reader_t* reader, int layer, struct Weights *weight_pointer,
     int indexes[3]) 
@@ -44,12 +24,8 @@ void parse_element(mpack_reader_t* reader, int layer, struct Weights *weight_poi
  
     if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
-        // if (layer == 0){
-        //     double layer1[407][100];
-        //     double layer2[100][1];
         int newIndexes[] = {0, 0, 0};
         for (uint32_t i = count; i > 0; --i) {
-            // printf("layer: %i, i: %i   ", layer, i);
             if (layer == 0){
                 newIndexes[0] = i;
             } else if (layer == 1){
@@ -66,16 +42,15 @@ void parse_element(mpack_reader_t* reader, int layer, struct Weights *weight_poi
                 break;
             }
         }
-        // }
         mpack_done_array(reader);
     }
 
     if (layer == 3){
         if (indexes[0] == 2){
-            weight_pointer->h_layer_1[407-indexes[1]][100-indexes[2]] = get_value(&tag);
+            weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = mpack_tag_double_value(&tag);
         }
         else if (indexes[0] == 1){
-            weight_pointer->h_layer_2[100-indexes[1]][1-indexes[2]] = get_value(&tag);
+            weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = mpack_tag_double_value(&tag);
         }
     }
 
@@ -90,19 +65,15 @@ void parse_element(mpack_reader_t* reader, int layer, struct Weights *weight_poi
     // }
 }
 
-int getTree(){
+int get_tree(){
 
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
 
-    struct Weights myWeights;
-    int indexes[] = {0,0,0};
+    struct Weights my_weights;
+    int blank_indexes[] = {0,0,0};
 
-    parse_element(&reader, 0, &myWeights, indexes);
-
-    // for (int i = 0; i < 100; i++){
-    //     printf("myWeights.h_layer_1[0][%i]: %f\n", i, myWeights.h_layer_1[0][i]);
-    // }
+    parse_element(&reader, 0, &my_weights, blank_indexes);
 
     return mpack_reader_destroy(&reader) == mpack_ok;
 }
@@ -112,7 +83,7 @@ int get_move(lua_State *L){
     // gets rid of function args
     lua_settop(L, 0);
  
-    lua_pushstring(L, getTree() == 1 ? "sucessfully returned from \"getTree()\"" : "error in \"getTree()\"");
+    lua_pushstring(L, get_tree() == 1 ? "sucessfully returned from \"getTree()\"" : "error in \"getTree()\"");
 
     return 1;
 

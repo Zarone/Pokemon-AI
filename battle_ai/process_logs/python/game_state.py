@@ -2,7 +2,7 @@ import json
 
 VOLATILE_CONDITIONS = 14
 BOOSTS = 7
-HAZARDS = 6
+HAZARDS = 9
 
 def get_pokemon_data(pokemon):
     pokemon_raw = open("../../gamedata/pokedex.json", "r")
@@ -190,27 +190,27 @@ class GameState:
             print("player not specified")
             return []
 
-    def save_showdown_input(self):
-        json_data = {}
+    # def save_showdown_input(self):
+    #     json_data = {}
         
-        json_data["weatherType"] = self.weathertype
-        json_data["weatherTurns"] = self.numberofweatherturns
-        json_data["player1hazards"] = self.player1hazards
-        json_data["player2hazards"] = self.player2hazards
-        json_data["player1volatilestatus"] = self.player1volatilestatus
-        json_data["player2volatilestatus"] = self.player2volatilestatus
-        json_data["player1boosts"] = self.player1boosts
-        json_data["player2boosts"] = self.player2boosts
-        new_team1 = [self.player1team[self.player1active]]
-        for i in range(len(self.player1team)):
-            if not (i == self.player1active):
-                new_team1.append(self.player1team[i])
-        new_team2 = [self.player2team[self.player2active]]
-        for i in range(len(self.player2team)):
-            if not (i == self.player2active):
-                new_team2.append(self.player2team[i])
-        json_data["player1team"] = new_team1
-        json_data["player2team"] = new_team2
+    #     json_data["weatherType"] = self.weathertype
+    #     json_data["weatherTurns"] = self.numberofweatherturns
+    #     json_data["player1hazards"] = self.player1hazards
+    #     json_data["player2hazards"] = self.player2hazards
+    #     json_data["player1volatilestatus"] = self.player1volatilestatus
+    #     json_data["player2volatilestatus"] = self.player2volatilestatus
+    #     json_data["player1boosts"] = self.player1boosts
+    #     json_data["player2boosts"] = self.player2boosts
+    #     new_team1 = [self.player1team[self.player1active]]
+    #     for i in range(len(self.player1team)):
+    #         if not (i == self.player1active):
+    #             new_team1.append(self.player1team[i])
+    #     new_team2 = [self.player2team[self.player2active]]
+    #     for i in range(len(self.player2team)):
+    #         if not (i == self.player2active):
+    #             new_team2.append(self.player2team[i])
+    #     json_data["player1team"] = new_team1
+    #     json_data["player2team"] = new_team2
 
     def next_turn(self):
 
@@ -380,31 +380,48 @@ class GameState:
 
                 if move_name == "Spikes":
                     move_index = 0
-                elif move_name == "Stealth Rock":
-                    move_index = 1
+
                 elif move_name == "Toxic Spikes":
+                    move_index = 1
+
+                elif move_name == "Stealth Rock":
                     move_index = 2
+
                 elif move_name == "Reflect":
                     move_index = 3
+
                 elif move_name == "Light Screen":
                     move_index = 4
-                elif move_name == "Tailwind":
+
+                elif move_name == "Safeguard":
                     move_index = 5
-                elif move_name == "Sticky Web":
+
+                elif move_name == "Mist":
                     move_index = 6
-                elif move_name == "Aurora Veil":
+
+                elif move_name == "Tailwind":
                     move_index = 7
+
+                elif move_name == "Lucky Chant":
+                    move_index = 8
+
+                elif move_name == "Sticky Web":
+                    move_index = 9
+
+                elif move_name == "Aurora Veil":
+                    move_index = 10
+
                 else:
                     print("couldn't find entry hazard: ", move_name)
                 
-                if move_index != 6 and move_index != 7:
+                if move_index != 9 and move_index != 10:
                     if (player_string == "p1"):
                         if move_index == 0 and self.player1hazards[move_index] < 3:
                             self.player1hazards[move_index] += 1
-                        elif move_index == 1 and self.player1hazards[move_index] == 0:
-                            self.player1hazards[move_index] = 1
-                        elif move_index == 2 and self.player1hazards[move_index] < 2:
+                        elif move_index == 1 and self.player1hazards[move_index] < 2:
                             self.player1hazards[move_index] += 1
+                        elif move_index == 2 and self.player1hazards[move_index] == 0:
+                            self.player1hazards[move_index] = 1
                         elif move_index == 3 or move_index == 4 or move_index == 6:
                             self.player1hazards[move_index] = 1
                     elif (player_string == "p2"):
