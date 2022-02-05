@@ -133,7 +133,6 @@ end
 function BattleManager:act_close()
     if self.queued_move ~= nil then
         print("BattleManager:act_close(), user can't attack")
-        self.showdown_instance:close()
         self.queued_move = nil
     end
     return 0

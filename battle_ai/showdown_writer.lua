@@ -1,3 +1,5 @@
+json = require "lunajson"
+
 sf = string.format
 
 Writer = {}
@@ -22,26 +24,25 @@ function Writer.new(team1, team2)
 
     showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
                 
-    print("running ", showdown_init )
+    startup = io.open("./battle_ai/state_files/startInfoForShowdown.json", "w")
+    startup:write(json.encode({ ["format"]=FORMAT, ["team1"] = team1, ["team2"] = team2 }))
+    -- print("running ", showdown_init )
     instance.ps_stream = io.popen(showdown_init, "w")
+    instance.ps_stream:close()
+    print("Stream Closed")
 
-    instance.ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")
-    instance.ps_stream:write(sf([[>player p1 {"name":"A", "team": "%s"}]], team1) .. "\n")
-    instance.ps_stream:write(sf([[>player p2 {"name":"B", "team": "%s"}]], team2) .. "\n")
-    instance.ps_stream:write([[>p1 team 123456]] .. "\n")
-    instance.ps_stream:write([[>p2 team 123456]] .. "\n")
-    instance.ps_stream:write([[>run-all ]] .. "\n")
+    -- instance.ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")
+    -- instance.ps_stream:write(sf([[>player p1 {"name":"A", "team": "%s"}]], team1) .. "\n")
+    -- instance.ps_stream:write(sf([[>player p2 {"name":"B", "team": "%s"}]], team2) .. "\n")
+    -- instance.ps_stream:write([[>p1 team 123456]] .. "\n")
+    -- instance.ps_stream:write([[>p2 team 123456]] .. "\n")
+    -- instance.ps_stream:write([[>run-all ]] .. "\n")
 
     return instance
 end
 
 function Writer:write(command)
     self.ps_stream:write(command)
-end
-
-function Writer:close()
-    self.ps_stream:close()
-    print("stream successfully closed")
 end
 
 function move_to_id(move)

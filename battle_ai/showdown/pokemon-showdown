@@ -252,8 +252,24 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 				stdin.pipeTo(battleStream);
 				// battleStream.pipeTo(stdout);
 
-				let logFile = fs.createWriteStream("./battle_ai/state_files/last_log.txt");
+				let logFile = fs.createWriteStream(
+					"./battle_ai/state_files/last_log.txt"
+				);
 				battleStream.pipeTo(logFile, { noEnd: true });
+
+				let startup = fs.readFileSync(
+					"./battle_ai/state_files/startInfoForShowdown.json",
+					{ encoding: "utf8", flag: "r" }
+				);
+
+				let jsonData = JSON.parse(startup);
+				battleStream.battleStream
+					._write(`>start {"formatid": "${jsonData.format}"}
+>player p1 {"name":"A", "team": "${jsonData.team1}"}
+>player p2 {"name":"A", "team": "${jsonData.team2}"}
+>p1 team 123456
+>p2 team 123456
+>run-all`);
 			}
 			break;
 		case "unpack-team":

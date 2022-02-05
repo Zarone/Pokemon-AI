@@ -451,6 +451,26 @@ pokemon-showdown
     let logFile = fs.createWriteStream("last_log.txt");
     battleStream.pipeTo(logFile, { noEnd: true });
 
+    //...
+
+    let startup = fs.readFileSync(
+        "./battle_ai/state_files/startInfoForShowdown.json",
+        { encoding: "utf8", flag: "r" }
+    );
+
+    let jsonData = JSON.parse(startup);
+
+    // that's a template string with very specific formatting not captured in this markdown file
+    battleStream.battleStream
+        ._write('>start {"formatid": "${jsonData.format}"}
+    > player p1 {"name":"A", "team": "${jsonData.team1}"}
+    > player p2 {"name":"A", "team": "${jsonData.team2}"}
+    > p1 team 123456
+    > p2 team 123456
+    > run-all');
+
+    		}
+
 battle-stream.ts
 
     // declare property initChunk for battle restart later
@@ -901,8 +921,7 @@ battle-stream.ts
             }
         }
         fs.writeFileSync(
-            "./battle_ai/state_files/battleStatesFromShowdown.json",
-            JSON.stringify(this.jsonOutput)
+            "./battle_ai/state_files/battleStatesFromShowdown.txt",
+            Buffer.from(msgpack.encode(this.jsonOutput))
         );
-        // recall that battle.possibleSwitches exists when doing switches
         break;

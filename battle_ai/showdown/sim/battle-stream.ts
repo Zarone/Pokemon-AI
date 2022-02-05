@@ -13,6 +13,7 @@ import { Streams, Utils } from "../lib";
 import { Teams } from "./teams";
 import { Battle } from "./battle";
 let fs = require("fs");
+let msgpack = require("@msgpack/msgpack");
 
 /**
  * Like string.split(delimiter), but only recognizes the first `limit`
@@ -66,8 +67,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	_write(chunk: string) {
-		// console.log(this.battle && this.battle.log);
-
 		if (this.noCatch) {
 			this._writeLines(chunk);
 		} else {
@@ -152,7 +151,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	getVolatiles(side: Side) {
 		let volatiles = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 		for (let i = 0; i < side.pokemon.length; i++) {
-			// console.log(Object.keys(side.pokemon[i].volatiles));
 			if (side.pokemon[i].volatiles["leechseed"]) {
 				volatiles[0] = 1;
 			}
@@ -368,7 +366,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
 		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
 
-		// remember to expand all arrays, I just have them like this so I can debug
 		let returnVal = [
 			[
 				this.battle?.field.weatherState.duration,
@@ -418,10 +415,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			case "player":
 				const [slot, optionsText] = splitFirst(message, " ");
 				this.battle!.setPlayer(slot as SideID, JSON.parse(optionsText));
-				// console.log(
-				// 	"player call, battle: ",
-				// 	this.battle && this.battle.log
-				// );
 				break;
 			case "p1":
 			case "p2":
@@ -589,12 +582,14 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							this._write(this.initChunk as string);
 					}
 				}
+
 				fs.writeFileSync(
-					"./battle_ai/state_files/battleStatesFromShowdown.json",
-					JSON.stringify(this.jsonOutput)
+					"./battle_ai/state_files/battleStatesFromShowdown.txt",
+					Buffer.from(msgpack.encode(this.jsonOutput))
 				);
-				// recall that battle.possibleSwitches exists when doing switches
-				break;
+				console.log("Saved Showdown Simulation");
+				return true;
+			// break;
 			case "forcewin":
 			case "forcetie":
 				this.battle!.win(type === "forcewin" ? (message as SideID) : null);

@@ -5,3 +5,4 @@ RAM analysis/states/*
 RAM analysis/predict.json
 battle_ai/state_files/last_log.txt
 battle_ai/state_files/processed_logs/*
+battle_ai/state_files/battleStatesFromShowdown.json
