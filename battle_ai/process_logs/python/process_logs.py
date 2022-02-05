@@ -7,7 +7,7 @@ desired outputs:
       [
         [
 
-          # total length should be 413
+          # total length should be 425
 
           # weather (also tracks number of turns it's been out) (would add 5)
             # sun
@@ -21,19 +21,20 @@ desired outputs:
             # stealth rocks
             # reflect
             # light screen
-            
+
             # safeguard
             # mist
             # tailwind
             # lucky chant
 
-          # status conditions ( would add 5*12+14*2 = 88 )
+          # status conditions ( would add 6*12+14*2 = 100 )
             # non-volatile ( for each pokemon )
               # burn
               # freeze
               # paralysis
               # poison (0 for no, 1 for yes, 2 for badly poisoned)
               # sleep
+              # fainted
             # volatile
               # leech seed
               # Confused

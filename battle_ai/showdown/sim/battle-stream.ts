@@ -119,13 +119,33 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		this.push(`${type}\n${data}`);
 	}
 
-	getHazard(hazard: string) {
-		if (this.battle?.sides[0].sideConditions[hazard] == null) {
+	getHazard(hazard: string, side: number) {
+		if (this.battle?.sides[side].sideConditions[hazard] == null) {
 			return 0;
-		} else if (this.battle?.sides[0].sideConditions[hazard].duration) {
-			return this.battle?.sides[0].sideConditions[hazard].duration;
-		} else if (this.battle?.sides[0].sideConditions[hazard].layers) {
-			return this.battle?.sides[0].sideConditions[hazard].layers;
+		} else if (this.battle?.sides[side].sideConditions[hazard].duration) {
+			return this.battle?.sides[side].sideConditions[hazard].duration;
+		} else if (this.battle?.sides[side].sideConditions[hazard].layers) {
+			return this.battle?.sides[side].sideConditions[hazard].layers;
+		}
+	}
+
+	statusToArray(status: string) {
+		if (status == "brn") {
+			return [1, 0, 0, 0, 0, 0];
+		} else if (status == "frz") {
+			return [0, 1, 0, 0, 0, 0];
+		} else if (status == "par") {
+			return [0, 0, 1, 0, 0, 0];
+		} else if (status == "psn") {
+			return [0, 0, 0, 1, 0, 0];
+		} else if (status == "tox") {
+			return [0, 0, 0, 2, 0, 0];
+		} else if (status == "slp") {
+			return [0, 0, 0, 0, 1, 0];
+		} else if (status == "fnt") {
+			return [0, 0, 0, 0, 0, 1];
+		} else {
+			return [0, 0, 0, 0, 0, 0];
 		}
 	}
 
@@ -219,24 +239,58 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	getJson(activePokemonName: string | undefined) {
-		let weather = this.battle?.field.weather;
-		let hazards = [
-			this.getHazard("spikes"),
-			this.getHazard("toxicspikes"),
-			this.getHazard("stealthrock"),
-			this.getHazard("reflect"),
-			this.getHazard("lightscreen"),
-			this.getHazard("safeguard"),
-			this.getHazard("mist"),
-			this.getHazard("tailwind"),
-			this.getHazard("luckychant"),
+		let weatherStr = this.battle?.field.weather;
+		let weather;
+
+		if (weatherStr == "sunnyday") {
+			weather = [1, 0, 0, 0];
+		} else if (weatherStr == "RainDance") {
+			weather = [0, 1, 0, 0];
+		} else if (weatherStr == "Sandstorm") {
+			weather = [0, 0, 1, 0];
+		} else if (weatherStr == "hail") {
+			weather = [0, 0, 0, 1];
+		} else {
+			weather = [0, 0, 0, 0];
+		}
+
+		let hazardsP1 = [
+			this.getHazard("spikes", 0),
+			this.getHazard("toxicspikes", 0),
+			this.getHazard("stealthrock", 0),
+			this.getHazard("reflect", 0),
+			this.getHazard("lightscreen", 0),
+			this.getHazard("safeguard", 0),
+			this.getHazard("mist", 0),
+			this.getHazard("tailwind", 0),
+			this.getHazard("luckychant", 0),
+		];
+		let hazardsP2 = [
+			this.getHazard("spikes", 1),
+			this.getHazard("toxicspikes", 1),
+			this.getHazard("stealthrock", 1),
+			this.getHazard("reflect", 1),
+			this.getHazard("lightscreen", 1),
+			this.getHazard("safeguard", 1),
+			this.getHazard("mist", 1),
+			this.getHazard("tailwind", 1),
+			this.getHazard("luckychant", 1),
 		];
 		let statusP1 = [];
 		let statusP2 = [];
 
 		for (let i = 0; i < 6; i++) {
-			statusP1.push(this.battle?.sides[0].pokemon[i].status);
-			statusP2.push(this.battle?.sides[1].pokemon[i].status);
+			console.log();
+			statusP1.push(
+				this.statusToArray(
+					this.battle?.sides[0].pokemon[i].status as string
+				)
+			);
+			statusP2.push(
+				this.statusToArray(
+					this.battle?.sides[1].pokemon[i].status as string
+				)
+			);
 		}
 
 		let volatilesP1 = this.getVolatiles(this.battle?.sides[0] as Side);
@@ -254,23 +308,32 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let typesP1 = this.getTypes(this.battle?.sides[0].pokemon as Pokemon[]);
 		let typesP2 = this.getTypes(this.battle?.sides[1].pokemon as Pokemon[]);
 
-		return {
-			weather,
-			hazards,
-			statusP1,
-			statusP2,
-			volatilesP1,
-			volatilesP2,
-			boostsP1,
-			boostsP2,
-			hpP1,
-			hpP2,
-			statsP1,
-			statsP2,
-			typesP1,
-			typesP2,
+		// remember to expand all arrays, I just have them like this so I can debug
+		let returnVal = [
+			[
+				this.battle?.field.weatherState.duration,
+				weather,
+				hazardsP1,
+				hazardsP2,
+				statusP1,
+				statusP2,
+				volatilesP1,
+				volatilesP2,
+				boostsP1,
+				boostsP2,
+				hpP1,
+				hpP2,
+				statsP1,
+				statsP2,
+				typesP1,
+				typesP2,
+			],
 			activePokemonName,
-		};
+		];
+
+		console.log(returnVal);
+
+		return returnVal;
 	}
 
 	playFromAction(i: number, j: number) {

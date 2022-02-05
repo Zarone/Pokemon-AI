@@ -1,4 +1,5 @@
 import json
+from os import stat
 from shutil import move
 
 VOLATILE_CONDITIONS = 14
@@ -81,6 +82,8 @@ def get_status_array(status):
         status[3] = 2
     elif status == 6:
         status[4] = 1
+    elif status == 7:
+        status[5] == 1
 
     return status
 
@@ -191,28 +194,6 @@ class GameState:
             print("player not specified")
             return []
 
-    # def save_showdown_input(self):
-    #     json_data = {}
-        
-    #     json_data["weatherType"] = self.weathertype
-    #     json_data["weatherTurns"] = self.numberofweatherturns
-    #     json_data["player1hazards"] = self.player1hazards
-    #     json_data["player2hazards"] = self.player2hazards
-    #     json_data["player1volatilestatus"] = self.player1volatilestatus
-    #     json_data["player2volatilestatus"] = self.player2volatilestatus
-    #     json_data["player1boosts"] = self.player1boosts
-    #     json_data["player2boosts"] = self.player2boosts
-    #     new_team1 = [self.player1team[self.player1active]]
-    #     for i in range(len(self.player1team)):
-    #         if not (i == self.player1active):
-    #             new_team1.append(self.player1team[i])
-    #     new_team2 = [self.player2team[self.player2active]]
-    #     for i in range(len(self.player2team)):
-    #         if not (i == self.player2active):
-    #             new_team2.append(self.player2team[i])
-    #     json_data["player1team"] = new_team1
-    #     json_data["player2team"] = new_team2
-
     def next_turn(self):
 
         # returning true indicates that the turn was successfully managed
@@ -273,10 +254,14 @@ class GameState:
                     for p in range(len(self.player1team)):
                         if self.is_form_of(self.player1team[p]['name'], pokemon_string):
                             self.player1team[p]["HP%"] = int(new_hp)
+                            if (int(new_hp) == 0):
+                                self.player1team[p]["non-volatile-status"] = 7
                 elif player == 2:
                     for p in range(len(self.player2team)):
                         if self.is_form_of(self.player2team[p]['name'], pokemon_string):
                             self.player2team[p]["HP%"] = int(new_hp)
+                            if (int(new_hp) == 0):
+                                self.player2team[p]["non-volatile-status"] = 7
             elif self.log[i].startswith("|-status"):
                 info = self.log[i].split("|")
                 condition = info[3].rstrip()

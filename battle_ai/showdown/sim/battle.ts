@@ -3147,7 +3147,11 @@ export class Battle {
 							this.sides[1].pokemon[i].setStatus("brn");
 						} else if (this.importData.enemy.statuses[0][i][4] > 0) {
 							// poison
-							this.sides[1].pokemon[i].setStatus("psn");
+							if (this.importData.enemy.statuses[0][i][4] == 1) {
+								this.sides[1].pokemon[i].setStatus("psn");
+							} else if (this.importData.enemy.statuses[0][i][4] == 2) {
+								this.sides[1].pokemon[i].setStatus("tox");
+							}
 						}
 					}
 				}
