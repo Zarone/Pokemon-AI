@@ -87,16 +87,18 @@ def get_status_array(status):
 
     return status
 
+def get_basestat_array(baseStats):
+    return [baseStats["hp"], baseStats["atk"], baseStats["def"], baseStats["spa"], baseStats["spd"], baseStats["spe"]]
 
 def get_array(pokedata):
     hp = pokedata["HP%"]
-    basestats = pokedata["baseStats"]
+    basestats = get_basestat_array(pokedata["baseStats"])
     types = get_types_array(pokedata["types"])
     status = get_status_array(pokedata["non-volatile-status"])
 
-    # [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]
-    # [100, 75, 75, 75, 130, 95, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
-    return [hp, *[basestats[key] for key in basestats], *types, *status]
+    # [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0]]
+    # [100, 75, 75, 75, 130, 95, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    return [hp, *basestats, *types, *status]
 
 
 class GameState:
@@ -141,7 +143,7 @@ class GameState:
 
         for i in range(6):
             if i > team1max:
-                for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]:
+                for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0]]:
                     p1_bench.append(val)
             else:
                 if i == self.player1active:
@@ -151,7 +153,7 @@ class GameState:
                         p1_bench.append(val)
 
             if i > team2max:
-                for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]:
+                for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0]]:
                     p2_bench.append(val)
             else:
                 if i == self.player2active:
@@ -195,7 +197,6 @@ class GameState:
             return []
 
     def next_turn(self):
-
         # returning true indicates that the turn was successfully managed
 
         for i in range(self.next_line, len(self.log)):

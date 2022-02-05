@@ -151,7 +151,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 	getVolatiles(side: Side) {
 		let volatiles = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-		for (let i = 0; i < 6; i++) {
+		for (let i = 0; i < side.pokemon.length; i++) {
 			// console.log(Object.keys(side.pokemon[i].volatiles));
 			if (side.pokemon[i].volatiles["leechseed"]) {
 				volatiles[0] = 1;
@@ -208,34 +208,70 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	getBoosts(pokemon: Pokemon[]) {
 		let boosts = [];
 		for (let i = 0; i < 6; i++) {
-			boosts[i] = pokemon[i].boosts;
+			if (i < pokemon.length && pokemon[i].isActive) {
+				boosts.push(
+					...[
+						pokemon[i].boosts.atk,
+						pokemon[i].boosts.def,
+						pokemon[i].boosts.spa,
+						pokemon[i].boosts.spd,
+						pokemon[i].boosts.spe,
+						pokemon[i].boosts.accuracy,
+						pokemon[i].boosts.evasion,
+					]
+				);
+			}
 		}
 		return boosts;
 	}
 
-	getHP(pokemon: Pokemon[]) {
-		let hp = [];
-		for (let i = 0; i < 6; i++) {
-			hp[i] = Math.round((pokemon[i].hp / pokemon[i].maxhp) * 100);
-		}
-		return hp;
+	baseStatsToArray(basestats: any) {
+		return [
+			basestats["hp"],
+			basestats["atk"],
+			basestats["def"],
+			basestats["spa"],
+			basestats["spd"],
+			basestats["spe"],
+		];
 	}
 
-	getStats(pokemon: Pokemon[]) {
-		let stats = [];
-		for (let i = 0; i < 6; i++) {
-			stats[i] = pokemon[i].storedStats as any;
-			stats[i]["hp"] = pokemon[i].baseMaxhp;
-		}
-		return stats;
-	}
+	typesToArray(types: any) {
+		types = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-	getTypes(pokemon: Pokemon[]) {
-		let types = [];
-		for (let i = 0; i < 6; i++) {
-			types[i] = pokemon[i].types;
-		}
+		if (types.includes("Bug")) types[0] = 1;
+		if (types.includes("Dark")) types[1] = 1;
+		if (types.includes("Dragon")) types[2] = 1;
+		if (types.includes("Electric")) types[3] = 1;
+		if (types.includes("Fighting")) types[4] = 1;
+		if (types.includes("Fire")) types[5] = 1;
+		if (types.includes("Flying")) types[6] = 1;
+		if (types.includes("Ghost")) types[7] = 1;
+		if (types.includes("Grass")) types[8] = 1;
+		if (types.includes("Ground")) types[9] = 1;
+		if (types.includes("Ice")) types[10] = 1;
+		if (types.includes("Normal")) types[11] = 1;
+		if (types.includes("Poison")) types[12] = 1;
+		if (types.includes("Psychic")) types[13] = 1;
+		if (types.includes("Rock")) types[14] = 1;
+		if (types.includes("Steel")) types[15] = 1;
+		if (types.includes("Water")) types[16] = 1;
+
 		return types;
+	}
+
+	getArray(pokemon: Pokemon) {
+		let hp = Math.round((pokemon.hp / pokemon.maxhp) * 100);
+		let basestats = this.baseStatsToArray({
+			...pokemon.storedStats,
+			hp: pokemon.baseMaxhp,
+		});
+		let types = this.typesToArray(pokemon["types"]);
+		let status = this.statusToArray(pokemon.status);
+
+		// [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]
+		// [100, 75, 75, 75, 130, 95, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+		return [hp, ...basestats, ...types, ...status];
 	}
 
 	getJson(activePokemonName: string | undefined) {
@@ -276,21 +312,54 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			this.getHazard("tailwind", 1),
 			this.getHazard("luckychant", 1),
 		];
-		let statusP1 = [];
-		let statusP2 = [];
+
+		let activeP1 = [];
+		let activeP2 = [];
+		let benchP1 = [];
+		let benchP2 = [];
 
 		for (let i = 0; i < 6; i++) {
-			console.log();
-			statusP1.push(
-				this.statusToArray(
-					this.battle?.sides[0].pokemon[i].status as string
-				)
-			);
-			statusP2.push(
-				this.statusToArray(
-					this.battle?.sides[1].pokemon[i].status as string
-				)
-			);
+			if (i < (this.battle?.sides[0].pokemon.length as number)) {
+				if (!this.battle?.sides[0].pokemon[i].isActive) {
+					benchP1.push(
+						...this.getArray(this.battle?.sides[0].pokemon[i] as Pokemon)
+					);
+				} else {
+					activeP1.push(
+						...this.getArray(this.battle?.sides[0].pokemon[i] as Pokemon)
+					);
+				}
+			} else {
+				benchP1.push(
+					...[
+						0,
+						...[0, 0, 0, 0, 0, 0],
+						...[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+						...[0, 0, 0, 0, 0, 0],
+					]
+				);
+			}
+
+			if (i < (this.battle?.sides[1].pokemon.length as number)) {
+				if (!this.battle?.sides[1].pokemon[i].isActive) {
+					benchP2.push(
+						...this.getArray(this.battle?.sides[1].pokemon[i] as Pokemon)
+					);
+				} else {
+					activeP2.push(
+						...this.getArray(this.battle?.sides[1].pokemon[i] as Pokemon)
+					);
+				}
+			} else {
+				benchP2.push(
+					...[
+						0,
+						...[0, 0, 0, 0, 0, 0],
+						...[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+						...[0, 0, 0, 0, 0, 0],
+					]
+				);
+			}
 		}
 
 		let volatilesP1 = this.getVolatiles(this.battle?.sides[0] as Side);
@@ -299,39 +368,24 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
 		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
 
-		let hpP1 = this.getHP(this.battle?.sides[0].pokemon as Pokemon[]);
-		let hpP2 = this.getHP(this.battle?.sides[1].pokemon as Pokemon[]);
-
-		let statsP1 = this.getStats(this.battle?.sides[0].pokemon as Pokemon[]);
-		let statsP2 = this.getStats(this.battle?.sides[1].pokemon as Pokemon[]);
-
-		let typesP1 = this.getTypes(this.battle?.sides[0].pokemon as Pokemon[]);
-		let typesP2 = this.getTypes(this.battle?.sides[1].pokemon as Pokemon[]);
-
 		// remember to expand all arrays, I just have them like this so I can debug
 		let returnVal = [
 			[
 				this.battle?.field.weatherState.duration,
-				weather,
-				hazardsP1,
-				hazardsP2,
-				statusP1,
-				statusP2,
-				volatilesP1,
-				volatilesP2,
-				boostsP1,
-				boostsP2,
-				hpP1,
-				hpP2,
-				statsP1,
-				statsP2,
-				typesP1,
-				typesP2,
+				...weather,
+				...hazardsP1,
+				...hazardsP2,
+				...volatilesP1,
+				...volatilesP2,
+				...boostsP1,
+				...boostsP2,
+				...activeP1,
+				...benchP1,
+				...activeP2,
+				...benchP2,
 			],
 			activePokemonName,
 		];
-
-		console.log(returnVal);
 
 		return returnVal;
 	}
