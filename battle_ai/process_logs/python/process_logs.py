@@ -91,7 +91,8 @@ def get_log(log_name, file):
   for i in range(maxTurns):
     if (new_game.next_turn()):
       outputFile = open('../../state_files/processed_logs/'+file+"-"+str(i), 'wb')
-      outputFile.write(msgpack.packb(new_game.get_output(1)))
+      output = new_game.get_output(1)
+      outputFile.write(msgpack.packb(output))
       outputFile.close()
       
       # return
@@ -104,4 +105,4 @@ def get_log(log_name, file):
 
 get_all_logs()
 # get_log("last.txt")
-# get_log("../get_battle_data/raw_logs/gen8nationaldex-1469587658.txt")
+# get_log("../../../get_battle_data/raw_logs/gen8nationaldex-1469587658.txt", "gen8nationaldex-1469587658.txt")

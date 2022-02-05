@@ -11,6 +11,8 @@
 struct Weights {
     double h_layer_1[L1][L2];
     double h_layer_2[L2][L3];
+    double biases_1[L2];
+    double biases_2[L3];
 };
 
 struct State {
@@ -21,11 +23,14 @@ struct State {
 void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3]) 
 {
     mpack_tag_t tag = mpack_read_tag(reader);
-    if (mpack_reader_error(reader) != mpack_ok)
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error loading layer %i\n", layer);
         return;
+    }
  
     if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
+        // printf("count is %i", count);
         int newIndexes[] = {0, 0, 0};
         for (uint32_t i = count; i > 0; --i) {
             if (layer == 0){
@@ -48,16 +53,32 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
     }
 
     if (layer == 3){
-        if (indexes[0] == 2){
-            weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = mpack_tag_double_value(&tag);
+        double val = mpack_tag_double_value(&tag);
+        if (indexes[0] == 3){
+            // if (L2-indexes[2] == 0){
+                // printf("weight_pointer->h_layer_1[%i][%i] = %f\n", L1-indexes[1], L2-indexes[2], val);
+            // }
+            weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = val;
+        }
+        else if (indexes[0] == 2){
+            // printf("indexes[0]=3,indexes[1]=%i,indexes[2]=%i, val=%f\n", indexes[1], indexes[2], val);
+            // printf("weight_pointer->h_layer_2[%i][%i] = %f\n", L2-indexes[1], L3-indexes[2], val);
+            weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = val;
         }
         else if (indexes[0] == 1){
-            weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = mpack_tag_double_value(&tag);
+            // printf("indexes[0]=3,indexes[1]=%i,indexes[2]=%i, val=%f\n", indexes[1], indexes[2], val);
+            if (indexes[1] == 2){
+                weight_pointer->biases_1[L2-indexes[2]] = val;
+            } else if (indexes[1] == 1){
+                weight_pointer->biases_2[L3-indexes[2]] = val;
+            }
+        } else {
+            printf("wasn't 1 or 2 or 3, indexes[0] = %i", indexes[0]);
         }
     }
 }
 
-int get_tree(){
+int get_weights(){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
 
@@ -65,8 +86,37 @@ int get_tree(){
     int blank_indexes[] = {0,0,0};
 
     parse_weights(&reader, 0, &my_weights, blank_indexes);
+    // printf("weights[0][0][0] = %f\n", my_weights.h_layer_1[0][0]);
+    // printf("weights[0][0][1] = %f\n", my_weights.h_layer_1[0][1]);
+    // printf("weights[0][0][2] = %f\n", my_weights.h_layer_1[0][2]);
+    // printf("weights[0][0][3] = %f\n", my_weights.h_layer_1[0][3]);
+    // printf("weights[0][0][4] = %f\n", my_weights.h_layer_1[0][4]);
+    // printf("weights[0][0][5] = %f\n", my_weights.h_layer_1[0][5]);
+    // printf("weights[0][0][6] = %f\n", my_weights.h_layer_1[0][6]);
+    // printf("weights[0][0][7] = %f\n", my_weights.h_layer_1[0][7]);
 
-    return mpack_reader_destroy(&reader) == mpack_ok;
+    // printf("weights[1][0][0] = %f\n", my_weights.h_layer_2[0][0]);
+    // printf("weights[1][1][0] = %f\n", my_weights.h_layer_2[1][0]);
+    // printf("weights[1][2][0] = %f\n", my_weights.h_layer_2[2][0]);
+    // printf("weights[1][3][0] = %f\n", my_weights.h_layer_2[3][0]);
+    // printf("weights[1][4][0] = %f\n", my_weights.h_layer_2[4][0]);
+    // printf("weights[1][5][0] = %f\n", my_weights.h_layer_2[5][0]);
+    // printf("weights[1][6][0] = %f\n", my_weights.h_layer_2[6][0]);
+    // printf("weights[1][7][0] = %f\n", my_weights.h_layer_2[7][0]);
+    
+    // printf("biases[0][0] = %f\n", my_weights.biases_1[0]);
+    // printf("biases[0][1] = %f\n", my_weights.biases_1[1]);
+    // printf("biases[0][2] = %f\n", my_weights.biases_1[2]);
+    // printf("biases[0][3] = %f\n", my_weights.biases_1[3]);
+    // printf("biases[0][4] = %f\n", my_weights.biases_1[4]);
+    // printf("biases[0][5] = %f\n", my_weights.biases_1[5]);
+    // printf("biases[1][0] = %f\n", my_weights.biases_2[0]);
+
+    mpack_error_t error = mpack_reader_destroy(&reader);
+    if (error != mpack_ok){
+        printf("error destorying reader: %s\n", mpack_error_to_string(error));
+    }
+    return error == mpack_ok;
 }
 
 void parse_state(mpack_reader_t* reader, struct State *state){
@@ -181,8 +231,8 @@ int get_move(lua_State *L){
     // gets rid of function args
     lua_settop(L, 0);
  
-    // lua_pushstring(L, get_tree() == 1 ? "sucessfully returned from \"get_tree()\"" : "error in \"get_tree()\"");
-    lua_pushstring(L, get_inputs() == 1 ? "sucessfully returned from \"get_inputs()\"" : "error in \"get_inputs()\"");
+    lua_pushstring(L, get_weights() == 1 ? "sucessfully returned from \"get_weights()\"" : "error in \"get_weights()\"");
+    // lua_pushstring(L, get_inputs() == 1 ? "sucessfully returned from \"get_inputs()\"" : "error in \"get_inputs()\"");
 
     return 1;
 

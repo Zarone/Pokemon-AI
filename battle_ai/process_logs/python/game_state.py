@@ -20,7 +20,8 @@ def get_pokemon_data(pokemon):
     pokemon_info["HP%"] = 100
     pokemon_info["name"] = filter_name
 
-    # for status: 0 is none, 1 is burn, 2 is freeze, 3 is paralysis, 4 is poison, 5 is badly poisoned, 6 is sleep
+    # for status: 0 is none, 1 is burn, 2 is freeze, 3 is paralysis, 
+    # 4 is poison, 5 is badly poisoned, 6 is sleep, 7 is faint
     pokemon_info["non-volatile-status"] = 0
 
     return pokemon_info
@@ -68,7 +69,7 @@ def get_types_array(typelist):
 
 
 def get_status_array(status):
-    status = [0 for _ in range(5)]
+    status = [0 for _ in range(6)]
 
     if status == 1:
         status[0] = 1
@@ -162,7 +163,19 @@ class GameState:
                     for val in get_array(self.player2team[i]):
                         p2_bench.append(val)
 
-        # print("\n")
+        # print(1)
+        # print(len(self.weathertype))
+        # print(len(self.player1hazards))
+        # print(len(self.player2hazards))
+        # print(len(self.player1volatilestatus))
+        # print(len(self.player2volatilestatus))
+        # print(len(self.player1boosts))
+        # print(len(self.player2boosts))
+        # print(len(p1_active))
+        # print(len(p1_bench))
+        # print(len(p2_active))
+        # print(len(p2_bench))
+        # print("\n\n\n")
 
         if player == 1:
             return [
@@ -197,8 +210,8 @@ class GameState:
             return []
 
     def next_turn(self):
-        # returning true indicates that the turn was successfully managed
-
+        # returning true indicates that the game has not ended
+        
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|turn"):
                 if self.log[i].split("|")[2].strip() != str(self.current_turn):
@@ -576,12 +589,12 @@ class GameState:
                 elif effect_string == "Torment":
                     effect_int = 13
                     effect_value = 1
-                # elif effect_string == "Autotomize":
-                #     effect_int = 14
-                #     effect_value = 1
-                # elif effect_string == "typechange":
-                #     effect_int = 15
-                #     effect_value = 1
+                elif effect_string == "Autotomize":
+                    effect_int = 14
+                    effect_value = 1
+                elif effect_string == "typechange":
+                    effect_int = 15
+                    effect_value = 1
                 else:
                     print("effect not handled properly: ", effect_string)
                 
@@ -592,8 +605,8 @@ class GameState:
                         self.player2volatilestatus[effect_int] = effect_value
                     else:
                         print("player not found: ", player_string)
-            elif self.log[i].startswith("|win") or self.log[i].startswith("|tie"):
-                return True
+            elif self.log[i].startswith("|win") or self.log[i].startswith("|tie|"):
+                return False
 
         self.current_turn += 1
         return True
@@ -698,6 +711,8 @@ class GameState:
                     turn_zero = False
             elif line.strip() == "|start":
                 turn_zero = True
+
+        self.next_line = 0
 
         if (debug):
             print(self.player1team)
