@@ -358,43 +358,43 @@ function GameReader:process_line(line)
     elseif line == "Light Screen raised your team's Special Defense!" then
         player = 1
         hazard = 5
-        new_hazard = 5
         hazard_change = true
+        new_hazard = 5
     elseif line == "Light Screen raised the opposing team's Special Defense!" then
         hazard = 5
-        new_hazard = 5
         player = 2
         hazard_change = true
+        new_hazard = 5
     elseif line == "Your team's Light Screen wore off!" then
         player = 1
         hazard = 5
-        new_hazard = 0
         hazard_change = true
+        new_hazard = 0
     elseif line == "The opposing team's Light Screen wore off!" then
         hazard = 5
-        new_hazard = 0
         player = 2
         hazard_change = true
+        new_hazard = 0
     elseif line == "Your team became cloaked in a mystical veil!" then
         hazard = 6
         player = 1
-        new_hazard = 5
         hazard_change = true
+        new_hazard = 5
     elseif line == "The foe's team became cloaked in a mystical veil!" then
         player = 2
         hazard = 6
-        new_hazard = 5
         hazard_change = true
+        new_hazard = 5
     elseif line == "Your team is no longer protected by Safeguard!" then
         hazard = 6
         player = 1
-        new_hazard = 0
         hazard_change = true
+        new_hazard = 0
     elseif line == "The foe's team is no longer protected by Safeguard!" then
         hazard = 6
         player = 2
-        new_hazard = 0
         hazard_change = true
+        new_hazard = 0
     elseif line == "Your team became shrouded in mist!" then
         hazard = 7
         player = 1
@@ -403,58 +403,58 @@ function GameReader:process_line(line)
     elseif line == "The foe's team became shrouded in mist!" then
         hazard = 7
         hazard_change = true
-        new_hazard = 5
         player = 2
+        new_hazard = 5
     elseif line == "Your team is no longer protected by mist!" then
         hazard = 7
         player = 1
-        new_hazard = 0
         hazard_change = true
+        new_hazard = 0
     elseif line == "The foe's team is no longer protected by mist!" then
         hazard = 7
         player = 2
-        new_hazard = 0
         hazard_change = true
+        new_hazard = 0
     elseif line == "The tailwind blew from behind your team!" then
         hazard = 8
         player = 1
-        new_hazard = 4
         hazard_change = true
+        new_hazard = 4
     elseif line == "The tailwind blew from behind the foe's team!" then
         hazard = 8
         player = 2
-        new_hazard = 4
         hazard_change = true
+        new_hazard = 4
     elseif line == "Your team's tailwind petered out!" then
         hazard = 8
-        new_hazard = 0
         player = 1
         hazard_change = true
+        new_hazard = 0
     elseif line == "The foe's team's tailwind petered out!" then
         hazard = 8
-        new_hazard = 0
         player = 2
         hazard_change = true
+        new_hazard = 0
     elseif line == "The Lucky Chant shielded your team from critical hits!" then
         hazard = 9
         player = 1
-        new_hazard = 5
         hazard_change = true
+        new_hazard = 5
     elseif line == "The Lucky Chant shielded the opposing team from critical hits!" then
         hazard = 9
         player = 2
-        new_hazard = 5
         hazard_change = true
+        new_hazard = 5
     elseif line == "Your team's Lucky Chant wore off!" then
         hazard = 9
         player = 1
-        new_hazard = 0
         hazard_change = true
-    elseif line == "The opposing team's Lucky Chant wore off!" then
         new_hazard = 0
+    elseif line == "The opposing team's Lucky Chant wore off!" then
         hazard = 9
         player = 2
         hazard_change = true
+        new_hazard = 0
     end
 
     if hazard_change then
@@ -540,9 +540,6 @@ function GameReader:pass_turn()
     end
     if self.enemy.hazards[9] > 0 then
         self.enemy.hazards[9] = self.enemy.hazards[9] - 1
-    end
-    if self.player.hazards[10] > 0 then
-        self.player.hazards[10] = self.player.hazards[10] - 1
     end
     if self.player.volatiles[2] > 0 then
         self.player.volatiles[2] = self.player.volatiles[2] - 1

@@ -1,4 +1,5 @@
 import json
+from shutil import move
 
 VOLATILE_CONDITIONS = 14
 BOOSTS = 7
@@ -422,17 +423,21 @@ class GameState:
                             self.player1hazards[move_index] += 1
                         elif move_index == 2 and self.player1hazards[move_index] == 0:
                             self.player1hazards[move_index] = 1
-                        elif move_index == 3 or move_index == 4 or move_index == 6:
-                            self.player1hazards[move_index] = 1
+                        elif move_index == 3 or move_index == 4 or move_index == 5 or move_index == 6 or move_index == 8:
+                            self.player1hazards[move_index] = 5
+                        elif move_index == 7:
+                            self.player1hazards[move_index] = 4
                     elif (player_string == "p2"):
                         if move_index == 0 and self.player2hazards[move_index] < 3:
                             self.player2hazards[move_index] += 1
-                        elif move_index == 1 and self.player2hazards[move_index] == 0:
-                            self.player2hazards[move_index] = 1
-                        elif move_index == 2 and self.player2hazards[move_index] < 2:
+                        elif move_index == 1 and self.player2hazards[move_index] < 2:
                             self.player2hazards[move_index] += 1
-                        elif move_index == 3 or move_index == 4 or move_index == 6:
-                            self.player2hazards[move_index] = 1  
+                        elif move_index == 2 and self.player2hazards[move_index] == 0:
+                            self.player2hazards[move_index] = 1
+                        elif move_index == 3 or move_index == 4 or move_index == 5 or move_index == 6 or move_index == 8:
+                            self.player2hazards[move_index] = 5
+                        elif move_index == 7:
+                            self.player2hazards[move_index] = 4
             elif self.log[i].startswith("|-sideend"):
                 split_line = self.log[i].split("|")
                 move_split = split_line[3].split(":")
@@ -449,24 +454,41 @@ class GameState:
 
                 if move_name == "Spikes":
                     move_index = 0
-                elif move_name == "Stealth Rock":
-                    move_index = 1
+
                 elif move_name == "Toxic Spikes":
+                    move_index = 1
+
+                elif move_name == "Stealth Rock":
                     move_index = 2
+
                 elif move_name == "Reflect":
                     move_index = 3
+
                 elif move_name == "Light Screen":
                     move_index = 4
-                elif move_name == "Tailwind":
+
+                elif move_name == "Safeguard":
                     move_index = 5
-                elif move_name == "Sticky Web":
+
+                elif move_name == "Mist":
                     move_index = 6
-                elif move_name == "Aurora Veil":
+
+                elif move_name == "Tailwind":
                     move_index = 7
+
+                elif move_name == "Lucky Chant":
+                    move_index = 8
+
+                elif move_name == "Sticky Web":
+                    move_index = 9
+
+                elif move_name == "Aurora Veil":
+                    move_index = 10
+
                 else:
                     print("couldn't find entry hazard: ", move_name)
                 
-                if move_index != 6 and move_index != 7:
+                if move_index != 9 and move_index != 10:
                     if (player_string == "p1"):
                         self.player1hazards[move_index] = 0    
                     elif (player_string == "p2"):
@@ -520,10 +542,10 @@ class GameState:
                 if effect_string == "Leech Seed":
                     effect_int = 0
                     effect_value = 1
-                elif effect_string == "Taunt":
+                elif effect_string == "confusion":
                     effect_int = 1
                     effect_value = 1
-                elif effect_string == "confusion":
+                elif effect_string == "Taunt":
                     effect_int = 2
                     effect_value = 1
                 elif effect_string == "Yawn":
@@ -550,24 +572,30 @@ class GameState:
                 elif effect_string == "Ingrain":
                     effect_int = 7
                     effect_value = 1
-                elif effect_string == "typechange":
+                elif effect_string == "Disable":
                     effect_int = 8
                     effect_value = 1
-                elif effect_string == "Disable":
+                elif effect_string == "Encore":
                     effect_int = 9
                     effect_value = 1
-                elif effect_string == "Encore":
+                elif effect_string == "Future Sight":
                     effect_int = 10
                     effect_value = 1
-                elif effect_string == "Future Sight":
+                elif effect_string == "Aqua Ring":
                     effect_int = 11
                     effect_value = 1
-                elif effect_string == "Autotomize":
+                elif effect_string == "Attract":
                     effect_int = 12
                     effect_value = 1
-                elif effect_string == "Aqua Ring":
+                elif effect_string == "Torment":
                     effect_int = 13
                     effect_value = 1
+                # elif effect_string == "Autotomize":
+                #     effect_int = 14
+                #     effect_value = 1
+                # elif effect_string == "typechange":
+                #     effect_int = 15
+                #     effect_value = 1
                 else:
                     print("effect not handled properly: ", effect_string)
                 
