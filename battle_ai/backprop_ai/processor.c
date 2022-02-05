@@ -14,7 +14,7 @@ struct Weights {
 };
 
 struct State {
-    short game_data[L1]; // between 0 and 9 inclusive
+    int game_data[L1]; // the input to the neural network
     char name[11];
 };
 
@@ -23,8 +23,6 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok)
         return;
- 
-    // double tag_value = get_value(&tag);
  
     if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
@@ -71,23 +69,60 @@ int get_tree(){
     return mpack_reader_destroy(&reader) == mpack_ok;
 }
 
-struct State parse_state(mpack_reader_t* reader){
-    struct State myState;
-    printf("%i\n", mpack_read_tag(reader).type);
-    printf("%i\n", mpack_read_tag(reader).type);
-    mpack_done_array(reader);
-    return myState;
+void parse_state(mpack_reader_t* reader, struct State *state){
+    mpack_tag_t inputsTag = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading inputsTag: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&inputsTag) == mpack_type_array){
+        for (int i = 0; i < L1; i++){
+            mpack_tag_t inputTag = mpack_read_tag(reader);
+            state->game_data[i] = mpack_tag_int_value(&inputTag);
+        }
+        mpack_done_array(reader);
+    } else {
+        printf("I've misunderstood inputsTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&inputsTag)), mpack_tag_uint_value(&inputsTag));
+    }
+
+    mpack_tag_t nameTag = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading nameTag: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&nameTag) == mpack_type_str){
+        char strBuffer[11];
+        mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&nameTag)+1, mpack_tag_str_length(&nameTag));
+        if (mpack_reader_error(reader) != mpack_ok){
+           printf("error reading string in nameTag: %i\n", mpack_reader_error(reader));
+        return;
+    }
+        for (int i = 0; i < 11; i++){
+            state->name[i] = strBuffer[i];
+        }
+    } else {
+        printf("I've misunderstood nameTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&nameTag)), mpack_tag_uint_value(&nameTag));
+    }
 }
 
 void parse_inputs(mpack_reader_t* reader, int layer, struct State (*inputs_pointer)[10][10][25], int indexes[3]) 
 {
+    printf("%i\n", layer);
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
         printf("error in reader: %i\n", mpack_reader_error(reader));
         return;
     }
  
-    if (mpack_tag_type(&tag) == mpack_type_array) {
+    if (layer == 3){
+        struct State myState;
+        parse_state(reader, &myState);
+        printf("switch data: %s\n", myState.name);
+        printf("inputs[0]: %i\n", myState.game_data[0]);
+        printf("inputs[1]: %i\n", myState.game_data[1]);
+        printf("inputs[2]: %i\n", myState.game_data[2]);
+        mpack_done_array(reader);
+    } else if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
         int newIndexes[] = {0, 0, 0};
         for (uint32_t i = count; i > 0; --i) {
@@ -103,21 +138,11 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State (*inputs_point
             }
             parse_inputs(reader, layer+1, inputs_pointer, newIndexes );
             if (mpack_reader_error(reader) != mpack_ok){ // critical check!
-                printf("error in mpack: %u\n", (unsigned)mpack_reader_error(reader));
+                printf("error in mpack input: %u\n", (unsigned)mpack_reader_error(reader));
                 break;
             }
         }
         mpack_done_array(reader);
-    }
-
-    if (layer == 3){
-        parse_state(reader);
-    //     if (indexes[0] == 2){
-    //         weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = mpack_tag_double_value(&tag);
-    //     }
-    //     else if (indexes[0] == 1){
-    //         weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = mpack_tag_double_value(&tag);
-    //     }
     }
 }
 

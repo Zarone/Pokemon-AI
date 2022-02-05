@@ -381,7 +381,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				...activeP2,
 				...benchP2,
 			],
-			activePokemonName,
+			activePokemonName || "not switch",
 		];
 
 		return returnVal;
@@ -587,6 +587,13 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 					"./battle_ai/state_files/battleStatesFromShowdown.txt",
 					Buffer.from(msgpack.encode(this.jsonOutput))
 				);
+
+				// this write file is purely for debugging
+				fs.writeFileSync(
+					"./battle_ai/state_files/battleStatesFromShowdown.json",
+					JSON.stringify(this.jsonOutput)
+				);
+
 				console.log("Saved Showdown Simulation");
 				return true;
 			// break;
