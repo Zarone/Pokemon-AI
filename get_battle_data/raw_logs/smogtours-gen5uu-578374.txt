@@ -1,0 +1,537 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1631236430
+|gametype|singles
+|player|p1|hogg|#scl1gible|
+|player|p2|Serene Grace|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, F|item
+|poke|p1|Suicune|item
+|poke|p1|Roserade, F|item
+|poke|p1|Cofagrigus, F|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Zapdos|item
+|poke|p2|Uxie|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Omastar, F|item
+|poke|p2|Qwilfish, F|item
+|teampreview
+|inactive|Serene Grace also wants the timer to be on.
+|c|+daunt vs|go serene
+|c|+Nalorium|XDXD
+|c|+avarice|go hogg
+|inactive|hogg has 270 seconds left.
+|inactive|Serene Grace has 270 seconds left.
+|inactive|Serene Grace has 240 seconds left.
+|c|☆hogg|hf
+|
+|t:|1631236515
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|
+|t:|1631236521
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|move|p2a: Uxie|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: hogg|move: Stealth Rock
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Serene Grace has 270 seconds left.
+|
+|t:|1631236541
+|move|p1a: Zapdos|Thunderbolt|p2a: Uxie
+|-damage|p2a: Uxie|69/100
+|move|p2a: Uxie|Psychic|p1a: Zapdos
+|-activate|p1a: Zapdos|Substitute|[damage]
+|
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Serene Grace has 270 seconds left.
+|inactive|Serene Grace has 240 seconds left.
+|inactive|Serene Grace has 210 seconds left.
+|
+|t:|1631236621
+|move|p1a: Zapdos|Thunderbolt|p2a: Uxie
+|-damage|p2a: Uxie|37/100
+|move|p2a: Uxie|Psychic|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|-heal|p1a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Serene Grace has 210 seconds left.
+|
+|t:|1631236630
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|69/100
+|move|p2a: Uxie|Rain Dance|p2a: Uxie
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1631236636
+|move|p1a: Zapdos|Thunderbolt|p2a: Uxie
+|-damage|p2a: Uxie|4/100
+|move|p2a: Uxie|Memento||[still]
+|-fail|p2a: Uxie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1631236642
+|move|p1a: Zapdos|Thunderbolt|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631236645
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|7
+|
+|t:|1631236649
+|move|p2a: Kingdra|Surf|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|move|p1a: Zapdos|Thunderbolt|p2a: Kingdra
+|-damage|p2a: Kingdra|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1631236657
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|inactive|Serene Grace has 240 seconds left.
+|
+|t:|1631236686
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|-damage|p1a: Druddigon|88/100|[from] Stealth Rock
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Tornadus|U-turn|p1a: Druddigon
+|-damage|p1a: Druddigon|74/100
+|
+|t:|1631236690
+|switch|p2a: Ludicolo|Ludicolo, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Druddigon|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1631236695
+|move|p2a: Ludicolo|Ice Beam|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|16/100
+|-status|p1a: Druddigon|frz
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|-curestatus|p1a: Druddigon|frz|[msg]
+|move|p1a: Druddigon|Glare|p2a: Ludicolo
+|-status|p2a: Ludicolo|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Druddigon|22/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1631236705
+|move|p1a: Druddigon|Stealth Rock|p2a: Ludicolo
+|-sidestart|p2: Serene Grace|move: Stealth Rock
+|move|p2a: Ludicolo|Ice Beam|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|-damage|p2a: Ludicolo|81/100 par|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1631236717
+|switch|p1a: Roserade|Roserade, F|94/100
+|-damage|p1a: Roserade|82/100|[from] Stealth Rock
+|turn|12
+|inactive|Serene Grace has 270 seconds left.
+|inactive|Serene Grace has 240 seconds left.
+|inactive|Serene Grace has 210 seconds left.
+|
+|t:|1631236789
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|move|p1a: Roserade|Sludge Bomb|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|52/100
+|
+|-heal|p1a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|inactive|Serene Grace has 210 seconds left.
+|
+|t:|1631236805
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Roserade|Giga Drain|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|53/100
+|-heal|p1a: Roserade|99/100|[from] drain|[of] p2a: Tornadus
+|
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1631236811
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: Roserade|Sludge Bomb|p2a: Tornadus
+|-damage|p2a: Tornadus|4/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|inactive|Serene Grace has 210 seconds left.
+|
+|t:|1631236819
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|28/100
+|-start|p1a: Cofagrigus|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cofagrigus|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1631236825
+|move|p2a: Tornadus|Hurricane|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1631236828
+|switch|p1a: Zapdos|Zapdos|93/100
+|-damage|p1a: Zapdos|68/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|17
+|
+|t:|1631236846
+|move|p2a: Tornadus|Taunt|p1a: Zapdos
+|-start|p1a: Zapdos|move: Taunt
+|cant|p1a: Zapdos|move: Taunt|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Serene Grace has 240 seconds left.
+|
+|t:|1631236851
+|move|p2a: Tornadus|Hurricane|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|43/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|49/100|[from] item: Leftovers
+|upkeep
+|inactive|Serene Grace has 240 seconds left.
+|inactive|Serene Grace has 210 seconds left.
+|inactive|Serene Grace has 180 seconds left.
+|inactive|Serene Grace has 150 seconds left.
+|inactive|Serene Grace has 120 seconds left.
+|
+|t:|1631237006
+|switch|p2a: Qwilfish|Qwilfish, F|52/100
+|-damage|p2a: Qwilfish|40/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1631237025
+|move|p2a: Qwilfish|Waterfall|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1631237033
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|88/100|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|turn|20
+|
+|t:|1631237044
+|switch|p2a: Ludicolo|Ludicolo, F|81/100 par
+|-damage|p2a: Ludicolo|68/100 par|[from] Stealth Rock
+|move|p1a: Suicune|Protect||[still]
+|-fail|p1a: Suicune
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Serene Grace has 120 seconds left.
+|inactive|Serene Grace has 90 seconds left.
+|
+|t:|1631237087
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|69/100
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|-heal|p2a: Ludicolo|85/100 par|[from] drain|[of] p1a: Suicune
+|-damage|p2a: Ludicolo|75/100 par|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Serene Grace has 90 seconds left.
+|
+|t:|1631237117
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|50/100
+|cant|p2a: Ludicolo|par
+|
+|-heal|p1a: Suicune|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1631237124
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|63/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1631237129
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Ludicolo|par
+|
+|-heal|p1a: Suicune|69/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1631237136
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1631237142
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|-heal|p2a: Ludicolo|92/100 par|[from] drain|[of] p1a: Suicune
+|-damage|p2a: Ludicolo|82/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1631237162
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Ludicolo|par
+|
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1631237169
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|63/100
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|-heal|p2a: Ludicolo|98/100 par|[from] drain|[of] p1a: Suicune
+|-damage|p2a: Ludicolo|88/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Suicune|69/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Serene Grace has 120 seconds left.
+|
+|t:|1631237177
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Serene Grace has 120 seconds left.
+|
+|t:|1631237201
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Ludicolo|par
+|
+|-heal|p1a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Serene Grace has 120 seconds left.
+|
+|t:|1631237221
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Ludicolo|par
+|
+|-heal|p1a: Suicune|87/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1631237227
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Ludicolo|par
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆hogg|lord
+|c|☆hogg|sorry
+|
+|t:|1631237236
+|move|p1a: Suicune|Scald|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|59/100 par
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1631237247
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1631237260
+|move|p1a: Suicune|Scald|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|17/100 par
+|move|p2a: Ludicolo|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|-heal|p2a: Ludicolo|18/100 par|[from] drain|[of] p1a: Suicune
+|-damage|p2a: Ludicolo|8/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|t:|1631237266
+|switch|p2a: Qwilfish|Qwilfish, F|40/100
+|-damage|p2a: Qwilfish|28/100|[from] Stealth Rock
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Serene Grace has 150 seconds left.
+|
+|t:|1631237295
+|move|p2a: Qwilfish|Poison Jab|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|move|p1a: Suicune|Scald|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|-weather|none
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631237299
+|switch|p2a: Kingdra|Kingdra, M|56/100
+|-damage|p2a: Kingdra|43/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1631237303
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|63/100
+|move|p2a: Kingdra|Draco Meteor|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|-unboost|p2a: Kingdra|spa|2
+|
+|-heal|p1a: Suicune|69/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆Serene Grace|gg
+|-message|Serene Grace forfeited.
+|
+|win|hogg
+|c|☆hogg|gg

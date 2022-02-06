@@ -1,0 +1,407 @@
+|j|☆Monai
+|j|☆Corthius
+|t:|1635772275
+|gametype|singles
+|player|p1|Monai|ninjaboy|
+|player|p2|Corthius|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawk, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Camerupt, F|item
+|poke|p1|Roselia, F|item
+|poke|p1|Skuntank, M|item
+|poke|p2|Braviary, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Golem, F|item
+|poke|p2|Tauros, M|item
+|poke|p2|Tangela, M|item
+|poke|p2|Skuntank, F|item
+|teampreview
+|j|*BB-8-NU
+|j| let the sun talk
+|c|☆Monai|oh thank god
+|c|☆Monai|glhf
+|c|☆Corthius|Just for oyu
+|c|☆Corthius|you 2
+|c|☆Monai|<3
+|
+|t:|1635772289
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Golem|Golem, F|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|1
+|
+|t:|1635772300
+|switch|p1a: Roselia|Roselia, F|100/100
+|move|p2a: Golem|Stealth Rock|p1a: Roselia
+|-sidestart|p1: Monai|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|j| shiny mr mime
+|j| Links
+|
+|t:|1635772314
+|move|p1a: Roselia|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|move|p2a: Golem|Explosion|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p2a: Golem
+|faint|p1a: Roselia
+|
+|upkeep
+|
+|t:|1635772323
+|switch|p1a: Camerupt|Camerupt, F|100/100
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|turn|3
+|c| Links|I should've loaded regirov
+|c|☆Corthius|explosion is the stupidest move ever
+|c|☆Corthius|lmao
+|c| Links|Regirock*
+|c| Links|:(
+|c|☆Corthius|:)
+|c|☆Monai|i just thought youd switch outta sawk tbh lol
+|j|%ShwiftyShiftry
+|
+|t:|1635772340
+|move|p2a: Garbodor|Spikes|p1a: Camerupt
+|-sidestart|p1: Monai|Spikes
+|move|p1a: Camerupt|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|14/100
+|
+|-heal|p1a: Camerupt|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Corthius|i was sturdy
+|c|☆Corthius|custap
+|c|☆Monai|mold breaker
+|
+|t:|1635772348
+|move|p2a: Garbodor|Explosion|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p2a: Garbodor
+|faint|p1a: Camerupt
+|
+|upkeep
+|c|☆Corthius|oh
+|c|☆Corthius|blame me not paying attention
+|c|☆Corthius|lmao
+|c|☆Monai|outplayed dw
+|
+|t:|1635772367
+|switch|p2a: Tauros|Tauros, M|100/100
+|switch|p1a: Braviary|Braviary, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Braviary|atk|1
+|-ability|p1a: Braviary|Defiant
+|-boost|p1a: Braviary|atk|2
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|5
+|c|☆Corthius|Totally not a mistake
+|c|☆Monai|I N T I M I D A T E
+|c| Links|L2p
+|
+|t:|1635772387
+|move|p2a: Tauros|Stone Edge|p1a: Braviary|[miss]
+|-miss|p2a: Tauros|p1a: Braviary
+|move|p1a: Braviary|Return|p2a: Tauros
+|-damage|p2a: Tauros|5/100
+|
+|upkeep
+|turn|6
+|c|☆Corthius|ew
+|c|☆Corthius|is this hax
+|
+|t:|1635772394
+|move|p2a: Tauros|Stone Edge|p1a: Braviary|[miss]
+|-miss|p2a: Tauros|p1a: Braviary
+|move|p1a: Braviary|Return|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+|c| Links|Vengeance
+|c|☆Monai|yikes lol mb
+|
+|t:|1635772399
+|switch|p2a: Tangela|Tangela, M|100/100
+|turn|7
+|c| Links|For last game
+|c| Links|:^)
+|
+|t:|1635772406
+|move|p1a: Braviary|Return|p2a: Tangela
+|-damage|p2a: Tangela|61/100
+|move|p2a: Tangela|Leech Seed|p1a: Braviary
+|-start|p1a: Braviary|move: Leech Seed
+|
+|-damage|p1a: Braviary|63/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|73/100|[silent]
+|upkeep
+|turn|8
+|c|☆Corthius|all g
+|
+|t:|1635772411
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|-damage|p1a: Skuntank|76/100|[from] Spikes
+|move|p2a: Tangela|Sleep Powder|p1a: Skuntank
+|-status|p1a: Skuntank|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Skuntank|82/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1635772415
+|switch|p2a: Braviary|Braviary, M|100/100
+|cant|p1a: Skuntank|slp
+|
+|-heal|p1a: Skuntank|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1635772422
+|switch|p1a: Braviary|Braviary, M|63/100
+|-damage|p1a: Braviary|38/100|[from] Stealth Rock
+|move|p2a: Braviary|Substitute|p2a: Braviary
+|-start|p2a: Braviary|Substitute
+|-damage|p2a: Braviary|75/100
+|
+|-heal|p2a: Braviary|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1635772426
+|move|p1a: Braviary|Brave Bird|p2a: Braviary
+|-end|p2a: Braviary|Substitute
+|-damage|p1a: Braviary|29/100|[from] Recoil|[of] p2a: Braviary
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|
+|-heal|p2a: Braviary|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1635772428
+|move|p1a: Braviary|Brave Bird|p2a: Braviary
+|-damage|p2a: Braviary|42/100
+|-damage|p1a: Braviary|10/100|[from] Recoil
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|92/100
+|-singleturn|p2a: Braviary|move: Roost
+|
+|-heal|p2a: Braviary|98/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1635772431
+|move|p1a: Braviary|Brave Bird|p2a: Braviary
+|-damage|p2a: Braviary|51/100
+|-damage|p1a: Braviary|0 fnt|[from] Recoil
+|faint|p1a: Braviary
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|100/100
+|-singleturn|p2a: Braviary|move: Roost
+|
+|upkeep
+|l|%ShwiftyShiftry
+|
+|t:|1635772433
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|50/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1635772437
+|move|p1a: Charizard|Flamethrower|p2a: Braviary
+|-damage|p2a: Braviary|65/100
+|move|p2a: Braviary|Brave Bird|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Braviary|53/100|[from] Recoil
+|
+|-heal|p2a: Braviary|59/100|[from] item: Leftovers
+|upkeep
+|c|☆Monai|my zard evs
+|c|☆Monai|die to 2 rocks
+|c|☆Monai|lol
+|c|☆Corthius|LMAO
+|c| Links|Corth has won
+|c| Links|This is awfuk
+|
+|t:|1635772452
+|switch|p1a: Sawk|Sawk, M|100/100
+|-damage|p1a: Sawk|94/100|[from] Stealth Rock
+|-damage|p1a: Sawk|82/100|[from] Spikes
+|-ability|p1a: Sawk|Mold Breaker
+|turn|15
+|c| Links|Awful*
+|c|☆Monai|where
+|c|☆Monai|theres an ice move
+|c|☆Monai|theres a way
+|
+|t:|1635772461
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Sawk|Ice Punch|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|60/100
+|
+|upkeep
+|turn|16
+|c|☆Corthius|lmao
+|c|☆Corthius|fck
+|j| PadreBelda
+|
+|t:|1635772467
+|move|p1a: Sawk|Ice Punch|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|16/100
+|move|p2a: Tangela|Giga Drain|p1a: Sawk
+|-damage|p1a: Sawk|41/100
+|-heal|p2a: Tangela|35/100|[from] drain|[of] p1a: Sawk
+|
+|upkeep
+|turn|17
+|
+|t:|1635772470
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|move|p1a: Sawk|Ice Punch|p2a: Skuntank
+|-crit|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Sawk|16/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|j|+Young Lilo
+|
+|t:|1635772474
+|switch|p2a: Tangela|Tangela, M|68/100
+|turn|18
+|
+|t:|1635772476
+|move|p1a: Sawk|Ice Punch|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|23/100
+|move|p2a: Tangela|Giga Drain|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|-heal|p2a: Tangela|30/100|[from] drain|[of] p1a: Sawk
+|faint|p1a: Sawk
+|
+|upkeep
+|
+|t:|1635772478
+|switch|p1a: Skuntank|Skuntank, M|88/100 slp
+|-damage|p1a: Skuntank|75/100 slp|[from] Spikes
+|-damage|p1a: Skuntank|63/100 slp|[from] Stealth Rock
+|turn|19
+|
+|t:|1635772481
+|cant|p1a: Skuntank|slp
+|move|p2a: Tangela|Leech Seed|p1a: Skuntank|[miss]
+|-miss|p2a: Tangela|p1a: Skuntank
+|
+|-heal|p1a: Skuntank|69/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1635772483
+|cant|p1a: Skuntank|slp
+|move|p2a: Tangela|Leech Seed|p1a: Skuntank
+|-start|p1a: Skuntank|move: Leech Seed
+|
+|-heal|p1a: Skuntank|75/100 slp|[from] item: Black Sludge
+|-damage|p1a: Skuntank|63/100 slp|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|43/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1635772487
+|-curestatus|p1a: Skuntank|slp|[msg]
+|move|p1a: Skuntank|Poison Jab|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|8/100
+|move|p2a: Tangela|Giga Drain|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|48/100
+|-heal|p2a: Tangela|16/100|[from] drain|[of] p1a: Skuntank
+|
+|-heal|p1a: Skuntank|54/100|[from] item: Black Sludge
+|-damage|p1a: Skuntank|41/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|29/100|[silent]
+|upkeep
+|turn|22
+|
+|t:|1635772491
+|switch|p2a: Braviary|Braviary, M|59/100
+|move|p1a: Skuntank|Poison Jab|p2a: Braviary
+|-damage|p2a: Braviary|22/100
+|
+|-heal|p1a: Skuntank|47/100|[from] item: Black Sludge
+|-heal|p2a: Braviary|28/100|[from] item: Leftovers
+|-damage|p1a: Skuntank|35/100|[from] Leech Seed|[of] p2a: Braviary
+|-heal|p2a: Braviary|39/100|[silent]
+|upkeep
+|turn|23
+|c|+Young Lilo|does corth have this
+|
+|t:|1635772493
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|89/100
+|-singleturn|p2a: Braviary|move: Roost
+|move|p1a: Skuntank|Poison Jab|p2a: Braviary
+|-damage|p2a: Braviary|50/100
+|
+|-heal|p2a: Braviary|56/100|[from] item: Leftovers
+|-heal|p1a: Skuntank|41/100|[from] item: Black Sludge
+|-damage|p1a: Skuntank|29/100|[from] Leech Seed|[of] p2a: Braviary
+|-heal|p2a: Braviary|67/100|[silent]
+|upkeep
+|turn|24
+|c|☆Monai|gg lol
+|c|☆Corthius|i do
+|c|☆Corthius|ggwp
+|
+|t:|1635772501
+|move|p1a: Skuntank|Poison Jab|p2a: Braviary
+|-damage|p2a: Braviary|26/100
+|move|p2a: Braviary|Brave Bird|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Braviary|1/100|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|-damage|p2a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: Braviary
+|
+|win|Corthius
+|n|☆Monai|monai
+|n|☆Corthius|corthius
+|n| BB-8-NU|bb8nu
+|n| let the sun talk|letthesuntalk
+|n| shiny mr mime|shinymrmime
+|n| Links|links
+|n| PadreBelda|padrebelda
+|n| Young Lilo|younglilo
+|l| BB-8-NU
+|l|☆Corthius
+|l|☆Monai

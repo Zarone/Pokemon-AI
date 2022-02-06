@@ -1,0 +1,480 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1633269608
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|F i l l e|#scl1breakers|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, F|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Slowpoke, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Vullaby, L5, F|item
+|poke|p2|Staryu, L5|item
+|teampreview
+|c|☆F i l l e|hf!
+|c|☆Bughouse|gl hf
+|inactive|Bughouse has 270 seconds left.
+|inactive|F i l l e has 270 seconds left.
+|c|+justamente|Lets go bughouse
+|inactive|Bughouse has 240 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|inactive|Bughouse has 210 seconds left.
+|inactive|Bughouse has 180 seconds left.
+|
+|t:|1633269739
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|1
+|
+|t:|1633269756
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|move|p2a: Gastly|Trick|p1a: Magnemite
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Magnemite
+|-item|p1a: Magnemite|Black Sludge|[from] move: Trick
+|-item|p2a: Gastly|Choice Scarf|[from] move: Trick
+|
+|-damage|p1a: Magnemite|90/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1633269770
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magnet Pull|[from] ability: Trace|[of] p1a: Magnemite
+|move|p1a: Magnemite|Flash Cannon|p2a: Porygon
+|-damage|p2a: Porygon|72/100
+|
+|-damage|p1a: Magnemite|79/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1633269777
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|move|p1a: Magnemite|Flash Cannon|p2a: Diglett
+|-damage|p2a: Diglett|12/100
+|
+|-damage|p1a: Magnemite|69/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1633269783
+|move|p2a: Diglett|Earthquake|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|-damage|p2a: Diglett|6/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Bughouse has 210 seconds left.
+|inactive|Bughouse has 180 seconds left.
+|
+|t:|1633269870
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|5
+|
+|t:|1633269874
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|move|p1a: Mienfoo|Fake Out|p2a: Gastly
+|-immune|p2a: Gastly
+|
+|upkeep
+|turn|6
+|inactive|Bughouse has 150 seconds left.
+|inactive|F i l l e has 270 seconds left.
+|
+|t:|1633269921
+|move|p2a: Gastly|Will-O-Wisp|p1a: Mienfoo
+|-status|p1a: Mienfoo|brn
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|96/100
+|inactive|Bughouse has 150 seconds left.
+|
+|t:|1633269929
+|switch|p1a: Natu|Natu, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|inactive|Bughouse has 150 seconds left.
+|
+|t:|1633269942
+|switch|p2a: Porygon|Porygon, L5|72/100
+|-ability|p2a: Porygon|Magic Bounce|[from] ability: Trace|[of] p1a: Natu
+|move|p1a: Natu|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|60/100
+|inactive|Bughouse has 150 seconds left.
+|
+|t:|1633269964
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Mienfoo|92/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1633269981
+|switch|p2a: Gastly|Gastly, L5, F|96/100
+|move|p1a: Mienfoo|Knock Off|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|81/100
+|-enditem|p2a: Gastly|Choice Scarf|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-damage|p1a: Mienfoo|83/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1633269999
+|move|p2a: Gastly|Trick|p1a: Mienfoo
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Mienfoo
+|-enditem|p1a: Mienfoo|Eviolite|[silent]|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|77/100
+|inactive|Bughouse has 120 seconds left.
+|
+|t:|1633270014
+|switch|p1a: Snover|Snover, L5, F|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|72/100|[from] Hail
+|upkeep
+|turn|10
+|inactive|Bughouse has 120 seconds left.
+|
+|t:|1633270046
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1633270058
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|11
+|c|☆F i l l e|right
+|inactive|Bughouse has 90 seconds left.
+|c|☆F i l l e|that's kinda dumb of me to not realise this is a sample
+|c|☆Bughouse|i made changes ofc ;)
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270122
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100 brn
+|move|p2a: Mienfoo|U-turn|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|74/100 brn
+|c|☆F i l l e|ye assumed as much heh
+|inactive|F i l l e has 270 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|c|+starmaster|it is in fact my team 
+|
+|t:|1633270175
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vullaby|96/100|[from] Hail
+|-damage|p1a: Mienfoo|70/100 brn|[from] Hail
+|-damage|p1a: Mienfoo|61/100 brn|[from] brn
+|upkeep
+|turn|12
+|c|+starmaster|kinda rude
+|inactive|Bughouse has 60 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|c|☆F i l l e|ye I'm wondering why it's listed as Flcl
+|c|+starmaster|cuz I made it for him ig
+|c|☆F i l l e|ye Iss didn't check who built just who played
+|c|☆F i l l e|right
+|inactive|F i l l e has 210 seconds left.
+|c|☆F i l l e|well, last time I faced it it had toxic over twave so like ig he never got the actual paste
+|
+|t:|1633270229
+|move|p2a: Vullaby|Air Slash|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vullaby|92/100|[from] Hail
+|upkeep
+|
+|t:|1633270238
+|switch|p1a: Snover|Snover, L5, F|100/100
+|turn|13
+|
+|t:|1633270245
+|switch|p2a: Diglett|Diglett, L5, F|6/100
+|move|p1a: Snover|Blizzard|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|F i l l e has 210 seconds left.
+|
+|t:|1633270256
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|14
+|
+|t:|1633270266
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Mienfoo|U-turn|p1a: Natu
+|-damage|p1a: Natu|79/100
+|
+|t:|1633270276
+|switch|p2a: Vullaby|Vullaby, L5, F|92/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|74/100|[from] Hail
+|-damage|p2a: Vullaby|87/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1633270291
+|move|p1a: Natu|U-turn|p2a: Vullaby
+|-damage|p2a: Vullaby|74/100
+|-ability|p2a: Vullaby|Weak Armor|boost
+|-unboost|p2a: Vullaby|def|1
+|-boost|p2a: Vullaby|spe|1
+|
+|t:|1633270305
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100|[from]move: U-turn
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Vullaby|Dark Pulse|p1a: Drilbur
+|-damage|p1a: Drilbur|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vullaby|70/100|[from] Hail
+|-damage|p1a: Drilbur|53/100|[from] Hail
+|upkeep
+|turn|16
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270322
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Drilbur|Rock Slide|p2a: Staryu
+|-damage|p2a: Staryu|69/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|64/100|[from] Hail
+|-damage|p1a: Drilbur|48/100|[from] Hail
+|upkeep
+|turn|17
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270344
+|switch|p1a: Slowpoke|Slowpoke, L5, M|100/100
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|95/100|[from] Hail
+|-damage|p1a: Slowpoke|97/100|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1633270354
+|switch|p2a: Porygon|Porygon, L5|60/100
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Slowpoke
+|move|p1a: Slowpoke|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Slowpoke|93/100|[from] Hail
+|-damage|p2a: Porygon|57/100 par|[from] Hail
+|upkeep
+|turn|19
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270367
+|switch|p1a: Drilbur|Drilbur, L5, F|48/100
+|-ability|p1a: Drilbur|Mold Breaker
+|cant|p2a: Porygon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|44/100|[from] Hail
+|-damage|p2a: Porygon|52/100 par|[from] Hail
+|upkeep
+|turn|20
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270378
+|switch|p2a: Staryu|Staryu, L5|95/100
+|move|p1a: Drilbur|Stealth Rock|p2a: Staryu
+|-sidestart|p2: F i l l e|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|90/100|[from] Hail
+|-damage|p1a: Drilbur|40/100|[from] Hail
+|upkeep
+|turn|21
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270388
+|switch|p1a: Snover|Snover, L5, F|100/100
+|move|p2a: Staryu|Rapid Spin|p1a: Snover
+|-damage|p1a: Snover|91/100
+|-sideend|p2: F i l l e|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Staryu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|85/100|[from] Hail
+|upkeep
+|turn|22
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270401
+|move|p1a: Snover|Giga Drain|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|-heal|p1a: Snover|100/100|[from] drain|[of] p2a: Staryu
+|faint|p2a: Staryu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|F i l l e has 270 seconds left.
+|
+|t:|1633270421
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|23
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270432
+|switch|p1a: Slowpoke|Slowpoke, L5, M|100/100
+|move|p2a: Mienfoo|Knock Off|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|86/100
+|-enditem|p1a: Slowpoke|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Hail
+|-damage|p1a: Slowpoke|83/100|[from] Hail
+|upkeep
+|turn|24
+|inactive|F i l l e has 270 seconds left.
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270446
+|move|p2a: Mienfoo|U-turn|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|33/100
+|inactive|F i l l e has 270 seconds left.
+|
+|t:|1633270455
+|switch|p2a: Porygon|Porygon, L5|84/100 par|[from]move: U-turn
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Slowpoke
+|move|p1a: Slowpoke|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|68/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Slowpoke|29/100|[from] Hail
+|-damage|p2a: Porygon|64/100 par|[from] Hail
+|upkeep
+|turn|25
+|inactive|F i l l e has 270 seconds left.
+|inactive|Bughouse has 60 seconds left.
+|
+|t:|1633270491
+|switch|p1a: Drilbur|Drilbur, L5, F|40/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Porygon|Tri Attack|p1a: Drilbur
+|-crit|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|60/100 par|[from] Hail
+|upkeep
+|
+|t:|1633270509
+|switch|p1a: Snover|Snover, L5, F|100/100
+|turn|26
+|
+|t:|1633270528
+|move|p1a: Snover|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|24/100 par
+|move|p2a: Porygon|Tri Attack|p1a: Snover
+|-damage|p1a: Snover|46/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|20/100 par|[from] Hail
+|upkeep
+|turn|27
+|
+|t:|1633270540
+|move|p1a: Snover|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1633270546
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|28
+|
+|t:|1633270550
+|switch|p1a: Slowpoke|Slowpoke, L5, M|61/100
+|move|p2a: Mienfoo|U-turn|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|18/100
+|
+|t:|1633270555
+|switch|p2a: Vullaby|Vullaby, L5, F|70/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vullaby|66/100|[from] Hail
+|-damage|p1a: Slowpoke|15/100|[from] Hail
+|upkeep
+|turn|29
+|
+|t:|1633270562
+|move|p2a: Vullaby|Dark Pulse|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vullaby|61/100|[from] Hail
+|upkeep
+|
+|t:|1633270565
+|switch|p1a: Snover|Snover, L5, F|46/100
+|turn|30
+|inactive|F i l l e has 270 seconds left.
+|
+|t:|1633270577
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Snover|Blizzard|p2a: Mienfoo
+|-damage|p2a: Mienfoo|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|44/100|[from] Hail
+|upkeep
+|turn|31
+|inactive|F i l l e has 270 seconds left.
+|-message|F i l l e forfeited.
+|
+|win|Bughouse
+|c|☆Bughouse|gg
+|c|☆F i l l e|I choked
+|c|☆F i l l e|on dicks
+|c|☆F i l l e|gg

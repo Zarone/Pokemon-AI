@@ -1,0 +1,60 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644095797
+|gametype|singles
+|player|p1|Ainzcrad|winona-gen6|
+|player|p2|Sabella|#sabella|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jellicent, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Mamoswine, M|item
+|teampreview
+|c|☆Ainzcrad|hf
+|c|☆Sabella|sorry
+|c|☆Sabella|hf
+|c|☆Ainzcrad|dw
+|inactive|Ainzcrad has 270 seconds left.
+|
+|t:|1644095832
+|start
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|switch|p2a: Golden|Mamoswine, M, shiny|100/100
+|turn|1
+|inactive|Sabella has 270 seconds left.
+|inactive|Sabella has 240 seconds left.
+|inactive|Sabella has 210 seconds left.
+|inactive|Sabella has 180 seconds left.
+|inactive|Sabella has 150 seconds left.
+|inactive|Sabella has 120 seconds left.
+|inactive|Sabella has 90 seconds left.
+|inactive|Sabella has 60 seconds left.
+|inactive|Sabella has 30 seconds left.
+|inactive|Sabella has 20 seconds left.
+|inactive|Sabella has 15 seconds left.
+|inactive|Sabella has 10 seconds left.
+|inactive|Sabella has 5 seconds left.
+|-message|Sabella lost due to inactivity.
+|
+|win|Ainzcrad
+|c|☆Ainzcrad|noooooo ;;;

@@ -1,0 +1,476 @@
+|j|☆g5 power
+|j|☆SrKalopsia
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644046276
+|gametype|singles
+|player|p1|g5 power|battlegirl|
+|player|p2|SrKalopsia|lusamine-nihilego|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Sableye, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Alakazam, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|inactive|SrKalopsia also wants the timer to be on.
+|j| yukizibaki
+|l| yukizibaki
+|j| GGeorgie
+|j| innovamania
+|c|☆SrKalopsia|gl hf
+|j| Luckpup
+|c|☆SrKalopsia|:)
+|inactive|g5 power has 120 seconds left.
+|j| PKS Anon
+|c|☆g5 power|hf bro :)
+|
+|t:|1644046335
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Gustavo|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gustavo
+|turn|1
+|
+|t:|1644046342
+|move|p2a: Gustavo|Protect|p2a: Gustavo
+|-singleturn|p2a: Gustavo|Protect
+|move|p1a: Ferrothorn|Spikes|p2a: Gustavo
+|-sidestart|p2: SrKalopsia|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1644046349
+|move|p2a: Gustavo|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Gustavo
+|-start|p2a: Gustavo|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p2a: Gustavo|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1644046358
+|switch|p2a: Shiny Pot|Ferrothorn, F, shiny|100/100
+|-damage|p2a: Shiny Pot|88/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Shiny Pot
+|-resisted|p2a: Shiny Pot
+|-damage|p2a: Shiny Pot|81/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Shiny Pot
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Shiny Pot|87/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|l| GGeorgie
+|
+|t:|1644046370
+|move|p2a: Shiny Pot|Spikes|p1a: Ferrothorn
+|-sidestart|p1: g5 power|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Shiny Pot
+|-sidestart|p2: SrKalopsia|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-heal|p2a: Shiny Pot|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644046377
+|move|p2a: Shiny Pot|Spikes|p1a: Ferrothorn
+|-sidestart|p1: g5 power|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Shiny Pot
+|-sidestart|p2: SrKalopsia|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Shiny Pot|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644046383
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|84/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Shiny Pot|Spikes|p1a: Tyranitar
+|-sidestart|p1: g5 power|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Shiny Pot|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644046400
+|switch|p2a: Gustavo|Politoed, F, shiny|88/100
+|-damage|p2a: Gustavo|63/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gustavo
+|move|p1a: Tyranitar|Superpower|p2a: Gustavo
+|-damage|p2a: Gustavo|14/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gustavo|20/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| Bald Fraudiola
+|l| Bald Fraudiola
+|
+|t:|1644046413
+|move|p2a: Gustavo|Protect|p2a: Gustavo
+|-singleturn|p2a: Gustavo|Protect
+|move|p1a: Tyranitar|Pursuit|p2a: Gustavo
+|-activate|p2a: Gustavo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gustavo|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644046420
+|switch|p2a: Otto|Tentacruel, F, shiny|100/100
+|-damage|p2a: Otto|76/100|[from] Spikes
+|move|p1a: Tyranitar|Crunch|p2a: Otto
+|-damage|p2a: Otto|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|46/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|52/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1644046430
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|75/100|[from] Spikes
+|move|p2a: Otto|Scald|p1a: Sableye
+|-damage|p1a: Sableye|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|58/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|64/100|[from] item: Black Sludge
+|-heal|p1a: Sableye|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644046444
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|97/100
+|move|p2a: Otto|Scald|p1a: Sableye
+|-damage|p1a: Sableye|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|70/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|77/100|[from] item: Black Sludge
+|-heal|p1a: Sableye|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644046456
+|move|p2a: Otto|Toxic Spikes|p1a: Sableye
+|-sidestart|p1: g5 power|move: Toxic Spikes
+|move|p1a: Sableye|Night Shade|p2a: Otto
+|-damage|p2a: Otto|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|55/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|61/100|[from] item: Black Sludge
+|-heal|p1a: Sableye|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|j| yukizibaki
+|
+|t:|1644046468
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Otto|Toxic Spikes|p1a: Latios
+|-sidestart|p1: g5 power|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|67/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|73/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|l| yukizibaki
+|
+|t:|1644046476
+|move|p1a: Latios|Draco Meteor|p2a: Otto
+|-damage|p2a: Otto|11/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Otto|Toxic Spikes||[still]
+|-fail|p2a: Otto
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|17/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|23/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1644046486
+|move|p2a: Otto|Protect|p2a: Otto
+|-singleturn|p2a: Otto|Protect
+|move|p1a: Latios|Draco Meteor|p2a: Otto
+|-activate|p2a: Otto|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Otto|29/100|[from] ability: Rain Dish
+|-heal|p2a: Otto|35/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1644046500
+|switch|p1a: Tyranitar|Tyranitar, F|84/100
+|-damage|p1a: Tyranitar|59/100|[from] Spikes
+|-status|p1a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Shiny Pot|Ferrothorn, F, shiny|100/100
+|-damage|p2a: Shiny Pot|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Shiny Pot|82/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|53/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1644046515
+|move|p1a: Tyranitar|Superpower|p2a: Shiny Pot
+|-supereffective|p2a: Shiny Pot
+|-damage|p2a: Shiny Pot|16/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|-damage|p1a: Tyranitar|40/100 tox|[from] ability: Iron Barbs|[of] p2a: Shiny Pot
+|move|p2a: Shiny Pot|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: g5 power|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Shiny Pot|22/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|28/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1644046528
+|switch|p2a: Lance|Dragonite, M, shiny|100/100
+|move|p1a: Tyranitar|Superpower|p2a: Lance
+|-resisted|p2a: Lance
+|-damage|p2a: Lance|95/100
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lance|88/100|[from] Sandstorm
+|-heal|p2a: Lance|95/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|9/100 tox|[from] psn
+|upkeep
+|turn|19
+|j| husbando kujo
+|l| innovamania
+|
+|t:|1644046543
+|move|p2a: Lance|Dragon Dance|p2a: Lance
+|-boost|p2a: Lance|atk|1
+|-boost|p2a: Lance|spe|1
+|move|p1a: Tyranitar|Stealth Rock|p2a: Lance
+|-sidestart|p2: SrKalopsia|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lance|88/100|[from] Sandstorm
+|-heal|p2a: Lance|95/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] psn
+|faint|p1a: Tyranitar
+|upkeep
+|
+|t:|1644046548
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lance|atk|1
+|turn|20
+|j| imverybigbigbig
+|
+|t:|1644046557
+|move|p1a: Landorus|Hidden Power|p2a: Lance
+|-supereffective|p2a: Lance
+|-damage|p2a: Lance|37/100
+|move|p2a: Lance|Substitute|p2a: Lance
+|-start|p2a: Lance|Substitute
+|-damage|p2a: Lance|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lance|6/100|[from] Sandstorm
+|-heal|p2a: Lance|12/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644046570
+|move|p1a: Landorus|Hidden Power|p2a: Lance
+|-supereffective|p2a: Lance
+|-end|p2a: Lance|Substitute
+|move|p2a: Lance|Dragon Dance|p2a: Lance
+|-boost|p2a: Lance|atk|1
+|-boost|p2a: Lance|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lance|6/100|[from] Sandstorm
+|-heal|p2a: Lance|12/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644046590
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|69/100|[from] Spikes
+|move|p2a: Lance|Dragon Claw|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|-damage|p2a: Lance|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Lance
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|j| LT62HG devans2048
+|
+|t:|1644046615
+|switch|p2a: Water Pony|Keldeo-Resolute|100/100
+|-damage|p2a: Water Pony|94/100|[from] Stealth Rock
+|-damage|p2a: Water Pony|70/100|[from] Spikes
+|turn|23
+|
+|t:|1644046620
+|move|p2a: Water Pony|Secret Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|4/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Water Pony
+|-supereffective|p2a: Water Pony
+|-damage|p2a: Water Pony|0 fnt
+|faint|p2a: Water Pony
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|c| LT62HG devans2048|now I really wish that I knew rapid spin - some trainer
+|inactive|SrKalopsia has 120 seconds left.
+|c| imverybigbigbig|seems like playing gen 5 can be hazardous for your health...
+|
+|t:|1644046647
+|switch|p2a: Zeus|Thundurus-Therian, M, shiny|100/100
+|-damage|p2a: Zeus|76/100|[from] Stealth Rock
+|turn|24
+|c|☆g5 power|lots of dads in the chat I see
+|
+|t:|1644046655
+|move|p2a: Zeus|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Zeus|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Zeus
+|-resisted|p2a: Zeus
+|-damage|p2a: Zeus|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus|45/100|[from] Sandstorm
+|-heal|p2a: Zeus|51/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|17/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|SrKalopsia has 120 seconds left.
+|c|☆SrKalopsia|i hate rng xd
+|c| LT62HG devans2048|no, I'm just a programmer
+|
+|t:|1644046669
+|move|p2a: Zeus|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Zeus|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Zeus
+|-resisted|p2a: Zeus
+|-crit|p2a: Zeus
+|-damage|p2a: Zeus|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus|3/100|[from] Sandstorm
+|-heal|p2a: Zeus|9/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|SrKalopsia has 120 seconds left.
+|
+|t:|1644046682
+|move|p2a: Zeus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeus|3/100|[from] Sandstorm
+|-heal|p2a: Zeus|9/100|[from] item: Leftovers
+|upkeep
+|c| imverybigbigbig|Are ya winning son?
+|
+|t:|1644046686
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|-status|p1a: Alakazam|tox
+|turn|27
+|inactive|SrKalopsia has 120 seconds left.
+|
+|t:|1644046700
+|move|p1a: Alakazam|Psyshock|p2a: Zeus
+|-damage|p2a: Zeus|0 fnt
+|faint|p2a: Zeus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|SrKalopsia has 120 seconds left.
+|
+|t:|1644046712
+|switch|p2a: Otto|Tentacruel, F, shiny|35/100
+|-damage|p2a: Otto|23/100|[from] Stealth Rock
+|-damage|p2a: Otto|0 fnt|[from] Spikes
+|faint|p2a: Otto
+|
+|t:|1644046718
+|switch|p2a: Gustavo|Politoed, F, shiny|26/100
+|-damage|p2a: Gustavo|2/100|[from] Spikes
+|-damage|p2a: Gustavo|0 fnt|[from] Stealth Rock
+|faint|p2a: Gustavo
+|c|☆SrKalopsia|gg+
+|
+|t:|1644046724
+|switch|p2a: Shiny Pot|Ferrothorn, F, shiny|22/100
+|-damage|p2a: Shiny Pot|16/100|[from] Stealth Rock
+|-damage|p2a: Shiny Pot|0 fnt|[from] Spikes
+|faint|p2a: Shiny Pot
+|
+|win|g5 power
+|n|☆g5 power|g5power
+|n|☆SrKalopsia|srkalopsia
+|n| Luckpup|luckpup
+|n| PKS Anon|pksanon
+|n| husbando kujo|husbandokujo
+|n| imverybigbigbig|imverybigbigbig
+|n| LT62HG devans2048|lt62hgdevans2048
+|c|☆g5 power|gg
+|c| LT62HG devans2048|zam dont even need to do anything
+|c|☆SrKalopsia|xDDD
+|l| imverybigbigbig
+|c|☆g5 power|he's just too scary lol

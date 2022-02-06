@@ -1,0 +1,347 @@
+|j|☆NuNoo0_8
+|j|☆Julianoss001
+|t:|1636661670
+|gametype|singles
+|player|p1|NuNoo0_8|lance|
+|player|p2|Julianoss001|bruno-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Bisharp, M|item
+|poke|p1|Porygon-Z|item
+|poke|p1|Ninjask, M|item
+|poke|p1|Cinccino, F|item
+|poke|p1|Shaymin|item
+|poke|p1|Ditto|item
+|poke|p2|Ambipom, M|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Heracross, F|item
+|poke|p2|Azelf|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Porygon-Z|item
+|teampreview
+|
+|t:|1636661719
+|start
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|c|☆NuNoo0_8|!dt azelf
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">UU</span> <span class="col iconcol"><psicon pokemon="azelf"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/azelf" target="_blank">Azelf</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Psychic.png" alt="Psychic" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col abilitycol">Levitate</span><span class="col abilitycol"></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />75</span> <span class="col statcol"><em>Atk</em><br />125</span> <span class="col statcol"><em>Def</em><br />70</span> <span class="col statcol"><em>SpA</em><br />125</span> <span class="col statcol"><em>SpD</em><br />70</span> <span class="col statcol"><em>Spe</em><br />115</span> <span class="col bstcol"><em>BST<br />580</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 482&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 4&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 0.3 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 0.3 kg <em>(20 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Blue&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Undiscovered&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|
+|t:|1636661764
+|move|p2a: Azelf|Stealth Rock|p1a: Porygon-Z
+|-sidestart|p1: NuNoo0_8|move: Stealth Rock
+|move|p1a: Porygon-Z|Tri Attack|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|upkeep
+|c|☆Julianoss001|Ñ
+|
+|t:|1636661785
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|2
+|
+|t:|1636661803
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|move|p2a: Porygon-Z|Hyper Beam|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-mustrecharge|p2a: Porygon-Z
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1636661809
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|-damage|p1a: Porygon-Z|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1636661813
+|move|p1a: Porygon-Z|Hyper Beam|p2a: Porygon-Z|[miss]
+|-miss|p1a: Porygon-Z|p2a: Porygon-Z
+|cant|p2a: Porygon-Z|recharge
+|
+|upkeep
+|turn|4
+|
+|t:|1636661821
+|move|p1a: Porygon-Z|Hyper Beam|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-mustrecharge|p1a: Porygon-Z
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1636661826
+|switch|p2a: Heracross|Heracross, F|100/100
+|turn|5
+|
+|t:|1636661831
+|cant|p1a: Porygon-Z|recharge
+|move|p2a: Heracross|Close Combat|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|
+|t:|1636661837
+|switch|p1a: Shaymin|Shaymin|100/100
+|-damage|p1a: Shaymin|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1636661853
+|switch|p2a: Ambipom|Ambipom, M|100/100
+|move|p1a: Shaymin|Leech Seed|p2a: Ambipom
+|-start|p2a: Ambipom|move: Leech Seed
+|
+|-heal|p1a: Shaymin|94/100|[from] item: Leftovers
+|-damage|p2a: Ambipom|88/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|100/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1636661860
+|move|p2a: Ambipom|Fake Out|p1a: Shaymin
+|-damage|p1a: Shaymin|73/100
+|-damage|p2a: Ambipom|78/100|[from] item: Life Orb
+|cant|p1a: Shaymin|flinch
+|
+|-heal|p1a: Shaymin|79/100|[from] item: Leftovers
+|-damage|p2a: Ambipom|66/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|88/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1636661866
+|move|p2a: Ambipom|Return|p1a: Shaymin
+|-damage|p1a: Shaymin|36/100
+|-damage|p2a: Ambipom|56/100|[from] item: Life Orb
+|move|p1a: Shaymin|Toxic|p2a: Ambipom
+|-status|p2a: Ambipom|tox
+|
+|-heal|p1a: Shaymin|42/100|[from] item: Leftovers
+|-damage|p2a: Ambipom|43/100 tox|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|51/100|[silent]
+|-damage|p2a: Ambipom|37/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1636661878
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|move|p1a: Shaymin|Protect||[still]
+|-fail|p1a: Shaymin
+|
+|-heal|p1a: Shaymin|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1636661885
+|move|p2a: Krookodile|Crunch|p1a: Shaymin
+|-damage|p1a: Shaymin|27/100
+|move|p1a: Shaymin|Leech Seed|p2a: Krookodile
+|-start|p2a: Krookodile|move: Leech Seed
+|
+|-heal|p1a: Shaymin|34/100|[from] item: Leftovers
+|-damage|p2a: Krookodile|88/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|44/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1636661893
+|switch|p2a: Heracross|Heracross, F|100/100
+|move|p1a: Shaymin|Toxic|p2a: Heracross
+|-status|p2a: Heracross|tox
+|
+|-heal|p1a: Shaymin|50/100|[from] item: Leftovers
+|-damage|p2a: Heracross|95/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1636661900
+|move|p1a: Shaymin|Protect|p1a: Shaymin
+|-singleturn|p1a: Shaymin|Protect
+|move|p2a: Heracross|Megahorn|p1a: Shaymin
+|-activate|p1a: Shaymin|move: Protect
+|
+|-heal|p2a: Heracross|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Shaymin|56/100|[from] item: Leftovers
+|-damage|p2a: Heracross|89/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1636661909
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|move|p2a: Heracross|Close Combat|p1a: Ninjask
+|-resisted|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Ninjask
+|
+|-heal|p2a: Heracross|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Heracross|77/100 tox|[from] psn
+|upkeep
+|
+|t:|1636661919
+|switch|p1a: Cinccino|Cinccino, F|100/100
+|-damage|p1a: Cinccino|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1636661947
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|move|p1a: Cinccino|Tail Slap|p2a: Blastoise
+|-damage|p2a: Blastoise|89/100
+|-damage|p2a: Blastoise|79/100
+|-damage|p2a: Blastoise|68/100
+|-damage|p2a: Blastoise|58/100
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|34/100
+|-hitcount|p2a: Blastoise|5
+|
+|-heal|p2a: Blastoise|41/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1636661958
+|move|p1a: Cinccino|Tail Slap|p2a: Blastoise
+|-damage|p2a: Blastoise|30/100
+|-damage|p2a: Blastoise|18/100
+|-damage|p2a: Blastoise|8/100
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|-hitcount|p2: Blastoise|4
+|
+|upkeep
+|
+|t:|1636661964
+|switch|p2a: Ambipom|Ambipom, M|37/100 tox
+|turn|16
+|
+|t:|1636661969
+|move|p2a: Ambipom|Fake Out|p1a: Cinccino
+|-damage|p1a: Cinccino|26/100
+|-damage|p2a: Ambipom|27/100 tox|[from] item: Life Orb
+|cant|p1a: Cinccino|flinch
+|
+|-damage|p2a: Ambipom|21/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1636661976
+|move|p1a: Cinccino|Tail Slap|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|-hitcount|p2: Ambipom|1
+|
+|upkeep
+|
+|t:|1636661981
+|switch|p2a: Krookodile|Krookodile, M|88/100
+|turn|18
+|
+|t:|1636661990
+|move|p2a: Krookodile|Crunch|p1a: Cinccino
+|-crit|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|faint|p1a: Cinccino
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1636661995
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Krookodile|[from] ability: Imposter
+|turn|19
+|
+|t:|1636662009
+|move|p1a: Ditto|Earthquake|p2a: Krookodile
+|-damage|p2a: Krookodile|3/100
+|move|p2a: Krookodile|Crunch|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|47/100
+|-unboost|p1a: Ditto|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1636662017
+|move|p1a: Ditto|Earthquake|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|-ability|p1a: Ditto|Moxie|boost
+|-boost|p1a: Ditto|atk|1
+|
+|upkeep
+|
+|t:|1636662022
+|switch|p2a: Heracross|Heracross, F|77/100 tox
+|turn|21
+|
+|t:|1636662026
+|move|p1a: Ditto|Earthquake|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|16/100 tox
+|move|p2a: Heracross|Close Combat|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Ditto
+|
+|-heal|p2a: Heracross|22/100 tox|[from] item: Leftovers
+|-damage|p2a: Heracross|16/100 tox|[from] psn
+|upkeep
+|
+|t:|1636662031
+|switch|p1a: Shaymin|Shaymin|56/100
+|-damage|p1a: Shaymin|44/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1636662042
+|move|p1a: Shaymin|Protect|p1a: Shaymin
+|-singleturn|p1a: Shaymin|Protect
+|move|p2a: Heracross|Close Combat|p1a: Shaymin
+|-activate|p1a: Shaymin|move: Protect
+|
+|-heal|p2a: Heracross|22/100 tox|[from] item: Leftovers
+|-heal|p1a: Shaymin|50/100|[from] item: Leftovers
+|-damage|p2a: Heracross|10/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1636662127
+|move|p1a: Shaymin|Protect|p1a: Shaymin
+|-singleturn|p1a: Shaymin|Protect
+|move|p2a: Heracross|Close Combat|p1a: Shaymin
+|-activate|p1a: Shaymin|move: Protect
+|
+|-heal|p2a: Heracross|16/100 tox|[from] item: Leftovers
+|-heal|p1a: Shaymin|56/100|[from] item: Leftovers
+|-damage|p2a: Heracross|0 fnt|[from] psn
+|faint|p2a: Heracross
+|
+|win|NuNoo0_8
+|upkeep
+|l|☆Julianoss001

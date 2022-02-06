@@ -1,0 +1,335 @@
+|j|☆ZURS_Maxee
+|j|☆Observation Hockey
+|t:|1636067996
+|gametype|singles
+|player|p1|ZURS_Maxee|colress-gen7|
+|player|p2|Observation Hockey|pilot|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Nidoking, M|item
+|poke|p1|Victini|item
+|poke|p1|Suicune|item
+|poke|p1|Mew|item
+|poke|p1|Druddigon, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Mew|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Hitmontop, M|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Bronzong|item
+|teampreview
+|j| banana love
+|
+|t:|1636068057
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|t:|1636068076
+|move|p1a: Mew|Taunt|p2a: Bronzong
+|-start|p2a: Bronzong|move: Taunt
+|cant|p2a: Bronzong|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|t:|1636068088
+|move|p1a: Mew|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Observation Hockey|move: Stealth Rock
+|move|p2a: Bronzong|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|63/100
+|
+|upkeep
+|turn|3
+|
+|t:|1636068108
+|move|p1a: Mew|Tailwind|p1a: Mew
+|-sidestart|p1: ZURS_Maxee|move: Tailwind
+|move|p2a: Bronzong|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|20/100
+|
+|-end|p2a: Bronzong|move: Taunt
+|upkeep
+|turn|4
+|j| torterrax1
+|
+|t:|1636068130
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Mew|Taunt|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1636068159
+|move|p1a: Mew|Taunt|p2a: Bronzong
+|-start|p2a: Bronzong|move: Taunt
+|move|p2a: Bronzong|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1636068163
+|switch|p1a: Victini|Victini|100/100
+|turn|6
+|
+|t:|1636068174
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|move|p1a: Victini|V-create|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|59/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-heal|p2a: Rhyperior|65/100|[from] item: Leftovers
+|-sideend|p1: ZURS_Maxee|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1636068188
+|move|p1a: Victini|Grass Knot|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1636068201
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|8
+|j| gref123
+|
+|t:|1636068211
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1636068217
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: ZURS_Maxee|move: Tailwind
+|move|p2a: Mew|Zen Headbutt|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2a: Mew|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636068232
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|10
+|
+|t:|1636068241
+|move|p1a: Druddigon|Outrage|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1636068249
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1636068253
+|move|p1a: Druddigon|Outrage|p2a: Bronzong|[from]lockedmove
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|56/100
+|-start|p1a: Druddigon|confusion|[fatigue]
+|move|p2a: Bronzong|Toxic|p1a: Druddigon
+|-status|p1a: Druddigon|tox
+|
+|-heal|p2a: Bronzong|63/100|[from] item: Leftovers
+|-damage|p1a: Druddigon|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1636068266
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Bronzong|Gyro Ball|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|72/100
+|
+|-heal|p2a: Bronzong|69/100|[from] item: Leftovers
+|-sideend|p1: ZURS_Maxee|move: Tailwind
+|upkeep
+|turn|13
+|
+|t:|1636068274
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|move|p1a: Victini|V-create|p2a: Hitmontop
+|-damage|p2a: Hitmontop|35/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-heal|p2a: Hitmontop|41/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1636068299
+|move|p1a: Victini|Zen Headbutt|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|t:|1636068307
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|turn|15
+|j|%Codename Magnum
+|
+|t:|1636068325
+|switch|p1a: Druddigon|Druddigon, M|94/100 tox
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Roserade|Sludge Bomb|p1a: Druddigon
+|-crit|p1a: Druddigon
+|-damage|p1a: Druddigon|6/100 tox
+|
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|-damage|p1a: Druddigon|0 fnt|[from] psn
+|faint|p1a: Druddigon
+|upkeep
+|
+|t:|1636068332
+|switch|p1a: Victini|Victini|72/100
+|turn|16
+|
+|t:|1636068341
+|switch|p2a: Bronzong|Bronzong|69/100
+|-damage|p2a: Bronzong|63/100|[from] Stealth Rock
+|move|p1a: Victini|Zen Headbutt|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|55/100
+|
+|-heal|p2a: Bronzong|61/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1636068348
+|move|p1a: Victini|V-create|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1636068351
+|switch|p2a: Roserade|Roserade, F|94/100
+|-damage|p2a: Roserade|82/100|[from] Stealth Rock
+|turn|18
+|j| ahyueah
+|
+|t:|1636068362
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Roserade|Sludge Bomb|p1a: Suicune
+|-damage|p1a: Suicune|65/100
+|
+|-heal|p1a: Suicune|71/100|[from] item: Leftovers
+|-heal|p2a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1636068389
+|move|p1a: Suicune|Ice Beam|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|52/100
+|move|p2a: Roserade|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|13/100
+|-heal|p2a: Roserade|82/100|[from] drain|[of] p1a: Suicune
+|
+|-heal|p1a: Suicune|20/100|[from] item: Leftovers
+|-heal|p2a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1636068396
+|move|p1a: Suicune|Ice Beam|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|52/100
+|move|p2a: Roserade|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|-heal|p2a: Roserade|62/100|[from] drain|[of] p1a: Suicune
+|faint|p1a: Suicune
+|
+|-heal|p2a: Roserade|68/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1636068409
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|turn|21
+|
+|t:|1636068427
+|move|p1a: Nidoking|Fire Blast|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|l|%Codename Magnum
+|
+|t:|1636068432
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1636068438
+|move|p1a: Nidoking|Ice Beam|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|11/100
+|move|p2a: Togekiss|Air Slash|p1a: Nidoking
+|-damage|p1a: Nidoking|59/100
+|
+|-heal|p2a: Togekiss|18/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1636068443
+|move|p1a: Nidoking|Ice Beam|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|win|ZURS_Maxee
+|n|☆ZURS_Maxee|zursmaxee
+|n|☆Observation Hockey|observationhockey
+|n| banana love|bananalove
+|n| torterrax1|torterrax1
+|n| gref123|gref123
+|n| ahyueah|ahyueah
+|c|☆ZURS_Maxee|gg

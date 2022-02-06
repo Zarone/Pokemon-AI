@@ -1,0 +1,318 @@
+|j|☆Zekarum
+|j|☆ki adi munna
+|t:|1634861271
+|gametype|singles
+|player|p1|Zekarum|pokemonbreeder|
+|player|p2|ki adi munna|acetrainercouple|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tornadus, M|item
+|poke|p1|Raikou|item
+|poke|p1|Heracross, M|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Azelf|item
+|poke|p1|Kingdra, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Heracross, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Swampert, M|item
+|poke|p2|Togekiss, F|item
+|poke|p2|Mismagius, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zekarum)
+|
+|t:|1634861294
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|1
+|inactive|ki adi munna has 120 seconds left.
+|
+|t:|1634861334
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Mismagius|Shadow Ball|p1a: Raikou
+|-damage|p1a: Raikou|62/100
+|
+|-heal|p1a: Raikou|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1634861344
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Raikou|Volt Switch|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-heal|p1a: Raikou|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|ki adi munna has 120 seconds left.
+|
+|t:|1634861362
+|switch|p1a: Heracross|Heracross, M|100/100
+|move|p2a: Flygon|Stone Edge|p1a: Heracross
+|-damage|p1a: Heracross|46/100
+|-damage|p2a: Flygon|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1634861372
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|move|p1a: Heracross|Megahorn|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+|
+|t:|1634861381
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|5
+|
+|t:|1634861389
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1634861396
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|move|p2a: Cobalion|Stone Edge|p1a: Azelf
+|-damage|p1a: Azelf|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1634861402
+|move|p1a: Azelf|Stealth Rock|p2a: Cobalion
+|-sidestart|p2: ki adi munna|move: Stealth Rock
+|move|p2a: Cobalion|Close Combat|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1634861414
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|8
+|
+|t:|1634861417
+|move|p2a: Cobalion|Protect|p2a: Cobalion
+|-singleturn|p2a: Cobalion|Protect
+|move|p1a: Kingdra|Surf|p2a: Cobalion
+|-activate|p2a: Cobalion|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|j| Pikablu007
+|
+|t:|1634861423
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|move|p1a: Kingdra|Surf|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|l| Pikablu007
+|
+|t:|1634861426
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1634861428
+|move|p1a: Kingdra|Surf|p2a: Togekiss
+|-damage|p2a: Togekiss|16/100
+|move|p2a: Togekiss|Thunder Wave|p1a: Kingdra
+|-status|p1a: Kingdra|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|22/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1634861438
+|switch|p1a: Kabutops|Kabutops, M|100/100
+|move|p2a: Togekiss|Thunder Wave|p1a: Kabutops
+|-status|p1a: Kabutops|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|28/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1634861453
+|move|p1a: Kabutops|Aqua Jet|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|-damage|p1a: Kabutops|91/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1634861460
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1634861470
+|move|p2a: Cobalion|Close Combat|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Kabutops
+|
+|-weather|none
+|-heal|p2a: Cobalion|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634861478
+|switch|p1a: Raikou|Raikou|74/100
+|-ability|p1a: Raikou|Pressure
+|turn|14
+|
+|t:|1634861499
+|switch|p2a: Flygon|Flygon, F|91/100
+|-damage|p2a: Flygon|85/100|[from] Stealth Rock
+|move|p1a: Raikou|Volt Switch|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-heal|p1a: Raikou|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1634861506
+|switch|p1a: Heracross|Heracross, M|46/100
+|move|p2a: Flygon|Stone Edge|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|-damage|p2a: Flygon|75/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634861512
+|switch|p1a: Kingdra|Kingdra, M|100/100 par
+|turn|16
+|
+|t:|1634861523
+|move|p2a: Flygon|Earthquake|p1a: Kingdra
+|-damage|p1a: Kingdra|36/100 par
+|-damage|p2a: Flygon|65/100|[from] item: Life Orb
+|cant|p1a: Kingdra|par
+|
+|upkeep
+|turn|17
+|
+|t:|1634861530
+|move|p2a: Flygon|Earthquake|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|-damage|p2a: Flygon|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634861541
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|18
+|
+|t:|1634861547
+|move|p1a: Tornadus|Focus Blast|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|t:|1634861552
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1634861560
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Cobalion|Stone Edge|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobalion|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1634861566
+|move|p1a: Tornadus|Hurricane|p2a: Cobalion
+|-damage|p2a: Cobalion|22/100
+|-start|p2a: Cobalion|confusion
+|-activate|p2a: Cobalion|confusion
+|move|p2a: Cobalion|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobalion|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634861572
+|switch|p1a: Raikou|Raikou|81/100
+|-ability|p1a: Raikou|Pressure
+|turn|21
+|
+|t:|1634861578
+|move|p1a: Raikou|Volt Switch|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raikou|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634861580
+|switch|p2a: Heracross|Heracross, F|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1634861584
+|move|p2a: Heracross|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|win|ki adi munna
+|n|☆Zekarum|zekarum
+|n|☆ki adi munna|kiadimunna
+|c|☆ki adi munna|gfg
+|l|☆Zekarum
+|c|☆ki adi munna|gg*

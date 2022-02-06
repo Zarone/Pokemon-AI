@@ -1,0 +1,424 @@
+|j|☆Boulicrok
+|j|☆5Dots
+|t:|1642797704
+|gametype|singles
+|player|p1|Boulicrok|#scl1islanders|
+|player|p2|5Dots|cynthia-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staryu, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Diglett, L5, F|item
+|poke|p1|Pawniard, L5, M|item
+|poke|p1|Budew, L5, F|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Ferroseed, L5, M|item
+|teampreview
+|c|☆Boulicrok|hf
+|
+|t:|1642797715
+|start
+|switch|p1a: Staryu|Staryu, L5|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|1
+|
+|t:|1642797770
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Mienfoo|Knock Off|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|91/100
+|-enditem|p1a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|2
+|
+|t:|1642797778
+|move|p1a: Mienfoo|Fake Out|p2a: Mienfoo
+|-damage|p2a: Mienfoo|87/100
+|cant|p2a: Mienfoo|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1642797783
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|78/100
+|
+|t:|1642797786
+|switch|p1a: Budew|Budew, L5, F|100/100|[from]move: U-turn
+|move|p2a: Mienfoo|High Jump Kick|p1a: Budew
+|-resisted|p1a: Budew
+|-damage|p1a: Budew|72/100
+|
+|upkeep
+|turn|4
+|
+|t:|1642797793
+|move|p1a: Budew|Sludge Bomb|p2a: Mienfoo
+|-damage|p2a: Mienfoo|50/100
+|move|p2a: Mienfoo|Knock Off|p1a: Budew
+|-damage|p1a: Budew|62/100
+|-enditem|p1a: Budew|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|5
+|
+|t:|1642797798
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|move|p1a: Budew|Spikes|p2a: Gastly
+|-sidestart|p2: 5Dots|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1642797804
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|move|p2a: Gastly|Substitute|p2a: Gastly
+|-start|p2a: Gastly|Substitute
+|-damage|p2a: Gastly|79/100
+|
+|upkeep
+|turn|7
+|
+|t:|1642797819
+|move|p2a: Gastly|Thunderbolt|p1a: Pawniard
+|-damage|p1a: Pawniard|43/100
+|-status|p1a: Pawniard|par
+|-damage|p2a: Gastly|74/100|[from] item: Life Orb
+|cant|p1a: Pawniard|par
+|
+|upkeep
+|turn|8
+|c|☆5Dots|Mb
+|c|☆Boulicrok|all g
+|
+|t:|1642797836
+|switch|p1a: Diglett|Diglett, L5, F|100/100
+|move|p2a: Gastly|Thunderbolt|p1a: Diglett
+|-immune|p1a: Diglett
+|
+|upkeep
+|turn|9
+|
+|t:|1642797840
+|move|p1a: Diglett|Beat Up|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-end|p2a: Gastly|Substitute
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|48/100
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|22/100
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|6/100
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|-hitcount|p2: Gastly|5
+|-damage|p1a: Diglett|95/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642797851
+|switch|p2a: Staryu|Staryu, L5|100/100
+|-damage|p2a: Staryu|90/100|[from] Spikes
+|turn|10
+|
+|t:|1642797857
+|move|p1a: Diglett|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|27/100
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|move|p2a: Staryu|Surf|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|upkeep
+|
+|t:|1642797865
+|switch|p1a: Budew|Budew, L5, F|62/100
+|turn|11
+|
+|t:|1642797869
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Budew|Giga Drain|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|87/100
+|-heal|p1a: Budew|72/100|[from] drain|[of] p2a: Natu
+|
+|upkeep
+|turn|12
+|
+|t:|1642797875
+|switch|p1a: Natu|Natu, L5, F|100/100
+|move|p2a: Natu|U-turn|p1a: Natu
+|-damage|p1a: Natu|86/100
+|
+|t:|1642797893
+|switch|p2a: Staryu|Staryu, L5|27/100|[from]move: U-turn
+|-damage|p2a: Staryu|16/100|[from] Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1642797896
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|69/100
+|
+|upkeep
+|turn|14
+|
+|t:|1642797906
+|switch|p2a: Ferroseed|Ferroseed, L5, M|100/100
+|-damage|p2a: Ferroseed|91/100|[from] Spikes
+|move|p1a: Mienfoo|Knock Off|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|87/100
+|-damage|p1a: Mienfoo|91/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-enditem|p2a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|15
+|
+|t:|1642797916
+|move|p1a: Mienfoo|U-turn|p2a: Ferroseed
+|-damage|p2a: Ferroseed|64/100
+|-damage|p1a: Mienfoo|82/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|t:|1642797918
+|switch|p1a: Natu|Natu, L5, F|86/100|[from]move: U-turn
+|move|p2a: Ferroseed|Thunder Wave|p1a: Natu
+|move|p1a: Natu|Thunder Wave|p2a: Ferroseed|[from]ability: Magic Bounce
+|-status|p2a: Ferroseed|par
+|
+|upkeep
+|turn|16
+|
+|t:|1642797926
+|switch|p2a: Natu|Natu, L5, F|87/100
+|move|p1a: Natu|Psychic|p2a: Natu
+|-resisted|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|50/100
+|
+|upkeep
+|turn|17
+|
+|t:|1642797932
+|move|p1a: Natu|Calm Mind|p1a: Natu
+|-boost|p1a: Natu|spa|1
+|-boost|p1a: Natu|spd|1
+|move|p2a: Natu|U-turn|p1a: Natu
+|-damage|p1a: Natu|72/100
+|
+|t:|1642797938
+|switch|p2a: Diglett|Diglett, L5, F|100/100|[from]move: U-turn
+|-damage|p2a: Diglett|89/100|[from] Spikes
+|
+|upkeep
+|turn|18
+|
+|t:|1642797942
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Diglett|Beat Up|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|96/100
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|91/100
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|87/100
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|82/100
+|-hitcount|p1a: Mienfoo|4
+|-damage|p2a: Diglett|84/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|j| crystal vince
+|
+|t:|1642797951
+|switch|p2a: Staryu|Staryu, L5|69/100
+|-damage|p2a: Staryu|58/100|[from] Spikes
+|move|p1a: Mienfoo|U-turn|p2a: Staryu
+|-damage|p2a: Staryu|32/100
+|
+|t:|1642797955
+|switch|p1a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|20
+|
+|t:|1642797960
+|move|p2a: Staryu|Thunder Wave|p1a: Staryu
+|-status|p1a: Staryu|par
+|move|p1a: Staryu|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|upkeep
+|
+|t:|1642797964
+|switch|p2a: Mienfoo|Mienfoo, L5, F|82/100
+|-damage|p2a: Mienfoo|73/100|[from] Spikes
+|turn|21
+|
+|t:|1642797967
+|-curestatus|p1a: Staryu|par|[from] ability: Natural Cure
+|switch|p1a: Budew|Budew, L5, F|72/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Budew|[miss]
+|-miss|p2a: Mienfoo|p1a: Budew
+|-damage|p2a: Mienfoo|23/100|[from] highjumpkick
+|
+|upkeep
+|turn|22
+|
+|t:|1642797975
+|move|p1a: Budew|Sludge Bomb|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1642797979
+|switch|p2a: Natu|Natu, L5, F|50/100
+|turn|23
+|
+|t:|1642797984
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Budew|Sludge Bomb|p2a: Natu
+|-damage|p2a: Natu|73/100
+|-status|p2a: Natu|psn
+|
+|-damage|p2a: Natu|64/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1642797988
+|move|p2a: Natu|Calm Mind|p2a: Natu
+|-boost|p2a: Natu|spa|1
+|-boost|p2a: Natu|spd|1
+|move|p1a: Budew|Sludge Bomb|p2a: Natu
+|-damage|p2a: Natu|46/100 psn
+|
+|-damage|p2a: Natu|37/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1642797993
+|switch|p1a: Pawniard|Pawniard, L5, M|43/100 par
+|move|p2a: Natu|Psychic|p1a: Pawniard
+|-immune|p1a: Pawniard
+|
+|-damage|p2a: Natu|28/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1642797996
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|78/100 psn
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Pawniard|Pursuit|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|14/100 psn
+|
+|-damage|p2a: Natu|5/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1642798002
+|move|p2a: Natu|U-turn|p1a: Pawniard
+|-damage|p1a: Pawniard|29/100 par
+|-activate|p2a: Natu|move: Pursuit
+|move|p1a: Pawniard|Pursuit|p2a: Natu|[from]Pursuit
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|upkeep
+|
+|t:|1642798006
+|switch|p2a: Diglett|Diglett, L5, F|84/100
+|-damage|p2a: Diglett|73/100|[from] Spikes
+|turn|28
+|
+|t:|1642798009
+|move|p2a: Diglett|Earthquake|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-crit|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|-damage|p2a: Diglett|67/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642798012
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|29
+|
+|t:|1642798015
+|switch|p2a: Ferroseed|Ferroseed, L5, M|64/100 par
+|-damage|p2a: Ferroseed|55/100 par|[from] Spikes
+|move|p1a: Mienfoo|Fake Out|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|50/100 par
+|-damage|p1a: Mienfoo|91/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|upkeep
+|turn|30
+|
+|t:|1642798017
+|move|p1a: Mienfoo|U-turn|p2a: Ferroseed
+|-damage|p2a: Ferroseed|28/100 par
+|-damage|p1a: Mienfoo|82/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|t:|1642798020
+|switch|p1a: Natu|Natu, L5, F|72/100|[from]move: U-turn
+|cant|p2a: Ferroseed|par
+|
+|upkeep
+|turn|31
+|
+|t:|1642798022
+|move|p1a: Natu|Heat Wave|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1642798024
+|switch|p2a: Diglett|Diglett, L5, F|67/100
+|-damage|p2a: Diglett|56/100|[from] Spikes
+|turn|32
+|
+|t:|1642798026
+|move|p2a: Diglett|Pursuit|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|24/100
+|-damage|p2a: Diglett|50/100|[from] item: Life Orb
+|move|p1a: Natu|Psychic|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|win|Boulicrok
+|c|☆Boulicrok|gg
+|c|☆5Dots|Ggs

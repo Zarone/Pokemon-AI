@@ -1,0 +1,435 @@
+|j|☆Links
+|j|☆Waves
+|t:|1635542144
+|gametype|singles
+|player|p1|Links|elesa|
+|player|p2|Waves|hilda|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Duosion, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Carracosta, M|item
+|poke|p2|Golurk|item
+|poke|p2|Altaria, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Primeape, M|item
+|teampreview
+|j| BB-8-NU
+|c|☆Waves|hf noob
+|c|☆Links|This mf
+|c|☆Links|And his rain cheese
+|c|☆Waves|this is the only team i have lmao
+|j| marikk0715
+|j| blackkaiser
+|
+|t:|1635542186
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|turn|1
+|j|@susciety
+|j| Tribbling
+|
+|t:|1635542209
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Kangaskhan|Fake Out|p2a: Golurk
+|-damage|p2a: Golurk|76/100
+|
+|upkeep
+|turn|2
+|c|@susciety|nothing wrong with cheese
+|c|@susciety|hater smh
+|
+|t:|1635542234
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Altaria|Altaria, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1635542242
+|move|p2a: Altaria|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|37/100
+|-unboost|p2a: Altaria|spa|2
+|move|p1a: Seismitoad|Stealth Rock|p2a: Altaria
+|-sidestart|p2: Waves|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Waves|ate asf
+|
+|t:|1635542260
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|-damage|p2a: Sawsbuck|88/100|[from] Stealth Rock
+|switch|p1a: Duosion|Duosion, M|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1635542303
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1635542359
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Sawsbuck|Nature Power|p2a: Sawsbuck
+|move|p2a: Sawsbuck|Earthquake|p1a: Mandibuzz|[from]move: Nature Power
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|7
+|
+|t:|1635542383
+|switch|p2a: Altaria|Altaria, M|100/100
+|-damage|p2a: Altaria|76/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Altaria
+|-damage|p2a: Altaria|51/100
+|
+|upkeep
+|turn|8
+|
+|t:|1635542392
+|move|p1a: Mandibuzz|Toxic|p2a: Altaria
+|-status|p2a: Altaria|tox
+|move|p2a: Altaria|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|37/100
+|-unboost|p2a: Altaria|spa|2
+|
+|-heal|p1a: Mandibuzz|43/100|[from] item: Leftovers
+|-damage|p2a: Altaria|45/100 tox|[from] psn
+|upkeep
+|turn|9
+|c|☆Waves|this mon is ass
+|c|☆Links|Yeah LOL
+|
+|t:|1635542414
+|-curestatus|p2a: Altaria|tox|[from] ability: Natural Cure
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|93/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1635542423
+|move|p1a: Mandibuzz|Taunt|p2a: Ludicolo
+|-start|p2a: Ludicolo|move: Taunt
+|move|p2a: Ludicolo|Ice Beam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|47/100
+|-damage|p2a: Ludicolo|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Mandibuzz|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1635542433
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Ludicolo|Ice Beam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|-damage|p2a: Ludicolo|68/100|[from] item: Life Orb
+|
+|-heal|p1a: Mandibuzz|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1635542438
+|move|p1a: Mandibuzz|Toxic|p2a: Ludicolo
+|-status|p2a: Ludicolo|tox
+|move|p2a: Ludicolo|Surf|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|32/100
+|-damage|p2a: Ludicolo|58/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Mandibuzz|39/100|[from] item: Leftovers
+|-damage|p2a: Ludicolo|52/100 tox|[from] psn
+|-end|p2a: Ludicolo|move: Taunt
+|upkeep
+|turn|13
+|
+|t:|1635542446
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|89/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mandibuzz|95/100|[from] item: Leftovers
+|-damage|p2a: Ludicolo|40/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1635542456
+|switch|p1a: Seismitoad|Seismitoad, F|43/100
+|move|p2a: Ludicolo|Surf|p1a: Seismitoad
+|-heal|p1a: Seismitoad|68/100|[from] ability: Water Absorb|[of] p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|74/100|[from] item: Leftovers
+|-damage|p2a: Ludicolo|22/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1635542463
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Ludicolo|Surf|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|-damage|p2a: Ludicolo|0 fnt|[from] psn
+|faint|p2a: Ludicolo
+|upkeep
+|
+|t:|1635542470
+|switch|p2a: Sawsbuck|Sawsbuck, M|88/100
+|-damage|p2a: Sawsbuck|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1635542479
+|switch|p1a: Mandibuzz|Mandibuzz, F|95/100
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1635542485
+|move|p2a: Sawsbuck|Return|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|9/100
+|-damage|p2a: Sawsbuck|66/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Foul Play|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|-weather|none
+|-heal|p1a: Mandibuzz|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635542493
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1635542496
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Primeape|U-turn|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|92/100
+|-damage|p2a: Primeape|78/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|
+|t:|1635542498
+|switch|p2a: Golurk|Golurk|76/100|[from]move: U-turn
+|-damage|p2a: Golurk|70/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1635542509
+|switch|p1a: Mandibuzz|Mandibuzz, F|15/100
+|move|p2a: Golurk|Stone Edge|p1a: Mandibuzz|[miss]
+|-miss|p2a: Golurk|p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|21/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆Links|L
+|j| voltypichu
+|c|☆Waves|f
+|
+|t:|1635542529
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|71/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Golurk|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Links|move: Stealth Rock
+|
+|-heal|p1a: Mandibuzz|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1635542535
+|move|p1a: Mandibuzz|Foul Play|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-heal|p1a: Mandibuzz|84/100|[from] item: Leftovers
+|upkeep
+|l| voltypichu
+|j| Rethanonapkmn
+|c|☆Waves|gg
+|
+|t:|1635542552
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|-damage|p2a: Carracosta|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1635542559
+|move|p1a: Mandibuzz|Taunt|p2a: Carracosta
+|-start|p2a: Carracosta|move: Taunt
+|move|p2a: Carracosta|Stone Edge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|-damage|p2a: Carracosta|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1635542568
+|switch|p1a: Duosion|Duosion, M|100/100
+|turn|23
+|
+|t:|1635542574
+|move|p2a: Carracosta|Waterfall|p1a: Duosion
+|-damage|p1a: Duosion|64/100
+|-damage|p2a: Carracosta|69/100|[from] item: Life Orb
+|move|p1a: Duosion|Thunder|p2a: Carracosta|[miss]
+|-miss|p1a: Duosion|p2a: Carracosta
+|
+|upkeep
+|turn|24
+|
+|t:|1635542582
+|move|p2a: Carracosta|Waterfall|p1a: Duosion
+|-damage|p1a: Duosion|29/100
+|-damage|p2a: Carracosta|59/100|[from] item: Life Orb
+|cant|p1a: Duosion|flinch
+|
+|-end|p2a: Carracosta|move: Taunt
+|upkeep
+|turn|25
+|c|☆Links|._.
+|
+|t:|1635542594
+|switch|p1a: Seismitoad|Seismitoad, F|81/100
+|-damage|p1a: Seismitoad|74/100|[from] Stealth Rock
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1635542604
+|move|p2a: Carracosta|Stone Edge|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|-damage|p2a: Carracosta|49/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1635542612
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1635542619
+|move|p2a: Carracosta|Aqua Jet|p1a: Rotom
+|-damage|p1a: Rotom|14/100
+|-damage|p2a: Carracosta|40/100|[from] item: Life Orb
+|move|p1a: Rotom|Thunderbolt|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|0 fnt
+|faint|p2a: Carracosta
+|
+|upkeep
+|
+|t:|1635542622
+|switch|p2a: Primeape|Primeape, M|78/100
+|-damage|p2a: Primeape|72/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1635542650
+|move|p2a: Primeape|Close Combat|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1635542654
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1635542658
+|move|p1a: Kangaskhan|Fake Out|p2a: Primeape
+|-damage|p2a: Primeape|13/100
+|cant|p2a: Primeape|flinch
+|
+|upkeep
+|turn|30
+|
+|t:|1635542665
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|
+|t:|1635542667
+|switch|p2a: Altaria|Altaria, M|45/100
+|-damage|p2a: Altaria|20/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1635542674
+|move|p1a: Kangaskhan|Double-Edge|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|-damage|p1a: Kangaskhan|83/100|[from] Recoil
+|
+|win|Links
+|n|☆Links|links
+|n|☆Waves|waves
+|n| BB-8-NU|bb8nu
+|n| marikk0715|marikk0715
+|n| blackkaiser|blackkaiser
+|n| susciety|susciety
+|n| Tribbling|tribbling
+|n| Rethanonapkmn|rethanonapkmn
+|l| BB-8-NU
+|c|☆Links|Gg
+|c|☆Waves|gg
+|l|☆Waves

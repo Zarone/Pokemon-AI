@@ -1,0 +1,446 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642283230
+|gametype|singles
+|player|p1|Somalia|firebreather|
+|player|p2|mazda mx-5 miata|dragontamer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhyperior, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Heracross, M|item
+|poke|p1|Weavile, M|item
+|poke|p1|Flygon, F|item
+|poke|p1|Empoleon, M|item
+|poke|p2|Braviary, M|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Mienshao, F|item
+|teampreview
+|inactive|Somalia also wants the timer to be on.
+|c|☆mazda mx-5 miata|hf
+|c|☆Somalia|hf
+|inactive|Somalia has 270 seconds left.
+|inactive|mazda mx-5 miata has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|inactive|mazda mx-5 miata has 240 seconds left.
+|inactive|mazda mx-5 miata has 210 seconds left.
+|
+|t:|1642283324
+|start
+|switch|p1a: STR84ROMCOMPTON|Rhyperior, M, shiny|100/100
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|turn|1
+|
+|t:|1642283332
+|move|p2a: Mienshao|U-turn|p1a: STR84ROMCOMPTON
+|-damage|p1a: STR84ROMCOMPTON|86/100
+|
+|t:|1642283334
+|switch|p2a: Blastoise|Blastoise, F|100/100|[from]move: U-turn
+|move|p1a: STR84ROMCOMPTON|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: mazda mx-5 miata|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1642283342
+|switch|p1a: I SERVE DUBS|Heracross, M, shiny|100/100
+|move|p2a: Blastoise|Rapid Spin|p1a: I SERVE DUBS
+|-damage|p1a: I SERVE DUBS|96/100
+|-sideend|p2: mazda mx-5 miata|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|upkeep
+|turn|3
+|
+|t:|1642283355
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: I SERVE DUBS|Swords Dance|p1a: I SERVE DUBS
+|-boost|p1a: I SERVE DUBS|atk|2
+|
+|upkeep
+|turn|4
+|inactive|mazda mx-5 miata has 270 seconds left.
+|
+|t:|1642283397
+|move|p1a: I SERVE DUBS|Megahorn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|3/100
+|move|p2a: Amoonguss|Spore|p1a: I SERVE DUBS
+|-status|p1a: I SERVE DUBS|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|9/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Somalia|damn min roll
+|c|☆mazda mx-5 miata|sheesh
+|c|☆mazda mx-5 miata|mb
+|inactive|Somalia has 270 seconds left.
+|
+|t:|1642283432
+|switch|p1a: STR84ROMCOMPTON|Rhyperior, M, shiny|86/100
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1642283443
+|move|p2a: Mienshao|U-turn|p1a: STR84ROMCOMPTON
+|-damage|p1a: STR84ROMCOMPTON|70/100
+|
+|t:|1642283445
+|switch|p2a: Blastoise|Blastoise, F|100/100|[from]move: U-turn
+|move|p1a: STR84ROMCOMPTON|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|58/100
+|
+|-heal|p2a: Blastoise|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Somalia has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1642283483
+|switch|p1a: FAT BUDDA SACK|Meloetta|100/100
+|move|p2a: Blastoise|Scald|p1a: FAT BUDDA SACK
+|-damage|p1a: FAT BUDDA SACK|84/100
+|-status|p1a: FAT BUDDA SACK|brn
+|
+|-heal|p1a: FAT BUDDA SACK|90/100 brn|[from] item: Leftovers
+|-heal|p2a: Blastoise|70/100|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|78/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1642283499
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: FAT BUDDA SACK|Psyshock|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|86/100
+|
+|-heal|p2a: Cresselia|92/100|[from] item: Leftovers
+|-heal|p1a: FAT BUDDA SACK|84/100 brn|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1642283510
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|67/100
+|move|p1a: FAT BUDDA SACK|Hyper Voice|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|
+|-heal|p2a: Cresselia|73/100|[from] item: Leftovers
+|-heal|p1a: FAT BUDDA SACK|78/100 brn|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|65/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1642283515
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: FAT BUDDA SACK|Hyper Voice|p2a: Cresselia
+|-damage|p2a: Cresselia|53/100
+|
+|-heal|p2a: Cresselia|59/100|[from] item: Leftovers
+|-heal|p1a: FAT BUDDA SACK|71/100 brn|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|59/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1642283527
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|34/100
+|move|p1a: FAT BUDDA SACK|Calm Mind|p1a: FAT BUDDA SACK
+|-boost|p1a: FAT BUDDA SACK|spa|1
+|-boost|p1a: FAT BUDDA SACK|spd|1
+|
+|-heal|p2a: Cresselia|40/100|[from] item: Leftovers
+|-heal|p1a: FAT BUDDA SACK|65/100 brn|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|53/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1642283531
+|move|p2a: Cresselia|Psyshock|p1a: FAT BUDDA SACK
+|-resisted|p1a: FAT BUDDA SACK
+|-damage|p1a: FAT BUDDA SACK|34/100 brn
+|move|p1a: FAT BUDDA SACK|Calm Mind|p1a: FAT BUDDA SACK
+|-boost|p1a: FAT BUDDA SACK|spa|1
+|-boost|p1a: FAT BUDDA SACK|spd|1
+|
+|-heal|p2a: Cresselia|46/100|[from] item: Leftovers
+|-heal|p1a: FAT BUDDA SACK|40/100 brn|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|28/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1642283537
+|move|p2a: Cresselia|Psyshock|p1a: FAT BUDDA SACK
+|-resisted|p1a: FAT BUDDA SACK
+|-damage|p1a: FAT BUDDA SACK|10/100 brn
+|move|p1a: FAT BUDDA SACK|Hyper Voice|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|
+|-heal|p2a: Cresselia|53/100|[from] item: Leftovers
+|-heal|p1a: FAT BUDDA SACK|17/100 brn|[from] item: Leftovers
+|-damage|p1a: FAT BUDDA SACK|4/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1642283542
+|move|p2a: Cresselia|Psyshock|p1a: FAT BUDDA SACK
+|-resisted|p1a: FAT BUDDA SACK
+|-damage|p1a: FAT BUDDA SACK|0 fnt
+|faint|p1a: FAT BUDDA SACK
+|
+|-heal|p2a: Cresselia|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642283545
+|switch|p1a: REAL OG|Weavile, M, shiny|100/100
+|turn|15
+|
+|t:|1642283572
+|move|p1a: REAL OG|Night Slash|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|11/100
+|move|p2a: Cresselia|Hidden Power|p1a: REAL OG
+|-supereffective|p1a: REAL OG
+|-damage|p1a: REAL OG|0 fnt
+|faint|p1a: REAL OG
+|
+|-heal|p2a: Cresselia|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642283580
+|switch|p1a: REAL G FUNK|Flygon, F|100/100
+|turn|16
+|
+|t:|1642283603
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: REAL G FUNK|Outrage|p2a: Rhyperior
+|-damage|p2a: Rhyperior|68/100
+|
+|-heal|p2a: Rhyperior|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1642283611
+|move|p1a: REAL G FUNK|Outrage|p2a: Rhyperior|[from]lockedmove
+|-damage|p2a: Rhyperior|43/100
+|-start|p1a: REAL G FUNK|confusion|[fatigue]
+|move|p2a: Rhyperior|Stealth Rock|p1a: REAL G FUNK
+|-sidestart|p1: Somalia|move: Stealth Rock
+|
+|-heal|p2a: Rhyperior|49/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1642283621
+|-activate|p1a: REAL G FUNK|confusion
+|move|p1a: REAL G FUNK|Outrage|p2a: Rhyperior
+|-damage|p2a: Rhyperior|14/100
+|move|p2a: Rhyperior|Dragon Tail|p1a: REAL G FUNK
+|-supereffective|p1a: REAL G FUNK
+|-damage|p1a: REAL G FUNK|40/100
+|drag|p1a: GANGSTER LEAN|Empoleon, M|100/100
+|-damage|p1a: GANGSTER LEAN|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Rhyperior|21/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1642283629
+|move|p1a: GANGSTER LEAN|Ice Beam|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1642283649
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|20
+|
+|t:|1642283654
+|switch|p1a: I SERVE DUBS|Heracross, M, shiny|96/100 slp
+|-damage|p1a: I SERVE DUBS|84/100 slp|[from] Stealth Rock
+|move|p2a: Braviary|Superpower|p1a: I SERVE DUBS
+|-resisted|p1a: I SERVE DUBS
+|-damage|p1a: I SERVE DUBS|34/100 slp
+|-unboost|p2a: Braviary|atk|1
+|-unboost|p2a: Braviary|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1642283658
+|cant|p1a: I SERVE DUBS|slp
+|move|p2a: Braviary|Superpower|p1a: I SERVE DUBS
+|-resisted|p1a: I SERVE DUBS
+|-damage|p1a: I SERVE DUBS|3/100 slp
+|-unboost|p2a: Braviary|atk|1
+|-unboost|p2a: Braviary|def|1
+|
+|upkeep
+|turn|22
+|-enditem|p1a: I SERVE DUBS|Custap Berry|[eat]
+|-activate|p1a: I SERVE DUBS|item: Custap Berry|[consumed]
+|
+|t:|1642283671
+|switch|p2a: Cresselia|Cresselia, F|17/100
+|cant|p1a: I SERVE DUBS|slp
+|
+|-heal|p2a: Cresselia|23/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642283679
+|move|p2a: Cresselia|Psyshock|p1a: I SERVE DUBS
+|-supereffective|p1a: I SERVE DUBS
+|-damage|p1a: I SERVE DUBS|0 fnt
+|faint|p1a: I SERVE DUBS
+|
+|-heal|p2a: Cresselia|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642283681
+|switch|p1a: GANGSTER LEAN|Empoleon, M|94/100
+|-damage|p1a: GANGSTER LEAN|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1642283691
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: GANGSTER LEAN|Agility|p1a: GANGSTER LEAN
+|-boost|p1a: GANGSTER LEAN|spe|2
+|
+|-heal|p2a: Cresselia|35/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1642283697
+|move|p1a: GANGSTER LEAN|Agility|p1a: GANGSTER LEAN
+|-boost|p1a: GANGSTER LEAN|spe|2
+|move|p2a: Cresselia|Hidden Power|p1a: GANGSTER LEAN
+|-supereffective|p1a: GANGSTER LEAN
+|-damage|p1a: GANGSTER LEAN|43/100
+|
+|-heal|p2a: Cresselia|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1642283700
+|move|p1a: GANGSTER LEAN|Substitute|p1a: GANGSTER LEAN
+|-start|p1a: GANGSTER LEAN|Substitute
+|-damage|p1a: GANGSTER LEAN|18/100
+|-enditem|p1a: GANGSTER LEAN|Petaya Berry|[eat]
+|-boost|p1a: GANGSTER LEAN|spa|1|[from] item: Petaya Berry
+|move|p2a: Cresselia|Hidden Power|p1a: GANGSTER LEAN
+|-supereffective|p1a: GANGSTER LEAN
+|-end|p1a: GANGSTER LEAN|Substitute
+|
+|-heal|p2a: Cresselia|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1642283716
+|move|p1a: GANGSTER LEAN|Hydro Pump|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|upkeep
+|inactive|mazda mx-5 miata has 270 seconds left.
+|
+|t:|1642283756
+|switch|p2a: Blastoise|Blastoise, F|70/100
+|turn|28
+|
+|t:|1642283761
+|move|p1a: GANGSTER LEAN|Hydro Pump|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|4/100
+|move|p2a: Blastoise|Roar|p1a: GANGSTER LEAN
+|drag|p1a: STR84ROMCOMPTON|Rhyperior, M, shiny|70/100
+|-damage|p1a: STR84ROMCOMPTON|63/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|10/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1642283771
+|switch|p1a: GANGSTER LEAN|Empoleon, M|18/100
+|-damage|p1a: GANGSTER LEAN|12/100|[from] Stealth Rock
+|move|p2a: Blastoise|Scald|p1a: GANGSTER LEAN
+|-resisted|p1a: GANGSTER LEAN
+|-damage|p1a: GANGSTER LEAN|0 fnt
+|faint|p1a: GANGSTER LEAN
+|
+|-heal|p2a: Blastoise|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642283773
+|switch|p1a: REAL G FUNK|Flygon, F|40/100
+|-damage|p1a: REAL G FUNK|34/100|[from] Stealth Rock
+|turn|30
+|c|☆Somalia|eh ggs lol
+|inactive|mazda mx-5 miata has 270 seconds left.
+|c|☆mazda mx-5 miata|ggs
+|
+|t:|1642283780
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: REAL G FUNK|Outrage|p2a: Braviary
+|-damage|p2a: Braviary|31/100
+|
+|upkeep
+|turn|31
+|c|☆Somalia|shit mu
+|c|☆Somalia|both games
+|c|☆mazda mx-5 miata|yea
+|inactive|mazda mx-5 miata has 270 seconds left.
+|c|☆mazda mx-5 miata|good to play you again friend
+|
+|t:|1642283797
+|move|p1a: REAL G FUNK|Outrage|p2a: Braviary|[from]lockedmove
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-start|p1a: REAL G FUNK|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1642283807
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|turn|32
+|inactive|mazda mx-5 miata has 270 seconds left.
+|
+|t:|1642283822
+|move|p2a: Mienshao|U-turn|p1a: REAL G FUNK
+|-crit|p1a: REAL G FUNK
+|-damage|p1a: REAL G FUNK|0 fnt
+|faint|p1a: REAL G FUNK
+|
+|t:|1642283825
+|switch|p2a: Blastoise|Blastoise, F|17/100|[from]move: U-turn
+|
+|-heal|p2a: Blastoise|23/100|[from] item: Leftovers
+|upkeep
+|-message|Somalia forfeited.
+|
+|win|mazda mx-5 miata

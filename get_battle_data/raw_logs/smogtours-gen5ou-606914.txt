@@ -1,0 +1,403 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644096395
+|gametype|singles
+|player|p1|ZAIYAJIN|tateandliza-gen3|
+|player|p2|Sensory|firebreather|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Politoed, F|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|c|☆ZAIYAJIN|Hf
+|c|+Heniii|u2
+|
+|t:|1644096414
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|turn|1
+|
+|t:|1644096418
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|
+|t:|1644096424
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644096429
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Landorus|Superpower|p2a: Latios
+|-enditem|p1a: Landorus|Fighting Gem|[from] gem
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|57/100
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1644096440
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|46/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|51/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1644096443
+|move|p2a: Latios|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|17/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644096447
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|5
+|
+|t:|1644096455
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Politoed|Hydro Pump|p1a: Ferrothorn|[miss]
+|-miss|p2a: Politoed|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1644096458
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1644096480
+|switch|p1a: Tyranitar|Tyranitar, F|17/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|63/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644096490
+|switch|p1a: Latios|Latios, M|100/100
+|turn|8
+|
+|t:|1644096496
+|move|p2a: Tornadus|Hurricane|p1a: Latios|[miss]
+|-miss|p2a: Tornadus|p1a: Latios
+|move|p1a: Latios|Draco Meteor|p2a: Tornadus
+|-enditem|p1a: Latios|Dragon Gem|[from] gem
+|-damage|p2a: Tornadus|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644096500
+|switch|p2a: Ferrothorn|Ferrothorn, M|99/100
+|turn|9
+|
+|t:|1644096507
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Latios|Hidden Power|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|87/100|[from] Sandstorm
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1644096515
+|switch|p2a: Ferrothorn|Ferrothorn, M|99/100
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|83/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644096528
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1644096531
+|move|p2a: Politoed|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|67/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1644096539
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Ferrothorn|54/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|61/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|48/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1644096544
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100
+|-damage|p1a: Ferrothorn|36/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: ZAIYAJIN|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|29/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1644096559
+|switch|p2a: Keldeo|Keldeo|87/100
+|move|p1a: Ferrothorn|Spikes|p2a: Keldeo
+|-sidestart|p2: Sensory|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|23/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1644096567
+|move|p2a: Keldeo|Secret Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096578
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|17
+|
+|t:|1644096584
+|switch|p2a: Politoed|Politoed, F|46/100
+|-damage|p2a: Politoed|34/100|[from] Spikes
+|move|p1a: Landorus|Earthquake|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096590
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|turn|18
+|
+|t:|1644096613
+|move|p2a: Starmie|Hydro Pump|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096617
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1644096621
+|move|p2a: Starmie|Hydro Pump|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|30/100
+|move|p1a: Rotom|Volt Switch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|19/100
+|
+|t:|1644096627
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1644096641
+|move|p1a: Garchomp|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096643
+|switch|p2a: Keldeo|Keldeo|87/100
+|-damage|p2a: Keldeo|74/100|[from] Spikes
+|turn|21
+|
+|t:|1644096650
+|switch|p1a: Rotom|Rotom-Wash|30/100
+|-damage|p1a: Rotom|18/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hidden Power|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|12/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644096659
+|move|p2a: Keldeo|Hidden Power|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096662
+|switch|p1a: Latios|Latios, M|83/100
+|-damage|p1a: Latios|70/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1644096676
+|move|p2a: Keldeo|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|18/100
+|move|p1a: Latios|Draco Meteor|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096678
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|-damage|p2a: Ferrothorn|83/100|[from] Spikes
+|turn|24
+|
+|t:|1644096682
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|69/100
+|-singleturn|p1a: Latios|move: Roost
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1644096686
+|move|p1a: Latios|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096688
+|switch|p1a: Garchomp|Garchomp, M|94/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1644096690
+|move|p1a: Garchomp|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|27/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Garchomp
+|-damage|p1a: Garchomp|50/100
+|-damage|p2a: Ferrothorn|14/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1644096693
+|move|p1a: Garchomp|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|ZAIYAJIN
+|c|☆ZAIYAJIN|gg

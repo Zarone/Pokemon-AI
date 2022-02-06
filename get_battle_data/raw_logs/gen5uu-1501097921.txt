@@ -1,0 +1,189 @@
+|j|☆GerImATrainer
+|j|☆faded love ☭
+|t:|1643524252
+|gametype|singles
+|player|p1|GerImATrainer|lyra|
+|player|p2|faded love ☭|psychicf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Arcanine, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Blastoise, M|item
+|poke|p2|Virizion|item
+|poke|p2|Victini|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Zapdos|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by faded love ☭)
+|
+|t:|1643524269
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|t:|1643524283
+|move|p2a: Victini|Will-O-Wisp|p1a: Blastoise
+|-status|p1a: Blastoise|brn
+|move|p1a: Blastoise|Scald|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|54/100
+|
+|-heal|p2a: Victini|60/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1643524290
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|78/100 brn
+|
+|t:|1643524293
+|switch|p2a: GPS|Zapdos, shiny|100/100|[from]move: U-turn
+|-ability|p2a: GPS|Pressure
+|move|p1a: Blastoise|Scald|p2a: GPS
+|-damage|p2a: GPS|70/100
+|
+|-heal|p1a: Blastoise|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|72/100 brn|[from] brn
+|upkeep
+|turn|3
+|j| Melton Stanboy
+|
+|t:|1643524320
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: GPS|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|33/100
+|
+|upkeep
+|turn|4
+|
+|t:|1643524324
+|move|p2a: GPS|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1643524330
+|switch|p1a: Victini|Victini|100/100
+|turn|5
+|
+|t:|1643524332
+|switch|p2a: STONEY|Qwilfish, M|100/100
+|-ability|p2a: STONEY|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|move|p1a: Victini|V-create|p2a: STONEY
+|-resisted|p2a: STONEY
+|-damage|p2a: STONEY|64/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-heal|p2a: STONEY|70/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1643524336
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: STONEY|Spikes|p1a: Bronzong
+|-sidestart|p1: GerImATrainer|Spikes
+|
+|-heal|p2a: STONEY|76/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1643524339
+|switch|p2a: Victini|Victini|60/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Victini
+|-sidestart|p2: faded love ☭|move: Stealth Rock
+|
+|-heal|p2a: Victini|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643524343
+|move|p2a: Victini|Blue Flare|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|22/100
+|move|p1a: Bronzong|Earthquake|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|22/100
+|
+|-heal|p2a: Victini|28/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|28/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643524347
+|switch|p1a: Blastoise|Blastoise, M|72/100 brn
+|-damage|p1a: Blastoise|60/100 brn|[from] Spikes
+|move|p2a: Victini|Blue Flare|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|35/100 brn
+|
+|-heal|p2a: Victini|34/100|[from] item: Leftovers
+|-heal|p1a: Blastoise|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|28/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1643524351
+|move|p2a: Victini|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Victini|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643524354
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|88/100|[from] Spikes
+|turn|11
+|
+|t:|1643524356
+|move|p1a: Mienshao|U-turn|p2a: Victini
+|-damage|p2a: Victini|18/100
+|
+|t:|1643524358
+|switch|p1a: Arcanine|Arcanine, F|100/100|[from]move: U-turn
+|-damage|p1a: Arcanine|88/100|[from] Spikes
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|Psychic|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|11/100
+|
+|-heal|p2a: Victini|24/100|[from] item: Leftovers
+|-heal|p1a: Arcanine|17/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|j|+blackkaiser
+|-message|GerImATrainer forfeited.
+|
+|win|faded love ☭
+|n|☆GerImATrainer|gerimatrainer
+|n|☆faded love ☭|fadedlove
+|n| BB-8-NU|bb8nu
+|n| Melton Stanboy|meltonstanboy
+|n| blackkaiser|blackkaiser

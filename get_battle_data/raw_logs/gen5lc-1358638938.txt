@@ -1,0 +1,303 @@
+|j|☆FruitDogs
+|j|☆englishspoon
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1623685944
+|gametype|singles
+|player|p1|FruitDogs|will|
+|player|p2|englishspoon|backpacker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Solosis, L5, M|item
+|poke|p1|Elgyem, L5, M|item
+|poke|p1|Shuppet, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Clamperl, L5, M|item
+|poke|p1|Cranidos, L5, M|item
+|poke|p2|Hippopotas, L5, M|item
+|poke|p2|Lileep, L5, M|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Frillish, L5, F|item
+|teampreview
+|c|☆englishspoon|oh??
+|c|☆englishspoon|theres another round
+|c|☆FruitDogs|it's double elimination I tried to hold off as long as I could or you'd have gotten dq'ed
+|c|☆FruitDogs|yep
+|inactive|FruitDogs has 120 seconds left.
+|
+|t:|1623685976
+|start
+|switch|p1a: Shuppet|Shuppet, L5, M, shiny|100/100
+|switch|p2a: Frillish|Frillish, L5, F|100/100
+|turn|1
+|c|☆englishspoon|ye sorry i had to go help out with some things on a server
+|
+|t:|1623685993
+|move|p2a: Frillish|Will-O-Wisp|p1a: Shuppet|[miss]
+|-miss|p2a: Frillish|p1a: Shuppet
+|move|p1a: Shuppet|Trick Room|p1a: Shuppet
+|-fieldstart|move: Trick Room|[of] p1a: Shuppet
+|
+|upkeep
+|turn|2
+|c|☆FruitDogs|no worries lol
+|c|☆FruitDogs|ah
+|
+|t:|1623686000
+|move|p1a: Shuppet|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|84/100
+|-start|p1a: Shuppet|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Frillish
+|-enditem|p2a: Frillish|Eviolite|[from] move: Knock Off|[of] p1a: Shuppet
+|move|p2a: Frillish|Will-O-Wisp|p1a: Shuppet
+|-status|p1a: Shuppet|brn
+|
+|-damage|p1a: Shuppet|91/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1623686011
+|switch|p1a: Porygon|Porygon, L5, shiny|100/100
+|-ability|p1a: Porygon|Cursed Body|[from] ability: Trace|[of] p2a: Frillish
+|move|p2a: Frillish|Shadow Ball|p1a: Porygon
+|-immune|p1a: Porygon
+|
+|upkeep
+|turn|4
+|
+|t:|1623686018
+|move|p1a: Porygon|Thunderbolt|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|9/100
+|move|p2a: Frillish|Scald|p1a: Porygon
+|-damage|p1a: Porygon|72/100
+|-start|p2a: Frillish|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Porygon
+|
+|upkeep
+|turn|5
+|
+|t:|1623686027
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|move|p1a: Porygon|Tri Attack|p2a: Hippopotas
+|-damage|p2a: Hippopotas|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|68/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1623686038
+|move|p2a: Hippopotas|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|32/100
+|-start|p2a: Hippopotas|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Porygon
+|move|p1a: Porygon|Tri Attack|p2a: Hippopotas
+|-damage|p2a: Hippopotas|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|29/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1623686047
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|64/100
+|move|p1a: Porygon|Trick Room|p1a: Porygon
+|-fieldstart|move: Trick Room|[of] p1a: Porygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|24/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1623686059
+|switch|p1a: Clamperl|Clamperl, L5, M|100/100
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clamperl|95/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1623686067
+|move|p1a: Clamperl|Ice Beam|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-crit|p2a: Bronzor
+|-damage|p2a: Bronzor|50/100
+|move|p2a: Bronzor|Flash Cannon|p1a: Clamperl
+|-resisted|p1a: Clamperl
+|-damage|p1a: Clamperl|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clamperl|70/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1623686075
+|move|p1a: Clamperl|Surf|p2a: Bronzor
+|-damage|p2a: Bronzor|0 fnt
+|faint|p2a: Bronzor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clamperl|65/100|[from] Sandstorm
+|upkeep
+|
+|t:|1623686082
+|switch|p2a: Lileep|Lileep, L5, M|100/100
+|turn|11
+|
+|t:|1623686087
+|switch|p1a: Shuppet|Shuppet, L5, M, shiny|91/100 brn
+|move|p2a: Lileep|Giga Drain|p1a: Shuppet
+|-damage|p1a: Shuppet|43/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shuppet|39/100 brn|[from] Sandstorm
+|-damage|p1a: Shuppet|29/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1623686097
+|move|p2a: Lileep|Giga Drain|p1a: Shuppet
+|-crit|p1a: Shuppet
+|-damage|p1a: Shuppet|0 fnt
+|faint|p1a: Shuppet
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1623686100
+|switch|p1a: Elgyem|Elgyem, L5, M|100/100
+|turn|13
+|
+|t:|1623686105
+|move|p2a: Lileep|Giga Drain|p1a: Elgyem
+|-damage|p1a: Elgyem|55/100
+|move|p1a: Elgyem|Trick Room|p1a: Elgyem
+|-fieldstart|move: Trick Room|[of] p1a: Elgyem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elgyem|50/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1623686110
+|move|p1a: Elgyem|Hidden Power|p2a: Lileep
+|-supereffective|p2a: Lileep
+|-damage|p2a: Lileep|76/100
+|move|p2a: Lileep|Giga Drain|p1a: Elgyem
+|-damage|p1a: Elgyem|0 fnt
+|-heal|p2a: Lileep|100/100|[from] drain|[of] p1a: Elgyem
+|faint|p1a: Elgyem
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1623686115
+|switch|p1a: Clamperl|Clamperl, L5, M|65/100
+|turn|15
+|
+|t:|1623686121
+|move|p1a: Clamperl|Ice Beam|p2a: Lileep
+|-supereffective|p2a: Lileep
+|-damage|p2a: Lileep|36/100
+|move|p2a: Lileep|Giga Drain|p1a: Clamperl
+|-supereffective|p1a: Clamperl
+|-damage|p1a: Clamperl|0 fnt
+|-heal|p2a: Lileep|64/100|[from] drain|[of] p1a: Clamperl
+|faint|p1a: Clamperl
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆FruitDogs|throwing away this last game was ur problem
+|c|☆FruitDogs|was better than bronz
+|c|☆FruitDogs|way*
+|
+|t:|1623686147
+|switch|p1a: Cranidos|Cranidos, L5, M|100/100
+|turn|16
+|c|☆englishspoon|huh
+|inactive|FruitDogs has 120 seconds left.
+|c|☆FruitDogs|if you kept this alive last game I wouldn't have handled it
+|c|☆FruitDogs|like now lol
+|c|☆englishspoon|ye i realise now
+|
+|t:|1623686189
+|move|p1a: Cranidos|Fire Punch|p2a: Lileep
+|-damage|p2a: Lileep|29/100
+|move|p2a: Lileep|Giga Drain|p1a: Cranidos
+|-supereffective|p1a: Cranidos
+|-crit|p1a: Cranidos
+|-damage|p1a: Cranidos|0 fnt
+|-heal|p2a: Lileep|76/100|[from] drain|[of] p1a: Cranidos
+|faint|p1a: Cranidos
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1623686192
+|switch|p1a: Solosis|Solosis, L5, M, shiny|100/100
+|turn|17
+|
+|t:|1623686203
+|move|p1a: Solosis|Psychic|p2a: Lileep
+|-damage|p2a: Lileep|48/100
+|move|p2a: Lileep|Giga Drain|p1a: Solosis
+|-damage|p1a: Solosis|50/100
+|-heal|p2a: Lileep|72/100|[from] drain|[of] p1a: Solosis
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|c|☆englishspoon|the violite on it helps out a bunch
+|c|☆englishspoon|eviolite*
+|c|☆FruitDogs|wait
+|inactive|FruitDogs has 90 seconds left.
+|c|☆FruitDogs|how did cranidos go first under TR then solosis before
+|c|☆FruitDogs|outside of TR
+|c|☆FruitDogs|oh nvm
+|c|☆FruitDogs|it was still Tr
+|c|☆FruitDogs|im an idiot
+|
+|t:|1623686254
+|move|p2a: Lileep|Giga Drain|p1a: Solosis
+|-damage|p1a: Solosis|0 fnt
+|-heal|p2a: Lileep|96/100|[from] drain|[of] p1a: Solosis
+|faint|p1a: Solosis
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1623686259
+|switch|p1a: Porygon|Porygon, L5, shiny|24/100
+|-ability|p1a: Porygon|Storm Drain|[from] ability: Trace|[of] p2a: Lileep
+|turn|19
+|c|☆FruitDogs|gg wp well deserved
+|
+|t:|1623686265
+|move|p1a: Porygon|Tri Attack|p2a: Lileep
+|-resisted|p2a: Lileep
+|-damage|p2a: Lileep|84/100
+|move|p2a: Lileep|Giga Drain|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|-heal|p2a: Lileep|96/100|[from] drain|[of] p1a: Porygon
+|faint|p1a: Porygon
+|
+|win|englishspoon
+|n|☆FruitDogs|fruitdogs
+|n|☆englishspoon|englishspoon

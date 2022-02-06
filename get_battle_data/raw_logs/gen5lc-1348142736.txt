@@ -1,0 +1,311 @@
+|j|☆VarickHD
+|j|☆Rektrainer
+|t:|1622086410
+|gametype|singles
+|player|p1|VarickHD|benga|
+|player|p2|Rektrainer|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Chinchou, L5, M|item
+|poke|p1|Clamperl, L5, M|item
+|poke|p1|Houndour, L5, M|item
+|poke|p1|Zorua, L5, F|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Darumaka, L5, F|item
+|poke|p2|Archen, L5, M|item
+|poke|p2|Axew, L5, M|item
+|poke|p2|Purrloin, L5, F|item
+|poke|p2|Dwebble, L5, F|item
+|teampreview
+|c|☆Rektrainer|a vers
+|c|☆Rektrainer|tenia un klink pero nov alia }
+|c|☆Rektrainer|:c
+|c|☆Rektrainer|XD
+|c|☆VarickHD|f jeje
+|
+|t:|1622086487
+|start
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|switch|p2a: Purrloin|Purrloin, L5, F|100/100
+|turn|1
+|
+|t:|1622086496
+|move|p2a: Purrloin|Thunder Wave|p1a: Vullaby
+|-status|p1a: Vullaby|par
+|move|p1a: Vullaby|Knock Off|p2a: Purrloin
+|-resisted|p2a: Purrloin
+|-damage|p2a: Purrloin|95/100
+|-enditem|p2a: Purrloin|Focus Sash|[from] move: Knock Off|[of] p1a: Vullaby
+|
+|upkeep
+|turn|2
+|j| MeteoritePkmn
+|c| MeteoritePkmn|A
+|c| MeteoritePkmn|Por mucho que quiero que gane Varick
+|c| MeteoritePkmn|quiero que rek siga puntero
+|
+|t:|1622086535
+|move|p2a: Purrloin|Nasty Plot|p2a: Purrloin
+|-boost|p2a: Purrloin|spa|2
+|move|p1a: Vullaby|Toxic|p2a: Purrloin
+|-status|p2a: Purrloin|tox
+|
+|-damage|p2a: Purrloin|90/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1622086546
+|move|p2a: Purrloin|Dark Pulse|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|75/100 par
+|cant|p1a: Vullaby|flinch
+|
+|-damage|p2a: Purrloin|80/100 tox|[from] psn
+|upkeep
+|turn|4
+|c|☆Rektrainer|lo intentare
+|c|☆Rektrainer|tampoco es que le ponga tanto empeño
+|c|☆Rektrainer|xD
+|
+|t:|1622086554
+|switch|p2a: Axew|Axew, L5, M|100/100
+|-ability|p2a: Axew|Mold Breaker
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|100/100 par
+|-singleturn|p1a: Vullaby|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1622086563
+|move|p2a: Axew|Outrage|p1a: Vullaby
+|-damage|p1a: Vullaby|59/100 par
+|cant|p1a: Vullaby|par
+|
+|upkeep
+|turn|6
+|
+|t:|1622086570
+|move|p2a: Axew|Outrage|p1a: Vullaby|[from]lockedmove
+|-damage|p1a: Vullaby|21/100 par
+|move|p1a: Vullaby|Knock Off|p2a: Axew
+|-damage|p2a: Axew|86/100
+|-enditem|p2a: Axew|Choice Scarf|[from] move: Knock Off|[of] p1a: Vullaby
+|
+|upkeep
+|turn|7
+|
+|t:|1622086581
+|move|p2a: Axew|Outrage|p1a: Vullaby|[from]lockedmove
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|-start|p2a: Axew|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1622086589
+|switch|p1a: Clamperl|Clamperl, L5, M|100/100
+|turn|8
+|
+|t:|1622086606
+|switch|p2a: Purrloin|Purrloin, L5, F|80/100 tox
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|-damage|p2a: Purrloin|75/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1622086616
+|move|p2a: Purrloin|Thunder Wave|p1a: Clamperl
+|-status|p1a: Clamperl|par
+|move|p1a: Clamperl|Surf|p2a: Purrloin
+|-damage|p2a: Purrloin|0 fnt
+|faint|p2a: Purrloin
+|
+|upkeep
+|
+|t:|1622086636
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|10
+|
+|t:|1622086654
+|switch|p1a: Houndour|Houndour, L5, M|100/100
+|-ability|p1a: Houndour|Unnerve
+|move|p2a: Abra|Grass Knot|p1a: Houndour
+|-resisted|p1a: Houndour
+|-damage|p1a: Houndour|81/100
+|
+|upkeep
+|turn|11
+|
+|t:|1622086674
+|switch|p2a: Axew|Axew, L5, M|86/100
+|-ability|p2a: Axew|Mold Breaker
+|move|p1a: Houndour|Dark Pulse|p2a: Axew
+|-damage|p2a: Axew|15/100
+|
+|upkeep
+|turn|12
+|
+|t:|1622086681
+|move|p1a: Houndour|Sucker Punch|p2a: Axew
+|-damage|p2a: Axew|0 fnt
+|faint|p2a: Axew
+|
+|upkeep
+|
+|t:|1622086684
+|switch|p2a: Dwebble|Dwebble, L5, F|100/100
+|turn|13
+|
+|t:|1622086688
+|move|p1a: Houndour|Taunt|p2a: Dwebble
+|-start|p2a: Dwebble|move: Taunt
+|cant|p2a: Dwebble|move: Taunt|Shell Smash
+|
+|upkeep
+|turn|14
+|
+|t:|1622086696
+|move|p1a: Houndour|Flamethrower|p2a: Dwebble
+|-damage|p2a: Dwebble|15/100
+|move|p2a: Dwebble|Rock Slide|p1a: Houndour
+|-supereffective|p1a: Houndour
+|-damage|p1a: Houndour|0 fnt
+|faint|p1a: Houndour
+|
+|upkeep
+|
+|t:|1622086705
+|switch|p1a: Chinchou|Chinchou, L5, M|100/100
+|turn|15
+|
+|t:|1622086730
+|move|p2a: Dwebble|X-Scissor|p1a: Chinchou
+|-damage|p1a: Chinchou|59/100
+|move|p1a: Chinchou|Heal Bell|p1a: Chinchou
+|-activate|p1a: Chinchou|move: Heal Bell
+|-curestatus|p1: Clamperl|par|[msg]
+|
+|-end|p2a: Dwebble|move: Taunt
+|upkeep
+|turn|16
+|
+|t:|1622086740
+|move|p2a: Dwebble|Earthquake|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|
+|upkeep
+|
+|t:|1622086750
+|switch|p1a: Clamperl|Clamperl, L5, M|100/100
+|turn|17
+|
+|t:|1622086756
+|move|p2a: Dwebble|Shell Smash|p2a: Dwebble
+|-unboost|p2a: Dwebble|def|1
+|-unboost|p2a: Dwebble|spd|1
+|-boost|p2a: Dwebble|atk|2
+|-boost|p2a: Dwebble|spa|2
+|-boost|p2a: Dwebble|spe|2
+|-enditem|p2a: Dwebble|White Herb
+|-clearnegativeboost|p2a: Dwebble|[silent]
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|upkeep
+|turn|18
+|
+|t:|1622086768
+|move|p2a: Dwebble|Rock Slide|p1a: Clamperl|[miss]
+|-miss|p2a: Dwebble|p1a: Clamperl
+|move|p1a: Clamperl|Surf|p2a: Dwebble
+|-supereffective|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|
+|upkeep
+|c|☆Rektrainer|NOOO ESTA PENDEJO EL NIÑO
+|c|☆Rektrainer|XD
+|
+|t:|1622086785
+|switch|p2a: Darumaka|Darumaka, L5, F|100/100
+|turn|19
+|c| MeteoritePkmn|TMR REK
+|c| MeteoritePkmn|encima por 2-0
+|c| MeteoritePkmn|la cagada
+|
+|t:|1622086795
+|move|p1a: Clamperl|Surf|p2a: Darumaka
+|-supereffective|p2a: Darumaka
+|-enditem|p2a: Darumaka|Focus Sash
+|-damage|p2a: Darumaka|5/100
+|move|p2a: Darumaka|Rock Slide|p1a: Clamperl|[miss]
+|-miss|p2a: Darumaka|p1a: Clamperl
+|
+|upkeep
+|turn|20
+|
+|t:|1622086803
+|move|p1a: Clamperl|Surf|p2a: Darumaka
+|-supereffective|p2a: Darumaka
+|-damage|p2a: Darumaka|0 fnt
+|faint|p2a: Darumaka
+|
+|upkeep
+|c|☆Rektrainer|xD
+|c|☆Rektrainer|we si lo amtaba
+|c|☆Rektrainer|pero fallo
+|c|☆Rektrainer|xD
+|c|☆VarickHD|alv tengo una flor en el cvlo jaja
+|c| MeteoritePkmn|Ala, ya está, Lyssan campeón tmr
+|
+|t:|1622086822
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|21
+|
+|t:|1622086827
+|move|p1a: Clamperl|Surf|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|
+|t:|1622086830
+|switch|p2a: Archen|Archen, L5, M|100/100
+|turn|22
+|
+|t:|1622086834
+|move|p1a: Clamperl|Surf|p2a: Archen
+|-supereffective|p2a: Archen
+|-damage|p2a: Archen|0 fnt
+|faint|p2a: Archen
+|
+|win|VarickHD
+|c|☆Rektrainer|we sabes quie no importa no?
+|c| MeteoritePkmn|xdxd
+|c|☆Rektrainer|este team lo termine ahorita
+|c|☆Rektrainer|xD

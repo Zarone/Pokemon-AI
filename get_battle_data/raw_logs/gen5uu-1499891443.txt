@@ -1,0 +1,537 @@
+|j|☆El Strapo
+|j|☆FavMon=Garchomp
+|t:|1643339214
+|gametype|singles
+|player|p1|El Strapo|backpacker|
+|player|p2|FavMon=Garchomp|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Slowking, F|item
+|poke|p1|Roserade, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Umbreon, F|item
+|poke|p1|Hitmontop, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Azelf|item
+|poke|p2|Mismagius, F|item
+|poke|p2|Virizion|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Mew|item
+|teampreview
+|j| BB-8-NU
+|j|+Oathkeeper
+|j|+blackkaiser
+|
+|t:|1643339225
+|start
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|turn|1
+|
+|t:|1643339233
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Hitmontop
+|-sidestart|p1: El Strapo|move: Stealth Rock
+|move|p1a: Hitmontop|Rapid Spin|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|97/100
+|-sideend|p1: El Strapo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|upkeep
+|turn|2
+|
+|t:|1643339237
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Hitmontop
+|-sidestart|p1: El Strapo|move: Stealth Rock
+|move|p1a: Hitmontop|Toxic|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|tox
+|
+|-damage|p2a: Aerodactyl|91/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1643339243
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|move|p1a: Hitmontop|Rapid Spin|p2a: Mismagius
+|-immune|p2a: Mismagius
+|
+|upkeep
+|turn|4
+|j| Firecat101
+|
+|t:|1643339251
+|move|p2a: Mismagius|Nasty Plot|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|2
+|move|p1a: Hitmontop|Toxic|p2a: Mismagius
+|-status|p2a: Mismagius|tox
+|
+|-damage|p2a: Mismagius|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1643339256
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Mismagius|Nasty Plot|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|2
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|-damage|p2a: Mismagius|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1643339262
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Mismagius|Hidden Power|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|99/100|[from] item: Leftovers
+|-damage|p2a: Mismagius|64/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1643339269
+|switch|p2a: Azelf|Azelf|100/100
+|switch|p1a: Roserade|Roserade, M|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1643339282
+|switch|p1a: Slowking|Slowking, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Azelf|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|l| Firecat101
+|
+|t:|1643339287
+|move|p2a: Azelf|Light Screen|p2a: Azelf
+|-sidestart|p2: FavMon=Garchomp|move: Light Screen
+|move|p1a: Slowking|Scald|p2a: Azelf
+|-damage|p2a: Azelf|82/100
+|
+|-heal|p1a: Slowking|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643339296
+|move|p2a: Azelf|Reflect|p2a: Azelf
+|-sidestart|p2: FavMon=Garchomp|Reflect
+|move|p1a: Slowking|Scald|p2a: Azelf
+|-damage|p2a: Azelf|65/100
+|
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|-end|p1a: Slowking|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1643339299
+|move|p2a: Azelf|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|cant|p1a: Slowking|move: Taunt|Slack Off
+|
+|upkeep
+|turn|12
+|
+|t:|1643339303
+|move|p2a: Azelf|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|46/100
+|
+|t:|1643339309
+|switch|p2a: Virizion|Virizion|100/100|[from]move: U-turn
+|move|p1a: Slowking|Scald|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|95/100
+|
+|-heal|p1a: Slowking|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|j| onvn
+|
+|t:|1643339329
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|move|p1a: Slowking|Dragon Tail|p2a: Virizion
+|-damage|p2a: Virizion|87/100
+|drag|p2a: Mew|Mew|100/100
+|
+|-heal|p1a: Slowking|58/100|[from] item: Leftovers
+|-end|p1a: Slowking|move: Taunt
+|upkeep
+|turn|14
+|j| Trevelion
+|
+|t:|1643339337
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|move|p1a: Slowking|Scald|p2a: Mew
+|-damage|p2a: Mew|87/100
+|
+|-heal|p1a: Slowking|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|l| Trevelion
+|
+|t:|1643339345
+|move|p2a: Mew|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1643339350
+|switch|p1a: Umbreon|Umbreon, F|99/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1643339355
+|move|p2a: Mew|Aura Sphere|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|38/100
+|move|p1a: Umbreon|Foul Play|p2a: Mew
+|-supereffective|p2a: Mew
+|-enditem|p2a: Mew|Colbur Berry|[eat]
+|-enditem|p2a: Mew|Colbur Berry|[weaken]
+|-damage|p2a: Mew|75/100
+|
+|-heal|p1a: Umbreon|44/100|[from] item: Leftovers
+|-sideend|p2: FavMon=Garchomp|move: Light Screen
+|upkeep
+|turn|17
+|
+|t:|1643339359
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Mew|Aura Sphere|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|50/100|[from] item: Leftovers
+|-sideend|p2: FavMon=Garchomp|Reflect
+|upkeep
+|turn|18
+|
+|t:|1643339364
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Mew|Aura Sphere|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|56/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643339370
+|move|p2a: Mew|Aura Sphere|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|upkeep
+|
+|t:|1643339374
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|20
+|
+|t:|1643339376
+|move|p2a: Mew|Psyshock|p1a: Zapdos
+|-damage|p1a: Zapdos|4/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|32/100
+|
+|-heal|p1a: Zapdos|10/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643339384
+|move|p2a: Mew|Psyshock|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1643339386
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1643339394
+|move|p2a: Mew|Psyshock|p1a: Gligar
+|-damage|p1a: Gligar|52/100
+|move|p1a: Gligar|Earthquake|p2a: Mew
+|-damage|p2a: Mew|7/100
+|
+|upkeep
+|turn|23
+|
+|t:|1643339407
+|move|p2a: Mew|Dark Pulse|p1a: Gligar
+|-damage|p1a: Gligar|7/100
+|move|p1a: Gligar|Earthquake|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1643339418
+|switch|p2a: Azelf|Azelf|65/100
+|turn|24
+|j| Stonecat
+|
+|t:|1643339425
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Azelf|atk|1
+|move|p2a: Azelf|Taunt|p1a: Hitmontop
+|-start|p1a: Hitmontop|move: Taunt
+|
+|-heal|p1a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1643339430
+|move|p2a: Azelf|U-turn|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|95/100
+|
+|t:|1643339433
+|switch|p2a: Mismagius|Mismagius, F|64/100 tox|[from]move: U-turn
+|move|p1a: Hitmontop|Rapid Spin|p2a: Mismagius
+|-immune|p2a: Mismagius
+|
+|-heal|p1a: Hitmontop|100/100|[from] item: Leftovers
+|-damage|p2a: Mismagius|58/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1643339438
+|switch|p1a: Roserade|Roserade, M|94/100
+|-damage|p1a: Roserade|82/100|[from] Stealth Rock
+|move|p2a: Mismagius|Nasty Plot|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|2
+|
+|-heal|p1a: Roserade|88/100|[from] item: Black Sludge
+|-damage|p2a: Mismagius|45/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1643339445
+|move|p2a: Mismagius|Shadow Ball|p1a: Roserade
+|-damage|p1a: Roserade|36/100
+|-unboost|p1a: Roserade|spd|1
+|move|p1a: Roserade|Giga Drain|p2a: Mismagius
+|-damage|p2a: Mismagius|3/100 tox
+|-heal|p1a: Roserade|53/100|[from] drain|[of] p2a: Mismagius
+|
+|-heal|p1a: Roserade|59/100|[from] item: Black Sludge
+|-damage|p2a: Mismagius|0 fnt|[from] psn
+|faint|p2a: Mismagius
+|upkeep
+|j| Iam Fakee
+|
+|t:|1643339483
+|switch|p2a: Azelf|Azelf|65/100
+|turn|28
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FavMon=Garchomp)
+|l| Iam Fakee
+|j| ibbysonlyfan
+|inactive|El Strapo has 120 seconds left.
+|
+|t:|1643339561
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Azelf|atk|1
+|move|p2a: Azelf|Light Screen|p2a: Azelf
+|-sidestart|p2: FavMon=Garchomp|move: Light Screen
+|
+|-heal|p1a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1643339568
+|move|p2a: Azelf|Reflect|p2a: Azelf
+|-sidestart|p2: FavMon=Garchomp|Reflect
+|move|p1a: Hitmontop|Rapid Spin|p2a: Azelf
+|-damage|p2a: Azelf|62/100
+|-sideend|p1: El Strapo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|upkeep
+|turn|30
+|
+|t:|1643339576
+|move|p2a: Azelf|Taunt|p1a: Hitmontop
+|-start|p1a: Hitmontop|move: Taunt
+|move|p1a: Hitmontop|Close Combat|p2a: Azelf
+|-resisted|p2a: Azelf
+|-damage|p2a: Azelf|50/100
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|
+|upkeep
+|turn|31
+|
+|t:|1643339584
+|move|p2a: Azelf|U-turn|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|93/100
+|
+|t:|1643339588
+|switch|p2a: Virizion|Virizion|87/100|[from]move: U-turn
+|move|p1a: Hitmontop|Rapid Spin|p2a: Virizion
+|-damage|p2a: Virizion|83/100
+|
+|-heal|p1a: Hitmontop|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1643339592
+|switch|p1a: Roserade|Roserade, M|59/100
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|
+|-heal|p1a: Roserade|66/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|t:|1643339597
+|switch|p1a: Hitmontop|Hitmontop, M|99/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Virizion|atk|1
+|move|p2a: Virizion|Stone Edge|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|84/100
+|
+|-heal|p1a: Hitmontop|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1643339606
+|move|p2a: Virizion|Swords Dance|p2a: Virizion
+|-boost|p2a: Virizion|atk|2
+|move|p1a: Hitmontop|Toxic|p2a: Virizion
+|-status|p2a: Virizion|tox
+|-enditem|p2a: Virizion|Lum Berry|[eat]
+|-curestatus|p2a: Virizion|tox|[msg]
+|
+|-heal|p1a: Hitmontop|96/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1643339615
+|switch|p1a: Gligar|Gligar, M|7/100
+|move|p2a: Virizion|Close Combat|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|faint|p1a: Gligar
+|
+|-sideend|p2: FavMon=Garchomp|move: Light Screen
+|upkeep
+|j|%BluBirD
+|
+|t:|1643339623
+|switch|p1a: Roserade|Roserade, M|66/100
+|turn|36
+|
+|t:|1643339625
+|switch|p1a: Hitmontop|Hitmontop, M|96/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Virizion|atk|1
+|move|p2a: Virizion|Stone Edge|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|75/100
+|
+|-heal|p1a: Hitmontop|81/100|[from] item: Leftovers
+|-sideend|p2: FavMon=Garchomp|Reflect
+|upkeep
+|turn|37
+|
+|t:|1643339632
+|move|p2a: Virizion|Close Combat|p1a: Hitmontop
+|-damage|p1a: Hitmontop|1/100
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|move|p1a: Hitmontop|Close Combat|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|faint|p2a: Virizion
+|
+|-heal|p1a: Hitmontop|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643339638
+|switch|p2a: Aerodactyl|Aerodactyl, M|91/100 tox
+|-ability|p2a: Aerodactyl|Pressure
+|turn|38
+|
+|t:|1643339643
+|switch|p1a: Roserade|Roserade, M|66/100
+|move|p2a: Aerodactyl|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|13/100
+|
+|-heal|p1a: Roserade|19/100|[from] item: Black Sludge
+|-damage|p2a: Aerodactyl|85/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1643339651
+|switch|p1a: Hitmontop|Hitmontop, M|7/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|move|p2a: Aerodactyl|Earthquake|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|-damage|p2a: Aerodactyl|73/100 tox|[from] psn
+|upkeep
+|
+|t:|1643339654
+|switch|p1a: Roserade|Roserade, M|19/100
+|turn|40
+|
+|t:|1643339656
+|move|p2a: Aerodactyl|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|win|FavMon=Garchomp
+|n|☆El Strapo|elstrapo
+|n|☆FavMon=Garchomp|favmongarchomp
+|n| BB-8-NU|bb8nu
+|n|+Oathkeeper|oathkeeper
+|n| blackkaiser|blackkaiser
+|n| onvn|onvn
+|n| Stonecat|stonecat
+|n| ibbysonlyfan|ibbysonlyfan
+|n| BluBirD|blubird

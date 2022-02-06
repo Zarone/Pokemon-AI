@@ -1,0 +1,294 @@
+|j|☆godpartikle
+|j|☆MST20
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643946782
+|gametype|singles
+|player|p1|godpartikle|roark|
+|player|p2|MST20|crasherwake|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Starmie|item
+|poke|p1|Scizor, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Breloom, F|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Starmie|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Breloom, F|item
+|teampreview
+|inactive|MST20 also wants the timer to be on.
+|c|☆godpartikle|glhf
+|c|☆MST20|u2
+|c|☆godpartikle|nice team
+|inactive|godpartikle has 120 seconds left.
+|
+|t:|1643946813
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|turn|1
+|c|☆MST20|i like yours too
+|
+|t:|1643946819
+|move|p1a: Scizor|Bullet Punch|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-enditem|p2a: Aerodactyl|Focus Sash
+|-damage|p2a: Aerodactyl|1/100
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Scizor
+|-sidestart|p1: godpartikle|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643946827
+|move|p2a: Aerodactyl|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|65/100
+|move|p1a: Scizor|Pursuit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|-damage|p1a: Scizor|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643946836
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|3
+|
+|t:|1643946848
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1643946853
+|move|p2a: Volcarona|Bug Buzz|p1a: Garchomp
+|-enditem|p2a: Volcarona|Bug Gem|[from] gem
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1643946869
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1643946873
+|move|p2a: Volcarona|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|26/100
+|move|p1a: Dragonite|Outrage|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|
+|t:|1643946882
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|6
+|
+|t:|1643946886
+|move|p2a: Dragonite|Extreme Speed|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1643946892
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1643946904
+|move|p2a: Dragonite|Extreme Speed|p1a: Starmie
+|-damage|p1a: Starmie|52/100
+|move|p1a: Starmie|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|99/100
+|-sideend|p1: godpartikle|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-heal|p1a: Starmie|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643946912
+|move|p1a: Starmie|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100
+|move|p2a: Dragonite|Outrage|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+|
+|t:|1643946926
+|switch|p1a: Scizor|Scizor, F|55/100
+|turn|9
+|
+|t:|1643946929
+|move|p2a: Dragonite|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|19/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|69/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|upkeep
+|turn|10
+|
+|t:|1643946939
+|move|p2a: Dragonite|Outrage|p1a: Scizor|[from]lockedmove
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|35/100
+|-start|p2a: Dragonite|confusion|[fatigue]
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|86/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|upkeep
+|turn|11
+|
+|t:|1643946946
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|42/100
+|-damage|p1a: Scizor|76/100|[from] item: Life Orb
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1643946954
+|move|p2a: Dragonite|Extreme Speed|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|54/100
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|1/100
+|-damage|p1a: Scizor|44/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1643946960
+|move|p2a: Dragonite|Extreme Speed|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|19/100
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|70/100
+|-singleturn|p1a: Scizor|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1643946984
+|move|p2a: Dragonite|Outrage|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|18/100
+|move|p1a: Scizor|Pursuit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Scizor|8/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643946994
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|15
+|
+|t:|1643947000
+|move|p2a: Breloom|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1643947004
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|16
+|
+|t:|1643947010
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Breloom|Rock Tomb|p1a: Volcarona|[miss]
+|-miss|p2a: Breloom|p1a: Volcarona
+|
+|upkeep
+|turn|17
+|c|☆godpartikle|ouch
+|c|☆MST20|noooooooooooooooooo
+|
+|t:|1643947023
+|move|p2a: Breloom|Mach Punch|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|move|p1a: Volcarona|Fire Blast|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-damage|p1a: Volcarona|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643947028
+|switch|p2a: Starmie|Starmie|100/100
+|-item|p2a: Starmie|Air Balloon
+|turn|18
+|
+|t:|1643947035
+|move|p1a: Volcarona|Bug Buzz|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-enditem|p2a: Starmie|Air Balloon
+|faint|p2a: Starmie
+|-damage|p1a: Volcarona|46/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643947039
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|19
+|
+|t:|1643947045
+|move|p2a: Scizor|Bullet Punch|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|14/100
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|move|p1a: Volcarona|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-damage|p1a: Volcarona|4/100|[from] item: Life Orb
+|
+|win|godpartikle
+|n|☆godpartikle|godpartikle
+|n|☆MST20|mst20
+|c|☆MST20|gg
+|c|☆godpartikle|gg

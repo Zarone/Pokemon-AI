@@ -1,0 +1,289 @@
+|j|☆Kounamii
+|j|☆Sacred-Pie㋛
+|t:|1631483901
+|gametype|singles
+|player|p1|Kounamii|rosa-wonderlauncher|
+|player|p2|Sacred-Pie㋛|juan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Skuntank, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Regirock|item
+|poke|p1|Misdreavus, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Braviary, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Electrode|item
+|poke|p2|Pinsir, F|item
+|poke|p2|Metang|item
+|poke|p2|Wartortle, F|item
+|poke|p2|Garbodor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|inactive|Sacred-Pie㋛ also wants the timer to be on.
+|c|☆Kounamii|Hf
+|c|☆Sacred-Pie㋛|u2
+|
+|t:|1631483932
+|start
+|switch|p1a: Regirock|Regirock|100/100
+|switch|p2a: Electrode|Electrode|100/100
+|turn|1
+|
+|t:|1631483936
+|move|p2a: Electrode|Volt Switch|p1a: Regirock
+|-damage|p1a: Regirock|65/100
+|
+|t:|1631483940
+|switch|p2a: Floatzel|Floatzel, M|100/100|[from]move: Volt Switch
+|move|p1a: Regirock|Stealth Rock|p2a: Floatzel
+|-sidestart|p2: Sacred-Pie㋛|move: Stealth Rock
+|
+|-heal|p1a: Regirock|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1631483956
+|move|p2a: Floatzel|Crunch|p1a: Regirock
+|-damage|p1a: Regirock|52/100
+|move|p1a: Regirock|Thunder Wave|p2a: Floatzel
+|-status|p2a: Floatzel|par
+|
+|-heal|p1a: Regirock|58/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Sacred-Pie㋛|i understand why these pokemon are never used now
+|inactive|Sacred-Pie㋛ has 270 seconds left.
+|c|☆Kounamii|lol
+|
+|t:|1631483991
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Metang|Metang|100/100
+|-damage|p2a: Metang|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|inactive|Sacred-Pie㋛ has 270 seconds left.
+|
+|t:|1631484002
+|switch|p2a: Wartortle|Wartortle, F|100/100
+|-damage|p2a: Wartortle|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earth Power|p2a: Wartortle
+|-damage|p2a: Wartortle|58/100
+|
+|upkeep
+|turn|5
+|
+|t:|1631484009
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|move|p2a: Wartortle|Toxic|p1a: Misdreavus
+|-status|p1a: Misdreavus|tox
+|
+|-damage|p1a: Misdreavus|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1631484029
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Garbodor
+|-status|p2a: Garbodor|brn
+|
+|-heal|p2a: Garbodor|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Misdreavus|82/100 tox|[from] psn
+|-damage|p2a: Garbodor|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1631484046
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Garbodor|Spikes|p1a: Seismitoad
+|-sidestart|p1: Kounamii|Spikes
+|
+|-heal|p2a: Garbodor|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Garbodor|75/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1631484058
+|switch|p2a: Wartortle|Wartortle, F|58/100
+|-damage|p2a: Wartortle|46/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earth Power|p2a: Wartortle
+|-damage|p2a: Wartortle|14/100
+|
+|upkeep
+|turn|9
+|
+|t:|1631484064
+|move|p1a: Seismitoad|Earth Power|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|upkeep
+|
+|t:|1631484068
+|switch|p2a: Electrode|Electrode|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1631484082
+|move|p2a: Electrode|Hidden Power|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|t:|1631484098
+|switch|p1a: Misdreavus|Misdreavus, M|82/100 tox
+|turn|11
+|
+|t:|1631484102
+|switch|p2a: Metang|Metang|94/100
+|-damage|p2a: Metang|88/100|[from] Stealth Rock
+|move|p1a: Misdreavus|Shadow Ball|p2a: Metang
+|-crit|p2a: Metang
+|-damage|p2a: Metang|32/100
+|
+|-damage|p1a: Misdreavus|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1631484118
+|switch|p2a: Garbodor|Garbodor, M|75/100 brn
+|-damage|p2a: Garbodor|63/100 brn|[from] Stealth Rock
+|move|p1a: Misdreavus|Shadow Ball|p2a: Garbodor
+|-damage|p2a: Garbodor|38/100 brn
+|
+|-heal|p2a: Garbodor|44/100 brn|[from] item: Black Sludge
+|-damage|p1a: Misdreavus|64/100 tox|[from] psn
+|-damage|p2a: Garbodor|32/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1631484132
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Spikes
+|-ability|p1a: Gardevoir|Aftermath|[from] ability: Trace|[of] p2a: Garbodor
+|move|p2a: Garbodor|Spikes|p1a: Gardevoir
+|-sidestart|p1: Kounamii|Spikes
+|
+|-heal|p2a: Garbodor|38/100 brn|[from] item: Black Sludge
+|-damage|p2a: Garbodor|25/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1631484141
+|move|p1a: Gardevoir|Psychic|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|-damage|p1a: Gardevoir|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1631484144
+|switch|p2a: Pinsir|Pinsir, F|100/100
+|-damage|p2a: Pinsir|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1631484163
+|switch|p1a: Regirock|Regirock|58/100
+|-damage|p1a: Regirock|42/100|[from] Spikes
+|move|p2a: Pinsir|X-Scissor|p1a: Regirock
+|-damage|p1a: Regirock|21/100
+|
+|-heal|p1a: Regirock|27/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1631484174
+|switch|p2a: Floatzel|Floatzel, M|100/100 par
+|-damage|p2a: Floatzel|88/100 par|[from] Stealth Rock
+|move|p1a: Regirock|Stone Edge|p2a: Floatzel
+|-damage|p2a: Floatzel|17/100 par
+|
+|-heal|p1a: Regirock|33/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1631484180
+|move|p2a: Floatzel|Aqua Jet|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|7/100
+|move|p1a: Regirock|Earthquake|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|-heal|p1a: Regirock|13/100|[from] item: Leftovers
+|upkeep
+|c|☆Sacred-Pie㋛|is that max def
+|c|☆Kounamii|Ye
+|c|☆Sacred-Pie㋛|impish too?
+|
+|t:|1631484204
+|switch|p2a: Electrode|Electrode|88/100
+|-damage|p2a: Electrode|76/100|[from] Stealth Rock
+|turn|18
+|c|☆Sacred-Pie㋛|max attack banded
+|c|☆Sacred-Pie㋛|with stab
+|inactive|Kounamii has 270 seconds left.
+|c|☆Kounamii|No im not impish
+|
+|t:|1631484247
+|move|p2a: Electrode|Volt Switch|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|c|☆Sacred-Pie㋛|crazy
+|
+|t:|1631484252
+|switch|p2a: Metang|Metang|32/100|[from]move: Volt Switch
+|-damage|p2a: Metang|26/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1631484261
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|84/100|[from] Spikes
+|turn|19
+|
+|t:|1631484266
+|move|p1a: Skuntank|Crunch|p2a: Metang
+|-damage|p2a: Metang|0 fnt
+|faint|p2a: Metang
+|
+|upkeep
+|
+|t:|1631484280
+|switch|p2a: Pinsir|Pinsir, F|76/100
+|-damage|p2a: Pinsir|51/100|[from] Stealth Rock
+|turn|20
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1631484323
+|move|p1a: Skuntank|Sucker Punch|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|upkeep
+|inactive|Sacred-Pie㋛ has 270 seconds left.
+|c|☆Sacred-Pie㋛|gg
+|c|☆Sacred-Pie㋛|thx
+|c|☆Kounamii|Gg
+|-message|Sacred-Pie㋛ forfeited.
+|
+|win|Kounamii
+|l|☆Sacred-Pie㋛

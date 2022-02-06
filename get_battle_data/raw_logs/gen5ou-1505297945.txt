@@ -1,0 +1,175 @@
+|j|☆WarlockThePower
+|j|☆kiritoskyzz
+|t:|1644124563
+|gametype|singles
+|player|p1|WarlockThePower|tate|1000
+|player|p2|kiritoskyzz|ghetsis|1054
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gallade, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Metagross|item
+|poke|p1|Electrode|item
+|poke|p2|Breloom, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Porygon2|item
+|poke|p2|Gastrodon, F|item
+|teampreview
+|
+|t:|1644124588
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|switch|p2a: Breloom|Breloom, F, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WarlockThePower)
+|
+|t:|1644124597
+|move|p2a: Breloom|Mach Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Breloom|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Explosion|p2a: Breloom
+|-damage|p2a: Breloom|3/100
+|faint|p1a: Ferrothorn
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1644124607
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|turn|2
+|
+|t:|1644124617
+|move|p1a: Metagross|Bullet Punch|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1644124624
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|turn|3
+|
+|t:|1644124630
+|switch|p1a: Electrode|Electrode, shiny|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Electrode
+|-damage|p1a: Electrode|42/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1644124641
+|move|p1a: Electrode|Explosion|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|73/100 brn
+|faint|p1a: Electrode
+|move|p2a: Conkeldurr|Drain Punch|p1: Electrode|[notarget]
+|-fail|p2a: Conkeldurr
+|
+|-damage|p2a: Conkeldurr|61/100 brn|[from] brn
+|upkeep
+|
+|t:|1644124649
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|turn|5
+|
+|t:|1644124655
+|move|p1a: Metagross|Explosion|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|t:|1644124671
+|switch|p1a: Gallade|Gallade, M, shiny|100/100
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|turn|6
+|
+|t:|1644124679
+|move|p1a: Gallade|Brick Break|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1644124686
+|switch|p2a: Porygon2|Porygon2, shiny|100/100
+|-ability|p2a: Porygon2|Justified|[from] ability: Trace|[of] p1a: Gallade
+|turn|7
+|
+|t:|1644124691
+|move|p1a: Gallade|Brick Break|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|44/100
+|move|p2a: Porygon2|Toxic|p1a: Gallade
+|-status|p1a: Gallade|tox
+|
+|-damage|p1a: Gallade|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1644124702
+|switch|p2a: Gastrodon|Gastrodon, F, shiny|100/100
+|move|p1a: Gallade|Brick Break|p2a: Gastrodon
+|-damage|p2a: Gastrodon|27/100
+|
+|-heal|p2a: Gastrodon|33/100|[from] item: Leftovers
+|-damage|p1a: Gallade|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1644124711
+|move|p1a: Gallade|Brick Break|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-damage|p1a: Gallade|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1644124719
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|10
+|
+|t:|1644124727
+|move|p2a: Cloyster|Ice Shard|p1a: Gallade
+|-damage|p1a: Gallade|33/100 tox
+|move|p1a: Gallade|Brick Break|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-damage|p1a: Gallade|9/100 tox|[from] psn
+|upkeep
+|
+|t:|1644124736
+|switch|p2a: Porygon2|Porygon2, shiny|44/100
+|-ability|p2a: Porygon2|Justified|[from] ability: Trace|[of] p1a: Gallade
+|turn|11
+|
+|t:|1644124744
+|move|p1a: Gallade|Brick Break|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|win|WarlockThePower
+|raw|WarlockThePower's rating: 1000 &rarr; <strong>1046</strong><br />(+46 for winning)
+|raw|kiritoskyzz's rating: 1054 &rarr; <strong>1033</strong><br />(-21 for losing)
+|l|☆kiritoskyzz

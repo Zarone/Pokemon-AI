@@ -1,0 +1,318 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644175144
+|gametype|singles
+|player|p1|outb pj|#splxiiibigs|
+|player|p2|The Quasar|gentleman-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Starmie|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Magnezone|item
+|poke|p2|Jirachi|item
+|poke|p2|Dragonite, M|item
+|teampreview
+|c|☆outb pj|hf
+|inactive|The Quasar has 270 seconds left.
+|inactive|outb pj has 270 seconds left.
+|
+|t:|1644175180
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|c|☆The Quasar|u2
+|
+|t:|1644175192
+|move|p2a: Jirachi|Stealth Rock|p1a: Rotom
+|-sidestart|p1: outb pj|move: Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jirachi
+|-status|p2a: Jirachi|brn
+|
+|-damage|p2a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1644175217
+|move|p2a: Jirachi|Energy Ball|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|50/100
+|move|p1a: Rotom|Hydro Pump|p2a: Jirachi
+|-damage|p2a: Jirachi|51/100 brn
+|
+|-heal|p1a: Rotom|56/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|39/100 brn|[from] brn
+|upkeep
+|-enditem|p2a: Jirachi|Sitrus Berry|[eat]
+|-heal|p2a: Jirachi|64/100 brn|[from] item: Sitrus Berry
+|turn|3
+|
+|t:|1644175232
+|move|p2a: Jirachi|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|50/100
+|inactive|The Quasar has 270 seconds left.
+|
+|t:|1644175256
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Rotom|Hydro Pump|p2a: Magnezone
+|-damage|p2a: Magnezone|40/100
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|-heal|p1a: Rotom|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|The Quasar has 240 seconds left.
+|
+|t:|1644175286
+|move|p2a: Magnezone|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1644175289
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|turn|5
+|inactive|The Quasar has 240 seconds left.
+|
+|t:|1644175326
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Landorus|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: The Quasar|move: Stealth Rock
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644175342
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kyurem|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1644175362
+|switch|p2a: Magnezone|Magnezone|40/100
+|-damage|p2a: Magnezone|34/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1644175372
+|move|p2a: Magnezone|Sunny Day|p2a: Magnezone
+|-weather|SunnyDay
+|move|p1a: Tyranitar|Crunch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644175382
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1644175390
+|move|p2a: Starmie|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|30/100
+|move|p1a: Tyranitar|Crunch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|The Quasar has 210 seconds left.
+|
+|t:|1644175408
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644175417
+|move|p2a: Garchomp|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644175433
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|11
+|inactive|The Quasar has 210 seconds left.
+|
+|t:|1644175455
+|move|p2a: Garchomp|Earthquake|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|inactive|The Quasar has 210 seconds left.
+|
+|t:|1644175467
+|move|p2a: Garchomp|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|none
+|upkeep
+|
+|t:|1644175470
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|-damage|p1a: Landorus|82/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|13
+|
+|t:|1644175483
+|switch|p2a: Jirachi|Jirachi|64/100 brn
+|-damage|p2a: Jirachi|58/100 brn|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|39/100 brn
+|
+|t:|1644175488
+|switch|p1a: Terrakion|Terrakion|100/100|[from]move: U-turn
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|
+|-damage|p2a: Jirachi|27/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1644175502
+|move|p1a: Terrakion|Close Combat|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: Jirachi
+|-damage|p1a: Terrakion|84/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|The Quasar has 210 seconds left.
+|inactive|The Quasar has 180 seconds left.
+|
+|t:|1644175560
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1644175566
+|move|p1a: Terrakion|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|11/100
+|-damage|p1a: Terrakion|74/100|[from] item: Life Orb
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|16
+|inactive|The Quasar has 180 seconds left.
+|
+|t:|1644175580
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Dragonite|Outrage|p1a: Ferrothorn
+|-enditem|p2a: Dragonite|Dragon Gem|[from] gem
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|-damage|p2a: Dragonite|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644175598
+|switch|p2a: Kyurem|Kyurem-Black|94/100
+|-damage|p2a: Kyurem|70/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|turn|17
+|inactive|The Quasar has 150 seconds left.
+|inactive|The Quasar has 120 seconds left.
+|
+|t:|1644175654
+|move|p2a: Kyurem|Outrage|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|-damage|p2a: Kyurem|57/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Ferrothorn|11/100|[from] item: Leftovers
+|upkeep
+|inactive|The Quasar has 120 seconds left.
+|
+|t:|1644175665
+|switch|p2a: Garchomp|Garchomp, F|44/100
+|-damage|p2a: Garchomp|38/100|[from] Stealth Rock
+|turn|18
+|inactive|The Quasar has 120 seconds left.
+|
+|t:|1644175677
+|move|p2a: Garchomp|Outrage|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Garchomp|26/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644175680
+|switch|p1a: Landorus|Landorus-Therian, M|82/100
+|-damage|p1a: Landorus|69/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|19
+|
+|t:|1644175687
+|move|p2a: Garchomp|Outrage|p1a: Landorus|[from]lockedmove
+|-damage|p1a: Landorus|37/100
+|move|p1a: Landorus|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|outb pj

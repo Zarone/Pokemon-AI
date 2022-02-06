@@ -1,0 +1,517 @@
+|j|☆7H3O
+|j|☆Spoonii
+|t:|1636202720
+|gametype|singles
+|player|p1|7H3O|lady|
+|player|p2|Spoonii|yellow|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Weavile, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Roserade, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Victini|item
+|poke|p2|Flygon, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Weavile, M|item
+|teampreview
+|j|+Tuthur
+|j|#estarossa
+|c|☆7H3O|hf
+|j|@laevin
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spoonii)
+|c|☆Spoonii|gl hf
+|j| Riquelme14
+|
+|t:|1636202764
+|start
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|1
+|
+|t:|1636202790
+|switch|p2a: Roserade|Roserade, M|100/100
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1636202800
+|switch|p1a: Roserade|Roserade, F|100/100
+|move|p2a: Roserade|Leech Seed|p1a: Roserade
+|-immune|p1a: Roserade
+|
+|upkeep
+|turn|3
+|inactive|Spoonii has 120 seconds left.
+|
+|t:|1636202821
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|switch|p2a: Flygon|Flygon, M|100/100
+|
+|upkeep
+|turn|4
+|l| Riquelme14
+|inactive|Spoonii has 120 seconds left.
+|
+|t:|1636202833
+|move|p1a: Weavile|Ice Shard|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|inactive|Spoonii has 120 seconds left.
+|
+|t:|1636202846
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|5
+|
+|t:|1636202849
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Cobalion|Stealth Rock|p1a: Nidoking
+|-sidestart|p1: 7H3O|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1636202860
+|switch|p2a: Hardwig|Blastoise, M|100/100
+|move|p1a: Nidoking|Substitute|p1a: Nidoking
+|-start|p1a: Nidoking|Substitute
+|-damage|p1a: Nidoking|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1636202867
+|move|p1a: Nidoking|Earth Power|p2a: Hardwig
+|-damage|p2a: Hardwig|55/100
+|move|p2a: Hardwig|Scald|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-end|p1a: Nidoking|Substitute
+|
+|-heal|p2a: Hardwig|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1636202879
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Hardwig|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|61/100
+|-status|p1a: Roserade|frz
+|
+|-heal|p1a: Roserade|67/100 frz|[from] item: Black Sludge
+|-heal|p2a: Hardwig|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|+Tuthur|mérité
+|c|☆Spoonii|sry
+|
+|t:|1636202893
+|-curestatus|p1a: Roserade|frz|[from] ability: Natural Cure
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Hardwig|Ice Beam|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|79/100
+|
+|-heal|p2a: Hardwig|73/100|[from] item: Leftovers
+|-heal|p1a: Blastoise|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1636202903
+|move|p2a: Hardwig|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|move|p1a: Blastoise|Toxic|p2a: Hardwig
+|-status|p2a: Hardwig|tox
+|
+|-heal|p1a: Blastoise|91/100 tox|[from] item: Leftovers
+|-heal|p2a: Hardwig|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Blastoise|85/100 tox|[from] psn
+|-damage|p2a: Hardwig|73/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1636202922
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Roserade
+|-damage|p2a: Roserade|95/100
+|-sideend|p1: 7H3O|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|-heal|p1a: Blastoise|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Blastoise|79/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1636202933
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Roserade|Leech Seed|p1a: Weavile
+|-start|p1a: Weavile|move: Leech Seed
+|
+|-damage|p1a: Weavile|88/100|[from] Leech Seed|[of] p2a: Roserade
+|upkeep
+|turn|13
+|
+|t:|1636202946
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Weavile|Night Slash|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|90/100
+|-ability|p2a: Cobalion|Justified|boost
+|-boost|p2a: Cobalion|atk|1
+|
+|-damage|p1a: Weavile|76/100|[from] Leech Seed|[of] p2a: Cobalion
+|-heal|p2a: Cobalion|100/100|[silent]
+|upkeep
+|turn|14
+|j| afuyeas
+|
+|t:|1636202962
+|switch|p1a: Nidoking|Nidoking, M|76/100
+|move|p2a: Cobalion|Sacred Sword|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|25/100
+|-damage|p2a: Cobalion|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|l| afuyeas
+|
+|t:|1636202976
+|move|p2a: Cobalion|Sacred Sword|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|-damage|p2a: Cobalion|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636202981
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|16
+|
+|t:|1636202989
+|switch|p2a: Hardwig|Blastoise, M|73/100 tox
+|move|p1a: Rotom|Volt Switch|p2a: Hardwig
+|-supereffective|p2a: Hardwig
+|-damage|p2a: Hardwig|26/100 tox
+|
+|t:|1636203005
+|switch|p1a: Cobalion|Cobalion|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Hardwig|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Hardwig|26/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1636203019
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Victini
+|-sidestart|p2: Spoonii|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1636203044
+|switch|p1a: Blastoise|Blastoise, F|79/100 tox
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|58/100 tox
+|
+|t:|1636203053
+|switch|p2a: Hardwig|Blastoise, M|26/100 tox|[from]move: U-turn
+|-damage|p2a: Hardwig|14/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Hardwig|20/100 tox|[from] item: Leftovers
+|-heal|p1a: Blastoise|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Hardwig|14/100 tox|[from] psn
+|-damage|p1a: Blastoise|58/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1636203064
+|switch|p1a: Roserade|Roserade, F|67/100
+|move|p2a: Hardwig|Rapid Spin|p1a: Roserade
+|-damage|p1a: Roserade|62/100
+|-sideend|p2: Spoonii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hardwig
+|
+|-heal|p1a: Roserade|68/100|[from] item: Black Sludge
+|-heal|p2a: Hardwig|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Hardwig|8/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1636203084
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Victini|Victini|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1636203094
+|move|p1a: Rotom|Volt Switch|p2a: Victini
+|-damage|p2a: Victini|69/100
+|
+|t:|1636203111
+|switch|p1a: Blastoise|Blastoise, F|58/100 tox|[from]move: Volt Switch
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|38/100 tox
+|inactive|Spoonii has 120 seconds left.
+|
+|t:|1636203159
+|switch|p2a: Roserade|Roserade, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Blastoise|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Blastoise|38/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1636203170
+|switch|p1a: Weavile|Weavile, M|76/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Roserade|Sludge Bomb|p1a: Weavile
+|-damage|p1a: Weavile|20/100
+|
+|upkeep
+|turn|23
+|
+|t:|1636203183
+|-activate|p2a: Roserade|move: Pursuit
+|move|p1a: Weavile|Pursuit|p2a: Roserade|[from]Pursuit
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|inactive|Spoonii has 90 seconds left.
+|c|+Tuthur|ça cogne dis donc
+|
+|t:|1636203216
+|switch|p2a: Cobalion|Cobalion|81/100
+|turn|24
+|
+|t:|1636203225
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Cobalion|Sacred Sword|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|-damage|p2a: Cobalion|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|
+|t:|1636203233
+|switch|p2a: Hardwig|Blastoise, M|8/100 tox
+|move|p1a: Rotom|Overheat|p2a: Hardwig
+|-resisted|p2a: Hardwig
+|-damage|p2a: Hardwig|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Hardwig
+|
+|upkeep
+|
+|t:|1636203258
+|switch|p2a: Victini|Victini|69/100
+|turn|26
+|
+|t:|1636203270
+|switch|p1a: Blastoise|Blastoise, F|38/100 tox
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|17/100 tox
+|
+|t:|1636203282
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Blastoise|23/100 tox|[from] item: Leftovers
+|-damage|p1a: Blastoise|17/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1636203290
+|move|p2a: Weavile|Night Slash|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1636203298
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|28
+|inactive|Spoonii has 60 seconds left.
+|
+|t:|1636203337
+|move|p2a: Weavile|Low Kick|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|45/100
+|move|p1a: Cobalion|Volt Switch|p2a: Weavile
+|-damage|p2a: Weavile|82/100
+|
+|t:|1636203351
+|switch|p1a: Rotom|Rotom-Heat|34/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|29
+|inactive|Spoonii has 60 seconds left.
+|
+|t:|1636203360
+|switch|p2a: Victini|Victini|69/100
+|move|p1a: Rotom|Overheat|p2a: Victini|[miss]
+|-miss|p1a: Rotom|p2a: Victini
+|
+|upkeep
+|turn|30
+|inactive|Spoonii has 60 seconds left.
+|inactive|7H3O has 120 seconds left.
+|inactive|Spoonii has 30 seconds left.
+|inactive|Spoonii has 20 seconds left.
+|
+|t:|1636203413
+|move|p1a: Rotom|Overheat|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|37/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Victini|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|14/100
+|inactive|Spoonii has 25 seconds left this turn.
+|inactive|Spoonii has 20 seconds left.
+|inactive|Spoonii has 15 seconds left.
+|
+|t:|1636203423
+|switch|p2a: Cobalion|Cobalion|71/100|[from]move: U-turn
+|
+|upkeep
+|turn|31
+|inactive|Spoonii has 25 seconds left this turn.
+|inactive|Spoonii has 20 seconds left.
+|
+|t:|1636203430
+|move|p1a: Rotom|Overheat|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Cobalion
+|
+|upkeep
+|inactive|Spoonii has 25 seconds left this turn.
+|inactive|Spoonii has 20 seconds left.
+|
+|t:|1636203440
+|switch|p2a: Victini|Victini|37/100
+|turn|32
+|inactive|Spoonii has 30 seconds left this turn.
+|c|+Tuthur|lui aussi il fait bobo
+|
+|t:|1636203443
+|switch|p1a: Roserade|Roserade, F|68/100
+|move|p2a: Victini|U-turn|p1a: Roserade
+|-damage|p1a: Roserade|12/100
+|
+|t:|1636203448
+|switch|p2a: Weavile|Weavile, M|82/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Roserade|18/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|j| Bekaray
+|inactive|Spoonii has 30 seconds left.
+|
+|t:|1636203463
+|move|p2a: Weavile|Night Slash|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1636203470
+|switch|p1a: Rotom|Rotom-Heat|14/100
+|turn|34
+|c|+Tuthur|allez perdut
+|inactive|Spoonii has 30 seconds left.
+|inactive|Spoonii has 20 seconds left.
+|inactive|Spoonii has 15 seconds left.
+|inactive|Spoonii has 10 seconds left.
+|inactive|Spoonii has 5 seconds left.
+|
+|t:|1636203513
+|move|p1a: Rotom|Overheat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Weavile
+|
+|upkeep
+|inactive|Spoonii has 10 seconds left this turn.
+|
+|t:|1636203516
+|switch|p2a: Victini|Victini|37/100
+|turn|35
+|inactive|Spoonii has 20 seconds left this turn.
+|inactive|Spoonii has 15 seconds left.
+|
+|t:|1636203522
+|switch|p1a: Cobalion|Cobalion|45/100
+|move|p2a: Victini|Fusion Bolt|p1a: Cobalion
+|-damage|p1a: Cobalion|18/100
+|
+|-heal|p1a: Cobalion|24/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|Spoonii has 25 seconds left this turn.
+|inactive|Spoonii has 20 seconds left.
+|
+|t:|1636203529
+|move|p1a: Cobalion|Sacred Sword|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|23/100
+|move|p2a: Victini|Fusion Bolt|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|inactive|Spoonii has 25 seconds left this turn.
+|
+|t:|1636203531
+|switch|p1a: Weavile|Weavile, M|20/100
+|-ability|p1a: Weavile|Pressure
+|turn|37
+|
+|t:|1636203533
+|move|p1a: Weavile|Night Slash|p2a: Victini
+|-supereffective|p2a: Victini
+|-crit|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|win|7H3O
+|n|☆7H3O|7h3o
+|n|☆Spoonii|spoonii
+|n|+Tuthur|tuthur
+|n|+estarossa|estarossa
+|n|+laevin|laevin
+|n| Bekaray|bekaray

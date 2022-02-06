@@ -1,0 +1,313 @@
+|j|☆I have a Whale
+|j|☆jahmille118
+|t:|1642310085
+|gametype|singles
+|player|p1|I have a Whale|n|1000
+|player|p2|jahmille118|2|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electabuzz, F|item
+|poke|p1|Golurk|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Musharna, F|item
+|poke|p1|Primeape, F|item
+|poke|p1|Charizard, F|item
+|poke|p2|Victreebel, F|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Liepard, F|item
+|poke|p2|Sawsbuck, F|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Golem, M|item
+|teampreview
+|
+|t:|1642310109
+|start
+|switch|p1a: Primeape|Primeape, F|100/100
+|switch|p2a: Liepard|Liepard, F|100/100
+|turn|1
+|
+|t:|1642310120
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Primeape|U-turn|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|16/100
+|
+|t:|1642310132
+|switch|p1a: Electabuzz|Electabuzz, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1642310138
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Electabuzz|Volt Switch|p2a: Golem
+|-immune|p2a: Golem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1642310147
+|move|p1a: Electabuzz|Focus Blast|p2a: Golem
+|-supereffective|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|move|p2a: Golem|Rock Polish|p2a: Golem
+|-boost|p2a: Golem|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1642310159
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Golem|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642310162
+|switch|p1a: Primeape|Primeape, F|100/100
+|turn|5
+|
+|t:|1642310171
+|move|p2a: Golem|Sucker Punch|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|79/100
+|move|p1a: Primeape|U-turn|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|t:|1642310174
+|switch|p1a: Electabuzz|Electabuzz, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642310195
+|switch|p2a: Victreebel|Victreebel, F|100/100
+|turn|6
+|
+|t:|1642310217
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|36/100
+|-damage|p2a: Victreebel|91/100|[from] item: Life Orb
+|move|p1a: Electabuzz|Hidden Power|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1642310228
+|switch|p1a: Musharna|Musharna, F|100/100
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Musharna
+|-damage|p1a: Musharna|47/100
+|-damage|p2a: Victreebel|14/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Musharna|54/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1642310242
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|100/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1642310250
+|move|p2a: Leafeon|X-Scissor|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|59/100
+|-damage|p2a: Leafeon|91/100|[from] item: Life Orb
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p1a: Musharna|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1642310261
+|move|p2a: Leafeon|X-Scissor|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|22/100
+|-damage|p2a: Leafeon|81/100|[from] item: Life Orb
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|71/100
+|
+|-heal|p1a: Musharna|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1642310272
+|move|p2a: Leafeon|Leaf Blade|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|6/100
+|-damage|p2a: Leafeon|71/100|[from] item: Life Orb
+|move|p1a: Musharna|Psychic|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|-heal|p1a: Musharna|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642310283
+|switch|p2a: Liepard|Liepard, F|16/100
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jahmille118)
+|
+|t:|1642310347
+|move|p2a: Liepard|Night Slash|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|upkeep
+|
+|t:|1642310349
+|switch|p1a: Primeape|Primeape, F|79/100
+|turn|13
+|
+|t:|1642310356
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Primeape|U-turn|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-crit|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|t:|1642310359
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642310366
+|switch|p2a: Victreebel|Victreebel, F|14/100
+|turn|14
+|
+|t:|1642310374
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1642310383
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-damage|p2a: Victreebel|4/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642310403
+|switch|p1a: Electabuzz|Electabuzz, F|36/100
+|turn|16
+|
+|t:|1642310409
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|-damage|p2a: Victreebel|0 fnt|[from] item: Life Orb
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642310423
+|switch|p1a: Primeape|Primeape, F|79/100
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|turn|17
+|
+|t:|1642310430
+|move|p1a: Primeape|Close Combat|p2a: Camerupt
+|-damage|p2a: Camerupt|18/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Camerupt|Flamethrower|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642310438
+|switch|p1a: Golurk|Golurk|100/100
+|turn|18
+|
+|t:|1642310443
+|move|p2a: Camerupt|Flamethrower|p1a: Golurk
+|-damage|p1a: Golurk|24/100
+|move|p1a: Golurk|Earthquake|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-enditem|p2a: Camerupt|Shuca Berry|[eat]
+|-enditem|p2a: Camerupt|Shuca Berry|[weaken]
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Golurk|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642310455
+|switch|p2a: Sawsbuck|Sawsbuck, F|100/100
+|turn|19
+|c|☆I have a Whale|gg
+|
+|t:|1642310460
+|move|p2a: Sawsbuck|Solar Beam||[still]
+|-prepare|p2a: Sawsbuck|Solar Beam
+|-anim|p2a: Sawsbuck|Solar Beam|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Sawsbuck|91/100|[from] item: Life Orb
+|
+|win|jahmille118
+|raw|I have a Whale's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|jahmille118's rating: 1040 &rarr; <strong>1070</strong><br />(+30 for winning)
+|l|☆I have a Whale

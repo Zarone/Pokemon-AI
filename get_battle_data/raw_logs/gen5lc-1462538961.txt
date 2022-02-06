@@ -1,0 +1,238 @@
+|j|☆Riastylis
+|j|☆UwU_Kingz
+|t:|1638110196
+|gametype|singles
+|player|p1|Riastylis|veteran|
+|player|p2|UwU_Kingz|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Anorith, L5, M|item
+|poke|p1|Deino, L5, F|item
+|poke|p1|Ponyta, L5, F|item
+|poke|p1|Munchlax, L5, M|item
+|poke|p1|Chinchou, L5, F|item
+|poke|p1|Abra, L5, M|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Omanyte, L5, M|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Bulbasaur, L5, M|item
+|poke|p2|Elekid, L5, F|
+|poke|p2|Growlithe, L5, F|item
+|teampreview
+|
+|t:|1638110214
+|start
+|switch|p1a: Anorith|Anorith, L5, M|100/100
+|switch|p2a: Omanyte|Omanyte, L5, M, shiny|100/100
+|turn|1
+|j| Erowastaken
+|
+|t:|1638110222
+|move|p1a: Anorith|Stealth Rock|p2a: Omanyte
+|-sidestart|p2: UwU_Kingz|move: Stealth Rock
+|move|p2a: Omanyte|Substitute|p2a: Omanyte
+|-start|p2a: Omanyte|Substitute
+|-damage|p2a: Omanyte|77/100
+|
+|upkeep
+|turn|2
+|
+|t:|1638110232
+|switch|p1a: Chinchou|Chinchou, L5, F|100/100
+|move|p2a: Omanyte|Shell Smash|p2a: Omanyte
+|-unboost|p2a: Omanyte|def|1
+|-unboost|p2a: Omanyte|spd|1
+|-boost|p2a: Omanyte|atk|2
+|-boost|p2a: Omanyte|spa|2
+|-boost|p2a: Omanyte|spe|2
+|-enditem|p2a: Omanyte|White Herb
+|-clearnegativeboost|p2a: Omanyte|[silent]
+|
+|upkeep
+|turn|3
+|
+|t:|1638110244
+|move|p2a: Omanyte|Earth Power|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|
+|upkeep
+|
+|t:|1638110250
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|4
+|
+|t:|1638110263
+|move|p1a: Abra|Protect|p1a: Abra
+|-singleturn|p1a: Abra|Protect
+|move|p2a: Omanyte|Ice Beam|p1a: Abra
+|-activate|p1a: Abra|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1638110271
+|switch|p1a: Deino|Deino, L5, F|100/100
+|move|p2a: Omanyte|Earth Power|p1a: Deino
+|-damage|p1a: Deino|0 fnt
+|faint|p1a: Deino
+|
+|upkeep
+|
+|t:|1638110280
+|switch|p1a: Munchlax|Munchlax, L5, M|100/100
+|turn|6
+|
+|t:|1638110286
+|move|p2a: Omanyte|Earth Power|p1a: Munchlax
+|-damage|p1a: Munchlax|67/100
+|move|p1a: Munchlax|Earthquake|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-end|p2a: Omanyte|Substitute
+|
+|upkeep
+|turn|7
+|
+|t:|1638110295
+|move|p2a: Omanyte|Ice Beam|p1a: Munchlax
+|-damage|p1a: Munchlax|47/100
+|move|p1a: Munchlax|Earthquake|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-damage|p2a: Omanyte|0 fnt
+|faint|p2a: Omanyte
+|
+|upkeep
+|
+|t:|1638110321
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|8
+|
+|t:|1638110327
+|switch|p1a: Anorith|Anorith, L5, M|100/100
+|move|p2a: Abra|Shadow Ball|p1a: Anorith
+|-damage|p1a: Anorith|43/100
+|
+|upkeep
+|turn|9
+|
+|t:|1638110339
+|move|p2a: Abra|Energy Ball|p1a: Anorith
+|-damage|p1a: Anorith|0 fnt
+|faint|p1a: Anorith
+|
+|upkeep
+|
+|t:|1638110346
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|10
+|
+|t:|1638110363
+|move|p1a: Abra|Protect|p1a: Abra
+|-singleturn|p1a: Abra|Protect
+|move|p2a: Abra|Shadow Ball|p1a: Abra
+|-activate|p1a: Abra|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1638110370
+|switch|p1a: Munchlax|Munchlax, L5, M|47/100
+|move|p2a: Abra|Shadow Ball|p1a: Munchlax
+|-immune|p1a: Munchlax
+|
+|upkeep
+|turn|12
+|
+|t:|1638110378
+|move|p2a: Abra|Energy Ball|p1a: Munchlax
+|-damage|p1a: Munchlax|30/100
+|move|p1a: Munchlax|Pursuit|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|37/100
+|
+|upkeep
+|turn|13
+|
+|t:|1638110395
+|-activate|p2a: Abra|move: Pursuit
+|move|p1a: Munchlax|Pursuit|p2a: Abra|[from]Pursuit
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1638110419
+|switch|p2a: Growlithe|Growlithe, L5, F, shiny|100/100
+|-damage|p2a: Growlithe|78/100|[from] Stealth Rock
+|-ability|p2a: Growlithe|Intimidate|boost
+|-unboost|p1a: Munchlax|atk|1
+|turn|14
+|
+|t:|1638110427
+|switch|p1a: Ponyta|Ponyta, L5, F|100/100
+|move|p2a: Growlithe|Flamethrower|p1a: Ponyta
+|-start|p1a: Ponyta|ability: Flash Fire
+|
+|upkeep
+|turn|15
+|
+|t:|1638110440
+|move|p1a: Ponyta|Wild Charge|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|-damage|p1a: Ponyta|82/100|[from] Recoil
+|-damage|p1a: Ponyta|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1638110448
+|switch|p2a: Elekid|Elekid, L5, F|100/100
+|-damage|p2a: Elekid|91/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1638110468
+|move|p2a: Elekid|Thunder Punch|p1a: Ponyta
+|-damage|p1a: Ponyta|19/100
+|move|p1a: Ponyta|Flare Blitz|p2a: Elekid
+|-damage|p2a: Elekid|0 fnt
+|faint|p2a: Elekid
+|-damage|p1a: Ponyta|0 fnt|[from] Recoil
+|faint|p1a: Ponyta
+|
+|upkeep
+|
+|t:|1638110485
+|switch|p2a: Bulbasaur|Bulbasaur, L5, M, shiny|100/100
+|switch|p1a: Abra|Abra, L5, M|100/100
+|-damage|p2a: Bulbasaur|91/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1638110508
+|move|p1a: Abra|Psychic|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|
+|upkeep
+|
+|t:|1638110513
+|switch|p2a: Bronzor|Bronzor, L5, shiny|100/100
+|-damage|p2a: Bronzor|96/100|[from] Stealth Rock
+|turn|18
+|-message|UwU_Kingz forfeited.
+|
+|win|Riastylis
+|l|☆UwU_Kingz

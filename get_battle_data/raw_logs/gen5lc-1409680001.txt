@@ -1,0 +1,516 @@
+|j|☆Belmond chi sei
+|j|☆Luna's Bann3d N0w
+|t:|1630703564
+|gametype|singles
+|player|p1|Belmond chi sei|whitney|
+|player|p2|Luna's Bann3d N0w|youngcouple-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Omanyte, L5, F|item
+|poke|p1|Tentacool, L5, F|item
+|poke|p1|Hippopotas, L5, M|item
+|poke|p1|Lileep, L5, M|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p2|Tirtouga, L5, F|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Frillish, L5, F|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|j| BB-8-NU
+|j|+ReeceHughes
+|l|+ReeceHughes
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Luna's Bann3d N0w)
+|inactive|Belmond chi sei has 120 seconds left.
+|j| Dragonicos
+|
+|t:|1630703642
+|start
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|switch|p2a: Frillish|Frillish, L5, F|100/100
+|turn|1
+|j|%Links
+|
+|t:|1630703667
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Overcoat|[from] ability: Trace|[of] p1a: Vullaby
+|move|p1a: Vullaby|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|80/100
+|inactive|Belmond chi sei has 120 seconds left.
+|j| Vitoran ♂
+|
+|t:|1630703691
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1630703696
+|move|p2a: Porygon|Tri Attack|p1a: Hippopotas
+|-damage|p1a: Hippopotas|64/100
+|move|p1a: Hippopotas|Stealth Rock|p2a: Porygon
+|-sidestart|p2: Luna's Bann3d N0w|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1630703705
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Hippopotas|Protect||[still]
+|-fail|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1630703709
+|move|p2a: Drilbur|Stealth Rock|p1a: Hippopotas
+|-sidestart|p1: Belmond chi sei|move: Stealth Rock
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1630703712
+|move|p2a: Drilbur|Rapid Spin|p1a: Hippopotas
+|-damage|p1a: Hippopotas|92/100
+|-sideend|p2: Luna's Bann3d N0w|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Drilbur
+|move|p1a: Hippopotas|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1630703718
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Hippopotas|Earthquake|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|64/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hippopotas|88/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1630703728
+|switch|p2a: Porygon|Porygon, L5|80/100
+|-ability|p2a: Porygon|Sand Stream|[from] ability: Trace|[of] p1a: Hippopotas
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Porygon
+|move|p1a: Hippopotas|Protect||[still]
+|-fail|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|76/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1630703740
+|switch|p2a: Snover|Snover, L5, M|64/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Hippopotas|Earthquake|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|23/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hippopotas|84/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1630703747
+|move|p1a: Hippopotas|Protect|p1a: Hippopotas
+|-singleturn|p1a: Hippopotas|Protect
+|move|p2a: Snover|Blizzard|p1a: Hippopotas
+|-activate|p1a: Hippopotas|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hippopotas|80/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1630703754
+|switch|p1a: Tentacool|Tentacool, L5, F|100/100
+|-damage|p1a: Tentacool|92/100|[from] Stealth Rock
+|move|p2a: Snover|Blizzard|p1a: Tentacool
+|-resisted|p1a: Tentacool
+|-crit|p1a: Tentacool
+|-damage|p1a: Tentacool|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacool|44/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1630703763
+|switch|p2a: Drilbur|Drilbur, L5, M|44/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Tentacool|Acid Spray|p2a: Drilbur
+|-resisted|p2a: Drilbur
+|-damage|p2a: Drilbur|35/100
+|-unboost|p2a: Drilbur|spd|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|31/100|[from] Hail
+|-damage|p1a: Tentacool|40/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1630703781
+|switch|p1a: Drifloon|Drifloon, L5, M|100/100
+|-damage|p1a: Drifloon|77/100|[from] Stealth Rock
+|move|p2a: Drilbur|Earthquake|p1a: Drifloon
+|-immune|p1a: Drifloon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|27/100|[from] Hail
+|-damage|p1a: Drifloon|74/100|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1630703790
+|move|p1a: Drifloon|Acrobatics|p2a: Drilbur
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|70/100|[from] Hail
+|upkeep
+|
+|t:|1630703797
+|switch|p2a: Porygon|Porygon, L5|76/100
+|-ability|p2a: Porygon|Unburden|[from] ability: Trace|[of] p1a: Drifloon
+|turn|14
+|
+|t:|1630703807
+|move|p1a: Drifloon|Acrobatics|p2a: Porygon
+|-damage|p2a: Porygon|40/100
+|move|p2a: Porygon|Thunder Wave|p1a: Drifloon
+|-status|p1a: Drifloon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|36/100|[from] Hail
+|-damage|p1a: Drifloon|66/100 par|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1630703812
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|88/100
+|cant|p1a: Drifloon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|84/100|[from] Hail
+|-damage|p1a: Drifloon|62/100 par|[from] Hail
+|upkeep
+|turn|16
+|
+|t:|1630703817
+|move|p2a: Porygon|Psychic|p1a: Drifloon
+|-damage|p1a: Drifloon|24/100 par
+|cant|p1a: Drifloon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|80/100|[from] Hail
+|-damage|p1a: Drifloon|20/100 par|[from] Hail
+|upkeep
+|turn|17
+|
+|t:|1630703827
+|switch|p2a: Frillish|Frillish, L5, F|100/100
+|cant|p1a: Drifloon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|96/100|[from] Hail
+|-damage|p1a: Drifloon|16/100 par|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1630703833
+|move|p2a: Frillish|Scald|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|92/100|[from] Hail
+|upkeep
+|
+|t:|1630703841
+|switch|p1a: Tentacool|Tentacool, L5, F|40/100
+|-damage|p1a: Tentacool|31/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1630703846
+|move|p1a: Tentacool|Toxic Spikes|p2a: Frillish
+|-sidestart|p2: Luna's Bann3d N0w|move: Toxic Spikes
+|move|p2a: Frillish|Will-O-Wisp|p1a: Tentacool
+|-status|p1a: Tentacool|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacool|27/100 brn|[from] Hail
+|-damage|p2a: Frillish|88/100|[from] Hail
+|-damage|p1a: Tentacool|18/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1630703853
+|move|p1a: Tentacool|Toxic Spikes|p2a: Frillish
+|-sidestart|p2: Luna's Bann3d N0w|move: Toxic Spikes
+|move|p2a: Frillish|Scald|p1a: Tentacool
+|-resisted|p1a: Tentacool
+|-damage|p1a: Tentacool|5/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacool|0 fnt|[from] Hail
+|-damage|p2a: Frillish|84/100|[from] Hail
+|faint|p1a: Tentacool
+|upkeep
+|
+|t:|1630703860
+|switch|p1a: Lileep|Lileep, L5, M|100/100
+|-damage|p1a: Lileep|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1630703866
+|move|p2a: Frillish|Will-O-Wisp|p1a: Lileep
+|-status|p1a: Lileep|brn
+|move|p1a: Lileep|Giga Drain|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|34/100
+|-heal|p1a: Lileep|100/100 brn|[from] drain|[of] p2a: Frillish
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|30/100|[from] Hail
+|-damage|p1a: Lileep|96/100 brn|[from] Hail
+|-damage|p1a: Lileep|84/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1630703872
+|switch|p2a: Timburr|Timburr, L5, F|100/100
+|-status|p2a: Timburr|tox
+|move|p1a: Lileep|Giga Drain|p2a: Timburr
+|-damage|p2a: Timburr|71/100 tox
+|-heal|p1a: Lileep|100/100 brn|[from] drain|[of] p2a: Timburr
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|67/100 tox|[from] Hail
+|-damage|p1a: Lileep|96/100 brn|[from] Hail
+|-damage|p2a: Timburr|63/100 tox|[from] psn
+|-damage|p1a: Lileep|84/100 brn|[from] brn
+|upkeep
+|turn|23
+|l| Vitoran ♂
+|
+|t:|1630703879
+|switch|p1a: Hippopotas|Hippopotas, L5, M|80/100
+|-damage|p1a: Hippopotas|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Timburr|Drain Punch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|40/100
+|-heal|p2a: Timburr|84/100 tox|[from] drain|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|80/100 tox|[from] Sandstorm
+|-damage|p2a: Timburr|71/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1630703887
+|switch|p2a: Snover|Snover, L5, M|23/100
+|-status|p2a: Snover|tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Hippopotas|Protect||[still]
+|-fail|p1a: Hippopotas
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hippopotas|36/100|[from] Hail
+|-damage|p2a: Snover|19/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1630703904
+|switch|p1a: Lileep|Lileep, L5, M|84/100 brn
+|-damage|p1a: Lileep|72/100 brn|[from] Stealth Rock
+|move|p2a: Snover|Blizzard|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|faint|p1a: Lileep
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snover|10/100 tox|[from] psn
+|upkeep
+|
+|t:|1630703915
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|-damage|p1a: Vullaby|79/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1630703918
+|move|p1a: Vullaby|Brave Bird|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|-damage|p1a: Vullaby|74/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1630703925
+|switch|p2a: Porygon|Porygon, L5|80/100
+|-status|p2a: Porygon|tox
+|-ability|p2a: Porygon|Overcoat|[from] ability: Trace|[of] p1a: Vullaby
+|turn|27
+|
+|t:|1630703927
+|move|p1a: Vullaby|Brave Bird|p2a: Porygon
+|-damage|p2a: Porygon|32/100 tox
+|-damage|p1a: Vullaby|57/100|[from] Recoil
+|move|p2a: Porygon|Tri Attack|p1a: Vullaby
+|-damage|p1a: Vullaby|14/100
+|-status|p1a: Vullaby|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|29/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1630703936
+|switch|p2a: Frillish|Frillish, L5, F|30/100
+|-status|p2a: Frillish|tox
+|cant|p1a: Vullaby|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|25/100 tox|[from] Hail
+|-damage|p2a: Frillish|21/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1630703942
+|cant|p1a: Vullaby|frz
+|move|p2a: Frillish|Taunt|p1a: Vullaby
+|-start|p1a: Vullaby|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|17/100 tox|[from] Hail
+|-damage|p2a: Frillish|9/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1630703945
+|cant|p1a: Vullaby|frz
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|59/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|55/100 tox|[from] Hail
+|-damage|p2a: Frillish|42/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1630703952
+|cant|p1a: Vullaby|frz
+|move|p2a: Frillish|Scald|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|38/100 tox|[from] Hail
+|-damage|p2a: Frillish|21/100 tox|[from] psn
+|upkeep
+|
+|t:|1630703963
+|switch|p1a: Omanyte|Omanyte, L5, F|100/100
+|-damage|p1a: Omanyte|91/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1630703966
+|move|p1a: Omanyte|Substitute|p1a: Omanyte
+|-start|p1a: Omanyte|Substitute
+|-damage|p1a: Omanyte|67/100
+|move|p2a: Frillish|Scald|p1a: Omanyte
+|-end|p1a: Omanyte|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Omanyte|62/100|[from] Hail
+|-damage|p2a: Frillish|17/100 tox|[from] Hail
+|-damage|p2a: Frillish|0 fnt|[from] psn
+|faint|p2a: Frillish
+|upkeep
+|
+|t:|1630703968
+|switch|p2a: Timburr|Timburr, L5, F|71/100 tox
+|turn|33
+|l| Dragonicos
+|
+|t:|1630703983
+|move|p1a: Omanyte|Hydro Pump|p2a: Timburr
+|-damage|p2a: Timburr|5/100 tox
+|move|p2a: Timburr|Drain Punch|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|-heal|p2a: Timburr|34/100 tox|[from] drain|[of] p1a: Omanyte
+|faint|p1a: Omanyte
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|30/100 tox|[from] Hail
+|-damage|p2a: Timburr|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1630703989
+|switch|p1a: Hippopotas|Hippopotas, L5, M|36/100
+|-damage|p1a: Hippopotas|32/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|34
+|
+|t:|1630703992
+|move|p1a: Hippopotas|Protect|p1a: Hippopotas
+|-singleturn|p1a: Hippopotas|Protect
+|move|p2a: Timburr|Drain Punch|p1a: Hippopotas
+|-activate|p1a: Hippopotas|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|21/100 tox|[from] Sandstorm
+|-damage|p2a: Timburr|13/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1630704011
+|move|p1a: Hippopotas|Protect||[still]
+|-fail|p1a: Hippopotas
+|move|p2a: Timburr|Drain Punch|p1a: Hippopotas
+|-crit|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|-heal|p2a: Timburr|30/100 tox|[from] drain|[of] p1a: Hippopotas
+|faint|p1a: Hippopotas
+|
+|win|Luna's Bann3d N0w
+|n|☆Belmond chi sei|belmondchisei
+|n|☆Luna's Bann3d N0w|lunasbann3dn0w
+|n| BB-8-NU|bb8nu
+|n| Links|links
+|l| BB-8-NU
+|l|☆Belmond chi sei
+|c|☆Luna's Bann3d N0w|gg
+|l|☆Luna's Bann3d N0w

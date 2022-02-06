@@ -1,0 +1,361 @@
+|j|☆Ophion
+|j|☆Master Mish
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644030691
+|gametype|singles
+|player|p1|Ophion|morty|
+|player|p2|Master Mish|idol|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Magnezone|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Gengar, M|item
+|teampreview
+|j| BB-8-NU
+|c|☆Ophion|hf
+|c|☆Master Mish|hf
+|j|+blackkaiser
+|inactive|Ophion has 120 seconds left.
+|
+|t:|1644030723
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|j|#susciety
+|j| Kdklcio
+|j| BananaJoJoJoJo
+|c| BananaJoJoJoJo|no ledian this match boring
+|l| BananaJoJoJoJo
+|
+|t:|1644030743
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Rotom|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Master Mish|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|j| El Rey Del Sur
+|
+|t:|1644030747
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Rotom|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|c|☆Ophion|mb
+|c|☆Master Mish|k
+|j| SrKalopsia
+|
+|t:|1644030756
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|3
+|j|+TGA 3
+|
+|t:|1644030768
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Gengar|Will-O-Wisp|p1a: Politoed|[miss]
+|-miss|p2a: Gengar|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gengar|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|c|☆Master Mish|k
+|
+|t:|1644030776
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644030778
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1644030783
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Ophion|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|j| Wildfiree
+|
+|t:|1644030788
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Ferrothorn|Spikes|p2a: Garchomp
+|-sidestart|p2: Master Mish|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|l| Wildfiree
+|
+|t:|1644030798
+|move|p2a: Garchomp|Outrage|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|50/100
+|-damage|p2a: Garchomp|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100
+|-damage|p1a: Ferrothorn|38/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644030810
+|move|p2a: Garchomp|Outrage|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Garchomp|31/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030815
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644030817
+|move|p1a: Latios|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030820
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|11
+|
+|t:|1644030828
+|move|p1a: Latios|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|move|p2a: Tyranitar|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|28/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1644030830
+|move|p1a: Latios|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|22/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644030832
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|13
+|
+|t:|1644030836
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644030839
+|switch|p2a: Ferrothorn|Ferrothorn, M|87/100
+|-damage|p2a: Ferrothorn|74/100|[from] Spikes
+|-damage|p2a: Ferrothorn|68/100|[from] Stealth Rock
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|-heal|p1a: Politoed|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644030844
+|move|p2a: Ferrothorn|Spikes|p1a: Politoed
+|-sidestart|p1: Ophion|Spikes
+|move|p1a: Politoed|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|54/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1644030847
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|88/100|[from] Spikes
+|-damage|p1a: Magnezone|82/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Magnezone
+|-sidestart|p1: Ophion|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|60/100 brn|[from] item: Leftovers
+|-heal|p1a: Magnezone|88/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|48/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1644030849
+|move|p2a: Ferrothorn|Spikes|p1a: Magnezone
+|-sidestart|p1: Ophion|Spikes
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|54/100 brn|[from] item: Leftovers
+|-heal|p1a: Magnezone|69/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|42/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|
+|t:|1644030852
+|move|p1a: Magnezone|Barrier|p1a: Magnezone
+|-boost|p1a: Magnezone|def|2
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|35/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1644030855
+|move|p1a: Magnezone|Barrier|p1a: Magnezone
+|-boost|p1a: Magnezone|def|2
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|81/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|42/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|29/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1644030857
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100 brn
+|-boost|p1a: Magnezone|spa|1
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|87/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|14/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1644030859
+|move|p1a: Magnezone|Charge Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100 brn
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|9/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|upkeep
+|
+|t:|1644030861
+|switch|p2a: Gengar|Gengar, M|94/100
+|-damage|p2a: Gengar|82/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1644030862
+|move|p2a: Gengar|Shadow Ball|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|Substitute|[damage]
+|move|p1a: Magnezone|Charge Beam|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|99/100|[from] item: Leftovers
+|upkeep
+|c|☆Master Mish|what's yr secret
+|c|☆Master Mish|i want to be good like u
+|-message|Master Mish forfeited.
+|
+|win|Ophion
+|n|☆Ophion|ophion
+|n|☆Master Mish|mastermish
+|n| BB-8-NU|bb8nu
+|n| blackkaiser|blackkaiser
+|n|+susciety|susciety
+|n| Kdklcio|kdklcio
+|n| El Rey Del Sur|elreydelsur
+|n| SrKalopsia|srkalopsia
+|n| TGA 3|tga3

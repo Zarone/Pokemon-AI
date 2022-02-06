@@ -1,0 +1,214 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644017588
+|gametype|singles
+|player|p1|BlessingoftheWind|winona-gen6|
+|player|p2|sparklingdream|plasmagruntf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Terrakion|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Starmie|item
+|poke|p1|Dragonite, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Uxie|item
+|poke|p2|Bisharp, F|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|c|☆sparklingdream|hf
+|c|☆BlessingoftheWind|hf
+|
+|t:|1644017597
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|turn|1
+|
+|t:|1644017609
+|move|p1a: Terrakion|Taunt|p2a: Uxie|[miss]
+|-miss|p1a: Terrakion|p2a: Uxie
+|move|p2a: Uxie|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|94/100
+|
+|t:|1644017612
+|switch|p2a: Scizor|Scizor, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1644017630
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1644017635
+|switch|p1a: Terrakion|Terrakion|94/100
+|move|p2a: Uxie|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: BlessingoftheWind|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1644017646
+|move|p1a: Terrakion|Stealth Rock|p2a: Uxie
+|-sidestart|p2: sparklingdream|move: Stealth Rock
+|move|p2a: Uxie|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|86/100
+|
+|t:|1644017649
+|switch|p2a: Scizor|Scizor, F|100/100|[from]move: U-turn
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1644017652
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Scizor|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|-damage|p2a: Scizor|78/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Scizor|66/100 brn|[from] brn
+|upkeep
+|inactive|BlessingoftheWind has 270 seconds left.
+|
+|t:|1644017688
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1644017695
+|switch|p2a: Uxie|Uxie|100/100
+|-damage|p2a: Uxie|88/100|[from] Stealth Rock
+|move|p1a: Starmie|Hydro Pump|p2a: Uxie|[miss]
+|-miss|p1a: Starmie|p2a: Uxie
+|
+|upkeep
+|turn|7
+|
+|t:|1644017705
+|move|p1a: Starmie|Hydro Pump|p2a: Uxie
+|-damage|p2a: Uxie|40/100
+|-damage|p1a: Starmie|78/100|[from] item: Life Orb
+|move|p2a: Uxie|U-turn|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|38/100
+|inactive|sparklingdream has 270 seconds left.
+|
+|t:|1644017732
+|switch|p2a: Bisharp|Bisharp, F|100/100|[from]move: U-turn
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|inactive|sparklingdream has 270 seconds left.
+|
+|t:|1644017750
+|move|p1a: Starmie|Hydro Pump|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|-damage|p1a: Starmie|28/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|sparklingdream has 240 seconds left.
+|
+|t:|1644017798
+|switch|p2a: Uxie|Uxie|40/100
+|-damage|p2a: Uxie|28/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1644017817
+|move|p1a: Starmie|Hydro Pump|p2a: Uxie|[miss]
+|-miss|p1a: Starmie|p2a: Uxie
+|move|p2a: Uxie|Memento|p1a: Starmie
+|-unboost|p1a: Starmie|atk|2
+|-unboost|p1a: Starmie|spa|2
+|faint|p2a: Uxie
+|
+|upkeep
+|inactive|sparklingdream has 210 seconds left.
+|
+|t:|1644017848
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644017854
+|move|p1a: Starmie|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Starmie|19/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|sparklingdream has 210 seconds left.
+|
+|t:|1644017871
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1644017874
+|move|p1a: Starmie|Hydro Pump|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-damage|p1a: Starmie|9/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644017880
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1644017883
+|move|p1a: Starmie|Thunder|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|-damage|p1a: Starmie|0 fnt|[from] item: Life Orb
+|faint|p1a: Starmie
+|
+|upkeep
+|
+|t:|1644017886
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Scizor|Scizor, F|66/100 brn
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|-damage|p2a: Scizor|54/100 brn|[from] Stealth Rock
+|turn|13
+|c|☆BlessingoftheWind|gg
+|
+|t:|1644017889
+|move|p1a: Jirachi|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|BlessingoftheWind

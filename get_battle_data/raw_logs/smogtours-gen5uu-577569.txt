@@ -1,0 +1,506 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630853796
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|Finchinator|#finchinator|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Flygon, F|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Lanturn, F|item
+|poke|p1|Crobat, F|item
+|poke|p1|Shaymin|item
+|poke|p1|Bronzong|item
+|poke|p2|Victini|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Raikou|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Heracross, F|item
+|poke|p2|Bronzong|item
+|teampreview
+|c|☆Finchinator|hf
+|c|☆Lily|hf
+|c|+HYDREIGON SPECS|lily en bw.
+|c|+HYDREIGON SPECS|im so hyped
+|inactive|Lily has 270 seconds left.
+|
+|t:|1630853848
+|start
+|switch|p1a: Dirty Laundry|Qwilfish, M|100/100
+|switch|p2a: Victini|Victini|100/100
+|-ability|p1a: Dirty Laundry|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|turn|1
+|c|+Ark|omg you brought lilturn
+|
+|t:|1630853861
+|switch|p1a: Ground Control|Flygon, F|100/100
+|move|p2a: Victini|U-turn|p1a: Ground Control
+|-damage|p1a: Ground Control|71/100
+|c|+edgar|go fincher 
+|
+|t:|1630853865
+|switch|p2a: Bronzong|Bronzong|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1630853868
+|move|p1a: Ground Control|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|73/100
+|c|☆Finchinator|good nicks
+|
+|t:|1630853876
+|switch|p1a: Nice2KnoU|Bronzong|100/100|[from]move: U-turn
+|move|p2a: Bronzong|Stealth Rock|p1a: Nice2KnoU
+|-sidestart|p1: Lily|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|79/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Lily|thank u
+|
+|t:|1630853883
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Nice2KnoU|Stealth Rock|p2a: Victini
+|-sidestart|p2: Finchinator|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|c|+THE PDC SHOW|lmao yo
+|c|+THE PDC SHOW|that team is so old lily
+|c|+THE PDC SHOW|where did u get it
+|c|☆Lily|idk someone posted it in my channel and it had a lanturn so i went with it
+|c|+THE PDC SHOW|i probably did
+|
+|t:|1630853909
+|switch|p1a: Dirty Laundry|Qwilfish, M|100/100
+|-damage|p1a: Dirty Laundry|88/100|[from] Stealth Rock
+|-ability|p1a: Dirty Laundry|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|V-create|p1a: Dirty Laundry
+|-resisted|p1a: Dirty Laundry
+|-damage|p1a: Dirty Laundry|50/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: Dirty Laundry|56/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|+THE PDC SHOW|its a badass team from 2011
+|
+|t:|1630853916
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|switch|p1a: Afterglow|Lanturn, F|100/100
+|-damage|p1a: Afterglow|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1630853920
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p1a: Afterglow|Surf|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|
+|-heal|p2a: Blastoise|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1630853924
+|move|p1a: Afterglow|Surf|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|72/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Afterglow
+|-damage|p1a: Afterglow|84/100
+|-sideend|p2: Finchinator|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1630853931
+|switch|p1a: Good Times|Shaymin|100/100
+|-damage|p1a: Good Times|88/100|[from] Stealth Rock
+|move|p2a: Blastoise|Protect||[still]
+|-fail|p2a: Blastoise
+|
+|-heal|p2a: Blastoise|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1630853934
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p1a: Good Times|Seed Flare|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|
+|-heal|p2a: Blastoise|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1630853939
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Good Times|Seed Flare|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|60/100
+|
+|upkeep
+|turn|11
+|
+|t:|1630853951
+|move|p1a: Good Times|Seed Flare|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|24/100
+|-unboost|p2a: Victini|spd|2
+|move|p2a: Victini|U-turn|p1a: Good Times
+|-supereffective|p1a: Good Times
+|-damage|p1a: Good Times|23/100
+|
+|t:|1630853957
+|switch|p2a: Raikou|Raikou|100/100|[from]move: U-turn
+|-ability|p2a: Raikou|Pressure
+|
+|upkeep
+|turn|12
+|
+|t:|1630853962
+|switch|p1a: Afterglow|Lanturn, F|84/100
+|-damage|p1a: Afterglow|72/100|[from] Stealth Rock
+|move|p2a: Raikou|Hidden Power|p1a: Afterglow
+|-resisted|p1a: Afterglow
+|-damage|p1a: Afterglow|60/100
+|
+|upkeep
+|turn|13
+|
+|t:|1630853966
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: Afterglow|Volt Switch|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1630853974
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p1a: Nice2KnoU|Bronzong|100/100
+|-damage|p1a: Nice2KnoU|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Nice2KnoU|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1630853981
+|switch|p2a: Victini|Victini|24/100
+|move|p1a: Nice2KnoU|Stealth Rock|p2a: Victini
+|-sidestart|p2: Finchinator|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1630853984
+|switch|p1a: Dirty Laundry|Qwilfish, M|56/100
+|-damage|p1a: Dirty Laundry|44/100|[from] Stealth Rock
+|-ability|p1a: Dirty Laundry|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|V-create|p1a: Dirty Laundry
+|-resisted|p1a: Dirty Laundry
+|-damage|p1a: Dirty Laundry|7/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: Dirty Laundry|13/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1630853990
+|move|p2a: Victini|V-create|p1a: Dirty Laundry
+|-resisted|p1a: Dirty Laundry
+|-damage|p1a: Dirty Laundry|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Dirty Laundry
+|
+|upkeep
+|
+|t:|1630853994
+|switch|p1a: Ground Control|Flygon, F|71/100
+|-damage|p1a: Ground Control|65/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1630853998
+|switch|p2a: Bronzong|Bronzong|79/100
+|-damage|p2a: Bronzong|73/100|[from] Stealth Rock
+|move|p1a: Ground Control|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|46/100
+|
+|t:|1630854005
+|switch|p1a: Afterglow|Lanturn, F|60/100|[from]move: U-turn
+|-damage|p1a: Afterglow|48/100|[from] Stealth Rock
+|
+|-heal|p2a: Bronzong|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1630854007
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Afterglow|Surf|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆Lily|why do they all have it
+|
+|t:|1630854014
+|move|p1a: Afterglow|Surf|p2a: Bronzong
+|-damage|p2a: Bronzong|20/100
+|move|p2a: Bronzong|Toxic|p1a: Afterglow
+|-status|p1a: Afterglow|tox
+|
+|-heal|p2a: Bronzong|27/100|[from] item: Leftovers
+|-damage|p1a: Afterglow|41/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1630854017
+|switch|p2a: Blastoise|Blastoise, F|90/100
+|-damage|p2a: Blastoise|78/100|[from] Stealth Rock
+|move|p1a: Afterglow|Surf|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|53/100
+|
+|-heal|p2a: Blastoise|59/100|[from] item: Leftovers
+|-damage|p1a: Afterglow|29/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1630854021
+|switch|p1a: Nice2KnoU|Bronzong|100/100
+|-damage|p1a: Nice2KnoU|94/100|[from] Stealth Rock
+|move|p2a: Blastoise|Rapid Spin|p1a: Nice2KnoU
+|-resisted|p1a: Nice2KnoU
+|-crit|p1a: Nice2KnoU
+|-damage|p1a: Nice2KnoU|91/100
+|-sideend|p2: Finchinator|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|65/100|[from] item: Leftovers
+|-heal|p1a: Nice2KnoU|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1630854026
+|move|p2a: Blastoise|Scald|p1a: Nice2KnoU
+|-damage|p1a: Nice2KnoU|78/100
+|-status|p1a: Nice2KnoU|brn
+|move|p1a: Nice2KnoU|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|56/100
+|
+|-heal|p2a: Blastoise|63/100|[from] item: Leftovers
+|-heal|p1a: Nice2KnoU|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Nice2KnoU|72/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1630854030
+|switch|p2a: Victini|Victini|24/100
+|move|p1a: Nice2KnoU|Toxic|p2a: Victini
+|-status|p2a: Victini|tox
+|
+|-heal|p1a: Nice2KnoU|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Victini|18/100 tox|[from] psn
+|-damage|p1a: Nice2KnoU|65/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1630854033
+|switch|p1a: Afterglow|Lanturn, F|29/100 tox
+|-damage|p1a: Afterglow|17/100 tox|[from] Stealth Rock
+|move|p2a: Victini|V-create|p1a: Afterglow
+|-resisted|p1a: Afterglow
+|-damage|p1a: Afterglow|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Afterglow
+|
+|-damage|p2a: Victini|5/100 tox|[from] psn
+|upkeep
+|
+|t:|1630854035
+|switch|p1a: Ground Control|Flygon, F|65/100
+|-damage|p1a: Ground Control|59/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1630854042
+|switch|p2a: Bronzong|Bronzong|27/100
+|move|p1a: Ground Control|U-turn|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|t:|1630854049
+|switch|p1a: Nightmares|Crobat, F|100/100|[from]move: U-turn
+|-damage|p1a: Nightmares|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Nightmares|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630854051
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|27
+|
+|t:|1630854055
+|move|p1a: Nightmares|U-turn|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|90/100
+|
+|t:|1630854058
+|switch|p1a: Nice2KnoU|Bronzong|65/100 brn|[from]move: U-turn
+|-damage|p1a: Nice2KnoU|59/100 brn|[from] Stealth Rock
+|move|p2a: Nidoqueen|Toxic Spikes|p1a: Nice2KnoU
+|-sidestart|p1: Lily|move: Toxic Spikes
+|
+|-heal|p1a: Nice2KnoU|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Nice2KnoU|53/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1630854061
+|move|p2a: Nidoqueen|Focus Blast|p1a: Nice2KnoU
+|-damage|p1a: Nice2KnoU|11/100 brn
+|move|p1a: Nice2KnoU|Stealth Rock|p2a: Nidoqueen
+|-sidestart|p2: Finchinator|move: Stealth Rock
+|
+|-heal|p1a: Nice2KnoU|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Nice2KnoU|5/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1630854066
+|switch|p2a: Blastoise|Blastoise, F|63/100
+|-damage|p2a: Blastoise|50/100|[from] Stealth Rock
+|move|p1a: Nice2KnoU|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|41/100
+|
+|-heal|p2a: Blastoise|47/100|[from] item: Leftovers
+|-heal|p1a: Nice2KnoU|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Nice2KnoU|0 fnt|[from] brn
+|faint|p1a: Nice2KnoU
+|upkeep
+|
+|t:|1630854071
+|switch|p1a: Ground Control|Flygon, F|59/100
+|-damage|p1a: Ground Control|53/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1630854073
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p1a: Ground Control|Outrage|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|
+|-heal|p2a: Blastoise|53/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1630854076
+|switch|p2a: Victini|Victini|5/100 tox
+|-damage|p2a: Victini|0 fnt|[from] Stealth Rock
+|faint|p2a: Victini
+|move|p1a: Ground Control|Outrage|p2: Victini|[notarget]
+|-fail|p1a: Ground Control
+|
+|upkeep
+|
+|t:|1630854077
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|32
+|
+|t:|1630854079
+|move|p2a: Raikou|Hidden Power|p1a: Ground Control
+|-supereffective|p1a: Ground Control
+|-damage|p1a: Ground Control|0 fnt
+|faint|p1a: Ground Control
+|
+|-heal|p2a: Raikou|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630854087
+|switch|p1a: Nightmares|Crobat, F|82/100
+|-damage|p1a: Nightmares|57/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1630854090
+|move|p1a: Nightmares|U-turn|p2a: Raikou
+|-damage|p2a: Raikou|70/100
+|
+|t:|1630854091
+|switch|p1a: Good Times|Shaymin|23/100|[from]move: U-turn
+|-status|p1a: Good Times|psn
+|-damage|p1a: Good Times|11/100 psn|[from] Stealth Rock
+|move|p2a: Raikou|Thunderbolt|p1a: Good Times
+|-resisted|p1a: Good Times
+|-damage|p1a: Good Times|0 fnt
+|faint|p1a: Good Times
+|
+|-heal|p2a: Raikou|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630854092
+|switch|p1a: Nightmares|Crobat, F|57/100
+|-damage|p1a: Nightmares|32/100|[from] Stealth Rock
+|turn|34
+|c|☆Finchinator|idt this was a possible mu for u
+|
+|t:|1630854101
+|move|p1a: Nightmares|Roost|p1a: Nightmares
+|-heal|p1a: Nightmares|82/100
+|-singleturn|p1a: Nightmares|move: Roost
+|move|p2a: Raikou|Thunderbolt|p1a: Nightmares
+|-damage|p1a: Nightmares|29/100
+|
+|-heal|p1a: Nightmares|35/100|[from] item: Leftovers
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆Lily|lesson learned do not load up 2011 teams
+|
+|t:|1630854107
+|move|p1a: Nightmares|Brave Bird|p2a: Raikou
+|-resisted|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|24/100
+|-damage|p1a: Nightmares|18/100|[from] Recoil
+|move|p2a: Raikou|Thunderbolt|p1a: Nightmares
+|-supereffective|p1a: Nightmares
+|-damage|p1a: Nightmares|0 fnt
+|faint|p1a: Nightmares
+|
+|win|Finchinator
+|c|☆Lily|gg
+|c|☆Finchinator|yoops
+|c|☆Finchinator|gg

@@ -1,0 +1,331 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1638135573
+|gametype|singles
+|player|p1|Amukamara|dawn-gen4pt|
+|player|p2|Lily|unknownf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Virizion|item
+|poke|p1|Snorlax, F|item
+|poke|p1|Weavile, M|item
+|poke|p2|Azelf|item
+|poke|p2|Accelgor, M|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Venomoth, M|item
+|poke|p2|Mew|item
+|poke|p2|Cobalion|item
+|teampreview
+|c|☆Amukamara|glhf
+|c|☆Lily|u2
+|c|+Accel|omg it's me
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135616
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Blooming Villain|Accelgor, M|100/100
+|turn|1
+|
+|t:|1638135627
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Blooming Villain|Spikes|p1a: Zapdos
+|-sidestart|p1: Amukamara|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1638135634
+|move|p2a: Blooming Villain|Spikes|p1a: Zapdos
+|-sidestart|p1: Amukamara|Spikes
+|move|p1a: Zapdos|Thunderbolt|p2a: Blooming Villain
+|-damage|p2a: Blooming Villain|15/100
+|-damage|p1a: Zapdos|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|c|+estarossa|lilburr is a smelly wintertodt mainer
+|
+|t:|1638135640
+|move|p2a: Blooming Villain|Yawn|p1a: Zapdos
+|-start|p1a: Zapdos|move: Yawn|[of] p2a: Blooming Villain
+|move|p1a: Zapdos|Thunderbolt|p2a: Blooming Villain
+|-damage|p2a: Blooming Villain|0 fnt
+|faint|p2a: Blooming Villain
+|-damage|p1a: Zapdos|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1638135642
+|switch|p2a: Will Power|Azelf|100/100
+|turn|4
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135681
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|84/100|[from] Spikes
+|move|p2a: Will Power|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: Amukamara|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135689
+|move|p2a: Will Power|Reflect|p2a: Will Power
+|-sidestart|p2: Lily|Reflect
+|move|p1a: Rhyperior|Stealth Rock|p2a: Will Power
+|-sidestart|p2: Lily|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135700
+|move|p2a: Will Power|Light Screen|p2a: Will Power
+|-sidestart|p2: Lily|move: Light Screen
+|move|p1a: Rhyperior|Stone Edge|p2a: Will Power
+|-damage|p2a: Will Power|70/100
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1638135706
+|switch|p2a: Ark|Kingdra, F|100/100
+|-damage|p2a: Ark|88/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Stone Edge|p2a: Ark
+|-crit|p2a: Ark
+|-damage|p2a: Ark|0 fnt
+|faint|p2a: Ark
+|
+|upkeep
+|c|+Indigo Plateau|bw moment
+|
+|t:|1638135731
+|switch|p2a: Last Surprise|Cobalion|100/100
+|-damage|p2a: Last Surprise|97/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1638135738
+|move|p2a: Last Surprise|Swords Dance|p2a: Last Surprise
+|-boost|p2a: Last Surprise|atk|2
+|move|p1a: Rhyperior|Dragon Tail|p2a: Last Surprise
+|-resisted|p2a: Last Surprise
+|-damage|p2a: Last Surprise|93/100
+|drag|p2a: Butterfly Kiss|Venomoth, M|100/100
+|-damage|p2a: Butterfly Kiss|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1638135746
+|move|p2a: Butterfly Kiss|Sleep Powder|p1a: Rhyperior
+|-status|p1a: Rhyperior|slp|[from] move: Sleep Powder
+|cant|p1a: Rhyperior|slp
+|
+|upkeep
+|turn|10
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135786
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|-damage|p1a: Snorlax|71/100|[from] Spikes
+|move|p2a: Butterfly Kiss|Quiver Dance|p2a: Butterfly Kiss
+|-boost|p2a: Butterfly Kiss|spa|1
+|-boost|p2a: Butterfly Kiss|spd|1
+|-boost|p2a: Butterfly Kiss|spe|1
+|
+|-heal|p1a: Snorlax|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135793
+|move|p2a: Butterfly Kiss|Bug Buzz|p1a: Snorlax
+|-enditem|p2a: Butterfly Kiss|Bug Gem|[from] gem
+|-damage|p1a: Snorlax|36/100
+|move|p1a: Snorlax|Body Slam|p2a: Butterfly Kiss
+|-damage|p2a: Butterfly Kiss|39/100
+|
+|-heal|p1a: Snorlax|42/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1638135803
+|move|p2a: Butterfly Kiss|Bug Buzz|p1a: Snorlax
+|-damage|p1a: Snorlax|14/100
+|move|p1a: Snorlax|Fire Punch|p2a: Butterfly Kiss
+|-supereffective|p2a: Butterfly Kiss
+|-damage|p2a: Butterfly Kiss|0 fnt
+|faint|p2a: Butterfly Kiss
+|
+|-heal|p1a: Snorlax|20/100|[from] item: Leftovers
+|-sideend|p2: Lily|Reflect
+|upkeep
+|
+|t:|1638135826
+|switch|p2a: Will Power|Azelf|70/100
+|-damage|p2a: Will Power|57/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1638135840
+|move|p2a: Will Power|Reflect|p2a: Will Power
+|-sidestart|p2: Lily|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Will Power
+|-damage|p2a: Will Power|30/100
+|
+|-heal|p1a: Snorlax|26/100|[from] item: Leftovers
+|-sideend|p2: Lily|move: Light Screen
+|upkeep
+|turn|14
+|
+|t:|1638135847
+|move|p2a: Will Power|Light Screen|p2a: Will Power
+|-sidestart|p2: Lily|move: Light Screen
+|move|p1a: Snorlax|Body Slam|p2a: Will Power
+|-damage|p2a: Will Power|3/100
+|-status|p2a: Will Power|par
+|
+|-heal|p1a: Snorlax|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1638135871
+|move|p1a: Snorlax|Toxic||[still]
+|-fail|p1a: Snorlax
+|move|p2a: Will Power|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p2a: Will Power
+|faint|p1a: Snorlax
+|
+|upkeep
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1638135896
+|switch|p2a: Alleycat|Mew|100/100
+|switch|p1a: Zapdos|Zapdos|81/100
+|-damage|p1a: Zapdos|56/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|-damage|p2a: Alleycat|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1638135899
+|move|p1a: Zapdos|Thunderbolt|p2a: Alleycat
+|-damage|p2a: Alleycat|59/100
+|-damage|p1a: Zapdos|46/100|[from] item: Life Orb
+|move|p2a: Alleycat|Rock Polish|p2a: Alleycat
+|-boost|p2a: Alleycat|spe|2
+|
+|upkeep
+|turn|17
+|
+|t:|1638135907
+|move|p2a: Alleycat|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|inactive|Amukamara has 270 seconds left.
+|inactive|Amukamara has 240 seconds left.
+|inactive|Amukamara has 210 seconds left.
+|inactive|Amukamara has 180 seconds left.
+|inactive|Amukamara has 150 seconds left.
+|
+|t:|1638136044
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|84/100|[from] Spikes
+|-damage|p1a: Virizion|78/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1638136051
+|move|p2a: Alleycat|Psychic|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|10/100
+|-unboost|p1a: Virizion|spd|1
+|move|p1a: Virizion|Leaf Blade|p2a: Alleycat
+|-damage|p2a: Alleycat|36/100
+|-damage|p1a: Virizion|0 fnt|[from] item: Life Orb
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|t:|1638136064
+|switch|p1a: Rhyperior|Rhyperior, M|100/100 slp
+|-damage|p1a: Rhyperior|94/100 slp|[from] Stealth Rock
+|-damage|p1a: Rhyperior|78/100 slp|[from] Spikes
+|turn|19
+|
+|t:|1638136071
+|move|p2a: Alleycat|Psychic|p1a: Rhyperior
+|-damage|p1a: Rhyperior|39/100 slp
+|-unboost|p1a: Rhyperior|spd|1
+|cant|p1a: Rhyperior|slp
+|
+|-heal|p1a: Rhyperior|46/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1638136084
+|move|p2a: Alleycat|Psychic|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-sideend|p2: Lily|Reflect
+|upkeep
+|
+|t:|1638136088
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-damage|p1a: Weavile|59/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|21
+|
+|t:|1638136093
+|move|p1a: Weavile|Ice Shard|p2a: Alleycat
+|-damage|p2a: Alleycat|16/100
+|move|p2a: Alleycat|Fire Blast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-sideend|p2: Lily|move: Light Screen
+|upkeep
+|
+|t:|1638136097
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-damage|p1a: Qwilfish|72/100|[from] Spikes
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Alleycat|atk|1
+|turn|22
+|
+|t:|1638136103
+|move|p2a: Alleycat|Psychic|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|win|Lily
+|c|☆Lily|gg
+|c|☆Amukamara|gg
+|player|p1|Amukamara|dawn-gen4pt
+|player|p2|Lily|#lilburr

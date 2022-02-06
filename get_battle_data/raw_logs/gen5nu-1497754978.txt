@@ -1,0 +1,360 @@
+|j|☆Raymario Pokenic
+|j|☆ibbysonlyfan
+|t:|1643063062
+|gametype|singles
+|player|p1|Raymario Pokenic|rosa|
+|player|p2|ibbysonlyfan|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, F|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Altaria, M|item
+|poke|p1|Gorebyss, M|item
+|poke|p1|Cacturne, M|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Regirock|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Rotom-Fan|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raymario Pokenic)
+|
+|t:|1643063073
+|start
+|switch|p1a: Cacturne|Cacturne, M, shiny|100/100
+|switch|p2a: 6|Rotom-Fan|100/100
+|turn|1
+|
+|t:|1643063083
+|move|p2a: 6|Air Slash|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-crit|p1a: Cacturne
+|-enditem|p1a: Cacturne|Focus Sash
+|-damage|p1a: Cacturne|1/100
+|move|p1a: Cacturne|Spikes|p2a: 6
+|-sidestart|p2: ibbysonlyfan|Spikes
+|
+|upkeep
+|turn|2
+|inactive|ibbysonlyfan has 270 seconds left.
+|
+|t:|1643063121
+|move|p1a: Cacturne|Sucker Punch|p2a: 6
+|-damage|p2a: 6|48/100
+|move|p2a: 6|Air Slash|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|upkeep
+|
+|t:|1643063131
+|switch|p1a: Rampardos|Rampardos, M, shiny|100/100
+|turn|3
+|
+|t:|1643063135
+|switch|p2a: 2|Regirock|100/100
+|-damage|p2a: 2|88/100|[from] Spikes
+|move|p1a: Rampardos|Rock Polish|p1a: Rampardos
+|-boost|p1a: Rampardos|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1643063141
+|move|p1a: Rampardos|Earthquake|p2a: 2
+|-supereffective|p2a: 2
+|-damage|p2a: 2|49/100
+|move|p2a: 2|Drain Punch|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|50/100
+|-heal|p2a: 2|72/100|[from] drain|[of] p1a: Rampardos
+|
+|upkeep
+|turn|5
+|c|☆Raymario Pokenic|oh man
+|
+|t:|1643063160
+|move|p1a: Rampardos|Head Smash|p2a: 2
+|-damage|p2a: 2|23/100
+|-damage|p1a: Rampardos|23/100|[from] Recoil
+|move|p2a: 2|Drain Punch|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|-heal|p2a: 2|33/100|[from] drain|[of] p1a: Rampardos
+|faint|p1a: Rampardos
+|
+|upkeep
+|c|☆Raymario Pokenic|chose headsmash to make sure you didn't heal as much :P
+|inactive|Raymario Pokenic has 270 seconds left.
+|
+|t:|1643063184
+|switch|p1a: Gorebyss|Gorebyss, M, shiny|100/100
+|turn|6
+|
+|t:|1643063187
+|move|p1a: Gorebyss|Shell Smash|p1a: Gorebyss
+|-unboost|p1a: Gorebyss|def|1
+|-unboost|p1a: Gorebyss|spd|1
+|-boost|p1a: Gorebyss|atk|2
+|-boost|p1a: Gorebyss|spa|2
+|-boost|p1a: Gorebyss|spe|2
+|move|p2a: 2|Thunder Wave|p1a: Gorebyss
+|-status|p1a: Gorebyss|par
+|
+|upkeep
+|turn|7
+|
+|t:|1643063195
+|move|p2a: 2|Drain Punch|p1a: Gorebyss
+|-damage|p1a: Gorebyss|66/100 par
+|-heal|p2a: 2|46/100|[from] drain|[of] p1a: Gorebyss
+|move|p1a: Gorebyss|Surf|p2a: 2
+|-supereffective|p2a: 2
+|-damage|p2a: 2|0 fnt
+|faint|p2a: 2
+|-damage|p1a: Gorebyss|56/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643063200
+|switch|p2a: 6|Rotom-Fan|48/100
+|turn|8
+|
+|t:|1643063208
+|move|p2a: 6|Volt Switch|p1a: Gorebyss
+|-supereffective|p1a: Gorebyss
+|-damage|p1a: Gorebyss|0 fnt
+|faint|p1a: Gorebyss
+|
+|t:|1643063213
+|switch|p2a: 4|Garbodor, M|100/100|[from]move: Volt Switch
+|-damage|p2a: 4|88/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1643063218
+|switch|p1a: Serperior|Serperior, F, shiny|100/100
+|turn|9
+|
+|t:|1643063222
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|76/100
+|move|p2a: 4|Gunk Shot|p1a: Serperior|[miss]
+|-miss|p2a: 4|p1a: Serperior
+|
+|-heal|p1a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643063229
+|move|p1a: Serperior|Glare|p2a: 4
+|-status|p2a: 4|par
+|cant|p2a: 4|par
+|
+|-heal|p1a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643063235
+|move|p1a: Serperior|Leech Seed|p2a: 4
+|-start|p2a: 4|move: Leech Seed
+|cant|p2a: 4|par
+|
+|-heal|p1a: Serperior|94/100|[from] item: Leftovers
+|-damage|p2a: 4|76/100 par|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|100/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1643063246
+|switch|p1a: Altaria|Altaria, M, shiny|100/100
+|move|p2a: 4|Gunk Shot|p1a: Altaria
+|-damage|p1a: Altaria|46/100
+|
+|-damage|p2a: 4|63/100 par|[from] Leech Seed|[of] p1a: Altaria
+|-heal|p1a: Altaria|61/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1643063258
+|move|p1a: Altaria|Rest|p1a: Altaria
+|-status|p1a: Altaria|slp|[from] move: Rest
+|-heal|p1a: Altaria|100/100 slp|[silent]
+|move|p2a: 4|Toxic Spikes|p1a: Altaria
+|-sidestart|p1: Raymario Pokenic|move: Toxic Spikes
+|
+|-damage|p2a: 4|51/100 par|[from] Leech Seed|[of] p1a: Altaria
+|upkeep
+|turn|14
+|
+|t:|1643063266
+|-curestatus|p1a: Altaria|slp|[from] ability: Natural Cure
+|switch|p1a: Eelektross|Eelektross, M, shiny|100/100
+|move|p2a: 4|Explosion|p1a: Eelektross
+|-damage|p1a: Eelektross|33/100
+|faint|p2a: 4
+|
+|upkeep
+|
+|t:|1643063272
+|switch|p2a: 6|Rotom-Fan|48/100
+|turn|15
+|
+|t:|1643063279
+|move|p2a: 6|Volt Switch|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|15/100
+|
+|t:|1643063281
+|switch|p2a: 5|Seismitoad, F|100/100|[from]move: Volt Switch
+|-damage|p2a: 5|88/100|[from] Spikes
+|move|p1a: Eelektross|Thunder Punch|p2a: 5
+|-immune|p2a: 5
+|
+|-heal|p2a: 5|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643063295
+|move|p2a: 5|Substitute|p2a: 5
+|-start|p2a: 5|Substitute
+|-damage|p2a: 5|69/100
+|move|p1a: Eelektross|Drain Punch|p2a: 5
+|-end|p2a: 5|Substitute
+|-heal|p1a: Eelektross|30/100|[from] drain|[of] p2a: 5
+|
+|-heal|p2a: 5|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643063302
+|move|p2a: 5|Hydro Pump|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|-heal|p2a: 5|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643063310
+|switch|p1a: Serperior|Serperior, F, shiny|100/100
+|-status|p1a: Serperior|psn
+|turn|18
+|
+|t:|1643063314
+|switch|p1a: Altaria|Altaria, M, shiny|100/100
+|switch|p2a: 3|Skuntank, M|100/100
+|-damage|p2a: 3|88/100|[from] Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1643063321
+|move|p1a: Altaria|Dragon Pulse|p2a: 3
+|-damage|p2a: 3|21/100
+|move|p2a: 3|Crunch|p1a: Altaria
+|-damage|p1a: Altaria|50/100
+|
+|upkeep
+|turn|20
+|
+|t:|1643063328
+|move|p2a: 3|Sucker Punch|p1a: Altaria
+|-damage|p1a: Altaria|1/100
+|move|p1a: Altaria|Dragon Pulse|p2a: 3
+|-damage|p2a: 3|0 fnt
+|faint|p2a: 3
+|
+|upkeep
+|
+|t:|1643063330
+|switch|p2a: 6|Rotom-Fan|48/100
+|turn|21
+|
+|t:|1643063337
+|move|p2a: 6|Air Slash|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|upkeep
+|
+|t:|1643063342
+|switch|p1a: Serperior|Serperior, F, shiny|100/100 psn
+|turn|22
+|
+|t:|1643063348
+|move|p2a: 6|Air Slash|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|32/100 psn
+|move|p1a: Serperior|Glare|p2a: 6
+|-status|p2a: 6|par
+|
+|-heal|p1a: Serperior|38/100 psn|[from] item: Leftovers
+|-damage|p1a: Serperior|26/100 psn|[from] psn
+|upkeep
+|turn|23
+|j| blackkaiser
+|c|☆Raymario Pokenic|oh its scarf?
+|
+|t:|1643063358
+|switch|p2a: 1|Sawsbuck, M|100/100
+|-damage|p2a: 1|88/100|[from] Spikes
+|move|p1a: Serperior|Giga Drain|p2a: 1
+|-ability|p2a: 1|Sap Sipper|boost
+|-boost|p2a: 1|atk|1
+|
+|-heal|p1a: Serperior|32/100 psn|[from] item: Leftovers
+|-damage|p1a: Serperior|20/100 psn|[from] psn
+|upkeep
+|turn|24
+|c|☆ibbysonlyfan|gg
+|c|☆Raymario Pokenic|yeah gg
+|c| blackkaiser|damn ibby
+|c|☆Raymario Pokenic|can't hurt you
+|
+|t:|1643063370
+|move|p1a: Serperior|Glare|p2a: 1
+|-status|p2a: 1|par
+|cant|p2a: 1|par
+|
+|-heal|p1a: Serperior|26/100 psn|[from] item: Leftovers
+|-damage|p1a: Serperior|13/100 psn|[from] psn
+|upkeep
+|turn|25
+|c| blackkaiser|u a gen 5 nu guru now
+|c|☆ibbysonlyfan|bruh
+|c|☆ibbysonlyfan|im doing math homework i need a break
+|
+|t:|1643063386
+|move|p1a: Serperior|Leech Seed|p2a: 1
+|-ability|p2a: 1|Sap Sipper|boost
+|-boost|p2a: 1|atk|1
+|move|p2a: 1|Double-Edge|p1a: Serperior
+|-enditem|p2a: 1|Normal Gem|[from] gem
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: 1|83/100 par|[from] Recoil
+|
+|win|ibbysonlyfan
+|c| blackkaiser|i know the feeling
+|c|☆ibbysonlyfan|lmao
+|c|☆ibbysonlyfan|gg
+|c| blackkaiser|i had an exam this morning
+|l|☆Raymario Pokenic
+|c|☆ibbysonlyfan|hope u did swell

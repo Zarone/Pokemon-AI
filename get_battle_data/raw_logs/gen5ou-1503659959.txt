@@ -1,0 +1,343 @@
+|j|☆dark_light_IV
+|j|☆BlackerLight-
+|t:|1643899940
+|gametype|singles
+|player|p1|dark_light_IV|waitress|
+|player|p2|BlackerLight-|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, F|item
+|poke|p1|Magmortar, M|item
+|poke|p1|Starmie|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Gengar, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dark_light_IV)
+|
+|t:|1643899953
+|start
+|switch|p1a: Return of the Star|Starmie, shiny|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1643899978
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Return of the Star|Surf|p2a: Scizor
+|-damage|p2a: Scizor|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Return of the Star|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1643899989
+|move|p1a: Return of the Star|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Return of the Star|88/100|[from] Sandstorm
+|upkeep
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900007
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|3
+|
+|t:|1643900014
+|move|p1a: Return of the Star|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|59/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Return of the Star
+|-status|p1a: Return of the Star|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Return of the Star|82/100 par|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1643900032
+|-curestatus|p1a: Return of the Star|par|[from] ability: Natural Cure
+|switch|p1a: Trash Mon|Dragonite, F|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Trash Mon
+|-sidestart|p1: dark_light_IV|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trash Mon|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1643900049
+|move|p1a: Trash Mon|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|11/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Trash Mon
+|-status|p1a: Trash Mon|par
+|-enditem|p1a: Trash Mon|Lum Berry|[eat]
+|-curestatus|p1a: Trash Mon|par|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trash Mon|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1643900067
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Trash Mon|Iron Head|p2a: Latios
+|-damage|p2a: Latios|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|51/100|[from] Sandstorm
+|-damage|p1a: Trash Mon|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1643900079
+|switch|p1a: Iron Maiden|Ferrothorn, M|100/100
+|-damage|p1a: Iron Maiden|95/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Iron Maiden
+|-resisted|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|65/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|46/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1643900095
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Iron Maiden|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Excadrill|88/100|[from] Leech Seed|[of] p1a: Iron Maiden
+|-heal|p1a: Iron Maiden|78/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1643900110
+|switch|p1a: Trash Mon|Dragonite, F|82/100
+|-damage|p1a: Trash Mon|57/100|[from] Stealth Rock
+|move|p2a: Excadrill|Rapid Spin|p1a: Trash Mon
+|-damage|p1a: Trash Mon|45/100
+|-end|p2a: Excadrill|Leech Seed|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-damage|p2a: Excadrill|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trash Mon|39/100|[from] Sandstorm
+|upkeep
+|turn|10
+|inactive|dark_light_IV has 270 seconds left.
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900148
+|move|p2a: Excadrill|Toxic|p1a: Trash Mon
+|-status|p1a: Trash Mon|tox
+|move|p1a: Trash Mon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trash Mon|33/100 tox|[from] Sandstorm
+|-damage|p1a: Trash Mon|27/100 tox|[from] psn
+|upkeep
+|
+|t:|1643900161
+|switch|p2a: Latios|Latios, M|46/100
+|turn|11
+|inactive|dark_light_IV has 270 seconds left.
+|
+|t:|1643900176
+|move|p2a: Latios|Ice Beam|p1a: Trash Mon
+|-supereffective|p1a: Trash Mon
+|-damage|p1a: Trash Mon|0 fnt
+|faint|p1a: Trash Mon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|40/100|[from] Sandstorm
+|upkeep
+|inactive|dark_light_IV has 270 seconds left.
+|inactive|dark_light_IV has 240 seconds left.
+|
+|t:|1643900219
+|switch|p1a: Sigh|Snorlax, M|100/100
+|-damage|p1a: Sigh|88/100|[from] Stealth Rock
+|turn|12
+|inactive|dark_light_IV has 240 seconds left.
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900233
+|move|p2a: Latios|Ice Beam|p1a: Sigh
+|-damage|p1a: Sigh|79/100
+|move|p1a: Sigh|Return|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sigh|73/100|[from] Sandstorm
+|-heal|p1a: Sigh|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643900244
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|13
+|
+|t:|1643900259
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|upkeep
+|turn|14
+|inactive|BlackerLight- has 270 seconds left.
+|inactive|dark_light_IV has 240 seconds left.
+|
+|t:|1643900276
+|switch|p2a: Tyranitar|Tyranitar, M|11/100
+|move|p1a: Gengar|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|76/100|[from] Sandstorm
+|upkeep
+|turn|15
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900285
+|move|p1a: Gengar|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|70/100|[from] Sandstorm
+|upkeep
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900317
+|switch|p2a: Keldeo|Keldeo|94/100
+|turn|16
+|inactive|dark_light_IV has 240 seconds left.
+|
+|t:|1643900353
+|move|p2a: Keldeo|Scald|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643900366
+|switch|p1a: Sigh|Snorlax, M|79/100
+|-damage|p1a: Sigh|66/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1643900374
+|move|p2a: Keldeo|Scald|p1a: Sigh
+|-damage|p1a: Sigh|28/100
+|move|p1a: Sigh|Return|p2a: Keldeo
+|-damage|p2a: Keldeo|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|27/100|[from] Sandstorm
+|-damage|p1a: Sigh|22/100|[from] Sandstorm
+|-heal|p1a: Sigh|28/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900385
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Sigh|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sigh|22/100|[from] Sandstorm
+|-heal|p1a: Sigh|28/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900397
+|move|p2a: Garchomp|Earthquake|p1a: Sigh
+|-damage|p1a: Sigh|0 fnt
+|faint|p1a: Sigh
+|-damage|p2a: Garchomp|54/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643900408
+|switch|p1a: Iron Maiden|Ferrothorn, M|78/100
+|-damage|p1a: Iron Maiden|72/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1643900418
+|move|p2a: Garchomp|Earthquake|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|33/100
+|-damage|p2a: Garchomp|45/100|[from] item: Life Orb
+|move|p1a: Iron Maiden|Gyro Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Iron Maiden|21/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|BlackerLight- has 270 seconds left.
+|
+|t:|1643900444
+|switch|p2a: Keldeo|Keldeo|27/100
+|turn|21
+|
+|t:|1643900455
+|move|p2a: Keldeo|Secret Sword|p1a: Iron Maiden
+|-supereffective|p1a: Iron Maiden
+|-crit|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|0 fnt
+|faint|p1a: Iron Maiden
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|21/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643900462
+|switch|p1a: Return of the Star|Starmie, shiny|82/100
+|-damage|p1a: Return of the Star|70/100|[from] Stealth Rock
+|turn|22
+|inactive|dark_light_IV has 240 seconds left.
+|
+|t:|1643900468
+|move|p1a: Return of the Star|Thunderbolt|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|win|dark_light_IV

@@ -1,0 +1,279 @@
+|j|☆Phantomistix
+|j|☆quziel
+|t:|1635714217
+|gametype|singles
+|player|p1|Phantomistix|clown|
+|player|p2|quziel|grimsley|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gardevoir, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Gurdurr, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Regirock|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Golem, M|item
+|poke|p2|Liepard, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Shiftry, M|item
+|poke|p2|Victreebel, F|item
+|poke|p2|Alomomola, F|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Phantomistix)
+|c|☆quziel|glhf
+|c|☆Phantomistix|hf fren
+|j| autistic soviet
+|l| autistic soviet
+|
+|t:|1635714240
+|start
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|switch|p2a: Golem|Golem, M|100/100
+|turn|1
+|
+|t:|1635714246
+|move|p2a: Golem|Stealth Rock|p1a: Gurdurr
+|-sidestart|p1: Phantomistix|move: Stealth Rock
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1635714250
+|move|p2a: Golem|Sunny Day|p2a: Golem
+|-weather|SunnyDay
+|move|p1a: Gurdurr|Drain Punch|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1635714254
+|move|p1a: Gurdurr|Mach Punch|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| cappterse
+|
+|t:|1635714256
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|4
+|c|☆Phantomistix|oo solar power
+|
+|t:|1635714264
+|switch|p1a: Regirock|Regirock|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Fire Blast|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|5
+|c|☆quziel|god zard
+|
+|t:|1635714269
+|move|p2a: Charizard|Fire Blast|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|j| Vextal
+|j| Cinnmma ♫ ♫
+|inactive|Phantomistix has 120 seconds left.
+|c|☆Phantomistix|fuck thats scarf
+|inactive|Phantomistix has 90 seconds left.
+|
+|t:|1635714340
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1635714343
+|move|p1a: Skuntank|Sucker Punch|p2a: Charizard
+|-damage|p2a: Charizard|26/100
+|move|p2a: Charizard|Fire Blast|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|14/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|inactive|Phantomistix has 90 seconds left.
+|
+|t:|1635714350
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1635714354
+|move|p2a: Charizard|Fire Blast|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|1/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1635714356
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|turn|8
+|c|☆quziel|god zard
+|
+|t:|1635714363
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Gurdurr|Mach Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100
+|-enditem|p2a: Alomomola|Eject Button
+|
+|t:|1635714366
+|switch|p2a: Victreebel|Victreebel, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|Phantomistix has 120 seconds left.
+|c|☆Phantomistix|fam
+|c|☆Phantomistix|why is this
+|c|☆Phantomistix|special vic
+|
+|t:|1635714383
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Chlorophyll|[from] ability: Trace|[of] p2a: Victreebel
+|move|p2a: Victreebel|Sleep Powder|p1a: Gardevoir
+|-status|p1a: Gardevoir|slp|[from] move: Sleep Powder
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1635714391
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|switch|p2a: Liepard|Liepard, M|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1635714394
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Rotom|Blizzard|p2a: Liepard
+|-damage|p2a: Liepard|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1635714400
+|move|p2a: Liepard|Encore|p1a: Rotom
+|-start|p1a: Rotom|Encore
+|move|p1a: Rotom|Blizzard|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1635714402
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|13
+|
+|t:|1635714405
+|switch|p1a: Gardevoir|Gardevoir, M|88/100 slp
+|-damage|p1a: Gardevoir|76/100 slp|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Regenerator|[from] ability: Trace|[of] p2a: Alomomola
+|move|p2a: Alomomola|Healing Wish|p2a: Alomomola
+|faint|p2a: Alomomola
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆quziel|you wanna see
+|c|☆quziel|the best part
+|
+|t:|1635714409
+|switch|p2a: Charizard|Charizard, M|1/100
+|-heal|p2a: Charizard|100/100|[from] move: Healing Wish
+|turn|14
+|c|☆Phantomistix|NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+|
+|t:|1635714421
+|move|p2a: Charizard|Flamethrower|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1635714426
+|switch|p1a: Rotom|Rotom-Frost|76/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1635714429
+|move|p2a: Charizard|Flamethrower|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1635714430
+|switch|p1a: Gurdurr|Gurdurr, M|94/100
+|-damage|p1a: Gurdurr|88/100|[from] Stealth Rock
+|turn|16
+|c|☆Phantomistix|busted move
+|c|☆Phantomistix|which is why i shall continue to abuse it in SS
+|c|☆Phantomistix|NDD B+ rank baby
+|
+|t:|1635714449
+|move|p2a: Charizard|Flamethrower|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|win|quziel
+|n|☆Phantomistix|phantomistix
+|n|☆quziel|quziel
+|n| BB-8-NU|bb8nu
+|n| cappterse|cappterse
+|n| Vextal|vextal
+|n| Cinnmma ♫ ♫|cinnmma
+|l| BB-8-NU
+|c|☆quziel|ggs
+|c|☆Phantomistix|gg
+|l|☆Phantomistix
+|c|☆quziel|!showset 6
+|c|%quziel|/raw <div class="infobox">Alomomola @ Eject Button  <br />Ability: Regenerator  <br />EVs: 252 HP &#x2f; 252 Def &#x2f; 4 SpA  <br />Bold Nature  <br />- Healing Wish  <br />- Toxic  <br />- Knock Off  <br />- Scald  <br /><br /></div>
+|l|☆quziel

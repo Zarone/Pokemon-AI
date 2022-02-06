@@ -1,0 +1,191 @@
+|j|☆tank skunk
+|j|☆FlyingMaster-Mew
+|t:|1641512596
+|gametype|singles
+|player|p1|tank skunk|pokefan|1052
+|player|p2|FlyingMaster-Mew|2|1108
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lampent, F|item
+|poke|p1|Mantyke, F|item
+|poke|p1|Tangela, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Mawile, F|item
+|poke|p1|Probopass, M|item
+|poke|p2|Wartortle, F|item
+|poke|p2|Ivysaur, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Regirock|item
+|poke|p2|Sawsbuck, F|item
+|poke|p2|Alomomola, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|c|☆FlyingMaster-Mew|glhf
+|
+|t:|1641512610
+|start
+|switch|p1a: Jbag|Probopass, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|
+|t:|1641512614
+|move|p1a: Jbag|Stealth Rock|p2a: Regirock
+|-sidestart|p2: FlyingMaster-Mew|move: Stealth Rock
+|move|p2a: Regirock|Stealth Rock|p1a: Jbag
+|-sidestart|p1: tank skunk|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641512621
+|switch|p1a: Yandere|Mawile, F|100/100
+|-damage|p1a: Yandere|94/100|[from] Stealth Rock
+|-ability|p1a: Yandere|Intimidate|boost
+|-fail|p2a: Regirock|unboost|[from] ability: Clear Body|[of] p2a: Regirock
+|-item|p1a: Yandere|Air Balloon
+|move|p2a: Regirock|Sunny Day|p2a: Regirock
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|tank skunk has 120 seconds left.
+|inactive|tank skunk has 90 seconds left.
+|
+|t:|1641512691
+|switch|p2a: Ivysaur|Ivysaur, M|100/100
+|-damage|p2a: Ivysaur|88/100|[from] Stealth Rock
+|move|p1a: Yandere|Stockpile|p1a: Yandere
+|-start|p1a: Yandere|stockpile1
+|-boost|p1a: Yandere|def|1
+|-boost|p1a: Yandere|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1641512700
+|move|p2a: Ivysaur|Growth|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|-boost|p2a: Ivysaur|spa|2
+|move|p1a: Yandere|Baton Pass|p1a: Yandere
+|
+|t:|1641512706
+|switch|p1a: I <3 Lamp|Lampent, F, shiny|100/100|[from]move: Baton Pass
+|-damage|p1a: I <3 Lamp|76/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1641512710
+|move|p2a: Ivysaur|Sleep Powder|p1a: I <3 Lamp
+|-status|p1a: I <3 Lamp|slp|[from] move: Sleep Powder
+|cant|p1a: I <3 Lamp|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1641512715
+|move|p2a: Ivysaur|Growth|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|-boost|p2a: Ivysaur|spa|2
+|cant|p1a: I <3 Lamp|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1641512719
+|move|p2a: Ivysaur|Hidden Power|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|14/100 slp
+|cant|p1a: I <3 Lamp|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641512725
+|move|p2a: Ivysaur|Hidden Power|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|0 fnt
+|faint|p1a: I <3 Lamp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641512745
+|switch|p1a: Jbag|Probopass, M|100/100
+|-damage|p1a: Jbag|95/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1641512752
+|move|p2a: Ivysaur|Giga Drain|p1a: Jbag
+|-damage|p1a: Jbag|45/100
+|-heal|p2a: Ivysaur|100/100|[from] drain|[of] p1a: Jbag
+|move|p1a: Jbag|Earth Power|p2a: Ivysaur
+|-damage|p2a: Ivysaur|79/100
+|
+|-weather|none
+|-heal|p1a: Jbag|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641512784
+|move|p2a: Ivysaur|Giga Drain|p1a: Jbag
+|-damage|p1a: Jbag|1/100
+|-heal|p2a: Ivysaur|100/100|[from] drain|[of] p1a: Jbag
+|move|p1a: Jbag|Earth Power|p2a: Ivysaur
+|-damage|p2a: Ivysaur|78/100
+|
+|-heal|p1a: Jbag|7/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1641512813
+|move|p2a: Ivysaur|Giga Drain|p1a: Jbag
+|-damage|p1a: Jbag|0 fnt
+|-heal|p2a: Ivysaur|81/100|[from] drain|[of] p1a: Jbag
+|faint|p1a: Jbag
+|
+|upkeep
+|inactive|tank skunk has 90 seconds left.
+|
+|t:|1641512839
+|switch|p1a: Spaghetti|Tangela, M|100/100
+|-damage|p1a: Spaghetti|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641512843
+|move|p2a: Ivysaur|Sleep Powder|p1a: Spaghetti
+|-status|p1a: Spaghetti|slp|[from] move: Sleep Powder
+|cant|p1a: Spaghetti|slp
+|
+|upkeep
+|turn|13
+|-message|tank skunk forfeited.
+|
+|win|FlyingMaster-Mew
+|raw|tank skunk's rating: 1052 &rarr; <strong>1037</strong><br />(-15 for losing)
+|raw|FlyingMaster-Mew's rating: 1108 &rarr; <strong>1129</strong><br />(+21 for winning)
+|l|☆tank skunk
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

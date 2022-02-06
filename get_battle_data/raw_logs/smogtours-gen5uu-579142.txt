@@ -1,0 +1,403 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1631477254
+|gametype|singles
+|player|p1|Pak|#pak|
+|player|p2|brewfasa|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, M|item
+|poke|p1|Roserade, F|item
+|poke|p1|Cofagrigus, F|item
+|poke|p1|Mew|item
+|poke|p1|Zapdos|item
+|poke|p1|Krookodile, M|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Suicune|item
+|poke|p2|Zapdos|item
+|poke|p2|Heracross, M|item
+|poke|p2|Roserade, M|item
+|teampreview
+|c|☆Pak|hf
+|c|☆brewfasa|u2
+|inactive|Pak has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477305
+|start
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Druddigon|atk|1
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1631477328
+|move|p2a: Krookodile|Taunt|p1a: Druddigon
+|-start|p1a: Druddigon|move: Taunt
+|move|p1a: Druddigon|Dragon Tail|p2a: Krookodile
+|-damage|p2a: Krookodile|71/100
+|drag|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|
+|upkeep
+|turn|2
+|inactive|Pak has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477365
+|switch|p2a: Roserade|Roserade, M|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|
+|upkeep
+|turn|3
+|inactive|Pak has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477376
+|move|p1a: Zapdos|Hidden Power|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|58/100
+|move|p2a: Roserade|Spikes|p1a: Zapdos
+|-sidestart|p1: Pak|Spikes
+|
+|-heal|p2a: Roserade|64/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|inactive|Pak has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477394
+|move|p1a: Zapdos|Metal Sound|p2a: Roserade|[miss]
+|-miss|p1a: Zapdos|p2a: Roserade
+|move|p2a: Roserade|Sludge Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|54/100
+|
+|-heal|p1a: Zapdos|60/100|[from] item: Leftovers
+|-heal|p2a: Roserade|70/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1631477402
+|move|p1a: Zapdos|Hidden Power|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|31/100
+|move|p2a: Roserade|Sludge Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|12/100
+|-status|p1a: Zapdos|psn
+|
+|-heal|p1a: Zapdos|18/100 psn|[from] item: Leftovers
+|-heal|p2a: Roserade|37/100|[from] item: Black Sludge
+|-damage|p1a: Zapdos|6/100 psn|[from] psn
+|upkeep
+|turn|6
+|inactive|Pak has 270 seconds left.
+|inactive|Pak has 240 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477445
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Spikes
+|switch|p2a: Heracross|Heracross, M|100/100
+|
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|inactive|Pak has 240 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477457
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Spikes
+|move|p2a: Heracross|Megahorn|p1a: Cofagrigus
+|-resisted|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|64/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Moxie|[of] p2a: Heracross
+|
+|-heal|p1a: Cofagrigus|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477472
+|switch|p2a: Krookodile|Krookodile, M|71/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Cofagrigus|atk|1
+|move|p1a: Cofagrigus|Nasty Plot|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|spa|2
+|
+|-heal|p1a: Cofagrigus|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|brewfasa has 270 seconds left.
+|inactive|Pak has 240 seconds left.
+|inactive|Pak has 210 seconds left.
+|
+|t:|1631477526
+|move|p2a: Krookodile|Crunch|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|15/100
+|-unboost|p1a: Cofagrigus|def|1
+|-activate|p1a: Cofagrigus|ability: Mummy|Intimidate|[of] p2a: Krookodile
+|move|p1a: Cofagrigus|Trick Room|p1a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p1a: Cofagrigus
+|
+|-heal|p1a: Cofagrigus|21/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Pak has 210 seconds left.
+|
+|t:|1631477539
+|move|p1a: Cofagrigus|Hidden Power|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-enditem|p2a: Krookodile|Chople Berry|[eat]
+|-enditem|p2a: Krookodile|Chople Berry|[weaken]
+|-damage|p2a: Krookodile|12/100
+|move|p2a: Krookodile|Crunch|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|upkeep
+|inactive|Pak has 180 seconds left.
+|
+|t:|1631477572
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|-damage|p1a: Druddigon|88/100|[from] Spikes
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|11
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477603
+|move|p1a: Druddigon|Earthquake|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|-heal|p1a: Druddigon|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631477617
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|turn|12
+|
+|t:|1631477625
+|switch|p1a: Roserade|Roserade, F|94/100
+|-damage|p1a: Roserade|82/100|[from] Spikes
+|move|p2a: Zapdos|Hidden Power|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|c|☆brewfasa|ugh sry
+|
+|t:|1631477643
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Spikes
+|turn|13
+|c|☆brewfasa|this been kinda lame
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477656
+|move|p1a: Mew|Will-O-Wisp|p2a: Zapdos
+|-status|p2a: Zapdos|brn
+|move|p2a: Zapdos|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|46/100
+|
+|-heal|p1a: Mew|52/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1631477666
+|move|p2a: Zapdos|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|9/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|59/100
+|
+|-heal|p1a: Mew|65/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1631477673
+|move|p2a: Zapdos|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|28/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|78/100
+|
+|-heal|p1a: Mew|84/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|64/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|Pak has 210 seconds left.
+|
+|t:|1631477685
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100 brn
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100
+|
+|-damage|p2a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1631477693
+|switch|p1a: Druddigon|Druddigon, M|94/100
+|-damage|p1a: Druddigon|82/100|[from] Spikes
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Zapdos|Thunderbolt|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|56/100
+|
+|-heal|p1a: Druddigon|62/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1631477704
+|move|p2a: Zapdos|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|17/100
+|move|p1a: Druddigon|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: brewfasa|move: Stealth Rock
+|
+|-heal|p1a: Druddigon|23/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|64/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1631477713
+|move|p2a: Zapdos|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-damage|p2a: Zapdos|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1631477716
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-damage|p1a: Krookodile|88/100|[from] Spikes
+|turn|20
+|
+|t:|1631477730
+|move|p1a: Krookodile|Stone Edge|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+|inactive|brewfasa has 270 seconds left.
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1631477809
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|turn|21
+|
+|t:|1631477819
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Spikes
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1631477833
+|move|p1a: Mew|Taunt|p2a: Suicune
+|-start|p2a: Suicune|move: Taunt
+|move|p2a: Suicune|Scald|p1a: Mew
+|-damage|p1a: Mew|71/100
+|-status|p1a: Mew|brn
+|-activate|p1a: Mew|ability: Synchronize
+|-status|p2a: Suicune|brn
+|
+|-heal|p1a: Mew|77/100 brn|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|65/100 brn|[from] brn
+|-damage|p2a: Suicune|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1631477848
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100 brn
+|
+|-damage|p1a: Mew|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1631477856
+|move|p2a: Heracross|Megahorn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1631477864
+|switch|p1a: Zapdos|Zapdos|6/100 psn
+|-ability|p1a: Zapdos|Pressure
+|turn|25
+|inactive|Pak has 270 seconds left.
+|
+|t:|1631477871
+|move|p2a: Heracross|Megahorn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1631477873
+|switch|p1a: Krookodile|Krookodile, M|88/100
+|-damage|p1a: Krookodile|76/100|[from] Spikes
+|turn|26
+|inactive|Pak has 270 seconds left.
+|
+|t:|1631477891
+|move|p1a: Krookodile|Stone Edge|p2a: Heracross
+|-damage|p2a: Heracross|41/100
+|move|p2a: Heracross|Megahorn|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|win|brewfasa
+|c|☆Pak|gg
+|c|☆brewfasa|gg

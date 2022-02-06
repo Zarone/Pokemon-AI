@@ -1,0 +1,342 @@
+|j|☆Riastylis
+|j|☆Erowastaken
+|t:|1638113641
+|gametype|singles
+|player|p1|Riastylis|veteran|
+|player|p2|Erowastaken|maylene|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Anorith, L5, F|item
+|poke|p1|Deino, L5, F|item
+|poke|p1|Ponyta, L5, M|item
+|poke|p1|Munchlax, L5, M|item
+|poke|p1|Chinchou, L5, F|item
+|poke|p1|Abra, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Koffing, L5, F|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Tentacool, L5, M|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Sandile, L5, F|item
+|teampreview
+|
+|t:|1638113675
+|start
+|switch|p1a: Anorith|Anorith, L5, F|100/100
+|switch|p2a: H Word|Tentacool, L5, M|100/100
+|turn|1
+|
+|t:|1638113687
+|move|p1a: Anorith|Stealth Rock|p2a: H Word
+|-sidestart|p2: Erowastaken|move: Stealth Rock
+|move|p2a: H Word|Toxic|p1a: Anorith
+|-status|p1a: Anorith|tox
+|-enditem|p1a: Anorith|Lum Berry|[eat]
+|-curestatus|p1a: Anorith|tox|[msg]
+|
+|upkeep
+|turn|2
+|
+|t:|1638113701
+|switch|p2a: The Vid|Koffing, L5, F|100/100
+|-damage|p2a: The Vid|92/100|[from] Stealth Rock
+|move|p1a: Anorith|Knock Off|p2a: The Vid
+|-damage|p2a: The Vid|83/100
+|-enditem|p2a: The Vid|Black Sludge|[from] move: Knock Off|[of] p1a: Anorith
+|
+|upkeep
+|turn|3
+|
+|t:|1638113734
+|switch|p1a: Chinchou|Chinchou, L5, F|100/100
+|move|p2a: The Vid|Will-O-Wisp|p1a: Chinchou
+|-status|p1a: Chinchou|brn
+|
+|-damage|p1a: Chinchou|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1638113743
+|move|p2a: The Vid|Protect|p2a: The Vid
+|-singleturn|p2a: The Vid|Protect
+|move|p1a: Chinchou|Rest|p1a: Chinchou
+|-status|p1a: Chinchou|slp|[from] move: Rest
+|-heal|p1a: Chinchou|100/100 slp|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1638113764
+|switch|p2a: High Gear Crocs|Sandile, L5, F, shiny|100/100
+|-damage|p2a: High Gear Crocs|96/100|[from] Stealth Rock
+|-ability|p2a: High Gear Crocs|Intimidate|boost
+|-unboost|p1a: Chinchou|atk|1
+|cant|p1a: Chinchou|slp
+|move|p1a: Chinchou|Sleep Talk|p1a: Chinchou
+|move|p1a: Chinchou|Scald|p2a: High Gear Crocs|[from]move: Sleep Talk
+|-supereffective|p2a: High Gear Crocs
+|-damage|p2a: High Gear Crocs|0 fnt
+|faint|p2a: High Gear Crocs
+|
+|upkeep
+|
+|t:|1638113777
+|switch|p2a: Swagnemite|Magnemite, L5, shiny|100/100
+|-damage|p2a: Swagnemite|95/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1638113783
+|move|p2a: Swagnemite|Hidden Power|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|44/100 slp
+|cant|p1a: Chinchou|slp
+|move|p1a: Chinchou|Sleep Talk|p1a: Chinchou
+|move|p1a: Chinchou|Discharge|p2a: Swagnemite|[from]move: Sleep Talk
+|-resisted|p2a: Swagnemite
+|-damage|p2a: Swagnemite|69/100
+|-status|p2a: Swagnemite|par
+|
+|upkeep
+|turn|7
+|
+|t:|1638113797
+|-curestatus|p1a: Chinchou|slp|[msg]
+|move|p1a: Chinchou|Rest|p1a: Chinchou
+|-status|p1a: Chinchou|slp|[from] move: Rest
+|-heal|p1a: Chinchou|100/100 slp|[silent]
+|cant|p2a: Swagnemite|par
+|
+|upkeep
+|turn|8
+|
+|t:|1638113806
+|cant|p1a: Chinchou|slp
+|move|p1a: Chinchou|Sleep Talk|p1a: Chinchou
+|move|p1a: Chinchou|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Chinchou
+|cant|p2a: Swagnemite|par
+|
+|upkeep
+|turn|9
+|
+|t:|1638113816
+|cant|p1a: Chinchou|slp
+|move|p1a: Chinchou|Sleep Talk|p1a: Chinchou
+|move|p1a: Chinchou|Discharge|p2a: Swagnemite|[from]move: Sleep Talk
+|-resisted|p2a: Swagnemite
+|-damage|p2a: Swagnemite|43/100 par
+|move|p2a: Swagnemite|Hidden Power|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|44/100 slp
+|
+|upkeep
+|turn|10
+|
+|t:|1638113827
+|switch|p2a: Chunky|Munchlax, L5, M|100/100
+|-damage|p2a: Chunky|88/100|[from] Stealth Rock
+|-curestatus|p1a: Chinchou|slp|[msg]
+|move|p1a: Chinchou|Rest|p1a: Chinchou
+|-status|p1a: Chinchou|slp|[from] move: Rest
+|-heal|p1a: Chinchou|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|t:|1638113837
+|cant|p1a: Chinchou|slp
+|move|p1a: Chinchou|Sleep Talk|p1a: Chinchou
+|move|p1a: Chinchou|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Chinchou
+|move|p2a: Chunky|Earthquake|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|4/100 slp
+|
+|upkeep
+|turn|12
+|
+|t:|1638113863
+|cant|p1a: Chinchou|slp
+|move|p2a: Chunky|Return|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|
+|upkeep
+|
+|t:|1638113883
+|switch|p1a: Ponyta|Ponyta, L5, M|100/100
+|turn|13
+|
+|t:|1638113888
+|move|p1a: Ponyta|Wild Charge|p2a: Chunky
+|-damage|p2a: Chunky|52/100
+|-damage|p1a: Ponyta|87/100|[from] Recoil
+|-damage|p1a: Ponyta|78/100|[from] item: Life Orb
+|move|p2a: Chunky|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|
+|upkeep
+|
+|t:|1638113898
+|switch|p1a: Munchlax|Munchlax, L5, M|100/100
+|turn|14
+|
+|t:|1638113903
+|move|p1a: Munchlax|Return|p2a: Chunky
+|-damage|p2a: Chunky|7/100
+|move|p2a: Chunky|Return|p1a: Munchlax
+|-damage|p1a: Munchlax|50/100
+|
+|upkeep
+|turn|15
+|
+|t:|1638113925
+|switch|p2a: Inhale|Drifloon, L5, F|100/100
+|-damage|p2a: Inhale|75/100|[from] Stealth Rock
+|move|p1a: Munchlax|Earthquake|p2a: Inhale
+|-immune|p2a: Inhale
+|
+|-status|p2a: Inhale|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|t:|1638113936
+|move|p2a: Inhale|Will-O-Wisp|p1a: Munchlax
+|-status|p1a: Munchlax|brn
+|move|p1a: Munchlax|Pursuit|p2a: Inhale
+|-supereffective|p2a: Inhale
+|-damage|p2a: Inhale|54/100 brn
+|
+|-damage|p2a: Inhale|43/100 brn|[from] brn
+|-damage|p1a: Munchlax|40/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1638113949
+|switch|p1a: Anorith|Anorith, L5, F|100/100
+|move|p2a: Inhale|Weather Ball|p1a: Anorith
+|-resisted|p1a: Anorith
+|-damage|p1a: Anorith|81/100
+|
+|-damage|p2a: Inhale|33/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1638113969
+|move|p1a: Anorith|Knock Off|p2a: Inhale
+|-supereffective|p2a: Inhale
+|-damage|p2a: Inhale|4/100 brn
+|-enditem|p2a: Inhale|Flame Orb|[from] move: Knock Off|[of] p1a: Anorith
+|move|p2a: Inhale|Thunder Wave|p1a: Anorith
+|-status|p1a: Anorith|par
+|
+|-damage|p2a: Inhale|0 fnt|[from] brn
+|faint|p2a: Inhale
+|upkeep
+|
+|t:|1638113987
+|switch|p2a: H Word|Tentacool, L5, M|100/100
+|-damage|p2a: H Word|92/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1638114003
+|switch|p1a: Munchlax|Munchlax, L5, M|40/100 brn
+|move|p2a: H Word|Rapid Spin|p1a: Munchlax
+|-damage|p1a: Munchlax|37/100 brn
+|-sideend|p2: Erowastaken|Stealth Rock|[from] move: Rapid Spin|[of] p2a: H Word
+|
+|-damage|p1a: Munchlax|27/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1638114012
+|switch|p2a: The Vid|Koffing, L5, F|83/100
+|move|p1a: Munchlax|Return|p2a: The Vid
+|-damage|p2a: The Vid|57/100
+|
+|-damage|p1a: Munchlax|17/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1638114026
+|move|p2a: The Vid|Flamethrower|p1a: Munchlax
+|-damage|p1a: Munchlax|10/100 brn
+|move|p1a: Munchlax|Earthquake|p2a: The Vid
+|-immune|p2a: The Vid|[from] ability: Levitate
+|
+|-damage|p1a: Munchlax|0 fnt|[from] brn
+|faint|p1a: Munchlax
+|upkeep
+|
+|t:|1638114036
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|22
+|
+|t:|1638114052
+|switch|p2a: Swagnemite|Magnemite, L5, shiny|43/100 par
+|move|p1a: Abra|Psychic|p2a: Swagnemite
+|-resisted|p2a: Swagnemite
+|-crit|p2a: Swagnemite
+|-damage|p2a: Swagnemite|0 fnt
+|faint|p2a: Swagnemite
+|
+|upkeep
+|
+|t:|1638114069
+|switch|p2a: H Word|Tentacool, L5, M|92/100
+|turn|23
+|
+|t:|1638114072
+|move|p1a: Abra|Psychic|p2a: H Word
+|-supereffective|p2a: H Word
+|-damage|p2a: H Word|5/100
+|-unboost|p2a: H Word|spd|1
+|move|p2a: H Word|Scald|p1a: Abra
+|-damage|p1a: Abra|48/100
+|
+|upkeep
+|turn|24
+|
+|t:|1638114081
+|move|p1a: Abra|Psychic|p2a: H Word
+|-supereffective|p2a: H Word
+|-damage|p2a: H Word|0 fnt
+|faint|p2a: H Word
+|
+|upkeep
+|
+|t:|1638114084
+|switch|p2a: The Vid|Koffing, L5, F|57/100
+|turn|25
+|
+|t:|1638114088
+|move|p1a: Abra|Psychic|p2a: The Vid
+|-supereffective|p2a: The Vid
+|-damage|p2a: The Vid|0 fnt
+|faint|p2a: The Vid
+|
+|upkeep
+|
+|t:|1638114092
+|switch|p2a: Chunky|Munchlax, L5, M|7/100
+|turn|26
+|
+|t:|1638114096
+|move|p1a: Abra|Hidden Power|p2a: Chunky
+|-supereffective|p2a: Chunky
+|-damage|p2a: Chunky|0 fnt
+|faint|p2a: Chunky
+|
+|win|Riastylis

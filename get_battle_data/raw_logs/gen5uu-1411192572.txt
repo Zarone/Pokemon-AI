@@ -1,0 +1,367 @@
+|j|☆wilski780
+|j|☆Oreotrague
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630918455
+|gametype|singles
+|player|p1|wilski780|265|
+|player|p2|Oreotrague|liza|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Druddigon, F|item
+|poke|p1|Heracross, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Suicune|item
+|poke|p2|Suicune|item
+|poke|p2|Azelf|item
+|poke|p2|Arcanine, F|item
+|poke|p2|Registeel|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Cobalion|item
+|teampreview
+|j|*Lady Monita
+|inactive|Oreotrague also wants the timer to be on.
+|j| aresboy
+|c|☆wilski780|glhf
+|c|☆Oreotrague|Glhf
+|inactive|Oreotrague has 120 seconds left.
+|j| Overloadlegend
+|
+|t:|1630918489
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Le naturel|Registeel|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|j| TNTplsyz
+|l| TNTplsyz
+|
+|t:|1630918496
+|move|p1a: Zapdos|Heat Wave|p2a: Le naturel
+|-supereffective|p2a: Le naturel
+|-damage|p2a: Le naturel|60/100
+|-damage|p1a: Zapdos|91/100|[from] item: Life Orb
+|move|p2a: Le naturel|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: wilski780|move: Stealth Rock
+|
+|-heal|p2a: Le naturel|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c| Overloadlegend|gl hf
+|
+|t:|1630918506
+|move|p1a: Zapdos|Heat Wave|p2a: Le naturel
+|-supereffective|p2a: Le naturel
+|-damage|p2a: Le naturel|20/100
+|-status|p2a: Le naturel|brn
+|-damage|p1a: Zapdos|81/100|[from] item: Life Orb
+|move|p2a: Le naturel|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Le naturel|26/100 brn|[from] item: Leftovers
+|-damage|p1a: Zapdos|74/100 tox|[from] psn
+|-damage|p2a: Le naturel|14/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1630918520
+|switch|p2a: Okavango|Rotom-Heat|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Okavango
+|-resisted|p2a: Okavango
+|-damage|p2a: Okavango|73/100
+|-damage|p1a: Zapdos|64/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Zapdos|52/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1630918530
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|88/100|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Okavango|Trick|p1a: Suicune
+|-activate|p2a: Okavango|move: Trick|[of] p1a: Suicune
+|-item|p1a: Suicune|Choice Scarf|[from] move: Trick
+|-item|p2a: Okavango|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Okavango|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| Oollala
+|l| Oollala
+|
+|t:|1630918545
+|move|p1a: Suicune|Hydro Pump|p2a: Okavango
+|-supereffective|p2a: Okavango
+|-damage|p2a: Okavango|0 fnt
+|faint|p2a: Okavango
+|
+|upkeep
+|j| Aiden9726
+|
+|t:|1630918553
+|switch|p2a: Sous directeur|Cobalion|100/100
+|turn|6
+|l| Aiden9726
+|
+|t:|1630918568
+|move|p1a: Suicune|Hydro Pump|p2a: Sous directeur|[miss]
+|-miss|p1a: Suicune|p2a: Sous directeur
+|move|p2a: Sous directeur|Iron Head|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|74/100
+|
+|upkeep
+|turn|7
+|
+|t:|1630918575
+|move|p1a: Suicune|Hydro Pump|p2a: Sous directeur
+|-damage|p2a: Sous directeur|33/100
+|move|p2a: Sous directeur|Sacred Sword|p1a: Suicune
+|-crit|p1a: Suicune
+|-damage|p1a: Suicune|10/100
+|
+|upkeep
+|turn|8
+|
+|t:|1630918581
+|move|p1a: Suicune|Hydro Pump|p2a: Sous directeur
+|-damage|p2a: Sous directeur|0 fnt
+|faint|p2a: Sous directeur
+|
+|upkeep
+|
+|t:|1630918584
+|switch|p2a: Mr le directeur|Suicune|100/100
+|-ability|p2a: Mr le directeur|Pressure
+|turn|9
+|
+|t:|1630918589
+|move|p1a: Suicune|Hydro Pump|p2a: Mr le directeur
+|-resisted|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|83/100
+|move|p2a: Mr le directeur|Calm Mind|p2a: Mr le directeur
+|-boost|p2a: Mr le directeur|spa|1
+|-boost|p2a: Mr le directeur|spd|1
+|
+|-heal|p2a: Mr le directeur|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1630918599
+|move|p1a: Suicune|Hydro Pump|p2a: Mr le directeur
+|-resisted|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|77/100
+|move|p2a: Mr le directeur|Calm Mind|p2a: Mr le directeur
+|-boost|p2a: Mr le directeur|spa|1
+|-boost|p2a: Mr le directeur|spd|1
+|
+|-heal|p2a: Mr le directeur|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1630918610
+|-activate|p1a: Suicune|move: Struggle
+|move|p1a: Suicune|Struggle|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|78/100
+|-damage|p1a: Suicune|0 fnt|[from] recoil
+|faint|p1a: Suicune
+|move|p2a: Mr le directeur|Calm Mind|p2a: Mr le directeur
+|-boost|p2a: Mr le directeur|spa|1
+|-boost|p2a: Mr le directeur|spd|1
+|
+|-heal|p2a: Mr le directeur|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630918619
+|switch|p1a: Zapdos|Zapdos|52/100 tox
+|-damage|p1a: Zapdos|27/100 tox|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|12
+|
+|t:|1630918635
+|move|p1a: Zapdos|Thunderbolt|p2a: Mr le directeur
+|-supereffective|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|44/100
+|-damage|p1a: Zapdos|17/100 tox|[from] item: Life Orb
+|move|p2a: Mr le directeur|Calm Mind|p2a: Mr le directeur
+|-boost|p2a: Mr le directeur|spa|1
+|-boost|p2a: Mr le directeur|spd|1
+|
+|-heal|p2a: Mr le directeur|50/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|11/100 tox|[from] psn
+|upkeep
+|turn|13
+|l| Overloadlegend
+|
+|t:|1630918645
+|move|p1a: Zapdos|Thunderbolt|p2a: Mr le directeur
+|-supereffective|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|19/100
+|-damage|p1a: Zapdos|1/100 tox|[from] item: Life Orb
+|move|p2a: Mr le directeur|Rest|p2a: Mr le directeur
+|-status|p2a: Mr le directeur|slp|[from] move: Rest
+|-heal|p2a: Mr le directeur|100/100 slp|[silent]
+|
+|-damage|p1a: Zapdos|0 fnt|[from] psn
+|faint|p1a: Zapdos
+|upkeep
+|j| Aiden9726
+|l| Aiden9726
+|
+|t:|1630918663
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|-damage|p1a: Druddigon|88/100|[from] Stealth Rock
+|turn|14
+|j| KiddyK
+|
+|t:|1630918690
+|cant|p2a: Mr le directeur|slp
+|move|p2a: Mr le directeur|Sleep Talk|p2a: Mr le directeur
+|move|p2a: Mr le directeur|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Mr le directeur
+|move|p1a: Druddigon|Outrage|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|44/100 slp
+|
+|-heal|p2a: Mr le directeur|50/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1630918699
+|cant|p2a: Mr le directeur|slp
+|move|p2a: Mr le directeur|Sleep Talk|p2a: Mr le directeur
+|move|p2a: Mr le directeur|Scald|p1a: Druddigon|[from]move: Sleep Talk
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|45/100
+|move|p1a: Druddigon|Outrage|p2a: Mr le directeur|[from]lockedmove
+|-crit|p2a: Mr le directeur
+|-damage|p2a: Mr le directeur|0 fnt
+|faint|p2a: Mr le directeur
+|
+|upkeep
+|
+|t:|1630918710
+|switch|p2a: Le froid|Arcanine, F|100/100
+|-ability|p2a: Le froid|Intimidate|boost
+|-unboost|p1a: Druddigon|atk|1
+|turn|16
+|
+|t:|1630918716
+|move|p2a: Le froid|Flare Blitz|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|-damage|p2a: Le froid|88/100|[from] ability: Rough Skin|[of] p1a: Druddigon
+|faint|p1a: Druddigon
+|-damage|p2a: Le froid|72/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1630918724
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1630918742
+|move|p2a: Le froid|Flare Blitz|p1a: Golurk
+|-damage|p1a: Golurk|9/100
+|-damage|p2a: Le froid|39/100|[from] Recoil
+|move|p1a: Golurk|Earthquake|p2a: Le froid
+|-supereffective|p2a: Le froid
+|-damage|p2a: Le froid|0 fnt
+|faint|p2a: Le froid
+|
+|-heal|p1a: Golurk|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630918746
+|switch|p2a: Il s’envole|Azelf|100/100
+|turn|18
+|
+|t:|1630918758
+|move|p1a: Golurk|Protect|p1a: Golurk
+|-singleturn|p1a: Golurk|Protect
+|move|p2a: Il s’envole|Psychic|p1a: Golurk
+|-activate|p1a: Golurk|move: Protect
+|
+|-heal|p1a: Golurk|22/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1630918765
+|move|p2a: Il s’envole|Psychic|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1630918773
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|20
+|inactive|Oreotrague has 120 seconds left.
+|
+|t:|1630918806
+|move|p1a: Bisharp|Sucker Punch|p2a: Il s’envole
+|-supereffective|p2a: Il s’envole
+|-enditem|p2a: Il s’envole|Focus Sash
+|-damage|p2a: Il s’envole|1/100
+|-damage|p1a: Bisharp|85/100|[from] item: Life Orb
+|move|p2a: Il s’envole|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1630918816
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1630918829
+|move|p1a: Heracross|Close Combat|p2a: Il s’envole
+|-resisted|p2a: Il s’envole
+|-damage|p2a: Il s’envole|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Il s’envole
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1630918833
+|switch|p2a: Le naturel|Registeel|14/100 brn
+|turn|22
+|
+|t:|1630918838
+|move|p1a: Heracross|Close Combat|p2a: Le naturel
+|-supereffective|p2a: Le naturel
+|-damage|p2a: Le naturel|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Le naturel
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|win|wilski780
+|n|☆wilski780|wilski780
+|n|☆Oreotrague|oreotrague
+|n|*Lady Monita|ladymonita
+|n| aresboy|aresboy
+|n| KiddyK|kiddyk

@@ -1,0 +1,1079 @@
+|j|☆brewfasa
+|j|☆Matron Murder
+|t:|1632964254
+|gametype|singles
+|player|p1|brewfasa|jasmine|
+|player|p2|Matron Murder|aromalady-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Pawniard, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Frillish, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p2|Chinchou, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Pawniard, L5, F|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Drifloon, L5, M|item
+|teampreview
+|c|☆Matron Murder|hf
+|c|☆brewfasa|u2
+|j| boys wanna txt
+|c| boys wanna txt|woooooow lets go..... whoever tack is
+|c| boys wanna txt|oh chincou
+|j| omaknights
+|j| risii
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brewfasa)
+|c| omaknights|tack is so cute wholesome and talented lets goooo
+|j| mom lover
+|inactive|Matron Murder has 270 seconds left.
+|c| boys wanna txt|shes also pretty gay
+|
+|t:|1632964375
+|start
+|switch|p1a: Natu|Natu, L5, M|100/100
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100
+|turn|1
+|c| boys wanna txt|looooool
+|c|☆Matron Murder|true...
+|
+|t:|1632964387
+|move|p2a: Millia Rage|Fake Out|p1a: Natu
+|-damage|p1a: Natu|87/100
+|cant|p1a: Natu|flinch
+|
+|upkeep
+|turn|2
+|l| risii
+|
+|t:|1632964395
+|switch|p2a: Collette|Pawniard, L5, F|100/100
+|move|p1a: Natu|Thunder Wave|p2a: Collette
+|-status|p2a: Collette|par
+|
+|upkeep
+|turn|3
+|
+|t:|1632964401
+|move|p1a: Natu|U-turn|p2a: Collette
+|-damage|p2a: Collette|81/100 par
+|-activate|p1a: Natu|move: Pursuit
+|cant|p2a: Collette|par
+|c|☆Matron Murder|aaaa
+|
+|t:|1632964406
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1632964413
+|switch|p2a: Axl Low|Natu, L5, M, shiny|100/100
+|move|p1a: Hippopotas|Earthquake|p2a: Axl Low
+|-immune|p2a: Axl Low
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|96/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1632964422
+|move|p2a: Axl Low|Heat Wave|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Crunch|p2a: Axl Low
+|-supereffective|p2a: Axl Low
+|-damage|p2a: Axl Low|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|43/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1632964429
+|move|p2a: Axl Low|Giga Drain|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|24/100
+|-heal|p2a: Axl Low|72/100|[from] drain|[of] p1a: Hippopotas
+|move|p1a: Hippopotas|Crunch|p2a: Axl Low
+|-supereffective|p2a: Axl Low
+|-damage|p2a: Axl Low|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|20/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1632964438
+|switch|p1a: Pawniard|Pawniard, L5, F|100/100
+|move|p2a: Axl Low|Heat Wave|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|15/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1632964447
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|move|p2a: Axl Low|Roost|p2a: Axl Low
+|-heal|p2a: Axl Low|67/100
+|-singleturn|p2a: Axl Low|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|62/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1632964467
+|move|p1a: Drilbur|Earthquake|p2a: Axl Low
+|-immune|p2a: Axl Low
+|move|p2a: Axl Low|Giga Drain|p1a: Drilbur
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|28/100
+|-heal|p2a: Axl Low|100/100|[from] drain|[of] p1a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|96/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1632964479
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|move|p2a: Axl Low|Heat Wave|p1a: Lileep
+|-damage|p1a: Lileep|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|91/100|[from] Sandstorm
+|upkeep
+|turn|11
+|j| risii
+|
+|t:|1632964493
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100
+|switch|p1a: Natu|Natu, L5, M|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|83/100|[from] Sandstorm
+|-damage|p2a: Millia Rage|96/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1632964504
+|move|p2a: Millia Rage|Fake Out|p1a: Natu
+|-damage|p1a: Natu|70/100
+|cant|p1a: Natu|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|66/100|[from] Sandstorm
+|-damage|p2a: Millia Rage|92/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1632964511
+|switch|p2a: Collette|Pawniard, L5, F|81/100 par
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|100/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|14
+|j| EternalSnowman
+|
+|t:|1632964519
+|move|p1a: Natu|U-turn|p2a: Collette
+|-damage|p2a: Collette|58/100 par
+|-activate|p1a: Natu|move: Pursuit
+|cant|p2a: Collette|par
+|
+|t:|1632964524
+|switch|p1a: Hippopotas|Hippopotas, L5, F|24/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|inactive|Matron Murder has 270 seconds left.
+|
+|t:|1632964562
+|switch|p2a: Axl Low|Natu, L5, M, shiny|91/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|86/100|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|Matron Murder has 270 seconds left.
+|
+|t:|1632964571
+|switch|p1a: Lileep|Lileep, L5, F|80/100
+|move|p2a: Axl Low|Giga Drain|p1a: Lileep
+|-damage|p1a: Lileep|68/100
+|-heal|p2a: Axl Low|96/100|[from] drain|[of] p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|91/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1632964580
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1632964589
+|switch|p1a: Natu|Natu, L5, M|96/100
+|move|p2a: Millia Rage|Knock Off|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|70/100
+|-enditem|p1a: Natu|Eviolite|[from] move: Knock Off|[of] p2a: Millia Rage
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|66/100|[from] Sandstorm
+|-damage|p2a: Millia Rage|92/100|[from] Sandstorm
+|upkeep
+|turn|19
+|j| ha1cyon days
+|
+|t:|1632964604
+|move|p1a: Natu|U-turn|p2a: Millia Rage
+|-resisted|p2a: Millia Rage
+|-damage|p2a: Millia Rage|87/100
+|
+|t:|1632964613
+|switch|p1a: Frillish|Frillish, L5, M|100/100|[from]move: U-turn
+|move|p2a: Millia Rage|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|92/100
+|-start|p2a: Millia Rage|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Frillish
+|
+|t:|1632964621
+|switch|p2a: May|Chinchou, L5, F, shiny|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: May|96/100|[from] Sandstorm
+|-damage|p1a: Frillish|88/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1632964630
+|move|p2a: May|Scald|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|75/100
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: May|92/100|[from] Sandstorm
+|-damage|p1a: Frillish|96/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1632964645
+|move|p2a: May|Volt Switch|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|46/100
+|
+|t:|1632964652
+|switch|p2a: Axl Low|Natu, L5, M, shiny|91/100|[from]move: Volt Switch
+|move|p1a: Frillish|Will-O-Wisp|p2a: Axl Low
+|move|p2a: Axl Low|Will-O-Wisp|p1a: Frillish|[from]ability: Magic Bounce
+|-status|p1a: Frillish|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|86/100|[from] Sandstorm
+|-damage|p1a: Frillish|42/100 brn|[from] Sandstorm
+|-damage|p1a: Frillish|30/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1632964666
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|move|p2a: Axl Low|Heat Wave|p1a: Lileep
+|-damage|p1a: Lileep|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|81/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1632964678
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100
+|switch|p1a: Natu|Natu, L5, M|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|61/100|[from] Sandstorm
+|-damage|p2a: Millia Rage|96/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1632964685
+|move|p2a: Millia Rage|Fake Out|p1a: Natu
+|-damage|p1a: Natu|44/100
+|cant|p1a: Natu|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|40/100|[from] Sandstorm
+|-damage|p2a: Millia Rage|92/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1632964691
+|switch|p2a: Collette|Pawniard, L5, F|58/100 par
+|move|p1a: Natu|Psychic|p2a: Collette
+|-immune|p2a: Collette
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|35/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1632964699
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|87/100
+|-singleturn|p1a: Natu|move: Roost
+|move|p2a: Collette|Pursuit|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|22/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|t:|1632964708
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|74/100
+|-singleturn|p1a: Natu|move: Roost
+|move|p2a: Collette|Pursuit|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|9/100|[from] Sandstorm
+|upkeep
+|turn|28
+|j|+SBPC !
+|
+|t:|1632964719
+|move|p1a: Natu|U-turn|p2a: Collette
+|-crit|p2a: Collette
+|-damage|p2a: Collette|20/100 par
+|-activate|p1a: Natu|move: Pursuit
+|cant|p2a: Collette|par
+|c|+SBPC !|GOGOGO
+|c|+SBPC !|actually both players here r omega based spinners
+|inactive|brewfasa has 270 seconds left.
+|l| risii
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1632964782
+|switch|p1a: Hippopotas|Hippopotas, L5, F|76/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|j| risii
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1632964797
+|switch|p2a: Axl Low|Natu, L5, M, shiny|81/100
+|move|p1a: Hippopotas|Earthquake|p2a: Axl Low
+|-immune|p2a: Axl Low
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|77/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|t:|1632964818
+|switch|p1a: Lileep|Lileep, L5, F|80/100
+|move|p2a: Axl Low|Giga Drain|p1a: Lileep
+|-damage|p1a: Lileep|68/100
+|-heal|p2a: Axl Low|86/100|[from] drain|[of] p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|81/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|t:|1632964836
+|move|p2a: Axl Low|Heat Wave|p1a: Lileep
+|-damage|p1a: Lileep|52/100
+|move|p1a: Lileep|Substitute|p1a: Lileep
+|-start|p1a: Lileep|Substitute
+|-damage|p1a: Lileep|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|77/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|t:|1632964847
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|t:|1632964859
+|move|p1a: Lileep|Bullet Seed|p2a: Millia Rage
+|-damage|p2a: Millia Rage|83/100
+|-damage|p2a: Millia Rage|70/100
+|-hitcount|p2a: Millia Rage|2
+|move|p2a: Millia Rage|Drain Punch|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-end|p1a: Lileep|Substitute
+|-heal|p2a: Millia Rage|83/100|[from] drain|[of] p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|79/100|[from] Sandstorm
+|upkeep
+|turn|34
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1632964876
+|switch|p1a: Frillish|Frillish, L5, M|30/100 brn
+|move|p2a: Millia Rage|Drain Punch|p1a: Frillish
+|-immune|p1a: Frillish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|25/100 brn|[from] Sandstorm
+|-damage|p2a: Millia Rage|74/100|[from] Sandstorm
+|-damage|p1a: Frillish|13/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1632964887
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|63/100 brn
+|move|p2a: Millia Rage|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|46/100 brn
+|-enditem|p1a: Frillish|Eviolite|[from] move: Knock Off|[of] p2a: Millia Rage
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|42/100 brn|[from] Sandstorm
+|-damage|p2a: Millia Rage|70/100|[from] Sandstorm
+|-damage|p1a: Frillish|30/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1632964897
+|switch|p2a: May|Chinchou, L5, F, shiny|92/100
+|move|p1a: Frillish|Scald|p2a: May
+|-resisted|p2a: May
+|-damage|p2a: May|80/100
+|-status|p2a: May|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: May|76/100 brn|[from] Sandstorm
+|-damage|p1a: Frillish|25/100 brn|[from] Sandstorm
+|-damage|p2a: May|64/100 brn|[from] brn
+|-damage|p1a: Frillish|13/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1632964910
+|move|p2a: May|Volt Switch|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|faint|p1a: Frillish
+|
+|t:|1632964928
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100|[from] Sandstorm
+|upkeep
+|l| risii
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1632964966
+|switch|p1a: Pawniard|Pawniard, L5, F|43/100
+|turn|38
+|
+|t:|1632964974
+|move|p1a: Pawniard|Thunder Wave|p2a: Millia Rage
+|-status|p2a: Millia Rage|par
+|cant|p2a: Millia Rage|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|92/100 par|[from] Sandstorm
+|upkeep
+|turn|39
+|c| omaknights|this paras...
+|
+|t:|1632964995
+|switch|p1a: Hippopotas|Hippopotas, L5, F|76/100
+|cant|p2a: Millia Rage|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|87/100 par|[from] Sandstorm
+|upkeep
+|turn|40
+|j| risii
+|n| jcbc|omaknights
+|c|+SBPC !|ngl
+|c|+SBPC !|heat
+|
+|t:|1632965010
+|switch|p2a: Axl Low|Natu, L5, M, shiny|77/100
+|move|p1a: Hippopotas|Earthquake|p2a: Axl Low
+|-immune|p2a: Axl Low
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|72/100|[from] Sandstorm
+|upkeep
+|turn|41
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1632965038
+|switch|p1a: Lileep|Lileep, L5, F|80/100
+|move|p2a: Axl Low|Heat Wave|p1a: Lileep
+|-damage|p1a: Lileep|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|67/100|[from] Sandstorm
+|upkeep
+|turn|42
+|
+|t:|1632965048
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100 par
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100 par|[from] Sandstorm
+|upkeep
+|turn|43
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1632965060
+|move|p1a: Lileep|Substitute|p1a: Lileep
+|-start|p1a: Lileep|Substitute
+|-damage|p1a: Lileep|76/100
+|move|p2a: Millia Rage|Drain Punch|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-end|p1a: Lileep|Substitute
+|-heal|p2a: Millia Rage|100/100 par|[from] drain|[of] p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100 par|[from] Sandstorm
+|upkeep
+|turn|44
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1632965070
+|switch|p1a: Hippopotas|Hippopotas, L5, F|76/100
+|move|p2a: Millia Rage|Drain Punch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|52/100
+|-heal|p2a: Millia Rage|100/100 par|[from] drain|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100 par|[from] Sandstorm
+|upkeep
+|turn|45
+|
+|t:|1632965078
+|switch|p2a: Axl Low|Natu, L5, M, shiny|67/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|62/100|[from] Sandstorm
+|upkeep
+|turn|46
+|
+|t:|1632965085
+|move|p2a: Axl Low|Giga Drain|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|52/100
+|-heal|p2a: Axl Low|91/100|[from] drain|[of] p1a: Hippopotas
+|move|p1a: Hippopotas|Crunch|p2a: Axl Low
+|-supereffective|p2a: Axl Low
+|-damage|p2a: Axl Low|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|39/100|[from] Sandstorm
+|upkeep
+|turn|47
+|
+|t:|1632965096
+|switch|p1a: Lileep|Lileep, L5, F|76/100
+|move|p2a: Axl Low|Giga Drain|p1a: Lileep
+|-damage|p1a: Lileep|64/100
+|-heal|p2a: Axl Low|48/100|[from] drain|[of] p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|43/100|[from] Sandstorm
+|upkeep
+|turn|48
+|
+|t:|1632965109
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100 par
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|96/100 par|[from] Sandstorm
+|upkeep
+|turn|49
+|
+|t:|1632965123
+|move|p1a: Lileep|Substitute|p1a: Lileep
+|-start|p1a: Lileep|Substitute
+|-damage|p1a: Lileep|76/100
+|move|p2a: Millia Rage|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-end|p1a: Lileep|Substitute
+|inactive|Matron Murder has 270 seconds left.
+|l|+SBPC !
+|inactive|Matron Murder has 240 seconds left.
+|j| Carmelita Foxx
+|inactive|Matron Murder has 210 seconds left.
+|l| Carmelita Foxx
+|l| risii
+|
+|t:|1632965235
+|switch|p2a: Zato-one|Drifloon, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|97/100|[from] Sandstorm
+|upkeep
+|turn|50
+|j| risii
+|j| imjustgray@!
+|inactive|Matron Murder has 180 seconds left.
+|
+|t:|1632965252
+|switch|p1a: Pawniard|Pawniard, L5, F|43/100
+|move|p2a: Zato-one|Acrobatics|p1a: Pawniard
+|-enditem|p2a: Zato-one|Flying Gem|[from] gem
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|93/100|[from] Sandstorm
+|upkeep
+|turn|51
+|
+|t:|1632965265
+|move|p2a: Zato-one|Substitute|p2a: Zato-one
+|-start|p2a: Zato-one|Substitute
+|-damage|p2a: Zato-one|70/100
+|move|p1a: Pawniard|Pursuit|p2a: Zato-one
+|-supereffective|p2a: Zato-one
+|-end|p2a: Zato-one|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|66/100|[from] Sandstorm
+|upkeep
+|turn|52
+|
+|t:|1632965275
+|move|p1a: Pawniard|Sucker Punch||[still]
+|-fail|p1a: Pawniard
+|move|p2a: Zato-one|Substitute|p2a: Zato-one
+|-start|p2a: Zato-one|Substitute
+|-damage|p2a: Zato-one|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|39/100|[from] Sandstorm
+|upkeep
+|turn|53
+|c| boys wanna txt|goat
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1632965288
+|move|p1a: Pawniard|Sucker Punch|p2a: Zato-one
+|-supereffective|p2a: Zato-one
+|-end|p2a: Zato-one|Substitute
+|move|p2a: Zato-one|Acrobatics|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-crit|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|35/100|[from] Sandstorm
+|upkeep
+|
+|t:|1632965297
+|switch|p1a: Hippopotas|Hippopotas, L5, F|52/100
+|turn|54
+|
+|t:|1632965300
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|16/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|31/100|[from] Sandstorm
+|upkeep
+|turn|55
+|
+|t:|1632965307
+|move|p2a: Zato-one|Destiny Bond|p2a: Zato-one
+|-singlemove|p2a: Zato-one|Destiny Bond
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|27/100|[from] Sandstorm
+|upkeep
+|turn|56
+|
+|t:|1632965315
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Stealth Rock|p2a: Zato-one
+|-sidestart|p2: Matron Murder|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|24/100|[from] Sandstorm
+|upkeep
+|turn|57
+|
+|t:|1632965321
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|44/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|20/100|[from] Sandstorm
+|upkeep
+|turn|58
+|
+|t:|1632965347
+|move|p2a: Zato-one|Hidden Power|p1a: Hippopotas
+|-damage|p1a: Hippopotas|76/100
+|move|p1a: Hippopotas|Earthquake|p2a: Zato-one
+|-immune|p2a: Zato-one
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|16/100|[from] Sandstorm
+|upkeep
+|turn|59
+|
+|t:|1632965354
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|48/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|12/100|[from] Sandstorm
+|upkeep
+|turn|60
+|
+|t:|1632965361
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|8/100|[from] Sandstorm
+|upkeep
+|turn|61
+|
+|t:|1632965368
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|4/100|[from] Sandstorm
+|upkeep
+|turn|62
+|
+|t:|1632965375
+|move|p2a: Zato-one|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zato-one|0 fnt|[from] Sandstorm
+|faint|p2a: Zato-one
+|upkeep
+|
+|t:|1632965387
+|switch|p2a: Millia Rage|Mienfoo, L5, F|100/100 par
+|-damage|p2a: Millia Rage|96/100 par|[from] Stealth Rock
+|turn|63
+|
+|t:|1632965394
+|move|p1a: Hippopotas|Earthquake|p2a: Millia Rage
+|-damage|p2a: Millia Rage|57/100 par
+|move|p2a: Millia Rage|Knock Off|p1a: Hippopotas
+|-damage|p1a: Hippopotas|96/100
+|-enditem|p1a: Hippopotas|Eviolite|[from] move: Knock Off|[of] p2a: Millia Rage
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|53/100 par|[from] Sandstorm
+|upkeep
+|turn|64
+|
+|t:|1632965402
+|switch|p2a: Collette|Pawniard, L5, F|20/100 par
+|-damage|p2a: Collette|15/100 par|[from] Stealth Rock
+|move|p1a: Hippopotas|Crunch|p2a: Collette
+|-resisted|p2a: Collette
+|-damage|p2a: Collette|10/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|65
+|
+|t:|1632965415
+|move|p1a: Hippopotas|Earthquake|p2a: Collette
+|-supereffective|p2a: Collette
+|-damage|p2a: Collette|0 fnt
+|faint|p2a: Collette
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1632965420
+|switch|p2a: Axl Low|Natu, L5, M, shiny|43/100
+|-damage|p2a: Axl Low|20/100|[from] Stealth Rock
+|turn|66
+|
+|t:|1632965438
+|switch|p1a: Lileep|Lileep, L5, F|76/100
+|move|p2a: Axl Low|Giga Drain|p1a: Lileep
+|-damage|p1a: Lileep|60/100
+|-heal|p2a: Axl Low|29/100|[from] drain|[of] p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|24/100|[from] Sandstorm
+|upkeep
+|turn|67
+|
+|t:|1632965446
+|move|p2a: Axl Low|Psychic|p1a: Lileep
+|-damage|p1a: Lileep|36/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|20/100|[from] Sandstorm
+|upkeep
+|turn|68
+|
+|t:|1632965455
+|move|p2a: Axl Low|Roost|p2a: Axl Low
+|-heal|p2a: Axl Low|72/100
+|-singleturn|p2a: Axl Low|move: Roost
+|move|p1a: Lileep|Substitute|p1a: Lileep
+|-start|p1a: Lileep|Substitute
+|-damage|p1a: Lileep|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|67/100|[from] Sandstorm
+|upkeep
+|turn|69
+|
+|t:|1632965464
+|move|p2a: Axl Low|Psychic|p1a: Lileep
+|-end|p1a: Lileep|Substitute
+|move|p1a: Lileep|Swords Dance|p1a: Lileep
+|-boost|p1a: Lileep|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Axl Low|62/100|[from] Sandstorm
+|upkeep
+|turn|70
+|j| pkmn cypher 2013
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1632965472
+|move|p2a: Axl Low|Heat Wave|p1a: Lileep
+|-damage|p1a: Lileep|48/100
+|move|p1a: Lileep|Bullet Seed|p2a: Axl Low
+|-resisted|p2a: Axl Low
+|-damage|p2a: Axl Low|53/100
+|-resisted|p2a: Axl Low
+|-damage|p2a: Axl Low|43/100
+|-resisted|p2a: Axl Low
+|-damage|p2a: Axl Low|34/100
+|-resisted|p2a: Axl Low
+|-crit|p2a: Axl Low
+|-damage|p2a: Axl Low|10/100
+|-resisted|p2a: Axl Low
+|-damage|p2a: Axl Low|0 fnt
+|faint|p2a: Axl Low
+|-hitcount|p2: Axl Low|5
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1632965480
+|switch|p2a: Millia Rage|Mienfoo, L5, F|83/100 par
+|-damage|p2a: Millia Rage|79/100 par|[from] Stealth Rock
+|turn|71
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1632965512
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|cant|p2a: Millia Rage|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|74/100 par|[from] Sandstorm
+|upkeep
+|turn|72
+|c| jcbc|dude...
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1632965551
+|switch|p1a: Hippopotas|Hippopotas, L5, F|96/100
+|move|p2a: Millia Rage|Drain Punch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|60/100
+|-heal|p2a: Millia Rage|96/100 par|[from] drain|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|92/100 par|[from] Sandstorm
+|upkeep
+|turn|73
+|
+|t:|1632965574
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|cant|p2a: Millia Rage|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Millia Rage|87/100 par|[from] Sandstorm
+|upkeep
+|turn|74
+|
+|t:|1632965580
+|move|p1a: Hippopotas|Earthquake|p2a: Millia Rage
+|-damage|p2a: Millia Rage|48/100 par
+|move|p2a: Millia Rage|U-turn|p1a: Hippopotas
+|-damage|p1a: Hippopotas|80/100
+|c| boys wanna txt|bruhhhh
+|
+|t:|1632965588
+|switch|p2a: Chipp Zanuff|Abra, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|75
+|
+|t:|1632965598
+|switch|p1a: Natu|Natu, L5, M|9/100
+|move|p2a: Chipp Zanuff|Psychic|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1632965605
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|turn|76
+|
+|t:|1632965608
+|switch|p2a: Millia Rage|Mienfoo, L5, F|79/100 par
+|-damage|p2a: Millia Rage|74/100 par|[from] Stealth Rock
+|move|p1a: Lileep|Bullet Seed|p2a: Millia Rage
+|-damage|p2a: Millia Rage|61/100 par
+|-crit|p2a: Millia Rage
+|-damage|p2a: Millia Rage|31/100 par
+|-damage|p2a: Millia Rage|18/100 par
+|-damage|p2a: Millia Rage|5/100 par
+|-damage|p2a: Millia Rage|0 fnt
+|faint|p2a: Millia Rage
+|-hitcount|p2: Millia Rage|5
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Matron Murder|ok
+|
+|t:|1632965628
+|switch|p2a: Chipp Zanuff|Abra, L5, M|100/100
+|turn|77
+|
+|t:|1632965634
+|move|p2a: Chipp Zanuff|Psychic|p1a: Lileep
+|-damage|p1a: Lileep|72/100
+|move|p1a: Lileep|Bullet Seed|p2a: Chipp Zanuff
+|-damage|p2a: Chipp Zanuff|69/100
+|-damage|p2a: Chipp Zanuff|37/100
+|-damage|p2a: Chipp Zanuff|6/100
+|-hitcount|p2a: Chipp Zanuff|3
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|78
+|
+|t:|1632965643
+|move|p2a: Chipp Zanuff|Psychic|p1a: Lileep
+|-damage|p1a: Lileep|44/100
+|move|p1a: Lileep|Bullet Seed|p2a: Chipp Zanuff
+|-damage|p2a: Chipp Zanuff|0 fnt
+|faint|p2a: Chipp Zanuff
+|-hitcount|p2: Chipp Zanuff|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1632965644
+|switch|p2a: May|Chinchou, L5, F, shiny|64/100 brn
+|-damage|p2a: May|52/100 brn|[from] Stealth Rock
+|turn|79
+|c|☆Matron Murder|gg, tough one
+|c|☆brewfasa|gg sorry
+|
+|t:|1632965658
+|move|p2a: May|Volt Switch|p1a: Lileep
+|-resisted|p1a: Lileep
+|-damage|p1a: Lileep|36/100
+|move|p1a: Lileep|Bullet Seed|p2a: May
+|-supereffective|p2a: May
+|-damage|p2a: May|29/100 brn
+|-supereffective|p2a: May
+|-damage|p2a: May|4/100 brn
+|-supereffective|p2a: May
+|-damage|p2a: May|0 fnt
+|faint|p2a: May
+|-hitcount|p2: May|3
+|
+|win|brewfasa
+|l| ha1cyon days
+|l| jcbc
+|l|☆Matron Murder
+|l| risii
+|l| boys wanna txt

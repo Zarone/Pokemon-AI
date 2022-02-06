@@ -1,0 +1,400 @@
+|j|☆Ren-chon
+|j|☆Shuckleking87
+|t:|1635277351
+|gametype|singles
+|player|p1|Ren-chon|pokemonbreederf-gen4|
+|player|p2|Shuckleking87|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Skuntank, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Misdreavus, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Sawk, M|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|c|☆Shuckleking87|glhf
+|c|☆Ren-chon|Hf
+|
+|t:|1635277381
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1635277403
+|move|p1a: Kangaskhan|Fake Out|p2a: Golurk
+|-damage|p2a: Golurk|78/100
+|cant|p2a: Golurk|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1635277449
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Golurk|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Ren-chon|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1635277474
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Seismitoad|Scald|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|92/100
+|-status|p2a: Alomomola|brn
+|
+|-damage|p2a: Alomomola|80/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1635277488
+|move|p1a: Seismitoad|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: Shuckleking87|move: Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|67/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1635277527
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p2a: Kangaskhan|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|6
+|
+|t:|1635277560
+|move|p2a: Kangaskhan|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100
+|move|p1a: Seismitoad|Toxic|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|tox
+|
+|-heal|p1a: Seismitoad|79/100|[from] item: Leftovers
+|-damage|p2a: Kangaskhan|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1635277585
+|switch|p2a: Alomomola|Alomomola, M|99/100 brn
+|-damage|p2a: Alomomola|88/100 brn|[from] Stealth Rock
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|85/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|75/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1635277588
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|63/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1635277598
+|move|p2a: Alomomola|Magic Coat|p2a: Alomomola
+|-singleturn|p2a: Alomomola|move: Magic Coat
+|move|p1a: Garbodor|Spikes|p2a: Alomomola
+|move|p2a: Alomomola|Spikes|p1a: Garbodor|[from]Magic Coat
+|-sidestart|p1: Ren-chon|Spikes
+|
+|-heal|p2a: Alomomola|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1635277613
+|move|p1a: Garbodor|Seed Bomb|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100 brn
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|48/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1635277624
+|switch|p2a: Golurk|Golurk|78/100
+|-damage|p2a: Golurk|72/100|[from] Stealth Rock
+|move|p1a: Garbodor|Spikes|p2a: Golurk
+|-sidestart|p2: Shuckleking87|Spikes
+|
+|-heal|p2a: Golurk|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|12
+|
+|t:|1635277637
+|switch|p1a: Seismitoad|Seismitoad, M|85/100
+|-damage|p1a: Seismitoad|73/100|[from] Spikes
+|-damage|p1a: Seismitoad|67/100|[from] Stealth Rock
+|move|p2a: Golurk|Stone Edge|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|49/100
+|
+|-heal|p1a: Seismitoad|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1635277647
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|-damage|p1a: Misdreavus|88/100|[from] Stealth Rock
+|move|p2a: Golurk|Earthquake|p1a: Misdreavus
+|-immune|p1a: Misdreavus|[from] ability: Levitate
+|
+|upkeep
+|turn|14
+|
+|t:|1635277716
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Spikes
+|-damage|p2a: Skuntank|76/100|[from] Stealth Rock
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|-enditem|p2a: Skuntank|Lum Berry|[eat]
+|-curestatus|p2a: Skuntank|brn|[msg]
+|
+|upkeep
+|turn|15
+|
+|t:|1635277745
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|move|p2a: Skuntank|Crunch|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|42/100
+|
+|-damage|p2a: Skuntank|63/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1635277757
+|move|p1a: Misdreavus|Thunderbolt|p2a: Skuntank
+|-damage|p2a: Skuntank|32/100 brn
+|move|p2a: Skuntank|Pursuit|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|19/100
+|
+|-damage|p2a: Skuntank|20/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1635277767
+|move|p1a: Misdreavus|Nasty Plot|p1a: Misdreavus
+|-boost|p1a: Misdreavus|spa|2
+|move|p2a: Skuntank|Pursuit|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|-damage|p2a: Skuntank|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1635277771
+|switch|p1a: Garbodor|Garbodor, M|88/100
+|-damage|p1a: Garbodor|76/100|[from] Stealth Rock
+|-damage|p1a: Garbodor|63/100|[from] Spikes
+|turn|18
+|
+|t:|1635277779
+|move|p2a: Skuntank|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|cant|p1a: Garbodor|move: Taunt|Spikes
+|
+|-damage|p2a: Skuntank|0 fnt|[from] brn
+|faint|p2a: Skuntank
+|upkeep
+|
+|t:|1635277803
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|88/100|[from] Spikes
+|-damage|p2a: Golurk|82/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1635277811
+|switch|p1a: Seismitoad|Seismitoad, M|55/100
+|-damage|p1a: Seismitoad|43/100|[from] Spikes
+|-damage|p1a: Seismitoad|37/100|[from] Stealth Rock
+|move|p2a: Golurk|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|t:|1635277818
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|-damage|p1a: Kangaskhan|76/100|[from] Spikes
+|turn|20
+|
+|t:|1635277844
+|switch|p2a: Alomomola|Alomomola, M|82/100 brn
+|-damage|p2a: Alomomola|69/100 brn|[from] Spikes
+|-damage|p2a: Alomomola|57/100 brn|[from] Stealth Rock
+|move|p1a: Kangaskhan|Fake Out|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100 brn
+|
+|-damage|p2a: Alomomola|28/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1635277851
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Kangaskhan|62/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1635277879
+|switch|p2a: Kangaskhan|Kangaskhan, F|95/100 tox
+|-damage|p2a: Kangaskhan|82/100 tox|[from] Stealth Rock
+|-damage|p2a: Kangaskhan|70/100 tox|[from] Spikes
+|turn|22
+|
+|t:|1635277899
+|switch|p1a: Garbodor|Garbodor, M|63/100
+|-damage|p1a: Garbodor|51/100|[from] Stealth Rock
+|-damage|p1a: Garbodor|39/100|[from] Spikes
+|move|p2a: Kangaskhan|Double-Edge|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Kangaskhan|45/100 tox|[from] ability: Aftermath|[of] p1a: Garbodor
+|-damage|p2a: Kangaskhan|29/100 tox|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|-damage|p2a: Kangaskhan|16/100 tox|[from] Recoil
+|
+|-damage|p2a: Kangaskhan|10/100 tox|[from] psn
+|upkeep
+|
+|t:|1635277911
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|-damage|p1a: Carracosta|88/100|[from] Spikes
+|-damage|p1a: Carracosta|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1635277927
+|move|p2a: Kangaskhan|Earthquake|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|37/100
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|-damage|p2a: Kangaskhan|0 fnt|[from] psn
+|faint|p2a: Kangaskhan
+|upkeep
+|
+|t:|1635277954
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1635277996
+|move|p1a: Carracosta|Aqua Jet|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|-damage|p1a: Carracosta|27/100|[from] item: Life Orb
+|move|p2a: Rotom|Volt Switch|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|t:|1635278003
+|switch|p2a: Sawk|Sawk, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Sawk|94/100|[from] Stealth Rock
+|-damage|p2a: Sawk|82/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1635278005
+|switch|p1a: Kangaskhan|Kangaskhan, F|62/100
+|-damage|p1a: Kangaskhan|50/100|[from] Stealth Rock
+|-damage|p1a: Kangaskhan|38/100|[from] Spikes
+|turn|25
+|
+|t:|1635278024
+|switch|p2a: Rotom|Rotom-Frost|13/100
+|-damage|p2a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rotom
+|move|p1a: Kangaskhan|Fake Out|p2: Rotom|[notarget]
+|-fail|p1a: Kangaskhan
+|
+|upkeep
+|
+|t:|1635278031
+|switch|p2a: Golurk|Golurk|82/100
+|-damage|p2a: Golurk|69/100|[from] Spikes
+|-damage|p2a: Golurk|63/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1635278042
+|move|p1a: Kangaskhan|Double-Edge|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|-damage|p1a: Kangaskhan|16/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1635278046
+|switch|p2a: Sawk|Sawk, M|82/100
+|-damage|p2a: Sawk|76/100|[from] Stealth Rock
+|-damage|p2a: Sawk|63/100|[from] Spikes
+|turn|27
+|
+|t:|1635278055
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|46/100
+|move|p2a: Sawk|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|
+|t:|1635278078
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Spikes
+|-damage|p1a: Skuntank|76/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1635278082
+|move|p1a: Skuntank|Sucker Punch|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|18/100
+|move|p2a: Sawk|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|win|Shuckleking87
+|c|☆Ren-chon|Gg
+|c|☆Shuckleking87|gg

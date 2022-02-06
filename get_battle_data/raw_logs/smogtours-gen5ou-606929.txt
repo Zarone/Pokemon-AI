@@ -1,0 +1,192 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644097488
+|gametype|singles
+|player|p1|lexrn|cress|
+|player|p2|Kristyl|#splxiiicryonicles|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Aerodactyl, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Politoed, F|item
+|poke|p2|Starmie|item
+|poke|p2|Scizor, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|inactive|lexrn also wants the timer to be on.
+|c|☆Kristyl|hf
+|c|☆lexrn|u2
+|
+|t:|1644097507
+|start
+|switch|p1a: monai team|Aerodactyl, F|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-ability|p1a: monai team|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1644097511
+|move|p1a: monai team|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Kristyl|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: monai team
+|-supereffective|p1a: monai team
+|-enditem|p1a: monai team|Focus Sash
+|-damage|p1a: monai team|1/100
+|-status|p1a: monai team|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: monai team|0 fnt|[from] brn
+|faint|p1a: monai team
+|upkeep
+|
+|t:|1644097533
+|switch|p1a: lacking skill|Scizor, F|100/100
+|turn|2
+|
+|t:|1644097545
+|move|p1a: lacking skill|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|60/100
+|
+|t:|1644097547
+|switch|p1a: negative skill|Latios, M|100/100|[from]move: U-turn
+|move|p2a: Politoed|Encore||[still]
+|-fail|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644097559
+|move|p1a: negative skill|Draco Meteor|p2a: Politoed
+|-enditem|p1a: negative skill|Dragon Gem|[from] gem
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: negative skill|spa|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644097567
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1644097570
+|switch|p1a: 0 skill|Volcarona, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: 0 skill
+|-sidestart|p1: lexrn|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644097595
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: 0 skill|Quiver Dance|p1a: 0 skill
+|-boost|p1a: 0 skill|spa|1
+|-boost|p1a: 0 skill|spd|1
+|-boost|p1a: 0 skill|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644097602
+|move|p1a: 0 skill|Quiver Dance|p1a: 0 skill
+|-boost|p1a: 0 skill|spa|1
+|-boost|p1a: 0 skill|spd|1
+|-boost|p1a: 0 skill|spe|1
+|move|p2a: Thundurus|Thunder|p1a: 0 skill
+|-damage|p1a: 0 skill|67/100
+|-status|p1a: 0 skill|par
+|-enditem|p1a: 0 skill|Lum Berry|[eat]
+|-curestatus|p1a: 0 skill|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Kristyl has 270 seconds left.
+|inactive|lexrn has 270 seconds left.
+|
+|t:|1644097648
+|move|p1a: 0 skill|Psychic|p2a: Thundurus
+|-damage|p2a: Thundurus|14/100
+|move|p2a: Thundurus|Thunder|p1a: 0 skill
+|-damage|p1a: 0 skill|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|20/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Kristyl has 270 seconds left.
+|
+|t:|1644097676
+|move|p1a: 0 skill|Bug Buzz|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Kristyl has 240 seconds left.
+|
+|t:|1644097699
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|9
+|inactive|Kristyl has 240 seconds left.
+|
+|t:|1644097707
+|move|p1a: 0 skill|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Kristyl has 240 seconds left.
+|
+|t:|1644097715
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644097719
+|move|p2a: Scizor|Bullet Punch|p1a: 0 skill
+|-resisted|p1a: 0 skill
+|-damage|p1a: 0 skill|11/100
+|-status|p2a: Scizor|brn|[from] ability: Flame Body|[of] p1a: 0 skill
+|move|p1a: 0 skill|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Kristyl|gg
+|c|☆lexrn|gg
+|-message|Kristyl forfeited.
+|
+|win|lexrn

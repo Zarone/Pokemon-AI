@@ -1,0 +1,305 @@
+|j|☆MalMoonsault
+|j|☆Yves Stone
+|t:|1636110338
+|gametype|singles
+|player|p1|MalMoonsault|hapu|
+|player|p2|Yves Stone|steven-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Tirtouga, L5, F|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p2|Clamperl, L5, F|item
+|poke|p2|Tirtouga, L5, M|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Drifloon, L5, M|item
+|poke|p2|Cottonee, L5, M|item
+|teampreview
+|j| BB-8-NU
+|c|☆MalMoonsault|glhf
+|c|☆Yves Stone|hf
+|
+|t:|1636110362
+|start
+|switch|p1a: Shellie|Tirtouga, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|1
+|
+|t:|1636110369
+|move|p2a: Mienfoo|Fake Out|p1a: Shellie
+|-resisted|p1a: Shellie
+|-damage|p1a: Shellie|96/100
+|cant|p1a: Shellie|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1636110378
+|move|p2a: Mienfoo|High Jump Kick|p1a: Shellie
+|-supereffective|p1a: Shellie
+|-damage|p1a: Shellie|40/100
+|move|p1a: Shellie|Stealth Rock|p2a: Mienfoo
+|-sidestart|p2: Yves Stone|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1636110388
+|switch|p1a: Will|Natu, L5, M|100/100
+|move|p2a: Mienfoo|U-turn|p1a: Will
+|-damage|p1a: Will|79/100
+|
+|t:|1636110395
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100|[from]move: U-turn
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|
+|upkeep
+|turn|4
+|
+|t:|1636110402
+|move|p2a: Drilbur|Stealth Rock|p1a: Will
+|-sidestart|p1: MalMoonsault|move: Stealth Rock
+|move|p1a: Will|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|53/100
+|
+|upkeep
+|turn|5
+|j| Spoonii
+|
+|t:|1636110408
+|move|p2a: Drilbur|Rock Slide|p1a: Will
+|-supereffective|p1a: Will
+|-damage|p1a: Will|18/100
+|cant|p1a: Will|flinch
+|
+|upkeep
+|turn|6
+|
+|t:|1636110414
+|move|p2a: Drilbur|Rapid Spin|p1a: Will
+|-damage|p1a: Will|9/100
+|-sideend|p2: Yves Stone|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Drilbur
+|move|p1a: Will|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|9/100
+|
+|upkeep
+|turn|7
+|
+|t:|1636110421
+|move|p2a: Drilbur|Rock Slide|p1a: Will
+|-supereffective|p1a: Will
+|-damage|p1a: Will|0 fnt
+|faint|p1a: Will
+|
+|upkeep
+|
+|t:|1636110451
+|switch|p1a: Shellie|Tirtouga, L5, F|40/100
+|-damage|p1a: Shellie|31/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1636110456
+|move|p1a: Shellie|Aqua Jet|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|j| Voyagar
+|l| Voyagar
+|
+|t:|1636110487
+|switch|p2a: Clamperl|Clamperl, L5, F|100/100
+|turn|9
+|
+|t:|1636110515
+|move|p2a: Clamperl|Surf|p1a: Shellie
+|-damage|p1a: Shellie|0 fnt
+|faint|p1a: Shellie
+|
+|upkeep
+|
+|t:|1636110531
+|switch|p1a: Malwire|Porygon, L5|100/100
+|-damage|p1a: Malwire|89/100|[from] Stealth Rock
+|-ability|p1a: Malwire|Rattled|[from] ability: Trace|[of] p2a: Clamperl
+|turn|10
+|
+|t:|1636110542
+|switch|p2a: Cottonee|Cottonee, L5, M|100/100
+|move|p1a: Malwire|Tri Attack|p2a: Cottonee
+|-damage|p2a: Cottonee|67/100
+|
+|upkeep
+|turn|11
+|
+|t:|1636110560
+|move|p2a: Cottonee|Encore|p1a: Malwire
+|-start|p1a: Malwire|Encore
+|move|p1a: Malwire|Tri Attack|p2a: Cottonee
+|-damage|p2a: Cottonee|34/100
+|
+|upkeep
+|turn|12
+|
+|t:|1636110566
+|move|p2a: Cottonee|Stun Spore|p1a: Malwire|[miss]
+|-miss|p2a: Cottonee|p1a: Malwire
+|move|p1a: Malwire|Tri Attack|p2a: Cottonee
+|-damage|p2a: Cottonee|0 fnt
+|faint|p2a: Cottonee
+|
+|upkeep
+|
+|t:|1636110570
+|switch|p2a: Drifloon|Drifloon, L5, M|100/100
+|turn|13
+|
+|t:|1636110582
+|switch|p1a: Mandy|Vullaby, L5, F|100/100
+|-damage|p1a: Mandy|79/100|[from] Stealth Rock
+|move|p2a: Drifloon|Substitute|p2a: Drifloon
+|-start|p2a: Drifloon|Substitute
+|-damage|p2a: Drifloon|76/100
+|
+|upkeep
+|turn|14
+|
+|t:|1636110592
+|move|p2a: Drifloon|Acrobatics|p1a: Mandy
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Mandy|22/100
+|-ability|p1a: Mandy|Weak Armor|boost
+|-unboost|p1a: Mandy|def|1
+|-boost|p1a: Mandy|spe|1
+|move|p1a: Mandy|Dark Pulse|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-end|p2a: Drifloon|Substitute
+|
+|upkeep
+|turn|15
+|
+|t:|1636110604
+|move|p2a: Drifloon|Acrobatics|p1a: Mandy
+|-damage|p1a: Mandy|0 fnt
+|faint|p1a: Mandy
+|
+|upkeep
+|
+|t:|1636110611
+|switch|p1a: Clay|Drilbur, L5, M|100/100
+|-damage|p1a: Clay|96/100|[from] Stealth Rock
+|-ability|p1a: Clay|Mold Breaker
+|turn|16
+|
+|t:|1636110621
+|move|p2a: Drifloon|Substitute|p2a: Drifloon
+|-start|p2a: Drifloon|Substitute
+|-damage|p2a: Drifloon|52/100
+|move|p1a: Clay|Shadow Claw|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-end|p2a: Drifloon|Substitute
+|
+|upkeep
+|turn|17
+|
+|t:|1636110636
+|move|p2a: Drifloon|Substitute|p2a: Drifloon
+|-start|p2a: Drifloon|Substitute
+|-damage|p2a: Drifloon|29/100
+|move|p1a: Clay|Shadow Claw|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-end|p2a: Drifloon|Substitute
+|
+|upkeep
+|turn|18
+|
+|t:|1636110641
+|move|p2a: Drifloon|Memento|p1a: Clay
+|-unboost|p1a: Clay|atk|2
+|-unboost|p1a: Clay|spa|2
+|faint|p2a: Drifloon
+|move|p1a: Clay|Shadow Claw|p2: Drifloon|[notarget]
+|-fail|p1a: Clay
+|
+|upkeep
+|
+|t:|1636110646
+|switch|p2a: Clamperl|Clamperl, L5, F|100/100
+|turn|19
+|
+|t:|1636110655
+|switch|p1a: Malwire|Porygon, L5|89/100
+|-damage|p1a: Malwire|77/100|[from] Stealth Rock
+|-ability|p1a: Malwire|Rattled|[from] ability: Trace|[of] p2a: Clamperl
+|move|p2a: Clamperl|Shell Smash|p2a: Clamperl
+|-unboost|p2a: Clamperl|def|1
+|-unboost|p2a: Clamperl|spd|1
+|-boost|p2a: Clamperl|atk|2
+|-boost|p2a: Clamperl|spa|2
+|-boost|p2a: Clamperl|spe|2
+|
+|upkeep
+|turn|20
+|
+|t:|1636110662
+|move|p2a: Clamperl|Surf|p1a: Malwire
+|-damage|p1a: Malwire|0 fnt
+|faint|p1a: Malwire
+|
+|upkeep
+|j| certifiedboyluver
+|l| certifiedboyluver
+|
+|t:|1636110691
+|switch|p1a: Marshall|Timburr, L5, M|100/100
+|-damage|p1a: Marshall|96/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1636110697
+|move|p2a: Clamperl|Surf|p1a: Marshall
+|-damage|p1a: Marshall|0 fnt
+|faint|p1a: Marshall
+|
+|upkeep
+|
+|t:|1636110699
+|switch|p1a: Clay|Drilbur, L5, M|96/100
+|-damage|p1a: Clay|92/100|[from] Stealth Rock
+|-ability|p1a: Clay|Mold Breaker
+|turn|22
+|c|☆Yves Stone|gg
+|
+|t:|1636110707
+|move|p2a: Clamperl|Surf|p1a: Clay
+|-supereffective|p1a: Clay
+|-damage|p1a: Clay|0 fnt
+|faint|p1a: Clay
+|
+|win|Yves Stone
+|n|☆MalMoonsault|malmoonsault
+|n|☆Yves Stone|yvesstone
+|n| BB-8-NU|bb8nu
+|n| Spoonii|spoonii
+|l| BB-8-NU
+|c|☆MalMoonsault|gg
+|l| Spoonii
+|l|☆MalMoonsault
+|l|☆Yves Stone
+|j| TheDarkRising

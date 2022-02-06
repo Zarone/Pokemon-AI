@@ -1,0 +1,246 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644081907
+|gametype|singles
+|player|p1|gilbert arenas|#splxiiityrants|
+|player|p2|THE PDC SHOW|#splxiiityrants|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Skarmory, F|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Alakazam, F|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Starmie|item
+|poke|p2|Scizor, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Breloom, M|item
+|teampreview
+|
+|t:|1644081919
+|start
+|switch|p1a: GORDONE|Skarmory, F|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|-item|p2a: Starmie|Air Balloon
+|turn|1
+|
+|t:|1644081925
+|move|p2a: Starmie|Thunderbolt|p1a: GORDONE
+|-supereffective|p1a: GORDONE
+|-damage|p1a: GORDONE|8/100
+|move|p1a: GORDONE|Stealth Rock|p2a: Starmie
+|-sidestart|p2: THE PDC SHOW|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-enditem|p1a: GORDONE|Custap Berry|[eat]
+|-activate|p1a: GORDONE|item: Custap Berry|[consumed]
+|
+|t:|1644081930
+|move|p1a: GORDONE|Brave Bird|p2a: Starmie
+|-damage|p2a: Starmie|28/100
+|-enditem|p2a: Starmie|Air Balloon
+|-damage|p1a: GORDONE|0 fnt|[from] Recoil
+|faint|p1a: GORDONE
+|move|p2a: Starmie|Rapid Spin|p1: GORDONE|[notarget]
+|-fail|p2a: Starmie
+|
+|upkeep
+|
+|t:|1644081936
+|switch|p1a: SEIGBERT TARRASH|Alakazam, F|100/100
+|turn|3
+|
+|t:|1644081944
+|move|p1a: SEIGBERT TARRASH|Psyshock|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|upkeep
+|
+|t:|1644081946
+|switch|p2a: Volcarona|Volcarona, F, shiny|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1644081949
+|move|p1a: SEIGBERT TARRASH|Psyshock|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|c|☆THE PDC SHOW|oh
+|c|☆THE PDC SHOW|didnt even see
+|
+|t:|1644081957
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1644081971
+|switch|p1a: MONDO ICE|Mamoswine, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: MONDO ICE
+|-damage|p1a: MONDO ICE|45/100
+|
+|upkeep
+|turn|6
+|
+|t:|1644081979
+|move|p1a: MONDO ICE|Ice Shard|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Yache Berry|[eat]
+|-enditem|p2a: Garchomp|Yache Berry|[weaken]
+|-damage|p2a: Garchomp|44/100
+|move|p2a: Garchomp|Earthquake|p1a: MONDO ICE
+|-damage|p1a: MONDO ICE|0 fnt
+|faint|p1a: MONDO ICE
+|
+|upkeep
+|
+|t:|1644081983
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|7
+|
+|t:|1644081988
+|move|p1a: Breloom|Mach Punch|p2a: Garchomp
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Breloom|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1644081993
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1644081996
+|move|p1a: Breloom|Low Sweep|p2a: Breloom
+|-damage|p2a: Breloom|18/100
+|-unboost|p2a: Breloom|spe|1
+|move|p2a: Breloom|Low Sweep|p1a: Breloom
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|t:|1644082011
+|switch|p1a: SEIGBERT TARRASH|Alakazam, F|100/100
+|turn|9
+|
+|t:|1644082014
+|move|p2a: Breloom|Mach Punch|p1a: SEIGBERT TARRASH
+|-resisted|p1a: SEIGBERT TARRASH
+|-crit|p1a: SEIGBERT TARRASH
+|-damage|p1a: SEIGBERT TARRASH|17/100
+|move|p1a: SEIGBERT TARRASH|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1644082016
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644082022
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|83/100
+|-enditem|p1a: Jellicent|Eject Button
+|-damage|p2a: Scizor|78/100|[from] item: Life Orb
+|
+|t:|1644082026
+|switch|p1a: SEIGBERT TARRASH|Alakazam, F|17/100
+|
+|upkeep
+|turn|11
+|
+|t:|1644082029
+|move|p2a: Scizor|Bullet Punch|p1a: SEIGBERT TARRASH
+|-damage|p1a: SEIGBERT TARRASH|0 fnt
+|faint|p1a: SEIGBERT TARRASH
+|-damage|p2a: Scizor|69/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644082031
+|switch|p1a: Jellicent|Jellicent, F|83/100
+|turn|12
+|
+|t:|1644082033
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Dragonite|[miss]
+|-miss|p1a: Jellicent|p2a: Dragonite
+|
+|upkeep
+|turn|13
+|
+|t:|1644082037
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|69/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1644082043
+|move|p2a: Dragonite|Outrage|p1a: Tyranitar
+|-damage|p1a: Tyranitar|23/100
+|move|p1a: Tyranitar|Crunch|p2a: Dragonite
+|-damage|p2a: Dragonite|34/100
+|-unboost|p2a: Dragonite|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|28/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1644082049
+|move|p2a: Dragonite|Outrage|p1a: Tyranitar|[from]lockedmove
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-start|p2a: Dragonite|confusion|[fatigue]
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-end|p2a: Dragonite|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|21/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644082051
+|switch|p1a: Jellicent|Jellicent, F|83/100
+|turn|16
+|
+|t:|1644082054
+|move|p2a: Dragonite|Outrage|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|win|THE PDC SHOW

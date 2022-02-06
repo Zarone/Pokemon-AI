@@ -1,0 +1,281 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644016167
+|gametype|singles
+|player|p1|LA BICHOTA|lady-gen3|
+|player|p2|Spl4sh|#splxiiicryonicles|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tentacruel, M|item
+|poke|p1|Politoed, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Jirachi|item
+|poke|p2|Starmie|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Cloyster, F|item
+|teampreview
+|inactive|LA BICHOTA also wants the timer to be on.
+|c|☆LA BICHOTA|hf
+|c|☆Spl4sh|u2
+|
+|t:|1644016194
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1644016201
+|move|p2a: Garchomp|Stealth Rock|p1a: Politoed
+|-sidestart|p1: LA BICHOTA|move: Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|60/100
+|-status|p2a: Garchomp|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Garchomp|48/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1644016209
+|switch|p2a: Starmie|Starmie|100/100
+|-item|p2a: Starmie|Air Balloon
+|move|p1a: Politoed|Scald|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|72/100
+|-enditem|p2a: Starmie|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644016216
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644016235
+|move|p2a: Magnezone|Sunny Day|p2a: Magnezone
+|-weather|SunnyDay
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: Spl4sh|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1644016238
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644016245
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1644016247
+|move|p1a: Keldeo|Secret Sword|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-enditem|p2a: Magnezone|Air Balloon
+|faint|p2a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644016250
+|switch|p2a: Starmie|Starmie|72/100
+|-damage|p2a: Starmie|60/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1644016255
+|move|p2a: Starmie|Rapid Spin|p1a: Keldeo
+|-damage|p1a: Keldeo|91/100
+|-sideend|p2: Spl4sh|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|move|p1a: Keldeo|Secret Sword|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1644016258
+|switch|p2a: Garchomp|Garchomp, M|48/100 brn
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|-damage|p2a: Garchomp|36/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1644016277
+|move|p2a: Garchomp|Outrage|p1a: Politoed
+|-damage|p1a: Politoed|67/100
+|move|p1a: Politoed|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644016280
+|switch|p2a: Starmie|Starmie|6/100
+|turn|10
+|
+|t:|1644016283
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Starmie|Thunder|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644016291
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Starmie|Thunder|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|64/100
+|-status|p1a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1644016298
+|move|p2a: Starmie|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|10/100 par
+|move|p1a: Latios|Trick|p2a: Starmie
+|-activate|p1a: Latios|move: Trick|[of] p2a: Starmie
+|-item|p2a: Starmie|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Latios|Choice Scarf|[silent]|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1644016316
+|move|p2a: Starmie|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644016330
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644016342
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|99/100
+|-sideend|p1: LA BICHOTA|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1644016361
+|move|p1a: Tentacruel|Scald|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|81/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|inactive|Spl4sh has 270 seconds left.
+|
+|t:|1644016394
+|move|p2a: Dragonite|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644016398
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|17
+|
+|t:|1644016401
+|move|p2a: Dragonite|Outrage|p1a: Thundurus
+|-enditem|p2a: Dragonite|Dragon Gem|[from] gem
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644016403
+|switch|p1a: Politoed|Politoed, M|79/100
+|turn|18
+|
+|t:|1644016405
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Dragonite|Outrage|p1a: Politoed|[from]lockedmove
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|85/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644016407
+|move|p2a: Dragonite|Outrage|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆LA BICHOTA|gg
+|-message|LA BICHOTA forfeited.
+|
+|win|Spl4sh

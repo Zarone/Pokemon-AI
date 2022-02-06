@@ -1,0 +1,342 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644175299
+|gametype|singles
+|player|p1|Bbeeaa|lucas|
+|player|p2|dice|#splxiiiruiners|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Lapras, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|c|☆dice|gl
+|c|☆Bbeeaa|HF.
+|inactive|Bbeeaa has 270 seconds left.
+|
+|t:|1644175333
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|
+|t:|1644175337
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Bbeeaa|move: Stealth Rock
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: dice|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1644175342
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Landorus|Explosion|p1a: Politoed
+|-damage|p1a: Politoed|9/100
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644175347
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1644175356
+|move|p2a: Jirachi|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|t:|1644175363
+|switch|p2a: Abomasnow|Abomasnow, F|100/100|[from]move: U-turn
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644175367
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1644175370
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Abomasnow
+|-sidestart|p2: dice|move: Toxic Spikes
+|move|p2a: Abomasnow|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|50/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|44/100|[from] Hail
+|-heal|p1a: Tentacruel|50/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1644175379
+|move|p1a: Tentacruel|Rapid Spin|p2a: Abomasnow
+|-damage|p2a: Abomasnow|71/100
+|-sideend|p1: Bbeeaa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Abomasnow|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|10/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tentacruel|4/100|[from] Hail
+|-heal|p1a: Tentacruel|10/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1644175384
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Abomasnow|atk|1
+|move|p2a: Abomasnow|Blizzard|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644175390
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|7
+|
+|t:|1644175401
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|75/100
+|move|p2a: Abomasnow|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-activate|p1a: Jirachi|Substitute|[damage]
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jirachi|69/100|[from] Hail
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644175407
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|82/100|[from] Hail
+|-damage|p1a: Jirachi|69/100|[from] Hail
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644175410
+|move|p2a: Jirachi|U-turn|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|t:|1644175412
+|switch|p2a: Dragonite|Dragonite, M|100/100|[from]move: U-turn
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Jirachi|Thunder|p2a: Dragonite|[miss]
+|-miss|p1a: Jirachi|p2a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jirachi|69/100|[from] Hail
+|-damage|p2a: Dragonite|70/100|[from] Hail
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644175419
+|move|p1a: Jirachi|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|19/100
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Fire Punch|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|24/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jirachi|18/100|[from] Hail
+|-damage|p2a: Dragonite|13/100 par|[from] Hail
+|-heal|p1a: Jirachi|24/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644175423
+|move|p2a: Dragonite|Extreme Speed|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|12/100
+|move|p1a: Jirachi|Psyshock|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jirachi|6/100|[from] Hail
+|-heal|p1a: Jirachi|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644175426
+|switch|p2a: Jirachi|Jirachi|82/100
+|-damage|p2a: Jirachi|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1644175435
+|switch|p1a: Tentacruel|Tentacruel, M|10/100
+|move|p2a: Jirachi|Iron Head|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|70/100|[from] Hail
+|upkeep
+|
+|t:|1644175453
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|13
+|
+|t:|1644175459
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-status|p2a: Cloyster|psn
+|-damage|p2a: Cloyster|76/100 psn|[from] Stealth Rock
+|move|p1a: Lapras|Whirlpool|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|64/100 psn
+|-activate|p2a: Cloyster|move: Whirlpool|[of] p1a: Lapras
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cloyster|52/100 psn|[from] psn
+|-damage|p2a: Cloyster|46/100 psn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1644175464
+|move|p2a: Cloyster|Rapid Spin|p1a: Lapras
+|-damage|p1a: Lapras|95/100
+|-sideend|p2: dice|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Cloyster
+|-sideend|p2: dice|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|-end|p2a: Cloyster|Whirlpool|[partiallytrapped]
+|move|p1a: Lapras|Whirlpool|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|33/100 psn
+|-activate|p2a: Cloyster|move: Whirlpool|[of] p1a: Lapras
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Lapras|100/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|21/100 psn|[from] psn
+|-damage|p2a: Cloyster|15/100 psn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1644175476
+|switch|p1a: Jirachi|Jirachi|12/100
+|move|p2a: Cloyster|Rock Blast|p1a: Jirachi
+|-enditem|p2a: Cloyster|Rock Gem|[from] gem
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|7/100
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|2/100
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|-hitcount|p1: Jirachi|3
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cloyster|2/100 psn|[from] psn
+|upkeep
+|
+|t:|1644175481
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|16
+|c|☆Bbeeaa|Nooooo
+|
+|t:|1644175492
+|move|p1a: Lapras|Ice Shard|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644175497
+|switch|p2a: Abomasnow|Abomasnow, F|71/100
+|turn|17
+|
+|t:|1644175512
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Abomasnow|Wood Hammer|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|81/100
+|-damage|p2a: Abomasnow|64/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|75/100|[from] Hail
+|-heal|p1a: Latias|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1644175523
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Abomasnow|Blizzard|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|29/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Latias|23/100|[from] Hail
+|-heal|p1a: Latias|29/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644175530
+|move|p1a: Latias|Roost|p1a: Latias
+|-heal|p1a: Latias|80/100
+|-singleturn|p1a: Latias|move: Roost
+|move|p2a: Abomasnow|Blizzard|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆dice|gg
+|c|☆Bbeeaa|Robbed
+|c|☆Bbeeaa|GG.
+|c|☆dice|so robbed
+|-message|Bbeeaa forfeited.
+|
+|win|dice

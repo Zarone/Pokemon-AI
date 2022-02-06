@@ -1,0 +1,1387 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640905794
+|gametype|singles
+|player|p1|Laroxyl|#scl1spartans|
+|player|p2|Hockey1|#wcop2020uswest|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p2|Snover, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Frillish, L5, M|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Onix, L5, F|item
+|teampreview
+|c|☆Laroxyl|hf
+|inactive|Laroxyl has 270 seconds left.
+|inactive|Hockey1 has 270 seconds left.
+|c|☆Hockey1|u2
+|inactive|Hockey1 has 240 seconds left.
+|
+|t:|1640905880
+|start
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|switch|p2a: Natu|Natu, L5, M|100/100
+|turn|1
+|inactive|Hockey1 has 270 seconds left.
+|c|+pais|Fsk siamo la trapshit
+|
+|t:|1640905906
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|79/100
+|
+|upkeep
+|turn|2
+|c|+pais|Ollare ollare ollare
+|
+|t:|1640905918
+|move|p1a: Gastly|Sludge Bomb|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|-damage|p1a: Gastly|74/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Laroxyl|mb
+|c|+pais|Paz
+|inactive|Hockey1 has 240 seconds left.
+|c|☆Hockey1|all g
+|
+|t:|1640905954
+|switch|p2a: Onix|Onix, L5, F|100/100
+|turn|3
+|
+|t:|1640905979
+|move|p1a: Gastly|Shadow Ball|p2a: Onix
+|-damage|p2a: Onix|20/100
+|-damage|p1a: Gastly|69/100|[from] item: Life Orb
+|move|p2a: Onix|Rock Blast|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|32/100
+|-crit|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|-hitcount|p1: Gastly|3
+|
+|upkeep
+|inactive|Laroxyl has 270 seconds left.
+|
+|t:|1640906002
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|turn|4
+|
+|t:|1640906006
+|move|p1a: Diglett|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|-damage|p1a: Diglett|95/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640906017
+|switch|p2a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|5
+|
+|t:|1640906025
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Snover|Blizzard|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|-status|p1a: Mienfoo|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|53/100 frz|[from] Hail
+|upkeep
+|turn|6
+|inactive|Hockey1 has 270 seconds left.
+|c|+pais|E certo
+|inactive|Hockey1 has 240 seconds left.
+|
+|t:|1640906073
+|switch|p2a: Frillish|Frillish, L5, M|100/100
+|switch|p1a: Staryu|Staryu, L5|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100|[from] Hail
+|-damage|p2a: Frillish|96/100|[from] Hail
+|upkeep
+|turn|7
+|inactive|Hockey1 has 210 seconds left.
+|
+|t:|1640906106
+|move|p1a: Staryu|Thunder Wave|p2a: Frillish
+|-status|p2a: Frillish|par
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|91/100|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|8
+|inactive|Hockey1 has 210 seconds left.
+|
+|t:|1640906122
+|switch|p1a: Mienfoo|Mienfoo, L5, M|83/100 frz
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|79/100 frz|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1640906139
+|switch|p1a: Staryu|Staryu, L5|91/100
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-crit|p1a: Staryu
+|-damage|p1a: Staryu|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|43/100|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1640906147
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|96/100
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu|[miss]
+|-miss|p2a: Frillish|p1a: Staryu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|91/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1640906164
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|72/100 par
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|86/100|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1640906176
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|84/100 par
+|-start|p1a: Staryu|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Frillish
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1640906194
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferroseed|96/100|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|upkeep
+|turn|14
+|inactive|Laroxyl has 270 seconds left.
+|inactive|Hockey1 has 210 seconds left.
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1640906245
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Mienfoo
+|-damage|p2a: Mienfoo|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|72/100|[from] Hail
+|-damage|p1a: Ferroseed|91/100|[from] Hail
+|upkeep
+|turn|15
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1640906256
+|move|p2a: Mienfoo|High Jump Kick|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|10/100
+|-damage|p2a: Mienfoo|62/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|move|p1a: Ferroseed|Thunder Wave|p2a: Mienfoo
+|-status|p2a: Mienfoo|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferroseed|5/100|[from] Hail
+|-damage|p2a: Mienfoo|58/100 par|[from] Hail
+|upkeep
+|turn|16
+|inactive|Hockey1 has 210 seconds left.
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1640906267
+|move|p1a: Ferroseed|Spikes|p2a: Mienfoo
+|-sidestart|p2: Hockey1|Spikes
+|move|p2a: Mienfoo|U-turn|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-damage|p2a: Mienfoo|48/100 par|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|inactive|Hockey1 has 210 seconds left.
+|
+|t:|1640906294
+|switch|p2a: Snover|Snover, L5, F|100/100|[from]move: U-turn
+|-damage|p2a: Snover|91/100|[from] Spikes
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1640906309
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 frz
+|turn|17
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1640906322
+|switch|p2a: Frillish|Frillish, L5, M|76/100 par
+|-damage|p2a: Frillish|64/100 par|[from] Spikes
+|cant|p1a: Mienfoo|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|96/100 frz|[from] Hail
+|-damage|p2a: Frillish|60/100 par|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1640906329
+|cant|p1a: Mienfoo|frz
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|92/100 frz|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1640906333
+|cant|p1a: Mienfoo|frz
+|move|p2a: Frillish|Hex|p1a: Mienfoo
+|-damage|p1a: Mienfoo|61/100 frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|57/100 frz|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1640906342
+|switch|p1a: Staryu|Staryu, L5|81/100
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|77/100|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|upkeep
+|turn|21
+|
+|t:|1640906353
+|switch|p1a: Mienfoo|Mienfoo, L5, M|87/100 frz
+|move|p2a: Frillish|Will-O-Wisp||[still]
+|-fail|p2a: Frillish
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|83/100 frz|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|22
+|
+|t:|1640906363
+|cant|p1a: Mienfoo|frz
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|79/100 frz|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|upkeep
+|turn|23
+|
+|t:|1640906366
+|switch|p2a: Mienfoo|Mienfoo, L5, F|81/100 par
+|-damage|p2a: Mienfoo|72/100 par|[from] Spikes
+|cant|p1a: Mienfoo|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|74/100 frz|[from] Hail
+|-damage|p2a: Mienfoo|67/100 par|[from] Hail
+|upkeep
+|turn|24
+|inactive|Laroxyl has 270 seconds left.
+|
+|t:|1640906395
+|-curestatus|p1a: Mienfoo|frz|[msg]
+|move|p1a: Mienfoo|High Jump Kick|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|70/100|[from] Hail
+|upkeep
+|
+|t:|1640906415
+|switch|p2a: Natu|Natu, L5, M|100/100
+|turn|25
+|inactive|Laroxyl has 270 seconds left.
+|
+|t:|1640906431
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|move|p2a: Natu|Calm Mind|p2a: Natu
+|-boost|p2a: Natu|spa|1
+|-boost|p2a: Natu|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|96/100|[from] Hail
+|upkeep
+|turn|26
+|inactive|Hockey1 has 240 seconds left.
+|
+|t:|1640906465
+|move|p2a: Natu|Heat Wave|p1a: Vullaby
+|-damage|p1a: Vullaby|68/100
+|move|p1a: Vullaby|Knock Off|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|70/100
+|-enditem|p2a: Natu|Eviolite|[from] move: Knock Off|[of] p1a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|66/100|[from] Hail
+|upkeep
+|turn|27
+|inactive|Laroxyl has 270 seconds left.
+|inactive|Hockey1 has 240 seconds left.
+|
+|t:|1640906480
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Vullaby|Brave Bird|p2a: Natu
+|-damage|p2a: Natu|31/100
+|-damage|p1a: Vullaby|48/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|27/100|[from] Hail
+|upkeep
+|turn|28
+|inactive|Laroxyl has 270 seconds left.
+|
+|t:|1640906491
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|79/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Vullaby|Brave Bird|p2a: Natu
+|-damage|p2a: Natu|9/100
+|-damage|p1a: Vullaby|29/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|5/100|[from] Hail
+|upkeep
+|turn|29
+|
+|t:|1640906501
+|move|p2a: Natu|Heat Wave|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|0 fnt|[from] Hail
+|faint|p2a: Natu
+|upkeep
+|
+|t:|1640906509
+|switch|p2a: Frillish|Frillish, L5, M|80/100 par
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p2a: Frillish|68/100 par|[from] Spikes
+|turn|30
+|
+|t:|1640906516
+|move|p1a: Mienfoo|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|52/100 par
+|-enditem|p2a: Frillish|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Frillish|Will-O-Wisp|p1a: Mienfoo
+|-status|p1a: Mienfoo|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|96/100 brn|[from] Hail
+|-damage|p2a: Frillish|48/100 par|[from] Hail
+|-damage|p1a: Mienfoo|87/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1640906522
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|44/100 par
+|inactive|Laroxyl has 270 seconds left.
+|inactive|Laroxyl has 240 seconds left.
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640906617
+|switch|p1a: Diglett|Diglett, L5, M|95/100|[from]move: U-turn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|96/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|89/100|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|upkeep
+|turn|32
+|inactive|Hockey1 has 270 seconds left.
+|inactive|Laroxyl has 180 seconds left.
+|inactive|Laroxyl has 150 seconds left.
+|
+|t:|1640906695
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 brn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|96/100 brn|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|-damage|p1a: Mienfoo|87/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1640906709
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|84/100 par
+|
+|t:|1640906712
+|switch|p1a: Staryu|Staryu, L5|77/100|[from]move: U-turn
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|58/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|53/100|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|upkeep
+|turn|34
+|
+|t:|1640906721
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|86/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|upkeep
+|turn|35
+|inactive|Laroxyl has 150 seconds left.
+|
+|t:|1640906732
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|60/100 par
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|77/100|[from] Hail
+|-damage|p2a: Frillish|57/100 par|[from] Hail
+|upkeep
+|turn|36
+|inactive|Laroxyl has 150 seconds left.
+|
+|t:|1640906741
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|40/100 par
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|92/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|72/100|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|upkeep
+|turn|37
+|
+|t:|1640906748
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|86/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|38
+|
+|t:|1640906759
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-crit|p2a: Frillish
+|-damage|p2a: Frillish|48/100 par
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|67/100
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|62/100 brn|[from] Hail
+|-damage|p2a: Frillish|44/100 par|[from] Hail
+|-damage|p1a: Staryu|53/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1640906767
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100 brn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|96/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100 brn|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|-damage|p1a: Staryu|86/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1640906775
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 brn
+|move|p2a: Frillish|Hex|p1a: Mienfoo
+|-damage|p1a: Mienfoo|70/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|66/100 brn|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|-damage|p1a: Mienfoo|57/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1640906782
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|84/100 par
+|
+|t:|1640906784
+|switch|p1a: Staryu|Staryu, L5|86/100|[from]move: U-turn
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100 brn|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|-damage|p1a: Staryu|72/100 brn|[from] brn
+|upkeep
+|turn|42
+|inactive|Laroxyl has 180 seconds left.
+|
+|t:|1640906797
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|87/100 brn
+|move|p2a: Frillish|Hex|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|53/100 brn|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|-damage|p1a: Mienfoo|44/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1640906805
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|72/100 par
+|
+|t:|1640906808
+|switch|p1a: Staryu|Staryu, L5|72/100|[from]move: U-turn
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|53/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|48/100|[from] Hail
+|-damage|p2a: Frillish|68/100 par|[from] Hail
+|upkeep
+|turn|44
+|
+|t:|1640906814
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100 brn|[from] Hail
+|-damage|p2a: Frillish|64/100 par|[from] Hail
+|-damage|p1a: Staryu|86/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1640906838
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|74/100 brn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|70/100 brn|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|-damage|p1a: Mienfoo|61/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1640906846
+|move|p1a: Mienfoo|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-crit|p2a: Frillish
+|-damage|p2a: Frillish|76/100 par
+|-start|p1a: Mienfoo|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Frillish
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|35/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|31/100 brn|[from] Hail
+|-damage|p2a: Frillish|72/100 par|[from] Hail
+|-damage|p1a: Mienfoo|22/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1640906856
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|68/100 par
+|
+|t:|1640906858
+|switch|p1a: Staryu|Staryu, L5|86/100|[from]move: U-turn
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|72/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|67/100|[from] Hail
+|-damage|p2a: Frillish|64/100 par|[from] Hail
+|upkeep
+|turn|48
+|
+|t:|1640906869
+|switch|p1a: Mienfoo|Mienfoo, L5, M|53/100 brn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|48/100 brn|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|-damage|p1a: Mienfoo|40/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1640906877
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|92/100 par
+|
+|t:|1640906880
+|switch|p1a: Staryu|Staryu, L5|67/100|[from]move: U-turn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|62/100|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|upkeep
+|turn|50
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640906904
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|51
+|
+|t:|1640906918
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|68/100 par
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|91/100 brn|[from] Hail
+|-damage|p2a: Frillish|64/100 par|[from] Hail
+|-damage|p1a: Staryu|81/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1640906932
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|70/100 brn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|66/100 brn|[from] Hail
+|-damage|p2a: Frillish|60/100 par|[from] Hail
+|-damage|p1a: Mienfoo|57/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1640906940
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|57/100 par
+|
+|t:|1640906947
+|switch|p1a: Staryu|Staryu, L5|81/100|[from]move: U-turn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|77/100|[from] Hail
+|-damage|p2a: Frillish|52/100 par|[from] Hail
+|upkeep
+|turn|54
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640906954
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|36/100 par
+|-start|p1a: Staryu|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Frillish
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|88/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|72/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|55
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640906973
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|81/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|77/100|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|upkeep
+|turn|56
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640906983
+|switch|p1a: Mienfoo|Mienfoo, L5, M|87/100 brn
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|61/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|57/100 brn|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|-damage|p1a: Mienfoo|48/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1640906990
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|72/100 par
+|-start|p1a: Mienfoo|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Frillish
+|
+|t:|1640906995
+|switch|p1a: Staryu|Staryu, L5|77/100|[from]move: U-turn
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|62/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|58/100|[from] Hail
+|-damage|p2a: Frillish|68/100 par|[from] Hail
+|upkeep
+|turn|58
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640907032
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100|[from] Hail
+|-damage|p2a: Frillish|64/100 par|[from] Hail
+|upkeep
+|turn|59
+|
+|t:|1640907040
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|48/100 par
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|91/100|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|60
+|
+|t:|1640907049
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|80/100 par
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|72/100|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|upkeep
+|turn|61
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1640907067
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|60/100 par
+|-start|p1a: Staryu|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Frillish
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|67/100|[from] Hail
+|-damage|p2a: Frillish|57/100 par|[from] Hail
+|upkeep
+|turn|62
+|
+|t:|1640907080
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|63
+|
+|t:|1640907098
+|move|p1a: Staryu|Thunder Wave|p2a: Frillish
+|-fail|p2a: Frillish|par
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|81/100
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|77/100 brn|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|-damage|p1a: Staryu|67/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|t:|1640907117
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|79/100 brn
+|move|p2a: Frillish|Hex|p1a: Mienfoo
+|-damage|p1a: Mienfoo|48/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|44/100 brn|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|-damage|p1a: Mienfoo|35/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|t:|1640907129
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|84/100 par
+|
+|t:|1640907132
+|switch|p1a: Staryu|Staryu, L5|67/100|[from]move: U-turn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|62/100|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|upkeep
+|turn|66
+|
+|t:|1640907143
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100 brn|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|-damage|p1a: Staryu|86/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|t:|1640907162
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|66/100 brn
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|40/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|35/100 brn|[from] Hail
+|-damage|p2a: Frillish|72/100 par|[from] Hail
+|-damage|p1a: Mienfoo|27/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|t:|1640907171
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|68/100 par
+|
+|t:|1640907175
+|switch|p1a: Staryu|Staryu, L5|86/100|[from]move: U-turn
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100 brn|[from] Hail
+|-damage|p2a: Frillish|64/100 par|[from] Hail
+|-damage|p1a: Staryu|72/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|t:|1640907204
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|57/100 brn
+|move|p2a: Frillish|Hex|p1a: Mienfoo
+|-damage|p1a: Mienfoo|27/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|22/100 brn|[from] Hail
+|-damage|p2a: Frillish|60/100 par|[from] Hail
+|-damage|p1a: Mienfoo|14/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1640907213
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|57/100 par
+|-start|p1a: Mienfoo|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Frillish
+|inactive|Laroxyl has 180 seconds left.
+|
+|t:|1640907228
+|switch|p1a: Staryu|Staryu, L5|72/100|[from]move: U-turn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|67/100|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|71
+|inactive|Laroxyl has 180 seconds left.
+|inactive|Laroxyl has 150 seconds left.
+|
+|t:|1640907280
+|switch|p1a: Mienfoo|Mienfoo, L5, M|44/100 brn
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|18/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|14/100 brn|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|-damage|p1a: Mienfoo|5/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|t:|1640907289
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|88/100 par
+|
+|t:|1640907292
+|switch|p1a: Staryu|Staryu, L5|67/100|[from]move: U-turn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|62/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|73
+|inactive|Laroxyl has 150 seconds left.
+|
+|t:|1640907302
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|72/100 par
+|move|p2a: Frillish|Will-O-Wisp|p1a: Staryu
+|-status|p1a: Staryu|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|58/100 brn|[from] Hail
+|-damage|p2a: Frillish|68/100 par|[from] Hail
+|-damage|p1a: Staryu|48/100 brn|[from] brn
+|upkeep
+|turn|74
+|inactive|Laroxyl has 150 seconds left.
+|
+|t:|1640907332
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100 brn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100 brn|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|-damage|p1a: Staryu|86/100 brn|[from] brn
+|upkeep
+|turn|75
+|inactive|Laroxyl has 120 seconds left.
+|inactive|Laroxyl has 90 seconds left.
+|
+|t:|1640907414
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|84/100 par
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|43/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|39/100 brn|[from] Hail
+|-damage|p2a: Frillish|80/100 par|[from] Hail
+|-damage|p1a: Staryu|29/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|t:|1640907427
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|81/100 brn
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|67/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|62/100 brn|[from] Hail
+|-damage|p2a: Frillish|76/100 par|[from] Hail
+|-damage|p1a: Staryu|53/100 brn|[from] brn
+|upkeep
+|turn|77
+|inactive|Laroxyl has 60 seconds left.
+|
+|t:|1640907450
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100 brn
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|86/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100 brn|[from] Hail
+|-damage|p2a: Frillish|72/100 par|[from] Hail
+|-damage|p1a: Staryu|72/100 brn|[from] brn
+|upkeep
+|turn|78
+|inactive|Laroxyl has 60 seconds left.
+|
+|t:|1640907472
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|57/100 par
+|-start|p1a: Staryu|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Frillish
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|67/100 brn|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|-damage|p1a: Staryu|58/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|t:|1640907501
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100 brn
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|58/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|53/100 brn|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|-damage|p1a: Staryu|43/100 brn|[from] brn
+|upkeep
+|turn|80
+|inactive|Laroxyl has 30 seconds left.
+|
+|t:|1640907516
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|96/100 brn
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|53/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|48/100 brn|[from] Hail
+|-damage|p2a: Frillish|88/100 par|[from] Hail
+|-damage|p1a: Staryu|39/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|t:|1640907529
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Diglett|Diglett, L5, M|89/100
+|move|p2a: Frillish|Hex|p1a: Diglett
+|-damage|p1a: Diglett|50/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|45/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|82
+|c|☆Hockey1|damn it couldnt cancel
+|c|☆Hockey1|unfort
+|inactive|Laroxyl has 30 seconds left.
+|inactive|Laroxyl has 20 seconds left.
+|
+|t:|1640907557
+|move|p1a: Diglett|Earthquake|p2a: Frillish
+|-damage|p2a: Frillish|20/100 par
+|-damage|p1a: Diglett|39/100|[from] item: Life Orb
+|move|p2a: Frillish|Scald|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|16/100 par|[from] Hail
+|upkeep
+|inactive|Laroxyl has 25 seconds left this turn.
+|inactive|Laroxyl has 20 seconds left.
+|inactive|Laroxyl has 15 seconds left.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907579
+|switch|p1a: Staryu|Staryu, L5|39/100
+|turn|83
+|inactive|Laroxyl has 15 seconds left this turn.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907589
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|4/100 par
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|57/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|34/100|[from] Hail
+|-damage|p2a: Frillish|52/100 par|[from] Hail
+|upkeep
+|turn|84
+|inactive|Laroxyl has 15 seconds left this turn.
+|inactive|Laroxyl has 10 seconds left.
+|
+|t:|1640907599
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|86/100
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100|[from] Hail
+|-damage|p2a: Frillish|96/100 par|[from] Hail
+|upkeep
+|turn|85
+|inactive|Laroxyl has 20 seconds left this turn.
+|inactive|Laroxyl has 15 seconds left.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907618
+|switch|p1a: Mienfoo|Mienfoo, L5, M|35/100 brn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|31/100 brn|[from] Hail
+|-damage|p2a: Frillish|92/100 par|[from] Hail
+|-damage|p1a: Mienfoo|22/100 brn|[from] brn
+|upkeep
+|turn|86
+|inactive|Laroxyl has 15 seconds left this turn.
+|inactive|Laroxyl has 10 seconds left.
+|
+|t:|1640907625
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|88/100 par
+|-start|p1a: Mienfoo|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Frillish
+|inactive|Laroxyl has 15 seconds left this turn.
+|
+|t:|1640907629
+|switch|p1a: Staryu|Staryu, L5|81/100|[from]move: U-turn
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|77/100|[from] Hail
+|-damage|p2a: Frillish|84/100 par|[from] Hail
+|upkeep
+|turn|87
+|inactive|Laroxyl has 25 seconds left this turn.
+|inactive|Laroxyl has 20 seconds left.
+|inactive|Laroxyl has 15 seconds left.
+|inactive|Laroxyl has 10 seconds left.
+|
+|t:|1640907645
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|68/100 par
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|62/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|58/100|[from] Hail
+|-damage|p2a: Frillish|64/100 par|[from] Hail
+|upkeep
+|turn|88
+|inactive|Laroxyl has 20 seconds left this turn.
+|inactive|Laroxyl has 15 seconds left.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907660
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|48/100 par
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|53/100|[from] Hail
+|-damage|p2a: Frillish|44/100 par|[from] Hail
+|upkeep
+|turn|89
+|inactive|Laroxyl has 15 seconds left this turn.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907673
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|29/100 par
+|move|p2a: Frillish|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|39/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|34/100|[from] Hail
+|-damage|p2a: Frillish|24/100 par|[from] Hail
+|upkeep
+|turn|90
+|inactive|Laroxyl has 15 seconds left this turn.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907697
+|move|p1a: Staryu|Scald|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|8/100 par
+|-start|p1a: Staryu|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Frillish
+|move|p2a: Frillish|Hex|p1a: Staryu
+|-damage|p1a: Staryu|15/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|10/100|[from] Hail
+|-damage|p2a: Frillish|4/100 par|[from] Hail
+|upkeep
+|turn|91
+|inactive|Laroxyl has 15 seconds left this turn.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907712
+|move|p1a: Staryu|Rapid Spin|p2a: Frillish
+|-immune|p2a: Frillish
+|cant|p2a: Frillish|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|5/100|[from] Hail
+|-damage|p2a: Frillish|0 fnt|[from] Hail
+|faint|p2a: Frillish
+|upkeep
+|inactive|Laroxyl has 10 seconds left this turn.
+|
+|t:|1640907716
+|switch|p2a: Snover|Snover, L5, F|91/100
+|-damage|p2a: Snover|82/100|[from] Spikes
+|turn|92
+|inactive|Laroxyl has 20 seconds left this turn.
+|
+|t:|1640907733
+|move|p2a: Snover|Blizzard|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|Laroxyl has 25 seconds left this turn.
+|inactive|Laroxyl has 20 seconds left.
+|
+|t:|1640907739
+|switch|p1a: Mienfoo|Mienfoo, L5, M|53/100 brn
+|turn|93
+|inactive|Laroxyl has 30 seconds left this turn.
+|inactive|Laroxyl has 20 seconds left.
+|inactive|Laroxyl has 15 seconds left.
+|inactive|Laroxyl has 10 seconds left.
+|inactive|Laroxyl has 5 seconds left.
+|
+|t:|1640907765
+|move|p2a: Snover|Blizzard|p1a: Mienfoo
+|-damage|p1a: Mienfoo|9/100 brn
+|move|p1a: Mienfoo|High Jump Kick|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|win|Laroxyl
+|inactive|Laroxyl has 10 seconds left this turn.
+|c|☆Laroxyl|gg wp
+|c|☆Hockey1|gg
+|c|☆Laroxyl|good game bro
+|c|☆Laroxyl|Really splid
+|c|☆Laroxyl|*solid

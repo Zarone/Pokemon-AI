@@ -1,0 +1,361 @@
+|j|☆RubenPaCe
+|j|☆Kounamii
+|t:|1636414098
+|gametype|singles
+|player|p1|RubenPaCe|209|
+|player|p2|Kounamii|nate|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Victini|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Suicune|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Druddigon, M|item
+|poke|p2|Moltres|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Raikou|item
+|poke|p2|Flygon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|c|☆RubenPaCe|gl hf
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636414132
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Stronger|Moltres|100/100
+|-ability|p2a: Stronger|Pressure
+|turn|1
+|
+|t:|1636414138
+|move|p1a: Mew|Stealth Rock|p2a: Stronger
+|-sidestart|p2: Kounamii|move: Stealth Rock
+|move|p2a: Stronger|Fire Blast|p1a: Mew|[miss]
+|-miss|p2a: Stronger|p1a: Mew
+|
+|upkeep
+|turn|2
+|
+|t:|1636414144
+|switch|p2a: I Wonder|Bronzong|100/100
+|-damage|p2a: I Wonder|94/100|[from] Stealth Rock
+|move|p1a: Mew|Tailwind|p1a: Mew
+|-sidestart|p1: RubenPaCe|move: Tailwind
+|
+|-heal|p2a: I Wonder|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1636414148
+|move|p1a: Mew|Taunt|p2a: I Wonder
+|-start|p2a: I Wonder|move: Taunt
+|cant|p2a: I Wonder|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1636414154
+|move|p1a: Mew|Explosion|p2a: I Wonder
+|-enditem|p1a: Mew|Normal Gem|[from] gem
+|-resisted|p2a: I Wonder
+|-damage|p2a: I Wonder|63/100
+|faint|p1a: Mew
+|move|p2a: I Wonder|Gyro Ball|p1: Mew|[notarget]
+|-fail|p2a: I Wonder
+|
+|-heal|p2a: I Wonder|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636414171
+|switch|p1a: Victini|Victini|100/100
+|turn|5
+|
+|t:|1636414190
+|switch|p2a: Everything I Am|Flygon, F|100/100
+|-damage|p2a: Everything I Am|95/100|[from] Stealth Rock
+|move|p1a: Victini|V-create|p2a: Everything I Am
+|-resisted|p2a: Everything I Am
+|-damage|p2a: Everything I Am|19/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-sideend|p1: RubenPaCe|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1636414204
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Everything I Am|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|83/100
+|
+|t:|1636414213
+|switch|p2a: Champion|Blastoise, M|100/100|[from]move: U-turn
+|-damage|p2a: Champion|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Champion|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1636414221
+|move|p1a: Tornadus|Grass Knot|p2a: Champion
+|-supereffective|p2a: Champion
+|-damage|p2a: Champion|33/100
+|-damage|p1a: Tornadus|73/100|[from] item: Life Orb
+|move|p2a: Champion|Rapid Spin|p1a: Tornadus
+|-damage|p1a: Tornadus|68/100
+|-sideend|p2: Kounamii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Champion
+|
+|-heal|p2a: Champion|39/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1636414234
+|switch|p2a: Flashing Lights|Raikou|100/100
+|-ability|p2a: Flashing Lights|Pressure
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: RubenPaCe|move: Tailwind
+|
+|upkeep
+|turn|9
+|
+|t:|1636414243
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Flashing Lights|Hidden Power|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|39/100
+|
+|upkeep
+|turn|10
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636414281
+|switch|p2a: The Glory|Roserade, M|100/100
+|move|p1a: Nidoking|Fire Blast|p2a: The Glory
+|-supereffective|p2a: The Glory
+|-damage|p2a: The Glory|19/100
+|
+|-heal|p2a: The Glory|25/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636414288
+|move|p1a: Nidoking|Ice Beam|p2a: The Glory
+|-supereffective|p2a: The Glory
+|-damage|p2a: The Glory|0 fnt
+|faint|p2a: The Glory
+|
+|-sideend|p1: RubenPaCe|move: Tailwind
+|upkeep
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636414295
+|switch|p2a: Flashing Lights|Raikou|100/100
+|-ability|p2a: Flashing Lights|Pressure
+|turn|12
+|
+|t:|1636414303
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Flashing Lights|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|55/100
+|
+|upkeep
+|turn|13
+|
+|t:|1636414311
+|switch|p2a: I Wonder|Bronzong|69/100
+|move|p1a: Druddigon|Earthquake|p2a: I Wonder
+|-supereffective|p2a: I Wonder
+|-damage|p2a: I Wonder|0 fnt
+|faint|p2a: I Wonder
+|
+|upkeep
+|
+|t:|1636414318
+|switch|p2a: Stronger|Moltres|100/100
+|-ability|p2a: Stronger|Pressure
+|turn|14
+|
+|t:|1636414321
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Stronger|Hurricane|p1a: Suicune
+|-damage|p1a: Suicune|25/100
+|-damage|p2a: Stronger|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Suicune|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1636414342
+|switch|p2a: Flashing Lights|Raikou|100/100
+|-ability|p2a: Flashing Lights|Pressure
+|switch|p1a: Druddigon|Druddigon, M|55/100
+|-ability|p1a: Druddigon|Mold Breaker
+|
+|upkeep
+|turn|16
+|
+|t:|1636414350
+|switch|p2a: Champion|Blastoise, M|39/100
+|move|p1a: Druddigon|Outrage|p2a: Champion
+|-damage|p2a: Champion|0 fnt
+|faint|p2a: Champion
+|
+|upkeep
+|
+|t:|1636414353
+|switch|p2a: Stronger|Moltres|91/100
+|-ability|p2a: Stronger|Pressure
+|turn|17
+|
+|t:|1636414357
+|move|p2a: Stronger|Hurricane|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|-damage|p2a: Stronger|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636414360
+|switch|p1a: Tornadus|Tornadus, M|68/100
+|turn|18
+|
+|t:|1636414365
+|move|p1a: Tornadus|Hurricane|p2a: Stronger
+|-damage|p2a: Stronger|0 fnt
+|faint|p2a: Stronger
+|-damage|p1a: Tornadus|58/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636414369
+|switch|p2a: Flashing Lights|Raikou|100/100
+|-ability|p2a: Flashing Lights|Pressure
+|turn|19
+|c|☆Kounamii|Ofc you hit
+|
+|t:|1636414379
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: RubenPaCe|move: Tailwind
+|move|p2a: Flashing Lights|Substitute|p2a: Flashing Lights
+|-start|p2a: Flashing Lights|Substitute
+|-damage|p2a: Flashing Lights|76/100
+|
+|-heal|p2a: Flashing Lights|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1636414395
+|move|p1a: Tornadus|Grass Knot|p2a: Flashing Lights
+|-end|p2a: Flashing Lights|Substitute
+|-damage|p1a: Tornadus|48/100|[from] item: Life Orb
+|move|p2a: Flashing Lights|Calm Mind|p2a: Flashing Lights
+|-boost|p2a: Flashing Lights|spa|1
+|-boost|p2a: Flashing Lights|spd|1
+|
+|-heal|p2a: Flashing Lights|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1636414401
+|move|p1a: Tornadus|Superpower|p2a: Flashing Lights
+|-damage|p2a: Flashing Lights|34/100
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|39/100|[from] item: Life Orb
+|move|p2a: Flashing Lights|Substitute|p2a: Flashing Lights
+|-start|p2a: Flashing Lights|Substitute
+|-damage|p2a: Flashing Lights|10/100
+|
+|-heal|p2a: Flashing Lights|16/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1636414407
+|move|p1a: Tornadus|Superpower|p2a: Flashing Lights
+|-end|p2a: Flashing Lights|Substitute
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|29/100|[from] item: Life Orb
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-heal|p2a: Flashing Lights|22/100|[from] item: Leftovers
+|-sideend|p1: RubenPaCe|move: Tailwind
+|upkeep
+|
+|t:|1636414414
+|switch|p1a: Victini|Victini|100/100
+|turn|23
+|
+|t:|1636414423
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Victini
+|-damage|p1a: Victini|35/100
+|move|p1a: Victini|Brick Break|p2a: Flashing Lights
+|-crit|p2a: Flashing Lights
+|-damage|p2a: Flashing Lights|0 fnt
+|faint|p2a: Flashing Lights
+|
+|upkeep
+|
+|t:|1636414428
+|switch|p2a: Everything I Am|Flygon, F|19/100
+|turn|24
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636414462
+|move|p2a: Everything I Am|Earthquake|p1a: Victini
+|-supereffective|p1a: Victini
+|-crit|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1636414464
+|switch|p1a: Suicune|Suicune|31/100
+|-ability|p1a: Suicune|Pressure
+|turn|25
+|
+|t:|1636414466
+|move|p2a: Everything I Am|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1636414468
+|switch|p1a: Nidoking|Nidoking, M|39/100
+|turn|26
+|
+|t:|1636414470
+|move|p2a: Everything I Am|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|win|Kounamii
+|l|☆RubenPaCe

@@ -1,0 +1,1365 @@
+|j|☆Hitmonstars
+|j|☆lolnoob2
+|t:|1639738181
+|gametype|singles
+|player|p1|Hitmonstars|silver-gen2kanto|
+|player|p2|lolnoob2|bugsy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Darmanitan, F|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Gligar, F|item
+|poke|p2|Raikou|item
+|poke|p2|Cresselia, F|item
+|poke|p2|Togekiss, F|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Gligar, M|item
+|poke|p2|Blastoise, M|item
+|teampreview
+|c|☆Hitmonstars|Hf
+|c|☆lolnoob2|hf
+|
+|t:|1639738228
+|start
+|switch|p1a: Xatu|Xatu, M|100/100
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hitmonstars)
+|
+|t:|1639738244
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Xatu|Grass Knot|p2a: Umbreon
+|-damage|p2a: Umbreon|94/100
+|
+|-heal|p2a: Umbreon|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1639738256
+|move|p1a: Xatu|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|80/100
+|
+|t:|1639738258
+|switch|p1a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Foul Play|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|55/100
+|
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1639738264
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639738273
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Mienshao|U-turn|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|84/100
+|-damage|p1a: Mienshao|45/100|[from] item: Life Orb
+|
+|t:|1639738281
+|switch|p1a: Lanturn|Lanturn, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Togekiss|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639738296
+|switch|p2a: Umbreon|Umbreon, M|93/100
+|move|p1a: Lanturn|Toxic|p2a: Umbreon
+|-status|p2a: Umbreon|tox
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Lanturn|tox
+|
+|-heal|p2a: Umbreon|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|93/100 tox|[from] psn
+|-damage|p1a: Lanturn|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1639738306
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2a: Umbreon|tox|[msg]
+|move|p1a: Lanturn|Heal Bell|p1a: Lanturn
+|-activate|p1a: Lanturn|move: Heal Bell
+|-curestatus|p1a: Lanturn|tox|[msg]
+|
+|-heal|p2a: Umbreon|99/100|[from] item: Leftovers
+|-heal|p1a: Lanturn|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1639738320
+|move|p2a: Umbreon|Foul Play|p1a: Lanturn
+|-damage|p1a: Lanturn|77/100
+|move|p1a: Lanturn|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|89/100
+|
+|t:|1639738322
+|switch|p1a: Gligar|Gligar, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Umbreon|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639738339
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Gligar|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: lolnoob2|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1639738345
+|switch|p1a: Lanturn|Lanturn, M|77/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Lanturn
+|-damage|p1a: Lanturn|73/100
+|-sideend|p2: lolnoob2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p1a: Lanturn|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1639738364
+|switch|p2a: Umbreon|Umbreon, M|95/100
+|move|p1a: Lanturn|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|86/100
+|
+|t:|1639738369
+|switch|p1a: Mienshao|Mienshao, F|78/100|[from]move: Volt Switch
+|
+|-heal|p2a: Umbreon|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639738374
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1639738378
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|92/100
+|-damage|p1a: Mienshao|69/100|[from] item: Life Orb
+|
+|t:|1639738390
+|switch|p1a: Xatu|Xatu, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1639738401
+|move|p2a: Gligar|Aerial Ace|p1a: Xatu
+|-damage|p1a: Xatu|85/100
+|-damage|p2a: Gligar|76/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|move|p1a: Xatu|Night Shade|p2a: Gligar
+|-damage|p2a: Gligar|45/100
+|
+|upkeep
+|turn|14
+|
+|t:|1639738414
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|95/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Xatu|U-turn|p2a: Gligar
+|-damage|p2a: Gligar|88/100
+|
+|t:|1639738419
+|switch|p1a: Mew|Mew|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1639738434
+|switch|p2a: Togekiss|Togekiss, F|90/100
+|move|p1a: Mew|Trick|p2a: Togekiss
+|-activate|p1a: Mew|move: Trick|[of] p2a: Togekiss
+|-item|p2a: Togekiss|Choice Scarf|[from] move: Trick
+|-item|p1a: Mew|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|16
+|
+|t:|1639738447
+|switch|p1a: Lanturn|Lanturn, M|79/100
+|move|p2a: Togekiss|Air Slash|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|68/100
+|
+|-heal|p1a: Lanturn|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1639738471
+|switch|p2a: Gligar|Gligar, M|88/100
+|move|p1a: Lanturn|Toxic|p2a: Gligar
+|-immune|p2a: Gligar|[from] ability: Immunity
+|
+|-heal|p1a: Lanturn|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1639738479
+|move|p2a: Gligar|Earthquake|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|18/100
+|move|p1a: Lanturn|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|43/100
+|
+|-heal|p1a: Lanturn|25/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1639738486
+|switch|p1a: Gligar|Gligar, F|100/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|93/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1639738495
+|move|p2a: Gligar|Aerial Ace|p1a: Gligar
+|-damage|p1a: Gligar|93/100
+|move|p1a: Gligar|Stealth Rock|p2a: Gligar
+|-sidestart|p2: lolnoob2|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1639738501
+|move|p2a: Gligar|Stealth Rock|p1a: Gligar
+|-sidestart|p1: Hitmonstars|move: Stealth Rock
+|move|p1a: Gligar|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|90/100
+|
+|t:|1639738504
+|switch|p1a: Mew|Mew|100/100|[from]move: U-turn
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1639738518
+|move|p1a: Mew|Giga Drain|p2a: Gligar
+|-damage|p2a: Gligar|68/100
+|-heal|p1a: Mew|100/100|[from] drain|[of] p2a: Gligar
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|23
+|
+|t:|1639738529
+|switch|p2a: Umbreon|Umbreon, M|98/100
+|-damage|p2a: Umbreon|85/100|[from] Stealth Rock
+|move|p1a: Mew|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|74/100
+|
+|-heal|p2a: Umbreon|80/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1639738536
+|move|p1a: Mew|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|56/100
+|
+|t:|1639738539
+|switch|p1a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|move|p2a: Umbreon|Foul Play|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|52/100
+|
+|-heal|p2a: Umbreon|62/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1639738546
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1639738550
+|switch|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|move|p1a: Mienshao|High Jump Kick|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|66/100
+|-damage|p1a: Mienshao|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|
+|t:|1639738557
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|58/100
+|-damage|p1a: Mienshao|32/100|[from] item: Life Orb
+|
+|t:|1639738561
+|switch|p1a: Lanturn|Lanturn, M|25/100|[from]move: U-turn
+|-damage|p1a: Lanturn|12/100|[from] Stealth Rock
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|-heal|p1a: Lanturn|18/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1639738565
+|move|p2a: Gligar|Earthquake|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+|
+|t:|1639738569
+|switch|p1a: Xatu|Xatu, M|85/100
+|-damage|p1a: Xatu|60/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1639738588
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Xatu|Night Shade|p2a: Raikou
+|-damage|p2a: Raikou|57/100
+|
+|-heal|p2a: Raikou|63/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1639738599
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Xatu|U-turn|p2a: Raikou
+|-damage|p2a: Raikou|47/100
+|
+|t:|1639738602
+|switch|p1a: Darmanitan|Darmanitan, F|100/100|[from]move: U-turn
+|-damage|p1a: Darmanitan|75/100|[from] Stealth Rock
+|
+|-heal|p2a: Raikou|53/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1639738610
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Darmanitan|Flare Blitz|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|60/100
+|-damage|p1a: Darmanitan|66/100|[from] Recoil
+|
+|-heal|p2a: Blastoise|66/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1639738615
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|move|p2a: Blastoise|Rapid Spin|p1a: Mew
+|-damage|p1a: Mew|84/100
+|-sideend|p2: lolnoob2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p1a: Mew|91/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|72/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1639738624
+|switch|p2a: Umbreon|Umbreon, M|69/100
+|move|p1a: Mew|Trick|p2a: Umbreon
+|-activate|p1a: Mew|move: Trick|[of] p2a: Umbreon
+|-item|p2a: Umbreon|Leftovers|[from] move: Trick
+|-item|p1a: Mew|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Mew|97/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|75/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1639738629
+|move|p1a: Mew|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|52/100
+|
+|t:|1639738632
+|switch|p1a: Mienshao|Mienshao, F|65/100|[from]move: U-turn
+|-damage|p1a: Mienshao|59/100|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|58/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1639738637
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|U-turn|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|36
+|
+|t:|1639738641
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|94/100
+|-damage|p1a: Mienshao|49/100|[from] item: Life Orb
+|
+|t:|1639738647
+|switch|p1a: Gligar|Gligar, F|93/100|[from]move: U-turn
+|-damage|p1a: Gligar|81/100|[from] Stealth Rock
+|
+|upkeep
+|turn|37
+|
+|t:|1639738655
+|switch|p2a: Blastoise|Blastoise, M|72/100
+|move|p1a: Gligar|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|63/100
+|
+|t:|1639738660
+|switch|p1a: Mew|Mew|97/100|[from]move: U-turn
+|-damage|p1a: Mew|84/100|[from] Stealth Rock
+|
+|-heal|p1a: Mew|91/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|69/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1639738666
+|switch|p2a: Togekiss|Togekiss, F|90/100
+|move|p1a: Mew|U-turn|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|83/100
+|
+|t:|1639738671
+|switch|p1a: Darmanitan|Darmanitan, F|66/100|[from]move: U-turn
+|-damage|p1a: Darmanitan|41/100|[from] Stealth Rock
+|
+|upkeep
+|turn|39
+|
+|t:|1639738683
+|move|p1a: Darmanitan|Flare Blitz|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|-damage|p1a: Darmanitan|13/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1639738690
+|switch|p2a: Gligar|Gligar, M|94/100
+|turn|40
+|
+|t:|1639738693
+|move|p1a: Darmanitan|Flare Blitz|p2a: Gligar
+|-damage|p2a: Gligar|54/100
+|-damage|p1a: Darmanitan|1/100|[from] Recoil
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|41
+|
+|t:|1639738697
+|move|p1a: Darmanitan|Flare Blitz|p2a: Gligar
+|-damage|p2a: Gligar|55/100
+|-damage|p1a: Darmanitan|0 fnt|[from] Recoil
+|faint|p1a: Darmanitan
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|
+|t:|1639738701
+|switch|p1a: Xatu|Xatu, M|60/100
+|-damage|p1a: Xatu|35/100|[from] Stealth Rock
+|turn|42
+|
+|t:|1639738721
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|85/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|upkeep
+|turn|43
+|
+|t:|1639738735
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Xatu|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|79/100
+|
+|t:|1639738741
+|switch|p1a: Mienshao|Mienshao, F|82/100|[from]move: U-turn
+|-damage|p1a: Mienshao|75/100|[from] Stealth Rock
+|
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1639738745
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|Stone Edge|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1639738749
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|80/100
+|-damage|p1a: Mienshao|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|46
+|
+|t:|1639738755
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|72/100
+|-damage|p1a: Mienshao|56/100|[from] item: Life Orb
+|
+|t:|1639738758
+|switch|p1a: Xatu|Xatu, M|85/100|[from]move: U-turn
+|-damage|p1a: Xatu|60/100|[from] Stealth Rock
+|move|p2a: Gligar|Aerial Ace|p1a: Xatu
+|-damage|p1a: Xatu|47/100
+|-damage|p2a: Gligar|55/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|upkeep
+|turn|47
+|
+|t:|1639738762
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|97/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|upkeep
+|turn|48
+|
+|t:|1639738768
+|move|p2a: Gligar|Aerial Ace|p1a: Xatu
+|-damage|p1a: Xatu|83/100
+|-damage|p2a: Gligar|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|move|p1a: Xatu|Night Shade|p2a: Gligar
+|-damage|p2a: Gligar|54/100
+|
+|upkeep
+|turn|49
+|inactive|Hitmonstars has 120 seconds left.
+|
+|t:|1639738807
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Xatu|Night Shade|p2a: Gligar
+|-damage|p2a: Gligar|70/100
+|
+|upkeep
+|turn|50
+|inactive|Hitmonstars has 120 seconds left.
+|
+|t:|1639738814
+|move|p2a: Gligar|Aerial Ace|p1a: Xatu
+|-damage|p1a: Xatu|68/100
+|-damage|p2a: Gligar|54/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|move|p1a: Xatu|Night Shade|p2a: Gligar
+|-damage|p2a: Gligar|23/100
+|
+|upkeep
+|turn|51
+|
+|t:|1639738818
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|73/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Xatu|Night Shade|p2a: Gligar
+|-damage|p2a: Gligar|43/100
+|
+|upkeep
+|turn|52
+|
+|t:|1639738821
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|93/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Xatu|Grass Knot|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|58/100
+|
+|upkeep
+|turn|53
+|
+|t:|1639738828
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|move|p1a: Xatu|Night Shade|p2a: Gligar
+|-damage|p2a: Gligar|70/100
+|
+|upkeep
+|turn|54
+|
+|t:|1639738831
+|switch|p2a: Umbreon|Umbreon, M|91/100
+|move|p1a: Xatu|Grass Knot|p2a: Umbreon
+|-damage|p2a: Umbreon|84/100
+|
+|-heal|p2a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1639738837
+|move|p1a: Xatu|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|71/100
+|
+|t:|1639738839
+|switch|p1a: Mienshao|Mienshao, F|89/100|[from]move: U-turn
+|-damage|p1a: Mienshao|82/100|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|77/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1639738844
+|switch|p2a: Gligar|Gligar, M|70/100
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|62/100
+|-damage|p1a: Mienshao|73/100|[from] item: Life Orb
+|
+|-heal|p2a: Gligar|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|57
+|
+|t:|1639738873
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|93/100
+|-damage|p1a: Mienshao|63/100|[from] item: Life Orb
+|inactive|Hitmonstars has 120 seconds left.
+|
+|t:|1639738884
+|switch|p1a: Gligar|Gligar, F|81/100|[from]move: U-turn
+|-damage|p1a: Gligar|68/100|[from] Stealth Rock
+|move|p2a: Gligar|Aerial Ace|p1a: Gligar
+|-damage|p1a: Gligar|60/100
+|
+|upkeep
+|turn|58
+|
+|t:|1639738893
+|switch|p2a: Blastoise|Blastoise, M|69/100
+|move|p1a: Gligar|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: lolnoob2|move: Stealth Rock
+|
+|-heal|p2a: Blastoise|75/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1639738904
+|move|p1a: Gligar|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|67/100
+|
+|t:|1639738907
+|switch|p1a: Xatu|Xatu, M|68/100|[from]move: U-turn
+|-damage|p1a: Xatu|44/100|[from] Stealth Rock
+|move|p2a: Blastoise|Rapid Spin|p1a: Xatu
+|-damage|p1a: Xatu|40/100
+|-damage|p2a: Blastoise|50/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|-sideend|p2: lolnoob2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|57/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1639738912
+|switch|p2a: Raikou|Raikou|53/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|90/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|-heal|p2a: Raikou|59/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1639738918
+|move|p2a: Raikou|Thunderbolt|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-heal|p2a: Raikou|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639738922
+|switch|p1a: Mienshao|Mienshao, F|96/100
+|-damage|p1a: Mienshao|89/100|[from] Stealth Rock
+|turn|62
+|
+|t:|1639738938
+|switch|p2a: Gligar|Gligar, M|93/100
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|85/100
+|-damage|p1a: Mienshao|80/100|[from] item: Life Orb
+|
+|upkeep
+|turn|63
+|inactiveoff|Battle timer is now OFF.
+|c|☆Hitmonstars|I gotta get something gimme like a minute
+|c|☆Hitmonstars|Brb
+|c|☆lolnoob2|ok
+|c|☆lolnoob2|but seems over
+|c|☆Hitmonstars|Aite I'm back
+|
+|t:|1639739065
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|77/100
+|-damage|p1a: Mienshao|70/100|[from] item: Life Orb
+|
+|t:|1639739068
+|switch|p1a: Gligar|Gligar, F|60/100|[from]move: U-turn
+|-damage|p1a: Gligar|48/100|[from] Stealth Rock
+|move|p2a: Gligar|Aerial Ace|p1a: Gligar
+|-damage|p1a: Gligar|39/100
+|
+|upkeep
+|turn|64
+|
+|t:|1639739079
+|switch|p2a: Blastoise|Blastoise, M|57/100
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|89/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|-heal|p2a: Blastoise|63/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1639739084
+|switch|p1a: Mew|Mew|91/100
+|-damage|p1a: Mew|78/100|[from] Stealth Rock
+|move|p2a: Blastoise|Scald|p1a: Mew
+|-damage|p1a: Mew|55/100
+|
+|-heal|p1a: Mew|61/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|69/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1639739111
+|switch|p2a: Umbreon|Umbreon, M|77/100
+|move|p1a: Mew|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|53/100
+|
+|t:|1639739116
+|switch|p1a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Umbreon|59/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1639739120
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|Fake Out|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|65/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1639739130
+|switch|p2a: Gligar|Gligar, M|77/100
+|move|p1a: Mienshao|Stone Edge|p2a: Gligar
+|-damage|p2a: Gligar|56/100
+|-damage|p1a: Mienshao|84/100|[from] item: Life Orb
+|
+|upkeep
+|turn|69
+|
+|t:|1639739136
+|move|p1a: Mienshao|High Jump Kick|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|36/100
+|-damage|p1a: Mienshao|74/100|[from] item: Life Orb
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|86/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|70
+|
+|t:|1639739141
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|78/100
+|-damage|p1a: Mienshao|64/100|[from] item: Life Orb
+|
+|t:|1639739147
+|switch|p1a: Gligar|Gligar, F|89/100|[from]move: U-turn
+|-damage|p1a: Gligar|77/100|[from] Stealth Rock
+|move|p2a: Gligar|Aerial Ace|p1a: Gligar
+|-damage|p1a: Gligar|69/100
+|
+|upkeep
+|turn|71
+|
+|t:|1639739153
+|switch|p2a: Blastoise|Blastoise, M|69/100
+|move|p1a: Gligar|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|49/100
+|
+|-heal|p2a: Blastoise|55/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1639739159
+|switch|p1a: Mew|Mew|61/100
+|-damage|p1a: Mew|49/100|[from] Stealth Rock
+|move|p2a: Blastoise|Scald|p1a: Mew
+|-damage|p1a: Mew|25/100
+|-status|p1a: Mew|brn
+|-activate|p1a: Mew|ability: Synchronize
+|-status|p2a: Blastoise|brn
+|
+|-heal|p1a: Mew|31/100 brn|[from] item: Leftovers
+|-heal|p2a: Blastoise|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|19/100 brn|[from] brn
+|-damage|p2a: Blastoise|49/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|t:|1639739168
+|switch|p2a: Umbreon|Umbreon, M|65/100
+|move|p1a: Mew|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|53/100
+|-heal|p1a: Mew|26/100 brn|[from] drain|[of] p2a: Umbreon
+|
+|-heal|p1a: Mew|32/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|59/100|[from] item: Leftovers
+|-damage|p1a: Mew|20/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|t:|1639739175
+|move|p1a: Mew|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|49/100
+|-heal|p1a: Mew|26/100 brn|[from] drain|[of] p2a: Umbreon
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2: Blastoise|brn|[msg]
+|
+|-heal|p1a: Mew|32/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|55/100|[from] item: Leftovers
+|-damage|p1a: Mew|20/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|t:|1639739181
+|move|p1a: Mew|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|44/100
+|
+|t:|1639739184
+|switch|p1a: Mienshao|Mienshao, F|98/100|[from]move: U-turn
+|-damage|p1a: Mienshao|91/100|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|50/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1639739190
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Mienshao|Fake Out|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|99/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1639739197
+|switch|p2a: Gligar|Gligar, M|78/100
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|70/100
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|
+|t:|1639739200
+|switch|p1a: Mew|Mew|20/100 brn|[from]move: U-turn
+|-damage|p1a: Mew|8/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Mew|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|1/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|t:|1639739206
+|move|p1a: Mew|Giga Drain|p2a: Gligar
+|-damage|p2a: Gligar|49/100
+|-heal|p1a: Mew|11/100 brn|[from] drain|[of] p2a: Gligar
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|99/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|-heal|p1a: Mew|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|5/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|t:|1639739216
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Mew|Trick|p2a: Umbreon
+|-activate|p1a: Mew|move: Trick|[of] p2a: Umbreon
+|-item|p2a: Umbreon|Leftovers|[from] move: Trick
+|-item|p1a: Mew|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Mew|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|0 fnt|[from] brn
+|faint|p1a: Mew
+|upkeep
+|
+|t:|1639739220
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|turn|80
+|
+|t:|1639739225
+|switch|p2a: Gligar|Gligar, M|99/100
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|90/100
+|-damage|p1a: Mienshao|84/100|[from] item: Life Orb
+|
+|upkeep
+|turn|81
+|
+|t:|1639739230
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|83/100
+|-damage|p1a: Mienshao|74/100|[from] item: Life Orb
+|
+|t:|1639739234
+|switch|p1a: Gligar|Gligar, F|69/100|[from]move: U-turn
+|-damage|p1a: Gligar|56/100|[from] Stealth Rock
+|move|p2a: Gligar|Aerial Ace|p1a: Gligar
+|-damage|p1a: Gligar|48/100
+|
+|upkeep
+|turn|82
+|
+|t:|1639739242
+|switch|p2a: Blastoise|Blastoise, M|49/100
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|98/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|-heal|p2a: Blastoise|55/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|t:|1639739245
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|move|p2a: Blastoise|Scald|p1a: Mienshao
+|-damage|p1a: Mienshao|50/100
+|
+|-heal|p2a: Blastoise|61/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1639739250
+|switch|p2a: Gligar|Gligar, M|83/100
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|75/100
+|-damage|p1a: Mienshao|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|85
+|
+|t:|1639739255
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|67/100
+|-damage|p1a: Mienshao|30/100|[from] item: Life Orb
+|
+|t:|1639739257
+|switch|p1a: Gligar|Gligar, F|98/100|[from]move: U-turn
+|-damage|p1a: Gligar|86/100|[from] Stealth Rock
+|move|p2a: Gligar|Aerial Ace|p1a: Gligar
+|-damage|p1a: Gligar|78/100
+|
+|upkeep
+|turn|86
+|
+|t:|1639739260
+|switch|p2a: Blastoise|Blastoise, M|61/100
+|move|p1a: Gligar|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|52/100
+|
+|t:|1639739262
+|switch|p1a: Mienshao|Mienshao, F|63/100|[from]move: U-turn
+|-damage|p1a: Mienshao|57/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|58/100|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|t:|1639739266
+|switch|p2a: Gligar|Gligar, M|67/100
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|58/100
+|-damage|p1a: Mienshao|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|88
+|
+|t:|1639739270
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|51/100
+|-damage|p1a: Mienshao|37/100|[from] item: Life Orb
+|
+|t:|1639739272
+|switch|p1a: Gligar|Gligar, F|78/100|[from]move: U-turn
+|-damage|p1a: Gligar|66/100|[from] Stealth Rock
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|89
+|
+|t:|1639739278
+|switch|p2a: Blastoise|Blastoise, M|58/100
+|move|p1a: Gligar|U-turn|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|39/100
+|
+|t:|1639739280
+|switch|p1a: Mienshao|Mienshao, F|70/100|[from]move: U-turn
+|-damage|p1a: Mienshao|64/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|45/100|[from] item: Leftovers
+|upkeep
+|turn|90
+|
+|t:|1639739284
+|switch|p2a: Gligar|Gligar, M|100/100
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|93/100
+|-damage|p1a: Mienshao|54/100|[from] item: Life Orb
+|
+|t:|1639739286
+|switch|p1a: Gligar|Gligar, F|66/100|[from]move: U-turn
+|-damage|p1a: Gligar|54/100|[from] Stealth Rock
+|
+|upkeep
+|turn|91
+|
+|t:|1639739291
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Gligar|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|87/100
+|
+|t:|1639739294
+|switch|p1a: Mienshao|Mienshao, F|87/100|[from]move: U-turn
+|-damage|p1a: Mienshao|81/100|[from] Stealth Rock
+|
+|-heal|p2a: Cresselia|93/100|[from] item: Leftovers
+|upkeep
+|turn|92
+|
+|t:|1639739300
+|move|p1a: Mienshao|Fake Out|p2a: Cresselia
+|-damage|p2a: Cresselia|83/100
+|-damage|p1a: Mienshao|71/100|[from] item: Life Orb
+|cant|p2a: Cresselia|flinch
+|
+|-heal|p2a: Cresselia|89/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|t:|1639739306
+|move|p1a: Mienshao|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|56/100
+|-damage|p1a: Mienshao|61/100|[from] item: Life Orb
+|
+|t:|1639739307
+|switch|p1a: Gligar|Gligar, F|54/100|[from]move: U-turn
+|-damage|p1a: Gligar|42/100|[from] Stealth Rock
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-heal|p2a: Cresselia|63/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|t:|1639739312
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|38/100
+|move|p1a: Gligar|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: lolnoob2|move: Stealth Rock
+|
+|-heal|p2a: Cresselia|44/100|[from] item: Leftovers
+|upkeep
+|turn|95
+|
+|t:|1639739320
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Gligar|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-activate|p2a: Cresselia|Substitute|[damage]
+|
+|t:|1639739322
+|switch|p1a: Mienshao|Mienshao, F|94/100|[from]move: U-turn
+|-damage|p1a: Mienshao|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Cresselia|50/100|[from] item: Leftovers
+|upkeep
+|turn|96
+|
+|t:|1639739345
+|move|p1a: Mienshao|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|-damage|p1a: Mienshao|78/100|[from] item: Life Orb
+|
+|t:|1639739348
+|switch|p1a: Gligar|Gligar, F|42/100|[from]move: U-turn
+|-damage|p1a: Gligar|29/100|[from] Stealth Rock
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|25/100
+|
+|-heal|p2a: Cresselia|31/100|[from] item: Leftovers
+|upkeep
+|turn|97
+|
+|t:|1639739351
+|move|p2a: Cresselia|Psyshock|p1a: Gligar
+|-damage|p1a: Gligar|9/100
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|59/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|-heal|p2a: Cresselia|37/100|[from] item: Leftovers
+|upkeep
+|turn|98
+|
+|t:|1639739357
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|-heal|p2a: Cresselia|43/100|[from] item: Leftovers
+|upkeep
+|turn|99
+|
+|t:|1639739365
+|move|p2a: Cresselia|Psyshock|p1a: Gligar
+|-damage|p1a: Gligar|76/100
+|move|p1a: Gligar|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|
+|t:|1639739368
+|switch|p1a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Cresselia|49/100|[from] item: Leftovers
+|upkeep
+|turn|100
+|
+|t:|1639739415
+|move|p1a: Mienshao|Fake Out|p2a: Cresselia
+|-damage|p2a: Cresselia|40/100
+|-damage|p1a: Mienshao|84/100|[from] item: Life Orb
+|cant|p2a: Cresselia|flinch
+|
+|-heal|p2a: Cresselia|46/100|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|t:|1639739419
+|move|p1a: Mienshao|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|14/100
+|-damage|p1a: Mienshao|74/100|[from] item: Life Orb
+|
+|t:|1639739422
+|switch|p1a: Gligar|Gligar, F|76/100|[from]move: U-turn
+|-damage|p1a: Gligar|64/100|[from] Stealth Rock
+|move|p2a: Cresselia|Psyshock|p1a: Gligar
+|-damage|p1a: Gligar|39/100
+|
+|-heal|p2a: Cresselia|21/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|t:|1639739427
+|move|p2a: Cresselia|Hidden Power|p1a: Gligar
+|-damage|p1a: Gligar|9/100
+|move|p1a: Gligar|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|t:|1639739431
+|switch|p1a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1639739438
+|switch|p2a: Gligar|Gligar, M|93/100
+|-damage|p2a: Gligar|80/100|[from] Stealth Rock
+|turn|103
+|
+|t:|1639739441
+|move|p1a: Mienshao|U-turn|p2a: Gligar
+|-resisted|p2a: Gligar
+|-damage|p2a: Gligar|72/100
+|-damage|p1a: Mienshao|84/100|[from] item: Life Orb
+|
+|t:|1639739442
+|switch|p1a: Gligar|Gligar, F|9/100|[from]move: U-turn
+|-damage|p1a: Gligar|0 fnt|[from] Stealth Rock
+|faint|p1a: Gligar
+|move|p2a: Gligar|Aerial Ace|p1: Gligar|[notarget]
+|-fail|p2a: Gligar
+|
+|upkeep
+|
+|t:|1639739444
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|turn|104
+|c|☆Hitmonstars|gg
+|
+|t:|1639739449
+|move|p1a: Mienshao|Fake Out|p2a: Gligar
+|-damage|p2a: Gligar|64/100
+|-damage|p1a: Mienshao|84/100|[from] item: Life Orb
+|cant|p2a: Gligar|flinch
+|
+|upkeep
+|turn|105
+|c|☆lolnoob2|gg
+|
+|t:|1639739456
+|move|p1a: Mienshao|Stone Edge|p2a: Gligar
+|-damage|p2a: Gligar|40/100
+|-damage|p1a: Mienshao|74/100|[from] item: Life Orb
+|move|p2a: Gligar|Aerial Ace|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|8/100
+|
+|upkeep
+|turn|106
+|
+|t:|1639739460
+|move|p1a: Mienshao|Stone Edge|p2a: Gligar|[miss]
+|-miss|p1a: Mienshao|p2a: Gligar
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|90/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|107
+|
+|t:|1639739463
+|move|p1a: Mienshao|Stone Edge|p2a: Gligar
+|-damage|p2a: Gligar|67/100
+|-damage|p1a: Mienshao|0 fnt|[from] item: Life Orb
+|faint|p1a: Mienshao
+|
+|win|lolnoob2
+|n|☆Hitmonstars|hitmonstars
+|n|☆lolnoob2|lolnoob2

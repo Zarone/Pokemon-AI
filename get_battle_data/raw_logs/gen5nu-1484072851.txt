@@ -1,0 +1,163 @@
+|j|☆random2046
+|j|☆Al-my69
+|t:|1641144619
+|gametype|singles
+|player|p1|random2046|cynthia|1024
+|player|p2|Al-my69|wallace|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Golurk|item
+|poke|p1|Charizard, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Serperior, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Sawk, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, F|
+|poke|p2|Wartortle, M|item
+|teampreview
+|
+|t:|1641144630
+|start
+|switch|p1a: Golurk|Golurk, shiny|100/100
+|switch|p2a: fest|Zangoose, M|100/100
+|turn|1
+|
+|t:|1641144640
+|move|p2a: fest|Swords Dance|p2a: fest
+|-boost|p2a: fest|atk|2
+|move|p1a: Golurk|Stealth Rock|p2a: fest
+|-sidestart|p2: Al-my69|move: Stealth Rock
+|
+|-status|p2a: fest|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1641144652
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: fest|Night Slash|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|
+|-heal|p1a: Alomomola|69/100|[from] item: Leftovers
+|-damage|p2a: fest|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1641144661
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: fest|Facade|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|76/100|[from] item: Leftovers
+|-damage|p2a: fest|83/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1641144673
+|switch|p1a: Golurk|Golurk, shiny|100/100
+|move|p2a: fest|Facade|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|-damage|p2a: fest|65/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1641144680
+|move|p2a: fest|Night Slash|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-damage|p2a: fest|41/100 tox|[from] psn
+|upkeep
+|
+|t:|1641144688
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|turn|6
+|
+|t:|1641144693
+|move|p1a: Charizard|Air Slash|p2a: fest
+|-damage|p2a: fest|0 fnt
+|faint|p2a: fest
+|-damage|p1a: Charizard|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641144698
+|switch|p2a: Wartortle|Wartortle, M|100/100
+|-damage|p2a: Wartortle|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1641144712
+|move|p1a: Charizard|Air Slash|p2a: Wartortle
+|-damage|p2a: Wartortle|56/100
+|-damage|p1a: Charizard|81/100|[from] item: Life Orb
+|move|p2a: Wartortle|Rapid Spin|p1a: Charizard
+|-damage|p1a: Charizard|77/100
+|-sideend|p2: Al-my69|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Wartortle
+|
+|upkeep
+|turn|8
+|
+|t:|1641144718
+|switch|p1a: Serperior|Serperior, F|100/100
+|move|p2a: Wartortle|Scald|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|90/100
+|
+|-heal|p1a: Serperior|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1641144726
+|switch|p2a: zarder|Charizard, F|100/100
+|move|p1a: Serperior|Leech Seed|p2a: zarder
+|-start|p2a: zarder|move: Leech Seed
+|
+|-heal|p1a: Serperior|100/100|[from] item: Leftovers
+|-damage|p2a: zarder|88/100|[from] Leech Seed|[of] p1a: Serperior
+|upkeep
+|turn|10
+|
+|t:|1641144736
+|switch|p1a: Charizard|Charizard, M, shiny|77/100
+|move|p2a: zarder|Air Slash|p1a: Charizard
+|-damage|p1a: Charizard|4/100
+|
+|-damage|p2a: zarder|76/100|[from] Leech Seed|[of] p1a: Charizard
+|-heal|p1a: Charizard|16/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1641144743
+|move|p1a: Charizard|Ancient Power|p2a: zarder
+|-supereffective|p2a: zarder
+|-damage|p2a: zarder|0 fnt
+|faint|p2a: zarder
+|-damage|p1a: Charizard|7/100|[from] item: Life Orb
+|
+|upkeep
+|-message|Al-my69 forfeited.
+|
+|win|random2046
+|raw|random2046's rating: 1024 &rarr; <strong>1058</strong><br />(+34 for winning)
+|raw|Al-my69's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆Al-my69

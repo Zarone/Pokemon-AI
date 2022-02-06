@@ -1,0 +1,301 @@
+|j|☆NoHacksJustSugar
+|j|☆TheKingKarp
+|t:|1631723012
+|gametype|singles
+|player|p1|NoHacksJustSugar|2|
+|player|p2|TheKingKarp|jasmine-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Swellow, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Zangoose, F|item
+|poke|p1|Gothorita, M|item
+|poke|p1|Golurk|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Regirock|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|j|*BB-8-NU
+|j| Phantomistix
+|j| Ninja
+|j| tiefling.jpg
+|j|#xerovis
+|c|☆NoHacksJustSugar|Gl
+|c|☆TheKingKarp|u2
+|j|@Oathkeepre
+|c| Phantomistix|lowkey looks like the xbox team but in bw
+|
+|t:|1631723051
+|start
+|switch|p1a: Gothorita|Gothorita, M|100/100
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|turn|1
+|
+|t:|1631723059
+|move|p2a: Skuntank|Pursuit|p1a: Gothorita
+|-supereffective|p1a: Gothorita
+|-damage|p1a: Gothorita|47/100
+|move|p1a: Gothorita|Hidden Power|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|21/100
+|
+|upkeep
+|turn|2
+|
+|t:|1631723066
+|move|p2a: Skuntank|Pursuit|p1a: Gothorita
+|-supereffective|p1a: Gothorita
+|-damage|p1a: Gothorita|0 fnt
+|faint|p1a: Gothorita
+|
+|upkeep
+|
+|t:|1631723077
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|turn|3
+|
+|t:|1631723098
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|
+|t:|1631723128
+|switch|p1a: Golurk|Golurk|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|4
+|
+|t:|1631723136
+|move|p2a: Rotom|Blizzard|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-enditem|p1a: Golurk|Yache Berry|[eat]
+|-enditem|p1a: Golurk|Yache Berry|[weaken]
+|-damage|p1a: Golurk|38/100
+|move|p1a: Golurk|Shadow Punch|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|
+|upkeep
+|turn|5
+|
+|t:|1631723144
+|move|p2a: Rotom|Blizzard|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-crit|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1631723152
+|switch|p1a: Zangoose|Zangoose, F|100/100
+|turn|6
+|
+|t:|1631723156
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Zangoose|Night Slash|p2a: Regirock
+|-damage|p2a: Regirock|90/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|j|+Catalisador
+|
+|t:|1631723169
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Zangoose|Close Combat|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|53/100
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|-damage|p1a: Zangoose|84/100 tox|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|-damage|p1a: Zangoose|78/100 tox|[from] psn
+|upkeep
+|turn|8
+|l| Ninja
+|
+|t:|1631723189
+|move|p1a: Zangoose|Facade|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Zangoose|53/100 tox|[from] ability: Aftermath|[of] p2a: Garbodor
+|-damage|p1a: Zangoose|37/100 tox|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|-damage|p1a: Zangoose|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1631723200
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|turn|9
+|
+|t:|1631723205
+|move|p1a: Zangoose|Quick Attack|p2a: Gurdurr
+|-damage|p2a: Gurdurr|79/100
+|move|p2a: Gurdurr|Mach Punch|p1a: Zangoose
+|-supereffective|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|faint|p1a: Zangoose
+|
+|upkeep
+|
+|t:|1631723214
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|turn|10
+|l| tiefling.jpg
+|
+|t:|1631723233
+|move|p1a: Rotom|Blizzard|p2a: Gurdurr
+|-damage|p2a: Gurdurr|24/100
+|move|p2a: Gurdurr|Drain Punch|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Gurdurr|57/100|[from] drain|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1631723240
+|switch|p1a: Swellow|Swellow, F|100/100
+|turn|11
+|l|+Catalisador
+|
+|t:|1631723254
+|switch|p2a: Regirock|Regirock|90/100
+|move|p1a: Swellow|Facade|p2a: Regirock
+|-resisted|p2a: Regirock
+|-damage|p2a: Regirock|83/100
+|
+|-status|p1a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1631723263
+|move|p1a: Swellow|U-turn|p2a: Regirock
+|-damage|p2a: Regirock|69/100
+|
+|t:|1631723266
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100|[from]move: U-turn
+|move|p2a: Regirock|Stealth Rock|p1a: Kangaskhan
+|-sidestart|p1: NoHacksJustSugar|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|l| Phantomistix
+|j| Phantomistix
+|
+|t:|1631723282
+|switch|p2a: Rotom|Rotom-Frost|20/100
+|move|p1a: Kangaskhan|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|14
+|
+|t:|1631723299
+|move|p1a: Kangaskhan|Sucker Punch||[still]
+|-fail|p1a: Kangaskhan
+|move|p2a: Rotom|Trick|p1a: Kangaskhan
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Kangaskhan
+|-item|p1a: Kangaskhan|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Silk Scarf|[from] move: Trick
+|
+|upkeep
+|turn|15
+|
+|t:|1631723310
+|switch|p2a: Skuntank|Skuntank, F|21/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Kangaskhan|76/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|-damage|p1a: Kangaskhan|69/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1631723316
+|switch|p2a: Regirock|Regirock|69/100
+|turn|16
+|
+|t:|1631723325
+|move|p1a: Kangaskhan|Double-Edge|p2a: Regirock
+|-resisted|p2a: Regirock
+|-damage|p2a: Regirock|56/100
+|-damage|p1a: Kangaskhan|65/100|[from] Recoil
+|move|p2a: Regirock|Stone Edge|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|6/100
+|
+|upkeep
+|turn|17
+|l| Phantomistix
+|
+|t:|1631723335
+|switch|p2a: Rotom|Rotom-Frost|20/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Kangaskhan|2/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1631723341
+|switch|p2a: Gurdurr|Gurdurr, M|57/100
+|turn|18
+|
+|t:|1631723347
+|move|p2a: Gurdurr|Mach Punch|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|
+|t:|1631723350
+|switch|p1a: Swellow|Swellow, F|100/100 tox
+|-damage|p1a: Swellow|76/100 tox|[from] Stealth Rock
+|turn|19
+|
+|t:|1631723354
+|switch|p2a: Regirock|Regirock|56/100
+|move|p1a: Swellow|Facade|p2a: Regirock
+|-resisted|p2a: Regirock
+|-damage|p2a: Regirock|34/100
+|
+|-damage|p1a: Swellow|69/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1631723361
+|move|p1a: Swellow|U-turn|p2a: Regirock
+|-damage|p2a: Regirock|20/100
+|move|p2a: Regirock|Stone Edge|p1a: Swellow
+|-supereffective|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|win|TheKingKarp
+|n|☆NoHacksJustSugar|nohacksjustsugar
+|n|☆TheKingKarp|thekingkarp
+|n| BB-8-NU|bb8nu
+|n|+xerovis|xerovis
+|n|+Oathkeepre|oathkeepre

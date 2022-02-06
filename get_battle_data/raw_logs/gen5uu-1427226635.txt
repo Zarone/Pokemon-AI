@@ -1,0 +1,491 @@
+|j|☆icening
+|j|☆Kounamii
+|t:|1633086971
+|gametype|singles
+|player|p1|icening|102|
+|player|p2|Kounamii|blue-gen7|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Houndoom, M|item
+|poke|p1|Victini|item
+|poke|p1|Whimsicott, F|item
+|poke|p1|Mew|item
+|poke|p1|Omastar, F|item
+|poke|p1|Ferroseed, M|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Togekiss, F|item
+|poke|p2|Raikou|item
+|poke|p2|Flygon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|inactive|Kounamii has 120 seconds left.
+|
+|t:|1633087027
+|start
+|switch|p1a: Mew|Mew, shiny|100/100
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|1
+|
+|t:|1633087054
+|switch|p1a: Ferroseed|Ferroseed, M, shiny|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1633087061
+|move|p2a: Rhyperior|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: icening|move: Stealth Rock
+|move|p1a: Ferroseed|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: Kounamii|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1633087067
+|move|p2a: Rhyperior|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|70/100
+|move|p1a: Ferroseed|Spikes|p2a: Rhyperior
+|-sidestart|p2: Kounamii|Spikes
+|
+|upkeep
+|turn|4
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087111
+|move|p2a: Rhyperior|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|40/100
+|move|p1a: Ferroseed|Gyro Ball|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|78/100
+|
+|-heal|p2a: Rhyperior|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1633087115
+|move|p2a: Rhyperior|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|11/100
+|move|p1a: Ferroseed|Spikes|p2a: Rhyperior
+|-sidestart|p2: Kounamii|Spikes
+|
+|-heal|p2a: Rhyperior|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087127
+|move|p2a: Rhyperior|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|-heal|p2a: Rhyperior|96/100|[from] item: Leftovers
+|upkeep
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087147
+|switch|p1a: Omastar|Omastar, F|100/100
+|-damage|p1a: Omastar|88/100|[from] Stealth Rock
+|turn|7
+|inactive|Kounamii has 120 seconds left.
+|
+|t:|1633087178
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-damage|p2a: Qwilfish|84/100|[from] Spikes
+|-damage|p2a: Qwilfish|72/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Omastar|atk|1
+|move|p1a: Omastar|Surf|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|23/100
+|-damage|p1a: Omastar|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Qwilfish|29/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087196
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|move|p2a: Qwilfish|Spikes|p1a: Omastar
+|-sidestart|p1: icening|Spikes
+|
+|-heal|p2a: Qwilfish|35/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087210
+|move|p1a: Omastar|Surf|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|-damage|p1a: Omastar|68/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633087212
+|switch|p2a: Flygon|Flygon, F|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|turn|10
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087225
+|move|p2a: Flygon|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|upkeep
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087249
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Spikes
+|-damage|p1a: Whimsicott|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1633087256
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Stun Spore|p2a: Togekiss
+|-status|p2a: Togekiss|par
+|
+|-heal|p1a: Whimsicott|82/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087263
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|57/100
+|move|p2a: Togekiss|Thunder Wave||[still]
+|-fail|p2a: Togekiss
+|
+|-heal|p1a: Whimsicott|63/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1633087268
+|move|p1a: Whimsicott|Encore|p2a: Togekiss
+|-start|p2a: Togekiss|Encore
+|move|p2a: Togekiss|Thunder Wave||[still]
+|-fail|p2a: Togekiss
+|
+|-heal|p1a: Whimsicott|69/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1633087281
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|-damage|p2a: Empoleon|78/100|[from] Spikes
+|move|p1a: Whimsicott|Leech Seed|p2a: Empoleon
+|-start|p2a: Empoleon|move: Leech Seed
+|
+|-heal|p1a: Whimsicott|75/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|66/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|87/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1633087299
+|move|p1a: Whimsicott|Stun Spore|p2a: Empoleon
+|-status|p2a: Empoleon|par
+|cant|p2a: Empoleon|par
+|
+|-heal|p1a: Whimsicott|93/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|53/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100|[silent]
+|upkeep
+|turn|16
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087338
+|move|p1a: Whimsicott|Stun Spore|p2a: Empoleon
+|-fail|p2a: Empoleon|par
+|cant|p2a: Empoleon|par
+|
+|-damage|p2a: Empoleon|41/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|17
+|
+|t:|1633087343
+|move|p1a: Whimsicott|Stun Spore|p2a: Empoleon
+|-fail|p2a: Empoleon|par
+|move|p2a: Empoleon|Ice Beam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-damage|p2a: Empoleon|29/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|18
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087360
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|75/100
+|move|p2a: Empoleon|Ice Beam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-heal|p1a: Whimsicott|82/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|16/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|93/100|[silent]
+|upkeep
+|turn|19
+|inactive|icening has 120 seconds left.
+|
+|t:|1633087369
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|68/100
+|cant|p2a: Empoleon|par
+|
+|-heal|p1a: Whimsicott|75/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|4/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|86/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1633087378
+|move|p1a: Whimsicott|Stun Spore|p2a: Empoleon
+|-fail|p2a: Empoleon|par
+|cant|p2a: Empoleon|par
+|
+|-heal|p1a: Whimsicott|92/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|0 fnt|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|96/100|[silent]
+|faint|p2a: Empoleon
+|upkeep
+|
+|t:|1633087380
+|switch|p2a: Togekiss|Togekiss, F|94/100 par
+|-damage|p2a: Togekiss|69/100 par|[from] Stealth Rock
+|turn|21
+|
+|t:|1633087385
+|move|p1a: Whimsicott|Leech Seed|p2a: Togekiss
+|-start|p2a: Togekiss|move: Leech Seed
+|move|p2a: Togekiss|Air Slash|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-heal|p1a: Whimsicott|100/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|75/100 par|[from] item: Leftovers
+|-damage|p2a: Togekiss|63/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|22
+|
+|t:|1633087400
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|75/100
+|move|p2a: Togekiss|Air Slash|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-heal|p1a: Whimsicott|82/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|69/100 par|[from] item: Leftovers
+|-damage|p2a: Togekiss|57/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|96/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1633087410
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|71/100
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100 par
+|-singleturn|p2a: Togekiss|move: Roost
+|
+|-heal|p1a: Whimsicott|77/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|91/100|[silent]
+|upkeep
+|turn|24
+|
+|t:|1633087420
+|move|p1a: Whimsicott|Encore|p2a: Togekiss
+|-start|p2a: Togekiss|Encore
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100 par
+|-singleturn|p2a: Togekiss|move: Roost
+|
+|-heal|p1a: Whimsicott|97/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1633087425
+|move|p1a: Whimsicott|Stun Spore|p2a: Togekiss
+|-fail|p2a: Togekiss|par
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100 par
+|-singleturn|p2a: Togekiss|move: Roost
+|
+|-damage|p2a: Togekiss|88/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|26
+|
+|t:|1633087432
+|move|p1a: Whimsicott|Stun Spore|p2a: Togekiss
+|-fail|p2a: Togekiss|par
+|cant|p2a: Togekiss|par
+|
+|-heal|p2a: Togekiss|94/100 par|[from] item: Leftovers
+|-damage|p2a: Togekiss|82/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-end|p2a: Togekiss|Encore
+|upkeep
+|turn|27
+|
+|t:|1633087440
+|switch|p2a: Rhyperior|Rhyperior, M|96/100
+|-damage|p2a: Rhyperior|80/100|[from] Spikes
+|-damage|p2a: Rhyperior|74/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|
+|-heal|p2a: Rhyperior|80/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1633087447
+|move|p1a: Whimsicott|Leech Seed|p2a: Rhyperior
+|-start|p2a: Rhyperior|move: Leech Seed
+|move|p2a: Rhyperior|Rock Blast|p1a: Whimsicott
+|-activate|p1a: Whimsicott|Substitute|[damage]
+|-activate|p1a: Whimsicott|Substitute|[damage]
+|-hitcount|p1a: Whimsicott|2
+|
+|-heal|p2a: Rhyperior|86/100|[from] item: Leftovers
+|-damage|p2a: Rhyperior|74/100|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|29
+|
+|t:|1633087476
+|move|p1a: Whimsicott|Leech Seed||[still]
+|-fail|p1a: Whimsicott
+|move|p2a: Rhyperior|Rock Blast|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|90/100
+|-hitcount|p1a: Whimsicott|2
+|
+|-heal|p1a: Whimsicott|96/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|80/100|[from] item: Leftovers
+|-damage|p2a: Rhyperior|67/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1633087484
+|switch|p1a: Mew|Mew, shiny|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|-damage|p1a: Mew|76/100|[from] Spikes
+|switch|p2a: Togekiss|Togekiss, F|82/100 par
+|-damage|p2a: Togekiss|57/100 par|[from] Stealth Rock
+|
+|-heal|p1a: Mew|82/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1633087488
+|move|p1a: Mew|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|cant|p2a: Togekiss|move: Taunt|Thunder Wave
+|
+|-heal|p1a: Mew|88/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1633087513
+|switch|p2a: Rhyperior|Rhyperior, M|67/100
+|-damage|p2a: Rhyperior|61/100|[from] Stealth Rock
+|-damage|p2a: Rhyperior|45/100|[from] Spikes
+|move|p1a: Mew|Seismic Toss|p2a: Rhyperior
+|-damage|p2a: Rhyperior|21/100
+|
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|28/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1633087523
+|move|p1a: Mew|Seismic Toss|p2a: Rhyperior
+|-damage|p2a: Rhyperior|5/100
+|move|p2a: Rhyperior|Earthquake|p1a: Mew
+|-damage|p1a: Mew|59/100
+|
+|-heal|p1a: Mew|66/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|11/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1633087531
+|move|p1a: Mew|Seismic Toss|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Mew|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1633087538
+|switch|p2a: Flygon|Flygon, F|95/100
+|-damage|p2a: Flygon|89/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1633087554
+|move|p2a: Flygon|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|44/100
+|
+|t:|1633087558
+|switch|p2a: Raikou|Raikou|100/100|[from]move: U-turn
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-damage|p2a: Raikou|72/100|[from] Spikes
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Mew|Will-O-Wisp|p2a: Raikou
+|-status|p2a: Raikou|brn
+|
+|-heal|p2a: Raikou|78/100 brn|[from] item: Leftovers
+|-heal|p1a: Mew|50/100|[from] item: Leftovers
+|-damage|p2a: Raikou|65/100 brn|[from] brn
+|upkeep
+|turn|36
+|-message|Kounamii forfeited.
+|
+|win|icening
+|n|☆icening|icening
+|n|☆Kounamii|kounamii
+|l|☆Kounamii

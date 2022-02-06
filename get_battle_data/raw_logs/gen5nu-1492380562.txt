@@ -1,0 +1,341 @@
+|j|☆Thicccboi Aqua
+|j|☆jahmille118
+|t:|1642308944
+|gametype|singles
+|player|p1|Thicccboi Aqua|1|1000
+|player|p2|jahmille118|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Altaria, M|item
+|poke|p1|Bastiodon, F|item
+|poke|p1|Cacturne, F|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Gurdurr, M|item
+|poke|p2|Victreebel, F|item
+|poke|p2|Leafeon, F|item
+|poke|p2|Liepard, F|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Camerupt, F|item
+|poke|p2|Golem, F|item
+|teampreview
+|
+|t:|1642308996
+|start
+|switch|p1a: Bastiodon|Bastiodon, F|100/100
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|-item|p1a: Bastiodon|Air Balloon
+|turn|1
+|
+|t:|1642309002
+|move|p2a: Sawsbuck|Double Kick|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|75/100
+|-enditem|p1a: Bastiodon|Air Balloon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|44/100
+|-hitcount|p1a: Bastiodon|2
+|-damage|p2a: Sawsbuck|91/100|[from] item: Life Orb
+|move|p1a: Bastiodon|Stealth Rock|p2a: Sawsbuck
+|-sidestart|p2: jahmille118|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1642309020
+|switch|p1a: Altaria|Altaria, M|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|move|p2a: Sawsbuck|Double Kick|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|92/100
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|84/100
+|-hitcount|p1a: Altaria|2
+|-damage|p2a: Sawsbuck|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1642309030
+|move|p2a: Sawsbuck|Wild Charge|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|-damage|p2a: Sawsbuck|60/100|[from] Recoil
+|-damage|p2a: Sawsbuck|50/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642309053
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|turn|4
+|
+|t:|1642309074
+|move|p1a: Gurdurr|Mach Punch|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|upkeep
+|
+|t:|1642309094
+|switch|p2a: Victreebel|Victreebel, F|100/100
+|-damage|p2a: Victreebel|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1642309101
+|move|p2a: Victreebel|Sludge Bomb|p1a: Gurdurr
+|-damage|p1a: Gurdurr|44/100
+|-damage|p2a: Victreebel|78/100|[from] item: Life Orb
+|move|p1a: Gurdurr|Taunt|p2a: Victreebel
+|-start|p2a: Victreebel|move: Taunt
+|
+|upkeep
+|turn|6
+|
+|t:|1642309107
+|switch|p1a: Bastiodon|Bastiodon, F|44/100
+|move|p2a: Victreebel|Sludge Bomb|p1a: Bastiodon
+|-immune|p1a: Bastiodon
+|
+|upkeep
+|turn|7
+|
+|t:|1642309118
+|switch|p2a: Golem|Golem, F|100/100
+|-damage|p2a: Golem|95/100|[from] Stealth Rock
+|move|p1a: Bastiodon|Roar|p2a: Golem
+|drag|p2a: Liepard|Liepard, F|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1642309126
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Bastiodon|Roar|p2a: Liepard
+|drag|p2a: Victreebel|Victreebel, F|78/100
+|-damage|p2a: Victreebel|66/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1642309147
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Bastiodon
+|-crit|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|faint|p1a: Bastiodon
+|-damage|p2a: Victreebel|56/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642309156
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thicccboi Aqua)
+|
+|t:|1642309201
+|switch|p2a: Golem|Golem, F|95/100
+|-damage|p2a: Golem|89/100|[from] Stealth Rock
+|move|p1a: Eelektross|Flamethrower|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1642309213
+|move|p2a: Golem|Rock Slide|p1a: Eelektross
+|-damage|p1a: Eelektross|60/100
+|cant|p1a: Eelektross|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1642309219
+|move|p2a: Golem|Rock Slide|p1a: Eelektross
+|-damage|p1a: Eelektross|25/100
+|cant|p1a: Eelektross|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1642309231
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Golem|Rock Slide|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alomomola|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1642309242
+|move|p2a: Golem|Rock Slide|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|cant|p1a: Alomomola|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alomomola|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1642309250
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|-damage|p2a: Leafeon|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|none
+|-heal|p1a: Alomomola|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1642309260
+|move|p2a: Leafeon|Leaf Blade|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-damage|p2a: Leafeon|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642309267
+|switch|p1a: Eelektross|Eelektross, M|25/100
+|turn|17
+|
+|t:|1642309279
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|move|p2a: Leafeon|Leaf Blade|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|54/100
+|-damage|p2a: Leafeon|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|t:|1642309302
+|move|p1a: Cacturne|Sucker Punch|p2a: Leafeon
+|-crit|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|-damage|p1a: Cacturne|44/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|jahmille118 has 120 seconds left.
+|inactive|jahmille118 has 90 seconds left.
+|
+|t:|1642309375
+|switch|p2a: Camerupt|Camerupt, F|100/100
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1642309381
+|move|p2a: Camerupt|Rock Polish|p2a: Camerupt
+|-boost|p2a: Camerupt|spe|2
+|move|p1a: Cacturne|Seed Bomb|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|-damage|p1a: Cacturne|34/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|jahmille118 has 90 seconds left.
+|
+|t:|1642309388
+|switch|p2a: Liepard|Liepard, F|88/100
+|-damage|p2a: Liepard|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1642309401
+|switch|p1a: Eelektross|Eelektross, M|25/100
+|move|p2a: Liepard|Fake Out|p1a: Eelektross
+|-damage|p1a: Eelektross|12/100
+|
+|upkeep
+|turn|21
+|
+|t:|1642309414
+|move|p2a: Liepard|Night Slash|p1a: Eelektross
+|-crit|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1642309417
+|switch|p1a: Gurdurr|Gurdurr, M|44/100
+|turn|22
+|
+|t:|1642309427
+|-singleturn|p1a: Gurdurr|move: Focus Punch
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Gurdurr|Focus Punch|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642309439
+|switch|p2a: Victreebel|Victreebel, F|56/100
+|-damage|p2a: Victreebel|44/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1642309447
+|move|p1a: Gurdurr|Mach Punch|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|6/100
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|-damage|p2a: Victreebel|0 fnt|[from] item: Life Orb
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642309460
+|switch|p2a: Golem|Golem, F|34/100
+|switch|p1a: Cacturne|Cacturne, F|34/100
+|-damage|p2a: Golem|28/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1642309485
+|move|p2a: Golem|Fire Punch|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-crit|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|win|jahmille118
+|raw|Thicccboi Aqua's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|jahmille118's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|c|☆Thicccboi Aqua|gg
+|l|☆jahmille118

@@ -1,0 +1,262 @@
+|j|☆RyloBurner
+|j|☆char_67
+|t:|1641845620
+|gametype|singles
+|player|p1|RyloBurner|nurseryaide|1180
+|player|p2|char_67|juan|1142
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Golurk|item
+|poke|p1|Swellow, M|item
+|poke|p1|Gurdurr, M|item
+|poke|p1|Musharna, F|item
+|poke|p1|Ludicolo, F|item
+|poke|p2|Golem, F|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Gorebyss, F|item
+|poke|p2|Torterra, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RyloBurner)
+|l|☆char_67
+|inactive|char_67 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|char_67 has 30 seconds to reconnect!
+|j|☆char_67
+|inactive|char_67 reconnected and has 105 seconds left.
+|player|p2|char_67|juan
+|
+|t:|1641845677
+|start
+|switch|p1a: Ludicolo|Ludicolo, F|100/100
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|turn|1
+|
+|t:|1641845689
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|move|p2a: Skuntank|Poison Jab|p1a: Ludicolo
+|-supereffective|p1a: Ludicolo
+|-damage|p1a: Ludicolo|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1641845695
+|move|p2a: Skuntank|Sucker Punch|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641845701
+|switch|p1a: Golurk|Golurk|100/100
+|turn|3
+|
+|t:|1641845710
+|switch|p2a: Torterra|Torterra, F|100/100
+|move|p1a: Golurk|Stealth Rock|p2a: Torterra
+|-sidestart|p2: char_67|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1641845717
+|move|p2a: Torterra|Wood Hammer|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Torterra|62/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641845723
+|switch|p1a: Swellow|Swellow, M|100/100
+|turn|5
+|
+|t:|1641845728
+|move|p1a: Swellow|U-turn|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|25/100
+|
+|t:|1641845733
+|switch|p1a: Gurdurr|Gurdurr, M|100/100|[from]move: U-turn
+|move|p2a: Torterra|Rock Polish|p2a: Torterra
+|-boost|p2a: Torterra|spe|2
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1641845739
+|move|p2a: Torterra|Wood Hammer|p1a: Gurdurr
+|-damage|p1a: Gurdurr|27/100
+|-damage|p2a: Torterra|0 fnt|[from] Recoil
+|faint|p2a: Torterra
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|upkeep
+|
+|t:|1641845750
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1641845759
+|move|p2a: Primeape|Encore|p1a: Gurdurr
+|-start|p1a: Gurdurr|Encore
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1641845765
+|switch|p2a: Gorebyss|Gorebyss, F|100/100
+|-damage|p2a: Gorebyss|88/100|[from] Stealth Rock
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1641845776
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Gorebyss|Hydro Pump|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100
+|
+|-heal|p1a: Alomomola|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1641845784
+|switch|p2a: Golem|Golem, F|100/100
+|-damage|p2a: Golem|95/100|[from] Stealth Rock
+|move|p1a: Alomomola|Toxic|p2a: Golem
+|-status|p2a: Golem|tox
+|
+|-heal|p1a: Alomomola|84/100|[from] item: Leftovers
+|-damage|p2a: Golem|89/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1641845793
+|move|p2a: Golem|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: RyloBurner|move: Stealth Rock
+|move|p1a: Alomomola|Scald|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|7/100 tox
+|
+|-heal|p1a: Alomomola|91/100|[from] item: Leftovers
+|-damage|p2a: Golem|0 fnt|[from] psn
+|faint|p2a: Golem
+|upkeep
+|
+|t:|1641845803
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641845811
+|move|p2a: Zangoose|Swords Dance|p2a: Zangoose
+|-boost|p2a: Zangoose|atk|2
+|move|p1a: Alomomola|Scald|p2a: Zangoose
+|-crit|p2a: Zangoose
+|-damage|p2a: Zangoose|45/100
+|
+|-heal|p1a: Alomomola|97/100|[from] item: Leftovers
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1641845821
+|move|p2a: Zangoose|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-damage|p2a: Zangoose|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1641845828
+|switch|p1a: Gurdurr|Gurdurr, M|27/100
+|-damage|p1a: Gurdurr|21/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1641845832
+|move|p2a: Zangoose|Quick Attack|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|-damage|p2a: Zangoose|27/100 tox|[from] psn
+|upkeep
+|
+|t:|1641845837
+|switch|p1a: Musharna|Musharna, F|100/100
+|-damage|p1a: Musharna|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1641845851
+|move|p2a: Zangoose|Facade|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|-damage|p2a: Zangoose|10/100 tox|[from] psn
+|upkeep
+|
+|t:|1641845854
+|switch|p1a: Swellow|Swellow, M|100/100
+|-damage|p1a: Swellow|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1641845860
+|move|p1a: Swellow|Protect|p1a: Swellow
+|-singleturn|p1a: Swellow|Protect
+|move|p2a: Zangoose|Quick Attack|p1a: Swellow
+|-activate|p1a: Swellow|move: Protect
+|
+|-damage|p2a: Zangoose|0 fnt|[from] psn
+|faint|p2a: Zangoose
+|-status|p1a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1641845869
+|switch|p2a: Primeape|Primeape, M|95/100
+|-damage|p2a: Primeape|89/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1641845873
+|move|p2a: Primeape|Close Combat|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Swellow
+|
+|win|char_67
+|raw|RyloBurner's rating: 1180 &rarr; <strong>1152</strong><br />(-28 for losing)
+|raw|char_67's rating: 1142 &rarr; <strong>1170</strong><br />(+28 for winning)
+|l|☆RyloBurner

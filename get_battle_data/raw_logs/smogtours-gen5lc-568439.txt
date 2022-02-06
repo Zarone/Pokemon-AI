@@ -1,0 +1,737 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1624842766
+|gametype|singles
+|player|p1|brewfasa|pryce|
+|player|p2|trash|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, M|item
+|poke|p1|Pawniard, L5, M|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Natu, L5, F|item
+|poke|p2|Frillish, L5, M|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Hippopotas, L5, M|item
+|poke|p2|Lileep, L5, F|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Bronzor, L5|item
+|teampreview
+|inactive|brewfasa has 270 seconds left.
+|inactive|trash has 270 seconds left.
+|inactive|trash has 240 seconds left.
+|
+|t:|1624842843
+|start
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|
+|t:|1624842855
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|move|p1a: Frillish|Taunt|p2a: Bronzor
+|-start|p2a: Bronzor|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|96/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1624842863
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Frillish|Shadow Ball|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|22/100
+|-unboost|p2a: Natu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|18/100|[from] Sandstorm
+|-damage|p1a: Frillish|92/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1624842879
+|switch|p2a: Lileep|Lileep, L5, F|100/100
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1624842890
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|move|p1a: Pawniard|Iron Head|p2a: Timburr
+|-damage|p2a: Timburr|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|59/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1624842916
+|switch|p1a: Natu|Natu, L5, F|100/100
+|switch|p2a: Natu|Natu, L5, F|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|14/100|[from] Sandstorm
+|-damage|p1a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|trash has 270 seconds left.
+|
+|t:|1624842938
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|66/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Natu|U-turn|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|31/100
+|
+|t:|1624842945
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|27/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1624842950
+|move|p1a: Pawniard|Pursuit|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1624842954
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|turn|8
+|
+|t:|1624842974
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100
+|move|p2a: Hippopotas|Crunch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1624842986
+|move|p2a: Hippopotas|Stealth Rock|p1a: Hippopotas
+|-sidestart|p1: brewfasa|move: Stealth Rock
+|move|p1a: Hippopotas|Stealth Rock|p2a: Hippopotas
+|-sidestart|p2: trash|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1624843001
+|switch|p1a: Frillish|Frillish, L5, F|92/100
+|-damage|p1a: Frillish|80/100|[from] Stealth Rock
+|move|p2a: Hippopotas|Earthquake|p1a: Frillish
+|-crit|p1a: Frillish
+|-damage|p1a: Frillish|5/100
+|-start|p2a: Hippopotas|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Frillish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|0 fnt|[from] Sandstorm
+|faint|p1a: Frillish
+|upkeep
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1624843032
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|-damage|p1a: Lileep|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1624843044
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|-damage|p2a: Bronzor|96/100|[from] Stealth Rock
+|move|p1a: Lileep|Swords Dance|p1a: Lileep
+|-boost|p1a: Lileep|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|inactive|brewfasa has 240 seconds left.
+|inactive|trash has 270 seconds left.
+|inactive|trash has 240 seconds left.
+|inactive|trash has 210 seconds left.
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1624843164
+|move|p1a: Lileep|Bullet Seed|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|88/100
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|80/100
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|72/100
+|-hitcount|p2a: Bronzor|3
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1624843179
+|move|p1a: Lileep|Swords Dance|p1a: Lileep
+|-boost|p1a: Lileep|atk|2
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1624843188
+|move|p1a: Lileep|Bullet Seed|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|60/100
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|48/100
+|-hitcount|p2a: Bronzor|2
+|move|p2a: Bronzor|Rest|p2a: Bronzor
+|-status|p2a: Bronzor|slp|[from] move: Rest
+|-heal|p2a: Bronzor|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1624843201
+|move|p1a: Lileep|Bullet Seed|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|88/100 slp
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|76/100 slp
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|64/100 slp
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|52/100 slp
+|-hitcount|p2a: Bronzor|4
+|cant|p2a: Bronzor|slp
+|move|p2a: Bronzor|Sleep Talk|p2a: Bronzor
+|move|p2a: Bronzor|Flash Cannon|p1a: Lileep|[from]move: Sleep Talk
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1624843216
+|move|p1a: Lileep|Bullet Seed|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-crit|p2a: Bronzor
+|-damage|p2a: Bronzor|29/100 slp
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|16/100 slp
+|-hitcount|p2a: Bronzor|2
+|cant|p2a: Bronzor|slp
+|move|p2a: Bronzor|Sleep Talk|p2a: Bronzor
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor|[from]move: Sleep Talk
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|inactive|trash has 210 seconds left.
+|
+|t:|1624843239
+|move|p1a: Lileep|Bullet Seed|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-crit|p2a: Bronzor
+|-damage|p2a: Bronzor|0 fnt
+|faint|p2a: Bronzor
+|-hitcount|p2: Bronzor|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|trash has 180 seconds left.
+|inactive|trash has 150 seconds left.
+|
+|t:|1624843320
+|switch|p2a: Timburr|Timburr, L5, M|59/100
+|-damage|p2a: Timburr|55/100|[from] Stealth Rock
+|turn|18
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1624843360
+|move|p1a: Lileep|Bullet Seed|p2a: Timburr
+|-damage|p2a: Timburr|30/100
+|-damage|p2a: Timburr|5/100
+|-hitcount|p2a: Timburr|2
+|move|p2a: Timburr|Drain Punch|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|-heal|p2a: Timburr|25/100|[from] drain|[of] p1a: Lileep
+|faint|p1a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|21/100|[from] Sandstorm
+|upkeep
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1624843380
+|switch|p1a: Natu|Natu, L5, F|96/100
+|-damage|p1a: Natu|74/100|[from] Stealth Rock
+|turn|19
+|inactive|trash has 150 seconds left.
+|
+|t:|1624843391
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-damage|p2a: Hippopotas|96/100|[from] Stealth Rock
+|move|p1a: Natu|Psychic|p2a: Hippopotas
+|-damage|p2a: Hippopotas|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|70/100|[from] Sandstorm
+|upkeep
+|turn|20
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1624843409
+|move|p1a: Natu|Psychic|p2a: Hippopotas
+|-damage|p2a: Hippopotas|40/100
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|66/100|[from] Sandstorm
+|upkeep
+|turn|21
+|inactive|trash has 150 seconds left.
+|
+|t:|1624843426
+|move|p1a: Natu|U-turn|p2a: Hippopotas
+|-damage|p2a: Hippopotas|80/100
+|
+|t:|1624843429
+|switch|p1a: Hippopotas|Hippopotas, L5, M|84/100|[from]move: U-turn
+|-damage|p1a: Hippopotas|80/100|[from] Stealth Rock
+|move|p2a: Hippopotas|Crunch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1624843437
+|switch|p2a: Frillish|Frillish, L5, M|100/100
+|-damage|p2a: Frillish|88/100|[from] Stealth Rock
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|84/100|[from] Sandstorm
+|upkeep
+|turn|23
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1624843471
+|move|p2a: Frillish|Will-O-Wisp|p1a: Hippopotas
+|-status|p1a: Hippopotas|brn
+|move|p1a: Hippopotas|Crunch|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|60/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1624843491
+|switch|p1a: Natu|Natu, L5, F|66/100
+|-damage|p1a: Natu|44/100|[from] Stealth Rock
+|move|p2a: Frillish|Will-O-Wisp|p1a: Natu
+|move|p1a: Natu|Will-O-Wisp|p2a: Frillish|[from]ability: Magic Bounce
+|-status|p2a: Frillish|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|40/100|[from] Sandstorm
+|-damage|p2a: Frillish|57/100 brn|[from] Sandstorm
+|-damage|p2a: Frillish|44/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1624843506
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|92/100
+|-singleturn|p1a: Natu|move: Roost
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|96/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|87/100|[from] Sandstorm
+|-damage|p2a: Frillish|92/100 brn|[from] Sandstorm
+|-damage|p2a: Frillish|80/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|trash has 180 seconds left.
+|inactive|trash has 150 seconds left.
+|
+|t:|1624843541
+|move|p1a: Natu|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|76/100 brn
+|
+|t:|1624843546
+|switch|p1a: Hippopotas|Hippopotas, L5, M|88/100 brn|[from]move: U-turn
+|-damage|p1a: Hippopotas|84/100 brn|[from] Stealth Rock
+|move|p2a: Frillish|Will-O-Wisp|p1a: Hippopotas
+|-fail|p1a: Hippopotas|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|72/100 brn|[from] Sandstorm
+|-damage|p1a: Hippopotas|72/100 brn|[from] brn
+|-damage|p2a: Frillish|60/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1624843561
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 brn
+|move|p1a: Hippopotas|Crunch|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|80/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|76/100 brn|[from] Sandstorm
+|-damage|p2a: Frillish|64/100 brn|[from] brn
+|-damage|p1a: Hippopotas|60/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1624843571
+|move|p1a: Hippopotas|Crunch|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|44/100 brn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|96/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|92/100 brn|[from] Sandstorm
+|-damage|p1a: Hippopotas|48/100 brn|[from] brn
+|-damage|p2a: Frillish|80/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|trash has 180 seconds left.
+|
+|t:|1624843594
+|move|p2a: Frillish|Confuse Ray|p1a: Hippopotas
+|-start|p1a: Hippopotas|confusion
+|-activate|p1a: Hippopotas|confusion
+|-damage|p1a: Hippopotas|32/100 brn|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|76/100 brn|[from] Sandstorm
+|-damage|p1a: Hippopotas|20/100 brn|[from] brn
+|-damage|p2a: Frillish|64/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|brewfasa has 150 seconds left.
+|
+|t:|1624843628
+|-activate|p1a: Hippopotas|confusion
+|-damage|p1a: Hippopotas|8/100 brn|[from] confusion
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|96/100 brn|[from] Sandstorm
+|-damage|p2a: Frillish|84/100 brn|[from] brn
+|-damage|p1a: Hippopotas|0 fnt|[from] brn
+|faint|p1a: Hippopotas
+|upkeep
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1624843654
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p1a: Drilbur|96/100|[from] Stealth Rock
+|turn|31
+|inactive|trash has 150 seconds left.
+|inactive|trash has 120 seconds left.
+|inactive|trash has 90 seconds left.
+|
+|t:|1624843753
+|move|p1a: Drilbur|Earthquake|p2a: Frillish
+|-damage|p2a: Frillish|24/100 brn
+|move|p2a: Frillish|Will-O-Wisp|p1a: Drilbur|[miss]
+|-miss|p2a: Frillish|p1a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|20/100 brn|[from] Sandstorm
+|-damage|p2a: Frillish|8/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|trash has 90 seconds left.
+|
+|t:|1624843769
+|move|p1a: Drilbur|Earthquake|p2a: Frillish
+|-damage|p2a: Frillish|0 fnt
+|faint|p2a: Frillish
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|trash has 60 seconds left.
+|
+|t:|1624843800
+|switch|p2a: Lileep|Lileep, L5, F|100/100
+|-damage|p2a: Lileep|88/100|[from] Stealth Rock
+|turn|33
+|inactive|trash has 60 seconds left.
+|
+|t:|1624843814
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|-damage|p1a: Pawniard|96/100|[from] Stealth Rock
+|move|p2a: Lileep|Giga Drain|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|77/100
+|-heal|p2a: Lileep|96/100|[from] drain|[of] p1a: Pawniard
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|inactive|trash has 60 seconds left.
+|
+|t:|1624843826
+|switch|p1a: Natu|Natu, L5, F|87/100
+|-damage|p1a: Natu|66/100|[from] Stealth Rock
+|switch|p2a: Hippopotas|Hippopotas, L5, M|80/100
+|-damage|p2a: Hippopotas|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|61/100|[from] Sandstorm
+|upkeep
+|turn|35
+|
+|t:|1624843845
+|move|p1a: Natu|Psychic|p2a: Hippopotas
+|-damage|p2a: Hippopotas|48/100
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|57/100|[from] Sandstorm
+|upkeep
+|turn|36
+|
+|t:|1624843852
+|move|p1a: Natu|Psychic|p2a: Hippopotas
+|-damage|p2a: Hippopotas|72/100
+|move|p2a: Hippopotas|Crunch|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|9/100|[from] Sandstorm
+|upkeep
+|turn|37
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1624843885
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|61/100
+|-singleturn|p1a: Natu|move: Roost
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|57/100|[from] Sandstorm
+|upkeep
+|turn|38
+|
+|t:|1624843895
+|move|p1a: Natu|Psychic|p2a: Hippopotas
+|-damage|p2a: Hippopotas|72/100
+|move|p2a: Hippopotas|Crunch|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|9/100|[from] Sandstorm
+|upkeep
+|turn|39
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1624843917
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|61/100
+|-singleturn|p1a: Natu|move: Roost
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|57/100|[from] Sandstorm
+|upkeep
+|turn|40
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1624843927
+|move|p1a: Natu|Psychic|p2a: Hippopotas
+|-damage|p2a: Hippopotas|72/100
+|move|p2a: Hippopotas|Crunch|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|14/100
+|-unboost|p1a: Natu|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|9/100|[from] Sandstorm
+|upkeep
+|turn|41
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1624843962
+|switch|p1a: Drilbur|Drilbur, L5, F|96/100
+|-damage|p1a: Drilbur|91/100|[from] Stealth Rock
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|42
+|inactive|brewfasa has 90 seconds left.
+|
+|t:|1624843996
+|move|p1a: Drilbur|Earthquake|p2a: Hippopotas
+|-damage|p2a: Hippopotas|48/100
+|move|p2a: Hippopotas|Earthquake|p1a: Drilbur
+|-damage|p1a: Drilbur|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|inactive|trash has 120 seconds left.
+|inactive|trash has 90 seconds left.
+|inactive|trash has 60 seconds left.
+|
+|t:|1624844065
+|switch|p2a: Lileep|Lileep, L5, F|96/100
+|-damage|p2a: Lileep|84/100|[from] Stealth Rock
+|move|p1a: Drilbur|Earthquake|p2a: Lileep
+|-damage|p2a: Lileep|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|44
+|
+|t:|1624844073
+|move|p1a: Drilbur|Earthquake|p2a: Lileep
+|-damage|p2a: Lileep|0 fnt
+|faint|p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1624844075
+|switch|p2a: Timburr|Timburr, L5, M|21/100
+|-damage|p2a: Timburr|17/100|[from] Stealth Rock
+|turn|45
+|inactive|brewfasa has 90 seconds left.
+|inactive|trash has 60 seconds left.
+|
+|t:|1624844114
+|switch|p1a: Natu|Natu, L5, F|9/100
+|-damage|p1a: Natu|0 fnt|[from] Stealth Rock
+|faint|p1a: Natu
+|move|p2a: Timburr|Mach Punch|p1: Natu|[notarget]
+|-fail|p2a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|13/100|[from] Sandstorm
+|upkeep
+|
+|t:|1624844123
+|switch|p1a: Pawniard|Pawniard, L5, M|77/100
+|-damage|p1a: Pawniard|72/100|[from] Stealth Rock
+|turn|46
+|inactive|brewfasa has 90 seconds left.
+|inactive|trash has 60 seconds left.
+|inactive|brewfasa has 60 seconds left.
+|inactive|trash has 30 seconds left.
+|
+|t:|1624844181
+|move|p1a: Pawniard|Sucker Punch|p2a: Timburr
+|-resisted|p2a: Timburr
+|-crit|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1624844184
+|switch|p2a: Hippopotas|Hippopotas, L5, M|48/100
+|-damage|p2a: Hippopotas|44/100|[from] Stealth Rock
+|turn|47
+|
+|t:|1624844190
+|move|p1a: Pawniard|Iron Head|p2a: Hippopotas
+|-damage|p2a: Hippopotas|16/100
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|48
+|inactive|brewfasa has 60 seconds left.
+|
+|t:|1624844196
+|move|p1a: Pawniard|Iron Head|p2a: Hippopotas
+|-damage|p2a: Hippopotas|32/100
+|cant|p2a: Hippopotas|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|49
+|inactive|trash has 60 seconds left.
+|
+|t:|1624844202
+|move|p1a: Pawniard|Iron Head|p2a: Hippopotas
+|-damage|p2a: Hippopotas|4/100
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|50
+|
+|t:|1624844208
+|move|p1a: Pawniard|Iron Head|p2a: Hippopotas
+|-damage|p2a: Hippopotas|29/100
+|cant|p2a: Hippopotas|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|51
+|
+|t:|1624844213
+|move|p1a: Pawniard|Iron Head|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|faint|p2a: Hippopotas
+|
+|win|brewfasa
+|c|☆brewfasa|gg
+|c|☆trash|gg

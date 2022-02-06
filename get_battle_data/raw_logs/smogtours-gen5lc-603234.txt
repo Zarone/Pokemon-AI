@@ -1,0 +1,409 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642373377
+|gametype|singles
+|player|p1|F i l l e|#scl1breakers|
+|player|p2|brewfasa|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Snover, L5, M|item
+|poke|p2|Diglett, L5, M|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Vullaby, L5, F|item
+|teampreview
+|c|☆F i l l e|hf!
+|c|☆brewfasa|u2
+|inactive|F i l l e has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|inactive|F i l l e has 210 seconds left.
+|c|+Expulso|VAMOS brewfasa
+|c|+thekingkarp|lfgi
+|inactive|F i l l e has 180 seconds left.
+|
+|t:|1642373526
+|start
+|switch|p1a: Snover|Snover, L5, M|100/100
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|1
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1642373581
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|29/100
+|-status|p2a: Gastly|frz
+|cant|p2a: Gastly|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|24/100 frz|[from] Hail
+|upkeep
+|turn|2
+|c|☆F i l l e|I'll take it
+|c|+nineage!|-
+|c|+Boulicrok|snover more like jox
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1642373602
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Snover|Blizzard|p2a: Staryu
+|-resisted|p2a: Staryu
+|-damage|p2a: Staryu|72/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|67/100|[from] Hail
+|upkeep
+|turn|3
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1642373630
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|move|p2a: Staryu|Scald|p1a: Porygon
+|-damage|p1a: Porygon|76/100
+|-status|p1a: Porygon|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|62/100|[from] Hail
+|-damage|p1a: Porygon|72/100 brn|[from] Hail
+|-damage|p1a: Porygon|60/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|F i l l e has 240 seconds left.
+|inactive|brewfasa has 210 seconds left.
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1642373690
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|96/100 brn|[from] Hail
+|-damage|p1a: Porygon|84/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1642373700
+|move|p2a: Vullaby|Knock Off|p1a: Porygon
+|-damage|p1a: Porygon|80/100 brn
+|-enditem|p1a: Porygon|Eviolite|[from] move: Knock Off|[of] p2a: Vullaby
+|move|p1a: Porygon|Thunder Wave|p2a: Vullaby
+|-status|p2a: Vullaby|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|76/100 brn|[from] Hail
+|-damage|p1a: Porygon|64/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|F i l l e has 240 seconds left.
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1642373720
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Natural Cure|[from] ability: Trace|[of] p1a: Porygon
+|move|p1a: Porygon|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|81/100
+|-status|p2a: Porygon|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|60/100 brn|[from] Hail
+|-damage|p2a: Porygon|77/100 frz|[from] Hail
+|-damage|p1a: Porygon|48/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|F i l l e has 240 seconds left.
+|inactive|brewfasa has 180 seconds left.
+|c|☆F i l l e|LOL
+|
+|t:|1642373739
+|-curestatus|p2a: Porygon|frz|[from] ability: Natural Cure
+|switch|p2a: Staryu|Staryu, L5|62/100
+|move|p1a: Porygon|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|29/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|24/100|[from] Hail
+|-damage|p1a: Porygon|44/100 brn|[from] Hail
+|-damage|p1a: Porygon|32/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1642373749
+|-curestatus|p1a: Porygon|brn|[from] ability: Natural Cure
+|switch|p1a: Snover|Snover, L5, M|100/100
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|72/100|[from] Hail
+|upkeep
+|turn|9
+|inactive|brewfasa has 180 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|
+|t:|1642373760
+|switch|p2a: Gastly|Gastly, L5, M|24/100 frz
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1642373769
+|switch|p2a: Staryu|Staryu, L5|72/100
+|turn|10
+|
+|t:|1642373777
+|switch|p1a: Porygon|Porygon, L5|32/100
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|move|p2a: Staryu|Scald|p1a: Porygon
+|-damage|p1a: Porygon|4/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|67/100|[from] Hail
+|-damage|p1a: Porygon|0 fnt|[from] Hail
+|faint|p1a: Porygon
+|upkeep
+|
+|t:|1642373781
+|switch|p1a: Snover|Snover, L5, M|100/100
+|turn|11
+|
+|t:|1642373799
+|move|p1a: Snover|Blizzard|p2a: Staryu
+|-resisted|p2a: Staryu
+|-damage|p2a: Staryu|39/100
+|move|p2a: Staryu|Thunder Wave|p1a: Snover
+|-status|p1a: Snover|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|34/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1642373827
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|86/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|95/100|[from] Hail
+|-damage|p2a: Staryu|81/100|[from] Hail
+|upkeep
+|turn|13
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1642373850
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|move|p1a: Magnemite|Volt Switch|p2a: Timburr
+|-damage|p2a: Timburr|63/100
+|
+|t:|1642373853
+|switch|p1a: Drifloon|Drifloon, L5, M|100/100|[from]move: Volt Switch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|97/100|[from] Hail
+|-damage|p2a: Timburr|59/100|[from] Hail
+|upkeep
+|turn|14
+|inactive|brewfasa has 180 seconds left.
+|inactive|brewfasa has 150 seconds left.
+|inactive|brewfasa has 120 seconds left.
+|inactive|brewfasa has 90 seconds left.
+|
+|t:|1642373961
+|move|p1a: Drifloon|Acrobatics|p2a: Timburr
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|93/100|[from] Hail
+|upkeep
+|inactive|brewfasa has 90 seconds left.
+|
+|t:|1642373970
+|switch|p2a: Porygon|Porygon, L5|77/100
+|-ability|p2a: Porygon|Unburden|[from] ability: Trace|[of] p1a: Drifloon
+|turn|15
+|inactive|F i l l e has 270 seconds left.
+|inactive|brewfasa has 90 seconds left.
+|
+|t:|1642373992
+|move|p1a: Drifloon|Knock Off|p2a: Porygon
+|-damage|p2a: Porygon|70/100
+|-enditem|p2a: Porygon|Eviolite|[from] move: Knock Off|[of] p1a: Drifloon
+|move|p2a: Porygon|Psychic|p1a: Drifloon
+|-damage|p1a: Drifloon|47/100
+|-unboost|p1a: Drifloon|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|43/100|[from] Hail
+|-damage|p2a: Porygon|66/100|[from] Hail
+|upkeep
+|turn|16
+|
+|t:|1642374005
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|97/100|[from] Hail
+|-damage|p1a: Mienfoo|96/100|[from] Hail
+|upkeep
+|turn|17
+|
+|t:|1642374027
+|switch|p2a: Staryu|Staryu, L5|81/100
+|move|p1a: Mienfoo|High Jump Kick|p2a: Staryu
+|-damage|p2a: Staryu|24/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|20/100|[from] Hail
+|-damage|p1a: Mienfoo|91/100|[from] Hail
+|upkeep
+|turn|18
+|inactive|F i l l e has 270 seconds left.
+|inactive|brewfasa has 60 seconds left.
+|
+|t:|1642374059
+|move|p2a: Staryu|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|64/100
+|move|p1a: Mienfoo|High Jump Kick|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|60/100|[from] Hail
+|upkeep
+|
+|t:|1642374082
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100 par
+|turn|19
+|inactive|brewfasa has 30 seconds left.
+|inactive|brewfasa has 20 seconds left.
+|
+|t:|1642374108
+|move|p1a: Mienfoo|U-turn|p2a: Vullaby
+|-damage|p2a: Vullaby|84/100 par
+|inactive|brewfasa has 25 seconds left this turn.
+|
+|t:|1642374114
+|switch|p1a: Magnemite|Magnemite, L5|95/100|[from]move: U-turn
+|cant|p2a: Vullaby|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|90/100|[from] Hail
+|upkeep
+|turn|20
+|inactive|brewfasa has 30 seconds left.
+|
+|t:|1642374127
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|move|p1a: Magnemite|Flash Cannon|p2a: Diglett
+|-damage|p2a: Diglett|45/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|85/100|[from] Hail
+|-damage|p2a: Diglett|39/100|[from] Hail
+|upkeep
+|turn|21
+|inactive|brewfasa has 30 seconds left.
+|inactive|brewfasa has 20 seconds left.
+|inactive|brewfasa has 15 seconds left.
+|
+|t:|1642374147
+|switch|p2a: Porygon|Porygon, L5|97/100
+|-ability|p2a: Porygon|Magnet Pull|[from] ability: Trace|[of] p1a: Magnemite
+|move|p1a: Magnemite|Flash Cannon|p2a: Porygon
+|-damage|p2a: Porygon|50/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|79/100|[from] Hail
+|-damage|p2a: Porygon|47/100|[from] Hail
+|upkeep
+|turn|22
+|inactive|brewfasa has 25 seconds left this turn.
+|inactive|brewfasa has 20 seconds left.
+|inactive|brewfasa has 15 seconds left.
+|
+|t:|1642374158
+|move|p1a: Magnemite|Flash Cannon|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|74/100|[from] Hail
+|upkeep
+|inactive|brewfasa has 20 seconds left this turn.
+|inactive|brewfasa has 15 seconds left.
+|
+|t:|1642374164
+|switch|p2a: Diglett|Diglett, L5, M|39/100
+|turn|23
+|inactive|brewfasa has 25 seconds left this turn.
+|
+|t:|1642374167
+|move|p1a: Magnemite|Flash Cannon|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|69/100|[from] Hail
+|upkeep
+|inactive|brewfasa has 30 seconds left this turn.
+|c|☆brewfasa|gg
+|c|☆F i l l e|gg
+|
+|t:|1642374172
+|switch|p2a: Vullaby|Vullaby, L5, F|84/100 par
+|turn|24
+|inactive|brewfasa has 30 seconds left.
+|
+|t:|1642374177
+|switch|p1a: Snover|Snover, L5, M|100/100 par
+|move|p2a: Vullaby|Brave Bird|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|-damage|p2a: Vullaby|52/100 par|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642374181
+|switch|p1a: Magnemite|Magnemite, L5|69/100
+|turn|25
+|c|☆F i l l e|sorry about the freezes
+|c|☆brewfasa|all g
+|inactive|brewfasa has 30 seconds left.
+|
+|t:|1642374198
+|move|p1a: Magnemite|Thunderbolt|p2a: Vullaby
+|-supereffective|p2a: Vullaby
+|-damage|p2a: Vullaby|0 fnt
+|faint|p2a: Vullaby
+|
+|win|F i l l e

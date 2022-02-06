@@ -1,0 +1,484 @@
+|j|☆Deathbringer5
+|j|‽1owercase
+|t:|1644126792
+|gametype|singles
+|player|p1|Deathbringer5|sabrina|1474
+|player|p2|1owercase|flannery|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Magnezone|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Celebi|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Milotic, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Deathbringer5)
+|c|☆Deathbringer5|Hey 1owercase!
+|inactive|1owercase has 120 seconds left.
+|
+|t:|1644126881
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|n|☆1owercase|1owercase
+|c|☆1owercase|hey whatsup
+|inactive|Deathbringer5 has 120 seconds left.
+|
+|t:|1644126932
+|move|p1a: Jirachi|Icy Wind|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1644126941
+|switch|p2a: Celebi|Celebi|100/100
+|turn|2
+|
+|t:|1644126947
+|move|p2a: Celebi|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Deathbringer5|move: Stealth Rock
+|move|p1a: Jirachi|Icy Wind|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|85/100
+|-unboost|p2a: Celebi|spe|1
+|
+|-heal|p2a: Celebi|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644126952
+|move|p1a: Jirachi|Stealth Rock|p2a: Celebi
+|-sidestart|p2: 1owercase|move: Stealth Rock
+|move|p2a: Celebi|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|89/100
+|
+|t:|1644126962
+|switch|p2a: Milotic|Milotic, F|100/100|[from]move: U-turn
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|95/100|[from] item: Leftovers
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644126970
+|move|p1a: Jirachi|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|83/100
+|
+|t:|1644126978
+|switch|p1a: Kyurem|Kyurem-Black|100/100|[from]move: U-turn
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Milotic|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|63/100
+|-status|p1a: Kyurem|brn
+|
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|51/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1644126990
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Kyurem|Outrage|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|67/100
+|
+|-heal|p2a: Excadrill|73/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|39/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1644126997
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Kyurem|Outrage|p2a: Excadrill|[from]lockedmove
+|-activate|p2a: Excadrill|move: Protect
+|-start|p1a: Kyurem|confusion|[fatigue]
+|
+|-heal|p2a: Excadrill|79/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|27/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1644127001
+|-activate|p1a: Kyurem|confusion
+|move|p1a: Kyurem|Outrage|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|49/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Kyurem
+|-damage|p1a: Kyurem|21/100 brn
+|-sideend|p2: 1owercase|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p2a: Excadrill|55/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|9/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1644127009
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|-activate|p1a: Kyurem|confusion
+|-damage|p1a: Kyurem|0 fnt|[from] confusion
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Excadrill|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644127012
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|-item|p1a: Magnezone|Air Balloon
+|turn|9
+|
+|t:|1644127019
+|move|p2a: Excadrill|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|84/100
+|-enditem|p1a: Magnezone|Air Balloon
+|move|p1a: Magnezone|Magnet Rise|p1a: Magnezone
+|-start|p1a: Magnezone|Magnet Rise
+|
+|-heal|p2a: Excadrill|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644127024
+|move|p2a: Excadrill|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|73/100
+|move|p1a: Magnezone|Hidden Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|19/100
+|
+|-heal|p2a: Excadrill|25/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644127030
+|move|p2a: Excadrill|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|63/100
+|move|p1a: Magnezone|Hidden Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1644127050
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|12
+|
+|t:|1644127052
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|75/100
+|move|p1a: Magnezone|Hidden Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|upkeep
+|turn|13
+|
+|t:|1644127058
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1644127069
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644127076
+|move|p1a: Dragonite|Fire Punch|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|11/100
+|-enditem|p2a: Magnezone|Salac Berry|[eat]
+|-boost|p2a: Magnezone|spe|1|[from] item: Salac Berry
+|move|p2a: Magnezone|Flash Cannon|p1a: Dragonite
+|-damage|p1a: Dragonite|33/100
+|
+|upkeep
+|turn|15
+|
+|t:|1644127085
+|move|p1a: Dragonite|Extreme Speed|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1644127088
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|16
+|
+|t:|1644127093
+|move|p2a: Tyranitar|Crunch|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644127099
+|switch|p1a: Jirachi|Jirachi|95/100
+|-damage|p1a: Jirachi|89/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1644127107
+|switch|p2a: Milotic|Milotic, F|89/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Milotic
+|-sidestart|p2: 1owercase|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|83/100|[from] Sandstorm
+|-heal|p1a: Jirachi|95/100|[from] item: Leftovers
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1644127111
+|move|p1a: Jirachi|Thunder|p2a: Milotic|[miss]
+|-miss|p1a: Jirachi|p2a: Milotic
+|move|p2a: Milotic|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|83/100|[from] Sandstorm
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644127118
+|move|p1a: Jirachi|Thunder|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|50/100
+|-status|p2a: Milotic|par
+|cant|p2a: Milotic|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|44/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|91/100|[from] item: Leftovers
+|-heal|p2a: Milotic|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644127124
+|move|p1a: Jirachi|Thunder|p2a: Milotic|[miss]
+|-miss|p1a: Jirachi|p2a: Milotic
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|99/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|98/100|[from] item: Leftovers
+|-heal|p2a: Milotic|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644127127
+|move|p1a: Jirachi|Thunder|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|63/100 par
+|move|p2a: Milotic|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|57/100 par|[from] Sandstorm
+|-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+|-heal|p2a: Milotic|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644127135
+|move|p1a: Jirachi|Thunder|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644127137
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|turn|23
+|c|☆Deathbringer5|1/16 crits are nasty
+|
+|t:|1644127158
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|59/100
+|-unboost|p1a: Jirachi|def|1
+|move|p1a: Jirachi|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100
+|c|☆1owercase|gen 5 crits so nasty
+|
+|t:|1644127166
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from]move: U-turn
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1644127171
+|switch|p2a: Celebi|Celebi|91/100
+|-damage|p2a: Celebi|78/100|[from] Stealth Rock
+|move|p1a: Garchomp|Earthquake|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|51/100|[from] Sandstorm
+|-heal|p2a: Celebi|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1644127178
+|switch|p1a: Jirachi|Jirachi|59/100
+|-damage|p1a: Jirachi|53/100|[from] Stealth Rock
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|94/100|[from] Sandstorm
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644127182
+|move|p2a: Celebi|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|
+|t:|1644127184
+|switch|p2a: Tyranitar|Tyranitar, M|60/100|[from]move: U-turn
+|-damage|p2a: Tyranitar|48/100|[from] Stealth Rock
+|move|p1a: Jirachi|Icy Wind|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|-unboost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1644127197
+|move|p2a: Tyranitar|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|22/100
+|move|p1a: Jirachi|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|13/100
+|
+|t:|1644127203
+|switch|p1a: Garchomp|Garchomp, F|94/100|[from]move: U-turn
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1644127207
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Outrage|p2a: Celebi
+|-damage|p2a: Celebi|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Celebi|32/100|[from] Sandstorm
+|-heal|p2a: Celebi|38/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1644127213
+|move|p1a: Garchomp|Outrage|p2a: Celebi|[from]lockedmove
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644127215
+|switch|p2a: Tyranitar|Tyranitar, M|13/100
+|-damage|p2a: Tyranitar|1/100|[from] Stealth Rock
+|turn|30
+|c|☆1owercase|gg
+|
+|t:|1644127223
+|switch|p1a: Jirachi|Jirachi|22/100
+|-damage|p1a: Jirachi|15/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Ice Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jirachi|12/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1644127226
+|move|p2a: Tyranitar|Ice Punch|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644127229
+|switch|p1a: Garchomp|Garchomp, F|88/100
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1644127231
+|move|p1a: Garchomp|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|Deathbringer5
+|raw|Deathbringer5's rating: 1498 &rarr; <strong>1513</strong><br />(+15 for winning)
+|raw|1owercase's rating: 1405 &rarr; <strong>1390</strong><br />(-15 for losing)
+|l|☆1owercase
+|c|☆Deathbringer5|Gg

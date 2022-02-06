@@ -1,0 +1,224 @@
+|j|☆shndj
+|j|☆UgabaBeAbS
+|t:|1641130558
+|gametype|singles
+|player|p1|shndj|parasollady-gen4|1080
+|player|p2|UgabaBeAbS|red|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Drifblim, F|item
+|poke|p1|Gorebyss, F|item
+|poke|p1|Piloswine, F|item
+|poke|p1|Braviary, M|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Ditto|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Swellow, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Sawk, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Alomomola, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UgabaBeAbS)
+|
+|t:|1641130563
+|start
+|switch|p1a: Piloswine|Piloswine, F|100/100
+|switch|p2a: Probopass|Probopass, M|100/100
+|turn|1
+|
+|t:|1641130574
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Charizard
+|-sidestart|p2: UgabaBeAbS|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641130584
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Charizard|[from] ability: Imposter
+|move|p2a: Charizard|Fire Blast|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|42/100
+|
+|upkeep
+|turn|3
+|
+|t:|1641130594
+|move|p1a: Ditto|Air Slash|p2a: Charizard
+|-damage|p2a: Charizard|53/100
+|move|p2a: Charizard|Fire Blast|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1641130605
+|switch|p1a: Gorebyss|Gorebyss, F|100/100
+|turn|4
+|
+|t:|1641130616
+|switch|p2a: Probopass|Probopass, M|100/100
+|-damage|p2a: Probopass|94/100|[from] Stealth Rock
+|move|p1a: Gorebyss|Shell Smash|p1a: Gorebyss
+|-unboost|p1a: Gorebyss|def|1
+|-unboost|p1a: Gorebyss|spd|1
+|-boost|p1a: Gorebyss|atk|2
+|-boost|p1a: Gorebyss|spa|2
+|-boost|p1a: Gorebyss|spe|2
+|
+|-heal|p2a: Probopass|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641130626
+|move|p1a: Gorebyss|Surf|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-ability|p2a: Probopass|Sturdy
+|-damage|p2a: Probopass|1/100
+|move|p2a: Probopass|Toxic|p1a: Gorebyss
+|-status|p1a: Gorebyss|tox
+|
+|-heal|p2a: Probopass|7/100|[from] item: Leftovers
+|-damage|p1a: Gorebyss|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1641130636
+|move|p1a: Gorebyss|Surf|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|
+|-damage|p1a: Gorebyss|83/100 tox|[from] psn
+|upkeep
+|
+|t:|1641130649
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1641130652
+|move|p1a: Gorebyss|Hidden Power|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-damage|p1a: Gorebyss|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1641130659
+|switch|p2a: Eelektross|Eelektross, F|100/100
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1641130663
+|move|p1a: Gorebyss|Surf|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-damage|p1a: Gorebyss|41/100 tox|[from] psn
+|upkeep
+|
+|t:|1641130671
+|switch|p2a: Charizard|Charizard, M|53/100
+|-damage|p2a: Charizard|3/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1641130676
+|move|p1a: Gorebyss|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-damage|p1a: Gorebyss|11/100 tox|[from] psn
+|upkeep
+|
+|t:|1641130682
+|switch|p2a: Swellow|Swellow, F|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1641130686
+|move|p2a: Swellow|Quick Attack|p1a: Gorebyss
+|-damage|p1a: Gorebyss|0 fnt
+|faint|p1a: Gorebyss
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1641130698
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|turn|11
+|j| Rosig
+|
+|t:|1641130705
+|move|p2a: Swellow|Brave Bird|p1a: Drifblim
+|-damage|p1a: Drifblim|6/100
+|-damage|p2a: Swellow|23/100 brn|[from] Recoil
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|
+|-damage|p2a: Swellow|10/100 brn|[from] brn
+|-status|p1a: Drifblim|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|t:|1641130715
+|move|p2a: Swellow|Brave Bird|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|-damage|p2a: Swellow|7/100 brn|[from] Recoil
+|
+|-damage|p2a: Swellow|0 fnt|[from] brn
+|faint|p2a: Swellow
+|upkeep
+|
+|t:|1641130725
+|switch|p2a: Sawk|Sawk, M|100/100
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|-damage|p2a: Sawk|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1641130733
+|move|p2a: Sawk|Close Combat|p1a: Ludicolo
+|-damage|p1a: Ludicolo|6/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1641130739
+|move|p1a: Ludicolo|Surf|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-damage|p1a: Ludicolo|0 fnt|[from] item: Life Orb
+|faint|p1a: Ludicolo
+|
+|win|shndj
+|raw|shndj's rating: 1080 &rarr; <strong>1109</strong><br />(+29 for winning)
+|raw|UgabaBeAbS's rating: 1098 &rarr; <strong>1072</strong><br />(-26 for losing)
+|c|☆shndj|gg wp
+|c|☆UgabaBeAbS|gg
+|l|☆UgabaBeAbS

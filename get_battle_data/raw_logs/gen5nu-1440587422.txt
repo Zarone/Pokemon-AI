@@ -1,0 +1,375 @@
+|j|☆Nalorium ⧳
+|j|☆luchick ^•.•^
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634952711
+|gametype|singles
+|player|p1|Nalorium ⧳|clair-gen2|
+|player|p2|luchick ^•.•^|psychic-gen1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Misdreavus, F|item
+|poke|p2|Swellow, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Zangoose, F|item
+|poke|p2|Gothorita, M|item
+|poke|p2|Golurk|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|j| RageATMagearna
+|c|☆Nalorium ⧳|hf
+|j| Ladder_Zeke
+|c|☆luchick ^•.•^|u2 pana
+|
+|t:|1634952740
+|start
+|switch|p1a: Primeape|Primeape, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|1
+|
+|t:|1634952744
+|move|p2a: Kangaskhan|Fake Out|p1a: Primeape
+|-damage|p1a: Primeape|57/100
+|cant|p1a: Primeape|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1634952749
+|switch|p2a: Swellow|Swellow, M|100/100
+|move|p1a: Primeape|U-turn|p2a: Swellow
+|-resisted|p2a: Swellow
+|-crit|p2a: Swellow
+|-damage|p2a: Swellow|33/100
+|
+|t:|1634952769
+|switch|p1a: Garbodor|Garbodor, M|100/100|[from]move: U-turn
+|
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1634952774
+|move|p1a: Garbodor|Rock Blast|p2a: Swellow
+|-supereffective|p2a: Swellow
+|-damage|p2a: Swellow|7/100 tox
+|-supereffective|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|-hitcount|p2: Swellow|2
+|
+|upkeep
+|
+|t:|1634952779
+|switch|p2a: Golurk|Golurk|100/100
+|turn|4
+|
+|t:|1634952787
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Golurk|Stealth Rock|p1a: Piloswine
+|-sidestart|p1: Nalorium ⧳|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|inactive|Nalorium ⧳ has 120 seconds left.
+|
+|t:|1634952835
+|move|p2a: Golurk|Earthquake|p1a: Piloswine
+|-damage|p1a: Piloswine|63/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Golurk
+|-sidestart|p2: luchick ^•.•^|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1634952851
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|46/100
+|
+|upkeep
+|turn|7
+|j|+AM
+|
+|t:|1634952856
+|switch|p2a: Gothorita|Gothorita, M|100/100
+|-damage|p2a: Gothorita|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|8
+|inactive|Nalorium ⧳ has 120 seconds left.
+|
+|t:|1634952862
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gothorita|Psychic|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|96/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|9
+|
+|t:|1634952866
+|move|p2a: Gothorita|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|58/100
+|move|p1a: Alomomola|Toxic|p2a: Gothorita
+|-status|p2a: Gothorita|tox
+|
+|-damage|p2a: Gothorita|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1634952873
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gothorita|Psychic|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Gothorita|71/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1634952876
+|move|p2a: Gothorita|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|16/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Gothorita|53/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1634952880
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|66/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|13
+|
+|t:|1634952887
+|switch|p1a: Piloswine|Piloswine, M|63/100
+|-damage|p1a: Piloswine|50/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Piloswine|[miss]
+|-miss|p2a: Rotom|p1a: Piloswine
+|
+|upkeep
+|turn|14
+|l|+AM
+|
+|t:|1634952892
+|move|p2a: Rotom|Will-O-Wisp|p1a: Piloswine
+|-status|p1a: Piloswine|brn
+|move|p1a: Piloswine|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-damage|p1a: Piloswine|38/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1634952902
+|move|p2a: Rotom|Blizzard|p1a: Piloswine
+|-damage|p1a: Piloswine|18/100 brn
+|move|p1a: Piloswine|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-damage|p1a: Piloswine|6/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1634952909
+|move|p2a: Rotom|Blizzard|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|upkeep
+|
+|t:|1634952916
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|-damage|p1a: Misdreavus|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1634952920
+|move|p2a: Rotom|Volt Switch|p1a: Misdreavus
+|-damage|p1a: Misdreavus|56/100
+|
+|t:|1634952928
+|switch|p2a: Gothorita|Gothorita, M|53/100 tox|[from]move: Volt Switch
+|-damage|p2a: Gothorita|41/100 tox|[from] Stealth Rock
+|move|p1a: Misdreavus|Nasty Plot|p1a: Misdreavus
+|-boost|p1a: Misdreavus|spa|2
+|
+|-damage|p2a: Gothorita|35/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1634952932
+|move|p1a: Misdreavus|Thunderbolt|p2a: Gothorita
+|-damage|p2a: Gothorita|0 fnt
+|faint|p2a: Gothorita
+|
+|upkeep
+|
+|t:|1634952936
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1634952969
+|move|p1a: Misdreavus|Thunderbolt|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|30/100
+|move|p2a: Kangaskhan|Double-Edge|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|-damage|p2a: Kangaskhan|17/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1634952978
+|switch|p1a: Primeape|Primeape, M|57/100
+|-damage|p1a: Primeape|51/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1634952982
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|29/100
+|move|p1a: Primeape|U-turn|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|t:|1634952989
+|switch|p1a: Garbodor|Garbodor, M|100/100|[from]move: U-turn
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1634952999
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|95/100|[from] Stealth Rock
+|turn|21
+|j|+Bughouse
+|
+|t:|1634953022
+|switch|p1a: Alomomola|Alomomola, M|99/100
+|-damage|p1a: Alomomola|86/100|[from] Stealth Rock
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|44/100
+|
+|upkeep
+|turn|22
+|
+|t:|1634953028
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1634953034
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1634953037
+|move|p1a: Skuntank|Crunch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|c|☆Nalorium ⧳|hey bug
+|
+|t:|1634953050
+|switch|p2a: Rotom|Rotom-Frost|76/100
+|-damage|p2a: Rotom|51/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1634953054
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Rotom|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|-enditem|p1a: Skuntank|Lum Berry|[eat]
+|-curestatus|p1a: Skuntank|brn|[msg]
+|
+|upkeep
+|turn|25
+|
+|t:|1634953062
+|switch|p1a: Primeape|Primeape, M|29/100
+|-damage|p1a: Primeape|23/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Primeape|[miss]
+|-miss|p2a: Rotom|p1a: Primeape
+|
+|upkeep
+|turn|26
+|
+|t:|1634953070
+|move|p1a: Primeape|Close Combat|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1634953072
+|switch|p2a: Zangoose|Zangoose, F|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1634953074
+|move|p2a: Zangoose|Quick Attack|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1634953076
+|switch|p1a: Garbodor|Garbodor, M|88/100
+|-damage|p1a: Garbodor|76/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1634953080
+|move|p1a: Garbodor|Explosion|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p1a: Garbodor
+|faint|p2a: Zangoose
+|
+|win|Nalorium ⧳
+|n|☆Nalorium ⧳|nalorium
+|n|☆luchick ^•.•^|luchick
+|n| RageATMagearna|rageatmagearna
+|n| Ladder_Zeke|ladderzeke
+|n|+Bughouse|bughouse
+|c|☆Nalorium ⧳|gg
+|l| RageATMagearna
+|c|☆luchick ^•.•^|gg rey
+|l|+Bughouse
+|l|☆luchick ^•.•^
+|l|☆Nalorium ⧳

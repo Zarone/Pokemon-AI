@@ -1,0 +1,494 @@
+|j|☆janhoyer
+|j|☆Trevelion
+|t:|1643934187
+|gametype|singles
+|player|p1|janhoyer|266|
+|player|p2|Trevelion|lucian|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Qwilfish, F|item
+|poke|p1|Heracross, F|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Umbreon, M|item
+|poke|p2|Raikou|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Crobat, M|item
+|poke|p2|Slowking, F|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Flygon, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Trevelion)
+|
+|t:|1643934207
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|1
+|
+|t:|1643934220
+|move|p2a: Crobat|Taunt|p1a: Rhyperior
+|-start|p1a: Rhyperior|move: Taunt
+|cant|p1a: Rhyperior|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|j| Arxtric
+|
+|t:|1643934228
+|move|p2a: Crobat|U-turn|p1a: Rhyperior
+|-crit|p1a: Rhyperior
+|-damage|p1a: Rhyperior|79/100
+|
+|t:|1643934236
+|switch|p2a: Slowking|Slowking, F|100/100|[from]move: U-turn
+|move|p1a: Rhyperior|Dragon Tail|p2a: Slowking|[miss]
+|-miss|p1a: Rhyperior|p2a: Slowking
+|
+|-heal|p1a: Rhyperior|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643934250
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Slowking|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|85/100
+|
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643934268
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Umbreon|Foul Play|p2a: Crobat
+|-damage|p2a: Crobat|62/100
+|
+|-heal|p2a: Crobat|69/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| ShwiftyShiftry
+|
+|t:|1643934283
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Umbreon|Foul Play|p2a: Crobat
+|-damage|p2a: Crobat|64/100
+|
+|-heal|p2a: Crobat|70/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|l| ShwiftyShiftry
+|j| Marcel troll
+|
+|t:|1643934297
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Crobat|atk|1
+|move|p2a: Crobat|U-turn|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|95/100
+|
+|t:|1643934299
+|switch|p2a: Raikou|Raikou|100/100|[from]move: U-turn
+|-ability|p2a: Raikou|Pressure
+|
+|-heal|p1a: Qwilfish|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934329
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Raikou|Thunderbolt|p1a: Umbreon
+|-damage|p1a: Umbreon|77/100
+|
+|-heal|p1a: Umbreon|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934338
+|switch|p1a: Rhyperior|Rhyperior, M|85/100
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|76/100
+|
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| torterrax1
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934348
+|move|p2a: Raikou|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|61/100
+|move|p1a: Rhyperior|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|88/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934359
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|63/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Raikou
+|-sidestart|p2: Trevelion|move: Stealth Rock
+|
+|-heal|p2a: Raikou|69/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|74/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934370
+|move|p2a: Raikou|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|44/100
+|move|p1a: Rhyperior|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|76/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934380
+|switch|p2a: Slowking|Slowking, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|
+|-heal|p1a: Rhyperior|57/100|[from] item: Leftovers
+|-heal|p2a: Slowking|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934393
+|switch|p1a: Umbreon|Umbreon, M|83/100
+|move|p2a: Slowking|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|70/100
+|
+|-heal|p1a: Umbreon|76/100|[from] item: Leftovers
+|-heal|p2a: Slowking|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643934403
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|82/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934418
+|move|p1a: Umbreon|Toxic|p2a: Rhyperior
+|-status|p2a: Rhyperior|tox
+|move|p2a: Rhyperior|Stealth Rock|p1a: Umbreon
+|-sidestart|p1: janhoyer|move: Stealth Rock
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Rhyperior|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1643934427
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|-damage|p2a: Escavalier|88/100|[from] Stealth Rock
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|upkeep
+|turn|17
+|
+|t:|1643934434
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Escavalier|Iron Head|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|18
+|
+|t:|1643934453
+|move|p1a: Umbreon|Foul Play|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|62/100
+|move|p2a: Escavalier|Iron Head|p1a: Umbreon
+|-damage|p1a: Umbreon|52/100
+|
+|-heal|p1a: Umbreon|58/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643934462
+|switch|p2a: Raikou|Raikou|76/100
+|-damage|p2a: Raikou|63/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p2a: Raikou|69/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|64/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|j| suloxiv ♫
+|
+|t:|1643934473
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|44/100
+|move|p1a: Umbreon|Foul Play|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|51/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|j| Station 4
+|l| suloxiv ♫
+|
+|t:|1643934489
+|switch|p2a: Escavalier|Escavalier, M|62/100
+|-damage|p2a: Escavalier|50/100|[from] Stealth Rock
+|move|p1a: Umbreon|Foul Play|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|24/100
+|
+|-heal|p1a: Umbreon|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643934505
+|move|p1a: Umbreon|Foul Play|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|-heal|p1a: Umbreon|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643934513
+|switch|p2a: Rhyperior|Rhyperior, F|94/100 tox
+|-damage|p2a: Rhyperior|88/100 tox|[from] Stealth Rock
+|turn|23
+|
+|t:|1643934519
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Rhyperior|Earthquake|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1643934530
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Rhyperior|Swords Dance|p2a: Rhyperior
+|-boost|p2a: Rhyperior|atk|2
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|82/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1643934550
+|move|p1a: Umbreon|Foul Play|p2a: Rhyperior
+|-damage|p2a: Rhyperior|17/100 tox
+|move|p2a: Rhyperior|Rock Blast|p1a: Umbreon
+|-damage|p1a: Umbreon|75/100
+|-damage|p1a: Umbreon|55/100
+|-damage|p1a: Umbreon|36/100
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|-hitcount|p1: Umbreon|4
+|
+|-heal|p2a: Rhyperior|23/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|5/100 tox|[from] psn
+|upkeep
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934576
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1643934585
+|move|p1a: Mew|Psyshock|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643934594
+|switch|p2a: Slowking|Slowking, F|97/100
+|-damage|p2a: Slowking|84/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1643934607
+|move|p1a: Mew|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|cant|p2a: Slowking|move: Taunt|Toxic
+|
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|-heal|p2a: Slowking|90/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1643934616
+|move|p1a: Mew|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Scald|p1a: Mew
+|-damage|p1a: Mew|79/100
+|-status|p1a: Mew|brn
+|-activate|p1a: Mew|ability: Synchronize
+|-fail|p2a: Slowking|brn
+|
+|-heal|p1a: Mew|86/100 brn|[from] item: Leftovers
+|-heal|p2a: Slowking|96/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|73/100 brn|[from] brn
+|-damage|p2a: Slowking|84/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1643934632
+|move|p1a: Mew|Psyshock|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|73/100 brn
+|move|p2a: Slowking|Dragon Tail|p1a: Mew|[miss]
+|-miss|p2a: Slowking|p1a: Mew
+|
+|-heal|p1a: Mew|79/100 brn|[from] item: Leftovers
+|-heal|p2a: Slowking|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|67/100 brn|[from] brn
+|-damage|p2a: Slowking|66/100 brn|[from] brn
+|-end|p2a: Slowking|move: Taunt
+|upkeep
+|turn|30
+|
+|t:|1643934645
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100 brn
+|move|p2a: Slowking|Scald|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|59/100 brn
+|
+|-heal|p1a: Mew|65/100 brn|[from] item: Leftovers
+|-heal|p2a: Slowking|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Mew|53/100 brn|[from] brn
+|-damage|p2a: Slowking|60/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1643934657
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100/100 brn
+|move|p2a: Slowking|Dragon Tail|p1a: Mew
+|-damage|p1a: Mew|96/100 brn
+|drag|p1a: Rhyperior|Rhyperior, M|57/100
+|-damage|p1a: Rhyperior|51/100|[from] Stealth Rock
+|
+|-heal|p1a: Rhyperior|57/100|[from] item: Leftovers
+|-heal|p2a: Slowking|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowking|54/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1643934672
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Scald|p1a: Heracross
+|-damage|p1a: Heracross|54/100
+|
+|-heal|p1a: Heracross|60/100|[from] item: Leftovers
+|-heal|p2a: Slowking|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowking|47/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1643934684
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|move|p1a: Heracross|Stone Edge|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|72/100
+|
+|-heal|p1a: Heracross|66/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934707
+|move|p2a: Flygon|Toxic|p1a: Heracross
+|-status|p1a: Heracross|tox
+|move|p1a: Heracross|Stone Edge|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|37/100
+|
+|-heal|p1a: Heracross|72/100 tox|[from] item: Leftovers
+|-damage|p1a: Heracross|66/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|janhoyer has 120 seconds left.
+|
+|t:|1643934719
+|switch|p2a: Crobat|Crobat, M|70/100
+|-damage|p2a: Crobat|45/100|[from] Stealth Rock
+|move|p1a: Heracross|Stone Edge|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|-heal|p1a: Heracross|72/100 tox|[from] item: Leftovers
+|-damage|p1a: Heracross|60/100 tox|[from] psn
+|upkeep
+|-message|Trevelion forfeited.
+|
+|win|janhoyer
+|n|☆janhoyer|janhoyer
+|n|☆Trevelion|trevelion
+|n| Arxtric|arxtric
+|n| Marcel troll|marceltroll
+|n| torterrax1|torterrax1
+|n| Station 4|station4
+|l|☆Trevelion
+|l|☆janhoyer
+|l| Station 4
+|l| Arxtric
+|l| Marcel troll

@@ -1,0 +1,301 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1626027375
+|gametype|singles
+|player|p1|Lily|#lilburr|
+|player|p2|watashi|#flcl|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, F|item
+|poke|p1|Shellder, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Clamperl, L5, F|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Slowpoke, L5, F|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|teampreview
+|c|+ALlCE|lilbur vs drilbur
+|c|☆watashi|gl hf
+|c|☆Lily|u2
+|inactive|Lily has 270 seconds left.
+|inactive|watashi has 270 seconds left.
+|inactive|Lily has 240 seconds left.
+|
+|t:|1626027435
+|start
+|switch|p1a: life will change|Diglett, L5, M|100/100
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|1
+|
+|t:|1626027439
+|move|p2a: Snover|Blizzard|p1a: life will change
+|-supereffective|p1a: life will change
+|-enditem|p1a: life will change|Focus Sash
+|-damage|p1a: life will change|6/100
+|move|p1a: life will change|Stealth Rock|p2a: Snover
+|-sidestart|p2: watashi|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: life will change|0 fnt|[from] Hail
+|faint|p1a: life will change
+|upkeep
+|inactive|Lily has 270 seconds left.
+|
+|t:|1626027494
+|switch|p1a: beneath the mask|Clamperl, L5, F|100/100
+|turn|2
+|
+|t:|1626027520
+|move|p2a: Snover|Blizzard|p1a: beneath the mask
+|-resisted|p1a: beneath the mask
+|-damage|p1a: beneath the mask|58/100
+|move|p1a: beneath the mask|Shell Smash|p1a: beneath the mask
+|-unboost|p1a: beneath the mask|def|1
+|-unboost|p1a: beneath the mask|spd|1
+|-boost|p1a: beneath the mask|atk|2
+|-boost|p1a: beneath the mask|spa|2
+|-boost|p1a: beneath the mask|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: beneath the mask|53/100|[from] Hail
+|upkeep
+|turn|3
+|inactive|watashi has 270 seconds left.
+|
+|t:|1626027543
+|switch|p2a: Natu|Natu, L5, M|100/100
+|-damage|p2a: Natu|79/100|[from] Stealth Rock
+|move|p1a: beneath the mask|Ice Beam|p2a: Natu
+|-supereffective|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: beneath the mask|48/100|[from] Hail
+|upkeep
+|
+|t:|1626027546
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1626027547
+|move|p1a: beneath the mask|Protect|p1a: beneath the mask
+|-singleturn|p1a: beneath the mask|Protect
+|move|p2a: Mienfoo|Fake Out|p1a: beneath the mask
+|-activate|p1a: beneath the mask|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: beneath the mask|43/100|[from] Hail
+|-damage|p2a: Mienfoo|92/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1626027555
+|move|p1a: beneath the mask|Surf|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: beneath the mask|39/100|[from] Hail
+|upkeep
+|
+|t:|1626027557
+|switch|p2a: Slowpoke|Slowpoke, L5, F|100/100
+|-damage|p2a: Slowpoke|89/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1626027559
+|move|p1a: beneath the mask|Surf|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|12/100
+|move|p2a: Slowpoke|Thunder Wave|p1a: beneath the mask
+|-status|p1a: beneath the mask|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowpoke|8/100|[from] Hail
+|-damage|p1a: beneath the mask|34/100 par|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1626027581
+|move|p2a: Slowpoke|Psychic|p1a: beneath the mask
+|-damage|p1a: beneath the mask|0 fnt
+|faint|p1a: beneath the mask
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowpoke|4/100|[from] Hail
+|upkeep
+|inactive|Lily has 270 seconds left.
+|
+|t:|1626027631
+|switch|p1a: take over|Porygon, L5|100/100
+|-ability|p1a: take over|Regenerator|[from] ability: Trace|[of] p2a: Slowpoke
+|turn|8
+|
+|t:|1626027642
+|move|p1a: take over|Tri Attack|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: take over|96/100|[from] Hail
+|upkeep
+|
+|t:|1626027658
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|9
+|
+|t:|1626027667
+|move|p2a: Drilbur|Earthquake|p1a: take over
+|-damage|p1a: take over|46/100
+|move|p1a: take over|Agility|p1a: take over
+|-boost|p1a: take over|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: take over|42/100|[from] Hail
+|-damage|p2a: Drilbur|92/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1626027673
+|move|p1a: take over|Tri Attack|p2a: Drilbur
+|-damage|p2a: Drilbur|40/100
+|-status|p2a: Drilbur|frz
+|-curestatus|p2a: Drilbur|frz|[msg]
+|move|p2a: Drilbur|Earthquake|p1a: take over
+|-damage|p1a: take over|0 fnt
+|faint|p1a: take over
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|35/100|[from] Hail
+|upkeep
+|inactive|Lily has 270 seconds left.
+|
+|t:|1626027700
+|switch|p1a: last surprise|Shellder, L5, M|100/100
+|turn|11
+|
+|t:|1626027709
+|move|p2a: Drilbur|Earthquake|p1a: last surprise
+|-damage|p1a: last surprise|56/100
+|move|p1a: last surprise|Shell Smash|p1a: last surprise
+|-unboost|p1a: last surprise|def|1
+|-unboost|p1a: last surprise|spd|1
+|-boost|p1a: last surprise|atk|2
+|-boost|p1a: last surprise|spa|2
+|-boost|p1a: last surprise|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: last surprise|50/100|[from] Hail
+|-damage|p2a: Drilbur|31/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1626027712
+|move|p1a: last surprise|Icicle Spear|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|-hitcount|p2: Drilbur|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: last surprise|45/100|[from] Hail
+|upkeep
+|
+|t:|1626027713
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|-damage|p2a: Magnemite|95/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1626027715
+|move|p1a: last surprise|Icicle Spear|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|85/100
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|74/100
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|64/100
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|53/100
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|43/100
+|-hitcount|p2a: Magnemite|5
+|move|p2a: Magnemite|Volt Switch|p1a: last surprise
+|-supereffective|p1a: last surprise
+|-damage|p1a: last surprise|0 fnt
+|faint|p1a: last surprise
+|
+|t:|1626027718
+|switch|p2a: Snover|Snover, L5, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Snover|78/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1626027726
+|switch|p1a: alleycat|Abra, L5, F|100/100
+|turn|14
+|
+|t:|1626027728
+|move|p2a: Snover|Blizzard|p1a: alleycat
+|-damage|p1a: alleycat|14/100
+|move|p1a: alleycat|Light Screen|p1a: alleycat
+|-sidestart|p1: Lily|move: Light Screen
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1626027734
+|move|p2a: Snover|Blizzard|p1a: alleycat
+|-damage|p1a: alleycat|0 fnt
+|faint|p1a: alleycat
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1626027755
+|switch|p1a: blooming villain|Drifloon, L5, F|100/100
+|turn|16
+|inactive|Lily has 270 seconds left.
+|inactive|Lily has 240 seconds left.
+|inactive|Lily has 210 seconds left.
+|
+|t:|1626027856
+|move|p2a: Snover|Blizzard|p1a: blooming villain
+|-supereffective|p1a: blooming villain
+|-damage|p1a: blooming villain|4/100
+|move|p1a: blooming villain|Acrobatics|p2a: Snover
+|-enditem|p1a: blooming villain|Flying Gem|[from] gem
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: blooming villain|0 fnt|[from] Hail
+|faint|p1a: blooming villain
+|
+|win|watashi
+|upkeep
+|c|☆Lily|gg
+|c|☆watashi|gg

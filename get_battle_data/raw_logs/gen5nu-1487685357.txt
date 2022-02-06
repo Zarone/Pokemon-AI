@@ -1,0 +1,311 @@
+|j|☆tank skunk
+|j|☆Memehater
+|t:|1641654156
+|gametype|singles
+|player|p1|tank skunk|pokefan|1066
+|player|p2|Memehater|2|1101
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lampent, F|item
+|poke|p1|Mantyke, F|item
+|poke|p1|Tangela, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Mawile, F|item
+|poke|p1|Probopass, M|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Roselia, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Tauros, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Golurk|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|
+|t:|1641654164
+|start
+|switch|p1a: Spaghetti|Tangela, M|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|
+|t:|1641654171
+|switch|p1a: Jbag|Probopass, M|100/100
+|move|p2a: Mandibuzz|Taunt|p1a: Jbag
+|-start|p1a: Jbag|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1641654178
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Jbag|Power Gem|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1641654188
+|switch|p1a: Yandere|Mawile, F|100/100
+|-ability|p1a: Yandere|Intimidate|boost
+|-unboost|p2a: Golurk|atk|1
+|-item|p1a: Yandere|Air Balloon
+|move|p2a: Golurk|Ice Punch|p1a: Yandere
+|-resisted|p1a: Yandere
+|-damage|p1a: Yandere|87/100
+|-enditem|p1a: Yandere|Air Balloon
+|
+|upkeep
+|turn|4
+|
+|t:|1641654210
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|switch|p1a: Spaghetti|Tangela, M|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1641654217
+|move|p2a: Seismitoad|Stealth Rock|p1a: Spaghetti
+|-sidestart|p1: tank skunk|move: Stealth Rock
+|move|p1a: Spaghetti|Sleep Powder|p2a: Seismitoad|[miss]
+|-miss|p1a: Spaghetti|p2a: Seismitoad
+|
+|upkeep
+|turn|6
+|
+|t:|1641654225
+|switch|p2a: Roselia|Roselia, M|100/100
+|move|p1a: Spaghetti|Sleep Powder|p2a: Roselia
+|-status|p2a: Roselia|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|
+|t:|1641654233
+|-curestatus|p2a: Roselia|slp|[from] ability: Natural Cure
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Regenerator|[from] ability: Trace|[of] p1a: Spaghetti
+|switch|p1a: I <3 Lamp|Lampent, F, shiny|100/100
+|-damage|p1a: I <3 Lamp|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1641654242
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: I <3 Lamp|Calm Mind|p1a: I <3 Lamp
+|-boost|p1a: I <3 Lamp|spa|1
+|-boost|p1a: I <3 Lamp|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1641654256
+|move|p2a: Seismitoad|Earth Power|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|33/100
+|-unboost|p1a: I <3 Lamp|spd|1
+|move|p1a: I <3 Lamp|Trick Room|p1a: I <3 Lamp
+|-fieldstart|move: Trick Room|[of] p1a: I <3 Lamp
+|
+|upkeep
+|turn|10
+|
+|t:|1641654264
+|switch|p2a: Roselia|Roselia, M|100/100
+|move|p1a: I <3 Lamp|Calm Mind|p1a: I <3 Lamp
+|-boost|p1a: I <3 Lamp|spa|1
+|-boost|p1a: I <3 Lamp|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1641654271
+|move|p1a: I <3 Lamp|Fire Blast|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|
+|t:|1641654276
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|12
+|
+|t:|1641654281
+|move|p1a: I <3 Lamp|Fire Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|move|p2a: Mandibuzz|Foul Play|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-crit|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|0 fnt
+|faint|p1a: I <3 Lamp
+|
+|-heal|p2a: Mandibuzz|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641654292
+|switch|p1a: Jbag|Probopass, M|100/100
+|-damage|p1a: Jbag|95/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1641654297
+|switch|p2a: Golurk|Golurk|84/100
+|move|p1a: Jbag|Stealth Rock|p2a: Golurk
+|-sidestart|p2: Memehater|move: Stealth Rock
+|
+|-heal|p1a: Jbag|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1641654303
+|switch|p1a: Spaghetti|Tangela, M|100/100
+|-damage|p1a: Spaghetti|88/100|[from] Stealth Rock
+|move|p2a: Golurk|Shadow Punch|p1a: Spaghetti
+|-damage|p1a: Spaghetti|56/100
+|
+|upkeep
+|turn|15
+|
+|t:|1641654319
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Regenerator|[from] ability: Trace|[of] p1a: Spaghetti
+|switch|p1a: Yandere|Mawile, F|87/100
+|-damage|p1a: Yandere|80/100|[from] Stealth Rock
+|-ability|p1a: Yandere|Intimidate|boost
+|-unboost|p2a: Gardevoir|atk|1
+|
+|upkeep
+|turn|16
+|
+|t:|1641654328
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Yandere|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|76/100
+|
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1641654336
+|switch|p1a: WaterWings|Mantyke, F|100/100
+|-damage|p1a: WaterWings|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: WaterWings|[miss]
+|-miss|p2a: Seismitoad|p1a: WaterWings
+|
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1641654344
+|move|p2a: Seismitoad|Toxic|p1a: WaterWings
+|-status|p1a: WaterWings|tox
+|move|p1a: WaterWings|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|-damage|p1a: WaterWings|69/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1641654351
+|switch|p2a: Tauros|Tauros, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|move|p1a: WaterWings|Rest|p1a: WaterWings
+|-status|p1a: WaterWings|slp|[from] move: Rest
+|-heal|p1a: WaterWings|100/100 slp|[silent]
+|
+|upkeep
+|turn|20
+|
+|t:|1641654357
+|switch|p1a: Yandere|Mawile, F|80/100
+|-damage|p1a: Yandere|74/100|[from] Stealth Rock
+|-ability|p1a: Yandere|Intimidate|boost
+|-unboost|p2a: Tauros|atk|1
+|move|p2a: Tauros|Substitute|p2a: Tauros
+|-start|p2a: Tauros|Substitute
+|-damage|p2a: Tauros|63/100
+|
+|upkeep
+|turn|21
+|
+|t:|1641654364
+|move|p2a: Tauros|Earthquake|p1a: Yandere
+|-supereffective|p1a: Yandere
+|-damage|p1a: Yandere|25/100
+|-damage|p2a: Tauros|53/100|[from] item: Life Orb
+|move|p1a: Yandere|Iron Head|p2a: Tauros
+|-end|p2a: Tauros|Substitute
+|
+|upkeep
+|turn|22
+|
+|t:|1641654372
+|switch|p1a: Spaghetti|Tangela, M|89/100
+|-damage|p1a: Spaghetti|77/100|[from] Stealth Rock
+|move|p2a: Tauros|Earthquake|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|69/100
+|-damage|p2a: Tauros|43/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|
+|t:|1641654378
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Regenerator|[from] ability: Trace|[of] p1a: Spaghetti
+|move|p1a: Spaghetti|Giga Drain|p2a: Gardevoir
+|-damage|p2a: Gardevoir|46/100
+|-heal|p1a: Spaghetti|88/100|[from] drain|[of] p2a: Gardevoir
+|
+|upkeep
+|turn|24
+|
+|t:|1641654388
+|switch|p1a: Tank Skunk|Skuntank, F, shiny|100/100
+|-damage|p1a: Tank Skunk|88/100|[from] Stealth Rock
+|move|p2a: Gardevoir|Trick|p1a: Tank Skunk
+|-activate|p2a: Gardevoir|move: Trick|[of] p1a: Tank Skunk
+|-item|p1a: Tank Skunk|Choice Scarf|[from] move: Trick
+|-item|p2a: Gardevoir|Black Sludge|[from] move: Trick
+|
+|-damage|p2a: Gardevoir|34/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|j| Graugang
+|
+|t:|1641654397
+|move|p1a: Tank Skunk|Pursuit|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|-message|Memehater forfeited.
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1066 &rarr; <strong>1099</strong><br />(+33 for winning)
+|raw|Memehater's rating: 1101 &rarr; <strong>1073</strong><br />(-28 for losing)
+|l|☆Memehater

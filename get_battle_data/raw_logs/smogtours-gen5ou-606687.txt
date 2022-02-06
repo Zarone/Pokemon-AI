@@ -1,0 +1,281 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644017862
+|gametype|singles
+|player|p1|Dababy3|lucas-gen4pt|
+|player|p2|mars and back|rosa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Cloyster, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Keldeo|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|inactive|mars and back also wants the timer to be on.
+|c|☆Dababy3|SHEEEEEEEEESH]
+|
+|t:|1644017870
+|start
+|switch|p1a: 6ixBUZZ|Volcarona, F, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|t:|1644017876
+|move|p2a: Skarmory|Brave Bird|p1a: 6ixBUZZ
+|-supereffective|p1a: 6ixBUZZ
+|-damage|p1a: 6ixBUZZ|15/100
+|-status|p2a: Skarmory|brn|[from] ability: Flame Body|[of] p1a: 6ixBUZZ
+|-damage|p2a: Skarmory|62/100 brn|[from] Recoil
+|move|p1a: 6ixBUZZ|Fiery Dance|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-boost|p1a: 6ixBUZZ|spa|1
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1644017881
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|2
+|c|☆mars and back|hurry up big man
+|inactive|Dababy3 has 270 seconds left.
+|c|☆Dababy3|My bad
+|
+|t:|1644017914
+|switch|p1a: Gabite of 87|Garchomp, M, shiny|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Gabite of 87
+|-damage|p1a: Gabite of 87|48/100
+|
+|upkeep
+|turn|3
+|c|☆mars and back|the beanou team dont wait
+|
+|t:|1644017920
+|move|p2a: Garchomp|Earthquake|p1a: Gabite of 87
+|-damage|p1a: Gabite of 87|0 fnt
+|faint|p1a: Gabite of 87
+|
+|upkeep
+|
+|t:|1644017926
+|switch|p1a: FreeTheUyghurs|Cloyster, F, shiny|100/100
+|turn|4
+|
+|t:|1644017928
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: FreeTheUyghurs|Shell Smash|p1a: FreeTheUyghurs
+|-unboost|p1a: FreeTheUyghurs|def|1
+|-unboost|p1a: FreeTheUyghurs|spd|1
+|-boost|p1a: FreeTheUyghurs|atk|2
+|-boost|p1a: FreeTheUyghurs|spa|2
+|-boost|p1a: FreeTheUyghurs|spe|2
+|-enditem|p1a: FreeTheUyghurs|White Herb
+|-clearnegativeboost|p1a: FreeTheUyghurs|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1644017933
+|move|p1a: FreeTheUyghurs|Icicle Spear|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|88/100
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|76/100
+|-resisted|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|49/100
+|-resisted|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|23/100
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|10/100
+|-hitcount|p2a: Jellicent|5
+|move|p2a: Jellicent|Will-O-Wisp|p1a: FreeTheUyghurs
+|-status|p1a: FreeTheUyghurs|brn
+|
+|-heal|p2a: Jellicent|16/100|[from] item: Leftovers
+|-damage|p1a: FreeTheUyghurs|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1644017942
+|move|p1a: FreeTheUyghurs|Icicle Spear|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|10/100
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|3/100
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|-hitcount|p2: Jellicent|3
+|
+|-damage|p1a: FreeTheUyghurs|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1644017957
+|switch|p2a: Latios|Latios, M|100/100
+|turn|7
+|
+|t:|1644017980
+|move|p2a: Latios|Dragon Pulse|p1a: FreeTheUyghurs
+|-damage|p1a: FreeTheUyghurs|0 fnt
+|faint|p1a: FreeTheUyghurs
+|
+|upkeep
+|
+|t:|1644017987
+|switch|p1a: Dr. Ofori|Alakazam, M|100/100
+|turn|8
+|
+|t:|1644017998
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Dr. Ofori|Shadow Ball|p2a: Kyurem
+|-damage|p2a: Kyurem|81/100
+|
+|-heal|p2a: Kyurem|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644018002
+|switch|p1a: 6ixBUZZ|Volcarona, F, shiny|15/100
+|move|p2a: Kyurem|Ice Beam|p1a: 6ixBUZZ
+|-resisted|p1a: 6ixBUZZ
+|-damage|p1a: 6ixBUZZ|0 fnt
+|faint|p1a: 6ixBUZZ
+|
+|-heal|p2a: Kyurem|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644018009
+|switch|p1a: Dirty Dan|Excadrill, M|100/100
+|-ability|p1a: Dirty Dan|Mold Breaker
+|turn|10
+|
+|t:|1644018011
+|move|p1a: Dirty Dan|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|57/100
+|move|p2a: Kyurem|Ice Beam|p1a: Dirty Dan
+|-damage|p1a: Dirty Dan|50/100
+|
+|-heal|p2a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644018014
+|move|p1a: Dirty Dan|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|3/100
+|cant|p2a: Kyurem|flinch
+|
+|-heal|p2a: Kyurem|9/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644018016
+|move|p1a: Dirty Dan|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1644018018
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|13
+|
+|t:|1644018020
+|move|p2a: Garchomp|Earthquake|p1a: Dirty Dan
+|-supereffective|p1a: Dirty Dan
+|-damage|p1a: Dirty Dan|0 fnt
+|faint|p1a: Dirty Dan
+|
+|upkeep
+|
+|t:|1644018029
+|switch|p1a: Dr. Ofori|Alakazam, M|100/100
+|turn|14
+|
+|t:|1644018032
+|move|p1a: Dr. Ofori|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|40/100
+|move|p2a: Garchomp|Earthquake|p1a: Dr. Ofori
+|-enditem|p1a: Dr. Ofori|Focus Sash
+|-damage|p1a: Dr. Ofori|1/100
+|
+|upkeep
+|turn|15
+|
+|t:|1644018034
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Dr. Ofori|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|65/100
+|
+|upkeep
+|turn|16
+|
+|t:|1644018036
+|move|p2a: Scizor|Bullet Punch|p1a: Dr. Ofori
+|-damage|p1a: Dr. Ofori|0 fnt
+|faint|p1a: Dr. Ofori
+|
+|upkeep
+|
+|t:|1644018038
+|switch|p1a: Opp Stoppa|Keldeo|100/100
+|turn|17
+|
+|t:|1644018040
+|move|p2a: Scizor|Quick Attack|p1a: Opp Stoppa
+|-enditem|p2a: Scizor|Normal Gem|[from] gem
+|-damage|p1a: Opp Stoppa|63/100
+|move|p1a: Opp Stoppa|Calm Mind|p1a: Opp Stoppa
+|-boost|p1a: Opp Stoppa|spa|1
+|-boost|p1a: Opp Stoppa|spd|1
+|
+|-heal|p1a: Opp Stoppa|69/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1644018043
+|move|p2a: Scizor|Quick Attack|p1a: Opp Stoppa
+|-damage|p1a: Opp Stoppa|43/100
+|move|p1a: Opp Stoppa|Hydro Pump|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Opp Stoppa|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644018045
+|switch|p2a: Latios|Latios, M|100/100
+|turn|19
+|c|☆Dababy3|gg
+|
+|t:|1644018049
+|move|p2a: Latios|Draco Meteor|p1a: Opp Stoppa
+|-damage|p1a: Opp Stoppa|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Opp Stoppa
+|
+|win|mars and back

@@ -1,0 +1,371 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641675626
+|gametype|singles
+|player|p1|Gilberto Arenoso|elesa|
+|player|p2|Accel|#accel|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Darmanitan, F|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Gligar, F|item
+|poke|p1|Umbreon, F|item
+|poke|p1|Cobalion|item
+|poke|p2|Azelf|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Kabutops, M|item
+|poke|p2|Ludicolo, M|item
+|poke|p2|Nidoqueen, F|item
+|teampreview
+|c|☆Gilberto Arenoso|hf
+|c|☆Accel|u2
+|
+|t:|1641675647
+|start
+|switch|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|Blastoise, F, shiny|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|t:|1641675653
+|move|p2a: Azelf|Stealth Rock|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ
+|-sidestart|p1: Gilberto Arenoso|move: Stealth Rock
+|move|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|Scald|p2a: Azelf
+|-damage|p2a: Azelf|70/100
+|
+|upkeep
+|turn|2
+|
+|t:|1641675662
+|move|p2a: Azelf|Explosion|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ
+|-damage|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|54/100
+|faint|p2a: Azelf
+|move|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|Rapid Spin|p2: Azelf|[notarget]
+|-fail|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ
+|
+|-heal|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641675671
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|3
+|
+|t:|1641675697
+|switch|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Umbreon, F, shiny|100/100
+|-damage|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|88/100|[from] Stealth Rock
+|move|p2a: Kingdra|Draco Meteor|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-damage|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|40/100
+|-unboost|p2a: Kingdra|spa|2
+|
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|46/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1641675701
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Wish|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Gilberto Arenoso has 270 seconds left.
+|
+|t:|1641675750
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Protect|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-singleturn|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Protect
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|100/100|[from] move: Wish|[wisher] Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|upkeep
+|turn|6
+|
+|t:|1641675767
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Wish|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|Gilberto Arenoso has 270 seconds left.
+|
+|t:|1641675801
+|move|p2a: Nidoqueen|Earth Power|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-damage|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|73/100
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Foul Play|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|100/100|[from] move: Wish|[wisher] Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|upkeep
+|turn|8
+|
+|t:|1641675806
+|move|p2a: Nidoqueen|Taunt|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-start|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|move: Taunt
+|cant|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|move: Taunt|Wish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|Gilberto Arenoso has 240 seconds left.
+|
+|t:|1641675860
+|switch|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧|Gligar, F, shiny|100/100
+|-damage|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧|88/100|[from] Stealth Rock
+|move|p2a: Nidoqueen|Super Fang|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧
+|-damage|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧|45/100
+|-damage|p2a: Nidoqueen|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|c|+Sagiri I|Ella se me pone ese pantalón que le queda to pegao
+|inactive|Gilberto Arenoso has 210 seconds left.
+|
+|t:|1641675895
+|move|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|+Sagiri I|Todos se la quieren comer pero ninguno la ha catao y yo me la quiero comer por que ella de lo ha buscado
+|inactive|Accel has 270 seconds left.
+|
+|t:|1641675953
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|11
+|inactive|Accel has 240 seconds left.
+|
+|t:|1641675972
+|move|p2a: Kingdra|Surf|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧
+|-supereffective|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧
+|-damage|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧|0 fnt
+|faint|p1a: ♜⊳Ř𐌄ϾƔ𐌕𐌄𐌀𐌑༺✞✧
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|+gibraltar slayer|gilberto cabron
+|c|+Sagiri I|Wp nagordo
+|inactive|Gilberto Arenoso has 180 seconds left.
+|
+|t:|1641676025
+|switch|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Umbreon, F, shiny|100/100
+|-damage|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641676029
+|move|p2a: Kingdra|Surf|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-damage|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|41/100
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Wish|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|
+|-weather|none
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1641676037
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Foul Play|p2a: Tornadus
+|-damage|p2a: Tornadus|57/100
+|
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|97/100|[from] move: Wish|[wisher] Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1641676045
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Wish|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|inactive|Gilberto Arenoso has 180 seconds left.
+|inactive|Accel has 270 seconds left.
+|
+|t:|1641676069
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Foul Play|p2a: Ludicolo
+|-damage|p2a: Ludicolo|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|inactive|Gilberto Arenoso has 150 seconds left.
+|inactive|Accel has 240 seconds left.
+|inactive|Gilberto Arenoso has 120 seconds left.
+|inactive|Gilberto Arenoso has 90 seconds left.
+|
+|t:|1641676169
+|move|p2a: Ludicolo|Swords Dance|p2a: Ludicolo
+|-boost|p2a: Ludicolo|atk|2
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Foul Play|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641676171
+|switch|p2a: Kabutops|Kabutops, M|100/100
+|turn|17
+|inactive|Gilberto Arenoso has 90 seconds left.
+|
+|t:|1641676189
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Protect|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-singleturn|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Protect
+|move|p2a: Kabutops|Waterfall|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-activate|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|inactive|Gilberto Arenoso has 60 seconds left.
+|inactive|Accel has 240 seconds left.
+|inactive|Gilberto Arenoso has 30 seconds left.
+|
+|t:|1641676261
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Wish|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|inactive|Gilberto Arenoso has 30 seconds left.
+|inactive|Gilberto Arenoso has 20 seconds left.
+|inactive|Gilberto Arenoso has 15 seconds left.
+|
+|t:|1641676286
+|switch|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|Blastoise, F, shiny|60/100
+|-damage|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|48/100|[from] Stealth Rock
+|move|p2a: Kabutops|Waterfall|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ
+|-resisted|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ
+|-damage|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ|0 fnt
+|faint|p1a: ๖ۣۜǤнσsτ༻ᖇᗩᑭ𐌕ᗝᖇ
+|-damage|p2a: Kabutops|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Gilberto Arenoso has 20 seconds left this turn.
+|inactive|Gilberto Arenoso has 15 seconds left.
+|
+|t:|1641676294
+|switch|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Umbreon, F, shiny|100/100
+|-damage|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|88/100|[from] Stealth Rock
+|turn|20
+|inactive|Gilberto Arenoso has 25 seconds left this turn.
+|inactive|Gilberto Arenoso has 20 seconds left.
+|inactive|Accel has 240 seconds left.
+|inactive|Gilberto Arenoso has 15 seconds left.
+|inactive|Gilberto Arenoso has 10 seconds left.
+|inactive|Gilberto Arenoso has 5 seconds left.
+|
+|t:|1641676316
+|move|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Protect|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-singleturn|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|Protect
+|move|p2a: Kabutops|Waterfall|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ
+|-activate|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ƭ͢Ʀ鬱 ℳac͢㉶Ƭяιℓℓ|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Gilberto Arenoso has 15 seconds left this turn.
+|inactive|Gilberto Arenoso has 10 seconds left.
+|
+|t:|1641676322
+|switch|p1a: ⚔ƘƦƖƧƬƠƑƑЄƦ༻⊱遊|Darmanitan, F, shiny|100/100
+|-damage|p1a: ⚔ƘƦƖƧƬƠƑƑЄƦ༻⊱遊|76/100|[from] Stealth Rock
+|move|p2a: Kabutops|Waterfall|p1a: ⚔ƘƦƖƧƬƠƑƑЄƦ༻⊱遊
+|-supereffective|p1a: ⚔ƘƦƖƧƬƠƑƑЄƦ༻⊱遊
+|-damage|p1a: ⚔ƘƦƖƧƬƠƑƑЄƦ༻⊱遊|0 fnt
+|faint|p1a: ⚔ƘƦƖƧƬƠƑƑЄƦ༻⊱遊
+|-damage|p2a: Kabutops|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|inactive|Gilberto Arenoso has 15 seconds left this turn.
+|
+|t:|1641676324
+|switch|p1a: ๖ۣۜ乙三ᑌ乙➤✞ᵖʳᵒ|Cobalion|100/100
+|-damage|p1a: ๖ۣۜ乙三ᑌ乙➤✞ᵖʳᵒ|97/100|[from] Stealth Rock
+|turn|22
+|inactive|Gilberto Arenoso has 25 seconds left this turn.
+|
+|t:|1641676327
+|switch|p2a: Tornadus|Tornadus, M|57/100
+|move|p1a: ๖ۣۜ乙三ᑌ乙➤✞ᵖʳᵒ|Volt Switch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|inactive|Gilberto Arenoso has 30 seconds left this turn.
+|inactive|Gilberto Arenoso has 20 seconds left.
+|
+|t:|1641676340
+|switch|p1a: ƁᙈββŁΣßΛĻŽ|Victini|100/100|[from]move: Volt Switch
+|-damage|p1a: ƁᙈββŁΣßΛĻŽ|76/100|[from] Stealth Rock
+|
+|upkeep
+|inactive|Gilberto Arenoso has 25 seconds left this turn.
+|
+|t:|1641676352
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|23
+|
+|t:|1641676356
+|move|p1a: ƁᙈββŁΣßΛĻŽ|Psychic|p2a: Kingdra
+|-damage|p2a: Kingdra|44/100
+|-damage|p1a: ƁᙈββŁΣßΛĻŽ|66/100|[from] item: Life Orb
+|move|p2a: Kingdra|Hydro Pump|p1a: ƁᙈββŁΣßΛĻŽ|[miss]
+|-miss|p2a: Kingdra|p1a: ƁᙈββŁΣßΛĻŽ
+|
+|upkeep
+|turn|24
+|
+|t:|1641676358
+|move|p1a: ƁᙈββŁΣßΛĻŽ|Psychic|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|-damage|p1a: ƁᙈββŁΣßΛĻŽ|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641676360
+|switch|p2a: Kabutops|Kabutops, M|81/100
+|turn|25
+|
+|t:|1641676363
+|move|p2a: Kabutops|Aqua Jet|p1a: ƁᙈββŁΣßΛĻŽ
+|-supereffective|p1a: ƁᙈββŁΣßΛĻŽ
+|-damage|p1a: ƁᙈββŁΣßΛĻŽ|2/100
+|-damage|p2a: Kabutops|71/100|[from] item: Life Orb
+|move|p1a: ƁᙈββŁΣßΛĻŽ|Grass Knot|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|-damage|p1a: ƁᙈββŁΣßΛĻŽ|0 fnt|[from] item: Life Orb
+|faint|p1a: ƁᙈββŁΣßΛĻŽ
+|
+|win|Gilberto Arenoso
+|c|☆Accel|gg
+|c|☆Gilberto Arenoso|gg
+|player|p1|Gilberto Arenoso|elesa

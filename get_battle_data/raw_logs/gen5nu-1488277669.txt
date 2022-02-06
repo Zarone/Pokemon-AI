@@ -1,0 +1,229 @@
+|j|☆MewLord15
+|j|☆jahmille118
+|t:|1641745122
+|gametype|singles
+|player|p1|MewLord15|lucas-gen4pt|1000
+|player|p2|jahmille118|2|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Basculin-Blue-Striped, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Electabuzz, F|item
+|poke|p1|Golem, M|item
+|poke|p1|Liepard, F|item
+|poke|p1|Exeggutor, F|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Gorebyss, M|item
+|poke|p2|Liepard, M|item
+|poke|p2|Illumise, F|item
+|poke|p2|Floatzel, F|item
+|teampreview
+|
+|t:|1641745135
+|start
+|switch|p1a: Terminator|Exeggutor, F|100/100
+|switch|p2a: Armaldo|Armaldo, M|100/100
+|turn|1
+|
+|t:|1641745148
+|move|p1a: Terminator|Psychic|p2a: Armaldo
+|-damage|p2a: Armaldo|35/100
+|move|p2a: Armaldo|X-Scissor|p1a: Terminator
+|-supereffective|p1a: Terminator
+|-damage|p1a: Terminator|0 fnt
+|faint|p1a: Terminator
+|-damage|p2a: Armaldo|25/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641745160
+|switch|p1a: Not a Dragon|Charizard, F|100/100
+|turn|2
+|
+|t:|1641745169
+|move|p1a: Not a Dragon|Fly||[still]
+|-prepare|p1a: Not a Dragon|Fly
+|move|p2a: Armaldo|Stealth Rock|p1a: Not a Dragon
+|-sidestart|p1: MewLord15|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1641745190
+|switch|p2a: Liepard|Liepard, M|100/100
+|move|p1a: Not a Dragon|Fly|p2a: Liepard|[from]lockedmove
+|-damage|p2a: Liepard|16/100
+|
+|upkeep
+|turn|4
+|
+|t:|1641745198
+|move|p2a: Liepard|Fake Out|p1a: Not a Dragon
+|-damage|p1a: Not a Dragon|85/100
+|cant|p1a: Not a Dragon|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1641745203
+|move|p2a: Liepard|Rain Dance|p2a: Liepard
+|-weather|RainDance
+|move|p1a: Not a Dragon|Brick Break|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641745211
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|6
+|
+|t:|1641745218
+|switch|p1a: Zippy Zap|Electabuzz, F|100/100
+|-damage|p1a: Zippy Zap|88/100|[from] Stealth Rock
+|move|p2a: Floatzel|Waterfall|p1a: Zippy Zap
+|-damage|p1a: Zippy Zap|0 fnt
+|faint|p1a: Zippy Zap
+|-damage|p2a: Floatzel|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641745229
+|switch|p1a: Blue|Basculin-Blue-Striped, F|100/100
+|-damage|p1a: Blue|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1641745245
+|move|p2a: Floatzel|Brick Break|p1a: Blue
+|-damage|p1a: Blue|41/100
+|-damage|p2a: Floatzel|81/100|[from] item: Life Orb
+|move|p1a: Blue|Double-Edge|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641745257
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|turn|8
+|
+|t:|1641745262
+|move|p2a: Ludicolo|Energy Ball|p1a: Blue
+|-supereffective|p1a: Blue
+|-damage|p1a: Blue|0 fnt
+|faint|p1a: Blue
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641745268
+|switch|p1a: Cheetah|Liepard, F|100/100
+|-damage|p1a: Cheetah|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1641745287
+|move|p1a: Cheetah|Fake Out|p2a: Ludicolo
+|-damage|p2a: Ludicolo|79/100
+|cant|p2a: Ludicolo|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cheetah|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1641745294
+|move|p1a: Cheetah|Thunder Wave|p2a: Ludicolo
+|-status|p2a: Ludicolo|par
+|move|p2a: Ludicolo|Surf|p1a: Cheetah
+|-damage|p1a: Cheetah|0 fnt
+|faint|p1a: Cheetah
+|-damage|p2a: Ludicolo|69/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641745303
+|switch|p1a: Korg|Golem, M|100/100
+|-damage|p1a: Korg|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1641745350
+|move|p2a: Ludicolo|Surf|p1a: Korg
+|-supereffective|p1a: Korg
+|-damage|p1a: Korg|0 fnt
+|faint|p1a: Korg
+|-damage|p2a: Ludicolo|59/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641745356
+|switch|p1a: Not a Dragon|Charizard, F|85/100
+|-damage|p1a: Not a Dragon|35/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641745361
+|move|p1a: Not a Dragon|Fly||[still]
+|-prepare|p1a: Not a Dragon|Fly
+|move|p2a: Ludicolo|Surf|p1a: Not a Dragon|[miss]
+|-miss|p2a: Ludicolo|p1a: Not a Dragon
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1641745377
+|switch|p2a: Armaldo|Armaldo, M|25/100
+|move|p1a: Not a Dragon|Fly|p2a: Armaldo|[from]lockedmove
+|-damage|p2a: Armaldo|0 fnt
+|faint|p2a: Armaldo
+|
+|upkeep
+|
+|t:|1641745431
+|switch|p2a: Illumise|Illumise, F|100/100
+|turn|14
+|
+|t:|1641745436
+|move|p2a: Illumise|Rain Dance|p2a: Illumise
+|-weather|RainDance
+|move|p1a: Not a Dragon|Fire Punch|p2a: Illumise
+|-supereffective|p2a: Illumise
+|-damage|p2a: Illumise|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1641745457
+|move|p1a: Not a Dragon|Fly||[still]
+|-prepare|p1a: Not a Dragon|Fly
+|move|p2a: Illumise|Thunder|p1a: Not a Dragon
+|-supereffective|p1a: Not a Dragon
+|-damage|p1a: Not a Dragon|0 fnt
+|faint|p1a: Not a Dragon
+|
+|win|jahmille118
+|raw|MewLord15's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|jahmille118's rating: 1122 &rarr; <strong>1139</strong><br />(+17 for winning)
+|l|☆MewLord15

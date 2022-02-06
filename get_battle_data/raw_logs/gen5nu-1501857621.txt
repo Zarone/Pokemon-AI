@@ -1,0 +1,296 @@
+|j|☆mrsmiles424
+|j|‽Yung Girl Lillie
+|t:|1643648221
+|gametype|singles
+|player|p1|mrsmiles424|1|1090
+|player|p2|Yung Girl Lillie|lillie|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, F|item
+|poke|p1|Drifblim, M|item
+|poke|p1|Tauros, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Floatzel, F|item
+|poke|p1|Swellow, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Probopass, F|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Dodrio, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yung Girl Lillie)
+|
+|t:|1643648245
+|start
+|switch|p1a: Serperior|Serperior, F, shiny|100/100
+|switch|p2a: Probopass|Probopass, F|100/100
+|turn|1
+|
+|t:|1643648260
+|move|p1a: Serperior|Taunt|p2a: Probopass
+|-start|p2a: Probopass|move: Taunt
+|cant|p2a: Probopass|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|2
+|
+|t:|1643648264
+|move|p1a: Serperior|Reflect|p1a: Serperior
+|-sidestart|p1: mrsmiles424|Reflect
+|move|p2a: Probopass|Volt Switch|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|94/100
+|
+|t:|1643648267
+|switch|p2a: Beedrill|Beedrill, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1643648271
+|move|p1a: Serperior|Light Screen|p1a: Serperior
+|-sidestart|p1: mrsmiles424|move: Light Screen
+|move|p2a: Beedrill|U-turn|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|55/100
+|
+|t:|1643648274
+|switch|p2a: Dodrio|Dodrio, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1643648292
+|switch|p1a: Floatzel|Floatzel, F, shiny|100/100
+|move|p2a: Dodrio|Brave Bird|p1a: Floatzel
+|-damage|p1a: Floatzel|49/100
+|-damage|p2a: Dodrio|81/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1643648302
+|move|p2a: Dodrio|Brave Bird|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|-damage|p2a: Dodrio|61/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1643648314
+|switch|p1a: Swellow|Swellow, M, shiny|100/100
+|turn|6
+|
+|t:|1643648323
+|switch|p2a: Probopass|Probopass, F|100/100
+|move|p1a: Swellow|Facade|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|96/100
+|
+|-heal|p2a: Probopass|100/100|[from] item: Leftovers
+|-status|p1a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1643648331
+|move|p1a: Swellow|U-turn|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|91/100
+|
+|t:|1643648340
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100|[from]move: U-turn
+|-ability|p1a: Gardevoir|Sturdy|[from] ability: Trace|[of] p2a: Probopass
+|move|p2a: Probopass|Thunder Wave|p1a: Gardevoir
+|-status|p1a: Gardevoir|par
+|
+|-heal|p2a: Probopass|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643648349
+|move|p2a: Probopass|Stealth Rock|p1a: Gardevoir
+|-sidestart|p1: mrsmiles424|move: Stealth Rock
+|move|p1a: Gardevoir|Focus Blast|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|-damage|p1a: Gardevoir|91/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643648352
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|turn|9
+|
+|t:|1643648364
+|switch|p1a: Swellow|Swellow, M, shiny|100/100 tox
+|-damage|p1a: Swellow|76/100 tox|[from] Stealth Rock
+|move|p2a: Beedrill|U-turn|p1a: Swellow
+|-resisted|p1a: Swellow
+|-damage|p1a: Swellow|58/100 tox
+|
+|t:|1643648369
+|switch|p2a: Dodrio|Dodrio, M|61/100|[from]move: U-turn
+|
+|-damage|p1a: Swellow|51/100 tox|[from] psn
+|-sideend|p1: mrsmiles424|Reflect
+|upkeep
+|turn|10
+|
+|t:|1643648374
+|move|p2a: Dodrio|Return|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|faint|p1a: Swellow
+|
+|-sideend|p1: mrsmiles424|move: Light Screen
+|upkeep
+|
+|t:|1643648380
+|switch|p1a: Drifblim|Drifblim, M, shiny|100/100
+|-damage|p1a: Drifblim|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1643648384
+|switch|p2a: Eelektross|Eelektross, F|100/100
+|move|p1a: Drifblim|Acrobatics|p2a: Eelektross
+|-enditem|p1a: Drifblim|Flying Gem|[from] gem
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|62/100
+|
+|upkeep
+|turn|12
+|
+|t:|1643648392
+|move|p1a: Drifblim|Destiny Bond|p1a: Drifblim
+|-singlemove|p1a: Drifblim|Destiny Bond
+|move|p2a: Eelektross|Wild Charge|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|-activate|p1a: Drifblim|move: Destiny Bond
+|faint|p2a: Eelektross
+|
+|upkeep
+|
+|t:|1643648402
+|switch|p1a: Serperior|Serperior, F, shiny|55/100
+|switch|p2a: Dodrio|Dodrio, M|61/100
+|-damage|p1a: Serperior|43/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643648407
+|move|p2a: Dodrio|Drill Peck|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1643648412
+|switch|p1a: Tauros|Tauros, M|100/100
+|-damage|p1a: Tauros|88/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Dodrio|atk|1
+|turn|14
+|
+|t:|1643648429
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|move|p1a: Tauros|Stone Edge|p2a: Camerupt
+|-crit|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|
+|t:|1643648431
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|turn|15
+|
+|t:|1643648439
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|91/100 par
+|-damage|p1a: Gardevoir|78/100 par|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Rain Dish|[from] ability: Trace|[of] p2a: Ludicolo
+|move|p2a: Ludicolo|Giga Drain|p1a: Gardevoir
+|-damage|p1a: Gardevoir|54/100 par
+|
+|upkeep
+|turn|16
+|
+|t:|1643648449
+|move|p2a: Ludicolo|Leech Seed|p1a: Gardevoir
+|-start|p1a: Gardevoir|move: Leech Seed
+|cant|p1a: Gardevoir|par
+|
+|-damage|p1a: Gardevoir|42/100 par|[from] Leech Seed|[of] p2a: Ludicolo
+|upkeep
+|turn|17
+|
+|t:|1643648462
+|move|p2a: Ludicolo|Scald|p1a: Gardevoir
+|-damage|p1a: Gardevoir|13/100 par
+|move|p1a: Gardevoir|Signal Beam|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|41/100
+|-damage|p1a: Gardevoir|4/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Ludicolo|47/100|[from] item: Leftovers
+|-damage|p1a: Gardevoir|0 fnt|[from] Leech Seed|[of] p2a: Ludicolo
+|-heal|p2a: Ludicolo|50/100|[silent]
+|faint|p1a: Gardevoir
+|upkeep
+|
+|t:|1643648472
+|switch|p1a: Tauros|Tauros, M|88/100
+|-damage|p1a: Tauros|76/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Ludicolo|atk|1
+|turn|18
+|
+|t:|1643648487
+|move|p1a: Tauros|Stone Edge|p2a: Ludicolo
+|-damage|p2a: Ludicolo|22/100
+|move|p2a: Ludicolo|Giga Drain|p1a: Tauros
+|-damage|p1a: Tauros|42/100
+|-heal|p2a: Ludicolo|36/100|[from] drain|[of] p1a: Tauros
+|
+|-heal|p2a: Ludicolo|42/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643648495
+|move|p1a: Tauros|Stone Edge|p2a: Ludicolo
+|-crit|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|upkeep
+|
+|t:|1643648497
+|switch|p2a: Dodrio|Dodrio, M|61/100
+|turn|20
+|
+|t:|1643648502
+|move|p2a: Dodrio|Brave Bird|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|-damage|p2a: Dodrio|46/100|[from] Recoil
+|
+|win|Yung Girl Lillie
+|raw|mrsmiles424's rating: 1090 &rarr; <strong>1061</strong><br />(-29 for losing)
+|raw|Yung Girl Lillie's rating: 1000 &rarr; <strong>1050</strong><br />(+50 for winning)
+|l|☆mrsmiles424

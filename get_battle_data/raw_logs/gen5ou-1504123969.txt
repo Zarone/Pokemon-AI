@@ -1,0 +1,400 @@
+|j|☆Argon657
+|j|☆Lgmlobo
+|t:|1643956002
+|gametype|singles
+|player|p1|Argon657|steven|1175
+|player|p2|Lgmlobo|266|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Darmanitan, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Whimsicott, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Exeggutor, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Starmie|item
+|poke|p2|Dusknoir, M|item
+|teampreview
+|
+|t:|1643956010
+|start
+|switch|p1a: Iron Birb|Skarmory, M|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lgmlobo)
+|
+|t:|1643956024
+|move|p2a: Starmie|Thunderbolt|p1a: Iron Birb
+|-supereffective|p1a: Iron Birb
+|-damage|p1a: Iron Birb|28/100
+|move|p1a: Iron Birb|Stealth Rock|p2a: Starmie
+|-sidestart|p2: Lgmlobo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643956034
+|switch|p1a: Pringles|Jellicent, M|100/100
+|move|p2a: Starmie|Thunderbolt|p1a: Pringles
+|-supereffective|p1a: Pringles
+|-damage|p1a: Pringles|68/100
+|
+|-heal|p1a: Pringles|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643956049
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: Pringles|Recover|p1a: Pringles
+|-heal|p1a: Pringles|100/100
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643956062
+|move|p2a: Serperior|Glare|p1a: Pringles
+|-status|p1a: Pringles|par
+|cant|p1a: Pringles|par
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643956072
+|switch|p1a: Iron Birb|Skarmory, M|28/100
+|move|p2a: Serperior|Leech Seed|p1a: Iron Birb
+|-start|p1a: Iron Birb|move: Leech Seed
+|
+|-damage|p1a: Iron Birb|16/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|6
+|-enditem|p1a: Iron Birb|Custap Berry|[eat]
+|-activate|p1a: Iron Birb|item: Custap Berry|[consumed]
+|
+|t:|1643956085
+|move|p1a: Iron Birb|Brave Bird|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|23/100
+|-damage|p1a: Iron Birb|0 fnt|[from] Recoil
+|faint|p1a: Iron Birb
+|move|p2a: Serperior|Giga Drain|p1: Iron Birb|[notarget]
+|-fail|p2a: Serperior
+|
+|-heal|p2a: Serperior|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643956092
+|switch|p1a: Mozilla|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Mozilla
+|turn|7
+|
+|t:|1643956103
+|switch|p1a: Tropicana|Exeggutor, M|100/100
+|move|p2a: Serperior|Glare|p1a: Tropicana
+|-status|p1a: Tropicana|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Serperior|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643956123
+|switch|p2a: Dusknoir|Dusknoir, M|100/100
+|-damage|p2a: Dusknoir|88/100|[from] Stealth Rock
+|-ability|p2a: Dusknoir|Pressure
+|cant|p1a: Tropicana|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643956135
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-crit|p1a: Tropicana
+|-damage|p1a: Tropicana|36/100 par
+|move|p1a: Tropicana|Substitute|p1a: Tropicana
+|-start|p1a: Tropicana|Substitute
+|-damage|p1a: Tropicana|12/100 par
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spa|2|[from] item: Starf Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|100/100|[from] item: Leftovers
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|atk|2|[from] item: Starf Berry
+|turn|10
+|
+|t:|1643956151
+|move|p1a: Tropicana|Protect|p1a: Tropicana
+|-singleturn|p1a: Tropicana|Protect
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-activate|p1a: Tropicana|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|def|2|[from] item: Starf Berry
+|turn|11
+|
+|t:|1643956164
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-activate|p1a: Tropicana|Substitute|[damage]
+|cant|p1a: Tropicana|par
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spa|2|[from] item: Starf Berry
+|turn|12
+|
+|t:|1643956176
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-end|p1a: Tropicana|Substitute
+|cant|p1a: Tropicana|par
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|def|2|[from] item: Starf Berry
+|turn|13
+|inactive|Lgmlobo has 120 seconds left.
+|
+|t:|1643956201
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-damage|p1a: Tropicana|1/100 par
+|move|p1a: Tropicana|Giga Drain|p2a: Dusknoir
+|-damage|p2a: Dusknoir|22/100
+|-heal|p1a: Tropicana|36/100 par|[from] drain|[of] p2a: Dusknoir
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|28/100|[from] item: Leftovers
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|turn|14
+|inactive|Lgmlobo has 120 seconds left.
+|
+|t:|1643956215
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-damage|p1a: Tropicana|24/100 par
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spe|2|[from] item: Starf Berry
+|cant|p1a: Tropicana|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|34/100|[from] item: Leftovers
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spa|2|[from] item: Starf Berry
+|turn|15
+|inactive|Lgmlobo has 120 seconds left.
+|
+|t:|1643956239
+|move|p1a: Tropicana|Protect|p1a: Tropicana
+|-singleturn|p1a: Tropicana|Protect
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-activate|p1a: Tropicana|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|40/100|[from] item: Leftovers
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spe|2|[from] item: Starf Berry
+|turn|16
+|
+|t:|1643956256
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-damage|p1a: Tropicana|13/100 par
+|cant|p1a: Tropicana|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|46/100|[from] item: Leftovers
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spe|2|[from] item: Starf Berry
+|turn|17
+|
+|t:|1643956269
+|move|p1a: Tropicana|Protect|p1a: Tropicana
+|-singleturn|p1a: Tropicana|Protect
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-activate|p1a: Tropicana|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dusknoir|53/100|[from] item: Leftovers
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|atk|2|[from] item: Starf Berry
+|turn|18
+|
+|t:|1643956283
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-damage|p1a: Tropicana|2/100 par
+|move|p1a: Tropicana|Giga Drain|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|-heal|p1a: Tropicana|25/100 par|[from] drain|[of] p2a: Dusknoir
+|faint|p2a: Dusknoir
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spd|2|[from] item: Starf Berry
+|
+|t:|1643956301
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643956308
+|move|p2a: Zangoose|Protect|p2a: Zangoose
+|-singleturn|p2a: Zangoose|Protect
+|move|p1a: Tropicana|Giga Drain|p2a: Zangoose
+|-activate|p2a: Zangoose|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropicana|Starf Berry|[eat]
+|-boost|p1a: Tropicana|spd|2|[from] item: Starf Berry
+|turn|20
+|
+|t:|1643956323
+|move|p2a: Zangoose|Quick Attack|p1a: Tropicana
+|-damage|p1a: Tropicana|13/100 par
+|move|p1a: Tropicana|Giga Drain|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|-heal|p1a: Tropicana|52/100 par|[from] drain|[of] p2a: Zangoose
+|faint|p2a: Zangoose
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p1a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|
+|t:|1643956336
+|switch|p2a: Serperior|Serperior, M|35/100
+|-damage|p2a: Serperior|23/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1643956342
+|move|p2a: Serperior|Leech Seed|p1a: Tropicana
+|-immune|p1a: Tropicana
+|move|p1a: Tropicana|Psychic|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Lgmlobo has 90 seconds left.
+|
+|t:|1643956363
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-damage|p2a: Houndoom|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1643956368
+|move|p2a: Houndoom|Flamethrower|p1a: Tropicana
+|-supereffective|p1a: Tropicana
+|-damage|p1a: Tropicana|0 fnt
+|faint|p1a: Tropicana
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643956375
+|switch|p1a: Allergies|Whimsicott, M|100/100
+|turn|23
+|
+|t:|1643956378
+|move|p1a: Allergies|Tailwind|p1a: Allergies
+|-sidestart|p1: Argon657|move: Tailwind
+|move|p2a: Houndoom|Flamethrower|p1a: Allergies
+|-supereffective|p1a: Allergies
+|-damage|p1a: Allergies|0 fnt
+|faint|p1a: Allergies
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643956383
+|switch|p1a: Shofu|Darmanitan, M|100/100
+|turn|24
+|inactive|Lgmlobo has 120 seconds left.
+|
+|t:|1643956418
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|move|p1a: Shofu|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Lgmlobo has 90 seconds left.
+|
+|t:|1643956431
+|switch|p2a: Houndoom|Houndoom, M|76/100
+|-damage|p2a: Houndoom|51/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1643956440
+|move|p1a: Shofu|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643956449
+|switch|p2a: Manectric|Manectric, M|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1643956453
+|move|p1a: Shofu|Earthquake|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-crit|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|win|Argon657
+|raw|Argon657's rating: 1175 &rarr; <strong>1196</strong><br />(+21 for winning)
+|raw|Lgmlobo's rating: 1122 &rarr; <strong>1101</strong><br />(-21 for losing)
+|l|☆Lgmlobo

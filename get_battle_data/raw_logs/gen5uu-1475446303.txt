@@ -1,0 +1,373 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|j|☆FavMon=Garchomp
+|j|‽Juytre
+|t:|1639788295
+|gametype|singles
+|player|p1|FavMon=Garchomp|hilbert|
+|player|p2|Juytre|doctor|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Blitz: Super-fast timer
+|clearpoke
+|poke|p1|Snorlax, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Victini|item
+|poke|p1|Steelix, M|item
+|poke|p1|Roserade, F|item
+|poke|p1|Mismagius, F|item
+|poke|p2|Leavanny, F|item
+|poke|p2|Swanna, F|item
+|poke|p2|Magcargo, F|item
+|poke|p2|Emolga, M|item
+|poke|p2|Mantine, M|item
+|poke|p2|Huntail, M|item
+|teampreview
+|j| popsnot
+|
+|t:|1639788302
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Swanna|Swanna, F|100/100
+|turn|1
+|
+|t:|1639788306
+|move|p1a: Victini|Bolt Strike|p2a: Swanna|[miss]
+|-miss|p1a: Victini|p2a: Swanna
+|move|p2a: Swanna|Scald|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|48/100
+|
+|upkeep
+|turn|2
+|
+|t:|1639788310
+|switch|p2a: Emolga|Emolga, M|100/100
+|move|p1a: Victini|Bolt Strike|p2a: Emolga
+|-ability|p2a: Emolga|Motor Drive|boost
+|-boost|p2a: Emolga|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1639788313
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Emolga|Air Slash|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|87/100
+|
+|-heal|p1a: Steelix|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1639788317
+|switch|p2a: Swanna|Swanna, F|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Swanna
+|-sidestart|p2: Juytre|move: Stealth Rock
+|
+|-heal|p1a: Steelix|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639788320
+|switch|p1a: Roserade|Roserade, F|100/100
+|move|p2a: Swanna|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|90/100
+|
+|-heal|p1a: Roserade|96/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1639788324
+|move|p2a: Swanna|Air Slash|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|59/100
+|move|p1a: Roserade|Toxic Spikes|p2a: Swanna
+|-sidestart|p2: Juytre|move: Toxic Spikes
+|
+|-heal|p1a: Roserade|66/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1639788328
+|move|p2a: Swanna|Air Slash|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|29/100
+|move|p1a: Roserade|Spikes|p2a: Swanna
+|-sidestart|p2: Juytre|Spikes
+|
+|-heal|p1a: Roserade|35/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1639788332
+|switch|p1a: Victini|Victini|48/100
+|move|p2a: Swanna|Ice Beam|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|38/100
+|
+|upkeep
+|turn|9
+|
+|t:|1639788335
+|move|p1a: Victini|Trick|p2a: Swanna
+|-activate|p1a: Victini|move: Trick|[of] p2a: Swanna
+|-item|p2a: Swanna|Choice Scarf|[from] move: Trick
+|-item|p1a: Victini|Leftovers|[from] move: Trick
+|move|p2a: Swanna|Scald|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1639788339
+|switch|p1a: Roserade|Roserade, F|35/100
+|turn|10
+|inactive|Juytre has 10 seconds left.
+|
+|t:|1639788346
+|switch|p2a: Mantine|Mantine, M|100/100
+|-damage|p2a: Mantine|76/100|[from] Stealth Rock
+|move|p1a: Roserade|Spikes|p2a: Mantine
+|-sidestart|p2: Juytre|Spikes
+|
+|-heal|p2a: Mantine|82/100|[from] item: Leftovers
+|-heal|p1a: Roserade|41/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1639788351
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Mantine|Defog|p1a: Togekiss
+|-unboost|p1a: Togekiss|evasion|1
+|
+|-heal|p2a: Mantine|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|FavMon=Garchomp has 10 seconds left.
+|inactive|Juytre has 10 seconds left.
+|
+|t:|1639788360
+|move|p2a: Mantine|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|74/100
+|move|p1a: Togekiss|Air Slash|p2a: Mantine
+|-damage|p2a: Mantine|60/100
+|
+|-heal|p2a: Mantine|66/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|FavMon=Garchomp has 10 seconds left.
+|
+|t:|1639788370
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|55/100
+|move|p1a: Togekiss|Air Slash|p2a: Mantine
+|-damage|p2a: Mantine|38/100
+|
+|-heal|p2a: Mantine|44/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1639788374
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|37/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p2a: Mantine|50/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|43/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1639788377
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|19/100
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|69/100
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p2a: Mantine|56/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1639788379
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|52/100
+|cant|p1a: Togekiss|flinch
+|
+|-heal|p2a: Mantine|62/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1639788381
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|31/100
+|move|p1a: Togekiss|Thunder Wave|p2a: Mantine
+|-status|p2a: Mantine|par
+|
+|-heal|p1a: Togekiss|38/100|[from] item: Leftovers
+|-heal|p2a: Mantine|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1639788383
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|88/100
+|-singleturn|p1a: Togekiss|move: Roost
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|61/100
+|
+|-heal|p1a: Togekiss|67/100|[from] item: Leftovers
+|-heal|p2a: Mantine|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1639788386
+|move|p1a: Togekiss|Air Slash|p2a: Mantine
+|-damage|p2a: Mantine|44/100 par
+|cant|p2a: Mantine|flinch
+|
+|-heal|p1a: Togekiss|73/100|[from] item: Leftovers
+|-heal|p2a: Mantine|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1639788388
+|move|p1a: Togekiss|Air Slash|p2a: Mantine
+|-damage|p2a: Mantine|24/100 par
+|cant|p2a: Mantine|flinch
+|
+|-heal|p1a: Togekiss|79/100|[from] item: Leftovers
+|-heal|p2a: Mantine|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639788392
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Mantine|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|52/100
+|
+|-heal|p1a: Togekiss|59/100|[from] item: Leftovers
+|-heal|p2a: Mantine|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1639788394
+|move|p1a: Togekiss|Air Slash|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-heal|p1a: Togekiss|65/100|[from] item: Leftovers
+|upkeep
+|inactive|Juytre has 10 seconds left.
+|
+|t:|1639788401
+|switch|p2a: Magcargo|Magcargo, F|100/100
+|-damage|p2a: Magcargo|84/100|[from] Spikes
+|-status|p2a: Magcargo|psn
+|-damage|p2a: Magcargo|59/100 psn|[from] Stealth Rock
+|turn|23
+|c|☆FavMon=Garchomp|defog doesn't work here
+|
+|t:|1639788404
+|move|p1a: Togekiss|Air Slash|p2a: Magcargo
+|-resisted|p2a: Magcargo
+|-damage|p2a: Magcargo|4/100 psn
+|move|p2a: Magcargo|Shell Smash|p2a: Magcargo
+|-unboost|p2a: Magcargo|def|1
+|-unboost|p2a: Magcargo|spd|1
+|-boost|p2a: Magcargo|atk|2
+|-boost|p2a: Magcargo|spa|2
+|-boost|p2a: Magcargo|spe|2
+|-enditem|p2a: Magcargo|White Herb
+|-clearnegativeboost|p2a: Magcargo|[silent]
+|
+|-heal|p1a: Togekiss|71/100|[from] item: Leftovers
+|-damage|p2a: Magcargo|0 fnt|[from] psn
+|faint|p2a: Magcargo
+|upkeep
+|
+|t:|1639788406
+|switch|p2a: Huntail|Huntail, M|100/100
+|-damage|p2a: Huntail|88/100|[from] Stealth Rock
+|-status|p2a: Huntail|psn
+|-damage|p2a: Huntail|72/100 psn|[from] Spikes
+|turn|24
+|
+|t:|1639788408
+|move|p2a: Huntail|Shell Smash|p2a: Huntail
+|-unboost|p2a: Huntail|def|1
+|-unboost|p2a: Huntail|spd|1
+|-boost|p2a: Huntail|atk|2
+|-boost|p2a: Huntail|spa|2
+|-boost|p2a: Huntail|spe|2
+|-enditem|p2a: Huntail|White Herb
+|-clearnegativeboost|p2a: Huntail|[silent]
+|move|p1a: Togekiss|Air Slash|p2a: Huntail
+|-damage|p2a: Huntail|0 fnt
+|faint|p2a: Huntail
+|
+|-heal|p1a: Togekiss|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639788410
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|-damage|p2a: Leavanny|76/100|[from] Stealth Rock
+|-status|p2a: Leavanny|psn
+|-damage|p2a: Leavanny|59/100 psn|[from] Spikes
+|turn|25
+|
+|t:|1639788412
+|move|p2a: Leavanny|Poison Jab|p1a: Togekiss
+|-damage|p1a: Togekiss|55/100
+|move|p1a: Togekiss|Air Slash|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|-heal|p1a: Togekiss|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639788414
+|switch|p2a: Emolga|Emolga, M|100/100
+|-damage|p2a: Emolga|76/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1639788416
+|switch|p1a: Steelix|Steelix, M|99/100
+|move|p2a: Emolga|Air Slash|p1a: Steelix|[miss]
+|-miss|p2a: Emolga|p1a: Steelix
+|
+|-heal|p2a: Emolga|82/100|[from] item: Leftovers
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|l|‽Juytre
+|inactive|Juytre disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Juytre has 10 seconds left.
+|inactive|Juytre has 5 seconds left.
+|j| Ban Volc Please
+|-message|Juytre lost due to inactivity.
+|
+|win|FavMon=Garchomp
+|n|☆FavMon=Garchomp|favmongarchomp
+|n| popsnot|popsnot
+|n| Ban Volc Please|banvolcplease

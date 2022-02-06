@@ -1,0 +1,616 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644109924
+|gametype|singles
+|player|p1|crucify|#splxiiisharks|
+|player|p2|dice|#splxiiiruiners|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, M|item
+|poke|p1|Xatu, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Jirachi|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Forretress, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Terrakion|item
+|teampreview
+|inactive|crucify also wants the timer to be on.
+|c|☆crucify|hf
+|c|+A HERO'S DESTINY|'-'
+|c|+STABLEPRINCE 聖|AHHHHHHHHHHHHHHHHHHHHHH LETS FUCKING GOOOOOOOOOOOOOOOOO CRUCIFY MAKE SPL YOUR FUCKIN BITCH!!!!!!!!!!!!
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to ☆!</strong><br />Only users of rank ☆ and higher can talk.</div>
+|c|☆dice|you too
+|inactive|crucify has 270 seconds left.
+|inactive|dice has 270 seconds left.
+|inactive|crucify has 240 seconds left.
+|inactive|dice has 240 seconds left.
+|
+|t:|1644110010
+|start
+|switch|p1a: time flies|Latios, M|100/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|1
+|
+|t:|1644110034
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: time flies|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|52/100
+|-unboost|p1a: time flies|spa|2
+|
+|upkeep
+|turn|2
+|inactive|crucify has 270 seconds left.
+|
+|t:|1644110067
+|switch|p1a: oh well|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: oh well
+|move|p2a: Jirachi|U-turn|p1a: oh well
+|-damage|p1a: oh well|90/100
+|-damage|p2a: Jirachi|35/100|[from] item: Rocky Helmet|[of] p1a: oh well
+|
+|t:|1644110072
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1644110084
+|switch|p1a: time flies|Latios, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: time flies
+|-resisted|p1a: time flies
+|-damage|p1a: time flies|88/100
+|
+|t:|1644110095
+|switch|p2a: Forretress|Forretress, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: time flies|82/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|crucify has 270 seconds left.
+|inactive|crucify has 240 seconds left.
+|inactive|dice has 270 seconds left.
+|
+|t:|1644110137
+|move|p1a: time flies|Surf|p2a: Forretress
+|-damage|p2a: Forretress|46/100
+|move|p2a: Forretress|Volt Switch|p1a: time flies
+|-resisted|p1a: time flies
+|-damage|p1a: time flies|75/100
+|inactive|dice has 270 seconds left.
+|
+|t:|1644110142
+|switch|p2a: Rotom|Rotom-Wash, shiny|95/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: time flies|69/100|[from] Sandstorm
+|-damage|p2a: Rotom|89/100|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|crucify has 240 seconds left.
+|
+|t:|1644110179
+|switch|p1a: brand new|Heatran, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: brand new
+|-start|p1a: brand new|ability: Flash Fire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|83/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|crucify has 210 seconds left.
+|inactive|dice has 270 seconds left.
+|
+|t:|1644110219
+|move|p1a: brand new|Substitute|p1a: brand new
+|-start|p1a: brand new|Substitute
+|-damage|p1a: brand new|76/100
+|move|p2a: Rotom|Hydro Pump|p1a: brand new|[miss]
+|-miss|p2a: Rotom|p1a: brand new
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|77/100|[from] Sandstorm
+|-heal|p1a: brand new|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644110227
+|move|p1a: brand new|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Hydro Pump|p1a: brand new
+|-supereffective|p1a: brand new
+|-end|p1a: brand new|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|71/100 tox|[from] Sandstorm
+|-heal|p1a: brand new|88/100|[from] item: Leftovers
+|-damage|p2a: Rotom|65/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|crucify has 210 seconds left.
+|
+|t:|1644110248
+|move|p1a: brand new|Substitute|p1a: brand new
+|-start|p1a: brand new|Substitute
+|-damage|p1a: brand new|63/100
+|move|p2a: Rotom|Hydro Pump|p1a: brand new
+|-supereffective|p1a: brand new
+|-end|p1a: brand new|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|59/100 tox|[from] Sandstorm
+|-heal|p1a: brand new|69/100|[from] item: Leftovers
+|-damage|p2a: Rotom|47/100 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|dice has 270 seconds left.
+|
+|t:|1644110270
+|move|p1a: brand new|Substitute|p1a: brand new
+|-start|p1a: brand new|Substitute
+|-damage|p1a: brand new|44/100
+|move|p2a: Rotom|Volt Switch|p1a: brand new
+|-activate|p1a: brand new|Substitute|[damage]
+|
+|t:|1644110274
+|switch|p2a: Hippowdon|Hippowdon, F, shiny|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: brand new|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|dice has 270 seconds left.
+|inactive|crucify has 180 seconds left.
+|inactive|dice has 240 seconds left.
+|
+|t:|1644110330
+|move|p1a: brand new|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|move|p2a: Hippowdon|Whirlwind|p1a: brand new
+|-end|p1a: brand new|ability: Flash Fire|[silent]
+|drag|p1a: oh well|Hippowdon, M|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1644110340
+|switch|p1a: opal airlines|Xatu, F|100/100
+|switch|p2a: Forretress|Forretress, M|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|94/100|[from] Sandstorm
+|-heal|p1a: opal airlines|100/100|[from] item: Leftovers
+|-heal|p2a: Forretress|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|dice has 210 seconds left.
+|
+|t:|1644110378
+|move|p1a: opal airlines|Night Shade|p2a: Forretress
+|-damage|p2a: Forretress|24/100
+|move|p2a: Forretress|Volt Switch|p1a: opal airlines
+|-supereffective|p1a: opal airlines
+|-damage|p1a: opal airlines|67/100
+|
+|t:|1644110385
+|switch|p2a: Terrakion|Terrakion, shiny|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|61/100|[from] Sandstorm
+|-heal|p1a: opal airlines|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|dice has 210 seconds left.
+|
+|t:|1644110401
+|switch|p2a: Forretress|Forretress, M|24/100
+|switch|p1a: oh well|Hippowdon, M|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|30/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|crucify has 150 seconds left.
+|
+|t:|1644110427
+|move|p1a: oh well|Stealth Rock|p2a: Forretress
+|-sidestart|p2: dice|move: Stealth Rock
+|move|p2a: Forretress|Spikes|p1a: oh well
+|-sidestart|p1: crucify|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Forretress|36/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|dice has 180 seconds left.
+|
+|t:|1644110447
+|switch|p2a: Hippowdon|Hippowdon, F, shiny|94/100 tox
+|-damage|p2a: Hippowdon|88/100 tox|[from] Stealth Rock
+|move|p1a: oh well|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|65/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|65/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|dice has 180 seconds left.
+|
+|t:|1644110462
+|move|p1a: oh well|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|43/100 tox
+|move|p2a: Hippowdon|Whirlwind|p1a: oh well
+|drag|p1a: time flies|Latios, M|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: time flies|63/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|37/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|dice has 180 seconds left.
+|
+|t:|1644110481
+|switch|p2a: Forretress|Forretress, M|36/100
+|-damage|p2a: Forretress|24/100|[from] Stealth Rock
+|move|p1a: time flies|Surf|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: time flies|57/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644110488
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644110507
+|switch|p1a: uptown rager|Scizor, M|100/100
+|-damage|p1a: uptown rager|88/100|[from] Spikes
+|move|p2a: Latias|Surf|p1a: uptown rager
+|-damage|p1a: uptown rager|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|82/100|[from] Sandstorm
+|-heal|p1a: uptown rager|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|crucify has 180 seconds left.
+|
+|t:|1644110531
+|move|p2a: Latias|Surf|p1a: uptown rager
+|-damage|p1a: uptown rager|12/100
+|move|p1a: uptown rager|Roost|p1a: uptown rager
+|-heal|p1a: uptown rager|62/100
+|-singleturn|p1a: uptown rager|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|76/100|[from] Sandstorm
+|-heal|p1a: uptown rager|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|crucify has 180 seconds left.
+|
+|t:|1644110547
+|move|p2a: Latias|Surf|p1a: uptown rager
+|-damage|p1a: uptown rager|30/100
+|move|p1a: uptown rager|Roost|p1a: uptown rager
+|-heal|p1a: uptown rager|80/100
+|-singleturn|p1a: uptown rager|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|70/100|[from] Sandstorm
+|-heal|p1a: uptown rager|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|dice has 180 seconds left.
+|
+|t:|1644110567
+|-activate|p2a: Latias|move: Pursuit
+|move|p1a: uptown rager|Pursuit|p2a: Latias|[from]Pursuit
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|7/100
+|switch|p2a: Hippowdon|Hippowdon, F, shiny|37/100 tox
+|-damage|p2a: Hippowdon|30/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: uptown rager|93/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|37/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|30/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1644110572
+|move|p1a: uptown rager|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|11/100 tox
+|
+|t:|1644110574
+|switch|p1a: opal airlines|Xatu, F|67/100|[from]move: U-turn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|61/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|61/100|[from] Sandstorm
+|-heal|p1a: opal airlines|67/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|55/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|dice has 180 seconds left.
+|inactive|crucify has 180 seconds left.
+|
+|t:|1644110587
+|move|p1a: opal airlines|Reflect|p1a: opal airlines
+|-sidestart|p1: crucify|Reflect
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|61/100|[from] Sandstorm
+|-heal|p1a: opal airlines|67/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1644110591
+|move|p1a: opal airlines|Roost|p1a: opal airlines
+|-heal|p1a: opal airlines|100/100
+|-singleturn|p1a: opal airlines|move: Roost
+|move|p2a: Hippowdon|Whirlwind|p1a: opal airlines
+|move|p1a: opal airlines|Whirlwind|p2a: Hippowdon|[from]ability: Magic Bounce
+|drag|p2a: Jirachi|Jirachi|35/100
+|-damage|p2a: Jirachi|29/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|94/100|[from] Sandstorm
+|-heal|p1a: opal airlines|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1644110605
+|move|p2a: Jirachi|Ice Punch|p1a: opal airlines
+|-supereffective|p1a: opal airlines
+|-damage|p1a: opal airlines|79/100
+|move|p1a: opal airlines|Night Shade|p2a: Jirachi
+|-damage|p2a: Jirachi|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|73/100|[from] Sandstorm
+|-heal|p1a: opal airlines|79/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644110611
+|move|p2a: Jirachi|Ice Punch|p1a: opal airlines
+|-supereffective|p1a: opal airlines
+|-damage|p1a: opal airlines|57/100
+|move|p1a: opal airlines|Night Shade|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|51/100|[from] Sandstorm
+|-heal|p1a: opal airlines|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644110619
+|switch|p2a: Terrakion|Terrakion, shiny|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|turn|27
+|inactive|crucify has 210 seconds left.
+|
+|t:|1644110646
+|switch|p1a: oh well|Hippowdon, M|90/100
+|-damage|p1a: oh well|77/100|[from] Spikes
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p1: crucify|Reflect
+|upkeep
+|turn|28
+|
+|t:|1644110666
+|move|p2a: Terrakion|Rock Polish|p2a: Terrakion
+|-boost|p2a: Terrakion|spe|2
+|move|p1a: oh well|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|c|☆dice|gg
+|
+|t:|1644110673
+|move|p2a: Terrakion|Close Combat|p1a: oh well
+|-damage|p1a: oh well|7/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|0 fnt|[from] item: Rocky Helmet|[of] p1a: oh well
+|faint|p2a: Terrakion
+|move|p1a: oh well|Earthquake|p2: Terrakion|[notarget]
+|-fail|p1a: oh well
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644110679
+|switch|p2a: Rotom|Rotom-Wash, shiny|47/100 tox
+|-damage|p2a: Rotom|34/100 tox|[from] Stealth Rock
+|turn|30
+|
+|t:|1644110681
+|switch|p1a: uzi shrug|Breloom, F|100/100
+|-damage|p1a: uzi shrug|88/100|[from] Spikes
+|move|p2a: Rotom|Hydro Pump|p1a: uzi shrug
+|-resisted|p1a: uzi shrug
+|-damage|p1a: uzi shrug|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|28/100 tox|[from] Sandstorm
+|-damage|p1a: uzi shrug|56/100|[from] Sandstorm
+|-damage|p2a: Rotom|22/100 tox|[from] psn
+|-status|p1a: uzi shrug|tox|[from] item: Toxic Orb
+|upkeep
+|turn|31
+|
+|t:|1644110685
+|move|p2a: Rotom|Rest|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Rest
+|-heal|p2a: Rotom|100/100 slp|[silent]
+|-enditem|p2a: Rotom|Chesto Berry|[eat]
+|-curestatus|p2a: Rotom|slp|[msg]
+|move|p1a: uzi shrug|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|62/100
+|-heal|p1a: uzi shrug|74/100 tox|[from] drain|[of] p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|56/100|[from] Sandstorm
+|-damage|p1a: uzi shrug|68/100 tox|[from] Sandstorm
+|-heal|p1a: uzi shrug|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1644110688
+|move|p2a: Rotom|Hydro Pump|p1a: uzi shrug
+|-resisted|p1a: uzi shrug
+|-damage|p1a: uzi shrug|55/100 tox
+|move|p1a: uzi shrug|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|-heal|p1a: uzi shrug|74/100 tox|[from] drain|[of] p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|9/100|[from] Sandstorm
+|-damage|p1a: uzi shrug|68/100 tox|[from] Sandstorm
+|-heal|p1a: uzi shrug|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|inactive|dice has 240 seconds left.
+|
+|t:|1644110693
+|move|p2a: Rotom|Hydro Pump|p1a: uzi shrug
+|-resisted|p1a: uzi shrug
+|-damage|p1a: uzi shrug|53/100 tox
+|move|p1a: uzi shrug|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: uzi shrug|58/100 tox|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: uzi shrug|51/100 tox|[from] Sandstorm
+|-heal|p1a: uzi shrug|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|inactive|dice has 240 seconds left.
+|
+|t:|1644110703
+|switch|p2a: Hippowdon|Hippowdon, F, shiny|82/100 tox
+|-damage|p2a: Hippowdon|76/100 tox|[from] Stealth Rock
+|turn|34
+|
+|t:|1644110705
+|switch|p1a: opal airlines|Xatu, F|57/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: opal airlines
+|move|p1a: opal airlines|Stealth Rock||[from]ability: Magic Bounce|[still]
+|-fail|p1a: opal airlines
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|51/100|[from] Sandstorm
+|-heal|p1a: opal airlines|57/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|76/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1644110707
+|move|p1a: opal airlines|Reflect|p1a: opal airlines
+|-sidestart|p1: crucify|Reflect
+|move|p2a: Hippowdon|Earthquake|p1a: opal airlines
+|-immune|p1a: opal airlines
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|51/100|[from] Sandstorm
+|-heal|p1a: opal airlines|57/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|69/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1644110709
+|move|p1a: opal airlines|Roost|p1a: opal airlines
+|-heal|p1a: opal airlines|100/100
+|-singleturn|p1a: opal airlines|move: Roost
+|move|p2a: Hippowdon|Earthquake|p1a: opal airlines
+|-damage|p1a: opal airlines|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|76/100|[from] Sandstorm
+|-heal|p1a: opal airlines|82/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|57/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1644110711
+|move|p1a: opal airlines|Night Shade|p2a: Hippowdon
+|-damage|p2a: Hippowdon|33/100 tox
+|move|p2a: Hippowdon|Earthquake|p1a: opal airlines
+|-immune|p1a: opal airlines
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|76/100|[from] Sandstorm
+|-heal|p1a: opal airlines|82/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|15/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1644110714
+|switch|p2a: Latias|Latias, F|7/100
+|-damage|p2a: Latias|0 fnt|[from] Stealth Rock
+|faint|p2a: Latias
+|move|p1a: opal airlines|Night Shade|p2: Latias|[notarget]
+|-fail|p1a: opal airlines
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: opal airlines|76/100|[from] Sandstorm
+|-heal|p1a: opal airlines|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644110715
+|switch|p2a: Hippowdon|Hippowdon, F, shiny|15/100 tox
+|-damage|p2a: Hippowdon|8/100 tox|[from] Stealth Rock
+|turn|39
+|
+|t:|1644110716
+|move|p1a: opal airlines|Night Shade|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|win|crucify
+|c|☆crucify|gg
+|c|☆dice|gg

@@ -1,0 +1,185 @@
+|j|☆JagAterGlass
+|j|☆Dababy3
+|t:|1644108854
+|gametype|singles
+|player|p1|JagAterGlass|ghetsis-gen5bw|1146
+|player|p2|Dababy3|lucas-gen4pt|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Gengar, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Keldeo|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dababy3)
+|j| mars and back
+|
+|t:|1644108868
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Opp Stoppa|Volcarona, M, shiny|100/100
+|turn|1
+|
+|t:|1644108879
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Opp Stoppa|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|89/100
+|-boost|p2a: Opp Stoppa|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|c| mars and back|why do u always lead volc
+|c| mars and back|against skarm
+|
+|t:|1644108887
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Opp Stoppa|Quiver Dance|p2a: Opp Stoppa
+|-boost|p2a: Opp Stoppa|spa|1
+|-boost|p2a: Opp Stoppa|spd|1
+|-boost|p2a: Opp Stoppa|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|88/100|[from] Sandstorm
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|c| mars and back|literally makes no sense
+|
+|t:|1644108899
+|move|p2a: Opp Stoppa|Fiery Dance|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644108906
+|switch|p1a: Tyranitar|Tyranitar, F|89/100
+|turn|4
+|
+|t:|1644108911
+|move|p2a: Opp Stoppa|Bug Buzz|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|76/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644108916
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|5
+|c| mars and back|he was playing games got u dancing in the middle of the club
+|
+|t:|1644108920
+|move|p2a: Opp Stoppa|Roost|p2a: Opp Stoppa
+|-heal|p2a: Opp Stoppa|100/100
+|-singleturn|p2a: Opp Stoppa|move: Roost
+|move|p1a: Excadrill|Rock Slide|p2a: Opp Stoppa|[miss]
+|-miss|p1a: Excadrill|p2a: Opp Stoppa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|c| mars and back|yup
+|c| mars and back|nice one
+|c|☆JagAterGlass|Thats game i think
+|
+|t:|1644108948
+|move|p2a: Opp Stoppa|Fiery Dance|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-boost|p2a: Opp Stoppa|spa|1
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644108951
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|7
+|c|☆Dababy3|I apologize for that miss
+|c|☆Dababy3|bring out latios
+|c|☆Dababy3|and trick me
+|
+|t:|1644108957
+|move|p2a: Opp Stoppa|Fiery Dance|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644108962
+|switch|p1a: Latios|Latios, M|100/100
+|turn|8
+|
+|t:|1644108967
+|move|p2a: Opp Stoppa|Bug Buzz|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|76/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644108969
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|turn|9
+|c|☆Dababy3|Im sorry
+|
+|t:|1644108977
+|move|p2a: Opp Stoppa|Fiery Dance|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Opp Stoppa
+|-sidestart|p2: Dababy3|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Opp Stoppa|70/100|[from] Sandstorm
+|-heal|p1a: Skarmory|7/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644108990
+|move|p2a: Opp Stoppa|Fiery Dance|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-boost|p2a: Opp Stoppa|spa|1
+|faint|p1a: Skarmory
+|
+|win|Dababy3
+|raw|JagAterGlass's rating: 1146 &rarr; <strong>1135</strong><br />(-11 for losing)
+|raw|Dababy3's rating: 1364 &rarr; <strong>1373</strong><br />(+9 for winning)

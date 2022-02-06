@@ -1,0 +1,310 @@
+|j|☆torterrax1
+|j|☆FruitDogs
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634076396
+|gametype|singles
+|player|p1|torterrax1|erika-gen2|
+|player|p2|FruitDogs|will|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, M|item
+|poke|p1|Pawniard, L5, F|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Larvesta, L5, M|item
+|poke|p1|Frillish, L5, M|item
+|poke|p1|Axew, L5, F|item
+|poke|p2|Solosis, L5, M|item
+|poke|p2|Drowzee, L5, M|item
+|poke|p2|Smoochum, L5, F|item
+|poke|p2|Shuppet, L5, M|item
+|poke|p2|Clamperl, L5, M|item
+|poke|p2|Numel, L5, M|item
+|teampreview
+|
+|t:|1634076417
+|start
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|switch|p2a: Smoochum|Smoochum, L5, F|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|1
+|
+|t:|1634076430
+|switch|p1a: Larvesta|Larvesta, L5, M|100/100
+|move|p2a: Smoochum|Trick Room|p2a: Smoochum
+|-fieldstart|move: Trick Room|[of] p2a: Smoochum
+|
+|upkeep
+|turn|2
+|
+|t:|1634076438
+|switch|p2a: Numel|Numel, L5, M, shiny|100/100
+|move|p1a: Larvesta|U-turn|p2a: Numel
+|-resisted|p2a: Numel
+|-damage|p2a: Numel|74/100
+|
+|t:|1634076447
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100|[from]move: U-turn
+|-ability|p1a: Drilbur|Mold Breaker
+|
+|upkeep
+|turn|3
+|
+|t:|1634076452
+|move|p2a: Numel|Fire Blast|p1a: Drilbur
+|-damage|p1a: Drilbur|27/100
+|-damage|p2a: Numel|66/100|[from] item: Life Orb
+|move|p1a: Drilbur|Stealth Rock|p2a: Numel
+|-sidestart|p2: FruitDogs|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1634076459
+|switch|p1a: Frillish|Frillish, L5, M|100/100
+|move|p2a: Numel|Hidden Power|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|60/100
+|-damage|p2a: Numel|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1634076466
+|move|p2a: Numel|Hidden Power|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|20/100
+|-damage|p2a: Numel|48/100|[from] item: Life Orb
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|72/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1634076473
+|move|p1a: Frillish|Shadow Ball|p2a: Numel
+|-damage|p2a: Numel|5/100
+|move|p2a: Numel|Hidden Power|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|32/100
+|-damage|p2a: Numel|0 fnt|[from] item: Life Orb
+|faint|p2a: Numel
+|
+|upkeep
+|
+|t:|1634076477
+|switch|p2a: Smoochum|Smoochum, L5, F|100/100
+|-damage|p2a: Smoochum|77/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1634076481
+|move|p2a: Smoochum|Psychic|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|faint|p1a: Frillish
+|
+|upkeep
+|
+|t:|1634076493
+|switch|p1a: Pawniard|Pawniard, L5, F|100/100
+|turn|8
+|
+|t:|1634076513
+|move|p1a: Pawniard|Iron Head|p2a: Smoochum
+|-supereffective|p2a: Smoochum
+|-damage|p2a: Smoochum|0 fnt
+|faint|p2a: Smoochum
+|
+|upkeep
+|
+|t:|1634076516
+|switch|p2a: Drowzee|Drowzee, L5, M|100/100
+|-damage|p2a: Drowzee|91/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1634076530
+|switch|p1a: Drilbur|Drilbur, L5, M|27/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Drowzee|Trick Room|p2a: Drowzee
+|-fieldstart|move: Trick Room|[of] p2a: Drowzee
+|
+|upkeep
+|turn|10
+|
+|t:|1634076538
+|move|p2a: Drowzee|Zen Headbutt|p1a: Drilbur
+|-crit|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|upkeep
+|
+|t:|1634076540
+|switch|p1a: Larvesta|Larvesta, L5, M|100/100
+|turn|11
+|
+|t:|1634076544
+|switch|p2a: Clamperl|Clamperl, L5, M|100/100
+|-damage|p2a: Clamperl|91/100|[from] Stealth Rock
+|move|p1a: Larvesta|U-turn|p2a: Clamperl
+|-damage|p2a: Clamperl|43/100
+|
+|t:|1634076553
+|switch|p1a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Clamperl|39/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1634076561
+|move|p2a: Clamperl|Ice Beam|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Clamperl|34/100|[from] Hail
+|upkeep
+|
+|t:|1634076570
+|switch|p1a: Pawniard|Pawniard, L5, F|100/100
+|turn|13
+|
+|t:|1634076576
+|switch|p2a: Shuppet|Shuppet, L5, M, shiny|100/100
+|-damage|p2a: Shuppet|91/100|[from] Stealth Rock
+|move|p1a: Pawniard|Brick Break|p2a: Shuppet
+|-immune|p2a: Shuppet
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shuppet|86/100|[from] Hail
+|-damage|p1a: Pawniard|96/100|[from] Hail
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1634076583
+|switch|p1a: Larvesta|Larvesta, L5, M|100/100
+|move|p2a: Shuppet|Trick Room|p2a: Shuppet
+|-fieldstart|move: Trick Room|[of] p2a: Shuppet
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shuppet|81/100|[from] Hail
+|-damage|p1a: Larvesta|96/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1634076589
+|move|p2a: Shuppet|Shadow Ball|p1a: Larvesta
+|-damage|p1a: Larvesta|57/100
+|move|p1a: Larvesta|Flare Blitz|p2a: Shuppet
+|-damage|p2a: Shuppet|0 fnt
+|faint|p2a: Shuppet
+|-damage|p1a: Larvesta|31/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Larvesta|27/100|[from] Hail
+|upkeep
+|
+|t:|1634076597
+|switch|p2a: Clamperl|Clamperl, L5, M|34/100
+|-damage|p2a: Clamperl|24/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1634076606
+|move|p2a: Clamperl|Surf|p1a: Larvesta
+|-supereffective|p1a: Larvesta
+|-damage|p1a: Larvesta|0 fnt
+|faint|p1a: Larvesta
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Clamperl|20/100|[from] Hail
+|upkeep
+|
+|t:|1634076610
+|switch|p1a: Pawniard|Pawniard, L5, F|96/100
+|turn|17
+|
+|t:|1634076618
+|move|p1a: Pawniard|Sucker Punch|p2a: Clamperl
+|-damage|p2a: Clamperl|0 fnt
+|faint|p2a: Clamperl
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|91/100|[from] Hail
+|upkeep
+|
+|t:|1634076621
+|switch|p2a: Drowzee|Drowzee, L5, M|91/100
+|-damage|p2a: Drowzee|82/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1634076628
+|move|p2a: Drowzee|Drain Punch|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|-heal|p2a: Drowzee|100/100|[from] drain|[of] p1a: Pawniard
+|faint|p1a: Pawniard
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drowzee|96/100|[from] Hail
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1634076634
+|switch|p1a: Axew|Axew, L5, F|100/100
+|-ability|p1a: Axew|Mold Breaker
+|turn|19
+|
+|t:|1634076640
+|move|p1a: Axew|Dragon Dance|p1a: Axew
+|-boost|p1a: Axew|atk|1
+|-boost|p1a: Axew|spe|1
+|move|p2a: Drowzee|Trick Room|p2a: Drowzee
+|-fieldstart|move: Trick Room|[of] p2a: Drowzee
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drowzee|91/100|[from] Hail
+|-damage|p1a: Axew|96/100|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1634076647
+|move|p2a: Drowzee|Drain Punch|p1a: Axew
+|-damage|p1a: Axew|73/100
+|-heal|p2a: Drowzee|100/100|[from] drain|[of] p1a: Axew
+|move|p1a: Axew|Outrage|p2a: Drowzee
+|-damage|p2a: Drowzee|0 fnt
+|faint|p2a: Drowzee
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Axew|69/100|[from] Hail
+|upkeep
+|
+|t:|1634076653
+|switch|p2a: Solosis|Solosis, L5, M, shiny|100/100
+|turn|21
+|
+|t:|1634076657
+|move|p2a: Solosis|Psychic|p1a: Axew
+|-damage|p1a: Axew|0 fnt
+|faint|p1a: Axew
+|
+|win|FruitDogs
+|n|☆torterrax1|torterrax1
+|n|☆FruitDogs|fruitdogs
+|c|☆FruitDogs|gg wp
+|c|☆torterrax1|gg
+|l|☆torterrax1
+|j| Kodiak_45

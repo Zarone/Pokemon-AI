@@ -1,0 +1,234 @@
+|j|☆Luckiestowl
+|j|☆modest6432
+|t:|1625358761
+|gametype|singles
+|player|p1|Luckiestowl|gambler|
+|player|p2|modest6432|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rattata, L5, F|item
+|poke|p1|Bellsprout, L5, F|item
+|poke|p1|Charmander, L5, F|item
+|poke|p1|Darumaka, L5, M|item
+|poke|p1|Axew, L5, M|item
+|poke|p1|Houndour, L5, M|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Solosis, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Cranidos, L5, M|item
+|poke|p2|Trapinch, L5, M|item
+|teampreview
+|
+|t:|1625358804
+|start
+|switch|p1a: Bellsprout|Bellsprout, L5, F|100/100
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Chlorophyll|[from] ability: Trace|[of] p1a: Bellsprout
+|turn|1
+|
+|t:|1625358812
+|move|p1a: Bellsprout|Sunny Day|p1a: Bellsprout
+|-weather|SunnyDay
+|move|p2a: Porygon|Trick Room|p2a: Porygon
+|-fieldstart|move: Trick Room|[of] p2a: Porygon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1625358818
+|move|p2a: Porygon|Ice Beam|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1625358826
+|switch|p1a: Rattata|Rattata, L5, F|100/100
+|turn|3
+|
+|t:|1625358832
+|move|p1a: Rattata|Quick Attack|p2a: Porygon
+|-damage|p2a: Porygon|85/100
+|move|p2a: Porygon|Thunderbolt|p1a: Rattata
+|-crit|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1625358839
+|switch|p1a: Houndour|Houndour, L5, M|100/100
+|turn|4
+|
+|t:|1625358844
+|move|p1a: Houndour|Flamethrower|p2a: Porygon
+|-damage|p2a: Porygon|27/100
+|move|p2a: Porygon|Thunderbolt|p1a: Houndour
+|-damage|p1a: Houndour|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Houndour|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1625358875
+|switch|p2a: Trapinch|Trapinch, L5, M|100/100
+|move|p1a: Houndour|Flamethrower|p2a: Trapinch
+|-damage|p2a: Trapinch|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Houndour|62/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1625358885
+|move|p1a: Houndour|Flamethrower|p2a: Trapinch
+|-damage|p2a: Trapinch|0 fnt
+|faint|p2a: Trapinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Houndour|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1625358887
+|switch|p2a: Solosis|Solosis, L5, F|100/100
+|turn|7
+|
+|t:|1625358893
+|move|p1a: Houndour|Flamethrower|p2a: Solosis
+|-damage|p2a: Solosis|25/100
+|move|p2a: Solosis|Trick Room|p2a: Solosis
+|-fieldstart|move: Trick Room|[of] p2a: Solosis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Houndour|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1625358900
+|move|p2a: Solosis|Shadow Ball|p1a: Houndour
+|-resisted|p1a: Houndour
+|-damage|p1a: Houndour|48/100
+|move|p1a: Houndour|Flamethrower|p2a: Solosis
+|-damage|p2a: Solosis|0 fnt
+|faint|p2a: Solosis
+|
+|-weather|none
+|-heal|p1a: Houndour|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1625358903
+|switch|p2a: Cranidos|Cranidos, L5, M|100/100
+|turn|9
+|
+|t:|1625358916
+|switch|p1a: Axew|Axew, L5, M|100/100
+|move|p2a: Cranidos|Earthquake|p1a: Axew
+|-damage|p1a: Axew|0 fnt
+|faint|p1a: Axew
+|
+|upkeep
+|
+|t:|1625358924
+|switch|p1a: Charmander|Charmander, L5, F|100/100
+|turn|10
+|
+|t:|1625358932
+|move|p2a: Cranidos|Earthquake|p1a: Charmander
+|-supereffective|p1a: Charmander
+|-damage|p1a: Charmander|0 fnt
+|faint|p1a: Charmander
+|
+|upkeep
+|
+|t:|1625358936
+|switch|p1a: Houndour|Houndour, L5, M|53/100
+|turn|11
+|
+|t:|1625358939
+|move|p2a: Cranidos|Earthquake|p1a: Houndour
+|-supereffective|p1a: Houndour
+|-damage|p1a: Houndour|0 fnt
+|faint|p1a: Houndour
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1625358944
+|switch|p1a: Darumaka|Darumaka, L5, M|100/100
+|turn|12
+|
+|t:|1625358959
+|move|p1a: Darumaka|Hammer Arm|p2a: Cranidos
+|-supereffective|p2a: Cranidos
+|-damage|p2a: Cranidos|0 fnt
+|-unboost|p1a: Darumaka|spe|1
+|faint|p2a: Cranidos
+|
+|upkeep
+|
+|t:|1625358966
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|turn|13
+|
+|t:|1625358968
+|move|p2a: Timburr|Protect|p2a: Timburr
+|-singleturn|p2a: Timburr|Protect
+|move|p1a: Darumaka|Sunny Day|p1a: Darumaka
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Timburr|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|t:|1625358981
+|move|p2a: Timburr|Mach Punch|p1a: Darumaka
+|-damage|p1a: Darumaka|59/100
+|move|p1a: Darumaka|Fire Punch|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1625358991
+|switch|p2a: Porygon|Porygon, L5|27/100
+|-ability|p2a: Porygon|Hustle|[from] ability: Trace|[of] p1a: Darumaka
+|turn|15
+|
+|t:|1625359006
+|move|p1a: Darumaka|Fire Punch|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1625359008
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|turn|16
+|
+|t:|1625359012
+|move|p1a: Darumaka|Fire Punch|p2a: Bronzor
+|-supereffective|p2a: Bronzor
+|-damage|p2a: Bronzor|0 fnt
+|faint|p2a: Bronzor
+|
+|win|Luckiestowl

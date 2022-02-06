@@ -1,0 +1,449 @@
+|j|☆NevFlame97
+|j|☆1owercase
+|t:|1644160241
+|gametype|singles
+|player|p1|NevFlame97|101|1459
+|player|p2|1owercase|flannery|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1owercase)
+|inactive|NevFlame97 has 120 seconds left.
+|
+|t:|1644160301
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Fine Line|Latios, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1644160311
+|move|p2a: Fine Line|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|53/100
+|-unboost|p2a: Fine Line|spa|2
+|move|p1a: Politoed|Toxic|p2a: Fine Line
+|-status|p2a: Fine Line|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|59/100|[from] item: Leftovers
+|-damage|p2a: Fine Line|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1644160320
+|switch|p2a: Falling|Ferrothorn, F|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644160332
+|switch|p2a: To Be So Lonely|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: To Be So Lonely
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644160346
+|switch|p2a: Fine Line|Latios, M|95/100 tox
+|move|p1a: Thundurus|Focus Blast|p2a: Fine Line
+|-resisted|p2a: Fine Line
+|-damage|p2a: Fine Line|49/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fine Line|43/100 tox|[from] Sandstorm
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|-damage|p2a: Fine Line|37/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1644160358
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Fine Line|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|-unboost|p2a: Fine Line|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fine Line|31/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|58/100|[from] item: Leftovers
+|-damage|p2a: Fine Line|19/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1644160365
+|move|p2a: Fine Line|Roost|p2a: Fine Line
+|-heal|p2a: Fine Line|69/100 tox
+|-singleturn|p2a: Fine Line|move: Roost
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Fine Line
+|-sidestart|p2: 1owercase|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fine Line|63/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|-damage|p2a: Fine Line|45/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1644160374
+|move|p2a: Fine Line|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|31/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Fine Line
+|-supereffective|p2a: Fine Line
+|-enditem|p2a: Fine Line|Colbur Berry|[eat]
+|-enditem|p2a: Fine Line|Colbur Berry|[weaken]
+|-damage|p2a: Fine Line|39/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Fine Line|33/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|38/100|[from] item: Leftovers
+|-damage|p2a: Fine Line|9/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1644160393
+|switch|p1a: Politoed|Politoed, M|59/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Fine Line|Roost|p2a: Fine Line
+|-heal|p2a: Fine Line|59/100 tox
+|-singleturn|p2a: Fine Line|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|65/100|[from] item: Leftovers
+|-damage|p2a: Fine Line|29/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1644160417
+|switch|p2a: Falling|Ferrothorn, F|100/100
+|-damage|p2a: Falling|94/100|[from] Stealth Rock
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falling|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644160428
+|move|p1a: Thundurus|Focus Blast|p2a: Falling|[miss]
+|-miss|p1a: Thundurus|p2a: Falling
+|move|p2a: Falling|Power Whip|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|NevFlame97 has 120 seconds left.
+|
+|t:|1644160476
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Falling|Knock Off|p1a: Thundurus
+|-damage|p1a: Thundurus|79/100
+|-enditem|p1a: Thundurus|Leftovers|[from] move: Knock Off|[of] p2a: Falling
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1644160485
+|switch|p2a: Fine Line|Latios, M|29/100 tox
+|-damage|p2a: Fine Line|17/100 tox|[from] Stealth Rock
+|move|p1a: Thundurus|Focus Blast|p2a: Fine Line
+|-resisted|p2a: Fine Line
+|-damage|p2a: Fine Line|0 fnt
+|faint|p2a: Fine Line
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644160491
+|switch|p2a: To Be So Lonely|Tyranitar, F|100/100
+|-damage|p2a: To Be So Lonely|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: To Be So Lonely
+|turn|13
+|
+|t:|1644160496
+|move|p1a: Thundurus|Thunder|p2a: To Be So Lonely
+|-damage|p2a: To Be So Lonely|27/100
+|-status|p2a: To Be So Lonely|par
+|move|p2a: To Be So Lonely|Crunch|p1a: Thundurus
+|-damage|p1a: Thundurus|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|22/100|[from] Sandstorm
+|upkeep
+|turn|14
+|inactive|NevFlame97 has 120 seconds left.
+|
+|t:|1644160513
+|move|p1a: Thundurus|Thunder|p2a: To Be So Lonely|[miss]
+|-miss|p1a: Thundurus|p2a: To Be So Lonely
+|move|p2a: To Be So Lonely|Crunch|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644160517
+|switch|p1a: Politoed|Politoed, M|65/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|15
+|inactive|NevFlame97 has 120 seconds left.
+|
+|t:|1644160525
+|switch|p1a: Keldeo|Keldeo|100/100
+|switch|p2a: Lights Up|Reuniclus, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1644160533
+|switch|p2a: Falling|Ferrothorn, F|100/100
+|-damage|p2a: Falling|94/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hidden Power|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|86/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falling|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644160543
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Falling|Spikes|p1a: Tentacruel
+|-sidestart|p1: NevFlame97|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falling|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|NevFlame97 has 120 seconds left.
+|j| SKT T1 Motherfaker
+|inactive|NevFlame97 has 90 seconds left.
+|
+|t:|1644160597
+|move|p1a: Tentacruel|Scald|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|88/100
+|move|p2a: Falling|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|95/100
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2a: Falling
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|100/100|[from] ability: Rain Dish
+|-heal|p2a: Falling|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644160606
+|move|p1a: Tentacruel|Rapid Spin|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|93/100
+|-damage|p1a: Tentacruel|88/100|[from] ability: Iron Barbs|[of] p2a: Falling
+|-sideend|p1: NevFlame97|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Falling|Bulldoze|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|58/100
+|-unboost|p1a: Tentacruel|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|65/100|[from] ability: Rain Dish
+|-heal|p2a: Falling|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644160614
+|move|p1a: Tentacruel|Scald|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|88/100
+|move|p2a: Falling|Spikes|p1a: Tentacruel
+|-sidestart|p1: NevFlame97|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|71/100|[from] ability: Rain Dish
+|-heal|p2a: Falling|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644160619
+|move|p1a: Tentacruel|Scald|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|83/100
+|move|p2a: Falling|Bulldoze|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|38/100
+|-unboost|p1a: Tentacruel|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|44/100|[from] ability: Rain Dish
+|-heal|p2a: Falling|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644160625
+|move|p1a: Tentacruel|Scald|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|79/100
+|move|p2a: Falling|Bulldoze|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|12/100
+|-unboost|p1a: Tentacruel|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|18/100|[from] ability: Rain Dish
+|-heal|p2a: Falling|86/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆NevFlame97|lol
+|
+|t:|1644160629
+|move|p1a: Tentacruel|Scald|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|75/100
+|move|p2a: Falling|Spikes|p1a: Tentacruel
+|-sidestart|p1: NevFlame97|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|24/100|[from] ability: Rain Dish
+|-heal|p2a: Falling|81/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1644160632
+|move|p1a: Tentacruel|Scald|p2a: Falling
+|-resisted|p2a: Falling
+|-damage|p2a: Falling|71/100
+|move|p2a: Falling|Bulldoze|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falling|77/100|[from] item: Leftovers
+|upkeep
+|c|☆NevFlame97|lolllll
+|c|☆NevFlame97|darn it
+|
+|t:|1644160657
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|84/100|[from] Spikes
+|turn|25
+|
+|t:|1644160664
+|move|p1a: Keldeo|Secret Sword|p2a: Falling
+|-supereffective|p2a: Falling
+|-damage|p2a: Falling|12/100
+|move|p2a: Falling|Spikes|p1a: Keldeo
+|-sidestart|p1: NevFlame97|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falling|19/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644160673
+|switch|p2a: Canyon Moon|Gliscor, F|100/100
+|-damage|p2a: Canyon Moon|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Canyon Moon
+|-resisted|p2a: Canyon Moon
+|-damage|p2a: Canyon Moon|73/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Canyon Moon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|27
+|
+|t:|1644160678
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Canyon Moon|Stealth Rock|p1a: Latios
+|-sidestart|p1: NevFlame97|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Canyon Moon|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1644160687
+|move|p2a: Canyon Moon|Protect|p2a: Canyon Moon
+|-singleturn|p2a: Canyon Moon|Protect
+|move|p1a: Latios|Dragon Pulse|p2a: Canyon Moon
+|-activate|p2a: Canyon Moon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Canyon Moon|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1644160696
+|move|p1a: Latios|Dragon Pulse|p2a: Canyon Moon
+|-damage|p2a: Canyon Moon|25/100 tox
+|move|p2a: Canyon Moon|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|60/100
+|
+|t:|1644160714
+|switch|p2a: Lights Up|Reuniclus, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1644160737
+|move|p1a: Latios|Dragon Pulse|p2a: Lights Up
+|-damage|p2a: Lights Up|31/100
+|move|p2a: Lights Up|Hidden Power|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆NevFlame97|gs
+|-message|NevFlame97 forfeited.
+|
+|win|1owercase
+|raw|NevFlame97's rating: 1459 &rarr; <strong>1436</strong><br />(-23 for losing)
+|raw|1owercase's rating: 1401 &rarr; <strong>1424</strong><br />(+23 for winning)
+|l|☆NevFlame97
+|l|☆1owercase
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

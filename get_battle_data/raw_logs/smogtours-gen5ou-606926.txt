@@ -1,0 +1,608 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644097354
+|gametype|singles
+|player|p1|gilbert arenas|#splxiiityrants|
+|player|p2|sparkling dream|cheren-gen5bw2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Gastrodon-East, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Scolipede, M|item
+|poke|p2|Sharpedo, F|item
+|poke|p2|Yanmega, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Dragonite, F|item
+|teampreview
+|c|☆sparkling dream|hf
+|c|☆gilbert arenas|hf
+|c|☆gilbert arenas|what do these guys do
+|c|+Osgoode|lmfao
+|c|+Osgoode|beast
+|c|+Osgoode|tea
+|c|+Osgoode|m
+|c|+Osgoode|eden
+|inactive|gilbert arenas has 270 seconds left.
+|c|+BluBirD|eden
+|c|+BluBirD|not them 
+|
+|t:|1644097399
+|start
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|switch|p2a: Scolipede|Scolipede, M|100/100
+|turn|1
+|
+|t:|1644097413
+|move|p2a: Scolipede|Toxic Spikes|p1a: Gliscor
+|-sidestart|p1: gilbert arenas|move: Toxic Spikes
+|move|p1a: Gliscor|Earthquake|p2a: Scolipede
+|-damage|p2a: Scolipede|52/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1644097420
+|move|p2a: Scolipede|Toxic Spikes|p1a: Gliscor
+|-sidestart|p1: gilbert arenas|move: Toxic Spikes
+|move|p1a: Gliscor|Stealth Rock|p2a: Scolipede
+|-sidestart|p2: sparkling dream|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1644097424
+|move|p2a: Scolipede|Spikes|p1a: Gliscor
+|-sidestart|p1: gilbert arenas|Spikes
+|move|p1a: Gliscor|U-turn|p2a: Scolipede
+|-resisted|p2a: Scolipede
+|-damage|p2a: Scolipede|40/100
+|
+|t:|1644097427
+|switch|p1a: Skarmory|Skarmory, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1644097432
+|move|p2a: Scolipede|Spikes|p1a: Skarmory
+|-sidestart|p1: gilbert arenas|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Scolipede
+|-sidestart|p2: sparkling dream|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1644097443
+|move|p2a: Scolipede|Spikes|p1a: Skarmory
+|-sidestart|p1: gilbert arenas|Spikes
+|move|p1a: Skarmory|Spikes|p2a: Scolipede
+|-sidestart|p2: sparkling dream|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1644097449
+|move|p2a: Scolipede|Megahorn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|91/100
+|move|p1a: Skarmory|Spikes|p2a: Scolipede
+|-sidestart|p2: sparkling dream|Spikes
+|
+|-heal|p1a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644097451
+|move|p2a: Scolipede|Megahorn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|88/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1644097454
+|move|p2a: Scolipede|Megahorn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|92/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1644097457
+|move|p2a: Scolipede|Megahorn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|92/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|10
+|
+|t:|1644097464
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|76/100|[from] Spikes
+|-damage|p2a: Excadrill|73/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Skarmory|Whirlwind|p2a: Excadrill
+|drag|p2a: Scolipede|Scolipede, M|40/100
+|-damage|p2a: Scolipede|15/100|[from] Stealth Rock
+|-damage|p2a: Scolipede|0 fnt|[from] Spikes
+|faint|p2a: Scolipede
+|
+|upkeep
+|
+|t:|1644097467
+|switch|p2a: Excadrill|Excadrill, F|73/100
+|-damage|p2a: Excadrill|69/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|45/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|11
+|
+|t:|1644097477
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|move|p2a: Excadrill|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|94/100 tox
+|-sideend|p2: sparkling dream|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: sparkling dream|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1644097496
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Gliscor|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: sparkling dream|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1644097498
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Gliscor|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|
+|t:|1644097516
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-status|p1a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|91/100|[from] Sandstorm
+|-heal|p2a: Dragonite|97/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|69/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1644097529
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Tyranitar|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|74/100|[from] Sandstorm
+|-heal|p2a: Dragonite|81/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|57/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1644097535
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644097539
+|move|p2a: Dragonite|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|50/100
+|move|p1a: Skarmory|Spikes|p2a: Dragonite
+|-sidestart|p2: sparkling dream|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|56/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644097546
+|move|p2a: Dragonite|Fire Punch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|4/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|55/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1644097548
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Skarmory|Whirlwind|p2a: Dragonite
+|drag|p2a: Excadrill|Excadrill, F|45/100
+|-damage|p2a: Excadrill|41/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|29/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644097552
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|move|p2a: Excadrill|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|94/100 tox
+|-sideend|p2: sparkling dream|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: sparkling dream|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1644097555
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Gliscor|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: sparkling dream|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644097559
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Gliscor|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|
+|t:|1644097570
+|switch|p1a: Reuniclus|Reuniclus, M|100/100|[from]move: U-turn
+|-status|p1a: Reuniclus|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|91/100|[from] Sandstorm
+|-heal|p2a: Dragonite|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644097582
+|move|p2a: Dragonite|Dragon Claw|p1a: Reuniclus
+|-damage|p1a: Reuniclus|60/100 tox
+|move|p1a: Reuniclus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|27/100|[from] Sandstorm
+|-heal|p2a: Dragonite|33/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|66/100 tox|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1644097586
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|83/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Reuniclus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|41/100|[from] Sandstorm
+|-heal|p2a: Dragonite|47/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|72/100 tox|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1644097591
+|move|p2a: Dragonite|Dragon Claw|p1a: Reuniclus
+|-damage|p1a: Reuniclus|32/100 tox
+|move|p1a: Reuniclus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|39/100 tox|[from] item: Leftovers
+|upkeep
+|
+|t:|1644097595
+|switch|p2a: Sharpedo|Sharpedo, F|100/100
+|-damage|p2a: Sharpedo|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1644097601
+|move|p2a: Sharpedo|Dark Pulse|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|-damage|p2a: Sharpedo|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sharpedo|72/100|[from] Sandstorm
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1644097609
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|-damage|p1a: Gastrodon|76/100|[from] Spikes
+|-status|p1a: Gastrodon|tox
+|turn|26
+|
+|t:|1644097618
+|move|p2a: Sharpedo|Dark Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|32/100 tox
+|-damage|p2a: Sharpedo|62/100|[from] item: Life Orb
+|move|p1a: Gastrodon|Earthquake|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|32/100 tox|[from] psn
+|upkeep
+|
+|t:|1644097632
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|27
+|
+|t:|1644097634
+|move|p2a: Alakazam|Grass Knot|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644097650
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|turn|28
+|
+|t:|1644097657
+|move|p2a: Alakazam|Psychic|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|16/100 tox
+|move|p1a: Gliscor|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|20/100
+|
+|t:|1644097673
+|switch|p1a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|-status|p1a: Alakazam|tox
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1644097676
+|move|p2a: Alakazam|Signal Beam|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|10/100 tox
+|move|p1a: Alakazam|Hidden Power|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644097687
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|-damage|p2a: Yanmega|51/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1644097695
+|move|p2a: Yanmega|Protect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Alakazam|Psychic|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yanmega|45/100|[from] Sandstorm
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|31
+|
+|t:|1644097700
+|switch|p1a: Tyranitar|Tyranitar, M|57/100 tox
+|-damage|p1a: Tyranitar|32/100 tox|[from] Spikes
+|move|p2a: Yanmega|Bug Buzz|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2a: Yanmega|35/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yanmega|29/100|[from] Sandstorm
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1644097712
+|switch|p1a: Gliscor|Gliscor, M|16/100 tox
+|turn|32
+|
+|t:|1644097717
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Yanmega|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yanmega|23/100|[from] Sandstorm
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|33
+|
+|t:|1644097734
+|switch|p1a: Alakazam|Alakazam, M|10/100 tox
+|move|p2a: Yanmega|Hidden Power|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|-damage|p2a: Yanmega|13/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yanmega|7/100|[from] Sandstorm
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1644097745
+|switch|p1a: Gliscor|Gliscor, M|29/100 tox
+|turn|34
+|
+|t:|1644097748
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Yanmega|Hidden Power|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Yanmega|0 fnt|[from] Sandstorm
+|faint|p2a: Yanmega
+|-heal|p1a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1644097749
+|switch|p2a: Excadrill|Excadrill, F|29/100
+|-damage|p2a: Excadrill|26/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|35
+|c|☆sparkling dream|gg
+|
+|t:|1644097753
+|move|p2a: Excadrill|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|cant|p1a: Gliscor|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|16/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|c|☆gilbert arenas|gg
+|
+|t:|1644097758
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Excadrill|Iron Head|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|t:|1644097760
+|move|p2a: Excadrill|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644097762
+|switch|p1a: Skarmory|Skarmory, M|67/100
+|turn|38
+|
+|t:|1644097779
+|move|p2a: Excadrill|Iron Head|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|48/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|98/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1644097789
+|move|p2a: Excadrill|Iron Head|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|84/100
+|move|p1a: Skarmory|Secret Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|16/100
+|-status|p2a: Excadrill|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|90/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1644097793
+|move|p1a: Skarmory|Secret Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|7/100 par
+|move|p2a: Excadrill|Iron Head|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|63/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1644097796
+|move|p1a: Skarmory|Secret Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|gilbert arenas

@@ -1,0 +1,299 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640036719
+|gametype|singles
+|player|p1|Somalia|drayden|
+|player|p2|watashi|#flcl|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhyperior, M|item
+|poke|p1|Meloetta|item
+|poke|p1|Heracross, M|item
+|poke|p1|Weavile, M|item
+|poke|p1|Flygon, F|item
+|poke|p1|Empoleon, M|item
+|poke|p2|Druddigon, F|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Victini|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Raikou|item
+|teampreview
+|c|☆Somalia|hf bro
+|c|☆watashi|u2
+|inactive|Somalia has 270 seconds left.
+|c|☆Somalia|damn man if u made that team its like my 2014 one lol exactly
+|c|☆Somalia|hope its same sets
+|
+|t:|1640036766
+|start
+|switch|p1a: ARMORED ARMADILLO|Rhyperior, M, shiny|100/100
+|switch|p2a: Druddigon|Druddigon, F|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1640036776
+|move|p1a: ARMORED ARMADILLO|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|59/100
+|move|p2a: Druddigon|Glare|p1a: ARMORED ARMADILLO
+|-status|p1a: ARMORED ARMADILLO|par
+|
+|upkeep
+|turn|2
+|
+|t:|1640036781
+|move|p2a: Druddigon|Stealth Rock|p1a: ARMORED ARMADILLO
+|-sidestart|p1: Somalia|move: Stealth Rock
+|move|p1a: ARMORED ARMADILLO|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: watashi|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1640036790
+|move|p2a: Druddigon|Earthquake|p1a: ARMORED ARMADILLO
+|-supereffective|p1a: ARMORED ARMADILLO
+|-damage|p1a: ARMORED ARMADILLO|64/100 par
+|move|p1a: ARMORED ARMADILLO|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|15/100
+|
+|upkeep
+|turn|4
+|
+|t:|1640036796
+|move|p2a: Druddigon|Earthquake|p1a: ARMORED ARMADILLO
+|-supereffective|p1a: ARMORED ARMADILLO
+|-damage|p1a: ARMORED ARMADILLO|28/100 par
+|cant|p1a: ARMORED ARMADILLO|par
+|
+|upkeep
+|turn|5
+|
+|t:|1640036801
+|move|p2a: Druddigon|Earthquake|p1a: ARMORED ARMADILLO
+|-supereffective|p1a: ARMORED ARMADILLO
+|-damage|p1a: ARMORED ARMADILLO|0 fnt
+|faint|p1a: ARMORED ARMADILLO
+|
+|upkeep
+|
+|t:|1640036814
+|switch|p1a: SPARK MANDRILL|Heracross, M, shiny|100/100
+|-damage|p1a: SPARK MANDRILL|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1640036818
+|move|p1a: SPARK MANDRILL|Close Combat|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|-unboost|p1a: SPARK MANDRILL|def|1
+|-unboost|p1a: SPARK MANDRILL|spd|1
+|-damage|p1a: SPARK MANDRILL|72/100|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|faint|p2a: Druddigon
+|
+|upkeep
+|
+|t:|1640036822
+|switch|p2a: Qwilfish|Qwilfish, M|100/100
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: SPARK MANDRILL|atk|1
+|turn|7
+|
+|t:|1640036835
+|move|p2a: Qwilfish|Spikes|p1a: SPARK MANDRILL
+|-sidestart|p1: Somalia|Spikes
+|move|p1a: SPARK MANDRILL|Swords Dance|p1a: SPARK MANDRILL
+|-boost|p1a: SPARK MANDRILL|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1640036850
+|move|p2a: Qwilfish|Spikes|p1a: SPARK MANDRILL
+|-sidestart|p1: Somalia|Spikes
+|move|p1a: SPARK MANDRILL|Megahorn|p2a: Qwilfish|[miss]
+|-miss|p1a: SPARK MANDRILL|p2a: Qwilfish
+|
+|upkeep
+|turn|9
+|
+|t:|1640036854
+|move|p2a: Qwilfish|Spikes|p1a: SPARK MANDRILL
+|-sidestart|p1: Somalia|Spikes
+|move|p1a: SPARK MANDRILL|Megahorn|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-crit|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|-damage|p1a: SPARK MANDRILL|55/100|[from] item: Rocky Helmet|[of] p2a: Qwilfish
+|faint|p2a: Qwilfish
+|
+|upkeep
+|
+|t:|1640036860
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1640036863
+|move|p1a: SPARK MANDRILL|Endure|p1a: SPARK MANDRILL
+|-singleturn|p1a: SPARK MANDRILL|move: Endure
+|move|p2a: Cobalion|Iron Head|p1a: SPARK MANDRILL
+|-activate|p1a: SPARK MANDRILL|move: Endure
+|-damage|p1a: SPARK MANDRILL|1/100
+|
+|upkeep
+|turn|11
+|c|☆watashi|o shit
+|c|☆Somalia|wait
+|c|☆Somalia|im meant to be
+|c|☆Somalia|salac
+|c|☆Somalia|ffs
+|-enditem|p1a: SPARK MANDRILL|Custap Berry|[eat]
+|-activate|p1a: SPARK MANDRILL|item: Custap Berry|[consumed]
+|
+|t:|1640036890
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|move|p1a: SPARK MANDRILL|Close Combat|p2a: Togekiss
+|-damage|p2a: Togekiss|12/100
+|-unboost|p1a: SPARK MANDRILL|def|1
+|-unboost|p1a: SPARK MANDRILL|spd|1
+|
+|-heal|p2a: Togekiss|18/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1640036898
+|move|p1a: SPARK MANDRILL|Close Combat|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-unboost|p1a: SPARK MANDRILL|def|1
+|-unboost|p1a: SPARK MANDRILL|spd|1
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|t:|1640036900
+|switch|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1640036906
+|move|p1a: SPARK MANDRILL|Endure|p1a: SPARK MANDRILL
+|-singleturn|p1a: SPARK MANDRILL|move: Endure
+|move|p2a: Victini|U-turn|p1a: SPARK MANDRILL
+|-resisted|p1a: SPARK MANDRILL
+|-activate|p1a: SPARK MANDRILL|move: Endure
+|-damage|p1a: SPARK MANDRILL|1/100
+|
+|t:|1640036908
+|switch|p2a: Cobalion|Cobalion|97/100|[from]move: U-turn
+|-damage|p2a: Cobalion|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1640036921
+|move|p2a: Cobalion|Iron Head|p1a: SPARK MANDRILL
+|-damage|p1a: SPARK MANDRILL|0 fnt
+|faint|p1a: SPARK MANDRILL
+|
+|upkeep
+|
+|t:|1640036926
+|switch|p1a: STORM EAGLE|Flygon, F|100/100
+|-damage|p1a: STORM EAGLE|95/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1640036929
+|move|p1a: STORM EAGLE|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-enditem|p2a: Cobalion|Shuca Berry|[eat]
+|-enditem|p2a: Cobalion|Shuca Berry|[weaken]
+|-damage|p2a: Cobalion|57/100
+|move|p2a: Cobalion|Close Combat|p1a: STORM EAGLE
+|-damage|p1a: STORM EAGLE|30/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1640036935
+|move|p1a: STORM EAGLE|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|t:|1640036937
+|switch|p2a: Victini|Victini|76/100
+|-damage|p2a: Victini|51/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1640036960
+|switch|p1a: CHILL PENGUIN|Empoleon, M|100/100
+|-damage|p1a: CHILL PENGUIN|94/100|[from] Stealth Rock
+|-damage|p1a: CHILL PENGUIN|69/100|[from] Spikes
+|move|p2a: Victini|Blue Flare|p1a: CHILL PENGUIN
+|-damage|p1a: CHILL PENGUIN|12/100
+|-status|p1a: CHILL PENGUIN|brn
+|-enditem|p1a: CHILL PENGUIN|Petaya Berry|[eat]
+|-boost|p1a: CHILL PENGUIN|spa|1|[from] item: Petaya Berry
+|
+|-damage|p1a: CHILL PENGUIN|0 fnt|[from] brn
+|faint|p1a: CHILL PENGUIN
+|upkeep
+|
+|t:|1640036971
+|switch|p1a: STAGE START|Meloetta|100/100
+|-damage|p1a: STAGE START|88/100|[from] Stealth Rock
+|-damage|p1a: STAGE START|63/100|[from] Spikes
+|turn|18
+|
+|t:|1640036974
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: STAGE START|Hyper Voice|p2a: Raikou
+|-damage|p2a: Raikou|30/100
+|
+|-heal|p2a: Raikou|36/100|[from] item: Leftovers
+|-heal|p1a: STAGE START|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1640036978
+|move|p2a: Raikou|Thunderbolt|p1a: STAGE START
+|-damage|p1a: STAGE START|38/100
+|move|p1a: STAGE START|Psyshock|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|-heal|p1a: STAGE START|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640036980
+|switch|p2a: Victini|Victini|51/100
+|-damage|p2a: Victini|26/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1640036984
+|move|p2a: Victini|Blue Flare|p1a: STAGE START
+|-damage|p1a: STAGE START|3/100
+|move|p1a: STAGE START|Hyper Voice|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|win|Somalia

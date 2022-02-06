@@ -1,0 +1,335 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642990653
+|gametype|singles
+|player|p1|CB AARON JUDGE|koga-gen3|
+|player|p2|james|#wcop2021usnortheast|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, M|item
+|poke|p1|Scraggy, M|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p2|Sawk, M|item
+|poke|p2|Rotom-Frost|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Misdreavus, M|item
+|teampreview
+|
+|t:|1642990673
+|start
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|switch|p2a: Sawk|Sawk, M|100/100
+|turn|1
+|
+|t:|1642990678
+|move|p1a: Garbodor|Spikes|p2a: Sawk
+|-sidestart|p2: james|Spikes
+|move|p2a: Sawk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-enditem|p1a: Garbodor|Focus Sash
+|-damage|p1a: Garbodor|1/100
+|-ability|p1a: Garbodor|Weak Armor|boost
+|-unboost|p1a: Garbodor|def|1
+|-boost|p1a: Garbodor|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1642990686
+|move|p1a: Garbodor|Explosion|p2a: Sawk
+|-ability|p2a: Sawk|Sturdy
+|-damage|p2a: Sawk|1/100
+|faint|p1a: Garbodor
+|move|p2a: Sawk|Earthquake|p1: Garbodor|[notarget]
+|-fail|p2a: Sawk
+|
+|upkeep
+|
+|t:|1642990695
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|3
+|
+|t:|1642990710
+|move|p1a: Piloswine|Ice Shard|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|upkeep
+|
+|t:|1642990721
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|4
+|
+|t:|1642990735
+|switch|p1a: Scraggy|Scraggy, M|100/100
+|move|p2a: Misdreavus|Nasty Plot|p2a: Misdreavus
+|-boost|p2a: Misdreavus|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1642990741
+|move|p2a: Misdreavus|Thunderbolt|p1a: Scraggy
+|-damage|p1a: Scraggy|64/100
+|-status|p1a: Scraggy|par
+|cant|p1a: Scraggy|par
+|
+|upkeep
+|turn|6
+|
+|t:|1642990751
+|move|p2a: Misdreavus|Thunderbolt|p1a: Scraggy
+|-damage|p1a: Scraggy|29/100 par
+|move|p1a: Scraggy|Rest|p1a: Scraggy
+|-status|p1a: Scraggy|slp|[from] move: Rest
+|-heal|p1a: Scraggy|100/100 slp|[silent]
+|
+|-activate|p1a: Scraggy|ability: Shed Skin
+|-curestatus|p1a: Scraggy|slp|[msg]
+|upkeep
+|turn|7
+|
+|t:|1642990760
+|move|p2a: Misdreavus|Thunderbolt|p1a: Scraggy
+|-damage|p1a: Scraggy|65/100
+|move|p1a: Scraggy|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|45/100
+|
+|upkeep
+|turn|8
+|
+|t:|1642990765
+|move|p2a: Misdreavus|Thunderbolt|p1a: Scraggy
+|-damage|p1a: Scraggy|31/100
+|move|p1a: Scraggy|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|upkeep
+|inactive|james has 270 seconds left.
+|
+|t:|1642990824
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Spikes
+|turn|9
+|
+|t:|1642990832
+|move|p2a: Serperior|Calm Mind|p2a: Serperior
+|-boost|p2a: Serperior|spa|1
+|-boost|p2a: Serperior|spd|1
+|move|p1a: Scraggy|Drain Punch|p2a: Serperior
+|-damage|p2a: Serperior|64/100
+|-heal|p1a: Scraggy|43/100|[from] drain|[of] p2a: Serperior
+|
+|upkeep
+|turn|10
+|
+|t:|1642990853
+|move|p2a: Serperior|Giga Drain|p1a: Scraggy
+|-damage|p1a: Scraggy|7/100
+|-heal|p2a: Serperior|83/100|[from] drain|[of] p1a: Scraggy
+|-damage|p2a: Serperior|74/100|[from] item: Life Orb
+|move|p1a: Scraggy|Drain Punch|p2a: Serperior
+|-damage|p2a: Serperior|49/100
+|-heal|p1a: Scraggy|18/100|[from] drain|[of] p2a: Serperior
+|
+|upkeep
+|turn|11
+|
+|t:|1642990861
+|move|p2a: Serperior|Giga Drain|p1a: Scraggy
+|-damage|p1a: Scraggy|0 fnt
+|-heal|p2a: Serperior|59/100|[from] drain|[of] p1a: Scraggy
+|faint|p1a: Scraggy
+|-damage|p2a: Serperior|49/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642990869
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|12
+|inactive|james has 240 seconds left.
+|
+|t:|1642990903
+|move|p1a: Piloswine|Ice Shard|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-crit|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|inactive|james has 240 seconds left.
+|
+|t:|1642990908
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|turn|13
+|
+|t:|1642990911
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Alomomola|Scald|p1a: Rotom
+|-damage|p1a: Rotom|81/100
+|-status|p1a: Rotom|brn
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1642990918
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Rotom|Thunderbolt|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|-damage|p1a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1642990923
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|
+|-damage|p1a: Rotom|44/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|james has 270 seconds left.
+|
+|t:|1642990928
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1642990931
+|move|p2a: Alomomola|Scald|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|75/100
+|-status|p1a: Piloswine|brn
+|move|p1a: Piloswine|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: james|move: Stealth Rock
+|
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|-damage|p1a: Piloswine|63/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1642990937
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Regenerator|[from] ability: Trace|[of] p2a: Alomomola
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|19
+|
+|t:|1642990953
+|switch|p1a: Piloswine|Piloswine, M|63/100 brn
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|88/100|[from] Spikes
+|-damage|p2a: Skuntank|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Skuntank|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Piloswine|50/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1642990962
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|-damage|p2a: Alomomola|75/100|[from] Stealth Rock
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1642990971
+|move|p2a: Alomomola|Scald|p1a: Carracosta
+|-damage|p1a: Carracosta|77/100
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|
+|-heal|p2a: Alomomola|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1642990983
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Carracosta|Stone Edge|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642990990
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|move|p2a: Alomomola|Scald|p1a: Carracosta
+|-damage|p1a: Carracosta|32/100
+|
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|james has 270 seconds left.
+|
+|t:|1642991037
+|move|p1a: Carracosta|Stone Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Carracosta|22/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642991041
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|-damage|p2a: Skuntank|76/100|[from] Spikes
+|turn|25
+|
+|t:|1642991045
+|move|p1a: Carracosta|Aqua Jet|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Carracosta|0 fnt|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p1a: Carracosta
+|faint|p2a: Skuntank
+|
+|upkeep
+|c|☆james|gg
+|-message|james forfeited.
+|
+|win|CB AARON JUDGE

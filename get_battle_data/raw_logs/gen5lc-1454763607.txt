@@ -1,0 +1,302 @@
+|j|☆Championjolteons
+|j|☆Riastylis
+|t:|1637014730
+|gametype|singles
+|player|p1|Championjolteons|steven|
+|player|p2|Riastylis|veteran|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chimchar, L5, F|item
+|poke|p1|Bulbasaur, L5, F|item
+|poke|p1|Totodile, L5, M|item
+|poke|p1|Blitzle, L5, M|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Makuhita, L5, F|item
+|poke|p2|Anorith, L5, M|item
+|poke|p2|Deino, L5, M|item
+|poke|p2|Torchic, L5, M|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Chinchou, L5, M|item
+|poke|p2|Happiny, L5, F|item
+|teampreview
+|
+|t:|1637014752
+|start
+|switch|p1a: Chimchar|Chimchar, L5, F|100/100
+|switch|p2a: Happiny|Happiny, L5, F|100/100
+|turn|1
+|
+|t:|1637014760
+|move|p1a: Chimchar|Fake Out|p2a: Happiny
+|-crit|p2a: Happiny
+|-damage|p2a: Happiny|56/100
+|cant|p2a: Happiny|flinch
+|
+|-heal|p2a: Happiny|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1637014771
+|move|p1a: Chimchar|Acrobatics|p2a: Happiny
+|-enditem|p1a: Chimchar|Flying Gem|[from] gem
+|-crit|p2a: Happiny
+|-damage|p2a: Happiny|0 fnt
+|faint|p2a: Happiny
+|
+|upkeep
+|
+|t:|1637014776
+|switch|p2a: Chinchou|Chinchou, L5, M|100/100
+|turn|3
+|
+|t:|1637014795
+|switch|p1a: Blitzle|Blitzle, L5, M|100/100
+|-item|p1a: Blitzle|Air Balloon
+|move|p2a: Chinchou|Scald|p1a: Blitzle
+|-damage|p1a: Blitzle|55/100
+|-enditem|p1a: Blitzle|Air Balloon
+|
+|upkeep
+|turn|4
+|
+|t:|1637014807
+|move|p1a: Blitzle|Light Screen|p1a: Blitzle
+|-sidestart|p1: Championjolteons|move: Light Screen
+|move|p2a: Chinchou|Rest|p2a: Chinchou
+|-fail|p2a: Chinchou|heal
+|
+|upkeep
+|turn|5
+|
+|t:|1637014819
+|move|p1a: Blitzle|Volt Switch|p2a: Chinchou
+|-immune|p2a: Chinchou|[from] ability: Volt Absorb
+|move|p2a: Chinchou|Scald|p1a: Blitzle
+|-damage|p1a: Blitzle|32/100
+|
+|upkeep
+|turn|6
+|
+|t:|1637014827
+|switch|p1a: Bulbasaur|Bulbasaur, L5, F|100/100
+|move|p2a: Chinchou|Scald|p1a: Bulbasaur
+|-resisted|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|96/100
+|
+|upkeep
+|turn|7
+|
+|t:|1637014838
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|move|p1a: Bulbasaur|Curse|p1a: Bulbasaur
+|-unboost|p1a: Bulbasaur|spe|1
+|-boost|p1a: Bulbasaur|atk|1
+|-boost|p1a: Bulbasaur|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1637014846
+|move|p2a: Bronzor|Toxic|p1a: Bulbasaur
+|-immune|p1a: Bulbasaur
+|move|p1a: Bulbasaur|Leech Seed|p2a: Bronzor
+|-start|p2a: Bronzor|move: Leech Seed
+|
+|-damage|p2a: Bronzor|88/100|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|100/100|[silent]
+|-sideend|p1: Championjolteons|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1637014858
+|move|p2a: Bronzor|Flash Cannon|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|84/100
+|move|p1a: Bulbasaur|Curse|p1a: Bulbasaur
+|-unboost|p1a: Bulbasaur|spe|1
+|-boost|p1a: Bulbasaur|atk|1
+|-boost|p1a: Bulbasaur|def|1
+|
+|-damage|p2a: Bronzor|76/100|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|96/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1637014869
+|switch|p2a: Deino|Deino, L5, M|100/100
+|move|p1a: Bulbasaur|Curse|p1a: Bulbasaur
+|-unboost|p1a: Bulbasaur|spe|1
+|-boost|p1a: Bulbasaur|atk|1
+|-boost|p1a: Bulbasaur|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1637014882
+|move|p2a: Deino|Superpower|p1a: Bulbasaur
+|-resisted|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|84/100
+|-unboost|p2a: Deino|atk|1
+|-unboost|p2a: Deino|def|1
+|move|p1a: Bulbasaur|Seed Bomb|p2a: Deino
+|-resisted|p2a: Deino
+|-damage|p2a: Deino|32/100
+|
+|upkeep
+|turn|12
+|
+|t:|1637014892
+|switch|p2a: Torchic|Torchic, L5, M|100/100
+|move|p1a: Bulbasaur|Seed Bomb|p2a: Torchic
+|-resisted|p2a: Torchic
+|-damage|p2a: Torchic|37/100
+|-enditem|p2a: Torchic|Sitrus Berry|[eat]
+|-heal|p2a: Torchic|58/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|13
+|
+|t:|1637014915
+|switch|p1a: Totodile|Totodile, L5, M|100/100
+|move|p2a: Torchic|Fire Blast|p1a: Totodile
+|-resisted|p1a: Totodile
+|-damage|p1a: Totodile|58/100
+|
+|upkeep
+|turn|14
+|
+|t:|1637014930
+|move|p2a: Torchic|Hidden Power|p1a: Totodile
+|-supereffective|p1a: Totodile
+|-damage|p1a: Totodile|0 fnt
+|faint|p1a: Totodile
+|
+|upkeep
+|
+|t:|1637014943
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|turn|15
+|
+|t:|1637014951
+|move|p2a: Torchic|Night Slash|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-damage|p1a: Drifloon|44/100
+|move|p1a: Drifloon|Shadow Ball|p2a: Torchic
+|-damage|p2a: Torchic|0 fnt
+|faint|p2a: Torchic
+|
+|-status|p1a: Drifloon|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1637014965
+|switch|p2a: Deino|Deino, L5, M|32/100
+|turn|16
+|
+|t:|1637014971
+|move|p2a: Deino|Crunch|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|
+|upkeep
+|
+|t:|1637014978
+|switch|p1a: Blitzle|Blitzle, L5, M|32/100
+|turn|17
+|
+|t:|1637014983
+|move|p2a: Deino|Crunch|p1a: Blitzle|[miss]
+|-miss|p2a: Deino|p1a: Blitzle
+|move|p1a: Blitzle|Volt Switch|p2a: Deino
+|-resisted|p2a: Deino
+|-crit|p2a: Deino
+|-damage|p2a: Deino|0 fnt
+|faint|p2a: Deino
+|
+|t:|1637014993
+|switch|p1a: Bulbasaur|Bulbasaur, L5, F|84/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1637015000
+|switch|p2a: Anorith|Anorith, L5, M|100/100
+|turn|18
+|
+|t:|1637015005
+|switch|p1a: Makuhita|Makuhita, L5, F|100/100
+|move|p2a: Anorith|X-Scissor|p1a: Makuhita
+|-resisted|p1a: Makuhita
+|-damage|p1a: Makuhita|66/100
+|
+|-heal|p1a: Makuhita|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1637015016
+|switch|p2a: Chinchou|Chinchou, L5, M|100/100
+|move|p1a: Makuhita|Bulk Up|p1a: Makuhita
+|-boost|p1a: Makuhita|atk|1
+|-boost|p1a: Makuhita|def|1
+|
+|-heal|p1a: Makuhita|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1637015028
+|move|p2a: Chinchou|Discharge|p1a: Makuhita
+|-damage|p1a: Makuhita|31/100
+|-status|p1a: Makuhita|par
+|move|p1a: Makuhita|Revenge|p2a: Chinchou
+|-damage|p2a: Chinchou|0 fnt
+|faint|p2a: Chinchou
+|
+|-heal|p1a: Makuhita|35/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1637015042
+|switch|p2a: Bronzor|Bronzor, L5|76/100
+|turn|21
+|
+|t:|1637015048
+|move|p2a: Bronzor|Earthquake|p1a: Makuhita
+|-damage|p1a: Makuhita|14/100 par
+|move|p1a: Makuhita|Revenge|p2a: Bronzor
+|-damage|p2a: Bronzor|0 fnt
+|faint|p2a: Bronzor
+|
+|-heal|p1a: Makuhita|18/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1637015057
+|switch|p2a: Anorith|Anorith, L5, M|100/100
+|turn|22
+|
+|t:|1637015063
+|move|p1a: Makuhita|Bullet Punch|p2a: Anorith
+|-supereffective|p2a: Anorith
+|-damage|p2a: Anorith|24/100
+|move|p2a: Anorith|Knock Off|p1a: Makuhita
+|-resisted|p1a: Makuhita
+|-crit|p1a: Makuhita
+|-damage|p1a: Makuhita|5/100 par
+|-enditem|p1a: Makuhita|Leftovers|[from] move: Knock Off|[of] p2a: Anorith
+|
+|upkeep
+|turn|23
+|
+|t:|1637015073
+|move|p1a: Makuhita|Bullet Punch|p2a: Anorith
+|-supereffective|p2a: Anorith
+|-damage|p2a: Anorith|0 fnt
+|faint|p2a: Anorith
+|
+|win|Championjolteons

@@ -1,0 +1,393 @@
+|j|☆faded love
+|j|☆blackkaiser
+|t:|1631233524
+|gametype|singles
+|player|p1|faded love|psychicf|
+|player|p2|blackkaiser|nate|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Xatu, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Linoone, M|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Kingdra, M|item
+|poke|p2|Mew|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Suicune|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Sharpedo, F|item
+|poke|p2|Shaymin|item
+|teampreview
+|j| Scor the bunny
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|j| LousyLadder
+|j|+Accel
+|
+|t:|1631233529
+|start
+|switch|p1a: DIE YOUNG|Xatu, M|100/100
+|switch|p2a: Druddigon|Druddigon, M, shiny|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|1
+|j| Corperate N
+|
+|t:|1631233532
+|move|p1a: DIE YOUNG|Reflect|p1a: DIE YOUNG
+|-sidestart|p1: faded love|Reflect
+|move|p2a: Druddigon|Stealth Rock|p1a: DIE YOUNG
+|-sidestart|p1: faded love|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1631233535
+|move|p1a: DIE YOUNG|Light Screen|p1a: DIE YOUNG
+|-sidestart|p1: faded love|move: Light Screen
+|move|p2a: Druddigon|Glare|p1a: DIE YOUNG
+|-status|p1a: DIE YOUNG|par
+|
+|upkeep
+|turn|3
+|
+|t:|1631233536
+|move|p1a: DIE YOUNG|U-turn|p2a: Druddigon
+|-damage|p2a: Druddigon|86/100
+|
+|t:|1631233551
+|switch|p1a: WONDERLAND|Kingdra, M|100/100|[from]move: U-turn
+|-damage|p1a: WONDERLAND|88/100|[from] Stealth Rock
+|move|p2a: Druddigon|Roar|p1a: WONDERLAND
+|drag|p1a: CRAZY KIDS|Cobalion|100/100
+|-damage|p1a: CRAZY KIDS|97/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1631233565
+|move|p1a: CRAZY KIDS|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|move|p2a: Druddigon|Glare|p1a: CRAZY KIDS
+|-status|p1a: CRAZY KIDS|par
+|-enditem|p1a: CRAZY KIDS|Lum Berry|[eat]
+|-curestatus|p1a: CRAZY KIDS|par|[msg]
+|
+|upkeep
+|turn|5
+|
+|t:|1631233569
+|switch|p1a: DIE YOUNG|Xatu, M|100/100 par
+|-damage|p1a: DIE YOUNG|76/100 par|[from] Stealth Rock
+|move|p2a: Druddigon|Glare|p1a: DIE YOUNG
+|-fail|p1a: DIE YOUNG|par
+|
+|upkeep
+|turn|6
+|j|@TSR
+|
+|t:|1631233572
+|move|p2a: Druddigon|Dragon Claw|p1a: DIE YOUNG
+|-damage|p1a: DIE YOUNG|55/100 par
+|cant|p1a: DIE YOUNG|par
+|
+|upkeep
+|turn|7
+|
+|t:|1631233576
+|move|p1a: DIE YOUNG|Thunder Wave|p2a: Druddigon
+|-status|p2a: Druddigon|par
+|move|p2a: Druddigon|Roar|p1a: DIE YOUNG
+|drag|p1a: DIRTY LOVE|Krookodile, M|100/100
+|-damage|p1a: DIRTY LOVE|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1631233585
+|move|p1a: DIRTY LOVE|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|34/100 par
+|cant|p2a: Druddigon|par
+|
+|-sideend|p1: faded love|Reflect
+|upkeep
+|turn|9
+|
+|t:|1631233591
+|move|p1a: DIRTY LOVE|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|-ability|p1a: DIRTY LOVE|Moxie|boost
+|-boost|p1a: DIRTY LOVE|atk|1
+|
+|-sideend|p1: faded love|move: Light Screen
+|upkeep
+|
+|t:|1631233594
+|switch|p2a: Shaymin|Shaymin|100/100
+|-damage|p2a: Shaymin|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1631233596
+|switch|p1a: CRAZY KIDS|Cobalion|97/100
+|-damage|p1a: CRAZY KIDS|94/100|[from] Stealth Rock
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|63/100
+|
+|-heal|p2a: Shaymin|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1631233600
+|move|p1a: CRAZY KIDS|Close Combat|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|-unboost|p1a: CRAZY KIDS|def|1
+|-unboost|p1a: CRAZY KIDS|spd|1
+|move|p2a: Shaymin|Leech Seed|p1a: CRAZY KIDS
+|-start|p1a: CRAZY KIDS|move: Leech Seed
+|
+|-heal|p2a: Shaymin|75/100|[from] item: Leftovers
+|-damage|p1a: CRAZY KIDS|82/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|85/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1631233604
+|switch|p1a: DIE YOUNG|Xatu, M|55/100 par
+|-damage|p1a: DIE YOUNG|31/100 par|[from] Stealth Rock
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|60/100
+|
+|-heal|p2a: Shaymin|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1631233607
+|move|p2a: Shaymin|Air Slash|p1a: DIE YOUNG
+|-damage|p1a: DIE YOUNG|5/100 par
+|cant|p1a: DIE YOUNG|flinch
+|
+|-heal|p2a: Shaymin|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1631233610
+|move|p2a: Shaymin|Air Slash|p1a: DIE YOUNG
+|-damage|p1a: DIE YOUNG|0 fnt
+|faint|p1a: DIE YOUNG
+|
+|-heal|p2a: Shaymin|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631233612
+|switch|p1a: CRAZY KIDS|Cobalion|82/100
+|-damage|p1a: CRAZY KIDS|79/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1631233614
+|move|p1a: CRAZY KIDS|Close Combat|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|-unboost|p1a: CRAZY KIDS|def|1
+|-unboost|p1a: CRAZY KIDS|spd|1
+|move|p2a: Shaymin|Leech Seed|p1a: CRAZY KIDS
+|-start|p1a: CRAZY KIDS|move: Leech Seed
+|
+|-heal|p2a: Shaymin|85/100|[from] item: Leftovers
+|-damage|p1a: CRAZY KIDS|66/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|95/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1631233620
+|switch|p1a: SUPERNATURAL|Mismagius, M|100/100
+|-damage|p1a: SUPERNATURAL|88/100|[from] Stealth Rock
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|70/100
+|
+|-heal|p1a: SUPERNATURAL|94/100|[from] item: Leftovers
+|-heal|p2a: Shaymin|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1631233624
+|move|p1a: SUPERNATURAL|Taunt|p2a: Shaymin
+|-start|p2a: Shaymin|move: Taunt
+|move|p2a: Shaymin|Seed Flare|p1a: SUPERNATURAL
+|-damage|p1a: SUPERNATURAL|39/100
+|
+|-heal|p1a: SUPERNATURAL|45/100|[from] item: Leftovers
+|-heal|p2a: Shaymin|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1631233626
+|move|p1a: SUPERNATURAL|Shadow Ball|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|move|p2a: Shaymin|Seed Flare|p1a: SUPERNATURAL
+|-damage|p1a: SUPERNATURAL|0 fnt
+|faint|p1a: SUPERNATURAL
+|
+|-heal|p2a: Shaymin|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631233634
+|switch|p1a: CRAZY KIDS|Cobalion|66/100
+|-damage|p1a: CRAZY KIDS|63/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1631233641
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: CRAZY KIDS|Swords Dance|p1a: CRAZY KIDS
+|-boost|p1a: CRAZY KIDS|atk|2
+|
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1631233643
+|move|p1a: CRAZY KIDS|Stone Edge|p2a: Mew|[miss]
+|-miss|p1a: CRAZY KIDS|p2a: Mew
+|move|p2a: Mew|Rock Polish|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1631233646
+|move|p2a: Mew|Fire Blast|p1a: CRAZY KIDS
+|-supereffective|p1a: CRAZY KIDS
+|-damage|p1a: CRAZY KIDS|0 fnt
+|faint|p1a: CRAZY KIDS
+|
+|upkeep
+|
+|t:|1631233649
+|switch|p1a: DIRTY LOVE|Krookodile, M|94/100
+|-damage|p1a: DIRTY LOVE|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1631233654
+|move|p2a: Mew|Fire Blast|p1a: DIRTY LOVE
+|-damage|p1a: DIRTY LOVE|39/100
+|move|p1a: DIRTY LOVE|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-ability|p1a: DIRTY LOVE|Moxie|boost
+|-boost|p1a: DIRTY LOVE|atk|1
+|
+|upkeep
+|
+|t:|1631233659
+|switch|p2a: Sharpedo|Sharpedo, F|100/100
+|-damage|p2a: Sharpedo|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1631233661
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: DIRTY LOVE|Crunch|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|upkeep
+|turn|24
+|
+|t:|1631233663
+|move|p1a: DIRTY LOVE|Crunch|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|15/100
+|-unboost|p2a: Sharpedo|def|1
+|-damage|p1a: DIRTY LOVE|27/100|[from] ability: Rough Skin|[of] p2a: Sharpedo
+|move|p2a: Sharpedo|Waterfall|p1a: DIRTY LOVE
+|-supereffective|p1a: DIRTY LOVE
+|-damage|p1a: DIRTY LOVE|0 fnt
+|faint|p1a: DIRTY LOVE
+|-damage|p2a: Sharpedo|5/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1631233666
+|switch|p1a: WARRIOR|Linoone, M|100/100
+|-damage|p1a: WARRIOR|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1631233669
+|move|p1a: WARRIOR|Extreme Speed|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|-damage|p1a: WARRIOR|75/100|[from] ability: Rough Skin|[of] p2a: Sharpedo
+|faint|p2a: Sharpedo
+|
+|upkeep
+|j| udongirl
+|
+|t:|1631233672
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|-damage|p2a: Nidoking|95/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1631233675
+|move|p1a: WARRIOR|Extreme Speed|p2a: Nidoking
+|-damage|p2a: Nidoking|55/100
+|move|p2a: Nidoking|Earth Power|p1a: WARRIOR
+|-damage|p1a: WARRIOR|0 fnt
+|faint|p1a: WARRIOR
+|
+|upkeep
+|
+|t:|1631233677
+|switch|p1a: WONDERLAND|Kingdra, M|88/100
+|-damage|p1a: WONDERLAND|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1631233681
+|move|p2a: Nidoking|Earth Power|p1a: WONDERLAND
+|-crit|p1a: WONDERLAND
+|-damage|p1a: WONDERLAND|0 fnt
+|faint|p1a: WONDERLAND
+|
+|win|blackkaiser
+|n|☆faded love|fadedlove
+|n|☆blackkaiser|blackkaiser
+|n| Scor the bunny|scorthebunny
+|n| LousyLadder|lousyladder
+|n|+Accel|accel
+|n| Corperate N|corperaten
+|n|+TSR|tsr
+|n| udongirl|udongirl
+|c|☆blackkaiser|GG
+|c|☆blackkaiser|AYE
+|c|☆blackkaiser|typical faded vs blackkaiser game folks
+|l|☆blackkaiser
+|j|☆blackkaiser
+|player|p2|blackkaiser|nate
+|l|☆blackkaiser
+|player|p2|
+|l| Corperate N
+|l| LousyLadder
+|l|☆faded love
+|l| udongirl
+|j|☆blackkaiser
+|player|p2|blackkaiser|nate
+|l|☆blackkaiser
+|player|p2|
+|l|+TSR
+|j| Kahiba

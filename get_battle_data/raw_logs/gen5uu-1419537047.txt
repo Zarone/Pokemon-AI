@@ -1,0 +1,60 @@
+|j|☆TheNordicMan
+|j|☆art Imitates death
+|t:|1632010303
+|gametype|singles
+|player|p1|TheNordicMan|wallace|
+|player|p2|art Imitates death|richboy-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Meloetta|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Rhyperior, F|item
+|poke|p1|Victini|item
+|poke|p1|Zapdos|item
+|poke|p1|Cobalion|item
+|poke|p2|Bronzong|item
+|poke|p2|Raikou|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Empoleon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheNordicMan)
+|
+|t:|1632010322
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|turn|1
+|
+|t:|1632010328
+|move|p1a: Victini|Bolt Strike|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|6/100
+|-status|p2a: Empoleon|par
+|-enditem|p2a: Empoleon|Petaya Berry|[eat]
+|-boost|p2a: Empoleon|spa|1|[from] item: Petaya Berry
+|cant|p2a: Empoleon|par
+|
+|upkeep
+|turn|2
+|-message|art Imitates death forfeited.
+|
+|win|TheNordicMan
+|n|☆TheNordicMan|thenordicman
+|n|☆art Imitates death|artimitatesdeath
+|l|☆art Imitates death

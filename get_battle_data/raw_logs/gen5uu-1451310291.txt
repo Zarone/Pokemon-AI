@@ -1,0 +1,518 @@
+|j|☆Restos
+|j|☆Kounamii
+|t:|1636404364
+|gametype|singles
+|player|p1|Restos|fisherman-gen3|
+|player|p2|Kounamii|nate|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Camerupt, M|item
+|poke|p1|Milotic, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Escavalier, F|item
+|poke|p1|Roserade, F|item
+|poke|p1|Hitmontop, M|item
+|poke|p2|Moltres|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Raikou|item
+|poke|p2|Flygon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|c|☆Restos|hf
+|c|☆Kounamii|U2
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636404420
+|start
+|switch|p1a: Escavalier|Escavalier, F|100/100
+|switch|p2a: Flashing Lights|Raikou|100/100
+|-ability|p2a: Flashing Lights|Pressure
+|turn|1
+|
+|t:|1636404426
+|switch|p2a: Stronger|Moltres|100/100
+|-ability|p2a: Stronger|Pressure
+|switch|p1a: Camerupt|Camerupt, M, shiny|100/100
+|
+|upkeep
+|turn|2
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636404478
+|move|p2a: Stronger|Hurricane|p1a: Camerupt|[miss]
+|-miss|p2a: Stronger|p1a: Camerupt
+|move|p1a: Camerupt|Stealth Rock|p2a: Stronger
+|-sidestart|p2: Kounamii|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1636404489
+|move|p2a: Stronger|Hurricane|p1a: Camerupt
+|-damage|p1a: Camerupt|38/100
+|-start|p1a: Camerupt|confusion
+|-damage|p2a: Stronger|91/100|[from] item: Life Orb
+|-activate|p1a: Camerupt|confusion
+|move|p1a: Camerupt|Roar|p2a: Stronger
+|drag|p2a: The Glory|Roserade, F|100/100
+|-damage|p2a: The Glory|88/100|[from] Stealth Rock
+|
+|-heal|p2a: The Glory|94/100|[from] item: Black Sludge
+|-heal|p1a: Camerupt|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1636404510
+|switch|p2a: Champion|Blastoise, F|100/100
+|-damage|p2a: Champion|88/100|[from] Stealth Rock
+|switch|p1a: Escavalier|Escavalier, F|100/100
+|
+|-heal|p2a: Champion|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1636404514
+|move|p2a: Champion|Rapid Spin|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|99/100
+|-sideend|p2: Kounamii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Champion
+|move|p1a: Escavalier|Megahorn|p2a: Champion
+|-damage|p2a: Champion|23/100
+|
+|-heal|p2a: Champion|30/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1636404523
+|switch|p2a: Stronger|Moltres|91/100
+|-ability|p2a: Stronger|Pressure
+|switch|p1a: Milotic|Milotic, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1636404527
+|switch|p2a: The Glory|Roserade, F|94/100
+|move|p1a: Milotic|Scald|p2a: The Glory
+|-resisted|p2a: The Glory
+|-damage|p2a: The Glory|84/100
+|
+|-heal|p2a: The Glory|90/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1636404547
+|switch|p2a: Stronger|Moltres|91/100
+|-ability|p2a: Stronger|Pressure
+|switch|p1a: Escavalier|Escavalier, F|99/100
+|
+|upkeep
+|turn|9
+|
+|t:|1636404551
+|switch|p1a: Camerupt|Camerupt, M, shiny|44/100
+|move|p2a: Stronger|Hurricane|p1a: Camerupt
+|-crit|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|-damage|p2a: Stronger|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636404574
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|10
+|
+|t:|1636404592
+|switch|p2a: The Glory|Roserade, F|90/100
+|move|p1a: Zapdos|Discharge|p2a: The Glory
+|-resisted|p2a: The Glory
+|-damage|p2a: The Glory|77/100
+|
+|-heal|p2a: The Glory|84/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|inactive|Restos has 270 seconds left.
+|
+|t:|1636404634
+|switch|p1a: Escavalier|Escavalier, F|99/100
+|move|p2a: The Glory|Spikes|p1a: Escavalier
+|-sidestart|p1: Restos|Spikes
+|
+|-heal|p2a: The Glory|90/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1636404639
+|-activate|p2a: The Glory|move: Pursuit
+|move|p1a: Escavalier|Pursuit|p2a: The Glory|[from]Pursuit
+|-crit|p2a: The Glory
+|-damage|p2a: The Glory|0 fnt
+|faint|p2a: The Glory
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|c|☆Kounamii|Lol
+|
+|t:|1636404648
+|switch|p2a: Stronger|Moltres|81/100
+|-ability|p2a: Stronger|Pressure
+|turn|13
+|inactive|Restos has 270 seconds left.
+|inactive|Restos has 240 seconds left.
+|inactive|Restos has 210 seconds left.
+|
+|t:|1636404723
+|switch|p1a: Milotic|Milotic, M|100/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|move|p2a: Stronger|Hurricane|p1a: Milotic|[miss]
+|-miss|p2a: Stronger|p1a: Milotic
+|
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|☆Kounamii|...
+|inactive|Kounamii has 270 seconds left.
+|
+|t:|1636404767
+|switch|p2a: Champion|Blastoise, F|30/100
+|move|p1a: Milotic|Scald|p2a: Champion
+|-resisted|p2a: Champion
+|-damage|p2a: Champion|17/100
+|
+|-heal|p1a: Milotic|99/100|[from] item: Leftovers
+|-heal|p2a: Champion|23/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Restos has 210 seconds left.
+|
+|t:|1636404791
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Stronger|Moltres|81/100
+|-ability|p2a: Stronger|Pressure
+|
+|upkeep
+|turn|16
+|
+|t:|1636404800
+|switch|p2a: Everything I Am|Flygon, F|100/100
+|move|p1a: Zapdos|Discharge|p2a: Everything I Am
+|-immune|p2a: Everything I Am
+|
+|upkeep
+|turn|17
+|inactive|Restos has 210 seconds left.
+|
+|t:|1636404828
+|switch|p1a: Milotic|Milotic, M|99/100
+|-damage|p1a: Milotic|88/100|[from] Spikes
+|move|p2a: Everything I Am|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|72/100
+|
+|t:|1636404838
+|switch|p2a: Flashing Lights|Raikou|100/100|[from]move: U-turn
+|-ability|p2a: Flashing Lights|Pressure
+|
+|-heal|p1a: Milotic|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Restos has 210 seconds left.
+|
+|t:|1636404851
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Spikes
+|move|p2a: Flashing Lights|Substitute|p2a: Flashing Lights
+|-start|p2a: Flashing Lights|Substitute
+|-damage|p2a: Flashing Lights|76/100
+|
+|-heal|p2a: Flashing Lights|82/100|[from] item: Leftovers
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1636404854
+|move|p2a: Flashing Lights|Calm Mind|p2a: Flashing Lights
+|-boost|p2a: Flashing Lights|spa|1
+|-boost|p2a: Flashing Lights|spd|1
+|move|p1a: Roserade|Sludge Bomb|p2a: Flashing Lights
+|-end|p2a: Flashing Lights|Substitute
+|
+|-heal|p2a: Flashing Lights|88/100|[from] item: Leftovers
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1636404869
+|switch|p2a: I Wonder|Bronzong|100/100
+|move|p1a: Roserade|Sludge Bomb|p2a: I Wonder
+|-immune|p2a: I Wonder
+|
+|upkeep
+|turn|21
+|
+|t:|1636404889
+|move|p1a: Roserade|Spikes|p2a: I Wonder
+|-sidestart|p2: Kounamii|Spikes
+|move|p2a: I Wonder|Stealth Rock|p1a: Roserade
+|-sidestart|p1: Restos|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1636404892
+|move|p1a: Roserade|Spikes|p2a: I Wonder
+|-sidestart|p2: Kounamii|Spikes
+|move|p2a: I Wonder|Gyro Ball|p1a: Roserade
+|-damage|p1a: Roserade|52/100
+|
+|-heal|p1a: Roserade|59/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1636404897
+|move|p1a: Roserade|Spikes|p2a: I Wonder
+|-sidestart|p2: Kounamii|Spikes
+|move|p2a: I Wonder|Gyro Ball|p1a: Roserade
+|-damage|p1a: Roserade|9/100
+|
+|-heal|p1a: Roserade|15/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1636404901
+|move|p1a: Roserade|Rest|p1a: Roserade
+|-status|p1a: Roserade|slp|[from] move: Rest
+|-heal|p1a: Roserade|100/100 slp|[silent]
+|move|p2a: I Wonder|Gyro Ball|p1a: Roserade
+|-damage|p1a: Roserade|58/100 slp
+|
+|-heal|p1a: Roserade|64/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1636404907
+|-curestatus|p1a: Roserade|slp|[from] ability: Natural Cure
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|88/100|[from] Spikes
+|-damage|p1a: Hitmontop|82/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: I Wonder|atk|1
+|move|p2a: I Wonder|Toxic|p1a: Hitmontop
+|-status|p1a: Hitmontop|tox
+|
+|-heal|p1a: Hitmontop|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Hitmontop|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1636404913
+|switch|p2a: Stronger|Moltres|81/100
+|-ability|p2a: Stronger|Pressure
+|move|p1a: Hitmontop|Rapid Spin|p2a: Stronger
+|-damage|p2a: Stronger|75/100
+|-sideend|p1: Restos|Spikes|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|-sideend|p1: Restos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|-heal|p1a: Hitmontop|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Hitmontop|75/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1636404927
+|move|p1a: Hitmontop|Sucker Punch|p2a: Stronger
+|-damage|p2a: Stronger|54/100
+|move|p2a: Stronger|Fire Blast|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|-damage|p2a: Stronger|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636404934
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|28
+|
+|t:|1636404939
+|switch|p2a: Everything I Am|Flygon, F|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: Everything I Am
+|-damage|p2a: Everything I Am|74/100
+|
+|upkeep
+|turn|29
+|
+|t:|1636404945
+|move|p2a: Everything I Am|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|93/100
+|
+|t:|1636404951
+|switch|p2a: I Wonder|Bronzong|100/100|[from]move: U-turn
+|move|p1a: Zapdos|Hidden Power|p2a: I Wonder
+|-resisted|p2a: I Wonder
+|-damage|p2a: I Wonder|92/100
+|
+|-heal|p1a: Zapdos|99/100|[from] item: Leftovers
+|-heal|p2a: I Wonder|98/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1636404967
+|move|p1a: Zapdos|Heat Wave|p2a: I Wonder
+|-supereffective|p2a: I Wonder
+|-damage|p2a: I Wonder|50/100
+|move|p2a: I Wonder|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Restos|move: Stealth Rock
+|
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p2a: I Wonder|56/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1636404980
+|switch|p2a: Champion|Blastoise, F|23/100
+|-damage|p2a: Champion|0 fnt|[from] Spikes
+|faint|p2a: Champion
+|move|p1a: Zapdos|Heat Wave|p2: Champion|[notarget]
+|-fail|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1636404989
+|switch|p2a: Flashing Lights|Raikou|88/100
+|-damage|p2a: Flashing Lights|63/100|[from] Spikes
+|-ability|p2a: Flashing Lights|Pressure
+|turn|32
+|
+|t:|1636404998
+|move|p2a: Flashing Lights|Calm Mind|p2a: Flashing Lights
+|-boost|p2a: Flashing Lights|spa|1
+|-boost|p2a: Flashing Lights|spd|1
+|move|p1a: Zapdos|Heat Wave|p2a: Flashing Lights
+|-damage|p2a: Flashing Lights|44/100
+|
+|-heal|p2a: Flashing Lights|50/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1636405005
+|move|p2a: Flashing Lights|Calm Mind|p2a: Flashing Lights
+|-boost|p2a: Flashing Lights|spa|1
+|-boost|p2a: Flashing Lights|spd|1
+|move|p1a: Zapdos|Heat Wave|p2a: Flashing Lights|[miss]
+|-miss|p1a: Zapdos|p2a: Flashing Lights
+|
+|-heal|p2a: Flashing Lights|56/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆Restos|gg
+|
+|t:|1636405012
+|move|p2a: Flashing Lights|Substitute|p2a: Flashing Lights
+|-start|p2a: Flashing Lights|Substitute
+|-damage|p2a: Flashing Lights|31/100
+|move|p1a: Zapdos|Heat Wave|p2a: Flashing Lights
+|-activate|p2a: Flashing Lights|Substitute|[damage]
+|
+|-heal|p2a: Flashing Lights|38/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1636405019
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|8/100
+|move|p1a: Zapdos|Heat Wave|p2a: Flashing Lights
+|-end|p2a: Flashing Lights|Substitute
+|
+|-heal|p2a: Flashing Lights|44/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|14/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1636405024
+|move|p2a: Flashing Lights|Substitute|p2a: Flashing Lights
+|-start|p2a: Flashing Lights|Substitute
+|-damage|p2a: Flashing Lights|19/100
+|move|p1a: Zapdos|Heat Wave|p2a: Flashing Lights
+|-activate|p2a: Flashing Lights|Substitute|[damage]
+|
+|-heal|p2a: Flashing Lights|25/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|20/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1636405026
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Flashing Lights|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636405029
+|switch|p1a: Escavalier|Escavalier, F|99/100
+|-damage|p1a: Escavalier|87/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1636405030
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Escavalier
+|-damage|p1a: Escavalier|3/100
+|move|p1a: Escavalier|Megahorn|p2a: Flashing Lights
+|-end|p2a: Flashing Lights|Substitute
+|
+|-heal|p2a: Flashing Lights|38/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1636405035
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|-heal|p2a: Flashing Lights|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636405053
+|switch|p1a: Roserade|Roserade, F|64/100
+|-damage|p1a: Roserade|51/100|[from] Stealth Rock
+|turn|40
+|
+|t:|1636405055
+|move|p2a: Flashing Lights|Hidden Power|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-heal|p2a: Flashing Lights|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636405056
+|switch|p1a: Milotic|Milotic, M|78/100
+|-damage|p1a: Milotic|66/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1636405058
+|move|p2a: Flashing Lights|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|win|Kounamii
+|l|☆Restos

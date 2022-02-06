@@ -1,0 +1,285 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1631110750
+|gametype|singles
+|player|p1|Highways|#scl1spartans|
+|player|p2|robjr|lance|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Roserade, F|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Flygon, F|item
+|poke|p1|Cofagrigus, F|item
+|poke|p1|Sharpedo, M|item
+|poke|p2|Azelf|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Kabutops, F|item
+|poke|p2|Ludicolo, M|item
+|poke|p2|Nidoqueen, F|item
+|teampreview
+|c|☆robjr|hf
+|c|☆Highways|hf
+|inactive|robjr has 270 seconds left.
+|
+|t:|1631110782
+|start
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|t:|1631110808
+|move|p2a: Azelf|Stealth Rock|p1a: Empoleon
+|-sidestart|p1: Highways|move: Stealth Rock
+|move|p1a: Empoleon|Scald|p2a: Azelf
+|-damage|p2a: Azelf|52/100
+|
+|upkeep
+|turn|2
+|inactive|robjr has 270 seconds left.
+|inactive|robjr has 240 seconds left.
+|inactive|robjr has 210 seconds left.
+|
+|t:|1631110900
+|move|p2a: Azelf|Rain Dance|p2a: Azelf
+|-weather|RainDance
+|move|p1a: Empoleon|Stealth Rock|p2a: Azelf
+|-sidestart|p2: robjr|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1631110929
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p2a: Azelf|Explosion|p1a: Cofagrigus
+|-immune|p1a: Cofagrigus
+|faint|p2a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cofagrigus|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631110934
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1631110949
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|-damage|p1a: Empoleon|95/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1631110952
+|move|p2a: Ludicolo|Swords Dance|p2a: Ludicolo
+|-boost|p2a: Ludicolo|atk|2
+|move|p1a: Empoleon|Ice Beam|p2a: Ludicolo
+|-damage|p2a: Ludicolo|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1631110959
+|move|p2a: Ludicolo|Seed Bomb|p1a: Empoleon
+|-damage|p1a: Empoleon|8/100
+|-damage|p2a: Ludicolo|43/100|[from] item: Life Orb
+|move|p1a: Empoleon|Ice Beam|p2a: Ludicolo
+|-damage|p2a: Ludicolo|12/100
+|-status|p2a: Ludicolo|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|c|☆Highways|mb
+|
+|t:|1631110972
+|cant|p2a: Ludicolo|frz
+|move|p1a: Empoleon|Ice Beam|p2a: Ludicolo
+|-crit|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1631110980
+|switch|p2a: Kingdra|Kingdra, F|88/100
+|-damage|p2a: Kingdra|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1631110988
+|move|p2a: Kingdra|Dragon Pulse|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Highways has 270 seconds left.
+|inactive|Highways has 240 seconds left.
+|
+|t:|1631111056
+|switch|p1a: Cofagrigus|Cofagrigus, F|94/100
+|-damage|p1a: Cofagrigus|82/100|[from] Stealth Rock
+|turn|9
+|inactive|Highways has 240 seconds left.
+|inactive|robjr has 240 seconds left.
+|
+|t:|1631111074
+|move|p2a: Kingdra|Dragon Pulse|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|28/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Kingdra
+|-damage|p2a: Kingdra|27/100
+|-unboost|p2a: Kingdra|spd|1
+|
+|-weather|none
+|-heal|p1a: Cofagrigus|34/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Highways has 240 seconds left.
+|inactive|robjr has 240 seconds left.
+|
+|t:|1631111083
+|move|p2a: Kingdra|Dragon Pulse|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|upkeep
+|inactive|Highways has 240 seconds left.
+|
+|t:|1631111093
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1631111097
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|move|p1a: Roserade|Sludge Bomb|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|81/100
+|-damage|p1a: Roserade|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1631111102
+|move|p1a: Roserade|Giga Drain|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|37/100
+|-heal|p1a: Roserade|100/100|[from] drain|[of] p2a: Nidoqueen
+|-damage|p1a: Roserade|91/100|[from] item: Life Orb
+|move|p2a: Nidoqueen|Ice Beam|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1631111121
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|13
+|inactive|Highways has 240 seconds left.
+|inactive|Highways has 210 seconds left.
+|
+|t:|1631111173
+|move|p1a: Flygon|Outrage|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|inactive|robjr has 270 seconds left.
+|inactive|robjr has 240 seconds left.
+|inactive|robjr has 210 seconds left.
+|
+|t:|1631111272
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1631111274
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: robjr|move: Tailwind
+|move|p1a: Flygon|Outrage|p2a: Tornadus|[from]lockedmove
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-start|p1a: Flygon|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1631111280
+|switch|p2a: Kingdra|Kingdra, F|27/100
+|-damage|p2a: Kingdra|15/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1631111294
+|move|p2a: Kingdra|Dragon Pulse|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|
+|t:|1631111296
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|-damage|p1a: Sharpedo|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1631111302
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Kingdra|Dragon Pulse|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|17
+|inactive|Highways has 240 seconds left.
+|inactive|Highways has 210 seconds left.
+|
+|t:|1631111360
+|move|p1a: Sharpedo|Protect||[still]
+|-fail|p1a: Sharpedo
+|move|p2a: Kingdra|Dragon Pulse|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|-sideend|p2: robjr|move: Tailwind
+|upkeep
+|
+|t:|1631111361
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|18
+|inactive|Highways has 210 seconds left.
+|
+|t:|1631111371
+|move|p2a: Kingdra|Dragon Pulse|p1a: Kingdra
+|-supereffective|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|win|robjr
+|c|☆Highways|ggs
+|c|☆robjr|ggs

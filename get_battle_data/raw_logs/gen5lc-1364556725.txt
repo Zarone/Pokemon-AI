@@ -1,0 +1,209 @@
+|j|☆Advt
+|j|☆hannahcatton
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1624551716
+|gametype|singles
+|player|p1|Advt|picnicker|
+|player|p2|hannahcatton|lady-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Omanyte, L5, F|item
+|poke|p1|Corphish, L5, F|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p1|Chinchou, L5, F|item
+|poke|p1|Shellder, L5, M|item
+|poke|p1|Clamperl, L5, F|item
+|poke|p2|Wurmple, L5, F|item
+|poke|p2|Caterpie, L5, F|item
+|poke|p2|Sewaddle, L5, F|item
+|poke|p2|Joltik, L5, F|item
+|poke|p2|Dwebble, L5, F|item
+|poke|p2|Surskit, L5, F|item
+|teampreview
+|j|*Lady Monita
+|
+|t:|1624551730
+|start
+|switch|p1a: Omanyte|Omanyte, L5, F|100/100
+|switch|p2a: Caterpie|Caterpie, L5, F|100/100
+|turn|1
+|
+|t:|1624551739
+|move|p2a: Caterpie|Electroweb|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|83/100
+|-unboost|p1a: Omanyte|spe|1
+|move|p1a: Omanyte|Toxic Spikes|p2a: Caterpie
+|-sidestart|p2: hannahcatton|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1624551743
+|move|p2a: Caterpie|Electroweb|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|66/100
+|-unboost|p1a: Omanyte|spe|1
+|move|p1a: Omanyte|Toxic Spikes|p2a: Caterpie
+|-sidestart|p2: hannahcatton|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|j| not missing now
+|
+|t:|1624551750
+|move|p2a: Caterpie|Electroweb|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|48/100
+|-unboost|p1a: Omanyte|spe|1
+|move|p1a: Omanyte|Hidden Power|p2a: Caterpie
+|-supereffective|p2a: Caterpie
+|-damage|p2a: Caterpie|34/100
+|
+|-heal|p2a: Caterpie|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1624551755
+|switch|p1a: Chinchou|Chinchou, L5, F|100/100
+|move|p2a: Caterpie|Electroweb|p1a: Chinchou
+|-immune|p1a: Chinchou|[from] ability: Volt Absorb
+|
+|-heal|p2a: Caterpie|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1624551764
+|move|p1a: Chinchou|Thunderbolt|p2a: Caterpie
+|-damage|p2a: Caterpie|0 fnt
+|faint|p2a: Caterpie
+|
+|upkeep
+|
+|t:|1624551773
+|switch|p2a: Dwebble|Dwebble, L5, F|100/100
+|-status|p2a: Dwebble|tox
+|turn|6
+|
+|t:|1624551778
+|move|p1a: Chinchou|Thunderbolt|p2a: Dwebble
+|-damage|p2a: Dwebble|29/100 tox
+|move|p2a: Dwebble|X-Scissor|p1a: Chinchou
+|-damage|p1a: Chinchou|38/100
+|
+|-heal|p2a: Dwebble|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Dwebble|29/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1624551788
+|switch|p2a: Sewaddle|Sewaddle, L5, F|100/100
+|-status|p2a: Sewaddle|tox
+|move|p1a: Chinchou|Thunderbolt|p2a: Sewaddle
+|-resisted|p2a: Sewaddle
+|-damage|p2a: Sewaddle|72/100 tox
+|
+|-heal|p2a: Sewaddle|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Sewaddle|72/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1624551793
+|switch|p1a: Omanyte|Omanyte, L5, F|48/100
+|move|p2a: Sewaddle|Energy Ball|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|
+|-heal|p2a: Sewaddle|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Sewaddle|67/100 tox|[from] psn
+|upkeep
+|
+|t:|1624551799
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|turn|9
+|
+|t:|1624551808
+|move|p1a: Carvanha|Protect|p1a: Carvanha
+|-singleturn|p1a: Carvanha|Protect
+|move|p2a: Sewaddle|Razor Leaf|p1a: Carvanha
+|-activate|p1a: Carvanha|move: Protect
+|
+|-heal|p2a: Sewaddle|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Sewaddle|58/100 tox|[from] psn
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|10
+|
+|t:|1624551812
+|move|p1a: Carvanha|Crunch|p2a: Sewaddle
+|-damage|p2a: Sewaddle|0 fnt
+|faint|p2a: Sewaddle
+|-damage|p1a: Carvanha|95/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1624551815
+|switch|p2a: Dwebble|Dwebble, L5, F|29/100 tox
+|turn|11
+|
+|t:|1624551825
+|move|p1a: Carvanha|Waterfall|p2a: Dwebble
+|-supereffective|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|-damage|p1a: Carvanha|90/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1624551829
+|switch|p2a: Joltik|Joltik, L5, F|100/100
+|-status|p2a: Joltik|tox
+|turn|12
+|inactive|Advt has 120 seconds left.
+|
+|t:|1624551889
+|move|p1a: Carvanha|Waterfall|p2a: Joltik
+|-damage|p2a: Joltik|0 fnt
+|faint|p2a: Joltik
+|-damage|p1a: Carvanha|85/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1624551899
+|switch|p2a: Wurmple|Wurmple, L5, F|100/100
+|-status|p2a: Wurmple|tox
+|turn|13
+|inactive|Advt has 90 seconds left.
+|inactive|Advt has 60 seconds left.
+|l| not missing now
+|inactive|Advt has 30 seconds left.
+|inactive|Advt has 20 seconds left.
+|inactive|Advt has 15 seconds left.
+|inactive|Advt has 10 seconds left.
+|inactive|Advt has 5 seconds left.
+|-message|Advt lost due to inactivity.
+|
+|win|hannahcatton
+|n|☆Advt|advt
+|n|☆hannahcatton|hannahcatton
+|n|*Lady Monita|ladymonita

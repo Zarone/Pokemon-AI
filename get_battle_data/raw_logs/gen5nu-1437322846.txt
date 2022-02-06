@@ -1,0 +1,264 @@
+|j|☆Wamr
+|j|☆Shuckleking87
+|t:|1634516425
+|gametype|singles
+|player|p1|Wamr|bianca|
+|player|p2|Shuckleking87|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golem, F|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Gurdurr, F|item
+|poke|p1|Tauros, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Golurk|item
+|poke|p2|Samurott, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|c|☆Wamr|hf
+|c|☆Shuckleking87|lol is that my team
+|c|☆Shuckleking87|glhf
+|c|☆Wamr|ik
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wamr)
+|
+|t:|1634516504
+|start
+|switch|p1a: Golem|Golem, F|100/100
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|1
+|
+|t:|1634516533
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Primeape|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|
+|t:|1634516554
+|switch|p2a: Golurk|Golurk|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|inactive|Wamr has 270 seconds left.
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1634516587
+|switch|p1a: Golem|Golem, F|100/100
+|move|p2a: Golurk|Stealth Rock|p1a: Golem
+|-sidestart|p1: Wamr|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1634516598
+|move|p2a: Golurk|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|26/100
+|move|p1a: Golem|Stealth Rock|p2a: Golurk
+|-sidestart|p2: Shuckleking87|move: Stealth Rock
+|
+|-heal|p1a: Golem|32/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1634516618
+|move|p1a: Golem|Sucker Punch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|43/100
+|move|p2a: Golurk|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|upkeep
+|inactive|Wamr has 270 seconds left.
+|
+|t:|1634516642
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|turn|5
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1634516673
+|move|p1a: Skuntank|Crunch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1634516686
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1634516695
+|move|p2a: Primeape|Close Combat|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|-damage|p2a: Primeape|70/100|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|upkeep
+|
+|t:|1634516699
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|-damage|p1a: Exeggutor|88/100|[from] Stealth Rock
+|turn|7
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1634516728
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: Exeggutor|Leaf Storm|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|13/100
+|-unboost|p1a: Exeggutor|spa|2
+|
+|upkeep
+|turn|8
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1634516752
+|move|p2a: Skuntank|Pursuit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|upkeep
+|c|☆Wamr|Ok
+|c|☆Wamr|Rip
+|c|☆Shuckleking87|rip
+|
+|t:|1634516774
+|switch|p1a: Tauros|Tauros, M|100/100
+|-damage|p1a: Tauros|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1634516780
+|move|p2a: Skuntank|Sucker Punch|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|c|☆Shuckleking87|rip
+|c|☆Wamr|Lmao
+|c|☆Wamr|Rip again
+|
+|t:|1634516794
+|switch|p1a: Rotom|Rotom-Fan|78/100
+|-damage|p1a: Rotom|53/100|[from] Stealth Rock
+|turn|10
+|c|☆Shuckleking87|gotta love gen 5
+|
+|t:|1634516801
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|move|p1a: Rotom|Trick|p2a: Skuntank
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Skuntank
+|-item|p2a: Skuntank|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Black Glasses|[from] move: Trick
+|
+|upkeep
+|turn|11
+|c|☆Wamr|Me too
+|c|☆Wamr|But is the game
+|inactive|Shuckleking87 has 240 seconds left.
+|c|☆Wamr|Poke is always fun
+|
+|t:|1634516828
+|move|p2a: Skuntank|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|move|p1a: Rotom|Volt Switch|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|t:|1634516832
+|switch|p1a: Gurdurr|Gurdurr, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1634516844
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|turn|12
+|c|☆Shuckleking87|yea
+|inactive|Wamr has 270 seconds left.
+|inactive|Wamr has 240 seconds left.
+|
+|t:|1634516906
+|move|p2a: Eelektross|Thunderbolt|p1a: Gurdurr
+|-damage|p1a: Gurdurr|16/100
+|-status|p1a: Gurdurr|par
+|move|p1a: Gurdurr|Drain Punch|p2a: Eelektross
+|-damage|p2a: Eelektross|21/100
+|-heal|p1a: Gurdurr|48/100 par|[from] drain|[of] p2a: Eelektross
+|
+|upkeep
+|turn|13
+|inactive|Wamr has 240 seconds left.
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1634516925
+|cant|p1a: Gurdurr|par
+|move|p2a: Eelektross|Thunderbolt|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|upkeep
+|c|☆Shuckleking87|ofc
+|inactive|Wamr has 240 seconds left.
+|
+|t:|1634516937
+|switch|p1a: Rotom|Rotom-Fan|53/100
+|-damage|p1a: Rotom|28/100|[from] Stealth Rock
+|turn|14
+|inactive|Wamr has 240 seconds left.
+|c|☆Wamr|no fake  / sucker kanghas y/n
+|
+|t:|1634516957
+|move|p1a: Rotom|Hidden Power|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+|c|☆Shuckleking87|maybe
+|
+|t:|1634516964
+|switch|p2a: Primeape|Primeape, M|70/100
+|-damage|p2a: Primeape|64/100|[from] Stealth Rock
+|turn|15
+|inactive|Wamr has 240 seconds left.
+|
+|t:|1634516973
+|move|p2a: Primeape|Ice Punch|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|Shuckleking87
+|c|☆Wamr|gg
+|c|☆Shuckleking87|gg lame game tho lol

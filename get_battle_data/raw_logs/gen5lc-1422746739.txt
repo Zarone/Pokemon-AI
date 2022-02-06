@@ -1,0 +1,392 @@
+|j|☆Filistata
+|j|☆Links
+|t:|1632440991
+|gametype|singles
+|player|p1|Filistata|aromalady-gen3|
+|player|p2|Links|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Trapinch, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Ponyta, L5, F|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Dratini, L5, M|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Axew, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|teampreview
+|c|☆Links|Drag deez
+|c|☆Filistata|is this a fucking dpp screens team with an axew
+|c|☆Filistata|i respect it
+|c|☆Links|Dont WORRY about that
+|j|+fiend hound
+|j| HSOWA
+|j| LilyAC
+|c|☆Links|HI HSOWA
+|j| babyboyblues
+|j| mom lover
+|c|☆Filistata|hi babyboyblues
+|c| HSOWA|hey links :D
+|c|☆Filistata|hru 2day
+|c| babyboyblues|sup toat
+|c|☆Filistata|one sec i mighta forgot to turn on porchlight for my food
+|j| yell ow fin
+|c| babyboyblues|i ate ribs for lunch
+|c|☆Filistata|nm im chillin
+|c|☆Links|Lmao
+|j| EternalSnowman
+|c|☆Links|Tack you gotta reg
+|c|☆Links|Tack Is A Noob
+|c| yell ow fin|what is deez
+|c|☆Links|After this
+|c|☆Links|<3
+|j| KSG
+|c|☆Filistata|i thought i did 2 yrs ago
+|l| yell ow fin
+|j| zeroouttathere
+|c|☆Links|._____.
+|l| KSG
+|j| heavy duty heels
+|c| heavy duty heels|where did the gible tho
+|j| yell ow fin
+|c| heavy duty heels|go
+|
+|t:|1632441186
+|start
+|switch|p1a: Princess Chaos|Mienfoo, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|1
+|
+|t:|1632441205
+|move|p2a: Mienfoo|Fake Out|p1a: Princess Chaos
+|-damage|p1a: Princess Chaos|77/100
+|cant|p1a: Princess Chaos|flinch
+|
+|upkeep
+|turn|2
+|j| KSG
+|c| heavy duty heels|☆Filistata: is this a fucking dpp screens team with an axew
+|c| heavy duty heels|mienfoo is my favorite dpp mon
+|
+|t:|1632441213
+|move|p1a: Princess Chaos|High Jump Kick|p2a: Mienfoo
+|-damage|p2a: Mienfoo|39/100
+|move|p2a: Mienfoo|Knock Off|p1a: Princess Chaos
+|-resisted|p1a: Princess Chaos
+|-damage|p1a: Princess Chaos|72/100
+|-enditem|p1a: Princess Chaos|Choice Scarf|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|3
+|c|☆Filistata|heavy duty heels i literally played this structure twice earlier
+|c|+fiend hound|i think we won
+|
+|t:|1632441241
+|move|p2a: Mienfoo|High Jump Kick|p1a: Princess Chaos
+|-damage|p1a: Princess Chaos|0 fnt
+|faint|p1a: Princess Chaos
+|
+|upkeep
+|c|+fiend hound|bagged
+|c|☆Filistata|who the fuck wins tie
+|c|☆Filistata|oh my god
+|c| babyboyblues|were scarf
+|
+|t:|1632441253
+|switch|p1a: Hidden Weapon|Abra, L5, M|100/100
+|turn|4
+|c|☆Links|L2p
+|c| heavy duty heels|perdemos
+|
+|t:|1632441260
+|switch|p2a: jirachii|Bronzor, L5|100/100
+|move|p1a: Hidden Weapon|Substitute|p1a: Hidden Weapon
+|-start|p1a: Hidden Weapon|Substitute
+|-damage|p1a: Hidden Weapon|79/100
+|
+|upkeep
+|turn|5
+|
+|t:|1632441265
+|move|p1a: Hidden Weapon|Shadow Ball|p2a: jirachii
+|-damage|p2a: jirachii|80/100
+|move|p2a: jirachii|Flash Cannon|p1a: Hidden Weapon
+|-crit|p1a: Hidden Weapon
+|-end|p1a: Hidden Weapon|Substitute
+|
+|upkeep
+|turn|6
+|
+|t:|1632441273
+|switch|p1a: Sexy Tragic Muse|Ponyta, L5, F|100/100
+|move|p2a: jirachii|Flash Cannon|p1a: Sexy Tragic Muse
+|-resisted|p1a: Sexy Tragic Muse
+|-damage|p1a: Sexy Tragic Muse|86/100
+|
+|upkeep
+|turn|7
+|
+|t:|1632441281
+|switch|p2a: dragonitee|Dratini, L5, M|100/100
+|move|p1a: Sexy Tragic Muse|Wild Charge|p2a: dragonitee
+|-resisted|p2a: dragonitee
+|-damage|p2a: dragonitee|80/100
+|-damage|p1a: Sexy Tragic Muse|81/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1632441291
+|switch|p1a: Collette|Vullaby, L5, F|100/100
+|move|p2a: dragonitee|Dragon Dance|p2a: dragonitee
+|-boost|p2a: dragonitee|atk|1
+|-boost|p2a: dragonitee|spe|1
+|
+|upkeep
+|turn|9
+|c| LilyAC|scarf foo was gonna 6-0
+|l| KSG
+|
+|t:|1632441298
+|move|p2a: dragonitee|Outrage|p1a: Collette
+|-damage|p1a: Collette|35/100
+|-ability|p1a: Collette|Weak Armor|boost
+|-unboost|p1a: Collette|def|1
+|-boost|p1a: Collette|spe|1
+|move|p1a: Collette|Dark Pulse|p2a: dragonitee
+|-damage|p2a: dragonitee|35/100
+|
+|upkeep
+|turn|10
+|c| yell ow fin|literally
+|
+|t:|1632441304
+|move|p1a: Collette|Dark Pulse|p2a: dragonitee
+|-damage|p2a: dragonitee|0 fnt
+|faint|p2a: dragonitee
+|
+|upkeep
+|j| risii
+|
+|t:|1632441330
+|switch|p2a: Mienfoo|Mienfoo, L5, F|72/100
+|turn|11
+|
+|t:|1632441334
+|move|p2a: Mienfoo|Fake Out|p1a: Collette
+|-damage|p1a: Collette|18/100
+|-ability|p1a: Collette|Weak Armor|boost
+|-unboost|p1a: Collette|def|1
+|-boost|p1a: Collette|spe|1
+|cant|p1a: Collette|flinch
+|
+|upkeep
+|turn|12
+|
+|t:|1632441346
+|switch|p2a: magnezonee|Magnemite, L5|100/100
+|move|p1a: Collette|Air Slash|p2a: magnezonee
+|-resisted|p2a: magnezonee
+|-damage|p2a: magnezonee|85/100
+|
+|upkeep
+|turn|13
+|
+|t:|1632441354
+|switch|p1a: Dead Letter|Trapinch, L5, M, shiny|100/100
+|move|p2a: magnezonee|Volt Switch|p1a: Dead Letter
+|-immune|p1a: Dead Letter
+|
+|upkeep
+|turn|14
+|
+|t:|1632441358
+|move|p2a: magnezonee|Volt Switch|p1a: Dead Letter
+|-immune|p1a: Dead Letter
+|move|p1a: Dead Letter|Earthquake|p2a: magnezonee
+|-supereffective|p2a: magnezonee
+|-damage|p2a: magnezonee|0 fnt
+|faint|p2a: magnezonee
+|
+|upkeep
+|
+|t:|1632441365
+|switch|p2a: starmiee|Staryu, L5|100/100
+|turn|15
+|
+|t:|1632441373
+|switch|p1a: Collette|Vullaby, L5, F|18/100
+|move|p2a: starmiee|Scald|p1a: Collette
+|-damage|p1a: Collette|0 fnt
+|faint|p1a: Collette
+|
+|upkeep
+|
+|t:|1632441375
+|switch|p1a: Make You Sin|Natu, L5, F|100/100
+|turn|16
+|
+|t:|1632441381
+|move|p2a: starmiee|Scald|p1a: Make You Sin
+|-damage|p1a: Make You Sin|58/100
+|move|p1a: Make You Sin|Giga Drain|p2a: starmiee
+|-supereffective|p2a: starmiee
+|-damage|p2a: starmiee|43/100
+|-heal|p1a: Make You Sin|86/100|[from] drain|[of] p2a: starmiee
+|
+|upkeep
+|turn|17
+|
+|t:|1632441389
+|move|p2a: starmiee|Recover|p2a: starmiee
+|-heal|p2a: starmiee|96/100
+|move|p1a: Make You Sin|Giga Drain|p2a: starmiee
+|-supereffective|p2a: starmiee
+|-damage|p2a: starmiee|39/100
+|-heal|p1a: Make You Sin|100/100|[from] drain|[of] p2a: starmiee
+|
+|upkeep
+|turn|18
+|
+|t:|1632441395
+|switch|p2a: jirachii|Bronzor, L5|80/100
+|move|p1a: Make You Sin|Giga Drain|p2a: jirachii
+|-resisted|p2a: jirachii
+|-damage|p2a: jirachii|72/100
+|
+|upkeep
+|turn|19
+|j| KSG
+|
+|t:|1632441400
+|move|p1a: Make You Sin|Heat Wave|p2a: jirachii
+|-supereffective|p2a: jirachii
+|-crit|p2a: jirachii
+|-damage|p2a: jirachii|0 fnt
+|faint|p2a: jirachii
+|
+|upkeep
+|c|☆Filistata|my bad thats lame
+|c|☆Links|Unfort
+|l| KSG
+|
+|t:|1632441425
+|switch|p2a: haxoruss|Axew, L5, F|100/100
+|-ability|p2a: haxoruss|Mold Breaker
+|turn|20
+|c|+fiend hound|click x
+|c| heavy duty heels|no
+|c| yell ow fin|why hasn’t first impression been invented yet
+|
+|t:|1632441466
+|move|p1a: Make You Sin|Psychic|p2a: haxoruss
+|-damage|p2a: haxoruss|16/100
+|move|p2a: haxoruss|Dragon Dance|p2a: haxoruss
+|-boost|p2a: haxoruss|atk|1
+|-boost|p2a: haxoruss|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1632441479
+|switch|p1a: Hidden Weapon|Abra, L5, M|79/100
+|move|p2a: haxoruss|Outrage|p1a: Hidden Weapon
+|-damage|p1a: Hidden Weapon|0 fnt
+|faint|p1a: Hidden Weapon
+|-damage|p2a: haxoruss|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1632441481
+|switch|p1a: Dead Letter|Trapinch, L5, M, shiny|100/100
+|turn|22
+|
+|t:|1632441483
+|move|p1a: Dead Letter|Quick Attack|p2a: haxoruss
+|-damage|p2a: haxoruss|0 fnt
+|faint|p2a: haxoruss
+|
+|upkeep
+|
+|t:|1632441487
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|23
+|
+|t:|1632441492
+|move|p2a: Mienfoo|High Jump Kick|p1a: Dead Letter
+|-damage|p1a: Dead Letter|55/100
+|move|p1a: Dead Letter|Earthquake|p2a: Mienfoo
+|-damage|p2a: Mienfoo|53/100
+|
+|upkeep
+|turn|24
+|
+|t:|1632441497
+|move|p2a: Mienfoo|Knock Off|p1a: Dead Letter
+|-crit|p1a: Dead Letter
+|-damage|p1a: Dead Letter|32/100
+|-enditem|p1a: Dead Letter|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Dead Letter|Earthquake|p2a: Mienfoo
+|-damage|p2a: Mienfoo|5/100
+|
+|upkeep
+|turn|25
+|
+|t:|1632441504
+|move|p1a: Dead Letter|Quick Attack|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1632441506
+|switch|p2a: starmiee|Staryu, L5|39/100
+|turn|26
+|
+|t:|1632441508
+|move|p2a: starmiee|Recover|p2a: starmiee
+|-heal|p2a: starmiee|91/100
+|move|p1a: Dead Letter|Earthquake|p2a: starmiee
+|-damage|p2a: starmiee|43/100
+|
+|upkeep
+|turn|27
+|
+|t:|1632441515
+|move|p2a: starmiee|Scald|p1a: Dead Letter
+|-supereffective|p1a: Dead Letter
+|-damage|p1a: Dead Letter|0 fnt
+|faint|p1a: Dead Letter
+|
+|upkeep
+|
+|t:|1632441516
+|switch|p1a: Make You Sin|Natu, L5, F|100/100
+|turn|28
+|c|☆Links|Gg
+|
+|t:|1632441528
+|move|p2a: starmiee|Scald|p1a: Make You Sin
+|-damage|p1a: Make You Sin|67/100
+|move|p1a: Make You Sin|Giga Drain|p2a: starmiee
+|-supereffective|p2a: starmiee
+|-damage|p2a: starmiee|0 fnt
+|-heal|p1a: Make You Sin|91/100|[from] drain|[of] p2a: starmiee
+|faint|p2a: starmiee
+|
+|win|Filistata
+|c|☆Filistata|gg

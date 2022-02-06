@@ -1,0 +1,394 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1637457281
+|gametype|singles
+|player|p1|Mr.378|sage-gen2jp|
+|player|p2|ninjadog|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Slowbro, F|item
+|poke|p1|Roserade, M|item
+|poke|p1|Clefable, F|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Raikou|item
+|poke|p1|Gligar, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Mew|item
+|poke|p2|Shaymin|item
+|teampreview
+|c|☆Mr.378|hf
+|inactive|Mr.378 has 270 seconds left.
+|inactive|ninjadog has 270 seconds left.
+|c|☆ninjadog|u2
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1637457364
+|start
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Roserade|atk|1
+|turn|1
+|inactive|ninjadog has 270 seconds left.
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1637457426
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Roserade|Spikes|p2a: Togekiss
+|-sidestart|p2: ninjadog|Spikes
+|
+|upkeep
+|turn|2
+|inactive|ninjadog has 210 seconds left.
+|
+|t:|1637457460
+|move|p2a: Togekiss|Trick|p1a: Roserade
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Roserade
+|-item|p1a: Roserade|Choice Scarf|[from] move: Trick
+|-item|p2a: Togekiss|Black Sludge|[from] move: Trick
+|move|p1a: Roserade|Spikes|p2a: Togekiss
+|-sidestart|p2: ninjadog|Spikes
+|
+|-damage|p2a: Togekiss|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|inactive|ninjadog has 210 seconds left.
+|inactive|ninjadog has 180 seconds left.
+|
+|t:|1637457513
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|-damage|p2a: Rhyperior|84/100|[from] Spikes
+|move|p1a: Roserade|Spikes|p2a: Rhyperior
+|-sidestart|p2: ninjadog|Spikes
+|
+|-heal|p2a: Rhyperior|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1637457521
+|switch|p1a: Gligar|Gligar, F|100/100
+|move|p2a: Rhyperior|Stealth Rock|p1a: Gligar
+|-sidestart|p1: Mr.378|move: Stealth Rock
+|
+|-heal|p2a: Rhyperior|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|ninjadog has 180 seconds left.
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1637457570
+|move|p1a: Gligar|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: ninjadog|move: Stealth Rock
+|move|p2a: Rhyperior|Dragon Tail|p1a: Gligar
+|-damage|p1a: Gligar|89/100
+|drag|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Rhyperior|100/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1637457582
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|76/100|[from] Spikes
+|-damage|p2a: Mew|63/100|[from] Stealth Rock
+|move|p1a: Slowbro|Scald|p2a: Mew
+|-damage|p2a: Mew|41/100
+|
+|-heal|p2a: Mew|48/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1637457591
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|98/100
+|move|p1a: Slowbro|Calm Mind|p1a: Slowbro
+|-boost|p1a: Slowbro|spa|1
+|-boost|p1a: Slowbro|spd|1
+|
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1637457595
+|move|p2a: Mew|Taunt|p1a: Slowbro
+|-start|p1a: Slowbro|move: Taunt
+|move|p1a: Slowbro|Scald|p2a: Mew
+|-damage|p2a: Mew|70/100
+|
+|-heal|p2a: Mew|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1637457598
+|move|p2a: Mew|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|95/100
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Slowbro|Scald|p2a: Mew
+|-damage|p2a: Mew|41/100
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Slowbro|brn
+|
+|-heal|p2a: Mew|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|35/100 brn|[from] brn
+|-damage|p1a: Slowbro|83/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1637457601
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|85/100 brn
+|move|p1a: Slowbro|Scald|p2a: Mew
+|-damage|p2a: Mew|53/100 brn
+|
+|-heal|p2a: Mew|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Mew|47/100 brn|[from] brn
+|-damage|p1a: Slowbro|71/100 brn|[from] brn
+|-end|p1a: Slowbro|move: Taunt
+|upkeep
+|turn|11
+|inactive|ninjadog has 180 seconds left.
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1637457652
+|switch|p2a: Shaymin|Shaymin|100/100
+|-damage|p2a: Shaymin|88/100|[from] Stealth Rock
+|-damage|p2a: Shaymin|63/100|[from] Spikes
+|move|p1a: Slowbro|Scald|p2a: Shaymin
+|-resisted|p2a: Shaymin
+|-damage|p2a: Shaymin|42/100
+|-status|p2a: Shaymin|brn
+|
+|-damage|p2a: Shaymin|30/100 brn|[from] brn
+|-damage|p1a: Slowbro|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1637457659
+|switch|p1a: Roserade|Roserade, M|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Shaymin|Synthesis|p2a: Shaymin
+|-heal|p2a: Shaymin|79/100 brn
+|
+|-damage|p2a: Shaymin|67/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1637457686
+|-curestatus|p2a: Shaymin|brn|[from] ability: Natural Cure
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|76/100|[from] Spikes
+|-damage|p2a: Cobalion|73/100|[from] Stealth Rock
+|move|p1a: Roserade|Giga Drain|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|49/100
+|-heal|p1a: Roserade|100/100|[from] drain|[of] p2a: Cobalion
+|
+|-heal|p2a: Cobalion|55/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|ninjadog has 120 seconds left.
+|c|+BluBirD|2 goats
+|c|+BluBirD|throwing punches
+|inactive|ninjadog has 90 seconds left.
+|
+|t:|1637457761
+|switch|p1a: Gligar|Gligar, F|89/100
+|-damage|p1a: Gligar|77/100|[from] Stealth Rock
+|switch|p2a: Togekiss|Togekiss, M|88/100
+|-damage|p2a: Togekiss|63/100|[from] Stealth Rock
+|
+|-damage|p2a: Togekiss|51/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1637457768
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Togekiss|Trick|p1a: Raikou
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Raikou
+|-item|p1a: Raikou|Black Sludge|[from] move: Trick
+|-item|p2a: Togekiss|Leftovers|[from] move: Trick
+|
+|-damage|p1a: Raikou|76/100|[from] item: Black Sludge
+|-heal|p2a: Togekiss|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1637457796
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|-damage|p2a: Rhyperior|76/100|[from] Spikes
+|-damage|p2a: Rhyperior|69/100|[from] Stealth Rock
+|move|p1a: Raikou|Hidden Power|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|39/100
+|
+|-damage|p1a: Raikou|63/100|[from] item: Black Sludge
+|-heal|p2a: Rhyperior|45/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1637457820
+|switch|p1a: Gligar|Gligar, F|77/100
+|-damage|p1a: Gligar|65/100|[from] Stealth Rock
+|move|p2a: Rhyperior|Rock Blast|p1a: Gligar
+|-damage|p1a: Gligar|58/100
+|-damage|p1a: Gligar|50/100
+|-damage|p1a: Gligar|44/100
+|-hitcount|p1a: Gligar|3
+|
+|-heal|p2a: Rhyperior|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|+Feliburn|ninjadawg
+|
+|t:|1637457844
+|move|p1a: Gligar|Toxic|p2a: Rhyperior|[miss]
+|-miss|p1a: Gligar|p2a: Rhyperior
+|move|p2a: Rhyperior|Dragon Tail|p1a: Gligar
+|-damage|p1a: Gligar|34/100
+|drag|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Rhyperior|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|ninjadog has 30 seconds left.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1637457877
+|move|p1a: Mienshao|High Jump Kick|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|inactive|ninjadog has 25 seconds left this turn.
+|
+|t:|1637457880
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|-damage|p2a: Qwilfish|63/100|[from] Spikes
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Mienshao|atk|1
+|turn|20
+|inactive|ninjadog has 30 seconds left.
+|
+|t:|1637457887
+|switch|p1a: Raikou|Raikou|63/100
+|-damage|p1a: Raikou|51/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Qwilfish|Spikes|p1a: Raikou
+|-sidestart|p1: Mr.378|Spikes
+|
+|-damage|p1a: Raikou|38/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|inactive|ninjadog has 30 seconds left.
+|
+|t:|1637457901
+|switch|p2a: Mew|Mew|47/100 brn
+|-damage|p2a: Mew|22/100 brn|[from] Spikes
+|-damage|p2a: Mew|10/100 brn|[from] Stealth Rock
+|move|p1a: Raikou|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-damage|p1a: Raikou|26/100|[from] item: Black Sludge
+|upkeep
+|inactive|ninjadog has 30 seconds left.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1637457917
+|switch|p2a: Cobalion|Cobalion|55/100
+|-damage|p2a: Cobalion|52/100|[from] Stealth Rock
+|-damage|p2a: Cobalion|27/100|[from] Spikes
+|turn|22
+|inactive|ninjadog has 30 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1637457933
+|move|p1a: Raikou|Thunderbolt|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-damage|p1a: Raikou|13/100|[from] item: Black Sludge
+|upkeep
+|inactive|ninjadog has 25 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1637457942
+|switch|p2a: Qwilfish|Qwilfish, F|63/100
+|-damage|p2a: Qwilfish|51/100|[from] Stealth Rock
+|-damage|p2a: Qwilfish|26/100|[from] Spikes
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|turn|23
+|inactive|ninjadog has 30 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1637457953
+|move|p1a: Raikou|Thunderbolt|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|-damage|p1a: Raikou|1/100|[from] item: Black Sludge
+|upkeep
+|inactive|ninjadog has 25 seconds left this turn.
+|
+|t:|1637457958
+|switch|p2a: Shaymin|Shaymin|67/100
+|-damage|p2a: Shaymin|55/100|[from] Stealth Rock
+|-damage|p2a: Shaymin|30/100|[from] Spikes
+|turn|24
+|
+|t:|1637457962
+|move|p1a: Raikou|Hidden Power|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|-damage|p1a: Raikou|0 fnt|[from] item: Black Sludge
+|faint|p1a: Raikou
+|upkeep
+|
+|t:|1637457976
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Togekiss|Togekiss, M|57/100
+|-damage|p1a: Roserade|88/100|[from] Spikes
+|-damage|p1a: Roserade|76/100|[from] Stealth Rock
+|-damage|p2a: Togekiss|32/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1637457981
+|move|p1a: Roserade|Sludge Bomb|p2a: Togekiss
+|-crit|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|win|Mr.378
+|c|☆Mr.378|gg
+|c|☆ninjadog|gg

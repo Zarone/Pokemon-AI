@@ -1,0 +1,503 @@
+|j|☆Codeine Dealer
+|j|☆voltypichu
+|t:|1644008824
+|gametype|singles
+|player|p1|Codeine Dealer|ninjaboy|
+|player|p2|voltypichu|pryce|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, F|item
+|poke|p1|Golurk|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Regirock|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Braviary, M|item
+|teampreview
+|c|☆Codeine Dealer|glhf
+|c|☆voltypichu|you to
+|
+|t:|1644008843
+|start
+|switch|p1a: Primeape|Primeape, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|t:|1644008848
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|move|p1a: Primeape|Close Combat|p2a: Misdreavus
+|-immune|p2a: Misdreavus
+|
+|upkeep
+|turn|2
+|
+|t:|1644008864
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|-enditem|p1a: Skuntank|Lum Berry|[eat]
+|-curestatus|p1a: Skuntank|brn|[msg]
+|
+|upkeep
+|turn|3
+|
+|t:|1644008869
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|move|p1a: Skuntank|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-crit|p2a: Misdreavus
+|-damage|p2a: Misdreavus|9/100
+|
+|-damage|p1a: Skuntank|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|c|☆Codeine Dealer|mb
+|
+|t:|1644008875
+|move|p2a: Misdreavus|Thunderbolt|p1a: Skuntank
+|-damage|p1a: Skuntank|60/100 brn
+|move|p1a: Skuntank|Pursuit|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|-damage|p1a: Skuntank|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1644008886
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|5
+|
+|t:|1644008888
+|move|p2a: Seismitoad|Earth Power|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|upkeep
+|
+|t:|1644008907
+|switch|p1a: Primeape|Primeape, F|100/100
+|turn|6
+|
+|t:|1644008915
+|move|p1a: Primeape|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|63/100
+|
+|t:|1644008925
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Hydro Pump|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|78/100
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644008940
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Regenerator|[from] ability: Trace|[of] p1a: Alomomola
+|move|p1a: Alomomola|Mirror Coat||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644008956
+|switch|p1a: Primeape|Primeape, F|100/100
+|move|p2a: Gardevoir|Thunderbolt|p1a: Primeape
+|-damage|p1a: Primeape|30/100
+|-damage|p2a: Gardevoir|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1644008964
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|move|p1a: Primeape|U-turn|p2a: Skuntank
+|-damage|p2a: Skuntank|60/100
+|
+|t:|1644008971
+|switch|p1a: Garbodor|Garbodor, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1644008975
+|move|p2a: Skuntank|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|cant|p1a: Garbodor|move: Taunt|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1644008978
+|move|p2a: Skuntank|Crunch|p1a: Garbodor
+|-damage|p1a: Garbodor|67/100
+|-damage|p2a: Skuntank|43/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|move|p1a: Garbodor|Rock Blast|p2a: Skuntank
+|-damage|p2a: Skuntank|36/100
+|-damage|p2a: Skuntank|28/100
+|-hitcount|p2a: Skuntank|2
+|
+|upkeep
+|turn|12
+|
+|t:|1644008985
+|switch|p2a: Regirock|Regirock|100/100
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1644008987
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|72/100
+|move|p2a: Regirock|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: Codeine Dealer|move: Stealth Rock
+|
+|-heal|p2a: Regirock|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644008989
+|switch|p2a: Seismitoad|Seismitoad, M|69/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644009001
+|switch|p2a: Braviary|Braviary, M|100/100
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|16
+|
+|t:|1644009007
+|move|p1a: Rotom|Blizzard|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|t:|1644009018
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Rotom
+|turn|17
+|
+|t:|1644009023
+|move|p1a: Rotom|Blizzard|p2a: Gardevoir|[miss]
+|-miss|p1a: Rotom|p2a: Gardevoir
+|move|p2a: Gardevoir|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|25/100
+|-damage|p2a: Gardevoir|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|t:|1644009028
+|move|p1a: Rotom|Blizzard|p2a: Gardevoir
+|-damage|p2a: Gardevoir|32/100
+|move|p2a: Gardevoir|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Gardevoir|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644009035
+|switch|p1a: Primeape|Primeape, F|30/100
+|-damage|p1a: Primeape|24/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1644009046
+|switch|p2a: Skuntank|Skuntank, M|28/100
+|move|p1a: Primeape|U-turn|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Primeape|0 fnt|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p1a: Primeape
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1644009058
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Regirock|Regirock|78/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1644009065
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Regirock|Thunder Wave|p1a: Alomomola
+|-status|p1a: Alomomola|par
+|
+|-heal|p2a: Regirock|84/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644009069
+|switch|p1a: Garbodor|Garbodor, F|67/100
+|-damage|p1a: Garbodor|54/100|[from] Stealth Rock
+|move|p2a: Regirock|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|4/100
+|
+|-heal|p1a: Garbodor|72/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Regirock|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644009081
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|switch|p2a: Gardevoir|Gardevoir, M|23/100
+|-ability|p2a: Gardevoir|Iron Fist|[from] ability: Trace|[of] p1a: Golurk
+|
+|-heal|p1a: Golurk|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1644009090
+|switch|p2a: Seismitoad|Seismitoad, M|75/100
+|move|p1a: Golurk|Shadow Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|24/100
+|
+|-heal|p2a: Seismitoad|30/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1644009103
+|move|p2a: Seismitoad|Grass Knot|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|30/100
+|move|p1a: Golurk|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Golurk|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644009108
+|switch|p2a: Gardevoir|Gardevoir, M|23/100
+|-ability|p2a: Gardevoir|Iron Fist|[from] ability: Trace|[of] p1a: Golurk
+|turn|25
+|
+|t:|1644009115
+|switch|p1a: Garbodor|Garbodor, F|72/100
+|-damage|p1a: Garbodor|59/100|[from] Stealth Rock
+|move|p2a: Gardevoir|Psychic|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|-damage|p2a: Gardevoir|13/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644009117
+|switch|p1a: Alomomola|Alomomola, M|100/100 par
+|-damage|p1a: Alomomola|88/100 par|[from] Stealth Rock
+|turn|26
+|
+|t:|1644009122
+|move|p2a: Gardevoir|Thunderbolt|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100 par
+|-damage|p2a: Gardevoir|3/100|[from] item: Life Orb
+|move|p1a: Alomomola|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-heal|p1a: Alomomola|12/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1644009134
+|switch|p2a: Regirock|Regirock|90/100
+|turn|27
+|
+|t:|1644009136
+|switch|p1a: Golurk|Golurk|36/100
+|-damage|p1a: Golurk|30/100|[from] Stealth Rock
+|move|p2a: Regirock|Earthquake|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Regirock|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644009138
+|switch|p1a: Alomomola|Alomomola, M|45/100 par
+|-damage|p1a: Alomomola|33/100 par|[from] Stealth Rock
+|turn|28
+|
+|t:|1644009141
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100 par
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Regirock|100/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|12/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1644009146
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Regirock|Earthquake|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|62/100 par|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1644009149
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|46/100 par
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1644009153
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100 par
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|75/100
+|
+|-heal|p1a: Alomomola|77/100 par|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Regirock|81/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1644009161
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Regirock|p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Regirock|87/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1644009164
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Regirock|p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|61/100
+|
+|-heal|p1a: Alomomola|100/100 par|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Regirock|67/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1644009167
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|52/100 par
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|40/100
+|
+|-heal|p2a: Regirock|46/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1644009171
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|36/100 par
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Regirock|52/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1644009174
+|move|p2a: Regirock|Stone Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|20/100 par
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|25/100
+|
+|-heal|p1a: Alomomola|70/100 par|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Regirock|31/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1644009180
+|move|p2a: Regirock|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100 par
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|7/100
+|
+|-heal|p2a: Regirock|13/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1644009184
+|move|p2a: Regirock|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100 par
+|cant|p1a: Alomomola|par
+|
+|-heal|p2a: Regirock|19/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1644009188
+|move|p2a: Regirock|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|38/100 par
+|cant|p1a: Alomomola|par
+|
+|-heal|p2a: Regirock|25/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1644009190
+|move|p2a: Regirock|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100 par
+|move|p1a: Alomomola|Scald|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|win|Codeine Dealer
+|c|☆voltypichu|gg
+|c|☆Codeine Dealer|gg

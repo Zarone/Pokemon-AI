@@ -1,0 +1,402 @@
+|j|☆Dunoks
+|j|☆Odell Beckham Jr.
+|t:|1635451574
+|gametype|singles
+|player|p1|Dunoks|karen|
+|player|p2|Odell Beckham Jr.|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kingdra, M|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Azelf|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Raikou|item
+|poke|p1|Heracross, F|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Raikou|item
+|poke|p2|Gligar, F|item
+|poke|p2|Roserade, M|item
+|poke|p2|Snorlax, F|item
+|teampreview
+|c|☆Dunoks|hf
+|c|☆Odell Beckham Jr.|u too
+|
+|t:|1635451650
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Roserade|Roserade, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dunoks)
+|inactive|Odell Beckham Jr. has 120 seconds left.
+|
+|t:|1635451694
+|move|p1a: Azelf|Taunt|p2a: Roserade
+|-start|p2a: Roserade|move: Taunt
+|move|p2a: Roserade|Leaf Storm|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-unboost|p2a: Roserade|spa|2
+|faint|p1a: Azelf
+|-damage|p2a: Roserade|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1635451709
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|2
+|
+|t:|1635451737
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1635451747
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-ability|p1a: Raikou|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1635451751
+|move|p1a: Raikou|Volt Switch|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|49/100
+|
+|t:|1635451753
+|switch|p1a: Kabutops|Kabutops, M|100/100|[from]move: Volt Switch
+|move|p2a: Snorlax|Return|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|52/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1635451771
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|move|p1a: Kabutops|Waterfall|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|71/100
+|-damage|p1a: Kabutops|42/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blastoise|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1635451782
+|move|p1a: Kabutops|Stone Edge|p2a: Blastoise
+|-damage|p2a: Blastoise|35/100
+|-damage|p1a: Kabutops|32/100|[from] item: Life Orb
+|move|p2a: Blastoise|Scald|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blastoise|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635451797
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|7
+|
+|t:|1635451803
+|move|p1a: Kingdra|Hydro Pump|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1635451805
+|switch|p2a: Roserade|Roserade, M|91/100
+|turn|8
+|
+|t:|1635451813
+|switch|p1a: Heracross|Heracross, F|100/100
+|move|p2a: Roserade|Leaf Storm|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|48/100
+|-unboost|p2a: Roserade|spa|2
+|-damage|p2a: Roserade|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1635451820
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Roserade|Toxic Spikes|p1a: Kingdra
+|-sidestart|p1: Dunoks|move: Toxic Spikes
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1635451835
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Kingdra|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|
+|upkeep
+|turn|11
+|inactive|Dunoks has 120 seconds left.
+|inactive|Odell Beckham Jr. has 120 seconds left.
+|
+|t:|1635451871
+|switch|p1a: Heracross|Heracross, F|48/100
+|-status|p1a: Heracross|psn
+|move|p2a: Rotom|Trick|p1a: Heracross
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Heracross
+|-item|p1a: Heracross|Flame Orb|[from] move: Trick
+|-item|p2a: Rotom|Choice Band|[from] move: Trick
+|
+|-damage|p1a: Heracross|35/100 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|Odell Beckham Jr. has 120 seconds left.
+|inactive|Dunoks has 120 seconds left.
+|
+|t:|1635451881
+|switch|p2a: Gligar|Gligar, F|100/100
+|move|p1a: Heracross|Stone Edge|p2a: Gligar|[miss]
+|-miss|p1a: Heracross|p2a: Gligar
+|
+|-damage|p1a: Heracross|23/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1635451885
+|move|p1a: Heracross|Stone Edge|p2a: Gligar
+|-damage|p2a: Gligar|77/100
+|move|p2a: Gligar|Stealth Rock|p1a: Heracross
+|-sidestart|p1: Dunoks|move: Stealth Rock
+|
+|-damage|p1a: Heracross|11/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1635451888
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|move|p2a: Gligar|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|67/100
+|
+|t:|1635451891
+|switch|p2a: Raikou|Raikou|100/100|[from]move: U-turn
+|-ability|p2a: Raikou|Pressure
+|
+|upkeep
+|turn|15
+|
+|t:|1635451895
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1635451900
+|switch|p1a: Heracross|Heracross, F|11/100 psn
+|-damage|p1a: Heracross|0 fnt|[from] Stealth Rock
+|faint|p1a: Heracross
+|move|p2a: Raikou|Thunderbolt|p1: Heracross|[notarget]
+|-fail|p2a: Raikou
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1635451902
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|-status|p1a: Kingdra|psn
+|turn|17
+|
+|t:|1635451914
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: Kingdra|Hydro Pump|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingdra|76/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1635451923
+|switch|p2a: Gligar|Gligar, F|77/100
+|move|p1a: Kingdra|Hydro Pump|p2a: Gligar|[miss]
+|-miss|p1a: Kingdra|p2a: Gligar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingdra|63/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1635451926
+|move|p1a: Kingdra|Hydro Pump|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingdra|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1635451931
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|20
+|
+|t:|1635451937
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: Kingdra|Hydro Pump|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingdra|39/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1635451941
+|switch|p2a: Rotom|Rotom-Heat|75/100
+|move|p1a: Kingdra|Hydro Pump|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingdra|26/100 psn|[from] psn
+|upkeep
+|
+|t:|1635451945
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|22
+|j| Lucky-Sama
+|
+|t:|1635451947
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-status|p1a: Raikou|psn
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|
+|-weather|none
+|-damage|p1a: Raikou|76/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1635451949
+|move|p2a: Raikou|Thunderbolt|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|42/100 psn
+|move|p1a: Raikou|Roar|p2a: Raikou
+|drag|p2a: Roserade|Roserade, M|81/100
+|
+|-damage|p1a: Raikou|29/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1635451958
+|move|p1a: Raikou|Hidden Power|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|26/100
+|move|p2a: Roserade|Sludge Bomb|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|-damage|p2a: Roserade|16/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1635451968
+|switch|p1a: Tornadus|Tornadus, M|67/100
+|-damage|p1a: Tornadus|42/100|[from] Stealth Rock
+|turn|25
+|inactive|Odell Beckham Jr. has 120 seconds left.
+|inactive|Odell Beckham Jr. has 90 seconds left.
+|
+|t:|1635452043
+|move|p1a: Tornadus|Hurricane|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-crit|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1635452046
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|26
+|j| troubled echoes
+|
+|t:|1635452055
+|move|p2a: Raikou|Thunderbolt|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1635452057
+|switch|p1a: Kingdra|Kingdra, M|26/100 psn
+|-damage|p1a: Kingdra|14/100 psn|[from] Stealth Rock
+|turn|27
+|
+|t:|1635452060
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: Kingdra|Draco Meteor|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-damage|p1a: Kingdra|2/100 psn|[from] psn
+|upkeep
+|turn|28
+|l| troubled echoes
+|c|☆Dunoks|gg
+|c|☆Odell Beckham Jr.|gg
+|
+|t:|1635452065
+|move|p2a: Raikou|Thunderbolt|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|win|Odell Beckham Jr.
+|n|☆Dunoks|dunoks
+|n|☆Odell Beckham Jr.|odellbeckhamjr
+|n| Lucky-Sama|luckysama
+|l|☆Dunoks
+|l|☆Odell Beckham Jr.
+|j| ahyueah

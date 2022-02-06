@@ -1,0 +1,280 @@
+|j|☆Imgonnadielmao
+|j|☆jahmille118
+|t:|1642170142
+|gametype|singles
+|player|p1|Imgonnadielmao|170|1047
+|player|p2|jahmille118|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Bastiodon, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Kadabra, M|item
+|poke|p1|Garbodor, F|item
+|poke|p2|Audino, F|item
+|poke|p2|Musharna, F|item
+|poke|p2|Rampardos, F|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Banette, M|item
+|poke|p2|Kingler, F|item
+|teampreview
+|
+|t:|1642170155
+|start
+|switch|p1a: Bastiodon|Bastiodon, M|100/100
+|switch|p2a: Musharna|Musharna, F|100/100
+|turn|1
+|
+|t:|1642170163
+|move|p1a: Bastiodon|Stealth Rock|p2a: Musharna
+|-sidestart|p2: jahmille118|move: Stealth Rock
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|upkeep
+|turn|2
+|
+|t:|1642170169
+|move|p2a: Musharna|Energy Ball|p1a: Bastiodon
+|-crit|p1a: Bastiodon
+|-damage|p1a: Bastiodon|45/100
+|-damage|p2a: Musharna|91/100|[from] item: Life Orb
+|move|p1a: Bastiodon|Toxic|p2a: Musharna
+|-status|p2a: Musharna|tox
+|-activate|p2a: Musharna|ability: Synchronize
+|-immune|p1a: Bastiodon
+|
+|-heal|p1a: Bastiodon|51/100|[from] item: Leftovers
+|-damage|p2a: Musharna|85/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1642170186
+|move|p2a: Musharna|Energy Ball|p1a: Bastiodon
+|-damage|p1a: Bastiodon|21/100
+|-damage|p2a: Musharna|75/100 tox|[from] item: Life Orb
+|move|p1a: Bastiodon|Earthquake|p2a: Musharna
+|-damage|p2a: Musharna|63/100 tox
+|
+|-heal|p1a: Bastiodon|27/100|[from] item: Leftovers
+|-damage|p2a: Musharna|51/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1642170215
+|move|p2a: Musharna|Energy Ball|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|faint|p1a: Bastiodon
+|-damage|p2a: Musharna|41/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Musharna|23/100 tox|[from] psn
+|upkeep
+|
+|t:|1642170235
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|turn|5
+|
+|t:|1642170244
+|move|p2a: Musharna|Psychic|p1a: Ampharos
+|-damage|p1a: Ampharos|46/100
+|-damage|p2a: Musharna|14/100 tox|[from] item: Life Orb
+|move|p1a: Ampharos|Volt Switch|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|t:|1642170257
+|switch|p1a: Garbodor|Garbodor, F|100/100|[from]move: Volt Switch
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1642170296
+|switch|p2a: Rampardos|Rampardos, F|100/100
+|-damage|p2a: Rampardos|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1642170303
+|move|p1a: Garbodor|Toxic Spikes|p2a: Rampardos
+|-sidestart|p2: jahmille118|move: Toxic Spikes
+|move|p2a: Rampardos|Rock Slide|p1a: Garbodor
+|-damage|p1a: Garbodor|19/100
+|
+|-heal|p1a: Garbodor|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1642170315
+|move|p1a: Garbodor|Toxic Spikes|p2a: Rampardos
+|-sidestart|p2: jahmille118|move: Toxic Spikes
+|move|p2a: Rampardos|Rock Slide|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1642170325
+|switch|p1a: Sawk|Sawk, M|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|8
+|
+|t:|1642170333
+|move|p2a: Rampardos|Protect|p2a: Rampardos
+|-singleturn|p2a: Rampardos|Protect
+|move|p1a: Sawk|Earthquake|p2a: Rampardos
+|-activate|p2a: Rampardos|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1642170344
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|move|p1a: Sawk|Close Combat|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Eelektross
+|-damage|p1a: Sawk|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642170354
+|switch|p2a: Banette|Banette, M|100/100
+|-damage|p2a: Banette|88/100|[from] Stealth Rock
+|-status|p2a: Banette|tox
+|turn|10
+|
+|t:|1642170361
+|switch|p1a: Ampharos|Ampharos, M|46/100
+|move|p2a: Banette|Trick Room|p2a: Banette
+|-fieldstart|move: Trick Room|[of] p2a: Banette
+|
+|-damage|p2a: Banette|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1642170369
+|move|p1a: Ampharos|Thunderbolt|p2a: Banette
+|-damage|p2a: Banette|0 fnt
+|faint|p2a: Banette
+|
+|upkeep
+|
+|t:|1642170392
+|switch|p2a: Rampardos|Rampardos, F|88/100
+|-damage|p2a: Rampardos|75/100|[from] Stealth Rock
+|-status|p2a: Rampardos|tox
+|turn|12
+|
+|t:|1642170402
+|move|p2a: Rampardos|Rock Slide|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|
+|-damage|p2a: Rampardos|69/100 tox|[from] psn
+|upkeep
+|
+|t:|1642170413
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|13
+|
+|t:|1642170418
+|move|p2a: Rampardos|Rock Slide|p1a: Kadabra
+|-enditem|p1a: Kadabra|Focus Sash
+|-damage|p1a: Kadabra|1/100
+|move|p1a: Kadabra|Psychic|p2a: Rampardos
+|-damage|p2a: Rampardos|1/100 tox
+|
+|-damage|p2a: Rampardos|0 fnt|[from] psn
+|faint|p2a: Rampardos
+|upkeep
+|
+|t:|1642170432
+|switch|p2a: Audino|Audino, F|100/100
+|-status|p2a: Audino|tox
+|-damage|p2a: Audino|88/100 tox|[from] Stealth Rock
+|turn|14
+|
+|t:|1642170440
+|move|p2a: Audino|Calm Mind|p2a: Audino
+|-boost|p2a: Audino|spa|1
+|-boost|p2a: Audino|spd|1
+|move|p1a: Kadabra|Psychic|p2a: Audino
+|-damage|p2a: Audino|57/100 tox
+|
+|-heal|p2a: Audino|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|57/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|t:|1642170451
+|move|p1a: Kadabra|Psyshock|p2a: Audino
+|-damage|p2a: Audino|18/100 tox
+|move|p2a: Audino|Trick Room|p2a: Audino
+|-fieldstart|move: Trick Room|[of] p2a: Audino
+|
+|-heal|p2a: Audino|24/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|12/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1642170474
+|move|p2a: Audino|Hyper Voice|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|-heal|p2a: Audino|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|0 fnt|[from] psn
+|faint|p2a: Audino
+|upkeep
+|
+|t:|1642170487
+|switch|p2a: Kingler|Kingler, F|100/100
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p2a: Kingler|88/100|[from] Stealth Rock
+|-status|p2a: Kingler|tox
+|turn|17
+|
+|t:|1642170496
+|move|p2a: Kingler|Crabhammer|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Kingler|78/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Kingler|72/100 tox|[from] psn
+|upkeep
+|
+|t:|1642170504
+|switch|p1a: Sawk|Sawk, M|91/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|18
+|
+|t:|1642170514
+|move|p2a: Kingler|Facade|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|-damage|p2a: Kingler|62/100 tox|[from] item: Life Orb
+|
+|win|jahmille118
+|raw|Imgonnadielmao's rating: 1047 &rarr; <strong>1028</strong><br />(-19 for losing)
+|raw|jahmille118's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|l|☆Imgonnadielmao
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

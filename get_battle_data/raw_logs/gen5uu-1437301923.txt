@@ -1,0 +1,107 @@
+|j|☆me and my husband
+|j|☆gimme wins
+|t:|1634513524
+|gametype|singles
+|player|p1|me and my husband|wallace|
+|player|p2|gimme wins|swimmerf-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Bronzong|item
+|poke|p1|Snorlax, F|item
+|poke|p1|Mienshao, F|item
+|poke|p2|Yanmega, F|item
+|poke|p2|Xatu, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Suicune|item
+|poke|p2|Raikou|item
+|poke|p2|Heracross, F|item
+|teampreview
+|j| HaxxLR
+|
+|t:|1634513544
+|start
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by me and my husband)
+|
+|t:|1634513564
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Kingdra|Hydro Pump|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|68/100
+|
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1634513572
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1634513575
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|56/100
+|move|p1a: Bronzong|Toxic||[still]
+|-fail|p1a: Bronzong
+|
+|-heal|p2a: Suicune|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1634513585
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1634513590
+|move|p1a: Zapdos|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-crit|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|move|p2a: Suicune|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Suicune|74/100|[from] item: Leftovers
+|upkeep
+|c|☆me and my husband|gg
+|c|☆gimme wins|gg
+|-message|me and my husband forfeited.
+|
+|win|gimme wins
+|n|☆me and my husband|meandmyhusband
+|n|☆gimme wins|gimmewins
+|n| HaxxLR|haxxlr

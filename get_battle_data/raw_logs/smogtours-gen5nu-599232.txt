@@ -1,0 +1,290 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640391513
+|gametype|singles
+|player|p1|Togkey|firebreather-gen2|
+|player|p2|CB AARON JUDGE|teamaquabeta-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, F|item
+|poke|p1|Haunter, F|item
+|poke|p1|Duosion, M|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Primeape, M|item
+|teampreview
+|inactive|Togkey disconnected and has 300 seconds to reconnect!
+|player|p1|
+|inactive|Togkey reconnected and has 285 seconds left.
+|player|p1|Togkey|firebreather-gen2
+|c|☆Togkey|hf
+|c|☆CB AARON JUDGE|lol
+|inactive|Togkey has 270 seconds left.
+|inactive|CB AARON JUDGE has 270 seconds left.
+|
+|t:|1640391557
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|c|+daniYSB|?
+|
+|t:|1640391577
+|move|p1a: Garbodor|Spikes|p2a: Mandibuzz
+|-sidestart|p2: CB AARON JUDGE|Spikes
+|move|p2a: Mandibuzz|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1640391593
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1640391604
+|move|p1a: Seismitoad|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|9/100
+|move|p2a: Garbodor|Spikes|p1a: Seismitoad
+|-sidestart|p1: Togkey|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1640391617
+|move|p1a: Seismitoad|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1640391622
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|88/100|[from] Spikes
+|turn|5
+|
+|t:|1640391625
+|move|p1a: Seismitoad|Grass Knot|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-enditem|p2a: Seismitoad|Rindo Berry|[eat]
+|-enditem|p2a: Seismitoad|Rindo Berry|[weaken]
+|-damage|p2a: Seismitoad|44/100
+|move|p2a: Seismitoad|Grass Knot|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|t:|1640391630
+|switch|p1a: Haunter|Haunter, F|100/100
+|turn|6
+|
+|t:|1640391635
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Haunter|Substitute|p1a: Haunter
+|-start|p1a: Haunter|Substitute
+|-damage|p1a: Haunter|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1640391637
+|move|p1a: Haunter|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|44/100
+|-damage|p1a: Haunter|66/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|Foul Play|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-end|p1a: Haunter|Substitute
+|
+|-heal|p2a: Mandibuzz|50/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1640391658
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Spikes
+|move|p1a: Haunter|Substitute|p1a: Haunter
+|-start|p1a: Haunter|Substitute
+|-damage|p1a: Haunter|41/100
+|
+|upkeep
+|turn|9
+|
+|t:|1640391661
+|move|p2a: Kangaskhan|Fake Out|p1a: Haunter
+|-end|p1a: Haunter|Substitute
+|move|p1a: Haunter|Thunderbolt|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|45/100
+|-damage|p1a: Haunter|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1640391669
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Spikes
+|move|p2a: Kangaskhan|Double-Edge|p1a: Garbodor
+|-damage|p1a: Garbodor|14/100
+|-damage|p2a: Kangaskhan|24/100|[from] Recoil
+|
+|upkeep
+|turn|11
+|
+|t:|1640391674
+|move|p1a: Garbodor|Seed Bomb|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|t:|1640391687
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|turn|12
+|
+|t:|1640391692
+|move|p2a: Rotom|Thunderbolt|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1640391693
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|turn|13
+|
+|t:|1640391710
+|move|p1a: Rotom|Blizzard|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1640391712
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|88/100|[from] Spikes
+|turn|14
+|
+|t:|1640391720
+|switch|p1a: Duosion|Duosion, M|100/100
+|move|p2a: Primeape|Stone Edge|p1a: Duosion|[miss]
+|-miss|p2a: Primeape|p1a: Duosion
+|
+|upkeep
+|turn|15
+|
+|t:|1640391726
+|switch|p2a: Mandibuzz|Mandibuzz, F|50/100
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|
+|-heal|p2a: Mandibuzz|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1640391729
+|move|p2a: Mandibuzz|Taunt|p1a: Duosion
+|-start|p1a: Duosion|move: Taunt
+|move|p1a: Duosion|Signal Beam|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|36/100
+|
+|-heal|p2a: Mandibuzz|42/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1640391732
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|92/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Duosion|Signal Beam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|-start|p2a: Mandibuzz|confusion
+|
+|-heal|p2a: Mandibuzz|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1640391740
+|-activate|p2a: Mandibuzz|confusion
+|-damage|p2a: Mandibuzz|53/100|[from] confusion
+|move|p1a: Duosion|Psychic|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|59/100|[from] item: Leftovers
+|-end|p1a: Duosion|move: Taunt
+|upkeep
+|turn|19
+|
+|t:|1640391743
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-end|p2a: Mandibuzz|confusion
+|move|p2a: Mandibuzz|Foul Play|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|45/100
+|
+|-heal|p2a: Mandibuzz|65/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1640391748
+|move|p1a: Rotom|Blizzard|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|t:|1640391753
+|switch|p2a: Primeape|Primeape, M|88/100
+|-damage|p2a: Primeape|76/100|[from] Spikes
+|turn|21
+|
+|t:|1640391756
+|move|p1a: Rotom|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|
+|t:|1640391759
+|switch|p2a: Seismitoad|Seismitoad, M|44/100
+|-damage|p2a: Seismitoad|31/100|[from] Spikes
+|turn|22
+|
+|t:|1640391761
+|move|p1a: Rotom|Blizzard|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|win|Togkey
+|c|☆Togkey|gg
+|player|p1|Togkey|firebreather-gen2

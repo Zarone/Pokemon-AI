@@ -1,0 +1,465 @@
+|j|☆tank skunk
+|j|☆Deathbringer5
+|t:|1641549045
+|gametype|singles
+|player|p1|tank skunk|pokefan|1094
+|player|p2|Deathbringer5|grimsley|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lampent, F|item
+|poke|p1|Mantyke, F|item
+|poke|p1|Tangela, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Mawile, F|item
+|poke|p1|Probopass, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Haunter, F|item
+|poke|p2|Tauros, M|item
+|poke|p2|Swellow, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Liepard, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|inactive|Deathbringer5 has 120 seconds left.
+|
+|t:|1641549081
+|start
+|switch|p1a: Jbag|Probopass, M|100/100
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|turn|1
+|
+|t:|1641549088
+|move|p2a: Garbodor|Spikes|p1a: Jbag
+|-sidestart|p1: tank skunk|Spikes
+|move|p1a: Jbag|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|52/100
+|
+|upkeep
+|turn|2
+|j| MrToastD
+|
+|t:|1641549098
+|switch|p2a: Haunter|Haunter, F|100/100
+|move|p1a: Jbag|Earth Power|p2a: Haunter
+|-immune|p2a: Haunter|[from] ability: Levitate
+|
+|upkeep
+|turn|3
+|
+|t:|1641549102
+|move|p2a: Haunter|Substitute|p2a: Haunter
+|-start|p2a: Haunter|Substitute
+|-damage|p2a: Haunter|76/100
+|move|p1a: Jbag|Stealth Rock|p2a: Haunter
+|-sidestart|p2: Deathbringer5|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1641549107
+|move|p2a: Haunter|Shadow Ball|p1a: Jbag
+|-resisted|p1a: Jbag
+|-damage|p1a: Jbag|80/100
+|-damage|p2a: Haunter|66/100|[from] item: Life Orb
+|move|p1a: Jbag|Volt Switch|p2a: Haunter
+|-end|p2a: Haunter|Substitute
+|
+|t:|1641549115
+|switch|p1a: Tank Skunk|Skuntank, F, shiny|100/100|[from]move: Volt Switch
+|-damage|p1a: Tank Skunk|88/100|[from] Spikes
+|
+|-heal|p1a: Tank Skunk|94/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1641549121
+|move|p2a: Haunter|Shadow Ball|p1a: Tank Skunk
+|-resisted|p1a: Tank Skunk
+|-damage|p1a: Tank Skunk|62/100
+|-damage|p2a: Haunter|56/100|[from] item: Life Orb
+|move|p1a: Tank Skunk|Pursuit|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|-heal|p1a: Tank Skunk|68/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1641549131
+|switch|p2a: Tauros|Tauros, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1641549139
+|switch|p1a: Yandere|Mawile, F|100/100
+|-ability|p1a: Yandere|Intimidate|boost
+|-unboost|p2a: Tauros|atk|1
+|-item|p1a: Yandere|Air Balloon
+|move|p2a: Tauros|Rock Climb|p1a: Yandere
+|-resisted|p1a: Yandere
+|-damage|p1a: Yandere|81/100
+|-enditem|p1a: Yandere|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1641549152
+|switch|p1a: WaterWings|Mantyke, F|100/100
+|move|p2a: Tauros|Earthquake|p1a: WaterWings
+|-immune|p1a: WaterWings
+|
+|upkeep
+|turn|8
+|
+|t:|1641549157
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: WaterWings|Scald|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|
+|-heal|p2a: Alomomola|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1641549163
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: WaterWings|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|
+|-heal|p2a: Alomomola|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|83/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1641549169
+|switch|p2a: Garbodor|Garbodor, M|52/100
+|-damage|p2a: Garbodor|39/100|[from] Stealth Rock
+|switch|p1a: Yandere|Mawile, F|81/100
+|-damage|p1a: Yandere|69/100|[from] Spikes
+|-ability|p1a: Yandere|Intimidate|boost
+|-unboost|p2a: Garbodor|atk|1
+|
+|-heal|p2a: Garbodor|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|11
+|
+|t:|1641549176
+|move|p2a: Garbodor|Spikes|p1a: Yandere
+|-sidestart|p1: tank skunk|Spikes
+|move|p1a: Yandere|Baton Pass|p1a: Yandere
+|
+|t:|1641549195
+|switch|p1a: I <3 Lamp|Lampent, F, shiny|100/100|[from]move: Baton Pass
+|-damage|p1a: I <3 Lamp|84/100|[from] Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1641549202
+|move|p2a: Garbodor|Rock Blast|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|75/100
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|66/100
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|58/100
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|49/100
+|-hitcount|p1a: I <3 Lamp|4
+|move|p1a: I <3 Lamp|Calm Mind|p1a: I <3 Lamp
+|-boost|p1a: I <3 Lamp|spa|1
+|-boost|p1a: I <3 Lamp|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1641549217
+|switch|p2a: Alomomola|Alomomola, M|100/100 tox
+|-damage|p2a: Alomomola|88/100 tox|[from] Stealth Rock
+|move|p1a: I <3 Lamp|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100 tox
+|
+|-heal|p2a: Alomomola|36/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|30/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1641549223
+|move|p2a: Alomomola|Scald|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|29/100
+|move|p1a: I <3 Lamp|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1641549231
+|switch|p2a: Liepard|Liepard, M|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1641549239
+|move|p2a: Liepard|Pursuit|p1a: I <3 Lamp
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|3/100
+|move|p1a: I <3 Lamp|Trick Room|p1a: I <3 Lamp
+|-fieldstart|move: Trick Room|[of] p1a: I <3 Lamp
+|
+|upkeep
+|turn|16
+|
+|t:|1641549251
+|-activate|p1a: I <3 Lamp|move: Pursuit
+|move|p2a: Liepard|Pursuit|p1a: I <3 Lamp|[from]Pursuit
+|-supereffective|p1a: I <3 Lamp
+|-damage|p1a: I <3 Lamp|0 fnt
+|faint|p1a: I <3 Lamp
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1641549255
+|switch|p1a: Yandere|Mawile, F|69/100
+|-damage|p1a: Yandere|52/100|[from] Spikes
+|-ability|p1a: Yandere|Intimidate|boost
+|-unboost|p2a: Liepard|atk|1
+|turn|17
+|
+|t:|1641549265
+|move|p2a: Liepard|Thunder Wave|p1a: Yandere
+|-status|p1a: Yandere|par
+|move|p1a: Yandere|Stockpile|p1a: Yandere
+|-start|p1a: Yandere|stockpile1
+|-boost|p1a: Yandere|def|1
+|-boost|p1a: Yandere|spd|1
+|
+|upkeep
+|turn|18
+|
+|t:|1641549278
+|move|p2a: Liepard|Taunt|p1a: Yandere
+|-start|p1a: Yandere|move: Taunt
+|cant|p1a: Yandere|move: Taunt|Magnet Rise
+|
+|upkeep
+|turn|19
+|
+|t:|1641549291
+|cant|p1a: Yandere|par
+|move|p2a: Liepard|U-turn|p1a: Yandere
+|-resisted|p1a: Yandere
+|-damage|p1a: Yandere|48/100 par
+|
+|t:|1641549297
+|switch|p2a: Tauros|Tauros, M|88/100|[from]move: U-turn
+|-damage|p2a: Tauros|76/100|[from] Stealth Rock
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|t:|1641549302
+|move|p2a: Tauros|Earthquake|p1a: Yandere
+|-supereffective|p1a: Yandere
+|-damage|p1a: Yandere|1/100 par
+|-damage|p2a: Tauros|66/100|[from] item: Life Orb
+|move|p1a: Yandere|Iron Head|p2a: Tauros
+|-damage|p2a: Tauros|33/100
+|
+|-end|p1a: Yandere|move: Taunt
+|upkeep
+|turn|21
+|
+|t:|1641549310
+|move|p2a: Tauros|Earthquake|p1a: Yandere
+|-supereffective|p1a: Yandere
+|-damage|p1a: Yandere|0 fnt
+|faint|p1a: Yandere
+|-damage|p2a: Tauros|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641549316
+|switch|p1a: Tank Skunk|Skuntank, F, shiny|68/100
+|-damage|p1a: Tank Skunk|51/100|[from] Spikes
+|turn|22
+|
+|t:|1641549326
+|move|p1a: Tank Skunk|Sucker Punch|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|-heal|p1a: Tank Skunk|58/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1641549334
+|switch|p2a: Liepard|Liepard, M|88/100
+|-damage|p2a: Liepard|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1641549341
+|switch|p1a: Jbag|Probopass, M|80/100
+|-damage|p1a: Jbag|63/100|[from] Spikes
+|move|p2a: Liepard|Thunder Wave|p1a: Jbag
+|-status|p1a: Jbag|par
+|
+|-heal|p1a: Jbag|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1641549355
+|move|p2a: Liepard|U-turn|p1a: Jbag
+|-resisted|p1a: Jbag
+|-damage|p1a: Jbag|62/100 par
+|
+|t:|1641549358
+|switch|p2a: Garbodor|Garbodor, M|100/100|[from]move: U-turn
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Jbag|Power Gem|p2a: Garbodor
+|-damage|p2a: Garbodor|59/100
+|
+|-heal|p1a: Jbag|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1641549366
+|move|p2a: Garbodor|Seed Bomb|p1a: Jbag
+|-damage|p1a: Jbag|48/100 par
+|cant|p1a: Jbag|par
+|
+|-heal|p1a: Jbag|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1641549371
+|move|p2a: Garbodor|Seed Bomb|p1a: Jbag
+|-damage|p1a: Jbag|35/100 par
+|cant|p1a: Jbag|par
+|
+|-heal|p1a: Jbag|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1641549375
+|move|p2a: Garbodor|Seed Bomb|p1a: Jbag
+|-damage|p1a: Jbag|21/100 par
+|move|p1a: Jbag|Earth Power|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|5/100
+|
+|-heal|p1a: Jbag|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1641549382
+|move|p2a: Garbodor|Seed Bomb|p1a: Jbag
+|-damage|p1a: Jbag|6/100 par
+|move|p1a: Jbag|Power Gem|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Jbag|12/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1641549389
+|switch|p2a: Liepard|Liepard, M|76/100
+|-damage|p2a: Liepard|64/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1641549393
+|move|p2a: Liepard|Pursuit|p1a: Jbag
+|-resisted|p1a: Jbag
+|-damage|p1a: Jbag|5/100 par
+|move|p1a: Jbag|Volt Switch|p2a: Liepard
+|-damage|p2a: Liepard|21/100
+|
+|t:|1641549406
+|switch|p1a: WaterWings|Mantyke, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|30
+|
+|t:|1641549412
+|move|p2a: Liepard|Thunder Wave|p1a: WaterWings
+|-status|p1a: WaterWings|par
+|move|p1a: WaterWings|Scald|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|upkeep
+|
+|t:|1641549416
+|switch|p2a: Swellow|Swellow, F|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1641549421
+|switch|p1a: Jbag|Probopass, M|5/100 par
+|-damage|p1a: Jbag|0 fnt|[from] Spikes
+|faint|p1a: Jbag
+|move|p2a: Swellow|Facade|p1: Jbag|[notarget]
+|-fail|p2a: Swellow
+|
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1641549434
+|switch|p1a: Spaghetti|Tangela, M|100/100
+|-damage|p1a: Spaghetti|84/100|[from] Spikes
+|turn|32
+|
+|t:|1641549437
+|move|p2a: Swellow|Brave Bird|p1a: Spaghetti
+|-supereffective|p1a: Spaghetti
+|-damage|p1a: Spaghetti|0 fnt
+|faint|p1a: Spaghetti
+|-damage|p2a: Swellow|42/100 tox|[from] Recoil
+|
+|-damage|p2a: Swellow|36/100 tox|[from] psn
+|upkeep
+|
+|t:|1641549442
+|switch|p1a: Tank Skunk|Skuntank, F, shiny|58/100
+|-damage|p1a: Tank Skunk|41/100|[from] Spikes
+|turn|33
+|
+|t:|1641549445
+|move|p2a: Swellow|Quick Attack|p1a: Tank Skunk
+|-damage|p1a: Tank Skunk|11/100
+|move|p1a: Tank Skunk|Sucker Punch||[still]
+|-fail|p1a: Tank Skunk
+|
+|-heal|p1a: Tank Skunk|17/100|[from] item: Black Sludge
+|-damage|p2a: Swellow|24/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1641549455
+|move|p2a: Swellow|Quick Attack|p1a: Tank Skunk
+|-damage|p1a: Tank Skunk|0 fnt
+|-damage|p2a: Swellow|0 fnt|[from] ability: Aftermath|[of] p1a: Tank Skunk
+|faint|p2a: Swellow
+|faint|p1a: Tank Skunk
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1094 &rarr; <strong>1116</strong><br />(+22 for winning)
+|raw|Deathbringer5's rating: 1045 &rarr; <strong>1031</strong><br />(-14 for losing)
+|l|☆Deathbringer5
+|c|☆tank skunk|gg

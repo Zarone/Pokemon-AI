@@ -1,0 +1,243 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641742121
+|gametype|singles
+|player|p1|Kristyl ★|#splxiiicryonicles|
+|player|p2|Somalia|drayden|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kingdra, M|item
+|poke|p1|Kabutops, F|item
+|poke|p1|Azelf|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Raikou|item
+|poke|p1|Heracross, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Meloetta|item
+|poke|p2|Heracross, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Empoleon, M|item
+|teampreview
+|inactive|Somalia also wants the timer to be on.
+|c|☆Kristyl ★|hf
+|c|☆Somalia|hf
+|
+|t:|1641742143
+|start
+|switch|p1a: Heracross|Heracross, F|100/100
+|switch|p2a: ARMORED ARMADILLO|Rhyperior, M, shiny|100/100
+|turn|1
+|
+|t:|1641742172
+|move|p1a: Heracross|Close Combat|p2a: ARMORED ARMADILLO
+|-supereffective|p2a: ARMORED ARMADILLO
+|-damage|p2a: ARMORED ARMADILLO|16/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|move|p2a: ARMORED ARMADILLO|Stone Edge|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+|c|☆Kristyl ★|wow
+|c|☆Kristyl ★|rhyperior is a beast haha
+|
+|t:|1641742191
+|switch|p1a: Azelf|Azelf|100/100
+|turn|2
+|
+|t:|1641742196
+|move|p1a: Azelf|Stealth Rock|p2a: ARMORED ARMADILLO
+|-sidestart|p2: Somalia|move: Stealth Rock
+|move|p2a: ARMORED ARMADILLO|Megahorn|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|t:|1641742203
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|3
+|
+|t:|1641742210
+|move|p1a: Raikou|Hidden Power|p2a: ARMORED ARMADILLO
+|-supereffective|p2a: ARMORED ARMADILLO
+|-damage|p2a: ARMORED ARMADILLO|0 fnt
+|faint|p2a: ARMORED ARMADILLO
+|
+|upkeep
+|
+|t:|1641742216
+|switch|p2a: STAGE START|Meloetta|100/100
+|-damage|p2a: STAGE START|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1641742221
+|move|p1a: Raikou|Thunder|p2a: STAGE START|[miss]
+|-miss|p1a: Raikou|p2a: STAGE START
+|move|p2a: STAGE START|Calm Mind|p2a: STAGE START
+|-boost|p2a: STAGE START|spa|1
+|-boost|p2a: STAGE START|spd|1
+|
+|-heal|p2a: STAGE START|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641742225
+|move|p2a: STAGE START|Calm Mind|p2a: STAGE START
+|-boost|p2a: STAGE START|spa|1
+|-boost|p2a: STAGE START|spd|1
+|move|p1a: Raikou|Roar|p2a: STAGE START
+|drag|p2a: SPARK MANDRILL|Heracross, M, shiny|100/100
+|-damage|p2a: SPARK MANDRILL|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1641742233
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: SPARK MANDRILL|Megahorn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|49/100
+|
+|upkeep
+|turn|7
+|inactive|Kristyl ★ has 270 seconds left.
+|
+|t:|1641742277
+|move|p1a: Tornadus|Hurricane|p2a: SPARK MANDRILL|[miss]
+|-miss|p1a: Tornadus|p2a: SPARK MANDRILL
+|move|p2a: SPARK MANDRILL|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2a: SPARK MANDRILL|def|1
+|-unboost|p2a: SPARK MANDRILL|spd|1
+|faint|p1a: Tornadus
+|
+|upkeep
+|c|☆Somalia|wait why
+|c|☆Somalia|hera sa re all
+|c|☆Somalia|scarf mostly lol
+|c|☆Somalia|why not rain
+|c|☆Kristyl ★|I don't play this tier much
+|c|☆Kristyl ★|:c
+|c|☆Somalia|oh
+|inactive|Kristyl ★ has 240 seconds left.
+|
+|t:|1641742312
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|8
+|inactive|Kristyl ★ has 240 seconds left.
+|c|☆Kristyl ★|I just grabbed a team for fun haha
+|inactive|Somalia has 270 seconds left.
+|c|☆Somalia|yeah rain is like
+|c|☆Somalia|the go to
+|c|☆Somalia|since its just wins alot of the time
+|
+|t:|1641742350
+|move|p2a: SPARK MANDRILL|Endure|p2a: SPARK MANDRILL
+|-singleturn|p2a: SPARK MANDRILL|move: Endure
+|move|p1a: Kingdra|Hydro Pump|p2a: SPARK MANDRILL
+|-activate|p2a: SPARK MANDRILL|move: Endure
+|-damage|p2a: SPARK MANDRILL|1/100
+|
+|upkeep
+|turn|9
+|c|☆Kristyl ★|omg
+|c|☆Kristyl ★|that's fire
+|inactive|Kristyl ★ has 240 seconds left.
+|-enditem|p2a: SPARK MANDRILL|Custap Berry|[eat]
+|-activate|p2a: SPARK MANDRILL|item: Custap Berry|[consumed]
+|
+|t:|1641742360
+|move|p2a: SPARK MANDRILL|Close Combat|p1a: Kingdra
+|-crit|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|-unboost|p2a: SPARK MANDRILL|def|1
+|-unboost|p2a: SPARK MANDRILL|spd|1
+|faint|p1a: Kingdra
+|
+|upkeep
+|
+|t:|1641742364
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|10
+|
+|t:|1641742368
+|move|p1a: Raikou|Hidden Power|p2a: SPARK MANDRILL
+|-damage|p2a: SPARK MANDRILL|0 fnt
+|faint|p2a: SPARK MANDRILL
+|
+|upkeep
+|
+|t:|1641742371
+|switch|p2a: STAGE START|Meloetta|94/100
+|-damage|p2a: STAGE START|82/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1641742377
+|move|p1a: Raikou|Thunder|p2a: STAGE START
+|-damage|p2a: STAGE START|32/100
+|-status|p2a: STAGE START|par
+|move|p2a: STAGE START|Psyshock|p1a: Raikou
+|-damage|p1a: Raikou|39/100
+|
+|-heal|p2a: STAGE START|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Kristyl ★ has 270 seconds left.
+|inactive|Somalia has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1641742466
+|move|p1a: Raikou|Volt Switch|p2a: STAGE START
+|-crit|p2a: STAGE START
+|-damage|p2a: STAGE START|0 fnt
+|faint|p2a: STAGE START
+|
+|t:|1641742473
+|switch|p1a: Kabutops|Kabutops, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1641742484
+|switch|p2a: STORM EAGLE|Flygon, F|100/100
+|-damage|p2a: STORM EAGLE|95/100|[from] Stealth Rock
+|turn|13
+|inactive|Kristyl ★ has 270 seconds left.
+|
+|t:|1641742490
+|move|p2a: STORM EAGLE|Earthquake|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|upkeep
+|
+|t:|1641742492
+|switch|p1a: Raikou|Raikou, shiny|39/100
+|-ability|p1a: Raikou|Pressure
+|turn|14
+|
+|t:|1641742497
+|move|p2a: STORM EAGLE|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|win|Somalia

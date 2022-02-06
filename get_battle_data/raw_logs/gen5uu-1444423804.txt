@@ -1,0 +1,382 @@
+|j|☆passportname
+|j|☆afuyeas
+|t:|1635469379
+|gametype|singles
+|player|p1|passportname|preschooler|
+|player|p2|afuyeas|pokemonrangerf-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Qwilfish, F|item
+|poke|p1|Heracross, F|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Umbreon, M|item
+|poke|p2|Cinccino, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Golurk|item
+|poke|p2|Zapdos|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Heracross, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by afuyeas)
+|
+|t:|1635469397
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|1
+|j| Odell Beckham Jr.
+|
+|t:|1635469404
+|move|p2a: Cinccino|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|49/100
+|c|☆afuyeas|hf
+|c|☆passportname|hf
+|
+|t:|1635469425
+|switch|p2a: Golurk|Golurk, shiny|100/100|[from]move: U-turn
+|move|p1a: Mew|Will-O-Wisp|p2a: Golurk
+|-status|p2a: Golurk|brn
+|
+|-heal|p1a: Mew|56/100|[from] item: Leftovers
+|-damage|p2a: Golurk|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1635469436
+|move|p1a: Mew|Taunt|p2a: Golurk
+|-start|p2a: Golurk|move: Taunt
+|cant|p2a: Golurk|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Mew|62/100|[from] item: Leftovers
+|-heal|p2a: Golurk|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Golurk|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1635469446
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Golurk|Shadow Punch|p1a: Rhyperior
+|-damage|p1a: Rhyperior|88/100
+|
+|-heal|p2a: Golurk|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Rhyperior|94/100|[from] item: Leftovers
+|-damage|p2a: Golurk|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|afuyeas has 120 seconds left.
+|
+|t:|1635469487
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Kingdra
+|-sidestart|p2: afuyeas|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|passportname has 120 seconds left.
+|
+|t:|1635469522
+|switch|p2a: Roserade|Roserade, F, shiny|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1635469532
+|switch|p1a: Heracross|Heracross, F|100/100
+|move|p2a: Roserade|Spikes|p1a: Heracross
+|-sidestart|p1: passportname|Spikes
+|
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1635469540
+|switch|p2a: Golurk|Golurk, shiny|76/100 brn
+|-damage|p2a: Golurk|70/100 brn|[from] Stealth Rock
+|move|p1a: Heracross|Megahorn|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|38/100 brn
+|
+|-heal|p2a: Golurk|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Golurk|32/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1635469544
+|move|p1a: Heracross|Megahorn|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|2/100 brn
+|move|p2a: Golurk|Stealth Rock|p1a: Heracross
+|-sidestart|p1: passportname|move: Stealth Rock
+|
+|-heal|p2a: Golurk|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Golurk|0 fnt|[from] brn
+|faint|p2a: Golurk
+|upkeep
+|inactive|afuyeas has 120 seconds left.
+|inactive|afuyeas has 90 seconds left.
+|
+|t:|1635469598
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|9
+|
+|t:|1635469613
+|move|p2a: Zapdos|Hidden Power|p1a: Heracross
+|-damage|p1a: Heracross|72/100
+|move|p1a: Heracross|Stone Edge|p2a: Zapdos|[miss]
+|-miss|p1a: Heracross|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|-heal|p1a: Heracross|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1635469623
+|move|p2a: Zapdos|Heat Wave|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635469629
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|88/100|[from] Spikes
+|-damage|p1a: Rhyperior|82/100|[from] Stealth Rock
+|turn|11
+|inactive|afuyeas has 90 seconds left.
+|inactive|afuyeas has 60 seconds left.
+|inactive|afuyeas has 30 seconds left.
+|inactive|afuyeas has 20 seconds left.
+|
+|t:|1635469705
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Heracross|[miss]
+|-miss|p1a: Rhyperior|p2a: Heracross
+|
+|-heal|p1a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|afuyeas has 30 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|inactive|afuyeas has 15 seconds left.
+|
+|t:|1635469720
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-damage|p1a: Qwilfish|76/100|[from] Spikes
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Close Combat|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|58/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|-heal|p1a: Qwilfish|64/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|inactive|afuyeas has 25 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|
+|t:|1635469727
+|switch|p2a: Roserade|Roserade, F, shiny|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: Qwilfish|Spikes|p2a: Roserade
+|-sidestart|p2: afuyeas|Spikes
+|
+|-heal|p1a: Qwilfish|70/100|[from] item: Black Sludge
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|inactive|afuyeas has 30 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|
+|t:|1635469738
+|switch|p1a: Mew|Mew|62/100
+|-damage|p1a: Mew|49/100|[from] Stealth Rock
+|-damage|p1a: Mew|37/100|[from] Spikes
+|move|p2a: Roserade|Giga Drain|p1a: Mew
+|-damage|p1a: Mew|13/100
+|-heal|p2a: Roserade|100/100|[from] drain|[of] p1a: Mew
+|
+|-heal|p1a: Mew|19/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|afuyeas has 30 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|inactive|afuyeas has 15 seconds left.
+|
+|t:|1635469753
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|69/100
+|move|p2a: Roserade|Sludge Bomb|p1a: Mew
+|-damage|p1a: Mew|40/100
+|
+|-heal|p1a: Mew|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|afuyeas has 25 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|inactive|passportname has 120 seconds left.
+|
+|t:|1635469788
+|move|p1a: Mew|Psyshock|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|5/100
+|move|p2a: Roserade|Spikes|p1a: Mew
+|-sidestart|p1: passportname|Spikes
+|
+|-heal|p1a: Mew|52/100|[from] item: Leftovers
+|-heal|p2a: Roserade|11/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|afuyeas has 30 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|inactive|afuyeas has 15 seconds left.
+|inactive|passportname has 120 seconds left.
+|inactive|afuyeas has 10 seconds left.
+|
+|t:|1635469810
+|move|p1a: Mew|Psyshock|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-crit|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-heal|p1a: Mew|58/100|[from] item: Leftovers
+|upkeep
+|inactive|afuyeas has 15 seconds left this turn.
+|inactive|afuyeas has 10 seconds left.
+|
+|t:|1635469816
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|-damage|p2a: Cinccino|76/100|[from] Spikes
+|turn|18
+|inactive|afuyeas has 20 seconds left this turn.
+|
+|t:|1635469826
+|move|p2a: Cinccino|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|6/100
+|inactive|afuyeas has 25 seconds left this turn.
+|inactive|afuyeas has 20 seconds left.
+|inactive|afuyeas has 15 seconds left.
+|
+|t:|1635469837
+|switch|p2a: Heracross|Heracross, M|88/100|[from]move: U-turn
+|-damage|p2a: Heracross|76/100|[from] Spikes
+|-damage|p2a: Heracross|64/100|[from] Stealth Rock
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|56/100
+|
+|-heal|p1a: Mew|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|afuyeas has 25 seconds left this turn.
+|
+|t:|1635469844
+|switch|p1a: Qwilfish|Qwilfish, F|70/100
+|-damage|p1a: Qwilfish|54/100|[from] Spikes
+|-damage|p1a: Qwilfish|42/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Megahorn|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|24/100
+|
+|-heal|p1a: Qwilfish|30/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|inactive|afuyeas has 30 seconds left.
+|
+|t:|1635469856
+|switch|p2a: Zapdos|Zapdos|88/100
+|-damage|p2a: Zapdos|63/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Qwilfish|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|47/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Qwilfish|45/100|[from] move: Pain Split
+|
+|-heal|p2a: Zapdos|53/100|[from] item: Leftovers
+|-heal|p1a: Qwilfish|51/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|inactive|afuyeas has 30 seconds left.
+|
+|t:|1635469867
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|-damage|p1a: Umbreon|72/100|[from] Spikes
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p1a: Umbreon|78/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|afuyeas has 30 seconds left.
+|
+|t:|1635469891
+|move|p2a: Zapdos|Thunderbolt|p1a: Umbreon
+|-damage|p1a: Umbreon|55/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|61/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|afuyeas has 30 seconds left.
+|
+|t:|1635469909
+|switch|p2a: Cinccino|Cinccino, F|76/100
+|-damage|p2a: Cinccino|63/100|[from] Stealth Rock
+|-damage|p2a: Cinccino|51/100|[from] Spikes
+|move|p1a: Umbreon|Toxic|p2a: Cinccino
+|-status|p2a: Cinccino|tox
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Cinccino|45/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|afuyeas has 30 seconds left.
+|c|☆afuyeas|gg
+|inactive|afuyeas has 20 seconds left.
+|c|☆passportname|gg
+|inactive|afuyeas has 15 seconds left.
+|c|☆afuyeas|not funny memes
+|inactive|afuyeas has 10 seconds left.
+|c|☆afuyeas|sadly :(
+|c|☆passportname|whatsnot funny
+|inactive|afuyeas has 5 seconds left.
+|-message|afuyeas forfeited.
+|
+|win|passportname
+|inactive|afuyeas has 10 seconds left this turn.
+|n|☆passportname|passportname
+|n|☆afuyeas|afuyeas
+|n| Odell Beckham Jr.|odellbeckhamjr

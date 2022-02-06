@@ -1,0 +1,128 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641244675
+|gametype|singles
+|player|p1|5cy|#ptpl3medicham|
+|player|p2|Lily|unknownf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Flygon, F|item
+|poke|p1|Roserade, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Azelf|item
+|poke|p2|Accelgor, F|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Linoone, M|item
+|poke|p2|Mew|item
+|poke|p2|Cobalion|item
+|teampreview
+|inactive|5cy also wants the timer to be on.
+|c|☆5cy|hf
+|c|☆5cy|..
+|c|☆5cy|linoone
+|c|☆Lily|hf
+|c|☆Lily|yea.
+|inactive|5cy has 270 seconds left.
+|
+|t:|1641244719
+|start
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Ruby Delusions|Accelgor, F|100/100
+|turn|1
+|c|+pokemonisfun|the snake
+|c|+pokemonisfun|is in
+|
+|t:|1641244746
+|move|p1a: Flygon|Fire Punch|p2a: Ruby Delusions
+|-supereffective|p2a: Ruby Delusions
+|-damage|p2a: Ruby Delusions|11/100
+|move|p2a: Ruby Delusions|Spikes|p1a: Flygon
+|-sidestart|p1: 5cy|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1641244752
+|move|p1a: Flygon|Fire Punch|p2a: Ruby Delusions
+|-supereffective|p2a: Ruby Delusions
+|-crit|p2a: Ruby Delusions
+|-damage|p2a: Ruby Delusions|0 fnt
+|faint|p2a: Ruby Delusions
+|
+|upkeep
+|
+|t:|1641244759
+|switch|p2a: Stardust Speedway|Linoone, M|100/100
+|turn|3
+|c|+pokemonisfun|lol
+|c|+pokemonisfun|lily is god
+|
+|t:|1641244779
+|move|p1a: Flygon|Fire Punch|p2a: Stardust Speedway
+|-damage|p2a: Stardust Speedway|68/100
+|move|p2a: Stardust Speedway|Belly Drum|p2a: Stardust Speedway
+|-damage|p2a: Stardust Speedway|18/100
+|-setboost|p2a: Stardust Speedway|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Stardust Speedway|Sitrus Berry|[eat]
+|-heal|p2a: Stardust Speedway|43/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|4
+|c|☆5cy|aint no wayyyy
+|c|☆5cy|LOOL
+|c|☆Lily|gg
+|inactive|5cy has 270 seconds left.
+|
+|t:|1641244803
+|switch|p1a: Roserade|Roserade, M|100/100
+|-damage|p1a: Roserade|88/100|[from] Spikes
+|move|p2a: Stardust Speedway|Extreme Speed|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1641244817
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|88/100|[from] Spikes
+|turn|5
+|
+|t:|1641244819
+|move|p2a: Stardust Speedway|Seed Bomb|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|inactive|5cy has 270 seconds left.
+|
+|t:|1641244826
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|88/100|[from] Spikes
+|turn|6
+|
+|t:|1641244828
+|move|p2a: Stardust Speedway|Extreme Speed|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|c|☆5cy|broken..
+|c|☆5cy|gg
+|-message|5cy forfeited.
+|
+|win|Lily

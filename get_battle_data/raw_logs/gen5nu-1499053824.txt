@@ -1,0 +1,399 @@
+|j|☆xbossarux
+|j|☆passion
+|t:|1643232051
+|gametype|singles
+|player|p1|xbossarux|gambler|
+|player|p2|passion|plasmagruntf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, F|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Gurdurr, M|item
+|poke|p1|Braviary, M|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|j|*BB-8-NU
+|c|☆passion|hf
+|j|@Oathkeeper
+|j|#xerovis
+|
+|t:|1643232062
+|start
+|switch|p1a: Serperior|Serperior, F|100/100
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Overgrow|[from] ability: Trace|[of] p1a: Serperior
+|turn|1
+|j|+Chazm
+|j|+Lucario•1582
+|j| joey milktank
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xbossarux)
+|j|@Quite Quiet
+|l|@Quite Quiet
+|
+|t:|1643232096
+|move|p1a: Serperior|Glare|p2a: Gardevoir
+|-status|p2a: Gardevoir|par
+|move|p2a: Gardevoir|Signal Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|j|@Quite Quiet
+|c|☆passion|sry
+|
+|t:|1643232104
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|turn|2
+|
+|t:|1643232112
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|move|p1a: Rotom|Air Slash|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|40/100
+|
+|upkeep
+|turn|3
+|
+|t:|1643232134
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Piloswine
+|-damage|p1a: Piloswine|86/100
+|
+|upkeep
+|turn|4
+|
+|t:|1643232141
+|move|p2a: Kangaskhan|Double-Edge|p1a: Piloswine
+|-damage|p1a: Piloswine|43/100
+|-damage|p2a: Kangaskhan|23/100|[from] Recoil
+|move|p1a: Piloswine|Stealth Rock|p2a: Kangaskhan
+|-sidestart|p2: passion|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1643232154
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Piloswine|Ice Shard|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|82/100
+|
+|-heal|p2a: Alomomola|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|j| kemman
+|inactive|passion has 120 seconds left.
+|
+|t:|1643232194
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|passion has 120 seconds left.
+|
+|t:|1643232200
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|move|p1a: Garbodor|Gunk Shot|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|78/100
+|
+|-heal|p2a: Golurk|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|8
+|inactive|passion has 120 seconds left.
+|
+|t:|1643232211
+|move|p1a: Garbodor|Spikes|p2a: Golurk
+|-sidestart|p2: passion|Spikes
+|move|p2a: Golurk|Stealth Rock|p1a: Garbodor
+|-sidestart|p1: xbossarux|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|j| 85percent
+|inactive|passion has 120 seconds left.
+|
+|t:|1643232240
+|switch|p1a: Piloswine|Piloswine, M|43/100
+|-damage|p1a: Piloswine|31/100|[from] Stealth Rock
+|move|p2a: Golurk|Shadow Punch|p1a: Piloswine
+|-damage|p1a: Piloswine|5/100
+|
+|upkeep
+|turn|10
+|
+|t:|1643232248
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|-damage|p2a: Alomomola|76/100|[from] Stealth Rock
+|move|p1a: Piloswine|Ice Shard|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|69/100
+|
+|-heal|p2a: Alomomola|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643232253
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Piloswine|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|42/100
+|
+|-heal|p2a: Alomomola|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643232258
+|move|p2a: Alomomola|Waterfall|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|-heal|p2a: Alomomola|98/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643232279
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643232304
+|switch|p2a: Gardevoir|Gardevoir, M|100/100 par
+|-damage|p2a: Gardevoir|88/100 par|[from] Stealth Rock
+|-damage|p2a: Gardevoir|76/100 par|[from] Spikes
+|-ability|p2a: Gardevoir|Guts|[from] ability: Trace|[of] p1a: Gurdurr
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|-heal|p2a: Gardevoir|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| 5Dots
+|
+|t:|1643232322
+|move|p1a: Gurdurr|Ice Punch|p2a: Gardevoir
+|-damage|p2a: Gardevoir|37/100 par
+|move|p2a: Gardevoir|Psychic|p1a: Gurdurr
+|-supereffective|p1a: Gurdurr
+|-damage|p1a: Gurdurr|10/100
+|
+|-heal|p2a: Gardevoir|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1643232330
+|move|p1a: Gurdurr|Ice Punch|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|j| open bibles
+|
+|t:|1643232355
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|-damage|p2a: Golurk|82/100|[from] Spikes
+|turn|16
+|
+|t:|1643232360
+|move|p2a: Golurk|Earthquake|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|upkeep
+|j|+Kiyo
+|
+|t:|1643232370
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1643232397
+|switch|p2a: Kangaskhan|Kangaskhan, F|23/100
+|-damage|p2a: Kangaskhan|11/100|[from] Spikes
+|-damage|p2a: Kangaskhan|0 fnt|[from] Stealth Rock
+|faint|p2a: Kangaskhan
+|move|p1a: Rotom|Air Slash|p2: Kangaskhan|[notarget]
+|-fail|p1a: Rotom
+|
+|upkeep
+|
+|t:|1643232401
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-damage|p2a: Alomomola|76/100|[from] Spikes
+|turn|18
+|
+|t:|1643232414
+|move|p1a: Rotom|Air Slash|p2a: Alomomola|[miss]
+|-miss|p1a: Rotom|p2a: Alomomola
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643232424
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643232434
+|switch|p2a: Golurk|Golurk|82/100
+|-damage|p2a: Golurk|69/100|[from] Spikes
+|-damage|p2a: Golurk|63/100|[from] Stealth Rock
+|move|p1a: Garbodor|Spikes|p2a: Golurk
+|-sidestart|p2: passion|Spikes
+|
+|-heal|p2a: Golurk|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|21
+|
+|t:|1643232442
+|move|p1a: Garbodor|Gunk Shot|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|84/100
+|move|p2a: Golurk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1643232448
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1643232453
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Golurk|Thunder Punch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|21/100
+|
+|upkeep
+|turn|23
+|
+|t:|1643232467
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|71/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|upkeep
+|turn|24
+|
+|t:|1643232472
+|move|p2a: Rotom|Will-O-Wisp|p1a: Braviary|[miss]
+|-miss|p2a: Rotom|p1a: Braviary
+|move|p1a: Braviary|Return|p2a: Rotom
+|-enditem|p1a: Braviary|Normal Gem|[from] gem
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1643232481
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|-damage|p2a: Garbodor|71/100|[from] Spikes
+|turn|25
+|c|+Kiyo|Gooooo xbaus
+|
+|t:|1643232498
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Garbodor|Gunk Shot|p1a: Braviary
+|-damage|p1a: Braviary|46/100
+|
+|upkeep
+|turn|26
+|
+|t:|1643232506
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|96/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Garbodor|Gunk Shot|p1a: Braviary
+|-damage|p1a: Braviary|71/100
+|
+|upkeep
+|turn|27
+|
+|t:|1643232515
+|move|p1a: Braviary|Return|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Braviary|46/100|[from] ability: Aftermath|[of] p2a: Garbodor
+|-damage|p1a: Braviary|30/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1643232519
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-damage|p2a: Alomomola|72/100|[from] Spikes
+|turn|28
+|c|☆passion|gg
+|-message|passion forfeited.
+|
+|win|xbossarux
+|n|☆xbossarux|xbossarux
+|n|☆passion|passion
+|n| BB-8-NU|bb8nu
+|n|+Oathkeeper|oathkeeper
+|n|§xerovis|xerovis
+|n|+Chazm|chazm
+|n| Lucario•1582|lucario1582
+|n| joey milktank|joeymilktank
+|n|@Quite Quiet|quitequiet
+|n| kemman|kemman
+|n| 85percent|85percent
+|n| 5Dots|5dots
+|n| open bibles|openbibles
+|n|+Kiyo|kiyo
+|l| BB-8-NU
+|l|☆passion
+|l|+Kiyo
+|l|@Quite Quiet
+|l|+Oathkeeper
+|l|§xerovis
+|l| open bibles
+|l| Lucario•1582
+|j|§xerovis

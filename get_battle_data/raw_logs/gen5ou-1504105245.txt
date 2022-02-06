@@ -1,0 +1,526 @@
+|j|☆rexxonmobile
+|j|☆Justplaysomesc
+|t:|1643952641
+|gametype|singles
+|player|p1|rexxonmobile|266|1277
+|player|p2|Justplaysomesc|hilbert|1204
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Espeon, F|item
+|poke|p1|Infernape, M|item
+|poke|p1|Jolteon, M|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Jellicent, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Justplaysomesc)
+|
+|t:|1643952669
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|1
+|
+|t:|1643952677
+|move|p1a: Jolteon|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|31/100
+|
+|t:|1643952680
+|switch|p1a: Espeon|Espeon, F|100/100|[from]move: Volt Switch
+|move|p2a: Skarmory|Spikes|p1a: Espeon
+|move|p1a: Espeon|Spikes|p2a: Skarmory|[from]ability: Magic Bounce
+|-sidestart|p2: Justplaysomesc|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1643952687
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|82/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1643952695
+|move|p1a: Espeon|Hidden Power|p2a: Skarmory
+|-damage|p2a: Skarmory|54/100
+|move|p2a: Skarmory|Whirlwind|p1a: Espeon
+|move|p1a: Espeon|Whirlwind|p2a: Skarmory|[from]ability: Magic Bounce
+|drag|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p2a: Jellicent|88/100|[from] Spikes
+|
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643952707
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Jellicent|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|81/100
+|-unboost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|87/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643952718
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Jellicent|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|67/100
+|-unboost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643952735
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Jellicent|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|53/100
+|-unboost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643952744
+|move|p1a: Espeon|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|35/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|32/100
+|
+|-heal|p1a: Espeon|38/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643952755
+|move|p1a: Espeon|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-heal|p1a: Espeon|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643952761
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|9
+|
+|t:|1643952764
+|move|p2a: Alakazam|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|9/100
+|move|p1a: Espeon|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|16/100
+|
+|-heal|p1a: Espeon|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643952777
+|move|p2a: Alakazam|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1643952784
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Alakazam|atk|1
+|turn|11
+|
+|t:|1643952788
+|move|p1a: Landorus|U-turn|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|t:|1643952797
+|switch|p1a: Infernape|Infernape, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1643952801
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|88/100|[from] Spikes
+|turn|12
+|
+|t:|1643952810
+|move|p1a: Infernape|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|59/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|-damage|p1a: Infernape|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Infernape|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Stealth Rock|p1a: Infernape
+|-sidestart|p1: rexxonmobile|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1643952820
+|move|p1a: Infernape|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|28/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|-damage|p1a: Infernape|60/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Infernape|43/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Earthquake|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|t:|1643952834
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1643952840
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|move|p1a: Rotom|Trick|p2a: Ferrothorn
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Rocky Helmet|[from] move: Trick
+|
+|upkeep
+|turn|15
+|
+|t:|1643952848
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: rexxonmobile|Spikes
+|
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1643952855
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: rexxonmobile|Spikes
+|
+|-damage|p2a: Ferrothorn|63/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1643952861
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100 brn
+|
+|t:|1643952864
+|switch|p1a: Scizor|Scizor, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|72/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Scizor
+|-sidestart|p1: rexxonmobile|Spikes
+|
+|-heal|p1a: Scizor|78/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|39/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1643952881
+|switch|p2a: Skarmory|Skarmory, F|54/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p1a: Scizor|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643952891
+|move|p1a: Scizor|Pursuit|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|22/100
+|-damage|p1a: Scizor|67/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Scizor
+|drag|p1a: Rotom|Rotom-Wash|88/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1643952902
+|switch|p2a: Garchomp|Garchomp, M|28/100
+|-damage|p2a: Garchomp|15/100|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|21
+|
+|t:|1643952913
+|move|p1a: Rotom|Will-O-Wisp|p2a: Garchomp
+|-status|p2a: Garchomp|brn
+|move|p2a: Garchomp|Dragon Tail|p1a: Rotom
+|-damage|p1a: Rotom|58/100
+|-damage|p2a: Garchomp|0 fnt|[from] item: Rocky Helmet|[of] p1a: Rotom
+|faint|p2a: Garchomp
+|drag|p1a: Scizor|Scizor, F|67/100
+|-damage|p1a: Scizor|42/100|[from] Spikes
+|-damage|p1a: Scizor|30/100|[from] Stealth Rock
+|
+|-heal|p1a: Scizor|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643952925
+|switch|p2a: Skarmory|Skarmory, F|22/100
+|turn|22
+|
+|t:|1643952936
+|move|p1a: Scizor|Pursuit|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|14/100
+|-damage|p1a: Scizor|19/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|64/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Scizor|25/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1643952947
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: Scizor|31/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1643952954
+|move|p1a: Scizor|Pursuit|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|86/100
+|-damage|p1a: Scizor|14/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Scizor
+|drag|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|upkeep
+|turn|25
+|
+|t:|1643952970
+|move|p1a: Landorus|Stone Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|58/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|26
+|
+|t:|1643952979
+|switch|p1a: Scizor|Scizor, F|14/100
+|-damage|p1a: Scizor|2/100|[from] Stealth Rock
+|-damage|p1a: Scizor|0 fnt|[from] Spikes
+|faint|p1a: Scizor
+|move|p2a: Skarmory|Brave Bird|p1: Scizor|[notarget]
+|-fail|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1643952987
+|switch|p1a: Rotom|Rotom-Wash|58/100
+|-damage|p1a: Rotom|45/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1643952995
+|move|p1a: Rotom|Will-O-Wisp|p2a: Skarmory
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Whirlwind|p1a: Rotom
+|drag|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|75/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|
+|-damage|p2a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1643953009
+|switch|p2a: Ferrothorn|Ferrothorn, F|39/100 brn
+|-damage|p2a: Ferrothorn|27/100 brn|[from] Spikes
+|move|p1a: Landorus|Stone Edge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|12/100 brn
+|
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|upkeep
+|
+|t:|1643953033
+|switch|p2a: Skarmory|Skarmory, F|88/100 brn
+|turn|29
+|
+|t:|1643953039
+|move|p1a: Landorus|Stone Edge|p2a: Skarmory|[miss]
+|-miss|p1a: Landorus|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Landorus
+|drag|p1a: Jolteon|Jolteon, M|100/100
+|-damage|p1a: Jolteon|75/100|[from] Spikes
+|-damage|p1a: Jolteon|63/100|[from] Stealth Rock
+|
+|-damage|p2a: Skarmory|76/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1643953048
+|move|p1a: Jolteon|Thunderbolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1643953053
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100/100
+|turn|31
+|
+|t:|1643953057
+|move|p1a: Jolteon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|47/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p2a: Reuniclus|53/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1643953064
+|move|p1a: Jolteon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|13/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|63/100
+|
+|-heal|p2a: Reuniclus|69/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1643953072
+|move|p1a: Jolteon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|33/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|83/100
+|
+|-heal|p2a: Reuniclus|89/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1643953083
+|move|p1a: Jolteon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|54/100
+|move|p2a: Reuniclus|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-heal|p2a: Reuniclus|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643953101
+|switch|p1a: Landorus|Landorus-Therian, M|75/100
+|-damage|p1a: Landorus|63/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|turn|35
+|
+|t:|1643953107
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|24/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|74/100
+|
+|-heal|p2a: Reuniclus|80/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1643953114
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|38/100
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|88/100
+|
+|-heal|p2a: Reuniclus|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1643953121
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|55/100
+|move|p2a: Reuniclus|Psychic|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Reuniclus|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643953126
+|switch|p1a: Rotom|Rotom-Wash|45/100
+|-damage|p1a: Rotom|33/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1643953131
+|move|p1a: Rotom|Hydro Pump|p2a: Reuniclus
+|-damage|p2a: Reuniclus|26/100
+|move|p2a: Reuniclus|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|Justplaysomesc
+|raw|rexxonmobile's rating: 1277 &rarr; <strong>1247</strong><br />(-30 for losing)
+|raw|Justplaysomesc's rating: 1204 &rarr; <strong>1234</strong><br />(+30 for winning)

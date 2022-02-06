@@ -1,0 +1,300 @@
+|j|☆seydawiz
+|j|☆ultracslewisjr
+|t:|1644175339
+|gametype|singles
+|player|p1|seydawiz|265|1224
+|player|p2|ultracslewisjr|lucas-gen4pt|1250
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Suicune|item
+|poke|p1|Espeon, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Weavile, F|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Infernape, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Keldeo|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ultracslewisjr)
+|
+|t:|1644175348
+|start
+|switch|p1a: Espeon|Espeon, F|100/100
+|switch|p2a: Infernape|Infernape, F|100/100
+|turn|1
+|
+|t:|1644175355
+|move|p2a: Infernape|Fake Out|p1a: Espeon
+|-damage|p1a: Espeon|77/100
+|cant|p1a: Espeon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1644175363
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Espeon|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|11/100
+|
+|upkeep
+|turn|3
+|
+|t:|1644175374
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Espeon|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|
+|upkeep
+|turn|4
+|
+|t:|1644175389
+|move|p2a: Dragonite|Extreme Speed|p1a: Espeon
+|-damage|p1a: Espeon|17/100
+|move|p1a: Espeon|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1644175396
+|switch|p2a: Infernape|Infernape, F|100/100
+|turn|5
+|
+|t:|1644175401
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Infernape|Fake Out|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|97/100
+|-damage|p2a: Infernape|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644175410
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Infernape|Stealth Rock|p1a: Suicune
+|-sidestart|p1: seydawiz|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|c|☆seydawiz|lol
+|c|☆seydawiz|that was ur game plan?
+|
+|t:|1644175430
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Suicune|Scald|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|88/100
+|
+|upkeep
+|turn|8
+|
+|t:|1644175441
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Azumarill|Double-Edge|p1a: Suicune
+|-damage|p1a: Suicune|52/100
+|-damage|p2a: Azumarill|74/100|[from] Recoil
+|
+|-heal|p1a: Suicune|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644175453
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Suicune|Hidden Power|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|51/100
+|
+|-heal|p1a: Suicune|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644175461
+|move|p2a: Keldeo|Secret Sword|p1a: Suicune
+|-damage|p1a: Suicune|35/100
+|move|p1a: Suicune|Hidden Power|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-heal|p1a: Suicune|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644175468
+|switch|p2a: Garchomp|Garchomp, F|11/100
+|turn|11
+|
+|t:|1644175478
+|move|p2a: Garchomp|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|4/100
+|move|p1a: Suicune|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Suicune|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644175495
+|switch|p2a: Azumarill|Azumarill, M|74/100
+|turn|12
+|
+|t:|1644175500
+|move|p2a: Azumarill|Aqua Jet|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1644175511
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1644175523
+|switch|p2a: Infernape|Infernape, F|88/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Infernape
+|-sidestart|p2: ultracslewisjr|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644175538
+|move|p2a: Infernape|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|24/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|-damage|p2a: Infernape|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|22/100
+|
+|-heal|p1a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644175553
+|move|p2a: Infernape|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|-damage|p2a: Infernape|10/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644175570
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|16
+|
+|t:|1644175581
+|move|p1a: Weavile|Ice Shard|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|-damage|p1a: Weavile|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644175589
+|switch|p2a: Azumarill|Azumarill, M|74/100
+|-damage|p2a: Azumarill|62/100|[from] Stealth Rock
+|turn|17
+|inactive|ultracslewisjr has 120 seconds left.
+|
+|t:|1644175617
+|switch|p1a: Espeon|Espeon, F|17/100
+|-damage|p1a: Espeon|5/100|[from] Stealth Rock
+|move|p2a: Azumarill|Double-Edge|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|-damage|p2a: Azumarill|61/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1644175628
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|18
+|
+|t:|1644175633
+|move|p1a: Alakazam|Psychic|p2a: Azumarill
+|-damage|p2a: Azumarill|9/100
+|move|p2a: Azumarill|Double-Edge|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|-damage|p2a: Azumarill|0 fnt|[from] Recoil
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1644175641
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1644175647
+|move|p2a: Breloom|Mach Punch|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|t:|1644175652
+|switch|p1a: Weavile|Weavile, F|66/100
+|-damage|p1a: Weavile|41/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|20
+|
+|t:|1644175663
+|move|p1a: Weavile|Ice Shard|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|19/100
+|-damage|p1a: Weavile|31/100|[from] item: Life Orb
+|move|p2a: Breloom|Mach Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1644175670
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1644175675
+|move|p1a: Dragonite|Extreme Speed|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|seydawiz
+|raw|seydawiz's rating: 1224 &rarr; <strong>1251</strong><br />(+27 for winning)
+|raw|ultracslewisjr's rating: 1250 &rarr; <strong>1223</strong><br />(-27 for losing)

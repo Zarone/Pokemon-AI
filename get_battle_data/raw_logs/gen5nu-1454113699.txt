@@ -1,0 +1,246 @@
+|j|☆RogerBuster
+|j|☆xbossarux
+|t:|1636766852
+|gametype|singles
+|player|p1|RogerBuster|winona|
+|player|p2|xbossarux|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Regice|item
+|poke|p1|Ninjask, F|item
+|poke|p1|Spinda, M|item
+|poke|p1|Zangoose, M|item
+|poke|p1|Shelgon, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Samurott, F|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Braviary, M|item
+|teampreview
+|j|*BB-8-NU
+|
+|t:|1636766879
+|start
+|switch|p1a: Shelgon|Shelgon, M|100/100
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|1
+|j| Links
+|
+|t:|1636766888
+|move|p2a: Charizard|Air Slash|p1a: Shelgon
+|-crit|p1a: Shelgon
+|-damage|p1a: Shelgon|0 fnt
+|faint|p1a: Shelgon
+|
+|upkeep
+|
+|t:|1636766895
+|switch|p1a: Regice|Regice|100/100
+|turn|2
+|
+|t:|1636766907
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|move|p1a: Regice|Charge Beam|p2a: Garbodor|[miss]
+|-miss|p1a: Regice|p2a: Garbodor
+|
+|upkeep
+|turn|3
+|
+|t:|1636766916
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Garbodor|Toxic Spikes|p1a: Golurk
+|-sidestart|p1: RogerBuster|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1636766924
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|move|p1a: Golurk|Stealth Rock|p2a: Rotom
+|-sidestart|p2: xbossarux|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1636766937
+|move|p2a: Rotom|Air Slash|p1a: Golurk
+|-damage|p1a: Golurk|45/100
+|cant|p1a: Golurk|flinch
+|
+|upkeep
+|turn|6
+|
+|t:|1636766949
+|switch|p1a: Regice|Regice|100/100
+|-status|p1a: Regice|psn
+|move|p2a: Rotom|Air Slash|p1a: Regice
+|-damage|p1a: Regice|76/100 psn
+|
+|-heal|p1a: Regice|82/100 psn|[from] item: Leftovers
+|-damage|p1a: Regice|70/100 psn|[from] psn
+|upkeep
+|turn|7
+|j| diseased rodent
+|
+|t:|1636766960
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Regice|Charge Beam|p2a: Garbodor
+|-damage|p2a: Garbodor|74/100
+|-boost|p1a: Regice|spa|1
+|
+|-heal|p1a: Regice|76/100 psn|[from] item: Leftovers
+|-damage|p1a: Regice|64/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1636766970
+|move|p2a: Garbodor|Spikes|p1a: Regice
+|-sidestart|p1: RogerBuster|Spikes
+|move|p1a: Regice|Ice Beam|p2a: Garbodor
+|-damage|p2a: Garbodor|13/100
+|
+|-heal|p1a: Regice|70/100 psn|[from] item: Leftovers
+|-damage|p1a: Regice|57/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1636766977
+|move|p2a: Garbodor|Explosion|p1a: Regice
+|-crit|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|faint|p2a: Garbodor
+|faint|p1a: Regice
+|
+|upkeep
+|
+|t:|1636766985
+|switch|p2a: Charizard|Charizard, F|100/100
+|switch|p1a: Spinda|Spinda, M|100/100
+|-damage|p1a: Spinda|88/100|[from] Spikes
+|-status|p1a: Spinda|psn
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1636767002
+|move|p1a: Spinda|Toxic|p2a: Charizard
+|-status|p2a: Charizard|tox
+|move|p2a: Charizard|Flamethrower|p1a: Spinda
+|-damage|p1a: Spinda|0 fnt
+|faint|p1a: Spinda
+|
+|-damage|p2a: Charizard|45/100 tox|[from] psn
+|upkeep
+|
+|t:|1636767013
+|switch|p1a: Ninjask|Ninjask, F|100/100
+|turn|11
+|
+|t:|1636767019
+|move|p1a: Ninjask|Aerial Ace|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1636767028
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1636767033
+|move|p1a: Ninjask|Aerial Ace|p2a: Braviary
+|-damage|p2a: Braviary|24/100
+|move|p2a: Braviary|Brave Bird|p1a: Ninjask
+|-enditem|p2a: Braviary|Flying Gem|[from] gem
+|-supereffective|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|-damage|p2a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: Braviary
+|
+|upkeep
+|l| Links
+|
+|t:|1636767049
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|-damage|p1a: Zangoose|88/100|[from] Spikes
+|-status|p1a: Zangoose|psn
+|turn|13
+|
+|t:|1636767059
+|move|p2a: Serperior|Giga Drain|p1a: Zangoose
+|-damage|p1a: Zangoose|42/100 psn
+|-heal|p2a: Serperior|100/100|[from] drain|[of] p1a: Zangoose
+|move|p1a: Zangoose|Facade|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-damage|p1a: Zangoose|30/100 psn|[from] psn
+|upkeep
+|j| Links
+|
+|t:|1636767069
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1636767074
+|move|p1a: Zangoose|Facade|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Zangoose|18/100 psn|[from] psn
+|upkeep
+|l| diseased rodent
+|
+|t:|1636767079
+|switch|p2a: Samurott|Samurott, F|100/100
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|turn|15
+|j| skierdude101
+|
+|t:|1636767084
+|move|p2a: Samurott|Aqua Jet|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|faint|p1a: Zangoose
+|
+|upkeep
+|
+|t:|1636767088
+|switch|p1a: Golurk|Golurk|45/100
+|-damage|p1a: Golurk|33/100|[from] Spikes
+|-status|p1a: Golurk|psn
+|turn|16
+|
+|t:|1636767093
+|move|p2a: Samurott|Aqua Jet|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|win|xbossarux
+|n|☆RogerBuster|rogerbuster
+|n|☆xbossarux|xbossarux
+|n| BB-8-NU|bb8nu
+|n| Links|links
+|n| skierdude101|skierdude101
+|l| BB-8-NU

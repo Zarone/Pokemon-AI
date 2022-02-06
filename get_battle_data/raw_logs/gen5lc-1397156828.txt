@@ -1,0 +1,427 @@
+|j|☆iss
+|j|☆F i l l e
+|t:|1629054272
+|gametype|singles
+|player|p1|iss|ethan|
+|player|p2|F i l l e|marley|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, M|item
+|poke|p1|Trapinch, L5, M|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Chinchou, L5, M|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|teampreview
+|c|☆F i l l e|hf bro
+|c|☆iss|gl!
+|j|+tjay
+|j| memcho
+|j|+16bit
+|j| BKC
+|j| juyrhtyd
+|j| watashi
+|j|+Lunala
+|l| juyrhtyd
+|j|+avarice
+|c|+avarice|GOOOO FILLE
+|
+|t:|1629054352
+|start
+|switch|p1a: Abra|Abra, L5, M|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|1
+|
+|t:|1629054360
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magic Guard|[from] ability: Trace|[of] p1a: Abra
+|move|p1a: Abra|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|48/100
+|
+|upkeep
+|turn|2
+|
+|t:|1629054426
+|switch|p2a: No Turn 3 chokes|Abra, L5, F|100/100
+|move|p1a: Abra|Psychic|p2a: No Turn 3 chokes
+|-resisted|p2a: No Turn 3 chokes
+|-crit|p2a: No Turn 3 chokes
+|-damage|p2a: No Turn 3 chokes|0 fnt
+|faint|p2a: No Turn 3 chokes
+|
+|upkeep
+|
+|t:|1629054431
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|turn|3
+|
+|t:|1629054436
+|move|p2a: Diglett|Beat Up|p1a: Abra
+|-supereffective|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|32/100
+|-supereffective|p1a: Abra
+|-damage|p1a: Abra|6/100
+|-supereffective|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|-hitcount|p1: Abra|3
+|-damage|p2a: Diglett|95/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1629054439
+|switch|p1a: Trapinch|Trapinch, L5, M|100/100
+|turn|4
+|
+|t:|1629054446
+|move|p2a: Diglett|Protect|p2a: Diglett
+|-singleturn|p2a: Diglett|Protect
+|move|p1a: Trapinch|Earthquake|p2a: Diglett
+|-activate|p2a: Diglett|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1629054449
+|move|p2a: Diglett|Earthquake|p1a: Trapinch
+|-damage|p1a: Trapinch|48/100
+|-damage|p2a: Diglett|89/100|[from] item: Life Orb
+|move|p1a: Trapinch|Earthquake|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|upkeep
+|j| kumiko
+|
+|t:|1629054481
+|switch|p2a: Staryu|Staryu, L5|100/100
+|turn|6
+|
+|t:|1629054519
+|switch|p1a: Chinchou|Chinchou, L5, M|100/100
+|move|p2a: Staryu|Toxic|p1a: Chinchou
+|-status|p1a: Chinchou|tox
+|
+|-damage|p1a: Chinchou|96/100 tox|[from] psn
+|upkeep
+|turn|7
+|j|+edgar
+|l| BKC
+|
+|t:|1629054544
+|move|p1a: Chinchou|Volt Switch|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|34/100
+|
+|t:|1629054551
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100|[from]move: Volt Switch
+|move|p2a: Staryu|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|73/100
+|-status|p1a: Mienfoo|brn
+|
+|-damage|p1a: Mienfoo|64/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1629054556
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|86/100
+|move|p1a: Mienfoo|Knock Off|p2a: Staryu
+|-damage|p2a: Staryu|81/100
+|-enditem|p2a: Staryu|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-damage|p1a: Mienfoo|55/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1629054561
+|move|p2a: Staryu|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|28/100 brn
+|move|p1a: Mienfoo|U-turn|p2a: Staryu
+|-damage|p2a: Staryu|67/100
+|
+|t:|1629054565
+|switch|p1a: Chinchou|Chinchou, L5, M|96/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Chinchou|92/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1629054568
+|move|p1a: Chinchou|Volt Switch|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|t:|1629054580
+|switch|p1a: Gastly|Gastly, L5, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1629054591
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|11
+|j|+Bouff
+|
+|t:|1629054604
+|switch|p1a: Trapinch|Trapinch, L5, M|48/100
+|move|p2a: Gastly|Shadow Ball|p1a: Trapinch
+|-damage|p1a: Trapinch|9/100
+|
+|upkeep
+|turn|12
+|
+|t:|1629054612
+|move|p2a: Gastly|Shadow Ball|p1a: Trapinch
+|-damage|p1a: Trapinch|0 fnt
+|faint|p1a: Trapinch
+|
+|upkeep
+|
+|t:|1629054623
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|turn|13
+|
+|t:|1629054647
+|move|p2a: Gastly|Trick|p1a: Vullaby
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Vullaby
+|-item|p1a: Vullaby|Black Sludge|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|move|p1a: Vullaby|Dark Pulse|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|15/100
+|
+|-damage|p1a: Vullaby|88/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|l|+tjay
+|
+|t:|1629054676
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Vullaby|Air Slash|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-damage|p1a: Vullaby|76/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1629054679
+|switch|p2a: Porygon|Porygon, L5|48/100
+|-ability|p2a: Porygon|Weak Armor|[from] ability: Trace|[of] p1a: Vullaby
+|turn|15
+|
+|t:|1629054687
+|move|p1a: Vullaby|Nasty Plot|p1a: Vullaby
+|-boost|p1a: Vullaby|spa|2
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|-damage|p1a: Vullaby|64/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|j|+tjay
+|
+|t:|1629054803
+|move|p1a: Vullaby|Dark Pulse|p2a: Porygon
+|-damage|p2a: Porygon|60/100
+|cant|p2a: Porygon|flinch
+|
+|-damage|p1a: Vullaby|52/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1629054829
+|switch|p1a: Mienfoo|Mienfoo, L5, F|60/100 brn
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|-damage|p1a: Mienfoo|50/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1629054871
+|switch|p2a: Gastly|Gastly, L5, F|15/100
+|move|p1a: Mienfoo|Knock Off|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|5/100
+|-enditem|p2a: Gastly|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-damage|p1a: Mienfoo|41/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1629054892
+|switch|p1a: Vullaby|Vullaby, L5, F|52/100
+|move|p2a: Gastly|Pain Split|p1a: Vullaby
+|-sethp|p1a: Vullaby|29/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Gastly|34/100|[from] move: Pain Split
+|
+|-damage|p1a: Vullaby|16/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1629054898
+|move|p2a: Gastly|Shadow Ball|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|upkeep
+|
+|t:|1629054900
+|switch|p1a: Chinchou|Chinchou, L5, M|92/100 tox
+|turn|21
+|
+|t:|1629054946
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Water Absorb|[from] ability: Trace|[of] p1a: Chinchou
+|move|p1a: Chinchou|Volt Switch|p2a: Porygon
+|-damage|p2a: Porygon|76/100
+|
+|t:|1629054952
+|switch|p1a: Mienfoo|Mienfoo, L5, F|73/100 brn|[from]move: Volt Switch
+|
+|-damage|p1a: Mienfoo|64/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1629055008
+|move|p1a: Mienfoo|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|68/100
+|
+|t:|1629055011
+|switch|p1a: Chinchou|Chinchou, L5, M|92/100 tox|[from]move: U-turn
+|move|p2a: Porygon|Tri Attack|p1a: Chinchou
+|-damage|p1a: Chinchou|42/100 tox
+|
+|-damage|p1a: Chinchou|38/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1629055018
+|move|p1a: Chinchou|Toxic|p2a: Porygon
+|-status|p2a: Porygon|tox
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 tox
+|
+|-damage|p1a: Chinchou|30/100 tox|[from] psn
+|-damage|p2a: Porygon|96/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1629055023
+|switch|p1a: Mienfoo|Mienfoo, L5, F|96/100 brn
+|move|p2a: Porygon|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|41/100 brn
+|
+|-damage|p2a: Porygon|88/100 tox|[from] psn
+|-damage|p1a: Mienfoo|32/100 brn|[from] brn
+|upkeep
+|turn|25
+|l| memcho
+|
+|t:|1629055044
+|switch|p2a: Gastly|Gastly, L5, F|34/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-crit|p2a: Gastly
+|-damage|p2a: Gastly|24/100
+|
+|t:|1629055046
+|switch|p1a: Chinchou|Chinchou, L5, M|30/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Chinchou|25/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1629055057
+|switch|p2a: Porygon|Porygon, L5|88/100 tox
+|-ability|p2a: Porygon|Water Absorb|[from] ability: Trace|[of] p1a: Chinchou
+|move|p1a: Chinchou|Volt Switch|p2a: Porygon
+|-damage|p2a: Porygon|64/100 tox
+|
+|t:|1629055061
+|switch|p1a: Gastly|Gastly, L5, F|100/100|[from]move: Volt Switch
+|
+|-damage|p2a: Porygon|60/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1629055092
+|switch|p2a: Gastly|Gastly, L5, F|24/100
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|79/100
+|
+|upkeep
+|turn|28
+|
+|t:|1629055099
+|move|p2a: Gastly|Shadow Ball|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|move|p1a: Gastly|Shadow Ball|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|-damage|p1a: Gastly|74/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1629055101
+|switch|p2a: Porygon|Porygon, L5|60/100 tox
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|turn|29
+|
+|t:|1629055104
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|53/100
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 tox
+|
+|-damage|p2a: Porygon|96/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1629055107
+|move|p1a: Gastly|Sludge Bomb|p2a: Porygon
+|-damage|p2a: Porygon|48/100 tox
+|-damage|p1a: Gastly|48/100|[from] item: Life Orb
+|move|p2a: Porygon|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|
+|-damage|p2a: Porygon|40/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1629055110
+|move|p1a: Gastly|Sludge Bomb|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|-damage|p1a: Gastly|43/100|[from] item: Life Orb
+|
+|win|iss
+|c|☆F i l l e|gg
+|c|☆iss|gg

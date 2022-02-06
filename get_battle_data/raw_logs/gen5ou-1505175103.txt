@@ -1,0 +1,571 @@
+|j|☆Sputnikov
+|j|☆sjlkfjhdikc
+|t:|1644106467
+|gametype|singles
+|player|p1|Sputnikov|sage|1006
+|player|p2|sjlkfjhdikc|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Flygon, F|item
+|poke|p1|Tangrowth, F|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Purugly, F|item
+|poke|p1|Froslass, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Cryogonal|item
+|poke|p2|Lucario, M|item
+|poke|p2|Gastrodon-East, M|item
+|poke|p2|Misdreavus, M|item
+|teampreview
+|
+|t:|1644106496
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|turn|1
+|
+|t:|1644106504
+|move|p1a: Mienshao|High Jump Kick|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-enditem|p2a: Cryogonal|Focus Sash
+|-damage|p2a: Cryogonal|1/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|move|p2a: Cryogonal|Ice Beam|p1a: Mienshao
+|-damage|p1a: Mienshao|15/100
+|
+|upkeep
+|turn|2
+|
+|t:|1644106515
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Misdreavus
+|-immune|p2a: Misdreavus
+|-damage|p1a: Mienshao|0 fnt|[from] highjumpkick
+|faint|p1a: Mienshao
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sjlkfjhdikc)
+|
+|t:|1644106533
+|switch|p1a: Froslass|Froslass, F|100/100
+|turn|3
+|
+|t:|1644106537
+|move|p1a: Froslass|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|68/100
+|-unboost|p2a: Misdreavus|def|1
+|move|p2a: Misdreavus|Shadow Ball|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|26/100
+|
+|upkeep
+|turn|4
+|
+|t:|1644106545
+|move|p1a: Froslass|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|23/100
+|move|p2a: Misdreavus|Destiny Bond|p2a: Misdreavus
+|-singlemove|p2a: Misdreavus|Destiny Bond
+|
+|upkeep
+|turn|5
+|
+|t:|1644106562
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Kingdra
+|-damage|p1a: Kingdra|72/100
+|-unboost|p1a: Kingdra|spd|1
+|
+|-heal|p1a: Kingdra|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644106572
+|move|p1a: Kingdra|Surf|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|-heal|p1a: Kingdra|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644106584
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|7
+|
+|t:|1644106603
+|move|p2a: Keldeo|Secret Sword|p1a: Kingdra
+|-damage|p1a: Kingdra|15/100
+|-damage|p2a: Keldeo|91/100|[from] item: Life Orb
+|move|p1a: Kingdra|Hidden Power|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|37/100
+|
+|-heal|p1a: Kingdra|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644106619
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Keldeo|Icy Wind|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|51/100
+|-unboost|p1a: Tangrowth|spe|1
+|-damage|p2a: Keldeo|27/100|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644106629
+|switch|p2a: Cryogonal|Cryogonal|1/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-heal|p1a: Tangrowth|57/100|[from] drain|[of] p2a: Cryogonal
+|faint|p2a: Cryogonal
+|
+|-heal|p1a: Tangrowth|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644106639
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|10
+|
+|t:|1644106645
+|move|p2a: Lucario|Ice Punch|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|22/100
+|move|p1a: Tangrowth|Stun Spore|p2a: Lucario
+|-status|p2a: Lucario|par
+|
+|-heal|p1a: Tangrowth|29/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644106669
+|move|p1a: Tangrowth|Protect|p1a: Tangrowth
+|-singleturn|p1a: Tangrowth|Protect
+|move|p2a: Lucario|Ice Punch|p1a: Tangrowth
+|-activate|p1a: Tangrowth|move: Protect
+|
+|-heal|p1a: Tangrowth|35/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|j| Catzrule
+|
+|t:|1644106680
+|switch|p1a: Kingdra|Kingdra, M|21/100
+|move|p2a: Lucario|Ice Punch|p1a: Kingdra
+|-crit|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|upkeep
+|
+|t:|1644106688
+|switch|p1a: Flygon|Flygon, F|100/100
+|turn|13
+|
+|t:|1644106699
+|move|p1a: Flygon|Outrage|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|50/100 par
+|-damage|p1a: Flygon|91/100|[from] item: Life Orb
+|cant|p2a: Lucario|par
+|
+|upkeep
+|turn|14
+|
+|t:|1644106706
+|move|p1a: Flygon|Outrage|p2a: Lucario|[from]lockedmove
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|-damage|p1a: Flygon|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644106715
+|switch|p2a: Keldeo|Keldeo|27/100
+|turn|15
+|
+|t:|1644106719
+|move|p2a: Keldeo|Icy Wind|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|-damage|p2a: Keldeo|17/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644106728
+|switch|p1a: Purugly|Purugly, F|100/100
+|turn|16
+|
+|t:|1644106734
+|move|p1a: Purugly|Fake Out|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|-damage|p1a: Purugly|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644106740
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|turn|17
+|
+|t:|1644106748
+|move|p1a: Purugly|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|95/100
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Purugly
+|-damage|p1a: Purugly|81/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Ice Beam|p1a: Purugly
+|-damage|p1a: Purugly|44/100
+|
+|upkeep
+|turn|18
+|
+|t:|1644106758
+|move|p1a: Purugly|Sucker Punch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|72/100
+|-damage|p1a: Purugly|34/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Scald|p1a: Purugly
+|-damage|p1a: Purugly|0 fnt
+|faint|p1a: Purugly
+|
+|upkeep
+|l| Catzrule
+|
+|t:|1644106783
+|switch|p1a: Tangrowth|Tangrowth, F|68/100
+|turn|19
+|inactive|Sputnikov has 120 seconds left.
+|
+|t:|1644106805
+|move|p1a: Tangrowth|Giga Drain|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Gastrodon
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|t:|1644106810
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|20
+|
+|t:|1644106814
+|switch|p1a: Froslass|Froslass, F|26/100
+|move|p2a: Dragonite|Dragon Claw|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-damage|p2a: Dragonite|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644106822
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|turn|21
+|
+|t:|1644106825
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Tangrowth|Leech Seed|p2a: Dragonite|[miss]
+|-miss|p1a: Tangrowth|p2a: Dragonite
+|
+|upkeep
+|turn|22
+|
+|t:|1644106832
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|65/100
+|-damage|p2a: Dragonite|91/100|[from] item: Life Orb
+|move|p1a: Tangrowth|Leech Seed|p2a: Dragonite|[miss]
+|-miss|p1a: Tangrowth|p2a: Dragonite
+|
+|-heal|p1a: Tangrowth|71/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Sputnikov|two misses
+|c|☆Sputnikov|oof
+|c|☆Sputnikov|gg
+|
+|t:|1644106845
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|34/100
+|-damage|p2a: Dragonite|81/100|[from] item: Life Orb
+|move|p1a: Tangrowth|Leech Seed|p2a: Dragonite|[miss]
+|-miss|p1a: Tangrowth|p2a: Dragonite
+|
+|-heal|p1a: Tangrowth|40/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆sjlkfjhdikc|gg'
+|c|☆Sputnikov|THREE
+|c|☆sjlkfjhdikc|I am roosting
+|
+|t:|1644106858
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Tangrowth|Stun Spore|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|-heal|p1a: Tangrowth|47/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1644106866
+|move|p1a: Tangrowth|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|12/100
+|-damage|p2a: Dragonite|91/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|18/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|78/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|30/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1644106875
+|move|p1a: Tangrowth|Protect|p1a: Tangrowth
+|-singleturn|p1a: Tangrowth|Protect
+|cant|p2a: Dragonite|par
+|
+|-heal|p1a: Tangrowth|36/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|66/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|48/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1644106883
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|59/100 par
+|-heal|p1a: Tangrowth|51/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|15/100
+|-damage|p2a: Dragonite|49/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|21/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|36/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|32/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1644106894
+|move|p1a: Tangrowth|Protect|p1a: Tangrowth
+|-singleturn|p1a: Tangrowth|Protect
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|87/100 par
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p1a: Tangrowth|39/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|74/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|50/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1644106903
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|67/100 par
+|-heal|p1a: Tangrowth|54/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|18/100
+|-damage|p2a: Dragonite|57/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|25/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|44/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|36/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1644106920
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|38/100 par
+|-heal|p1a: Tangrowth|40/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|88/100 par
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p1a: Tangrowth|46/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|75/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|57/100|[silent]
+|upkeep
+|turn|31
+|
+|t:|1644106931
+|move|p1a: Tangrowth|Protect|p1a: Tangrowth
+|-singleturn|p1a: Tangrowth|Protect
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-activate|p1a: Tangrowth|move: Protect
+|
+|-heal|p1a: Tangrowth|64/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|63/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|75/100|[silent]
+|upkeep
+|turn|32
+|c|☆sjlkfjhdikc|we are now in the stall wars
+|
+|t:|1644106944
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|55/100 par
+|-heal|p1a: Tangrowth|79/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|44/100
+|-damage|p2a: Dragonite|45/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|50/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|33/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|61/100|[silent]
+|upkeep
+|turn|33
+|c|☆Sputnikov|c'est la vie
+|c|☆Sputnikov|i was expecting your dragonite to use dragon dance
+|inactive|Sputnikov has 120 seconds left.
+|c|☆sjlkfjhdikc|I don't have it
+|c|☆Sputnikov|which is why i swapped to froslass, who had a choice scarf + trick
+|
+|t:|1644106982
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|25/100 par
+|-heal|p1a: Tangrowth|65/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|75/100 par
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p1a: Tangrowth|71/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|63/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|83/100|[silent]
+|upkeep
+|turn|34
+|c|☆sjlkfjhdikc|I have a different move in that slot
+|
+|t:|1644106996
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|56/100 par
+|-heal|p1a: Tangrowth|86/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|50/100
+|-damage|p2a: Dragonite|46/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|56/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|34/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|68/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1644107007
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|26/100 par
+|-heal|p1a: Tangrowth|71/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|76/100 par
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p1a: Tangrowth|78/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|64/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|89/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1644107018
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|50/100 par
+|-heal|p1a: Tangrowth|96/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|55/100
+|-damage|p2a: Dragonite|40/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|61/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|28/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|73/100|[silent]
+|upkeep
+|turn|37
+|c|☆Sputnikov|1 crit and you win lol
+|c|☆sjlkfjhdikc|I just hit me that I'm paraed
+|
+|t:|1644107039
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|21/100 par
+|-heal|p1a: Tangrowth|76/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|71/100 par
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p1a: Tangrowth|83/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|59/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|94/100|[silent]
+|upkeep
+|turn|38
+|
+|t:|1644107051
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100 par
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Dragonite
+|move|p2a: Dragonite|Dragon Claw|p1a: Tangrowth
+|-damage|p1a: Tangrowth|63/100
+|-damage|p2a: Dragonite|35/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Tangrowth|69/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|22/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|81/100|[silent]
+|upkeep
+|turn|39
+|c|☆sjlkfjhdikc|how is your day or night going?
+|
+|t:|1644107067
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|15/100 par
+|-heal|p1a: Tangrowth|84/100|[from] drain|[of] p2a: Dragonite
+|cant|p2a: Dragonite|par
+|
+|-heal|p1a: Tangrowth|90/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|2/100 par|[from] Leech Seed|[of] p1a: Tangrowth
+|-heal|p1a: Tangrowth|100/100|[silent]
+|upkeep
+|turn|40
+|c|☆Sputnikov|slowly, im playing pokemon instead of cleaning my apartment
+|
+|t:|1644107083
+|move|p1a: Tangrowth|Giga Drain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Sputnikov
+|raw|Sputnikov's rating: 1006 &rarr; <strong>1044</strong><br />(+38 for winning)
+|raw|sjlkfjhdikc's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆sjlkfjhdikc|lol gg
+|c|☆Sputnikov|ggwp
+|c|☆sjlkfjhdikc|indeed

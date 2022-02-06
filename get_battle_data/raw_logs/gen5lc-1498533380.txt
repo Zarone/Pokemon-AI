@@ -1,0 +1,420 @@
+|j|☆mentalsoft
+|j|☆cb aaron judge
+|t:|1643163657
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|cb aaron judge|brawly-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Slowpoke, L5, M|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|teampreview
+|c|☆cb aaron judge|h f
+|c|☆mentalsoft|hf
+|
+|t:|1643163674
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|turn|1
+|
+|t:|1643163686
+|move|p1a: Mienfoo|Fake Out|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|90/100
+|cant|p2a: Magnemite|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1643163699
+|move|p2a: Magnemite|Volt Switch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|69/100
+|
+|t:|1643163703
+|switch|p2a: Natu|Natu, L5, M|100/100|[from]move: Volt Switch
+|move|p1a: Mienfoo|Knock Off|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|83/100
+|-enditem|p2a: Natu|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|3
+|
+|t:|1643163715
+|switch|p1a: Natu|Natu, L5, F|100/100
+|move|p2a: Natu|U-turn|p1a: Natu
+|-damage|p1a: Natu|87/100
+|
+|t:|1643163719
+|switch|p2a: Magnemite|Magnemite, L5|90/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1643163727
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Magnemite|Volt Switch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|69/100
+|
+|t:|1643163732
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1643163762
+|switch|p1a: Gastly|Gastly, L5, F|100/100
+|move|p2a: Mienfoo|Fake Out|p1a: Gastly
+|-immune|p1a: Gastly
+|
+|upkeep
+|turn|6
+|
+|t:|1643163777
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|79/100
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|
+|upkeep
+|turn|7
+|
+|t:|1643163786
+|move|p1a: Gastly|Sludge Bomb|p2a: Mienfoo
+|-damage|p2a: Mienfoo|48/100
+|-damage|p1a: Gastly|74/100|[from] item: Life Orb
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-crit|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|-enditem|p1a: Gastly|Life Orb|[from] move: Knock Off|[of] p2a: Mienfoo
+|faint|p1a: Gastly
+|
+|upkeep
+|
+|t:|1643163808
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|8
+|
+|t:|1643163815
+|switch|p2a: Slowpoke|Slowpoke, L5, M|100/100
+|move|p1a: Mienfoo|High Jump Kick|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|83/100
+|
+|upkeep
+|turn|9
+|
+|t:|1643163826
+|move|p1a: Mienfoo|U-turn|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-damage|p2a: Slowpoke|25/100
+|
+|t:|1643163834
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100|[from]move: U-turn
+|move|p2a: Slowpoke|Psychic|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|82/100
+|
+|upkeep
+|turn|10
+|
+|t:|1643163847
+|switch|p2a: Natu|Natu, L5, M|83/100
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1643163869
+|move|p2a: Natu|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|37/100
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|53/100
+|
+|t:|1643163874
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1643163885
+|move|p2a: Natu|U-turn|p1a: Vullaby
+|-damage|p1a: Vullaby|88/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|
+|t:|1643163893
+|switch|p2a: Magnemite|Magnemite, L5|90/100|[from]move: U-turn
+|move|p1a: Vullaby|Air Slash|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|74/100
+|
+|upkeep
+|turn|13
+|
+|t:|1643163911
+|move|p2a: Magnemite|Volt Switch|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|16/100
+|
+|t:|1643163929
+|switch|p2a: Slowpoke|Slowpoke, L5, M|58/100|[from]move: Volt Switch
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|68/100
+|-singleturn|p1a: Vullaby|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1643163937
+|move|p1a: Vullaby|Taunt|p2a: Slowpoke
+|-start|p2a: Slowpoke|move: Taunt
+|cant|p2a: Slowpoke|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|15
+|
+|t:|1643163964
+|move|p1a: Vullaby|Air Slash|p2a: Slowpoke
+|-damage|p2a: Slowpoke|33/100
+|move|p2a: Slowpoke|Surf|p1a: Vullaby
+|-damage|p1a: Vullaby|44/100
+|
+|upkeep
+|turn|16
+|
+|t:|1643163970
+|switch|p2a: Magnemite|Magnemite, L5|74/100
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|96/100
+|-singleturn|p1a: Vullaby|move: Roost
+|
+|upkeep
+|turn|17
+|
+|t:|1643163981
+|switch|p1a: Ferroseed|Ferroseed, L5, M|82/100
+|move|p2a: Magnemite|Thunderbolt|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|64/100
+|
+|upkeep
+|turn|18
+|
+|t:|1643163987
+|switch|p2a: Natu|Natu, L5, M|53/100
+|move|p1a: Ferroseed|Stealth Rock|p2a: Natu
+|move|p2a: Natu|Stealth Rock|p1a: Ferroseed|[from]ability: Magic Bounce
+|-sidestart|p1: mentalsoft|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1643164000
+|move|p2a: Natu|Psychic|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|50/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|upkeep
+|
+|t:|1643164012
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|20
+|
+|t:|1643164021
+|move|p2a: Snover|Blizzard|p1a: Ferroseed
+|-damage|p1a: Ferroseed|5/100
+|-status|p1a: Ferroseed|frz
+|cant|p1a: Ferroseed|frz
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferroseed|0 fnt|[from] Hail
+|faint|p1a: Ferroseed
+|upkeep
+|
+|t:|1643164032
+|switch|p1a: Mienfoo|Mienfoo, L5, M|69/100
+|-damage|p1a: Mienfoo|64/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1643164049
+|switch|p2a: Slowpoke|Slowpoke, L5, M|65/100
+|move|p1a: Mienfoo|U-turn|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|36/100
+|
+|t:|1643164072
+|switch|p1a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|-damage|p1a: Staryu|91/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|86/100|[from] Hail
+|-damage|p2a: Slowpoke|33/100|[from] Hail
+|upkeep
+|turn|22
+|
+|t:|1643164079
+|move|p1a: Staryu|Rapid Spin|p2a: Slowpoke
+|-damage|p2a: Slowpoke|29/100
+|-sideend|p1: mentalsoft|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Staryu
+|move|p2a: Slowpoke|Thunder Wave|p1a: Staryu
+|-status|p1a: Staryu|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowpoke|25/100|[from] Hail
+|-damage|p1a: Staryu|81/100 par|[from] Hail
+|upkeep
+|turn|23
+|
+|t:|1643164088
+|-curestatus|p1a: Staryu|par|[from] ability: Natural Cure
+|switch|p1a: Natu|Natu, L5, F|87/100
+|move|p2a: Slowpoke|Psychic|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|70/100|[from] Hail
+|-damage|p2a: Slowpoke|22/100|[from] Hail
+|upkeep
+|turn|24
+|
+|t:|1643164102
+|move|p1a: Natu|Heat Wave|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|11/100
+|move|p2a: Slowpoke|Surf|p1a: Natu
+|-damage|p1a: Natu|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|35/100|[from] Hail
+|-damage|p2a: Slowpoke|8/100|[from] Hail
+|upkeep
+|turn|25
+|
+|t:|1643164112
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|87/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|96/100|[from] Hail
+|-damage|p1a: Natu|83/100|[from] Hail
+|upkeep
+|turn|26
+|
+|t:|1643164121
+|switch|p1a: Staryu|Staryu, L5|81/100
+|move|p2a: Drilbur|Rock Slide|p1a: Staryu
+|-damage|p1a: Staryu|53/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|48/100|[from] Hail
+|-damage|p2a: Drilbur|92/100|[from] Hail
+|upkeep
+|turn|27
+|
+|t:|1643164130
+|switch|p2a: Slowpoke|Slowpoke, L5, M|40/100
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|96/100|[from] Hail
+|-damage|p2a: Slowpoke|36/100|[from] Hail
+|upkeep
+|turn|28
+|
+|t:|1643164136
+|switch|p1a: Natu|Natu, L5, F|83/100
+|move|p2a: Slowpoke|Slack Off|p2a: Slowpoke
+|-heal|p2a: Slowpoke|86/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|79/100|[from] Hail
+|-damage|p2a: Slowpoke|83/100|[from] Hail
+|upkeep
+|turn|29
+|
+|t:|1643164142
+|move|p1a: Natu|Psychic|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|68/100
+|move|p2a: Slowpoke|Surf|p1a: Natu
+|-damage|p1a: Natu|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|35/100|[from] Hail
+|-damage|p2a: Slowpoke|65/100|[from] Hail
+|upkeep
+|turn|30
+|
+|t:|1643164165
+|move|p1a: Natu|Heat Wave|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|54/100
+|move|p2a: Slowpoke|Surf|p1a: Natu
+|-crit|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowpoke|50/100|[from] Hail
+|upkeep
+|
+|t:|1643164171
+|switch|p1a: Vullaby|Vullaby, L5, F|96/100
+|turn|31
+|
+|t:|1643164190
+|move|p1a: Vullaby|Air Slash|p2a: Slowpoke|[miss]
+|-miss|p1a: Vullaby|p2a: Slowpoke
+|move|p2a: Slowpoke|Thunder Wave|p1a: Vullaby
+|-status|p1a: Vullaby|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Slowpoke|47/100|[from] Hail
+|-damage|p1a: Vullaby|92/100 par|[from] Hail
+|upkeep
+|turn|32
+|-message|mentalsoft forfeited.
+|
+|win|cb aaron judge
+|c|☆mentalsoft|gg
+|c|☆cb aaron judge|gg
+|l|☆cb aaron judge

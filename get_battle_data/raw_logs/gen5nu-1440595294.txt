@@ -1,0 +1,415 @@
+|j|☆Krivyk
+|j|☆Nalorium ⧳
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634953870
+|gametype|singles
+|player|p1|Krivyk|bugsy-gen2|
+|player|p2|Nalorium ⧳|clair-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Golurk|item
+|poke|p1|Skuntank, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Misdreavus, F|item
+|teampreview
+|j| BB-8-NU
+|j| Spoonii
+|j|+Bughouse
+|c|☆Krivyk|gl hf
+|j|@susciety
+|c|☆Nalorium ⧳|=
+|inactive|Krivyk has 120 seconds left.
+|j| luchick ^•.•^
+|j| MolbotheOrange
+|j| Angry Dratini
+|inactive|Krivyk has 90 seconds left.
+|
+|t:|1634953932
+|start
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|1
+|inactive|Krivyk has 120 seconds left.
+|
+|t:|1634953970
+|move|p2a: Primeape|Close Combat|p1a: Eelektross
+|-damage|p1a: Eelektross|6/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Eelektross|Volt Switch|p2a: Primeape
+|-damage|p2a: Primeape|12/100
+|c|☆Nalorium ⧳|hmmm
+|c|☆Nalorium ⧳|I thought that killed
+|
+|t:|1634953979
+|switch|p1a: Charizard|Charizard, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|c|☆Nalorium ⧳|bughouse solve this tier pls
+|j| a1012
+|j| crystal vince
+|inactive|Nalorium ⧳ has 120 seconds left.
+|
+|t:|1634954020
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Charizard|Hidden Power|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|6/100
+|
+|upkeep
+|turn|3
+|inactive|Krivyk has 120 seconds left.
+|
+|t:|1634954051
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|
+|upkeep
+|turn|4
+|inactive|Nalorium ⧳ has 120 seconds left.
+|c| crystal vince|That critical hit
+|
+|t:|1634954066
+|move|p2a: Skuntank|Crunch|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|25/100
+|-unboost|p1a: Golurk|def|1
+|move|p1a: Golurk|Stealth Rock|p2a: Skuntank
+|-sidestart|p2: Nalorium ⧳|move: Stealth Rock
+|
+|-heal|p1a: Golurk|31/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Krivyk has 120 seconds left.
+|
+|t:|1634954074
+|-activate|p1a: Golurk|move: Pursuit
+|move|p2a: Skuntank|Pursuit|p1a: Golurk|[from]Pursuit
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|inactive|Krivyk has 120 seconds left.
+|
+|t:|1634954080
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|6
+|j| TopLel TopKek
+|j| ManoPriest666
+|inactive|Krivyk has 120 seconds left.
+|inactive|Nalorium ⧳ has 120 seconds left.
+|
+|t:|1634954105
+|move|p1a: Charizard|Fire Blast|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|c|☆Nalorium ⧳|Yea this is prob over
+|c|☆Nalorium ⧳|after the crit
+|inactive|Nalorium ⧳ has 90 seconds left.
+|
+|t:|1634954131
+|switch|p2a: Alomomola|Alomomola, M|39/100
+|-damage|p2a: Alomomola|27/100|[from] Stealth Rock
+|turn|7
+|inactive|Krivyk has 120 seconds left.
+|j| Kounamii
+|j| Thoroughfair
+|inactive|Krivyk has 90 seconds left.
+|l| Thoroughfair
+|
+|t:|1634954188
+|switch|p2a: Primeape|Primeape, M|12/100
+|-damage|p2a: Primeape|6/100|[from] Stealth Rock
+|move|p1a: Charizard|Fire Blast|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|
+|t:|1634954202
+|switch|p2a: Alomomola|Alomomola, M|60/100
+|-damage|p2a: Alomomola|48/100|[from] Stealth Rock
+|turn|8
+|inactive|Krivyk has 90 seconds left.
+|l| Kounamii
+|
+|t:|1634954214
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|9
+|inactive|Krivyk has 90 seconds left.
+|
+|t:|1634954220
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Skuntank|Taunt|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|97/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|10
+|inactive|Krivyk has 90 seconds left.
+|
+|t:|1634954234
+|move|p1a: Skuntank|Crunch|p2a: Alomomola
+|-damage|p2a: Alomomola|67/100
+|-unboost|p2a: Alomomola|def|1
+|move|p2a: Alomomola|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|82/100
+|
+|upkeep
+|turn|11
+|inactive|Krivyk has 90 seconds left.
+|
+|t:|1634954245
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|move|p1a: Skuntank|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|
+|upkeep
+|turn|12
+|
+|t:|1634954251
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Piloswine|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|
+|upkeep
+|turn|13
+|
+|t:|1634954256
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|14
+|
+|t:|1634954276
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|switch|p1a: Skuntank|Skuntank, M|82/100
+|
+|-heal|p1a: Skuntank|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|15
+|
+|t:|1634954294
+|move|p2a: Garbodor|Spikes|p1a: Skuntank
+|-sidestart|p1: Krivyk|Spikes
+|move|p1a: Skuntank|Pursuit|p2a: Garbodor
+|-damage|p2a: Garbodor|67/100
+|
+|upkeep
+|turn|16
+|
+|t:|1634954300
+|move|p2a: Garbodor|Spikes|p1a: Skuntank
+|-sidestart|p1: Krivyk|Spikes
+|move|p1a: Skuntank|Crunch|p2a: Garbodor
+|-damage|p2a: Garbodor|23/100
+|-unboost|p2a: Garbodor|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1634954306
+|move|p2a: Garbodor|Spikes|p1a: Skuntank
+|-sidestart|p1: Krivyk|Spikes
+|move|p1a: Skuntank|Pursuit|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Skuntank|76/100|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1634954310
+|switch|p2a: Piloswine|Piloswine, M|88/100
+|-damage|p2a: Piloswine|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1634954316
+|move|p1a: Skuntank|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|cant|p2a: Piloswine|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|19
+|inactive|Krivyk has 120 seconds left.
+|
+|t:|1634954326
+|switch|p1a: Eelektross|Eelektross, M|6/100
+|move|p2a: Piloswine|Earthquake|p1a: Eelektross
+|-immune|p1a: Eelektross|[from] ability: Levitate
+|
+|-heal|p1a: Eelektross|12/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Krivyk has 120 seconds left.
+|
+|t:|1634954332
+|move|p2a: Piloswine|Ice Shard|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|-end|p2a: Piloswine|move: Taunt
+|upkeep
+|
+|t:|1634954335
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|21
+|
+|t:|1634954337
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Charizard|Fire Blast|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100
+|
+|upkeep
+|turn|22
+|j|+Oathkeepre
+|
+|t:|1634954345
+|switch|p1a: Serperior|Serperior, M|100/100
+|-damage|p1a: Serperior|76/100|[from] Spikes
+|move|p2a: Alomomola|Toxic|p1a: Serperior
+|-status|p1a: Serperior|tox
+|
+|-damage|p1a: Serperior|70/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1634954352
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Serperior|Calm Mind|p1a: Serperior
+|-boost|p1a: Serperior|spa|1
+|-boost|p1a: Serperior|spd|1
+|
+|-damage|p1a: Serperior|57/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1634954366
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Serperior|Giga Drain|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Serperior|39/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1634954372
+|move|p1a: Serperior|Giga Drain|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-heal|p1a: Serperior|89/100 tox|[from] drain|[of] p2a: Alomomola
+|faint|p2a: Alomomola
+|-damage|p1a: Serperior|79/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Serperior|54/100 tox|[from] psn
+|upkeep
+|
+|t:|1634954373
+|switch|p2a: Piloswine|Piloswine, M|76/100
+|-damage|p2a: Piloswine|63/100|[from] Stealth Rock
+|turn|26
+|inactive|Krivyk has 120 seconds left.
+|l| luchick ^•.•^
+|
+|t:|1634954431
+|move|p2a: Piloswine|Ice Shard|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|15/100 tox
+|move|p1a: Serperior|Giga Drain|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|-heal|p1a: Serperior|58/100 tox|[from] drain|[of] p2a: Piloswine
+|faint|p2a: Piloswine
+|-damage|p1a: Serperior|48/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Serperior|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1634954436
+|switch|p2a: Misdreavus|Misdreavus, F|88/100
+|-damage|p2a: Misdreavus|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1634954444
+|move|p1a: Serperior|Giga Drain|p2a: Misdreavus
+|-damage|p2a: Misdreavus|3/100
+|-heal|p1a: Serperior|50/100 tox|[from] drain|[of] p2a: Misdreavus
+|-damage|p1a: Serperior|40/100 tox|[from] item: Life Orb
+|move|p2a: Misdreavus|Shadow Ball|p1a: Serperior
+|-damage|p1a: Serperior|17/100 tox
+|
+|-damage|p1a: Serperior|0 fnt|[from] psn
+|faint|p1a: Serperior
+|upkeep
+|
+|t:|1634954450
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|28
+|c|☆Krivyk|gg
+|l| TopLel TopKek
+|l| MolbotheOrange
+|
+|t:|1634954471
+|move|p1a: Charizard|Flamethrower|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|win|Krivyk
+|n|☆Krivyk|krivyk
+|n|☆Nalorium ⧳|nalorium
+|n| BB-8-NU|bb8nu
+|n| Spoonii|spoonii
+|n|+Bughouse|bughouse
+|n| susciety|susciety
+|n| Angry Dratini|angrydratini
+|n| a1012|a1012
+|n| crystal vince|crystalvince
+|n| ManoPriest666|manopriest666
+|n|+Oathkeepre|oathkeepre
+|l| BB-8-NU
+|l|+Oathkeepre
+|l|+Bughouse
+|l|☆Nalorium ⧳
+|l|☆Krivyk
+|l| ManoPriest666
+|l| a1012
+|l| Spoonii

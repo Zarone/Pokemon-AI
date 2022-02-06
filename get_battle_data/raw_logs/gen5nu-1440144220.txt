@@ -1,0 +1,414 @@
+|j|☆sfnblaster23
+|j|☆nucr d
+|t:|1634900576
+|gametype|singles
+|player|p1|sfnblaster23|red|
+|player|p2|nucr d|giovanni-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Eelektross, F|item
+|poke|p1|Golurk|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Serperior, F|item
+|poke|p2|Golurk|item
+|poke|p2|Skuntank, F|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sfnblaster23)
+|
+|t:|1634900586
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|j| Cinnmma
+|
+|t:|1634900592
+|move|p1a: Kangaskhan|Fake Out|p2a: Golurk
+|-damage|p2a: Golurk|80/100
+|cant|p2a: Golurk|flinch
+|
+|-heal|p2a: Golurk|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1634900598
+|move|p1a: Kangaskhan|Double-Edge|p2a: Golurk
+|-damage|p2a: Golurk|28/100
+|-damage|p1a: Kangaskhan|79/100|[from] Recoil
+|move|p2a: Golurk|Stealth Rock|p1a: Kangaskhan
+|-sidestart|p1: sfnblaster23|move: Stealth Rock
+|
+|-heal|p2a: Golurk|34/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1634900607
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Kangaskhan|Sucker Punch||[still]
+|-fail|p1a: Kangaskhan
+|
+|upkeep
+|turn|4
+|
+|t:|1634900612
+|move|p1a: Kangaskhan|Drain Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|87/100
+|-heal|p1a: Kangaskhan|89/100|[from] drain|[of] p2a: Alomomola
+|-damage|p1a: Kangaskhan|72/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Scald|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|56/100
+|-status|p1a: Kangaskhan|brn
+|
+|-damage|p1a: Kangaskhan|44/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1634900632
+|move|p1a: Kangaskhan|Drain Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|82/100
+|-heal|p1a: Kangaskhan|48/100 brn|[from] drain|[of] p2a: Alomomola
+|-damage|p1a: Kangaskhan|31/100 brn|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p1a: Kangaskhan|19/100 brn|[from] brn
+|upkeep
+|turn|6
+|j| AnyMaxQuakers?
+|
+|t:|1634900640
+|switch|p2a: Golurk|Golurk|34/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Golurk
+|-damage|p2a: Golurk|6/100
+|-damage|p1a: Kangaskhan|9/100 brn|[from] Recoil
+|
+|-heal|p2a: Golurk|71/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Golurk|77/100|[from] item: Leftovers
+|-damage|p1a: Kangaskhan|0 fnt|[from] brn
+|faint|p1a: Kangaskhan
+|upkeep
+|j| Grindiboi
+|l| AnyMaxQuakers?
+|
+|t:|1634900659
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1634900663
+|-activate|p2a: Golurk|move: Pursuit
+|move|p1a: Skuntank|Pursuit|p2a: Golurk|[from]Pursuit
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|6/100
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|
+|upkeep
+|turn|8
+|j| kalifguest22
+|
+|t:|1634900683
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Skuntank|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|t:|1634900694
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Scald|p1a: Eelektross
+|-damage|p1a: Eelektross|73/100
+|
+|-heal|p1a: Eelektross|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1634900702
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|move|p1a: Eelektross|Giga Drain|p2a: Eelektross
+|-damage|p2a: Eelektross|71/100
+|-heal|p1a: Eelektross|94/100|[from] drain|[of] p2a: Eelektross
+|
+|-heal|p1a: Eelektross|99/100|[from] item: Leftovers
+|-heal|p2a: Eelektross|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1634900712
+|move|p1a: Eelektross|Flamethrower|p2a: Eelektross
+|-damage|p2a: Eelektross|42/100
+|move|p2a: Eelektross|Giga Drain|p1a: Eelektross
+|-damage|p1a: Eelektross|71/100
+|-heal|p2a: Eelektross|56/100|[from] drain|[of] p1a: Eelektross
+|
+|-heal|p2a: Eelektross|62/100|[from] item: Leftovers
+|-heal|p1a: Eelektross|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1634900717
+|move|p2a: Eelektross|Giga Drain|p1a: Eelektross
+|-crit|p1a: Eelektross
+|-damage|p1a: Eelektross|22/100
+|-heal|p2a: Eelektross|90/100|[from] drain|[of] p1a: Eelektross
+|move|p1a: Eelektross|Giga Drain|p2a: Eelektross
+|-damage|p2a: Eelektross|64/100
+|-heal|p1a: Eelektross|35/100|[from] drain|[of] p2a: Eelektross
+|
+|-heal|p1a: Eelektross|41/100|[from] item: Leftovers
+|-heal|p2a: Eelektross|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1634900728
+|switch|p1a: Skuntank|Skuntank, M|88/100
+|-damage|p1a: Skuntank|76/100|[from] Stealth Rock
+|move|p2a: Eelektross|Giga Drain|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|60/100
+|-heal|p2a: Eelektross|77/100|[from] drain|[of] p1a: Skuntank
+|
+|-heal|p2a: Eelektross|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1634900735
+|-activate|p2a: Eelektross|move: Pursuit
+|move|p1a: Skuntank|Pursuit|p2a: Eelektross|[from]Pursuit
+|-damage|p2a: Eelektross|44/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1634900742
+|move|p1a: Skuntank|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Wish
+|
+|upkeep
+|turn|16
+|
+|t:|1634900747
+|move|p1a: Skuntank|Crunch|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|-damage|p1a: Skuntank|44/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|27/100
+|-status|p1a: Skuntank|brn
+|-enditem|p1a: Skuntank|Lum Berry|[eat]
+|-curestatus|p1a: Skuntank|brn|[msg]
+|
+|upkeep
+|turn|17
+|j| AnyMaxQuakers?
+|
+|t:|1634900757
+|move|p1a: Skuntank|Crunch|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|-damage|p1a: Skuntank|11/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Scald|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|-end|p2a: Alomomola|move: Taunt
+|upkeep
+|l| AnyMaxQuakers?
+|
+|t:|1634900765
+|switch|p1a: Eelektross|Eelektross, F|41/100
+|-damage|p1a: Eelektross|29/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1634900771
+|switch|p2a: Golurk|Golurk|6/100
+|move|p1a: Eelektross|Giga Drain|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-heal|p1a: Eelektross|32/100|[from] drain|[of] p2a: Golurk
+|faint|p2a: Golurk
+|
+|-heal|p1a: Eelektross|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634900774
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|19
+|
+|t:|1634900786
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|46/100
+|
+|upkeep
+|turn|20
+|
+|t:|1634900792
+|move|p2a: Charizard|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|21
+|
+|t:|1634900797
+|switch|p2a: Eelektross|Eelektross, M|44/100
+|move|p1a: Alomomola|Scald|p2a: Eelektross
+|-damage|p2a: Eelektross|29/100
+|
+|-heal|p1a: Alomomola|56/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Eelektross|35/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1634900805
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Eelektross|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|1/100
+|-heal|p2a: Eelektross|75/100|[from] drain|[of] p1a: Alomomola
+|
+|-heal|p2a: Eelektross|81/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|j| KoenJustHereTest
+|
+|t:|1634900816
+|move|p1a: Alomomola|Frustration|p2a: Eelektross
+|-crit|p2a: Eelektross
+|-damage|p2a: Eelektross|37/100
+|move|p2a: Eelektross|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-heal|p2a: Eelektross|37/100|[from] drain|[of] p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|-heal|p2a: Eelektross|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634900831
+|switch|p1a: Eelektross|Eelektross, F|38/100
+|-damage|p1a: Eelektross|26/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1634900836
+|move|p2a: Eelektross|Giga Drain|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|-heal|p2a: Eelektross|56/100|[from] drain|[of] p1a: Eelektross
+|faint|p1a: Eelektross
+|
+|-heal|p2a: Eelektross|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634900843
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1634900846
+|move|p1a: Golurk|Ice Punch|p2a: Eelektross
+|-damage|p2a: Eelektross|29/100
+|move|p2a: Eelektross|Giga Drain|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|45/100
+|-heal|p2a: Eelektross|54/100|[from] drain|[of] p1a: Golurk
+|
+|-heal|p1a: Golurk|51/100|[from] item: Leftovers
+|-heal|p2a: Eelektross|60/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1634900852
+|move|p1a: Golurk|Toxic|p2a: Eelektross
+|-status|p2a: Eelektross|tox
+|move|p2a: Eelektross|Giga Drain|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|4/100
+|-heal|p2a: Eelektross|85/100 tox|[from] drain|[of] p1a: Golurk
+|
+|-heal|p1a: Golurk|10/100|[from] item: Leftovers
+|-heal|p2a: Eelektross|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Eelektross|85/100 tox|[from] psn
+|upkeep
+|turn|27
+|l| KoenJustHereTest
+|
+|t:|1634900857
+|move|p1a: Golurk|Ice Punch|p2a: Eelektross
+|-damage|p2a: Eelektross|54/100 tox
+|move|p2a: Eelektross|Giga Drain|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-heal|p2a: Eelektross|59/100 tox|[from] drain|[of] p1a: Golurk
+|faint|p1a: Golurk
+|
+|-heal|p2a: Eelektross|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Eelektross|53/100 tox|[from] psn
+|upkeep
+|
+|t:|1634900862
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1634900866
+|move|p1a: Charizard|Fire Blast|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|-damage|p1a: Charizard|41/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634900872
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|29
+|
+|t:|1634900876
+|move|p2a: Serperior|Hidden Power|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|
+|win|nucr d
+|n|☆sfnblaster23|sfnblaster23
+|n|☆nucr d|nucrd
+|n| BB-8-NU|bb8nu
+|n| Cinnmma|cinnmma
+|n| Grindiboi|grindiboi
+|n| kalifguest22|kalifguest22
+|l| BB-8-NU
+|l|☆sfnblaster23
+|l| kalifguest22
+|j|+Corthius
+|l|☆nucr d
+|l|+Corthius
+|j| TheDarkRising
+|l| Cinnmma
+|l| TheDarkRising
+|j| TheDarkRising

@@ -1,0 +1,234 @@
+|j|☆xbossarux
+|j|‽Cynthia the Lady
+|t:|1634523102
+|gametype|singles
+|player|p1|xbossarux|gambler|
+|player|p2|Cynthia the Lady|cynthia-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, M|item
+|poke|p1|Samurott, F|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Braviary, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Carracosta, F|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Garbodor, M|item
+|teampreview
+|j| nulxitsfmr
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cynthia the Lady)
+|l| nulxitsfmr
+|j|@Oathkeepre
+|j| joey milktank
+|inactive|xbossarux has 120 seconds left.
+|
+|t:|1634523139
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Carracosta|Carracosta, F|100/100
+|turn|1
+|inactive|xbossarux has 120 seconds left.
+|
+|t:|1634523171
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Carracosta|Stealth Rock|p1a: Serperior
+|-sidestart|p1: xbossarux|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1634523179
+|move|p1a: Serperior|Glare|p2a: Carracosta
+|-status|p2a: Carracosta|par
+|move|p2a: Carracosta|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|32/100
+|
+|-heal|p1a: Serperior|38/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1634523191
+|move|p1a: Serperior|Giga Drain|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-ability|p2a: Carracosta|Sturdy
+|-damage|p2a: Carracosta|1/100 par
+|-heal|p1a: Serperior|87/100|[from] drain|[of] p2a: Carracosta
+|cant|p2a: Carracosta|par
+|
+|-heal|p1a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1634523202
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Serperior|Hidden Power|p2a: Garbodor
+|-damage|p2a: Garbodor|81/100
+|
+|-heal|p1a: Serperior|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j|%turtledoggo1
+|
+|t:|1634523214
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: Garbodor|Gunk Shot|p1a: Garbodor|[miss]
+|-miss|p2a: Garbodor|p1a: Garbodor
+|
+|upkeep
+|turn|6
+|
+|t:|1634523221
+|move|p2a: Garbodor|Spikes|p1a: Garbodor
+|-sidestart|p1: xbossarux|Spikes
+|move|p1a: Garbodor|Spikes|p2a: Garbodor
+|-sidestart|p2: Cynthia the Lady|Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1634523226
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-damage|p2a: Camerupt|88/100|[from] Spikes
+|move|p1a: Garbodor|Spikes|p2a: Camerupt
+|-sidestart|p2: Cynthia the Lady|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1634523236
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|move|p2a: Camerupt|Eruption|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|upkeep
+|j|+Shellnuts
+|
+|t:|1634523245
+|switch|p1a: Samurott|Samurott, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Spikes
+|-damage|p1a: Samurott|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1634523252
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|
+|upkeep
+|turn|10
+|
+|t:|1634523257
+|move|p1a: Samurott|Razor Shell|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|58/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Mandibuzz|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634523269
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1634523273
+|switch|p2a: Camerupt|Camerupt, M|88/100
+|-damage|p2a: Camerupt|72/100|[from] Spikes
+|move|p1a: Rotom|Air Slash|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|
+|t:|1634523278
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|84/100|[from] Spikes
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Rotom
+|turn|12
+|l|+Shellnuts
+|
+|t:|1634523291
+|switch|p1a: Serperior|Serperior, M|99/100
+|-damage|p1a: Serperior|87/100|[from] Stealth Rock
+|-damage|p1a: Serperior|75/100|[from] Spikes
+|move|p2a: Gardevoir|Psychic|p1a: Serperior
+|-damage|p1a: Serperior|16/100
+|
+|-heal|p1a: Serperior|22/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1634523301
+|move|p2a: Gardevoir|Psychic|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1634523304
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1634523309
+|move|p1a: Charizard|Flamethrower|p2a: Gardevoir
+|-damage|p2a: Gardevoir|33/100
+|move|p2a: Gardevoir|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1634523316
+|switch|p1a: Rotom|Rotom-Fan|76/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1634523321
+|move|p2a: Gardevoir|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1634523325
+|switch|p1a: Garbodor|Garbodor, F|88/100
+|-damage|p1a: Garbodor|76/100|[from] Stealth Rock
+|-damage|p1a: Garbodor|63/100|[from] Spikes
+|turn|16
+|l|%turtledoggo1
+|
+|t:|1634523331
+|move|p2a: Gardevoir|Psychic|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|win|Cynthia the Lady
+|n|☆xbossarux|xbossarux
+|n|‽Cynthia the Lady|cynthiathelady
+|n|+Oathkeepre|oathkeepre
+|n| joey milktank|joeymilktank

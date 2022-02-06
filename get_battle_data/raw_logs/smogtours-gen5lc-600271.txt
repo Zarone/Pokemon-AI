@@ -1,0 +1,446 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641173980
+|gametype|singles
+|player|p1|levi|mira|
+|player|p2|brewfasa|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Clamperl, L5, F|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Shellder, L5, M|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Chinchou, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Diglett, L5, M|item
+|teampreview
+|c|☆levi|glhf 
+|c|☆brewfasa|u2
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1641174021
+|start
+|switch|p1a: Porygon|Porygon, L5|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|turn|1
+|
+|t:|1641174038
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Porygon
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|81/100
+|
+|upkeep
+|turn|2
+|
+|t:|1641174057
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Porygon|Thunder Wave|p2a: Natu
+|move|p2a: Natu|Thunder Wave|p1a: Porygon|[from]ability: Magic Bounce
+|-status|p1a: Porygon|par
+|
+|upkeep
+|turn|3
+|
+|t:|1641174069
+|move|p2a: Natu|Calm Mind|p2a: Natu
+|-boost|p2a: Natu|spa|1
+|-boost|p2a: Natu|spd|1
+|move|p1a: Porygon|Thunder Wave|p2a: Natu
+|move|p2a: Natu|Thunder Wave|p1a: Porygon|[from]ability: Magic Bounce
+|-fail|p1a: Porygon|par
+|
+|upkeep
+|turn|4
+|
+|t:|1641174090
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|move|p2a: Natu|Calm Mind|p2a: Natu
+|-boost|p2a: Natu|spa|1
+|-boost|p2a: Natu|spd|1
+|
+|upkeep
+|turn|5
+|inactive|levi has 270 seconds left.
+|
+|t:|1641174131
+|move|p1a: Diglett|Memento|p2a: Natu
+|-unboost|p2a: Natu|atk|2
+|-unboost|p2a: Natu|spa|2
+|faint|p1a: Diglett
+|move|p2a: Natu|Psychic|p1: Diglett|[notarget]
+|-fail|p2a: Natu
+|
+|upkeep
+|
+|t:|1641174133
+|switch|p1a: Clamperl|Clamperl, L5, F|100/100
+|turn|6
+|
+|t:|1641174141
+|move|p2a: Natu|Psychic|p1a: Clamperl
+|-damage|p1a: Clamperl|43/100
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1641174153
+|move|p1a: Clamperl|Ice Beam|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|upkeep
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1641174195
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|turn|8
+|
+|t:|1641174202
+|move|p2a: Diglett|Sucker Punch||[still]
+|-fail|p2a: Diglett
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|upkeep
+|turn|9
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1641174209
+|move|p2a: Diglett|Sucker Punch||[still]
+|-fail|p2a: Diglett
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|upkeep
+|turn|10
+|
+|t:|1641174216
+|move|p2a: Diglett|Sucker Punch||[still]
+|-fail|p2a: Diglett
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|0
+|-boost|p1a: Clamperl|spa|0
+|-boost|p1a: Clamperl|spe|0
+|
+|upkeep
+|turn|11
+|
+|t:|1641174222
+|move|p2a: Diglett|Sucker Punch||[still]
+|-fail|p2a: Diglett
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|0
+|-boost|p1a: Clamperl|spa|0
+|-boost|p1a: Clamperl|spe|0
+|
+|upkeep
+|turn|12
+|
+|t:|1641174229
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|0
+|-boost|p1a: Clamperl|spa|0
+|-boost|p1a: Clamperl|spe|0
+|move|p2a: Diglett|Earthquake|p1a: Clamperl
+|-damage|p1a: Clamperl|0 fnt
+|faint|p1a: Clamperl
+|-damage|p2a: Diglett|95/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641174234
+|switch|p1a: Porygon|Porygon, L5|100/100 par
+|-ability|p1a: Porygon|Arena Trap|[from] ability: Trace|[of] p2a: Diglett
+|turn|13
+|
+|t:|1641174243
+|move|p2a: Diglett|Stealth Rock|p1a: Porygon
+|-sidestart|p1: levi|move: Stealth Rock
+|move|p1a: Porygon|Ice Beam|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|upkeep
+|
+|t:|1641174255
+|switch|p2a: Timburr|Timburr, L5, F|100/100
+|turn|14
+|
+|t:|1641174259
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|upkeep
+|turn|15
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1641174307
+|move|p1a: Mienfoo|Fake Out|p2a: Timburr
+|-damage|p2a: Timburr|92/100
+|cant|p2a: Timburr|flinch
+|
+|upkeep
+|turn|16
+|inactive|brewfasa has 240 seconds left.
+|inactive|levi has 270 seconds left.
+|
+|t:|1641174342
+|move|p1a: Mienfoo|Knock Off|p2a: Timburr
+|-resisted|p2a: Timburr
+|-damage|p2a: Timburr|88/100
+|-enditem|p2a: Timburr|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|upkeep
+|turn|17
+|inactive|levi has 270 seconds left.
+|
+|t:|1641174353
+|move|p1a: Mienfoo|U-turn|p2a: Timburr
+|-resisted|p2a: Timburr
+|-damage|p2a: Timburr|80/100
+|
+|t:|1641174354
+|switch|p1a: Shellder|Shellder, L5, M|100/100|[from]move: U-turn
+|-damage|p1a: Shellder|90/100|[from] Stealth Rock
+|move|p2a: Timburr|Drain Punch|p1a: Shellder
+|-damage|p1a: Shellder|6/100
+|-heal|p2a: Timburr|100/100|[from] drain|[of] p1a: Shellder
+|
+|upkeep
+|turn|18
+|
+|t:|1641174363
+|move|p2a: Timburr|Mach Punch|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|faint|p1a: Shellder
+|
+|upkeep
+|
+|t:|1641174364
+|switch|p1a: Natu|Natu, L5, M|100/100
+|-damage|p1a: Natu|77/100|[from] Stealth Rock
+|turn|19
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1641174407
+|switch|p2a: Chinchou|Chinchou, L5, M|100/100
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|100/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1641174416
+|switch|p1a: Porygon|Porygon, L5|100/100 par
+|-damage|p1a: Porygon|89/100 par|[from] Stealth Rock
+|-ability|p1a: Porygon|Volt Absorb|[from] ability: Trace|[of] p2a: Chinchou
+|move|p2a: Chinchou|Hydro Pump|p1a: Porygon
+|-damage|p1a: Porygon|50/100 par
+|
+|upkeep
+|turn|21
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1641174426
+|move|p2a: Chinchou|Hydro Pump|p1a: Porygon|[miss]
+|-miss|p2a: Chinchou|p1a: Porygon
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 par
+|
+|upkeep
+|turn|22
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1641174458
+|move|p2a: Chinchou|Hydro Pump|p1a: Porygon|[miss]
+|-miss|p2a: Chinchou|p1a: Porygon
+|move|p1a: Porygon|Thunder Wave|p2a: Chinchou
+|-immune|p2a: Chinchou|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|23
+|
+|t:|1641174470
+|move|p2a: Chinchou|Hydro Pump|p1a: Porygon
+|-damage|p1a: Porygon|62/100 par
+|move|p1a: Porygon|Psychic|p2a: Chinchou
+|-damage|p2a: Chinchou|59/100
+|-unboost|p2a: Chinchou|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1641174479
+|switch|p2a: Timburr|Timburr, L5, F|100/100
+|cant|p1a: Porygon|par
+|
+|upkeep
+|turn|25
+|
+|t:|1641174497
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|move|p2a: Timburr|Drain Punch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|66/100
+|
+|upkeep
+|turn|26
+|
+|t:|1641174504
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|96/100
+|
+|t:|1641174509
+|switch|p1a: Porygon|Porygon, L5|62/100 par|[from]move: U-turn
+|-damage|p1a: Porygon|50/100 par|[from] Stealth Rock
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|
+|upkeep
+|turn|27
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1641174516
+|move|p2a: Gastly|Taunt|p1a: Porygon
+|-start|p1a: Porygon|move: Taunt
+|cant|p1a: Porygon|move: Taunt|Recover
+|
+|upkeep
+|turn|28
+|
+|t:|1641174522
+|switch|p2a: Porygon|Porygon, L5|81/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Porygon
+|cant|p1a: Porygon|par
+|
+|upkeep
+|turn|29
+|
+|t:|1641174533
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|24/100 par
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|62/100
+|-unboost|p2a: Porygon|spd|1
+|
+|-end|p1a: Porygon|move: Taunt
+|upkeep
+|turn|30
+|
+|t:|1641174545
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|upkeep
+|
+|t:|1641174548
+|switch|p1a: Natu|Natu, L5, M|100/100
+|-damage|p1a: Natu|77/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1641174555
+|move|p1a: Natu|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|16/100
+|move|p2a: Porygon|Thunderbolt|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|10/100
+|
+|upkeep
+|turn|32
+|
+|t:|1641174568
+|switch|p2a: Chinchou|Chinchou, L5, M|59/100
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|62/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|upkeep
+|turn|33
+|
+|t:|1641174574
+|switch|p1a: Mienfoo|Mienfoo, L5, F|96/100
+|-damage|p1a: Mienfoo|92/100|[from] Stealth Rock
+|move|p2a: Chinchou|Thunderbolt|p1a: Mienfoo
+|-damage|p1a: Mienfoo|53/100
+|
+|upkeep
+|turn|34
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1641174590
+|switch|p2a: Gastly|Gastly, L5, F|96/100
+|move|p1a: Mienfoo|High Jump Kick|p2a: Gastly
+|-immune|p2a: Gastly
+|-damage|p1a: Mienfoo|5/100|[from] highjumpkick
+|
+|upkeep
+|turn|35
+|
+|t:|1641174597
+|move|p2a: Gastly|Shadow Ball|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1641174602
+|switch|p1a: Natu|Natu, L5, M|62/100
+|-damage|p1a: Natu|39/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1641174606
+|move|p2a: Gastly|Shadow Ball|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|win|brewfasa
+|c|☆levi|gg
+|c|☆brewfasa|gg

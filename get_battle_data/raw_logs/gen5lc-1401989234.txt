@@ -1,0 +1,335 @@
+|j|☆Omfg guy
+|j|☆Trade
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1629698111
+|gametype|singles
+|player|p1|Omfg guy|morty|
+|player|p2|Trade|daisy-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, F|item
+|poke|p1|Riolu, L5, F|item
+|poke|p1|Munchlax, L5, M|item
+|poke|p1|Snover, L5, M|item
+|poke|p1|Dwebble, L5, F|item
+|poke|p1|Tentacool, L5, F|item
+|poke|p2|Omanyte, L5, M|item
+|poke|p2|Houndour, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Exeggcute, L5, F|item
+|poke|p2|Drifloon, L5, M|item
+|teampreview
+|j|*Lady Monita
+|inactive|Omfg guy also wants the timer to be on.
+|j| cOMPETEVE
+|j| OtakuSpot1
+|c|☆Omfg guy|Gl
+|c|☆Omfg guy|Is this semi?
+|j| Reallyevilmuffin
+|j| yugoluikg
+|c|☆Trade|gl
+|inactive|Omfg guy has 120 seconds left.
+|c|☆Trade|finals
+|c|☆Omfg guy|Nice
+|j| MajrhomoBenxecutus
+|l| MajrhomoBenxecutus
+|c| OtakuSpot1|gl both
+|n|+cOMPETEVE|competeve
+|n|+cOMPETEVE|competeve
+|c|☆Omfg guy|/log cOMPETEVE was promoted to Room Voice by Omfg guy.
+|n|+cOMPETEVE|competeve
+|c|☆Omfg guy|Thanks
+|
+|t:|1629698163
+|start
+|switch|p1a: Dwebble|Dwebble, L5, F|100/100
+|switch|p2a: Omanyte|Omanyte, L5, M|100/100
+|turn|1
+|
+|t:|1629698186
+|move|p1a: Dwebble|Stealth Rock|p2a: Omanyte
+|-sidestart|p2: Trade|move: Stealth Rock
+|move|p2a: Omanyte|Spikes|p1a: Dwebble
+|-sidestart|p1: Omfg guy|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1629698191
+|move|p1a: Dwebble|Spikes|p2a: Omanyte
+|-sidestart|p2: Trade|Spikes
+|move|p2a: Omanyte|Spikes|p1a: Dwebble
+|-sidestart|p1: Omfg guy|Spikes
+|
+|upkeep
+|turn|3
+|j| yomamathiccc
+|
+|t:|1629698195
+|move|p1a: Dwebble|Spikes|p2a: Omanyte
+|-sidestart|p2: Trade|Spikes
+|move|p2a: Omanyte|Spikes|p1a: Dwebble
+|-sidestart|p1: Omfg guy|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1629698200
+|move|p1a: Dwebble|Spikes|p2a: Omanyte
+|-sidestart|p2: Trade|Spikes
+|move|p2a: Omanyte|Scald|p1a: Dwebble
+|-supereffective|p1a: Dwebble
+|-ability|p1a: Dwebble|Sturdy
+|-damage|p1a: Dwebble|5/100
+|
+|upkeep
+|turn|5
+|l| yomamathiccc
+|c|+cOMPETEVE|hf u guys
+|-enditem|p1a: Dwebble|Custap Berry|[eat]
+|-activate|p1a: Dwebble|item: Custap Berry|[consumed]
+|
+|t:|1629698205
+|move|p1a: Dwebble|X-Scissor|p2a: Omanyte
+|-damage|p2a: Omanyte|74/100
+|move|p2a: Omanyte|Scald|p1a: Dwebble
+|-supereffective|p1a: Dwebble
+|-damage|p1a: Dwebble|0 fnt
+|faint|p1a: Dwebble
+|
+|upkeep
+|
+|t:|1629698226
+|switch|p1a: Riolu|Riolu, L5, F|100/100
+|-damage|p1a: Riolu|79/100|[from] Spikes
+|turn|6
+|
+|t:|1629698232
+|move|p2a: Omanyte|Scald|p1a: Riolu
+|-damage|p1a: Riolu|35/100
+|move|p1a: Riolu|Roar|p2a: Omanyte
+|drag|p2a: Exeggcute|Exeggcute, L5, F|100/100
+|-damage|p2a: Exeggcute|92/100|[from] Stealth Rock
+|-damage|p2a: Exeggcute|70/100|[from] Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1629698262
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Roar|p2a: Exeggcute|[from]move: Copycat
+|drag|p2a: Houndour|Houndour, L5, M|100/100
+|-damage|p2a: Houndour|79/100|[from] Stealth Rock
+|-damage|p2a: Houndour|58/100|[from] Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1629698273
+|move|p2a: Houndour|Protect|p2a: Houndour
+|-singleturn|p2a: Houndour|Protect
+|move|p1a: Riolu|Copycat||[still]
+|-fail|p1a: Riolu
+|
+|upkeep
+|turn|9
+|
+|t:|1629698279
+|move|p1a: Riolu|Protect|p1a: Riolu
+|-singleturn|p1a: Riolu|Protect
+|move|p2a: Houndour|Fire Blast|p1a: Riolu
+|-activate|p1a: Riolu|move: Protect
+|
+|upkeep
+|turn|10
+|
+|t:|1629698291
+|switch|p1a: Tentacool|Tentacool, L5, F|100/100
+|-damage|p1a: Tentacool|79/100|[from] Spikes
+|move|p2a: Houndour|Fire Blast|p1a: Tentacool
+|-resisted|p1a: Tentacool
+|-damage|p1a: Tentacool|61/100
+|-damage|p2a: Houndour|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1629698299
+|switch|p2a: Drifloon|Drifloon, L5, M|100/100
+|-damage|p2a: Drifloon|76/100|[from] Stealth Rock
+|move|p1a: Tentacool|Rapid Spin|p2a: Drifloon
+|-immune|p2a: Drifloon
+|
+|upkeep
+|turn|12
+|
+|t:|1629698306
+|move|p2a: Drifloon|Acrobatics|p1a: Tentacool
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Tentacool|0 fnt
+|faint|p1a: Tentacool
+|
+|upkeep
+|
+|t:|1629698313
+|switch|p1a: Riolu|Riolu, L5, F|35/100
+|-damage|p1a: Riolu|14/100|[from] Spikes
+|turn|13
+|
+|t:|1629698318
+|move|p1a: Riolu|Protect|p1a: Riolu
+|-singleturn|p1a: Riolu|Protect
+|move|p2a: Drifloon|Acrobatics|p1a: Riolu
+|-activate|p1a: Riolu|move: Protect
+|
+|upkeep
+|turn|14
+|j| Gladion2105
+|
+|t:|1629698326
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Acrobatics|p2a: Drifloon|[from]move: Copycat
+|-damage|p2a: Drifloon|48/100
+|move|p2a: Drifloon|Acrobatics|p1a: Riolu
+|-supereffective|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|faint|p1a: Riolu
+|
+|upkeep
+|
+|t:|1629698332
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|15
+|
+|t:|1629698339
+|move|p2a: Drifloon|Acrobatics|p1a: Abra
+|-enditem|p1a: Abra|Focus Sash
+|-damage|p1a: Abra|5/100
+|move|p1a: Abra|Shadow Ball|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|upkeep
+|
+|t:|1629698349
+|switch|p2a: Munchlax|Munchlax, L5, M|100/100
+|-damage|p2a: Munchlax|90/100|[from] Stealth Rock
+|-damage|p2a: Munchlax|67/100|[from] Spikes
+|turn|16
+|
+|t:|1629698354
+|move|p1a: Abra|Psychic|p2a: Munchlax
+|-damage|p2a: Munchlax|37/100
+|move|p2a: Munchlax|Pursuit|p1a: Abra
+|-supereffective|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|upkeep
+|
+|t:|1629698363
+|switch|p1a: Munchlax|Munchlax, L5, M|100/100
+|-damage|p1a: Munchlax|78/100|[from] Spikes
+|turn|17
+|
+|t:|1629698368
+|move|p1a: Munchlax|Curse|p1a: Munchlax
+|-unboost|p1a: Munchlax|spe|1
+|-boost|p1a: Munchlax|atk|1
+|-boost|p1a: Munchlax|def|1
+|move|p2a: Munchlax|Return|p1a: Munchlax
+|-damage|p1a: Munchlax|49/100
+|
+|upkeep
+|turn|18
+|l| OtakuSpot1
+|j| Vexy123
+|
+|t:|1629698394
+|move|p2a: Munchlax|Return|p1a: Munchlax
+|-damage|p1a: Munchlax|17/100
+|move|p1a: Munchlax|Rest|p1a: Munchlax
+|-status|p1a: Munchlax|slp|[from] move: Rest
+|-heal|p1a: Munchlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|19
+|
+|t:|1629698403
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|-damage|p2a: Mienfoo|74/100|[from] Spikes
+|cant|p1a: Munchlax|slp
+|
+|upkeep
+|turn|20
+|
+|t:|1629698406
+|move|p2a: Mienfoo|Knock Off|p1a: Munchlax
+|-damage|p1a: Munchlax|97/100 slp
+|-enditem|p1a: Munchlax|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|cant|p1a: Munchlax|slp
+|
+|upkeep
+|turn|21
+|
+|t:|1629698410
+|move|p2a: Mienfoo|Drain Punch|p1a: Munchlax
+|-supereffective|p1a: Munchlax
+|-damage|p1a: Munchlax|39/100 slp
+|-heal|p2a: Mienfoo|100/100|[from] drain|[of] p1a: Munchlax
+|-curestatus|p1a: Munchlax|slp|[msg]
+|move|p1a: Munchlax|Zen Headbutt|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|40/100
+|
+|upkeep
+|turn|22
+|
+|t:|1629698418
+|move|p2a: Mienfoo|Drain Punch|p1a: Munchlax
+|-supereffective|p1a: Munchlax
+|-damage|p1a: Munchlax|0 fnt
+|-heal|p2a: Mienfoo|66/100|[from] drain|[of] p1a: Munchlax
+|faint|p1a: Munchlax
+|
+|upkeep
+|
+|t:|1629698422
+|switch|p1a: Snover|Snover, L5, M|100/100
+|-damage|p1a: Snover|79/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|23
+|c|☆Omfg guy|Gg
+|
+|t:|1629698428
+|move|p1a: Snover|Blizzard|p2a: Mienfoo
+|-damage|p2a: Mienfoo|9/100
+|move|p2a: Mienfoo|Drain Punch|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|-heal|p2a: Mienfoo|48/100|[from] drain|[of] p1a: Snover
+|faint|p1a: Snover
+|
+|win|Trade
+|n|☆Omfg guy|omfgguy
+|n|☆Trade|trade
+|n|*Lady Monita|ladymonita
+|n|+cOMPETEVE|competeve
+|n| Reallyevilmuffin|reallyevilmuffin
+|n| yugoluikg|yugoluikg
+|n| Gladion2105|gladion2105
+|n| Vexy123|vexy123

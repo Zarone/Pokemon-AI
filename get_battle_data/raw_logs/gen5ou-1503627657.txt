@@ -1,0 +1,289 @@
+|j|☆rexxonmobile
+|j|☆Elcabezaderodilla
+|t:|1643896084
+|gametype|singles
+|player|p1|rexxonmobile|170|1142
+|player|p2|Elcabezaderodilla|will|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rexxonmobile)
+|inactive|Elcabezaderodilla has 120 seconds left.
+|inactive|Elcabezaderodilla has 90 seconds left.
+|
+|t:|1643896230
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|inactive|rexxonmobile has 120 seconds left.
+|
+|t:|1643896272
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: rexxonmobile|move: Stealth Rock
+|move|p1a: Jirachi|Stealth Rock|p2a: Aerodactyl
+|-sidestart|p2: Elcabezaderodilla|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643896275
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643896280
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|4/100
+|move|p1a: Jirachi|Iron Head|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|5/100
+|
+|-heal|p1a: Jirachi|54/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643896290
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|t:|1643896294
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1643896303
+|move|p2a: Aerodactyl|Taunt|p1a: Breloom
+|-start|p1a: Breloom|move: Taunt
+|cant|p1a: Breloom|move: Taunt|Substitute
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1643896305
+|move|p2a: Aerodactyl|Stone Edge|p1a: Breloom|[miss]
+|-miss|p2a: Aerodactyl|p1a: Breloom
+|move|p1a: Breloom|Drain Punch|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-heal|p1a: Breloom|97/100 tox|[from] drain|[of] p2a: Aerodactyl
+|faint|p2a: Aerodactyl
+|
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1643896307
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1643896315
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Breloom|Drain Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|63/100
+|
+|-end|p1a: Breloom|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1643896326
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Latios|Draco Meteor|p1a: Politoed
+|-enditem|p2a: Latios|Dragon Gem|[from] gem
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643896335
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1643896340
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|100/100
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643896343
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643896350
+|move|p2a: Latios|Surf|p1a: Thundurus
+|-damage|p1a: Thundurus|30/100
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|36/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643896355
+|move|p2a: Latios|Surf|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643896359
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643896361
+|move|p2a: Latios|Recover|p2a: Latios
+|-heal|p2a: Latios|100/100
+|move|p1a: Latios|Dragon Pulse|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1643896367
+|move|p1a: Latios|Dragon Pulse|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643896371
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1643896374
+|-activate|p1a: Latios|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-damage|p2a: Scizor|78/100|[from] item: Life Orb
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643896378
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|turn|16
+|
+|t:|1643896406
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|69/100 tox
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Breloom|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|inactive|rexxonmobile has 120 seconds left.
+|
+|t:|1643896437
+|move|p1a: Breloom|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|36/100
+|-heal|p1a: Breloom|100/100 tox|[from] drain|[of] p2a: Scizor
+|move|p2a: Scizor|Pursuit|p1a: Breloom
+|-resisted|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|-damage|p2a: Scizor|26/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|inactive|rexxonmobile has 120 seconds left.
+|
+|t:|1643896449
+|move|p2a: Scizor|Bullet Punch|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|-damage|p2a: Scizor|17/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643896451
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643896457
+|move|p2a: Scizor|Bullet Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|-damage|p2a: Scizor|7/100|[from] item: Life Orb
+|
+|win|Elcabezaderodilla
+|raw|rexxonmobile's rating: 1142 &rarr; <strong>1130</strong><br />(-12 for losing)
+|raw|Elcabezaderodilla's rating: 1336 &rarr; <strong>1346</strong><br />(+10 for winning)

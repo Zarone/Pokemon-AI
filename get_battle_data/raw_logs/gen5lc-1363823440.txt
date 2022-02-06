@@ -1,0 +1,241 @@
+|j|☆opkingler
+|j|☆Shadowomegahorn
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1624446364
+|gametype|singles
+|player|p1|opkingler|chuck|
+|player|p2|Shadowomegahorn|ghetsis-gen5bw|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Aipom, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p2|Shelmet, L5, M|item
+|poke|p2|Pidove, L5, F|item
+|poke|p2|Darumaka, L5, M|item
+|poke|p2|Deino, L5, M|item
+|poke|p2|Archen, L5, M|item
+|poke|p2|Snivy, L5, M|item
+|teampreview
+|
+|t:|1624446380
+|start
+|switch|p1a: Aipom|Aipom, L5, F|100/100
+|switch|p2a: Shelmet|Shelmet, L5, M|100/100
+|turn|1
+|
+|t:|1624446391
+|move|p1a: Aipom|Fake Out|p2a: Shelmet
+|-damage|p2a: Shelmet|58/100
+|-damage|p1a: Aipom|92/100|[from] item: Life Orb
+|cant|p2a: Shelmet|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1624446398
+|move|p1a: Aipom|Fury Swipes|p2a: Shelmet
+|-damage|p2a: Shelmet|39/100
+|-damage|p2a: Shelmet|20/100
+|-damage|p2a: Shelmet|0 fnt
+|faint|p2a: Shelmet
+|-hitcount|p2: Shelmet|3
+|-damage|p1a: Aipom|83/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1624446412
+|switch|p2a: Deino|Deino, L5, M|100/100
+|turn|3
+|
+|t:|1624446422
+|move|p1a: Aipom|U-turn|p2a: Deino
+|-supereffective|p2a: Deino
+|-damage|p2a: Deino|0 fnt
+|faint|p2a: Deino
+|-damage|p1a: Aipom|74/100|[from] item: Life Orb
+|
+|t:|1624446430
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1624446440
+|switch|p2a: Snivy|Snivy, L5, M|100/100
+|turn|4
+|
+|t:|1624446450
+|move|p1a: Mienfoo|Fake Out|p2a: Snivy
+|-damage|p2a: Snivy|77/100
+|cant|p2a: Snivy|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1624446457
+|move|p2a: Snivy|Glare|p1a: Mienfoo
+|-status|p1a: Mienfoo|par
+|move|p1a: Mienfoo|U-turn|p2a: Snivy
+|-supereffective|p2a: Snivy
+|-damage|p2a: Snivy|0 fnt
+|faint|p2a: Snivy
+|
+|t:|1624446466
+|switch|p1a: Aipom|Aipom, L5, F|74/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1624446477
+|switch|p2a: Pidove|Pidove, L5, F|100/100
+|turn|6
+|
+|t:|1624446484
+|move|p2a: Pidove|Protect|p2a: Pidove
+|-singleturn|p2a: Pidove|Protect
+|move|p1a: Aipom|Fake Out|p2a: Pidove
+|-activate|p2a: Pidove|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1624446492
+|move|p2a: Pidove|Quick Attack|p1a: Aipom
+|-damage|p1a: Aipom|48/100
+|move|p1a: Aipom|Fury Swipes|p2a: Pidove
+|-damage|p2a: Pidove|82/100
+|-damage|p2a: Pidove|64/100
+|-damage|p2a: Pidove|46/100
+|-damage|p2a: Pidove|28/100
+|-damage|p2a: Pidove|10/100
+|-hitcount|p2a: Pidove|5
+|-damage|p1a: Aipom|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1624446508
+|move|p2a: Pidove|Protect|p2a: Pidove
+|-singleturn|p2a: Pidove|Protect
+|move|p1a: Aipom|Fury Swipes|p2a: Pidove
+|-activate|p2a: Pidove|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1624446527
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|move|p2a: Pidove|Quick Attack|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|90/100
+|
+|upkeep
+|turn|10
+|
+|t:|1624446537
+|switch|p2a: Darumaka|Darumaka, L5, M|100/100
+|move|p1a: Magnemite|Volt Switch|p2a: Darumaka
+|-damage|p2a: Darumaka|43/100
+|
+|t:|1624446545
+|switch|p1a: Aipom|Aipom, L5, F|40/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|11
+|
+|t:|1624446563
+|move|p1a: Aipom|Fake Out|p2a: Darumaka
+|-damage|p2a: Darumaka|8/100
+|-damage|p1a: Aipom|31/100|[from] item: Life Orb
+|cant|p2a: Darumaka|flinch
+|
+|upkeep
+|turn|12
+|j| DavidYGreninja
+|
+|t:|1624446570
+|move|p1a: Aipom|Fury Swipes|p2a: Darumaka|[miss]
+|-miss|p1a: Aipom|p2a: Darumaka
+|move|p2a: Darumaka|Flame Wheel|p1a: Aipom
+|-damage|p1a: Aipom|0 fnt
+|faint|p1a: Aipom
+|
+|upkeep
+|
+|t:|1624446579
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 par
+|turn|13
+|
+|t:|1624446585
+|move|p1a: Mienfoo|Fake Out|p2a: Darumaka
+|-damage|p2a: Darumaka|0 fnt
+|faint|p2a: Darumaka
+|
+|upkeep
+|
+|t:|1624446591
+|switch|p2a: Pidove|Pidove, L5, F|10/100
+|turn|14
+|inactive|opkingler has 120 seconds left.
+|inactive|opkingler has 90 seconds left.
+|
+|t:|1624446660
+|move|p2a: Pidove|Protect|p2a: Pidove
+|-singleturn|p2a: Pidove|Protect
+|move|p1a: Mienfoo|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Mienfoo
+|
+|upkeep
+|turn|15
+|inactive|opkingler has 90 seconds left.
+|
+|t:|1624446673
+|move|p2a: Pidove|Quick Attack|p1a: Mienfoo
+|-damage|p1a: Mienfoo|87/100 par
+|move|p1a: Mienfoo|Knock Off|p2a: Pidove
+|-damage|p2a: Pidove|0 fnt
+|-enditem|p2a: Pidove|Sharp Beak|[from] move: Knock Off|[of] p1a: Mienfoo
+|faint|p2a: Pidove
+|
+|upkeep
+|
+|t:|1624446683
+|switch|p2a: Archen|Archen, L5, M, shiny|100/100
+|turn|16
+|
+|t:|1624446690
+|move|p2a: Archen|Dragon Claw|p1a: Mienfoo
+|-damage|p1a: Mienfoo|64/100 par
+|move|p1a: Mienfoo|High Jump Kick|p2a: Archen
+|-damage|p2a: Archen|5/100
+|
+|-heal|p2a: Archen|10/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1624446701
+|move|p2a: Archen|Dragon Claw|p1a: Mienfoo
+|-damage|p1a: Mienfoo|50/100 par
+|move|p1a: Mienfoo|Knock Off|p2a: Archen
+|-damage|p2a: Archen|0 fnt
+|-enditem|p2a: Archen|Leftovers|[from] move: Knock Off|[of] p1a: Mienfoo
+|faint|p2a: Archen
+|
+|win|opkingler
+|n|☆opkingler|opkingler
+|n|☆Shadowomegahorn|shadowomegahorn
+|n| DavidYGreninja|davidygreninja

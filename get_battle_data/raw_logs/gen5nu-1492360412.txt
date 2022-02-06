@@ -1,0 +1,339 @@
+|j|☆jahmille118
+|j|☆Rylora
+|t:|1642305811
+|gametype|singles
+|player|p1|jahmille118|2|1000
+|player|p2|Rylora|nurse|1248
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Victreebel, F|item
+|poke|p1|Leafeon, F|item
+|poke|p1|Liepard, F|item
+|poke|p1|Shuckle, F|item
+|poke|p1|Sawsbuck, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Swellow, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Golem, M|item
+|poke|p2|Sawk, M|item
+|poke|p2|Lickilicky, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rylora)
+|
+|t:|1642305834
+|start
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|1
+|
+|t:|1642305849
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Shuckle
+|-status|p1a: Shuckle|brn
+|
+|-damage|p1a: Shuckle|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1642305857
+|move|p2a: Misdreavus|Taunt|p1a: Shuckle
+|-start|p1a: Shuckle|move: Taunt
+|cant|p1a: Shuckle|move: Taunt|Stealth Rock
+|
+|-damage|p1a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1642305869
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|switch|p1a: Liepard|Liepard, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1642305879
+|move|p1a: Liepard|Fake Out|p2a: Sawk
+|-damage|p2a: Sawk|84/100
+|cant|p2a: Sawk|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1642305889
+|move|p1a: Liepard|Sunny Day|p1a: Liepard
+|-weather|SunnyDay
+|move|p2a: Sawk|Close Combat|p1a: Liepard
+|-supereffective|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642305897
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|6
+|
+|t:|1642305917
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Charizard|Flamethrower|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p2a: Golem|38/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1642305927
+|move|p2a: Golem|Sucker Punch|p1a: Charizard
+|-damage|p1a: Charizard|49/100
+|move|p1a: Charizard|Flamethrower|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|37/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|inactive|Rylora has 120 seconds left.
+|
+|t:|1642305957
+|switch|p2a: Lickilicky|Lickilicky, F|100/100
+|turn|8
+|
+|t:|1642305960
+|move|p1a: Charizard|Flamethrower|p2a: Lickilicky
+|-damage|p2a: Lickilicky|37/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|25/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p2a: Lickilicky|43/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1642305970
+|switch|p1a: Shuckle|Shuckle, F|76/100 brn
+|move|p2a: Lickilicky|Protect||[still]
+|-fail|p2a: Lickilicky
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lickilicky|93/100|[from] move: Wish|[wisher] Lickilicky
+|-heal|p2a: Lickilicky|99/100|[from] item: Leftovers
+|-damage|p1a: Shuckle|64/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1642305984
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Garbodor
+|-sidestart|p2: Rylora|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shuckle|51/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1642306000
+|move|p2a: Garbodor|Gunk Shot|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|38/100 brn
+|move|p1a: Shuckle|Ancient Power|p2a: Garbodor
+|-damage|p2a: Garbodor|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shuckle|25/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1642306011
+|move|p2a: Garbodor|Spikes|p1a: Shuckle
+|-sidestart|p1: jahmille118|Spikes
+|move|p1a: Shuckle|Ancient Power|p2a: Garbodor
+|-damage|p2a: Garbodor|85/100
+|
+|-weather|none
+|-damage|p1a: Shuckle|13/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1642306017
+|move|p2a: Garbodor|Spikes|p1a: Shuckle
+|-sidestart|p1: jahmille118|Spikes
+|move|p1a: Shuckle|Sunny Day|p1a: Shuckle
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shuckle|1/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1642306026
+|move|p2a: Garbodor|Spikes|p1a: Shuckle
+|-sidestart|p1: jahmille118|Spikes
+|move|p1a: Shuckle|Ancient Power|p2a: Garbodor
+|-damage|p2a: Garbodor|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shuckle|0 fnt|[from] brn
+|faint|p1a: Shuckle
+|upkeep
+|
+|t:|1642306051
+|switch|p1a: Charizard|Charizard, M|25/100
+|turn|15
+|inactive|Rylora has 120 seconds left.
+|
+|t:|1642306098
+|move|p1a: Charizard|Flamethrower|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|12/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1642306108
+|switch|p2a: Lickilicky|Lickilicky, F|99/100
+|-damage|p2a: Lickilicky|87/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1642306112
+|move|p1a: Charizard|Flamethrower|p2a: Lickilicky
+|-damage|p2a: Lickilicky|19/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] ability: Solar Power|[of] p1a: Charizard
+|faint|p1a: Charizard
+|-heal|p2a: Lickilicky|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642306128
+|switch|p1a: Sawsbuck|Sawsbuck, M|100/100
+|-damage|p1a: Sawsbuck|76/100|[from] Spikes
+|turn|17
+|
+|t:|1642306134
+|move|p1a: Sawsbuck|Double Kick|p2a: Lickilicky
+|-supereffective|p2a: Lickilicky
+|-damage|p2a: Lickilicky|4/100
+|-supereffective|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|-hitcount|p2: Lickilicky|2
+|-damage|p1a: Sawsbuck|66/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Rylora has 120 seconds left.
+|
+|t:|1642306144
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1642306154
+|switch|p1a: Victreebel|Victreebel, F|100/100
+|-damage|p1a: Victreebel|76/100|[from] Spikes
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Victreebel
+|-status|p1a: Victreebel|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Victreebel|63/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1642306168
+|move|p1a: Victreebel|Solar Beam||[still]
+|-prepare|p1a: Victreebel|Solar Beam
+|-anim|p1a: Victreebel|Solar Beam|p2a: Misdreavus
+|-crit|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|-damage|p1a: Victreebel|53/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Victreebel|41/100 brn|[from] brn
+|upkeep
+|inactive|Rylora has 120 seconds left.
+|
+|t:|1642306181
+|switch|p2a: Sawk|Sawk, M|84/100
+|-damage|p2a: Sawk|78/100|[from] Stealth Rock
+|-ability|p2a: Sawk|Mold Breaker
+|turn|20
+|
+|t:|1642306188
+|move|p1a: Victreebel|Solar Beam||[still]
+|-prepare|p1a: Victreebel|Solar Beam
+|-anim|p1a: Victreebel|Solar Beam|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-damage|p1a: Victreebel|31/100 brn|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Victreebel|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1642306193
+|switch|p2a: Swellow|Swellow, M|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1642306202
+|move|p2a: Swellow|U-turn|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1642306209
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|-damage|p1a: Leafeon|75/100|[from] Spikes
+|turn|22
+|
+|t:|1642306214
+|move|p2a: Swellow|Brave Bird|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|-damage|p2a: Swellow|50/100 tox|[from] Recoil
+|
+|-damage|p2a: Swellow|44/100 tox|[from] psn
+|upkeep
+|
+|t:|1642306220
+|switch|p1a: Sawsbuck|Sawsbuck, M|66/100
+|-damage|p1a: Sawsbuck|41/100|[from] Spikes
+|turn|23
+|
+|t:|1642306226
+|move|p2a: Swellow|Facade|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|faint|p1a: Sawsbuck
+|
+|win|Rylora
+|raw|jahmille118's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Rylora's rating: 1248 &rarr; <strong>1258</strong><br />(+10 for winning)

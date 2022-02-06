@@ -1,0 +1,904 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639330190
+|gametype|singles
+|player|p1|atomicllamas|#atomicllamas|
+|player|p2|Monai|ninjaboy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rotom-Frost|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Gurdurr, F|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Seismitoad, F|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Audino, M|item
+|poke|p2|Seismitoad, M|item
+|teampreview
+|c|☆Monai|glhf
+|c|☆atomicllamas|u2
+|inactive|atomicllamas has 270 seconds left.
+|inactive|Monai has 270 seconds left.
+|inactive|Monai has 240 seconds left.
+|c|+Links|GO MONAI
+|c|+Links|WOOO
+|c|☆Monai|:D
+|
+|t:|1639330280
+|start
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|turn|1
+|inactive|Monai has 270 seconds left.
+|
+|t:|1639330313
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|move|p2a: Misdreavus|Thunderbolt|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|
+|upkeep
+|turn|2
+|inactive|Monai has 240 seconds left.
+|
+|t:|1639330341
+|move|p1a: Rotom|Volt Switch|p2a: Misdreavus
+|-damage|p2a: Misdreavus|51/100
+|
+|t:|1639330348
+|switch|p1a: Gurdurr|Gurdurr, F|100/100|[from]move: Volt Switch
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Gurdurr
+|-status|p1a: Gurdurr|brn
+|
+|-damage|p1a: Gurdurr|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Monai has 240 seconds left.
+|
+|t:|1639330382
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Gurdurr|Payback|p2a: Garbodor
+|-damage|p2a: Garbodor|80/100
+|-damage|p1a: Gurdurr|72/100 brn|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|-damage|p1a: Gurdurr|59/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1639330393
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|move|p2a: Garbodor|Toxic Spikes|p1a: Carracosta
+|-sidestart|p1: atomicllamas|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1639330397
+|move|p2a: Garbodor|Seed Bomb|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|34/100
+|move|p1a: Carracosta|Stealth Rock|p2a: Garbodor
+|-sidestart|p2: Monai|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|inactive|Monai has 240 seconds left.
+|
+|t:|1639330407
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Garbodor|Spikes|p1a: Mandibuzz
+|-sidestart|p1: atomicllamas|Spikes
+|
+|upkeep
+|turn|7
+|inactive|Monai has 240 seconds left.
+|
+|t:|1639330421
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639330428
+|move|p1a: Mandibuzz|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|move|p2a: Seismitoad|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|78/100
+|
+|-heal|p1a: Mandibuzz|84/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1639330446
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Audino
+|-damage|p2a: Audino|67/100
+|
+|-heal|p1a: Mandibuzz|91/100|[from] item: Leftovers
+|-heal|p2a: Audino|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Monai has 240 seconds left.
+|
+|t:|1639330472
+|switch|p2a: Seismitoad|Seismitoad, M|94/100 tox
+|-damage|p2a: Seismitoad|88/100 tox|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|
+|-heal|p1a: Mandibuzz|97/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1639330488
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-status|p1a: Seismitoad|psn
+|-damage|p1a: Seismitoad|88/100 psn|[from] Spikes
+|move|p2a: Seismitoad|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|100/100 psn|[from] ability: Water Absorb|[of] p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 psn|[from] psn
+|-damage|p2a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1639330501
+|switch|p1a: Rotom|Rotom-Frost|84/100
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Audino|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1639330505
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Rotom|Trick|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1639330523
+|switch|p2a: Charizard|Charizard, F|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Charizard
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Charizard
+|-item|p2a: Charizard|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|15
+|inactive|Monai has 240 seconds left.
+|
+|t:|1639330568
+|switch|p1a: Carracosta|Carracosta, M|34/100
+|-status|p1a: Carracosta|psn
+|-damage|p1a: Carracosta|22/100 psn|[from] Spikes
+|move|p2a: Charizard|Fire Blast|p1a: Carracosta
+|-resisted|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|upkeep
+|
+|t:|1639330576
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-status|p1a: Gardevoir|psn
+|-damage|p1a: Gardevoir|88/100 psn|[from] Spikes
+|-ability|p1a: Gardevoir|Blaze|[from] ability: Trace|[of] p2a: Charizard
+|turn|16
+|
+|t:|1639330593
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Thunderbolt|p2a: Audino
+|-damage|p2a: Audino|67/100
+|
+|-heal|p2a: Audino|73/100|[from] item: Leftovers
+|-damage|p1a: Gardevoir|76/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1639330600
+|switch|p1a: Mandibuzz|Mandibuzz, F|97/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|-heal|p2a: Audino|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Monai has 210 seconds left.
+|
+|t:|1639330647
+|switch|p2a: Garbodor|Garbodor, M|80/100
+|-damage|p2a: Garbodor|68/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: Garbodor
+|-immune|p2a: Garbodor
+|
+|-heal|p2a: Garbodor|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|19
+|
+|t:|1639330654
+|move|p1a: Mandibuzz|Taunt|p2a: Garbodor
+|-start|p2a: Garbodor|move: Taunt
+|move|p2a: Garbodor|Gunk Shot|p1a: Mandibuzz|[miss]
+|-miss|p2a: Garbodor|p1a: Mandibuzz
+|
+|upkeep
+|turn|20
+|
+|t:|1639330664
+|move|p1a: Mandibuzz|Foul Play|p2a: Garbodor
+|-damage|p2a: Garbodor|71/100
+|-damage|p1a: Mandibuzz|84/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|move|p2a: Garbodor|Gunk Shot|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|53/100
+|-status|p1a: Mandibuzz|psn
+|
+|-heal|p1a: Mandibuzz|59/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|47/100 psn|[from] psn
+|upkeep
+|turn|21
+|inactive|Monai has 210 seconds left.
+|
+|t:|1639330682
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|97/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|100/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|94/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1639330685
+|move|p1a: Mandibuzz|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|move|p2a: Audino|Double-Edge|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100 psn
+|-damage|p2a: Audino|87/100|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|73/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|93/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|61/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1639330692
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Audino|Double-Edge|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100 psn
+|-damage|p2a: Audino|86/100|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|86/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|92/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|74/100 psn|[from] psn
+|upkeep
+|turn|24
+|inactive|Monai has 210 seconds left.
+|
+|t:|1639330717
+|switch|p2a: Garbodor|Garbodor, M|71/100
+|-damage|p2a: Garbodor|59/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: Garbodor
+|-immune|p2a: Garbodor
+|
+|-heal|p1a: Mandibuzz|80/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|67/100 psn|[from] psn
+|upkeep
+|turn|25
+|inactive|Monai has 210 seconds left.
+|
+|t:|1639330729
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|
+|-heal|p1a: Mandibuzz|74/100 psn|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|82/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|61/100 psn|[from] psn
+|upkeep
+|turn|26
+|inactive|Monai has 210 seconds left.
+|
+|t:|1639330758
+|switch|p2a: Misdreavus|Misdreavus, F|51/100
+|-damage|p2a: Misdreavus|39/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|88/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1639330772
+|switch|p1a: Rotom|Rotom-Frost|84/100
+|move|p2a: Misdreavus|Thunderbolt|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|
+|upkeep
+|turn|28
+|
+|t:|1639330783
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Audino
+|-damage|p2a: Audino|58/100
+|
+|t:|1639330790
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 psn|[from]move: Volt Switch
+|
+|-heal|p1a: Mandibuzz|94/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|64/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|82/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1639330798
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Mandibuzz|Taunt|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p1a: Mandibuzz|88/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|70/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|76/100 psn|[from] psn
+|upkeep
+|turn|30
+|inactive|Monai has 210 seconds left.
+|
+|t:|1639330818
+|switch|p2a: Misdreavus|Misdreavus, F|39/100
+|-damage|p2a: Misdreavus|27/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: Misdreavus
+|-status|p2a: Misdreavus|tox
+|
+|-heal|p1a: Mandibuzz|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Misdreavus|21/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|70/100 psn|[from] psn
+|upkeep
+|turn|31
+|inactive|Monai has 180 seconds left.
+|
+|t:|1639330865
+|move|p2a: Misdreavus|Will-O-Wisp||[still]
+|-fail|p2a: Misdreavus
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Misdreavus|9/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|88/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1639330876
+|move|p2a: Misdreavus|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100 psn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|98/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Misdreavus|0 fnt|[from] psn
+|faint|p2a: Misdreavus
+|-damage|p1a: Mandibuzz|88/100 psn|[from] psn
+|upkeep
+|inactive|Monai has 150 seconds left.
+|
+|t:|1639330892
+|switch|p2a: Mandibuzz|Mandibuzz, F|82/100
+|-damage|p2a: Mandibuzz|57/100|[from] Stealth Rock
+|turn|33
+|inactive|Monai has 150 seconds left.
+|
+|t:|1639330906
+|move|p1a: Mandibuzz|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|cant|p2a: Mandibuzz|move: Taunt|Toxic
+|
+|-heal|p1a: Mandibuzz|94/100 psn|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|63/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|82/100 psn|[from] psn
+|upkeep
+|turn|34
+|inactive|Monai has 150 seconds left.
+|
+|t:|1639330924
+|switch|p2a: Garbodor|Garbodor, M|59/100
+|-damage|p2a: Garbodor|46/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: Garbodor
+|-immune|p2a: Garbodor
+|
+|-heal|p1a: Mandibuzz|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|76/100 psn|[from] psn
+|upkeep
+|turn|35
+|inactive|Monai has 150 seconds left.
+|
+|t:|1639330935
+|move|p1a: Mandibuzz|Taunt|p2a: Garbodor
+|-start|p2a: Garbodor|move: Taunt
+|move|p2a: Garbodor|Gunk Shot|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100 psn
+|
+|-heal|p1a: Mandibuzz|54/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|41/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1639330940
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|92/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Garbodor|Seed Bomb|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|78/100 psn
+|
+|-heal|p1a: Mandibuzz|84/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|71/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1639330946
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Garbodor|Gunk Shot|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100 psn
+|
+|-heal|p1a: Mandibuzz|78/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|65/100 psn|[from] psn
+|-end|p2a: Garbodor|move: Taunt
+|upkeep
+|turn|38
+|
+|t:|1639330954
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Garbodor|Spikes|p1a: Mandibuzz
+|-sidestart|p1: atomicllamas|Spikes
+|
+|-damage|p1a: Mandibuzz|88/100 psn|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1639330962
+|move|p1a: Mandibuzz|Foul Play|p2a: Garbodor
+|-damage|p2a: Garbodor|22/100
+|-damage|p1a: Mandibuzz|72/100 psn|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|move|p2a: Garbodor|Gunk Shot|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|44/100 psn
+|
+|-heal|p1a: Mandibuzz|50/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|38/100 psn|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1639330970
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|88/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Garbodor|Seed Bomb|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100 psn
+|
+|-heal|p1a: Mandibuzz|79/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|67/100 psn|[from] psn
+|upkeep
+|turn|41
+|inactive|Monai has 180 seconds left.
+|inactive|Monai has 150 seconds left.
+|
+|t:|1639331022
+|switch|p2a: Mandibuzz|Mandibuzz, F|63/100
+|-damage|p2a: Mandibuzz|38/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|32/100
+|
+|-heal|p1a: Mandibuzz|73/100 psn|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|39/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|61/100 psn|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1639331040
+|move|p1a: Mandibuzz|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|cant|p2a: Mandibuzz|move: Taunt|Taunt
+|
+|-heal|p1a: Mandibuzz|67/100 psn|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|45/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|55/100 psn|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1639331049
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Mandibuzz|Foul Play|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|94/100 psn
+|
+|-heal|p1a: Mandibuzz|99/100 psn|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|51/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|87/100 psn|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1639331064
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: Audino
+|-status|p2a: Audino|tox
+|
+|-heal|p1a: Mandibuzz|94/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|81/100 psn|[from] psn
+|-damage|p2a: Audino|88/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1639331070
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Mandibuzz|Taunt|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p1a: Mandibuzz|87/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|75/100 psn|[from] psn
+|-damage|p2a: Audino|82/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1639331073
+|move|p1a: Mandibuzz|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|move|p2a: Audino|Double-Edge|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|33/100 psn
+|-damage|p2a: Audino|68/100 tox|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|39/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|27/100 psn|[from] psn
+|-damage|p2a: Audino|55/100 tox|[from] psn
+|upkeep
+|turn|47
+|inactive|Monai has 150 seconds left.
+|
+|t:|1639331080
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|77/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Audino|Double-Edge|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100 psn
+|-damage|p2a: Audino|41/100 tox|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|40/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|47/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|28/100 psn|[from] psn
+|-damage|p2a: Audino|23/100 tox|[from] psn
+|upkeep
+|turn|48
+|inactive|Monai has 150 seconds left.
+|c|☆atomicllamas|this audino on roids
+|c|☆Monai|cracked
+|c|%roxiee|LOL
+|inactive|Monai has 120 seconds left.
+|
+|t:|1639331131
+|switch|p2a: Seismitoad|Seismitoad, M|82/100 tox
+|-damage|p2a: Seismitoad|76/100 tox|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|78/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|84/100 psn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|72/100 psn|[from] psn
+|-damage|p2a: Seismitoad|76/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|t:|1639331139
+|switch|p2a: Audino|Audino, M|56/100 tox
+|-damage|p2a: Audino|43/100 tox|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|
+|-heal|p1a: Mandibuzz|78/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|66/100 psn|[from] psn
+|-damage|p2a: Audino|43/100 tox|[from] psn
+|upkeep
+|turn|50
+|inactive|Monai has 120 seconds left.
+|
+|t:|1639331163
+|switch|p2a: Seismitoad|Seismitoad, M|76/100 tox
+|-damage|p2a: Seismitoad|69/100 tox|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Seismitoad
+|-damage|p2a: Seismitoad|49/100 tox
+|
+|-heal|p1a: Mandibuzz|72/100 psn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|60/100 psn|[from] psn
+|-damage|p2a: Seismitoad|49/100 tox|[from] psn
+|upkeep
+|turn|51
+|inactive|Monai has 90 seconds left.
+|
+|t:|1639331195
+|switch|p2a: Garbodor|Garbodor, M|22/100
+|-damage|p2a: Garbodor|9/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Garbodor
+|-start|p2a: Garbodor|move: Taunt
+|
+|-heal|p1a: Mandibuzz|66/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|53/100 psn|[from] psn
+|upkeep
+|turn|52
+|inactive|Monai has 90 seconds left.
+|
+|t:|1639331202
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Garbodor|Gunk Shot|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|69/100 psn
+|
+|-heal|p1a: Mandibuzz|75/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|62/100 psn|[from] psn
+|upkeep
+|turn|53
+|
+|t:|1639331208
+|move|p1a: Mandibuzz|Foul Play|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Mandibuzz|38/100 psn|[from] ability: Aftermath|[of] p2a: Garbodor
+|-damage|p1a: Mandibuzz|21/100 psn|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Mandibuzz|27/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|15/100 psn|[from] psn
+|upkeep
+|inactive|Monai has 90 seconds left.
+|
+|t:|1639331222
+|switch|p2a: Audino|Audino, M|77/100 tox
+|-damage|p2a: Audino|64/100 tox|[from] Stealth Rock
+|turn|54
+|inactive|Monai has 90 seconds left.
+|
+|t:|1639331238
+|move|p1a: Mandibuzz|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|cant|p2a: Audino|move: Taunt|Wish
+|
+|-heal|p1a: Mandibuzz|21/100 psn|[from] item: Leftovers
+|-heal|p2a: Audino|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|9/100 psn|[from] psn
+|-damage|p2a: Audino|64/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1639331247
+|switch|p2a: Charizard|Charizard, F|51/100
+|-damage|p2a: Charizard|1/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|59/100 psn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|65/100 psn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|53/100 psn|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1639331258
+|switch|p1a: Seismitoad|Seismitoad, F|88/100 psn
+|-damage|p1a: Seismitoad|72/100 psn|[from] Spikes
+|move|p2a: Charizard|Flamethrower|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|14/100 psn
+|
+|-heal|p1a: Seismitoad|20/100 psn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|8/100 psn|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1639331272
+|move|p2a: Charizard|Flamethrower|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|t:|1639331274
+|switch|p1a: Gardevoir|Gardevoir, M|76/100 psn
+|-damage|p1a: Gardevoir|59/100 psn|[from] Spikes
+|-ability|p1a: Gardevoir|Blaze|[from] ability: Trace|[of] p2a: Charizard
+|turn|58
+|
+|t:|1639331281
+|move|p1a: Gardevoir|Healing Wish|p1a: Gardevoir
+|faint|p1a: Gardevoir
+|move|p2a: Charizard|Flamethrower|p1: Gardevoir|[notarget]
+|-fail|p2a: Charizard
+|
+|upkeep
+|
+|t:|1639331285
+|switch|p1a: Gurdurr|Gurdurr, F|59/100 brn
+|-heal|p1a: Gurdurr|100/100|[from] move: Healing Wish
+|-damage|p1a: Gurdurr|84/100|[from] Spikes
+|-status|p1a: Gurdurr|psn
+|turn|59
+|
+|t:|1639331291
+|switch|p2a: Seismitoad|Seismitoad, M|49/100 tox
+|-damage|p2a: Seismitoad|43/100 tox|[from] Stealth Rock
+|move|p1a: Gurdurr|Mach Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|22/100 tox
+|
+|-heal|p2a: Seismitoad|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|22/100 tox|[from] psn
+|-damage|p1a: Gurdurr|72/100 psn|[from] psn
+|upkeep
+|turn|60
+|inactive|Monai has 120 seconds left.
+|
+|t:|1639331329
+|move|p2a: Seismitoad|Scald|p1a: Gurdurr
+|-damage|p1a: Gurdurr|44/100 psn
+|move|p1a: Gurdurr|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Gurdurr|56/100 psn|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Gurdurr|44/100 psn|[from] psn
+|upkeep
+|
+|t:|1639331332
+|switch|p2a: Mandibuzz|Mandibuzz, F|51/100
+|-damage|p2a: Mandibuzz|26/100|[from] Stealth Rock
+|turn|61
+|inactive|Monai has 120 seconds left.
+|inactive|Monai has 90 seconds left.
+|
+|t:|1639331398
+|move|p2a: Mandibuzz|Foul Play|p1a: Gurdurr
+|-resisted|p1a: Gurdurr
+|-damage|p1a: Gurdurr|30/100 psn
+|move|p1a: Gurdurr|Drain Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-heal|p1a: Gurdurr|44/100 psn|[from] drain|[of] p2a: Mandibuzz
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: Gurdurr|32/100 psn|[from] psn
+|upkeep
+|
+|t:|1639331404
+|switch|p2a: Audino|Audino, M|97/100 tox
+|-damage|p2a: Audino|85/100 tox|[from] Stealth Rock
+|turn|62
+|
+|t:|1639331411
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Gurdurr|Mach Punch|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|85/100 tox|[from] psn
+|-damage|p1a: Gurdurr|19/100 psn|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1639331415
+|switch|p2a: Charizard|Charizard, F|1/100
+|-damage|p2a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p2a: Charizard
+|move|p1a: Gurdurr|Mach Punch|p2: Charizard|[notarget]
+|-fail|p1a: Gurdurr
+|
+|-damage|p1a: Gurdurr|7/100 psn|[from] psn
+|upkeep
+|
+|t:|1639331417
+|switch|p2a: Audino|Audino, M|100/100 tox
+|-damage|p2a: Audino|88/100 tox|[from] Stealth Rock
+|turn|64
+|
+|t:|1639331424
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Gurdurr|Mach Punch|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Audino|88/100 tox|[from] psn
+|-damage|p1a: Gurdurr|0 fnt|[from] psn
+|faint|p1a: Gurdurr
+|upkeep
+|
+|t:|1639331425
+|switch|p1a: Rotom|Rotom-Frost|68/100
+|turn|65
+|
+|t:|1639331433
+|move|p1a: Rotom|Trick|p2a: Audino
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Audino
+|-item|p2a: Audino|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Audino|Double-Edge|p1a: Rotom
+|-damage|p1a: Rotom|30/100
+|-damage|p2a: Audino|81/100 tox|[from] Recoil
+|
+|-heal|p1a: Rotom|37/100|[from] item: Leftovers
+|-damage|p2a: Audino|69/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|t:|1639331440
+|move|p1a: Rotom|Thunderbolt|p2a: Audino
+|-damage|p2a: Audino|41/100 tox
+|move|p2a: Audino|Double-Edge|p1a: Rotom
+|-damage|p1a: Rotom|1/100
+|-damage|p2a: Audino|35/100 tox|[from] Recoil
+|
+|-heal|p1a: Rotom|8/100|[from] item: Leftovers
+|-damage|p2a: Audino|16/100 tox|[from] psn
+|upkeep
+|turn|67
+|c|☆Monai|gg 
+|
+|t:|1639331445
+|move|p1a: Rotom|Thunderbolt|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|win|atomicllamas
+|c|☆atomicllamas|gg

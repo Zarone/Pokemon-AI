@@ -1,0 +1,273 @@
+|j|☆Bughouse
+|j|☆skierdude101
+|t:|1633889369
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|skierdude101|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Regirock|item
+|poke|p1|Riolu, M|item
+|poke|p1|Serperior, M|item
+|poke|p2|Yamask, M|item
+|poke|p2|Slaking, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Serperior, F|item
+|poke|p2|Skuntank, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by skierdude101)
+|c|☆Bughouse|e.e
+|
+|t:|1633889399
+|start
+|switch|p1a: Regirock|Regirock|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|t:|1633889411
+|move|p2a: Seismitoad|Scald|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|56/100
+|move|p1a: Regirock|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: skierdude101|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1633889423
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Serperior
+|-sidestart|p1: Bughouse|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1633889428
+|switch|p2a: Charizard|Charizard, F, shiny|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|75/100
+|
+|-heal|p2a: Charizard|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1633889432
+|move|p1a: Serperior|Hidden Power|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-damage|p1a: Serperior|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633889443
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1633889451
+|move|p1a: Serperior|Giga Drain|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|68/100
+|-heal|p1a: Serperior|78/100|[from] drain|[of] p2a: Skuntank
+|-damage|p1a: Serperior|68/100|[from] item: Life Orb
+|move|p2a: Skuntank|Poison Jab|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p2a: Skuntank|74/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1633889466
+|switch|p1a: Regirock|Regirock|56/100
+|-damage|p1a: Regirock|44/100|[from] Stealth Rock
+|move|p2a: Skuntank|Poison Jab|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|35/100
+|-status|p1a: Regirock|psn
+|
+|-heal|p2a: Skuntank|80/100|[from] item: Black Sludge
+|-damage|p1a: Regirock|22/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1633889475
+|move|p2a: Skuntank|Taunt|p1a: Regirock
+|-start|p1a: Regirock|move: Taunt
+|-enditem|p1a: Regirock|Mental Herb
+|-end|p1a: Regirock|move: Taunt
+|move|p1a: Regirock|Explosion|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p1a: Regirock
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1633889493
+|switch|p2a: Serperior|Serperior, F, shiny|100/100
+|switch|p1a: Riolu|Riolu, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|-damage|p1a: Riolu|95/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1633889504
+|move|p2a: Serperior|Taunt|p1a: Riolu
+|-start|p1a: Riolu|move: Taunt
+|cant|p1a: Riolu|move: Taunt|Roar
+|
+|upkeep
+|turn|9
+|
+|t:|1633889526
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: Serperior|Giga Drain|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|69/100
+|-heal|p2a: Serperior|99/100|[from] drain|[of] p1a: Garbodor
+|-damage|p2a: Serperior|90/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1633889534
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Garbodor|Spikes|p2a: Seismitoad
+|-sidestart|p2: skierdude101|Spikes
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1633889544
+|move|p1a: Garbodor|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|44/100
+|move|p2a: Seismitoad|Toxic|p1a: Garbodor
+|-immune|p1a: Garbodor
+|
+|-heal|p2a: Seismitoad|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1633889550
+|move|p1a: Garbodor|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|t:|1633889554
+|switch|p2a: Slaking|Slaking, F, shiny|100/100
+|-damage|p2a: Slaking|88/100|[from] Stealth Rock
+|-damage|p2a: Slaking|76/100|[from] Spikes
+|turn|13
+|
+|t:|1633889561
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|-damage|p1a: Misdreavus|88/100|[from] Stealth Rock
+|move|p2a: Slaking|Earthquake|p1a: Misdreavus
+|-immune|p1a: Misdreavus|[from] ability: Levitate
+|
+|upkeep
+|turn|14
+|c|☆skierdude101|gg
+|
+|t:|1633889569
+|switch|p2a: Serperior|Serperior, F, shiny|90/100
+|-damage|p2a: Serperior|77/100|[from] Stealth Rock
+|-damage|p2a: Serperior|65/100|[from] Spikes
+|move|p1a: Misdreavus|Taunt|p2a: Serperior
+|-start|p2a: Serperior|move: Taunt
+|
+|upkeep
+|turn|15
+|
+|t:|1633889574
+|switch|p1a: Garbodor|Garbodor, M|69/100
+|-damage|p1a: Garbodor|57/100|[from] Stealth Rock
+|move|p2a: Serperior|Hidden Power|p1a: Garbodor
+|-damage|p1a: Garbodor|31/100
+|-damage|p2a: Serperior|55/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1633889583
+|move|p2a: Serperior|Hidden Power|p1a: Garbodor
+|-damage|p1a: Garbodor|5/100
+|-damage|p2a: Serperior|45/100|[from] item: Life Orb
+|move|p1a: Garbodor|Explosion|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p1a: Garbodor
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1633889591
+|switch|p2a: Yamask|Yamask, M, shiny|100/100
+|switch|p1a: Riolu|Riolu, M|95/100
+|-damage|p1a: Riolu|89/100|[from] Stealth Rock
+|-damage|p2a: Yamask|88/100|[from] Spikes
+|-damage|p2a: Yamask|75/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1633889602
+|move|p1a: Riolu|Substitute|p1a: Riolu
+|-start|p1a: Riolu|Substitute
+|-damage|p1a: Riolu|64/100
+|move|p2a: Yamask|Will-O-Wisp||[still]
+|-fail|p2a: Yamask
+|
+|upkeep
+|turn|18
+|
+|t:|1633889620
+|move|p2a: Yamask|Destiny Bond|p2a: Yamask
+|-singlemove|p2a: Yamask|Destiny Bond
+|move|p1a: Riolu|Roar|p2a: Yamask
+|drag|p2a: Slaking|Slaking, F, shiny|76/100
+|-damage|p2a: Slaking|63/100|[from] Stealth Rock
+|-damage|p2a: Slaking|51/100|[from] Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1633889626
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Roar|p2a: Slaking|[from]move: Copycat
+|drag|p2a: Yamask|Yamask, M, shiny|75/100
+|-damage|p2a: Yamask|63/100|[from] Stealth Rock
+|-damage|p2a: Yamask|50/100|[from] Spikes
+|
+|upkeep
+|turn|20
+|c|☆skierdude101|//forfeit
+|-message|skierdude101 forfeited.
+|
+|win|Bughouse
+|c|☆Bughouse|gg
+|l|☆skierdude101

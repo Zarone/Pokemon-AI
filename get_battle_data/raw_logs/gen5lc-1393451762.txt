@@ -1,0 +1,291 @@
+|j|☆FruitDogs
+|j|☆eyeyaFnVGC
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1628547475
+|gametype|singles
+|player|p1|FruitDogs|will|
+|player|p2|eyeyaFnVGC|swimmer-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Solosis, L5, M|item
+|poke|p1|Drowzee, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Litwick, L5, M|item
+|poke|p1|Yamask, L5, M|item
+|poke|p1|Clamperl, L5, M|item
+|poke|p2|Aipom, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Ferroseed, L5, M|item
+|poke|p2|Natu, L5, M|item
+|teampreview
+|inactive|eyeyaFnVGC also wants the timer to be on.
+|
+|t:|1628547488
+|start
+|switch|p1a: Litwick|Litwick, L5, M, shiny|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|turn|1
+|
+|t:|1628547493
+|move|p2a: Mienfoo|Knock Off|p1a: Litwick
+|-supereffective|p1a: Litwick
+|-damage|p1a: Litwick|73/100
+|-enditem|p1a: Litwick|Focus Sash|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Litwick|Trick Room|p1a: Litwick
+|-fieldstart|move: Trick Room|[of] p1a: Litwick
+|
+|upkeep
+|turn|2
+|
+|t:|1628547504
+|move|p1a: Litwick|Fire Blast|p2a: Mienfoo
+|-damage|p2a: Mienfoo|46/100
+|-status|p2a: Mienfoo|brn
+|move|p2a: Mienfoo|U-turn|p1a: Litwick
+|-resisted|p1a: Litwick
+|-damage|p1a: Litwick|69/100
+|
+|t:|1628547513
+|switch|p2a: Drilbur|Drilbur, L5, F, shiny|100/100|[from]move: U-turn
+|-ability|p2a: Drilbur|Mold Breaker
+|
+|upkeep
+|turn|3
+|
+|t:|1628547518
+|move|p1a: Litwick|Energy Ball|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|40/100
+|move|p2a: Drilbur|Stealth Rock|p1a: Litwick
+|-sidestart|p1: FruitDogs|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1628547526
+|switch|p2a: Natu|Natu, L5, M, shiny|100/100
+|move|p1a: Litwick|Fire Blast|p2a: Natu
+|-damage|p2a: Natu|41/100
+|
+|upkeep
+|turn|5
+|
+|t:|1628547533
+|move|p1a: Litwick|Fire Blast|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1628547540
+|switch|p2a: Drilbur|Drilbur, L5, F, shiny|40/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|6
+|
+|t:|1628547544
+|switch|p1a: Drowzee|Drowzee, L5, M|100/100
+|-damage|p1a: Drowzee|92/100|[from] Stealth Rock
+|move|p2a: Drilbur|Earthquake|p1a: Drowzee
+|-damage|p1a: Drowzee|35/100
+|
+|upkeep
+|turn|7
+|
+|t:|1628547547
+|move|p2a: Drilbur|Earthquake|p1a: Drowzee
+|-damage|p1a: Drowzee|0 fnt
+|faint|p1a: Drowzee
+|
+|upkeep
+|
+|t:|1628547550
+|switch|p1a: Porygon|Porygon, L5, shiny|100/100
+|-damage|p1a: Porygon|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Mold Breaker|[from] ability: Trace|[of] p2a: Drilbur
+|-ability|p1a: Porygon|Mold Breaker
+|turn|8
+|
+|t:|1628547556
+|move|p2a: Drilbur|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|48/100
+|move|p1a: Porygon|Trick Room|p1a: Porygon
+|-fieldstart|move: Trick Room|[of] p1a: Porygon
+|
+|upkeep
+|turn|9
+|
+|t:|1628547562
+|move|p1a: Porygon|Tri Attack|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|
+|t:|1628547566
+|switch|p2a: Ferroseed|Ferroseed, L5, M, shiny|100/100
+|turn|10
+|
+|t:|1628547569
+|move|p2a: Ferroseed|Bullet Seed|p1a: Porygon
+|-damage|p1a: Porygon|36/100
+|-damage|p1a: Porygon|20/100
+|-hitcount|p1a: Porygon|2
+|move|p1a: Porygon|Hidden Power|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|28/100
+|
+|upkeep
+|turn|11
+|
+|t:|1628547575
+|move|p2a: Ferroseed|Bullet Seed|p1a: Porygon
+|-damage|p1a: Porygon|8/100
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|-hitcount|p1: Porygon|2
+|
+|upkeep
+|
+|t:|1628547578
+|switch|p1a: Litwick|Litwick, L5, M, shiny|69/100
+|-damage|p1a: Litwick|46/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1628547581
+|move|p1a: Litwick|Fire Blast|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1628547586
+|switch|p2a: Aipom|Aipom, L5, M, shiny|100/100
+|turn|13
+|
+|t:|1628547589
+|move|p2a: Aipom|Shadow Claw|p1a: Litwick
+|-supereffective|p1a: Litwick
+|-crit|p1a: Litwick
+|-damage|p1a: Litwick|0 fnt
+|faint|p1a: Litwick
+|-damage|p2a: Aipom|92/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628547598
+|switch|p1a: Clamperl|Clamperl, L5, M|100/100
+|-damage|p1a: Clamperl|90/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1628547605
+|move|p2a: Aipom|Fury Swipes|p1a: Clamperl
+|-damage|p1a: Clamperl|70/100
+|-damage|p1a: Clamperl|50/100
+|-damage|p1a: Clamperl|30/100
+|-damage|p1a: Clamperl|10/100
+|-damage|p1a: Clamperl|0 fnt
+|faint|p1a: Clamperl
+|-hitcount|p1: Clamperl|5
+|-damage|p2a: Aipom|83/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628547611
+|switch|p1a: Yamask|Yamask, L5, M, shiny|100/100
+|-damage|p1a: Yamask|91/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1628547615
+|move|p2a: Aipom|Shadow Claw|p1a: Yamask
+|-supereffective|p1a: Yamask
+|-damage|p1a: Yamask|43/100
+|-activate|p1a: Yamask|ability: Mummy|Skill Link|[of] p2a: Aipom
+|-damage|p2a: Aipom|74/100|[from] item: Life Orb
+|move|p1a: Yamask|Trick Room|p1a: Yamask
+|-fieldstart|move: Trick Room|[of] p1a: Yamask
+|
+|upkeep
+|turn|16
+|c|☆FruitDogs|shoulda known damn
+|
+|t:|1628547624
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|78/100 brn
+|move|p1a: Yamask|Psychic|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|23/100 brn
+|
+|-damage|p2a: Mienfoo|14/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1628547629
+|move|p1a: Yamask|Hidden Power|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1628547637
+|switch|p2a: Magnemite|Magnemite, L5, shiny|100/100
+|turn|18
+|
+|t:|1628547641
+|move|p1a: Yamask|Hidden Power|p2a: Magnemite
+|-supereffective|p2a: Magnemite
+|-crit|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|upkeep
+|
+|t:|1628547644
+|switch|p2a: Aipom|Aipom, L5, M, shiny|74/100
+|turn|19
+|
+|t:|1628547646
+|move|p1a: Yamask|Psychic|p2a: Aipom
+|-damage|p2a: Aipom|31/100
+|move|p2a: Aipom|Shadow Claw|p1a: Yamask
+|-supereffective|p1a: Yamask
+|-damage|p1a: Yamask|0 fnt
+|-activate|p1a: Yamask|ability: Mummy|Skill Link|[of] p2a: Aipom
+|faint|p1a: Yamask
+|-damage|p2a: Aipom|22/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1628547649
+|switch|p1a: Solosis|Solosis, L5, M, shiny|100/100
+|turn|20
+|
+|t:|1628547653
+|move|p2a: Aipom|Shadow Claw|p1a: Solosis
+|-supereffective|p1a: Solosis
+|-crit|p1a: Solosis
+|-enditem|p1a: Solosis|Focus Sash
+|-damage|p1a: Solosis|5/100
+|-damage|p2a: Aipom|14/100|[from] item: Life Orb
+|move|p1a: Solosis|Psychic|p2a: Aipom
+|-damage|p2a: Aipom|0 fnt
+|faint|p2a: Aipom
+|
+|win|FruitDogs
+|n|☆FruitDogs|fruitdogs
+|n|☆eyeyaFnVGC|eyeyafnvgc

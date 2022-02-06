@@ -1,0 +1,459 @@
+|j|☆Lucario•1582
+|j|☆UBCLOWN Well
+|t:|1639517712
+|gametype|singles
+|player|p1|Lucario•1582|riley|
+|player|p2|UBCLOWN Well|tuber|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p2|Probopass, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Musharna, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Mandibuzz, F|item
+|teampreview
+|j|*BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lucario•1582)
+|j|@QuiteQuiet
+|j|+Kiyo
+|l|@QuiteQuiet
+|c|☆Lucario•1582|glhf
+|j|@QuiteQuiet
+|j|@Oathkeeper
+|
+|t:|1639517741
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: Grade A|Primeape, M|100/100
+|turn|1
+|
+|t:|1639517755
+|switch|p2a: BuzzFeed|Mandibuzz, F|100/100
+|move|p1a: Garbodor|Spikes|p2a: BuzzFeed
+|-sidestart|p2: UBCLOWN Well|Spikes
+|
+|upkeep
+|turn|2
+|j| wildfiree@!
+|c|☆UBCLOWN Well|Glhf
+|
+|t:|1639517762
+|move|p1a: Garbodor|Spikes|p2a: BuzzFeed
+|-sidestart|p2: UBCLOWN Well|Spikes
+|move|p2a: BuzzFeed|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|
+|upkeep
+|turn|3
+|c|@Oathkeeper|gl to both
+|j|@realistiC waterS
+|j| Ladder Pain
+|c|@realistiC waterS|gl to both
+|l| wildfiree
+|
+|t:|1639517783
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Mario|Probopass, F|100/100
+|-item|p2a: Mario|Air Balloon
+|
+|upkeep
+|turn|4
+|l|ladderpain
+|
+|t:|1639517792
+|move|p1a: Piloswine|Ice Shard|p2a: Mario
+|-resisted|p2a: Mario
+|-damage|p2a: Mario|94/100
+|-enditem|p2a: Mario|Air Balloon
+|move|p2a: Mario|Stealth Rock|p1a: Piloswine
+|-sidestart|p1: Lucario•1582|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|j|%GW
+|c|%GW|rw!!
+|
+|t:|1639517807
+|switch|p2a: Squish|Musharna, M|100/100
+|-damage|p2a: Squish|84/100|[from] Spikes
+|move|p1a: Piloswine|Stealth Rock|p2a: Squish
+|-sidestart|p2: UBCLOWN Well|move: Stealth Rock
+|
+|-heal|p2a: Squish|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|@realistiC waterS|o/
+|c|+Kiyo|all those ups
+|
+|t:|1639517828
+|switch|p2a: Boing Boing|Kangaskhan, F|100/100
+|-damage|p2a: Boing Boing|88/100|[from] Stealth Rock
+|-damage|p2a: Boing Boing|72/100|[from] Spikes
+|move|p1a: Piloswine|Toxic|p2a: Boing Boing|[miss]
+|-miss|p1a: Piloswine|p2a: Boing Boing
+|
+|upkeep
+|turn|7
+|
+|t:|1639517836
+|move|p2a: Boing Boing|Fake Out|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|71/100
+|cant|p1a: Piloswine|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1639517841
+|move|p2a: Boing Boing|Double-Edge|p1a: Piloswine
+|-damage|p1a: Piloswine|27/100
+|-damage|p2a: Boing Boing|55/100|[from] Recoil
+|move|p1a: Piloswine|Earthquake|p2a: Boing Boing
+|-damage|p2a: Boing Boing|11/100
+|
+|upkeep
+|turn|9
+|
+|t:|1639517844
+|move|p2a: Boing Boing|Sucker Punch|p1a: Piloswine
+|-damage|p1a: Piloswine|10/100
+|move|p1a: Piloswine|Ice Shard|p2a: Boing Boing
+|-damage|p2a: Boing Boing|0 fnt
+|faint|p2a: Boing Boing
+|
+|upkeep
+|
+|t:|1639517851
+|switch|p2a: BuzzFeed|Mandibuzz, F|100/100
+|-damage|p2a: BuzzFeed|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1639517855
+|move|p1a: Piloswine|Ice Shard|p2a: BuzzFeed
+|-supereffective|p2a: BuzzFeed
+|-damage|p2a: BuzzFeed|56/100
+|move|p2a: BuzzFeed|Foul Play|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|-heal|p2a: BuzzFeed|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639517871
+|switch|p1a: Primeape|Primeape, M|100/100
+|-damage|p1a: Primeape|95/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1639517874
+|move|p1a: Primeape|Ice Punch|p2a: BuzzFeed
+|-supereffective|p2a: BuzzFeed
+|-damage|p2a: BuzzFeed|22/100
+|move|p2a: BuzzFeed|Roost|p2a: BuzzFeed
+|-heal|p2a: BuzzFeed|72/100
+|-singleturn|p2a: BuzzFeed|move: Roost
+|
+|-heal|p2a: BuzzFeed|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1639517886
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: BuzzFeed|Roost|p2a: BuzzFeed
+|-heal|p2a: BuzzFeed|100/100
+|-singleturn|p2a: BuzzFeed|move: Roost
+|
+|upkeep
+|turn|13
+|
+|t:|1639517892
+|move|p1a: Garbodor|Gunk Shot|p2a: BuzzFeed
+|-damage|p2a: BuzzFeed|73/100
+|move|p2a: BuzzFeed|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|45/100
+|
+|-heal|p2a: BuzzFeed|79/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c|@realistiC waterS|o_o
+|
+|t:|1639517910
+|move|p1a: Garbodor|Gunk Shot|p2a: BuzzFeed|[miss]
+|-miss|p1a: Garbodor|p2a: BuzzFeed
+|move|p2a: BuzzFeed|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|5/100
+|
+|-heal|p2a: BuzzFeed|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1639517914
+|move|p1a: Garbodor|Gunk Shot|p2a: BuzzFeed
+|-damage|p2a: BuzzFeed|59/100
+|move|p2a: BuzzFeed|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: BuzzFeed|35/100|[from] ability: Aftermath|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|
+|-heal|p2a: BuzzFeed|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639517921
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|-damage|p1a: Misdreavus|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1639517925
+|move|p1a: Misdreavus|Thunderbolt|p2a: BuzzFeed
+|-supereffective|p2a: BuzzFeed
+|-damage|p2a: BuzzFeed|1/100
+|-status|p2a: BuzzFeed|par
+|cant|p2a: BuzzFeed|par
+|
+|-heal|p2a: BuzzFeed|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|j|^xbossarux
+|
+|t:|1639517929
+|move|p1a: Misdreavus|Thunderbolt|p2a: BuzzFeed
+|-supereffective|p2a: BuzzFeed
+|-damage|p2a: BuzzFeed|0 fnt
+|faint|p2a: BuzzFeed
+|
+|upkeep
+|c|@Oathkeeper|Manidbulk
+|c|@Oathkeeper|Mandibulk*
+|j|+Young Lilo
+|
+|t:|1639517943
+|switch|p2a: Mario|Probopass, F|94/100
+|-damage|p2a: Mario|88/100|[from] Stealth Rock
+|-damage|p2a: Mario|71/100|[from] Spikes
+|turn|18
+|
+|t:|1639517949
+|move|p1a: Misdreavus|Taunt|p2a: Mario
+|-start|p2a: Mario|move: Taunt
+|move|p2a: Mario|Volt Switch|p1a: Misdreavus
+|-damage|p1a: Misdreavus|68/100
+|c|@QuiteQuiet|should've gotten the third spike
+|c|☆Lucario•1582|I'm not big brain ok
+|
+|t:|1639517965
+|switch|p2a: What’s that Smell|Skuntank, M|100/100|[from]move: Volt Switch
+|-damage|p2a: What’s that Smell|84/100|[from] Spikes
+|-damage|p2a: What’s that Smell|72/100|[from] Stealth Rock
+|
+|-heal|p2a: What’s that Smell|78/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1639517970
+|move|p1a: Misdreavus|Thunderbolt|p2a: What’s that Smell
+|-damage|p2a: What’s that Smell|41/100
+|move|p2a: What’s that Smell|Pursuit|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|28/100
+|
+|-heal|p2a: What’s that Smell|47/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1639517977
+|move|p2a: What’s that Smell|Sucker Punch|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|-heal|p2a: What’s that Smell|53/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1639517984
+|switch|p1a: Primeape|Primeape, M|95/100
+|-damage|p1a: Primeape|89/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1639517990
+|switch|p2a: Squish|Musharna, M|90/100
+|-damage|p2a: Squish|78/100|[from] Stealth Rock
+|-damage|p2a: Squish|61/100|[from] Spikes
+|move|p1a: Primeape|Close Combat|p2a: Squish
+|-resisted|p2a: Squish
+|-damage|p2a: Squish|35/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|
+|-heal|p2a: Squish|41/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1639517998
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Squish|Moonlight|p2a: Squish
+|-heal|p2a: Squish|91/100
+|
+|-heal|p2a: Squish|98/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1639518005
+|switch|p2a: Mario|Probopass, F|71/100
+|-damage|p2a: Mario|65/100|[from] Stealth Rock
+|-damage|p2a: Mario|49/100|[from] Spikes
+|move|p1a: Skuntank|Crunch|p2a: Mario
+|-resisted|p2a: Mario
+|-damage|p2a: Mario|35/100
+|
+|upkeep
+|turn|24
+|
+|t:|1639518012
+|move|p1a: Skuntank|Crunch|p2a: Mario
+|-resisted|p2a: Mario
+|-damage|p2a: Mario|21/100
+|move|p2a: Mario|Earth Power|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|30/100
+|-unboost|p1a: Skuntank|spd|1
+|
+|upkeep
+|turn|25
+|c|+Kiyo|sawk woulda 2hkod that mush :[
+|c|@Oathkeeper|i agree
+|
+|t:|1639518024
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Mario|Earth Power|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|
+|upkeep
+|turn|26
+|
+|t:|1639518033
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Mario|Volt Switch|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100
+|
+|t:|1639518041
+|switch|p2a: What’s that Smell|Skuntank, M|53/100|[from]move: Volt Switch
+|-damage|p2a: What’s that Smell|41/100|[from] Stealth Rock
+|-damage|p2a: What’s that Smell|24/100|[from] Spikes
+|
+|-heal|p2a: What’s that Smell|30/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1639518048
+|-activate|p1a: Alomomola|move: Pursuit
+|move|p2a: What’s that Smell|Pursuit|p1a: Alomomola|[from]Pursuit
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-heal|p2a: What’s that Smell|37/100|[from] item: Black Sludge
+|upkeep
+|c|@QuiteQuiet|shouldn't have ccd at all, uturn into skunk
+|
+|t:|1639518064
+|switch|p1a: Primeape|Primeape, M|89/100
+|-damage|p1a: Primeape|83/100|[from] Stealth Rock
+|turn|28
+|c|+Kiyo|qq when u gettin subbed in
+|
+|t:|1639518070
+|switch|p2a: Mario|Probopass, F|21/100
+|-damage|p2a: Mario|15/100|[from] Stealth Rock
+|-damage|p2a: Mario|0 fnt|[from] Spikes
+|faint|p2a: Mario
+|move|p1a: Primeape|Close Combat|p2: Mario|[notarget]
+|-fail|p1a: Primeape
+|
+|upkeep
+|
+|t:|1639518079
+|switch|p2a: Squish|Musharna, M|98/100
+|-damage|p2a: Squish|81/100|[from] Spikes
+|-damage|p2a: Squish|69/100|[from] Stealth Rock
+|turn|29
+|c|@QuiteQuiet|idk
+|
+|t:|1639518087
+|switch|p1a: Skuntank|Skuntank, M|30/100
+|-damage|p1a: Skuntank|18/100|[from] Stealth Rock
+|move|p2a: Squish|Psychic|p1a: Skuntank
+|-immune|p1a: Skuntank
+|
+|-heal|p2a: Squish|75/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1639518096
+|switch|p2a: What’s that Smell|Skuntank, M|37/100
+|-damage|p2a: What’s that Smell|24/100|[from] Stealth Rock
+|-damage|p2a: What’s that Smell|8/100|[from] Spikes
+|move|p1a: Skuntank|Crunch|p2a: What’s that Smell
+|-resisted|p2a: What’s that Smell
+|-damage|p2a: What’s that Smell|0 fnt
+|-damage|p1a: Skuntank|0 fnt|[from] ability: Aftermath|[of] p2a: What’s that Smell
+|faint|p1a: Skuntank
+|faint|p2a: What’s that Smell
+|
+|upkeep
+|
+|t:|1639518104
+|switch|p2a: Squish|Musharna, M|75/100
+|switch|p1a: Primeape|Primeape, M|83/100
+|-damage|p1a: Primeape|77/100|[from] Stealth Rock
+|-damage|p2a: Squish|58/100|[from] Spikes
+|-damage|p2a: Squish|46/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1639518109
+|move|p1a: Primeape|Ice Punch|p2a: Squish
+|-damage|p2a: Squish|25/100
+|move|p2a: Squish|Psychic|p1a: Primeape
+|-supereffective|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|win|UBCLOWN Well
+|n|☆Lucario•1582|lucario1582
+|n|☆UBCLOWN Well|ubclownwell
+|n| BB-8-NU|bb8nu
+|n|+Kiyo|kiyo
+|n|@QuiteQuiet|quitequiet
+|n|+Oathkeeper|oathkeeper
+|n| realistiC waterS|realisticwaters
+|n| GW|gw
+|n| xbossarux|xbossarux
+|n| Young Lilo|younglilo
+|l| BB-8-NU
+|l| Young Lilo
+|c|☆Lucario•1582|gg
+|l|☆Lucario•1582

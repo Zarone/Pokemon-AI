@@ -1,0 +1,475 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1637447009
+|gametype|singles
+|player|p1|Somalia|#somalia|
+|player|p2|Skysolo ❤|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Crustle, M|item
+|poke|p1|Victini|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Weavile, F|item
+|poke|p1|Lilligant, F|item
+|poke|p1|Electivire, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Mew|item
+|teampreview
+|c|☆Somalia|hf brother
+|c|☆Skysolo ❤|u2 man
+|c|+r0ady|them
+|inactive|Somalia has 270 seconds left.
+|inactive|Skysolo ❤ has 270 seconds left.
+|c|+Beraldinhoo|vamos somalia 
+|c|+Fathiryxi|somalia <3 
+|inactive|Somalia has 240 seconds left.
+|inactive|Skysolo ❤ has 240 seconds left.
+|
+|t:|1637447079
+|start
+|switch|p1a: dumbest guy|Nidoqueen, F|100/100
+|switch|p2a: The Strap|Mew|100/100
+|turn|1
+|
+|t:|1637447088
+|switch|p1a: even dumber guy|Victini|100/100
+|move|p2a: The Strap|Psychic|p1a: even dumber guy
+|-resisted|p1a: even dumber guy
+|-damage|p1a: even dumber guy|84/100
+|
+|upkeep
+|turn|2
+|
+|t:|1637447097
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: even dumber guy|U-turn|p2a: Druddigon
+|-damage|p2a: Druddigon|82/100
+|
+|t:|1637447102
+|switch|p1a: dumbest guy|Nidoqueen, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Druddigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Skysolo ❤ has 270 seconds left.
+|
+|t:|1637447136
+|move|p1a: dumbest guy|Ice Beam|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|26/100
+|move|p2a: Druddigon|Stealth Rock|p1a: dumbest guy
+|-sidestart|p1: Somalia|move: Stealth Rock
+|
+|-heal|p2a: Druddigon|33/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Skysolo ❤ has 270 seconds left.
+|
+|t:|1637447164
+|switch|p2a: The Strap|Mew|100/100
+|move|p1a: dumbest guy|Stealth Rock|p2a: The Strap
+|-sidestart|p2: Skysolo ❤|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|inactive|Somalia has 270 seconds left.
+|
+|t:|1637447223
+|switch|p1a: even dumber guy|Victini|84/100
+|-damage|p1a: even dumber guy|59/100|[from] Stealth Rock
+|move|p2a: The Strap|Taunt|p1a: even dumber guy
+|-start|p1a: even dumber guy|move: Taunt
+|
+|upkeep
+|turn|6
+|
+|t:|1637447238
+|move|p1a: even dumber guy|V-create|p2a: The Strap
+|-damage|p2a: The Strap|29/100
+|-unboost|p1a: even dumber guy|spe|1
+|-unboost|p1a: even dumber guy|def|1
+|-unboost|p1a: even dumber guy|spd|1
+|move|p2a: The Strap|Soft-Boiled|p2a: The Strap
+|-heal|p2a: The Strap|79/100
+|
+|-heal|p2a: The Strap|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1637447246
+|move|p2a: The Strap|Soft-Boiled|p2a: The Strap
+|-heal|p2a: The Strap|100/100
+|move|p1a: even dumber guy|U-turn|p2a: The Strap
+|-supereffective|p2a: The Strap
+|-damage|p2a: The Strap|69/100
+|inactive|Somalia has 240 seconds left.
+|inactive|Somalia has 210 seconds left.
+|
+|t:|1637447308
+|switch|p1a: not so dumb|Weavile, F|100/100|[from]move: U-turn
+|-damage|p1a: not so dumb|76/100|[from] Stealth Rock
+|-ability|p1a: not so dumb|Pressure
+|
+|-heal|p2a: The Strap|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Skysolo ❤ has 240 seconds left.
+|
+|t:|1637447361
+|move|p1a: not so dumb|Night Slash|p2a: The Strap
+|-supereffective|p2a: The Strap
+|-damage|p2a: The Strap|16/100
+|move|p2a: The Strap|Will-O-Wisp|p1a: not so dumb
+|-status|p1a: not so dumb|brn
+|-enditem|p1a: not so dumb|Lum Berry|[eat]
+|-curestatus|p1a: not so dumb|brn|[msg]
+|
+|-heal|p2a: The Strap|23/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Somalia has 210 seconds left.
+|inactive|Skysolo ❤ has 210 seconds left.
+|
+|t:|1637447394
+|move|p1a: not so dumb|Night Slash|p2a: The Strap
+|-supereffective|p2a: The Strap
+|-damage|p2a: The Strap|0 fnt
+|faint|p2a: The Strap
+|
+|upkeep
+|inactive|Skysolo ❤ has 210 seconds left.
+|
+|t:|1637447403
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: not so dumb|atk|1
+|turn|10
+|
+|t:|1637447421
+|switch|p1a: even dumber guy|Victini|59/100
+|-damage|p1a: even dumber guy|34/100|[from] Stealth Rock
+|move|p2a: Krookodile|Earthquake|p1a: even dumber guy
+|-supereffective|p1a: even dumber guy
+|-enditem|p1a: even dumber guy|Shuca Berry|[eat]
+|-enditem|p1a: even dumber guy|Shuca Berry|[weaken]
+|-damage|p1a: even dumber guy|0 fnt
+|faint|p1a: even dumber guy
+|
+|upkeep
+|inactive|Somalia has 180 seconds left.
+|
+|t:|1637447452
+|switch|p1a: might be dumb|Lilligant, F|100/100
+|-damage|p1a: might be dumb|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1637447470
+|switch|p2a: Druddigon|Druddigon, M|33/100
+|-damage|p2a: Druddigon|20/100|[from] Stealth Rock
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: might be dumb|Quiver Dance|p1a: might be dumb
+|-boost|p1a: might be dumb|spa|1
+|-boost|p1a: might be dumb|spd|1
+|-boost|p1a: might be dumb|spe|1
+|
+|-heal|p1a: might be dumb|94/100|[from] item: Leftovers
+|-heal|p2a: Druddigon|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Skysolo ❤ has 210 seconds left.
+|
+|t:|1637447502
+|move|p1a: might be dumb|Hidden Power|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|-heal|p1a: might be dumb|99/100|[from] item: Leftovers
+|upkeep
+|inactive|Skysolo ❤ has 180 seconds left.
+|
+|t:|1637447540
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1637447555
+|move|p1a: might be dumb|Sleep Powder|p2a: Nidoqueen
+|-status|p2a: Nidoqueen|slp|[from] move: Sleep Powder
+|cant|p2a: Nidoqueen|slp
+|
+|-heal|p1a: might be dumb|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Skysolo ❤ has 180 seconds left.
+|
+|t:|1637447567
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|-damage|p2a: Ferroseed|94/100|[from] Stealth Rock
+|move|p1a: might be dumb|Giga Drain|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|83/100
+|
+|upkeep
+|turn|15
+|inactive|Skysolo ❤ has 180 seconds left.
+|
+|t:|1637447585
+|switch|p1a: dumbest guy|Nidoqueen, F|100/100
+|-damage|p1a: dumbest guy|94/100|[from] Stealth Rock
+|move|p2a: Ferroseed|Gyro Ball|p1a: dumbest guy
+|-damage|p1a: dumbest guy|62/100
+|
+|upkeep
+|turn|16
+|inactive|Skysolo ❤ has 180 seconds left.
+|
+|t:|1637447598
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|-damage|p2a: Mismagius|88/100|[from] Stealth Rock
+|move|p1a: dumbest guy|Fire Blast|p2a: Mismagius|[miss]
+|-miss|p1a: dumbest guy|p2a: Mismagius
+|
+|-heal|p2a: Mismagius|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Skysolo ❤ has 180 seconds left.
+|
+|t:|1637447607
+|switch|p1a: hope it's not dumb|Electivire, M|100/100
+|-damage|p1a: hope it's not dumb|88/100|[from] Stealth Rock
+|move|p2a: Mismagius|Shadow Ball|p1a: hope it's not dumb
+|-damage|p1a: hope it's not dumb|38/100
+|
+|-heal|p2a: Mismagius|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Skysolo ❤ has 180 seconds left.
+|inactive|Skysolo ❤ has 150 seconds left.
+|
+|t:|1637447651
+|move|p2a: Mismagius|Protect|p2a: Mismagius
+|-singleturn|p2a: Mismagius|Protect
+|move|p1a: hope it's not dumb|Ice Punch|p2a: Mismagius
+|-activate|p2a: Mismagius|move: Protect
+|
+|upkeep
+|turn|19
+|c|☆Somalia|NO
+|c|☆Somalia|hmm
+|
+|t:|1637447660
+|move|p2a: Mismagius|Shadow Ball|p1a: hope it's not dumb
+|-damage|p1a: hope it's not dumb|0 fnt
+|faint|p1a: hope it's not dumb
+|
+|upkeep
+|inactive|Somalia has 150 seconds left.
+|inactive|Somalia has 120 seconds left.
+|inactive|Somalia has 90 seconds left.
+|inactive|Somalia has 60 seconds left.
+|inactive|Somalia has 30 seconds left.
+|inactive|Somalia has 20 seconds left.
+|
+|t:|1637447808
+|switch|p1a: might be dumb|Lilligant, F|100/100
+|-damage|p1a: might be dumb|88/100|[from] Stealth Rock
+|turn|20
+|inactive|Somalia has 30 seconds left this turn.
+|inactive|Somalia has 20 seconds left.
+|inactive|Somalia has 15 seconds left.
+|inactive|Skysolo ❤ has 150 seconds left.
+|
+|t:|1637447842
+|move|p2a: Mismagius|Nasty Plot|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|2
+|move|p1a: might be dumb|Quiver Dance|p1a: might be dumb
+|-boost|p1a: might be dumb|spa|1
+|-boost|p1a: might be dumb|spd|1
+|-boost|p1a: might be dumb|spe|1
+|
+|-heal|p1a: might be dumb|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Somalia has 25 seconds left this turn.
+|inactive|Somalia has 20 seconds left.
+|inactive|Skysolo ❤ has 150 seconds left.
+|inactive|Somalia has 15 seconds left.
+|inactive|Somalia has 10 seconds left.
+|
+|t:|1637447873
+|move|p1a: might be dumb|Giga Drain|p2a: Mismagius
+|-damage|p2a: Mismagius|33/100
+|-heal|p1a: might be dumb|100/100|[from] drain|[of] p2a: Mismagius
+|move|p2a: Mismagius|Shadow Ball|p1a: might be dumb
+|-damage|p1a: might be dumb|30/100
+|
+|-heal|p1a: might be dumb|36/100|[from] item: Leftovers
+|-heal|p2a: Mismagius|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Somalia has 20 seconds left this turn.
+|inactive|Somalia has 15 seconds left.
+|
+|t:|1637447892
+|move|p1a: might be dumb|Giga Drain|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-heal|p1a: might be dumb|54/100|[from] drain|[of] p2a: Mismagius
+|faint|p2a: Mismagius
+|
+|-heal|p1a: might be dumb|60/100|[from] item: Leftovers
+|upkeep
+|inactive|Somalia has 20 seconds left this turn.
+|inactive|Skysolo ❤ has 120 seconds left.
+|
+|t:|1637447916
+|switch|p2a: Ferroseed|Ferroseed, M|83/100
+|-damage|p2a: Ferroseed|76/100|[from] Stealth Rock
+|turn|23
+|inactive|Somalia has 30 seconds left this turn.
+|inactive|Skysolo ❤ has 120 seconds left.
+|inactive|Somalia has 20 seconds left.
+|inactive|Somalia has 15 seconds left.
+|inactive|Somalia has 10 seconds left.
+|inactive|Somalia has 5 seconds left.
+|
+|t:|1637447947
+|switch|p1a: dumbest guy|Nidoqueen, F|62/100
+|-damage|p1a: dumbest guy|56/100|[from] Stealth Rock
+|move|p2a: Ferroseed|Spikes|p1a: dumbest guy
+|-sidestart|p1: Somalia|Spikes
+|
+|upkeep
+|turn|24
+|inactive|Somalia has 15 seconds left this turn.
+|inactive|Somalia has 10 seconds left.
+|inactive|Skysolo ❤ has 90 seconds left.
+|
+|t:|1637447982
+|switch|p2a: Nidoqueen|Nidoqueen, F|94/100 slp
+|-damage|p2a: Nidoqueen|88/100 slp|[from] Stealth Rock
+|move|p1a: dumbest guy|Ice Beam|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|9/100 slp
+|
+|upkeep
+|turn|25
+|inactive|Somalia has 20 seconds left this turn.
+|inactive|Somalia has 15 seconds left.
+|
+|t:|1637447990
+|cant|p2a: Nidoqueen|slp
+|move|p1a: dumbest guy|Earth Power|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|inactive|Somalia has 20 seconds left this turn.
+|
+|t:|1637447993
+|switch|p2a: Krookodile|Krookodile, M|94/100
+|-damage|p2a: Krookodile|88/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: dumbest guy|atk|1
+|turn|26
+|inactive|Somalia has 30 seconds left this turn.
+|inactive|Somalia has 20 seconds left.
+|inactive|Somalia has 15 seconds left.
+|inactive|Somalia has 10 seconds left.
+|inactive|Somalia has 5 seconds left.
+|
+|t:|1637448019
+|switch|p1a: dumb guy|Crustle, M|100/100
+|-damage|p1a: dumb guy|76/100|[from] Stealth Rock
+|-damage|p1a: dumb guy|63/100|[from] Spikes
+|move|p2a: Krookodile|Earthquake|p1a: dumb guy
+|-crit|p1a: dumb guy
+|-damage|p1a: dumb guy|0 fnt
+|faint|p1a: dumb guy
+|
+|upkeep
+|inactive|Somalia has 10 seconds left this turn.
+|
+|t:|1637448023
+|switch|p1a: might be dumb|Lilligant, F|60/100
+|-damage|p1a: might be dumb|47/100|[from] Stealth Rock
+|-damage|p1a: might be dumb|35/100|[from] Spikes
+|turn|27
+|inactive|Somalia has 20 seconds left this turn.
+|c|☆Somalia|wait
+|inactive|Somalia has 15 seconds left.
+|c|☆Somalia|misclick
+|c|☆Somalia|lmao
+|c|☆Somalia|fuck timer
+|inactive|Somalia has 10 seconds left.
+|c|☆Somalia|sorry team
+|
+|t:|1637448041
+|move|p2a: Krookodile|Earthquake|p1a: might be dumb
+|-resisted|p1a: might be dumb
+|-damage|p1a: might be dumb|0 fnt
+|faint|p1a: might be dumb
+|
+|upkeep
+|inactive|Somalia has 15 seconds left this turn.
+|c|☆Somalia|timer fucked
+|inactive|Somalia has 10 seconds left.
+|
+|t:|1637448046
+|switch|p1a: not so dumb|Weavile, F|76/100
+|-damage|p1a: not so dumb|63/100|[from] Spikes
+|-damage|p1a: not so dumb|38/100|[from] Stealth Rock
+|-ability|p1a: not so dumb|Pressure
+|turn|28
+|inactive|Somalia has 20 seconds left this turn.
+|
+|t:|1637448051
+|move|p1a: not so dumb|Ice Shard|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|32/100
+|move|p2a: Krookodile|Earthquake|p1a: not so dumb
+|-damage|p1a: not so dumb|0 fnt
+|faint|p1a: not so dumb
+|
+|upkeep
+|inactive|Somalia has 25 seconds left this turn.
+|
+|t:|1637448054
+|switch|p1a: dumbest guy|Nidoqueen, F|56/100
+|-damage|p1a: dumbest guy|44/100|[from] Spikes
+|-damage|p1a: dumbest guy|38/100|[from] Stealth Rock
+|turn|29
+|c|☆Somalia|gg
+|c|☆Skysolo ❤|gg
+|inactive|Somalia has 30 seconds left.
+|c|☆Somalia|calcd and then quickly went lili
+|c|☆Somalia|lol
+|c|☆Somalia|but it didnt
+|
+|t:|1637448068
+|move|p2a: Krookodile|Earthquake|p1a: dumbest guy
+|-supereffective|p1a: dumbest guy
+|-damage|p1a: dumbest guy|0 fnt
+|faint|p1a: dumbest guy
+|
+|win|Skysolo ❤
+|inactive|Somalia has 30 seconds left this turn.
+|c|+Donny P.|Strapped.

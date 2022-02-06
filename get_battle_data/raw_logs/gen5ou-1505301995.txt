@@ -1,0 +1,387 @@
+|j|☆Skuashs ¯\_(ツ)_/¯
+|j|☆xrnn
+|t:|1644125263
+|gametype|singles
+|player|p1|Skuashs ¯\_(ツ)_/¯|burglar|
+|player|p2|xrnn|cress|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Skarmory, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Garchomp, F|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skuashs ¯\_(ツ)_/¯)
+|inactive|xrnn also wants the timer to be on.
+|
+|t:|1644125293
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: monai team|Aerodactyl, M|100/100
+|-ability|p2a: monai team|Pressure
+|turn|1
+|
+|t:|1644125300
+|move|p2a: monai team|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: Skuashs ¯\_(ツ)_/¯|move: Stealth Rock
+|move|p1a: Jellicent|Scald|p2a: monai team
+|-supereffective|p2a: monai team
+|-damage|p2a: monai team|30/100
+|-status|p2a: monai team|brn
+|
+|-damage|p2a: monai team|18/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1644125306
+|move|p2a: monai team|Taunt|p1a: Jellicent
+|-start|p1a: Jellicent|move: Taunt
+|cant|p1a: Jellicent|move: Taunt|Recover
+|
+|-damage|p2a: monai team|5/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1644125314
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: monai team|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-damage|p2a: monai team|0 fnt|[from] brn
+|faint|p2a: monai team
+|upkeep
+|
+|t:|1644125324
+|switch|p2a: 0 skill|Volcarona, F|100/100
+|turn|4
+|
+|t:|1644125333
+|move|p2a: 0 skill|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1644125341
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|5
+|j| cursedstar
+|
+|t:|1644125367
+|switch|p2a: zero skill|Cloyster, F|100/100
+|move|p1a: Garchomp|Earthquake|p2a: zero skill
+|-crit|p2a: zero skill
+|-damage|p2a: zero skill|10/100
+|
+|upkeep
+|turn|6
+|
+|t:|1644125379
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: zero skill|Ice Shard|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|82/100
+|
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644125389
+|move|p2a: zero skill|Rock Blast|p1a: Jellicent
+|-enditem|p2a: zero skill|Rock Gem|[from] gem
+|-damage|p1a: Jellicent|80/100
+|-damage|p1a: Jellicent|70/100
+|-damage|p1a: Jellicent|61/100
+|-damage|p1a: Jellicent|53/100
+|-damage|p1a: Jellicent|44/100
+|-hitcount|p1a: Jellicent|5
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|94/100
+|
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|staff also wants the timer to be on.
+|
+|t:|1644125397
+|move|p2a: zero skill|Rock Blast|p1a: Jellicent
+|-damage|p1a: Jellicent|94/100
+|-damage|p1a: Jellicent|89/100
+|-damage|p1a: Jellicent|83/100
+|-damage|p1a: Jellicent|77/100
+|-damage|p1a: Jellicent|71/100
+|-hitcount|p1a: Jellicent|5
+|move|p1a: Jellicent|Scald|p2a: zero skill
+|-resisted|p2a: zero skill
+|-damage|p2a: zero skill|0 fnt
+|faint|p2a: zero skill
+|
+|-heal|p1a: Jellicent|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644125401
+|switch|p2a: negative skill|Latios, M|100/100
+|turn|9
+|
+|t:|1644125407
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: negative skill|Draco Meteor|p1a: Scizor
+|-enditem|p2a: negative skill|Dragon Gem|[from] gem
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|7/100
+|-unboost|p2a: negative skill|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1644125414
+|move|p1a: Scizor|Pursuit|p2a: negative skill
+|-supereffective|p2a: negative skill
+|-damage|p2a: negative skill|39/100
+|move|p2a: negative skill|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: negative skill|spa|2
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1644125421
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|11
+|
+|t:|1644125429
+|switch|p2a: lacking skill|Scizor, M|100/100
+|move|p1a: Alakazam|Shadow Ball|p2a: lacking skill
+|-resisted|p2a: lacking skill
+|-damage|p2a: lacking skill|82/100
+|
+|upkeep
+|turn|12
+|
+|t:|1644125442
+|move|p2a: lacking skill|Pursuit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Hidden Power|p2a: lacking skill
+|-supereffective|p2a: lacking skill
+|-crit|p2a: lacking skill
+|-damage|p2a: lacking skill|0 fnt
+|faint|p2a: lacking skill
+|
+|upkeep
+|
+|t:|1644125447
+|switch|p2a: no skill|Dragonite, M|100/100
+|turn|13
+|
+|t:|1644125451
+|switch|p1a: Jellicent|Jellicent, M|77/100
+|-damage|p1a: Jellicent|65/100|[from] Stealth Rock
+|move|p2a: no skill|Extreme Speed|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644125469
+|switch|p2a: negative skill|Latios, M|39/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: negative skill
+|-status|p2a: negative skill|brn
+|
+|-heal|p1a: Jellicent|77/100|[from] item: Leftovers
+|-damage|p2a: negative skill|27/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1644125486
+|switch|p1a: Garchomp|Garchomp, F|94/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|move|p2a: negative skill|Draco Meteor|p1a: Garchomp|[miss]
+|-miss|p2a: negative skill|p1a: Garchomp
+|
+|-damage|p2a: negative skill|15/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1644125493
+|move|p2a: negative skill|Memento|p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|2
+|-unboost|p1a: Garchomp|spa|2
+|faint|p2a: negative skill
+|move|p1a: Garchomp|Fire Fang|p2: negative skill|[notarget]
+|-fail|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1644125509
+|switch|p2a: 0 skill|Volcarona, F|100/100
+|turn|17
+|
+|t:|1644125519
+|switch|p1a: Alakazam|Alakazam, F|1/100
+|move|p2a: 0 skill|Quiver Dance|p2a: 0 skill
+|-boost|p2a: 0 skill|spa|1
+|-boost|p2a: 0 skill|spd|1
+|-boost|p2a: 0 skill|spe|1
+|
+|upkeep
+|turn|18
+|inactive|xrnn has 120 seconds left.
+|j|#susciety
+|j| turde master
+|inactive|xrnn has 90 seconds left.
+|
+|t:|1644125587
+|move|p2a: 0 skill|Bug Buzz|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|t:|1644125593
+|switch|p1a: Garchomp|Garchomp, F|88/100
+|-damage|p1a: Garchomp|82/100|[from] Stealth Rock
+|turn|19
+|j| bear kigurumi
+|
+|t:|1644125603
+|move|p2a: 0 skill|Bug Buzz|p1a: Garchomp
+|-damage|p1a: Garchomp|10/100
+|move|p1a: Garchomp|Outrage|p2a: 0 skill
+|-damage|p2a: 0 skill|1/100
+|
+|upkeep
+|turn|20
+|j| z0mog
+|
+|t:|1644125610
+|move|p2a: 0 skill|Bug Buzz|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1644125612
+|switch|p1a: Jellicent|Jellicent, M|77/100
+|-damage|p1a: Jellicent|65/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1644125620
+|move|p2a: 0 skill|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|28/100
+|move|p1a: Jellicent|Scald|p2a: 0 skill
+|-supereffective|p2a: 0 skill
+|-damage|p2a: 0 skill|0 fnt
+|faint|p2a: 0 skill
+|
+|-heal|p1a: Jellicent|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644125622
+|switch|p2a: no skill|Dragonite, M|100/100
+|turn|22
+|
+|t:|1644125624
+|move|p2a: no skill|Dragon Dance|p2a: no skill
+|-boost|p2a: no skill|atk|1
+|-boost|p2a: no skill|spe|1
+|move|p1a: Jellicent|Will-O-Wisp|p2a: no skill
+|-status|p2a: no skill|brn
+|
+|-heal|p1a: Jellicent|40/100|[from] item: Leftovers
+|-damage|p2a: no skill|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1644125628
+|move|p2a: no skill|Dragon Dance|p2a: no skill
+|-boost|p2a: no skill|atk|1
+|-boost|p2a: no skill|spe|1
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|90/100
+|
+|-heal|p1a: Jellicent|96/100|[from] item: Leftovers
+|-damage|p2a: no skill|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1644125631
+|move|p2a: no skill|Dragon Dance|p2a: no skill
+|-boost|p2a: no skill|atk|1
+|-boost|p2a: no skill|spe|1
+|move|p1a: Jellicent|Taunt|p2a: no skill
+|-start|p2a: no skill|move: Taunt
+|
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p2a: no skill|63/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1644125634
+|move|p2a: no skill|Outrage|p1a: Jellicent
+|-enditem|p2a: no skill|Dragon Gem|[from] gem
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-damage|p2a: no skill|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1644125636
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1644125638
+|move|p2a: no skill|Outrage|p1a: Hydreigon|[from]lockedmove
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|-start|p2a: no skill|confusion|[fatigue]
+|
+|win|xrnn
+|n|☆Skuashs ¯\_(ツ)_/¯|skuashs
+|n|☆xrnn|xrnn
+|n| cursedstar|cursedstar
+|n|+susciety|susciety
+|n| turde master|turdemaster
+|n| bear kigurumi|bearkigurumi
+|n| z0mog|z0mog
+|l|+susciety
+|c|☆xrnn|gg.
+|l|☆xrnn
+|l| cursedstar
+|l|☆Skuashs ¯\_(ツ)_/¯
+|l| bear kigurumi
+|l| turde master
+|j|☆Skuashs ¯\_(ツ)_/¯
+|player|p1|Skuashs ¯\_(ツ)_/¯|burglar

@@ -1,0 +1,271 @@
+|j|☆Wubben
+|j|☆yell ow fin
+|t:|1642020016
+|gametype|singles
+|player|p1|Wubben|#bltviiiturtwigs|
+|player|p2|yell ow fin|reporter|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dwebble, L5, M|item
+|poke|p1|Mankey, L5, M|item
+|poke|p1|Pawniard, L5, F|item
+|poke|p1|Chinchou, L5, M|item
+|poke|p1|Smoochum, L5, F|item
+|poke|p1|Slowpoke, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Trapinch, L5, M|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Ferroseed, L5, M|item
+|teampreview
+|c|☆yell ow fin|hf
+|c|☆Wubben|u2
+|
+|t:|1642020035
+|start
+|switch|p1a: Mankey|Mankey, L5, M|100/100
+|switch|p2a: Staryu|Staryu, L5|100/100
+|turn|1
+|
+|t:|1642020041
+|move|p1a: Mankey|U-turn|p2a: Staryu
+|-damage|p2a: Staryu|77/100
+|
+|t:|1642020048
+|switch|p1a: Chinchou|Chinchou, L5, M|100/100|[from]move: U-turn
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1642020052
+|switch|p2a: Ferroseed|Ferroseed, L5, M|100/100
+|move|p1a: Chinchou|Scald|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|91/100
+|-status|p2a: Ferroseed|brn
+|
+|-damage|p2a: Ferroseed|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1642020061
+|switch|p1a: Dwebble|Dwebble, L5, M|100/100
+|move|p2a: Ferroseed|Stealth Rock|p1a: Dwebble
+|-sidestart|p1: Wubben|move: Stealth Rock
+|
+|-damage|p2a: Ferroseed|73/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1642020067
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Dwebble|Stealth Rock|p2a: Staryu
+|-sidestart|p2: yell ow fin|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1642020072
+|move|p2a: Staryu|Rapid Spin|p1a: Dwebble
+|-resisted|p1a: Dwebble
+|-damage|p1a: Dwebble|96/100
+|-sideend|p2: yell ow fin|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Staryu
+|move|p1a: Dwebble|Shell Smash|p1a: Dwebble
+|-unboost|p1a: Dwebble|def|1
+|-unboost|p1a: Dwebble|spd|1
+|-boost|p1a: Dwebble|atk|2
+|-boost|p1a: Dwebble|spa|2
+|-boost|p1a: Dwebble|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1642020077
+|move|p1a: Dwebble|Rock Blast|p2a: Staryu
+|-crit|p2a: Staryu
+|-damage|p2a: Staryu|39/100
+|-damage|p2a: Staryu|10/100
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|-hitcount|p2: Staryu|3
+|
+|upkeep
+|
+|t:|1642020091
+|switch|p2a: Trapinch|Trapinch, L5, M|100/100
+|turn|7
+|
+|t:|1642020094
+|move|p1a: Dwebble|Stealth Rock|p2a: Trapinch
+|-sidestart|p2: yell ow fin|move: Stealth Rock
+|move|p2a: Trapinch|Earthquake|p1a: Dwebble
+|-damage|p1a: Dwebble|0 fnt
+|faint|p1a: Dwebble
+|
+|upkeep
+|
+|t:|1642020103
+|switch|p1a: Smoochum|Smoochum, L5, F|100/100
+|-damage|p1a: Smoochum|79/100|[from] Stealth Rock
+|-activate|p1a: Smoochum|ability: Forewarn|Superpower|[of] p2a: Trapinch
+|turn|8
+|
+|t:|1642020192
+|move|p2a: Trapinch|Quick Attack|p1a: Smoochum
+|-damage|p1a: Smoochum|48/100
+|move|p1a: Smoochum|Ice Beam|p2a: Trapinch
+|-supereffective|p2a: Trapinch
+|-damage|p2a: Trapinch|0 fnt
+|faint|p2a: Trapinch
+|
+|upkeep
+|
+|t:|1642020199
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1642020204
+|switch|p1a: Slowpoke|Slowpoke, L5, F|100/100
+|-damage|p1a: Slowpoke|89/100|[from] Stealth Rock
+|move|p2a: Mienfoo|U-turn|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|60/100
+|
+|t:|1642020210
+|switch|p2a: Ferroseed|Ferroseed, L5, M|73/100 brn|[from]move: U-turn
+|-damage|p2a: Ferroseed|69/100 brn|[from] Stealth Rock
+|
+|-damage|p2a: Ferroseed|60/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1642020217
+|switch|p1a: Smoochum|Smoochum, L5, F|48/100
+|-damage|p1a: Smoochum|27/100|[from] Stealth Rock
+|-activate|p1a: Smoochum|ability: Forewarn|Giga Drain|[of] p2a: Ferroseed
+|move|p2a: Ferroseed|Spikes|p1a: Smoochum
+|-sidestart|p1: Wubben|Spikes
+|
+|-damage|p2a: Ferroseed|50/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1642020222
+|move|p1a: Smoochum|Ice Beam|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1642020225
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1642020227
+|move|p2a: Mienfoo|Fake Out|p1a: Smoochum
+|-crit|p1a: Smoochum
+|-damage|p1a: Smoochum|0 fnt
+|faint|p1a: Smoochum
+|
+|upkeep
+|
+|t:|1642020236
+|switch|p1a: Mankey|Mankey, L5, M|100/100
+|-damage|p1a: Mankey|91/100|[from] Spikes
+|-damage|p1a: Mankey|87/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1642020242
+|move|p1a: Mankey|Final Gambit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|14/100
+|faint|p1a: Mankey
+|move|p2a: Mienfoo|Knock Off|p1: Mankey|[notarget]
+|-fail|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1642020257
+|switch|p1a: Chinchou|Chinchou, L5, M|100/100
+|-damage|p1a: Chinchou|88/100|[from] Stealth Rock
+|-damage|p1a: Chinchou|76/100|[from] Spikes
+|turn|14
+|
+|t:|1642020262
+|switch|p2a: Natu|Natu, L5, F|100/100
+|-damage|p2a: Natu|75/100|[from] Stealth Rock
+|move|p1a: Chinchou|Scald|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|upkeep
+|
+|t:|1642020266
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|15
+|c|☆Wubben|srry bout that one
+|
+|t:|1642020271
+|move|p2a: Abra|Psychic|p1a: Chinchou
+|-crit|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|
+|upkeep
+|c|☆yell ow fin|dw
+|
+|t:|1642020276
+|switch|p1a: Pawniard|Pawniard, L5, F|100/100
+|-damage|p1a: Pawniard|96/100|[from] Stealth Rock
+|-damage|p1a: Pawniard|86/100|[from] Spikes
+|turn|16
+|
+|t:|1642020281
+|move|p2a: Abra|Thunder Wave|p1a: Pawniard
+|-status|p1a: Pawniard|par
+|move|p1a: Pawniard|Iron Head|p2a: Abra
+|-damage|p2a: Abra|6/100
+|
+|upkeep
+|turn|17
+|
+|t:|1642020287
+|move|p1a: Pawniard|Sucker Punch|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|
+|t:|1642020289
+|switch|p2a: Mienfoo|Mienfoo, L5, F|44/100
+|-damage|p2a: Mienfoo|40/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1642020291
+|move|p1a: Pawniard|Sucker Punch|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|win|Wubben
+|c|☆yell ow fin|gg
+|c|☆Wubben|gg
+|c|☆yell ow fin|ggs*
+|l|☆yell ow fin

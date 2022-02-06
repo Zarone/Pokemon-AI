@@ -1,0 +1,424 @@
+|j|☆me bean 2
+|j|☆FOYTHEAN
+|t:|1637491065
+|gametype|singles
+|player|p1|me bean 2|juan|
+|player|p2|FOYTHEAN|scientist|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawk, M|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Zangoose, M|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|j| BB-8-NU
+|c|☆FOYTHEAN|hf
+|j| Thegamingattack3
+|c|☆me bean 2|u2
+|
+|t:|1637491089
+|start
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1637491112
+|move|p1a: Zangoose|Night Slash|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|54/100
+|move|p2a: Golurk|Earthquake|p1a: Zangoose
+|-damage|p1a: Zangoose|1/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|j| Vextal
+|
+|t:|1637491136
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Zangoose|Night Slash|p2a: Alomomola
+|-damage|p2a: Alomomola|75/100
+|
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|0 fnt|[from] psn
+|faint|p1a: Zangoose
+|upkeep
+|n| Thegamingattack3|thegamingattack3
+|j| Lasen
+|
+|t:|1637491144
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|3
+|l| Lasen
+|
+|t:|1637491164
+|switch|p2a: Golurk|Golurk|54/100
+|move|p1a: Alomomola|Toxic|p2a: Golurk
+|-status|p2a: Golurk|tox
+|
+|-damage|p2a: Golurk|48/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1637491172
+|move|p2a: Golurk|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: me bean 2|move: Stealth Rock
+|move|p1a: Alomomola|Waterfall|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-enditem|p2a: Golurk|Passho Berry|[eat]
+|-enditem|p2a: Golurk|Passho Berry|[weaken]
+|-damage|p2a: Golurk|23/100 tox
+|
+|-damage|p2a: Golurk|11/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1637491193
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Golurk|Thunder Punch|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Golurk|0 fnt|[from] psn
+|faint|p2a: Golurk
+|upkeep
+|
+|t:|1637491205
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Regenerator|[from] ability: Trace|[of] p1a: Alomomola
+|turn|6
+|
+|t:|1637491212
+|move|p2a: Gardevoir|Will-O-Wisp|p1a: Alomomola
+|-status|p1a: Alomomola|brn
+|move|p1a: Alomomola|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|
+|-damage|p2a: Gardevoir|94/100 tox|[from] psn
+|-damage|p1a: Alomomola|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|j| mentalsoft
+|
+|t:|1637491217
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Alomomola|Waterfall|p2a: Garbodor
+|-damage|p2a: Garbodor|92/100
+|-damage|p1a: Alomomola|72/100 brn|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|-heal|p1a: Alomomola|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|65/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1637491224
+|move|p2a: Garbodor|Spikes|p1a: Alomomola
+|-sidestart|p1: me bean 2|Spikes
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|59/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1637491230
+|switch|p1a: Charizard|Charizard, F|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Garbodor|Spikes|p1a: Charizard
+|-sidestart|p1: me bean 2|Spikes
+|
+|-heal|p1a: Charizard|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FOYTHEAN)
+|
+|t:|1637491241
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Charizard|Fire Blast|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|74/100
+|-damage|p1a: Charizard|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Alomomola|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1637491249
+|move|p1a: Charizard|Hidden Power|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|34/100
+|-damage|p1a: Charizard|81/100|[from] item: Life Orb
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|40/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1637491259
+|switch|p1a: Alomomola|Alomomola, F|92/100 brn
+|-damage|p1a: Alomomola|76/100 brn|[from] Spikes
+|-damage|p1a: Alomomola|63/100 brn|[from] Stealth Rock
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|90/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|96/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|57/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1637491267
+|switch|p2a: Garbodor|Garbodor, M|92/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|51/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1637491274
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Garbodor|Spikes|p1a: Alomomola
+|-sidestart|p1: me bean 2|Spikes
+|
+|-heal|p1a: Alomomola|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1637491282
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|move|p2a: Garbodor|Seed Bomb|p1a: Eelektross
+|-damage|p1a: Eelektross|68/100
+|
+|upkeep
+|turn|16
+|
+|t:|1637491290
+|move|p2a: Garbodor|Gunk Shot|p1a: Eelektross
+|-damage|p1a: Eelektross|20/100
+|move|p1a: Eelektross|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|15/100
+|
+|upkeep
+|turn|17
+|
+|t:|1637491299
+|move|p2a: Garbodor|Seed Bomb|p1a: Eelektross
+|-damage|p1a: Eelektross|1/100
+|move|p1a: Eelektross|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1637491314
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|18
+|
+|t:|1637491317
+|move|p2a: Kangaskhan|Fake Out|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1637491321
+|switch|p1a: Sawk|Sawk, M|100/100
+|-damage|p1a: Sawk|75/100|[from] Spikes
+|-damage|p1a: Sawk|69/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|19
+|
+|t:|1637491326
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Sawk|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|55/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|
+|-heal|p2a: Alomomola|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1637491333
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|-damage|p1a: Skuntank|63/100|[from] Spikes
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Skuntank|69/100|[from] item: Black Sludge
+|-heal|p2a: Alomomola|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1637491340
+|move|p1a: Skuntank|Pursuit|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|43/100
+|move|p2a: Alomomola|Waterfall|p1a: Skuntank
+|-damage|p1a: Skuntank|37/100
+|
+|-heal|p2a: Alomomola|93/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Skuntank|43/100|[from] item: Black Sludge
+|-heal|p2a: Alomomola|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1637491344
+|move|p1a: Skuntank|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Wish
+|
+|-heal|p1a: Skuntank|49/100|[from] item: Black Sludge
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1637491348
+|move|p1a: Skuntank|Sucker Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|move|p2a: Alomomola|Waterfall|p1a: Skuntank
+|-damage|p1a: Skuntank|17/100
+|
+|-heal|p1a: Skuntank|23/100|[from] item: Black Sludge
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1637491352
+|move|p1a: Skuntank|Sucker Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100
+|move|p2a: Alomomola|Waterfall|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Alomomola|31/100|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|-heal|p2a: Alomomola|38/100|[from] item: Leftovers
+|-end|p2a: Alomomola|move: Taunt
+|upkeep
+|
+|t:|1637491359
+|switch|p1a: Sawk|Sawk, M|69/100
+|-damage|p1a: Sawk|44/100|[from] Spikes
+|-damage|p1a: Sawk|38/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|25
+|
+|t:|1637491364
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Sawk|Close Combat|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|44/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1637491382
+|switch|p2a: Gardevoir|Gardevoir, M|100/100 tox
+|-ability|p2a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p1a: Sawk
+|-ability|p2a: Gardevoir|Mold Breaker
+|move|p1a: Sawk|Close Combat|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|59/100 tox
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|
+|-heal|p2a: Gardevoir|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Gardevoir|59/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1637491394
+|switch|p1a: Alomomola|Alomomola, F|100/100 brn
+|-damage|p1a: Alomomola|88/100 brn|[from] Stealth Rock
+|-damage|p1a: Alomomola|63/100 brn|[from] Spikes
+|move|p2a: Gardevoir|Psychic|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-heal|p2a: Gardevoir|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Gardevoir|53/100 tox|[from] psn
+|upkeep
+|c|☆me bean 2|...
+|
+|t:|1637491404
+|switch|p1a: Charizard|Charizard, F|81/100
+|-damage|p1a: Charizard|31/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1637491410
+|move|p1a: Charizard|Fire Blast|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|-damage|p1a: Charizard|21/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1637491414
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|29
+|
+|t:|1637491420
+|move|p2a: Kangaskhan|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1637491424
+|switch|p1a: Sawk|Sawk, M|38/100
+|-damage|p1a: Sawk|32/100|[from] Stealth Rock
+|-damage|p1a: Sawk|7/100|[from] Spikes
+|-ability|p1a: Sawk|Mold Breaker
+|turn|30
+|j| DavidYGreninja
+|
+|t:|1637491428
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Sawk
+|-resisted|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|win|FOYTHEAN
+|n|☆me bean 2|mebean2
+|n|☆FOYTHEAN|foythean
+|n| BB-8-NU|bb8nu
+|n| Thegamingattack3|thegamingattack3
+|n| Vextal|vextal
+|n| mentalsoft|mentalsoft
+|n| DavidYGreninja|davidygreninja
+|l| BB-8-NU
+|c|☆FOYTHEAN|gg
+|c|☆me bean 2|gg
+|l| DavidYGreninja
+|j| DavidYGreninja
+|l|☆FOYTHEAN
+|l|☆me bean 2

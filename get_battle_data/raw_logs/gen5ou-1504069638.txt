@@ -1,0 +1,259 @@
+|j|☆banana121212
+|j|☆testbwou
+|t:|1643947057
+|gametype|singles
+|player|p1|banana121212|170|1200
+|player|p2|testbwou|102|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Magnezone|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|j| SKT T1 Motherfaker
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by banana121212)
+|inactive|testbwou has 120 seconds left.
+|
+|t:|1643947202
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|inactive|banana121212 has 120 seconds left.
+|
+|t:|1643947234
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Garchomp|Fire Blast|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|70/100
+|
+|upkeep
+|turn|2
+|
+|t:|1643947244
+|move|p1a: Garchomp|Stealth Rock|p2a: Mamoswine
+|-sidestart|p2: testbwou|move: Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|35/100
+|-damage|p2a: Mamoswine|60/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|inactive|banana121212 has 120 seconds left.
+|
+|t:|1643947262
+|move|p2a: Mamoswine|Ice Shard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: Mamoswine|50/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|banana121212 has 120 seconds left.
+|
+|t:|1643947273
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|turn|4
+|
+|t:|1643947277
+|move|p2a: Mamoswine|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|40/100
+|-damage|p2a: Mamoswine|40/100|[from] item: Life Orb
+|move|p1a: Jellicent|Scald|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Jellicent|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643947280
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1643947295
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|70/100
+|
+|-heal|p2a: Magnezone|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643947300
+|move|p2a: Magnezone|Thunderbolt|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|70/100
+|move|p1a: Magnezone|Hidden Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643947304
+|move|p2a: Magnezone|Thunderbolt|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|15/100
+|move|p1a: Magnezone|Hidden Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|inactive|testbwou has 120 seconds left.
+|
+|t:|1643947345
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1643947354
+|move|p2a: Scizor|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|-damage|p2a: Scizor|78/100|[from] item: Life Orb
+|inactive|testbwou has 90 seconds left.
+|
+|t:|1643947385
+|switch|p2a: Haxorus|Haxorus, M|100/100|[from]move: U-turn
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|upkeep
+|
+|t:|1643947397
+|switch|p1a: Latios|Latios, M|100/100
+|turn|9
+|
+|t:|1643947403
+|move|p1a: Latios|Dragon Pulse|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1643947406
+|switch|p2a: Scizor|Scizor, M|78/100
+|-damage|p2a: Scizor|66/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1643947413
+|-activate|p1a: Latios|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Latios|[from]Pursuit
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-damage|p2a: Scizor|56/100|[from] item: Life Orb
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1643947423
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|11
+|inactive|testbwou has 120 seconds left.
+|
+|t:|1643947456
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|upkeep
+|turn|12
+|
+|t:|1643947469
+|switch|p2a: Scizor|Scizor, M|56/100
+|-damage|p2a: Scizor|43/100|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|20/100
+|-status|p2a: Scizor|par
+|
+|upkeep
+|turn|13
+|
+|t:|1643947478
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|cant|p2a: Scizor|par
+|
+|upkeep
+|turn|14
+|
+|t:|1643947482
+|move|p1a: Jirachi|Cosmic Power|p1a: Jirachi
+|-boost|p1a: Jirachi|def|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Scizor|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|68/100
+|-damage|p2a: Scizor|10/100 par|[from] item: Life Orb
+|
+|t:|1643947484
+|switch|p2a: Garchomp|Garchomp, M|94/100|[from]move: U-turn
+|-damage|p2a: Garchomp|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|15
+|
+|t:|1643947496
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|t:|1643947509
+|switch|p1a: Jellicent|Jellicent, M|46/100
+|turn|16
+|
+|t:|1643947520
+|move|p2a: Garchomp|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|l|☆banana121212
+|inactive|banana121212 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|banana121212 has 30 seconds to reconnect!
+|inactive|banana121212 has 20 seconds to reconnect!
+|inactive|banana121212 has 15 seconds to reconnect!
+|inactive|banana121212 has 10 seconds to reconnect!
+|inactive|banana121212 has 5 seconds to reconnect!
+|-message|banana121212 lost due to inactivity.
+|
+|win|testbwou
+|raw|banana121212's rating: 1200 &rarr; <strong>1190</strong><br />(-10 for losing)
+|raw|testbwou's rating: 1445 &rarr; <strong>1453</strong><br />(+8 for winning)

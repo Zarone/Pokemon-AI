@@ -1,0 +1,348 @@
+|j|☆tank skunk
+|j|☆ApexVGC
+|t:|1642377643
+|gametype|singles
+|player|p1|tank skunk|pokefan|1083
+|player|p2|ApexVGC|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lunatone|item
+|poke|p1|Scraggy, M|item
+|poke|p1|Electabuzz, M|item
+|poke|p1|Golbat, F|item
+|poke|p1|Rapidash, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p2|Altaria, M|item
+|poke|p2|Regirock|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Ariados, F|item
+|poke|p2|Ampharos, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|
+|t:|1642377656
+|start
+|switch|p1a: Ultra Moon|Lunatone|100/100
+|switch|p2a: Eelektross|Eelektross, F|100/100
+|turn|1
+|
+|t:|1642377665
+|move|p1a: Ultra Moon|Stealth Rock|p2a: Eelektross
+|-sidestart|p2: ApexVGC|move: Stealth Rock
+|move|p2a: Eelektross|Giga Drain|p1a: Ultra Moon
+|-supereffective|p1a: Ultra Moon
+|-damage|p1a: Ultra Moon|7/100
+|
+|-heal|p1a: Ultra Moon|13/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1642377676
+|switch|p1a: Rarity|Rapidash, F, shiny|100/100
+|move|p2a: Eelektross|Giga Drain|p1a: Rarity
+|-resisted|p1a: Rarity
+|-crit|p1a: Rarity
+|-damage|p1a: Rarity|43/100
+|
+|upkeep
+|turn|3
+|
+|t:|1642377687
+|move|p1a: Rarity|Flare Blitz|p2a: Eelektross
+|-damage|p2a: Eelektross|23/100
+|-damage|p1a: Rarity|9/100|[from] Recoil
+|-damage|p1a: Rarity|0 fnt|[from] item: Life Orb
+|faint|p1a: Rarity
+|move|p2a: Eelektross|Giga Drain|p1: Rarity|[notarget]
+|-fail|p2a: Eelektross
+|
+|upkeep
+|
+|t:|1642377699
+|switch|p1a: Big Mouth|Golbat, F, shiny|100/100
+|turn|4
+|
+|t:|1642377707
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|-damage|p2a: Ampharos|88/100|[from] Stealth Rock
+|move|p1a: Big Mouth|Toxic|p2a: Ampharos|[miss]
+|-miss|p1a: Big Mouth|p2a: Ampharos
+|
+|-heal|p2a: Ampharos|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1642377714
+|switch|p1a: Aldrin|Electabuzz, M|100/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Aldrin
+|-resisted|p1a: Aldrin
+|-damage|p1a: Aldrin|82/100
+|
+|-heal|p2a: Ampharos|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642377721
+|move|p1a: Aldrin|Focus Blast|p2a: Ampharos
+|-damage|p2a: Ampharos|79/100
+|move|p2a: Ampharos|Toxic|p1a: Aldrin|[miss]
+|-miss|p2a: Ampharos|p1a: Aldrin
+|
+|-heal|p2a: Ampharos|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1642377727
+|move|p1a: Aldrin|Volt Switch|p2a: Ampharos
+|-resisted|p2a: Ampharos
+|-damage|p2a: Ampharos|74/100
+|
+|t:|1642377733
+|switch|p1a: Ultra Moon|Lunatone|13/100|[from]move: Volt Switch
+|move|p2a: Ampharos|Toxic|p1a: Ultra Moon|[miss]
+|-miss|p2a: Ampharos|p1a: Ultra Moon
+|
+|-heal|p1a: Ultra Moon|19/100|[from] item: Leftovers
+|-heal|p2a: Ampharos|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1642377738
+|move|p1a: Ultra Moon|Moonlight|p1a: Ultra Moon
+|-heal|p1a: Ultra Moon|69/100
+|move|p2a: Ampharos|Volt Switch|p1a: Ultra Moon
+|-damage|p1a: Ultra Moon|34/100
+|
+|t:|1642377746
+|switch|p2a: Eelektross|Eelektross, F|23/100|[from]move: Volt Switch
+|-damage|p2a: Eelektross|11/100|[from] Stealth Rock
+|
+|-heal|p1a: Ultra Moon|41/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1642377759
+|switch|p1a: Ludacris|Ludicolo, M, shiny|100/100
+|move|p2a: Eelektross|Giga Drain|p1a: Ludacris
+|-damage|p1a: Ludacris|73/100
+|-heal|p2a: Eelektross|25/100|[from] drain|[of] p1a: Ludacris
+|
+|-heal|p1a: Ludacris|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1642377773
+|move|p1a: Ludacris|Leech Seed|p2a: Eelektross
+|-start|p2a: Eelektross|move: Leech Seed
+|move|p2a: Eelektross|Giga Drain|p1a: Ludacris
+|-damage|p1a: Ludacris|53/100
+|-heal|p2a: Eelektross|39/100|[from] drain|[of] p1a: Ludacris
+|
+|-heal|p1a: Ludacris|59/100|[from] item: Leftovers
+|-damage|p2a: Eelektross|26/100|[from] Leech Seed|[of] p1a: Ludacris
+|-heal|p1a: Ludacris|71/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1642377781
+|move|p1a: Ludacris|Giga Drain|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|-heal|p1a: Ludacris|83/100|[from] drain|[of] p2a: Eelektross
+|faint|p2a: Eelektross
+|
+|-heal|p1a: Ludacris|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642377789
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Own Tempo|[from] ability: Trace|[of] p1a: Ludacris
+|turn|12
+|
+|t:|1642377819
+|move|p2a: Gardevoir|Signal Beam|p1a: Ludacris
+|-supereffective|p1a: Ludacris
+|-crit|p1a: Ludacris
+|-damage|p1a: Ludacris|12/100
+|move|p1a: Ludacris|Leech Seed|p2a: Gardevoir
+|-start|p2a: Gardevoir|move: Leech Seed
+|
+|-heal|p2a: Gardevoir|94/100|[from] item: Leftovers
+|-heal|p1a: Ludacris|18/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|82/100|[from] Leech Seed|[of] p1a: Ludacris
+|-heal|p1a: Ludacris|28/100|[silent]
+|upkeep
+|turn|13
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642377836
+|switch|p1a: Aldrin|Electabuzz, M|82/100
+|move|p2a: Gardevoir|Signal Beam|p1a: Aldrin
+|-damage|p1a: Aldrin|56/100
+|
+|-heal|p2a: Gardevoir|88/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|76/100|[from] Leech Seed|[of] p1a: Aldrin
+|-heal|p1a: Aldrin|68/100|[silent]
+|upkeep
+|turn|14
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642377848
+|move|p1a: Aldrin|Volt Switch|p2a: Gardevoir
+|-damage|p2a: Gardevoir|46/100
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642377855
+|switch|p1a: PantGround|Scraggy, M, shiny|100/100|[from]move: Volt Switch
+|move|p2a: Gardevoir|Substitute|p2a: Gardevoir
+|-start|p2a: Gardevoir|Substitute
+|-damage|p2a: Gardevoir|21/100
+|
+|-heal|p2a: Gardevoir|28/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|15/100|[from] Leech Seed|[of] p1a: PantGround
+|upkeep
+|turn|15
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642377866
+|switch|p1a: Big Mouth|Golbat, F, shiny|100/100
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|
+|-heal|p2a: Gardevoir|21/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|9/100|[from] Leech Seed|[of] p1a: Big Mouth
+|upkeep
+|turn|16
+|
+|t:|1642377874
+|switch|p1a: PantGround|Scraggy, M, shiny|100/100
+|move|p2a: Gardevoir|Psychic|p1a: PantGround
+|-immune|p1a: PantGround
+|
+|-heal|p2a: Gardevoir|15/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|3/100|[from] Leech Seed|[of] p1a: PantGround
+|upkeep
+|turn|17
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642377892
+|move|p2a: Gardevoir|Signal Beam|p1a: PantGround
+|-damage|p1a: PantGround|55/100
+|move|p1a: PantGround|Dragon Dance|p1a: PantGround
+|-boost|p1a: PantGround|atk|1
+|-boost|p1a: PantGround|spe|1
+|
+|-heal|p2a: Gardevoir|9/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|0 fnt|[from] Leech Seed|[of] p1a: PantGround
+|-heal|p1a: PantGround|65/100|[silent]
+|faint|p2a: Gardevoir
+|upkeep
+|
+|t:|1642377899
+|switch|p2a: Ariados|Ariados, F|100/100
+|-damage|p2a: Ariados|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1642377905
+|move|p1a: PantGround|Stone Edge|p2a: Ariados
+|-supereffective|p2a: Ariados
+|-crit|p2a: Ariados
+|-damage|p2a: Ariados|0 fnt
+|faint|p2a: Ariados
+|
+|upkeep
+|
+|t:|1642377908
+|switch|p2a: Altaria|Altaria, M|100/100
+|-damage|p2a: Altaria|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1642377911
+|move|p1a: PantGround|Stone Edge|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+|
+|t:|1642377915
+|switch|p2a: Regirock|Regirock|100/100
+|-damage|p2a: Regirock|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1642377918
+|move|p1a: PantGround|Dragon Dance|p1a: PantGround
+|-boost|p1a: PantGround|atk|1
+|-boost|p1a: PantGround|spe|1
+|move|p2a: Regirock|Stealth Rock|p1a: PantGround
+|-sidestart|p1: tank skunk|move: Stealth Rock
+|
+|-heal|p2a: Regirock|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1642377925
+|move|p1a: PantGround|Drain Punch|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|39/100
+|-heal|p1a: PantGround|100/100|[from] drain|[of] p2a: Regirock
+|move|p2a: Regirock|Drain Punch|p1a: PantGround
+|-supereffective|p1a: PantGround
+|-damage|p1a: PantGround|43/100
+|-heal|p2a: Regirock|58/100|[from] drain|[of] p1a: PantGround
+|
+|-heal|p2a: Regirock|64/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1642377939
+|move|p1a: PantGround|Drain Punch|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|12/100
+|-heal|p1a: PantGround|81/100|[from] drain|[of] p2a: Regirock
+|move|p2a: Regirock|Drain Punch|p1a: PantGround
+|-supereffective|p1a: PantGround
+|-damage|p1a: PantGround|27/100
+|-heal|p2a: Regirock|30/100|[from] drain|[of] p1a: PantGround
+|
+|-heal|p2a: Regirock|37/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642377948
+|move|p1a: PantGround|Drain Punch|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|-heal|p1a: PantGround|54/100|[from] drain|[of] p2a: Regirock
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1642377952
+|switch|p2a: Ampharos|Ampharos, F|81/100
+|-damage|p2a: Ampharos|68/100|[from] Stealth Rock
+|turn|24
+|c|☆ApexVGC|gg
+|-message|ApexVGC forfeited.
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1083 &rarr; <strong>1104</strong><br />(+21 for winning)
+|raw|ApexVGC's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆ApexVGC

@@ -1,0 +1,500 @@
+|j|☆rexxonmobile
+|j|☆Dxlxnhxxe
+|t:|1643948486
+|gametype|singles
+|player|p1|rexxonmobile|266|1291
+|player|p2|Dxlxnhxxe|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, M|item
+|poke|p1|Espeon, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Jolteon, F|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Ninetales, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Milotic, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rexxonmobile)
+|
+|t:|1643948550
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Milotic|Milotic, M|100/100
+|turn|1
+|
+|t:|1643948562
+|move|p1a: Infernape|Stealth Rock|p2a: Milotic
+|-sidestart|p2: Dxlxnhxxe|move: Stealth Rock
+|move|p2a: Milotic|Toxic|p1a: Infernape
+|-status|p1a: Infernape|tox
+|
+|-damage|p1a: Infernape|94/100 tox|[from] psn
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1643948574
+|move|p1a: Infernape|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|89/100 brn
+|
+|t:|1643948591
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p2a: Milotic|Surf|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|77/100
+|
+|-damage|p2a: Milotic|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1643948603
+|move|p1a: Rotom|Volt Switch|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|36/100 brn
+|
+|t:|1643948608
+|switch|p1a: Espeon|Espeon, M|100/100|[from]move: Volt Switch
+|move|p2a: Milotic|Toxic|p1a: Espeon
+|move|p1a: Espeon|Toxic||[from]ability: Magic Bounce|[still]
+|-fail|p1a: Espeon
+|
+|-damage|p2a: Milotic|24/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1643948620
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|74/100 brn
+|
+|-damage|p2a: Milotic|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1643948631
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 brn
+|
+|-damage|p2a: Milotic|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1643948642
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Milotic|Surf|p1a: Espeon
+|-damage|p1a: Espeon|89/100
+|
+|-heal|p1a: Espeon|95/100|[from] item: Leftovers
+|-damage|p2a: Milotic|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1643948652
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643948665
+|move|p2a: Scizor|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-crit|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|t:|1643948682
+|switch|p2a: Reuniclus|Reuniclus, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1643948693
+|switch|p1a: Rotom|Rotom-Wash|77/100
+|turn|9
+|
+|t:|1643948696
+|move|p1a: Rotom|Trick|p2a: Reuniclus
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Reuniclus
+|-item|p2a: Reuniclus|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-heal|p1a: Rotom|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643948712
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-heal|p1a: Rotom|89/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643948727
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100 brn
+|
+|t:|1643948746
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scizor
+|-sidestart|p1: rexxonmobile|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1643948756
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Spikes|p1a: Scizor
+|-sidestart|p1: rexxonmobile|Spikes
+|
+|-heal|p2a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|62/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1643948766
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Spikes|p1a: Scizor
+|-sidestart|p1: rexxonmobile|Spikes
+|
+|-heal|p2a: Ferrothorn|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|56/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1643948781
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scizor|[miss]
+|-miss|p2a: Ferrothorn|p1a: Scizor
+|
+|-heal|p2a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|49/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1643948790
+|move|p1a: Scizor|Pursuit|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100 brn
+|-damage|p1a: Scizor|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|26/100 brn|[from] item: Leftovers
+|-damage|p1a: Scizor|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|39/100 brn|[silent]
+|-damage|p2a: Ferrothorn|27/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1643948803
+|move|p1a: Scizor|Pursuit|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Scizor|70/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Scizor|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643948819
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|17
+|
+|t:|1643948827
+|move|p1a: Scizor|Bullet Punch|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|82/100|[from] item: Leftovers
+|upkeep
+|inactive|Dxlxnhxxe has 120 seconds left.
+|
+|t:|1643948848
+|switch|p2a: Milotic|Milotic, M|76/100 brn
+|-damage|p2a: Milotic|63/100 brn|[from] Stealth Rock
+|turn|18
+|
+|t:|1643948854
+|move|p1a: Scizor|Pursuit|p2a: Milotic
+|-damage|p2a: Milotic|14/100 brn
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|64/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|88/100|[from] item: Leftovers
+|-damage|p1a: Scizor|75/100|[from] Leech Seed|[of] p2a: Milotic
+|-heal|p2a: Milotic|75/100 brn|[silent]
+|-damage|p2a: Milotic|63/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1643948869
+|move|p1a: Scizor|Bullet Punch|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|28/100 brn
+|move|p2a: Milotic|Surf|p1a: Scizor
+|-damage|p1a: Scizor|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|63/100|[from] item: Leftovers
+|-damage|p1a: Scizor|51/100|[from] Leech Seed|[of] p2a: Milotic
+|-heal|p2a: Milotic|39/100 brn|[silent]
+|-damage|p2a: Milotic|26/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1643948883
+|move|p1a: Scizor|Pursuit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|57/100|[from] item: Leftovers
+|upkeep
+|inactive|Dxlxnhxxe has 120 seconds left.
+|
+|t:|1643948899
+|switch|p2a: Scizor|Scizor, M|88/100
+|-damage|p2a: Scizor|76/100|[from] Stealth Rock
+|turn|21
+|inactive|Dxlxnhxxe has 120 seconds left.
+|
+|t:|1643948908
+|move|p2a: Scizor|Aerial Ace|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| ddddddabai
+|
+|t:|1643948924
+|switch|p1a: Rotom|Rotom-Wash|89/100
+|-damage|p1a: Rotom|77/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1643948936
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|78/100
+|
+|t:|1643948945
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1643948957
+|move|p1a: Landorus|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|31/100
+|
+|t:|1643948967
+|switch|p1a: Rotom|Rotom-Wash|77/100|[from]move: U-turn
+|-damage|p1a: Rotom|64/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Psyshock|p1a: Rotom
+|-damage|p1a: Rotom|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1643948978
+|move|p1a: Rotom|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|6/100
+|
+|t:|1643948985
+|switch|p1a: Jolteon|Jolteon, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Jolteon|84/100|[from] Spikes
+|-damage|p1a: Jolteon|71/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Psyshock|p1a: Jolteon
+|-damage|p1a: Jolteon|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1643948997
+|move|p1a: Jolteon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643949006
+|switch|p2a: Scizor|Scizor, M|76/100
+|-damage|p2a: Scizor|63/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1643949026
+|move|p2a: Scizor|Bullet Punch|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643949036
+|switch|p1a: Rotom|Rotom-Wash|27/100
+|-damage|p1a: Rotom|15/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1643949043
+|move|p2a: Scizor|Bullet Punch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|11/100|[from] item: Leftovers
+|-damage|p2a: Scizor|51/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1643949066
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon|[miss]
+|-miss|p1a: Rotom|p2a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|17/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1643949082
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rotom|11/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1643949095
+|move|p1a: Rotom|Volt Switch|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|move|p2a: Gastrodon|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1643949103
+|switch|p1a: Infernape|Infernape, M|94/100 tox
+|-damage|p1a: Infernape|78/100 tox|[from] Spikes
+|-damage|p1a: Infernape|66/100 tox|[from] Stealth Rock
+|turn|31
+|
+|t:|1643949113
+|move|p1a: Infernape|Overheat|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|48/100 brn
+|-unboost|p1a: Infernape|spa|2
+|move|p2a: Gastrodon|Scald|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-crit|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1643949121
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|75/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gastrodon|atk|1
+|turn|32
+|
+|t:|1643949132
+|move|p1a: Landorus|Earthquake|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643949138
+|switch|p2a: Scizor|Scizor, M|51/100 brn
+|-damage|p2a: Scizor|38/100 brn|[from] Stealth Rock
+|turn|33
+|
+|t:|1643949143
+|move|p1a: Landorus|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|rexxonmobile
+|raw|rexxonmobile's rating: 1291 &rarr; <strong>1299</strong><br />(+8 for winning)
+|raw|Dxlxnhxxe's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆Dxlxnhxxe

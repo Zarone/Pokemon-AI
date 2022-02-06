@@ -1,0 +1,184 @@
+|j|☆UwU_Kingz
+|j|☆Kevin Dickey12
+|t:|1637200475
+|gametype|singles
+|player|p1|UwU_Kingz|266|
+|player|p2|Kevin Dickey12|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, M|item
+|poke|p1|Omanyte, L5, M|item
+|poke|p1|Houndour, L5, F|item
+|poke|p1|Golett, L5|item
+|poke|p1|Nidoran-M, L5, M|item
+|poke|p1|Ferroseed, L5, F|item
+|poke|p2|Riolu, L5, M|item
+|poke|p2|Ferroseed, L5, M|item
+|poke|p2|Mudkip, L5, M|item
+|poke|p2|Larvesta, L5, M|item
+|poke|p2|Electrike, L5, M|item
+|poke|p2|Drifloon, L5, M|item
+|teampreview
+|j| Championjolteons
+|j| Erowastaken
+|
+|t:|1637200494
+|start
+|switch|p1a: Houndour|Houndour, L5, F, shiny|100/100
+|switch|p2a: T H E S E E D !|Ferroseed, L5, M|100/100
+|-ability|p1a: Houndour|Unnerve
+|turn|1
+|
+|t:|1637200511
+|switch|p2a: Ya Like Mudkips?|Mudkip, L5, M|100/100
+|move|p1a: Houndour|Dark Pulse|p2a: Ya Like Mudkips?
+|-crit|p2a: Ya Like Mudkips?
+|-damage|p2a: Ya Like Mudkips?|0 fnt
+|faint|p2a: Ya Like Mudkips?
+|
+|upkeep
+|
+|t:|1637200532
+|switch|p2a: Baby 💚|Riolu, L5, M|100/100
+|turn|2
+|
+|t:|1637200541
+|move|p2a: Baby 💚|Swords Dance|p2a: Baby 💚
+|-boost|p2a: Baby 💚|atk|2
+|move|p1a: Houndour|Dark Pulse|p2a: Baby 💚
+|-resisted|p2a: Baby 💚
+|-damage|p2a: Baby 💚|70/100
+|
+|upkeep
+|turn|3
+|
+|t:|1637200549
+|switch|p1a: Ferroseed|Ferroseed, L5, F, shiny|100/100
+|move|p2a: Baby 💚|Drain Punch|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-heal|p2a: Baby 💚|100/100|[from] drain|[of] p1a: Ferroseed
+|-damage|p2a: Baby 💚|90/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1637200576
+|switch|p1a: Abra|Abra, L5, M, shiny|100/100
+|turn|4
+|
+|t:|1637200585
+|move|p2a: Baby 💚|Quick Attack|p1a: Abra
+|-damage|p1a: Abra|48/100
+|move|p1a: Abra|Psychic|p2a: Baby 💚
+|-supereffective|p2a: Baby 💚
+|-damage|p2a: Baby 💚|0 fnt
+|faint|p2a: Baby 💚
+|
+|upkeep
+|
+|t:|1637200597
+|switch|p2a: T H E S E E D !|Ferroseed, L5, M|100/100
+|turn|5
+|
+|t:|1637200608
+|move|p1a: Abra|Psychic|p2a: T H E S E E D !
+|-resisted|p2a: T H E S E E D !
+|-damage|p2a: T H E S E E D !|73/100
+|move|p2a: T H E S E E D !|Giga Drain|p1a: Abra
+|-damage|p1a: Abra|27/100
+|-heal|p2a: T H E S E E D !|82/100|[from] drain|[of] p1a: Abra
+|
+|upkeep
+|turn|6
+|
+|t:|1637200625
+|move|p1a: Abra|Shadow Ball|p2a: T H E S E E D !
+|-resisted|p2a: T H E S E E D !
+|-damage|p2a: T H E S E E D !|64/100
+|move|p2a: T H E S E E D !|Giga Drain|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|-heal|p2a: T H E S E E D !|78/100|[from] drain|[of] p1a: Abra
+|faint|p1a: Abra
+|
+|upkeep
+|
+|t:|1637200645
+|switch|p1a: Golett|Golett, L5, shiny|100/100
+|turn|7
+|
+|t:|1637200651
+|move|p1a: Golett|Fire Punch|p2a: T H E S E E D !
+|-supereffective|p2a: T H E S E E D !
+|-damage|p2a: T H E S E E D !|0 fnt
+|-damage|p1a: Golett|88/100|[from] ability: Iron Barbs|[of] p2a: T H E S E E D !
+|-damage|p1a: Golett|72/100|[from] item: Rocky Helmet|[of] p2a: T H E S E E D !
+|faint|p2a: T H E S E E D !
+|
+|upkeep
+|
+|t:|1637200668
+|switch|p2a: NO ROCKS PLZ!🚫|Larvesta, L5, M, shiny|100/100
+|turn|8
+|
+|t:|1637200687
+|move|p2a: NO ROCKS PLZ!🚫|Giga Drain|p1a: Golett
+|-supereffective|p1a: Golett
+|-damage|p1a: Golett|8/100
+|move|p1a: Golett|Ice Punch|p2a: NO ROCKS PLZ!🚫
+|-resisted|p2a: NO ROCKS PLZ!🚫
+|-damage|p2a: NO ROCKS PLZ!🚫|79/100
+|-status|p1a: Golett|brn|[from] ability: Flame Body|[of] p2a: NO ROCKS PLZ!🚫
+|
+|-damage|p1a: Golett|0 fnt|[from] brn
+|faint|p1a: Golett
+|upkeep
+|
+|t:|1637200698
+|switch|p1a: Houndour|Houndour, L5, F, shiny|100/100
+|-ability|p1a: Houndour|Unnerve
+|turn|9
+|
+|t:|1637200711
+|move|p1a: Houndour|Dark Pulse|p2a: NO ROCKS PLZ!🚫
+|-damage|p2a: NO ROCKS PLZ!🚫|0 fnt
+|faint|p2a: NO ROCKS PLZ!🚫
+|
+|upkeep
+|
+|t:|1637200718
+|switch|p2a: Bolt!⚡|Electrike, L5, M|100/100
+|turn|10
+|
+|t:|1637200735
+|move|p1a: Houndour|Dark Pulse|p2a: Bolt!⚡
+|-damage|p2a: Bolt!⚡|0 fnt
+|faint|p2a: Bolt!⚡
+|
+|upkeep
+|
+|t:|1637200739
+|switch|p2a: Hot Ride 🔥|Drifloon, L5, M, shiny|100/100
+|turn|11
+|
+|t:|1637200748
+|move|p2a: Hot Ride 🔥|Trick|p1a: Houndour
+|-activate|p2a: Hot Ride 🔥|move: Trick|[of] p1a: Houndour
+|-item|p1a: Houndour|Flame Orb|[from] move: Trick
+|-item|p2a: Hot Ride 🔥|Choice Specs|[from] move: Trick
+|move|p1a: Houndour|Dark Pulse|p2a: Hot Ride 🔥
+|-supereffective|p2a: Hot Ride 🔥
+|-damage|p2a: Hot Ride 🔥|0 fnt
+|faint|p2a: Hot Ride 🔥
+|
+|win|UwU_Kingz

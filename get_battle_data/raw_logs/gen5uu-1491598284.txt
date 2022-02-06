@@ -1,0 +1,443 @@
+|j|☆Amukamara
+|j|☆TEN TENNYSON
+|t:|1642192124
+|gametype|singles
+|player|p1|Amukamara|cyclistf-gen4|
+|player|p2|TEN TENNYSON|youngster|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mienshao, M|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Gligar, M|item
+|poke|p1|Roserade, M|item
+|poke|p1|Snorlax, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Rotom-Mow|item
+|poke|p2|Cobalion|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Ambipom, M|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TEN TENNYSON)
+|j|+blackkaiser
+|
+|t:|1642192138
+|start
+|switch|p1a: Gligar|Gligar, M|100/100
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|1
+|
+|t:|1642192143
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Nidoking|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|90/100
+|
+|-heal|p1a: Snorlax|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1642192148
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|52/100
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|58/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1642192151
+|move|p1a: Snorlax|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|-heal|p2a: Slowbro|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|58/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1642192157
+|move|p2a: Slowbro|Scald|p1a: Snorlax
+|-damage|p1a: Snorlax|87/100 par
+|move|p1a: Snorlax|Crunch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|28/100 tox
+|
+|-heal|p2a: Slowbro|34/100 tox|[from] item: Leftovers
+|-heal|p1a: Snorlax|93/100 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|22/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1642192168
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Eelektross
+|-damage|p2a: Eelektross|55/100
+|
+|-heal|p2a: Eelektross|61/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642192174
+|switch|p2a: Cobalion|Cobalion|100/100
+|switch|p1a: Roserade|Roserade, M|100/100
+|
+|upkeep
+|turn|7
+|j|#Waves
+|
+|t:|1642192184
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|move|p1a: Roserade|Spikes|p2a: Nidoking
+|-sidestart|p2: TEN TENNYSON|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1642192192
+|move|p1a: Roserade|Giga Drain|p2a: Nidoking
+|-damage|p2a: Nidoking|42/100
+|move|p2a: Nidoking|Fire Blast|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1642192197
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|9
+|j| ultracslewisjr
+|
+|t:|1642192202
+|switch|p2a: Slowbro|Slowbro, F|55/100 tox
+|-damage|p2a: Slowbro|42/100 tox|[from] Spikes
+|move|p1a: Mienshao|Fake Out|p2a: Slowbro
+|-damage|p2a: Slowbro|31/100 tox
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Slowbro|37/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|31/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1642192209
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|88/100|[from] Spikes
+|move|p1a: Mienshao|U-turn|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|82/100
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|
+|t:|1642192217
+|switch|p1a: Gligar|Gligar, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Cobalion|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1642192220
+|switch|p2a: Eelektross|Eelektross, M|61/100
+|move|p1a: Gligar|Stealth Rock|p2a: Eelektross
+|-sidestart|p2: TEN TENNYSON|move: Stealth Rock
+|
+|-heal|p2a: Eelektross|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1642192225
+|move|p1a: Gligar|U-turn|p2a: Eelektross
+|-damage|p2a: Eelektross|54/100
+|
+|t:|1642192228
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: U-turn
+|move|p2a: Eelektross|Coil|p2a: Eelektross
+|-boost|p2a: Eelektross|atk|1
+|-boost|p2a: Eelektross|def|1
+|-boost|p2a: Eelektross|accuracy|1
+|
+|-heal|p2a: Eelektross|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1642192233
+|move|p1a: Mienshao|High Jump Kick|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642192237
+|switch|p2a: Ambipom|Ambipom, M|100/100
+|-damage|p2a: Ambipom|88/100|[from] Spikes
+|-damage|p2a: Ambipom|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1642192241
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Ambipom|Low Kick|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|92/100
+|
+|upkeep
+|turn|15
+|
+|t:|1642192246
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Gligar|U-turn|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|
+|t:|1642192249
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1642192252
+|move|p1a: Mienshao|Fake Out|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|cant|p2a: Rotom|flinch
+|
+|upkeep
+|turn|17
+|
+|t:|1642192256
+|switch|p1a: Snorlax|Snorlax, M|99/100 par
+|move|p2a: Rotom|Leaf Storm|p1a: Snorlax
+|-damage|p1a: Snorlax|66/100 par
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Snorlax|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1642192264
+|switch|p2a: Cobalion|Cobalion|88/100
+|-damage|p2a: Cobalion|75/100|[from] Spikes
+|-damage|p2a: Cobalion|72/100|[from] Stealth Rock
+|move|p1a: Snorlax|Body Slam|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|55/100
+|
+|-heal|p2a: Cobalion|61/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1642192274
+|switch|p1a: Gligar|Gligar, M|92/100
+|move|p2a: Cobalion|Stealth Rock|p1a: Gligar
+|-sidestart|p1: Amukamara|move: Stealth Rock
+|
+|-heal|p2a: Cobalion|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1642192280
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Gligar|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|19/100
+|
+|-heal|p2a: Cobalion|25/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1642192285
+|move|p2a: Cobalion|Stone Edge|p1a: Gligar
+|-damage|p1a: Gligar|67/100
+|move|p1a: Gligar|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|t:|1642192289
+|switch|p2a: Nidoking|Nidoking, M|42/100
+|-damage|p2a: Nidoking|30/100|[from] Spikes
+|-damage|p2a: Nidoking|24/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1642192298
+|switch|p1a: Snorlax|Snorlax, M|79/100 par
+|-damage|p1a: Snorlax|66/100 par|[from] Stealth Rock
+|move|p2a: Nidoking|Earth Power|p1a: Snorlax
+|-damage|p1a: Snorlax|34/100 par
+|
+|-heal|p1a: Snorlax|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642192304
+|move|p2a: Nidoking|Earth Power|p1a: Snorlax
+|-damage|p1a: Snorlax|8/100 par
+|move|p1a: Snorlax|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|-heal|p1a: Snorlax|14/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1642192307
+|switch|p2a: Ambipom|Ambipom, M|76/100
+|-damage|p2a: Ambipom|63/100|[from] Spikes
+|-damage|p2a: Ambipom|51/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1642192309
+|cant|p1a: Snorlax|par
+|move|p2a: Ambipom|Return|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1642192314
+|switch|p1a: Gligar|Gligar, M|67/100
+|-damage|p1a: Gligar|55/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1642192317
+|move|p2a: Ambipom|Return|p1a: Gligar
+|-damage|p1a: Gligar|23/100
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|73/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|upkeep
+|turn|26
+|
+|t:|1642192322
+|switch|p2a: Slowbro|Slowbro, F|65/100 tox
+|-damage|p2a: Slowbro|52/100 tox|[from] Stealth Rock
+|-damage|p2a: Slowbro|40/100 tox|[from] Spikes
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|-heal|p2a: Slowbro|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|40/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1642192327
+|move|p1a: Gligar|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|25/100 tox
+|
+|t:|1642192329
+|switch|p1a: Empoleon|Empoleon, M|100/100|[from]move: U-turn
+|-damage|p1a: Empoleon|94/100|[from] Stealth Rock
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|75/100 tox
+|
+|-heal|p2a: Slowbro|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|69/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1642192333
+|move|p1a: Empoleon|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|36/100 tox
+|move|p2a: Slowbro|Scald|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|78/100
+|
+|-heal|p2a: Slowbro|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Slowbro|24/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1642192337
+|move|p1a: Empoleon|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1642192338
+|switch|p2a: Rotom|Rotom-Mow|27/100
+|-damage|p2a: Rotom|14/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1642192342
+|move|p2a: Rotom|Thunderbolt|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+|
+|t:|1642192345
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1642192351
+|move|p1a: Mienshao|Fake Out|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642192352
+|switch|p2a: Ambipom|Ambipom, M|51/100
+|-damage|p2a: Ambipom|39/100|[from] Spikes
+|-damage|p2a: Ambipom|26/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1642192354
+|move|p2a: Ambipom|Return|p1a: Mienshao
+|-crit|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1642192357
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1642192359
+|move|p2a: Ambipom|Return|p1a: Gligar
+|-damage|p1a: Gligar|58/100
+|move|p1a: Gligar|Earthquake|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|
+|win|Amukamara
+|n|☆Amukamara|amukamara
+|n|☆TEN TENNYSON|tentennyson
+|n| BB-8-NU|bb8nu
+|n| blackkaiser|blackkaiser
+|n|+Waves|waves
+|n| ultracslewisjr|ultracslewisjr

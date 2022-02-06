@@ -1,0 +1,425 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644095670
+|gametype|singles
+|player|p1|Mendeez|lucas|
+|player|p2|EuleLP|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Latios, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|
+|t:|1644095691
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|turn|1
+|
+|t:|1644095699
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1644095703
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|99/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Mendeez|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644095705
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: EuleLP|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Mendeez|Spikes
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644095707
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Mendeez|Spikes
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644095708
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: EuleLP|Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Mendeez|Spikes
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644095734
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|69/100
+|-enditem|p2a: Tornadus|Choice Specs|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|7
+|inactive|Mendeez has 270 seconds left.
+|
+|t:|1644095773
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|Focus Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|66/100
+|
+|upkeep
+|turn|8
+|
+|t:|1644095780
+|move|p1a: Latios|Draco Meteor|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1644095784
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Spikes
+|-damage|p2a: Starmie|76/100|[from] Stealth Rock
+|turn|9
+|inactive|Mendeez has 270 seconds left.
+|
+|t:|1644095812
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|-damage|p1a: Ferrothorn|69/100|[from] Stealth Rock
+|move|p2a: Starmie|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|-damage|p2a: Starmie|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: EuleLP|Spikes|[from] move: Rapid Spin|[of] p2a: Starmie
+|-sideend|p2: EuleLP|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644095836
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|9/100
+|
+|-heal|p1a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644095846
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-damage|p1a: Politoed|63/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|31/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644095849
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|37/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644095862
+|move|p2a: Keldeo|Secret Sword|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644095864
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|76/100|[from] Spikes
+|-damage|p1a: Tentacruel|63/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644095883
+|switch|p2a: Starmie|Starmie|64/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Starmie
+|-damage|p2a: Starmie|60/100
+|-sideend|p1: Mendeez|Spikes|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|-sideend|p1: Mendeez|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|69/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1644095890
+|switch|p1a: Ferrothorn|Ferrothorn, F|80/100
+|move|p2a: Starmie|Trick|p1a: Ferrothorn
+|-activate|p2a: Starmie|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p2a: Starmie|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Starmie|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644095899
+|switch|p2a: Keldeo|Keldeo|9/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: EuleLP|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1644095909
+|switch|p1a: Tentacruel|Tentacruel, M|75/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|36/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|42/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|48/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1644095919
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|54/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|60/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1644095938
+|move|p2a: Keldeo|Hydro Pump|p1a: Tentacruel|[miss]
+|-miss|p2a: Keldeo|p1a: Tentacruel
+|move|p1a: Tentacruel|Scald|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|66/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|72/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1644095940
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1644095953
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Latios|Draco Meteor|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|78/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|84/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1644095961
+|move|p2a: Latios|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644095983
+|switch|p1a: Latios|Latios, M|66/100
+|turn|22
+|
+|t:|1644095990
+|switch|p2a: Ferrothorn|Ferrothorn, M|97/100
+|-damage|p2a: Ferrothorn|91/100|[from] Stealth Rock
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-unboost|p1a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1644096002
+|switch|p1a: Keldeo|Keldeo|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: Mendeez|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1644096006
+|move|p1a: Keldeo|Secret Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096009
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1644096014
+|switch|p1a: Ferrothorn|Ferrothorn, F|80/100
+|-damage|p1a: Ferrothorn|74/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|38/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1644096024
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096025
+|switch|p2a: Latios|Latios, M|76/100
+|-damage|p2a: Latios|64/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1644096034
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096040
+|switch|p1a: Latios|Latios, M|66/100
+|-damage|p1a: Latios|53/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1644096044
+|move|p1a: Latios|Draco Meteor|p2a: Latios|[miss]
+|-miss|p1a: Latios|p2a: Latios
+|move|p2a: Latios|Draco Meteor|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644096056
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|29
+|inactive|EuleLP has 270 seconds left.
+|
+|t:|1644096095
+|move|p2a: Latios|Draco Meteor|p1a: Thundurus
+|-damage|p1a: Thundurus|24/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Thundurus|Agility|p1a: Thundurus
+|-boost|p1a: Thundurus|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|30/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1644096100
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644096109
+|switch|p2a: Starmie|Starmie|66/100
+|-damage|p2a: Starmie|53/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1644096115
+|move|p1a: Thundurus|Thunder|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Mendeez
+|c|☆Mendeez|gg
+|c|☆EuleLP|gg

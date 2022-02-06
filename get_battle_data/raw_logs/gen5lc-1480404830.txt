@@ -1,0 +1,369 @@
+|j|☆danet
+|j|☆libbyious
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640557663
+|gametype|singles
+|player|p1|danet|red-gen1|
+|player|p2|libbyious|artist-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Bronzor, L5|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p2|Omanyte, L5, M|item
+|poke|p2|Wynaut, L5, M|item
+|poke|p2|Onix, L5, F|item
+|poke|p2|Croagunk, L5, M|item
+|poke|p2|Dwebble, L5, M|item
+|poke|p2|Pawniard, L5, F|item
+|teampreview
+|c|☆libbyious|glhf
+|inactive|danet has 120 seconds left.
+|
+|t:|1640557718
+|start
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|switch|p2a: bubble gum|Croagunk, L5, M, shiny|100/100
+|turn|1
+|inactive|danet has 120 seconds left.
+|
+|t:|1640557755
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|move|p2a: bubble gum|Drain Punch|p1a: Frillish
+|-immune|p1a: Frillish
+|
+|upkeep
+|turn|2
+|inactive|danet has 120 seconds left.
+|
+|t:|1640557762
+|move|p2a: bubble gum|Sucker Punch||[still]
+|-fail|p2a: bubble gum
+|move|p1a: Frillish|Will-O-Wisp|p2a: bubble gum
+|-status|p2a: bubble gum|brn
+|
+|-damage|p2a: bubble gum|92/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1640557772
+|move|p1a: Frillish|Shadow Ball|p2a: bubble gum
+|-damage|p2a: bubble gum|61/100 brn
+|move|p2a: bubble gum|Poison Jab|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|96/100
+|-status|p1a: Frillish|psn
+|
+|-damage|p1a: Frillish|84/100 psn|[from] psn
+|-damage|p2a: bubble gum|53/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|danet has 120 seconds left.
+|
+|t:|1640557797
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|move|p2a: bubble gum|Sucker Punch||[still]
+|-fail|p2a: bubble gum
+|
+|-damage|p2a: bubble gum|44/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1640557818
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|move|p2a: bubble gum|Poison Jab|p1a: Timburr
+|-damage|p1a: Timburr|88/100
+|
+|-damage|p2a: bubble gum|35/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|danet has 90 seconds left.
+|
+|t:|1640557851
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|move|p2a: bubble gum|Poison Jab|p1a: Timburr
+|-damage|p1a: Timburr|80/100
+|
+|-damage|p2a: bubble gum|27/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1640557859
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|move|p2a: bubble gum|Poison Jab|p1a: Timburr
+|-damage|p1a: Timburr|75/100
+|
+|-damage|p2a: bubble gum|18/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|danet has 90 seconds left.
+|
+|t:|1640557866
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|move|p2a: bubble gum|Poison Jab|p1a: Timburr
+|-damage|p1a: Timburr|71/100
+|
+|-damage|p2a: bubble gum|9/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1640557874
+|move|p1a: Timburr|Mach Punch|p2a: bubble gum
+|-resisted|p2a: bubble gum
+|-damage|p2a: bubble gum|0 fnt
+|faint|p2a: bubble gum
+|
+|upkeep
+|
+|t:|1640557877
+|switch|p2a: idk why not|Wynaut, L5, M|100/100
+|turn|10
+|
+|t:|1640557882
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|move|p2a: idk why not|Counter||[still]
+|-fail|p2a: idk why not
+|
+|upkeep
+|turn|11
+|
+|t:|1640557891
+|move|p1a: Timburr|Ice Punch|p2a: idk why not
+|-damage|p2a: idk why not|14/100
+|move|p2a: idk why not|Counter|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|
+|upkeep
+|inactive|danet has 90 seconds left.
+|
+|t:|1640557923
+|switch|p1a: Bronzor|Bronzor, L5|100/100
+|turn|12
+|
+|t:|1640557928
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|move|p2a: idk why not|Safeguard|p2a: idk why not
+|-sidestart|p2: libbyious|Safeguard
+|
+|upkeep
+|turn|13
+|
+|t:|1640557933
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|move|p2a: idk why not|Mirror Coat||[still]
+|-fail|p2a: idk why not
+|
+|upkeep
+|turn|14
+|
+|t:|1640557938
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|move|p2a: idk why not|Mirror Coat||[still]
+|-fail|p2a: idk why not
+|
+|upkeep
+|turn|15
+|
+|t:|1640557942
+|switch|p2a: chop shop|Pawniard, L5, F, shiny|100/100
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1640557950
+|move|p2a: chop shop|Sucker Punch|p1a: Bronzor
+|-crit|p1a: Bronzor
+|-damage|p1a: Bronzor|34/100
+|move|p1a: Bronzor|Flash Cannon|p2a: chop shop
+|-resisted|p2a: chop shop
+|-damage|p2a: chop shop|58/100
+|
+|-sideend|p2: libbyious|Safeguard
+|upkeep
+|turn|17
+|
+|t:|1640557958
+|move|p2a: chop shop|Sucker Punch||[still]
+|-fail|p2a: chop shop
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|upkeep
+|turn|18
+|
+|t:|1640557963
+|move|p2a: chop shop|Knock Off|p1a: Bronzor
+|-crit|p1a: Bronzor
+|-damage|p1a: Bronzor|71/100 slp
+|-enditem|p1a: Bronzor|Eviolite|[from] move: Knock Off|[of] p2a: chop shop
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Flash Cannon|p2a: chop shop|[from]move: Sleep Talk
+|-resisted|p2a: chop shop
+|-damage|p2a: chop shop|20/100
+|
+|upkeep
+|turn|19
+|
+|t:|1640557976
+|move|p2a: chop shop|Thunder Wave||[still]
+|-fail|p2a: chop shop
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor|[from]move: Sleep Talk
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1640557985
+|move|p2a: chop shop|Iron Head|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|50/100 slp
+|-curestatus|p1a: Bronzor|slp|[msg]
+|cant|p1a: Bronzor|flinch
+|
+|upkeep
+|turn|21
+|
+|t:|1640557995
+|move|p2a: chop shop|Knock Off|p1a: Bronzor
+|-damage|p1a: Bronzor|38/100
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|upkeep
+|turn|22
+|
+|t:|1640558000
+|move|p2a: chop shop|Iron Head|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|84/100 slp
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Flash Cannon|p2a: chop shop|[from]move: Sleep Talk
+|-resisted|p2a: chop shop
+|-damage|p2a: chop shop|0 fnt
+|faint|p2a: chop shop
+|
+|upkeep
+|
+|t:|1640558007
+|switch|p2a: big cup|Onix, L5, F|100/100
+|turn|23
+|
+|t:|1640558011
+|move|p2a: big cup|Earthquake|p1a: Bronzor
+|-immune|p1a: Bronzor|[from] ability: Levitate
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor|[from]move: Sleep Talk
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1640558022
+|switch|p2a: idk why not|Wynaut, L5, M|14/100
+|-curestatus|p1a: Bronzor|slp|[msg]
+|move|p1a: Bronzor|Flash Cannon|p2a: idk why not
+|-damage|p2a: idk why not|0 fnt
+|faint|p2a: idk why not
+|
+|upkeep
+|
+|t:|1640558027
+|switch|p2a: ahhhhhhhhhh|Omanyte, L5, M|100/100
+|turn|25
+|
+|t:|1640558032
+|move|p2a: ahhhhhhhhhh|Shell Smash|p2a: ahhhhhhhhhh
+|-unboost|p2a: ahhhhhhhhhh|def|1
+|-unboost|p2a: ahhhhhhhhhh|spd|1
+|-boost|p2a: ahhhhhhhhhh|atk|2
+|-boost|p2a: ahhhhhhhhhh|spa|2
+|-boost|p2a: ahhhhhhhhhh|spe|2
+|move|p1a: Bronzor|Flash Cannon|p2a: ahhhhhhhhhh
+|-enditem|p2a: ahhhhhhhhhh|Focus Sash
+|-damage|p2a: ahhhhhhhhhh|5/100
+|
+|upkeep
+|turn|26
+|
+|t:|1640558038
+|move|p2a: ahhhhhhhhhh|Surf|p1a: Bronzor
+|-damage|p1a: Bronzor|55/100
+|move|p1a: Bronzor|Flash Cannon|p2a: ahhhhhhhhhh
+|-damage|p2a: ahhhhhhhhhh|0 fnt
+|faint|p2a: ahhhhhhhhhh
+|
+|upkeep
+|
+|t:|1640558044
+|switch|p2a: unite|Dwebble, L5, M|100/100
+|turn|27
+|
+|t:|1640558046
+|move|p2a: unite|Knock Off|p1a: Bronzor
+|-damage|p1a: Bronzor|42/100
+|move|p1a: Bronzor|Flash Cannon|p2a: unite
+|-supereffective|p2a: unite
+|-damage|p2a: unite|0 fnt
+|faint|p2a: unite
+|
+|upkeep
+|
+|t:|1640558050
+|switch|p2a: big cup|Onix, L5, F|100/100
+|turn|28
+|
+|t:|1640558053
+|move|p2a: big cup|Heavy Slam|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|34/100
+|move|p1a: Bronzor|Flash Cannon|p2a: big cup
+|-supereffective|p2a: big cup
+|-damage|p2a: big cup|0 fnt
+|faint|p2a: big cup
+|
+|win|danet
+|n|☆danet|danet
+|n|☆libbyious|libbyious

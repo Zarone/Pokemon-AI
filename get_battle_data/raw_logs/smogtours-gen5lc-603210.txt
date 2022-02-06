@@ -1,0 +1,469 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642371265
+|gametype|singles
+|player|p1|Nalorium|1|
+|player|p2|iss|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Diglett, L5, F|item
+|poke|p1|Tirtouga, L5, M|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Natu, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Hippopotas, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Ferroseed, L5, F|item
+|teampreview
+|c|☆iss|gl!
+|c|☆Nalorium|hf
+|inactive|iss has 270 seconds left.
+|
+|t:|1642371300
+|start
+|switch|p1a: Tirtouga|Tirtouga, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|1
+|
+|t:|1642371316
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p2a: Mienfoo|Knock Off|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|96/100
+|-enditem|p1a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|2
+|
+|t:|1642371329
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|14/100
+|move|p1a: Mienfoo|Knock Off|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|96/100
+|-enditem|p2a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|3
+|
+|t:|1642371335
+|switch|p1a: Natu|Natu, L5, F|100/100
+|move|p2a: Mienfoo|U-turn|p1a: Natu
+|-damage|p1a: Natu|77/100
+|
+|t:|1642371348
+|switch|p2a: Gastly|Gastly, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1642371355
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|move|p2a: Gastly|Knock Off|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|89/100
+|-enditem|p1a: Porygon|Eviolite|[from] move: Knock Off|[of] p2a: Gastly
+|
+|upkeep
+|turn|5
+|
+|t:|1642371369
+|move|p2a: Gastly|Will-O-Wisp|p1a: Porygon
+|-status|p1a: Porygon|brn
+|move|p1a: Porygon|Shadow Ball|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|34/100
+|
+|-damage|p1a: Porygon|77/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1642371383
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Porygon|Shadow Ball|p2a: Mienfoo
+|-damage|p2a: Mienfoo|60/100
+|
+|-damage|p1a: Porygon|66/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1642371393
+|switch|p1a: Natu|Natu, L5, F|77/100
+|move|p2a: Mienfoo|U-turn|p1a: Natu
+|-damage|p1a: Natu|53/100
+|
+|t:|1642371404
+|switch|p2a: Gastly|Gastly, L5, F|34/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1642371407
+|switch|p1a: Porygon|Porygon, L5|66/100 brn
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|move|p2a: Gastly|Shadow Ball|p1a: Porygon
+|-immune|p1a: Porygon
+|
+|-damage|p1a: Porygon|54/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|iss has 270 seconds left.
+|
+|t:|1642371441
+|move|p2a: Gastly|Hidden Power|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|upkeep
+|
+|t:|1642371447
+|switch|p1a: Diglett|Diglett, L5, F|100/100
+|turn|10
+|
+|t:|1642371454
+|switch|p2a: Hippopotas|Hippopotas, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|move|p1a: Diglett|Rock Slide|p2a: Hippopotas
+|-resisted|p2a: Hippopotas
+|-damage|p2a: Hippopotas|88/100
+|-damage|p1a: Diglett|95/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1642371469
+|switch|p1a: Tirtouga|Tirtouga, L5, M|100/100
+|move|p2a: Hippopotas|Whirlwind|p1a: Tirtouga
+|drag|p1a: Diglett|Diglett, L5, F|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1642371477
+|switch|p1a: Natu|Natu, L5, F|53/100
+|move|p2a: Hippopotas|Earthquake|p1a: Natu
+|-immune|p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|48/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1642371486
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|100/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|96/100|[from] Sandstorm
+|-damage|p1a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1642371496
+|move|p2a: Staryu|Thunderbolt|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|48/100
+|move|p1a: Natu|Calm Mind|p1a: Natu
+|-boost|p1a: Natu|spa|1
+|-boost|p1a: Natu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|91/100|[from] Sandstorm
+|-damage|p1a: Natu|43/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1642371503
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|move|p1a: Natu|Psychic|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|39/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371508
+|switch|p2a: Gastly|Gastly, L5, F|34/100
+|turn|16
+|
+|t:|1642371512
+|switch|p1a: Mienfoo|Mienfoo, L5, F|46/100
+|move|p2a: Gastly|Shadow Ball|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gastly|29/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371518
+|switch|p1a: Diglett|Diglett, L5, F|95/100
+|turn|17
+|
+|t:|1642371521
+|switch|p1a: Tirtouga|Tirtouga, L5, M|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, F|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1642371525
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|move|p1a: Tirtouga|Stealth Rock|p2a: Ferroseed
+|-sidestart|p2: iss|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1642371536
+|move|p1a: Tirtouga|Knock Off|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-crit|p2a: Ferroseed
+|-damage|p2a: Ferroseed|96/100
+|-damage|p1a: Tirtouga|92/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-enditem|p2a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p1a: Tirtouga
+|move|p2a: Ferroseed|Giga Drain|p1a: Tirtouga
+|-supereffective|p1a: Tirtouga
+|-damage|p1a: Tirtouga|40/100
+|-heal|p2a: Ferroseed|100/100|[from] drain|[of] p1a: Tirtouga
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1642371541
+|switch|p1a: Natu|Natu, L5, F|39/100
+|move|p2a: Ferroseed|Giga Drain|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|20/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1642371548
+|switch|p2a: Gastly|Gastly, L5, F|29/100
+|-damage|p2a: Gastly|20/100|[from] Stealth Rock
+|move|p1a: Natu|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|15/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371551
+|switch|p2a: Staryu|Staryu, L5|91/100
+|-damage|p2a: Staryu|81/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1642371561
+|switch|p1a: Tirtouga|Tirtouga, L5, M|40/100
+|move|p2a: Staryu|Scald|p1a: Tirtouga
+|-damage|p1a: Tirtouga|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|77/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1642371569
+|move|p2a: Staryu|Scald|p1a: Tirtouga
+|-damage|p1a: Tirtouga|0 fnt
+|faint|p1a: Tirtouga
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|72/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371578
+|switch|p1a: Diglett|Diglett, L5, F|95/100
+|turn|24
+|
+|t:|1642371581
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|73/100
+|move|p2a: Staryu|Scald|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|67/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1642371585
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|50/100
+|move|p2a: Staryu|Scald|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|62/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1642371589
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|28/100
+|move|p2a: Staryu|Scald|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|58/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|t:|1642371593
+|move|p1a: Diglett|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|-damage|p1a: Diglett|23/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642371601
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|-damage|p2a: Ferroseed|96/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1642371604
+|switch|p1a: Natu|Natu, L5, F|15/100
+|move|p2a: Ferroseed|Giga Drain|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|-heal|p2a: Ferroseed|100/100|[from] drain|[of] p1a: Natu
+|faint|p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642371608
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|turn|29
+|
+|t:|1642371611
+|move|p1a: Drifloon|Will-O-Wisp|p2a: Ferroseed
+|-status|p2a: Ferroseed|brn
+|move|p2a: Ferroseed|Thunder Wave|p1a: Drifloon
+|-status|p1a: Drifloon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|97/100 par|[from] Sandstorm
+|-damage|p2a: Ferroseed|91/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1642371620
+|move|p2a: Ferroseed|Giga Drain|p1a: Drifloon
+|-resisted|p1a: Drifloon
+|-damage|p1a: Drifloon|77/100 par
+|-heal|p2a: Ferroseed|100/100 brn|[from] drain|[of] p1a: Drifloon
+|move|p1a: Drifloon|Acrobatics|p2a: Ferroseed
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-damage|p2a: Ferroseed|28/100 brn
+|-damage|p1a: Drifloon|66/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|62/100 par|[from] Sandstorm
+|-damage|p2a: Ferroseed|19/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1642371624
+|move|p2a: Ferroseed|Giga Drain|p1a: Drifloon
+|-resisted|p1a: Drifloon
+|-damage|p1a: Drifloon|47/100 par
+|-heal|p2a: Ferroseed|28/100 brn|[from] drain|[of] p1a: Drifloon
+|move|p1a: Drifloon|Acrobatics|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-damage|p1a: Drifloon|35/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p2a: Ferroseed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|31/100 par|[from] Sandstorm
+|upkeep
+|inactive|iss has 270 seconds left.
+|
+|t:|1642371672
+|switch|p2a: Mienfoo|Mienfoo, L5, M|91/100
+|-damage|p2a: Mienfoo|87/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1642371692
+|move|p2a: Mienfoo|Knock Off|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-damage|p1a: Drifloon|8/100 par
+|move|p1a: Drifloon|Acrobatics|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|4/100 par|[from] Sandstorm
+|upkeep
+|
+|t:|1642371695
+|switch|p2a: Hippopotas|Hippopotas, L5, F|88/100
+|-damage|p2a: Hippopotas|84/100|[from] Stealth Rock
+|turn|33
+|inactive|iss has 270 seconds left.
+|
+|t:|1642371702
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|100/100
+|move|p1a: Drifloon|Acrobatics|p2a: Hippopotas
+|-damage|p2a: Hippopotas|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|0 fnt|[from] Sandstorm
+|faint|p1a: Drifloon
+|upkeep
+|
+|t:|1642371707
+|switch|p1a: Diglett|Diglett, L5, F|23/100
+|turn|34
+|c|☆Nalorium|crit
+|
+|t:|1642371712
+|move|p1a: Diglett|Earthquake|p2a: Hippopotas
+|-damage|p2a: Hippopotas|16/100
+|-damage|p1a: Diglett|17/100|[from] item: Life Orb
+|move|p2a: Hippopotas|Earthquake|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|win|iss
+|c|☆Nalorium|rip
+|c|☆Nalorium|gg
+|c|☆iss|ggs

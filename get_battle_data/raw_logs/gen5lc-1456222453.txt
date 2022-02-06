@@ -1,0 +1,396 @@
+|j|☆imanalt
+|j|☆julianelvengador
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1637202758
+|gametype|singles
+|player|p1|imanalt|170|
+|player|p2|julianelvengador|striker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Lileep, L5, M|item
+|poke|p1|Bronzor, L5|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Carvanha, L5, M|item
+|teampreview
+|
+|t:|1637202769
+|start
+|switch|p1a: Natu|Natu, L5, F|100/100
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|turn|1
+|
+|t:|1637202774
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|move|p2a: Carvanha|Crunch|p1a: Timburr
+|-resisted|p1a: Timburr
+|-damage|p1a: Timburr|75/100
+|-damage|p2a: Carvanha|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|2
+|
+|t:|1637202786
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Timburr|Drain Punch|p2a: Drilbur
+|-damage|p2a: Drilbur|55/100
+|-heal|p1a: Timburr|96/100|[from] drain|[of] p2a: Drilbur
+|
+|upkeep
+|turn|3
+|
+|t:|1637202792
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Drilbur|Rock Slide|p1a: Hippopotas
+|-resisted|p1a: Hippopotas
+|-crit|p1a: Hippopotas
+|-damage|p1a: Hippopotas|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1637202800
+|switch|p2a: Munchlax|Munchlax, L5, M|100/100
+|move|p1a: Hippopotas|Stealth Rock|p2a: Munchlax
+|-sidestart|p2: julianelvengador|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Munchlax|97/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1637202804
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|move|p2a: Munchlax|Return|p1a: Frillish
+|-immune|p1a: Frillish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|96/100|[from] Sandstorm
+|-damage|p2a: Munchlax|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1637202809
+|move|p1a: Frillish|Scald|p2a: Munchlax
+|-damage|p2a: Munchlax|74/100
+|move|p2a: Munchlax|Pursuit|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|67/100|[from] Sandstorm
+|-damage|p2a: Munchlax|70/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1637202821
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|100/100
+|move|p2a: Munchlax|Pursuit|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|71/100|[from] Sandstorm
+|-damage|p2a: Munchlax|67/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1637202829
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|-damage|p2a: Timburr|96/100|[from] Stealth Rock
+|move|p1a: Frillish|Will-O-Wisp|p2a: Timburr|[miss]
+|-miss|p1a: Frillish|p2a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|67/100|[from] Sandstorm
+|-damage|p2a: Timburr|92/100|[from] Sandstorm
+|upkeep
+|turn|9
+|c|☆imanalt|sry
+|
+|t:|1637202845
+|move|p1a: Frillish|Shadow Ball|p2a: Timburr
+|-damage|p2a: Timburr|68/100
+|-unboost|p2a: Timburr|spd|1
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|63/100|[from] Sandstorm
+|-damage|p2a: Timburr|64/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1637202854
+|move|p1a: Frillish|Shadow Ball|p2a: Timburr
+|-damage|p2a: Timburr|24/100
+|move|p2a: Timburr|Payback|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|faint|p1a: Frillish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|20/100|[from] Sandstorm
+|upkeep
+|
+|t:|1637202857
+|switch|p1a: Natu|Natu, L5, F|100/100
+|turn|11
+|
+|t:|1637202871
+|move|p2a: Timburr|Mach Punch|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|96/100
+|move|p1a: Natu|Psychic|p2a: Timburr
+|-supereffective|p2a: Timburr
+|-crit|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|92/100|[from] Sandstorm
+|upkeep
+|
+|t:|1637202890
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-damage|p2a: Snover|78/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|12
+|
+|t:|1637202897
+|switch|p1a: Hippopotas|Hippopotas, L5, F|80/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Snover|Blizzard|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-crit|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snover|73/100|[from] Sandstorm
+|upkeep
+|
+|t:|1637202919
+|switch|p1a: Timburr|Timburr, L5, M|96/100
+|turn|13
+|
+|t:|1637202924
+|switch|p2a: Drilbur|Drilbur, L5, F|55/100
+|-damage|p2a: Drilbur|50/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Timburr|Thunder Punch|p2a: Drilbur
+|-immune|p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|92/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1637202927
+|move|p2a: Drilbur|Earthquake|p1a: Timburr
+|-damage|p1a: Timburr|38/100
+|move|p1a: Timburr|Drain Punch|p2a: Drilbur
+|-damage|p2a: Drilbur|10/100
+|-heal|p1a: Timburr|59/100|[from] drain|[of] p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|55/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1637202931
+|move|p1a: Timburr|Mach Punch|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|50/100|[from] Sandstorm
+|upkeep
+|
+|t:|1637202935
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|16
+|
+|t:|1637202942
+|switch|p1a: Bronzor|Bronzor, L5|100/100
+|move|p2a: Abra|Psychic|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1637202946
+|move|p2a: Abra|Thunder Wave|p1a: Bronzor
+|-status|p1a: Bronzor|par
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1637202949
+|move|p2a: Abra|Hidden Power|p1a: Bronzor
+|-crit|p1a: Bronzor
+|-damage|p1a: Bronzor|50/100 par
+|move|p1a: Bronzor|Psychic|p2a: Abra
+|-resisted|p2a: Abra
+|-damage|p2a: Abra|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1637202952
+|move|p2a: Abra|Hidden Power|p1a: Bronzor
+|-damage|p1a: Bronzor|34/100 par
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1637202960
+|switch|p2a: Carvanha|Carvanha, L5, M|91/100
+|-damage|p2a: Carvanha|81/100|[from] Stealth Rock
+|switch|p1a: Lileep|Lileep, L5, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Carvanha|77/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1637202966
+|switch|p2a: Munchlax|Munchlax, L5, M|67/100
+|-damage|p2a: Munchlax|57/100|[from] Stealth Rock
+|move|p1a: Lileep|Hidden Power|p2a: Munchlax
+|-damage|p2a: Munchlax|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Munchlax|40/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1637202970
+|move|p1a: Lileep|Toxic|p2a: Munchlax
+|-status|p2a: Munchlax|tox
+|move|p2a: Munchlax|Earthquake|p1a: Lileep
+|-damage|p1a: Lileep|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Munchlax|37/100 tox|[from] Sandstorm
+|-damage|p2a: Munchlax|34/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1637202974
+|move|p1a: Lileep|Giga Drain|p2a: Munchlax
+|-damage|p2a: Munchlax|20/100 tox
+|-heal|p1a: Lileep|84/100|[from] drain|[of] p2a: Munchlax
+|move|p2a: Munchlax|Fire Punch|p1a: Lileep
+|-damage|p1a: Lileep|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Munchlax|17/100 tox|[from] Sandstorm
+|-damage|p2a: Munchlax|10/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1637202984
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|move|p2a: Munchlax|Earthquake|p1a: Lileep
+|-damage|p1a: Lileep|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Munchlax|7/100 tox|[from] Sandstorm
+|-damage|p2a: Munchlax|0 fnt|[from] psn
+|faint|p2a: Munchlax
+|upkeep
+|
+|t:|1637202988
+|switch|p2a: Snover|Snover, L5, M|73/100
+|-damage|p2a: Snover|50/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|25
+|
+|t:|1637203004
+|move|p2a: Snover|Blizzard|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|4/100
+|move|p1a: Lileep|Hidden Power|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|0 fnt|[from] Hail
+|faint|p1a: Lileep
+|upkeep
+|
+|t:|1637203021
+|switch|p2a: Abra|Abra, L5, M|64/100
+|switch|p1a: Natu|Natu, L5, F|92/100
+|turn|26
+|
+|t:|1637203025
+|move|p2a: Abra|Psychic|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|66/100
+|move|p1a: Natu|U-turn|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|t:|1637203027
+|switch|p1a: Timburr|Timburr, L5, M|50/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Timburr|46/100|[from] Hail
+|upkeep
+|c|☆imanalt|gg
+|
+|t:|1637203030
+|switch|p2a: Carvanha|Carvanha, L5, M|77/100
+|-damage|p2a: Carvanha|67/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1637203054
+|move|p1a: Timburr|Mach Punch|p2a: Carvanha
+|-supereffective|p2a: Carvanha
+|-damage|p2a: Carvanha|0 fnt
+|faint|p2a: Carvanha
+|
+|win|imanalt
+|n|☆imanalt|imanalt
+|n|☆julianelvengador|julianelvengador

@@ -1,0 +1,265 @@
+|j|☆TheGreenRoman
+|j|☆xbossarux
+|t:|1638752853
+|gametype|singles
+|player|p1|TheGreenRoman|aaron|
+|player|p2|xbossarux|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golem, F|item
+|poke|p1|Musharna, M|item
+|poke|p1|Swellow, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Gurdurr, F|item
+|poke|p2|Serperior, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Braviary, M|item
+|teampreview
+|
+|t:|1638752884
+|start
+|switch|p1a: Pebbles|Golem, F|100/100
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|turn|1
+|
+|t:|1638752899
+|move|p2a: Rotom|Hidden Power|p1a: Pebbles
+|-supereffective|p1a: Pebbles
+|-ability|p1a: Pebbles|Sturdy
+|-damage|p1a: Pebbles|1/100
+|move|p1a: Pebbles|Stealth Rock|p2a: Rotom
+|-sidestart|p2: xbossarux|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-enditem|p1a: Pebbles|Custap Berry|[eat]
+|-activate|p1a: Pebbles|item: Custap Berry|[consumed]
+|
+|t:|1638752908
+|move|p1a: Pebbles|Explosion|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p1a: Pebbles
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1638752916
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|switch|p1a: BURD|Swellow, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1638752929
+|move|p1a: BURD|Protect|p1a: BURD
+|-singleturn|p1a: BURD|Protect
+|move|p2a: Garbodor|Explosion|p1a: BURD
+|-activate|p1a: BURD|move: Protect
+|faint|p2a: Garbodor
+|
+|-status|p1a: BURD|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1638752949
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1638752967
+|move|p1a: BURD|Facade|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-damage|p1a: BURD|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1638752977
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1638752982
+|move|p1a: BURD|Brave Bird|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|-damage|p1a: BURD|56/100 brn|[from] Recoil
+|
+|-damage|p1a: BURD|44/100 brn|[from] brn
+|upkeep
+|
+|t:|1638752990
+|switch|p2a: Samurott|Samurott, M|100/100
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1638752999
+|move|p2a: Samurott|Aqua Jet|p1a: BURD
+|-damage|p1a: BURD|6/100 brn
+|move|p1a: BURD|Facade|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-damage|p1a: BURD|0 fnt|[from] brn
+|faint|p1a: BURD
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xbossarux)
+|
+|t:|1638753021
+|switch|p1a: All Da Drugs|Musharna, M|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1638753030
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|move|p1a: All Da Drugs|Psyshock|p2a: Braviary
+|-damage|p2a: Braviary|52/100
+|
+|upkeep
+|turn|8
+|
+|t:|1638753036
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|100/100
+|-singleturn|p2a: Braviary|move: Roost
+|move|p1a: All Da Drugs|Calm Mind|p1a: All Da Drugs
+|-boost|p1a: All Da Drugs|spa|1
+|-boost|p1a: All Da Drugs|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1638753042
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|move|p1a: All Da Drugs|Calm Mind|p1a: All Da Drugs
+|-boost|p1a: All Da Drugs|spa|1
+|-boost|p1a: All Da Drugs|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1638753048
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|move|p1a: All Da Drugs|Psyshock|p2a: Braviary
+|-damage|p2a: Braviary|70/100
+|
+|upkeep
+|turn|11
+|
+|t:|1638753060
+|move|p2a: Braviary|Return|p1a: All Da Drugs
+|-damage|p1a: All Da Drugs|23/100
+|move|p1a: All Da Drugs|Psyshock|p2a: Braviary
+|-damage|p2a: Braviary|39/100
+|
+|-heal|p1a: All Da Drugs|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1638753068
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|89/100
+|-singleturn|p2a: Braviary|move: Roost
+|move|p1a: All Da Drugs|Psyshock|p2a: Braviary
+|-damage|p2a: Braviary|59/100
+|
+|-heal|p1a: All Da Drugs|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|j|%daniYSB
+|
+|t:|1638753076
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|100/100
+|-singleturn|p2a: Braviary|move: Roost
+|move|p1a: All Da Drugs|Psyshock|p2a: Braviary
+|-damage|p2a: Braviary|73/100
+|
+|-heal|p1a: All Da Drugs|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1638753085
+|move|p2a: Braviary|Return|p1a: All Da Drugs
+|-damage|p1a: All Da Drugs|0 fnt
+|faint|p1a: All Da Drugs
+|
+|upkeep
+|
+|t:|1638753088
+|switch|p1a: I Heart Fish|Alomomola, F|100/100
+|turn|15
+|j| rubycandy
+|
+|t:|1638753099
+|move|p2a: Braviary|Brave Bird|p1a: I Heart Fish
+|-enditem|p2a: Braviary|Flying Gem|[from] gem
+|-damage|p1a: I Heart Fish|0 fnt
+|faint|p1a: I Heart Fish
+|-damage|p2a: Braviary|22/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1638753103
+|switch|p1a: Illegal Immigrant|Ludicolo, M|100/100
+|turn|16
+|
+|t:|1638753109
+|move|p2a: Braviary|Return|p1a: Illegal Immigrant
+|-damage|p1a: Illegal Immigrant|0 fnt
+|faint|p1a: Illegal Immigrant
+|
+|upkeep
+|
+|t:|1638753112
+|switch|p1a: Kreepy Klown|Gurdurr, F|100/100
+|turn|17
+|
+|t:|1638753116
+|move|p1a: Kreepy Klown|Mach Punch|p2a: Braviary
+|-damage|p2a: Braviary|11/100
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|61/100
+|-singleturn|p2a: Braviary|move: Roost
+|
+|upkeep
+|turn|18
+|
+|t:|1638753123
+|move|p2a: Braviary|Brave Bird|p1a: Kreepy Klown
+|-supereffective|p1a: Kreepy Klown
+|-damage|p1a: Kreepy Klown|0 fnt
+|faint|p1a: Kreepy Klown
+|-damage|p2a: Braviary|25/100|[from] Recoil
+|
+|win|xbossarux
+|n|☆TheGreenRoman|thegreenroman
+|n|☆xbossarux|xbossarux
+|n| daniYSB|daniysb
+|n| rubycandy|rubycandy
+|l|☆TheGreenRoman
+|l| daniYSB

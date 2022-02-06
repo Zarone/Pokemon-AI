@@ -1,0 +1,398 @@
+|j|☆1Pyramid King
+|j|☆Corthius
+|t:|1632462306
+|gametype|singles
+|player|p1|1Pyramid King|brandon-gen3|
+|player|p2|Corthius|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Wartortle, F|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Regirock|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Garbodor, M|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Braviary, M|item
+|poke|p2|Swellow, F|item
+|poke|p2|Serperior, M|item
+|poke|p2|Riolu, F|item
+|teampreview
+|c|☆Corthius|hi
+|c|☆Corthius|Im new to BW NU
+|c|☆Corthius|if you see smth super stupid pls let me know
+|c|☆1Pyramid King|Me too
+|c|☆Corthius|lol
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Corthius)
+|c|☆Corthius|oh
+|c|☆Corthius|well hf anyway :)
+|c|☆1Pyramid King|hf
+|
+|t:|1632462344
+|start
+|switch|p1a: Regirock|Regirock|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|t:|1632462357
+|move|p2a: Seismitoad|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|73/100
+|move|p1a: Regirock|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Corthius|move: Stealth Rock
+|
+|-heal|p1a: Regirock|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1632462380
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|
+|-damage|p1a: Exeggutor|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1632462390
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: Exeggutor|Sleep Powder|p2a: Serperior
+|-status|p2a: Serperior|slp|[from] move: Sleep Powder
+|
+|-damage|p1a: Exeggutor|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1632462400
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|cant|p2a: Serperior|slp
+|
+|upkeep
+|turn|5
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462436
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Garbodor|Spikes|p2a: Seismitoad
+|-sidestart|p2: Corthius|Spikes
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462442
+|switch|p1a: Exeggutor|Exeggutor, M|82/100 tox
+|move|p2a: Seismitoad|Stealth Rock|p1a: Exeggutor
+|-sidestart|p1: 1Pyramid King|move: Stealth Rock
+|
+|-damage|p1a: Exeggutor|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1632462447
+|switch|p2a: Serperior|Serperior, M|88/100 slp
+|-damage|p2a: Serperior|76/100 slp|[from] Stealth Rock
+|-damage|p2a: Serperior|63/100 slp|[from] Spikes
+|move|p1a: Exeggutor|Psychic|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-damage|p1a: Exeggutor|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1632462459
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|-damage|p2a: Garbodor|76/100|[from] Spikes
+|turn|8
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462498
+|move|p2a: Garbodor|Gunk Shot|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|upkeep
+|
+|t:|1632462505
+|switch|p1a: Wartortle|Wartortle, F|100/100
+|-damage|p1a: Wartortle|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1632462510
+|move|p2a: Garbodor|Gunk Shot|p1a: Wartortle|[miss]
+|-miss|p2a: Garbodor|p1a: Wartortle
+|move|p1a: Wartortle|Rapid Spin|p2a: Garbodor
+|-damage|p2a: Garbodor|73/100
+|-damage|p1a: Wartortle|72/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|-sideend|p1: 1Pyramid King|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Wartortle
+|
+|upkeep
+|turn|10
+|
+|t:|1632462514
+|move|p2a: Garbodor|Gunk Shot|p1a: Wartortle
+|-damage|p1a: Wartortle|37/100
+|-status|p1a: Wartortle|psn
+|move|p1a: Wartortle|Scald|p2a: Garbodor
+|-damage|p2a: Garbodor|48/100
+|
+|-damage|p1a: Wartortle|25/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1632462519
+|move|p2a: Garbodor|Spikes|p1a: Wartortle
+|-sidestart|p1: 1Pyramid King|Spikes
+|move|p1a: Wartortle|Scald|p2a: Garbodor
+|-damage|p2a: Garbodor|11/100
+|
+|-damage|p1a: Wartortle|12/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1632462523
+|move|p2a: Garbodor|Spikes|p1a: Wartortle
+|-sidestart|p1: 1Pyramid King|Spikes
+|move|p1a: Wartortle|Rapid Spin|p2a: Garbodor
+|-damage|p2a: Garbodor|8/100
+|-damage|p1a: Wartortle|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|faint|p1a: Wartortle
+|
+|upkeep
+|
+|t:|1632462541
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|84/100|[from] Spikes
+|turn|13
+|
+|t:|1632462544
+|move|p2a: Garbodor|Spikes|p1a: Garbodor
+|-sidestart|p1: 1Pyramid King|Spikes
+|move|p1a: Garbodor|Gunk Shot|p2a: Garbodor|[miss]
+|-miss|p1a: Garbodor|p2a: Garbodor
+|
+|-heal|p1a: Garbodor|90/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462580
+|move|p2a: Garbodor|Pain Split|p1a: Garbodor
+|-sethp|p1a: Garbodor|48/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|55/100|[from] move: Pain Split
+|move|p1a: Garbodor|Spikes|p2a: Garbodor
+|-sidestart|p2: Corthius|Spikes
+|
+|-heal|p1a: Garbodor|54/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462585
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|84/100|[from] Spikes
+|-damage|p2a: Seismitoad|78/100|[from] Stealth Rock
+|move|p1a: Garbodor|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: Corthius|move: Toxic Spikes
+|
+|-heal|p1a: Garbodor|60/100|[from] item: Black Sludge
+|-heal|p2a: Seismitoad|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1632462588
+|move|p1a: Garbodor|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|31/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Garbodor
+|-sidestart|p1: 1Pyramid King|move: Stealth Rock
+|
+|-heal|p1a: Garbodor|66/100|[from] item: Black Sludge
+|-heal|p2a: Seismitoad|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1632462596
+|move|p1a: Garbodor|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Garbodor|72/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1632462608
+|switch|p2a: Garbodor|Garbodor, F|55/100
+|-sideend|p2: Corthius|move: Toxic Spikes|[of] p2a: Garbodor
+|-damage|p2a: Garbodor|42/100|[from] Stealth Rock
+|-damage|p2a: Garbodor|26/100|[from] Spikes
+|turn|18
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462654
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|move|p1a: Garbodor|Toxic Spikes|p2a: Braviary
+|-sidestart|p2: Corthius|move: Toxic Spikes
+|
+|-heal|p1a: Garbodor|79/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1632462665
+|move|p2a: Braviary|Brave Bird|p1a: Garbodor
+|-damage|p1a: Garbodor|22/100
+|-damage|p2a: Braviary|56/100|[from] Recoil
+|move|p1a: Garbodor|Gunk Shot|p2a: Braviary
+|-damage|p2a: Braviary|8/100
+|
+|-heal|p1a: Garbodor|29/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1632462671
+|move|p2a: Braviary|Brave Bird|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Braviary|0 fnt|[from] ability: Aftermath|[of] p1a: Garbodor
+|faint|p2a: Braviary
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1632462684
+|switch|p2a: Garbodor|Garbodor, F|26/100
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|-damage|p2a: Garbodor|9/100|[from] Spikes
+|-sideend|p2: Corthius|move: Toxic Spikes|[of] p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt|[from] Stealth Rock
+|faint|p2a: Garbodor
+|
+|t:|1632462693
+|switch|p2a: Swellow|Swellow, F|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|21
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462718
+|move|p1a: Charizard|Flamethrower|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|
+|upkeep
+|
+|t:|1632462721
+|switch|p2a: Riolu|Riolu, F|100/100
+|-damage|p2a: Riolu|95/100|[from] Stealth Rock
+|-damage|p2a: Riolu|78/100|[from] Spikes
+|turn|22
+|
+|t:|1632462726
+|move|p1a: Charizard|Flamethrower|p2a: Riolu
+|-damage|p2a: Riolu|7/100
+|move|p2a: Riolu|Roar|p1a: Charizard
+|drag|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|76/100|[from] Spikes
+|-damage|p1a: Skuntank|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|23
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462738
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Sucker Punch||[from]move: Copycat|[still]
+|-fail|p2a: Riolu
+|
+|upkeep
+|turn|24
+|inactive|1Pyramid King has 270 seconds left.
+|
+|t:|1632462749
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|move|p1a: Skuntank|Crunch|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|upkeep
+|turn|25
+|
+|t:|1632462754
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Riolu|Roar|p1a: Skuntank
+|drag|p1a: Regirock|Regirock|79/100
+|-damage|p1a: Regirock|54/100|[from] Spikes
+|-damage|p1a: Regirock|42/100|[from] Stealth Rock
+|
+|-heal|p1a: Regirock|48/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1632462765
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Regirock|[from]move: Copycat
+|drag|p1a: Charizard|Charizard, M|51/100
+|-damage|p1a: Charizard|1/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|t:|1632462769
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Charizard|[from]move: Copycat
+|drag|p1a: Skuntank|Skuntank, F|63/100
+|-damage|p1a: Skuntank|39/100|[from] Spikes
+|-damage|p1a: Skuntank|26/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|t:|1632462777
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Riolu|Roar|p1a: Skuntank
+|drag|p1a: Regirock|Regirock|48/100
+|-damage|p1a: Regirock|35/100|[from] Stealth Rock
+|-damage|p1a: Regirock|10/100|[from] Spikes
+|
+|-heal|p1a: Regirock|16/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆Corthius|phew
+|c|☆Corthius|that was a close one
+|c|☆Corthius|gg
+|
+|t:|1632462799
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Regirock|[from]move: Copycat
+|drag|p1a: Charizard|Charizard, M|1/100
+|-damage|p1a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p1a: Charizard
+|
+|upkeep
+|c|☆1Pyramid King|gg
+|-message|1Pyramid King forfeited.
+|
+|win|Corthius

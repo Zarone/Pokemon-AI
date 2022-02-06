@@ -1,0 +1,551 @@
+|j|☆ki adi munna
+|j|☆faded love
+|t:|1634862295
+|gametype|singles
+|player|p1|ki adi munna|acetrainercouple|
+|player|p2|faded love|psychicf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Qwilfish, F|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Virizion|item
+|poke|p1|Zapdos|item
+|poke|p1|Flygon, F|item
+|poke|p1|Bronzong|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Mienshao, F|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Cofagrigus, M|item
+|teampreview
+|j| ijustwannaplay1
+|j| Mystras Leoxses
+|j| Kahiba
+|
+|t:|1634862307
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: RUN AWAY WITH ME|Tornadus, M|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|
+|t:|1634862312
+|move|p2a: RUN AWAY WITH ME|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|93/100
+|
+|t:|1634862317
+|switch|p2a: WARM BLOOD|Rhyperior, F|100/100|[from]move: U-turn
+|move|p1a: Zapdos|Toxic|p2a: WARM BLOOD
+|-status|p2a: WARM BLOOD|tox
+|
+|-heal|p1a: Zapdos|99/100|[from] item: Leftovers
+|-damage|p2a: WARM BLOOD|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|j| Corperate N
+|
+|t:|1634862330
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: WARM BLOOD|Rock Blast|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|95/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|90/100
+|-hitcount|p1a: Bronzong|2
+|
+|-heal|p2a: WARM BLOOD|100/100 tox|[from] item: Leftovers
+|-damage|p2a: WARM BLOOD|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1634862333
+|move|p2a: WARM BLOOD|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: ki adi munna|move: Stealth Rock
+|move|p1a: Bronzong|Trick|p2a: WARM BLOOD
+|-activate|p1a: Bronzong|move: Trick|[of] p2a: WARM BLOOD
+|-item|p2a: WARM BLOOD|Choice Band|[from] move: Trick
+|-item|p1a: Bronzong|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Bronzong|96/100|[from] item: Leftovers
+|-damage|p2a: WARM BLOOD|69/100 tox|[from] psn
+|upkeep
+|turn|4
+|j| CryoGyro
+|
+|t:|1634862337
+|switch|p2a: I REALLY LIKE YOU|Blastoise, F|100/100
+|move|p1a: Bronzong|Stealth Rock|p2a: I REALLY LIKE YOU
+|-sidestart|p2: faded love|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1634862342
+|move|p2a: I REALLY LIKE YOU|Rapid Spin|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|99/100
+|-sideend|p2: faded love|Stealth Rock|[from] move: Rapid Spin|[of] p2a: I REALLY LIKE YOU
+|move|p1a: Bronzong|Toxic|p2a: I REALLY LIKE YOU
+|-status|p2a: I REALLY LIKE YOU|tox
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p2a: I REALLY LIKE YOU|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1634862348
+|move|p2a: I REALLY LIKE YOU|Refresh|p2a: I REALLY LIKE YOU
+|-curestatus|p2a: I REALLY LIKE YOU|tox|[msg]
+|move|p1a: Bronzong|Stealth Rock|p2a: I REALLY LIKE YOU
+|-sidestart|p2: faded love|move: Stealth Rock
+|
+|-heal|p2a: I REALLY LIKE YOU|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1634862357
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|move|p2a: I REALLY LIKE YOU|Rapid Spin|p1a: Virizion
+|-damage|p1a: Virizion|90/100
+|-sideend|p2: faded love|Stealth Rock|[from] move: Rapid Spin|[of] p2a: I REALLY LIKE YOU
+|
+|upkeep
+|turn|8
+|j| uu10l 56
+|
+|t:|1634862364
+|switch|p2a: RUN AWAY WITH ME|Tornadus, M|100/100
+|move|p1a: Virizion|Hidden Power|p2a: RUN AWAY WITH ME
+|-supereffective|p2a: RUN AWAY WITH ME
+|-damage|p2a: RUN AWAY WITH ME|50/100
+|
+|upkeep
+|turn|9
+|
+|t:|1634862369
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: RUN AWAY WITH ME|Heat Wave|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|22/100
+|
+|-heal|p1a: Bronzong|28/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1634862375
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: RUN AWAY WITH ME|Heat Wave|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|59/100
+|
+|upkeep
+|turn|11
+|
+|t:|1634862389
+|switch|p2a: LET’S GET LOST|Mienshao, F|100/100
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|100/100
+|-singleturn|p1a: Flygon|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1634862393
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: LET’S GET LOST|atk|1
+|move|p2a: LET’S GET LOST|High Jump Kick|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|68/100
+|
+|-heal|p1a: Qwilfish|74/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1634862399
+|switch|p2a: RUN AWAY WITH ME|Tornadus, M|50/100
+|move|p1a: Qwilfish|Spikes|p2a: RUN AWAY WITH ME
+|-sidestart|p2: faded love|Spikes
+|
+|-heal|p1a: Qwilfish|80/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1634862405
+|switch|p1a: Bronzong|Bronzong|28/100
+|-damage|p1a: Bronzong|22/100|[from] Stealth Rock
+|move|p2a: RUN AWAY WITH ME|Hurricane|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|t:|1634862410
+|switch|p1a: Zapdos|Zapdos|99/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|15
+|
+|t:|1634862416
+|move|p2a: RUN AWAY WITH ME|Hurricane|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|34/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|84/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p1a: Zapdos|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1634862425
+|switch|p2a: WARM BLOOD|Rhyperior, F|69/100 tox
+|-damage|p2a: WARM BLOOD|57/100 tox|[from] Spikes
+|move|p1a: Zapdos|Hidden Power|p2a: WARM BLOOD
+|-supereffective|p2a: WARM BLOOD
+|-damage|p2a: WARM BLOOD|28/100 tox
+|
+|-heal|p1a: Zapdos|96/100|[from] item: Leftovers
+|-damage|p2a: WARM BLOOD|22/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1634862429
+|move|p1a: Zapdos|Hidden Power|p2a: WARM BLOOD
+|-supereffective|p2a: WARM BLOOD
+|-damage|p2a: WARM BLOOD|0 fnt
+|faint|p2a: WARM BLOOD
+|
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634862433
+|switch|p2a: LET’S GET LOST|Mienshao, F|100/100
+|-damage|p2a: LET’S GET LOST|88/100|[from] Spikes
+|turn|18
+|
+|t:|1634862436
+|switch|p1a: Qwilfish|Qwilfish, F|80/100
+|-damage|p1a: Qwilfish|68/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: LET’S GET LOST|atk|1
+|move|p2a: LET’S GET LOST|Stone Edge|p1a: Qwilfish
+|-damage|p1a: Qwilfish|46/100
+|
+|-heal|p1a: Qwilfish|52/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1634862443
+|switch|p2a: RUN AWAY WITH ME|Tornadus, M|50/100
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1634862451
+|move|p2a: RUN AWAY WITH ME|Hurricane|p1a: Flygon|[miss]
+|-miss|p2a: RUN AWAY WITH ME|p1a: Flygon
+|move|p1a: Flygon|Stone Edge|p2a: RUN AWAY WITH ME|[miss]
+|-miss|p1a: Flygon|p2a: RUN AWAY WITH ME
+|
+|upkeep
+|turn|21
+|
+|t:|1634862454
+|move|p2a: RUN AWAY WITH ME|Hurricane|p1a: Flygon|[miss]
+|-miss|p2a: RUN AWAY WITH ME|p1a: Flygon
+|move|p1a: Flygon|Stone Edge|p2a: RUN AWAY WITH ME
+|-supereffective|p2a: RUN AWAY WITH ME
+|-damage|p2a: RUN AWAY WITH ME|0 fnt
+|faint|p2a: RUN AWAY WITH ME
+|-damage|p1a: Flygon|85/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634862458
+|switch|p2a: BLACK HEART|Cofagrigus, M|100/100
+|-damage|p2a: BLACK HEART|88/100|[from] Spikes
+|turn|22
+|
+|t:|1634862471
+|move|p1a: Flygon|Earthquake|p2a: BLACK HEART
+|-damage|p2a: BLACK HEART|44/100
+|-damage|p1a: Flygon|75/100|[from] item: Life Orb
+|move|p2a: BLACK HEART|Nasty Plot|p2a: BLACK HEART
+|-boost|p2a: BLACK HEART|spa|2
+|
+|-heal|p2a: BLACK HEART|50/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1634862476
+|move|p1a: Flygon|Earthquake|p2a: BLACK HEART
+|-damage|p2a: BLACK HEART|7/100
+|-damage|p1a: Flygon|65/100|[from] item: Life Orb
+|move|p2a: BLACK HEART|Trick Room|p2a: BLACK HEART
+|-fieldstart|move: Trick Room|[of] p2a: BLACK HEART
+|
+|-heal|p2a: BLACK HEART|13/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1634862489
+|move|p2a: BLACK HEART|Hidden Power|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-heal|p2a: BLACK HEART|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634862492
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1634862496
+|move|p2a: BLACK HEART|Hidden Power|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|49/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: BLACK HEART|25/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|55/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1634862499
+|move|p2a: BLACK HEART|Hidden Power|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|14/100
+|move|p1a: Snorlax|Earthquake|p2a: BLACK HEART
+|-damage|p2a: BLACK HEART|0 fnt
+|faint|p2a: BLACK HEART
+|
+|-heal|p1a: Snorlax|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634862507
+|switch|p2a: I REALLY LIKE YOU|Blastoise, F|100/100
+|-damage|p2a: I REALLY LIKE YOU|88/100|[from] Spikes
+|turn|27
+|j| UU10L magnet
+|
+|t:|1634862511
+|move|p1a: Snorlax|Frustration|p2a: I REALLY LIKE YOU
+|-damage|p2a: I REALLY LIKE YOU|51/100
+|move|p2a: I REALLY LIKE YOU|Roar|p1a: Snorlax
+|drag|p1a: Virizion|Virizion|90/100
+|-damage|p1a: Virizion|83/100|[from] Stealth Rock
+|
+|-heal|p2a: I REALLY LIKE YOU|57/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|28
+|
+|t:|1634862519
+|switch|p2a: LET’S GET LOST|Mienshao, F|100/100
+|-damage|p2a: LET’S GET LOST|88/100|[from] Spikes
+|move|p1a: Virizion|Giga Drain|p2a: LET’S GET LOST
+|-damage|p2a: LET’S GET LOST|28/100
+|-heal|p1a: Virizion|100/100|[from] drain|[of] p2a: LET’S GET LOST
+|
+|upkeep
+|turn|29
+|
+|t:|1634862526
+|switch|p1a: Qwilfish|Qwilfish, F|52/100
+|-damage|p1a: Qwilfish|40/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: LET’S GET LOST|atk|1
+|move|p2a: LET’S GET LOST|High Jump Kick|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|19/100
+|
+|-heal|p1a: Qwilfish|25/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|t:|1634862533
+|switch|p2a: EMOTION|Ferroseed, M, shiny|100/100
+|-damage|p2a: EMOTION|88/100|[from] Spikes
+|move|p1a: Qwilfish|Scald|p2a: EMOTION
+|-resisted|p2a: EMOTION
+|-damage|p2a: EMOTION|83/100
+|
+|-heal|p1a: Qwilfish|31/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|t:|1634862537
+|move|p1a: Qwilfish|Taunt|p2a: EMOTION
+|-start|p2a: EMOTION|move: Taunt
+|cant|p2a: EMOTION|move: Taunt|Spikes
+|
+|-heal|p1a: Qwilfish|37/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|t:|1634862540
+|switch|p2a: I REALLY LIKE YOU|Blastoise, F|57/100
+|-damage|p2a: I REALLY LIKE YOU|44/100|[from] Spikes
+|move|p1a: Qwilfish|Pain Split|p2a: I REALLY LIKE YOU
+|-sethp|p2a: I REALLY LIKE YOU|39/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Qwilfish|43/100|[from] move: Pain Split
+|
+|-heal|p1a: Qwilfish|49/100|[from] item: Black Sludge
+|-heal|p2a: I REALLY LIKE YOU|45/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1634862544
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|move|p2a: I REALLY LIKE YOU|Rapid Spin|p1a: Virizion
+|-damage|p1a: Virizion|90/100
+|-sideend|p2: faded love|Spikes|[from] move: Rapid Spin|[of] p2a: I REALLY LIKE YOU
+|
+|-heal|p2a: I REALLY LIKE YOU|51/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1634862549
+|switch|p2a: EMOTION|Ferroseed, M, shiny|83/100
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|
+|upkeep
+|turn|35
+|
+|t:|1634862551
+|move|p1a: Virizion|Focus Blast|p2a: EMOTION|[miss]
+|-miss|p1a: Virizion|p2a: EMOTION
+|move|p2a: EMOTION|Thunder Wave|p1a: Virizion
+|-status|p1a: Virizion|par
+|-enditem|p1a: Virizion|Lum Berry|[eat]
+|-curestatus|p1a: Virizion|par|[msg]
+|
+|upkeep
+|turn|36
+|
+|t:|1634862553
+|move|p1a: Virizion|Focus Blast|p2a: EMOTION
+|-supereffective|p2a: EMOTION
+|-damage|p2a: EMOTION|0 fnt
+|faint|p2a: EMOTION
+|
+|upkeep
+|
+|t:|1634862556
+|switch|p2a: LET’S GET LOST|Mienshao, F|61/100
+|turn|37
+|
+|t:|1634862563
+|move|p2a: LET’S GET LOST|High Jump Kick|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|t:|1634862568
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|38
+|
+|t:|1634862578
+|switch|p2a: I REALLY LIKE YOU|Blastoise, F|51/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: I REALLY LIKE YOU|57/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1634862581
+|move|p1a: Zapdos|Thunderbolt|p2a: I REALLY LIKE YOU
+|-supereffective|p2a: I REALLY LIKE YOU
+|-damage|p2a: I REALLY LIKE YOU|0 fnt
+|faint|p2a: I REALLY LIKE YOU
+|
+|upkeep
+|
+|t:|1634862582
+|switch|p2a: LET’S GET LOST|Mienshao, F|95/100
+|turn|40
+|
+|t:|1634862585
+|move|p2a: LET’S GET LOST|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100
+|move|p1a: Zapdos|Thunderbolt|p2a: LET’S GET LOST
+|-damage|p2a: LET’S GET LOST|19/100
+|
+|-heal|p1a: Zapdos|47/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1634862590
+|move|p2a: LET’S GET LOST|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1634862594
+|switch|p1a: Qwilfish|Qwilfish, F|49/100
+|-damage|p1a: Qwilfish|36/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: LET’S GET LOST|atk|1
+|turn|42
+|
+|t:|1634862600
+|move|p2a: LET’S GET LOST|Stone Edge|p1a: Qwilfish|[miss]
+|-miss|p2a: LET’S GET LOST|p1a: Qwilfish
+|move|p1a: Qwilfish|Scald|p2a: LET’S GET LOST
+|-damage|p2a: LET’S GET LOST|0 fnt
+|faint|p2a: LET’S GET LOST
+|
+|win|ki adi munna
+|n|☆ki adi munna|kiadimunna
+|n|☆faded love|fadedlove
+|n| ijustwannaplay1|ijustwannaplay1
+|n| Mystras Leoxses|mystrasleoxses
+|n| Kahiba|kahiba
+|n| Corperate N|corperaten
+|n| CryoGyro|cryogyro
+|n| uu10l 56|uu10l56
+|n| UU10L magnet|uu10lmagnet
+|c|☆ki adi munna|gg
+|l|☆ki adi munna

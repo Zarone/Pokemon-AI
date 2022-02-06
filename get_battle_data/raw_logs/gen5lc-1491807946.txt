@@ -1,0 +1,215 @@
+|j|☆tank skunk
+|j|☆asimpleguyxdlol
+|t:|1642219617
+|gametype|singles
+|player|p1|tank skunk|pokefan|1050
+|player|p2|asimpleguyxdlol|az|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skorupi, L5, M|item
+|poke|p1|Onix, L5, M|item
+|poke|p1|Riolu, L5, M|item
+|poke|p1|Corphish, L5, F|item
+|poke|p1|Numel, L5, M|item
+|poke|p1|Duskull, L5, F|item
+|poke|p2|Drifloon, L5, M|item
+|poke|p2|Ekans, L5, M|item
+|poke|p2|Chimchar, L5, M|item
+|poke|p2|Joltik, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Onix, L5, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|
+|t:|1642219627
+|start
+|switch|p1a: SolidSnake|Onix, L5, M, shiny|100/100
+|switch|p2a: Onix|Onix, L5, M|100/100
+|turn|1
+|
+|t:|1642219637
+|move|p1a: SolidSnake|Stealth Rock|p2a: Onix
+|-sidestart|p2: asimpleguyxdlol|move: Stealth Rock
+|move|p2a: Onix|Stealth Rock|p1a: SolidSnake
+|-sidestart|p1: tank skunk|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1642219654
+|move|p2a: Onix|Earthquake|p1a: SolidSnake
+|-supereffective|p1a: SolidSnake
+|-damage|p1a: SolidSnake|57/100
+|-damage|p2a: Onix|90/100|[from] item: Life Orb
+|move|p1a: SolidSnake|Dragon Tail|p2a: Onix
+|-damage|p2a: Onix|75/100
+|drag|p2a: Joltik|Joltik, L5, F|100/100
+|-damage|p2a: Joltik|77/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642219692
+|move|p2a: Joltik|Energy Ball|p1a: SolidSnake
+|-supereffective|p1a: SolidSnake
+|-damage|p1a: SolidSnake|0 fnt
+|faint|p1a: SolidSnake
+|
+|upkeep
+|
+|t:|1642219706
+|switch|p1a: Numale|Numel, L5, M, shiny|100/100
+|-damage|p1a: Numale|91/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1642219723
+|switch|p2a: Drifloon|Drifloon, L5, M|100/100
+|-damage|p2a: Drifloon|78/100|[from] Stealth Rock
+|move|p1a: Numale|Flame Charge|p2a: Drifloon
+|-damage|p2a: Drifloon|63/100
+|-boost|p1a: Numale|spe|2
+|
+|upkeep
+|turn|5
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642219737
+|move|p1a: Numale|Hidden Power|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|19/100
+|move|p2a: Drifloon|Shadow Ball|p1a: Numale
+|-damage|p1a: Numale|37/100
+|-unboost|p1a: Numale|spd|2
+|
+|upkeep
+|turn|6
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642219755
+|move|p1a: Numale|Hidden Power|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|upkeep
+|
+|t:|1642219766
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|turn|7
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642219793
+|move|p2a: Mienfoo|Fake Out|p1a: Numale
+|-damage|p1a: Numale|10/100
+|-enditem|p1a: Numale|Petaya Berry|[eat]
+|-boost|p1a: Numale|spa|2|[from] item: Petaya Berry
+|cant|p1a: Numale|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1642219802
+|move|p1a: Numale|Earth Power|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1642219809
+|switch|p2a: Chimchar|Chimchar, L5, M|100/100
+|-damage|p2a: Chimchar|75/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1642219814
+|move|p2a: Chimchar|Fake Out|p1a: Numale
+|-damage|p1a: Numale|0 fnt
+|faint|p1a: Numale
+|
+|upkeep
+|
+|t:|1642219823
+|switch|p1a: Big EZ|Corphish, L5, F|100/100
+|-damage|p1a: Big EZ|90/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1642219832
+|switch|p2a: Ekans|Ekans, L5, M|100/100
+|-damage|p2a: Ekans|90/100|[from] Stealth Rock
+|-ability|p2a: Ekans|Intimidate|boost
+|-unboost|p1a: Big EZ|atk|1
+|move|p1a: Big EZ|Dragon Dance|p1a: Big EZ
+|-boost|p1a: Big EZ|atk|1
+|-boost|p1a: Big EZ|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1642219842
+|move|p1a: Big EZ|Crabhammer|p2a: Ekans
+|-damage|p2a: Ekans|0 fnt
+|faint|p2a: Ekans
+|
+|upkeep
+|
+|t:|1642219853
+|switch|p2a: Onix|Onix, L5, M|75/100
+|-damage|p2a: Onix|70/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1642219861
+|move|p1a: Big EZ|Crabhammer|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|upkeep
+|
+|t:|1642219865
+|switch|p2a: Chimchar|Chimchar, L5, M|75/100
+|-damage|p2a: Chimchar|50/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1642219882
+|move|p2a: Chimchar|Fake Out|p1a: Big EZ
+|-damage|p1a: Big EZ|75/100
+|cant|p1a: Big EZ|flinch
+|
+|upkeep
+|turn|14
+|
+|t:|1642219890
+|move|p1a: Big EZ|Crabhammer|p2a: Chimchar
+|-supereffective|p2a: Chimchar
+|-damage|p2a: Chimchar|0 fnt
+|faint|p2a: Chimchar
+|
+|upkeep
+|
+|t:|1642219897
+|switch|p2a: Joltik|Joltik, L5, F|77/100
+|-damage|p2a: Joltik|53/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1642219900
+|move|p1a: Big EZ|Crabhammer|p2a: Joltik
+|-damage|p2a: Joltik|0 fnt
+|faint|p2a: Joltik
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1050 &rarr; <strong>1078</strong><br />(+28 for winning)
+|raw|asimpleguyxdlol's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆asimpleguyxdlol
+|c|☆tank skunk|gg

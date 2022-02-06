@@ -1,0 +1,363 @@
+|j|☆Monai
+|j|☆MartAlvarez♫
+|t:|1632615928
+|gametype|singles
+|player|p1|Monai|ninjaboy|
+|player|p2|MartAlvarez♫|nurseryaide|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Misdreavus, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Audino, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p2|Torkoal, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Sneasel, F|item
+|poke|p2|Tauros, M|item
+|poke|p2|Floatzel, M|item
+|poke|p2|Swellow, M|item
+|teampreview
+|j|*BB-8-NU
+|j| HuntressRubyRose
+|j| A Real Jester
+|c|☆Monai|Glhf
+|j|@Oathkeepre
+|c|☆MartAlvarez♫|hf brother
+|c| A Real Jester|dont get crit monai.
+|c|@Oathkeepre|go Mart
+|
+|t:|1632615950
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|1
+|c| A Real Jester|that would Be REALLY unfortunate.
+|j| SuperEpicAmpharos
+|
+|t:|1632615958
+|switch|p2a: Swellow|Swellow, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Swellow
+|-sidestart|p2: MartAlvarez♫|move: Stealth Rock
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|c|@Oathkeepre|legit, don't even know this Monai character
+|c|☆Monai|Why didn't you warn me
+|c|☆Monai|EARLIER TODAY JESTER
+|c|☆MartAlvarez♫|Mandibuzz NU?
+|c|☆MartAlvarez♫|Lol
+|c| A Real Jester|when
+|
+|t:|1632615983
+|move|p2a: Swellow|Facade|p1a: Seismitoad
+|-damage|p1a: Seismitoad|41/100
+|move|p1a: Seismitoad|Scald|p2a: Swellow
+|-damage|p2a: Swellow|49/100 brn
+|
+|-heal|p1a: Seismitoad|47/100|[from] item: Leftovers
+|-damage|p2a: Swellow|37/100 brn|[from] brn
+|upkeep
+|turn|3
+|c|☆Monai|The matches when I got crit
+|c| A Real Jester|does this run
+|c| A Real Jester|pluck
+|j| skierdude101
+|
+|t:|1632616026
+|move|p2a: Swellow|Facade|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Swellow|24/100 brn|[from] brn
+|upkeep
+|
+|t:|1632616031
+|switch|p1a: Audino|Audino, M|100/100
+|turn|4
+|
+|t:|1632616035
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Swellow|Facade|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-damage|p2a: Swellow|12/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1632616042
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|move|p2a: Swellow|Brave Bird|p1a: Misdreavus
+|-damage|p1a: Misdreavus|50/100
+|-damage|p2a: Swellow|0 fnt|[from] Recoil
+|faint|p2a: Swellow
+|
+|upkeep
+|c| A Real Jester|omg
+|
+|t:|1632616053
+|switch|p2a: Sneasel|Sneasel, F|100/100
+|-damage|p2a: Sneasel|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1632616062
+|move|p2a: Sneasel|Pursuit|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|11/100
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Sneasel
+|-status|p2a: Sneasel|brn
+|
+|-damage|p2a: Sneasel|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1632616065
+|move|p2a: Sneasel|Pursuit|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|-damage|p2a: Sneasel|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1632616072
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|turn|8
+|j| Ninja
+|
+|t:|1632616078
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|move|p1a: Garbodor|Spikes|p2a: Torkoal
+|-sidestart|p2: MartAlvarez♫|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1632616086
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Torkoal|Shell Smash|p2a: Torkoal
+|-unboost|p2a: Torkoal|def|1
+|-unboost|p2a: Torkoal|spd|1
+|-boost|p2a: Torkoal|atk|2
+|-boost|p2a: Torkoal|spa|2
+|-boost|p2a: Torkoal|spe|2
+|-enditem|p2a: Torkoal|White Herb
+|-clearnegativeboost|p2a: Torkoal|[silent]
+|
+|upkeep
+|turn|10
+|c| A Real Jester|why does every lower tier have like -2 steel types
+|j| Phantomistix
+|c|☆Monai|What the fuck
+|c| A Real Jester|dont ask i dont know either
+|c|☆Monai|Gimme a sec I haven't seen this Mon since my rse playthrough
+|c| A Real Jester|i hard serp'd on it and it perished to hp rock
+|
+|t:|1632616139
+|move|p1a: Charizard|Air Slash|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|c| Phantomistix|bop
+|c|☆Monai|Oh my god lol
+|c|☆MartAlvarez♫|Lol
+|c| A Real Jester|lmfao
+|c| skierdude101|the steel type options look kinda bad lol
+|
+|t:|1632616151
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|-damage|p2a: Floatzel|88/100|[from] Stealth Rock
+|-damage|p2a: Floatzel|76/100|[from] Spikes
+|turn|11
+|
+|t:|1632616160
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Floatzel|Hydro Pump|p1a: Audino
+|-damage|p1a: Audino|55/100
+|
+|-heal|p1a: Audino|61/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1632616164
+|move|p2a: Floatzel|Hydro Pump|p1a: Audino
+|-damage|p1a: Audino|11/100
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|17/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1632616168
+|switch|p2a: Sneasel|Sneasel, F|51/100 brn
+|-damage|p2a: Sneasel|26/100 brn|[from] Stealth Rock
+|-damage|p2a: Sneasel|14/100 brn|[from] Spikes
+|move|p1a: Audino|Protect||[still]
+|-fail|p1a: Audino
+|
+|-heal|p1a: Audino|67/100|[from] move: Wish|[wisher] Audino
+|-heal|p1a: Audino|73/100|[from] item: Leftovers
+|-damage|p2a: Sneasel|2/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1632616171
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Sneasel|Ice Punch|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-heal|p1a: Audino|80/100|[from] item: Leftovers
+|-damage|p2a: Sneasel|0 fnt|[from] brn
+|faint|p2a: Sneasel
+|upkeep
+|
+|t:|1632616175
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Spikes
+|-damage|p2a: Serperior|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1632616183
+|move|p2a: Serperior|Swords Dance|p2a: Serperior
+|-boost|p2a: Serperior|atk|2
+|move|p1a: Audino|Double-Edge|p2a: Serperior
+|-damage|p2a: Serperior|42/100
+|-damage|p1a: Audino|72/100|[from] Recoil
+|
+|-heal|p1a: Audino|78/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1632616190
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Serperior|Leaf Blade|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|66/100
+|-damage|p2a: Serperior|26/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|-damage|p2a: Serperior|16/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|c| A Real Jester|ch*p?
+|
+|t:|1632616195
+|move|p2a: Serperior|Aqua Tail|p1a: Garbodor
+|-damage|p1a: Garbodor|21/100
+|-damage|p2a: Serperior|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|faint|p2a: Serperior
+|move|p1a: Garbodor|Spikes|p2: Serperior
+|-sidestart|p2: MartAlvarez♫|Spikes
+|
+|upkeep
+|
+|t:|1632616199
+|switch|p2a: Tauros|Tauros, M|100/100
+|-damage|p2a: Tauros|84/100|[from] Spikes
+|-damage|p2a: Tauros|72/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1632616202
+|move|p2a: Tauros|Work Up|p2a: Tauros
+|-boost|p2a: Tauros|atk|1
+|-boost|p2a: Tauros|spa|1
+|move|p1a: Garbodor|Gunk Shot|p2a: Tauros
+|-damage|p2a: Tauros|21/100
+|-status|p2a: Tauros|psn
+|
+|-damage|p2a: Tauros|9/100 psn|[from] psn
+|upkeep
+|turn|19
+|c|☆Monai|Mb gg
+|
+|t:|1632616211
+|move|p2a: Tauros|Thunderbolt|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-damage|p2a: Tauros|0 fnt|[from] psn
+|faint|p2a: Tauros
+|upkeep
+|c|☆MartAlvarez♫|gg
+|
+|t:|1632616215
+|switch|p2a: Floatzel|Floatzel, M|76/100
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p2a: Floatzel|60/100|[from] Spikes
+|-damage|p2a: Floatzel|47/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1632616221
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Floatzel|Focus Blast|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|upkeep
+|turn|21
+|
+|t:|1632616224
+|move|p2a: Floatzel|Focus Blast|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|39/100
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|45/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1632616228
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Floatzel|Focus Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|60/100
+|
+|-heal|p1a: Mandibuzz|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|23
+|
+|t:|1632616233
+|move|p2a: Floatzel|Focus Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|63/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|win|Monai
+|n|☆Monai|monai
+|n|☆MartAlvarez♫|martalvarez
+|n| BB-8-NU|bb8nu
+|n| HuntressRubyRose|huntressrubyrose
+|n| A Real Jester|arealjester
+|n|+Oathkeepre|oathkeepre
+|n| SuperEpicAmpharos|superepicampharos
+|n| skierdude101|skierdude101
+|n| Ninja|ninja
+|n| Phantomistix|phantomistix
+|l| Phantomistix
+|l|☆MartAlvarez♫
+|l|+Oathkeepre
+|l| BB-8-NU
+|l| Ninja
+|l| A Real Jester
+|l| skierdude101
+|j| A Real Jester
+|j|+Oathkeepre

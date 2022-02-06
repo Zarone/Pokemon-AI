@@ -1,0 +1,322 @@
+|j|☆rexxonmobile
+|j|☆jpjays29
+|t:|1643948059
+|gametype|singles
+|player|p1|rexxonmobile|266|1267
+|player|p2|jpjays29|2|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Espeon, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Jolteon, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Raikou|item
+|poke|p2|Jirachi|item
+|poke|p2|Breloom, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|
+|t:|1643948074
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1643948090
+|move|p1a: Rotom|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|t:|1643948093
+|switch|p1a: Espeon|Espeon, M|100/100|[from]move: Volt Switch
+|move|p2a: Tyranitar|Stealth Rock|p1a: Espeon
+|move|p1a: Espeon|Stealth Rock|p2a: Tyranitar|[from]ability: Magic Bounce
+|-sidestart|p2: jpjays29|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|95/100|[from] Sandstorm
+|-heal|p1a: Espeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643948112
+|move|p1a: Espeon|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|63/100
+|move|p2a: Tyranitar|Pursuit|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|35/100|[from] Sandstorm
+|-heal|p1a: Espeon|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643948131
+|move|p1a: Espeon|Hidden Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|move|p2a: Tyranitar|Crunch|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643948151
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|4
+|
+|t:|1643948161
+|move|p1a: Landorus|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1643948176
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643948183
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|5
+|
+|t:|1643948191
+|move|p1a: Rotom|Will-O-Wisp|p2a: Raikou
+|-status|p2a: Raikou|brn
+|move|p2a: Raikou|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|15/100
+|-damage|p2a: Raikou|78/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|9/100|[from] Sandstorm
+|-damage|p2a: Raikou|72/100 brn|[from] Sandstorm
+|-damage|p2a: Raikou|59/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1643948204
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Raikou|Volt Switch|p1a: Jolteon
+|-immune|p1a: Jolteon|[from] ability: Volt Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|94/100|[from] Sandstorm
+|-damage|p2a: Raikou|53/100 brn|[from] Sandstorm
+|-damage|p2a: Raikou|41/100 brn|[from] brn
+|upkeep
+|turn|7
+|j| SKT T1 Motherfaker
+|
+|t:|1643948214
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Jolteon|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|88/100|[from] Sandstorm
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643948231
+|switch|p1a: Rotom|Rotom-Wash|9/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-sideend|p2: jpjays29|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643948239
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|9
+|
+|t:|1643948247
+|move|p1a: Landorus|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643948260
+|switch|p2a: Raikou|Raikou|41/100 brn
+|-ability|p2a: Raikou|Pressure
+|turn|10
+|
+|t:|1643948267
+|switch|p1a: Jolteon|Jolteon, M|88/100
+|move|p2a: Raikou|Hidden Power|p1a: Jolteon
+|-damage|p1a: Jolteon|49/100
+|-damage|p2a: Raikou|31/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jolteon|42/100|[from] Sandstorm
+|-damage|p2a: Raikou|24/100 brn|[from] Sandstorm
+|-damage|p2a: Raikou|12/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643948278
+|move|p1a: Jolteon|Volt Switch|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|t:|1643948291
+|switch|p1a: Infernape|Infernape, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643948296
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|12
+|
+|t:|1643948300
+|move|p1a: Infernape|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|96/100
+|
+|t:|1643948303
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|89/100|[from] Sandstorm
+|-heal|p2a: Dragonite|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643948315
+|move|p1a: Landorus|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|9/100
+|move|p2a: Dragonite|Dragon Claw|p1a: Landorus
+|-damage|p1a: Landorus|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|3/100|[from] Sandstorm
+|-heal|p2a: Dragonite|9/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| ddddddabai
+|
+|t:|1643948328
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1643948334
+|move|p2a: Jirachi|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1643948342
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|cant|p1a: Scizor|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1643948349
+|move|p2a: Jirachi|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|91/100 par
+|
+|t:|1643948352
+|switch|p2a: Dragonite|Dragonite, M|9/100|[from]move: U-turn
+|move|p1a: Scizor|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|t:|1643948361
+|switch|p1a: Infernape|Infernape, M|94/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643948366
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|18
+|
+|t:|1643948391
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Infernape|U-turn|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|82/100|[from] Sandstorm
+|-damage|p2a: Breloom|94/100|[from] Sandstorm
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|19
+|
+|t:|1643948403
+|move|p1a: Infernape|Overheat|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|-unboost|p1a: Infernape|spa|2
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Infernape|76/100|[from] Sandstorm
+|upkeep
+|-message|jpjays29 forfeited.
+|
+|win|rexxonmobile
+|raw|rexxonmobile's rating: 1267 &rarr; <strong>1291</strong><br />(+24 for winning)
+|raw|jpjays29's rating: 1249 &rarr; <strong>1225</strong><br />(-24 for losing)
+|l|☆jpjays29

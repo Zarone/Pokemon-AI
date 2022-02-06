@@ -1,0 +1,209 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630852423
+|gametype|singles
+|player|p1|Tack is a Nerd|aromalady-gen3|
+|player|p2|Void|sabrina-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Archen, L5, F|item
+|poke|p1|Wingull, L5, F|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Wynaut, L5, M|item
+|poke|p2|Clamperl, L5, M|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Gastly, L5, M|item
+|teampreview
+|c|☆Tack is a Nerd|hf
+|c|☆Void|u2
+|inactive|Tack is a Nerd has 270 seconds left.
+|inactive|Void has 270 seconds left.
+|inactive|Tack is a Nerd has 240 seconds left.
+|
+|t:|1630852483
+|start
+|switch|p1a: Wingull|Wingull, L5, F|100/100
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Keen Eye|[from] ability: Trace|[of] p1a: Wingull
+|turn|1
+|
+|t:|1630852502
+|move|p1a: Wingull|Knock Off|p2a: Porygon
+|-damage|p2a: Porygon|96/100
+|-enditem|p2a: Porygon|Eviolite|[from] move: Knock Off|[of] p1a: Wingull
+|-damage|p1a: Wingull|95/100|[from] item: Life Orb
+|move|p2a: Porygon|Thunder Wave|p1a: Wingull
+|-status|p1a: Wingull|par
+|
+|upkeep
+|turn|2
+|
+|t:|1630852511
+|move|p2a: Porygon|Tri Attack|p1a: Wingull
+|-damage|p1a: Wingull|0 fnt
+|faint|p1a: Wingull
+|
+|upkeep
+|
+|t:|1630852521
+|switch|p1a: Wynaut|Wynaut, L5, M|100/100
+|turn|3
+|
+|t:|1630852523
+|move|p2a: Porygon|Thunder Wave|p1a: Wynaut
+|-status|p1a: Wynaut|par
+|move|p1a: Wynaut|Mirror Coat||[still]
+|-fail|p1a: Wynaut
+|
+|upkeep
+|turn|4
+|
+|t:|1630852529
+|move|p2a: Porygon|Tri Attack|p1a: Wynaut
+|-damage|p1a: Wynaut|75/100 par
+|move|p1a: Wynaut|Mirror Coat|p2a: Porygon
+|-damage|p2a: Porygon|40/100
+|
+|upkeep
+|turn|5
+|
+|t:|1630852535
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|92/100
+|move|p1a: Wynaut|Encore|p2a: Porygon
+|-start|p2a: Porygon|Encore
+|
+|upkeep
+|turn|6
+|
+|t:|1630852549
+|switch|p1a: Archen|Archen, L5, F|100/100
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1630852562
+|move|p1a: Archen|Acrobatics|p2a: Porygon
+|-enditem|p1a: Archen|Flying Gem|[from] gem
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|upkeep
+|c|☆Tack is a Nerd|my b
+|c|☆Void|nw
+|inactive|Void has 270 seconds left.
+|inactive|Void has 240 seconds left.
+|inactive|Void has 210 seconds left.
+|
+|t:|1630852667
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|8
+|c|+F i l l e|o
+|inactive|Tack is a Nerd has 270 seconds left.
+|
+|t:|1630852710
+|move|p2a: Gastly|Will-O-Wisp|p1a: Archen
+|-status|p1a: Archen|brn
+|move|p1a: Archen|Acrobatics|p2a: Gastly
+|-damage|p2a: Gastly|48/100
+|
+|-heal|p2a: Gastly|53/100|[from] item: Black Sludge
+|-damage|p1a: Archen|92/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1630852720
+|move|p2a: Gastly|Shadow Ball|p1a: Archen
+|-damage|p1a: Archen|35/100 brn
+|move|p1a: Archen|Knock Off|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|39/100
+|-enditem|p2a: Gastly|Black Sludge|[from] move: Knock Off|[of] p1a: Archen
+|
+|-damage|p1a: Archen|27/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|Tack is a Nerd has 270 seconds left.
+|
+|t:|1630852736
+|move|p2a: Gastly|Shadow Ball|p1a: Archen
+|-damage|p1a: Archen|0 fnt
+|faint|p1a: Archen
+|
+|upkeep
+|
+|t:|1630852760
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|turn|11
+|inactive|Void has 210 seconds left.
+|
+|t:|1630852772
+|move|p2a: Gastly|Trick|p1a: Vullaby
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Vullaby
+|-enditem|p1a: Vullaby|Eviolite|[silent]|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|move|p1a: Vullaby|Dark Pulse|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|inactive|Void has 210 seconds left.
+|
+|t:|1630852792
+|switch|p2a: Clamperl|Clamperl, L5, M|100/100
+|turn|12
+|
+|t:|1630852799
+|move|p1a: Vullaby|Air Slash|p2a: Clamperl
+|-damage|p2a: Clamperl|50/100
+|move|p2a: Clamperl|Shell Smash|p2a: Clamperl
+|-unboost|p2a: Clamperl|def|1
+|-unboost|p2a: Clamperl|spd|1
+|-boost|p2a: Clamperl|atk|2
+|-boost|p2a: Clamperl|spa|2
+|-boost|p2a: Clamperl|spe|2
+|
+|upkeep
+|turn|13
+|
+|t:|1630852807
+|move|p2a: Clamperl|Ice Beam|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|upkeep
+|
+|t:|1630852811
+|switch|p1a: Wynaut|Wynaut, L5, M|75/100 par
+|turn|14
+|
+|t:|1630852814
+|move|p2a: Clamperl|Surf|p1a: Wynaut
+|-damage|p1a: Wynaut|0 fnt
+|faint|p1a: Wynaut
+|
+|upkeep
+|c|☆Tack is a Nerd|gg
+|c|☆Void|gg
+|-message|Tack is a Nerd forfeited.
+|
+|win|Void

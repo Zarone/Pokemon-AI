@@ -1,0 +1,201 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644169319
+|gametype|singles
+|player|p1|Nalorium|elesa|
+|player|p2|toytean|veteran|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Slowking, F|item
+|poke|p1|Bronzong|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Scizor, F|item
+|teampreview
+|
+|t:|1644169329
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|t:|1644169335
+|move|p2a: Garchomp|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: Nalorium|move: Stealth Rock
+|move|p1a: Bronzong|Gyro Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100
+|-damage|p1a: Bronzong|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|upkeep
+|turn|2
+|
+|t:|1644169338
+|move|p2a: Garchomp|Outrage|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|60/100
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|upkeep
+|turn|3
+|
+|t:|1644169343
+|move|p1a: Bronzong|Gyro Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Bronzong|48/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1644169365
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|4
+|
+|t:|1644169367
+|move|p1a: Bronzong|Explosion|p2a: Volcarona
+|-enditem|p1a: Bronzong|Normal Gem|[from] gem
+|-damage|p2a: Volcarona|0 fnt
+|faint|p1a: Bronzong
+|faint|p2a: Volcarona
+|
+|upkeep
+|
+|t:|1644169373
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1644169376
+|move|p1a: Slowking|Shadow Ball|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|-damage|p1a: Slowking|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644169382
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|6
+|
+|t:|1644169386
+|move|p1a: Slowking|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100
+|-damage|p1a: Slowking|68/100|[from] item: Life Orb
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1644169396
+|move|p2a: Dragonite|Outrage|p1a: Slowking
+|-enditem|p2a: Dragonite|Dragon Gem|[from] gem
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1644169398
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1644169400
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Conkeldurr|84/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644169404
+|switch|p2a: Breloom|Breloom, M, shiny|100/100
+|turn|9
+|
+|t:|1644169409
+|move|p2a: Breloom|Bullet Seed|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|55/100
+|-damage|p1a: Conkeldurr|25/100
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|-hitcount|p1: Conkeldurr|3
+|
+|upkeep
+|
+|t:|1644169417
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644169420
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Jirachi|Trick Room|p1a: Jirachi
+|-fieldstart|move: Trick Room|[of] p1a: Jirachi
+|
+|upkeep
+|turn|11
+|
+|t:|1644169423
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Jirachi|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|91/100
+|
+|t:|1644169426
+|switch|p1a: Jellicent|Jellicent, F|100/100|[from]move: U-turn
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1644169431
+|move|p1a: Jellicent|Surf|p2a: Scizor
+|-damage|p2a: Scizor|8/100
+|move|p2a: Scizor|Pursuit|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1644169435
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|switch|p2a: Breloom|Breloom, M, shiny|100/100
+|turn|13
+|
+|t:|1644169437
+|move|p1a: Reuniclus|Psychic|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|Nalorium
+|c|☆Nalorium|gg
+|c|+K3NIX0190|Pobre toy

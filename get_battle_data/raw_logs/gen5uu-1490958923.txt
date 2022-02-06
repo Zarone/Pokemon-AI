@@ -1,0 +1,271 @@
+|j|☆Lizardu
+|j|☆Degradome
+|t:|1642106591
+|gametype|singles
+|player|p1|Lizardu|colress-gen7|
+|player|p2|Degradome|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Suicune|item
+|poke|p1|Zapdos|item
+|poke|p1|Druddigon, F|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Heracross, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Mismagius, F|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Mienshao, M|item
+|teampreview
+|c|☆Lizardu|hf
+|j|+pokemonisfun
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Degradome)
+|
+|t:|1642106652
+|start
+|switch|p1a: Golurk|Golurk, shiny|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|j| Arxtric
+|
+|t:|1642106674
+|move|p2a: Nidoqueen|Ice Beam|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|11/100
+|move|p1a: Golurk|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|-heal|p1a: Golurk|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642106680
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|2
+|
+|t:|1642106688
+|move|p1a: Golurk|Protect|p1a: Golurk
+|-singleturn|p1a: Golurk|Protect
+|move|p2a: Mienshao|Hidden Power|p1a: Golurk
+|-activate|p1a: Golurk|move: Protect
+|
+|-heal|p1a: Golurk|23/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1642106700
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Mienshao|Hidden Power|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1642106714
+|move|p2a: Mienshao|Stone Edge|p1a: Zapdos|[miss]
+|-miss|p2a: Mienshao|p1a: Zapdos
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1642106742
+|switch|p1a: Golurk|Golurk, shiny|23/100
+|move|p2a: Mienshao|Stone Edge|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Mienshao|81/100|[from] item: Life Orb
+|
+|upkeep
+|j| joey milktank
+|
+|t:|1642106754
+|switch|p1a: Heracross|Heracross, M|100/100
+|turn|6
+|
+|t:|1642106770
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|move|p1a: Heracross|Close Combat|p2a: Mismagius
+|-immune|p2a: Mismagius
+|
+|upkeep
+|turn|7
+|
+|t:|1642106776
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|86/100
+|
+|upkeep
+|turn|8
+|inactive|Degradome has 120 seconds left.
+|
+|t:|1642106802
+|move|p2a: Mismagius|Hidden Power|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1642106816
+|switch|p1a: Druddigon|Druddigon, F, shiny|100/100
+|turn|9
+|j| EdwardWu
+|inactive|Degradome has 120 seconds left.
+|j| nbivu
+|
+|t:|1642106832
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|move|p1a: Druddigon|Fire Punch|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-damage|p1a: Druddigon|88/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p2a: Ferroseed
+|
+|upkeep
+|j| torterrax1
+|
+|t:|1642106840
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|10
+|l|nbivu
+|
+|t:|1642106862
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Flygon|Outrage|p1a: Zapdos
+|-damage|p1a: Zapdos|32/100
+|
+|upkeep
+|turn|11
+|
+|t:|1642106874
+|move|p2a: Flygon|Outrage|p1a: Zapdos|[from]lockedmove
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1642106883
+|switch|p1a: Suicune|Suicune, shiny|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|12
+|
+|t:|1642106889
+|move|p2a: Flygon|Outrage|p1a: Suicune|[from]lockedmove
+|-damage|p1a: Suicune|53/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Suicune|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: Suicune|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642106893
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|13
+|
+|t:|1642106920
+|move|p2a: Mienshao|High Jump Kick|p1a: Suicune|[miss]
+|-miss|p2a: Mienshao|p1a: Suicune
+|-damage|p2a: Mienshao|51/100|[from] highjumpkick
+|move|p1a: Suicune|Ice Beam|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|-heal|p1a: Suicune|65/100|[from] item: Leftovers
+|upkeep
+|c|☆Degradome|k
+|
+|t:|1642106932
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|14
+|
+|t:|1642106941
+|move|p1a: Suicune|Ice Beam|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|54/100
+|move|p2a: Druddigon|Outrage|p1a: Suicune
+|-enditem|p2a: Druddigon|Dragon Gem|[from] gem
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1642106954
+|switch|p1a: Heracross|Heracross, M|100/100
+|turn|15
+|
+|t:|1642106960
+|move|p1a: Heracross|Megahorn|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1642106964
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|turn|16
+|
+|t:|1642106969
+|move|p1a: Heracross|Megahorn|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-damage|p2a: Mismagius|6/100
+|move|p2a: Mismagius|Thunderbolt|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|35/100
+|
+|upkeep
+|turn|17
+|
+|t:|1642106988
+|move|p1a: Heracross|Megahorn|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|win|Lizardu
+|n|☆Lizardu|lizardu
+|n|☆Degradome|degradome
+|n| pokemonisfun|pokemonisfun
+|n| Arxtric|arxtric
+|n| joey milktank|joeymilktank
+|n| EdwardWu|edwardwu
+|n| torterrax1|torterrax1
+|l|☆Degradome
+|l|☆Lizardu
+|l| joey milktank
+|l| Arxtric
+|j| Amukamara
+|l| Amukamara

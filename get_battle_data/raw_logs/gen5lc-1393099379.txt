@@ -1,0 +1,192 @@
+|j|☆aadit2005
+|j|☆vk1001
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1628499091
+|gametype|singles
+|player|p1|aadit2005|sabrina|
+|player|p2|vk1001|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Wailmer, L5, F|item
+|poke|p1|Kabuto, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Mantyke, L5, M|item
+|poke|p1|Chinchou, L5, F|item
+|poke|p1|Buizel, L5, M|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Riolu, L5, F|item
+|poke|p2|Croagunk, L5, M|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Mankey, L5, F|item
+|poke|p2|Makuhita, L5, M|item
+|teampreview
+|inactive|aadit2005 also wants the timer to be on.
+|j|*Lady Monita
+|
+|t:|1628499097
+|start
+|switch|p1a: Chinchou|Chinchou, L5, F|100/100
+|switch|p2a: Mankey|Mankey, L5, F|100/100
+|turn|1
+|inactive|aadit2005 has 120 seconds left.
+|
+|t:|1628499141
+|move|p2a: Mankey|Earthquake|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|25/100
+|move|p1a: Chinchou|Rain Dance|p1a: Chinchou
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|vk1001 has 120 seconds left.
+|inactive|vk1001 has 90 seconds left.
+|inactive|vk1001 has 60 seconds left.
+|
+|t:|1628499243
+|move|p2a: Mankey|Earthquake|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|aadit2005 has 120 seconds left.
+|
+|t:|1628499254
+|switch|p1a: Mantyke|Mantyke, L5, M|100/100
+|turn|3
+|
+|t:|1628499259
+|move|p1a: Mantyke|Acrobatics|p2a: Mankey
+|-supereffective|p2a: Mankey
+|-crit|p2a: Mankey
+|-enditem|p2a: Mankey|Focus Sash
+|-damage|p2a: Mankey|5/100
+|move|p2a: Mankey|Thunder Punch|p1a: Mantyke
+|-supereffective|p1a: Mantyke
+|-damage|p1a: Mantyke|0 fnt
+|faint|p1a: Mantyke
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1628499266
+|switch|p1a: Buizel|Buizel, L5, M|100/100
+|turn|4
+|
+|t:|1628499269
+|move|p1a: Buizel|Aqua Jet|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|faint|p2a: Mankey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1628499273
+|switch|p2a: Croagunk|Croagunk, L5, M|100/100
+|turn|5
+|
+|t:|1628499281
+|move|p1a: Buizel|Brick Break|p2a: Croagunk
+|-resisted|p2a: Croagunk
+|-damage|p2a: Croagunk|81/100
+|move|p2a: Croagunk|Sludge Bomb|p1a: Buizel
+|-damage|p1a: Buizel|28/100
+|-damage|p2a: Croagunk|72/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1628499288
+|move|p2a: Croagunk|Vacuum Wave|p1a: Buizel
+|-damage|p1a: Buizel|0 fnt
+|faint|p1a: Buizel
+|-damage|p2a: Croagunk|62/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628499294
+|switch|p1a: Staryu|Staryu, L5|100/100
+|turn|7
+|
+|t:|1628499309
+|move|p1a: Staryu|Psychic|p2a: Croagunk
+|-supereffective|p2a: Croagunk
+|-damage|p2a: Croagunk|0 fnt
+|faint|p2a: Croagunk
+|
+|upkeep
+|
+|t:|1628499316
+|switch|p2a: Makuhita|Makuhita, L5, M|100/100
+|turn|8
+|
+|t:|1628499323
+|move|p2a: Makuhita|Fake Out|p1a: Staryu
+|-damage|p1a: Staryu|85/100
+|cant|p1a: Staryu|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1628499328
+|move|p1a: Staryu|Psychic|p2a: Makuhita
+|-supereffective|p2a: Makuhita
+|-damage|p2a: Makuhita|40/100
+|move|p2a: Makuhita|Close Combat|p1a: Staryu
+|-damage|p1a: Staryu|16/100
+|-unboost|p2a: Makuhita|def|1
+|-unboost|p2a: Makuhita|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1628499331
+|move|p2a: Makuhita|Bullet Punch|p1a: Staryu
+|-resisted|p1a: Staryu
+|-crit|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|upkeep
+|
+|t:|1628499336
+|switch|p1a: Kabuto|Kabuto, L5, M|100/100
+|turn|11
+|
+|t:|1628499339
+|move|p1a: Kabuto|Surf|p2a: Makuhita
+|-heal|p2a: Makuhita|61/100|[from] ability: Dry Skin|[of] p1a: Kabuto
+|move|p2a: Makuhita|Close Combat|p1a: Kabuto
+|-supereffective|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|-unboost|p2a: Makuhita|def|1
+|-unboost|p2a: Makuhita|spd|1
+|faint|p1a: Kabuto
+|
+|upkeep
+|
+|t:|1628499343
+|switch|p1a: Wailmer|Wailmer, L5, F|100/100
+|turn|12
+|-message|aadit2005 forfeited.
+|
+|win|vk1001
+|n|☆aadit2005|aadit2005
+|n|☆vk1001|vk1001
+|n|*Lady Monita|ladymonita

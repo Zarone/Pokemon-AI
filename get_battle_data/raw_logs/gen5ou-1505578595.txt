@@ -1,0 +1,312 @@
+|j|☆WarlockThePower
+|j|☆EverLearning
+|t:|1644172908
+|gametype|singles
+|player|p1|WarlockThePower|tate|1003
+|player|p2|EverLearning|pryce|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Reuniclus, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Lucario, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Kyurem-Black|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WarlockThePower)
+|
+|t:|1644172932
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|turn|1
+|
+|t:|1644172944
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Magnezone
+|-sidestart|p2: EverLearning|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1644172952
+|move|p2a: Magnezone|Sunny Day|p2a: Magnezone
+|-weather|SunnyDay
+|move|p1a: Ferrothorn|Curse|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|spe|1
+|-boost|p1a: Ferrothorn|atk|1
+|-boost|p1a: Ferrothorn|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644172960
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644172969
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+|
+|t:|1644172977
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|switch|p1a: Keldeo|Keldeo|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Slowbro|82/100|[from] Sandstorm
+|-heal|p2a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644172994
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|82/100|[from] Sandstorm
+|-damage|p1a: Reuniclus|94/100|[from] Sandstorm
+|-heal|p2a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644173006
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|88/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1644173016
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|20/100
+|-damage|p2a: Tyranitar|72/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|move|p1a: Reuniclus|Energy Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Reuniclus|14/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1644173028
+|-activate|p1a: Reuniclus|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Reuniclus|[from]Pursuit
+|-supereffective|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-damage|p2a: Tyranitar|18/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|faint|p1a: Reuniclus
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644173037
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|9
+|
+|t:|1644173044
+|move|p1a: Gliscor|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|EverLearning has 120 seconds left.
+|
+|t:|1644173075
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644173081
+|move|p2a: Lucario|Ice Punch|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|8/100
+|-damage|p2a: Lucario|88/100|[from] item: Life Orb
+|move|p1a: Gliscor|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|14/100|[from] item: Leftovers
+|upkeep
+|inactive|EverLearning has 120 seconds left.
+|
+|t:|1644173101
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1644173109
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|move|p2a: Slowbro|Scald|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|5/100|[from] Sandstorm
+|-damage|p2a: Slowbro|82/100|[from] Sandstorm
+|-heal|p2a: Slowbro|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644173124
+|move|p1a: Alakazam|Energy Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|33/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|0 fnt|[from] Sandstorm
+|-damage|p2a: Slowbro|27/100|[from] Sandstorm
+|faint|p1a: Alakazam
+|-heal|p2a: Slowbro|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644173137
+|switch|p1a: Gliscor|Gliscor, F|14/100
+|turn|13
+|
+|t:|1644173143
+|move|p1a: Gliscor|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|9/100
+|move|p2a: Slowbro|Scald|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|3/100|[from] Sandstorm
+|-heal|p2a: Slowbro|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644173154
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|14
+|
+|t:|1644173159
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Slowbro|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|3/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|41/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|9/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644173172
+|move|p1a: Tyranitar|Brick Break|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644173180
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1644173186
+|switch|p1a: Keldeo|Keldeo|94/100
+|move|p2a: Rotom|Hydro Pump|p1a: Keldeo|[miss]
+|-miss|p2a: Rotom|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|82/100|[from] Sandstorm
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1644173200
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Keldeo|Secret Sword|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-enditem|p2a: Magnezone|Air Balloon
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644173214
+|switch|p2a: Rotom|Rotom-Wash|82/100
+|-damage|p2a: Rotom|70/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644173218
+|move|p2a: Rotom|Volt Switch|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|9/100
+|
+|t:|1644173222
+|switch|p2a: Kyurem|Kyurem-Black|100/100|[from]move: Volt Switch
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: Keldeo|Secret Sword|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|3/100|[from] Sandstorm
+|upkeep
+|-message|EverLearning forfeited.
+|
+|win|WarlockThePower
+|raw|WarlockThePower's rating: 1003 &rarr; <strong>1057</strong><br />(+54 for winning)
+|raw|EverLearning's rating: 1140 &rarr; <strong>1106</strong><br />(-34 for losing)
+|l|☆EverLearning

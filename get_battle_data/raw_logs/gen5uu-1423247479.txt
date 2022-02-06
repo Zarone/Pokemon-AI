@@ -1,0 +1,261 @@
+|j|☆blackkaiser
+|j|☆Kounamii
+|t:|1632512123
+|gametype|singles
+|player|p1|blackkaiser|nate|
+|player|p2|Kounamii|blue-gen7|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, M|item
+|poke|p1|Magneton|item
+|poke|p1|Venomoth, M|item
+|poke|p1|Spiritomb, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Mew|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Empoleon, F|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Raikou|item
+|poke|p2|Flygon, M|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|j| The Winking Dol
+|j| Parrot67
+|j| zben ☭_☭
+|c|☆Kounamii|Hf bro
+|c|☆blackkaiser|u2
+|j| Dragonicos
+|inactive|Kounamii has 120 seconds left.
+|c|☆Kounamii|Your team is crazy
+|c|☆blackkaiser|i just like using fun stuff
+|inactive|Kounamii has 90 seconds left.
+|c|☆Kounamii|Based Spiritomb
+|j|%Links
+|c|%Links|VENEMOTH
+|
+|t:|1632512213
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Qwilfish|Qwilfish, M|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|turn|1
+|c|%Links|YUH
+|c|☆blackkaiser|ofc
+|
+|t:|1632512221
+|move|p1a: Mew|Taunt|p2a: Qwilfish
+|-start|p2a: Qwilfish|move: Taunt
+|cant|p2a: Qwilfish|move: Taunt|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1632512235
+|move|p1a: Mew|Will-O-Wisp|p2a: Qwilfish
+|-status|p2a: Qwilfish|brn
+|move|p2a: Qwilfish|Waterfall|p1a: Mew
+|-damage|p1a: Mew|90/100
+|
+|-heal|p1a: Mew|96/100|[from] item: Leftovers
+|-damage|p2a: Qwilfish|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|j| brolycoly
+|
+|t:|1632512253
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Empoleon
+|-status|p2a: Empoleon|brn
+|
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1632512256
+|move|p1a: Mew|Taunt|p2a: Empoleon
+|-start|p2a: Empoleon|move: Taunt
+|move|p2a: Empoleon|Hydro Pump|p1a: Mew
+|-damage|p1a: Mew|22/100
+|
+|-heal|p1a: Mew|28/100|[from] item: Leftovers
+|-damage|p2a: Empoleon|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1632512265
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|78/100
+|move|p2a: Empoleon|Hydro Pump|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-damage|p2a: Empoleon|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1632512269
+|switch|p1a: Druddigon|Druddigon, M, shiny|100/100
+|turn|6
+|
+|t:|1632512274
+|switch|p2a: Qwilfish|Qwilfish, M|88/100 brn
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Druddigon|atk|1
+|move|p1a: Druddigon|Stealth Rock|p2a: Qwilfish
+|-sidestart|p2: Kounamii|move: Stealth Rock
+|
+|-heal|p2a: Qwilfish|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Qwilfish|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1632512278
+|switch|p1a: Venomoth|Venomoth, M|100/100
+|move|p2a: Qwilfish|Spikes|p1a: Venomoth
+|-sidestart|p1: blackkaiser|Spikes
+|
+|-heal|p2a: Qwilfish|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Qwilfish|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1632512283
+|move|p1a: Venomoth|Substitute|p1a: Venomoth
+|-start|p1a: Venomoth|Substitute
+|-damage|p1a: Venomoth|76/100
+|move|p2a: Qwilfish|Waterfall|p1a: Venomoth
+|-activate|p1a: Venomoth|Substitute|[damage]
+|
+|-heal|p1a: Venomoth|82/100|[from] item: Black Sludge
+|-heal|p2a: Qwilfish|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Qwilfish|69/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1632512287
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|
+|-heal|p1a: Venomoth|88/100|[from] item: Black Sludge
+|-heal|p2a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1632512290
+|move|p1a: Venomoth|Sleep Powder|p2a: Rhyperior
+|-status|p2a: Rhyperior|slp|[from] move: Sleep Powder
+|cant|p2a: Rhyperior|slp
+|
+|-heal|p1a: Venomoth|94/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1632512293
+|move|p1a: Venomoth|Bug Buzz|p2a: Rhyperior
+|-damage|p2a: Rhyperior|54/100 slp
+|cant|p2a: Rhyperior|slp
+|
+|-heal|p1a: Venomoth|99/100|[from] item: Black Sludge
+|-heal|p2a: Rhyperior|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1632512296
+|move|p1a: Venomoth|Bug Buzz|p2a: Rhyperior
+|-damage|p2a: Rhyperior|12/100 slp
+|cant|p2a: Rhyperior|slp
+|
+|-heal|p1a: Venomoth|100/100|[from] item: Black Sludge
+|-heal|p2a: Rhyperior|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1632512300
+|move|p1a: Venomoth|Bug Buzz|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1632512308
+|switch|p2a: Empoleon|Empoleon, F|64/100 brn
+|-damage|p2a: Empoleon|57/100 brn|[from] Stealth Rock
+|turn|14
+|j| Ghost Marowak
+|
+|t:|1632512312
+|move|p1a: Venomoth|Bug Buzz|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|j| Teggun Burcs
+|
+|t:|1632512320
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1632512322
+|move|p1a: Venomoth|Sleep Powder|p2a: Togekiss
+|-status|p2a: Togekiss|slp|[from] move: Sleep Powder
+|cant|p2a: Togekiss|slp
+|
+|-heal|p2a: Togekiss|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|Kounamii forfeited.
+|
+|win|blackkaiser
+|n|☆blackkaiser|blackkaiser
+|n|☆Kounamii|kounamii
+|n| BB-8-NU|bb8nu
+|n| The Winking Dol|thewinkingdol
+|n| Parrot67|parrot67
+|n| zben ☭_☭|zben
+|n| Dragonicos|dragonicos
+|n| Links|links
+|n| brolycoly|brolycoly
+|n| Ghost Marowak|ghostmarowak
+|n| Teggun Burcs|teggunburcs
+|l|☆Kounamii
+|l| BB-8-NU
+|l| Teggun Burcs
+|l|☆blackkaiser
+|l| Links
+|l| brolycoly
+|j| brolycoly
+|l| Parrot67
+|l| The Winking Dol
+|j|☆Kounamii
+|player|p2|Kounamii|blue-gen7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|l| zben ☭_☭
+|l| brolycoly
+|l|☆Kounamii
+|player|p2|
+|l| Ghost Marowak
+|j|☆Kounamii
+|player|p2|Kounamii|blue-gen7

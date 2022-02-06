@@ -1,0 +1,313 @@
+|j|☆PotatoMine1
+|j|☆Zextruha
+|t:|1644072967
+|gametype|singles
+|player|p1|PotatoMine1|169|1453
+|player|p2|Zextruha|red-gen1|1343
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Snorlax, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Swampert, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zextruha)
+|
+|t:|1644073004
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|t:|1644073011
+|move|p2a: Latios|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644073016
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|2
+|
+|t:|1644073027
+|switch|p2a: Snorlax|Snorlax, F, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Snorlax
+|-damage|p2a: Snorlax|71/100
+|-activate|p2a: Snorlax|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|71/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1644073042
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| SKT T1 Motherfaker
+|
+|t:|1644073052
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Snorlax
+|-status|p2a: Snorlax|brn
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|71/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1644073063
+|move|p1a: Jellicent|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|cant|p2a: Snorlax|move: Taunt|Curse
+|
+|-heal|p2a: Snorlax|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|65/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1644073072
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Snorlax
+|-fail|p2a: Snorlax|brn
+|move|p2a: Snorlax|Fire Punch|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|91/100
+|
+|-heal|p1a: Jellicent|97/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|58/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1644073083
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Fire Punch|p1a: Landorus
+|-damage|p1a: Landorus|91/100
+|
+|-heal|p1a: Landorus|97/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|52/100 brn|[from] brn
+|-end|p2a: Snorlax|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1644073099
+|move|p1a: Landorus|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: Zextruha|move: Stealth Rock
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644073108
+|move|p1a: Landorus|U-turn|p2a: Snorlax
+|-damage|p2a: Snorlax|90/100 slp
+|
+|t:|1644073114
+|switch|p1a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644073122
+|move|p1a: Alakazam|Focus Blast|p2a: Snorlax|[miss]
+|-miss|p1a: Alakazam|p2a: Snorlax
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644073130
+|move|p1a: Alakazam|Focus Blast|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|62/100 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Return|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|-heal|p2a: Snorlax|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644073142
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Snorlax|Fire Punch|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Snorlax|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644073151
+|move|p1a: Heatran|Magma Storm|p2a: Snorlax|[miss]
+|-miss|p1a: Heatran|p2a: Snorlax
+|move|p2a: Snorlax|Return|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|73/100
+|
+|-heal|p1a: Heatran|79/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644073161
+|move|p1a: Heatran|Magma Storm|p2a: Snorlax
+|-damage|p2a: Snorlax|33/100
+|-activate|p2a: Snorlax|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Snorlax|Return|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|54/100
+|
+|-heal|p1a: Heatran|60/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|39/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1644073173
+|move|p1a: Heatran|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|move|p2a: Snorlax|Return|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|36/100
+|
+|-heal|p1a: Heatran|42/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|39/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1644073175
+|move|p1a: Heatran|Magma Storm|p2a: Snorlax|[miss]
+|-miss|p1a: Heatran|p2a: Snorlax
+|move|p2a: Snorlax|Return|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|18/100
+|
+|-heal|p1a: Heatran|25/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|39/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1644073195
+|move|p1a: Heatran|Magma Storm|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Heatran|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644073208
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644073213
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|71/100
+|
+|-heal|p1a: Landorus|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644073223
+|move|p2a: Garchomp|Outrage|p1a: Landorus|[from]lockedmove
+|-damage|p1a: Landorus|50/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|-enditem|p2a: Garchomp|Lum Berry|[eat]
+|-end|p2a: Garchomp|confusion
+|move|p1a: Landorus|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|19/100
+|
+|-heal|p1a: Landorus|56/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644073240
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|46/100
+|
+|-heal|p1a: Landorus|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644073249
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|33/100
+|-damage|p2a: Scizor|36/100|[from] item: Life Orb
+|move|p1a: Landorus|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Landorus|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644073260
+|switch|p2a: Garchomp|Garchomp, F|19/100
+|-damage|p2a: Garchomp|13/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1644073274
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Landorus|45/100|[from] item: Leftovers
+|upkeep
+|-message|Zextruha forfeited.
+|
+|win|PotatoMine1
+|raw|PotatoMine1's rating: 1428 &rarr; <strong>1443</strong><br />(+15 for winning)
+|raw|Zextruha's rating: 1343 &rarr; <strong>1328</strong><br />(-15 for losing)
+|l|☆Zextruha

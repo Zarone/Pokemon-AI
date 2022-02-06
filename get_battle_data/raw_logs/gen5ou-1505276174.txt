@@ -1,0 +1,657 @@
+|j|☆Elcabezaderodilla
+|j|☆Dababy3
+|t:|1644121119
+|gametype|singles
+|player|p1|Elcabezaderodilla|will|1426
+|player|p2|Dababy3|lucas-gen4pt|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Uxie|item
+|poke|p1|Sableye, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Whimsicott, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Blissey, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Keldeo|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dababy3)
+|
+|t:|1644121132
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Gabite of 87|Garchomp, F, shiny|100/100
+|turn|1
+|
+|t:|1644121135
+|move|p1a: Uxie|Trick|p2a: Gabite of 87
+|-activate|p1a: Uxie|move: Trick|[of] p2a: Gabite of 87
+|-item|p2a: Gabite of 87|Choice Scarf|[from] move: Trick
+|-item|p1a: Uxie|Focus Sash|[from] move: Trick
+|move|p2a: Gabite of 87|Stealth Rock|p1a: Uxie
+|-sidestart|p1: Elcabezaderodilla|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1644121140
+|switch|p2a: CallyManZam|Alakazam, M|100/100
+|move|p1a: Uxie|Stealth Rock|p2a: CallyManZam
+|-sidestart|p2: Dababy3|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1644121143
+|move|p2a: CallyManZam|Shadow Ball|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|56/100
+|move|p1a: Uxie|U-turn|p2a: CallyManZam
+|-supereffective|p2a: CallyManZam
+|-damage|p2a: CallyManZam|38/100
+|
+|t:|1644121151
+|switch|p1a: Blissey|Blissey, F|100/100|[from]move: U-turn
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644121153
+|switch|p2a: Wagwan My Drilla|Excadrill, M|100/100
+|-damage|p2a: Wagwan My Drilla|97/100|[from] Stealth Rock
+|-ability|p2a: Wagwan My Drilla|Mold Breaker
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644121158
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|move|p2a: Wagwan My Drilla|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|39/100
+|
+|-heal|p1a: Sableye|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|6
+|
+|t:|1644121163
+|switch|p2a: CallyManZam|Alakazam, M|38/100
+|move|p1a: Sableye|Trick|p2a: CallyManZam
+|-activate|p1a: Sableye|move: Trick|[of] p2a: CallyManZam
+|-item|p2a: CallyManZam|Choice Scarf|[from] move: Trick
+|-item|p1a: Sableye|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|7
+|
+|t:|1644121172
+|move|p1a: Sableye|Substitute|p1a: Sableye
+|-start|p1a: Sableye|Substitute
+|-damage|p1a: Sableye|75/100
+|move|p2a: CallyManZam|Thunder Wave||[still]
+|-fail|p2a: CallyManZam
+|
+|upkeep
+|turn|8
+|j| Trevs hyper12
+|l| Trevs hyper12
+|
+|t:|1644121193
+|switch|p2a: Wagwan My Drilla|Excadrill, M|97/100
+|-damage|p2a: Wagwan My Drilla|94/100|[from] Stealth Rock
+|-ability|p2a: Wagwan My Drilla|Mold Breaker
+|move|p1a: Sableye|Will-O-Wisp|p2a: Wagwan My Drilla|[miss]
+|-miss|p1a: Sableye|p2a: Wagwan My Drilla
+|
+|upkeep
+|turn|9
+|
+|t:|1644121200
+|switch|p2a: CallyManZam|Alakazam, M|38/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: CallyManZam|[miss]
+|-miss|p1a: Sableye|p2a: CallyManZam
+|
+|upkeep
+|turn|10
+|
+|t:|1644121203
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: CallyManZam|Shadow Ball|p1a: Sableye
+|-end|p1a: Sableye|Substitute
+|
+|upkeep
+|turn|11
+|
+|t:|1644121206
+|switch|p1a: Blissey|Blissey, F|99/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|move|p2a: CallyManZam|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644121211
+|switch|p2a: Wagwan My Drilla|Excadrill, M|94/100
+|-damage|p2a: Wagwan My Drilla|91/100|[from] Stealth Rock
+|-ability|p2a: Wagwan My Drilla|Mold Breaker
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644121216
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|move|p2a: Wagwan My Drilla|Swords Dance|p2a: Wagwan My Drilla
+|-boost|p2a: Wagwan My Drilla|atk|2
+|
+|-heal|p1a: Sableye|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|14
+|
+|t:|1644121221
+|move|p1a: Sableye|Trick|p2a: Wagwan My Drilla
+|-activate|p1a: Sableye|move: Trick|[of] p2a: Wagwan My Drilla
+|-item|p2a: Wagwan My Drilla|Focus Sash|[from] move: Trick
+|-item|p1a: Sableye|Focus Sash|[from] move: Trick
+|move|p2a: Wagwan My Drilla|Earthquake|p1a: Sableye
+|-enditem|p1a: Sableye|Focus Sash
+|-damage|p1a: Sableye|1/100
+|
+|upkeep
+|turn|15
+|
+|t:|1644121233
+|move|p1a: Sableye|Will-O-Wisp|p2a: Wagwan My Drilla
+|-status|p2a: Wagwan My Drilla|brn
+|move|p2a: Wagwan My Drilla|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Wagwan My Drilla|79/100 brn|[from] brn
+|upkeep
+|c|☆Elcabezaderodilla|dumbest mopve ever
+|c|☆Elcabezaderodilla|xD
+|
+|t:|1644121241
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|turn|16
+|c|☆Dababy3|Why did u do that lmao
+|c|☆Elcabezaderodilla|forgot
+|c|☆Elcabezaderodilla|already tricked
+|
+|t:|1644121252
+|move|p2a: Wagwan My Drilla|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|84/100
+|-sideend|p2: Dababy3|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Wagwan My Drilla
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|59/100
+|
+|-damage|p2a: Wagwan My Drilla|66/100 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|c|☆Dababy3|This team is giving me severe anxiety
+|
+|t:|1644121257
+|move|p2a: Wagwan My Drilla|Iron Head|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Toxic||[still]
+|-fail|p1a: Gliscor
+|
+|-heal|p1a: Gliscor|71/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Wagwan My Drilla|54/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1644121261
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Wagwan My Drilla|Iron Head|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Wagwan My Drilla|41/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1644121262
+|move|p2a: Wagwan My Drilla|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|57/100 tox
+|cant|p1a: Gliscor|flinch
+|
+|-heal|p1a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Wagwan My Drilla|29/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1644121267
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Wagwan My Drilla|Swords Dance|p2a: Wagwan My Drilla
+|-boost|p2a: Wagwan My Drilla|atk|2
+|
+|-heal|p1a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Wagwan My Drilla|17/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1644121269
+|move|p2a: Wagwan My Drilla|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|43/100 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|19/100 tox
+|
+|-heal|p1a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Wagwan My Drilla|4/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1644121277
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|move|p2a: Wagwan My Drilla|Iron Head|p1a: Whimsicott
+|-damage|p1a: Whimsicott|30/100
+|
+|-damage|p2a: Wagwan My Drilla|0 fnt|[from] brn
+|faint|p2a: Wagwan My Drilla
+|upkeep
+|c|☆Dababy3|WHY
+|c|☆Dababy3|Bro
+|c|☆Dababy3|You amaze me lmao
+|
+|t:|1644121293
+|switch|p2a: CallyManZam|Alakazam, M|38/100
+|turn|23
+|
+|t:|1644121296
+|switch|p2a: Kenan & Keldeo|Keldeo|100/100
+|switch|p1a: Blissey|Blissey, F|99/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1644121299
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Kenan & Keldeo|Calm Mind|p2a: Kenan & Keldeo
+|-boost|p2a: Kenan & Keldeo|spa|1
+|-boost|p2a: Kenan & Keldeo|spd|1
+|
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1644121303
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|58/100
+|
+|-heal|p1a: Tentacruel|64/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|c|☆Dababy3|Genuinely never met anyone like you
+|c|☆Elcabezaderodilla|thats very
+|c|☆Elcabezaderodilla|cute
+|
+|t:|1644121320
+|move|p2a: Kenan & Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|29/100
+|move|p1a: Tentacruel|Scald|p2a: Kenan & Keldeo
+|-resisted|p2a: Kenan & Keldeo
+|-damage|p2a: Kenan & Keldeo|91/100
+|
+|-heal|p2a: Kenan & Keldeo|97/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|35/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1644121333
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Kenan & Keldeo|Calm Mind|p2a: Kenan & Keldeo
+|-boost|p2a: Kenan & Keldeo|spa|1
+|-boost|p2a: Kenan & Keldeo|spd|1
+|
+|-heal|p2a: Kenan & Keldeo|100/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|41/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|c|☆Dababy3|You are truly 1 of a kind
+|
+|t:|1644121337
+|move|p2a: Kenan & Keldeo|Hydro Pump|p1a: Tentacruel|[miss]
+|-miss|p2a: Kenan & Keldeo|p1a: Tentacruel
+|move|p1a: Tentacruel|Scald|p2a: Kenan & Keldeo
+|-resisted|p2a: Kenan & Keldeo
+|-damage|p2a: Kenan & Keldeo|94/100
+|-status|p2a: Kenan & Keldeo|brn
+|
+|-heal|p2a: Kenan & Keldeo|99/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|47/100|[from] item: Black Sludge
+|-damage|p2a: Kenan & Keldeo|87/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1644121340
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Kenan & Keldeo|Hydro Pump|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-heal|p2a: Kenan & Keldeo|94/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|54/100|[from] item: Black Sludge
+|-damage|p2a: Kenan & Keldeo|81/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1644121350
+|move|p2a: Kenan & Keldeo|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|4/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Kenan & Keldeo
+|-damage|p2a: Kenan & Keldeo|78/100 brn
+|-sideend|p1: Elcabezaderodilla|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-heal|p2a: Kenan & Keldeo|84/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|10/100|[from] item: Black Sludge
+|-damage|p2a: Kenan & Keldeo|72/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1644121353
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Kenan & Keldeo|Calm Mind|p2a: Kenan & Keldeo
+|-boost|p2a: Kenan & Keldeo|spa|1
+|-boost|p2a: Kenan & Keldeo|spd|1
+|
+|-heal|p2a: Kenan & Keldeo|78/100 brn|[from] item: Leftovers
+|-heal|p1a: Tentacruel|16/100|[from] item: Black Sludge
+|-damage|p2a: Kenan & Keldeo|66/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1644121358
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Kenan & Keldeo|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Kenan & Keldeo|59/100 brn|[from] brn
+|upkeep
+|
+|t:|1644121359
+|switch|p1a: Whimsicott|Whimsicott, M|30/100
+|turn|33
+|
+|t:|1644121362
+|move|p1a: Whimsicott|Switcheroo|p2a: Kenan & Keldeo
+|-activate|p1a: Whimsicott|move: Trick|[of] p2a: Kenan & Keldeo
+|-item|p2a: Kenan & Keldeo|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Whimsicott|Leftovers|[from] move: Switcheroo
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-damage|p2a: Kenan & Keldeo|47/100 brn|[from] brn
+|upkeep
+|
+|t:|1644121364
+|switch|p1a: Uxie|Uxie|56/100
+|turn|34
+|c|☆Dababy3|Bruh
+|c|☆Dababy3|Is switcheroo/trick on every pokemon except blissey and tentacruel loll
+|
+|t:|1644121385
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Uxie
+|-resisted|p1a: Uxie
+|-damage|p1a: Uxie|23/100
+|move|p1a: Uxie|Stealth Rock|p2a: Kenan & Keldeo
+|-sidestart|p2: Dababy3|move: Stealth Rock
+|
+|-damage|p2a: Kenan & Keldeo|35/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1644121389
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Uxie
+|-resisted|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|-damage|p2a: Kenan & Keldeo|22/100 brn|[from] brn
+|upkeep
+|c|☆Elcabezaderodilla|you are right sir
+|
+|t:|1644121395
+|switch|p1a: Gliscor|Gliscor, M|31/100 tox
+|turn|36
+|c|☆Dababy3|I have to respect that honestly
+|
+|t:|1644121401
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Kenan & Keldeo|10/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1644121405
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|move|p2a: Kenan & Keldeo|Secret Sword|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|10/100 tox
+|
+|-heal|p1a: Gliscor|22/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Kenan & Keldeo|0 fnt|[from] brn
+|faint|p2a: Kenan & Keldeo
+|upkeep
+|
+|t:|1644121408
+|switch|p2a: FreeTheUyghurs|Cloyster, M, shiny|100/100
+|-damage|p2a: FreeTheUyghurs|76/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1644121410
+|move|p2a: FreeTheUyghurs|Shell Smash|p2a: FreeTheUyghurs
+|-unboost|p2a: FreeTheUyghurs|def|1
+|-unboost|p2a: FreeTheUyghurs|spd|1
+|-boost|p2a: FreeTheUyghurs|atk|2
+|-boost|p2a: FreeTheUyghurs|spa|2
+|-boost|p2a: FreeTheUyghurs|spe|2
+|-enditem|p2a: FreeTheUyghurs|White Herb
+|-clearnegativeboost|p2a: FreeTheUyghurs|[silent]
+|move|p1a: Gliscor|Toxic|p2a: FreeTheUyghurs
+|-status|p2a: FreeTheUyghurs|tox
+|
+|-damage|p2a: FreeTheUyghurs|69/100 tox|[from] psn
+|-heal|p1a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|
+|t:|1644121412
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: FreeTheUyghurs|Icicle Spear|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: FreeTheUyghurs|57/100 tox|[from] psn
+|-heal|p1a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1644121415
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: FreeTheUyghurs|Icicle Spear|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: FreeTheUyghurs|38/100 tox|[from] psn
+|-heal|p1a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1644121419
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|move|p2a: FreeTheUyghurs|Icicle Spear|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|2/100 tox
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|2
+|
+|-damage|p2a: FreeTheUyghurs|13/100 tox|[from] psn
+|upkeep
+|
+|t:|1644121421
+|switch|p1a: Blissey|Blissey, F|99/100
+|turn|42
+|
+|t:|1644121424
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: FreeTheUyghurs|Icicle Spear|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-damage|p2a: FreeTheUyghurs|0 fnt|[from] psn
+|faint|p2a: FreeTheUyghurs
+|upkeep
+|
+|t:|1644121429
+|switch|p2a: CallyManZam|Alakazam, M|38/100
+|turn|43
+|
+|t:|1644121431
+|move|p2a: CallyManZam|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|upkeep
+|turn|44
+|
+|t:|1644121435
+|switch|p2a: Opp Stoppa|Volcarona, F, shiny|100/100
+|-damage|p2a: Opp Stoppa|51/100|[from] Stealth Rock
+|cant|p1a: Blissey|par
+|
+|upkeep
+|turn|45
+|
+|t:|1644121437
+|move|p2a: Opp Stoppa|Quiver Dance|p2a: Opp Stoppa
+|-boost|p2a: Opp Stoppa|spa|1
+|-boost|p2a: Opp Stoppa|spd|1
+|-boost|p2a: Opp Stoppa|spe|1
+|move|p1a: Blissey|Toxic|p2a: Opp Stoppa
+|-status|p2a: Opp Stoppa|tox
+|
+|-damage|p2a: Opp Stoppa|44/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1644121439
+|move|p2a: Opp Stoppa|Bug Buzz|p1a: Blissey
+|-damage|p1a: Blissey|79/100 par
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|85/100 par|[from] item: Leftovers
+|-damage|p2a: Opp Stoppa|32/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1644121442
+|move|p2a: Opp Stoppa|Bug Buzz|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|39/100 par
+|move|p1a: Blissey|Seismic Toss|p2a: Opp Stoppa
+|-damage|p2a: Opp Stoppa|5/100 tox
+|
+|-heal|p1a: Blissey|89/100 par|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|95/100 par|[from] item: Leftovers
+|-damage|p2a: Opp Stoppa|0 fnt|[from] psn
+|faint|p2a: Opp Stoppa
+|upkeep
+|
+|t:|1644121444
+|switch|p2a: Gabite of 87|Garchomp, F, shiny|100/100
+|-damage|p2a: Gabite of 87|94/100|[from] Stealth Rock
+|turn|48
+|
+|t:|1644121446
+|move|p2a: Gabite of 87|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|53/100 par
+|move|p1a: Blissey|Toxic|p2a: Gabite of 87
+|-status|p2a: Gabite of 87|tox
+|
+|-heal|p1a: Blissey|60/100 par|[from] item: Leftovers
+|-damage|p2a: Gabite of 87|88/100 tox|[from] psn
+|upkeep
+|turn|49
+|j| NeptuneManiac
+|
+|t:|1644121451
+|move|p2a: Gabite of 87|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|11/100 par
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|17/100 par|[from] item: Leftovers
+|-damage|p2a: Gabite of 87|76/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1644121456
+|cant|p1a: Blissey|par
+|move|p2a: Gabite of 87|Earthquake|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|win|Dababy3
+|raw|Elcabezaderodilla's rating: 1426 &rarr; <strong>1401</strong><br />(-25 for losing)
+|raw|Dababy3's rating: 1341 &rarr; <strong>1366</strong><br />(+25 for winning)
+|c|☆Elcabezaderodilla|nooo
+|c|☆Elcabezaderodilla|almost win
+|c|☆Dababy3|Sorry about that
+|c|☆Dababy3|Unfortunate man

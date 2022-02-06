@@ -1,0 +1,441 @@
+|j|☆rexxonmobile
+|j|☆broonman
+|t:|1643943100
+|gametype|singles
+|player|p1|rexxonmobile|266|1251
+|player|p2|broonman|sage|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, M|item
+|poke|p1|Espeon, F|item
+|poke|p1|Infernape, M|item
+|poke|p1|Jolteon, F|item
+|poke|p2|Cofagrigus, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Toxicroak, M|item
+|poke|p2|Jolteon, F|item
+|poke|p2|Slowbro, M|item
+|teampreview
+|
+|t:|1643943122
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1643943133
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Rotom|Trick|p2a: Jolteon
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Jolteon
+|-item|p2a: Jolteon|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Expert Belt|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1643943149
+|move|p2a: Jolteon|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|67/100
+|-unboost|p1a: Rotom|spd|1
+|move|p1a: Rotom|Hydro Pump|p2a: Jolteon|[miss]
+|-miss|p1a: Rotom|p2a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1643943159
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643943172
+|switch|p2a: Politoed|Politoed, M, shiny|100/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643943187
+|move|p1a: Scizor|U-turn|p2a: Politoed
+|-damage|p2a: Politoed|30/100
+|
+|t:|1643943193
+|switch|p1a: Rotom|Rotom-Wash|67/100|[from]move: U-turn
+|move|p2a: Politoed|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|36/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643943214
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Cofagrigus|[miss]
+|-miss|p1a: Rotom|p2a: Cofagrigus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1643943223
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Toxicroak
+|-immune|p2a: Toxicroak|[from] ability: Dry Skin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1643943230
+|move|p2a: Toxicroak|Fake Out|p1a: Rotom
+|-damage|p1a: Rotom|15/100
+|cant|p1a: Rotom|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1643943239
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxicroak|atk|1
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1643943249
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|88/100
+|
+|t:|1643943257
+|switch|p1a: Rotom|Rotom-Wash|15/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1643943271
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Toxicroak
+|-immune|p2a: Toxicroak|[from] ability: Dry Skin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1643943280
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxicroak|atk|1
+|move|p2a: Toxicroak|Fake Out|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1643943292
+|switch|p2a: Gliscor|Gliscor, M|88/100 tox
+|move|p1a: Landorus|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100 tox
+|
+|t:|1643943295
+|switch|p1a: Jolteon|Jolteon, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1643943333
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Jolteon|Hidden Power|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1643943343
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Jolteon
+|-immune|p2a: Jolteon|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1643943351
+|move|p2a: Jolteon|Shadow Ball|p1a: Jolteon
+|-damage|p1a: Jolteon|69/100
+|move|p1a: Jolteon|Shadow Ball|p2a: Jolteon
+|-damage|p2a: Jolteon|71/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1643943360
+|switch|p1a: Infernape|Infernape, M|100/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Infernape
+|-damage|p1a: Infernape|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1643943368
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Infernape|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: broonman|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1643943375
+|move|p1a: Infernape|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|68/100
+|
+|t:|1643943379
+|switch|p1a: Rotom|Rotom-Wash|15/100|[from]move: U-turn
+|move|p2a: Slowbro|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643943395
+|switch|p1a: Scizor|Scizor, M|99/100
+|turn|20
+|
+|t:|1643943413
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin
+|-heal|p1a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643943439
+|move|p2a: Toxicroak|Fake Out|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|94/100
+|cant|p1a: Scizor|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643943448
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1643943456
+|move|p1a: Scizor|Bullet Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643943469
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1643943487
+|move|p1a: Scizor|Pursuit|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|1/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Technician|[of] p1a: Scizor
+|move|p2a: Cofagrigus|Will-O-Wisp|p1a: Scizor|[miss]
+|-miss|p2a: Cofagrigus|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cofagrigus|7/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1643943499
+|move|p1a: Scizor|U-turn|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|t:|1643943512
+|switch|p1a: Jolteon|Jolteon, F|69/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643943528
+|switch|p2a: Jolteon|Jolteon, F|71/100
+|-damage|p2a: Jolteon|58/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1643943539
+|move|p2a: Jolteon|Shadow Ball|p1a: Jolteon
+|-damage|p1a: Jolteon|37/100
+|move|p1a: Jolteon|Shadow Ball|p2a: Jolteon
+|-damage|p2a: Jolteon|26/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1643943546
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1643943555
+|switch|p2a: Politoed|Politoed, M, shiny|36/100
+|-damage|p2a: Politoed|23/100|[from] Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|99/100|[from] item: Leftovers
+|-heal|p2a: Politoed|29/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1643943564
+|move|p1a: Scizor|Pursuit|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643943572
+|switch|p2a: Gliscor|Gliscor, M|89/100 tox
+|-damage|p2a: Gliscor|76/100 tox|[from] Stealth Rock
+|turn|30
+|
+|t:|1643943577
+|move|p2a: Gliscor|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|53/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|59/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1643943587
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|7/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|7/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|13/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|20/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1643943597
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643943604
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1643943615
+|move|p1a: Scizor|Pursuit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643943621
+|switch|p2a: Jolteon|Jolteon, F|26/100
+|-damage|p2a: Jolteon|13/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1643943625
+|move|p1a: Scizor|Bullet Punch|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|rexxonmobile
+|raw|rexxonmobile's rating: 1251 &rarr; <strong>1269</strong><br />(+18 for winning)
+|raw|broonman's rating: 1148 &rarr; <strong>1130</strong><br />(-18 for losing)
+|l|☆broonman

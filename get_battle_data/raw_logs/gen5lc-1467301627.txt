@@ -1,0 +1,472 @@
+|j|☆Liv Lux
+|j|☆danet
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1638741934
+|gametype|singles
+|player|p1|Liv Lux|idol|
+|player|p2|danet|red-gen1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Shellos, L5, M|item
+|poke|p1|Aipom, L5, F|item
+|poke|p1|Turtwig, L5, F|item
+|poke|p1|Horsea, L5, F|item
+|poke|p1|Gible, L5, M|item
+|poke|p2|Hippopotas, L5, M|item
+|poke|p2|Lileep, L5, M|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Frillish, L5, F|item
+|teampreview
+|inactive|Liv Lux has 120 seconds left.
+|inactive|danet has 120 seconds left.
+|
+|t:|1638741987
+|start
+|switch|p1a: Shellos|Shellos, L5, M|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|
+|t:|1638741995
+|move|p2a: Hippopotas|Stealth Rock|p1a: Shellos
+|-sidestart|p1: Liv Lux|move: Stealth Rock
+|move|p1a: Shellos|Surf|p2a: Hippopotas
+|-supereffective|p2a: Hippopotas
+|-damage|p2a: Hippopotas|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shellos|97/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1638742004
+|switch|p2a: Lileep|Lileep, L5, M|100/100
+|move|p1a: Shellos|Surf|p2a: Lileep
+|-ability|p2a: Lileep|Storm Drain|boost
+|-boost|p2a: Lileep|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shellos|93/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|danet has 120 seconds left.
+|inactive|danet has 90 seconds left.
+|
+|t:|1638742077
+|move|p2a: Lileep|Toxic|p1a: Shellos
+|-status|p1a: Shellos|tox
+|move|p1a: Shellos|Clear Smog|p2a: Lileep
+|-damage|p2a: Lileep|92/100
+|-clearboost|p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shellos|89/100 tox|[from] Sandstorm
+|-damage|p1a: Shellos|86/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|danet has 60 seconds left.
+|
+|t:|1638742112
+|move|p2a: Lileep|Giga Drain|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|41/100 tox
+|-heal|p2a: Lileep|100/100|[from] drain|[of] p1a: Shellos
+|move|p1a: Shellos|Toxic|p2a: Lileep
+|-status|p2a: Lileep|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shellos|38/100 tox|[from] Sandstorm
+|-damage|p2a: Lileep|96/100 tox|[from] psn
+|-damage|p1a: Shellos|30/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|danet has 60 seconds left.
+|
+|t:|1638742122
+|move|p1a: Shellos|Recover|p1a: Shellos
+|-heal|p1a: Shellos|82/100 tox
+|move|p2a: Lileep|Giga Drain|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|38/100 tox
+|-heal|p2a: Lileep|100/100 tox|[from] drain|[of] p1a: Shellos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Shellos|34/100 tox|[from] Sandstorm
+|-damage|p1a: Shellos|23/100 tox|[from] psn
+|-damage|p2a: Lileep|92/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1638742131
+|move|p1a: Shellos|Clear Smog|p2a: Lileep
+|-damage|p2a: Lileep|84/100 tox
+|-clearboost|p2a: Lileep
+|move|p2a: Lileep|Giga Drain|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|0 fnt
+|-heal|p2a: Lileep|96/100 tox|[from] drain|[of] p1a: Shellos
+|faint|p1a: Shellos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lileep|84/100 tox|[from] psn
+|upkeep
+|
+|t:|1638742143
+|switch|p1a: Turtwig|Turtwig, L5, F|100/100
+|-damage|p1a: Turtwig|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1638742154
+|move|p1a: Turtwig|Stealth Rock|p2a: Lileep
+|-sidestart|p2: danet|move: Stealth Rock
+|move|p2a: Lileep|Toxic|p1a: Turtwig
+|-status|p1a: Turtwig|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Turtwig|84/100 tox|[from] Sandstorm
+|-damage|p1a: Turtwig|80/100 tox|[from] psn
+|-damage|p2a: Lileep|68/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|danet has 60 seconds left.
+|
+|t:|1638742183
+|move|p1a: Turtwig|Seed Bomb|p2a: Lileep
+|-damage|p2a: Lileep|44/100 tox
+|move|p2a: Lileep|Giga Drain|p1a: Turtwig
+|-resisted|p1a: Turtwig
+|-damage|p1a: Turtwig|64/100 tox
+|-heal|p2a: Lileep|52/100 tox|[from] drain|[of] p1a: Turtwig
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Turtwig|60/100 tox|[from] Sandstorm
+|-damage|p1a: Turtwig|52/100 tox|[from] psn
+|-damage|p2a: Lileep|32/100 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|danet has 60 seconds left.
+|
+|t:|1638742196
+|move|p1a: Turtwig|Light Screen|p1a: Turtwig
+|-sidestart|p1: Liv Lux|move: Light Screen
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|84/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Turtwig|48/100 tox|[from] Sandstorm
+|-damage|p1a: Turtwig|36/100 tox|[from] psn
+|-damage|p2a: Lileep|60/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|danet has 60 seconds left.
+|inactive|danet has 30 seconds left.
+|inactive|danet has 20 seconds left.
+|
+|t:|1638742250
+|switch|p2a: Natu|Natu, L5, F|100/100
+|-damage|p2a: Natu|79/100|[from] Stealth Rock
+|move|p1a: Turtwig|Seed Bomb|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|61/100|[from] Sandstorm
+|-damage|p1a: Turtwig|32/100 tox|[from] Sandstorm
+|-damage|p1a: Turtwig|16/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|danet has 30 seconds left this turn.
+|j| Kodiak_45
+|l| Kodiak_45
+|inactive|danet has 20 seconds left.
+|
+|t:|1638742280
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Turtwig|Reflect|p1a: Turtwig
+|-sidestart|p1: Liv Lux|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|96/100|[from] Sandstorm
+|-damage|p1a: Turtwig|12/100 tox|[from] Sandstorm
+|-damage|p1a: Turtwig|0 fnt|[from] psn
+|faint|p1a: Turtwig
+|upkeep
+|inactive|danet has 25 seconds left this turn.
+|
+|t:|1638742287
+|switch|p1a: Aipom|Aipom, L5, F, shiny|100/100
+|-damage|p1a: Aipom|92/100|[from] Stealth Rock
+|turn|12
+|inactive|danet has 30 seconds left.
+|
+|t:|1638742295
+|move|p1a: Aipom|Fake Out|p2a: Natu
+|-damage|p2a: Natu|74/100
+|-damage|p1a: Aipom|83/100|[from] item: Life Orb
+|cant|p2a: Natu|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aipom|79/100|[from] Sandstorm
+|-damage|p2a: Natu|70/100|[from] Sandstorm
+|upkeep
+|turn|13
+|inactive|danet has 30 seconds left.
+|inactive|danet has 20 seconds left.
+|inactive|danet has 15 seconds left.
+|inactive|danet has 10 seconds left.
+|
+|t:|1638742326
+|move|p1a: Aipom|Shadow Claw|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|14/100
+|-damage|p1a: Aipom|70/100|[from] item: Life Orb
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|66/100
+|-singleturn|p2a: Natu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aipom|66/100|[from] Sandstorm
+|-damage|p2a: Natu|61/100|[from] Sandstorm
+|upkeep
+|turn|14
+|inactive|danet has 20 seconds left this turn.
+|inactive|danet has 15 seconds left.
+|
+|t:|1638742344
+|switch|p2a: Lileep|Lileep, L5, M|60/100 tox
+|-damage|p2a: Lileep|48/100 tox|[from] Stealth Rock
+|move|p1a: Aipom|Fury Swipes|p2a: Lileep
+|-resisted|p2a: Lileep
+|-damage|p2a: Lileep|44/100 tox
+|-resisted|p2a: Lileep
+|-damage|p2a: Lileep|40/100 tox
+|-resisted|p2a: Lileep
+|-damage|p2a: Lileep|36/100 tox
+|-resisted|p2a: Lileep
+|-damage|p2a: Lileep|32/100 tox
+|-resisted|p2a: Lileep
+|-damage|p2a: Lileep|29/100 tox
+|-hitcount|p2a: Lileep|5
+|-damage|p1a: Aipom|57/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aipom|53/100|[from] Sandstorm
+|-damage|p2a: Lileep|24/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|danet has 25 seconds left this turn.
+|inactive|danet has 20 seconds left.
+|inactive|danet has 15 seconds left.
+|inactive|danet has 10 seconds left.
+|inactive|danet has 5 seconds left.
+|
+|t:|1638742364
+|move|p1a: Aipom|Brick Break|p2a: Lileep
+|-supereffective|p2a: Lileep
+|-damage|p2a: Lileep|0 fnt
+|faint|p2a: Lileep
+|-damage|p1a: Aipom|44/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aipom|40/100|[from] Sandstorm
+|upkeep
+|inactive|danet has 10 seconds left this turn.
+|inactive|danet has 5 seconds left.
+|
+|t:|1638742370
+|switch|p2a: Timburr|Timburr, L5, F|100/100
+|-damage|p2a: Timburr|96/100|[from] Stealth Rock
+|turn|16
+|inactive|danet has 15 seconds left this turn.
+|
+|t:|1638742375
+|move|p2a: Timburr|Mach Punch|p1a: Aipom
+|-supereffective|p1a: Aipom
+|-damage|p1a: Aipom|9/100
+|move|p1a: Aipom|Shadow Claw|p2a: Timburr
+|-damage|p2a: Timburr|71/100
+|-damage|p1a: Aipom|0 fnt|[from] item: Life Orb
+|faint|p1a: Aipom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Timburr|67/100|[from] Sandstorm
+|-sideend|p1: Liv Lux|move: Light Screen
+|upkeep
+|inactive|danet has 20 seconds left this turn.
+|
+|t:|1638742380
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|-damage|p1a: Drifloon|76/100|[from] Stealth Rock
+|turn|17
+|inactive|danet has 30 seconds left this turn.
+|
+|t:|1638742389
+|move|p1a: Drifloon|Acrobatics|p2a: Timburr
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|72/100|[from] Sandstorm
+|upkeep
+|inactive|danet has 30 seconds left this turn.
+|inactive|danet has 20 seconds left.
+|
+|t:|1638742403
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|-damage|p2a: Bronzor|96/100|[from] Stealth Rock
+|turn|18
+|inactive|danet has 30 seconds left this turn.
+|
+|t:|1638742423
+|move|p1a: Drifloon|Hidden Power|p2a: Bronzor
+|-immune|p2a: Bronzor|[from] ability: Levitate
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|68/100|[from] Sandstorm
+|-sideend|p1: Liv Lux|Reflect
+|upkeep
+|turn|19
+|inactive|danet has 30 seconds left.
+|
+|t:|1638742435
+|move|p1a: Drifloon|Acrobatics|p2a: Bronzor
+|-resisted|p2a: Bronzor
+|-damage|p2a: Bronzor|84/100
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|64/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1638742443
+|move|p1a: Drifloon|Will-O-Wisp|p2a: Bronzor|[miss]
+|-miss|p1a: Drifloon|p2a: Bronzor
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|60/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1638742451
+|move|p1a: Drifloon|Destiny Bond|p1a: Drifloon
+|-singlemove|p1a: Drifloon|Destiny Bond
+|move|p2a: Bronzor|Flash Cannon|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|-activate|p1a: Drifloon|move: Destiny Bond
+|faint|p2a: Bronzor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1638742466
+|switch|p1a: Gible|Gible, L5, M, shiny|100/100
+|switch|p2a: Natu|Natu, L5, F|61/100
+|-damage|p2a: Natu|40/100|[from] Stealth Rock
+|-damage|p1a: Gible|96/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1638742480
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|92/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Gible|Substitute|p1a: Gible
+|-start|p1a: Gible|Substitute
+|-damage|p1a: Gible|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|87/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1638742487
+|move|p2a: Natu|Psychic|p1a: Gible
+|-end|p1a: Gible|Substitute
+|move|p1a: Gible|Outrage|p2a: Natu
+|-damage|p2a: Natu|14/100
+|-damage|p1a: Gible|64/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|9/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1638742504
+|move|p2a: Natu|Psychic|p1a: Gible
+|-damage|p1a: Gible|0 fnt
+|faint|p1a: Gible
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|5/100|[from] Sandstorm
+|upkeep
+|
+|t:|1638742514
+|switch|p1a: Horsea|Horsea, L5, F|100/100
+|-damage|p1a: Horsea|90/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1638742525
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|57/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Horsea|Rain Dance|p1a: Horsea
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1638742541
+|switch|p2a: Hippopotas|Hippopotas, L5, M|20/100
+|-damage|p2a: Hippopotas|16/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|move|p1a: Horsea|Ice Beam|p2a: Hippopotas
+|-supereffective|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|faint|p2a: Hippopotas
+|-damage|p1a: Horsea|85/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Horsea|79/100|[from] Sandstorm
+|upkeep
+|
+|t:|1638742548
+|switch|p2a: Natu|Natu, L5, F|57/100
+|-damage|p2a: Natu|35/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1638742552
+|move|p2a: Natu|Psychic|p1a: Horsea
+|-damage|p1a: Horsea|0 fnt
+|faint|p1a: Horsea
+|
+|win|danet
+|n|☆Liv Lux|livlux
+|n|☆danet|danet

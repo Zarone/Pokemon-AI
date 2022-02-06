@@ -1,0 +1,529 @@
+|j|☆F i l l e
+|j|☆Grankie
+|t:|1629551559
+|gametype|singles
+|player|p1|F i l l e|marley|
+|player|p2|Grankie|baker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Diglett, L5, F|item
+|poke|p1|Snover, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Abra, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|teampreview
+|c|☆Grankie|glhf
+|j| 067jox
+|
+|t:|1629551635
+|start
+|switch|p1a: Gastly|Gastly, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|1
+|j| Actuarily
+|c|☆F i l l e|oright maybe we should link in LPL?
+|c|☆F i l l e|also you'
+|c|☆F i l l e|right
+|c|☆F i l l e|ye
+|c|☆F i l l e|we're playing the Lil Yacs
+|c|☆Grankie|oh we can sure
+|c|☆F i l l e|067Jox can
+|c|☆Grankie|ty jox
+|c|☆F i l l e|LOL
+|c|☆F i l l e|nice
+|
+|t:|1629551718
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|77/100
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-activate|p1a: Gastly|Substitute|[damage]
+|
+|upkeep
+|turn|2
+|c| 067jox|np. focus on the game ^^
+|
+|t:|1629551729
+|move|p1a: Gastly|Will-O-Wisp|p2a: Mienfoo
+|-status|p2a: Mienfoo|brn
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|
+|t:|1629551731
+|switch|p2a: Porygon|Porygon, L5|100/100|[from]move: U-turn
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|
+|upkeep
+|turn|3
+|j| Filistata
+|j| daunt vs
+|
+|t:|1629551745
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Porygon
+|move|p2a: Porygon|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|80/100
+|
+|upkeep
+|turn|4
+|l| daunt vs
+|l| Actuarily
+|
+|t:|1629551801
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 brn
+|move|p1a: Porygon|Toxic||[still]
+|-fail|p1a: Porygon
+|
+|-damage|p2a: Mienfoo|92/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1629551807
+|switch|p1a: Gastly|Gastly, L5, F|77/100
+|move|p2a: Mienfoo|Taunt|p1a: Gastly
+|-start|p1a: Gastly|move: Taunt
+|
+|-damage|p2a: Mienfoo|83/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1629551828
+|move|p1a: Gastly|Shadow Ball|p2a: Mienfoo
+|-damage|p2a: Mienfoo|44/100 brn
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|67/100
+|-enditem|p1a: Gastly|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-damage|p2a: Mienfoo|35/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1629551840
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|8
+|
+|t:|1629551878
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Mienfoo|Taunt|p2a: Drilbur
+|-start|p2a: Drilbur|move: Taunt
+|
+|upkeep
+|turn|9
+|j|+Kipkluif
+|c|+Kipkluif|go granks
+|
+|t:|1629551933
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|96/100
+|
+|t:|1629551956
+|switch|p1a: Abra|Abra, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|j| Serene Grace
+|l|+Kipkluif
+|j|+Kipkluif
+|
+|t:|1629552108
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Abra|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|43/100
+|
+|upkeep
+|turn|11
+|
+|t:|1629552140
+|move|p1a: Abra|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|upkeep
+|
+|t:|1629552142
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magic Guard|[from] ability: Trace|[of] p1a: Abra
+|turn|12
+|
+|t:|1629552162
+|switch|p1a: Porygon|Porygon, L5|80/100
+|-ability|p1a: Porygon|Magic Guard|[from] ability: Trace|[of] p2a: Porygon
+|move|p2a: Porygon|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|upkeep
+|turn|13
+|
+|t:|1629552172
+|switch|p2a: Mienfoo|Mienfoo, L5, F|66/100 brn
+|move|p1a: Porygon|Psychic|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|22/100 brn
+|-unboost|p2a: Mienfoo|spd|1
+|
+|-damage|p2a: Mienfoo|14/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1629552185
+|switch|p1a: Gastly|Gastly, L5, F|67/100
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|62/100
+|
+|t:|1629552198
+|switch|p2a: Abra|Abra, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1629552217
+|switch|p1a: Porygon|Porygon, L5|80/100 par
+|-ability|p1a: Porygon|Magic Guard|[from] ability: Trace|[of] p2a: Abra
+|move|p2a: Abra|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|44/100 par
+|
+|upkeep
+|turn|16
+|l|+Kipkluif
+|
+|t:|1629552241
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magic Guard|[from] ability: Trace|[of] p1a: Porygon
+|cant|p1a: Porygon|par
+|
+|upkeep
+|turn|17
+|
+|t:|1629552248
+|move|p2a: Porygon|Ice Beam|p1a: Porygon
+|-damage|p1a: Porygon|24/100 par
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|76/100 par
+|
+|upkeep
+|turn|18
+|c| Filistata|go fille
+|j|+Kipkluif
+|
+|t:|1629552266
+|move|p2a: Porygon|Psychic|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|36/100 par
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|81/100
+|
+|upkeep
+|turn|19
+|
+|t:|1629552274
+|switch|p2a: Mienfoo|Mienfoo, L5, F|44/100 brn
+|cant|p1a: Porygon|par
+|
+|-damage|p2a: Mienfoo|35/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1629552279
+|move|p2a: Mienfoo|Knock Off|p1a: Porygon
+|-damage|p1a: Porygon|32/100 par
+|-enditem|p1a: Porygon|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|cant|p1a: Porygon|par
+|
+|-damage|p2a: Mienfoo|27/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1629552288
+|move|p2a: Mienfoo|Drain Punch|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|-heal|p2a: Mienfoo|44/100 brn|[from] drain|[of] p1a: Porygon
+|faint|p1a: Porygon
+|
+|-damage|p2a: Mienfoo|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1629552292
+|switch|p1a: Diglett|Diglett, L5, F|100/100
+|turn|22
+|
+|t:|1629552295
+|move|p1a: Diglett|Earthquake|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|-damage|p1a: Diglett|95/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1629552306
+|switch|p2a: Porygon|Porygon, L5|81/100
+|-ability|p2a: Porygon|Arena Trap|[from] ability: Trace|[of] p1a: Diglett
+|turn|23
+|
+|t:|1629552328
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|73/100
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|upkeep
+|turn|24
+|j| zeroouttathere
+|
+|t:|1629552335
+|move|p1a: Diglett|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|54/100
+|-damage|p1a: Diglett|67/100|[from] item: Life Orb
+|move|p2a: Porygon|Ice Beam|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|upkeep
+|turn|25
+|
+|t:|1629552344
+|move|p1a: Diglett|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|8/100
+|-damage|p1a: Diglett|62/100|[from] item: Life Orb
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|58/100
+|
+|upkeep
+|turn|26
+|j| capitan cr7
+|
+|t:|1629552353
+|move|p1a: Diglett|Earthquake|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|-damage|p1a: Diglett|56/100|[from] item: Life Orb
+|
+|upkeep
+|c| zeroouttathere|Let’s go klap papa
+|c| capitan cr7|ofc
+|c| 067jox|klap klap
+|c| zeroouttathere|watching this from the beach
+|c|+Kipkluif|bw
+|c|☆F i l l e|"bw"
+|c|☆F i l l e|he risked it
+|
+|t:|1629552376
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|27
+|c|☆F i l l e|and I got multiple bad paras earlier
+|c|+Kipkluif|ssh
+|c|☆F i l l e|Granks knows
+|c|+Kipkluif|its only bad if its against us
+|c| capitan cr7|free bw jox
+|c| capitan cr7|067jox vs my team bw i will also bw
+|c|☆Grankie|it was a bad play my end risking crit anyways
+|c|☆Grankie|i literally called it turn it crit
+|
+|t:|1629552421
+|switch|p1a: Gastly|Gastly, L5, F|62/100
+|move|p2a: Drilbur|Earthquake|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|upkeep
+|
+|t:|1629552444
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|28
+|j| Actuarily
+|c| capitan cr7|go kip!!!!
+|c|☆F i l l e|sounds about right
+|l|+Kipkluif
+|
+|t:|1629552495
+|switch|p2a: Gastly|Gastly, L5, M|96/100
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|34/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|29/100|[from] Hail
+|upkeep
+|turn|29
+|c|☆F i l l e|I'm just glad tho cause I risked a few paras I really shouldn't have
+|l| zeroouttathere
+|
+|t:|1629552510
+|move|p1a: Snover|Protect|p1a: Snover
+|-singleturn|p1a: Snover|Protect
+|move|p2a: Gastly|Sludge Bomb|p1a: Snover
+|-activate|p1a: Snover|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|24/100|[from] Hail
+|upkeep
+|turn|30
+|j| zeroouttathere
+|c| capitan cr7|gg
+|
+|t:|1629552523
+|switch|p1a: Abra|Abra, L5, F|100/100
+|move|p2a: Gastly|Sludge Bomb|p1a: Abra
+|-damage|p1a: Abra|22/100
+|-status|p1a: Abra|psn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|20/100|[from] Hail
+|upkeep
+|turn|31
+|c|☆F i l l e|probs
+|
+|t:|1629552547
+|move|p1a: Abra|Shadow Ball|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|j|+Kipkluif
+|
+|t:|1629552570
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|32
+|
+|t:|1629552603
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Abra|Shadow Ball|p1a: Mienfoo
+|-damage|p1a: Mienfoo|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|70/100|[from] Hail
+|upkeep
+|turn|33
+|
+|t:|1629552609
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Mienfoo|U-turn|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|66/100|[from] Hail
+|upkeep
+|turn|34
+|
+|t:|1629552616
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1629552628
+|switch|p1a: Diglett|Diglett, L5, F|56/100
+|turn|35
+|
+|t:|1629552632
+|move|p1a: Diglett|Earthquake|p2a: Abra
+|-enditem|p2a: Abra|Focus Sash
+|-damage|p2a: Abra|6/100
+|-damage|p1a: Diglett|50/100|[from] item: Life Orb
+|move|p2a: Abra|Psychic|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1629552636
+|switch|p1a: Snover|Snover, L5, F|100/100
+|turn|36
+|
+|t:|1629552640
+|move|p1a: Snover|Ice Shard|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|l|+Kipkluif
+|
+|t:|1629552641
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|37
+|j| megatyler30
+|
+|t:|1629552667
+|move|p1a: Snover|Protect|p1a: Snover
+|-singleturn|p1a: Snover|Protect
+|move|p2a: Drilbur|Rock Slide|p1a: Snover
+|-activate|p1a: Snover|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|96/100|[from] Hail
+|upkeep
+|turn|38
+|
+|t:|1629552670
+|move|p1a: Snover|Ice Shard|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-crit|p2a: Drilbur
+|-damage|p2a: Drilbur|18/100
+|move|p2a: Drilbur|Rock Slide|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|14/100|[from] Hail
+|upkeep
+|turn|39
+|
+|t:|1629552674
+|move|p1a: Snover|Ice Shard|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|win|F i l l e
+|l| Actuarily
+|c|☆Grankie|ggwp
+|c|☆F i l l e|ggwp
+|c| 067jox|GOOO
+|l| 067jox
+|l| Serene Grace
+|l| megatyler30
+|l|☆F i l l e
+|c| zeroouttathere|papa papa
+|l| capitan cr7
+|j| Boulicrok

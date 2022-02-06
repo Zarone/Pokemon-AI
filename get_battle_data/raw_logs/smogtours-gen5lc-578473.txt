@@ -1,0 +1,370 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1631307287
+|gametype|singles
+|player|p1|Heysup|chuck|
+|player|p2|Void|sabrina-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clamperl, L5, M|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Kabuto, L5, M|item
+|poke|p1|Foongus, L5, M|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Vullaby, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Timburr, L5, M|item
+|teampreview
+|inactive|Void has 270 seconds left.
+|
+|t:|1631307333
+|start
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|1
+|inactive|Heysup disconnected and has 300 seconds to reconnect!
+|player|p1|
+|inactive|Heysup has 270 seconds to reconnect!
+|inactive|Heysup reconnected and has 295 seconds left.
+|player|p1|Heysup|chuck
+|
+|t:|1631307401
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|move|p1a: Drilbur|Stealth Rock|p2a: Vullaby
+|-sidestart|p2: Void|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1631307414
+|switch|p1a: Kabuto|Kabuto, L5, M|100/100
+|move|p2a: Vullaby|Nasty Plot|p2a: Vullaby
+|-boost|p2a: Vullaby|spa|2
+|
+|upkeep
+|turn|3
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307456
+|move|p2a: Vullaby|Dark Pulse|p1a: Kabuto
+|-damage|p1a: Kabuto|29/100
+|move|p1a: Kabuto|Rock Slide|p2a: Vullaby
+|-supereffective|p2a: Vullaby
+|-damage|p2a: Vullaby|40/100
+|-ability|p2a: Vullaby|Weak Armor|boost
+|-unboost|p2a: Vullaby|def|1
+|-boost|p2a: Vullaby|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1631307469
+|move|p2a: Vullaby|Dark Pulse|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|
+|upkeep
+|
+|t:|1631307475
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|5
+|
+|t:|1631307481
+|move|p1a: Drilbur|Rock Slide|p2a: Vullaby
+|-supereffective|p2a: Vullaby
+|-damage|p2a: Vullaby|0 fnt
+|faint|p2a: Vullaby
+|
+|upkeep
+|
+|t:|1631307487
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|-damage|p2a: Diglett|95/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1631307491
+|move|p1a: Drilbur|Rock Slide|p2a: Diglett
+|-resisted|p2a: Diglett
+|-damage|p2a: Diglett|62/100
+|move|p2a: Diglett|Stealth Rock|p1a: Drilbur
+|-sidestart|p1: Heysup|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1631307495
+|move|p1a: Drilbur|Rock Slide|p2a: Diglett
+|-resisted|p2a: Diglett
+|-damage|p2a: Diglett|28/100
+|cant|p2a: Diglett|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1631307503
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|-damage|p2a: Timburr|96/100|[from] Stealth Rock
+|move|p1a: Drilbur|Rock Slide|p2a: Timburr
+|-resisted|p2a: Timburr
+|-damage|p2a: Timburr|88/100
+|
+|upkeep
+|turn|9
+|
+|t:|1631307528
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|-damage|p2a: Gastly|91/100|[from] Stealth Rock
+|
+|-heal|p2a: Gastly|96/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307558
+|move|p2a: Gastly|Will-O-Wisp|p1a: Mienfoo|[miss]
+|-miss|p2a: Gastly|p1a: Mienfoo
+|move|p1a: Mienfoo|Acrobatics|p2a: Gastly
+|-enditem|p1a: Mienfoo|Flying Gem|[from] gem
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|
+|t:|1631307579
+|switch|p2a: Staryu|Staryu, L5|100/100
+|-damage|p2a: Staryu|91/100|[from] Stealth Rock
+|turn|11
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307593
+|move|p2a: Staryu|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|48/100
+|move|p1a: Mienfoo|U-turn|p2a: Staryu
+|-damage|p2a: Staryu|67/100
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307599
+|switch|p1a: Foongus|Foongus, L5, M|100/100|[from]move: U-turn
+|-damage|p1a: Foongus|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1631307615
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-damage|p2a: Porygon|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Foongus
+|move|p1a: Foongus|Giga Drain|p2a: Porygon
+|-damage|p2a: Porygon|64/100
+|-heal|p1a: Foongus|100/100|[from] drain|[of] p2a: Porygon
+|
+|upkeep
+|turn|13
+|
+|t:|1631307621
+|switch|p2a: Diglett|Diglett, L5, F|28/100
+|-damage|p2a: Diglett|23/100|[from] Stealth Rock
+|move|p1a: Foongus|Stun Spore|p2a: Diglett|[miss]
+|-miss|p1a: Foongus|p2a: Diglett
+|
+|upkeep
+|turn|14
+|
+|t:|1631307643
+|switch|p2a: Porygon|Porygon, L5|96/100
+|-damage|p2a: Porygon|84/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Foongus
+|move|p1a: Foongus|Giga Drain|p2a: Porygon
+|-damage|p2a: Porygon|60/100
+|
+|upkeep
+|turn|15
+|
+|t:|1631307665
+|move|p2a: Porygon|Thunder Wave|p1a: Foongus
+|-status|p1a: Foongus|par
+|move|p1a: Foongus|Stun Spore|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|upkeep
+|turn|16
+|
+|t:|1631307670
+|switch|p1a: Mienfoo|Mienfoo, L5, M|81/100
+|-damage|p1a: Mienfoo|77/100|[from] Stealth Rock
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 par
+|
+|upkeep
+|turn|17
+|
+|t:|1631307698
+|switch|p2a: Diglett|Diglett, L5, F|23/100
+|-damage|p2a: Diglett|17/100|[from] Stealth Rock
+|move|p1a: Mienfoo|High Jump Kick|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|upkeep
+|
+|t:|1631307703
+|switch|p2a: Staryu|Staryu, L5|67/100
+|-damage|p2a: Staryu|58/100|[from] Stealth Rock
+|turn|18
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307750
+|switch|p1a: Foongus|Foongus, L5, M|100/100 par
+|-damage|p1a: Foongus|88/100 par|[from] Stealth Rock
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1631307758
+|switch|p2a: Porygon|Porygon, L5|100/100 par
+|-damage|p2a: Porygon|88/100 par|[from] Stealth Rock
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Foongus
+|move|p1a: Foongus|Giga Drain|p2a: Porygon
+|-damage|p2a: Porygon|64/100 par
+|-heal|p1a: Foongus|100/100 par|[from] drain|[of] p2a: Porygon
+|
+|upkeep
+|turn|20
+|
+|t:|1631307763
+|move|p2a: Porygon|Psychic|p1a: Foongus
+|-supereffective|p1a: Foongus
+|-damage|p1a: Foongus|52/100 par
+|move|p1a: Foongus|Giga Drain|p2a: Porygon
+|-damage|p2a: Porygon|40/100 par
+|-heal|p1a: Foongus|64/100 par|[from] drain|[of] p2a: Porygon
+|
+|upkeep
+|turn|21
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307791
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-damage|p1a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Porygon|Tri Attack|p1a: Drilbur
+|-damage|p1a: Drilbur|40/100
+|
+|upkeep
+|turn|22
+|inactive|Void has 270 seconds left.
+|inactive|Void has 240 seconds left.
+|inactive|Void has 210 seconds left.
+|
+|t:|1631307900
+|move|p1a: Drilbur|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|upkeep
+|
+|t:|1631307911
+|switch|p2a: Staryu|Staryu, L5|100/100
+|-damage|p2a: Staryu|91/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1631307922
+|move|p1a: Drilbur|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|43/100
+|move|p2a: Staryu|Scald|p1a: Drilbur
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|upkeep
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1631307937
+|switch|p1a: Foongus|Foongus, L5, M|96/100 par
+|-damage|p1a: Foongus|84/100 par|[from] Stealth Rock
+|turn|24
+|
+|t:|1631307941
+|switch|p2a: Timburr|Timburr, L5, M|88/100
+|-damage|p2a: Timburr|84/100|[from] Stealth Rock
+|move|p1a: Foongus|Stun Spore|p2a: Timburr
+|-status|p2a: Timburr|par
+|
+|upkeep
+|turn|25
+|
+|t:|1631307946
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|upkeep
+|turn|26
+|
+|t:|1631307952
+|move|p1a: Mienfoo|Fake Out|p2a: Timburr
+|-damage|p2a: Timburr|75/100 par
+|cant|p2a: Timburr|flinch
+|
+|upkeep
+|turn|27
+|
+|t:|1631307955
+|move|p1a: Mienfoo|Acrobatics|p2a: Timburr
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|34/100 par
+|move|p2a: Timburr|Drain Punch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|-heal|p2a: Timburr|75/100 par|[from] drain|[of] p1a: Mienfoo
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1631307964
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|-damage|p1a: Drifloon|77/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1631307969
+|move|p1a: Drifloon|Acrobatics|p2a: Timburr
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|upkeep
+|
+|t:|1631307974
+|switch|p2a: Staryu|Staryu, L5|43/100
+|-damage|p2a: Staryu|34/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1631307976
+|move|p1a: Drifloon|Acrobatics|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|win|Heysup
+|c|☆Heysup|gg
+|c|☆Void|gg

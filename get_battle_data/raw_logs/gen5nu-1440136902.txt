@@ -1,0 +1,395 @@
+|j|☆Angry Dratini
+|j|☆Mimikyu Stardust
+|t:|1634899309
+|gametype|singles
+|player|p1|Angry Dratini|karen|
+|player|p2|Mimikyu Stardust|lillie-z|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Samurott, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Dragonair, M|item
+|poke|p1|Musharna, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p2|Swellow, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Gothorita, M|item
+|poke|p2|Golurk|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|c|☆Angry Dratini|HELLO HAVE FUN
+|j| Adrien29324
+|c|☆Mimikyu Stardust|hf
+|c|☆Angry Dratini|AAAAHH GLITCHED GRRAPHICS
+|
+|t:|1634899387
+|start
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1634899396
+|move|p2a: Golurk|Stealth Rock|p1a: Piloswine
+|-sidestart|p1: Angry Dratini|move: Stealth Rock
+|move|p1a: Piloswine|Stealth Rock|p2a: Golurk
+|-sidestart|p2: Mimikyu Stardust|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1634899419
+|move|p1a: Piloswine|Ice Shard|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-enditem|p2a: Golurk|Yache Berry|[eat]
+|-enditem|p2a: Golurk|Yache Berry|[weaken]
+|-damage|p2a: Golurk|84/100
+|move|p2a: Golurk|Earthquake|p1a: Piloswine
+|-damage|p1a: Piloswine|73/100
+|
+|upkeep
+|turn|3
+|
+|t:|1634899427
+|move|p1a: Piloswine|Ice Shard|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|50/100
+|move|p2a: Golurk|Shadow Punch|p1a: Piloswine
+|-damage|p1a: Piloswine|53/100
+|
+|upkeep
+|turn|4
+|
+|t:|1634899436
+|move|p2a: Golurk|Earthquake|p1a: Piloswine
+|-damage|p1a: Piloswine|24/100
+|move|p1a: Piloswine|Earthquake|p2a: Golurk
+|-damage|p2a: Golurk|8/100
+|
+|upkeep
+|turn|5
+|
+|t:|1634899441
+|move|p1a: Piloswine|Ice Shard|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|t:|1634899466
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1634899482
+|switch|p1a: Musharna|Musharna, M|100/100
+|-damage|p1a: Musharna|88/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Fake Out|p1a: Musharna
+|-damage|p1a: Musharna|75/100
+|
+|-heal|p1a: Musharna|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1634899490
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Musharna|Thunder Wave|p2a: Rotom
+|-status|p2a: Rotom|par
+|
+|-heal|p1a: Musharna|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1634899504
+|move|p1a: Musharna|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|32/100 par
+|cant|p2a: Rotom|par
+|
+|-heal|p1a: Musharna|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1634899513
+|move|p1a: Musharna|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Musharna|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634899538
+|switch|p2a: Gothorita|Gothorita, M|100/100
+|-damage|p2a: Gothorita|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1634899542
+|move|p2a: Gothorita|Trick|p1a: Musharna
+|-activate|p2a: Gothorita|move: Trick|[of] p1a: Musharna
+|-item|p1a: Musharna|Choice Specs|[from] move: Trick
+|-item|p2a: Gothorita|Leftovers|[from] move: Trick
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-status|p2a: Gothorita|par
+|
+|-heal|p2a: Gothorita|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|l| Adrien29324
+|
+|t:|1634899605
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|cant|p2a: Gothorita|par
+|
+|-heal|p2a: Gothorita|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1634899616
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|move|p2a: Gothorita|Psychic|p1a: Musharna
+|-resisted|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|71/100
+|
+|-heal|p2a: Gothorita|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆Angry Dratini|I DIDNT NOTICE I WAS TRAPPED SORRY
+|
+|t:|1634899635
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|move|p2a: Gothorita|Psychic|p1a: Musharna
+|-resisted|p1a: Musharna
+|-damage|p1a: Musharna|58/100
+|
+|upkeep
+|turn|14
+|
+|t:|1634899645
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|move|p2a: Gothorita|Psychic|p1a: Musharna
+|-resisted|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|30/100
+|
+|upkeep
+|turn|15
+|
+|t:|1634899682
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|move|p2a: Gothorita|Psychic|p1a: Musharna
+|-resisted|p1a: Musharna
+|-damage|p1a: Musharna|16/100
+|
+|upkeep
+|turn|16
+|
+|t:|1634899702
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|move|p2a: Gothorita|Psychic|p1a: Musharna
+|-resisted|p1a: Musharna
+|-damage|p1a: Musharna|2/100
+|
+|upkeep
+|turn|17
+|
+|t:|1634899709
+|move|p1a: Musharna|Thunder Wave|p2a: Gothorita
+|-fail|p2a: Gothorita|par
+|move|p2a: Gothorita|Grass Knot|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|upkeep
+|
+|t:|1634899717
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Shadow Tag|[from] ability: Trace|[of] p2a: Gothorita
+|turn|18
+|
+|t:|1634899734
+|move|p1a: Gardevoir|Light Screen|p1a: Gardevoir
+|-sidestart|p1: Angry Dratini|move: Light Screen
+|move|p2a: Gothorita|Psychic|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|55/100
+|
+|upkeep
+|turn|19
+|
+|t:|1634899746
+|move|p1a: Gardevoir|Reflect|p1a: Gardevoir
+|-sidestart|p1: Angry Dratini|Reflect
+|move|p2a: Gothorita|Trick|p1a: Gardevoir
+|-activate|p2a: Gothorita|move: Trick|[of] p1a: Gardevoir
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|-item|p2a: Gothorita|Light Clay|[from] move: Trick
+|
+|-heal|p1a: Gardevoir|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1634899758
+|move|p1a: Gardevoir|Memento|p2a: Gothorita
+|-unboost|p2a: Gothorita|atk|2
+|-unboost|p2a: Gothorita|spa|2
+|faint|p1a: Gardevoir
+|move|p2a: Gothorita|Trick|p1: Gardevoir|[notarget]
+|-fail|p2a: Gothorita
+|
+|upkeep
+|
+|t:|1634899762
+|switch|p1a: Dragonair|Dragonair, M|100/100
+|-damage|p1a: Dragonair|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1634899779
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|move|p1a: Dragonair|Dragon Dance|p1a: Dragonair
+|-boost|p1a: Dragonair|atk|1
+|-boost|p1a: Dragonair|spe|1
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|22
+|c|☆Mimikyu Stardust|a'
+|l|☆Mimikyu Stardust
+|player|p2|
+|
+|t:|1634899838
+|move|p1a: Dragonair|Outrage|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p2a: Zangoose
+|
+|upkeep
+|j|☆Mimikyu Stardust
+|player|p2|Mimikyu Stardust|lillie-z
+|
+|t:|1634899845
+|switch|p2a: Kangaskhan|Kangaskhan, F|88/100
+|-damage|p2a: Kangaskhan|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1634899848
+|move|p2a: Kangaskhan|Fake Out|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|32/100
+|cant|p1a: Dragonair|flinch
+|
+|upkeep
+|turn|24
+|
+|t:|1634899855
+|switch|p2a: Gothorita|Gothorita, M|100/100 par
+|-damage|p2a: Gothorita|88/100 par|[from] Stealth Rock
+|move|p1a: Dragonair|Outrage|p2a: Gothorita
+|-damage|p2a: Gothorita|0 fnt
+|faint|p2a: Gothorita
+|
+|upkeep
+|
+|t:|1634899857
+|switch|p2a: Kangaskhan|Kangaskhan, F|76/100
+|-damage|p2a: Kangaskhan|64/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1634899865
+|move|p2a: Kangaskhan|Fake Out|p1a: Dragonair
+|-damage|p1a: Dragonair|18/100
+|cant|p1a: Dragonair|flinch
+|
+|-sideend|p1: Angry Dratini|move: Light Screen
+|-start|p1a: Dragonair|confusion|[fatigue]
+|upkeep
+|turn|26
+|
+|t:|1634899873
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Dragonair
+|-damage|p1a: Dragonair|2/100
+|-activate|p1a: Dragonair|confusion
+|-damage|p1a: Dragonair|0 fnt|[from] confusion
+|faint|p1a: Dragonair
+|
+|-sideend|p1: Angry Dratini|Reflect
+|upkeep
+|
+|t:|1634899887
+|switch|p1a: Charizard|Charizard, F|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1634899894
+|move|p1a: Charizard|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|-damage|p1a: Charizard|41/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634899897
+|switch|p2a: Swellow|Swellow, F|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1634899903
+|move|p2a: Swellow|Facade|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1634899908
+|switch|p1a: Piloswine|Piloswine, M|24/100
+|-damage|p1a: Piloswine|11/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1634899911
+|move|p2a: Swellow|Quick Attack|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|-damage|p2a: Swellow|69/100 tox|[from] psn
+|upkeep
+|
+|t:|1634899917
+|switch|p1a: Samurott|Samurott, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1634899922
+|move|p2a: Swellow|Facade|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|Mimikyu Stardust
+|n|☆Angry Dratini|angrydratini
+|n|☆Mimikyu Stardust|mimikyustardust
+|c|☆Angry Dratini|gg
+|c|☆Mimikyu Stardust|gg

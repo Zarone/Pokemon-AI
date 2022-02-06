@@ -1,0 +1,550 @@
+|j|☆xerovis
+|j|☆Links
+|t:|1635858130
+|gametype|singles
+|player|p1|xerovis|kukui|
+|player|p2|Links|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Duosion, M|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|c|☆Links|Hf
+|c|☆xerovis|hf!
+|c|☆Links|Isn't that Finch's sample?
+|c|☆Links|Its so good lmao
+|c|☆xerovis|yea lol
+|c|☆Links|My oppo in r1 of cup and I both loaded it g1 lool
+|c|☆xerovis|lmao I feel like its used a fair bit
+|c|☆xerovis|tbh I don't play much BW but I wanna get more into it
+|
+|t:|1635858238
+|start
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|c|☆xerovis|that's partially why I was excited to starrt the room events thing
+|l|☆Links
+|player|p2|
+|j|☆Links
+|player|p2|Links|elesa
+|c|☆Links|Sry dc'd
+|c|☆Links|And ye it's a really fun tier
+|c|☆xerovis|npnp
+|c|☆Links|I'm hyped for team tour
+|
+|t:|1635858372
+|move|p1a: Misdreavus|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|move|p2a: Seismitoad|Scald|p1a: Misdreavus
+|-damage|p1a: Misdreavus|75/100
+|
+|upkeep
+|turn|2
+|
+|t:|1635858382
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1635858390
+|move|p2a: Mandibuzz|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|cant|p1a: Alomomola|move: Taunt|Toxic
+|
+|upkeep
+|turn|4
+|c|☆xerovis|lol
+|
+|t:|1635858401
+|switch|p2a: Duosion|Duosion, M|100/100
+|move|p1a: Alomomola|Scald|p2a: Duosion
+|-damage|p2a: Duosion|86/100
+|
+|upkeep
+|turn|5
+|
+|t:|1635858440
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1635858445
+|move|p1a: Piloswine|Toxic|p2a: Duosion
+|-status|p2a: Duosion|tox
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1635858451
+|move|p1a: Piloswine|Stealth Rock|p2a: Duosion
+|-sidestart|p2: Links|move: Stealth Rock
+|move|p2a: Duosion|Psychic|p1a: Piloswine
+|-damage|p1a: Piloswine|46/100
+|
+|upkeep
+|turn|8
+|
+|t:|1635858458
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1635858464
+|move|p1a: Skuntank|Sucker Punch|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|30/100 tox
+|move|p2a: Duosion|Thunder|p1a: Skuntank|[miss]
+|-miss|p2a: Duosion|p1a: Skuntank
+|
+|upkeep
+|turn|10
+|c|☆xerovis|sry
+|c|☆Links|Unfort
+|c|☆Links|Dw
+|
+|t:|1635858476
+|move|p1a: Skuntank|Crunch|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|0 fnt
+|faint|p2a: Duosion
+|
+|upkeep
+|
+|t:|1635858481
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|11
+|j| Tak Kurwa
+|
+|t:|1635858486
+|move|p1a: Skuntank|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1635858500
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Seismitoad|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|92/100
+|-status|p1a: Alomomola|brn
+|
+|-damage|p1a: Alomomola|80/100 brn|[from] brn
+|upkeep
+|turn|13
+|c| Tak Kurwa|yo links this gna go for awhile
+|c| Tak Kurwa|?
+|c|☆Links|I'm pretty sure I won on the spot if it hit though
+|c|☆Links|And doubt it after the miss lol
+|c|☆Links|Just a friendly
+|c| Tak Kurwa|wna test some bw ru w/ someone who doesnt know my build lmao
+|c|☆xerovis|I thought duosion was supposed to be a late game sweeper :P
+|c|☆Links|They're at work and I'm tired
+|c| Tak Kurwa|ah
+|c|☆Links|Well its a rly good breaker vs
+|c|☆Links|Stuff with alompilo stugg
+|c|☆Links|Stuff*
+|c|☆Links|Bc you sit on both all day
+|c| Tak Kurwa|cm 2 attacks is effective at breaking ur core assuming skunk is removed/parad
+|c|☆xerovis|I see yeah seemed ez setup
+|c|☆Links|Yeah
+|c|☆xerovis|why thunder over tbolt
+|c| Tak Kurwa|doesnt get tbolt
+|c| Tak Kurwa|LOL
+|c|☆xerovis|oh I c
+|c|☆Links|Reuni line moment
+|c| Tak Kurwa|fr
+|c|☆Links|Imagine otr reuni
+|c|☆Links|With tbolt > thunder
+|c| Tak Kurwa|thatd be demonic if it were real
+|
+|t:|1635858679
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|67/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1635858687
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|switch|p1a: Piloswine|Piloswine, M|46/100
+|
+|-heal|p1a: Piloswine|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|15
+|
+|t:|1635858696
+|move|p2a: Kangaskhan|Fake Out|p1a: Piloswine
+|-damage|p1a: Piloswine|85/100
+|cant|p1a: Piloswine|flinch
+|
+|upkeep
+|turn|16
+|
+|t:|1635858706
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Piloswine|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|22/100
+|
+|upkeep
+|turn|17
+|c|☆Links|Genuinely expected
+|c|☆Links|A toxic there
+|c|☆xerovis|I thought about it
+|c|☆Links|Without duo the game is rly rough
+|c|☆Links|So have to make plays kek
+|
+|t:|1635858767
+|move|p2a: Garbodor|Pain Split|p1a: Piloswine
+|-sethp|p1a: Piloswine|52/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|58/100|[from] move: Pain Split
+|move|p1a: Piloswine|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1635858775
+|switch|p2a: Kangaskhan|Kangaskhan, F|88/100
+|-damage|p2a: Kangaskhan|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1635858790
+|move|p2a: Kangaskhan|Double-Edge|p1a: Piloswine
+|-damage|p1a: Piloswine|8/100
+|-damage|p2a: Kangaskhan|59/100|[from] Recoil
+|move|p1a: Piloswine|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|13/100
+|
+|upkeep
+|turn|19
+|
+|t:|1635858797
+|move|p1a: Piloswine|Ice Shard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|t:|1635858806
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1635858809
+|move|p2a: Seismitoad|Stealth Rock|p1a: Piloswine
+|-sidestart|p1: xerovis|move: Stealth Rock
+|move|p1a: Piloswine|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-heal|p2a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1635858814
+|switch|p2a: Rotom|Rotom-Frost|76/100
+|-damage|p2a: Rotom|51/100|[from] Stealth Rock
+|move|p1a: Piloswine|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|22
+|
+|t:|1635858825
+|move|p2a: Rotom|Blizzard|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|
+|upkeep
+|
+|t:|1635858868
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1635858873
+|move|p2a: Rotom|Blizzard|p1a: Garbodor
+|-damage|p1a: Garbodor|27/100
+|-status|p1a: Garbodor|frz
+|cant|p1a: Garbodor|frz
+|
+|upkeep
+|turn|24
+|c|☆Links|Blizzard moment
+|
+|t:|1635858889
+|move|p2a: Rotom|Blizzard|p1a: Garbodor|[miss]
+|-miss|p2a: Rotom|p1a: Garbodor
+|cant|p1a: Garbodor|frz
+|
+|upkeep
+|turn|25
+|c|☆xerovis|back to back blizzard moments lol
+|c| Tak Kurwa|theres the real blizzard moment lmao
+|
+|t:|1635858904
+|switch|p2a: Seismitoad|Seismitoad, M|94/100 tox
+|-damage|p2a: Seismitoad|88/100 tox|[from] Stealth Rock
+|cant|p1a: Garbodor|frz
+|
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1635858909
+|cant|p1a: Garbodor|frz
+|move|p2a: Seismitoad|Scald|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|c|☆Links|Fr lol
+|
+|t:|1635858960
+|switch|p1a: Misdreavus|Misdreavus, F|75/100
+|-damage|p1a: Misdreavus|63/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1635858967
+|move|p1a: Misdreavus|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|58/100 tox
+|move|p2a: Seismitoad|Scald|p1a: Misdreavus
+|-damage|p1a: Misdreavus|38/100
+|
+|-heal|p2a: Seismitoad|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|45/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1635858987
+|move|p1a: Misdreavus|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|22/100 tox
+|move|p2a: Seismitoad|Scald|p1a: Misdreavus
+|-damage|p1a: Misdreavus|12/100
+|
+|-heal|p2a: Seismitoad|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|3/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1635858999
+|move|p1a: Misdreavus|Shadow Ball|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|t:|1635859001
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1635859011
+|move|p1a: Misdreavus|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|39/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|89/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|95/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1635859022
+|move|p1a: Misdreavus|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|move|p2a: Mandibuzz|Foul Play|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|-heal|p2a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635859030
+|switch|p1a: Alomomola|Alomomola, M|100/100 brn
+|-damage|p1a: Alomomola|88/100 brn|[from] Stealth Rock
+|turn|32
+|
+|t:|1635859047
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-damage|p1a: Alomomola|74/100 brn
+|move|p1a: Alomomola|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|94/100 tox|[from] psn
+|-damage|p1a: Alomomola|61/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1635859053
+|switch|p2a: Rotom|Rotom-Frost|51/100
+|-damage|p2a: Rotom|26/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|49/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1635859068
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Skuntank
+|-damage|p1a: Skuntank|32/100
+|
+|-heal|p1a: Skuntank|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|35
+|
+|t:|1635859076
+|move|p2a: Rotom|Thunderbolt|p1a: Skuntank
+|-damage|p1a: Skuntank|48/100
+|move|p1a: Skuntank|Pursuit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1635859081
+|switch|p2a: Mandibuzz|Mandibuzz, F|94/100 tox
+|-damage|p2a: Mandibuzz|70/100 tox|[from] Stealth Rock
+|turn|36
+|
+|t:|1635859088
+|move|p2a: Mandibuzz|Foul Play|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|18/100
+|move|p1a: Skuntank|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|
+|-heal|p2a: Mandibuzz|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|70/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1635859093
+|move|p2a: Mandibuzz|Foul Play|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Mandibuzz|45/100 tox|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|-heal|p2a: Mandibuzz|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1635859097
+|switch|p1a: Alomomola|Alomomola, M|82/100 brn
+|-damage|p1a: Alomomola|69/100 brn|[from] Stealth Rock
+|turn|38
+|c|☆Links|Ggwp xd
+|
+|t:|1635859114
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-damage|p1a: Alomomola|54/100 brn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Mandibuzz|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|26/100 tox|[from] psn
+|-damage|p1a: Alomomola|42/100 brn|[from] brn
+|upkeep
+|turn|39
+|c|☆xerovis|gg sorry again about miss
+|
+|t:|1635859123
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|92/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Mandibuzz|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|8/100 tox|[from] psn
+|-damage|p1a: Alomomola|79/100 brn|[from] brn
+|-end|p2a: Mandibuzz|move: Taunt
+|upkeep
+|turn|40
+|c|☆Links|Dw lmao
+|c|☆Links|Just a friendly
+|c|☆xerovis|:)
+|
+|t:|1635859136
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|58/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Mandibuzz|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|33/100 tox|[from] psn
+|-damage|p1a: Alomomola|67/100 brn|[from] brn
+|upkeep
+|turn|41
+|c|☆xerovis|at least you froze bodor for a fortnite
+|
+|t:|1635859153
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-damage|p1a: Alomomola|51/100 brn
+|move|p1a: Alomomola|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100 tox
+|
+|-heal|p1a: Alomomola|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Mandibuzz|29/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|0 fnt|[from] psn
+|faint|p2a: Mandibuzz
+|
+|win|xerovis
+|upkeep
+|c|☆Links|Kek tru

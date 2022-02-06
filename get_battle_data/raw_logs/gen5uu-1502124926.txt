@@ -1,0 +1,220 @@
+|j|☆supersecrettesting
+|j|☆johnny rapidspin
+|t:|1643680879
+|gametype|singles
+|player|p1|supersecrettesting|erika-gen2|
+|player|p2|johnny rapidspin|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zapdos|item
+|poke|p1|Azelf|item
+|poke|p1|Roserade, F|item
+|poke|p1|Swampert, F|item
+|poke|p1|Cofagrigus, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Xatu, M|item
+|poke|p2|Azelf|item
+|poke|p2|Lilligant, F|item
+|poke|p2|Victini|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by johnny rapidspin)
+|j| hariyana grande
+|inactive|supersecrettesting has 120 seconds left.
+|c|☆supersecrettesting|glhf
+|inactive|supersecrettesting has 90 seconds left.
+|
+|t:|1643680950
+|start
+|switch|p1a: Swampert|Swampert, F|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|t:|1643680958
+|move|p2a: Azelf|Taunt|p1a: Swampert
+|-start|p1a: Swampert|move: Taunt
+|move|p1a: Swampert|Scald|p2a: Azelf
+|-damage|p2a: Azelf|71/100
+|
+|upkeep
+|turn|2
+|
+|t:|1643680963
+|move|p2a: Azelf|Stealth Rock|p1a: Swampert
+|-sidestart|p1: supersecrettesting|move: Stealth Rock
+|move|p1a: Swampert|Scald|p2a: Azelf
+|-damage|p2a: Azelf|41/100
+|
+|upkeep
+|turn|3
+|
+|t:|1643680967
+|move|p2a: Azelf|Sunny Day|p2a: Azelf
+|-weather|SunnyDay
+|move|p1a: Swampert|Scald|p2a: Azelf
+|-damage|p2a: Azelf|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Swampert|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1643680972
+|move|p2a: Azelf|Taunt|p1a: Swampert
+|-start|p1a: Swampert|move: Taunt
+|move|p1a: Swampert|Scald|p2a: Azelf
+|-damage|p2a: Azelf|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1643680977
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p2a: Azelf|Explosion|p1a: Cofagrigus
+|-immune|p1a: Cofagrigus
+|faint|p2a: Azelf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cofagrigus|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643680982
+|switch|p2a: Victini|Victini|100/100
+|turn|6
+|
+|t:|1643680986
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Victini|Flame Charge|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|87/100
+|-boost|p2a: Victini|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643680995
+|move|p2a: Victini|Solar Beam||[still]
+|-prepare|p2a: Victini|Solar Beam
+|-anim|p2a: Victini|Solar Beam|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643681002
+|switch|p1a: Azelf|Azelf|100/100
+|-damage|p1a: Azelf|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1643681012
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|Blue Flare|p1a: Hitmontop
+|-damage|p1a: Hitmontop|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hitmontop|12/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643681018
+|move|p1a: Hitmontop|Sucker Punch|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|66/100
+|move|p2a: Victini|Flame Charge|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-boost|p2a: Victini|spe|1
+|faint|p1a: Hitmontop
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1643681024
+|switch|p1a: Cofagrigus|Cofagrigus, M|94/100
+|-damage|p1a: Cofagrigus|82/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1643681026
+|move|p2a: Victini|Blue Flare|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|-weather|none
+|upkeep
+|
+|t:|1643681032
+|switch|p1a: Azelf|Azelf|88/100
+|-damage|p1a: Azelf|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1643681035
+|move|p2a: Victini|Blue Flare|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|t:|1643681038
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|12
+|
+|t:|1643681041
+|move|p2a: Victini|Blue Flare|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1643681044
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643681045
+|move|p2a: Victini|Blue Flare|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|1/100
+|move|p1a: Roserade|Sludge Bomb|p2a: Victini
+|-damage|p2a: Victini|28/100
+|
+|-heal|p1a: Roserade|7/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|l| hariyana grande
+|
+|t:|1643681048
+|move|p2a: Victini|Blue Flare|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|win|johnny rapidspin
+|n|☆supersecrettesting|supersecrettesting
+|n|☆johnny rapidspin|johnnyrapidspin
+|l|☆supersecrettesting

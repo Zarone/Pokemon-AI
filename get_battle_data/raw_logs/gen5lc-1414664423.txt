@@ -1,0 +1,585 @@
+|j|☆iss
+|j|☆Wail Wailord
+|t:|1631373042
+|gametype|singles
+|player|p1|iss|ethan|
+|player|p2|Wail Wailord|#ssdivmambas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Abra, L5, F|item
+|poke|p1|Hippopotas, L5, M|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Lileep, L5, F|item
+|poke|p2|Ponyta, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Chinchou, L5, M|item
+|teampreview
+|c|☆iss|gl!
+|c|☆Wail Wailord|hf
+|j| quagsgoneツ
+|j| F i l l e
+|j| Giove97
+|j|+Dreamcatcher UwU
+|j| Zygarde
+|j| McSim
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iss)
+|
+|t:|1631373230
+|start
+|switch|p1a: Gastly|Gastly, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|1
+|l| F i l l e
+|inactive|Wail Wailord has 270 seconds left.
+|j| F i l l e
+|j| Filistata
+|
+|t:|1631373278
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|77/100
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-activate|p1a: Gastly|Substitute|[damage]
+|c| Filistata|heat mu
+|j|+Rhydonphilip
+|c| Zygarde|i love this gastly set
+|inactive|Wail Wailord has 240 seconds left.
+|inactive|Wail Wailord has 210 seconds left.
+|
+|t:|1631373353
+|switch|p2a: Chinchou|Chinchou, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|c| Filistata|Zygarde have u slept yet
+|
+|t:|1631373363
+|move|p1a: Gastly|Will-O-Wisp|p2a: Chinchou|[miss]
+|-miss|p1a: Gastly|p2a: Chinchou
+|move|p2a: Chinchou|Volt Switch|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|
+|t:|1631373369
+|switch|p2a: Ponyta|Ponyta, L5, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|j| Serene Grace
+|c| Zygarde|no shutup
+|inactive|Wail Wailord has 180 seconds left.
+|inactive|iss has 270 seconds left.
+|j| Gucci Sand Man☬
+|l|+Rhydonphilip
+|j|+Rhydonphilip
+|
+|t:|1631373419
+|switch|p1a: Staryu|Staryu, L5|100/100
+|move|p2a: Ponyta|Flare Blitz|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|58/100
+|-damage|p2a: Ponyta|87/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|inactive|Wail Wailord has 180 seconds left.
+|
+|t:|1631373436
+|switch|p2a: Chinchou|Chinchou, L5, M|100/100
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|
+|upkeep
+|turn|5
+|inactive|Wail Wailord has 180 seconds left.
+|j| eric versusツ
+|l| eric versusツ
+|inactive|iss has 240 seconds left.
+|
+|t:|1631373481
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Chinchou|Toxic|p1a: Hippopotas
+|-status|p1a: Hippopotas|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chinchou|96/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|96/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1631373499
+|switch|p2a: Natu|Natu, L5, M|100/100
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|-damage|p2a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|Wail Wailord has 150 seconds left.
+|
+|t:|1631373540
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|8
+|inactive|iss has 210 seconds left.
+|
+|t:|1631373588
+|move|p2a: Mienfoo|Knock Off|p1a: Lileep
+|-damage|p1a: Lileep|93/100
+|-enditem|p1a: Lileep|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Lileep|Toxic|p2a: Mienfoo
+|-status|p2a: Mienfoo|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|92/100 tox|[from] Sandstorm
+|-damage|p2a: Mienfoo|87/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1631373604
+|move|p2a: Mienfoo|Knock Off|p1a: Lileep
+|-damage|p1a: Lileep|85/100
+|move|p1a: Lileep|Hidden Power|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|74/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|70/100 tox|[from] Sandstorm
+|-damage|p2a: Mienfoo|61/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|iss has 180 seconds left.
+|inactive|Wail Wailord has 120 seconds left.
+|
+|t:|1631373627
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Mienfoo|U-turn|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|91/100
+|inactive|Wail Wailord has 120 seconds left.
+|inactive|Wail Wailord has 90 seconds left.
+|l|+Dreamcatcher UwU
+|
+|t:|1631373686
+|switch|p2a: Natu|Natu, L5, M|96/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|87/100|[from] Sandstorm
+|-damage|p2a: Natu|92/100|[from] Sandstorm
+|upkeep
+|turn|11
+|inactive|iss has 180 seconds left.
+|inactive|Wail Wailord has 60 seconds left.
+|
+|t:|1631373731
+|move|p1a: Mienfoo|Knock Off|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|74/100
+|-enditem|p2a: Natu|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Natu|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|19/100|[from] Sandstorm
+|-damage|p2a: Natu|70/100|[from] Sandstorm
+|upkeep
+|turn|12
+|n| Serene Grace|serenegrace
+|j| P+ Sonic
+|
+|t:|1631373743
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|40/100
+|
+|t:|1631373747
+|switch|p1a: Lileep|Lileep, L5, F|85/100|[from]move: U-turn
+|move|p2a: Natu|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|54/100
+|inactive|Wail Wailord has 30 seconds left.
+|l| P+ Sonic
+|inactive|Wail Wailord has 20 seconds left.
+|
+|t:|1631373780
+|switch|p2a: Mienfoo|Mienfoo, L5, F|92/100 tox|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|87/100 tox|[from] Sandstorm
+|-damage|p2a: Mienfoo|83/100 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|Wail Wailord has 30 seconds left this turn.
+|
+|t:|1631373805
+|switch|p1a: Gastly|Gastly, L5, F|77/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Gastly
+|-immune|p1a: Gastly
+|-damage|p2a: Mienfoo|35/100 tox|[from] highjumpkick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|72/100|[from] Sandstorm
+|-damage|p2a: Mienfoo|31/100 tox|[from] Sandstorm
+|-damage|p2a: Mienfoo|22/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|Wail Wailord has 30 seconds left.
+|inactive|iss has 150 seconds left.
+|inactive|Wail Wailord has 20 seconds left.
+|
+|t:|1631373829
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|48/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Gastly
+|-immune|p1a: Gastly
+|-damage|p2a: Mienfoo|0 fnt|[from] highjumpkick
+|faint|p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|43/100|[from] Sandstorm
+|upkeep
+|inactive|Wail Wailord has 25 seconds left this turn.
+|
+|t:|1631373834
+|switch|p2a: Chinchou|Chinchou, L5, M|96/100
+|turn|15
+|
+|t:|1631373848
+|move|p1a: Gastly|Pain Split|p2a: Chinchou
+|-sethp|p2a: Chinchou|64/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Gastly|77/100|[from] move: Pain Split
+|move|p2a: Chinchou|Volt Switch|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|
+|t:|1631373851
+|switch|p2a: Ponyta|Ponyta, L5, M|87/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ponyta|82/100|[from] Sandstorm
+|-damage|p1a: Gastly|72/100|[from] Sandstorm
+|upkeep
+|turn|16
+|j| P+ Sonic
+|
+|t:|1631373864
+|switch|p1a: Hippopotas|Hippopotas, L5, M|96/100 tox
+|move|p2a: Ponyta|Flare Blitz|p1a: Hippopotas
+|-damage|p1a: Hippopotas|44/100 tox
+|-damage|p2a: Ponyta|64/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ponyta|60/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|40/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|Wail Wailord has 30 seconds left.
+|inactive|Wail Wailord has 20 seconds left.
+|
+|t:|1631373897
+|switch|p1a: Staryu|Staryu, L5|100/100
+|move|p2a: Ponyta|Flare Blitz|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|58/100
+|-damage|p2a: Ponyta|46/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staryu|53/100|[from] Sandstorm
+|-damage|p2a: Ponyta|41/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|Wail Wailord has 30 seconds left this turn.
+|
+|t:|1631373904
+|switch|p2a: Chinchou|Chinchou, L5, M|64/100
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staryu|96/100|[from] Sandstorm
+|-damage|p2a: Chinchou|60/100|[from] Sandstorm
+|upkeep
+|turn|19
+|inactive|Wail Wailord has 30 seconds left.
+|
+|t:|1631373928
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|move|p1a: Staryu|Toxic|p2a: Diglett
+|-status|p2a: Diglett|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staryu|91/100|[from] Sandstorm
+|-damage|p2a: Diglett|95/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Wail Wailord has 30 seconds left.
+|
+|t:|1631373940
+|move|p2a: Diglett|Earthquake|p1a: Staryu
+|-damage|p1a: Staryu|34/100
+|-damage|p2a: Diglett|89/100 tox|[from] item: Life Orb
+|move|p1a: Staryu|Scald|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staryu|29/100|[from] Sandstorm
+|upkeep
+|
+|t:|1631373943
+|switch|p2a: Ponyta|Ponyta, L5, M|41/100
+|turn|21
+|
+|t:|1631373957
+|switch|p1a: Hippopotas|Hippopotas, L5, M|40/100 tox
+|move|p2a: Ponyta|Flare Blitz|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|-damage|p2a: Ponyta|28/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ponyta|23/100|[from] Sandstorm
+|upkeep
+|inactive|iss has 150 seconds left.
+|j| Lasen
+|
+|t:|1631373998
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|22
+|
+|t:|1631374002
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magic Guard|[from] ability: Trace|[of] p1a: Abra
+|move|p1a: Abra|Hidden Power|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|inactive|iss has 150 seconds left.
+|j| eric versusツ
+|
+|t:|1631374010
+|switch|p1a: Lileep|Lileep, L5, F|54/100
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1631374015
+|switch|p2a: Natu|Natu, L5, M|40/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|35/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1631374027
+|switch|p2a: Chinchou|Chinchou, L5, M|60/100
+|move|p1a: Lileep|Giga Drain|p2a: Chinchou
+|-supereffective|p2a: Chinchou
+|-damage|p2a: Chinchou|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chinchou|8/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1631374047
+|switch|p1a: Staryu|Staryu, L5|29/100
+|move|p2a: Chinchou|Volt Switch|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|l| eric versusツ
+|
+|t:|1631374054
+|switch|p2a: Natu|Natu, L5, M|35/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|31/100|[from] Sandstorm
+|upkeep
+|
+|t:|1631374068
+|switch|p1a: Mienfoo|Mienfoo, L5, M|50/100
+|turn|27
+|j| eric versusツ
+|inactive|Wail Wailord has 60 seconds left.
+|
+|t:|1631374095
+|switch|p2a: Chinchou|Chinchou, L5, M|8/100
+|move|p1a: Mienfoo|U-turn|p2a: Chinchou
+|-damage|p2a: Chinchou|0 fnt
+|faint|p2a: Chinchou
+|
+|t:|1631374119
+|switch|p1a: Lileep|Lileep, L5, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Wail Wailord has 60 seconds left.
+|
+|t:|1631374129
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Storm Drain|[from] ability: Trace|[of] p1a: Lileep
+|turn|28
+|
+|t:|1631374135
+|switch|p2a: Natu|Natu, L5, M|31/100
+|move|p1a: Lileep|Toxic|p2a: Natu
+|move|p2a: Natu|Toxic|p1a: Lileep|[from]ability: Magic Bounce
+|-status|p1a: Lileep|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|27/100|[from] Sandstorm
+|-damage|p1a: Lileep|97/100 tox|[from] psn
+|upkeep
+|turn|29
+|j| daunt vs
+|
+|t:|1631374150
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|79/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Lileep|Giga Drain|p2a: Natu
+|-damage|p2a: Natu|35/100
+|-heal|p1a: Lileep|100/100 tox|[from] drain|[of] p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|31/100|[from] Sandstorm
+|-damage|p1a: Lileep|93/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|iss has 180 seconds left.
+|
+|t:|1631374165
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|83/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Lileep|Giga Drain|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|-heal|p1a: Lileep|100/100 tox|[from] drain|[of] p2a: Natu
+|faint|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lileep|89/100 tox|[from] psn
+|upkeep
+|c| daunt vs|bw
+|inactive|Wail Wailord has 60 seconds left.
+|
+|t:|1631374186
+|switch|p2a: Ponyta|Ponyta, L5, M|23/100
+|turn|31
+|inactive|iss has 180 seconds left.
+|
+|t:|1631374197
+|move|p2a: Ponyta|Flare Blitz|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|faint|p1a: Lileep
+|-damage|p2a: Ponyta|0 fnt|[from] Recoil
+|faint|p2a: Ponyta
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1631374204
+|switch|p2a: Porygon|Porygon, L5|100/100
+|switch|p1a: Gastly|Gastly, L5, F|72/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|turn|32
+|j| TaoTDW
+|
+|t:|1631374211
+|move|p1a: Gastly|Will-O-Wisp|p2a: Porygon
+|-status|p2a: Porygon|brn
+|move|p2a: Porygon|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|0 fnt|[from] Sandstorm
+|-damage|p2a: Porygon|96/100 brn|[from] Sandstorm
+|faint|p1a: Gastly
+|-damage|p2a: Porygon|84/100 brn|[from] brn
+|upkeep
+|j| Surfy
+|
+|t:|1631374220
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|33
+|inactive|Wail Wailord has 90 seconds left.
+|l| Surfy
+|j| zeroouttathere
+|
+|t:|1631374252
+|move|p1a: Abra|Protect|p1a: Abra
+|-singleturn|p1a: Abra|Protect
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|96/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|84/100 brn|[from] brn
+|upkeep
+|turn|34
+|j| Surfy
+|inactive|Wail Wailord has 60 seconds left.
+|
+|t:|1631374303
+|move|p1a: Abra|Hidden Power|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|44/100 brn
+|move|p2a: Porygon|Tri Attack|p1a: Abra
+|-damage|p1a: Abra|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|40/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|29/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1631374309
+|move|p1a: Abra|Hidden Power|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|win|iss
+|c|☆Wail Wailord|gg
+|l| Surfy
+|c|☆iss|gg
+|l| F i l l e
+|l| P+ Sonic
+|l| Gucci Sand Man☬
+|l| Lasen
+|l|☆Wail Wailord
+|l| eric versusツ
+|l| quagsgoneツ

@@ -1,0 +1,413 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644172026
+|gametype|singles
+|player|p1|Luthier|#luthier|
+|player|p2|dice|#splxiiiruiners|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Latios, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Jirachi|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Cloyster, F|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Jirachi|item
+|teampreview
+|c|☆Luthier|hf
+|c|+Garay oak|you really going for the 0-5 huh
+|c|☆Luthier|yes 
+|c|☆Luthier|LMAO
+|
+|t:|1644172050
+|start
+|switch|p1a: tyrenitr|Jirachi|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|t:|1644172055
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: tyrenitr|Body Slam|p2a: Volcarona
+|-damage|p2a: Volcarona|70/100
+|-status|p2a: Volcarona|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: tyrenitr|94/100|[from] Hail
+|-damage|p2a: Volcarona|64/100 par|[from] Hail
+|-heal|p1a: tyrenitr|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644172065
+|switch|p1a: Roscoe's PMs|Kyurem-Black|100/100
+|-ability|p1a: Roscoe's PMs|Teravolt
+|move|p2a: Volcarona|Bug Buzz|p1a: Roscoe's PMs
+|-enditem|p2a: Volcarona|Bug Gem|[from] gem
+|-damage|p1a: Roscoe's PMs|38/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcarona|58/100 par|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1644172082
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Roscoe's PMs|atk|1
+|move|p1a: Roscoe's PMs|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|37/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|31/100|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1644172096
+|switch|p1a: WeakEraTechnology|Magnezone|100/100
+|-item|p1a: WeakEraTechnology|Air Balloon
+|move|p2a: Landorus|Stealth Rock|p1a: WeakEraTechnology
+|-sidestart|p1: Luthier|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|25/100|[from] Hail
+|-damage|p1a: WeakEraTechnology|94/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1644172104
+|move|p2a: Landorus|Explosion|p1a: WeakEraTechnology
+|-resisted|p1a: WeakEraTechnology
+|-damage|p1a: WeakEraTechnology|46/100
+|-enditem|p1a: WeakEraTechnology|Air Balloon
+|faint|p2a: Landorus
+|move|p1a: WeakEraTechnology|Hidden Power|p2: Landorus|[notarget]
+|-fail|p1a: WeakEraTechnology
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: WeakEraTechnology|40/100|[from] Hail
+|upkeep
+|
+|t:|1644172111
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|6
+|
+|t:|1644172115
+|move|p2a: Dragonite|Fire Punch|p1a: WeakEraTechnology
+|-supereffective|p1a: WeakEraTechnology
+|-damage|p1a: WeakEraTechnology|0 fnt
+|faint|p1a: WeakEraTechnology
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Hail
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644172121
+|switch|p1a: tyrenitr|Jirachi|100/100
+|-damage|p1a: tyrenitr|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1644172125
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: tyrenitr|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|91/100
+|-status|p2a: Dragonite|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: tyrenitr|88/100|[from] Hail
+|-damage|p2a: Dragonite|84/100 par|[from] Hail
+|-heal|p1a: tyrenitr|94/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644172127
+|move|p1a: tyrenitr|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|59/100 par
+|cant|p2a: Dragonite|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: tyrenitr|88/100|[from] Hail
+|-damage|p2a: Dragonite|53/100 par|[from] Hail
+|-heal|p1a: tyrenitr|94/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644172131
+|move|p1a: tyrenitr|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|30/100 par
+|cant|p2a: Dragonite|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: tyrenitr|88/100|[from] Hail
+|-damage|p2a: Dragonite|23/100 par|[from] Hail
+|-heal|p1a: tyrenitr|94/100|[from] item: Leftovers
+|-heal|p2a: Dragonite|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644172134
+|switch|p2a: Volcarona|Volcarona, F|58/100 par
+|move|p1a: tyrenitr|Iron Head|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|39/100 par
+|-status|p1a: tyrenitr|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: tyrenitr|88/100 brn|[from] Hail
+|-damage|p2a: Volcarona|33/100 par|[from] Hail
+|-heal|p1a: tyrenitr|94/100 brn|[from] item: Leftovers
+|-damage|p1a: tyrenitr|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1644172145
+|move|p1a: tyrenitr|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|27/100 par
+|
+|t:|1644172147
+|switch|p1a: Ol' Reliable 2|Landorus-Therian, M|100/100|[from]move: U-turn
+|-damage|p1a: Ol' Reliable 2|88/100|[from] Stealth Rock
+|-ability|p1a: Ol' Reliable 2|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ol' Reliable 2|82/100|[from] Hail
+|-damage|p2a: Volcarona|21/100 par|[from] Hail
+|-heal|p1a: Ol' Reliable 2|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644172152
+|move|p1a: Ol' Reliable 2|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: dice|move: Stealth Rock
+|move|p2a: Volcarona|Fire Blast|p1a: Ol' Reliable 2
+|-damage|p1a: Ol' Reliable 2|0 fnt
+|faint|p1a: Ol' Reliable 2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcarona|15/100 par|[from] Hail
+|upkeep
+|
+|t:|1644172163
+|switch|p1a: Gaburias|Garchomp, F, shiny|100/100
+|-damage|p1a: Gaburias|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1644172166
+|move|p1a: Gaburias|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gaburias|88/100|[from] Hail
+|upkeep
+|
+|t:|1644172170
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644172174
+|move|p1a: Gaburias|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|28/100
+|move|p2a: Cloyster|Rapid Spin|p1a: Gaburias
+|-damage|p1a: Gaburias|81/100
+|-damage|p2a: Cloyster|16/100|[from] ability: Rough Skin|[of] p1a: Gaburias
+|-sideend|p2: dice|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gaburias|75/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1644172177
+|switch|p2a: Dragonite|Dragonite, M|30/100 par
+|move|p1a: Gaburias|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gaburias|69/100|[from] Hail
+|-damage|p2a: Dragonite|23/100 par|[from] Hail
+|-heal|p2a: Dragonite|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644172185
+|switch|p1a: Ol' Reliable|Latios, M|100/100
+|-damage|p1a: Ol' Reliable|88/100|[from] Stealth Rock
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|94/100|[from] Hail
+|-damage|p1a: Ol' Reliable|82/100|[from] Hail
+|upkeep
+|turn|17
+|
+|t:|1644172190
+|move|p2a: Jirachi|Iron Head|p1a: Ol' Reliable
+|-damage|p1a: Ol' Reliable|36/100
+|cant|p1a: Ol' Reliable|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|88/100|[from] Hail
+|-damage|p1a: Ol' Reliable|30/100|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1644172194
+|switch|p1a: tyrenitr|Jirachi|82/100 brn
+|-damage|p1a: tyrenitr|76/100 brn|[from] Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: tyrenitr
+|-resisted|p1a: tyrenitr
+|-damage|p1a: tyrenitr|61/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|82/100|[from] Hail
+|-damage|p1a: tyrenitr|55/100 brn|[from] Hail
+|-heal|p1a: tyrenitr|61/100 brn|[from] item: Leftovers
+|-damage|p1a: tyrenitr|49/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1644172208
+|move|p2a: Jirachi|Iron Head|p1a: tyrenitr
+|-resisted|p1a: tyrenitr
+|-damage|p1a: tyrenitr|34/100 brn
+|cant|p1a: tyrenitr|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jirachi|76/100|[from] Hail
+|-damage|p1a: tyrenitr|28/100 brn|[from] Hail
+|-heal|p1a: tyrenitr|34/100 brn|[from] item: Leftovers
+|-damage|p1a: tyrenitr|21/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1644172213
+|switch|p2a: Dragonite|Dragonite, M|30/100 par
+|move|p1a: tyrenitr|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|18/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: tyrenitr|15/100 brn|[from] Hail
+|-damage|p2a: Dragonite|12/100 par|[from] Hail
+|-heal|p1a: tyrenitr|21/100 brn|[from] item: Leftovers
+|-heal|p2a: Dragonite|18/100 par|[from] item: Leftovers
+|-damage|p1a: tyrenitr|9/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1644172215
+|move|p2a: Dragonite|Extreme Speed|p1a: tyrenitr
+|-resisted|p1a: tyrenitr
+|-damage|p1a: tyrenitr|0 fnt
+|faint|p1a: tyrenitr
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragonite|12/100 par|[from] Hail
+|-heal|p2a: Dragonite|18/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1644172218
+|switch|p1a: Gaburias|Garchomp, F, shiny|69/100
+|-damage|p1a: Gaburias|63/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1644172224
+|switch|p2a: Cloyster|Cloyster, F|16/100
+|move|p1a: Gaburias|Stealth Rock|p2a: Cloyster
+|-sidestart|p2: dice|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gaburias|57/100|[from] Hail
+|upkeep
+|turn|23
+|
+|t:|1644172233
+|switch|p1a: Roscoe's PMs|Kyurem-Black|38/100
+|-damage|p1a: Roscoe's PMs|13/100|[from] Stealth Rock
+|-ability|p1a: Roscoe's PMs|Teravolt
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1644172236
+|move|p2a: Cloyster|Rapid Spin|p1a: Roscoe's PMs
+|-damage|p1a: Roscoe's PMs|2/100
+|-sideend|p2: dice|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cloyster
+|move|p1a: Roscoe's PMs|Fusion Bolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644172240
+|switch|p2a: Jirachi|Jirachi|76/100
+|turn|25
+|
+|t:|1644172244
+|switch|p1a: Gaburias|Garchomp, F, shiny|57/100
+|-damage|p1a: Gaburias|50/100|[from] Stealth Rock
+|move|p2a: Jirachi|U-turn|p1a: Gaburias
+|-damage|p1a: Gaburias|29/100
+|-damage|p2a: Jirachi|63/100|[from] ability: Rough Skin|[of] p1a: Gaburias
+|
+|t:|1644172249
+|switch|p2a: Abomasnow|Abomasnow, F|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gaburias|23/100|[from] Hail
+|upkeep
+|turn|26
+|
+|t:|1644172254
+|move|p1a: Gaburias|Outrage|p2a: Abomasnow
+|-damage|p2a: Abomasnow|11/100
+|move|p2a: Abomasnow|Blizzard|p1a: Gaburias
+|-supereffective|p1a: Gaburias
+|-damage|p1a: Gaburias|0 fnt
+|faint|p1a: Gaburias
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆Luthier|gg
+|c|☆dice|gg
+|c|☆Luthier|lmfoa
+|-message|Luthier forfeited.
+|
+|win|dice

@@ -1,0 +1,418 @@
+|j|☆joey milktank
+|j|☆Spoonii
+|t:|1636155478
+|gametype|singles
+|player|p1|joey milktank|whitney-gen2|
+|player|p2|Spoonii|yellow|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heracross, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Flygon, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Azelf|item
+|poke|p1|Umbreon, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Victini|item
+|poke|p2|Flygon, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Weavile, M|item
+|teampreview
+|c|☆joey milktank|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spoonii)
+|c|☆Spoonii|gl hf
+|inactive|Spoonii has 120 seconds left.
+|c|☆joey milktank|i forgot weav was uu that's heat
+|
+|t:|1636155544
+|start
+|switch|p1a: OMEN|Azelf, shiny|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|
+|t:|1636155551
+|move|p2a: Flygon|U-turn|p1a: OMEN
+|-supereffective|p1a: OMEN
+|-damage|p1a: OMEN|38/100
+|
+|t:|1636155556
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|move|p1a: OMEN|Stealth Rock|p2a: Weavile
+|-sidestart|p2: Spoonii|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1636155564
+|move|p2a: Weavile|Pursuit|p1a: OMEN
+|-supereffective|p1a: OMEN
+|-damage|p1a: OMEN|0 fnt
+|faint|p1a: OMEN
+|
+|upkeep
+|
+|t:|1636155572
+|switch|p1a: Lil UZI VERT|Heracross, M, shiny|100/100
+|turn|3
+|
+|t:|1636155583
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Lil UZI VERT|Stone Edge|p2a: Blastoise
+|-damage|p2a: Blastoise|46/100
+|
+|-heal|p2a: Blastoise|52/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1636155598
+|switch|p1a: no rocks pls|Zapdos|100/100
+|-ability|p1a: no rocks pls|Pressure
+|move|p2a: Blastoise|Rapid Spin|p1a: no rocks pls
+|-crit|p1a: no rocks pls
+|-damage|p1a: no rocks pls|92/100
+|-sideend|p2: Spoonii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1636155617
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: no rocks pls|Heat Wave|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-damage|p1a: no rocks pls|82/100|[from] item: Life Orb
+|
+|upkeep
+|j|+Aquatic Skyfall
+|inactive|Spoonii has 120 seconds left.
+|inactive|Spoonii has 90 seconds left.
+|
+|t:|1636155672
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|6
+|
+|t:|1636155680
+|switch|p1a: Sabrina|Umbreon, F, shiny|100/100
+|move|p2a: Weavile|Ice Punch|p1a: Sabrina
+|-damage|p1a: Sabrina|72/100
+|
+|-heal|p1a: Sabrina|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Spoonii has 90 seconds left.
+|j| blackkaiser
+|
+|t:|1636155702
+|switch|p1a: Blue version|Blastoise, M|100/100
+|move|p2a: Weavile|Low Kick|p1a: Blue version
+|-damage|p1a: Blue version|82/100
+|
+|-heal|p1a: Blue version|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1636155719
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Blue version|Toxic|p2a: Cobalion
+|-immune|p2a: Cobalion
+|
+|-heal|p1a: Blue version|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆joey milktank|blackkaiser
+|c| blackkaiser|sup
+|inactive|joey milktank has 120 seconds left.
+|
+|t:|1636155753
+|move|p2a: Cobalion|Stealth Rock|p1a: Blue version
+|-sidestart|p1: joey milktank|move: Stealth Rock
+|move|p1a: Blue version|Scald|p2a: Cobalion
+|-damage|p2a: Cobalion|70/100
+|
+|-heal|p1a: Blue version|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Spoonii has 60 seconds left.
+|
+|t:|1636155788
+|move|p2a: Cobalion|Sacred Sword|p1a: Blue version
+|-crit|p1a: Blue version
+|-damage|p1a: Blue version|33/100
+|-damage|p2a: Cobalion|60/100|[from] item: Life Orb
+|move|p1a: Blue version|Scald|p2a: Cobalion
+|-damage|p2a: Cobalion|14/100
+|-status|p2a: Cobalion|brn
+|
+|-heal|p1a: Blue version|39/100|[from] item: Leftovers
+|-damage|p2a: Cobalion|2/100 brn|[from] brn
+|upkeep
+|turn|11
+|c|☆Spoonii|sry
+|inactive|joey milktank has 120 seconds left.
+|c|☆joey milktank|my family left me all day at house ehile they are at mall
+|c|☆joey milktank|showdown is all i have
+|
+|t:|1636155813
+|move|p2a: Cobalion|Sacred Sword|p1a: Blue version
+|-damage|p1a: Blue version|23/100
+|-damage|p2a: Cobalion|0 fnt|[from] item: Life Orb
+|faint|p2a: Cobalion
+|move|p1a: Blue version|Rapid Spin|p2: Cobalion|[notarget]
+|-fail|p1a: Blue version
+|
+|-heal|p1a: Blue version|29/100|[from] item: Leftovers
+|upkeep
+|c|☆joey milktank|its ok
+|inactive|Spoonii has 30 seconds left.
+|
+|t:|1636155842
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|inactive|joey milktank has 120 seconds left.
+|
+|t:|1636155866
+|move|p2a: Weavile|Night Slash|p1a: Blue version
+|-damage|p1a: Blue version|4/100
+|move|p1a: Blue version|Scald|p2a: Weavile
+|-damage|p2a: Weavile|52/100
+|
+|-heal|p1a: Blue version|10/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆joey milktank|aww
+|c|☆joey milktank|wo if it burned
+|c|☆joey milktank|and ur not lum
+|inactive|joey milktank has 90 seconds left.
+|
+|t:|1636155893
+|switch|p1a: Sabrina|Umbreon, F, shiny|78/100
+|-damage|p1a: Sabrina|66/100|[from] Stealth Rock
+|move|p2a: Weavile|Night Slash|p1a: Sabrina
+|-resisted|p1a: Sabrina
+|-damage|p1a: Sabrina|51/100
+|
+|-heal|p1a: Sabrina|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|joey milktank has 90 seconds left.
+|
+|t:|1636155907
+|move|p2a: Weavile|Low Kick|p1a: Sabrina
+|-supereffective|p1a: Sabrina
+|-damage|p1a: Sabrina|23/100
+|move|p1a: Sabrina|Wish|p1a: Sabrina
+|
+|-heal|p1a: Sabrina|29/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1636155916
+|move|p1a: Sabrina|Protect|p1a: Sabrina
+|-singleturn|p1a: Sabrina|Protect
+|move|p2a: Weavile|Low Kick|p1a: Sabrina
+|-activate|p1a: Sabrina|move: Protect
+|
+|-heal|p1a: Sabrina|79/100|[from] move: Wish|[wisher] Sabrina
+|-heal|p1a: Sabrina|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|joey milktank has 90 seconds left.
+|
+|t:|1636155939
+|switch|p2a: Blastoise|Blastoise, M|58/100
+|move|p1a: Sabrina|Foul Play|p2a: Blastoise
+|-damage|p2a: Blastoise|40/100
+|
+|-heal|p2a: Blastoise|46/100|[from] item: Leftovers
+|-heal|p1a: Sabrina|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|joey milktank has 90 seconds left.
+|
+|t:|1636155954
+|switch|p1a: Lil UZI VERT|Heracross, M, shiny|100/100
+|-damage|p1a: Lil UZI VERT|88/100|[from] Stealth Rock
+|move|p2a: Blastoise|Toxic|p1a: Lil UZI VERT
+|-status|p1a: Lil UZI VERT|tox
+|
+|-heal|p2a: Blastoise|52/100|[from] item: Leftovers
+|-damage|p1a: Lil UZI VERT|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|joey milktank has 90 seconds left.
+|c|☆joey milktank|this ko's everythink now
+|
+|t:|1636155975
+|move|p1a: Lil UZI VERT|Facade|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-damage|p1a: Lil UZI VERT|70/100 tox|[from] psn
+|upkeep
+|inactive|Spoonii has 30 seconds left.
+|
+|t:|1636155993
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|19
+|
+|t:|1636156000
+|switch|p1a: Blue version|Blastoise, M|10/100
+|-damage|p1a: Blue version|0 fnt|[from] Stealth Rock
+|faint|p1a: Blue version
+|move|p2a: Flygon|Outrage|p1: Blue version|[notarget]
+|-fail|p2a: Flygon
+|
+|upkeep
+|inactive|joey milktank has 90 seconds left.
+|
+|t:|1636156015
+|switch|p1a: Tony|Flygon, M, shiny|100/100
+|-damage|p1a: Tony|95/100|[from] Stealth Rock
+|turn|20
+|c|☆joey milktank|speed tie
+|inactive|joey milktank has 90 seconds left.
+|c|☆joey milktank|time
+|
+|t:|1636156025
+|move|p2a: Flygon|Outrage|p1a: Tony
+|-supereffective|p1a: Tony
+|-damage|p1a: Tony|0 fnt
+|faint|p1a: Tony
+|
+|upkeep
+|l|+Aquatic Skyfall
+|inactive|joey milktank has 90 seconds left.
+|
+|t:|1636156032
+|switch|p1a: Sabrina|Umbreon, F, shiny|91/100
+|-damage|p1a: Sabrina|79/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1636156038
+|move|p2a: Flygon|Outrage|p1a: Sabrina|[from]lockedmove
+|-damage|p1a: Sabrina|40/100
+|move|p1a: Sabrina|Wish|p1a: Sabrina
+|
+|-heal|p1a: Sabrina|46/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1636156044
+|move|p1a: Sabrina|Protect|p1a: Sabrina
+|-singleturn|p1a: Sabrina|Protect
+|move|p2a: Flygon|Outrage|p1a: Sabrina|[from]lockedmove
+|-activate|p1a: Sabrina|move: Protect
+|-start|p2a: Flygon|confusion|[fatigue]
+|
+|-heal|p1a: Sabrina|96/100|[from] move: Wish|[wisher] Sabrina
+|-heal|p1a: Sabrina|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Spoonii has 60 seconds left.
+|
+|t:|1636156060
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Sabrina|Foul Play|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|21/100
+|
+|upkeep
+|turn|24
+|
+|t:|1636156069
+|switch|p1a: no rocks pls|Zapdos|82/100
+|-damage|p1a: no rocks pls|57/100|[from] Stealth Rock
+|-ability|p1a: no rocks pls|Pressure
+|move|p2a: Victini|U-turn|p1a: no rocks pls
+|-resisted|p1a: no rocks pls
+|-damage|p1a: no rocks pls|40/100
+|
+|t:|1636156076
+|switch|p2a: Weavile|Weavile, M|52/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|25
+|
+|t:|1636156086
+|move|p2a: Weavile|Pursuit|p1a: no rocks pls
+|-damage|p1a: no rocks pls|14/100
+|move|p1a: no rocks pls|Heat Wave|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-damage|p1a: no rocks pls|4/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636156096
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|26
+|
+|t:|1636156100
+|move|p2a: Flygon|U-turn|p1a: no rocks pls
+|-resisted|p1a: no rocks pls
+|-damage|p1a: no rocks pls|0 fnt
+|faint|p1a: no rocks pls
+|
+|t:|1636156104
+|switch|p2a: Victini|Victini|21/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1636156110
+|switch|p1a: Lil UZI VERT|Heracross, M, shiny|70/100 tox
+|-damage|p1a: Lil UZI VERT|58/100 tox|[from] Stealth Rock
+|turn|27
+|inactive|Spoonii has 90 seconds left.
+|
+|t:|1636156120
+|move|p2a: Victini|V-create|p1a: Lil UZI VERT
+|-supereffective|p1a: Lil UZI VERT
+|-crit|p1a: Lil UZI VERT
+|-damage|p1a: Lil UZI VERT|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Lil UZI VERT
+|
+|upkeep
+|
+|t:|1636156127
+|switch|p1a: Sabrina|Umbreon, F, shiny|100/100
+|-damage|p1a: Sabrina|88/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1636156135
+|move|p2a: Victini|V-create|p1a: Sabrina
+|-damage|p1a: Sabrina|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Sabrina
+|
+|win|Spoonii
+|n|☆joey milktank|joeymilktank
+|n|☆Spoonii|spoonii
+|n| blackkaiser|blackkaiser

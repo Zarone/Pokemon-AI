@@ -1,0 +1,249 @@
+|j|☆mentalsoft
+|j|☆PandaDoux♥♡㋛★✩
+|t:|1643465525
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|PandaDoux♥♡㋛★✩|lady|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Golurk|item
+|poke|p1|Skuntank, M|item
+|poke|p2|Roselia, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Primeape, F|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Mandibuzz, F|item
+|teampreview
+|c|☆PandaDoux♥♡㋛★✩|hf
+|c|☆mentalsoft|hf
+|
+|t:|1643465542
+|start
+|switch|p1a: Charizard|Charizard, F|100/100
+|switch|p2a: Roselia|Roselia, F|100/100
+|turn|1
+|
+|t:|1643465549
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Charizard|Hidden Power|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|t:|1643465553
+|switch|p2a: Primeape|Primeape, F|100/100
+|turn|2
+|
+|t:|1643465560
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Primeape|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|-damage|p2a: Primeape|84/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|t:|1643465567
+|switch|p2a: Roselia|Roselia, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1643465580
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Roselia|Sludge Bomb|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|93/100
+|-status|p1a: Golurk|psn
+|
+|-heal|p1a: Golurk|99/100 psn|[from] item: Leftovers
+|-damage|p1a: Golurk|87/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1643465586
+|move|p2a: Roselia|Spikes|p1a: Golurk
+|-sidestart|p1: mentalsoft|Spikes
+|move|p1a: Golurk|Stealth Rock|p2a: Roselia
+|-sidestart|p2: PandaDoux♥♡㋛★✩|move: Stealth Rock
+|
+|-heal|p1a: Golurk|93/100 psn|[from] item: Leftovers
+|-damage|p1a: Golurk|80/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1643465599
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Roselia|Spikes|p1a: Charizard
+|-sidestart|p1: mentalsoft|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1643465610
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|move|p1a: Charizard|Air Slash|p2a: Misdreavus
+|-damage|p2a: Misdreavus|47/100
+|
+|upkeep
+|turn|7
+|
+|t:|1643465620
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|84/100|[from] Spikes
+|move|p2a: Misdreavus|Pain Split|p1a: Skuntank
+|-sethp|p1a: Skuntank|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|69/100|[from] move: Pain Split
+|
+|upkeep
+|turn|8
+|
+|t:|1643465629
+|move|p1a: Skuntank|Pursuit|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|42/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank|[miss]
+|-miss|p2a: Misdreavus|p1a: Skuntank
+|
+|upkeep
+|turn|9
+|
+|t:|1643465636
+|move|p1a: Skuntank|Pursuit|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|12/100
+|move|p2a: Misdreavus|Pain Split|p1a: Skuntank
+|-sethp|p1a: Skuntank|38/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|40/100|[from] move: Pain Split
+|
+|upkeep
+|turn|10
+|
+|t:|1643465642
+|move|p1a: Skuntank|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|upkeep
+|
+|t:|1643465650
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1643465669
+|switch|p1a: Golurk|Golurk|80/100 psn
+|-damage|p1a: Golurk|64/100 psn|[from] Spikes
+|move|p2a: Zangoose|Facade|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|-heal|p1a: Golurk|70/100 psn|[from] item: Leftovers
+|-damage|p1a: Golurk|58/100 psn|[from] psn
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1643465674
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|move|p1a: Golurk|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|82/100|[from] item: Leftovers
+|-heal|p1a: Golurk|64/100 psn|[from] item: Leftovers
+|-damage|p1a: Golurk|51/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1643465682
+|move|p2a: Mandibuzz|Toxic||[still]
+|-fail|p2a: Mandibuzz
+|move|p1a: Golurk|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-heal|p2a: Mandibuzz|88/100 tox|[from] item: Leftovers
+|-heal|p1a: Golurk|57/100 psn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|-damage|p1a: Golurk|45/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1643465690
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|move|p2a: Mandibuzz|Toxic|p1a: Eelektross|[miss]
+|-miss|p2a: Mandibuzz|p1a: Eelektross
+|
+|-heal|p2a: Mandibuzz|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|76/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1643465695
+|move|p2a: Mandibuzz|U-turn|p1a: Eelektross
+|-damage|p1a: Eelektross|88/100
+|
+|t:|1643465697
+|switch|p2a: Roselia|Roselia, F|100/100|[from]move: U-turn
+|-damage|p2a: Roselia|88/100|[from] Stealth Rock
+|move|p1a: Eelektross|Volt Switch|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|77/100
+|
+|t:|1643465705
+|switch|p1a: Charizard|Charizard, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|16
+|
+|t:|1643465716
+|move|p1a: Charizard|Air Slash|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|5/100
+|cant|p2a: Roselia|flinch
+|
+|upkeep
+|turn|17
+|
+|t:|1643465721
+|move|p1a: Charizard|Air Slash|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|
+|t:|1643465723
+|switch|p2a: Primeape|Primeape, F|84/100
+|-damage|p2a: Primeape|78/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1643465729
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|84/100|[from] Spikes
+|move|p2a: Primeape|Stone Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Primeape|p1a: Alomomola
+|
+|upkeep
+|turn|19
+|-message|PandaDoux♥♡㋛★✩ forfeited.
+|
+|win|mentalsoft

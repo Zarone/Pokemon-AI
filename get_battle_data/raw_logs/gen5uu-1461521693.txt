@@ -1,0 +1,821 @@
+|j|☆flame snower
+|j|☆Arkhan_Wyrdo
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1637950188
+|gametype|singles
+|player|p1|flame snower|acetrainercouple|
+|player|p2|Arkhan_Wyrdo|siebold|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cobalion|item
+|poke|p1|Heracross, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Mismagius, F|item
+|poke|p2|Mew|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Lanturn, M|item
+|poke|p2|Xatu, M|item
+|poke|p2|Mienshao, F|item
+|poke|p2|Gligar, M|item
+|teampreview
+|j|*Lady Monita ❄
+|j| Soniadu04100
+|
+|t:|1637950210
+|start
+|switch|p1a: Flygon|Flygon, M|100/100
+|switch|p2a: Gare au Gligar|Gligar, M|100/100
+|turn|1
+|
+|t:|1637950214
+|move|p1a: Flygon|Hidden Power|p2a: Gare au Gligar
+|-supereffective|p2a: Gare au Gligar
+|-damage|p2a: Gare au Gligar|35/100
+|-damage|p1a: Flygon|91/100|[from] item: Life Orb
+|move|p2a: Gare au Gligar|Stealth Rock|p1a: Flygon
+|-sidestart|p1: flame snower|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1637950224
+|switch|p2a: Miou Miou|Mew|100/100
+|move|p1a: Flygon|Hidden Power|p2a: Miou Miou
+|-damage|p2a: Miou Miou|84/100
+|-damage|p1a: Flygon|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1637950234
+|move|p2a: Miou Miou|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|60/100
+|
+|t:|1637950237
+|switch|p2a: Citroën Xatu|Xatu, M|100/100|[from]move: U-turn
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|100/100
+|-singleturn|p1a: Flygon|move: Roost
+|
+|upkeep
+|turn|4
+|
+|t:|1637950243
+|move|p1a: Flygon|Stone Edge|p2a: Citroën Xatu|[miss]
+|-miss|p1a: Flygon|p2a: Citroën Xatu
+|move|p2a: Citroën Xatu|Night Shade|p1a: Flygon
+|-damage|p1a: Flygon|67/100
+|
+|upkeep
+|turn|5
+|
+|t:|1637950252
+|switch|p2a: J.-F. François|Mienshao, F|100/100
+|move|p1a: Flygon|Earthquake|p2a: J.-F. François
+|-damage|p2a: J.-F. François|0 fnt
+|faint|p2a: J.-F. François
+|-damage|p1a: Flygon|57/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1637950260
+|switch|p2a: Miou Miou|Mew|84/100
+|turn|6
+|l| Soniadu04100
+|
+|t:|1637950270
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|52/100
+|
+|-heal|p1a: Togekiss|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1637950283
+|switch|p2a: Darumachaude|Darmanitan, M|100/100
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1637950293
+|move|p2a: Darumachaude|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|88/100
+|
+|t:|1637950296
+|switch|p2a: Citroën Xatu|Xatu, M|100/100|[from]move: U-turn
+|move|p1a: Togekiss|Thunder Wave|p2a: Citroën Xatu
+|move|p2a: Citroën Xatu|Thunder Wave|p1a: Togekiss|[from]ability: Magic Bounce
+|-status|p1a: Togekiss|par
+|
+|-heal|p1a: Togekiss|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1637950306
+|move|p2a: Citroën Xatu|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|89/100 par
+|
+|t:|1637950309
+|switch|p2a: Gare au Gligar|Gligar, M|35/100|[from]move: U-turn
+|cant|p1a: Togekiss|par
+|
+|-heal|p1a: Togekiss|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1637950317
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Gare au Gligar|Roost|p2a: Gare au Gligar
+|-heal|p2a: Gare au Gligar|85/100
+|-singleturn|p2a: Gare au Gligar|move: Roost
+|
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1637950320
+|move|p2a: Gare au Gligar|U-turn|p1a: Swampert
+|-damage|p1a: Swampert|92/100
+|
+|t:|1637950323
+|switch|p2a: Citroën Xatu|Xatu, M|100/100|[from]move: U-turn
+|move|p1a: Swampert|Scald|p2a: Citroën Xatu
+|-crit|p2a: Citroën Xatu
+|-damage|p2a: Citroën Xatu|32/100
+|
+|-heal|p1a: Swampert|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1637950331
+|move|p2a: Citroën Xatu|Roost|p2a: Citroën Xatu
+|-heal|p2a: Citroën Xatu|82/100
+|-singleturn|p2a: Citroën Xatu|move: Roost
+|move|p1a: Swampert|Scald|p2a: Citroën Xatu
+|-damage|p2a: Citroën Xatu|47/100
+|
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1637950334
+|move|p2a: Citroën Xatu|Roost|p2a: Citroën Xatu
+|-heal|p2a: Citroën Xatu|97/100
+|-singleturn|p2a: Citroën Xatu|move: Roost
+|move|p1a: Swampert|Scald|p2a: Citroën Xatu
+|-damage|p2a: Citroën Xatu|64/100
+|
+|upkeep
+|turn|14
+|
+|t:|1637950342
+|switch|p1a: Flygon|Flygon, M|57/100
+|-damage|p1a: Flygon|51/100|[from] Stealth Rock
+|move|p2a: Citroën Xatu|Grass Knot|p1a: Flygon
+|-damage|p1a: Flygon|24/100
+|
+|upkeep
+|turn|15
+|
+|t:|1637950355
+|switch|p2a: Miou Miou|Mew|84/100
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|75/100
+|-singleturn|p1a: Flygon|move: Roost
+|
+|upkeep
+|turn|16
+|
+|t:|1637950361
+|move|p2a: Miou Miou|Psychic|p1a: Flygon
+|-damage|p1a: Flygon|20/100
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|70/100
+|-singleturn|p1a: Flygon|move: Roost
+|
+|upkeep
+|turn|17
+|
+|t:|1637950366
+|switch|p1a: Togekiss|Togekiss, M|95/100 par
+|-damage|p1a: Togekiss|70/100 par|[from] Stealth Rock
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|44/100 par
+|
+|-heal|p1a: Togekiss|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1637950376
+|switch|p2a: Citroën Xatu|Xatu, M|64/100
+|cant|p1a: Togekiss|par
+|
+|-heal|p1a: Togekiss|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1637950380
+|move|p2a: Citroën Xatu|Night Shade|p1a: Togekiss
+|-immune|p1a: Togekiss
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1637950388
+|move|p2a: Citroën Xatu|Roost|p2a: Citroën Xatu
+|-heal|p2a: Citroën Xatu|100/100
+|-singleturn|p2a: Citroën Xatu|move: Roost
+|move|p1a: Togekiss|Air Slash|p2a: Citroën Xatu
+|-damage|p2a: Citroën Xatu|56/100
+|
+|upkeep
+|turn|21
+|
+|t:|1637950395
+|move|p2a: Citroën Xatu|Roost|p2a: Citroën Xatu
+|-heal|p2a: Citroën Xatu|100/100
+|-singleturn|p2a: Citroën Xatu|move: Roost
+|cant|p1a: Togekiss|par
+|
+|upkeep
+|turn|22
+|
+|t:|1637950400
+|move|p2a: Citroën Xatu|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|94/100 par
+|
+|t:|1637950403
+|switch|p2a: GREEN LANTURN|Lanturn, M|100/100|[from]move: U-turn
+|move|p1a: Togekiss|Thunder Wave|p2a: GREEN LANTURN
+|-immune|p2a: GREEN LANTURN|[from] ability: Volt Absorb
+|
+|-heal|p1a: Togekiss|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1637950414
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: GREEN LANTURN|Toxic|p1a: Swampert
+|-status|p1a: Swampert|tox
+|
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1637950420
+|switch|p2a: Citroën Xatu|Xatu, M|100/100
+|move|p1a: Swampert|Scald|p2a: Citroën Xatu
+|-damage|p2a: Citroën Xatu|65/100
+|-status|p2a: Citroën Xatu|brn
+|
+|-heal|p1a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|88/100 tox|[from] psn
+|-damage|p2a: Citroën Xatu|53/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1637950425
+|switch|p1a: Mismagius|Mismagius, F|100/100
+|-damage|p1a: Mismagius|88/100|[from] Stealth Rock
+|move|p2a: Citroën Xatu|Roost|p2a: Citroën Xatu
+|-heal|p2a: Citroën Xatu|100/100 brn
+|-singleturn|p2a: Citroën Xatu|move: Roost
+|
+|-damage|p2a: Citroën Xatu|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1637950431
+|switch|p2a: Darumachaude|Darmanitan, M|100/100
+|move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|2
+|
+|upkeep
+|turn|27
+|
+|t:|1637950439
+|move|p2a: Darumachaude|Flare Blitz|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|-damage|p2a: Darumachaude|79/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1637950443
+|switch|p1a: Swampert|Swampert, M|88/100 tox
+|-damage|p1a: Swampert|82/100 tox|[from] Stealth Rock
+|turn|28
+|
+|t:|1637950448
+|switch|p2a: Citroën Xatu|Xatu, M|88/100 brn
+|switch|p1a: Flygon|Flygon, M|70/100
+|-damage|p1a: Flygon|64/100|[from] Stealth Rock
+|
+|-damage|p2a: Citroën Xatu|76/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1637950460
+|move|p1a: Flygon|Stone Edge|p2a: Citroën Xatu
+|-supereffective|p2a: Citroën Xatu
+|-damage|p2a: Citroën Xatu|9/100 brn
+|-damage|p1a: Flygon|54/100|[from] item: Life Orb
+|move|p2a: Citroën Xatu|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|46/100
+|
+|t:|1637950467
+|switch|p2a: Miou Miou|Mew|84/100|[from]move: U-turn
+|
+|upkeep
+|turn|30
+|
+|t:|1637950472
+|switch|p1a: Togekiss|Togekiss, M|99/100 par
+|-damage|p1a: Togekiss|75/100 par|[from] Stealth Rock
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|52/100 par
+|
+|-heal|p1a: Togekiss|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1637950482
+|switch|p2a: GREEN LANTURN|Lanturn, M|100/100
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|upkeep
+|turn|32
+|
+|t:|1637950489
+|move|p2a: GREEN LANTURN|Heal Bell|p2a: GREEN LANTURN
+|-activate|p2a: GREEN LANTURN|move: Heal Bell
+|-curestatus|p2: Citroën Xatu|brn|[msg]
+|move|p1a: Togekiss|Air Slash|p2a: GREEN LANTURN
+|-resisted|p2a: GREEN LANTURN
+|-damage|p2a: GREEN LANTURN|91/100
+|
+|-heal|p2a: GREEN LANTURN|97/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1637950493
+|move|p2a: GREEN LANTURN|Volt Switch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|75/100 par
+|
+|t:|1637950501
+|switch|p2a: Gare au Gligar|Gligar, M|85/100|[from]move: Volt Switch
+|move|p1a: Togekiss|Air Slash|p2a: Gare au Gligar
+|-damage|p2a: Gare au Gligar|56/100
+|
+|-heal|p1a: Togekiss|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1637950510
+|switch|p1a: Swampert|Swampert, M|82/100 tox
+|-damage|p1a: Swampert|76/100 tox|[from] Stealth Rock
+|move|p2a: Gare au Gligar|Roost|p2a: Gare au Gligar
+|-heal|p2a: Gare au Gligar|100/100
+|-singleturn|p2a: Gare au Gligar|move: Roost
+|
+|-heal|p1a: Swampert|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|76/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1637950516
+|move|p2a: Gare au Gligar|U-turn|p1a: Swampert
+|-damage|p1a: Swampert|68/100 tox
+|
+|t:|1637950519
+|switch|p2a: GREEN LANTURN|Lanturn, M|97/100|[from]move: U-turn
+|move|p1a: Swampert|Stealth Rock|p2a: GREEN LANTURN
+|-sidestart|p2: Arkhan_Wyrdo|move: Stealth Rock
+|
+|-heal|p2a: GREEN LANTURN|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|61/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1637950528
+|switch|p2a: Gare au Gligar|Gligar, M|100/100
+|-damage|p2a: Gare au Gligar|88/100|[from] Stealth Rock
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|37
+|
+|t:|1637950535
+|switch|p1a: Togekiss|Togekiss, M|81/100 par
+|-damage|p1a: Togekiss|56/100 par|[from] Stealth Rock
+|move|p2a: Gare au Gligar|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|-heal|p1a: Togekiss|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1637950544
+|move|p2a: Gare au Gligar|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|57/100 par
+|
+|t:|1637950548
+|switch|p2a: GREEN LANTURN|Lanturn, M|100/100|[from]move: U-turn
+|-damage|p2a: GREEN LANTURN|88/100|[from] Stealth Rock
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p2a: GREEN LANTURN|94/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1637950555
+|switch|p1a: Heracross|Heracross, M|88/100
+|-damage|p1a: Heracross|76/100|[from] Stealth Rock
+|move|p2a: GREEN LANTURN|Scald|p1a: Heracross
+|-damage|p1a: Heracross|51/100
+|
+|-heal|p2a: GREEN LANTURN|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1637950564
+|switch|p1a: Flygon|Flygon, M|46/100
+|-damage|p1a: Flygon|40/100|[from] Stealth Rock
+|switch|p2a: Gare au Gligar|Gligar, M|88/100
+|-damage|p2a: Gare au Gligar|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|41
+|
+|t:|1637950569
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|90/100
+|-singleturn|p1a: Flygon|move: Roost
+|move|p2a: Gare au Gligar|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|71/100
+|
+|t:|1637950572
+|switch|p2a: Miou Miou|Mew|84/100|[from]move: U-turn
+|-damage|p2a: Miou Miou|72/100|[from] Stealth Rock
+|
+|upkeep
+|turn|42
+|
+|t:|1637950579
+|switch|p1a: Togekiss|Togekiss, M|100/100 par
+|-damage|p1a: Togekiss|76/100 par|[from] Stealth Rock
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|48/100 par
+|
+|-heal|p1a: Togekiss|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1637950586
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|31/100 par
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|81/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p1a: Togekiss|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1637950600
+|switch|p2a: GREEN LANTURN|Lanturn, M|100/100
+|-damage|p2a: GREEN LANTURN|88/100|[from] Stealth Rock
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p2a: GREEN LANTURN|94/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1637950603
+|switch|p1a: Heracross|Heracross, M|51/100
+|-damage|p1a: Heracross|38/100|[from] Stealth Rock
+|move|p2a: GREEN LANTURN|Scald|p1a: Heracross
+|-damage|p1a: Heracross|11/100
+|
+|-heal|p2a: GREEN LANTURN|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1637950617
+|switch|p1a: Flygon|Flygon, M|71/100
+|-damage|p1a: Flygon|65/100|[from] Stealth Rock
+|switch|p2a: Gare au Gligar|Gligar, M|76/100
+|-damage|p2a: Gare au Gligar|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|47
+|
+|t:|1637950632
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|100/100
+|-singleturn|p1a: Flygon|move: Roost
+|move|p2a: Gare au Gligar|Roost|p2a: Gare au Gligar
+|-heal|p2a: Gare au Gligar|100/100
+|-singleturn|p2a: Gare au Gligar|move: Roost
+|
+|upkeep
+|turn|48
+|
+|t:|1637950637
+|move|p1a: Flygon|Hidden Power|p2a: Gare au Gligar
+|-supereffective|p2a: Gare au Gligar
+|-damage|p2a: Gare au Gligar|29/100
+|-damage|p1a: Flygon|91/100|[from] item: Life Orb
+|move|p2a: Gare au Gligar|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|72/100
+|
+|t:|1637950644
+|switch|p2a: Miou Miou|Mew|72/100|[from]move: U-turn
+|-damage|p2a: Miou Miou|59/100|[from] Stealth Rock
+|
+|upkeep
+|turn|49
+|inactive|flame snower has 120 seconds left.
+|
+|t:|1637950680
+|move|p2a: Miou Miou|Psychic|p1a: Flygon
+|-damage|p1a: Flygon|11/100
+|-unboost|p1a: Flygon|spd|1
+|move|p1a: Flygon|Earthquake|p2a: Miou Miou
+|-damage|p2a: Miou Miou|5/100
+|-damage|p1a: Flygon|1/100|[from] item: Life Orb
+|
+|upkeep
+|turn|50
+|inactive|flame snower has 120 seconds left.
+|
+|t:|1637950692
+|switch|p1a: Togekiss|Togekiss, M|100/100 par
+|-damage|p1a: Togekiss|76/100 par|[from] Stealth Rock
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|51/100 par
+|-unboost|p1a: Togekiss|spd|1
+|
+|-heal|p1a: Togekiss|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1637950697
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|18/100 par
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|68/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p1a: Togekiss|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1637950702
+|move|p2a: Miou Miou|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|33/100 par
+|cant|p1a: Togekiss|par
+|
+|-heal|p1a: Togekiss|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1637950708
+|switch|p1a: Heracross|Heracross, M|11/100
+|-damage|p1a: Heracross|0 fnt|[from] Stealth Rock
+|faint|p1a: Heracross
+|move|p2a: Miou Miou|Psychic|p1: Heracross|[notarget]
+|-fail|p2a: Miou Miou
+|
+|upkeep
+|
+|t:|1637950714
+|switch|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|turn|54
+|
+|t:|1637950717
+|move|p2a: Miou Miou|Psychic|p1a: Cobalion
+|-damage|p1a: Cobalion|44/100
+|move|p1a: Cobalion|Close Combat|p2a: Miou Miou
+|-resisted|p2a: Miou Miou
+|-damage|p2a: Miou Miou|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Miou Miou
+|
+|-heal|p1a: Cobalion|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637950727
+|switch|p2a: GREEN LANTURN|Lanturn, M|100/100
+|-damage|p2a: GREEN LANTURN|88/100|[from] Stealth Rock
+|turn|55
+|
+|t:|1637950754
+|move|p1a: Cobalion|Protect|p1a: Cobalion
+|-singleturn|p1a: Cobalion|Protect
+|move|p2a: GREEN LANTURN|Scald|p1a: Cobalion
+|-activate|p1a: Cobalion|move: Protect
+|
+|-heal|p1a: Cobalion|57/100|[from] item: Leftovers
+|-heal|p2a: GREEN LANTURN|94/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1637950758
+|switch|p1a: Flygon|Flygon, M|1/100
+|-damage|p1a: Flygon|0 fnt|[from] Stealth Rock
+|faint|p1a: Flygon
+|move|p2a: GREEN LANTURN|Scald|p1: Flygon|[notarget]
+|-fail|p2a: GREEN LANTURN
+|
+|-heal|p2a: GREEN LANTURN|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637950761
+|switch|p1a: Cobalion|Cobalion|57/100
+|-damage|p1a: Cobalion|53/100|[from] Stealth Rock
+|turn|57
+|
+|t:|1637950767
+|move|p1a: Cobalion|Close Combat|p2a: GREEN LANTURN
+|-crit|p2a: GREEN LANTURN
+|-damage|p2a: GREEN LANTURN|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: GREEN LANTURN
+|
+|-heal|p1a: Cobalion|60/100|[from] item: Leftovers
+|upkeep
+|c|☆Arkhan_Wyrdo|oooops
+|
+|t:|1637950775
+|switch|p2a: Darumachaude|Darmanitan, M|79/100
+|-damage|p2a: Darumachaude|54/100|[from] Stealth Rock
+|turn|58
+|
+|t:|1637950781
+|move|p1a: Cobalion|Protect|p1a: Cobalion
+|-singleturn|p1a: Cobalion|Protect
+|move|p2a: Darumachaude|Flare Blitz|p1a: Cobalion
+|-activate|p1a: Cobalion|move: Protect
+|
+|-heal|p1a: Cobalion|66/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1637950790
+|move|p2a: Darumachaude|Flare Blitz|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|-damage|p2a: Darumachaude|34/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1637950793
+|switch|p1a: Swampert|Swampert, M|61/100 tox
+|-damage|p1a: Swampert|55/100 tox|[from] Stealth Rock
+|turn|60
+|
+|t:|1637950803
+|switch|p2a: Citroën Xatu|Xatu, M|9/100
+|-damage|p2a: Citroën Xatu|0 fnt|[from] Stealth Rock
+|faint|p2a: Citroën Xatu
+|move|p1a: Swampert|Scald|p2: Citroën Xatu|[notarget]
+|-fail|p1a: Swampert
+|
+|-heal|p1a: Swampert|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Swampert|55/100 tox|[from] psn
+|upkeep
+|
+|t:|1637950816
+|switch|p2a: Gare au Gligar|Gligar, M|29/100
+|-damage|p2a: Gare au Gligar|17/100|[from] Stealth Rock
+|turn|61
+|
+|t:|1637950826
+|switch|p1a: Togekiss|Togekiss, M|39/100 par
+|-damage|p1a: Togekiss|14/100 par|[from] Stealth Rock
+|move|p2a: Gare au Gligar|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|-heal|p1a: Togekiss|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1637950830
+|move|p2a: Gare au Gligar|Roost|p2a: Gare au Gligar
+|-heal|p2a: Gare au Gligar|67/100
+|-singleturn|p2a: Gare au Gligar|move: Roost
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|70/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p1a: Togekiss|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1637950835
+|move|p2a: Gare au Gligar|Roost|p2a: Gare au Gligar
+|-heal|p2a: Gare au Gligar|100/100
+|-singleturn|p2a: Gare au Gligar|move: Roost
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p1a: Togekiss|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1637950843
+|move|p2a: Gare au Gligar|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|cant|p1a: Togekiss|par
+|
+|-heal|p1a: Togekiss|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1637950846
+|move|p2a: Gare au Gligar|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|move|p1a: Togekiss|Air Slash|p2a: Gare au Gligar
+|-damage|p2a: Gare au Gligar|45/100
+|
+|-heal|p1a: Togekiss|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1637950854
+|move|p2a: Gare au Gligar|Roost|p2a: Gare au Gligar
+|-heal|p2a: Gare au Gligar|95/100
+|-singleturn|p2a: Gare au Gligar|move: Roost
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p1a: Togekiss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1637950867
+|move|p2a: Gare au Gligar|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|94/100 par
+|
+|t:|1637950870
+|switch|p2a: Darumachaude|Darmanitan, M|34/100|[from]move: U-turn
+|-damage|p2a: Darumachaude|9/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Darumachaude
+|-damage|p2a: Darumachaude|0 fnt
+|faint|p2a: Darumachaude
+|
+|-heal|p1a: Togekiss|100/100 par|[from] item: Leftovers
+|upkeep
+|-message|Arkhan_Wyrdo forfeited.
+|
+|win|flame snower
+|n|☆flame snower|flamesnower
+|n|☆Arkhan_Wyrdo|arkhanwyrdo
+|n|*Lady Monita ❄|ladymonita
+|l|*Lady Monita ❄
+|l|☆Arkhan_Wyrdo

@@ -1,0 +1,431 @@
+|j|☆pokken111
+|j|☆VainInDaRain¨̮
+|t:|1642972756
+|gametype|singles
+|player|p1|pokken111|lass-gen4dp|1000
+|player|p2|VainInDaRain¨̮|bugcatcher|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Hippopotas, L5, M|item
+|poke|p2|Axew, L5, M|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Dwebble, L5, F|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Clamperl, L5, F|item
+|teampreview
+|c|☆VainInDaRain¨̮|glhf
+|c|☆pokken111|u2!
+|
+|t:|1642972771
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Dwebble|Dwebble, L5, F|100/100
+|turn|1
+|
+|t:|1642972781
+|move|p2a: Dwebble|Knock Off|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|96/100
+|-enditem|p1a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p2a: Dwebble
+|move|p1a: Mienfoo|Knock Off|p2a: Dwebble
+|-damage|p2a: Dwebble|92/100
+|-enditem|p2a: Dwebble|Custap Berry|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|2
+|
+|t:|1642972789
+|move|p2a: Dwebble|Stealth Rock|p1a: Mienfoo
+|-sidestart|p1: pokken111|move: Stealth Rock
+|move|p1a: Mienfoo|Drain Punch|p2a: Dwebble
+|-damage|p2a: Dwebble|50/100
+|-heal|p1a: Mienfoo|100/100|[from] drain|[of] p2a: Dwebble
+|
+|upkeep
+|turn|3
+|
+|t:|1642972815
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Mienfoo|Drain Punch|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|91/100
+|
+|upkeep
+|turn|4
+|
+|t:|1642972828
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|-damage|p1a: Magnemite|95/100|[from] Stealth Rock
+|move|p2a: Natu|Reflect|p2a: Natu
+|-sidestart|p2: VainInDaRain¨̮|Reflect
+|
+|upkeep
+|turn|5
+|
+|t:|1642972840
+|move|p1a: Magnemite|Volt Switch|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|10/100
+|
+|t:|1642972848
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Hippopotas|96/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Natu|Light Screen|p2a: Natu
+|-sidestart|p2: VainInDaRain¨̮|move: Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|5/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1642972861
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|55/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Hippopotas|Whirlwind|p2a: Natu
+|move|p2a: Natu|Whirlwind|p1a: Hippopotas|[from]ability: Magic Bounce
+|drag|p1a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p1a: Drilbur|96/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|50/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1642972870
+|move|p1a: Drilbur|Rock Slide|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|14/100
+|cant|p2a: Natu|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|10/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1642972897
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Drilbur|Rapid Spin|p2a: Staryu
+|-damage|p2a: Staryu|96/100
+|-sideend|p1: pokken111|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|91/100|[from] Sandstorm
+|-sideend|p2: VainInDaRain¨̮|Reflect
+|upkeep
+|turn|9
+|
+|t:|1642972905
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p2a: Staryu|Reflect|p2a: Staryu
+|-sidestart|p2: VainInDaRain¨̮|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|87/100|[from] Sandstorm
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|-sideend|p2: VainInDaRain¨̮|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1642972934
+|switch|p2a: Dwebble|Dwebble, L5, F|50/100
+|move|p1a: Mienfoo|Knock Off|p2a: Dwebble
+|-damage|p2a: Dwebble|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|92/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1642972959
+|move|p2a: Dwebble|Stealth Rock|p1a: Mienfoo
+|-sidestart|p1: pokken111|move: Stealth Rock
+|move|p1a: Mienfoo|Drain Punch|p2a: Dwebble
+|-damage|p2a: Dwebble|25/100
+|-heal|p1a: Mienfoo|100/100|[from] drain|[of] p2a: Dwebble
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1642972976
+|move|p2a: Dwebble|Spikes|p1a: Mienfoo
+|-sidestart|p1: pokken111|Spikes
+|move|p1a: Mienfoo|U-turn|p2a: Dwebble
+|-damage|p2a: Dwebble|13/100
+|
+|t:|1642972978
+|switch|p1a: Drilbur|Drilbur, L5, F|96/100|[from]move: U-turn
+|-damage|p1a: Drilbur|87/100|[from] Spikes
+|-damage|p1a: Drilbur|83/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1642972987
+|switch|p2a: Staryu|Staryu, L5|87/100
+|move|p1a: Drilbur|Rapid Spin|p2a: Staryu
+|-damage|p2a: Staryu|82/100
+|-sideend|p1: pokken111|Spikes|[from] move: Rapid Spin|[of] p1a: Drilbur
+|-sideend|p1: pokken111|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|78/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1642972994
+|switch|p1a: Magnemite|Magnemite, L5|95/100
+|move|p2a: Staryu|Hydro Pump|p1a: Magnemite
+|-damage|p1a: Magnemite|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|73/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1642973022
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|move|p1a: Magnemite|Volt Switch|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|86/100
+|
+|t:|1642973075
+|switch|p1a: Hippopotas|Hippopotas, L5, M|96/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1642973083
+|switch|p2a: Dwebble|Dwebble, L5, F|13/100
+|move|p1a: Hippopotas|Whirlwind|p2a: Dwebble
+|drag|p2a: Clamperl|Clamperl, L5, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clamperl|96/100|[from] Sandstorm
+|-sideend|p2: VainInDaRain¨̮|Reflect
+|upkeep
+|turn|17
+|
+|t:|1642973090
+|move|p2a: Clamperl|Surf|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clamperl|91/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642973094
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|18
+|
+|t:|1642973147
+|move|p1a: Abra|Psychic|p2a: Clamperl
+|-damage|p2a: Clamperl|5/100
+|move|p2a: Clamperl|Surf|p1a: Abra
+|-crit|p1a: Abra
+|-enditem|p1a: Abra|Focus Sash
+|-damage|p1a: Abra|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clamperl|0 fnt|[from] Sandstorm
+|faint|p2a: Clamperl
+|upkeep
+|
+|t:|1642973152
+|switch|p2a: Magnemite|Magnemite, L5|86/100
+|turn|19
+|
+|t:|1642973170
+|move|p1a: Abra|Hidden Power|p2a: Magnemite
+|-supereffective|p2a: Magnemite
+|-damage|p2a: Magnemite|29/100
+|move|p2a: Magnemite|Volt Switch|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|t:|1642973182
+|switch|p2a: Dwebble|Dwebble, L5, F|13/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642973188
+|switch|p1a: Drilbur|Drilbur, L5, F|83/100
+|turn|20
+|
+|t:|1642973216
+|move|p1a: Drilbur|Earthquake|p2a: Dwebble
+|-crit|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642973219
+|switch|p2a: Staryu|Staryu, L5|73/100
+|turn|21
+|
+|t:|1642973228
+|move|p2a: Staryu|Hydro Pump|p1a: Drilbur
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staryu|69/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642973239
+|switch|p1a: Drifloon|Drifloon, L5, M|100/100
+|turn|22
+|
+|t:|1642973252
+|move|p2a: Staryu|Reflect|p2a: Staryu
+|-sidestart|p2: VainInDaRain¨̮|Reflect
+|move|p1a: Drifloon|Acrobatics|p2a: Staryu
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-damage|p2a: Staryu|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|96/100|[from] Sandstorm
+|-damage|p2a: Staryu|14/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1642973258
+|move|p1a: Drifloon|Shadow Ball|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|92/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642973260
+|switch|p2a: Axew|Axew, L5, M|100/100
+|-ability|p2a: Axew|Mold Breaker
+|turn|24
+|
+|t:|1642973270
+|move|p1a: Drifloon|Shadow Ball|p2a: Axew
+|-damage|p2a: Axew|46/100
+|move|p2a: Axew|Dual Chop|p1a: Drifloon
+|-damage|p1a: Drifloon|52/100
+|-damage|p1a: Drifloon|12/100
+|-hitcount|p1a: Drifloon|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|8/100|[from] Sandstorm
+|-damage|p2a: Axew|41/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1642973287
+|switch|p2a: Magnemite|Magnemite, L5|29/100
+|move|p1a: Drifloon|Shadow Ball|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|15/100
+|-unboost|p2a: Magnemite|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|4/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1642973307
+|switch|p2a: Natu|Natu, L5, F|10/100
+|move|p1a: Drifloon|Shadow Ball|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|0 fnt|[from] Sandstorm
+|faint|p1a: Drifloon
+|upkeep
+|
+|t:|1642973314
+|switch|p2a: Axew|Axew, L5, M|41/100
+|switch|p1a: Magnemite|Magnemite, L5|11/100
+|-ability|p2a: Axew|Mold Breaker
+|turn|27
+|
+|t:|1642973317
+|move|p1a: Magnemite|Flash Cannon|p2a: Axew
+|-damage|p2a: Axew|0 fnt
+|faint|p2a: Axew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642973320
+|switch|p2a: Magnemite|Magnemite, L5|15/100
+|turn|28
+|c|☆pokken111|gg
+|c|☆VainInDaRain¨̮|gg
+|
+|t:|1642973324
+|move|p1a: Magnemite|Flash Cannon|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|5/100
+|move|p2a: Magnemite|Hidden Power|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642973327
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|29
+|
+|t:|1642973333
+|move|p1a: Mienfoo|Fake Out|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|5/100
+|cant|p2a: Magnemite|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|-sideend|p2: VainInDaRain¨̮|Reflect
+|upkeep
+|turn|30
+|
+|t:|1642973338
+|move|p1a: Mienfoo|Drain Punch|p2a: Magnemite
+|-supereffective|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|-heal|p1a: Mienfoo|100/100|[from] drain|[of] p2a: Magnemite
+|faint|p2a: Magnemite
+|
+|win|pokken111
+|raw|pokken111's rating: 1000 &rarr; <strong>1065</strong><br />(+65 for winning)
+|raw|VainInDaRain¨̮'s rating: 1255 &rarr; <strong>1214</strong><br />(-41 for losing)
+|l|☆VainInDaRain¨̮
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

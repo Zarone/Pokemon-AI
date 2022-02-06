@@ -1,0 +1,358 @@
+|j|☆Weeb Guil
+|j|☆IcyFlares
+|t:|1644116237
+|gametype|singles
+|player|p1|Weeb Guil|jasmine|
+|player|p2|IcyFlares|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Keldeo|item
+|poke|p1|Heatran, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Slowking, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, F|item
+|teampreview
+|
+|t:|1644116302
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|1
+|
+|t:|1644116317
+|move|p1a: Landorus|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: IcyFlares|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: Weeb Guil|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1644116325
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Heatran
+|-sidestart|p1: Weeb Guil|Spikes
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644116336
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|59/100
+|-activate|p2a: Tentacruel|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|59/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1644116380
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|59/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1644116413
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Tentacruel|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|92/100
+|-enditem|p1a: Latios|Choice Specs|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1644116430
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Latios|Psyshock|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|69/100
+|
+|upkeep
+|turn|7
+|
+|t:|1644116440
+|move|p1a: Latios|Surf|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|move|p2a: Scizor|Pursuit|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|3/100
+|
+|upkeep
+|turn|8
+|
+|t:|1644116456
+|move|p1a: Latios|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1644116476
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1644116480
+|move|p2a: Latios|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|t:|1644116498
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|84/100|[from] Spikes
+|turn|10
+|
+|t:|1644116514
+|move|p2a: Latios|Ice Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|65/100
+|move|p1a: Scizor|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1644116517
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1644116523
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Fire Blast|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Garchomp|85/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644116542
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|84/100|[from] Spikes
+|turn|12
+|
+|t:|1644116558
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Keldeo|Icy Wind|p2a: Ferrothorn|[miss]
+|-miss|p1a: Keldeo|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644116570
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|84/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Heatran
+|-sidestart|p1: Weeb Guil|Spikes
+|
+|-heal|p1a: Heatran|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644116577
+|move|p1a: Heatran|Magma Storm|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Heatran|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644116582
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|15
+|
+|t:|1644116591
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644116617
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|
+|t:|1644116625
+|switch|p2a: Garchomp|Garchomp, F|85/100|[from]move: U-turn
+|-damage|p2a: Garchomp|78/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|36/100
+|-activate|p2a: Garchomp|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Garchomp|29/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1644116635
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Garchomp|Earthquake|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-damage|p2a: Garchomp|23/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1644116653
+|switch|p1a: Scizor|Scizor, M|65/100
+|-damage|p1a: Scizor|40/100|[from] Spikes
+|move|p2a: Garchomp|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Garchomp|13/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644116735
+|switch|p1a: Keldeo|Keldeo|84/100
+|-damage|p1a: Keldeo|59/100|[from] Spikes
+|turn|19
+|
+|t:|1644116760
+|move|p1a: Keldeo|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1644116763
+|switch|p2a: Tentacruel|Tentacruel, M|65/100
+|-damage|p2a: Tentacruel|53/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1644116774
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|76/100|[from] Spikes
+|move|p2a: Tentacruel|Toxic|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-heal|p2a: Tentacruel|59/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644116783
+|move|p2a: Tentacruel|Rapid Spin|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|81/100
+|-sideend|p2: IcyFlares|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Heatran|Magma Storm|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|33/100
+|-activate|p2a: Tentacruel|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Tentacruel|39/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|87/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1644116797
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|48/100
+|move|p1a: Heatran|Magma Storm|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|8/100
+|
+|-heal|p2a: Tentacruel|14/100|[from] item: Black Sludge
+|-heal|p1a: Heatran|54/100|[from] item: Leftovers
+|-damage|p2a: Tentacruel|8/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1644116805
+|move|p2a: Tentacruel|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|14/100
+|move|p1a: Heatran|Magma Storm|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-heal|p1a: Heatran|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644116808
+|switch|p2a: Landorus|Landorus-Therian, M|94/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|24
+|c|☆IcyFlares|ggs I have testicular torsion
+|
+|t:|1644116818
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644116821
+|switch|p1a: Keldeo|Keldeo|59/100
+|-damage|p1a: Keldeo|35/100|[from] Spikes
+|turn|25
+|
+|t:|1644116829
+|move|p1a: Keldeo|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|Weeb Guil

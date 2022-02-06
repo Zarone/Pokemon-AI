@@ -1,0 +1,273 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639373310
+|gametype|singles
+|player|p1|james|waiter|
+|player|p2|CB AARON JUDGE|burglar-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Seismitoad, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Regirock|item
+|poke|p1|Rotom-Frost|item
+|poke|p1|Duosion, M|item
+|poke|p1|Garbodor, F|item
+|poke|p2|Regirock|item
+|poke|p2|Victreebel, F|item
+|poke|p2|Liepard, M|item
+|poke|p2|Shiftry, M|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Charizard, M|item
+|teampreview
+|c|☆CB AARON JUDGE|h f
+|c|☆james|u2
+|inactive|james has 270 seconds left.
+|
+|t:|1639373363
+|start
+|switch|p1a: STEPHEN FLORIDA|Sawk, M|100/100
+|switch|p2a: Liepard|Liepard, M|100/100
+|-ability|p1a: STEPHEN FLORIDA|Mold Breaker
+|turn|1
+|
+|t:|1639373377
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: STEPHEN FLORIDA|Close Combat|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|-unboost|p1a: STEPHEN FLORIDA|def|1
+|-unboost|p1a: STEPHEN FLORIDA|spd|1
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1639373390
+|switch|p2a: Victreebel|Victreebel, F|100/100
+|turn|2
+|
+|t:|1639373409
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: STEPHEN FLORIDA
+|-damage|p1a: STEPHEN FLORIDA|0 fnt
+|faint|p1a: STEPHEN FLORIDA
+|-damage|p2a: Victreebel|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|james has 270 seconds left.
+|
+|t:|1639373438
+|switch|p1a: Duosion|Duosion, M, shiny|100/100
+|turn|3
+|inactive|james has 270 seconds left.
+|
+|t:|1639373458
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Duosion
+|-damage|p1a: Duosion|30/100
+|-damage|p2a: Victreebel|81/100|[from] item: Life Orb
+|move|p1a: Duosion|Psyshock|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1639373463
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|turn|4
+|
+|t:|1639373467
+|move|p2a: Shiftry|Solar Beam||[still]
+|-prepare|p2a: Shiftry|Solar Beam
+|-anim|p2a: Shiftry|Solar Beam|p1a: Duosion
+|-damage|p1a: Duosion|0 fnt
+|faint|p1a: Duosion
+|-damage|p2a: Shiftry|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|james has 270 seconds left.
+|
+|t:|1639373478
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|turn|5
+|
+|t:|1639373481
+|move|p2a: Shiftry|Solar Beam||[still]
+|-prepare|p2a: Shiftry|Solar Beam
+|-anim|p2a: Shiftry|Solar Beam|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|-damage|p2a: Shiftry|81/100|[from] item: Life Orb
+|move|p1a: Rotom|Blizzard|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1639373495
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|6
+|
+|t:|1639373498
+|move|p2a: Charizard|Flamethrower|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1639373507
+|switch|p1a: Regirock|Regirock|100/100
+|turn|7
+|
+|t:|1639373513
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|move|p1a: Regirock|Stealth Rock|p2a: Camerupt
+|-sidestart|p2: CB AARON JUDGE|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|james has 270 seconds left.
+|
+|t:|1639373572
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|move|p2a: Camerupt|Earth Power|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-weather|none
+|upkeep
+|
+|t:|1639373575
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|100/100
+|turn|9
+|
+|t:|1639373590
+|move|p1a: Seismitoad|Hydro Pump|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|
+|t:|1639373599
+|switch|p2a: Regirock|Regirock|100/100
+|-damage|p2a: Regirock|88/100|[from] Stealth Rock
+|turn|10
+|inactive|james has 240 seconds left.
+|
+|t:|1639373628
+|move|p1a: Seismitoad|Earth Power|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|23/100
+|move|p2a: Regirock|Sunny Day|p2a: Regirock
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|james has 240 seconds left.
+|
+|t:|1639373661
+|move|p1a: Seismitoad|Substitute|p1a: Seismitoad
+|-start|p1a: Seismitoad|Substitute
+|-damage|p1a: Seismitoad|75/100
+|move|p2a: Regirock|Drain Punch|p1a: Seismitoad
+|-end|p1a: Seismitoad|Substitute
+|-heal|p2a: Regirock|35/100|[from] drain|[of] p1a: Seismitoad
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1639373670
+|move|p1a: Seismitoad|Earth Power|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639373673
+|switch|p2a: Charizard|Charizard, M|88/100
+|-damage|p2a: Charizard|38/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1639373678
+|move|p2a: Charizard|Fire Blast|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|10/100
+|move|p1a: Seismitoad|Hydro Pump|p2a: Charizard|[miss]
+|-miss|p1a: Seismitoad|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|26/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Seismitoad|16/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1639373683
+|move|p2a: Charizard|Fire Blast|p1a: Seismitoad|[miss]
+|-miss|p2a: Charizard|p1a: Seismitoad
+|move|p1a: Seismitoad|Hydro Pump|p2a: Charizard|[miss]
+|-miss|p1a: Seismitoad|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|13/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Seismitoad|22/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1639373686
+|move|p2a: Charizard|Fire Blast|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|1/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1639373688
+|switch|p1a: Regirock|Regirock|100/100
+|turn|16
+|
+|t:|1639373690
+|move|p2a: Charizard|Fire Blast|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|56/100
+|move|p1a: Regirock|Drain Punch|p2a: Charizard
+|-resisted|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-heal|p1a: Regirock|56/100|[from] drain|[of] p2a: Charizard
+|faint|p2a: Charizard
+|
+|win|james

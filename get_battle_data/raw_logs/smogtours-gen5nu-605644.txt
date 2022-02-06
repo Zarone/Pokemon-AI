@@ -1,0 +1,493 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643505580
+|gametype|singles
+|player|p1|Togkey|firebreather-gen2|
+|player|p2|CB AARON JUDGE|juan-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lapras, F|item
+|poke|p1|Camerupt, F|item
+|poke|p1|Primeape, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Serperior, M|item
+|poke|p2|Golurk|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Braviary, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Haunter, M|item
+|poke|p2|Seismitoad, M|item
+|teampreview
+|inactive|Togkey disconnected and has 300 seconds to reconnect!
+|player|p1|
+|inactive|Togkey reconnected and has 295 seconds left.
+|player|p1|Togkey|firebreather-gen2
+|c|☆Togkey|hf
+|c|☆CB AARON JUDGE|u2
+|inactive|Togkey has 270 seconds left.
+|
+|t:|1643505632
+|start
+|switch|p1a: STARRY NIGHT|Lapras, F|100/100
+|switch|p2a: NORTH AMERICA|Braviary, M|100/100
+|turn|1
+|
+|t:|1643505636
+|switch|p1a: RBY IN NUSD|Garbodor, F|100/100
+|move|p2a: NORTH AMERICA|Superpower|p1a: RBY IN NUSD
+|-resisted|p1a: RBY IN NUSD
+|-damage|p1a: RBY IN NUSD|76/100
+|-unboost|p2a: NORTH AMERICA|atk|1
+|-unboost|p2a: NORTH AMERICA|def|1
+|-damage|p2a: NORTH AMERICA|84/100|[from] item: Rocky Helmet|[of] p1a: RBY IN NUSD
+|
+|upkeep
+|turn|2
+|
+|t:|1643505645
+|switch|p2a: ASIA|Golurk|100/100
+|move|p1a: RBY IN NUSD|Spikes|p2a: ASIA
+|-sidestart|p2: CB AARON JUDGE|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1643505650
+|switch|p1a: STARRY NIGHT|Lapras, F|100/100
+|move|p2a: ASIA|Earthquake|p1a: STARRY NIGHT
+|-damage|p1a: STARRY NIGHT|34/100
+|-damage|p2a: ASIA|90/100|[from] item: Life Orb
+|
+|-heal|p1a: STARRY NIGHT|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643505668
+|move|p2a: ASIA|Earthquake|p1a: STARRY NIGHT
+|-damage|p1a: STARRY NIGHT|0 fnt
+|faint|p1a: STARRY NIGHT
+|-damage|p2a: ASIA|80/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643505670
+|switch|p1a: BONES|Mandibuzz, F|100/100
+|turn|5
+|
+|t:|1643505691
+|switch|p2a: SOUTH AMERICA|Seismitoad, M|100/100
+|-damage|p2a: SOUTH AMERICA|88/100|[from] Spikes
+|move|p1a: BONES|Foul Play|p2a: SOUTH AMERICA
+|-damage|p2a: SOUTH AMERICA|67/100
+|
+|-heal|p2a: SOUTH AMERICA|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643505699
+|switch|p2a: AFRICA|Haunter, M|100/100
+|move|p1a: BONES|Taunt|p2a: AFRICA
+|-start|p2a: AFRICA|move: Taunt
+|
+|upkeep
+|turn|7
+|
+|t:|1643505702
+|switch|p1a: GRENADE|Camerupt, F|100/100
+|move|p2a: AFRICA|Thunderbolt|p1a: GRENADE
+|-immune|p1a: GRENADE
+|
+|upkeep
+|turn|8
+|
+|t:|1643505705
+|move|p2a: AFRICA|Shadow Ball|p1a: GRENADE
+|-damage|p1a: GRENADE|54/100
+|-damage|p2a: AFRICA|91/100|[from] item: Life Orb
+|move|p1a: GRENADE|Stealth Rock|p2a: AFRICA
+|-sidestart|p2: CB AARON JUDGE|move: Stealth Rock
+|
+|-heal|p1a: GRENADE|60/100|[from] item: Leftovers
+|-end|p2a: AFRICA|move: Taunt
+|upkeep
+|turn|9
+|
+|t:|1643505709
+|move|p2a: AFRICA|Shadow Ball|p1a: GRENADE
+|-crit|p1a: GRENADE
+|-damage|p1a: GRENADE|0 fnt
+|faint|p1a: GRENADE
+|-damage|p2a: AFRICA|81/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Togkey|hmm
+|
+|t:|1643505738
+|switch|p1a: NON FUKCABLE|Primeape, M|100/100
+|turn|10
+|
+|t:|1643505742
+|move|p1a: NON FUKCABLE|Punishment|p2a: AFRICA
+|-supereffective|p2a: AFRICA
+|-damage|p2a: AFRICA|0 fnt
+|faint|p2a: AFRICA
+|
+|upkeep
+|
+|t:|1643505759
+|switch|p2a: AUSTRALIA|Kangaskhan, F|100/100
+|-damage|p2a: AUSTRALIA|88/100|[from] Stealth Rock
+|-damage|p2a: AUSTRALIA|76/100|[from] Spikes
+|turn|11
+|
+|t:|1643505763
+|switch|p1a: BONES|Mandibuzz, F|100/100
+|move|p2a: AUSTRALIA|Return|p1a: BONES
+|-damage|p1a: BONES|67/100
+|
+|-heal|p1a: BONES|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643505771
+|move|p2a: AUSTRALIA|Return|p1a: BONES
+|-crit|p1a: BONES
+|-damage|p1a: BONES|9/100
+|move|p1a: BONES|Roost|p1a: BONES
+|-heal|p1a: BONES|59/100
+|-singleturn|p1a: BONES|move: Roost
+|
+|-heal|p1a: BONES|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643505780
+|move|p2a: AUSTRALIA|Return|p1a: BONES
+|-damage|p1a: BONES|35/100
+|move|p1a: BONES|Roost|p1a: BONES
+|-heal|p1a: BONES|85/100
+|-singleturn|p1a: BONES|move: Roost
+|
+|-heal|p1a: BONES|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643505789
+|move|p2a: AUSTRALIA|Return|p1a: BONES
+|-damage|p1a: BONES|56/100
+|move|p1a: BONES|Toxic|p2a: AUSTRALIA
+|-status|p2a: AUSTRALIA|tox
+|
+|-heal|p1a: BONES|62/100|[from] item: Leftovers
+|-damage|p2a: AUSTRALIA|70/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1643505793
+|switch|p2a: SOUTH AMERICA|Seismitoad, M|73/100
+|-damage|p2a: SOUTH AMERICA|60/100|[from] Spikes
+|-damage|p2a: SOUTH AMERICA|54/100|[from] Stealth Rock
+|move|p1a: BONES|Roost|p1a: BONES
+|-heal|p1a: BONES|100/100
+|-singleturn|p1a: BONES|move: Roost
+|
+|-heal|p2a: SOUTH AMERICA|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643505796
+|switch|p1a: NUSD|Serperior, M|100/100
+|move|p2a: SOUTH AMERICA|Stealth Rock|p1a: NUSD
+|-sidestart|p1: Togkey|move: Stealth Rock
+|
+|-heal|p2a: SOUTH AMERICA|66/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643505801
+|switch|p2a: EUROPE|Miltank, F|100/100
+|-damage|p2a: EUROPE|88/100|[from] Stealth Rock
+|-damage|p2a: EUROPE|76/100|[from] Spikes
+|move|p1a: NUSD|Substitute|p1a: NUSD
+|-start|p1a: NUSD|Substitute
+|-damage|p1a: NUSD|76/100
+|
+|-heal|p2a: EUROPE|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1643505803
+|move|p1a: NUSD|Giga Drain|p2a: EUROPE
+|-damage|p2a: EUROPE|55/100
+|-heal|p1a: NUSD|94/100|[from] drain|[of] p2a: EUROPE
+|-damage|p1a: NUSD|84/100|[from] item: Life Orb
+|move|p2a: EUROPE|Body Slam|p1a: NUSD
+|-end|p1a: NUSD|Substitute
+|
+|-heal|p2a: EUROPE|61/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643505806
+|switch|p1a: RBY IN NUSD|Garbodor, F|76/100
+|-damage|p1a: RBY IN NUSD|64/100|[from] Stealth Rock
+|move|p2a: EUROPE|Body Slam|p1a: RBY IN NUSD
+|-damage|p1a: RBY IN NUSD|44/100
+|-damage|p2a: EUROPE|45/100|[from] item: Rocky Helmet|[of] p1a: RBY IN NUSD
+|
+|-heal|p2a: EUROPE|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643505810
+|move|p2a: EUROPE|Curse|p2a: EUROPE
+|-unboost|p2a: EUROPE|spe|1
+|-boost|p2a: EUROPE|atk|1
+|-boost|p2a: EUROPE|def|1
+|move|p1a: RBY IN NUSD|Toxic|p2a: EUROPE|[miss]
+|-miss|p1a: RBY IN NUSD|p2a: EUROPE
+|
+|-heal|p2a: EUROPE|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643505813
+|move|p1a: RBY IN NUSD|Toxic|p2a: EUROPE
+|-status|p2a: EUROPE|tox
+|move|p2a: EUROPE|Curse|p2a: EUROPE
+|-unboost|p2a: EUROPE|spe|1
+|-boost|p2a: EUROPE|atk|1
+|-boost|p2a: EUROPE|def|1
+|
+|-heal|p2a: EUROPE|63/100 tox|[from] item: Leftovers
+|-damage|p2a: EUROPE|57/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1643505817
+|switch|p1a: BONES|Mandibuzz, F|100/100
+|-damage|p1a: BONES|76/100|[from] Stealth Rock
+|move|p2a: EUROPE|Heal Bell|p2a: EUROPE
+|-activate|p2a: EUROPE|move: Heal Bell
+|-curestatus|p2a: EUROPE|tox|[msg]
+|-curestatus|p2: AUSTRALIA|tox|[msg]
+|
+|-heal|p1a: BONES|82/100|[from] item: Leftovers
+|-heal|p2a: EUROPE|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1643505819
+|move|p1a: BONES|Toxic|p2a: EUROPE
+|-status|p2a: EUROPE|tox
+|move|p2a: EUROPE|Body Slam|p1a: BONES
+|-damage|p1a: BONES|56/100
+|
+|-heal|p1a: BONES|62/100|[from] item: Leftovers
+|-heal|p2a: EUROPE|69/100 tox|[from] item: Leftovers
+|-damage|p2a: EUROPE|63/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1643505822
+|move|p1a: BONES|Taunt|p2a: EUROPE
+|-start|p2a: EUROPE|move: Taunt
+|move|p2a: EUROPE|Body Slam|p1a: BONES
+|-damage|p1a: BONES|35/100
+|
+|-heal|p1a: BONES|41/100|[from] item: Leftovers
+|-heal|p2a: EUROPE|69/100 tox|[from] item: Leftovers
+|-damage|p2a: EUROPE|57/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1643505825
+|switch|p1a: RBY IN NUSD|Garbodor, F|44/100
+|-damage|p1a: RBY IN NUSD|32/100|[from] Stealth Rock
+|move|p2a: EUROPE|Body Slam|p1a: RBY IN NUSD
+|-damage|p1a: RBY IN NUSD|0 fnt
+|-damage|p2a: EUROPE|32/100 tox|[from] ability: Aftermath|[of] p1a: RBY IN NUSD
+|-damage|p2a: EUROPE|15/100 tox|[from] item: Rocky Helmet|[of] p1a: RBY IN NUSD
+|faint|p1a: RBY IN NUSD
+|
+|-heal|p2a: EUROPE|22/100 tox|[from] item: Leftovers
+|-damage|p2a: EUROPE|3/100 tox|[from] psn
+|upkeep
+|
+|t:|1643505831
+|switch|p1a: NON FUKCABLE|Primeape, M|100/100
+|-damage|p1a: NON FUKCABLE|95/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1643505834
+|move|p1a: NON FUKCABLE|Close Combat|p2a: EUROPE
+|-supereffective|p2a: EUROPE
+|-damage|p2a: EUROPE|0 fnt
+|-unboost|p1a: NON FUKCABLE|def|1
+|-unboost|p1a: NON FUKCABLE|spd|1
+|faint|p2a: EUROPE
+|
+|upkeep
+|
+|t:|1643505838
+|switch|p2a: ASIA|Golurk|80/100
+|-damage|p2a: ASIA|68/100|[from] Spikes
+|-damage|p2a: ASIA|62/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1643505842
+|switch|p1a: BONES|Mandibuzz, F|41/100
+|-damage|p1a: BONES|16/100|[from] Stealth Rock
+|move|p2a: ASIA|Ice Punch|p1a: BONES
+|-supereffective|p1a: BONES
+|-damage|p1a: BONES|0 fnt
+|faint|p1a: BONES
+|-damage|p2a: ASIA|52/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643505844
+|switch|p1a: NUSD|Serperior, M|84/100
+|-damage|p1a: NUSD|72/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1643505852
+|move|p1a: NUSD|Substitute|p1a: NUSD
+|-start|p1a: NUSD|Substitute
+|-damage|p1a: NUSD|47/100
+|move|p2a: ASIA|Ice Punch|p1a: NUSD
+|-supereffective|p1a: NUSD
+|-end|p1a: NUSD|Substitute
+|-damage|p2a: ASIA|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|29
+|
+|t:|1643505855
+|move|p1a: NUSD|Giga Drain|p2a: ASIA
+|-supereffective|p2a: ASIA
+|-damage|p2a: ASIA|0 fnt
+|-heal|p1a: NUSD|70/100|[from] drain|[of] p2a: ASIA
+|faint|p2a: ASIA
+|-damage|p1a: NUSD|60/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643505862
+|switch|p2a: AUSTRALIA|Kangaskhan, F|70/100
+|-damage|p2a: AUSTRALIA|58/100|[from] Stealth Rock
+|-damage|p2a: AUSTRALIA|46/100|[from] Spikes
+|turn|30
+|
+|t:|1643505865
+|move|p2a: AUSTRALIA|Fake Out|p1a: NUSD
+|-crit|p1a: NUSD
+|-damage|p1a: NUSD|9/100
+|cant|p1a: NUSD|flinch
+|
+|upkeep
+|turn|31
+|c|☆Togkey|yikes
+|
+|t:|1643505873
+|move|p2a: AUSTRALIA|Sucker Punch||[still]
+|-fail|p2a: AUSTRALIA
+|move|p1a: NUSD|Calm Mind|p1a: NUSD
+|-boost|p1a: NUSD|spa|1
+|-boost|p1a: NUSD|spd|1
+|
+|upkeep
+|turn|32
+|
+|t:|1643505876
+|move|p2a: AUSTRALIA|Sucker Punch||[still]
+|-fail|p2a: AUSTRALIA
+|move|p1a: NUSD|Calm Mind|p1a: NUSD
+|-boost|p1a: NUSD|spa|1
+|-boost|p1a: NUSD|spd|1
+|
+|upkeep
+|turn|33
+|
+|t:|1643505879
+|move|p1a: NUSD|Calm Mind|p1a: NUSD
+|-boost|p1a: NUSD|spa|1
+|-boost|p1a: NUSD|spd|1
+|move|p2a: AUSTRALIA|Return|p1a: NUSD
+|-damage|p1a: NUSD|0 fnt
+|faint|p1a: NUSD
+|
+|upkeep
+|
+|t:|1643505880
+|switch|p1a: NON FUKCABLE|Primeape, M|95/100
+|-damage|p1a: NON FUKCABLE|89/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1643505883
+|move|p2a: AUSTRALIA|Sucker Punch|p1a: NON FUKCABLE
+|-resisted|p1a: NON FUKCABLE
+|-crit|p1a: NON FUKCABLE
+|-damage|p1a: NON FUKCABLE|40/100
+|move|p1a: NON FUKCABLE|Close Combat|p2a: AUSTRALIA
+|-supereffective|p2a: AUSTRALIA
+|-damage|p2a: AUSTRALIA|0 fnt
+|-unboost|p1a: NON FUKCABLE|def|1
+|-unboost|p1a: NON FUKCABLE|spd|1
+|faint|p2a: AUSTRALIA
+|
+|upkeep
+|
+|t:|1643505892
+|switch|p2a: NORTH AMERICA|Braviary, M|84/100
+|-damage|p2a: NORTH AMERICA|59/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1643505897
+|move|p1a: NON FUKCABLE|Close Combat|p2a: NORTH AMERICA
+|-damage|p2a: NORTH AMERICA|0 fnt
+|-unboost|p1a: NON FUKCABLE|def|1
+|-unboost|p1a: NON FUKCABLE|spd|1
+|faint|p2a: NORTH AMERICA
+|
+|upkeep
+|
+|t:|1643505901
+|switch|p2a: SOUTH AMERICA|Seismitoad, M|66/100
+|-damage|p2a: SOUTH AMERICA|60/100|[from] Stealth Rock
+|-damage|p2a: SOUTH AMERICA|48/100|[from] Spikes
+|turn|36
+|
+|t:|1643505903
+|move|p1a: NON FUKCABLE|Close Combat|p2a: SOUTH AMERICA
+|-damage|p2a: SOUTH AMERICA|0 fnt
+|-unboost|p1a: NON FUKCABLE|def|1
+|-unboost|p1a: NON FUKCABLE|spd|1
+|faint|p2a: SOUTH AMERICA
+|
+|win|Togkey
+|c|☆Togkey|gg
+|c|+daniYSB|Omg
+|c|+kiyo|TOG
+|c|+daniYSB|so good
+|c|+thekingkarp|goat
+|player|p2|CB AARON JUDGE|juan-gen3
+|player|p1|Togkey|firebreather-gen2
+|player|p2|
+|player|p2|CB AARON JUDGE|juan-gen3
+|player|p1|
+|player|p2|
+|player|p2|CB AARON JUDGE|juan-gen3

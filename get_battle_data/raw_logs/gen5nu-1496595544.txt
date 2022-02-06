@@ -1,0 +1,262 @@
+|j|☆Sir Lechen
+|j|☆Sir GrandMaster
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642896199
+|gametype|singles
+|player|p1|Sir Lechen|psychic-gen3|
+|player|p2|Sir GrandMaster|ghetsis|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Samurott, M|item
+|poke|p1|Misdreavus, M|item
+|poke|p2|Golem, F|item
+|poke|p2|Musharna, M|item
+|poke|p2|Swellow, F|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Alomomola, F|item
+|poke|p2|Gurdurr, F|item
+|teampreview
+|j|*Lady Monita ❄
+|c|☆Sir Lechen|Hf
+|c|☆Sir GrandMaster|Hfgl
+|
+|t:|1642896215
+|start
+|switch|p1a: Narcissus|Serperior, M|100/100
+|switch|p2a: Swellow|Swellow, F|100/100
+|turn|1
+|
+|t:|1642896224
+|move|p2a: Swellow|Brave Bird|p1a: Narcissus
+|-supereffective|p1a: Narcissus
+|-crit|p1a: Narcissus
+|-damage|p1a: Narcissus|0 fnt
+|faint|p1a: Narcissus
+|-damage|p2a: Swellow|56/100|[from] Recoil
+|
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|c|☆Sir Lechen|Ok
+|c|☆Sir Lechen|i always thought swallow was 100 base speed
+|c|☆Sir Lechen|lmao
+|inactive|Sir Lechen has 120 seconds left.
+|
+|t:|1642896254
+|switch|p1a: Cloacitina|Garbodor, F|100/100
+|turn|2
+|
+|t:|1642896260
+|move|p2a: Swellow|Facade|p1a: Cloacitina
+|-damage|p1a: Cloacitina|33/100
+|-damage|p2a: Swellow|39/100 tox|[from] item: Rocky Helmet|[of] p1a: Cloacitina
+|move|p1a: Cloacitina|Spikes|p2a: Swellow
+|-sidestart|p2: Sir GrandMaster|Spikes
+|
+|-damage|p2a: Swellow|33/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1642896266
+|move|p2a: Swellow|Facade|p1a: Cloacitina
+|-damage|p1a: Cloacitina|0 fnt
+|-damage|p2a: Swellow|8/100 tox|[from] ability: Aftermath|[of] p1a: Cloacitina
+|-damage|p2a: Swellow|0 fnt|[from] item: Rocky Helmet|[of] p1a: Cloacitina
+|faint|p2a: Swellow
+|faint|p1a: Cloacitina
+|
+|upkeep
+|
+|t:|1642896278
+|switch|p2a: Golem|Golem, F|100/100
+|switch|p1a: Hephaestus|Charizard, M|100/100
+|-damage|p2a: Golem|88/100|[from] Spikes
+|turn|4
+|
+|t:|1642896285
+|switch|p1a: Poseidon|Samurott, M|100/100
+|switch|p2a: Musharna|Musharna, M|100/100
+|-damage|p2a: Musharna|88/100|[from] Spikes
+|
+|-heal|p2a: Musharna|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1642896302
+|move|p1a: Poseidon|Swords Dance|p1a: Poseidon
+|-boost|p1a: Poseidon|atk|2
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642896311
+|move|p1a: Poseidon|Megahorn|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|4/100
+|move|p2a: Musharna|Psyshock|p1a: Poseidon
+|-damage|p1a: Poseidon|55/100
+|
+|-heal|p2a: Musharna|10/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Sir Lechen|Bruh
+|c|☆Sir Lechen|thats supposed to die
+|j| c473rp13
+|
+|t:|1642896327
+|move|p1a: Poseidon|Razor Shell|p2a: Musharna
+|-crit|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|upkeep
+|c|☆Sir GrandMaster|Was max def and hp
+|inactive|Sir GrandMaster has 120 seconds left.
+|
+|t:|1642896365
+|switch|p2a: Gurdurr|Gurdurr, F|100/100
+|-damage|p2a: Gurdurr|88/100|[from] Spikes
+|turn|8
+|
+|t:|1642896370
+|move|p1a: Poseidon|Razor Shell|p2a: Gurdurr
+|-crit|p2a: Gurdurr
+|-damage|p2a: Gurdurr|0 fnt
+|faint|p2a: Gurdurr
+|
+|upkeep
+|
+|t:|1642896377
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|turn|9
+|
+|t:|1642896382
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Poseidon|Swords Dance|p1a: Poseidon
+|-boost|p1a: Poseidon|atk|2
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1642896386
+|move|p1a: Poseidon|Megahorn|p2a: Alomomola
+|-damage|p2a: Alomomola|34/100
+|move|p2a: Alomomola|Toxic|p1a: Poseidon
+|-status|p1a: Poseidon|tox
+|-enditem|p1a: Poseidon|Lum Berry|[eat]
+|-curestatus|p1a: Poseidon|tox|[msg]
+|
+|-heal|p2a: Alomomola|40/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1642896395
+|move|p1a: Poseidon|Megahorn|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|c|☆Sir GrandMaster|Gh
+|
+|t:|1642896404
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Spikes
+|turn|12
+|c|☆Sir Lechen|Nah
+|c|☆Sir GrandMaster|Gg
+|c|☆Sir Lechen|ludi outspends me
+|c|☆Sir GrandMaster|It does not miss
+|c|☆Sir Lechen|*outspeeds
+|c|☆Sir Lechen|It’s 85 acc
+|j| joey milktank
+|inactive|Sir Lechen has 120 seconds left.
+|c|☆Sir Lechen|which isn’t rly bad
+|
+|t:|1642896440
+|move|p2a: Ludicolo|Giga Drain|p1a: Poseidon
+|-supereffective|p1a: Poseidon
+|-crit|p1a: Poseidon
+|-damage|p1a: Poseidon|0 fnt
+|-heal|p2a: Ludicolo|100/100|[from] drain|[of] p1a: Poseidon
+|faint|p1a: Poseidon
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Sir Lechen has 120 seconds left.
+|c|☆Sir Lechen|See?
+|c|☆Sir Lechen|i die to ludi
+|
+|t:|1642896452
+|switch|p1a: Hephaestus|Charizard, M|100/100
+|turn|13
+|inactive|Sir Lechen has 120 seconds left.
+|c|☆Sir GrandMaster|U went for max hp?
+|l| c473rp13
+|c|☆Sir Lechen|No
+|
+|t:|1642896470
+|move|p1a: Hephaestus|Acrobatics|p2a: Ludicolo
+|-enditem|p1a: Hephaestus|Flying Gem|[from] gem
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|upkeep
+|
+|t:|1642896474
+|switch|p2a: Golem|Golem, F|88/100
+|-damage|p2a: Golem|76/100|[from] Spikes
+|turn|14
+|
+|t:|1642896481
+|move|p1a: Hephaestus|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|34/100
+|move|p2a: Golem|Rock Blast|p1a: Hephaestus
+|-supereffective|p1a: Hephaestus
+|-damage|p1a: Hephaestus|32/100
+|-supereffective|p1a: Hephaestus
+|-damage|p1a: Hephaestus|0 fnt
+|faint|p1a: Hephaestus
+|-hitcount|p1: Hephaestus|2
+|
+|upkeep
+|
+|t:|1642896487
+|switch|p1a: Hades|Misdreavus, M|100/100
+|turn|15
+|
+|t:|1642896495
+|move|p1a: Hades|Shadow Ball|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|win|Sir Lechen
+|n|☆Sir Lechen|sirlechen
+|n|☆Sir GrandMaster|sirgrandmaster
+|n|*Lady Monita ❄|ladymonita
+|n| joey milktank|joeymilktank

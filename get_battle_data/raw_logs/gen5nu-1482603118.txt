@@ -1,0 +1,430 @@
+|j|☆Ziozkz
+|j|☆5Dots
+|t:|1640900739
+|gametype|singles
+|player|p1|Ziozkz|169|
+|player|p2|5Dots|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Primeape, F|item
+|poke|p1|Cacturne, F|item
+|poke|p1|Drifblim, M|item
+|poke|p2|Probopass, M|item
+|poke|p2|Sawk, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Tangela, M|item
+|poke|p2|Weezing, M|item
+|poke|p2|Swellow, F|item
+|teampreview
+|
+|t:|1640900745
+|start
+|switch|p1a: Band|Cacturne, F|100/100
+|switch|p2a: Mario|Probopass, M, shiny|100/100
+|turn|1
+|
+|t:|1640900763
+|move|p1a: Band|Spikes|p2a: Mario
+|-sidestart|p2: 5Dots|Spikes
+|move|p2a: Mario|Thunder Wave|p1a: Band
+|-status|p1a: Band|par
+|
+|upkeep
+|turn|2
+|
+|t:|1640900766
+|switch|p2a: Rathalos|Charizard, F|100/100
+|move|p1a: Band|Spikes|p2a: Rathalos
+|-sidestart|p2: 5Dots|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1640900770
+|move|p2a: Rathalos|Fire Blast|p1a: Band
+|-supereffective|p1a: Band
+|-enditem|p1a: Band|Focus Sash
+|-damage|p1a: Band|1/100 par
+|-damage|p2a: Rathalos|91/100|[from] item: Life Orb
+|move|p1a: Band|Cotton Spore|p2a: Rathalos
+|-unboost|p2a: Rathalos|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1640900780
+|move|p2a: Rathalos|Hidden Power|p1a: Band
+|-resisted|p1a: Band
+|-damage|p1a: Band|0 fnt
+|faint|p1a: Band
+|-damage|p2a: Rathalos|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640900786
+|switch|p1a: Special Taunt|Samurott, M|100/100
+|turn|5
+|j|@Oathkeeper
+|
+|t:|1640900800
+|switch|p2a: A Tangled Story|Tangela, M|100/100
+|-damage|p2a: A Tangled Story|84/100|[from] Spikes
+|move|p1a: Special Taunt|Megahorn|p2a: A Tangled Story
+|-supereffective|p2a: A Tangled Story
+|-damage|p2a: A Tangled Story|50/100
+|
+|upkeep
+|turn|6
+|
+|t:|1640900804
+|switch|p1a: Scarf|Garbodor, F|100/100
+|move|p2a: A Tangled Story|Sleep Powder|p1a: Scarf
+|-status|p1a: Scarf|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|
+|t:|1640900811
+|switch|p1a: Special Taunt|Samurott, M|100/100
+|switch|p2a: Mario|Probopass, M, shiny|100/100
+|-damage|p2a: Mario|84/100|[from] Spikes
+|
+|-heal|p2a: Mario|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1640900815
+|move|p1a: Special Taunt|Swords Dance|p1a: Special Taunt
+|-boost|p1a: Special Taunt|atk|2
+|move|p2a: Mario|Thunder Wave|p1a: Special Taunt
+|-status|p1a: Special Taunt|par
+|-enditem|p1a: Special Taunt|Lum Berry|[eat]
+|-curestatus|p1a: Special Taunt|par|[msg]
+|
+|-heal|p2a: Mario|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1640900828
+|switch|p2a: A Tangled Story|Tangela, M|84/100
+|-damage|p2a: A Tangled Story|67/100|[from] Spikes
+|move|p1a: Special Taunt|Razor Shell|p2a: A Tangled Story
+|-resisted|p2a: A Tangled Story
+|-damage|p2a: A Tangled Story|50/100
+|-unboost|p2a: A Tangled Story|def|1
+|
+|upkeep
+|turn|10
+|j| joey milktank
+|
+|t:|1640900835
+|switch|p2a: Cough Wheeze|Weezing, M|100/100
+|move|p1a: Special Taunt|Megahorn|p2a: Cough Wheeze
+|-resisted|p2a: Cough Wheeze
+|-damage|p2a: Cough Wheeze|76/100
+|
+|-heal|p2a: Cough Wheeze|82/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1640900840
+|move|p1a: Special Taunt|Razor Shell|p2a: Cough Wheeze
+|-damage|p2a: Cough Wheeze|33/100
+|-unboost|p2a: Cough Wheeze|def|1
+|move|p2a: Cough Wheeze|Will-O-Wisp|p1a: Special Taunt|[miss]
+|-miss|p2a: Cough Wheeze|p1a: Special Taunt
+|
+|-heal|p2a: Cough Wheeze|39/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1640900856
+|move|p1a: Special Taunt|Razor Shell|p2a: Cough Wheeze
+|-damage|p2a: Cough Wheeze|0 fnt
+|faint|p2a: Cough Wheeze
+|
+|upkeep
+|
+|t:|1640900859
+|switch|p2a: Bert|Sawk, M, shiny|100/100
+|-damage|p2a: Bert|84/100|[from] Spikes
+|-ability|p2a: Bert|Mold Breaker
+|turn|13
+|
+|t:|1640900864
+|switch|p1a: Scarf|Garbodor, F|100/100 slp
+|move|p2a: Bert|Close Combat|p1a: Scarf
+|-resisted|p1a: Scarf
+|-damage|p1a: Scarf|43/100 slp
+|-unboost|p2a: Bert|def|1
+|-unboost|p2a: Bert|spd|1
+|-damage|p2a: Bert|68/100|[from] item: Rocky Helmet|[of] p1a: Scarf
+|
+|upkeep
+|turn|14
+|
+|t:|1640900870
+|switch|p2a: Rathalos|Charizard, F|81/100
+|switch|p1a: Salac Berry|Drifblim, M|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1640900882
+|switch|p1a: Scarf|Garbodor, F|43/100 slp
+|move|p2a: Rathalos|Air Slash|p1a: Scarf
+|-damage|p1a: Scarf|0 fnt
+|faint|p1a: Scarf
+|-damage|p2a: Rathalos|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640900894
+|switch|p1a: WishTect|Kangaskhan, F|100/100
+|turn|16
+|
+|t:|1640900899
+|switch|p2a: A Tangled Story|Tangela, M|83/100
+|-damage|p2a: A Tangled Story|67/100|[from] Spikes
+|move|p1a: WishTect|Fake Out|p2a: A Tangled Story
+|-damage|p2a: A Tangled Story|57/100
+|
+|upkeep
+|turn|17
+|
+|t:|1640900912
+|switch|p1a: Sash|Primeape, F|100/100
+|move|p2a: A Tangled Story|Giga Drain|p1a: Sash
+|-damage|p1a: Sash|60/100
+|-heal|p2a: A Tangled Story|74/100|[from] drain|[of] p1a: Sash
+|
+|upkeep
+|turn|18
+|
+|t:|1640900929
+|move|p1a: Sash|Taunt|p2a: A Tangled Story
+|-start|p2a: A Tangled Story|move: Taunt
+|move|p2a: A Tangled Story|Giga Drain|p1a: Sash
+|-damage|p1a: Sash|16/100
+|-heal|p2a: A Tangled Story|92/100|[from] drain|[of] p1a: Sash
+|
+|upkeep
+|turn|19
+|
+|t:|1640900935
+|move|p1a: Sash|U-turn|p2a: A Tangled Story
+|-supereffective|p2a: A Tangled Story
+|-damage|p2a: A Tangled Story|68/100
+|-damage|p1a: Sash|6/100|[from] item: Life Orb
+|
+|t:|1640900938
+|switch|p1a: Salac Berry|Drifblim, M|100/100|[from]move: U-turn
+|move|p2a: A Tangled Story|Giga Drain|p1a: Salac Berry
+|-resisted|p1a: Salac Berry
+|-damage|p1a: Salac Berry|85/100
+|-heal|p2a: A Tangled Story|79/100|[from] drain|[of] p1a: Salac Berry
+|
+|upkeep
+|turn|20
+|
+|t:|1640900945
+|switch|p2a: Rathalos|Charizard, F|71/100
+|move|p1a: Salac Berry|Thunderbolt|p2a: Rathalos
+|-supereffective|p2a: Rathalos
+|-damage|p2a: Rathalos|0 fnt
+|faint|p2a: Rathalos
+|
+|upkeep
+|
+|t:|1640900949
+|switch|p2a: Mario|Probopass, M, shiny|96/100
+|-damage|p2a: Mario|80/100|[from] Spikes
+|turn|21
+|
+|t:|1640900955
+|switch|p1a: Sash|Primeape, F|6/100
+|move|p2a: Mario|Thunder Wave|p1a: Sash
+|-status|p1a: Sash|par
+|
+|-heal|p2a: Mario|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1640900962
+|move|p2a: Mario|Volt Switch|p1a: Sash
+|-damage|p1a: Sash|0 fnt
+|faint|p1a: Sash
+|
+|t:|1640900968
+|switch|p2a: Very Happy|Swellow, F|100/100|[from]move: Volt Switch
+|
+|-status|p2a: Very Happy|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1640900974
+|switch|p1a: Special Taunt|Samurott, M|100/100
+|turn|23
+|
+|t:|1640900983
+|move|p2a: Very Happy|Facade|p1a: Special Taunt
+|-damage|p1a: Special Taunt|21/100
+|move|p1a: Special Taunt|Swords Dance|p1a: Special Taunt
+|-boost|p1a: Special Taunt|atk|2
+|
+|-damage|p2a: Very Happy|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1640900988
+|move|p2a: Very Happy|Quick Attack|p1a: Special Taunt
+|-damage|p1a: Special Taunt|0 fnt
+|faint|p1a: Special Taunt
+|
+|-damage|p2a: Very Happy|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1640900991
+|switch|p1a: WishTect|Kangaskhan, F|100/100
+|turn|25
+|
+|t:|1640900995
+|switch|p2a: Mario|Probopass, M, shiny|86/100
+|-damage|p2a: Mario|69/100|[from] Spikes
+|move|p1a: WishTect|Fake Out|p2a: Mario
+|-resisted|p2a: Mario
+|-damage|p2a: Mario|65/100
+|
+|-heal|p2a: Mario|71/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1640900999
+|switch|p2a: A Tangled Story|Tangela, M|100/100
+|-damage|p2a: A Tangled Story|84/100|[from] Spikes
+|move|p1a: WishTect|Earthquake|p2a: A Tangled Story
+|-resisted|p2a: A Tangled Story
+|-damage|p2a: A Tangled Story|78/100
+|
+|upkeep
+|turn|27
+|
+|t:|1640901002
+|move|p1a: WishTect|Double-Edge|p2a: A Tangled Story
+|-damage|p2a: A Tangled Story|52/100
+|-damage|p1a: WishTect|92/100|[from] Recoil
+|move|p2a: A Tangled Story|Sleep Powder|p1a: WishTect
+|-status|p1a: WishTect|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|28
+|
+|t:|1640901006
+|switch|p1a: Salac Berry|Drifblim, M|85/100
+|move|p2a: A Tangled Story|Knock Off|p1a: Salac Berry
+|-supereffective|p1a: Salac Berry
+|-damage|p1a: Salac Berry|78/100
+|-enditem|p1a: Salac Berry|Flying Gem|[from] move: Knock Off|[of] p2a: A Tangled Story
+|
+|upkeep
+|turn|29
+|
+|t:|1640901012
+|switch|p2a: Mario|Probopass, M, shiny|71/100
+|-damage|p2a: Mario|55/100|[from] Spikes
+|move|p1a: Salac Berry|Calm Mind|p1a: Salac Berry
+|-boost|p1a: Salac Berry|spa|1
+|-boost|p1a: Salac Berry|spd|1
+|
+|-heal|p2a: Mario|61/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1640901017
+|move|p1a: Salac Berry|Thunderbolt|p2a: Mario
+|-damage|p2a: Mario|35/100
+|move|p2a: Mario|Thunder Wave|p1a: Salac Berry
+|-status|p1a: Salac Berry|par
+|
+|-heal|p2a: Mario|42/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1640901023
+|move|p1a: Salac Berry|Thunderbolt|p2a: Mario
+|-damage|p2a: Mario|18/100
+|-status|p2a: Mario|par
+|move|p2a: Mario|Stealth Rock|p1a: Salac Berry
+|-sidestart|p1: Ziozkz|move: Stealth Rock
+|
+|-heal|p2a: Mario|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1640901028
+|cant|p1a: Salac Berry|par
+|cant|p2a: Mario|par
+|
+|-heal|p2a: Mario|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1640901031
+|move|p1a: Salac Berry|Thunderbolt|p2a: Mario
+|-damage|p2a: Mario|5/100 par
+|move|p2a: Mario|Volt Switch|p1a: Salac Berry
+|-supereffective|p1a: Salac Berry
+|-crit|p1a: Salac Berry
+|-damage|p1a: Salac Berry|10/100 par
+|
+|t:|1640901038
+|switch|p2a: Very Happy|Swellow, F|82/100 tox|[from]move: Volt Switch
+|
+|-damage|p2a: Very Happy|76/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1640901040
+|move|p2a: Very Happy|Brave Bird|p1a: Salac Berry
+|-damage|p1a: Salac Berry|0 fnt
+|faint|p1a: Salac Berry
+|-damage|p2a: Very Happy|70/100 tox|[from] Recoil
+|
+|-damage|p2a: Very Happy|58/100 tox|[from] psn
+|upkeep
+|
+|t:|1640901042
+|switch|p1a: WishTect|Kangaskhan, F|92/100 slp
+|-damage|p1a: WishTect|80/100 slp|[from] Stealth Rock
+|turn|35
+|
+|t:|1640901045
+|cant|p1a: WishTect|slp
+|move|p2a: Very Happy|Facade|p1a: WishTect
+|-damage|p1a: WishTect|0 fnt
+|faint|p1a: WishTect
+|
+|win|5Dots
+|n|☆Ziozkz|ziozkz
+|n|☆5Dots|5dots
+|n|+Oathkeeper|oathkeeper
+|n| joey milktank|joeymilktank
+|c|☆5Dots|Ggs
+|c|☆Ziozkz|gg
+|l|☆Ziozkz

@@ -1,0 +1,518 @@
+|j|☆Kfc chizza
+|j|☆Nal or Ium? ⧳
+|t:|1639146723
+|gametype|singles
+|player|p1|Kfc chizza|unknown|
+|player|p2|Nal or Ium? ⧳|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowpoke, L5, F|item
+|poke|p1|Snover, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p2|Drifloon, L5, M|item
+|poke|p2|Shellder, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Vullaby, L5, F|item
+|poke|p2|Frillish, L5, F|item
+|teampreview
+|c|☆Kfc chizza|Hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kfc chizza)
+|j| ArnAndersonsGlock
+|j| freezai
+|j| Piyush21
+|c|☆Nal or Ium? ⧳|=
+|inactive|Kfc chizza has 270 seconds left.
+|j|+ninjadog
+|
+|t:|1639146774
+|start
+|switch|p1a: Snover|Snover, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|1
+|
+|t:|1639146784
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p2a: Mienfoo|U-turn|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|92/100
+|j| A Departed Dream
+|
+|t:|1639146807
+|switch|p2a: Frillish|Frillish, L5, F, shiny|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|87/100|[from] Hail
+|-damage|p2a: Frillish|96/100|[from] Hail
+|upkeep
+|turn|2
+|j| KSG
+|j| daunt vs
+|l| Piyush21
+|
+|t:|1639146821
+|move|p1a: Mienfoo|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|80/100
+|-enditem|p2a: Frillish|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|53/100|[from] Hail
+|-damage|p2a: Frillish|76/100|[from] Hail
+|upkeep
+|turn|3
+|c| daunt vs|Nalorium das asco
+|
+|t:|1639146828
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|64/100
+|c| daunt vs|tira f y deja mons
+|l| KSG
+|j| tazz
+|c|☆Nal or Ium? ⧳|porfavor deja de degradarme
+|
+|t:|1639146850
+|switch|p1a: Natu|Natu, L5, M|100/100|[from]move: U-turn
+|move|p2a: Frillish|Scald|p1a: Natu
+|-damage|p1a: Natu|61/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|57/100|[from] Hail
+|-damage|p2a: Frillish|60/100|[from] Hail
+|upkeep
+|turn|4
+|j| Mello Keehl
+|j| Piyush21
+|l| daunt vs
+|inactive|Nal or Ium? ⧳ has 270 seconds left.
+|j| Axelsior
+|j| derzasneknmahboot
+|j| Zephyri
+|
+|t:|1639146910
+|switch|p2a: Vullaby|Vullaby, L5, F, shiny|100/100
+|move|p1a: Natu|Giga Drain|p2a: Vullaby
+|-resisted|p2a: Vullaby
+|-damage|p2a: Vullaby|92/100
+|-heal|p1a: Natu|61/100|[from] drain|[of] p2a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|57/100|[from] Hail
+|-damage|p2a: Vullaby|87/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1639146923
+|move|p1a: Natu|U-turn|p2a: Vullaby
+|-damage|p2a: Vullaby|70/100
+|-ability|p2a: Vullaby|Weak Armor|boost
+|-unboost|p2a: Vullaby|def|1
+|-boost|p2a: Vullaby|spe|1
+|j|+Raj.Shoot
+|
+|t:|1639146935
+|switch|p1a: Magnemite|Magnemite, L5|100/100|[from]move: U-turn
+|move|p2a: Vullaby|Air Slash|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|85/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|79/100|[from] Hail
+|-damage|p2a: Vullaby|66/100|[from] Hail
+|upkeep
+|turn|6
+|inactive|Nal or Ium? ⧳ has 240 seconds left.
+|l|+Raj.Shoot
+|j|+Raj.Shoot
+|inactive|Nal or Ium? ⧳ has 210 seconds left.
+|
+|t:|1639146988
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Magnemite|Flash Cannon|p2a: Drilbur
+|-damage|p2a: Drilbur|57/100
+|-unboost|p2a: Drilbur|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|74/100|[from] Hail
+|-damage|p2a: Drilbur|53/100|[from] Hail
+|upkeep
+|turn|7
+|inactive|Nal or Ium? ⧳ has 210 seconds left.
+|inactive|Kfc chizza has 270 seconds left.
+|
+|t:|1639147018
+|switch|p2a: Frillish|Frillish, L5, F, shiny|60/100
+|move|p1a: Magnemite|Flash Cannon|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|36/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|69/100|[from] Hail
+|-damage|p2a: Frillish|32/100|[from] Hail
+|upkeep
+|turn|8
+|inactive|Kfc chizza has 270 seconds left.
+|j| daunt vs
+|c| derzasneknmahboot|lets go
+|
+|t:|1639147052
+|switch|p1a: Snover|Snover, L5, M|100/100
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|84/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|80/100|[from] Hail
+|upkeep
+|turn|9
+|c| daunt vs|Nalorium como esta siéndo tu día bro
+|c|☆Nal or Ium? ⧳|malisimo
+|l| Zephyri
+|
+|t:|1639147074
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|move|p1a: Snover|Blizzard|p2a: Mienfoo
+|-damage|p2a: Mienfoo|60/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|55/100|[from] Hail
+|upkeep
+|turn|10
+|c| daunt vs|culpa de wail (rata)?
+|
+|t:|1639147098
+|switch|p1a: Mienfoo|Mienfoo, L5, F|83/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|31/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|50/100|[from] Hail
+|-damage|p1a: Mienfoo|27/100|[from] Hail
+|upkeep
+|turn|11
+|inactive|Kfc chizza has 240 seconds left.
+|inactive|Nal or Ium? ⧳ has 180 seconds left.
+|l| daunt vs
+|
+|t:|1639147142
+|switch|p2a: Frillish|Frillish, L5, F, shiny|80/100
+|move|p1a: Mienfoo|Fake Out|p2a: Frillish
+|-immune|p2a: Frillish
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|22/100|[from] Hail
+|-damage|p2a: Frillish|76/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1639147147
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|64/100
+|inactive|Kfc chizza has 210 seconds left.
+|
+|t:|1639147179
+|switch|p1a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|move|p2a: Frillish|Shadow Ball|p1a: Snover
+|-damage|p1a: Snover|41/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|60/100|[from] Hail
+|upkeep
+|turn|13
+|inactive|Nal or Ium? ⧳ has 180 seconds left.
+|
+|t:|1639147205
+|switch|p2a: Vullaby|Vullaby, L5, F, shiny|66/100
+|move|p1a: Snover|Giga Drain|p2a: Vullaby
+|-resisted|p2a: Vullaby
+|-damage|p2a: Vullaby|53/100
+|-heal|p1a: Snover|50/100|[from] drain|[of] p2a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vullaby|48/100|[from] Hail
+|upkeep
+|turn|14
+|
+|t:|1639147216
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Vullaby|Heat Wave|p1a: Drilbur
+|-damage|p1a: Drilbur|66/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|61/100|[from] Hail
+|-damage|p2a: Vullaby|44/100|[from] Hail
+|upkeep
+|turn|15
+|inactive|Nal or Ium? ⧳ has 180 seconds left.
+|
+|t:|1639147239
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|82/100
+|move|p1a: Drilbur|Stealth Rock|p2a: Mienfoo
+|-sidestart|p2: Nal or Ium? ⧳|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|57/100|[from] Hail
+|-damage|p2a: Mienfoo|78/100|[from] Hail
+|upkeep
+|turn|16
+|
+|t:|1639147249
+|switch|p1a: Slowpoke|Slowpoke, L5, F, shiny|100/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|82/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|73/100|[from] Hail
+|-damage|p1a: Slowpoke|78/100|[from] Hail
+|upkeep
+|turn|17
+|
+|t:|1639147257
+|move|p2a: Mienfoo|U-turn|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|49/100
+|j| THEREALCRISTIANOR7
+|
+|t:|1639147282
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|53/100|[from]move: U-turn
+|-damage|p2a: Drilbur|48/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Slowpoke|Thunder Wave|p2a: Drilbur
+|-immune|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|44/100|[from] Hail
+|-damage|p1a: Slowpoke|45/100|[from] Hail
+|upkeep
+|turn|18
+|inactive|Nal or Ium? ⧳ has 150 seconds left.
+|
+|t:|1639147317
+|move|p2a: Drilbur|Rapid Spin|p1a: Slowpoke
+|-damage|p1a: Slowpoke|38/100
+|-sideend|p2: Nal or Ium? ⧳|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Drilbur
+|move|p1a: Slowpoke|Scald|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Slowpoke|34/100|[from] Hail
+|upkeep
+|inactive|Nal or Ium? ⧳ has 120 seconds left.
+|j|+Levi
+|
+|t:|1639147364
+|switch|p2a: Drifloon|Drifloon, L5, M, shiny|100/100
+|turn|19
+|j| leSAHquelplaisir
+|
+|t:|1639147382
+|move|p2a: Drifloon|Acrobatics|p1a: Slowpoke
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|97/100|[from] Hail
+|upkeep
+|l| Mello Keehl
+|inactive|Kfc chizza has 210 seconds left.
+|j| Mello Keehl
+|l|+Levi
+|
+|t:|1639147400
+|switch|p1a: Magnemite|Magnemite, L5|69/100
+|turn|20
+|
+|t:|1639147417
+|move|p2a: Drifloon|Hidden Power|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|93/100|[from] Hail
+|upkeep
+|j| daunt vs
+|inactive|Kfc chizza has 210 seconds left.
+|
+|t:|1639147433
+|switch|p1a: Drilbur|Drilbur, L5, M|57/100
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|21
+|c| daunt vs|Kien te ha filtrao el team?
+|inactive|Nal or Ium? ⧳ has 90 seconds left.
+|
+|t:|1639147482
+|move|p2a: Drifloon|Will-O-Wisp|p1a: Drilbur
+|-status|p1a: Drilbur|brn
+|move|p1a: Drilbur|Rock Slide|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|47/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|43/100|[from] Hail
+|-damage|p1a: Drilbur|53/100 brn|[from] Hail
+|-damage|p1a: Drilbur|44/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1639147496
+|move|p2a: Drifloon|Acrobatics|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|39/100|[from] Hail
+|upkeep
+|
+|t:|1639147497
+|switch|p1a: Snover|Snover, L5, M|50/100
+|turn|23
+|l| daunt vs
+|inactive|Nal or Ium? ⧳ has 90 seconds left.
+|
+|t:|1639147511
+|move|p1a: Snover|Ice Shard|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|j| daunt vs
+|
+|t:|1639147514
+|switch|p2a: Shellder|Shellder, L5, M, shiny|100/100
+|turn|24
+|
+|t:|1639147520
+|switch|p1a: Mienfoo|Mienfoo, L5, F|53/100
+|move|p2a: Shellder|Shell Smash|p2a: Shellder
+|-unboost|p2a: Shellder|def|1
+|-unboost|p2a: Shellder|spd|1
+|-boost|p2a: Shellder|atk|2
+|-boost|p2a: Shellder|spa|2
+|-boost|p2a: Shellder|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shellder|95/100|[from] Hail
+|-damage|p1a: Mienfoo|48/100|[from] Hail
+|upkeep
+|turn|25
+|
+|t:|1639147523
+|move|p2a: Shellder|Protect|p2a: Shellder
+|-singleturn|p2a: Shellder|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Shellder
+|-activate|p2a: Shellder|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shellder|90/100|[from] Hail
+|-damage|p1a: Mienfoo|44/100|[from] Hail
+|upkeep
+|turn|26
+|
+|t:|1639147527
+|switch|p1a: Natu|Natu, L5, M|57/100
+|move|p2a: Shellder|Icicle Spear|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|22/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|-hitcount|p1: Natu|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shellder|85/100|[from] Hail
+|upkeep
+|
+|t:|1639147530
+|switch|p1a: Mienfoo|Mienfoo, L5, F|74/100
+|turn|27
+|
+|t:|1639147542
+|move|p2a: Shellder|Protect|p2a: Shellder
+|-singleturn|p2a: Shellder|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Shellder
+|-activate|p2a: Shellder|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shellder|80/100|[from] Hail
+|-damage|p1a: Mienfoo|70/100|[from] Hail
+|upkeep
+|turn|28
+|
+|t:|1639147544
+|move|p2a: Shellder|Icicle Spear|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|-damage|p1a: Mienfoo|44/100
+|-damage|p1a: Mienfoo|31/100
+|-damage|p1a: Mienfoo|18/100
+|-damage|p1a: Mienfoo|5/100
+|-hitcount|p1a: Mienfoo|5
+|move|p1a: Mienfoo|High Jump Kick|p2a: Shellder
+|-damage|p2a: Shellder|0 fnt
+|faint|p2a: Shellder
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|0 fnt|[from] Hail
+|faint|p1a: Mienfoo
+|upkeep
+|inactive|Kfc chizza has 270 seconds left.
+|inactive|Nal or Ium? ⧳ has 150 seconds left.
+|
+|t:|1639147554
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|switch|p1a: Snover|Snover, L5, M|50/100
+|turn|29
+|
+|t:|1639147557
+|move|p2a: Mienfoo|Fake Out|p1a: Snover
+|-damage|p1a: Snover|28/100
+|cant|p1a: Snover|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Hail
+|upkeep
+|turn|30
+|
+|t:|1639147568
+|move|p1a: Snover|Blizzard|p2a: Mienfoo
+|-damage|p2a: Mienfoo|41/100
+|move|p2a: Mienfoo|U-turn|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|win|Nal or Ium? ⧳
+|c|☆Nal or Ium? ⧳|gg
+|c|☆Kfc chizza|gg
+|l| ArnAndersonsGlock
+|l| Axelsior
+|l|+Raj.Shoot
+|l| daunt vs
+|l|☆Kfc chizza
+|l|+ninjadog
+|l| Mello Keehl

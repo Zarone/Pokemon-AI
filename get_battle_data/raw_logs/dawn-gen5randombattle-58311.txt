@@ -1,0 +1,241 @@
+|j|☆pokemonkorea co kr
+|j|☆Lusabot
+|t:|1643897220
+|gametype|singles
+|player|p1|pokemonkorea co kr|wally|
+|player|p2|Lusabot|lusabot.png|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] Random Battle
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|t:|1643897220
+|start
+|switch|p1a: Articuno|Articuno, L90|307/307
+|switch|p2a: Ninjask|Ninjask, L86, M|245/245
+|-ability|p1a: Articuno|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lusabot)
+|
+|t:|1643897228
+|switch|p2a: Registeel|Registeel, L82|265/265
+|move|p1a: Articuno|Ice Beam|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|229/265
+|
+|-heal|p2a: Registeel|245/265|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643897234
+|switch|p1a: Sawk|Sawk, L86, M|269/269
+|move|p2a: Registeel|Iron Head|p1a: Sawk
+|-damage|p1a: Sawk|193/269
+|
+|-heal|p2a: Registeel|261/265|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643897236
+|switch|p2a: Ninjask|Ninjask, L86, M|245/245
+|move|p1a: Sawk|Stone Edge|p2a: Ninjask|[miss]
+|-miss|p1a: Sawk|p2a: Ninjask
+|
+|upkeep
+|turn|4
+|
+|t:|1643897241
+|switch|p1a: Articuno|Articuno, L90|307/307
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Ninjask|Aerial Ace|p1a: Articuno
+|-damage|p1a: Articuno|255/307
+|
+|-heal|p1a: Articuno|274/307|[from] item: Leftovers
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|5
+|
+|t:|1643897245
+|switch|p2a: Registeel|Registeel, L82|261/265
+|switch|p1a: Sawk|Sawk, L86, M|193/269
+|
+|-heal|p2a: Registeel|265/265|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643897247
+|switch|p2a: Ninjask|Ninjask, L86, M|245/245
+|move|p1a: Sawk|Stone Edge|p2a: Ninjask
+|-supereffective|p2a: Ninjask
+|-crit|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|
+|t:|1643897247
+|switch|p2a: Thundurus|Thundurus, L76, M|245/245
+|turn|7
+|
+|t:|1643897256
+|switch|p1a: Dodrio|Dodrio, L88, M|249/249
+|move|p2a: Thundurus|Focus Blast|p1a: Dodrio
+|-damage|p1a: Dodrio|110/249
+|-damage|p2a: Thundurus|221/245|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1643897260
+|move|p1a: Dodrio|Brave Bird|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-crit|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-damage|p1a: Dodrio|37/249|[from] Recoil
+|-damage|p1a: Dodrio|13/249|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643897260
+|switch|p2a: Registeel|Registeel, L82|265/265
+|turn|9
+|
+|t:|1643897264
+|move|p1a: Dodrio|Brave Bird|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|204/265
+|-damage|p1a: Dodrio|0 fnt|[from] Recoil
+|faint|p1a: Dodrio
+|move|p2a: Registeel|Iron Head|p1: Dodrio|[notarget]
+|-fail|p2a: Registeel
+|
+|-heal|p2a: Registeel|220/265|[from] item: Leftovers
+|upkeep
+|
+|t:|1643897266
+|switch|p1a: Sawk|Sawk, L86, M|193/269
+|turn|10
+|
+|t:|1643897267
+|switch|p2a: Vaporeon|Vaporeon, L82, F|347/347
+|move|p1a: Sawk|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|5/347
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|
+|-heal|p2a: Vaporeon|26/347|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643897269
+|move|p1a: Sawk|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|t:|1643897269
+|switch|p2a: Pachirisu|Pachirisu, L90, F|254/254
+|turn|12
+|
+|t:|1643897275
+|switch|p1a: Heracross|Heracross, L82, M|265/265
+|move|p2a: Pachirisu|Volt Switch|p1a: Heracross
+|-damage|p1a: Heracross|213/265
+|
+|t:|1643897275
+|switch|p2a: Registeel|Registeel, L82|220/265
+|
+|-heal|p2a: Registeel|236/265|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643897278
+|switch|p2a: Pachirisu|Pachirisu, L90, F|254/254
+|move|p1a: Heracross|Close Combat|p2a: Pachirisu
+|-damage|p2a: Pachirisu|85/254
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|
+|-heal|p2a: Pachirisu|100/254|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643897279
+|move|p1a: Heracross|Close Combat|p2a: Pachirisu
+|-damage|p2a: Pachirisu|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Pachirisu
+|
+|upkeep
+|
+|t:|1643897279
+|switch|p2a: Registeel|Registeel, L82|236/265
+|turn|15
+|
+|t:|1643897281
+|move|p1a: Heracross|Close Combat|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|36/265
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|move|p2a: Registeel|Iron Head|p1a: Heracross
+|-damage|p1a: Heracross|9/265
+|
+|-heal|p2a: Registeel|52/265|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643897282
+|move|p1a: Heracross|Close Combat|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Registeel
+|
+|upkeep
+|
+|t:|1643897282
+|switch|p2a: Kyurem|Kyurem-Black, L80|331/331
+|-ability|p2a: Kyurem|Teravolt
+|turn|17
+|
+|t:|1643897283
+|move|p1a: Heracross|Close Combat|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|67/331
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|move|p2a: Kyurem|Dragon Claw|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-heal|p2a: Kyurem|87/331|[from] item: Leftovers
+|upkeep
+|
+|t:|1643897285
+|switch|p1a: Sawk|Sawk, L86, M|193/269
+|turn|18
+|
+|t:|1643897288
+|move|p2a: Kyurem|Ice Beam|p1a: Sawk
+|-damage|p1a: Sawk|81/269
+|move|p1a: Sawk|Close Combat|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Kyurem
+|
+|win|pokemonkorea co kr
+|n|☆pokemonkorea co kr|pokemonkoreacokr
+|n|☆Lusabot|lusabot

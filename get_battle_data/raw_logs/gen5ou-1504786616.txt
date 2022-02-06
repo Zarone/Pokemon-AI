@@ -1,0 +1,291 @@
+|j|☆PKS Anon
+|j|☆R8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644046598
+|gametype|singles
+|player|p1|PKS Anon|hilda|
+|player|p2|R8|#psplixfrench|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Salamence, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Heatran, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Excadrill, F|item
+|teampreview
+|inactive|R8 also wants the timer to be on.
+|j| GGeorgie
+|c|☆R8|gl hf
+|j| passthatj
+|l| GGeorgie
+|inactive|PKS Anon has 120 seconds left.
+|inactive|R8 has 120 seconds left.
+|inactive|R8 has 90 seconds left.
+|
+|t:|1644046665
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|1
+|c|☆PKS Anon|U2
+|
+|t:|1644046675
+|move|p2a: Landorus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|32/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Landorus
+|-sidestart|p2: R8|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1644046696
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|switch|p1a: Heatran|Heatran, M|100/100
+|
+|upkeep
+|turn|3
+|j| Starburst52
+|
+|t:|1644046713
+|move|p1a: Heatran|Flash Cannon|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|8/100
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|c| Starburst52|ay r8
+|c|☆R8|hi
+|c| Starburst52|decided to put scarf on ala
+|c| Starburst52|with shadow ball
+|inactive|PKS Anon has 120 seconds left.
+|
+|t:|1644046735
+|switch|p1a: Salamence|Salamence, F|100/100
+|turn|4
+|c| Starburst52|gg ez
+|c|☆R8|:wow:
+|j| imverybigbigbig
+|
+|t:|1644046749
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1644046760
+|switch|p2a: Latios|Latios, M|8/100
+|-damage|p2a: Latios|0 fnt|[from] Stealth Rock
+|faint|p2a: Latios
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|j| g5 power
+|l| Starburst52
+|j| LT62HG devans2048
+|
+|t:|1644046767
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|6
+|
+|t:|1644046772
+|move|p1a: Salamence|Earthquake|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|move|p2a: Alakazam|Hidden Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-enditem|p1a: Salamence|Focus Sash
+|-damage|p1a: Salamence|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1644046782
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Fire Blast|p2a: Landorus
+|-damage|p2a: Landorus|38/100
+|-status|p2a: Landorus|brn
+|
+|-damage|p2a: Landorus|26/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1644046790
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Salamence|Dragon Claw|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|0 fnt|[from] Sandstorm
+|faint|p1a: Salamence
+|upkeep
+|
+|t:|1644046804
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|9
+|
+|t:|1644046809
+|move|p1a: Gengar|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|j| yukizibaki
+|
+|t:|1644046828
+|switch|p2a: Landorus|Landorus-Therian, M|26/100 brn
+|-damage|p2a: Landorus|14/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|turn|10
+|l| yukizibaki
+|
+|t:|1644046847
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-damage|p2a: Landorus|1/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1644046854
+|move|p2a: Landorus|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|faint|p2a: Landorus
+|upkeep
+|
+|t:|1644046857
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|12
+|l| passthatj
+|
+|t:|1644046863
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644046870
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|98/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644046873
+|switch|p2a: Alakazam|Alakazam, F|1/100
+|turn|14
+|j| GGeorgie
+|
+|t:|1644046875
+|move|p1a: Excadrill|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644046877
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|15
+|c|☆PKS Anon|Ggs
+|
+|t:|1644046882
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644046887
+|switch|p1a: Garchomp|Garchomp, F|32/100
+|turn|16
+|c| LT62HG devans2048|?
+|c|☆R8|f
+|c|☆R8|gg
+|
+|t:|1644046896
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|PKS Anon
+|n|☆PKS Anon|pksanon
+|n|☆R8|r8
+|n| imverybigbigbig|imverybigbigbig
+|n| g5 power|g5power
+|n| LT62HG devans2048|lt62hgdevans2048
+|n| GGeorgie|ggeorgie
+|l| GGeorgie
+|l|☆R8

@@ -1,0 +1,525 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639958772
+|gametype|singles
+|player|p1|ninjadog|jasmine|
+|player|p2|Lily|unknownf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Virizion|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Togekiss, F|item
+|poke|p1|Cofagrigus, F|item
+|poke|p1|Raikou|item
+|poke|p1|Heracross, F|item
+|poke|p2|Mew|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Zapdos|item
+|teampreview
+|c|☆Lily|hf
+|c|☆ninjadog|u2
+|inactive|ninjadog has 270 seconds left.
+|inactive|Lily has 270 seconds left.
+|c|+Adaam|go ninjadog (lily stinks)
+|inactive|ninjadog has 240 seconds left.
+|inactive|Lily has 240 seconds left.
+|
+|t:|1639958859
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Death By Glamour|Roserade, F|100/100
+|turn|1
+|c|+pacattacc|LGI NINJA
+|
+|t:|1639958868
+|switch|p2a: Heartache|Mew|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Heartache
+|-damage|p2a: Heartache|66/100
+|
+|-heal|p2a: Heartache|73/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|ninjadog has 270 seconds left.
+|inactive|Lily has 270 seconds left.
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1639958943
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|move|p2a: Heartache|Will-O-Wisp|p1a: Cofagrigus
+|-status|p1a: Cofagrigus|brn
+|
+|-heal|p2a: Heartache|79/100|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|ninjadog has 210 seconds left.
+|inactive|ninjadog has 180 seconds left.
+|
+|t:|1639958994
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Heartache|Taunt|p1a: Togekiss
+|-start|p1a: Togekiss|move: Taunt
+|
+|-heal|p2a: Heartache|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|ninjadog has 180 seconds left.
+|
+|t:|1639959017
+|switch|p1a: Cofagrigus|Cofagrigus, F|88/100 brn
+|switch|p2a: Small Shock|Zapdos|100/100
+|-ability|p2a: Small Shock|Pressure
+|
+|-heal|p1a: Cofagrigus|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1639959050
+|switch|p2a: Death By Glamour|Roserade, F|100/100
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1639959056
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Death By Glamour|Giga Drain|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|86/100
+|
+|upkeep
+|turn|7
+|
+|t:|1639959063
+|switch|p2a: Small Shock|Zapdos|100/100
+|-ability|p2a: Small Shock|Pressure
+|move|p1a: Togekiss|Trick|p2a: Small Shock
+|-activate|p1a: Togekiss|move: Trick|[of] p2a: Small Shock
+|-item|p2a: Small Shock|Choice Specs|[from] move: Trick
+|-item|p1a: Togekiss|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Togekiss|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1639959092
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Small Shock|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|56/100
+|
+|-heal|p1a: Rhyperior|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1639959098
+|move|p2a: Small Shock|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|19/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Small Shock
+|-sidestart|p2: Lily|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1639959101
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Small Shock|Hidden Power|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|-heal|p1a: Rhyperior|31/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1639959122
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Small Shock|Hidden Power|p1a: Raikou
+|-damage|p1a: Raikou|60/100
+|
+|-heal|p1a: Raikou|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1639959128
+|switch|p2a: Death By Glamour|Roserade, F|100/100
+|-damage|p2a: Death By Glamour|88/100|[from] Stealth Rock
+|move|p1a: Raikou|Hidden Power|p2a: Death By Glamour
+|-supereffective|p2a: Death By Glamour
+|-damage|p2a: Death By Glamour|53/100
+|
+|-heal|p1a: Raikou|73/100|[from] item: Leftovers
+|-heal|p2a: Death By Glamour|59/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1639959141
+|move|p1a: Raikou|Hidden Power|p2a: Death By Glamour
+|-supereffective|p2a: Death By Glamour
+|-damage|p2a: Death By Glamour|23/100
+|move|p2a: Death By Glamour|Spikes|p1a: Raikou
+|-sidestart|p1: ninjadog|Spikes
+|
+|-heal|p1a: Raikou|79/100|[from] item: Leftovers
+|-heal|p2a: Death By Glamour|29/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1639959150
+|switch|p2a: Stronger Monsters|Snorlax, M|100/100
+|-damage|p2a: Stronger Monsters|88/100|[from] Stealth Rock
+|move|p1a: Raikou|Hidden Power|p2a: Stronger Monsters
+|-damage|p2a: Stronger Monsters|82/100
+|
+|-heal|p1a: Raikou|85/100|[from] item: Leftovers
+|-heal|p2a: Stronger Monsters|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1639959198
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|88/100|[from] Spikes
+|move|p2a: Stronger Monsters|Body Slam|p1a: Heracross
+|-damage|p1a: Heracross|30/100
+|-status|p1a: Heracross|par
+|
+|-heal|p2a: Stronger Monsters|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1639959217
+|move|p2a: Stronger Monsters|Protect|p2a: Stronger Monsters
+|-singleturn|p2a: Stronger Monsters|Protect
+|move|p1a: Heracross|Knock Off|p2a: Stronger Monsters
+|-activate|p2a: Stronger Monsters|move: Protect
+|
+|-heal|p2a: Stronger Monsters|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1639959241
+|switch|p1a: Rhyperior|Rhyperior, M|31/100
+|-damage|p1a: Rhyperior|19/100|[from] Spikes
+|switch|p2a: Death By Glamour|Roserade, F|29/100
+|-damage|p2a: Death By Glamour|17/100|[from] Stealth Rock
+|
+|-heal|p2a: Death By Glamour|23/100|[from] item: Black Sludge
+|-heal|p1a: Rhyperior|25/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1639959262
+|switch|p1a: Togekiss|Togekiss, F|92/100
+|move|p2a: Death By Glamour|Synthesis|p2a: Death By Glamour
+|-heal|p2a: Death By Glamour|73/100
+|
+|-heal|p1a: Togekiss|98/100|[from] item: Leftovers
+|-heal|p2a: Death By Glamour|79/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1639959278
+|switch|p2a: Stronger Monsters|Snorlax, M|99/100
+|-damage|p2a: Stronger Monsters|87/100|[from] Stealth Rock
+|move|p1a: Togekiss|Tri Attack|p2a: Stronger Monsters
+|-damage|p2a: Stronger Monsters|64/100
+|-status|p2a: Stronger Monsters|par
+|
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|-heal|p2a: Stronger Monsters|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1639959286
+|move|p1a: Togekiss|Air Slash|p2a: Stronger Monsters
+|-damage|p2a: Stronger Monsters|50/100 par
+|cant|p2a: Stronger Monsters|flinch
+|
+|-heal|p2a: Stronger Monsters|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639959289
+|switch|p2a: Small Shock|Zapdos|100/100
+|-damage|p2a: Small Shock|76/100|[from] Stealth Rock
+|-ability|p2a: Small Shock|Pressure
+|move|p1a: Togekiss|Air Slash|p2a: Small Shock
+|-resisted|p2a: Small Shock
+|-damage|p2a: Small Shock|53/100
+|
+|upkeep
+|turn|22
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1639959306
+|switch|p1a: Rhyperior|Rhyperior, M|25/100
+|-damage|p1a: Rhyperior|13/100|[from] Spikes
+|move|p2a: Small Shock|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|t:|1639959317
+|switch|p1a: Raikou|Raikou|85/100
+|-damage|p1a: Raikou|73/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|turn|23
+|
+|t:|1639959320
+|switch|p2a: Stronger Monsters|Snorlax, M|56/100 par
+|-damage|p2a: Stronger Monsters|43/100 par|[from] Stealth Rock
+|move|p1a: Raikou|Hidden Power|p2a: Stronger Monsters
+|-damage|p2a: Stronger Monsters|37/100 par
+|
+|-heal|p1a: Raikou|79/100|[from] item: Leftovers
+|-heal|p2a: Stronger Monsters|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|ninjadog has 120 seconds left.
+|inactive|ninjadog has 90 seconds left.
+|
+|t:|1639959366
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Bergentrückung|Rhyperior, M|100/100
+|-damage|p2a: Bergentrückung|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Bergentrückung|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1639959405
+|switch|p1a: Cofagrigus|Cofagrigus, F|82/100 brn
+|-damage|p1a: Cofagrigus|70/100 brn|[from] Spikes
+|switch|p2a: Heartache|Mew|85/100
+|-damage|p2a: Heartache|73/100|[from] Stealth Rock
+|
+|-heal|p2a: Heartache|79/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1639959410
+|move|p2a: Heartache|Taunt|p1a: Cofagrigus
+|-start|p1a: Cofagrigus|move: Taunt
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Heartache
+|-supereffective|p2a: Heartache
+|-damage|p2a: Heartache|28/100
+|
+|-heal|p2a: Heartache|34/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|57/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1639959416
+|move|p2a: Heartache|Soft-Boiled|p2a: Heartache
+|-heal|p2a: Heartache|84/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Heartache
+|-supereffective|p2a: Heartache
+|-damage|p2a: Heartache|34/100
+|
+|-heal|p2a: Heartache|41/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|51/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1639959419
+|move|p2a: Heartache|Soft-Boiled|p2a: Heartache
+|-heal|p2a: Heartache|91/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Heartache
+|-supereffective|p2a: Heartache
+|-damage|p2a: Heartache|41/100
+|-unboost|p2a: Heartache|spd|1
+|
+|-heal|p2a: Heartache|47/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|45/100 brn|[from] brn
+|-end|p1a: Cofagrigus|move: Taunt
+|upkeep
+|turn|29
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1639959469
+|switch|p2a: Death By Glamour|Roserade, F|79/100
+|-damage|p2a: Death By Glamour|67/100|[from] Stealth Rock
+|move|p1a: Cofagrigus|Hidden Power|p2a: Death By Glamour
+|-resisted|p2a: Death By Glamour
+|-damage|p2a: Death By Glamour|59/100
+|
+|-heal|p2a: Death By Glamour|65/100|[from] item: Black Sludge
+|-heal|p1a: Cofagrigus|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Cofagrigus|38/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1639959475
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Death By Glamour|Sludge Bomb|p1a: Togekiss
+|-damage|p1a: Togekiss|64/100
+|
+|-heal|p1a: Togekiss|70/100|[from] item: Leftovers
+|-heal|p2a: Death By Glamour|71/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|t:|1639959489
+|switch|p2a: Bergentrückung|Rhyperior, M|100/100
+|-damage|p2a: Bergentrückung|94/100|[from] Stealth Rock
+|move|p1a: Togekiss|Tri Attack|p2a: Bergentrückung
+|-resisted|p2a: Bergentrückung
+|-crit|p2a: Bergentrückung
+|-damage|p2a: Bergentrückung|62/100
+|-status|p2a: Bergentrückung|frz
+|
+|-heal|p1a: Togekiss|76/100|[from] item: Leftovers
+|-heal|p2a: Bergentrückung|68/100 frz|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1639959510
+|switch|p2a: Heartache|Mew|47/100
+|-damage|p2a: Heartache|35/100|[from] Stealth Rock
+|move|p1a: Togekiss|Aura Sphere|p2a: Heartache
+|-resisted|p2a: Heartache
+|-damage|p2a: Heartache|25/100
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|-heal|p2a: Heartache|31/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|ninjadog has 30 seconds left.
+|
+|t:|1639959526
+|switch|p1a: Raikou|Raikou|79/100
+|-damage|p1a: Raikou|67/100|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Heartache|Soft-Boiled|p2a: Heartache
+|-heal|p2a: Heartache|81/100
+|
+|-heal|p1a: Raikou|73/100|[from] item: Leftovers
+|-heal|p2a: Heartache|87/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1639959535
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Heartache|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|14/100
+|
+|-heal|p1a: Raikou|20/100|[from] item: Leftovers
+|-heal|p2a: Heartache|94/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1639959538
+|move|p1a: Raikou|Thunderbolt|p2a: Heartache
+|-damage|p2a: Heartache|48/100
+|move|p2a: Heartache|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|-heal|p2a: Heartache|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639959558
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|88/100|[from] Spikes
+|turn|36
+|
+|t:|1639959564
+|move|p1a: Virizion|Swords Dance|p1a: Virizion
+|-boost|p1a: Virizion|atk|2
+|move|p2a: Heartache|Will-O-Wisp|p1a: Virizion
+|-status|p1a: Virizion|brn
+|-enditem|p1a: Virizion|Lum Berry|[eat]
+|-curestatus|p1a: Virizion|brn|[msg]
+|
+|-heal|p2a: Heartache|61/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1639959568
+|move|p1a: Virizion|Leaf Blade|p2a: Heartache
+|-crit|p2a: Heartache
+|-damage|p2a: Heartache|0 fnt
+|faint|p2a: Heartache
+|
+|upkeep
+|c|☆Lily|man
+|inactive|Lily has 270 seconds left.
+|
+|t:|1639959604
+|switch|p2a: Ghost Fight|Cofagrigus, F|100/100
+|-damage|p2a: Ghost Fight|88/100|[from] Stealth Rock
+|turn|38
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1639959640
+|move|p1a: Virizion|Leaf Blade|p2a: Ghost Fight
+|-crit|p2a: Ghost Fight
+|-damage|p2a: Ghost Fight|0 fnt
+|-activate|p2a: Ghost Fight|ability: Mummy|Justified|[of] p1a: Virizion
+|faint|p2a: Ghost Fight
+|
+|upkeep
+|c|☆Lily|ok come on
+|c|☆ninjadog|ye sry mb
+|inactive|Lily has 270 seconds left.
+|
+|t:|1639959656
+|switch|p2a: Death By Glamour|Roserade, F|71/100
+|-damage|p2a: Death By Glamour|59/100|[from] Stealth Rock
+|turn|39
+|inactive|Lily has 270 seconds left.
+|inactive|ninjadog has 30 seconds left.
+|
+|t:|1639959677
+|move|p1a: Virizion|Close Combat|p2a: Death By Glamour
+|-resisted|p2a: Death By Glamour
+|-damage|p2a: Death By Glamour|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: Death By Glamour
+|
+|upkeep
+|inactive|Lily has 270 seconds left.
+|inactive|Lily has 240 seconds left.
+|-message|Lily forfeited.
+|
+|win|ninjadog
+|c|☆Lily|gg
+|c|☆ninjadog|gg

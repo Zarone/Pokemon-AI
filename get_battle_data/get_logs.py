@@ -18,11 +18,13 @@ def get_battle_ids(formats, pages_per_format): #50 battles per page
 
 def get_raw_data_file(formats, pages_per_format):
   ids = get_battle_ids(formats, pages_per_format)
+  print("got ids")
   for id in ids:
     data_file = open(LOG_FOLDER+id+".txt", "w")
     raw_data = requests.get(LOG_URL+id+".log").text
     data_file.write(raw_data)
     data_file.close()
+    print("finished id "+id)
   
 
 '''
@@ -39,4 +41,4 @@ Paginate searches:
 https://replay.pokemonshowdown.com/search.json?user=zarel&page=2
 '''
 
-get_raw_data_file(["gen8nationaldex"], 1)
+get_raw_data_file(["gen5ou", "gen5uu", "gen5lc", "gen5nu"], 5)

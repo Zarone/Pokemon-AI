@@ -1,0 +1,96 @@
+|j|☆TheSergio235
+|j|☆Whimmsicle247
+|t:|1643919589
+|gametype|singles
+|player|p1|TheSergio235|ryuki|1384
+|player|p2|Whimmsicle247|rosa|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Metagross|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Whimmsicle247)
+|
+|t:|1643919616
+|start
+|switch|p1a: Breloom|Breloom, M, shiny|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|t:|1643919639
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1643919647
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1643919659
+|move|p1a: Landorus|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|81/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Conkeldurr|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643919662
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|turn|4
+|
+|t:|1643919665
+|move|p1a: Latios|Draco Meteor|p2a: Conkeldurr|[miss]
+|-miss|p1a: Latios|p2a: Conkeldurr
+|move|p2a: Conkeldurr|Ice Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Conkeldurr|93/100|[from] item: Leftovers
+|upkeep
+|-message|TheSergio235 forfeited.
+|
+|win|Whimmsicle247
+|raw|TheSergio235's rating: 1384 &rarr; <strong>1357</strong><br />(-27 for losing)
+|raw|Whimmsicle247's rating: 1255 &rarr; <strong>1289</strong><br />(+34 for winning)
+|l|☆TheSergio235
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

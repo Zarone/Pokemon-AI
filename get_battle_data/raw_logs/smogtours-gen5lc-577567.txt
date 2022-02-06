@@ -1,0 +1,301 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630853536
+|gametype|singles
+|player|p1|Tack is a Nerd|aromalady-gen3|
+|player|p2|F i l l e|preschooler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, F|item
+|poke|p1|Trapinch, L5, F|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Diglett, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Pawniard, L5, F|item
+|teampreview
+|c|☆Tack is a Nerd|hf
+|c|☆F i l l e|ofuck
+|inactive|Tack is a Nerd has 270 seconds left.
+|inactive|Tack is a Nerd has 240 seconds left.
+|
+|t:|1630853597
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|1
+|
+|t:|1630853603
+|move|p1a: Mienfoo|Fake Out|p2a: Mienfoo
+|-damage|p2a: Mienfoo|87/100
+|cant|p2a: Mienfoo|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1630853606
+|move|p2a: Mienfoo|Knock Off|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|96/100
+|-enditem|p1a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Mienfoo|Knock Off|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|83/100
+|-enditem|p2a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|3
+|
+|t:|1630853611
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|31/100
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|66/100
+|
+|t:|1630853624
+|switch|p1a: Natu|Natu, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1630853632
+|move|p1a: Natu|Psychic|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1630853643
+|switch|p2a: Pawniard|Pawniard, L5, F|100/100
+|turn|5
+|
+|t:|1630853651
+|move|p2a: Pawniard|Pursuit|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|60/100
+|move|p1a: Natu|Heat Wave|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|15/100
+|-status|p2a: Pawniard|brn
+|
+|-damage|p2a: Pawniard|5/100 brn|[from] brn
+|upkeep
+|turn|6
+|c|☆F i l l e|o
+|c|☆Tack is a Nerd|oh thats lame af my b
+|
+|t:|1630853661
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|100/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|upkeep
+|turn|7
+|c|☆F i l l e|np
+|c|+Ark|omg tackoat yessss
+|inactive|Tack is a Nerd has 270 seconds left.
+|
+|t:|1630853710
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magic Bounce|[from] ability: Trace|[of] p1a: Natu
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1630853721
+|switch|p1a: Natu|Natu, L5, F|100/100
+|move|p2a: Porygon|Tri Attack|p1a: Natu
+|-damage|p1a: Natu|56/100
+|-status|p1a: Natu|frz
+|
+|upkeep
+|turn|9
+|
+|t:|1630853727
+|cant|p1a: Natu|frz
+|move|p2a: Porygon|Tri Attack|p1a: Natu
+|-damage|p1a: Natu|10/100 frz
+|
+|upkeep
+|turn|10
+|c|☆F i l l e|hm
+|c|☆Tack is a Nerd|hm
+|
+|t:|1630853731
+|-curestatus|p1a: Natu|frz|[msg]
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|60/100
+|-singleturn|p1a: Natu|move: Roost
+|move|p2a: Porygon|Tri Attack|p1a: Natu
+|-damage|p1a: Natu|15/100
+|-status|p1a: Natu|frz
+|
+|upkeep
+|turn|11
+|c|☆F i l l e|that's unfort
+|c|☆Tack is a Nerd|LOL
+|c|☆F i l l e|that's even more unfort
+|c|+Ark|thawtu nooo
+|inactive|Tack is a Nerd has 270 seconds left.
+|c|☆F i l l e|LOOOOOL
+|
+|t:|1630853749
+|cant|p1a: Natu|frz
+|move|p2a: Porygon|Tri Attack|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|upkeep
+|
+|t:|1630853753
+|switch|p1a: Mienfoo|Mienfoo, L5, M|61/100
+|turn|12
+|c|☆F i l l e|damn Porygon truly is broken
+|c|☆Tack is a Nerd|fr
+|
+|t:|1630853763
+|move|p1a: Mienfoo|Knock Off|p2a: Porygon
+|-damage|p2a: Porygon|93/100
+|-enditem|p2a: Porygon|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Porygon|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1630853767
+|switch|p1a: The Finest Crime|Trapinch, L5, F, shiny|100/100
+|turn|13
+|
+|t:|1630853773
+|move|p2a: Porygon|Tri Attack|p1a: The Finest Crime
+|-damage|p1a: The Finest Crime|69/100
+|move|p1a: The Finest Crime|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|43/100
+|
+|upkeep
+|turn|14
+|
+|t:|1630853781
+|move|p2a: Porygon|Tri Attack|p1a: The Finest Crime
+|-damage|p1a: The Finest Crime|37/100
+|move|p1a: The Finest Crime|Superpower|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|-unboost|p1a: The Finest Crime|atk|1
+|-unboost|p1a: The Finest Crime|def|1
+|faint|p2a: Porygon
+|
+|upkeep
+|
+|t:|1630853786
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|turn|15
+|
+|t:|1630853789
+|move|p1a: The Finest Crime|Quick Attack|p2a: Diglett
+|-damage|p2a: Diglett|78/100
+|move|p2a: Diglett|Earthquake|p1a: The Finest Crime
+|-damage|p1a: The Finest Crime|0 fnt
+|faint|p1a: The Finest Crime
+|-damage|p2a: Diglett|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1630853803
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|turn|16
+|
+|t:|1630853809
+|move|p2a: Diglett|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|-damage|p2a: Diglett|67/100|[from] item: Life Orb
+|move|p1a: Ferroseed|Giga Drain|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|-heal|p1a: Ferroseed|87/100|[from] drain|[of] p2a: Diglett
+|faint|p2a: Diglett
+|
+|upkeep
+|
+|t:|1630853817
+|switch|p2a: Timburr|Timburr, L5, F|100/100
+|turn|17
+|
+|t:|1630853826
+|move|p2a: Timburr|Drain Punch|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|5/100
+|-damage|p2a: Timburr|88/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|move|p1a: Ferroseed|Giga Drain|p2a: Timburr
+|-damage|p2a: Timburr|59/100
+|-heal|p1a: Ferroseed|23/100|[from] drain|[of] p2a: Timburr
+|
+|upkeep
+|turn|18
+|
+|t:|1630853831
+|move|p2a: Timburr|Drain Punch|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-heal|p2a: Timburr|71/100|[from] drain|[of] p1a: Ferroseed
+|-damage|p2a: Timburr|59/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1630853832
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|19
+|inactive|F i l l e has 270 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|inactive|F i l l e has 210 seconds left.
+|inactive|F i l l e has 180 seconds left.
+|
+|t:|1630853968
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|move|p1a: Abra|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|
+|t:|1630853970
+|switch|p2a: Pawniard|Pawniard, L5, F|5/100 brn
+|turn|20
+|
+|t:|1630853975
+|move|p1a: Abra|Protect|p1a: Abra
+|-singleturn|p1a: Abra|Protect
+|move|p2a: Pawniard|Night Slash|p1a: Abra
+|-activate|p1a: Abra|move: Protect
+|
+|-damage|p2a: Pawniard|0 fnt|[from] brn
+|faint|p2a: Pawniard
+|upkeep
+|c|☆F i l l e|ye
+|-message|F i l l e forfeited.
+|
+|win|Tack is a Nerd
+|c|☆F i l l e|GG
+|c|☆Tack is a Nerd|gg

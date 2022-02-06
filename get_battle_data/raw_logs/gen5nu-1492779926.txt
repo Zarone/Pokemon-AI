@@ -1,0 +1,284 @@
+|j|☆Knight rises
+|j|☆jahmille118
+|t:|1642372211
+|gametype|singles
+|player|p1|Knight rises|lance|1000
+|player|p2|jahmille118|101|1032
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Armaldo, F|
+|poke|p1|Ampharos, M|
+|poke|p1|Alomomola, F|item
+|poke|p1|Mightyena, F|
+|poke|p1|Charizard, F|
+|poke|p1|Gabite, F|item
+|poke|p2|Victreebel, M|item
+|poke|p2|Leafeon, F|item
+|poke|p2|Liepard, F|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Camerupt, F|item
+|poke|p2|Golem, M|item
+|teampreview
+|
+|t:|1642372234
+|start
+|switch|p1a: Armaldo|Armaldo, F|100/100
+|switch|p2a: Liepard|Liepard, F|100/100
+|turn|1
+|
+|t:|1642372242
+|move|p2a: Liepard|Fake Out|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|95/100
+|cant|p1a: Armaldo|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1642372249
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Armaldo|X-Scissor|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-crit|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642372264
+|switch|p2a: Camerupt|Camerupt, F|100/100
+|turn|3
+|
+|t:|1642372271
+|move|p2a: Camerupt|Rock Polish|p2a: Camerupt
+|-boost|p2a: Camerupt|spe|2
+|move|p1a: Armaldo|Hidden Power|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-enditem|p2a: Camerupt|Shuca Berry|[eat]
+|-enditem|p2a: Camerupt|Shuca Berry|[weaken]
+|-damage|p2a: Camerupt|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1642372283
+|move|p2a: Camerupt|Flamethrower|p1a: Armaldo
+|-damage|p1a: Armaldo|14/100
+|move|p1a: Armaldo|Hidden Power|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1642372293
+|move|p2a: Camerupt|Ancient Power|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642372297
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|6
+|
+|t:|1642372308
+|switch|p2a: Victreebel|Victreebel, M|100/100
+|move|p1a: Alomomola|Calm Mind|p1a: Alomomola
+|-boost|p1a: Alomomola|spa|1
+|-boost|p1a: Alomomola|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1642372316
+|move|p2a: Victreebel|Solar Beam||[still]
+|-prepare|p2a: Victreebel|Solar Beam
+|-anim|p2a: Victreebel|Solar Beam|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|1/100
+|-damage|p2a: Victreebel|91/100|[from] item: Life Orb
+|move|p1a: Alomomola|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alomomola|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642372345
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|turn|8
+|
+|t:|1642372352
+|move|p2a: Leafeon|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-damage|p2a: Leafeon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642372359
+|switch|p1a: Charizard|Charizard, F, shiny|100/100
+|turn|9
+|
+|t:|1642372364
+|move|p2a: Leafeon|Facade|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|20/100
+|-damage|p2a: Leafeon|81/100|[from] item: Life Orb
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1642372375
+|switch|p2a: Camerupt|Camerupt, F|60/100
+|move|p1a: Charizard|Fire Punch|p2a: Camerupt
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|
+|upkeep
+|
+|t:|1642372383
+|switch|p2a: Golem|Golem, M|100/100
+|turn|11
+|
+|t:|1642372388
+|move|p1a: Charizard|Crunch|p2a: Golem
+|-damage|p2a: Golem|61/100
+|move|p2a: Golem|Rock Polish|p2a: Golem
+|-boost|p2a: Golem|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1642372397
+|move|p2a: Golem|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1642372402
+|switch|p1a: Gabite|Gabite, F, shiny|100/100
+|turn|13
+|
+|t:|1642372407
+|move|p2a: Golem|Sucker Punch|p1a: Gabite
+|-damage|p1a: Gabite|56/100
+|-damage|p2a: Golem|49/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-damage|p2a: Golem|32/100|[from] item: Rocky Helmet|[of] p1a: Gabite
+|move|p1a: Gabite|Iron Head|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|upkeep
+|
+|t:|1642372419
+|switch|p2a: Leafeon|Leafeon, F|81/100
+|turn|14
+|
+|t:|1642372423
+|move|p1a: Gabite|Hone Claws|p1a: Gabite
+|-boost|p1a: Gabite|atk|1
+|-boost|p1a: Gabite|accuracy|1
+|move|p2a: Leafeon|Leaf Blade|p1a: Gabite
+|-damage|p1a: Gabite|0 fnt
+|-damage|p2a: Leafeon|68/100|[from] ability: Rough Skin|[of] p1a: Gabite
+|-damage|p2a: Leafeon|52/100|[from] item: Rocky Helmet|[of] p1a: Gabite
+|faint|p1a: Gabite
+|-damage|p2a: Leafeon|42/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642372429
+|switch|p1a: Mightyena|Mightyena, F|100/100
+|turn|15
+|
+|t:|1642372438
+|move|p2a: Leafeon|Sunny Day|p2a: Leafeon
+|-weather|SunnyDay
+|move|p1a: Mightyena|Ice Fang|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1642372446
+|move|p2a: Leafeon|X-Scissor|p1a: Mightyena
+|-supereffective|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|-damage|p2a: Leafeon|0 fnt|[from] item: Life Orb
+|faint|p2a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642372455
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|switch|p1a: Ampharos|Ampharos, M|100/100
+|turn|17
+|
+|t:|1642372468
+|move|p2a: Sawsbuck|Megahorn|p1a: Ampharos
+|-damage|p1a: Ampharos|23/100
+|-status|p2a: Sawsbuck|par|[from] ability: Static|[of] p1a: Ampharos
+|-damage|p2a: Sawsbuck|91/100 par|[from] item: Life Orb
+|move|p1a: Ampharos|Agility|p1a: Ampharos
+|-boost|p1a: Ampharos|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1642372480
+|move|p1a: Ampharos|Fire Punch|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|30/100 par
+|cant|p2a: Sawsbuck|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1642372487
+|move|p1a: Ampharos|Fire Punch|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|win|Knight rises
+|raw|Knight rises's rating: 1000 &rarr; <strong>1044</strong><br />(+44 for winning)
+|raw|jahmille118's rating: 1032 &rarr; <strong>1016</strong><br />(-16 for losing)

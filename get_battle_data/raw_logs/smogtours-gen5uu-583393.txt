@@ -1,0 +1,704 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1633225137
+|gametype|singles
+|player|p1|Iam Fakee|kahili|
+|player|p2|Nalorium|clair-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heracross, F|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Weavile, F|item
+|poke|p1|Xatu, M|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Swampert, F|item
+|poke|p2|Virizion|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Mew|item
+|poke|p2|Suicune|item
+|poke|p2|Zapdos|item
+|poke|p2|Sableye, M|item
+|teampreview
+|c|+cursedstar|IN A HERACROSS?
+|c|+cursedstar|X
+|inactive|Iam Fakee has 270 seconds left.
+|inactive|Nalorium has 270 seconds left.
+|inactive|Iam Fakee has 240 seconds left.
+|inactive|Nalorium has 240 seconds left.
+|inactive|Iam Fakee has 210 seconds left.
+|inactive|Nalorium has 210 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1633225290
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Bratvesidad|Sableye, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|inactive|Iam Fakee has 270 seconds left.
+|inactive|Nalorium has 210 seconds left.
+|inactive|Iam Fakee has 240 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|inactive|Iam Fakee has 210 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1633225363
+|switch|p1a: Heracross|Heracross, F|100/100
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|
+|upkeep
+|turn|2
+|inactive|Iam Fakee has 210 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1633225430
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|upkeep
+|turn|3
+|inactive|Iam Fakee has 210 seconds left.
+|inactive|Iam Fakee has 180 seconds left.
+|c|☆Iam Fakee|man
+|c|☆Iam Fakee|menudo cabron
+|c|☆Iam Fakee|me quitaste los permisos
+|inactive|Iam Fakee has 150 seconds left.
+|c|☆Iam Fakee|para ver el canal
+|c|☆Iam Fakee|de bwpl
+|c|☆Iam Fakee|de uu
+|c|☆Iam Fakee|rata
+|c|☆Nalorium|**TRAMPOSO**
+|
+|t:|1633225510
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Zapdos|Heat Wave|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|78/100
+|
+|-heal|p1a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Iam Fakee has 150 seconds left.
+|
+|t:|1633225530
+|switch|p2a: Virizion|Virizion|100/100
+|move|p1a: Swampert|Stealth Rock|p2a: Virizion
+|-sidestart|p2: Nalorium|move: Stealth Rock
+|
+|-heal|p1a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1633225553
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Virizion|Giga Drain|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|75/100
+|
+|upkeep
+|turn|6
+|inactive|Iam Fakee has 120 seconds left.
+|inactive|Nalorium has 90 seconds left.
+|
+|t:|1633225581
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|move|p2a: Virizion|Hidden Power|p1a: Mienshao
+|-crit|p1a: Mienshao
+|-damage|p1a: Mienshao|33/100
+|
+|upkeep
+|turn|7
+|inactive|Iam Fakee has 120 seconds left.
+|inactive|Nalorium has 90 seconds left.
+|
+|t:|1633225597
+|switch|p2a: Bratvesidad|Sableye, M|100/100
+|-damage|p2a: Bratvesidad|88/100|[from] Stealth Rock
+|move|p1a: Mienshao|Aerial Ace|p2a: Bratvesidad
+|-crit|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|44/100
+|
+|-heal|p2a: Bratvesidad|50/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1633225606
+|switch|p1a: Heracross|Heracross, F|100/100
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|inactive|Nalorium has 90 seconds left.
+|inactive|Iam Fakee has 120 seconds left.
+|
+|t:|1633225644
+|switch|p1a: Swampert|Swampert, F|91/100
+|move|p2a: Rhyperior|Stone Edge|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|63/100
+|
+|-heal|p1a: Swampert|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1633225648
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Swampert|Scald|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|80/100
+|-status|p2a: Suicune|brn
+|
+|-heal|p1a: Swampert|76/100|[from] item: Leftovers
+|-damage|p2a: Suicune|68/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|Iam Fakee has 90 seconds left.
+|
+|t:|1633225680
+|switch|p2a: Virizion|Virizion|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|
+|-heal|p2a: Virizion|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Iam Fakee has 90 seconds left.
+|inactive|Nalorium has 60 seconds left.
+|
+|t:|1633225721
+|move|p2a: Virizion|Taunt|p1a: Ferroseed
+|-start|p1a: Ferroseed|move: Taunt
+|cant|p1a: Ferroseed|move: Taunt|Toxic
+|
+|upkeep
+|turn|13
+|inactive|Iam Fakee has 60 seconds left.
+|
+|t:|1633225750
+|switch|p1a: Heracross|Heracross, F|100/100
+|move|p2a: Virizion|Focus Blast|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|72/100
+|-unboost|p1a: Heracross|spd|1
+|
+|upkeep
+|turn|14
+|inactive|Iam Fakee has 60 seconds left.
+|inactive|Nalorium has 30 seconds left.
+|inactive|Nalorium has 20 seconds left.
+|inactive|Nalorium has 15 seconds left.
+|
+|t:|1633225808
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Heracross|Close Combat|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|64/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|
+|-heal|p2a: Mew|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Nalorium has 25 seconds left this turn.
+|inactive|Nalorium has 20 seconds left.
+|inactive|Nalorium has 15 seconds left.
+|inactive|Nalorium has 10 seconds left.
+|
+|t:|1633225827
+|switch|p1a: Xatu|Xatu, M|75/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|
+|upkeep
+|turn|16
+|inactive|Nalorium has 20 seconds left this turn.
+|inactive|Nalorium has 15 seconds left.
+|
+|t:|1633225842
+|switch|p1a: Swampert|Swampert, F|76/100
+|move|p2a: Zapdos|Heat Wave|p1a: Swampert
+|-resisted|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|28/100
+|
+|-heal|p1a: Swampert|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Nalorium has 25 seconds left this turn.
+|inactive|Nalorium has 20 seconds left.
+|
+|t:|1633225853
+|switch|p2a: Suicune|Suicune|68/100 brn
+|-damage|p2a: Suicune|56/100 brn|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Swampert|Roar|p2a: Suicune
+|drag|p2a: Mew|Mew|70/100
+|-damage|p2a: Mew|58/100|[from] Stealth Rock
+|
+|-heal|p2a: Mew|64/100|[from] item: Leftovers
+|-heal|p1a: Swampert|40/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Nalorium has 30 seconds left this turn.
+|
+|t:|1633225859
+|switch|p1a: Xatu|Xatu, M|75/100
+|move|p2a: Mew|Psyshock|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|52/100
+|
+|-heal|p2a: Mew|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1633225864
+|switch|p2a: Bratvesidad|Sableye, M|50/100
+|-damage|p2a: Bratvesidad|38/100|[from] Stealth Rock
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|-heal|p2a: Bratvesidad|44/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1633225869
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|94/100
+|move|p1a: Xatu|U-turn|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|82/100
+|
+|t:|1633225876
+|switch|p1a: Heracross|Heracross, F|72/100|[from]move: U-turn
+|
+|-heal|p2a: Bratvesidad|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1633225882
+|move|p1a: Heracross|Megahorn|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|26/100
+|move|p2a: Bratvesidad|Foul Play|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|34/100
+|
+|-heal|p2a: Bratvesidad|32/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1633225894
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|82/100
+|move|p1a: Heracross|Natural Gift|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|51/100
+|
+|-heal|p2a: Bratvesidad|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1633225900
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|100/100
+|move|p1a: Heracross|Megahorn|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|38/100
+|
+|-heal|p2a: Bratvesidad|44/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Iam Fakee has 90 seconds left.
+|
+|t:|1633225914
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|94/100
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|-heal|p2a: Bratvesidad|99/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1633225923
+|switch|p2a: Mew|Mew|70/100
+|-damage|p2a: Mew|58/100|[from] Stealth Rock
+|move|p1a: Heracross|Megahorn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1633225928
+|switch|p2a: Zapdos|Zapdos|76/100
+|-damage|p2a: Zapdos|51/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|26
+|
+|t:|1633225938
+|switch|p1a: Swampert|Swampert, F|40/100
+|move|p2a: Zapdos|Heat Wave|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|17/100
+|-status|p1a: Swampert|brn
+|
+|-heal|p1a: Swampert|23/100 brn|[from] item: Leftovers
+|-damage|p1a: Swampert|11/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1633225943
+|move|p2a: Zapdos|Heat Wave|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+|inactive|Iam Fakee has 90 seconds left.
+|inactive|Iam Fakee has 60 seconds left.
+|
+|t:|1633225999
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|28
+|inactive|Nalorium has 120 seconds left.
+|inactive|Iam Fakee has 60 seconds left.
+|
+|t:|1633226020
+|move|p1a: Weavile|Night Slash|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1633226028
+|switch|p2a: Virizion|Virizion|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|turn|29
+|inactive|Iam Fakee has 60 seconds left.
+|
+|t:|1633226034
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Virizion|Hidden Power|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|35/100
+|
+|-heal|p2a: Virizion|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Nalorium has 120 seconds left.
+|inactive|Iam Fakee has 60 seconds left.
+|
+|t:|1633226059
+|switch|p1a: Heracross|Heracross, F|34/100
+|move|p2a: Virizion|Hidden Power|p1a: Heracross
+|-damage|p1a: Heracross|14/100
+|
+|upkeep
+|turn|31
+|
+|t:|1633226066
+|move|p2a: Virizion|Hidden Power|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+|
+|t:|1633226068
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|32
+|
+|t:|1633226085
+|switch|p2a: Suicune|Suicune|56/100 brn
+|-damage|p2a: Suicune|44/100 brn|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Weavile|Ice Punch|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|22/100 brn
+|
+|-damage|p2a: Suicune|10/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1633226101
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp|[from] move: Rest
+|-heal|p2a: Suicune|100/100 slp|[silent]
+|-enditem|p2a: Suicune|Chesto Berry|[eat]
+|-curestatus|p2a: Suicune|slp|[msg]
+|
+|upkeep
+|turn|34
+|
+|t:|1633226114
+|switch|p2a: Virizion|Virizion|100/100
+|-damage|p2a: Virizion|94/100|[from] Stealth Rock
+|move|p1a: Ferroseed|Leech Seed|p2a: Virizion
+|-immune|p2a: Virizion
+|
+|-heal|p2a: Virizion|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆Iam Fakee|soy retrasado mental
+|c|☆Iam Fakee|gg
+|inactive|Iam Fakee has 60 seconds left.
+|
+|t:|1633226130
+|move|p2a: Virizion|Focus Blast|p1a: Ferroseed|[miss]
+|-miss|p2a: Virizion|p1a: Ferroseed
+|move|p1a: Ferroseed|Gyro Ball|p2a: Virizion
+|-damage|p2a: Virizion|57/100
+|
+|-heal|p2a: Virizion|63/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1633226134
+|move|p2a: Virizion|Focus Blast|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|39/100
+|-unboost|p1a: Ferroseed|spd|1
+|move|p1a: Ferroseed|Gyro Ball|p2a: Virizion
+|-crit|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|upkeep
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1633226148
+|switch|p2a: Rhyperior|Rhyperior, F|94/100
+|-damage|p2a: Rhyperior|88/100|[from] Stealth Rock
+|turn|37
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1633226158
+|move|p2a: Rhyperior|Megahorn|p1a: Ferroseed|[miss]
+|-miss|p2a: Rhyperior|p1a: Ferroseed
+|move|p1a: Ferroseed|Gyro Ball|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|66/100
+|
+|upkeep
+|turn|38
+|
+|t:|1633226164
+|move|p2a: Rhyperior|Megahorn|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-damage|p2a: Rhyperior|54/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1633226167
+|switch|p1a: Xatu|Xatu, M|35/100
+|turn|39
+|
+|t:|1633226173
+|switch|p2a: Bratvesidad|Sableye, M|99/100
+|-damage|p2a: Bratvesidad|88/100|[from] Stealth Rock
+|move|p1a: Xatu|Grass Knot|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|70/100
+|
+|-heal|p2a: Bratvesidad|76/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1633226177
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|85/100
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Bratvesidad|Foul Play|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|14/100
+|-damage|p2a: Bratvesidad|60/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|-heal|p2a: Bratvesidad|66/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1633226187
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|64/100
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Bratvesidad|Foul Play|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Bratvesidad|49/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|faint|p1a: Xatu
+|
+|-heal|p2a: Bratvesidad|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1633226194
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|42
+|c|+cursedstar|75%
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1633226247
+|move|p2a: Bratvesidad|Will-O-Wisp|p1a: Weavile
+|-status|p1a: Weavile|brn
+|move|p1a: Weavile|Ice Punch|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|28/100
+|-status|p2a: Bratvesidad|frz
+|
+|-heal|p2a: Bratvesidad|34/100 frz|[from] item: Leftovers
+|-damage|p1a: Weavile|88/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1633226252
+|switch|p1a: Mienshao|Mienshao, M|67/100
+|cant|p2a: Bratvesidad|frz
+|
+|-heal|p2a: Bratvesidad|40/100 frz|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1633226255
+|cant|p2a: Bratvesidad|frz
+|move|p1a: Mienshao|U-turn|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|14/100 frz
+|c|+Endill|F
+|
+|t:|1633226257
+|switch|p1a: Weavile|Weavile, F|88/100 brn|[from]move: U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|-heal|p2a: Bratvesidad|20/100 frz|[from] item: Leftovers
+|-damage|p1a: Weavile|76/100 brn|[from] brn
+|upkeep
+|turn|45
+|inactive|Iam Fakee has 120 seconds left.
+|
+|t:|1633226265
+|switch|p1a: Mienshao|Mienshao, M|99/100
+|cant|p2a: Bratvesidad|frz
+|
+|-heal|p2a: Bratvesidad|26/100 frz|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1633226269
+|-curestatus|p2a: Bratvesidad|frz|[msg]
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|76/100
+|move|p1a: Mienshao|U-turn|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|50/100
+|
+|t:|1633226271
+|switch|p1a: Weavile|Weavile, F|76/100 brn|[from]move: U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|-heal|p2a: Bratvesidad|56/100|[from] item: Leftovers
+|-damage|p1a: Weavile|63/100 brn|[from] brn
+|upkeep
+|turn|47
+|c|☆Nalorium|gg
+|
+|t:|1633226275
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|100/100
+|move|p1a: Weavile|Night Slash|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|74/100
+|
+|-heal|p2a: Bratvesidad|80/100|[from] item: Leftovers
+|-damage|p1a: Weavile|51/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1633226278
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|100/100
+|move|p1a: Weavile|Night Slash|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|71/100
+|
+|-heal|p2a: Bratvesidad|77/100|[from] item: Leftovers
+|-damage|p1a: Weavile|38/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1633226281
+|move|p1a: Weavile|Night Slash|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|52/100
+|move|p2a: Bratvesidad|Foul Play|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Bratvesidad|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1633226286
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|50
+|
+|t:|1633226292
+|move|p2a: Bratvesidad|Will-O-Wisp|p1a: Mienshao|[miss]
+|-miss|p2a: Bratvesidad|p1a: Mienshao
+|move|p1a: Mienshao|Stone Edge|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|20/100
+|
+|-heal|p2a: Bratvesidad|26/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|Iam Fakee has 180 seconds left.
+|
+|t:|1633226313
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|76/100
+|move|p1a: Mienshao|Stone Edge|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|43/100
+|
+|-heal|p2a: Bratvesidad|49/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1633226322
+|move|p2a: Bratvesidad|Recover|p2a: Bratvesidad
+|-heal|p2a: Bratvesidad|99/100
+|move|p1a: Mienshao|Stone Edge|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|65/100
+|
+|-heal|p2a: Bratvesidad|70/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1633226329
+|move|p2a: Bratvesidad|Will-O-Wisp|p1a: Mienshao
+|-status|p1a: Mienshao|brn
+|move|p1a: Mienshao|Stone Edge|p2a: Bratvesidad
+|-damage|p2a: Bratvesidad|52/100
+|
+|-heal|p2a: Bratvesidad|58/100|[from] item: Leftovers
+|-damage|p1a: Mienshao|88/100 brn|[from] brn
+|upkeep
+|turn|54
+|c|☆Iam Fakee|pues gg
+|-message|Iam Fakee forfeited.
+|
+|win|Nalorium

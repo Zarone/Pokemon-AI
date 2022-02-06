@@ -1,0 +1,188 @@
+|j|☆Salty Rng Moments
+|j|☆Lechen
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634334830
+|gametype|singles
+|player|p1|Salty Rng Moments|caitlin|
+|player|p2|Lechen|psychic-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Arcanine, F|item
+|poke|p1|Ambipom, M|item
+|poke|p1|Dusclops, M|item
+|poke|p1|Flygon, F|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Togekiss, F|item
+|poke|p2|Ambipom, F|item
+|poke|p2|Yanmega, F|item
+|poke|p2|Victini|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Raikou|item
+|poke|p2|Rhyperior, F|item
+|teampreview
+|j|*Lady Monita ☽
+|inactive|Salty Rng Moments also wants the timer to be on.
+|c|☆Lechen|Hey
+|c|☆Lechen|why did u scout me
+|inactive|Salty Rng Moments has 120 seconds left.
+|inactive|Lechen has 120 seconds left.
+|
+|t:|1634334867
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Ambipom|Ambipom, F|100/100
+|turn|1
+|c|☆Salty Rng Moments|wdym
+|
+|t:|1634334874
+|move|p2a: Ambipom|Fake Out|p1a: Togekiss
+|-damage|p1a: Togekiss|57/100
+|-damage|p2a: Ambipom|91/100|[from] item: Life Orb
+|cant|p1a: Togekiss|flinch
+|
+|upkeep
+|turn|2
+|c|☆Lechen|U watched mu battle
+|c|☆Lechen|*my
+|
+|t:|1634334891
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Togekiss|Extreme Speed|p2a: Raikou
+|-damage|p2a: Raikou|77/100
+|
+|-heal|p2a: Raikou|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Salty Rng Moments|oh i miss clicked
+|inactive|Lechen has 120 seconds left.
+|inactive|Lechen has 90 seconds left.
+|j| Ceoh
+|c|☆Lechen|Then why did u stay in my battle for 13 turns?
+|
+|t:|1634334965
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|58/100
+|move|p1a: Togekiss|Air Slash|p2a: Raikou
+|-resisted|p2a: Raikou
+|-activate|p2a: Raikou|Substitute|[damage]
+|
+|-heal|p2a: Raikou|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1634334969
+|move|p1a: Togekiss|Extreme Speed|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|
+|-heal|p2a: Raikou|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Salty Rng Moments|no
+|
+|t:|1634334978
+|move|p1a: Togekiss|Extreme Speed|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|25/100
+|move|p2a: Raikou|Thunderbolt|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Raikou|31/100|[from] item: Leftovers
+|upkeep
+|c|☆Lechen|U did
+|
+|t:|1634334986
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|turn|6
+|c|☆Lechen|check the record
+|
+|t:|1634334990
+|move|p1a: Arcanine|Extreme Speed|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634334995
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|turn|7
+|inactive|Lechen has 120 seconds left.
+|
+|t:|1634335004
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Rhyperior
+|-status|p2a: Rhyperior|brn
+|move|p2a: Rhyperior|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: Salty Rng Moments|move: Stealth Rock
+|
+|-damage|p2a: Rhyperior|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1634335009
+|move|p1a: Arcanine|Flare Blitz|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|64/100 brn
+|-damage|p1a: Arcanine|80/100|[from] Recoil
+|-damage|p1a: Arcanine|70/100|[from] item: Life Orb
+|move|p2a: Rhyperior|Swords Dance|p2a: Rhyperior
+|-boost|p2a: Rhyperior|atk|2
+|
+|-heal|p2a: Rhyperior|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Rhyperior|58/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1634335014
+|move|p1a: Arcanine|Extreme Speed|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|48/100 brn
+|-damage|p1a: Arcanine|60/100|[from] item: Life Orb
+|move|p2a: Rhyperior|Rock Blast|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|28/100
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-hitcount|p1: Arcanine|2
+|
+|-heal|p2a: Rhyperior|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Rhyperior|42/100 brn|[from] brn
+|upkeep
+|j|^Grandmaster7890
+|inactive|Salty Rng Moments has 120 seconds left.
+|l|^Grandmaster7890
+|l|☆Salty Rng Moments
+|inactive|Salty Rng Moments disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Salty Rng Moments has 30 seconds to reconnect!
+|inactive|Salty Rng Moments has 20 seconds to reconnect!
+|inactive|Salty Rng Moments has 15 seconds to reconnect!
+|inactive|Salty Rng Moments has 10 seconds to reconnect!
+|inactive|Salty Rng Moments has 5 seconds to reconnect!
+|-message|Salty Rng Moments lost due to inactivity.
+|
+|win|Lechen
+|n|☆Lechen|lechen
+|n|*Lady Monita ☽|ladymonita
+|n| Ceoh|ceoh

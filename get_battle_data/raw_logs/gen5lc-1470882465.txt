@@ -1,0 +1,165 @@
+|j|☆julianelvengador
+|j|☆chumgodkinglegend
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639189105
+|gametype|singles
+|player|p1|julianelvengador|striker|
+|player|p2|chumgodkinglegend|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, M|item
+|poke|p1|Munchlax, L5, M|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p2|Hippopotas, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Tirtouga, L5, F|item
+|poke|p2|Foongus, L5, M|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Pawniard, L5, F|item
+|teampreview
+|
+|t:|1639189107
+|start
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|
+|t:|1639189115
+|move|p1a: Carvanha|Waterfall|p2a: Hippopotas
+|-supereffective|p2a: Hippopotas
+|-damage|p2a: Hippopotas|29/100
+|-damage|p1a: Carvanha|91/100|[from] item: Life Orb
+|cant|p2a: Hippopotas|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Carvanha|86/100|[from] Sandstorm
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|2
+|
+|t:|1639189130
+|move|p1a: Carvanha|Crunch|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|faint|p2a: Hippopotas
+|-damage|p1a: Carvanha|77/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Carvanha|72/100|[from] Sandstorm
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1639189139
+|switch|p2a: Pawniard|Pawniard, L5, F|100/100
+|turn|3
+|
+|t:|1639189143
+|move|p2a: Pawniard|Sucker Punch|p1a: Carvanha
+|-resisted|p1a: Carvanha
+|-damage|p1a: Carvanha|29/100
+|move|p1a: Carvanha|Waterfall|p2a: Pawniard
+|-damage|p2a: Pawniard|48/100
+|-damage|p1a: Carvanha|20/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Carvanha|15/100|[from] Sandstorm
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|4
+|
+|t:|1639189148
+|move|p2a: Pawniard|Sucker Punch|p1a: Carvanha
+|-resisted|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1639189151
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|turn|5
+|
+|t:|1639189155
+|move|p2a: Pawniard|Thunder Wave|p1a: Timburr
+|-status|p1a: Timburr|par
+|move|p1a: Timburr|Drain Punch|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|96/100 par|[from] Sandstorm
+|upkeep
+|
+|t:|1639189162
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|6
+|
+|t:|1639189167
+|move|p2a: Gastly|Shadow Ball|p1a: Timburr
+|-damage|p1a: Timburr|60/100 par
+|move|p1a: Timburr|Payback|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|57/100 par|[from] Sandstorm
+|upkeep
+|
+|t:|1639189175
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|turn|7
+|
+|t:|1639189178
+|move|p2a: Drilbur|Earthquake|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1639189182
+|switch|p1a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|8
+|
+|t:|1639189187
+|switch|p2a: Foongus|Foongus, L5, M|100/100
+|move|p1a: Snover|Blizzard|p2a: Foongus
+|-supereffective|p2a: Foongus
+|-damage|p2a: Foongus|20/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Foongus|16/100|[from] Hail
+|upkeep
+|turn|9
+|-message|chumgodkinglegend forfeited.
+|
+|win|julianelvengador
+|n|☆julianelvengador|julianelvengador
+|n|☆chumgodkinglegend|chumgodkinglegend
+|l|☆chumgodkinglegend
+|j| AshKetchumReturnz
+|c| AshKetchumReturnz|LETS GO JULLIAN!!
+|c| AshKetchumReturnz|julian*
+|c|☆julianelvengador|thanks ash
+|l| AshKetchumReturnz

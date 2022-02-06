@@ -1,0 +1,224 @@
+|j|☆Kounamii
+|j|☆afuyeas
+|t:|1634905790
+|gametype|singles
+|player|p1|Kounamii|blue-gen7|
+|player|p2|afuyeas|pokemonrangerf-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Qwilfish, F|item
+|poke|p1|Rhyperior, F|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Raikou|item
+|poke|p1|Flygon, M|item
+|poke|p2|Cinccino, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Golurk|item
+|poke|p2|Zapdos|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Heracross, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|inactive|afuyeas also wants the timer to be on.
+|inactive|afuyeas has 120 seconds left.
+|
+|t:|1634905825
+|start
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|switch|p2a: Golurk|Golurk, shiny|100/100
+|turn|1
+|
+|t:|1634905831
+|move|p1a: Empoleon|Surf|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|j| popsnot
+|inactive|afuyeas has 120 seconds left.
+|
+|t:|1634905873
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|2
+|
+|t:|1634905893
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Close Combat|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|83/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|-heal|p1a: Qwilfish|89/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1634905898
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Qwilfish|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|-heal|p1a: Qwilfish|95/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1634905906
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Rhyperior
+|-immune|p1a: Rhyperior
+|
+|upkeep
+|turn|5
+|
+|t:|1634905910
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Heracross
+|-sidestart|p2: afuyeas|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1634905918
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Heracross|Earthquake|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1634905926
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Heracross|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|upkeep
+|turn|8
+|inactive|afuyeas has 120 seconds left.
+|c|☆afuyeas|a real team against a good player game 2 smh
+|
+|t:|1634905968
+|switch|p2a: Zapdos|Zapdos|100/100 par
+|-damage|p2a: Zapdos|76/100 par|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Togekiss|Air Slash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|58/100 par
+|
+|-heal|p2a: Zapdos|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1634905986
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|cant|p2a: Zapdos|par
+|
+|-heal|p2a: Zapdos|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1634905994
+|switch|p2a: Roserade|Roserade, F, shiny|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Roserade
+|-damage|p2a: Roserade|65/100
+|-damage|p2a: Roserade|41/100
+|-damage|p2a: Roserade|21/100
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-hitcount|p2: Roserade|4
+|
+|upkeep
+|
+|t:|1634906000
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1634906004
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Cinccino|Bullet Seed|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|upkeep
+|turn|12
+|j| i Owe yoU a battle
+|l| i Owe yoU a battle
+|inactive|afuyeas has 120 seconds left.
+|
+|t:|1634906017
+|switch|p2a: Zapdos|Zapdos|71/100 par
+|-damage|p2a: Zapdos|46/100 par|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|switch|p1a: Qwilfish|Qwilfish, F|95/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|-heal|p1a: Qwilfish|100/100|[from] item: Black Sludge
+|-heal|p2a: Zapdos|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1634906022
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100 par
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1634906027
+|move|p1a: Rhyperior|Rock Blast|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100 par
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|38/100 par
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|6/100 par
+|-hitcount|p2a: Zapdos|3
+|move|p2a: Zapdos|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-crit|p1a: Rhyperior
+|-damage|p1a: Rhyperior|37/100
+|
+|-heal|p1a: Rhyperior|44/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆afuyeas|gg
+|c|☆Kounamii|Gg
+|-message|afuyeas forfeited.
+|
+|win|Kounamii
+|n|☆Kounamii|kounamii
+|n|☆afuyeas|afuyeas
+|n| popsnot|popsnot
+|l|☆afuyeas
+|l|☆Kounamii
+|l| popsnot
+|j| popsnot
+|l| popsnot
+|j|☆Kounamii
+|player|p1|Kounamii|blue-gen7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)

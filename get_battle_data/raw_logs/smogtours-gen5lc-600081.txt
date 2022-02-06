@@ -1,0 +1,1129 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641124961
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|Arteta padawan|cheren|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, M|item
+|poke|p1|Bronzor, L5|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Frillish, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Omanyte, L5, F|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Larvesta, L5, F|item
+|teampreview
+|c|☆mentalsoft|hf
+|c|☆Arteta padawan|hf
+|inactive|mentalsoft has 270 seconds left.
+|inactive|Arteta padawan has 270 seconds left.
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125051
+|start
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|1
+|inactive|mentalsoft has 270 seconds left.
+|
+|t:|1641125084
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Hippopotas|Earthquake|p2a: Natu
+|-immune|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|2
+|inactive|mentalsoft has 270 seconds left.
+|inactive|Arteta padawan has 270 seconds left.
+|
+|t:|1641125124
+|move|p2a: Natu|Psychic|p1a: Hippopotas
+|-damage|p1a: Hippopotas|64/100
+|move|p1a: Hippopotas|Whirlwind|p2a: Natu
+|move|p2a: Natu|Whirlwind|p1a: Hippopotas|[from]ability: Magic Bounce
+|drag|p1a: Lileep|Lileep, L5, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|91/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125157
+|move|p2a: Natu|Psychic|p1a: Lileep
+|-damage|p1a: Lileep|85/100
+|-unboost|p1a: Lileep|spd|1
+|move|p1a: Lileep|Rock Slide|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|48/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1641125180
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Lileep|Giga Drain|p2a: Natu
+|-damage|p2a: Natu|67/100
+|-heal|p1a: Lileep|100/100|[from] drain|[of] p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|62/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1641125196
+|move|p2a: Natu|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|77/100
+|
+|t:|1641125201
+|switch|p2a: Porygon|Porygon, L5|100/100|[from]move: U-turn
+|-ability|p2a: Porygon|Storm Drain|[from] ability: Trace|[of] p1a: Lileep
+|move|p1a: Lileep|Rock Slide|p2a: Porygon
+|-damage|p2a: Porygon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|80/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|mentalsoft has 240 seconds left.
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125229
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|move|p2a: Porygon|Psychic|p1a: Timburr
+|-supereffective|p1a: Timburr
+|-damage|p1a: Timburr|42/100
+|-unboost|p1a: Timburr|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|76/100|[from] Sandstorm
+|-damage|p1a: Timburr|38/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|mentalsoft has 240 seconds left.
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125254
+|switch|p2a: Larvesta|Larvesta, L5, F|100/100
+|switch|p1a: Bronzor|Bronzor, L5|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|96/100|[from] Sandstorm
+|upkeep
+|turn|8
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125272
+|switch|p1a: Lileep|Lileep, L5, F|77/100
+|move|p2a: Larvesta|Will-O-Wisp|p1a: Lileep
+|-status|p1a: Lileep|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|92/100|[from] Sandstorm
+|-damage|p1a: Lileep|66/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125288
+|move|p2a: Larvesta|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|20/100 brn
+|
+|t:|1641125292
+|switch|p2a: Porygon|Porygon, L5|76/100|[from]move: U-turn
+|-ability|p2a: Porygon|Storm Drain|[from] ability: Trace|[of] p1a: Lileep
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|70/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|72/100|[from] Sandstorm
+|-damage|p1a: Lileep|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|mentalsoft has 240 seconds left.
+|inactive|Arteta padawan has 240 seconds left.
+|
+|t:|1641125312
+|move|p2a: Porygon|Ice Beam|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|35/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|85/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|68/100|[from] Sandstorm
+|-damage|p1a: Lileep|74/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|Arteta padawan has 240 seconds left.
+|inactive|mentalsoft has 240 seconds left.
+|
+|t:|1641125330
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|move|p1a: Lileep|Toxic|p2a: Porygon
+|-status|p2a: Porygon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|96/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|92/100 tox|[from] psn
+|-damage|p1a: Lileep|62/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1641125340
+|move|p2a: Porygon|Ice Beam|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|39/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|89/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|88/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|80/100 tox|[from] psn
+|-damage|p1a: Lileep|77/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Arteta padawan has 240 seconds left.
+|inactive|mentalsoft has 240 seconds left.
+|
+|t:|1641125371
+|switch|p2a: Larvesta|Larvesta, L5, F|92/100
+|move|p1a: Lileep|Toxic|p2a: Larvesta|[miss]
+|-miss|p1a: Lileep|p2a: Larvesta
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|87/100|[from] Sandstorm
+|-damage|p1a: Lileep|66/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|Arteta padawan has 210 seconds left.
+|
+|t:|1641125400
+|switch|p1a: Frillish|Frillish, L5, M|100/100
+|move|p2a: Larvesta|Flare Blitz|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|80/100
+|-damage|p2a: Larvesta|79/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|74/100|[from] Sandstorm
+|-damage|p1a: Frillish|76/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1641125421
+|switch|p1a: Hippopotas|Hippopotas, L5, M|64/100
+|move|p2a: Larvesta|Will-O-Wisp|p1a: Hippopotas
+|-status|p1a: Hippopotas|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|70/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|52/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1641125427
+|move|p2a: Larvesta|U-turn|p1a: Hippopotas
+|-damage|p1a: Hippopotas|36/100 brn
+|
+|t:|1641125429
+|switch|p2a: Natu|Natu, L5, F|62/100|[from]move: U-turn
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|88/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|58/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|76/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Arteta padawan has 210 seconds left.
+|inactive|mentalsoft has 210 seconds left.
+|c|+daunt vs|toy eres mi padre
+|inactive|mentalsoft has 180 seconds left.
+|c|+Eonitoツ|Entonces es mi abuelo
+|inactive|Arteta padawan has 180 seconds left.
+|
+|t:|1641125516
+|switch|p1a: Natu|Natu, L5, F|100/100
+|move|p2a: Natu|Giga Drain|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|92/100
+|-heal|p2a: Natu|62/100|[from] drain|[of] p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|58/100|[from] Sandstorm
+|-damage|p1a: Natu|87/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|mentalsoft has 180 seconds left.
+|inactive|Arteta padawan has 180 seconds left.
+|
+|t:|1641125550
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Natu|Heat Wave|p2a: Natu
+|-damage|p2a: Natu|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|62/100|[from] Sandstorm
+|-damage|p1a: Natu|83/100|[from] Sandstorm
+|upkeep
+|turn|19
+|inactive|mentalsoft has 180 seconds left.
+|inactive|Arteta padawan has 150 seconds left.
+|inactive|mentalsoft has 150 seconds left.
+|
+|t:|1641125592
+|switch|p2a: Porygon|Porygon, L5|80/100 tox
+|-ability|p2a: Porygon|Magic Bounce|[from] ability: Trace|[of] p1a: Natu
+|move|p1a: Natu|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|68/100 tox
+|inactive|mentalsoft has 120 seconds left.
+|
+|t:|1641125641
+|switch|p1a: Bronzor|Bronzor, L5|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|64/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|60/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Arteta padawan has 150 seconds left.
+|
+|t:|1641125652
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1641125668
+|switch|p1a: Natu|Natu, L5, F|83/100
+|move|p2a: Drilbur|Earthquake|p1a: Natu
+|-immune|p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|79/100|[from] Sandstorm
+|upkeep
+|turn|22
+|inactive|mentalsoft has 90 seconds left.
+|inactive|Arteta padawan has 150 seconds left.
+|
+|t:|1641125703
+|move|p2a: Drilbur|Stealth Rock|p1a: Natu
+|-sidestart|p1: mentalsoft|move: Stealth Rock
+|move|p1a: Natu|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|74/100|[from] Sandstorm
+|upkeep
+|turn|23
+|inactive|Arteta padawan has 150 seconds left.
+|
+|t:|1641125734
+|switch|p2a: Natu|Natu, L5, F|62/100
+|move|p1a: Natu|Psychic|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|39/100|[from] Sandstorm
+|-damage|p1a: Natu|70/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1641125740
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|91/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Natu|U-turn|p2a: Natu
+|-supereffective|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|24/100
+|inactive|mentalsoft has 90 seconds left.
+|inactive|mentalsoft has 60 seconds left.
+|
+|t:|1641125803
+|switch|p1a: Bronzor|Bronzor, L5|100/100|[from]move: U-turn
+|-damage|p1a: Bronzor|96/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|20/100|[from] Sandstorm
+|upkeep
+|turn|25
+|inactive|Arteta padawan has 150 seconds left.
+|
+|t:|1641125816
+|move|p2a: Natu|U-turn|p1a: Bronzor
+|-damage|p1a: Bronzor|88/100
+|
+|t:|1641125819
+|switch|p2a: Larvesta|Larvesta, L5, F|70/100|[from]move: U-turn
+|move|p1a: Bronzor|Flash Cannon|p2a: Larvesta
+|-resisted|p2a: Larvesta
+|-damage|p2a: Larvesta|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|53/100|[from] Sandstorm
+|upkeep
+|turn|26
+|inactive|mentalsoft has 60 seconds left.
+|inactive|Arteta padawan has 150 seconds left.
+|
+|t:|1641125845
+|switch|p1a: Hippopotas|Hippopotas, L5, M|76/100 brn
+|-damage|p1a: Hippopotas|72/100 brn|[from] Stealth Rock
+|move|p2a: Larvesta|Will-O-Wisp|p1a: Hippopotas
+|-fail|p1a: Hippopotas|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|48/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|60/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|
+|t:|1641125878
+|move|p2a: Larvesta|U-turn|p1a: Hippopotas
+|-damage|p1a: Hippopotas|44/100 brn
+|inactive|mentalsoft has 25 seconds left this turn.
+|
+|t:|1641125881
+|switch|p2a: Natu|Natu, L5, F|20/100|[from]move: U-turn
+|move|p1a: Hippopotas|Whirlwind|p2a: Natu
+|move|p2a: Natu|Whirlwind|p1a: Hippopotas|[from]ability: Magic Bounce
+|drag|p1a: Bronzor|Bronzor, L5|88/100
+|-damage|p1a: Bronzor|84/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|15/100|[from] Sandstorm
+|upkeep
+|turn|28
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|
+|t:|1641125898
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|67/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Bronzor|Flash Cannon|p2a: Natu
+|-damage|p2a: Natu|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|29/100|[from] Sandstorm
+|upkeep
+|turn|29
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1641125908
+|move|p2a: Natu|U-turn|p1a: Bronzor
+|-damage|p1a: Bronzor|75/100
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1641125921
+|switch|p2a: Larvesta|Larvesta, L5, F|48/100|[from]move: U-turn
+|move|p1a: Bronzor|Flash Cannon|p2a: Larvesta
+|-resisted|p2a: Larvesta
+|-damage|p2a: Larvesta|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|31/100|[from] Sandstorm
+|upkeep
+|turn|30
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641125938
+|switch|p1a: Hippopotas|Hippopotas, L5, M|44/100 brn
+|-damage|p1a: Hippopotas|40/100 brn|[from] Stealth Rock
+|move|p2a: Larvesta|Morning Sun|p2a: Larvesta
+|-heal|p2a: Larvesta|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|53/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|29/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|inactive|mentalsoft has 15 seconds left.
+|
+|t:|1641125960
+|move|p2a: Larvesta|U-turn|p1a: Hippopotas
+|-damage|p1a: Hippopotas|12/100 brn
+|inactive|mentalsoft has 20 seconds left this turn.
+|
+|t:|1641125962
+|switch|p2a: Natu|Natu, L5, F|29/100|[from]move: U-turn
+|move|p1a: Hippopotas|Whirlwind|p2a: Natu
+|move|p2a: Natu|Whirlwind|p1a: Hippopotas|[from]ability: Magic Bounce
+|drag|p1a: Bronzor|Bronzor, L5|75/100
+|-damage|p1a: Bronzor|71/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|24/100|[from] Sandstorm
+|upkeep
+|turn|32
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1641125969
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|77/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|72/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|t:|1641125973
+|move|p2a: Natu|U-turn|p1a: Bronzor
+|-damage|p1a: Bronzor|59/100
+|
+|t:|1641125975
+|switch|p2a: Larvesta|Larvesta, L5, F|53/100|[from]move: U-turn
+|move|p1a: Bronzor|Flash Cannon|p2a: Larvesta
+|-resisted|p2a: Larvesta
+|-damage|p2a: Larvesta|35/100
+|-unboost|p2a: Larvesta|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|31/100|[from] Sandstorm
+|upkeep
+|turn|34
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641125997
+|switch|p1a: Frillish|Frillish, L5, M|76/100
+|-damage|p1a: Frillish|64/100|[from] Stealth Rock
+|move|p2a: Larvesta|Flare Blitz|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|44/100
+|-damage|p2a: Larvesta|22/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|18/100|[from] Sandstorm
+|-damage|p1a: Frillish|40/100|[from] Sandstorm
+|upkeep
+|turn|35
+|
+|t:|1641126010
+|move|p2a: Larvesta|Will-O-Wisp|p1a: Frillish
+|-status|p1a: Frillish|brn
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|92/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|14/100|[from] Sandstorm
+|-damage|p1a: Frillish|88/100 brn|[from] Sandstorm
+|-damage|p1a: Frillish|76/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1641126018
+|move|p2a: Larvesta|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|64/100 brn
+|-start|p2a: Larvesta|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Frillish
+|
+|t:|1641126022
+|switch|p2a: Porygon|Porygon, L5|60/100 tox|[from]move: U-turn
+|-ability|p2a: Porygon|Cursed Body|[from] ability: Trace|[of] p1a: Frillish
+|move|p1a: Frillish|Scald|p2a: Porygon
+|-damage|p2a: Porygon|36/100 tox
+|-start|p1a: Frillish|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Porygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|32/100 tox|[from] Sandstorm
+|-damage|p1a: Frillish|60/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|29/100 tox|[from] psn
+|-damage|p1a: Frillish|48/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1641126038
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|100/100 brn
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|80/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|76/100 tox|[from] Sandstorm
+|-damage|p1a: Frillish|96/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|68/100 tox|[from] psn
+|-damage|p1a: Frillish|84/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1641126056
+|switch|p1a: Bronzor|Bronzor, L5|59/100
+|-damage|p1a: Bronzor|55/100|[from] Stealth Rock
+|move|p2a: Porygon|Psychic|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|64/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|52/100 tox|[from] psn
+|upkeep
+|turn|39
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126071
+|switch|p2a: Drilbur|Drilbur, L5, M|48/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Bronzor|Flash Cannon|p2a: Drilbur
+|-crit|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1641126075
+|switch|p2a: Larvesta|Larvesta, L5, F|14/100
+|turn|40
+|inactive|Arteta padawan has 240 seconds left.
+|c|☆Arteta padawan|nice crit
+|c|☆mentalsoft|sry
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126095
+|switch|p1a: Hippopotas|Hippopotas, L5, M|12/100 brn
+|-damage|p1a: Hippopotas|8/100 brn|[from] Stealth Rock
+|move|p2a: Larvesta|Morning Sun|p2a: Larvesta
+|-heal|p2a: Larvesta|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|35/100|[from] Sandstorm
+|-damage|p1a: Hippopotas|0 fnt|[from] brn
+|faint|p1a: Hippopotas
+|upkeep
+|inactive|mentalsoft has 30 seconds left this turn.
+|c|☆Arteta padawan|is the game so
+|
+|t:|1641126104
+|switch|p1a: Frillish|Frillish, L5, M|84/100 brn
+|-damage|p1a: Frillish|72/100 brn|[from] Stealth Rock
+|turn|41
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126113
+|move|p2a: Larvesta|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|60/100 brn
+|
+|t:|1641126116
+|switch|p2a: Porygon|Porygon, L5|52/100 tox|[from]move: U-turn
+|-ability|p2a: Porygon|Cursed Body|[from] ability: Trace|[of] p1a: Frillish
+|move|p1a: Frillish|Scald|p2a: Porygon
+|-damage|p2a: Porygon|29/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|24/100 tox|[from] Sandstorm
+|-damage|p1a: Frillish|57/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|20/100 tox|[from] psn
+|-damage|p1a: Frillish|44/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1641126128
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|72/100 tox
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|96/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|92/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|68/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|60/100 tox|[from] psn
+|-damage|p1a: Frillish|80/100 brn|[from] brn
+|upkeep
+|turn|43
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126151
+|move|p1a: Frillish|Scald|p2a: Porygon
+|-damage|p2a: Porygon|36/100 tox
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|88/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|84/100 tox|[from] Sandstorm
+|-damage|p1a: Frillish|76/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|72/100 tox|[from] psn
+|-damage|p1a: Frillish|64/100 brn|[from] brn
+|upkeep
+|turn|44
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126166
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 tox
+|move|p1a: Frillish|Scald|p2a: Porygon
+|-damage|p2a: Porygon|72/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|68/100 tox|[from] Sandstorm
+|-damage|p1a: Frillish|60/100 brn|[from] Sandstorm
+|-damage|p2a: Porygon|52/100 tox|[from] psn
+|-damage|p1a: Frillish|48/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1641126176
+|switch|p2a: Natu|Natu, L5, F|72/100
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|67/100|[from] Sandstorm
+|-damage|p1a: Frillish|96/100 brn|[from] Sandstorm
+|-damage|p1a: Frillish|84/100 brn|[from] brn
+|upkeep
+|turn|46
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126204
+|move|p2a: Natu|Giga Drain|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|52/100 brn
+|-heal|p2a: Natu|86/100|[from] drain|[of] p1a: Frillish
+|move|p1a: Frillish|Shadow Ball|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|48/100 brn|[from] Sandstorm
+|-damage|p1a: Frillish|36/100 brn|[from] brn
+|upkeep
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1641126211
+|switch|p2a: Drifloon|Drifloon, L5, F|100/100
+|turn|47
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126225
+|move|p2a: Drifloon|Acrobatics|p1a: Frillish
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Frillish|0 fnt
+|faint|p1a: Frillish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|96/100|[from] Sandstorm
+|upkeep
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|inactive|mentalsoft has 15 seconds left.
+|
+|t:|1641126246
+|switch|p1a: Lileep|Lileep, L5, F|66/100 brn
+|-damage|p1a: Lileep|54/100 brn|[from] Stealth Rock
+|turn|48
+|inactive|mentalsoft has 25 seconds left this turn.
+|inactive|Arteta padawan has 270 seconds left.
+|
+|t:|1641126270
+|move|p2a: Drifloon|Hidden Power|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|39/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|89/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|92/100|[from] Sandstorm
+|-damage|p1a: Lileep|77/100 brn|[from] brn
+|upkeep
+|turn|49
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126291
+|move|p2a: Drifloon|Shadow Ball|p1a: Lileep
+|-damage|p1a: Lileep|62/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|88/100|[from] Sandstorm
+|-damage|p1a: Lileep|89/100 brn|[from] brn
+|upkeep
+|turn|50
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1641126306
+|move|p2a: Drifloon|Acrobatics|p1a: Lileep
+|-damage|p1a: Lileep|54/100 brn
+|move|p1a: Lileep|Toxic|p2a: Drifloon
+|-status|p2a: Drifloon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|84/100 tox|[from] Sandstorm
+|-damage|p2a: Drifloon|80/100 tox|[from] psn
+|-damage|p1a: Lileep|43/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1641126311
+|move|p2a: Drifloon|Acrobatics|p1a: Lileep
+|-damage|p1a: Lileep|8/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|58/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|76/100 tox|[from] Sandstorm
+|-damage|p2a: Drifloon|68/100 tox|[from] psn
+|-damage|p1a: Lileep|47/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1641126316
+|move|p2a: Drifloon|Acrobatics|p1a: Lileep
+|-damage|p1a: Lileep|12/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|62/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|64/100 tox|[from] Sandstorm
+|-damage|p2a: Drifloon|52/100 tox|[from] psn
+|-damage|p1a: Lileep|50/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1641126320
+|move|p2a: Drifloon|Acrobatics|p1a: Lileep
+|-damage|p1a: Lileep|16/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|66/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|48/100 tox|[from] Sandstorm
+|-damage|p2a: Drifloon|32/100 tox|[from] psn
+|-damage|p1a: Lileep|54/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1641126325
+|move|p2a: Drifloon|Acrobatics|p1a: Lileep
+|-damage|p1a: Lileep|20/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|70/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|29/100 tox|[from] Sandstorm
+|-damage|p2a: Drifloon|8/100 tox|[from] psn
+|-damage|p1a: Lileep|58/100 brn|[from] brn
+|upkeep
+|turn|55
+|inactive|mentalsoft has 60 seconds left.
+|
+|t:|1641126331
+|move|p2a: Drifloon|Acrobatics|p1a: Lileep
+|-damage|p1a: Lileep|24/100 brn
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|74/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|4/100 tox|[from] Sandstorm
+|-damage|p2a: Drifloon|0 fnt|[from] psn
+|faint|p2a: Drifloon
+|-damage|p1a: Lileep|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1641126337
+|switch|p2a: Larvesta|Larvesta, L5, F|35/100
+|turn|56
+|
+|t:|1641126349
+|move|p2a: Larvesta|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|16/100 brn
+|
+|t:|1641126352
+|switch|p2a: Porygon|Porygon, L5|52/100 tox|[from]move: U-turn
+|-ability|p2a: Porygon|Storm Drain|[from] ability: Trace|[of] p1a: Lileep
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|66/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|48/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|44/100 tox|[from] psn
+|-damage|p1a: Lileep|54/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1641126360
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|96/100 tox
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|92/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|84/100 tox|[from] psn
+|-damage|p1a: Lileep|89/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|t:|1641126374
+|move|p2a: Porygon|Ice Beam|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|66/100 brn
+|move|p1a: Lileep|Giga Drain|p2a: Porygon
+|-damage|p2a: Porygon|68/100 tox
+|-heal|p1a: Lileep|74/100 brn|[from] drain|[of] p2a: Porygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|64/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|52/100 tox|[from] psn
+|-damage|p1a: Lileep|62/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1641126390
+|switch|p2a: Larvesta|Larvesta, L5, F|35/100
+|move|p1a: Lileep|Giga Drain|p2a: Larvesta
+|-resisted|p2a: Larvesta
+|-damage|p2a: Larvesta|31/100
+|-heal|p1a: Lileep|66/100 brn|[from] drain|[of] p2a: Larvesta
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|27/100|[from] Sandstorm
+|-damage|p1a: Lileep|54/100 brn|[from] brn
+|upkeep
+|turn|60
+|inactive|mentalsoft has 60 seconds left.
+|
+|t:|1641126414
+|switch|p1a: Timburr|Timburr, L5, M|38/100
+|-damage|p1a: Timburr|34/100|[from] Stealth Rock
+|move|p2a: Larvesta|U-turn|p1a: Timburr
+|-resisted|p1a: Timburr
+|-damage|p1a: Timburr|21/100
+|inactive|Arteta padawan has 270 seconds left.
+|
+|t:|1641126450
+|switch|p2a: Omanyte|Omanyte, L5, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|17/100|[from] Sandstorm
+|upkeep
+|turn|61
+|inactive|mentalsoft has 60 seconds left.
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|inactive|mentalsoft has 15 seconds left.
+|
+|t:|1641126514
+|move|p1a: Timburr|Mach Punch|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-damage|p2a: Omanyte|66/100
+|move|p2a: Omanyte|Scald|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|mentalsoft has 20 seconds left this turn.
+|inactive|mentalsoft has 15 seconds left.
+|
+|t:|1641126521
+|switch|p1a: Natu|Natu, L5, F|70/100
+|-damage|p1a: Natu|48/100|[from] Stealth Rock
+|turn|62
+|inactive|mentalsoft has 25 seconds left this turn.
+|
+|t:|1641126525
+|move|p1a: Natu|Psychic|p2a: Omanyte
+|-damage|p2a: Omanyte|48/100
+|move|p2a: Omanyte|Scald|p1a: Natu
+|-damage|p1a: Natu|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|5/100|[from] Sandstorm
+|upkeep
+|turn|63
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|inactive|mentalsoft has 15 seconds left.
+|inactive|mentalsoft has 10 seconds left.
+|
+|t:|1641126551
+|move|p1a: Natu|Psychic|p2a: Omanyte
+|-damage|p2a: Omanyte|31/100
+|move|p2a: Omanyte|Scald|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|mentalsoft has 15 seconds left this turn.
+|inactive|mentalsoft has 10 seconds left.
+|
+|t:|1641126561
+|switch|p1a: Lileep|Lileep, L5, F|54/100 brn
+|-damage|p1a: Lileep|43/100 brn|[from] Stealth Rock
+|turn|64
+|inactive|mentalsoft has 20 seconds left this turn.
+|inactive|mentalsoft has 15 seconds left.
+|
+|t:|1641126579
+|move|p2a: Omanyte|Hidden Power|p1a: Lileep
+|-crit|p1a: Lileep
+|-damage|p1a: Lileep|16/100 brn
+|move|p1a: Lileep|Giga Drain|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-damage|p2a: Omanyte|0 fnt
+|-heal|p1a: Lileep|31/100 brn|[from] drain|[of] p2a: Omanyte
+|faint|p2a: Omanyte
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lileep|20/100 brn|[from] brn
+|upkeep
+|inactive|mentalsoft has 20 seconds left this turn.
+|
+|t:|1641126583
+|switch|p2a: Larvesta|Larvesta, L5, F|27/100
+|turn|65
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1641126592
+|move|p2a: Larvesta|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|faint|p1a: Lileep
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1641126596
+|switch|p2a: Porygon|Porygon, L5|52/100 tox|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|48/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|44/100 tox|[from] psn
+|upkeep
+|
+|t:|1641126600
+|switch|p1a: Bronzor|Bronzor, L5|50/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Bronzor
+|-damage|p1a: Bronzor|46/100|[from] Stealth Rock
+|turn|66
+|
+|t:|1641126604
+|move|p2a: Porygon|Psychic|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-crit|p1a: Bronzor
+|-damage|p1a: Bronzor|38/100
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|40/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|32/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|t:|1641126608
+|switch|p2a: Larvesta|Larvesta, L5, F|27/100
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor|[from]move: Sleep Talk
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|22/100|[from] Sandstorm
+|upkeep
+|turn|68
+|inactive|mentalsoft has 60 seconds left.
+|
+|t:|1641126615
+|move|p2a: Larvesta|Morning Sun|p2a: Larvesta
+|-heal|p2a: Larvesta|48/100
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Bronzor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|44/100|[from] Sandstorm
+|upkeep
+|turn|69
+|
+|t:|1641126625
+|move|p2a: Larvesta|Flare Blitz|p1a: Bronzor
+|-supereffective|p1a: Bronzor
+|-damage|p1a: Bronzor|42/100 slp
+|-damage|p2a: Larvesta|22/100|[from] Recoil
+|-curestatus|p1a: Bronzor|slp|[msg]
+|move|p1a: Bronzor|Flash Cannon|p2a: Larvesta
+|-resisted|p2a: Larvesta
+|-damage|p2a: Larvesta|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Larvesta|0 fnt|[from] Sandstorm
+|faint|p2a: Larvesta
+|upkeep
+|
+|t:|1641126635
+|switch|p2a: Porygon|Porygon, L5|32/100 tox
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Bronzor
+|turn|70
+|c|☆Arteta padawan|well
+|c|☆Arteta padawan|i choqued
+|c|☆Arteta padawan|with the uturn
+|c|☆Arteta padawan|so hard
+|
+|t:|1641126652
+|move|p2a: Porygon|Ice Beam|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|34/100
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|29/100 tox|[from] Sandstorm
+|-damage|p2a: Porygon|24/100 tox|[from] psn
+|upkeep
+|turn|71
+|-message|Arteta padawan forfeited.
+|
+|win|mentalsoft
+|c|☆mentalsoft|gg

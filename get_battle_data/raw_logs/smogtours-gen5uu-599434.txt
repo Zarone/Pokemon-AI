@@ -1,0 +1,313 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640657849
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|ford focus 2021|picnicker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Snorlax, F|item
+|poke|p1|Xatu, F|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Virizion|item
+|poke|p2|Victini|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|
+|t:|1640657865
+|start
+|switch|p1a: Comme Des Garçons|Nidoking, M, shiny|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|t:|1640657877
+|switch|p1a: XS|Snorlax, F|100/100
+|move|p2a: Victini|V-create|p1a: XS
+|-damage|p1a: XS|51/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: XS|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1640657882
+|move|p2a: Victini|V-create|p1a: XS
+|-damage|p1a: XS|5/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|move|p1a: XS|Pursuit|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|50/100
+|
+|-heal|p1a: XS|11/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1640657885
+|move|p1a: XS|Protect|p1a: XS
+|-singleturn|p1a: XS|Protect
+|move|p2a: Victini|V-create|p1a: XS
+|-activate|p1a: XS|move: Protect
+|
+|-heal|p1a: XS|17/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1640657888
+|move|p2a: Victini|V-create|p1a: XS
+|-damage|p1a: XS|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: XS
+|
+|upkeep
+|
+|t:|1640657890
+|switch|p1a: Comme Des Garçons|Nidoking, M, shiny|100/100
+|turn|5
+|
+|t:|1640657893
+|move|p1a: Comme Des Garçons|Stealth Rock|p2a: Victini
+|-sidestart|p2: ford focus 2021|move: Stealth Rock
+|move|p2a: Victini|V-create|p1a: Comme Des Garçons
+|-damage|p1a: Comme Des Garçons|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Comme Des Garçons
+|
+|upkeep
+|
+|t:|1640657899
+|switch|p1a: Snakeskin|Virizion|100/100
+|turn|6
+|
+|t:|1640657902
+|move|p1a: Snakeskin|Close Combat|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|-unboost|p1a: Snakeskin|def|1
+|-unboost|p1a: Snakeskin|spd|1
+|faint|p2a: Victini
+|
+|upkeep
+|
+|t:|1640657905
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1640657910
+|switch|p1a: STFU!|Zapdos|100/100
+|-ability|p1a: STFU!|Pressure
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1640657913
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|move|p1a: STFU!|Thunderbolt|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1640657918
+|switch|p1a: Snakeskin|Virizion|100/100
+|move|p2a: Rhyperior|Stealth Rock|p1a: Snakeskin
+|-sidestart|p1: Lily|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1640657920
+|move|p1a: Snakeskin|Swords Dance|p1a: Snakeskin
+|-boost|p1a: Snakeskin|atk|2
+|move|p2a: Rhyperior|Dragon Tail|p1a: Snakeskin|[miss]
+|-miss|p2a: Rhyperior|p1a: Snakeskin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1640657925
+|move|p1a: Snakeskin|Leaf Blade|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640657926
+|switch|p2a: Tornadus|Tornadus, M|76/100
+|-damage|p2a: Tornadus|51/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1640657930
+|switch|p1a: Bad Friend|Ferroseed, M|100/100
+|-damage|p1a: Bad Friend|94/100|[from] Stealth Rock
+|move|p2a: Tornadus|Hurricane|p1a: Bad Friend
+|-damage|p1a: Bad Friend|41/100
+|-start|p1a: Bad Friend|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1640657935
+|move|p2a: Tornadus|Hurricane|p1a: Bad Friend
+|-damage|p1a: Bad Friend|0 fnt
+|faint|p1a: Bad Friend
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640657936
+|switch|p1a: STFU!|Zapdos|100/100
+|-damage|p1a: STFU!|76/100|[from] Stealth Rock
+|-ability|p1a: STFU!|Pressure
+|turn|14
+|
+|t:|1640657939
+|switch|p2a: Flygon|Flygon, F|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|move|p1a: STFU!|Roost|p1a: STFU!
+|-heal|p1a: STFU!|100/100
+|-singleturn|p1a: STFU!|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1640657946
+|move|p2a: Flygon|U-turn|p1a: STFU!
+|-resisted|p1a: STFU!
+|-damage|p1a: STFU!|91/100
+|
+|t:|1640657948
+|switch|p2a: Roserade|Roserade, F|100/100|[from]move: U-turn
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: STFU!|Roost|p1a: STFU!
+|-heal|p1a: STFU!|100/100
+|-singleturn|p1a: STFU!|move: Roost
+|
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1640657951
+|move|p1a: STFU!|Heat Wave|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-crit|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1640657957
+|switch|p2a: Tornadus|Tornadus, M|51/100
+|-damage|p2a: Tornadus|26/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1640657960
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: STFU!|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640657961
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1640657963
+|move|p2a: Kingdra|Hydro Pump|p1a: STFU!
+|-damage|p1a: STFU!|0 fnt
+|faint|p1a: STFU!
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640657968
+|switch|p1a: Paradisin'|Xatu, F|100/100
+|-damage|p1a: Paradisin'|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1640657970
+|move|p2a: Kingdra|Hydro Pump|p1a: Paradisin'
+|-damage|p1a: Paradisin'|0 fnt
+|faint|p1a: Paradisin'
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640657971
+|switch|p1a: Snakeskin|Virizion|100/100
+|-damage|p1a: Snakeskin|94/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1640657975
+|switch|p2a: Flygon|Flygon, F|95/100
+|-damage|p2a: Flygon|89/100|[from] Stealth Rock
+|move|p1a: Snakeskin|Leaf Blade|p2a: Flygon
+|-damage|p2a: Flygon|42/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1640657978
+|move|p2a: Flygon|Outrage|p1a: Snakeskin
+|-damage|p1a: Snakeskin|18/100
+|move|p1a: Snakeskin|Leaf Blade|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640657979
+|switch|p2a: Kingdra|Kingdra, F|88/100
+|-damage|p2a: Kingdra|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1640657981
+|move|p2a: Kingdra|Dragon Pulse|p1a: Snakeskin
+|-damage|p1a: Snakeskin|0 fnt
+|faint|p1a: Snakeskin
+|
+|win|ford focus 2021

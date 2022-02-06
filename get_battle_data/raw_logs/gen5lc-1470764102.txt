@@ -1,0 +1,344 @@
+|j|☆giove97
+|j|☆B135010❄
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639174388
+|gametype|singles
+|player|p1|giove97|rosa|
+|player|p2|B135010❄|skierf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Tentacool, L5, F|item
+|poke|p1|Snover, L5, F|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Drilbur, L5, F|item
+|teampreview
+|c|☆giove97|glhf
+|
+|t:|1639174395
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|1
+|c|☆B135010❄|u2
+|c|☆B135010❄|u again?
+|
+|t:|1639174404
+|move|p1a: Mienfoo|Fake Out|p2a: Drilbur
+|-damage|p2a: Drilbur|83/100
+|cant|p2a: Drilbur|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1639174410
+|move|p2a: Drilbur|Stealth Rock|p1a: Mienfoo
+|-sidestart|p1: giove97|move: Stealth Rock
+|move|p1a: Mienfoo|Drain Punch|p2a: Drilbur
+|-damage|p2a: Drilbur|40/100
+|
+|upkeep
+|turn|3
+|
+|t:|1639174415
+|move|p2a: Drilbur|Earthquake|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|move|p1a: Mienfoo|Drain Punch|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|-heal|p1a: Mienfoo|79/100|[from] drain|[of] p2a: Drilbur
+|faint|p2a: Drilbur
+|
+|upkeep
+|
+|t:|1639174420
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|4
+|
+|t:|1639174429
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|-damage|p1a: Vullaby|76/100|[from] Stealth Rock
+|move|p2a: Abra|Psychic|p1a: Vullaby
+|-immune|p1a: Vullaby
+|
+|upkeep
+|turn|5
+|
+|t:|1639174446
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Vullaby|Knock Off|p2a: Staryu
+|-damage|p2a: Staryu|96/100
+|-enditem|p2a: Staryu|Eviolite|[from] move: Knock Off|[of] p1a: Vullaby
+|
+|upkeep
+|turn|6
+|
+|t:|1639174454
+|switch|p1a: Tentacool|Tentacool, L5, F|100/100
+|-damage|p1a: Tentacool|92/100|[from] Stealth Rock
+|move|p2a: Staryu|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|57/100
+|
+|upkeep
+|turn|7
+|
+|t:|1639174458
+|move|p2a: Staryu|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|22/100
+|move|p1a: Tentacool|Rapid Spin|p2a: Staryu
+|-damage|p2a: Staryu|81/100
+|-sideend|p1: giove97|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacool
+|
+|upkeep
+|turn|8
+|
+|t:|1639174466
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|move|p2a: Staryu|Thunderbolt|p1a: Snover
+|-resisted|p1a: Snover
+|-damage|p1a: Snover|92/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|77/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1639174482
+|switch|p2a: Timburr|Timburr, L5, F|100/100
+|move|p1a: Snover|Giga Drain|p2a: Timburr
+|-damage|p2a: Timburr|63/100
+|-heal|p1a: Snover|100/100|[from] drain|[of] p2a: Timburr
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|59/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1639174490
+|switch|p1a: Tentacool|Tentacool, L5, F|22/100
+|move|p2a: Timburr|Drain Punch|p1a: Tentacool
+|-resisted|p1a: Tentacool
+|-damage|p1a: Tentacool|0 fnt
+|-damage|p2a: Timburr|46/100|[from] ability: Liquid Ooze|[of] p1a: Tentacool
+|faint|p1a: Tentacool
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|42/100|[from] Hail
+|upkeep
+|
+|t:|1639174495
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|11
+|
+|t:|1639174503
+|switch|p1a: Vullaby|Vullaby, L5, F|76/100
+|switch|p2a: Staryu|Staryu, L5|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|72/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1639174508
+|move|p2a: Staryu|Thunderbolt|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-crit|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|67/100|[from] Hail
+|upkeep
+|
+|t:|1639174513
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|turn|13
+|
+|t:|1639174522
+|move|p1a: Magnemite|Volt Switch|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|t:|1639174528
+|switch|p1a: Snover|Snover, L5, F|100/100|[from]move: Volt Switch
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1639174534
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|turn|14
+|
+|t:|1639174538
+|move|p2a: Magnemite|Flash Cannon|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|22/100
+|move|p1a: Snover|Hidden Power|p2a: Magnemite
+|-supereffective|p2a: Magnemite
+|-damage|p2a: Magnemite|16/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magnemite|11/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1639174547
+|move|p1a: Snover|Ice Shard|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-crit|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1639174557
+|switch|p2a: Timburr|Timburr, L5, F|42/100
+|turn|16
+|
+|t:|1639174570
+|move|p2a: Timburr|Mach Punch|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|38/100|[from] Hail
+|upkeep
+|
+|t:|1639174576
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|turn|17
+|
+|t:|1639174589
+|move|p2a: Timburr|Mach Punch|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|27/100
+|move|p1a: Magnemite|Volt Switch|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|t:|1639174597
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100|[from]move: Volt Switch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Hail
+|upkeep
+|
+|t:|1639174607
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|18
+|
+|t:|1639174611
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|92/100|[from] Hail
+|upkeep
+|turn|19
+|j| MrThunder12987
+|
+|t:|1639174624
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1639174628
+|switch|p1a: Magnemite|Magnemite, L5|27/100
+|turn|20
+|
+|t:|1639174631
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Magnemite|Thunderbolt|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magnemite|22/100|[from] Hail
+|upkeep
+|turn|21
+|
+|t:|1639174634
+|move|p1a: Magnemite|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|6/100
+|move|p2a: Abra|Hidden Power|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|l| MrThunder12987
+|
+|t:|1639174638
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|22
+|
+|t:|1639174640
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Abra|Shadow Ball|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1639174646
+|move|p2a: Abra|Energy Ball|p1a: Abra
+|-damage|p1a: Abra|32/100
+|move|p1a: Abra|Shadow Ball|p2a: Abra
+|-supereffective|p2a: Abra
+|-crit|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1639174651
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|24
+|j| marikk0715
+|
+|t:|1639174654
+|move|p1a: Abra|Shadow Ball|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|win|giove97
+|n|☆giove97|giove97
+|n|☆B135010❄|b135010
+|n| marikk0715|marikk0715

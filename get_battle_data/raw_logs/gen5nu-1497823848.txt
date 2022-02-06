@@ -1,0 +1,664 @@
+|j|☆hypergames255
+|j|☆Raymario Pokenic
+|t:|1643071851
+|gametype|singles
+|player|p1|hypergames255|dawn-gen4pt|1000
+|player|p2|Raymario Pokenic|rosa|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, F|item
+|poke|p1|Volbeat, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Ampharos, F|item
+|poke|p1|Ludicolo, F|item
+|poke|p1|Gardevoir, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Golem, F|item
+|poke|p2|Altaria, F|item
+|poke|p2|Gorebyss, F|item
+|poke|p2|Garbodor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raymario Pokenic)
+|c|☆hypergames255|glhf
+|c|☆Raymario Pokenic|u2
+|
+|t:|1643071867
+|start
+|switch|p1a: Keith|Volbeat, M|100/100
+|switch|p2a: Golem|Golem, F, shiny|100/100
+|turn|1
+|
+|t:|1643071873
+|move|p1a: Keith|Rain Dance|p1a: Keith
+|-weather|RainDance
+|move|p2a: Golem|Stealth Rock|p1a: Keith
+|-sidestart|p1: hypergames255|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1643071880
+|move|p1a: Keith|Bug Buzz|p2a: Golem
+|-damage|p2a: Golem|72/100
+|move|p2a: Golem|Rock Blast|p1a: Keith
+|-supereffective|p1a: Keith
+|-crit|p1a: Keith
+|-damage|p1a: Keith|18/100
+|-supereffective|p1a: Keith
+|-damage|p1a: Keith|0 fnt
+|faint|p1a: Keith
+|-hitcount|p1: Keith|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643071900
+|switch|p1a: Fish|Samurott, F|100/100
+|-damage|p1a: Fish|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1643071918
+|switch|p2a: Gorebyss|Gorebyss, F, shiny|100/100
+|move|p1a: Fish|Hydro Pump|p2a: Gorebyss
+|-resisted|p2a: Gorebyss
+|-crit|p2a: Gorebyss
+|-damage|p2a: Gorebyss|0 fnt
+|faint|p2a: Gorebyss
+|-damage|p1a: Fish|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Raymario Pokenic|well then
+|
+|t:|1643071927
+|switch|p2a: Garbodor|Garbodor, M, shiny|100/100
+|turn|4
+|
+|t:|1643071942
+|switch|p1a: Bug|Armaldo, M|100/100
+|-damage|p1a: Bug|76/100|[from] Stealth Rock
+|move|p2a: Garbodor|Toxic Spikes|p1a: Bug
+|-sidestart|p1: hypergames255|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1643071950
+|move|p1a: Bug|Rapid Spin|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|87/100
+|-sideend|p1: hypergames255|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Bug
+|-sideend|p1: hypergames255|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Bug
+|move|p2a: Garbodor|Toxic Spikes|p1a: Bug
+|-sidestart|p1: hypergames255|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p2a: Garbodor|93/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1643071961
+|move|p2a: Garbodor|Gunk Shot|p1a: Bug
+|-resisted|p1a: Bug
+|-damage|p1a: Bug|51/100
+|move|p1a: Bug|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|41/100
+|
+|-heal|p2a: Garbodor|47/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1643071969
+|move|p2a: Garbodor|Toxic Spikes|p1a: Bug
+|-sidestart|p1: hypergames255|move: Toxic Spikes
+|move|p1a: Bug|Rapid Spin|p2a: Garbodor
+|-damage|p2a: Garbodor|41/100
+|-sideend|p1: hypergames255|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Bug
+|
+|-heal|p2a: Garbodor|47/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1643071977
+|move|p2a: Garbodor|Toxic Spikes|p1a: Bug
+|-sidestart|p1: hypergames255|move: Toxic Spikes
+|move|p1a: Bug|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1643071991
+|switch|p2a: Eelektross|Eelektross, M, shiny|100/100
+|turn|9
+|
+|t:|1643071998
+|move|p1a: Bug|Rapid Spin|p2a: Eelektross
+|-damage|p2a: Eelektross|91/100
+|-sideend|p1: hypergames255|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Bug
+|move|p2a: Eelektross|Aqua Tail|p1a: Bug|[miss]
+|-miss|p2a: Eelektross|p1a: Bug
+|
+|upkeep
+|turn|10
+|
+|t:|1643072006
+|move|p1a: Bug|X-Scissor|p2a: Eelektross
+|-enditem|p1a: Bug|Bug Gem|[from] gem
+|-damage|p2a: Eelektross|16/100
+|move|p2a: Eelektross|Aqua Tail|p1a: Bug
+|-supereffective|p1a: Bug
+|-damage|p1a: Bug|0 fnt
+|faint|p1a: Bug
+|
+|upkeep
+|
+|t:|1643072015
+|switch|p1a: Gallade.|Gardevoir, M|100/100
+|-ability|p1a: Gallade.|Levitate|[from] ability: Trace|[of] p2a: Eelektross
+|turn|11
+|
+|t:|1643072021
+|move|p1a: Gallade.|Psychic|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+|
+|t:|1643072025
+|switch|p2a: Golem|Golem, F, shiny|72/100
+|turn|12
+|
+|t:|1643072034
+|move|p1a: Gallade.|Psychic|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|upkeep
+|
+|t:|1643072038
+|switch|p2a: Serperior|Serperior, M, shiny|100/100
+|turn|13
+|
+|t:|1643072042
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-damage|p2a: Serperior|54/100
+|move|p2a: Serperior|Glare|p1a: Gallade.
+|-status|p1a: Gallade.|par
+|
+|-heal|p2a: Serperior|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643072051
+|switch|p1a: Dinoaur|Ampharos, F|100/100
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|35/100
+|
+|-heal|p2a: Serperior|41/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1643072058
+|move|p2a: Serperior|Glare|p1a: Dinoaur
+|-status|p1a: Dinoaur|par
+|move|p1a: Dinoaur|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643072066
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|23/100
+|cant|p1a: Dinoaur|par
+|
+|-heal|p2a: Serperior|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643072073
+|move|p2a: Serperior|Leech Seed|p1a: Dinoaur
+|-start|p1a: Dinoaur|move: Leech Seed
+|move|p1a: Dinoaur|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|35/100|[from] item: Leftovers
+|-damage|p1a: Dinoaur|88/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|49/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1643072083
+|switch|p1a: Pineapple|Ludicolo, F|100/100
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|24/100
+|
+|-heal|p2a: Serperior|30/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643072090
+|switch|p1a: Gallade.|Gardevoir, M|100/100 par
+|-ability|p1a: Gallade.|Overgrow|[from] ability: Trace|[of] p2a: Serperior
+|move|p2a: Serperior|Glare|p1a: Gallade.
+|-fail|p1a: Gallade.|par
+|
+|-heal|p2a: Serperior|36/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643072100
+|move|p2a: Serperior|Giga Drain|p1a: Gallade.
+|-damage|p1a: Gallade.|78/100 par
+|-heal|p2a: Serperior|45/100|[from] drain|[of] p1a: Gallade.
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|52/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643072108
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|27/100
+|cant|p1a: Gallade.|par
+|
+|-heal|p2a: Serperior|33/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643072115
+|move|p2a: Serperior|Leech Seed|p1a: Gallade.
+|-start|p1a: Gallade.|move: Leech Seed
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|39/100|[from] item: Leftovers
+|-damage|p1a: Gallade.|65/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|49/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1643072123
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|24/100
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|30/100|[from] item: Leftovers
+|-damage|p1a: Gallade.|53/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|40/100|[silent]
+|upkeep
+|turn|24
+|
+|t:|1643072132
+|switch|p1a: Fish|Samurott, F|78/100
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|15/100
+|
+|-heal|p2a: Serperior|21/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1643072139
+|move|p2a: Serperior|Giga Drain|p1a: Fish
+|-supereffective|p1a: Fish
+|-damage|p1a: Fish|0 fnt
+|-heal|p2a: Serperior|58/100|[from] drain|[of] p1a: Fish
+|faint|p1a: Fish
+|
+|-heal|p2a: Serperior|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643072147
+|switch|p1a: Gallade.|Gardevoir, M|53/100 par
+|-ability|p1a: Gallade.|Overgrow|[from] ability: Trace|[of] p2a: Serperior
+|turn|26
+|
+|t:|1643072153
+|move|p2a: Serperior|Leech Seed|p1a: Gallade.
+|-start|p1a: Gallade.|move: Leech Seed
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|70/100|[from] item: Leftovers
+|-damage|p1a: Gallade.|41/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|80/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1643072160
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|55/100
+|cant|p1a: Gallade.|par
+|
+|-heal|p2a: Serperior|61/100|[from] item: Leftovers
+|-damage|p1a: Gallade.|29/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|71/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1643072169
+|switch|p1a: Pineapple|Ludicolo, F|100/100
+|move|p2a: Serperior|Giga Drain|p1a: Pineapple
+|-damage|p1a: Pineapple|78/100
+|-heal|p2a: Serperior|80/100|[from] drain|[of] p1a: Pineapple
+|
+|-heal|p2a: Serperior|87/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1643072177
+|switch|p1a: Dinoaur|Ampharos, F|88/100 par
+|move|p2a: Serperior|Glare|p1a: Dinoaur
+|-fail|p1a: Dinoaur|par
+|
+|-heal|p2a: Serperior|93/100|[from] item: Leftovers
+|-heal|p1a: Dinoaur|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1643072186
+|move|p2a: Serperior|Leech Seed|p1a: Dinoaur|[miss]
+|-miss|p2a: Serperior|p1a: Dinoaur
+|move|p1a: Dinoaur|Heal Bell|p1a: Dinoaur
+|-activate|p1a: Dinoaur|move: Heal Bell
+|-curestatus|p1a: Dinoaur|par|[msg]
+|-curestatus|p1: Gallade.|par|[msg]
+|
+|-heal|p2a: Serperior|99/100|[from] item: Leftovers
+|-heal|p1a: Dinoaur|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1643072196
+|move|p2a: Serperior|Glare|p1a: Dinoaur
+|-status|p1a: Dinoaur|par
+|move|p1a: Dinoaur|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1643072204
+|switch|p1a: Gallade.|Gardevoir, M|29/100
+|-ability|p1a: Gallade.|Overgrow|[from] ability: Trace|[of] p2a: Serperior
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1643072213
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|move|p2a: Serperior|Glare|p1a: Gallade.
+|-status|p1a: Gallade.|par
+|
+|-heal|p2a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1643072220
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|63/100
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|69/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1643072227
+|switch|p1a: Dinoaur|Ampharos, F|100/100 par
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|45/100
+|
+|-heal|p2a: Serperior|51/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1643072236
+|move|p2a: Serperior|Leech Seed|p1a: Dinoaur
+|-start|p1a: Dinoaur|move: Leech Seed
+|move|p1a: Dinoaur|Heal Bell|p1a: Dinoaur
+|-activate|p1a: Dinoaur|move: Heal Bell
+|-curestatus|p1a: Dinoaur|par|[msg]
+|-curestatus|p1: Gallade.|par|[msg]
+|
+|-heal|p2a: Serperior|57/100|[from] item: Leftovers
+|-damage|p1a: Dinoaur|88/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|71/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1643072245
+|move|p2a: Serperior|Glare|p1a: Dinoaur
+|-status|p1a: Dinoaur|par
+|move|p1a: Dinoaur|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|77/100|[from] item: Leftovers
+|-heal|p1a: Dinoaur|94/100 par|[from] item: Leftovers
+|-damage|p1a: Dinoaur|82/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|90/100|[silent]
+|upkeep
+|turn|38
+|
+|t:|1643072255
+|switch|p1a: Gallade.|Gardevoir, M|29/100
+|-ability|p1a: Gallade.|Overgrow|[from] ability: Trace|[of] p2a: Serperior
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|65/100
+|
+|-heal|p2a: Serperior|72/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1643072266
+|switch|p1a: Pineapple|Ludicolo, F|78/100
+|move|p2a: Serperior|Glare|p1a: Pineapple
+|-status|p1a: Pineapple|par
+|
+|-heal|p2a: Serperior|78/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1643072274
+|switch|p1a: Dinoaur|Ampharos, F|82/100 par
+|move|p2a: Serperior|Giga Drain|p1a: Dinoaur
+|-damage|p1a: Dinoaur|62/100 par
+|-heal|p2a: Serperior|89/100|[from] drain|[of] p1a: Dinoaur
+|
+|-heal|p2a: Serperior|95/100|[from] item: Leftovers
+|-heal|p1a: Dinoaur|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1643072284
+|move|p2a: Serperior|Leech Seed|p1a: Dinoaur
+|-start|p1a: Dinoaur|move: Leech Seed
+|move|p1a: Dinoaur|Heal Bell|p1a: Dinoaur
+|-activate|p1a: Dinoaur|move: Heal Bell
+|-curestatus|p1a: Dinoaur|par|[msg]
+|-curestatus|p1: Pineapple|par|[msg]
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|-heal|p1a: Dinoaur|75/100|[from] item: Leftovers
+|-damage|p1a: Dinoaur|62/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|42
+|
+|t:|1643072294
+|move|p2a: Serperior|Glare|p1a: Dinoaur
+|-status|p1a: Dinoaur|par
+|cant|p1a: Dinoaur|par
+|
+|-heal|p1a: Dinoaur|68/100 par|[from] item: Leftovers
+|-damage|p1a: Dinoaur|56/100 par|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|43
+|
+|t:|1643072302
+|move|p2a: Serperior|Giga Drain|p1a: Dinoaur
+|-damage|p1a: Dinoaur|34/100 par
+|cant|p1a: Dinoaur|par
+|
+|-heal|p1a: Dinoaur|40/100 par|[from] item: Leftovers
+|-damage|p1a: Dinoaur|28/100 par|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|44
+|
+|t:|1643072309
+|move|p2a: Serperior|Giga Drain|p1a: Dinoaur
+|-damage|p1a: Dinoaur|9/100 par
+|move|p1a: Dinoaur|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p1a: Dinoaur|15/100 par|[from] item: Leftovers
+|-damage|p1a: Dinoaur|3/100 par|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|45
+|
+|t:|1643072318
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|cant|p1a: Dinoaur|par
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|-heal|p1a: Dinoaur|9/100 par|[from] item: Leftovers
+|-damage|p1a: Dinoaur|0 fnt|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|91/100|[silent]
+|faint|p1a: Dinoaur
+|upkeep
+|
+|t:|1643072327
+|switch|p1a: Gallade.|Gardevoir, M|29/100
+|-ability|p1a: Gallade.|Overgrow|[from] ability: Trace|[of] p2a: Serperior
+|turn|46
+|
+|t:|1643072333
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|move|p2a: Serperior|Glare|p1a: Gallade.
+|-status|p1a: Gallade.|par
+|
+|-heal|p2a: Serperior|97/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1643072340
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|73/100
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|79/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1643072347
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|54/100
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|60/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1643072354
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|35/100
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|41/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1643072360
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|17/100
+|move|p1a: Gallade.|Psychic|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|23/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1643072367
+|move|p2a: Serperior|Giga Drain|p1a: Gallade.
+|-damage|p1a: Gallade.|0 fnt
+|-heal|p2a: Serperior|34/100|[from] drain|[of] p1a: Gallade.
+|faint|p1a: Gallade.
+|
+|-heal|p2a: Serperior|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643072373
+|switch|p1a: Pineapple|Ludicolo, F|78/100
+|turn|52
+|
+|t:|1643072377
+|move|p2a: Serperior|Glare|p1a: Pineapple
+|-status|p1a: Pineapple|par
+|move|p1a: Pineapple|Hidden Power|p2a: Serperior
+|-enditem|p1a: Pineapple|Ground Gem|[from] gem
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|25/100
+|
+|-heal|p2a: Serperior|31/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|c|☆hypergames255|gg
+|-message|hypergames255 forfeited.
+|
+|win|Raymario Pokenic
+|raw|hypergames255's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Raymario Pokenic's rating: 1135 &rarr; <strong>1151</strong><br />(+16 for winning)
+|l|☆hypergames255

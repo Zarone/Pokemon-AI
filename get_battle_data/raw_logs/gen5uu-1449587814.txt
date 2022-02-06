@@ -1,0 +1,313 @@
+|j|☆Cubic Le Skunk
+|j|☆Spoonii
+|t:|1636154016
+|gametype|singles
+|player|p1|Cubic Le Skunk|n|
+|player|p2|Spoonii|yellow|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Meloetta|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Rhyperior, F|item
+|poke|p1|Victini|item
+|poke|p1|Zapdos|item
+|poke|p1|Cobalion|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Cobalion|item
+|teampreview
+|j| joey milktank
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spoonii)
+|c|☆Spoonii|gl hf
+|j| Valiant Hearts
+|c|☆Cubic Le Skunk|u2
+|inactive|Spoonii has 120 seconds left.
+|
+|t:|1636154054
+|start
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|turn|1
+|
+|t:|1636154061
+|move|p2a: Druddigon|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: Cubic Le Skunk|move: Stealth Rock
+|move|p1a: Rhyperior|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: Spoonii|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1636154065
+|move|p1a: Rhyperior|Rock Blast|p2a: Druddigon
+|-damage|p2a: Druddigon|86/100
+|-damage|p2a: Druddigon|73/100
+|-damage|p2a: Druddigon|60/100
+|-damage|p2a: Druddigon|45/100
+|-damage|p2a: Druddigon|32/100
+|-hitcount|p2a: Druddigon|5
+|move|p2a: Druddigon|Dragon Tail|p1a: Rhyperior
+|-damage|p1a: Rhyperior|79/100
+|drag|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|l| Valiant Hearts
+|
+|t:|1636154077
+|move|p1a: Cobalion|Close Combat|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|-damage|p1a: Cobalion|85/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|-damage|p1a: Cobalion|69/100|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|faint|p2a: Druddigon
+|
+|upkeep
+|
+|t:|1636154094
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1636154102
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Blastoise|Rapid Spin|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|66/100
+|-sideend|p2: Spoonii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1636154111
+|move|p1a: Cobalion|Close Combat|p2a: Blastoise
+|-damage|p2a: Blastoise|27/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|move|p2a: Blastoise|Scald|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-heal|p2a: Blastoise|33/100|[from] item: Leftovers
+|upkeep
+|j|%Codename Magnum
+|l|%Codename Magnum
+|
+|t:|1636154124
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1636154145
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Blastoise|Scald|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|
+|-heal|p1a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1636154160
+|move|p2a: Zapdos|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|-damage|p2a: Zapdos|65/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Spoonii|mb
+|c|☆Cubic Le Skunk|rip
+|
+|t:|1636154173
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1636154191
+|switch|p2a: Blastoise|Blastoise, M|33/100
+|move|p1a: Victini|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|17/100
+|
+|t:|1636154211
+|switch|p1a: Meloetta|Meloetta|100/100|[from]move: U-turn
+|-damage|p1a: Meloetta|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|23/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1636154224
+|move|p1a: Meloetta|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1636154237
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|10
+|
+|t:|1636154243
+|move|p2a: Flygon|U-turn|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|35/100
+|
+|t:|1636154250
+|switch|p2a: Cobalion|Cobalion|100/100|[from]move: U-turn
+|move|p1a: Meloetta|Psychic|p2a: Cobalion
+|-damage|p2a: Cobalion|1/100
+|
+|upkeep
+|turn|11
+|inactive|Cubic Le Skunk has 120 seconds left.
+|
+|t:|1636154282
+|move|p2a: Cobalion|Iron Head|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|-damage|p2a: Cobalion|0 fnt|[from] item: Life Orb
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|t:|1636154297
+|switch|p2a: Flygon|Flygon, F|100/100
+|switch|p1a: Victini|Victini|76/100
+|-damage|p1a: Victini|51/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1636154314
+|move|p1a: Victini|U-turn|p2a: Flygon
+|-damage|p2a: Flygon|74/100
+|inactive|Cubic Le Skunk has 120 seconds left.
+|
+|t:|1636154338
+|switch|p1a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Flygon|Outrage|p1a: Zapdos
+|-damage|p1a: Zapdos|33/100
+|
+|-heal|p1a: Zapdos|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1636154347
+|move|p2a: Flygon|Outrage|p1a: Zapdos|[from]lockedmove
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1636154354
+|switch|p1a: Rhyperior|Rhyperior, F|79/100
+|-damage|p1a: Rhyperior|73/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1636154358
+|move|p2a: Flygon|Outrage|p1a: Rhyperior|[from]lockedmove
+|-damage|p1a: Rhyperior|41/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Rhyperior|Rock Blast|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|65/100
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|56/100
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|48/100
+|-hitcount|p2a: Flygon|3
+|
+|-heal|p1a: Rhyperior|47/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1636154385
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|move|p1a: Rhyperior|Rock Blast|p2a: Mismagius
+|-damage|p2a: Mismagius|76/100
+|-crit|p2a: Mismagius
+|-damage|p2a: Mismagius|23/100
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|-hitcount|p2: Mismagius|3
+|
+|-heal|p1a: Rhyperior|53/100|[from] item: Leftovers
+|upkeep
+|inactive|Spoonii has 120 seconds left.
+|
+|t:|1636154398
+|switch|p2a: Zapdos|Zapdos|65/100
+|-ability|p2a: Zapdos|Pressure
+|turn|16
+|j|%Codename Magnum
+|
+|t:|1636154423
+|move|p2a: Zapdos|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|-damage|p2a: Zapdos|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1636154425
+|switch|p1a: Victini|Victini|51/100
+|-damage|p1a: Victini|26/100|[from] Stealth Rock
+|turn|17
+|c|☆Cubic Le Skunk|gg
+|
+|t:|1636154438
+|move|p1a: Victini|V-create|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1636154444
+|switch|p2a: Flygon|Flygon, F|48/100
+|turn|18
+|
+|t:|1636154454
+|move|p2a: Flygon|Earthquake|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|win|Spoonii
+|n|☆Cubic Le Skunk|cubicleskunk
+|n|☆Spoonii|spoonii
+|n| joey milktank|joeymilktank
+|n| Codename Magnum|codenamemagnum
+|l|☆Cubic Le Skunk
+|c|☆Spoonii|ggs
+|l| Codename Magnum
+|l|☆Spoonii
+|l| joey milktank
+|j| blackkaiser
+|l| blackkaiser

@@ -1,0 +1,284 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634513161
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|Vileman|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dwebble, L5, M|item
+|poke|p1|Pawniard, L5, F|item
+|poke|p1|Croagunk, L5, F|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Slowpoke, L5, F|item
+|poke|p1|Abra, L5, F|item
+|poke|p2|Dwebble, L5, F|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Carvanha, L5, F|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Riolu, L5, M|item
+|teampreview
+|c|☆Vileman|hf
+|inactive|Bughouse has 270 seconds left.
+|c|☆Bughouse|sample i think
+|c|☆Bughouse|?
+|inactive|Bughouse has 240 seconds left.
+|c|☆Vileman|mine?
+|c|☆Bughouse|yes
+|c|☆Vileman|idk
+|
+|t:|1634513238
+|start
+|switch|p1a: Dwebble|Dwebble, L5, M|100/100
+|switch|p2a: Dwebble|Dwebble, L5, F|100/100
+|turn|1
+|c|☆Vileman|i had missy>floon
+|
+|t:|1634513250
+|move|p1a: Dwebble|Stealth Rock|p2a: Dwebble
+|-sidestart|p2: Vileman|move: Stealth Rock
+|move|p2a: Dwebble|Stealth Rock|p1a: Dwebble
+|-sidestart|p1: Bughouse|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1634513254
+|move|p2a: Dwebble|Knock Off|p1a: Dwebble
+|-damage|p1a: Dwebble|91/100
+|-enditem|p1a: Dwebble|Oran Berry|[from] move: Knock Off|[of] p2a: Dwebble
+|move|p1a: Dwebble|Spikes|p2a: Dwebble
+|-sidestart|p2: Vileman|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1634513261
+|move|p1a: Dwebble|Spikes|p2a: Dwebble
+|-sidestart|p2: Vileman|Spikes
+|move|p2a: Dwebble|Rock Blast|p1a: Dwebble
+|-supereffective|p1a: Dwebble
+|-damage|p1a: Dwebble|55/100
+|-supereffective|p1a: Dwebble
+|-damage|p1a: Dwebble|19/100
+|-supereffective|p1a: Dwebble
+|-damage|p1a: Dwebble|0 fnt
+|faint|p1a: Dwebble
+|-hitcount|p1: Dwebble|3
+|
+|upkeep
+|
+|t:|1634513286
+|switch|p1a: Pawniard|Pawniard, L5, F|100/100
+|-damage|p1a: Pawniard|96/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1634513291
+|move|p1a: Pawniard|Iron Head|p2a: Dwebble
+|-supereffective|p2a: Dwebble
+|-ability|p2a: Dwebble|Sturdy
+|-damage|p2a: Dwebble|5/100
+|-enditem|p2a: Dwebble|Oran Berry|[eat]
+|-heal|p2a: Dwebble|53/100|[from] item: Oran Berry
+|cant|p2a: Dwebble|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1634513298
+|move|p1a: Pawniard|Iron Head|p2a: Dwebble
+|-supereffective|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|
+|upkeep
+|c|☆Vileman|lame
+|
+|t:|1634513303
+|switch|p2a: Staryu|Staryu, L5|100/100
+|-damage|p2a: Staryu|87/100|[from] Spikes
+|-damage|p2a: Staryu|78/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1634513309
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|-damage|p1a: Drifloon|77/100|[from] Stealth Rock
+|move|p2a: Staryu|Thunder Wave|p1a: Drifloon
+|-status|p1a: Drifloon|par
+|
+|upkeep
+|turn|7
+|
+|t:|1634513314
+|move|p2a: Staryu|Scald|p1a: Drifloon
+|-damage|p1a: Drifloon|16/100 par
+|cant|p1a: Drifloon|par
+|
+|upkeep
+|turn|8
+|
+|t:|1634513319
+|move|p2a: Staryu|Scald|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|
+|upkeep
+|
+|t:|1634513330
+|switch|p1a: Croagunk|Croagunk, L5, F|100/100
+|-damage|p1a: Croagunk|96/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1634513333
+|move|p2a: Staryu|Rapid Spin|p1a: Croagunk
+|-damage|p1a: Croagunk|91/100
+|-sideend|p2: Vileman|Spikes|[from] move: Rapid Spin|[of] p2a: Staryu
+|-sideend|p2: Vileman|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Staryu
+|move|p1a: Croagunk|Bulk Up|p1a: Croagunk
+|-boost|p1a: Croagunk|atk|1
+|-boost|p1a: Croagunk|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1634513339
+|move|p2a: Staryu|Thunder Wave|p1a: Croagunk
+|-status|p1a: Croagunk|par
+|move|p1a: Croagunk|Bulk Up|p1a: Croagunk
+|-boost|p1a: Croagunk|atk|1
+|-boost|p1a: Croagunk|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1634513344
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|cant|p1a: Croagunk|par
+|
+|upkeep
+|turn|12
+|
+|t:|1634513348
+|move|p2a: Bronzor|Psychic|p1a: Croagunk
+|-supereffective|p1a: Croagunk
+|-damage|p1a: Croagunk|0 fnt
+|faint|p1a: Croagunk
+|
+|upkeep
+|c|☆Bughouse|what
+|c|☆Bughouse|no one uses that
+|c|☆Bughouse|gg
+|c|☆Vileman|gg
+|inactive|Bughouse has 270 seconds left.
+|
+|t:|1634513382
+|switch|p1a: Pawniard|Pawniard, L5, F|96/100
+|-damage|p1a: Pawniard|91/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1634513390
+|move|p1a: Pawniard|Night Slash|p2a: Bronzor
+|-damage|p2a: Bronzor|72/100
+|move|p2a: Bronzor|Earthquake|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|34/100
+|
+|upkeep
+|turn|14
+|
+|t:|1634513395
+|switch|p1a: Slowpoke|Slowpoke, L5, F|100/100
+|-damage|p1a: Slowpoke|90/100|[from] Stealth Rock
+|move|p2a: Bronzor|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|75/100
+|
+|upkeep
+|turn|15
+|
+|t:|1634513397
+|move|p1a: Slowpoke|Surf|p2a: Bronzor
+|-damage|p2a: Bronzor|48/100
+|move|p2a: Bronzor|Toxic|p1a: Slowpoke
+|-status|p1a: Slowpoke|tox
+|
+|-damage|p1a: Slowpoke|72/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1634513403
+|move|p1a: Slowpoke|Surf|p2a: Bronzor
+|-damage|p2a: Bronzor|24/100
+|move|p2a: Bronzor|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|58/100 tox
+|
+|-damage|p1a: Slowpoke|50/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1634513409
+|move|p2a: Bronzor|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|36/100 tox
+|move|p1a: Slowpoke|Surf|p2a: Bronzor
+|-damage|p2a: Bronzor|0 fnt
+|faint|p2a: Bronzor
+|
+|-damage|p1a: Slowpoke|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1634513411
+|switch|p2a: Drifloon|Drifloon, L5, F|100/100
+|turn|18
+|
+|t:|1634513414
+|move|p2a: Drifloon|Acrobatics|p1a: Slowpoke
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|upkeep
+|
+|t:|1634513419
+|switch|p1a: Pawniard|Pawniard, L5, F|34/100
+|-damage|p1a: Pawniard|29/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1634513423
+|move|p2a: Drifloon|Substitute|p2a: Drifloon
+|-start|p2a: Drifloon|Substitute
+|-damage|p2a: Drifloon|76/100
+|move|p1a: Pawniard|Night Slash|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-end|p2a: Drifloon|Substitute
+|
+|upkeep
+|turn|20
+|
+|t:|1634513428
+|move|p2a: Drifloon|Acrobatics|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|t:|1634513430
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|21
+|
+|t:|1634513434
+|move|p2a: Drifloon|Shadow Ball|p1a: Abra
+|-supereffective|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|win|Vileman

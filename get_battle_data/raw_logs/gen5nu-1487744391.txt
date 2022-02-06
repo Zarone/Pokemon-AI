@@ -1,0 +1,219 @@
+|j|☆Brawlber
+|j|☆MrMetaVictory
+|t:|1641662112
+|gametype|singles
+|player|p1|Brawlber|cyrus|1000
+|player|p2|MrMetaVictory|thorton|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Carracosta, F|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Miltank, F|item
+|poke|p1|Ditto|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Primeape, F|item
+|poke|p2|Drifblim, M|item
+|poke|p2|Regirock|item
+|poke|p2|Regice|item
+|poke|p2|Lickilicky, M|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Sawk, M|item
+|teampreview
+|
+|t:|1641662126
+|start
+|switch|p1a: Carracosta|Carracosta, F|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|
+|t:|1641662135
+|move|p1a: Carracosta|Shell Smash|p1a: Carracosta
+|-unboost|p1a: Carracosta|def|1
+|-unboost|p1a: Carracosta|spd|1
+|-boost|p1a: Carracosta|atk|2
+|-boost|p1a: Carracosta|spa|2
+|-boost|p1a: Carracosta|spe|2
+|move|p2a: Regirock|Thunder Wave|p1a: Carracosta
+|-status|p1a: Carracosta|par
+|
+|upkeep
+|turn|2
+|
+|t:|1641662144
+|move|p2a: Regirock|Drain Punch|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|41/100 par
+|move|p1a: Carracosta|Waterfall|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|29/100
+|
+|-heal|p2a: Regirock|35/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1641662154
+|move|p2a: Regirock|Drain Punch|p1a: Carracosta
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|-heal|p2a: Regirock|51/100|[from] drain|[of] p1a: Carracosta
+|faint|p1a: Carracosta
+|
+|-heal|p2a: Regirock|58/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MrMetaVictory)
+|
+|t:|1641662168
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|4
+|
+|t:|1641662172
+|move|p2a: Regirock|Stealth Rock|p1a: Piloswine
+|-sidestart|p1: Brawlber|move: Stealth Rock
+|move|p1a: Piloswine|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|14/100
+|
+|-heal|p2a: Regirock|20/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641662181
+|switch|p2a: Drifblim|Drifblim, M, shiny|100/100
+|move|p1a: Piloswine|Earthquake|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|-status|p2a: Drifblim|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1641662190
+|move|p2a: Drifblim|Trick|p1a: Piloswine
+|-activate|p2a: Drifblim|move: Trick|[of] p1a: Piloswine
+|-item|p1a: Piloswine|Flame Orb|[from] move: Trick
+|-item|p2a: Drifblim|Eviolite|[from] move: Trick
+|move|p1a: Piloswine|Icicle Crash|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-status|p1a: Piloswine|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1641662207
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|7
+|
+|t:|1641662216
+|move|p2a: Sawk|Close Combat|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Piloswine
+|-damage|p2a: Sawk|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641662220
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Sawk|[from] ability: Imposter
+|-ability|p1a: Ditto|Mold Breaker
+|turn|8
+|
+|t:|1641662237
+|move|p2a: Sawk|Close Combat|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Ditto
+|-damage|p2a: Sawk|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641662243
+|switch|p1a: Primeape|Primeape, F|100/100
+|-damage|p1a: Primeape|95/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1641662259
+|move|p1a: Primeape|Acrobatics|p2a: Sawk
+|-enditem|p1a: Primeape|Flying Gem|[from] gem
+|-supereffective|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|
+|upkeep
+|
+|t:|1641662265
+|switch|p2a: Lickilicky|Lickilicky, M|100/100
+|turn|10
+|
+|t:|1641662268
+|move|p1a: Primeape|Cross Chop|p2a: Lickilicky
+|-supereffective|p2a: Lickilicky
+|-crit|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|
+|upkeep
+|
+|t:|1641662273
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Defiant|[from] ability: Trace|[of] p1a: Primeape
+|turn|11
+|
+|t:|1641662283
+|move|p1a: Primeape|Acrobatics|p2a: Gardevoir
+|-crit|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|t:|1641662289
+|switch|p2a: Regirock|Regirock|20/100
+|turn|12
+|
+|t:|1641662295
+|move|p1a: Primeape|Seed Bomb|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-crit|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1641662300
+|switch|p2a: Regice|Regice|100/100
+|turn|13
+|
+|t:|1641662307
+|move|p1a: Primeape|Cross Chop|p2a: Regice
+|-supereffective|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|win|Brawlber
+|raw|Brawlber's rating: 1000 &rarr; <strong>1050</strong><br />(+50 for winning)
+|raw|MrMetaVictory's rating: 1087 &rarr; <strong>1058</strong><br />(-29 for losing)
+|c|☆MrMetaVictory|WHY ALL THE CRITS
+|l|☆MrMetaVictory
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

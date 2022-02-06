@@ -1,0 +1,51 @@
+|j|☆FlyingMaster-Mew
+|j|☆Bughouse
+|t:|1641699977
+|gametype|singles
+|player|p1|FlyingMaster-Mew|169|1185
+|player|p2|Bughouse|#bughouse|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Wartortle, M|item
+|poke|p1|Ivysaur, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Regirock|item
+|poke|p1|Sawsbuck-Summer, M|item
+|poke|p1|Alomomola, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Torterra, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Musharna, M|item
+|teampreview
+|c|☆FlyingMaster-Mew|gkhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FlyingMaster-Mew)
+|c|☆FlyingMaster-Mew|*glhf
+|inactive|Bughouse has 120 seconds left.
+|inactive|Bughouse has 90 seconds left.
+|inactive|Bughouse has 60 seconds left.
+|inactive|Bughouse has 30 seconds left.
+|inactive|Bughouse has 20 seconds left.
+|inactive|Bughouse has 15 seconds left.
+|inactive|Bughouse has 10 seconds left.
+|inactive|Bughouse has 5 seconds left.
+|-message|Bughouse lost due to inactivity.
+|
+|win|FlyingMaster-Mew
+|raw|FlyingMaster-Mew's rating: 1185 &rarr; <strong>1224</strong><br />(+39 for winning)
+|raw|Bughouse's rating: 1414 &rarr; <strong>1382</strong><br />(-32 for losing)

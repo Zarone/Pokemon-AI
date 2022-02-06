@@ -1,0 +1,258 @@
+|j|☆BeadyHawk
+|j|☆PKS Anon
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644045718
+|gametype|singles
+|player|p1|BeadyHawk|benga|
+|player|p2|PKS Anon|hilda|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Sigilyph, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Garchomp, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Salamence, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Heatran, M|item
+|teampreview
+|inactive|BeadyHawk also wants the timer to be on.
+|j| RTSG 2
+|j| innovamania
+|l| innovamania
+|inactive|PKS Anon has 120 seconds left.
+|j| g5 power
+|l| RTSG 2
+|
+|t:|1644045762
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Salamence|Salamence, F|100/100
+|turn|1
+|
+|t:|1644045775
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Gengar
+|-damage|p2a: Gengar|9/100
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1644045783
+|move|p1a: Conkeldurr|Mach Punch|p2a: Gengar
+|-immune|p2a: Gengar
+|move|p2a: Gengar|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|20/100
+|
+|upkeep
+|turn|3
+|
+|t:|1644045790
+|move|p2a: Gengar|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1644045798
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|4
+|
+|t:|1644045808
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1644045819
+|move|p1a: Volcarona|Fiery Dance|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1644045828
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|6
+|
+|t:|1644045846
+|move|p1a: Volcarona|Giga Drain|p2a: Gyarados
+|-damage|p2a: Gyarados|41/100
+|move|p2a: Gyarados|Stone Edge|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644045858
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|7
+|
+|t:|1644045868
+|move|p1a: Garchomp|Outrage|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644045881
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|8
+|
+|t:|1644045888
+|move|p2a: Heatran|Lava Plume|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|69/100
+|-status|p1a: Garchomp|brn
+|move|p1a: Garchomp|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|79/100
+|-damage|p1a: Garchomp|59/100 brn|[from] item: Life Orb
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-damage|p1a: Garchomp|47/100 brn|[from] brn
+|upkeep
+|turn|9
+|j| VI Tokens
+|
+|t:|1644045899
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Facade|p2a: Garchomp
+|-damage|p2a: Garchomp|76/100
+|-damage|p1a: Garchomp|35/100 brn|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Garchomp|18/100 brn|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-damage|p1a: Garchomp|8/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Garchomp|0 fnt|[from] brn
+|faint|p1a: Garchomp
+|upkeep
+|l| VI Tokens
+|
+|t:|1644045919
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|10
+|
+|t:|1644045930
+|move|p2a: Garchomp|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|33/100
+|-damage|p1a: Ferrothorn|20/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Ferrothorn|3/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|upkeep
+|turn|11
+|
+|t:|1644045939
+|move|p2a: Garchomp|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644045942
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|turn|12
+|
+|t:|1644045963
+|move|p2a: Garchomp|Toxic|p1a: Sigilyph
+|-status|p1a: Sigilyph|tox
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1644045977
+|switch|p2a: Gengar|Gengar, F|9/100
+|move|p1a: Sigilyph|Cosmic Power|p1a: Sigilyph
+|-boost|p1a: Sigilyph|def|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1644045986
+|move|p2a: Gengar|Shadow Ball|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|22/100 tox
+|move|p1a: Sigilyph|Stored Power|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1644045991
+|switch|p2a: Salamence|Salamence, F|100/100
+|turn|15
+|
+|t:|1644046000
+|move|p2a: Salamence|Dragon Claw|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1644046003
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|turn|16
+|
+|t:|1644046018
+|move|p2a: Salamence|Dragon Claw|p1a: Jellicent
+|-damage|p1a: Jellicent|23/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Salamence
+|-status|p2a: Salamence|brn
+|
+|-heal|p1a: Jellicent|29/100|[from] item: Leftovers
+|-damage|p2a: Salamence|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1644046027
+|move|p2a: Salamence|Dragon Claw|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|win|PKS Anon
+|n|☆BeadyHawk|beadyhawk
+|n|☆PKS Anon|pksanon
+|n| g5 power|g5power
+|l|☆BeadyHawk

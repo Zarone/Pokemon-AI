@@ -1,0 +1,411 @@
+|j|☆Tithonia Trance
+|j|☆ndmlt italiano
+|t:|1630134795
+|gametype|singles
+|player|p1|Tithonia Trance|aromalady-gen3|
+|player|p2|ndmlt italiano|elio|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Pawniard, L5, F|item
+|poke|p2|Tirtouga, L5, F|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Frillish, L5, F|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|j| BB-8-NU
+|j| Crystal81
+|l| Crystal81
+|j| salamence winds
+|
+|t:|1630134834
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Frillish|Frillish, L5, F|100/100
+|turn|1
+|
+|t:|1630134845
+|move|p1a: Mienfoo|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|84/100
+|-enditem|p2a: Frillish|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Frillish|Will-O-Wisp|p1a: Mienfoo
+|-status|p1a: Mienfoo|brn
+|
+|-damage|p1a: Mienfoo|91/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1630134852
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|80/100
+|
+|t:|1630134854
+|switch|p1a: Porygon|Porygon, L5|100/100|[from]move: U-turn
+|-ability|p1a: Porygon|Cursed Body|[from] ability: Trace|[of] p2a: Frillish
+|move|p2a: Frillish|Will-O-Wisp|p1a: Porygon
+|-status|p1a: Porygon|brn
+|
+|-damage|p1a: Porygon|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1630134868
+|move|p2a: Frillish|Taunt|p1a: Porygon
+|-start|p1a: Porygon|move: Taunt
+|move|p1a: Porygon|Psychic|p2a: Frillish
+|-damage|p2a: Frillish|46/100
+|-start|p1a: Porygon|Disable|Psychic|[from] ability: Cursed Body|[of] p2a: Frillish
+|
+|-damage|p1a: Porygon|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1630134875
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100 brn
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|96/100
+|
+|-damage|p1a: Mienfoo|91/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1630134885
+|move|p1a: Mienfoo|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|92/100
+|
+|t:|1630134892
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100|[from]move: U-turn
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Frillish|Will-O-Wisp|p1a: Drilbur
+|-status|p1a: Drilbur|brn
+|
+|-damage|p1a: Drilbur|92/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1630134908
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Drilbur|Stealth Rock|p2a: Drilbur
+|-sidestart|p2: ndmlt italiano|move: Stealth Rock
+|
+|-damage|p1a: Drilbur|83/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1630134913
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|move|p2a: Drilbur|Stealth Rock|p1a: Frillish
+|-sidestart|p1: Tithonia Trance|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1630134931
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-damage|p2a: Snover|78/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Frillish|Water Spout|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|28/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|96/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1630134942
+|move|p1a: Frillish|Water Spout|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|91/100|[from] Hail
+|upkeep
+|
+|t:|1630134955
+|switch|p2a: Frillish|Frillish, L5, F|92/100
+|-damage|p2a: Frillish|80/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1630134961
+|move|p1a: Frillish|Water Spout|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|50/100
+|move|p2a: Frillish|Will-O-Wisp|p1a: Frillish
+|-status|p1a: Frillish|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|87/100 brn|[from] Hail
+|-damage|p2a: Frillish|46/100|[from] Hail
+|-damage|p1a: Frillish|78/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1630134967
+|switch|p1a: Porygon|Porygon, L5|76/100 brn
+|-damage|p1a: Porygon|64/100 brn|[from] Stealth Rock
+|-ability|p1a: Porygon|Cursed Body|[from] ability: Trace|[of] p2a: Frillish
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|96/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|92/100|[from] Hail
+|-damage|p1a: Porygon|60/100 brn|[from] Hail
+|-damage|p1a: Porygon|48/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1630134976
+|move|p2a: Frillish|Taunt|p1a: Porygon
+|-start|p1a: Porygon|move: Taunt
+|cant|p1a: Porygon|move: Taunt|Toxic
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|88/100|[from] Hail
+|-damage|p1a: Porygon|44/100 brn|[from] Hail
+|-damage|p1a: Porygon|32/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1630134981
+|move|p2a: Frillish|Scald|p1a: Porygon
+|-damage|p1a: Porygon|4/100 brn
+|move|p1a: Porygon|Psychic|p2a: Frillish
+|-damage|p2a: Frillish|59/100
+|-start|p1a: Porygon|Disable|Psychic|[from] ability: Cursed Body|[of] p2a: Frillish
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Frillish|55/100|[from] Hail
+|-damage|p1a: Porygon|0 fnt|[from] Hail
+|faint|p1a: Porygon
+|upkeep
+|
+|t:|1630134983
+|switch|p1a: Pawniard|Pawniard, L5, F|100/100
+|-damage|p1a: Pawniard|96/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1630134988
+|-activate|p2a: Frillish|move: Pursuit
+|move|p1a: Pawniard|Pursuit|p2a: Frillish|[from]Pursuit
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|0 fnt
+|faint|p2a: Frillish
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|91/100|[from] Hail
+|upkeep
+|
+|t:|1630134997
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|-damage|p2a: Timburr|96/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1630135003
+|switch|p1a: Frillish|Frillish, L5, F|78/100 brn
+|-damage|p1a: Frillish|69/100 brn|[from] Stealth Rock
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|64/100 brn|[from] Hail
+|-damage|p2a: Timburr|92/100|[from] Hail
+|-damage|p1a: Frillish|55/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1630135006
+|move|p1a: Frillish|Hydro Pump|p2a: Timburr
+|-damage|p2a: Timburr|38/100
+|move|p2a: Timburr|Payback|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|-start|p2a: Timburr|Disable|Payback|[from] ability: Cursed Body|[of] p1a: Frillish
+|faint|p1a: Frillish
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|34/100|[from] Hail
+|upkeep
+|
+|t:|1630135008
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|-damage|p1a: Drifloon|77/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1630135015
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-damage|p2a: Porygon|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Unburden|[from] ability: Trace|[of] p1a: Drifloon
+|move|p1a: Drifloon|Substitute|p1a: Drifloon
+|-start|p1a: Drifloon|Substitute
+|-damage|p1a: Drifloon|54/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|50/100|[from] Hail
+|-damage|p2a: Porygon|84/100|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1630135017
+|move|p1a: Drifloon|Acrobatics|p2a: Porygon
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-damage|p2a: Porygon|24/100
+|move|p2a: Porygon|Psychic|p1a: Drifloon
+|-end|p1a: Drifloon|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|47/100|[from] Hail
+|-damage|p2a: Porygon|20/100|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1630135024
+|move|p1a: Drifloon|Acrobatics|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|43/100|[from] Hail
+|upkeep
+|
+|t:|1630135051
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|20
+|
+|t:|1630135056
+|move|p1a: Drifloon|Destiny Bond|p1a: Drifloon
+|-singlemove|p1a: Drifloon|Destiny Bond
+|move|p2a: Drilbur|Rock Slide|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|-activate|p1a: Drifloon|move: Destiny Bond
+|faint|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1630135065
+|switch|p2a: Tirtouga|Tirtouga, L5, F|100/100
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100 brn
+|-damage|p1a: Mienfoo|96/100 brn|[from] Stealth Rock
+|-damage|p2a: Tirtouga|91/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1630135069
+|move|p1a: Mienfoo|Fake Out|p2a: Tirtouga
+|-resisted|p2a: Tirtouga
+|-damage|p2a: Tirtouga|87/100
+|cant|p2a: Tirtouga|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|91/100 brn|[from] Hail
+|-damage|p2a: Tirtouga|82/100|[from] Hail
+|-damage|p1a: Mienfoo|81/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1630135075
+|move|p1a: Mienfoo|High Jump Kick|p2a: Tirtouga
+|-supereffective|p2a: Tirtouga
+|-damage|p2a: Tirtouga|41/100
+|move|p2a: Tirtouga|Shell Smash|p2a: Tirtouga
+|-unboost|p2a: Tirtouga|def|1
+|-unboost|p2a: Tirtouga|spd|1
+|-boost|p2a: Tirtouga|atk|2
+|-boost|p2a: Tirtouga|spa|2
+|-boost|p2a: Tirtouga|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tirtouga|37/100|[from] Hail
+|-damage|p1a: Mienfoo|77/100 brn|[from] Hail
+|-damage|p1a: Mienfoo|67/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1630135084
+|move|p2a: Tirtouga|Waterfall|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tirtouga|32/100|[from] Hail
+|upkeep
+|
+|t:|1630135085
+|switch|p1a: Pawniard|Pawniard, L5, F|91/100
+|-damage|p1a: Pawniard|86/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1630135091
+|move|p2a: Tirtouga|Aqua Jet|p1a: Pawniard
+|-damage|p1a: Pawniard|15/100
+|move|p1a: Pawniard|Iron Head|p2a: Tirtouga
+|-damage|p2a: Tirtouga|0 fnt
+|faint|p2a: Tirtouga
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|10/100|[from] Hail
+|upkeep
+|
+|t:|1630135096
+|switch|p2a: Timburr|Timburr, L5, M|34/100
+|-damage|p2a: Timburr|30/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1630135100
+|move|p2a: Timburr|Mach Punch|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Timburr|25/100|[from] Hail
+|upkeep
+|
+|t:|1630135101
+|switch|p1a: Drilbur|Drilbur, L5, F|83/100 brn
+|-damage|p1a: Drilbur|79/100 brn|[from] Stealth Rock
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|26
+|
+|t:|1630135103
+|move|p1a: Drilbur|Earthquake|p2a: Timburr
+|-damage|p2a: Timburr|9/100
+|move|p2a: Timburr|Drain Punch|p1a: Drilbur
+|-crit|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|-heal|p2a: Timburr|46/100|[from] drain|[of] p1a: Drilbur
+|faint|p1a: Drilbur
+|
+|win|ndmlt italiano
+|n|☆Tithonia Trance|tithoniatrance
+|n|☆ndmlt italiano|ndmltitaliano
+|n| BB-8-NU|bb8nu
+|n| salamence winds|salamencewinds

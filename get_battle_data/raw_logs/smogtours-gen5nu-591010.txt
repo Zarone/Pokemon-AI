@@ -1,0 +1,429 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1636039030
+|gametype|singles
+|player|p1|Heysup|chuck|
+|player|p2|Shuckleking87|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Wartortle, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Regirock|item
+|poke|p2|Samurott, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|c|☆Shuckleking87|glhf
+|inactive|Heysup has 270 seconds left.
+|inactive|Shuckleking87 has 270 seconds left.
+|inactive|Heysup has 240 seconds left.
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1636039104
+|start
+|switch|p1a: Primeape|Primeape, M|100/100
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|1
+|
+|t:|1636039113
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|move|p2a: Primeape|U-turn|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|80/100
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1636039148
+|switch|p2a: Skuntank|Skuntank, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1636039160
+|move|p1a: Garbodor|Spikes|p2a: Skuntank
+|-sidestart|p2: Shuckleking87|Spikes
+|move|p2a: Skuntank|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|
+|upkeep
+|turn|3
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1636039168
+|-activate|p1a: Garbodor|move: Pursuit
+|move|p2a: Skuntank|Pursuit|p1a: Garbodor|[from]Pursuit
+|-damage|p1a: Garbodor|28/100
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1636039176
+|move|p2a: Skuntank|Taunt|p1a: Piloswine
+|-start|p1a: Piloswine|move: Taunt
+|cant|p1a: Piloswine|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1636039185
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|switch|p1a: Primeape|Primeape, M|100/100
+|
+|upkeep
+|turn|6
+|inactive|Shuckleking87 has 270 seconds left.
+|inactive|Heysup has 270 seconds left.
+|
+|t:|1636039230
+|move|p1a: Primeape|U-turn|p2a: Eelektross
+|-damage|p2a: Eelektross|62/100
+|
+|t:|1636039233
+|switch|p1a: Piloswine|Piloswine, M|100/100|[from]move: U-turn
+|move|p2a: Eelektross|Giga Drain|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|55/100
+|-heal|p2a: Eelektross|88/100|[from] drain|[of] p1a: Piloswine
+|
+|upkeep
+|turn|7
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1636039250
+|move|p2a: Eelektross|Giga Drain|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|5/100
+|-heal|p2a: Eelektross|100/100|[from] drain|[of] p1a: Piloswine
+|move|p1a: Piloswine|Stealth Rock|p2a: Eelektross
+|-sidestart|p2: Shuckleking87|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1636039256
+|move|p1a: Piloswine|Ice Shard|p2a: Eelektross
+|-damage|p2a: Eelektross|82/100
+|move|p2a: Eelektross|Giga Drain|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|-heal|p2a: Eelektross|84/100|[from] drain|[of] p1a: Piloswine
+|faint|p1a: Piloswine
+|
+|upkeep
+|
+|t:|1636039267
+|switch|p1a: Primeape|Primeape, M|100/100
+|turn|9
+|
+|t:|1636039270
+|move|p1a: Primeape|Close Combat|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Eelektross
+|
+|upkeep
+|
+|t:|1636039279
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|-damage|p2a: Primeape|82/100|[from] Spikes
+|turn|10
+|
+|t:|1636039304
+|switch|p1a: Garbodor|Garbodor, F|28/100
+|move|p2a: Primeape|Close Combat|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|-damage|p2a: Primeape|58/100|[from] ability: Aftermath|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1636039320
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|turn|11
+|
+|t:|1636039339
+|switch|p2a: Regirock|Regirock|100/100
+|-damage|p2a: Regirock|88/100|[from] Spikes
+|-damage|p2a: Regirock|76/100|[from] Stealth Rock
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Regirock
+|-status|p2a: Regirock|brn
+|
+|-heal|p2a: Regirock|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Regirock|69/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1636039345
+|move|p1a: Misdreavus|Taunt|p2a: Regirock
+|-start|p2a: Regirock|move: Taunt
+|cant|p2a: Regirock|move: Taunt|Toxic
+|
+|-heal|p2a: Regirock|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Regirock|63/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1636039354
+|switch|p1a: Primeape|Primeape, M|100/100
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|-damage|p2a: Skuntank|76/100|[from] Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1636039362
+|move|p2a: Skuntank|Sucker Punch|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|56/100
+|move|p1a: Primeape|Close Combat|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|-damage|p1a: Primeape|31/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1636039371
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Spikes
+|-damage|p2a: Kangaskhan|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1636039381
+|switch|p1a: Wartortle|Wartortle, M|100/100
+|move|p2a: Kangaskhan|Double-Edge|p1a: Wartortle
+|-damage|p1a: Wartortle|58/100
+|-damage|p2a: Kangaskhan|63/100|[from] Recoil
+|
+|upkeep
+|turn|16
+|
+|t:|1636039405
+|move|p2a: Kangaskhan|Double-Edge|p1a: Wartortle
+|-damage|p1a: Wartortle|17/100
+|-damage|p2a: Kangaskhan|51/100|[from] Recoil
+|move|p1a: Wartortle|Scald|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|16/100
+|
+|upkeep
+|turn|17
+|
+|t:|1636039411
+|move|p2a: Kangaskhan|Earthquake|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|upkeep
+|
+|t:|1636039419
+|switch|p1a: Primeape|Primeape, M|31/100
+|turn|18
+|
+|t:|1636039423
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|8/100
+|move|p1a: Primeape|U-turn|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|t:|1636039434
+|switch|p1a: Skuntank|Skuntank, F|100/100|[from]move: U-turn
+|
+|upkeep
+|inactive|Shuckleking87 has 270 seconds left.
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1636039500
+|switch|p2a: Primeape|Primeape, M|58/100
+|-damage|p2a: Primeape|52/100|[from] Stealth Rock
+|-damage|p2a: Primeape|40/100|[from] Spikes
+|turn|19
+|inactive|Shuckleking87 has 240 seconds left.
+|inactive|Shuckleking87 has 210 seconds left.
+|
+|t:|1636039549
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|move|p2a: Primeape|Punishment|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|27/100
+|
+|upkeep
+|turn|20
+|inactive|Shuckleking87 has 210 seconds left.
+|inactive|Heysup has 270 seconds left.
+|inactive|Shuckleking87 has 180 seconds left.
+|inactive|Heysup has 240 seconds left.
+|inactive|Shuckleking87 has 150 seconds left.
+|
+|t:|1636039630
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|switch|p2a: Regirock|Regirock|63/100 brn
+|-damage|p2a: Regirock|51/100 brn|[from] Stealth Rock
+|-damage|p2a: Regirock|38/100 brn|[from] Spikes
+|
+|-heal|p2a: Regirock|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Regirock|32/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1636039637
+|move|p1a: Skuntank|Taunt|p2a: Regirock
+|-start|p2a: Regirock|move: Taunt
+|move|p2a: Regirock|Rock Slide|p1a: Skuntank
+|-damage|p1a: Skuntank|83/100
+|
+|-heal|p2a: Regirock|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Regirock|26/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1636039643
+|move|p1a: Skuntank|Crunch|p2a: Regirock
+|-damage|p2a: Regirock|9/100 brn
+|move|p2a: Regirock|Rock Slide|p1a: Skuntank
+|-damage|p1a: Skuntank|65/100
+|
+|-heal|p2a: Regirock|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Regirock|3/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1636039654
+|move|p1a: Skuntank|Crunch|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1636039659
+|switch|p2a: Samurott|Samurott, M|100/100
+|-damage|p2a: Samurott|88/100|[from] Spikes
+|-damage|p2a: Samurott|76/100|[from] Stealth Rock
+|turn|24
+|inactive|Shuckleking87 has 150 seconds left.
+|
+|t:|1636039698
+|move|p1a: Skuntank|Crunch|p2a: Samurott
+|-damage|p2a: Samurott|37/100
+|-unboost|p2a: Samurott|def|1
+|move|p2a: Samurott|Waterfall|p1a: Skuntank
+|-damage|p1a: Skuntank|14/100
+|
+|upkeep
+|turn|25
+|inactive|Shuckleking87 has 150 seconds left.
+|
+|t:|1636039708
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|upkeep
+|turn|26
+|
+|t:|1636039714
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|upkeep
+|turn|27
+|
+|t:|1636039719
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|upkeep
+|turn|28
+|
+|t:|1636039725
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|0
+|
+|upkeep
+|turn|29
+|
+|t:|1636039734
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|0
+|
+|upkeep
+|turn|30
+|
+|t:|1636039743
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|0
+|
+|upkeep
+|turn|31
+|
+|t:|1636039761
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|0
+|
+|upkeep
+|turn|32
+|inactive|Shuckleking87 has 180 seconds left.
+|
+|t:|1636039792
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|0
+|
+|upkeep
+|turn|33
+|
+|t:|1636039798
+|move|p2a: Samurott|Aqua Jet|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Samurott|12/100|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|
+|upkeep
+|c|☆Heysup|lol
+|c|☆Heysup|ok 
+|c|☆Heysup|gg
+|c|☆Shuckleking87|gg
+|-message|Heysup forfeited.
+|
+|win|Shuckleking87

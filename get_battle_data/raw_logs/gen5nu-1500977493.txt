@@ -1,0 +1,308 @@
+|j|☆duranoPokeFan
+|j|☆jahmille118
+|t:|1643504253
+|gametype|singles
+|player|p1|duranoPokeFan|pokemonranger-gen4|1000
+|player|p2|jahmille118|170|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Regirock|item
+|poke|p1|Tauros, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Eelektross, F|item
+|poke|p1|Sneasel, F|item
+|poke|p2|Alomomola, F|item
+|poke|p2|Primeape, F|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Braviary, M|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Cradily, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by duranoPokeFan)
+|
+|t:|1643504280
+|start
+|switch|p1a: Sneasel|Sneasel, F|100/100
+|switch|p2a: Cradily|Cradily, F|100/100
+|turn|1
+|
+|t:|1643504288
+|move|p1a: Sneasel|Swords Dance|p1a: Sneasel
+|-boost|p1a: Sneasel|atk|2
+|move|p2a: Cradily|Stealth Rock|p1a: Sneasel
+|-sidestart|p1: duranoPokeFan|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643504294
+|move|p1a: Sneasel|Swords Dance|p1a: Sneasel
+|-boost|p1a: Sneasel|atk|2
+|move|p2a: Cradily|Ancient Power|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-damage|p1a: Sneasel|9/100
+|
+|upkeep
+|turn|3
+|
+|t:|1643504300
+|move|p1a: Sneasel|Ice Punch|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-enditem|p2a: Cradily|Focus Sash
+|-damage|p2a: Cradily|1/100
+|move|p2a: Cradily|Ancient Power|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|
+|upkeep
+|
+|t:|1643504307
+|switch|p1a: Regirock|Regirock|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|turn|4
+|inactive|jahmille118 has 120 seconds left.
+|inactive|jahmille118 has 90 seconds left.
+|
+|t:|1643504393
+|move|p1a: Regirock|Stealth Rock|p2a: Cradily
+|-sidestart|p2: jahmille118|move: Stealth Rock
+|move|p2a: Cradily|Giga Drain|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|37/100
+|-heal|p2a: Cradily|28/100|[from] drain|[of] p1a: Regirock
+|
+|-heal|p1a: Regirock|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643504401
+|switch|p1a: Armaldo|Armaldo, M, shiny|100/100
+|-damage|p1a: Armaldo|76/100|[from] Stealth Rock
+|move|p2a: Cradily|Giga Drain|p1a: Armaldo
+|-damage|p1a: Armaldo|41/100
+|-heal|p2a: Cradily|47/100|[from] drain|[of] p1a: Armaldo
+|
+|-heal|p1a: Armaldo|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643504413
+|move|p1a: Armaldo|X-Scissor|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|0 fnt
+|faint|p2a: Cradily
+|
+|-heal|p1a: Armaldo|53/100|[from] item: Leftovers
+|upkeep
+|inactive|jahmille118 has 60 seconds left.
+|
+|t:|1643504455
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1643504464
+|move|p1a: Armaldo|Rock Polish|p1a: Armaldo
+|-boost|p1a: Armaldo|spe|2
+|move|p2a: Garbodor|Toxic Spikes|p1a: Armaldo
+|-sidestart|p1: duranoPokeFan|move: Toxic Spikes
+|
+|-heal|p1a: Armaldo|60/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643504471
+|move|p1a: Armaldo|Swords Dance|p1a: Armaldo
+|-boost|p1a: Armaldo|atk|2
+|move|p2a: Garbodor|Gunk Shot|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|32/100
+|
+|-heal|p1a: Armaldo|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|jahmille118 has 60 seconds left.
+|
+|t:|1643504479
+|move|p1a: Armaldo|Swords Dance|p1a: Armaldo
+|-boost|p1a: Armaldo|atk|2
+|move|p2a: Garbodor|Seed Bomb|p1a: Armaldo
+|-damage|p1a: Armaldo|16/100
+|
+|-heal|p1a: Armaldo|23/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643504486
+|move|p1a: Armaldo|Rock Slide|p2a: Garbodor|[miss]
+|-miss|p1a: Armaldo|p2a: Garbodor
+|move|p2a: Garbodor|Seed Bomb|p1a: Armaldo
+|-damage|p1a: Armaldo|2/100
+|
+|-heal|p1a: Armaldo|8/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643504495
+|move|p1a: Armaldo|Rock Slide|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-heal|p1a: Armaldo|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643504506
+|switch|p2a: Primeape|Primeape, F|100/100
+|-damage|p2a: Primeape|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1643504512
+|move|p2a: Primeape|Earthquake|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|upkeep
+|
+|t:|1643504515
+|switch|p1a: Eelektross|Eelektross, F, shiny|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643504540
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|move|p1a: Eelektross|Acrobatics|p2a: Braviary
+|-damage|p2a: Braviary|56/100
+|
+|upkeep
+|turn|14
+|
+|t:|1643504547
+|move|p2a: Braviary|Rock Slide|p1a: Eelektross
+|-damage|p1a: Eelektross|56/100
+|move|p1a: Eelektross|Wild Charge|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-damage|p1a: Eelektross|44/100|[from] Recoil
+|
+|upkeep
+|inactive|jahmille118 has 60 seconds left.
+|
+|t:|1643504564
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1643504571
+|move|p2a: Gardevoir|Energy Ball|p1a: Eelektross
+|-damage|p1a: Eelektross|17/100
+|move|p1a: Eelektross|U-turn|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|15/100
+|
+|t:|1643504578
+|switch|p1a: Tauros|Tauros, M|100/100|[from]move: U-turn
+|-status|p1a: Tauros|psn
+|-damage|p1a: Tauros|88/100 psn|[from] Stealth Rock
+|
+|-damage|p1a: Tauros|76/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1643504584
+|move|p2a: Gardevoir|Energy Ball|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|t:|1643504589
+|switch|p1a: Golurk|Golurk, shiny|100/100
+|-status|p1a: Golurk|psn
+|-damage|p1a: Golurk|94/100 psn|[from] Stealth Rock
+|turn|17
+|
+|t:|1643504600
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Golurk|Thunder Punch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|9/100
+|
+|-heal|p2a: Alomomola|16/100|[from] item: Leftovers
+|-damage|p1a: Golurk|82/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1643504609
+|move|p2a: Alomomola|Scald|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|38/100 psn
+|move|p1a: Golurk|Thunder Punch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-damage|p1a: Golurk|26/100 psn|[from] psn
+|upkeep
+|
+|t:|1643504620
+|switch|p2a: Gardevoir|Gardevoir, F|15/100
+|-damage|p2a: Gardevoir|3/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643504624
+|move|p2a: Gardevoir|Energy Ball|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1643504626
+|switch|p1a: Eelektross|Eelektross, F, shiny|17/100
+|-damage|p1a: Eelektross|5/100|[from] Stealth Rock
+|turn|20
+|inactive|jahmille118 has 90 seconds left.
+|
+|t:|1643504642
+|move|p2a: Gardevoir|Energy Ball|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1643504646
+|switch|p1a: Regirock|Regirock|43/100
+|-damage|p1a: Regirock|31/100|[from] Stealth Rock
+|-status|p1a: Regirock|psn
+|turn|21
+|
+|t:|1643504650
+|move|p2a: Gardevoir|Energy Ball|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|win|jahmille118
+|raw|duranoPokeFan's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|jahmille118's rating: 1144 &rarr; <strong>1159</strong><br />(+15 for winning)
+|l|☆duranoPokeFan

@@ -1,0 +1,503 @@
+|j|☆ThiccOverBriccs
+|j|☆Bilbe44
+|t:|1639382671
+|gametype|singles
+|player|p1|ThiccOverBriccs|crasherwake|
+|player|p2|Bilbe44|blue|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Krookodile, M|item
+|poke|p1|Leafeon, M|item
+|poke|p1|Arcanine, F|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Crobat, F|item
+|poke|p1|Bronzong|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Leafeon, F|item
+|poke|p2|Crobat, M|item
+|poke|p2|Empoleon, M|item
+|teampreview
+|
+|t:|1639382710
+|start
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Empoleon|atk|1
+|-ability|p2a: Empoleon|Defiant
+|-boost|p2a: Empoleon|atk|2
+|turn|1
+|
+|t:|1639382763
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Arcanine
+|-immune|p2a: Arcanine
+|
+|upkeep
+|turn|2
+|
+|t:|1639382807
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Arcanine|Extreme Speed|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1639382821
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|move|p2a: Arcanine|Extreme Speed|p1a: Krookodile
+|-damage|p1a: Krookodile|69/100
+|
+|upkeep
+|turn|4
+|
+|t:|1639382847
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|move|p1a: Krookodile|Return|p2a: Leafeon
+|-damage|p2a: Leafeon|74/100
+|
+|upkeep
+|turn|5
+|
+|t:|1639382871
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Leafeon|atk|1
+|move|p2a: Leafeon|Roar|p1a: Arcanine
+|drag|p1a: Krookodile|Krookodile, M|69/100
+|
+|upkeep
+|turn|6
+|
+|t:|1639382893
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Leafeon|atk|1
+|move|p2a: Leafeon|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|97/100
+|-enditem|p1a: Arcanine|Leftovers|[from] move: Knock Off|[of] p2a: Leafeon
+|
+|upkeep
+|turn|7
+|
+|t:|1639382907
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Arcanine
+|-immune|p2a: Arcanine
+|
+|upkeep
+|turn|8
+|
+|t:|1639382963
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Arcanine|Protect||[still]
+|-fail|p1a: Arcanine
+|
+|upkeep
+|turn|9
+|
+|t:|1639382975
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|move|p2a: Crobat|U-turn|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|93/100
+|
+|t:|1639382983
+|switch|p2a: Leafeon|Leafeon, F|74/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1639383007
+|switch|p1a: Krookodile|Krookodile, M|69/100
+|move|p2a: Leafeon|Knock Off|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|65/100
+|-enditem|p1a: Krookodile|Choice Scarf|[from] move: Knock Off|[of] p2a: Leafeon
+|
+|upkeep
+|turn|11
+|
+|t:|1639383049
+|move|p1a: Krookodile|Crunch|p2a: Leafeon
+|-damage|p2a: Leafeon|43/100
+|-unboost|p2a: Leafeon|def|1
+|move|p2a: Leafeon|Roar|p1a: Krookodile
+|drag|p1a: Empoleon|Empoleon, M|93/100
+|
+|upkeep
+|turn|12
+|
+|t:|1639383076
+|move|p2a: Leafeon|Synthesis|p2a: Leafeon
+|-heal|p2a: Leafeon|93/100
+|move|p1a: Empoleon|Iron Defense|p1a: Empoleon
+|-boost|p1a: Empoleon|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1639383082
+|move|p2a: Leafeon|Knock Off|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|92/100
+|-enditem|p1a: Empoleon|Chesto Berry|[from] move: Knock Off|[of] p2a: Leafeon
+|move|p1a: Empoleon|Metal Claw|p2a: Leafeon
+|-damage|p2a: Leafeon|77/100
+|-boost|p1a: Empoleon|atk|1
+|
+|upkeep
+|turn|14
+|
+|t:|1639383102
+|move|p1a: Empoleon|Scald|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|61/100
+|move|p2a: Leafeon|Roar|p1a: Empoleon
+|drag|p1a: Crobat|Crobat, F|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1639383116
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Crobat|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|86/100
+|
+|t:|1639383135
+|switch|p1a: Bronzong|Bronzong|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1639383151
+|move|p2a: Bronzong|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: ThiccOverBriccs|move: Stealth Rock
+|move|p1a: Bronzong|Calm Mind|p1a: Bronzong
+|-boost|p1a: Bronzong|spa|1
+|-boost|p1a: Bronzong|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1639383162
+|switch|p2a: Leafeon|Leafeon, F|61/100
+|move|p1a: Bronzong|Substitute|p1a: Bronzong
+|-start|p1a: Bronzong|Substitute
+|-damage|p1a: Bronzong|76/100
+|
+|upkeep
+|turn|18
+|
+|t:|1639383188
+|move|p1a: Bronzong|Psychic|p2a: Leafeon
+|-damage|p2a: Leafeon|18/100
+|move|p2a: Leafeon|Roar|p1a: Bronzong
+|drag|p1a: Krookodile|Krookodile, M|65/100
+|-damage|p1a: Krookodile|59/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1639383230
+|move|p1a: Krookodile|Crunch|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1639383237
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|20
+|
+|t:|1639383244
+|move|p2a: Crobat|X-Scissor|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1639383277
+|switch|p1a: Arcanine|Arcanine, F|97/100
+|-damage|p1a: Arcanine|72/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Crobat|atk|1
+|turn|21
+|
+|t:|1639383283
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|-damage|p1a: Leafeon|88/100|[from] Stealth Rock
+|move|p2a: Crobat|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|62/100
+|
+|t:|1639383293
+|switch|p2a: Bronzong|Bronzong|86/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+|
+|t:|1639383308
+|move|p1a: Leafeon|Substitute|p1a: Leafeon
+|-start|p1a: Leafeon|Substitute
+|-damage|p1a: Leafeon|37/100
+|move|p2a: Bronzong|Trick||[still]
+|-fail|p2a: Bronzong
+|
+|upkeep
+|turn|23
+|
+|t:|1639383353
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|
+|upkeep
+|turn|24
+|
+|t:|1639383401
+|move|p2a: Crobat|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-end|p1a: Leafeon|Substitute
+|
+|t:|1639383415
+|switch|p2a: Empoleon|Empoleon, M|100/100|[from]move: U-turn
+|move|p1a: Leafeon|Leaf Blade|p2a: Empoleon
+|-damage|p2a: Empoleon|27/100
+|
+|upkeep
+|turn|25
+|
+|t:|1639383431
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Leafeon|Leaf Blade|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|72/100
+|
+|upkeep
+|turn|26
+|
+|t:|1639383467
+|switch|p1a: Arcanine|Arcanine, F|72/100
+|-damage|p1a: Arcanine|47/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Crobat|atk|1
+|move|p2a: Crobat|U-turn|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|40/100
+|
+|t:|1639383475
+|switch|p2a: Empoleon|Empoleon, M|27/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|
+|t:|1639383486
+|move|p1a: Arcanine|Flare Blitz|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|-damage|p1a: Arcanine|31/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1639383493
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|turn|28
+|
+|t:|1639383507
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Krookodile|Crunch|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|upkeep
+|turn|29
+|
+|t:|1639383528
+|switch|p1a: Empoleon|Empoleon, M|92/100
+|-damage|p1a: Empoleon|86/100|[from] Stealth Rock
+|move|p2a: Krookodile|Crunch|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|70/100
+|
+|upkeep
+|turn|30
+|
+|t:|1639383537
+|switch|p2a: Bronzong|Bronzong|86/100
+|switch|p1a: Crobat|Crobat, F|100/100
+|-damage|p1a: Crobat|75/100|[from] Stealth Rock
+|
+|upkeep
+|turn|31
+|
+|t:|1639383547
+|move|p1a: Crobat|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|70/100
+|
+|t:|1639383552
+|switch|p1a: Empoleon|Empoleon, M|70/100|[from]move: U-turn
+|-damage|p1a: Empoleon|64/100|[from] Stealth Rock
+|move|p2a: Bronzong|Gyro Ball|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|62/100
+|
+|upkeep
+|turn|32
+|
+|t:|1639383573
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Empoleon|atk|1
+|-ability|p1a: Empoleon|Defiant
+|-boost|p1a: Empoleon|atk|2
+|move|p1a: Empoleon|Iron Defense|p1a: Empoleon
+|-boost|p1a: Empoleon|def|2
+|
+|upkeep
+|turn|33
+|
+|t:|1639383613
+|move|p2a: Arcanine|Overheat|p1a: Empoleon
+|-enditem|p2a: Arcanine|Fire Gem|[from] gem
+|-damage|p1a: Empoleon|0 fnt
+|-unboost|p2a: Arcanine|spa|2
+|faint|p1a: Empoleon
+|
+|upkeep
+|
+|t:|1639383708
+|switch|p1a: Leafeon|Leafeon, M|37/100
+|-damage|p1a: Leafeon|25/100|[from] Stealth Rock
+|-enditem|p1a: Leafeon|Salac Berry|[eat]
+|-boost|p1a: Leafeon|spe|1|[from] item: Salac Berry
+|turn|34
+|j| Blackshadow474
+|
+|t:|1639383721
+|move|p1a: Leafeon|Leaf Blade|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|72/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-crit|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|-damage|p2a: Arcanine|65/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1639383747
+|switch|p1a: Crobat|Crobat, F|75/100
+|-damage|p1a: Crobat|50/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1639383756
+|move|p2a: Arcanine|Extreme Speed|p1a: Crobat
+|-damage|p1a: Crobat|18/100
+|move|p1a: Crobat|Double-Edge|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-damage|p1a: Crobat|0 fnt|[from] Recoil
+|faint|p1a: Crobat
+|
+|upkeep
+|
+|t:|1639383776
+|switch|p1a: Bronzong|Bronzong|76/100
+|switch|p2a: Crobat|Crobat, M|72/100
+|-damage|p1a: Bronzong|69/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1639383788
+|move|p2a: Crobat|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|52/100
+|
+|t:|1639383791
+|switch|p2a: Krookodile|Krookodile, M|100/100|[from]move: U-turn
+|move|p1a: Bronzong|Psychic|p2a: Krookodile
+|-immune|p2a: Krookodile
+|
+|upkeep
+|turn|37
+|
+|t:|1639383829
+|move|p2a: Krookodile|Crunch|p1a: Bronzong
+|-damage|p1a: Bronzong|22/100
+|-enditem|p1a: Bronzong|Sitrus Berry|[eat]
+|-heal|p1a: Bronzong|47/100|[from] item: Sitrus Berry
+|move|p1a: Bronzong|Calm Mind|p1a: Bronzong
+|-boost|p1a: Bronzong|spa|1
+|-boost|p1a: Bronzong|spd|1
+|
+|upkeep
+|turn|38
+|
+|t:|1639383839
+|move|p2a: Krookodile|Crunch|p1a: Bronzong
+|-damage|p1a: Bronzong|18/100
+|move|p1a: Bronzong|Shadow Ball|p2a: Krookodile
+|-resisted|p2a: Krookodile
+|-damage|p2a: Krookodile|86/100
+|
+|upkeep
+|turn|39
+|
+|t:|1639383849
+|move|p2a: Krookodile|Crunch|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1639383854
+|switch|p1a: Arcanine|Arcanine, F|31/100
+|-damage|p1a: Arcanine|6/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Krookodile|atk|1
+|turn|40
+|
+|t:|1639383862
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Krookodile|Crunch|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|upkeep
+|turn|41
+|
+|t:|1639383870
+|move|p2a: Krookodile|Crunch|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|win|Bilbe44
+|l|☆ThiccOverBriccs

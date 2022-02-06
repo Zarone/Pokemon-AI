@@ -1,0 +1,305 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643507370
+|gametype|singles
+|player|p1|gorex|#gorex|
+|player|p2|gali|cowgirl|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon, L5|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Abra, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Trapinch, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Chinchou, L5, F|item
+|poke|p2|Vullaby, L5, F|item
+|teampreview
+|c|☆gali|hf 
+|c|☆gorex|hf
+|inactive|gorex has 270 seconds left.
+|
+|t:|1643507417
+|start
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|1
+|
+|t:|1643507433
+|move|p1a: Gastly|Sludge Bomb|p2a: Mienfoo
+|-damage|p2a: Mienfoo|44/100
+|-damage|p1a: Gastly|95/100|[from] item: Life Orb
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|85/100
+|
+|t:|1643507446
+|switch|p2a: Abra|Abra, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1643507454
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Magic Guard|[from] ability: Trace|[of] p2a: Abra
+|move|p2a: Abra|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|50/100
+|
+|upkeep
+|turn|3
+|
+|t:|1643507468
+|move|p2a: Abra|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|4/100
+|-unboost|p1a: Porygon|spd|1
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|54/100
+|
+|upkeep
+|turn|4
+|inactive|gorex has 270 seconds left.
+|inactive|gali has 270 seconds left.
+|
+|t:|1643507525
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|move|p2a: Abra|Psychic|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|37/100
+|
+|upkeep
+|turn|5
+|inactive|gorex has 240 seconds left.
+|
+|t:|1643507550
+|switch|p2a: Mienfoo|Mienfoo, L5, M|74/100
+|move|p1a: Magnemite|Flash Cannon|p2a: Mienfoo
+|-damage|p2a: Mienfoo|31/100
+|-unboost|p2a: Mienfoo|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1643507561
+|switch|p2a: Chinchou|Chinchou, L5, F|100/100
+|move|p1a: Magnemite|Flash Cannon|p2a: Chinchou
+|-resisted|p2a: Chinchou
+|-damage|p2a: Chinchou|88/100
+|
+|upkeep
+|turn|7
+|
+|t:|1643507576
+|switch|p1a: Porygon|Porygon, L5|54/100
+|-ability|p1a: Porygon|Water Absorb|[from] ability: Trace|[of] p2a: Chinchou
+|move|p2a: Chinchou|Volt Switch|p1a: Porygon
+|-damage|p1a: Porygon|31/100
+|c|☆gorex|wait wut
+|c|☆gorex|its not volt absorb?
+|
+|t:|1643507597
+|switch|p2a: Mienfoo|Mienfoo, L5, M|61/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|8
+|
+|t:|1643507607
+|switch|p1a: Gastly|Gastly, L5, M|85/100
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|53/100
+|-enditem|p1a: Gastly|Life Orb|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|9
+|
+|t:|1643507616
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|32/100
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-activate|p1a: Gastly|Substitute|[damage]
+|
+|t:|1643507628
+|switch|p2a: Chinchou|Chinchou, L5, F|88/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1643507635
+|move|p2a: Chinchou|Volt Switch|p1a: Gastly
+|-crit|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|
+|t:|1643507639
+|switch|p2a: Mienfoo|Mienfoo, L5, M|92/100|[from]move: Volt Switch
+|move|p1a: Gastly|Sludge Bomb|p2a: Mienfoo
+|-damage|p2a: Mienfoo|48/100
+|-status|p2a: Mienfoo|psn
+|
+|-damage|p2a: Mienfoo|40/100 psn|[from] psn
+|upkeep
+|turn|11
+|inactive|gali has 270 seconds left.
+|inactive|gorex has 270 seconds left.
+|
+|t:|1643507652
+|move|p1a: Gastly|Sludge Bomb|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1643507664
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|12
+|
+|t:|1643507677
+|move|p2a: Abra|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|upkeep
+|inactive|gorex has 270 seconds left.
+|
+|t:|1643507701
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|turn|13
+|
+|t:|1643507704
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|78/100
+|move|p2a: Abra|Psychic|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|upkeep
+|turn|14
+|
+|t:|1643507712
+|move|p1a: Diglett|Sucker Punch|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|-damage|p1a: Diglett|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643507715
+|switch|p2a: Trapinch|Trapinch, L5, F|100/100
+|turn|15
+|
+|t:|1643507719
+|move|p1a: Diglett|Earthquake|p2a: Trapinch
+|-damage|p2a: Trapinch|48/100
+|-damage|p1a: Diglett|67/100|[from] item: Life Orb
+|move|p2a: Trapinch|Earthquake|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|upkeep
+|inactive|gorex has 270 seconds left.
+|
+|t:|1643507757
+|switch|p1a: Porygon|Porygon, L5|31/100
+|-ability|p1a: Porygon|Arena Trap|[from] ability: Trace|[of] p2a: Trapinch
+|turn|16
+|
+|t:|1643507763
+|move|p1a: Porygon|Ice Beam|p2a: Trapinch
+|-supereffective|p2a: Trapinch
+|-damage|p2a: Trapinch|0 fnt
+|faint|p2a: Trapinch
+|
+|upkeep
+|
+|t:|1643507782
+|switch|p2a: Chinchou|Chinchou, L5, F|88/100
+|turn|17
+|
+|t:|1643507793
+|move|p2a: Chinchou|Hydro Pump|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|upkeep
+|
+|t:|1643507796
+|switch|p1a: Magnemite|Magnemite, L5|37/100
+|turn|18
+|
+|t:|1643507802
+|move|p2a: Chinchou|Hydro Pump|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|upkeep
+|
+|t:|1643507805
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|turn|19
+|
+|t:|1643507809
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|move|p1a: Drifloon|Acrobatics|p2a: Vullaby
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-damage|p2a: Vullaby|48/100
+|-ability|p2a: Vullaby|Weak Armor|boost
+|-unboost|p2a: Vullaby|def|1
+|-boost|p2a: Vullaby|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1643507827
+|move|p1a: Drifloon|Acrobatics|p2a: Vullaby
+|-damage|p2a: Vullaby|0 fnt
+|faint|p2a: Vullaby
+|
+|upkeep
+|
+|t:|1643507838
+|switch|p2a: Chinchou|Chinchou, L5, F|88/100
+|turn|21
+|
+|t:|1643507848
+|move|p1a: Drifloon|Destiny Bond|p1a: Drifloon
+|-singlemove|p1a: Drifloon|Destiny Bond
+|move|p2a: Chinchou|Thunderbolt|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-crit|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|-activate|p1a: Drifloon|move: Destiny Bond
+|faint|p2a: Chinchou
+|
+|upkeep
+|
+|t:|1643507850
+|switch|p1a: Abra|Abra, L5, F|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|22
+|c|☆gali|gg
+|c|☆gorex|gg
+|
+|t:|1643507855
+|move|p1a: Abra|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|win|gorex

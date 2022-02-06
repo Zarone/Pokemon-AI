@@ -1,0 +1,450 @@
+|j|☆Boulidow
+|j|☆Humble fc
+|t:|1625437992
+|gametype|singles
+|player|p1|Boulidow|guzma|
+|player|p2|Humble fc|red-gen1main|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Ferroseed, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Aipom, L5, F|item
+|poke|p2|Natu, L5, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Boulidow)
+|inactive|Humble fc also wants the timer to be on.
+|c|☆Boulidow|hf
+|c|☆Humble fc|glhf
+|inactive|Humble fc has 270 seconds left.
+|
+|t:|1625438025
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Aipom|Aipom, L5, F|100/100
+|turn|1
+|
+|t:|1625438028
+|move|p2a: Aipom|Fake Out|p1a: Mienfoo
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|46/100
+|-damage|p2a: Aipom|92/100|[from] item: Life Orb
+|cant|p1a: Mienfoo|flinch
+|
+|upkeep
+|turn|2
+|c|☆Humble fc|mienfoo band je reconnais
+|c|☆Boulidow|non
+|c|☆Boulidow|surtout un crit
+|inactive|Boulidow has 270 seconds left.
+|c|☆Humble fc|:paz:
+|inactive|Boulidow has 240 seconds left.
+|
+|t:|1625438092
+|switch|p1a: Staryu|Staryu, L5|100/100
+|move|p2a: Aipom|Fury Swipes|p1a: Staryu
+|-damage|p1a: Staryu|81/100
+|-damage|p1a: Staryu|62/100
+|-damage|p1a: Staryu|43/100
+|-damage|p1a: Staryu|24/100
+|-damage|p1a: Staryu|5/100
+|-hitcount|p1a: Staryu|5
+|-damage|p2a: Aipom|83/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|inactive|Boulidow has 240 seconds left.
+|inactive|Humble fc has 270 seconds left.
+|c|☆Humble fc|cest trop
+|c|☆Humble fc|on vous laisse reco
+|c|☆Humble fc|allez y
+|
+|t:|1625438131
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|58/100
+|
+|upkeep
+|turn|4
+|inactive|Humble fc has 270 seconds left.
+|
+|t:|1625438153
+|switch|p1a: Natu|Natu, L5, M|100/100
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1625438178
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Magnemite|Flash Cannon|p1a: Drilbur
+|-damage|p1a: Drilbur|57/100
+|
+|upkeep
+|turn|6
+|inactive|Humble fc has 240 seconds left.
+|
+|t:|1625438200
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Drilbur|Stealth Rock|p2a: Mienfoo
+|-sidestart|p2: Humble fc|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1625438207
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Mienfoo|Knock Off|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|81/100
+|-enditem|p1a: Natu|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|8
+|inactive|Boulidow has 240 seconds left.
+|
+|t:|1625438216
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Natu|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|44/100
+|
+|upkeep
+|turn|9
+|inactive|Boulidow has 240 seconds left.
+|
+|t:|1625438249
+|move|p2a: Drilbur|Rapid Spin|p1a: Natu
+|-damage|p1a: Natu|67/100
+|-sideend|p2: Humble fc|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Drilbur
+|move|p1a: Natu|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|c|☆Humble fc|voila
+|c|☆Humble fc|koala de merde
+|
+|t:|1625438258
+|switch|p2a: Aipom|Aipom, L5, F|83/100
+|turn|10
+|c|☆Humble fc|ah mais les 5 coups
+|c|☆Humble fc|cetait pas du haxx
+|c|☆Humble fc|bah super
+|
+|t:|1625438281
+|switch|p1a: Staryu|Staryu, L5|58/100
+|move|p2a: Aipom|Fury Swipes|p1a: Staryu
+|-damage|p1a: Staryu|39/100
+|-damage|p1a: Staryu|20/100
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|-hitcount|p1: Staryu|3
+|-damage|p2a: Aipom|74/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1625438285
+|switch|p1a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|11
+|inactive|Humble fc has 270 seconds left.
+|
+|t:|1625438301
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|move|p1a: Snover|Blizzard|p2a: Ferroseed
+|-damage|p2a: Ferroseed|60/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferroseed|55/100|[from] Hail
+|upkeep
+|turn|12
+|inactive|Boulidow has 210 seconds left.
+|j| Givranobi ☯
+|
+|t:|1625438330
+|switch|p1a: Natu|Natu, L5, M|67/100
+|move|p2a: Ferroseed|Thunder Wave|p1a: Natu
+|move|p1a: Natu|Thunder Wave|p2a: Ferroseed|[from]ability: Magic Bounce
+|-status|p2a: Ferroseed|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|62/100|[from] Hail
+|-damage|p2a: Ferroseed|50/100 par|[from] Hail
+|upkeep
+|turn|13
+|inactive|Boulidow has 210 seconds left.
+|
+|t:|1625438345
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Natu|U-turn|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|69/100
+|
+|t:|1625438349
+|switch|p1a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|64/100|[from] Hail
+|upkeep
+|turn|14
+|
+|t:|1625438352
+|switch|p2a: Ferroseed|Ferroseed, L5, F|50/100 par
+|move|p1a: Snover|Blizzard|p2a: Ferroseed
+|-damage|p2a: Ferroseed|10/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferroseed|5/100 par|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1625438356
+|move|p1a: Snover|Blizzard|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1625438358
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|turn|16
+|
+|t:|1625438362
+|switch|p1a: Drilbur|Drilbur, L5, M|57/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Magnemite|Flash Cannon|p1a: Drilbur
+|-damage|p1a: Drilbur|5/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magnemite|95/100|[from] Hail
+|-damage|p1a: Drilbur|0 fnt|[from] Hail
+|faint|p1a: Drilbur
+|upkeep
+|
+|t:|1625438364
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Magnet Pull|[from] ability: Trace|[of] p2a: Magnemite
+|turn|17
+|
+|t:|1625438367
+|move|p2a: Magnemite|Flash Cannon|p1a: Porygon
+|-damage|p1a: Porygon|74/100
+|move|p1a: Porygon|Thunder Wave|p2a: Magnemite
+|-status|p2a: Magnemite|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|70/100|[from] Hail
+|-damage|p2a: Magnemite|90/100 par|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1625438370
+|move|p1a: Porygon|Tri Attack|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|58/100 par
+|cant|p2a: Magnemite|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|66/100|[from] Hail
+|-damage|p2a: Magnemite|53/100 par|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1625438373
+|move|p1a: Porygon|Tri Attack|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|16/100 par
+|move|p2a: Magnemite|Flash Cannon|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|4/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|0 fnt|[from] Hail
+|-damage|p2a: Magnemite|11/100 par|[from] Hail
+|faint|p1a: Porygon
+|upkeep
+|c|☆Boulidow|bhnj,klnjhbvg
+|c|☆Boulidow|oui
+|c|☆Boulidow|ggs !
+|inactive|Boulidow has 270 seconds left.
+|c|☆Humble fc|tu peux toujours double freeze
+|c|☆Humble fc|une game n'est jamais perdue
+|
+|t:|1625438399
+|switch|p1a: Mienfoo|Mienfoo, L5, M|78/100
+|turn|20
+|c|☆Humble fc|que raconte tu bouligoat
+|
+|t:|1625438403
+|move|p1a: Mienfoo|U-turn|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|t:|1625438409
+|switch|p1a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1625438411
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|21
+|
+|t:|1625438415
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo|[miss]
+|-miss|p2a: Mienfoo|p1a: Mienfoo
+|-damage|p2a: Mienfoo|50/100|[from] highjumpkick
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Hail
+|-damage|p2a: Mienfoo|46/100|[from] Hail
+|upkeep
+|turn|22
+|c|☆Humble fc|OFC
+|
+|t:|1625438421
+|switch|p2a: Natu|Natu, L5, M|64/100
+|move|p1a: Mienfoo|High Jump Kick|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|50/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|46/100|[from] Hail
+|-damage|p1a: Mienfoo|91/100|[from] Hail
+|upkeep
+|turn|23
+|
+|t:|1625438424
+|move|p2a: Natu|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|28/100
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|23/100
+|
+|t:|1625438426
+|switch|p1a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|19/100|[from] Hail
+|upkeep
+|turn|24
+|
+|t:|1625438433
+|move|p1a: Snover|Blizzard|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1625438435
+|switch|p2a: Mienfoo|Mienfoo, L5, M|78/100
+|turn|25
+|
+|t:|1625438447
+|switch|p1a: Mienfoo|Mienfoo, L5, M|60/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo|[miss]
+|-miss|p2a: Mienfoo|p1a: Mienfoo
+|-damage|p2a: Mienfoo|28/100|[from] highjumpkick
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|55/100|[from] Hail
+|-damage|p2a: Mienfoo|23/100|[from] Hail
+|upkeep
+|turn|26
+|
+|t:|1625438452
+|move|p1a: Mienfoo|High Jump Kick|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|50/100|[from] Hail
+|upkeep
+|c|☆Humble fc|deuifjz
+|c|☆Humble fc|oui
+|c|☆Humble fc|gg !
+|
+|t:|1625438461
+|switch|p2a: Aipom|Aipom, L5, F|74/100
+|turn|27
+|c|☆Boulidow|on win meme sans le miss
+|c|☆Boulidow|le 2e en tout cas
+|c|☆Humble fc|sans blague
+|c|☆Humble fc|jvais vous en vouloir
+|c|☆Humble fc|toute ma vie
+|
+|t:|1625438480
+|switch|p1a: Natu|Natu, L5, M|62/100
+|move|p2a: Aipom|Fake Out|p1a: Natu
+|-damage|p1a: Natu|20/100
+|-damage|p2a: Aipom|66/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aipom|61/100|[from] Hail
+|-damage|p1a: Natu|15/100|[from] Hail
+|upkeep
+|turn|28
+|
+|t:|1625438484
+|move|p2a: Aipom|Shadow Claw|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|-damage|p2a: Aipom|53/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aipom|48/100|[from] Hail
+|upkeep
+|
+|t:|1625438486
+|switch|p1a: Snover|Snover, L5, M|100/100
+|turn|29
+|
+|t:|1625438488
+|move|p1a: Snover|Giga Drain|p2a: Aipom
+|-crit|p2a: Aipom
+|-damage|p2a: Aipom|0 fnt
+|faint|p2a: Aipom
+|
+|win|Boulidow
+|c|☆Humble fc|ofc
+|l| Givranobi ☯
+|c|☆Boulidow|gg.
+|j| Darky~Samaa'
+|j| Menacce17
+|l| Darky~Samaa'
+|j| Os4ke
+|j| Givranobi ☯
+|j| Dragonillis
+|l| Givranobi ☯
+|l| Dragonillis
+|j| Bekaray
+|l| Bekaray
+|j| iKiQ ㋛
+|l| Os4ke
+|l| iKiQ ㋛

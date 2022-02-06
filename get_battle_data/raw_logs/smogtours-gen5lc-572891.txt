@@ -1,0 +1,500 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1628453886
+|gametype|singles
+|player|p1|bugzinator RC|skierf|
+|player|p2|watashi|#flcl|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Chinchou, L5, F|item
+|poke|p2|Omanyte, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Gastly, L5, F|item
+|teampreview
+|c|☆watashi|gl hf
+|c|☆bugzinator RC|u2
+|inactive|bugzinator RC has 270 seconds left.
+|inactive|watashi has 270 seconds left.
+|
+|t:|1628453927
+|start
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|1
+|
+|t:|1628453944
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|2
+|
+|t:|1628453955
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|91/100
+|
+|t:|1628453960
+|switch|p1a: Gastly|Gastly, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1628453982
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|move|p1a: Gastly|Trick|p2a: Porygon
+|-activate|p1a: Gastly|move: Trick|[of] p2a: Porygon
+|-item|p2a: Porygon|Black Sludge|[from] move: Trick
+|-item|p1a: Gastly|Eviolite|[from] move: Trick
+|
+|-damage|p2a: Porygon|89/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1628454001
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Porygon|Tri Attack|p1a: Drilbur
+|-damage|p1a: Drilbur|55/100
+|
+|-damage|p2a: Porygon|77/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1628454012
+|move|p1a: Drilbur|Stealth Rock|p2a: Porygon
+|-sidestart|p2: watashi|move: Stealth Rock
+|move|p2a: Porygon|Ice Beam|p1a: Drilbur
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|-damage|p2a: Porygon|66/100|[from] item: Black Sludge
+|upkeep
+|inactive|bugzinator RC has 270 seconds left.
+|
+|t:|1628454036
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|6
+|
+|t:|1628454045
+|move|p1a: Mienfoo|Fake Out|p2a: Porygon
+|-damage|p2a: Porygon|50/100
+|cant|p2a: Porygon|flinch
+|
+|-damage|p2a: Porygon|39/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1628454057
+|move|p1a: Mienfoo|High Jump Kick|p2a: Porygon|[miss]
+|-miss|p1a: Mienfoo|p2a: Porygon
+|-damage|p1a: Mienfoo|53/100|[from] highjumpkick
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|89/100
+|
+|-damage|p2a: Porygon|77/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1628454068
+|move|p1a: Mienfoo|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|54/100
+|
+|t:|1628454072
+|switch|p1a: Chinchou|Chinchou, L5, F|100/100|[from]move: U-turn
+|move|p2a: Porygon|Tri Attack|p1a: Chinchou
+|-damage|p1a: Chinchou|72/100
+|
+|-damage|p2a: Porygon|43/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1628454084
+|move|p1a: Chinchou|Volt Switch|p2a: Porygon
+|-damage|p2a: Porygon|16/100
+|
+|t:|1628454087
+|switch|p1a: Mienfoo|Mienfoo, L5, F|83/100|[from]move: Volt Switch
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|66/100
+|
+|-damage|p2a: Porygon|54/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1628454099
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|-damage|p2a: Gastly|90/100|[from] Stealth Rock
+|move|p1a: Mienfoo|Fake Out|p2a: Gastly
+|-immune|p2a: Gastly
+|
+|upkeep
+|turn|11
+|
+|t:|1628454117
+|move|p2a: Gastly|Substitute|p2a: Gastly
+|-start|p2a: Gastly|Substitute
+|-damage|p2a: Gastly|69/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-activate|p2a: Gastly|Substitute|[damage]
+|inactive|bugzinator RC has 270 seconds left.
+|
+|t:|1628454151
+|switch|p1a: Abra|Abra, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1628454167
+|move|p1a: Abra|Encore|p2a: Gastly
+|-start|p2a: Gastly|Encore
+|move|p2a: Gastly|Substitute|p2a: Gastly
+|-fail|p2a: Gastly|move: Substitute
+|
+|upkeep
+|turn|13
+|inactive|bugzinator RC has 270 seconds left.
+|
+|t:|1628454187
+|switch|p2a: Porygon|Porygon, L5|54/100
+|-damage|p2a: Porygon|43/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Magic Guard|[from] ability: Trace|[of] p1a: Abra
+|move|p1a: Abra|Hidden Power|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|upkeep
+|inactive|watashi has 270 seconds left.
+|
+|t:|1628454224
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|-damage|p2a: Magnemite|95/100|[from] Stealth Rock
+|turn|14
+|inactive|bugzinator RC has 270 seconds left.
+|
+|t:|1628454238
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|-damage|p2a: Diglett|95/100|[from] Stealth Rock
+|switch|p1a: Chinchou|Chinchou, L5, F|72/100
+|
+|upkeep
+|turn|15
+|c|+Serene Grace|goat
+|
+|t:|1628454250
+|move|p2a: Diglett|Earthquake|p1a: Chinchou
+|-supereffective|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|-damage|p2a: Diglett|89/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|bugzinator RC has 270 seconds left.
+|
+|t:|1628454283
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|16
+|
+|t:|1628454302
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|86/100
+|
+|t:|1628454323
+|switch|p1a: Gastly|Gastly, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1628454341
+|move|p1a: Gastly|Will-O-Wisp|p2a: Mienfoo|[miss]
+|-miss|p1a: Gastly|p2a: Mienfoo
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|79/100
+|-enditem|p1a: Gastly|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|18
+|
+|t:|1628454345
+|move|p1a: Gastly|Will-O-Wisp|p2a: Mienfoo
+|-status|p2a: Mienfoo|brn
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|74/100
+|
+|t:|1628454349
+|switch|p2a: Magnemite|Magnemite, L5|95/100|[from]move: U-turn
+|-damage|p2a: Magnemite|90/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|inactive|bugzinator RC has 270 seconds left.
+|inactive|watashi has 270 seconds left.
+|inactive|bugzinator RC has 240 seconds left.
+|
+|t:|1628454408
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p2a: Magnemite|Volt Switch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|61/100
+|
+|t:|1628454419
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 brn|[from]move: Volt Switch
+|-damage|p2a: Mienfoo|96/100 brn|[from] Stealth Rock
+|
+|-damage|p2a: Mienfoo|86/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1628454433
+|move|p1a: Mienfoo|Fake Out|p2a: Mienfoo
+|-damage|p2a: Mienfoo|72/100 brn
+|cant|p2a: Mienfoo|flinch
+|
+|-damage|p2a: Mienfoo|62/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1628454456
+|move|p2a: Mienfoo|Knock Off|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|-enditem|p1a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Mienfoo|High Jump Kick|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|inactive|watashi has 270 seconds left.
+|
+|t:|1628454491
+|switch|p2a: Gastly|Gastly, L5, F|69/100
+|-damage|p2a: Gastly|58/100|[from] Stealth Rock
+|turn|22
+|inactive|bugzinator RC has 210 seconds left.
+|inactive|bugzinator RC has 180 seconds left.
+|inactive|bugzinator RC has 150 seconds left.
+|inactive|bugzinator RC has 120 seconds left.
+|
+|t:|1628454602
+|switch|p1a: Gastly|Gastly, L5, M|74/100
+|move|p2a: Gastly|Sludge Bomb|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|53/100
+|
+|upkeep
+|turn|23
+|inactive|bugzinator RC has 120 seconds left.
+|
+|t:|1628454628
+|switch|p2a: Magnemite|Magnemite, L5|90/100
+|-damage|p2a: Magnemite|85/100|[from] Stealth Rock
+|move|p1a: Gastly|Shadow Ball|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|43/100
+|
+|upkeep
+|turn|24
+|inactive|watashi has 270 seconds left.
+|inactive|bugzinator RC has 90 seconds left.
+|inactive|bugzinator RC has 60 seconds left.
+|
+|t:|1628454684
+|switch|p1a: Mienfoo|Mienfoo, L5, F|87/100
+|move|p2a: Magnemite|Volt Switch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|35/100
+|inactive|watashi has 270 seconds left.
+|
+|t:|1628454690
+|switch|p2a: Gastly|Gastly, L5, F|58/100|[from]move: Volt Switch
+|-damage|p2a: Gastly|48/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|inactive|bugzinator RC has 60 seconds left.
+|inactive|bugzinator RC has 30 seconds left.
+|
+|t:|1628454743
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|move|p2a: Gastly|Sludge Bomb|p1a: Porygon
+|-damage|p1a: Porygon|74/100
+|-status|p1a: Porygon|psn
+|
+|-damage|p1a: Porygon|62/100 psn|[from] psn
+|upkeep
+|turn|26
+|inactive|bugzinator RC has 30 seconds left.
+|inactive|bugzinator RC has 20 seconds left.
+|
+|t:|1628454761
+|switch|p2a: Omanyte|Omanyte, L5, F|100/100
+|-damage|p2a: Omanyte|91/100|[from] Stealth Rock
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 psn
+|
+|-damage|p1a: Porygon|89/100 psn|[from] psn
+|upkeep
+|turn|27
+|inactive|bugzinator RC has 30 seconds left this turn.
+|inactive|bugzinator RC has 20 seconds left.
+|
+|t:|1628454772
+|move|p2a: Omanyte|Knock Off|p1a: Porygon
+|-damage|p1a: Porygon|85/100 psn
+|-enditem|p1a: Porygon|Eviolite|[from] move: Knock Off|[of] p2a: Omanyte
+|move|p1a: Porygon|Toxic|p2a: Omanyte|[miss]
+|-miss|p1a: Porygon|p2a: Omanyte
+|
+|-damage|p1a: Porygon|74/100 psn|[from] psn
+|upkeep
+|turn|28
+|inactive|bugzinator RC has 30 seconds left this turn.
+|
+|t:|1628454777
+|move|p2a: Omanyte|Hydro Pump|p1a: Porygon
+|-damage|p1a: Porygon|16/100 psn
+|move|p1a: Porygon|Toxic|p2a: Omanyte
+|-status|p2a: Omanyte|tox
+|
+|-damage|p2a: Omanyte|86/100 tox|[from] psn
+|-damage|p1a: Porygon|4/100 psn|[from] psn
+|upkeep
+|turn|29
+|inactive|bugzinator RC has 30 seconds left.
+|
+|t:|1628454785
+|move|p2a: Omanyte|Stealth Rock|p1a: Porygon
+|-sidestart|p1: bugzinator RC|move: Stealth Rock
+|move|p1a: Porygon|Psychic|p2a: Omanyte
+|-damage|p2a: Omanyte|48/100 tox
+|
+|-damage|p2a: Omanyte|39/100 tox|[from] psn
+|-damage|p1a: Porygon|0 fnt|[from] psn
+|faint|p1a: Porygon
+|upkeep
+|inactive|bugzinator RC has 30 seconds left.
+|inactive|bugzinator RC has 20 seconds left.
+|inactive|bugzinator RC has 15 seconds left.
+|
+|t:|1628454809
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|30
+|inactive|bugzinator RC has 25 seconds left this turn.
+|
+|t:|1628454819
+|move|p1a: Abra|Psychic|p2a: Omanyte
+|-damage|p2a: Omanyte|0 fnt
+|faint|p2a: Omanyte
+|
+|upkeep
+|inactive|bugzinator RC has 30 seconds left this turn.
+|inactive|watashi has 270 seconds left.
+|
+|t:|1628454851
+|switch|p2a: Magnemite|Magnemite, L5|43/100
+|-damage|p2a: Magnemite|37/100|[from] Stealth Rock
+|turn|31
+|inactive|bugzinator RC has 30 seconds left.
+|inactive|bugzinator RC has 20 seconds left.
+|inactive|bugzinator RC has 15 seconds left.
+|inactive|bugzinator RC has 10 seconds left.
+|
+|t:|1628454882
+|move|p2a: Magnemite|Volt Switch|p1a: Abra
+|-damage|p1a: Abra|37/100
+|inactive|bugzinator RC has 15 seconds left this turn.
+|
+|t:|1628454884
+|switch|p2a: Gastly|Gastly, L5, F|48/100|[from]move: Volt Switch
+|-damage|p2a: Gastly|37/100|[from] Stealth Rock
+|move|p1a: Abra|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|inactive|bugzinator RC has 20 seconds left this turn.
+|
+|t:|1628454886
+|switch|p2a: Diglett|Diglett, L5, F|89/100
+|-damage|p2a: Diglett|84/100|[from] Stealth Rock
+|turn|32
+|inactive|bugzinator RC has 30 seconds left this turn.
+|
+|t:|1628454889
+|move|p2a: Diglett|Earthquake|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|-damage|p2a: Diglett|78/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|bugzinator RC has 30 seconds left.
+|inactive|bugzinator RC has 20 seconds left.
+|inactive|bugzinator RC has 15 seconds left.
+|inactive|bugzinator RC has 10 seconds left.
+|
+|t:|1628454916
+|switch|p1a: Mienfoo|Mienfoo, L5, F|66/100
+|-damage|p1a: Mienfoo|61/100|[from] Stealth Rock
+|turn|33
+|inactive|bugzinator RC has 20 seconds left this turn.
+|
+|t:|1628454919
+|move|p1a: Mienfoo|Fake Out|p2a: Diglett
+|-damage|p2a: Diglett|45/100
+|cant|p2a: Diglett|flinch
+|
+|upkeep
+|turn|34
+|inactive|bugzinator RC has 30 seconds left this turn.
+|
+|t:|1628454930
+|move|p2a: Diglett|Earthquake|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|-damage|p2a: Diglett|39/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628454933
+|switch|p1a: Gastly|Gastly, L5, M|53/100
+|-damage|p1a: Gastly|43/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1628454935
+|move|p2a: Diglett|Rock Slide|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|-damage|p2a: Diglett|34/100|[from] item: Life Orb
+|
+|win|watashi
+|c|☆watashi|gg
+|c|☆bugzinator RC|gg

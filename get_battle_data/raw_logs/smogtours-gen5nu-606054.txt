@@ -1,0 +1,631 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643583984
+|gametype|singles
+|player|p1|Links|elesa|
+|player|p2|Lily|#lily|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Carracosta, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Swellow, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Rotom-Frost|item
+|poke|p1|Duosion, F|item
+|poke|p2|Clefairy, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Duosion, F|item
+|poke|p2|Haunter, F|item
+|teampreview
+|c|☆Links|Hf
+|c|☆Lily|hf
+|inactive|Links has 270 seconds left.
+|inactive|Lily has 270 seconds left.
+|c|+GW|go lily
+|c|+Garay oak|wooooooooo go lily
+|inactive|Links has 240 seconds left.
+|inactive|Lily has 240 seconds left.
+|c|+pokeslice|LETS GO LINKSSS
+|inactive|Links has 210 seconds left.
+|c|+Staxi|go lily
+|c|+Phantomistix|go duosion
+|inactive|Links has 180 seconds left.
+|c|+Togkey|go garbodor
+|c|+BluBirD|lgi links!
+|
+|t:|1643584113
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: born to die|Clefairy, F|100/100
+|turn|1
+|
+|t:|1643584135
+|move|p1a: Garbodor|Spikes|p2a: born to die
+|-sidestart|p2: Lily|Spikes
+|move|p2a: born to die|Stealth Rock|p1a: Garbodor
+|-sidestart|p1: Links|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643584143
+|switch|p2a: i am trash man|Garbodor, F|100/100
+|-damage|p2a: i am trash man|88/100|[from] Spikes
+|move|p1a: Garbodor|Spikes|p2a: i am trash man
+|-sidestart|p2: Lily|Spikes
+|
+|upkeep
+|turn|3
+|inactive|Links has 240 seconds left.
+|c|+Garay oak|you're not trash lily
+|c|+Garay oak|:pleadingtaco:
+|c|☆Lily|thank you garay
+|c|+Staxi|np
+|c|☆Lily|:nebscif:
+|c|+Confide|Nickname game crazy rn
+|
+|t:|1643584177
+|switch|p1a: Duosion|Duosion, F|100/100
+|move|p2a: i am trash man|Spikes|p1a: Duosion
+|-sidestart|p1: Links|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1643584186
+|switch|p2a: born to die|Clefairy, F|100/100
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|
+|upkeep
+|turn|5
+|inactive|Links has 240 seconds left.
+|
+|t:|1643584193
+|move|p2a: born to die|Thunder Wave|p1a: Duosion
+|-status|p1a: Duosion|par
+|move|p1a: Duosion|Psyshock|p2a: born to die
+|-damage|p2a: born to die|46/100
+|
+|upkeep
+|turn|6
+|
+|t:|1643584199
+|move|p2a: born to die|Soft-Boiled|p2a: born to die
+|-heal|p2a: born to die|96/100
+|cant|p1a: Duosion|par
+|
+|upkeep
+|turn|7
+|
+|t:|1643584204
+|switch|p2a: kill em all 1989|Misdreavus, M|100/100
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1643584207
+|move|p2a: kill em all 1989|Nasty Plot|p2a: kill em all 1989
+|-boost|p2a: kill em all 1989|spa|2
+|cant|p1a: Duosion|par
+|
+|upkeep
+|turn|9
+|inactive|Links has 270 seconds left.
+|
+|t:|1643584232
+|move|p2a: kill em all 1989|Substitute|p2a: kill em all 1989
+|-start|p2a: kill em all 1989|Substitute
+|-damage|p2a: kill em all 1989|76/100
+|move|p1a: Duosion|Psyshock|p2a: kill em all 1989
+|-end|p2a: kill em all 1989|Substitute
+|
+|upkeep
+|turn|10
+|inactive|Links has 240 seconds left.
+|
+|t:|1643584269
+|move|p2a: kill em all 1989|Substitute|p2a: kill em all 1989
+|-start|p2a: kill em all 1989|Substitute
+|-damage|p2a: kill em all 1989|51/100
+|move|p1a: Duosion|Psyshock|p2a: kill em all 1989
+|-end|p2a: kill em all 1989|Substitute
+|
+|upkeep
+|turn|11
+|
+|t:|1643584278
+|move|p2a: kill em all 1989|Shadow Ball|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|32/100 par
+|cant|p1a: Duosion|par
+|
+|upkeep
+|turn|12
+|inactive|Links has 240 seconds left.
+|c|+S-Arcobaleno|ofc
+|c|☆Links|:/
+|
+|t:|1643584308
+|move|p2a: kill em all 1989|Substitute|p2a: kill em all 1989
+|-start|p2a: kill em all 1989|Substitute
+|-damage|p2a: kill em all 1989|26/100
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|82/100 par
+|
+|upkeep
+|turn|13
+|inactive|Links has 210 seconds left.
+|
+|t:|1643584339
+|switch|p1a: Swellow|Swellow, M|100/100
+|-damage|p1a: Swellow|76/100|[from] Stealth Rock
+|move|p2a: kill em all 1989|Shadow Ball|p1a: Swellow
+|-immune|p1a: Swellow
+|
+|-status|p1a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|t:|1643584346
+|move|p1a: Swellow|U-turn|p2a: kill em all 1989
+|-resisted|p2a: kill em all 1989
+|-activate|p2a: kill em all 1989|Substitute|[damage]
+|
+|t:|1643584349
+|switch|p1a: Rotom|Rotom-Frost|100/100|[from]move: U-turn
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: kill em all 1989|Thunderbolt|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|
+|upkeep
+|turn|15
+|inactive|Links has 210 seconds left.
+|
+|t:|1643584364
+|move|p1a: Rotom|Volt Switch|p2a: kill em all 1989
+|-end|p2a: kill em all 1989|Substitute
+|
+|t:|1643584367
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|-damage|p1a: Kangaskhan|76/100|[from] Spikes
+|move|p2a: kill em all 1989|Substitute|p2a: kill em all 1989
+|-start|p2a: kill em all 1989|Substitute
+|-damage|p2a: kill em all 1989|1/100
+|
+|upkeep
+|turn|16
+|
+|t:|1643584373
+|move|p1a: Kangaskhan|Fake Out|p2a: kill em all 1989
+|-end|p2a: kill em all 1989|Substitute
+|move|p2a: kill em all 1989|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|21/100
+|
+|upkeep
+|turn|17
+|
+|t:|1643584377
+|switch|p2a: i am trash man|Garbodor, F|88/100
+|-damage|p2a: i am trash man|72/100|[from] Spikes
+|move|p1a: Kangaskhan|Sucker Punch||[still]
+|-fail|p1a: Kangaskhan
+|
+|upkeep
+|turn|18
+|
+|t:|1643584383
+|move|p1a: Kangaskhan|Double-Edge|p2a: i am trash man
+|-damage|p2a: i am trash man|20/100
+|-damage|p1a: Kangaskhan|4/100|[from] item: Rocky Helmet|[of] p2a: i am trash man
+|-damage|p1a: Kangaskhan|0 fnt|[from] Recoil
+|faint|p1a: Kangaskhan
+|move|p2a: i am trash man|Sludge Bomb|p1: Kangaskhan|[notarget]
+|-fail|p2a: i am trash man
+|
+|upkeep
+|inactive|Links has 210 seconds left.
+|
+|t:|1643584414
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Spikes
+|-damage|p1a: Garbodor|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643584417
+|move|p1a: Garbodor|Gunk Shot|p2a: i am trash man
+|-resisted|p2a: i am trash man
+|-damage|p2a: i am trash man|4/100
+|move|p2a: i am trash man|Pain Split|p1a: Garbodor
+|-sethp|p1a: Garbodor|40/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: i am trash man|40/100|[from] move: Pain Split
+|
+|upkeep
+|turn|20
+|c|+Garay oak|splut
+|inactive|Links has 210 seconds left.
+|
+|t:|1643584448
+|switch|p2a: 410757864530|Duosion, F|100/100
+|move|p1a: Garbodor|Explosion|p2a: 410757864530
+|-damage|p2a: 410757864530|61/100
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1643584453
+|switch|p1a: Swellow|Swellow, M|76/100 tox
+|-damage|p1a: Swellow|51/100 tox|[from] Stealth Rock
+|turn|21
+|inactive|Links has 210 seconds left.
+|
+|t:|1643584463
+|switch|p2a: i am trash man|Garbodor, F|40/100
+|-damage|p2a: i am trash man|23/100|[from] Spikes
+|move|p1a: Swellow|Facade|p2a: i am trash man
+|-damage|p2a: i am trash man|0 fnt
+|-damage|p1a: Swellow|26/100 tox|[from] ability: Aftermath|[of] p2a: i am trash man
+|-damage|p1a: Swellow|9/100 tox|[from] item: Rocky Helmet|[of] p2a: i am trash man
+|faint|p2a: i am trash man
+|
+|-damage|p1a: Swellow|3/100 tox|[from] psn
+|upkeep
+|inactive|Lily has 270 seconds left.
+|
+|t:|1643584497
+|switch|p2a: kill em all 1989|Misdreavus, M|1/100
+|turn|22
+|inactive|Links has 210 seconds left.
+|
+|t:|1643584513
+|move|p1a: Swellow|Brave Bird|p2a: kill em all 1989
+|-damage|p2a: kill em all 1989|0 fnt
+|faint|p2a: kill em all 1989
+|-damage|p1a: Swellow|3/100 tox|[from] Recoil
+|
+|-damage|p1a: Swellow|0 fnt|[from] psn
+|faint|p1a: Swellow
+|upkeep
+|
+|t:|1643584523
+|switch|p1a: Rotom|Rotom-Frost|44/100
+|switch|p2a: world is a fuck|Seismitoad, M|100/100
+|-damage|p1a: Rotom|19/100|[from] Stealth Rock
+|-damage|p2a: world is a fuck|84/100|[from] Spikes
+|turn|23
+|
+|t:|1643584525
+|switch|p2a: born to die|Clefairy, F|96/100
+|move|p1a: Rotom|Blizzard|p2a: born to die|[miss]
+|-miss|p1a: Rotom|p2a: born to die
+|
+|upkeep
+|turn|24
+|c|+Phantomistix|goated name and goated song
+|
+|t:|1643584550
+|move|p1a: Rotom|Blizzard|p2a: born to die|[miss]
+|-miss|p1a: Rotom|p2a: born to die
+|move|p2a: born to die|Seismic Toss|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1643584553
+|switch|p1a: Duosion|Duosion, F|82/100 par
+|turn|25
+|
+|t:|1643584562
+|switch|p2a: dead cops|Haunter, F|100/100
+|move|p1a: Duosion|Psyshock|p2a: dead cops
+|-supereffective|p2a: dead cops
+|-damage|p2a: dead cops|0 fnt
+|faint|p2a: dead cops
+|
+|upkeep
+|
+|t:|1643584567
+|switch|p2a: 410757864530|Duosion, F|61/100
+|turn|26
+|
+|t:|1643584569
+|move|p2a: 410757864530|Calm Mind|p2a: 410757864530
+|-boost|p2a: 410757864530|spa|1
+|-boost|p2a: 410757864530|spd|1
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|
+|upkeep
+|turn|27
+|c|+ALlCE|dead cops heart eyes
+|
+|t:|1643584571
+|move|p2a: 410757864530|Calm Mind|p2a: 410757864530
+|-boost|p2a: 410757864530|spa|1
+|-boost|p2a: 410757864530|spd|1
+|move|p1a: Duosion|Thunder|p2a: 410757864530
+|-damage|p2a: 410757864530|35/100
+|
+|upkeep
+|turn|28
+|
+|t:|1643584579
+|move|p2a: 410757864530|Recover|p2a: 410757864530
+|-heal|p2a: 410757864530|85/100
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|
+|upkeep
+|turn|29
+|
+|t:|1643584581
+|move|p2a: 410757864530|Calm Mind|p2a: 410757864530
+|-boost|p2a: 410757864530|spa|1
+|-boost|p2a: 410757864530|spd|1
+|move|p1a: Duosion|Thunder|p2a: 410757864530
+|-damage|p2a: 410757864530|59/100
+|
+|upkeep
+|turn|30
+|inactive|Links has 270 seconds left.
+|
+|t:|1643584588
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|50/100 par
+|move|p1a: Duosion|Thunder|p2a: 410757864530
+|-damage|p2a: 410757864530|33/100
+|-status|p2a: 410757864530|par
+|
+|upkeep
+|turn|31
+|
+|t:|1643584595
+|move|p1a: Duosion|Psyshock|p2a: 410757864530
+|-resisted|p2a: 410757864530
+|-damage|p2a: 410757864530|9/100 par
+|move|p2a: 410757864530|Recover|p2a: 410757864530
+|-heal|p2a: 410757864530|59/100 par
+|
+|upkeep
+|turn|32
+|
+|t:|1643584600
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|99/100 par
+|move|p2a: 410757864530|Recover|p2a: 410757864530
+|-heal|p2a: 410757864530|100/100 par
+|
+|upkeep
+|turn|33
+|
+|t:|1643584603
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|move|p2a: 410757864530|Calm Mind|p2a: 410757864530
+|-boost|p2a: 410757864530|spa|1
+|-boost|p2a: 410757864530|spd|1
+|
+|upkeep
+|turn|34
+|
+|t:|1643584607
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|60/100 par
+|
+|upkeep
+|turn|35
+|
+|t:|1643584610
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|100/100 par
+|move|p2a: 410757864530|Calm Mind|p2a: 410757864530
+|-boost|p2a: 410757864530|spa|1
+|-boost|p2a: 410757864530|spd|1
+|
+|upkeep
+|turn|36
+|
+|t:|1643584613
+|cant|p1a: Duosion|par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|60/100 par
+|
+|upkeep
+|turn|37
+|
+|t:|1643584614
+|move|p1a: Duosion|Psyshock|p2a: 410757864530
+|-resisted|p2a: 410757864530
+|-damage|p2a: 410757864530|67/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|14/100 par
+|
+|upkeep
+|turn|38
+|
+|t:|1643584617
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|64/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|21/100 par
+|
+|upkeep
+|turn|39
+|
+|t:|1643584620
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|71/100 par
+|cant|p2a: 410757864530|par
+|
+|upkeep
+|turn|40
+|
+|t:|1643584622
+|move|p1a: Duosion|Psyshock|p2a: 410757864530
+|-resisted|p2a: 410757864530
+|-damage|p2a: 410757864530|29/100 par
+|cant|p2a: 410757864530|par
+|
+|upkeep
+|turn|41
+|
+|t:|1643584628
+|cant|p1a: Duosion|par
+|move|p2a: 410757864530|Recover|p2a: 410757864530
+|-heal|p2a: 410757864530|79/100 par
+|
+|upkeep
+|turn|42
+|
+|t:|1643584633
+|cant|p1a: Duosion|par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|31/100 par
+|
+|upkeep
+|turn|43
+|
+|t:|1643584634
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|81/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|36/100 par
+|
+|upkeep
+|turn|44
+|
+|t:|1643584637
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|86/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|41/100 par
+|
+|upkeep
+|turn|45
+|
+|t:|1643584641
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|91/100 par
+|cant|p2a: 410757864530|par
+|
+|upkeep
+|turn|46
+|
+|t:|1643584645
+|move|p1a: Duosion|Psyshock|p2a: 410757864530
+|-resisted|p2a: 410757864530
+|-damage|p2a: 410757864530|41/100 par
+|move|p2a: 410757864530|Recover|p2a: 410757864530
+|-heal|p2a: 410757864530|91/100 par
+|
+|upkeep
+|turn|47
+|
+|t:|1643584649
+|move|p1a: Duosion|Psyshock|p2a: 410757864530
+|-resisted|p2a: 410757864530
+|-damage|p2a: 410757864530|54/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|46/100 par
+|
+|upkeep
+|turn|48
+|
+|t:|1643584654
+|cant|p1a: Duosion|par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|1/100 par
+|
+|upkeep
+|turn|49
+|
+|t:|1643584656
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|51/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|4/100 par
+|
+|upkeep
+|turn|50
+|
+|t:|1643584658
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|54/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|8/100 par
+|
+|upkeep
+|turn|51
+|
+|t:|1643584661
+|cant|p1a: Duosion|par
+|move|p2a: 410757864530|Psyshock|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|0 fnt
+|faint|p1a: Duosion
+|
+|upkeep
+|c|☆Links|Pain
+|
+|t:|1643584669
+|switch|p1a: Carracosta|Carracosta, F|100/100
+|-damage|p1a: Carracosta|88/100|[from] Stealth Rock
+|-damage|p1a: Carracosta|76/100|[from] Spikes
+|turn|52
+|
+|t:|1643584672
+|move|p1a: Carracosta|Hydro Pump|p2a: 410757864530
+|-damage|p2a: 410757864530|40/100 par
+|cant|p2a: 410757864530|par
+|
+|upkeep
+|turn|53
+|
+|t:|1643584676
+|move|p1a: Carracosta|Hydro Pump|p2a: 410757864530
+|-damage|p2a: 410757864530|27/100 par
+|move|p2a: 410757864530|Psyshock|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|win|Lily
+|c|☆Lily|gg 

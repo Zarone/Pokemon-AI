@@ -1,0 +1,355 @@
+|j|☆Raymario Pokenic
+|j|☆Taranpoke
+|t:|1643066002
+|gametype|singles
+|player|p1|Raymario Pokenic|rosa|
+|player|p2|Taranpoke|ghetsis|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, F|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Gigalith, M|item
+|poke|p1|Altaria, F|item
+|poke|p1|Gorebyss, F|item
+|poke|p1|Garbodor, M|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raymario Pokenic)
+|j| TheCompetitivePug
+|j| VyoletRayn
+|j| mentalsoft
+|
+|t:|1643066008
+|start
+|switch|p1a: Gigalith|Gigalith, M, shiny|100/100
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|turn|1
+|j| cursedstar
+|c| VyoletRayn|With that much luck on your side you better win this one dude
+|
+|t:|1643066020
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Taranpoke|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|j| ibbysonlyfan
+|c|☆Raymario Pokenic|1st grand finals oh man
+|
+|t:|1643066027
+|move|p2a: Rotom|Volt Switch|p1a: Gigalith
+|-damage|p1a: Gigalith|60/100
+|c| ibbysonlyfan|goo Raymario Pokenic
+|
+|t:|1643066031
+|switch|p2a: Golurk|Golurk|100/100|[from]move: Volt Switch
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|move|p1a: Gigalith|Rock Blast|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|86/100
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|78/100
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|70/100
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|62/100
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|54/100
+|-hitcount|p2a: Golurk|5
+|
+|upkeep
+|turn|3
+|
+|t:|1643066044
+|move|p2a: Golurk|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: Raymario Pokenic|move: Stealth Rock
+|move|p1a: Gigalith|Earthquake|p2a: Golurk
+|-damage|p2a: Golurk|7/100
+|
+|upkeep
+|turn|4
+|
+|t:|1643066050
+|move|p2a: Golurk|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-crit|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|upkeep
+|
+|t:|1643066066
+|switch|p1a: Serperior|Serperior, F, shiny|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1643066071
+|move|p1a: Serperior|Giga Drain|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-heal|p1a: Serperior|91/100|[from] drain|[of] p2a: Golurk
+|faint|p2a: Golurk
+|
+|-heal|p1a: Serperior|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643066084
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1643066087
+|move|p2a: Kangaskhan|Fake Out|p1a: Serperior
+|-damage|p1a: Serperior|74/100
+|cant|p1a: Serperior|flinch
+|
+|-heal|p1a: Serperior|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643066093
+|move|p1a: Serperior|Glare|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|par
+|move|p2a: Kangaskhan|Double-Edge|p1a: Serperior
+|-damage|p1a: Serperior|14/100
+|-damage|p2a: Kangaskhan|66/100 par|[from] Recoil
+|
+|-heal|p1a: Serperior|20/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j|+Oathkeeper
+|
+|t:|1643066107
+|move|p1a: Serperior|Giga Drain|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|33/100 par
+|-heal|p1a: Serperior|36/100|[from] drain|[of] p2a: Kangaskhan
+|move|p2a: Kangaskhan|Double-Edge|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: Kangaskhan|21/100 par|[from] Recoil
+|
+|upkeep
+|
+|t:|1643066117
+|switch|p1a: Garbodor|Garbodor, M, shiny|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1643066123
+|move|p1a: Garbodor|Spikes|p2a: Kangaskhan
+|-sidestart|p2: Taranpoke|Spikes
+|move|p2a: Kangaskhan|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|43/100
+|
+|-heal|p1a: Garbodor|49/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1643066129
+|move|p1a: Garbodor|Spikes|p2a: Kangaskhan
+|-sidestart|p2: Taranpoke|Spikes
+|move|p2a: Kangaskhan|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|2/100
+|
+|-heal|p1a: Garbodor|8/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1643066137
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Kangaskhan|0 fnt|[from] ability: Aftermath|[of] p1a: Garbodor
+|faint|p2a: Kangaskhan
+|faint|p1a: Garbodor
+|
+|upkeep
+|j| Real Randy
+|
+|t:|1643066155
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|switch|p1a: Altaria|Altaria, F, shiny|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|-damage|p1a: Altaria|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1643066161
+|move|p2a: Rotom|Volt Switch|p1a: Altaria
+|-damage|p1a: Altaria|39/100
+|
+|t:|1643066165
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Alomomola|84/100|[from] Spikes
+|-damage|p2a: Alomomola|72/100|[from] Stealth Rock
+|move|p1a: Altaria|Dragon Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100
+|
+|-heal|p2a: Alomomola|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643066173
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Altaria|Dragon Pulse|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643066181
+|move|p1a: Altaria|Dragon Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|3/100
+|move|p2a: Alomomola|Mirror Coat|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|-heal|p2a: Alomomola|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643066191
+|switch|p1a: Gorebyss|Gorebyss, F, shiny|100/100
+|-damage|p1a: Gorebyss|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1643066196
+|move|p1a: Gorebyss|Shell Smash|p1a: Gorebyss
+|-unboost|p1a: Gorebyss|def|1
+|-unboost|p1a: Gorebyss|spd|1
+|-boost|p1a: Gorebyss|atk|2
+|-boost|p1a: Gorebyss|spa|2
+|-boost|p1a: Gorebyss|spe|2
+|-enditem|p1a: Gorebyss|White Herb
+|-clearnegativeboost|p1a: Gorebyss|[silent]
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|16/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643066211
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Gorebyss|Substitute|p1a: Gorebyss
+|-start|p1a: Gorebyss|Substitute
+|-damage|p1a: Gorebyss|63/100
+|
+|-heal|p2a: Alomomola|66/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c| VyoletRayn|!
+|c|☆Taranpoke|gg lmao
+|
+|t:|1643066227
+|move|p1a: Gorebyss|Signal Beam|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100
+|move|p2a: Alomomola|Waterfall|p1a: Gorebyss
+|-resisted|p1a: Gorebyss
+|-activate|p1a: Gorebyss|Substitute|[damage]
+|
+|-heal|p2a: Alomomola|36/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1643066239
+|switch|p2a: Rotom|Rotom-Fan|76/100
+|-damage|p2a: Rotom|51/100|[from] Stealth Rock
+|move|p1a: Gorebyss|Shell Smash|p1a: Gorebyss
+|-unboost|p1a: Gorebyss|def|1
+|-unboost|p1a: Gorebyss|spd|1
+|-boost|p1a: Gorebyss|atk|2
+|-boost|p1a: Gorebyss|spa|2
+|-boost|p1a: Gorebyss|spe|2
+|
+|upkeep
+|turn|19
+|c| VyoletRayn|!!
+|
+|t:|1643066251
+|move|p1a: Gorebyss|Surf|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1643066256
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-damage|p2a: Gardevoir|72/100|[from] Spikes
+|-ability|p2a: Gardevoir|Swift Swim|[from] ability: Trace|[of] p1a: Gorebyss
+|turn|20
+|
+|t:|1643066262
+|move|p1a: Gorebyss|Signal Beam|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|c|☆Taranpoke|gg
+|
+|t:|1643066268
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|-damage|p2a: Garbodor|71/100|[from] Spikes
+|turn|21
+|j|+AM
+|l| cursedstar
+|c|☆Raymario Pokenic|i can't believe this
+|
+|t:|1643066277
+|move|p1a: Gorebyss|Surf|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|c|☆Taranpoke|ive never played this gen either lmaooo
+|
+|t:|1643066290
+|switch|p2a: Alomomola|Alomomola, M|69/100
+|-damage|p2a: Alomomola|57/100|[from] Stealth Rock
+|-damage|p2a: Alomomola|40/100|[from] Spikes
+|turn|22
+|c|☆Raymario Pokenic|oh okay
+|
+|t:|1643066296
+|move|p1a: Gorebyss|Surf|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|win|Raymario Pokenic
+|n|☆Raymario Pokenic|raymariopokenic
+|n|☆Taranpoke|taranpoke
+|n| BB-8-NU|bb8nu
+|n| TheCompetitivePug|thecompetitivepug
+|n| VyoletRayn|vyoletrayn
+|n| mentalsoft|mentalsoft
+|n| ibbysonlyfan|ibbysonlyfan
+|n|+Oathkeeper|oathkeeper
+|n| Real Randy|realrandy
+|n|+AM|am

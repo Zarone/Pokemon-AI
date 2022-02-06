@@ -1,0 +1,524 @@
+|j|☆rexxonmobile
+|j|☆HisuianSamurott12
+|t:|1643953161
+|gametype|singles
+|player|p1|rexxonmobile|266|1247
+|player|p2|HisuianSamurott12|n|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, M|item
+|poke|p1|Espeon, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Jolteon, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Latios, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HisuianSamurott12)
+|
+|t:|1643953186
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1643953194
+|move|p1a: Infernape|U-turn|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|60/100
+|
+|t:|1643953201
+|switch|p1a: Espeon|Espeon, M|100/100|[from]move: U-turn
+|move|p2a: Politoed|Scald|p1a: Espeon
+|-damage|p1a: Espeon|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|75/100|[from] item: Leftovers
+|-heal|p2a: Politoed|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643953214
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|81/100|[from] item: Leftovers
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1643953224
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Espeon|Psychic|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|87/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643953234
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Jirachi|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643953244
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|move|p1a: Rotom|Will-O-Wisp|p2a: Breloom|[miss]
+|-miss|p1a: Rotom|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1643953257
+|switch|p1a: Espeon|Espeon, M|87/100
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|76/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|93/100|[from] item: Leftovers
+|-heal|p2a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1643953267
+|move|p1a: Espeon|Psychic|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Seed Bomb|p1a: Espeon
+|-damage|p1a: Espeon|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|30/100|[from] item: Leftovers
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1643953279
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Breloom|atk|1
+|switch|p2a: Jirachi|Jirachi|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1643953287
+|move|p1a: Landorus|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|77/100
+|
+|t:|1643953295
+|switch|p1a: Rotom|Rotom-Wash|91/100|[from]move: U-turn
+|move|p2a: Jirachi|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|
+|t:|1643953301
+|switch|p2a: Breloom|Breloom, F|100/100 tox|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1643953308
+|move|p1a: Rotom|Trick|p2a: Breloom
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Breloom
+|-item|p2a: Breloom|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Toxic Orb|[from] move: Trick
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|76/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|88/100 tox|[from] ability: Poison Heal
+|-status|p1a: Rotom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1643953320
+|move|p1a: Rotom|Trick||[still]
+|-fail|p1a: Rotom
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-fail|p2a: Breloom|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rotom|62/100 tox|[from] psn
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1643953331
+|move|p1a: Rotom|Volt Switch|p2a: Breloom
+|-resisted|p2a: Breloom
+|-activate|p2a: Breloom|Substitute|[damage]
+|
+|t:|1643953336
+|switch|p1a: Espeon|Espeon, M|30/100|[from]move: Volt Switch
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-fail|p2a: Breloom|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643953345
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1643953352
+|move|p2a: Latios|Surf|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-enditem|p1a: Infernape|Focus Sash
+|-damage|p1a: Infernape|1/100
+|move|p1a: Infernape|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|51/100
+|
+|t:|1643953359
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1643953365
+|move|p2a: Latios|Surf|p1a: Scizor
+|-damage|p1a: Scizor|47/100
+|move|p1a: Scizor|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643953375
+|switch|p2a: Jirachi|Jirachi|77/100
+|turn|16
+|
+|t:|1643953384
+|move|p2a: Jirachi|Stealth Rock|p1a: Scizor
+|-sidestart|p1: rexxonmobile|move: Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|47/100
+|
+|t:|1643953394
+|switch|p1a: Rotom|Rotom-Wash|62/100 tox|[from]move: U-turn
+|-damage|p1a: Rotom|49/100 tox|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|53/100|[from] item: Leftovers
+|-damage|p1a: Rotom|43/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1643953404
+|switch|p2a: Breloom|Breloom, F|100/100 tox
+|move|p1a: Rotom|Volt Switch|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|77/100 tox
+|
+|t:|1643953412
+|switch|p1a: Scizor|Scizor, M|53/100|[from]move: Volt Switch
+|-damage|p1a: Scizor|41/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|47/100|[from] item: Leftovers
+|-heal|p2a: Breloom|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1643953421
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Breloom|Focus Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1643953438
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643953445
+|-singleturn|p2a: Breloom|move: Focus Punch
+|move|p1a: Jolteon|Shadow Ball|p2a: Breloom
+|-damage|p2a: Breloom|61/100 tox
+|cant|p2a: Breloom|Focus Punch|Focus Punch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|j| iamqueenpawg
+|
+|t:|1643953467
+|switch|p2a: Tentacruel|Tentacruel, M, shiny|100/100
+|move|p1a: Jolteon|Hidden Power|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|98/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1643953482
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Jolteon|Shadow Ball|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1643953489
+|move|p1a: Jolteon|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|17/100
+|move|p2a: Tentacruel|Scald|p1a: Jolteon
+|-damage|p1a: Jolteon|43/100
+|-status|p1a: Jolteon|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|23/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|29/100|[from] item: Black Sludge
+|-damage|p1a: Jolteon|30/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1643953502
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Jolteon|Shadow Ball|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|35/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|42/100|[from] item: Black Sludge
+|-damage|p1a: Jolteon|18/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1643953513
+|switch|p2a: Breloom|Breloom, F|73/100 tox
+|move|p1a: Jolteon|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Jolteon|5/100 brn|[from] brn
+|upkeep
+|
+|t:|1643953527
+|switch|p2a: Tentacruel|Tentacruel, M, shiny|42/100
+|turn|25
+|
+|t:|1643953534
+|switch|p1a: Espeon|Espeon, M|36/100
+|-damage|p1a: Espeon|23/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Protect||[still]
+|-fail|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|48/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|54/100|[from] item: Black Sludge
+|-heal|p1a: Espeon|29/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1643953546
+|switch|p2a: Jirachi|Jirachi|53/100
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Espeon|35/100|[from] item: Leftovers
+|-heal|p2a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1643953556
+|move|p1a: Espeon|Heal Bell|p1a: Espeon
+|-activate|p1a: Espeon|move: Heal Bell
+|-curestatus|p1: Jolteon|brn|[msg]
+|-curestatus|p1: Rotom|tox|[msg]
+|move|p2a: Jirachi|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|t:|1643953565
+|switch|p2a: Politoed|Politoed, F, shiny|66/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643953574
+|switch|p1a: Rotom|Rotom-Wash|43/100
+|-damage|p1a: Rotom|31/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1643953579
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Rotom|Trick|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|78/100|[from] item: Leftovers
+|-status|p1a: Rotom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|29
+|
+|t:|1643953596
+|move|p1a: Rotom|Trick|p2a: Politoed
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Politoed
+|-item|p2a: Politoed|Toxic Orb|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Politoed|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|8/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|8/100 tox|[from] psn
+|-status|p2a: Politoed|tox|[from] item: Toxic Orb
+|upkeep
+|turn|30
+|
+|t:|1643953610
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|2/100 tox|[from] psn
+|-damage|p2a: Politoed|72/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1643953626
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Thundurus
+|-status|p2a: Thundurus|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|-damage|p2a: Thundurus|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1643953638
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|turn|32
+|
+|t:|1643953645
+|move|p1a: Landorus|Stone Edge|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643953657
+|switch|p2a: Tentacruel|Tentacruel, M, shiny|54/100
+|turn|33
+|
+|t:|1643953662
+|switch|p1a: Infernape|Infernape, M|1/100
+|-damage|p1a: Infernape|0 fnt|[from] Stealth Rock
+|faint|p1a: Infernape
+|move|p2a: Tentacruel|Substitute|p2a: Tentacruel
+|-start|p2a: Tentacruel|Substitute
+|-damage|p2a: Tentacruel|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|35/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643953673
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|75/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Tentacruel
+|turn|34
+|
+|t:|1643953679
+|move|p1a: Landorus|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-end|p2a: Tentacruel|Substitute
+|move|p2a: Tentacruel|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|47/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|53/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643953685
+|switch|p1a: Jolteon|Jolteon, M|5/100
+|-damage|p1a: Jolteon|0 fnt|[from] Stealth Rock
+|faint|p1a: Jolteon
+|
+|win|HisuianSamurott12
+|raw|rexxonmobile's rating: 1247 &rarr; <strong>1223</strong><br />(-24 for losing)
+|raw|HisuianSamurott12's rating: 1259 &rarr; <strong>1283</strong><br />(+24 for winning)

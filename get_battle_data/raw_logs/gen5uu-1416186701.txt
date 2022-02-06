@@ -1,0 +1,289 @@
+|j|☆faded love
+|j|☆blackkaiser
+|t:|1631572448
+|gametype|singles
+|player|p1|faded love|psychicf|
+|player|p2|blackkaiser|cynthia-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kingdra, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Krookodile, F|item
+|poke|p1|Mew|item
+|poke|p1|Durant, M|item
+|poke|p1|Darmanitan, F|item
+|poke|p2|Mew|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Suicune|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Shaymin|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|t:|1631572456
+|start
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|switch|p2a: Druddigon|Druddigon, M, shiny|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Druddigon|atk|1
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1631572459
+|move|p1a: Krookodile|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|move|p2a: Druddigon|Glare|p1a: Krookodile
+|-status|p1a: Krookodile|par
+|
+|upkeep
+|turn|2
+|
+|t:|1631572465
+|move|p2a: Druddigon|Stealth Rock|p1a: Krookodile
+|-sidestart|p1: faded love|move: Stealth Rock
+|move|p1a: Krookodile|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|35/100
+|
+|upkeep
+|turn|3
+|
+|t:|1631572470
+|switch|p2a: Shaymin|Shaymin, shiny|100/100
+|-damage|p2a: Shaymin|88/100|[from] Stealth Rock
+|move|p1a: Krookodile|Crunch|p2a: Shaymin
+|-damage|p2a: Shaymin|54/100
+|
+|-heal|p2a: Shaymin|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1631572476
+|switch|p1a: Durant|Durant, M|100/100
+|-damage|p1a: Durant|88/100|[from] Stealth Rock
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|35/100
+|
+|-heal|p2a: Shaymin|41/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1631572479
+|move|p1a: Durant|X-Scissor|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-crit|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|move|p2a: Shaymin|Leech Seed|p1a: Durant
+|-start|p1a: Durant|move: Leech Seed
+|
+|-heal|p2a: Shaymin|47/100|[from] item: Leftovers
+|-damage|p1a: Durant|76/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|55/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1631572485
+|switch|p2a: Druddigon|Druddigon, M, shiny|35/100
+|-damage|p2a: Druddigon|23/100|[from] Stealth Rock
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Durant|X-Scissor|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+|
+|t:|1631572494
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|turn|7
+|
+|t:|1631572496
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|move|p2a: Suicune|Protect||[still]
+|-fail|p2a: Suicune
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1631572499
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1631572502
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|move|p2a: Suicune|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|76/100
+|
+|upkeep
+|turn|10
+|
+|t:|1631572506
+|move|p1a: Kingdra|Outrage|p2a: Suicune
+|-damage|p2a: Suicune|14/100
+|move|p2a: Suicune|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|65/100
+|-status|p1a: Kingdra|brn
+|
+|-heal|p2a: Suicune|21/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1631572508
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Kingdra|Outrage|p2a: Suicune|[from]lockedmove
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|27/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|40/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1631572510
+|move|p1a: Kingdra|Rest|p1a: Kingdra
+|-status|p1a: Kingdra|slp|[from] move: Rest
+|-heal|p1a: Kingdra|100/100 slp|[silent]
+|-enditem|p1a: Kingdra|Chesto Berry|[eat]
+|-curestatus|p1a: Kingdra|slp|[msg]
+|move|p2a: Suicune|Scald|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-crit|p1a: Kingdra
+|-damage|p1a: Kingdra|78/100
+|
+|-heal|p2a: Suicune|33/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1631572514
+|move|p1a: Kingdra|Outrage|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|upkeep
+|
+|t:|1631572519
+|switch|p2a: Shaymin|Shaymin, shiny|55/100
+|-damage|p2a: Shaymin|43/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1631572521
+|move|p1a: Kingdra|Outrage|p2a: Shaymin|[from]lockedmove
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|upkeep
+|
+|t:|1631572523
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|-damage|p2a: Sharpedo|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1631572525
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Kingdra|Outrage|p2a: Sharpedo|[from]lockedmove
+|-activate|p2a: Sharpedo|move: Protect
+|-start|p1a: Kingdra|confusion|[fatigue]
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|16
+|
+|t:|1631572528
+|-activate|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Outrage|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|upkeep
+|
+|t:|1631572530
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1631572532
+|-activate|p1a: Kingdra|confusion
+|-damage|p1a: Kingdra|49/100|[from] confusion
+|move|p2a: Mew|Rock Polish|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1631572536
+|-end|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Outrage|p2a: Mew
+|-damage|p2a: Mew|1/100
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|
+|-heal|p2a: Mew|8/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1631572541
+|move|p1a: Kingdra|Outrage|p2a: Mew|[from]lockedmove
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-start|p1a: Kingdra|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1631572544
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|-damage|p2a: Nidoking|95/100|[from] Stealth Rock
+|turn|20
+|c|☆blackkaiser|gg
+|
+|t:|1631572546
+|-activate|p1a: Kingdra|confusion
+|move|p1a: Kingdra|Waterfall|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|win|faded love
+|n|☆faded love|fadedlove
+|n|☆blackkaiser|blackkaiser
+|c|☆faded love|g
+|l|☆blackkaiser
+|c|☆faded love|g
+|l|☆faded love
+|j|☆blackkaiser
+|player|p2|blackkaiser|cynthia-gen4
+|l|☆blackkaiser
+|player|p2|

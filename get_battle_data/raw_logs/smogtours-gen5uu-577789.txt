@@ -1,0 +1,267 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630879235
+|gametype|singles
+|player|p1|Accel|acetrainer-gen4dp|
+|player|p2|Mionda|dawn-gen4pt|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Nidoqueen, F|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Weavile, M|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Bronzong|item
+|poke|p2|Flygon, F|item
+|teampreview
+|c|☆Mionda|i wanted to do the same tbh
+|c|☆Accel|hf
+|c|☆Mionda|hf
+|inactive|Mionda has 270 seconds left.
+|inactive|Mionda has 240 seconds left.
+|inactive|Mionda has 210 seconds left.
+|inactive|Mionda has 180 seconds left.
+|inactive|Accel has 270 seconds left.
+|inactive|Mionda has 150 seconds left.
+|
+|t:|1630879395
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|inactive|Mionda has 210 seconds left.
+|inactive|Accel has 270 seconds left.
+|
+|t:|1630879429
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|move|p2a: Weavile|Night Slash|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|34/100
+|
+|upkeep
+|turn|2
+|inactive|Mionda has 210 seconds left.
+|
+|t:|1630879458
+|move|p2a: Weavile|Night Slash|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|upkeep
+|inactive|Accel has 270 seconds left.
+|
+|t:|1630879490
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|3
+|
+|t:|1630879497
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Mionda has 210 seconds left.
+|c|+avarice|how does she do it
+|
+|t:|1630879512
+|move|p2a: Weavile|Ice Shard|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1630879515
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|turn|5
+|inactive|Mionda has 210 seconds left.
+|inactive|Mionda has 180 seconds left.
+|inactive|Mionda has 150 seconds left.
+|
+|t:|1630879591
+|move|p2a: Weavile|Ice Shard|p1a: Kingdra
+|-damage|p1a: Kingdra|51/100
+|move|p1a: Kingdra|Surf|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Mionda has 150 seconds left.
+|inactive|Mionda has 120 seconds left.
+|inactive|Mionda has 90 seconds left.
+|
+|t:|1630879679
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|6
+|
+|t:|1630879682
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Kingdra|Surf|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1630879685
+|move|p1a: Kingdra|Surf|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Accel|sorry
+|c|+avarice|oh na
+|inactive|Mionda has 90 seconds left.
+|c|☆Mionda|ew
+|c|+jacob|thats not very poggers 
+|
+|t:|1630879712
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|8
+|
+|t:|1630879714
+|move|p2a: Mienshao|Fake Out|p1a: Kingdra
+|-damage|p1a: Kingdra|28/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|cant|p1a: Kingdra|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1630879717
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|atk|1
+|move|p1a: Kingdra|Surf|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|+watashi|poogers
+|inactive|Mionda has 90 seconds left.
+|
+|t:|1630879724
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|10
+|inactive|Mionda has 90 seconds left.
+|
+|t:|1630879745
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Mienshao|Fake Out|p1a: Azelf
+|-damage|p1a: Azelf|79/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1630879754
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|inactive|Mionda has 90 seconds left.
+|
+|t:|1630879776
+|move|p2a: Flygon|Outrage|p1a: Azelf
+|-damage|p1a: Azelf|19/100
+|move|p1a: Azelf|Explosion|p2a: Flygon
+|-damage|p2a: Flygon|7/100
+|faint|p1a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Accel has 270 seconds left.
+|inactive|Accel has 240 seconds left.
+|inactive|Accel has 210 seconds left.
+|
+|t:|1630879880
+|switch|p1a: Kabutops|Kabutops, M|100/100
+|turn|13
+|
+|t:|1630879883
+|move|p1a: Kabutops|Aqua Jet|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|-damage|p1a: Kabutops|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Mionda has 90 seconds left.
+|
+|t:|1630879888
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Kabutops|atk|1
+|turn|14
+|
+|t:|1630879898
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|move|p2a: Qwilfish|Thunder Wave|p1a: Kabutops
+|-status|p1a: Kabutops|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|inactive|Accel has 210 seconds left.
+|inactive|Mionda has 90 seconds left.
+|
+|t:|1630879918
+|move|p2a: Qwilfish|Waterfall|p1a: Kabutops
+|-damage|p1a: Kabutops|37/100 par
+|move|p1a: Kabutops|Stone Edge|p2a: Qwilfish
+|-crit|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|-damage|p1a: Kabutops|27/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Mionda has 90 seconds left.
+|c|+avarice|never lucky
+|
+|t:|1630879928
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|16
+|
+|t:|1630879931
+|move|p1a: Kabutops|Aqua Jet|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|-damage|p1a: Kabutops|17/100 par|[from] item: Life Orb
+|
+|win|Accel
+|c|☆Accel|sorry about the rng
+|c|☆Accel|gg

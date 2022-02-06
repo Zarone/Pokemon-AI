@@ -1,0 +1,331 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1638652479
+|gametype|singles
+|player|p1|CB AARON JUDGE|juggler-gen3|
+|player|p2|Nalorium|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cacturne, M|item
+|poke|p1|Rotom-Frost|item
+|poke|p1|Duosion, M|item
+|poke|p1|Golurk|item
+|poke|p1|Exeggutor, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|inactive|CB AARON JUDGE has 270 seconds left.
+|inactive|Nalorium has 270 seconds left.
+|c|☆CB AARON JUDGE|h f
+|c|+Arct!c|nalo es calvo
+|inactive|Nalorium has 240 seconds left.
+|c|+Shakurr|baldorium
+|c|☆Nalorium|=
+|inactive|CB AARON JUDGE has 240 seconds left.
+|c|+Leo|nalgorium
+|c|+Luck O the Irish|go nalo
+|inactive|Nalorium has 210 seconds left.
+|c|+rabia.|nalo is bald but I will root for him still
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1638652649
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F, shiny|100/100
+|turn|1
+|
+|t:|1638652659
+|move|p2a: Kangaskhan|Fake Out|p1a: Golurk
+|-damage|p1a: Golurk|78/100
+|cant|p1a: Golurk|flinch
+|
+|upkeep
+|turn|2
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1638652737
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|move|p1a: Golurk|Dynamic Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|-start|p2a: Rotom|confusion
+|
+|upkeep
+|turn|3
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1638652776
+|switch|p2a: Kangaskhan|Kangaskhan, F, shiny|100/100
+|move|p1a: Golurk|Stone Edge|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|59/100
+|
+|upkeep
+|turn|4
+|
+|t:|1638652785
+|move|p2a: Kangaskhan|Fake Out|p1a: Golurk
+|-damage|p1a: Golurk|57/100
+|cant|p1a: Golurk|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1638652790
+|move|p2a: Kangaskhan|Double-Edge|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Kangaskhan|39/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1638652802
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|turn|6
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1638652834
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Rotom|Blizzard|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|
+|-heal|p2a: Alomomola|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1638652843
+|switch|p1a: Duosion|Duosion, M|100/100
+|move|p2a: Alomomola|Waterfall|p1a: Duosion
+|-damage|p1a: Duosion|77/100
+|
+|-heal|p2a: Alomomola|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1638652847
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Duosion|Trick Room|p1a: Duosion
+|-fieldstart|move: Trick Room|[of] p1a: Duosion
+|
+|upkeep
+|turn|9
+|
+|t:|1638652863
+|move|p1a: Duosion|Psychic|p2a: Golurk
+|-damage|p2a: Golurk|49/100
+|move|p2a: Golurk|Shadow Punch|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|0 fnt
+|faint|p1a: Duosion
+|
+|upkeep
+|
+|t:|1638652872
+|switch|p1a: Exeggutor|Exeggutor, M|100/100
+|turn|10
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1638652894
+|move|p1a: Exeggutor|Psychic|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|-damage|p1a: Exeggutor|91/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1638652924
+|switch|p2a: Kangaskhan|Kangaskhan, F, shiny|39/100
+|turn|11
+|
+|t:|1638652932
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|75/100
+|
+|upkeep
+|turn|12
+|
+|t:|1638652940
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100
+|-damage|p1a: Kangaskhan|50/100|[from] Recoil
+|
+|-heal|p2a: Alomomola|52/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1638652944
+|switch|p1a: Cacturne|Cacturne, M|100/100
+|switch|p2a: Garbodor|Garbodor, M, shiny|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1638652952
+|move|p1a: Cacturne|Spikes|p2a: Garbodor
+|-sidestart|p2: Nalorium|Spikes
+|move|p2a: Garbodor|Gunk Shot|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-enditem|p1a: Cacturne|Focus Sash
+|-damage|p1a: Cacturne|1/100
+|
+|upkeep
+|turn|15
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1638652970
+|move|p1a: Cacturne|Dark Pulse|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|19/100
+|move|p2a: Garbodor|Toxic Spikes|p1a: Cacturne
+|-sidestart|p1: CB AARON JUDGE|move: Toxic Spikes
+|
+|upkeep
+|turn|16
+|
+|t:|1638652979
+|move|p1a: Cacturne|Dark Pulse|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1638652983
+|switch|p2a: Rotom|Rotom-Fan|78/100
+|turn|17
+|
+|t:|1638652986
+|move|p2a: Rotom|Volt Switch|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|t:|1638652994
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100|[from]move: Volt Switch
+|-damage|p2a: Gardevoir|88/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1638653004
+|switch|p1a: Kangaskhan|Kangaskhan, F|50/100
+|-ability|p2a: Gardevoir|Scrappy|[from] ability: Trace|[of] p1a: Kangaskhan
+|-status|p1a: Kangaskhan|psn
+|turn|18
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1638653009
+|switch|p2a: Alomomola|Alomomola, M|86/100
+|-damage|p2a: Alomomola|73/100|[from] Spikes
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|18/100
+|-damage|p1a: Kangaskhan|24/100 psn|[from] Recoil
+|
+|-heal|p2a: Alomomola|24/100|[from] item: Leftovers
+|-damage|p1a: Kangaskhan|11/100 psn|[from] psn
+|upkeep
+|turn|19
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1638653028
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Kangaskhan|0 fnt|[from] Recoil
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1638653051
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|88/100
+|-damage|p2a: Gardevoir|76/100|[from] Spikes
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Rotom
+|turn|20
+|
+|t:|1638653062
+|move|p1a: Rotom|Blizzard|p2a: Gardevoir
+|-damage|p2a: Gardevoir|23/100
+|move|p2a: Gardevoir|Focus Blast|p1a: Rotom|[miss]
+|-miss|p2a: Gardevoir|p1a: Rotom
+|
+|upkeep
+|turn|21
+|c|☆Nalorium|-
+|
+|t:|1638653072
+|move|p1a: Rotom|Blizzard|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|t:|1638653076
+|switch|p2a: Kangaskhan|Kangaskhan, F, shiny|39/100
+|-damage|p2a: Kangaskhan|26/100|[from] Spikes
+|turn|22
+|
+|t:|1638653084
+|switch|p1a: Exeggutor|Exeggutor, M|91/100
+|-status|p1a: Exeggutor|psn
+|move|p2a: Kangaskhan|Fake Out|p1a: Exeggutor
+|-damage|p1a: Exeggutor|69/100 psn
+|
+|-damage|p1a: Exeggutor|56/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1638653096
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|14/100 psn
+|move|p1a: Exeggutor|Psychic|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|-damage|p1a: Exeggutor|4/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: Exeggutor|0 fnt|[from] psn
+|faint|p1a: Exeggutor
+|upkeep
+|
+|t:|1638653099
+|switch|p2a: Rotom|Rotom-Fan|78/100
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|turn|24
+|
+|t:|1638653103
+|move|p1a: Rotom|Blizzard|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|CB AARON JUDGE
+|c|☆CB AARON JUDGE|gg
+|c|☆Nalorium|gg
+|player|p1|CB AARON JUDGE|juggler-gen3
+|player|p1|
+|player|p1|CB AARON JUDGE|juggler-gen3
+|player|p1|

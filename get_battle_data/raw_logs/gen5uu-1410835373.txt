@@ -1,0 +1,459 @@
+|j|☆blackkaiser
+|j|☆mirfee
+|t:|1630869850
+|gametype|singles
+|player|p1|blackkaiser|nate|
+|player|p2|mirfee|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Suicune|item
+|poke|p1|Druddigon, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Heracross, M|item
+|poke|p2|Victini|item
+|poke|p2|Raikou|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|
+|t:|1630869868
+|start
+|switch|p1a: Druddigon|Druddigon, M, shiny|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1630869875
+|move|p1a: Druddigon|Glare|p2a: Rhyperior
+|-status|p2a: Rhyperior|par
+|move|p2a: Rhyperior|Stealth Rock|p1a: Druddigon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1630869879
+|move|p1a: Druddigon|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: mirfee|move: Stealth Rock
+|move|p2a: Rhyperior|Dragon Tail|p1a: Druddigon|[miss]
+|-miss|p2a: Rhyperior|p1a: Druddigon
+|
+|upkeep
+|turn|3
+|
+|t:|1630869894
+|move|p1a: Druddigon|Roar|p2a: Rhyperior
+|drag|p2a: Roserade|Roserade, M|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1630869899
+|move|p2a: Roserade|Spikes|p1a: Druddigon
+|-sidestart|p1: blackkaiser|Spikes
+|move|p1a: Druddigon|Roar|p2a: Roserade
+|drag|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1630869913
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Druddigon|Roar|p2a: Slowbro
+|drag|p2a: Roserade|Roserade, M|94/100
+|-damage|p2a: Roserade|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1630869916
+|move|p2a: Roserade|Spikes|p1a: Druddigon
+|-sidestart|p1: blackkaiser|Spikes
+|move|p1a: Druddigon|Dragon Claw|p2a: Roserade
+|-damage|p2a: Roserade|34/100
+|
+|-heal|p2a: Roserade|40/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1630869939
+|move|p2a: Roserade|Giga Drain|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|85/100
+|-heal|p2a: Roserade|49/100|[from] drain|[of] p1a: Druddigon
+|move|p1a: Druddigon|Dragon Claw|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1630869950
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|8
+|
+|t:|1630869961
+|move|p2a: Raikou|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|38/100
+|move|p1a: Druddigon|Glare|p2a: Raikou
+|-status|p2a: Raikou|par
+|
+|-heal|p2a: Raikou|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1630869966
+|move|p1a: Druddigon|Dragon Claw|p2a: Raikou
+|-damage|p2a: Raikou|48/100 par
+|move|p2a: Raikou|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-heal|p2a: Raikou|55/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1630869984
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|-damage|p1a: Nidoking|84/100|[from] Spikes
+|-damage|p1a: Nidoking|78/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1630869987
+|move|p1a: Nidoking|Earth Power|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+|
+|t:|1630869993
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|turn|11
+|inactive|blackkaiser has 120 seconds left.
+|inactive|blackkaiser has 90 seconds left.
+|
+|t:|1630870067
+|switch|p2a: Rhyperior|Rhyperior, M|100/100 par
+|-damage|p2a: Rhyperior|94/100 par|[from] Stealth Rock
+|move|p1a: Nidoking|Thunderbolt|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|-heal|p2a: Rhyperior|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1630870076
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|move|p2a: Rhyperior|Dragon Tail|p1a: Tornadus
+|-damage|p1a: Tornadus|44/100
+|drag|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|-damage|p1a: Cobalion|81/100|[from] Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1630870088
+|move|p1a: Cobalion|Close Combat|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|55/100 par
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|move|p2a: Rhyperior|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-heal|p2a: Rhyperior|61/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1630870096
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|84/100|[from] Spikes
+|-damage|p1a: Suicune|72/100|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|turn|14
+|
+|t:|1630870104
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|47/100
+|
+|-heal|p1a: Suicune|53/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1630870128
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-heal|p1a: Suicune|59/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1630870135
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|65/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1630870139
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|
+|-heal|p1a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1630870141
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|46/100
+|move|p2a: Slowbro|Thunder Wave||[still]
+|-fail|p2a: Slowbro
+|
+|-heal|p1a: Suicune|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1630870144
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|59/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1630870148
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-heal|p1a: Suicune|65/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1630870152
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-crit|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|
+|-heal|p1a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1630870160
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|46/100
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-activate|p1a: Suicune|Substitute|[damage]
+|
+|-heal|p1a: Suicune|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|mirfee has 120 seconds left.
+|l|☆mirfee
+|inactive|mirfee disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆mirfee
+|inactive|mirfee reconnected and has 110 seconds left.
+|player|p2|mirfee|266
+|
+|t:|1630870218
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Slowbro|Psyshock|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|blackkaiser has 120 seconds left.
+|
+|t:|1630870262
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|65/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1630870268
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Heracross|Megahorn|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1630870276
+|move|p1a: Suicune|Scald|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|-heal|p1a: Suicune|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630870279
+|switch|p2a: Rhyperior|Rhyperior, M|61/100 par
+|-damage|p2a: Rhyperior|55/100 par|[from] Stealth Rock
+|turn|27
+|
+|t:|1630870293
+|move|p1a: Suicune|Scald|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Suicune|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630870295
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1630870299
+|move|p1a: Suicune|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|41/100
+|-status|p2a: Slowbro|brn
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|91/100 brn
+|
+|-heal|p1a: Suicune|89/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|97/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|84/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1630870303
+|move|p1a: Suicune|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|38/100 brn
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|88/100 brn
+|
+|-heal|p1a: Suicune|96/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|81/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|blackkaiser has 120 seconds left.
+|
+|t:|1630870334
+|move|p1a: Suicune|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|39/100 brn
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|89/100 brn
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|83/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1630870341
+|move|p1a: Suicune|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|37/100 brn
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|87/100 brn
+|
+|-heal|p2a: Slowbro|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|80/100 brn|[from] brn
+|upkeep
+|turn|32
+|j| Romeo3
+|inactive|blackkaiser has 120 seconds left.
+|l| Romeo3
+|
+|t:|1630870371
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100 brn
+|
+|-damage|p2a: Slowbro|88/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1630870377
+|move|p1a: Suicune|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1630870382
+|switch|p2a: Victini|Victini|76/100
+|-damage|p2a: Victini|51/100|[from] Stealth Rock
+|turn|34
+|-message|mirfee forfeited.
+|
+|win|blackkaiser
+|n|☆blackkaiser|blackkaiser
+|n|☆mirfee|mirfee
+|l|☆mirfee

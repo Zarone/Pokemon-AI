@@ -1,0 +1,663 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640565687
+|gametype|singles
+|player|p1|brewfasa|jasmine|
+|player|p2|mentalsoft|lance-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Pawniard, L5, M|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Lileep, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Natu, L5, M|item
+|poke|p2|Snover, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Ferroseed, L5, F|item
+|teampreview
+|c|☆brewfasa|gl
+|c|☆mentalsoft|u2
+|inactive|brewfasa has 270 seconds left.
+|inactive|mentalsoft has 270 seconds left.
+|
+|t:|1640565731
+|start
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|switch|p2a: Staryu|Staryu, L5|100/100
+|turn|1
+|inactive|brewfasa has 270 seconds left.
+|inactive|mentalsoft has 270 seconds left.
+|
+|t:|1640565767
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|inactive|mentalsoft has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1640565778
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Ferroseed|Bullet Seed|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|96/100
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|92/100
+|-hitcount|p1a: Natu|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|87/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|brewfasa has 270 seconds left.
+|inactive|mentalsoft has 270 seconds left.
+|
+|t:|1640565802
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Natu|Thunder Wave|p2a: Staryu
+|-status|p2a: Staryu|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|83/100|[from] Sandstorm
+|-damage|p2a: Staryu|96/100 par|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1640565830
+|move|p1a: Natu|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|53/100 par
+|cant|p2a: Staryu|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|79/100|[from] Sandstorm
+|-damage|p2a: Staryu|48/100 par|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|mentalsoft has 240 seconds left.
+|
+|t:|1640565852
+|-curestatus|p2a: Staryu|par|[from] ability: Natural Cure
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Natu|Psychic|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|83/100|[from] Sandstorm
+|-damage|p1a: Natu|74/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|mentalsoft has 240 seconds left.
+|
+|t:|1640565878
+|move|p1a: Natu|U-turn|p2a: Natu
+|-damage|p2a: Natu|70/100
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1640565893
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100|[from]move: U-turn
+|move|p2a: Natu|Heat Wave|p1a: Hippopotas
+|-damage|p1a: Hippopotas|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|66/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1640565905
+|switch|p2a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Hippopotas|Crunch|p2a: Snover
+|-damage|p2a: Snover|66/100
+|-unboost|p2a: Snover|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hippopotas|72/100|[from] Hail
+|upkeep
+|turn|8
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1640565936
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|move|p2a: Snover|Blizzard|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|84/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|80/100|[from] Hail
+|upkeep
+|turn|9
+|inactive|mentalsoft has 210 seconds left.
+|inactive|brewfasa has 210 seconds left.
+|inactive|mentalsoft has 180 seconds left.
+|
+|t:|1640565994
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|move|p1a: Frillish|Scald|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|87/100
+|-status|p2a: Ferroseed|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|75/100|[from] Hail
+|-damage|p2a: Ferroseed|83/100 brn|[from] Hail
+|-damage|p2a: Ferroseed|74/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|mentalsoft has 180 seconds left.
+|
+|t:|1640566006
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|move|p1a: Frillish|Taunt|p2a: Magnemite
+|-start|p2a: Magnemite|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|71/100|[from] Hail
+|-damage|p2a: Magnemite|96/100|[from] Hail
+|upkeep
+|turn|11
+|inactive|mentalsoft has 180 seconds left.
+|
+|t:|1640566026
+|switch|p1a: Hippopotas|Hippopotas, L5, F|72/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Magnemite|Flash Cannon|p1a: Hippopotas
+|-damage|p1a: Hippopotas|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|inactive|mentalsoft has 180 seconds left.
+|
+|t:|1640566045
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|move|p2a: Magnemite|Flash Cannon|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p2a: Magnemite|move: Taunt
+|upkeep
+|turn|13
+|inactive|mentalsoft has 180 seconds left.
+|
+|t:|1640566076
+|move|p1a: Pawniard|Thunder Wave|p2a: Magnemite
+|-status|p2a: Magnemite|par
+|cant|p2a: Magnemite|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|inactive|brewfasa has 180 seconds left.
+|inactive|mentalsoft has 150 seconds left.
+|
+|t:|1640566108
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Pawniard|Sucker Punch||[still]
+|-fail|p1a: Pawniard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|15
+|inactive|mentalsoft has 150 seconds left.
+|
+|t:|1640566121
+|switch|p1a: Frillish|Frillish, L5, F|71/100
+|move|p2a: Mienfoo|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|63/100
+|-start|p2a: Mienfoo|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Frillish
+|-enditem|p1a: Frillish|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|92/100|[from] Sandstorm
+|-damage|p1a: Frillish|59/100|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|mentalsoft has 150 seconds left.
+|
+|t:|1640566132
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|46/100
+|inactive|mentalsoft has 150 seconds left.
+|
+|t:|1640566147
+|switch|p2a: Snover|Snover, L5, F|66/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|96/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|92/100|[from] Hail
+|upkeep
+|turn|17
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1640566181
+|switch|p1a: Pawniard|Pawniard, L5, M|72/100
+|move|p2a: Snover|Giga Drain|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|58/100
+|-heal|p2a: Snover|74/100|[from] drain|[of] p1a: Pawniard
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|53/100|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1640566200
+|-activate|p2a: Snover|move: Pursuit
+|move|p1a: Pawniard|Pursuit|p2a: Snover|[from]Pursuit
+|-damage|p2a: Snover|18/100
+|switch|p2a: Magnemite|Magnemite, L5|96/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|48/100|[from] Hail
+|-damage|p2a: Magnemite|91/100 par|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1640566218
+|move|p1a: Pawniard|Iron Head|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|81/100 par
+|move|p2a: Magnemite|Magnet Rise|p2a: Magnemite
+|-start|p2a: Magnemite|Magnet Rise
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|43/100|[from] Hail
+|-damage|p2a: Magnemite|77/100 par|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1640566227
+|move|p1a: Pawniard|Iron Head|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|67/100 par
+|cant|p2a: Magnemite|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|39/100|[from] Hail
+|-damage|p2a: Magnemite|62/100 par|[from] Hail
+|upkeep
+|turn|21
+|
+|t:|1640566234
+|move|p1a: Pawniard|Iron Head|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|53/100 par
+|cant|p2a: Magnemite|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|34/100|[from] Hail
+|-damage|p2a: Magnemite|48/100 par|[from] Hail
+|upkeep
+|turn|22
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1640566245
+|move|p1a: Pawniard|Iron Head|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|39/100 par
+|cant|p2a: Magnemite|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|29/100|[from] Hail
+|-damage|p2a: Magnemite|34/100 par|[from] Hail
+|upkeep
+|turn|23
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1640566252
+|move|p1a: Pawniard|Iron Head|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|24/100 par
+|cant|p2a: Magnemite|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|24/100|[from] Hail
+|-damage|p2a: Magnemite|20/100 par|[from] Hail
+|-end|p2a: Magnemite|Magnet Rise
+|upkeep
+|turn|24
+|
+|t:|1640566260
+|move|p1a: Pawniard|Sucker Punch|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|20/100|[from] Hail
+|upkeep
+|inactive|mentalsoft has 150 seconds left.
+|
+|t:|1640566296
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|25
+|
+|t:|1640566313
+|move|p1a: Pawniard|Thunder Wave|p2a: Mienfoo
+|-status|p2a: Mienfoo|par
+|move|p2a: Mienfoo|U-turn|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|t:|1640566334
+|switch|p2a: Staryu|Staryu, L5|48/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|43/100|[from] Hail
+|upkeep
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1640566357
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|turn|26
+|inactive|brewfasa has 180 seconds left.
+|inactive|mentalsoft has 120 seconds left.
+|
+|t:|1640566386
+|move|p1a: Drilbur|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|96/100|[from] Hail
+|upkeep
+|inactive|mentalsoft has 120 seconds left.
+|
+|t:|1640566402
+|switch|p2a: Natu|Natu, L5, M|66/100
+|turn|27
+|
+|t:|1640566417
+|switch|p1a: Hippopotas|Hippopotas, L5, F|20/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Natu|Psychic|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|61/100|[from] Sandstorm
+|upkeep
+|inactive|brewfasa has 150 seconds left.
+|
+|t:|1640566457
+|switch|p1a: Lileep|Lileep, L5, M|100/100
+|turn|28
+|inactive|mentalsoft has 120 seconds left.
+|
+|t:|1640566478
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Lileep|Swords Dance|p1a: Lileep
+|-boost|p1a: Lileep|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|29
+|inactive|mentalsoft has 120 seconds left.
+|inactive|mentalsoft has 90 seconds left.
+|inactive|mentalsoft has 60 seconds left.
+|
+|t:|1640566548
+|move|p2a: Natu|Heat Wave|p1a: Lileep
+|-damage|p1a: Lileep|84/100
+|move|p1a: Lileep|Bullet Seed|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|87/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|79/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|70/100
+|-hitcount|p2a: Natu|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|66/100|[from] Sandstorm
+|upkeep
+|turn|30
+|inactive|mentalsoft has 60 seconds left.
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1640566585
+|move|p2a: Natu|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|60/100
+|inactive|mentalsoft has 30 seconds left.
+|inactive|mentalsoft has 20 seconds left.
+|
+|t:|1640566607
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 par|[from]move: U-turn
+|move|p1a: Lileep|Bullet Seed|p2a: Mienfoo
+|-damage|p2a: Mienfoo|84/100 par
+|-damage|p2a: Mienfoo|67/100 par
+|-damage|p2a: Mienfoo|50/100 par
+|-hitcount|p2a: Mienfoo|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|46/100 par|[from] Sandstorm
+|upkeep
+|turn|31
+|inactive|mentalsoft has 30 seconds left this turn.
+|inactive|brewfasa has 120 seconds left.
+|inactive|brewfasa has 90 seconds left.
+|
+|t:|1640566659
+|cant|p2a: Mienfoo|par
+|move|p1a: Lileep|Bullet Seed|p2a: Mienfoo
+|-damage|p2a: Mienfoo|30/100 par
+|-damage|p2a: Mienfoo|13/100 par
+|-hitcount|p2a: Mienfoo|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|9/100 par|[from] Sandstorm
+|upkeep
+|turn|32
+|inactive|brewfasa has 90 seconds left.
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1640566672
+|switch|p2a: Ferroseed|Ferroseed, L5, F|74/100 brn
+|move|p1a: Lileep|Bullet Seed|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|70/100 brn
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|66/100 brn
+|-resisted|p2a: Ferroseed
+|-crit|p2a: Ferroseed
+|-damage|p2a: Ferroseed|61/100 brn
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|57/100 brn
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|53/100 brn
+|-hitcount|p2a: Ferroseed|5
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ferroseed|44/100 brn|[from] brn
+|upkeep
+|turn|33
+|inactive|brewfasa has 90 seconds left.
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1640566686
+|move|p1a: Lileep|Substitute|p1a: Lileep
+|-start|p1a: Lileep|Substitute
+|-damage|p1a: Lileep|36/100
+|move|p2a: Ferroseed|Bullet Seed|p1a: Lileep
+|-activate|p1a: Lileep|Substitute|[damage]
+|-activate|p1a: Lileep|Substitute|[damage]
+|-activate|p1a: Lileep|Substitute|[damage]
+|-hitcount|p1a: Lileep|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ferroseed|35/100 brn|[from] brn
+|upkeep
+|turn|34
+|inactive|brewfasa has 90 seconds left.
+|
+|t:|1640566695
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|88/100
+|move|p2a: Ferroseed|Bullet Seed|p1a: Lileep
+|-activate|p1a: Lileep|Substitute|[damage]
+|-activate|p1a: Lileep|Substitute|[damage]
+|-end|p1a: Lileep|Substitute
+|-hitcount|p1a: Lileep|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ferroseed|27/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1640566705
+|switch|p2a: Snover|Snover, L5, F|18/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Lileep|Substitute|p1a: Lileep
+|-start|p1a: Lileep|Substitute
+|-damage|p1a: Lileep|64/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|60/100|[from] Hail
+|upkeep
+|turn|36
+|
+|t:|1640566715
+|move|p2a: Snover|Giga Drain|p1a: Lileep
+|-end|p1a: Lileep|Substitute
+|-heal|p2a: Snover|31/100|[from] drain|[of] p1a: Lileep
+|move|p1a: Lileep|Bullet Seed|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|18/100
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|5/100
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|-hitcount|p2: Snover|3
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|57/100|[from] Hail
+|upkeep
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1640566739
+|switch|p2a: Natu|Natu, L5, M|66/100
+|turn|37
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1640566749
+|move|p2a: Natu|Psychic|p1a: Lileep
+|-damage|p1a: Lileep|29/100
+|move|p1a: Lileep|Bullet Seed|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|57/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|48/100
+|-resisted|p2a: Natu
+|-crit|p2a: Natu
+|-damage|p2a: Natu|27/100
+|-hitcount|p2a: Natu|3
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|22/100|[from] Hail
+|-damage|p1a: Lileep|24/100|[from] Hail
+|upkeep
+|turn|38
+|inactive|brewfasa has 120 seconds left.
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1640566774
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|74/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Lileep|Bullet Seed|p2a: Natu
+|-damage|p2a: Natu|48/100
+|-damage|p2a: Natu|31/100
+|-damage|p2a: Natu|14/100
+|-crit|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|-hitcount|p2: Natu|4
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|20/100|[from] Hail
+|upkeep
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1640566783
+|switch|p2a: Mienfoo|Mienfoo, L5, F|42/100 par
+|turn|39
+|inactive|mentalsoft has 30 seconds left.
+|
+|t:|1640566796
+|move|p1a: Lileep|Bullet Seed|p2a: Mienfoo
+|-damage|p2a: Mienfoo|25/100 par
+|-damage|p2a: Mienfoo|9/100 par
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|-hitcount|p2: Mienfoo|3
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|16/100|[from] Hail
+|upkeep
+|inactive|mentalsoft has 30 seconds left this turn.
+|
+|t:|1640566799
+|switch|p2a: Ferroseed|Ferroseed, L5, F|27/100 brn
+|turn|40
+|
+|t:|1640566806
+|move|p1a: Lileep|Bullet Seed|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|22/100 brn
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|18/100 brn
+|-hitcount|p2a: Ferroseed|2
+|move|p2a: Ferroseed|Bullet Seed|p1a: Lileep
+|-damage|p1a: Lileep|8/100
+|-damage|p1a: Lileep|4/100
+|-hitcount|p1a: Lileep|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|0 fnt|[from] Hail
+|-damage|p2a: Ferroseed|14/100 brn|[from] Hail
+|faint|p1a: Lileep
+|-damage|p2a: Ferroseed|5/100 brn|[from] brn
+|upkeep
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1640566819
+|switch|p1a: Drilbur|Drilbur, L5, M|96/100
+|turn|41
+|
+|t:|1640566823
+|move|p1a: Drilbur|Earthquake|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|win|brewfasa
+|c|☆mentalsoft|gg
+|c|☆brewfasa|gg

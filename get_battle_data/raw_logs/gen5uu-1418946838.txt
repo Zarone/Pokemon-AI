@@ -1,0 +1,285 @@
+|j|☆thedonjara
+|j|☆blackkaiser
+|t:|1631925429
+|gametype|singles
+|player|p1|thedonjara|bruno-gen2|
+|player|p2|blackkaiser|lucas-gen4pt|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Druddigon, F|item
+|poke|p1|Heracross, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Suicune|item
+|poke|p2|Roserade, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Mew|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Hitmontop, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thedonjara)
+|c|☆blackkaiser|hf
+|c|☆thedonjara|u2
+|inactive|thedonjara has 120 seconds left.
+|
+|t:|1631925460
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Druddigon|Druddigon, M, shiny|100/100
+|-ability|p1a: Zapdos|Pressure
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1631925483
+|move|p1a: Zapdos|Thunderbolt|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|60/100
+|-damage|p1a: Zapdos|91/100|[from] item: Life Orb
+|move|p2a: Druddigon|Glare|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|upkeep
+|turn|2
+|
+|t:|1631925490
+|move|p2a: Druddigon|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: thedonjara|move: Stealth Rock
+|move|p1a: Zapdos|Thunderbolt|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|19/100
+|-damage|p1a: Zapdos|81/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1631925498
+|move|p2a: Druddigon|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100 par
+|cant|p1a: Zapdos|par
+|
+|upkeep
+|turn|4
+|
+|t:|1631925504
+|move|p2a: Druddigon|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1631925527
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|88/100|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|turn|5
+|
+|t:|1631925530
+|move|p1a: Suicune|Ice Beam|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631925534
+|switch|p2a: Roserade|Roserade, M|100/100
+|turn|6
+|
+|t:|1631925546
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|move|p2a: Roserade|Spikes|p1a: Golurk
+|-sidestart|p1: thedonjara|Spikes
+|
+|-heal|p1a: Golurk|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1631925552
+|move|p2a: Roserade|Toxic Spikes|p1a: Golurk
+|-sidestart|p1: thedonjara|move: Toxic Spikes
+|move|p1a: Golurk|Ice Punch|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1631925556
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|turn|8
+|
+|t:|1631925563
+|move|p2a: Sharpedo|Waterfall|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Sharpedo|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1631925572
+|switch|p1a: Suicune|Suicune|94/100
+|-status|p1a: Suicune|psn
+|-damage|p1a: Suicune|82/100 psn|[from] Stealth Rock
+|-damage|p1a: Suicune|70/100 psn|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|turn|9
+|
+|t:|1631925575
+|move|p2a: Sharpedo|Crunch|p1a: Suicune
+|-damage|p1a: Suicune|21/100 psn
+|-damage|p2a: Sharpedo|81/100|[from] item: Life Orb
+|move|p1a: Suicune|Hidden Power|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-heal|p1a: Suicune|27/100 psn|[from] item: Leftovers
+|-damage|p1a: Suicune|15/100 psn|[from] psn
+|upkeep
+|
+|t:|1631925587
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|10
+|
+|t:|1631925591
+|move|p2a: Mismagius|Shadow Ball|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1631925596
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|88/100|[from] Spikes
+|-damage|p1a: Bisharp|82/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1631925599
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Bisharp
+|-status|p1a: Bisharp|brn
+|move|p1a: Bisharp|Pursuit|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|52/100
+|-damage|p1a: Bisharp|72/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Mismagius|59/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|60/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1631925602
+|-activate|p2a: Mismagius|move: Pursuit
+|move|p1a: Bisharp|Pursuit|p2a: Mismagius|[from]Pursuit
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|-damage|p1a: Bisharp|50/100 brn|[from] item: Life Orb
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-damage|p1a: Bisharp|38/100 brn|[from] brn
+|upkeep
+|
+|t:|1631925604
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|turn|13
+|
+|t:|1631925607
+|move|p1a: Bisharp|Iron Head|p2a: Hitmontop
+|-damage|p2a: Hitmontop|54/100
+|-damage|p1a: Bisharp|28/100 brn|[from] item: Life Orb
+|move|p2a: Hitmontop|Close Combat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Hitmontop|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631925616
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|-status|p1a: Druddigon|psn
+|-damage|p1a: Druddigon|88/100 psn|[from] Stealth Rock
+|-damage|p1a: Druddigon|75/100 psn|[from] Spikes
+|turn|14
+|
+|t:|1631925619
+|move|p2a: Hitmontop|Close Combat|p1a: Druddigon
+|-damage|p1a: Druddigon|32/100 psn
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|-damage|p2a: Hitmontop|48/100|[from] ability: Rough Skin|[of] p1a: Druddigon
+|move|p1a: Druddigon|Outrage|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-damage|p1a: Druddigon|19/100 psn|[from] psn
+|upkeep
+|
+|t:|1631925621
+|switch|p2a: Mew|Mew|100/100
+|turn|15
+|
+|t:|1631925624
+|move|p2a: Mew|Rock Polish|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|move|p1a: Druddigon|Outrage|p2a: Mew|[from]lockedmove
+|-damage|p2a: Mew|22/100
+|
+|-heal|p2a: Mew|28/100|[from] item: Leftovers
+|-damage|p1a: Druddigon|7/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1631925629
+|move|p2a: Mew|Psychic|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-heal|p2a: Mew|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631925631
+|switch|p1a: Heracross|Heracross, F|100/100
+|-status|p1a: Heracross|psn
+|-damage|p1a: Heracross|88/100 psn|[from] Stealth Rock
+|-damage|p1a: Heracross|76/100 psn|[from] Spikes
+|turn|17
+|c|☆blackkaiser|gg
+|
+|t:|1631925636
+|move|p2a: Mew|Psychic|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|win|blackkaiser
+|n|☆thedonjara|thedonjara
+|n|☆blackkaiser|blackkaiser

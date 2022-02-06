@@ -1,0 +1,231 @@
+|j|☆gyter ph0
+|j|‽toxya
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1624718846
+|gametype|singles
+|player|p1|gyter ph0|aaron|
+|player|p2|toxya|karen|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dwebble, L5, M|item
+|poke|p1|Abra, L5, F|item
+|poke|p1|Carvanha, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Magnemite, L5|item
+|poke|p2|Riolu, L5, F|item
+|poke|p2|Dwebble, L5, M|item
+|poke|p2|Clamperl, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Carvanha, L5, M|item
+|poke|p2|Archen, L5, M|item
+|teampreview
+|j|*Lady Monita
+|j| Luiw
+|c| Luiw|glhf
+|c|☆gyter ph0|hf
+|j| Timpasstrategique
+|
+|t:|1624718872
+|start
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|switch|p2a: Dwebble|Dwebble, L5, M|100/100
+|turn|1
+|
+|t:|1624718878
+|move|p1a: Magnemite|Volt Switch|p2a: Dwebble
+|-damage|p2a: Dwebble|34/100
+|j|^P.S.Ash
+|
+|t:|1624718884
+|switch|p1a: Dwebble|Dwebble, L5, M|100/100|[from]move: Volt Switch
+|move|p2a: Dwebble|Stealth Rock|p1a: Dwebble
+|-sidestart|p1: gyter ph0|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|l|^P.S.Ash
+|
+|t:|1624718889
+|move|p2a: Dwebble|Spikes|p1a: Dwebble
+|-sidestart|p1: gyter ph0|Spikes
+|move|p1a: Dwebble|Stealth Rock|p2a: Dwebble
+|-sidestart|p2: toxya|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1624718894
+|move|p2a: Dwebble|Spikes|p1a: Dwebble
+|-sidestart|p1: gyter ph0|Spikes
+|move|p1a: Dwebble|Rock Blast|p2a: Dwebble
+|-supereffective|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|-hitcount|p2: Dwebble|1
+|
+|upkeep
+|
+|t:|1624718898
+|switch|p2a: Riolu|Riolu, L5, F|100/100
+|-damage|p2a: Riolu|96/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1624718903
+|move|p1a: Dwebble|Spikes|p2a: Riolu
+|-sidestart|p2: toxya|Spikes
+|move|p2a: Riolu|Roar|p1a: Dwebble
+|drag|p1a: Drifloon|Drifloon, L5, F|100/100
+|-damage|p1a: Drifloon|77/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1624718910
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Drifloon|[from]move: Copycat
+|drag|p1a: Carvanha|Carvanha, L5, F|100/100
+|-damage|p1a: Carvanha|90/100|[from] Stealth Rock
+|-damage|p1a: Carvanha|74/100|[from] Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1624718919
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Carvanha|[from]move: Copycat
+|drag|p1a: Magnemite|Magnemite, L5|100/100
+|-damage|p1a: Magnemite|85/100|[from] Spikes
+|-damage|p1a: Magnemite|79/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1624718924
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Magnemite|[from]move: Copycat
+|drag|p1a: Dwebble|Dwebble, L5, M|100/100
+|-damage|p1a: Dwebble|78/100|[from] Stealth Rock
+|-damage|p1a: Dwebble|64/100|[from] Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1624718932
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Dwebble|[from]move: Copycat
+|drag|p1a: Carvanha|Carvanha, L5, F|74/100
+|-damage|p1a: Carvanha|64/100|[from] Stealth Rock
+|-damage|p1a: Carvanha|48/100|[from] Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1624718937
+|move|p1a: Carvanha|Aqua Jet|p2a: Riolu
+|-damage|p2a: Riolu|73/100
+|-damage|p1a: Carvanha|43/100|[from] item: Life Orb
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Aqua Jet|p1a: Carvanha|[from]move: Copycat
+|-resisted|p1a: Carvanha
+|-damage|p1a: Carvanha|32/100
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|10
+|
+|t:|1624718948
+|move|p1a: Carvanha|Waterfall|p2a: Riolu
+|-damage|p2a: Riolu|32/100
+|-damage|p1a: Carvanha|27/100|[from] item: Life Orb
+|move|p2a: Riolu|Roar|p1a: Carvanha
+|drag|p1a: Timburr|Timburr, L5, M|100/100
+|-damage|p1a: Timburr|96/100|[from] Stealth Rock
+|-damage|p1a: Timburr|80/100|[from] Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1624718955
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Timburr|[from]move: Copycat
+|drag|p1a: Magnemite|Magnemite, L5|79/100
+|-damage|p1a: Magnemite|64/100|[from] Spikes
+|-damage|p1a: Magnemite|58/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1624718962
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Magnemite|[from]move: Copycat
+|drag|p1a: Drifloon|Drifloon, L5, F|77/100
+|-damage|p1a: Drifloon|54/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1624718967
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Drifloon|[from]move: Copycat
+|drag|p1a: Dwebble|Dwebble, L5, M|64/100
+|-damage|p1a: Dwebble|41/100|[from] Stealth Rock
+|-damage|p1a: Dwebble|28/100|[from] Spikes
+|-enditem|p1a: Dwebble|Oran Berry|[eat]
+|-heal|p1a: Dwebble|73/100|[from] item: Oran Berry
+|
+|upkeep
+|turn|14
+|
+|t:|1624718972
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Dwebble|[from]move: Copycat
+|drag|p1a: Carvanha|Carvanha, L5, F|27/100
+|-damage|p1a: Carvanha|11/100|[from] Spikes
+|-damage|p1a: Carvanha|0 fnt|[from] Stealth Rock
+|faint|p1a: Carvanha
+|
+|upkeep
+|
+|t:|1624718980
+|switch|p1a: Abra|Abra, L5, F|100/100
+|turn|15
+|
+|t:|1624718982
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Abra|[from]move: Copycat
+|drag|p1a: Timburr|Timburr, L5, M|80/100
+|-damage|p1a: Timburr|76/100|[from] Stealth Rock
+|-damage|p1a: Timburr|60/100|[from] Spikes
+|
+|upkeep
+|turn|16
+|
+|t:|1624718987
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Timburr|[from]move: Copycat
+|drag|p1a: Drifloon|Drifloon, L5, F|54/100
+|-damage|p1a: Drifloon|31/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|-message|gyter ph0 forfeited.
+|
+|win|toxya
+|n|☆gyter ph0|gyterph0
+|n|‽toxya|toxya
+|n|*Lady Monita|ladymonita
+|n| Luiw|luiw
+|n| Timpasstrategique|timpasstrategique

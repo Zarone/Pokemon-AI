@@ -1,0 +1,293 @@
+|j|☆Lucario•1582
+|j|☆xbossarux
+|t:|1637093108
+|gametype|singles
+|player|p1|Lucario•1582|riley|
+|player|p2|xbossarux|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Misdreavus, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Samurott, F|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Braviary, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lucario•1582)
+|
+|t:|1637093128
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|turn|1
+|
+|t:|1637093138
+|move|p1a: Garbodor|Spikes|p2a: Garbodor
+|-sidestart|p2: xbossarux|Spikes
+|move|p2a: Garbodor|Spikes|p1a: Garbodor
+|-sidestart|p1: Lucario•1582|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1637093144
+|move|p1a: Garbodor|Spikes|p2a: Garbodor
+|-sidestart|p2: xbossarux|Spikes
+|move|p2a: Garbodor|Spikes|p1a: Garbodor
+|-sidestart|p1: Lucario•1582|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1637093148
+|move|p1a: Garbodor|Spikes|p2a: Garbodor
+|-sidestart|p2: xbossarux|Spikes
+|move|p2a: Garbodor|Spikes|p1a: Garbodor
+|-sidestart|p1: Lucario•1582|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1637093164
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|-damage|p1a: Piloswine|76/100|[from] Spikes
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1637093170
+|move|p2a: Rotom|Trick|p1a: Piloswine
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Piloswine
+|-item|p1a: Piloswine|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Eviolite|[from] move: Trick
+|move|p1a: Piloswine|Stealth Rock|p2a: Rotom
+|-sidestart|p2: xbossarux|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1637093177
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|76/100|[from] Spikes
+|move|p2a: Rotom|Air Slash|p1a: Garbodor
+|-damage|p1a: Garbodor|37/100
+|
+|upkeep
+|turn|7
+|
+|t:|1637093183
+|move|p1a: Garbodor|Explosion|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p1a: Garbodor
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1637093201
+|switch|p2a: Samurott|Samurott, F|100/100
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|-damage|p2a: Samurott|76/100|[from] Spikes
+|-damage|p2a: Samurott|63/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1637093209
+|move|p1a: Misdreavus|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1637093216
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|-damage|p2a: Serperior|63/100|[from] Spikes
+|turn|9
+|
+|t:|1637093236
+|move|p2a: Serperior|Glare|p1a: Misdreavus
+|-status|p1a: Misdreavus|par
+|move|p1a: Misdreavus|Taunt|p2a: Serperior
+|-start|p2a: Serperior|move: Taunt
+|
+|-heal|p2a: Serperior|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1637093243
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|76/100|[from] Spikes
+|move|p2a: Serperior|Giga Drain|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|59/100
+|-heal|p2a: Serperior|80/100|[from] drain|[of] p1a: Skuntank
+|
+|-heal|p2a: Serperior|86/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1637093253
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|-damage|p2a: Garbodor|63/100|[from] Spikes
+|move|p1a: Skuntank|Crunch|p2a: Garbodor
+|-damage|p2a: Garbodor|21/100
+|-damage|p1a: Skuntank|42/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|upkeep
+|turn|12
+|
+|t:|1637093267
+|switch|p1a: Piloswine|Piloswine, M|76/100
+|-damage|p1a: Piloswine|51/100|[from] Spikes
+|move|p2a: Garbodor|Toxic Spikes|p1a: Piloswine
+|-sidestart|p1: Lucario•1582|move: Toxic Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1637093273
+|move|p1a: Piloswine|Ice Shard|p2a: Garbodor
+|-damage|p2a: Garbodor|2/100
+|move|p2a: Garbodor|Explosion|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p2a: Garbodor
+|faint|p1a: Piloswine
+|
+|upkeep
+|
+|t:|1637093286
+|switch|p2a: Serperior|Serperior, M|86/100
+|switch|p1a: Primeape|Primeape, M|100/100
+|-damage|p2a: Serperior|61/100|[from] Spikes
+|-damage|p2a: Serperior|49/100|[from] Stealth Rock
+|-status|p1a: Primeape|psn
+|-damage|p1a: Primeape|76/100 psn|[from] Spikes
+|turn|14
+|
+|t:|1637093300
+|move|p2a: Serperior|Giga Drain|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-heal|p2a: Serperior|84/100|[from] drain|[of] p1a: Primeape
+|faint|p1a: Primeape
+|
+|-heal|p2a: Serperior|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637093315
+|switch|p1a: Skuntank|Skuntank, M|42/100
+|-sideend|p1: Lucario•1582|move: Toxic Spikes|[of] p1a: Skuntank
+|-damage|p1a: Skuntank|18/100|[from] Spikes
+|turn|15
+|c|☆xbossarux|mb
+|
+|t:|1637093322
+|move|p1a: Skuntank|Sucker Punch|p2a: Serperior
+|-damage|p2a: Serperior|41/100
+|move|p2a: Serperior|Hidden Power|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|-heal|p2a: Serperior|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637093325
+|switch|p1a: Misdreavus|Misdreavus, M|100/100 par
+|turn|16
+|
+|t:|1637093337
+|move|p2a: Serperior|Giga Drain|p1a: Misdreavus
+|-damage|p1a: Misdreavus|72/100 par
+|-heal|p2a: Serperior|61/100|[from] drain|[of] p1a: Misdreavus
+|move|p1a: Misdreavus|Shadow Ball|p2a: Serperior
+|-damage|p2a: Serperior|23/100
+|-unboost|p2a: Serperior|spd|1
+|
+|-heal|p2a: Serperior|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1637093348
+|move|p2a: Serperior|Giga Drain|p1a: Misdreavus
+|-damage|p1a: Misdreavus|35/100 par
+|-heal|p2a: Serperior|46/100|[from] drain|[of] p1a: Misdreavus
+|cant|p1a: Misdreavus|par
+|
+|-heal|p2a: Serperior|52/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1637093357
+|move|p2a: Serperior|Giga Drain|p1a: Misdreavus
+|-damage|p1a: Misdreavus|9/100 par
+|-heal|p2a: Serperior|64/100|[from] drain|[of] p1a: Misdreavus
+|move|p1a: Misdreavus|Shadow Ball|p2a: Serperior
+|-damage|p2a: Serperior|11/100
+|-unboost|p2a: Serperior|spd|1
+|
+|-heal|p2a: Serperior|17/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1637093369
+|move|p2a: Serperior|Giga Drain|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|-heal|p2a: Serperior|21/100|[from] drain|[of] p1a: Misdreavus
+|faint|p1a: Misdreavus
+|
+|-heal|p2a: Serperior|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637093372
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|76/100|[from] Spikes
+|turn|20
+|
+|t:|1637093378
+|move|p2a: Serperior|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|17/100
+|-heal|p2a: Serperior|80/100|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|63/100
+|
+|-heal|p2a: Serperior|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1637093391
+|move|p2a: Serperior|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-heal|p2a: Serperior|84/100|[from] drain|[of] p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|win|xbossarux
+|n|☆Lucario•1582|lucario1582
+|n|☆xbossarux|xbossarux
+|l|☆Lucario•1582
+|c|☆xbossarux|gg

@@ -1,0 +1,282 @@
+|j|☆Weeb Guil
+|j|☆IcyFlares
+|t:|1644116848
+|gametype|singles
+|player|p1|Weeb Guil|jasmine|
+|player|p2|IcyFlares|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Mamoswine, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|teampreview
+|
+|t:|1644116888
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|t:|1644116897
+|move|p2a: Latios|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|85/100
+|
+|t:|1644116922
+|switch|p1a: Mamoswine|Mamoswine, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1644116971
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Mamoswine|Icicle Crash|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|70/100
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1644117028
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Scizor|Superpower|p1a: Garchomp
+|-damage|p1a: Garchomp|33/100
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|-damage|p2a: Scizor|58/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|4
+|
+|t:|1644117061
+|switch|p1a: Rotom|Rotom-Wash|5/100
+|move|p2a: Scizor|Superpower|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1644117066
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|5
+|
+|t:|1644117073
+|move|p2a: Scizor|Superpower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|37/100
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|move|p1a: Magnezone|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1644117091
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|6
+|
+|t:|1644117138
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Garchomp|Draco Meteor|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Haxorus
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644117154
+|switch|p1a: Mamoswine|Mamoswine, M|91/100
+|turn|7
+|
+|t:|1644117161
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Mamoswine|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|-damage|p1a: Mamoswine|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644117214
+|switch|p1a: Magnezone|Magnezone|37/100
+|move|p2a: Ferrothorn|Spikes|p1a: Magnezone
+|-sidestart|p1: Weeb Guil|Spikes
+|
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644117222
+|move|p1a: Magnezone|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644117297
+|switch|p2a: Garchomp|Garchomp, M|91/100
+|turn|10
+|
+|t:|1644117303
+|move|p2a: Garchomp|Draco Meteor|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Magnezone
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644117313
+|switch|p1a: Garchomp|Garchomp, F|33/100
+|-damage|p1a: Garchomp|21/100|[from] Spikes
+|turn|11
+|
+|t:|1644117359
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Outrage|p2a: Landorus
+|-damage|p2a: Landorus|63/100
+|
+|-heal|p2a: Landorus|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644117368
+|move|p1a: Garchomp|Outrage|p2a: Landorus|[from]lockedmove
+|-damage|p2a: Landorus|34/100
+|move|p2a: Landorus|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Landorus|22/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|t:|1644117376
+|switch|p2a: Latios|Latios, M|85/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1644117380
+|switch|p1a: Mamoswine|Mamoswine, M|81/100
+|-damage|p1a: Mamoswine|68/100|[from] Spikes
+|turn|13
+|
+|t:|1644117389
+|move|p1a: Mamoswine|Ice Shard|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|4/100
+|-damage|p1a: Mamoswine|58/100|[from] item: Life Orb
+|move|p2a: Latios|Trick|p1a: Mamoswine
+|-activate|p2a: Latios|move: Trick|[of] p1a: Mamoswine
+|-item|p1a: Mamoswine|Choice Scarf|[from] move: Trick
+|-item|p2a: Latios|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|14
+|
+|t:|1644117402
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|88/100
+|
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1644117426
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Tentacruel|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|-damage|p1a: Latios|95/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1644117438
+|move|p1a: Latios|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-damage|p1a: Latios|85/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Latios|73/100 tox|[from] psn
+|upkeep
+|
+|t:|1644117445
+|switch|p2a: Latios|Latios, M|4/100
+|turn|17
+|
+|t:|1644117454
+|move|p1a: Latios|Dragon Pulse|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-damage|p1a: Latios|63/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Latios|45/100 tox|[from] psn
+|upkeep
+|
+|t:|1644117500
+|switch|p2a: Garchomp|Garchomp, M|81/100
+|turn|18
+|
+|t:|1644117540
+|move|p1a: Latios|Dragon Pulse|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-damage|p1a: Latios|35/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Latios|11/100 tox|[from] psn
+|upkeep
+|
+|t:|1644117546
+|switch|p2a: Landorus|Landorus-Therian, M|22/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|19
+|
+|t:|1644117552
+|move|p1a: Latios|Dragon Pulse|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-damage|p1a: Latios|1/100 tox|[from] item: Life Orb
+|
+|win|Weeb Guil

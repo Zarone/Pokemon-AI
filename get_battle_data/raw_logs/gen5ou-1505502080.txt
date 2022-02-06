@@ -1,0 +1,41 @@
+|j|☆ThatOneBall
+|j|☆R3X
+|t:|1644163062
+|gametype|singles
+|player|p1|ThatOneBall|n|1131
+|player|p2|R3X|101|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gliscor, M|item
+|poke|p1|Ninetales, F|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Chansey, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, F|item
+|poke|p2|Espeon, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Jolteon, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ThatOneBall)
+|-message|ThatOneBall forfeited.
+|
+|win|R3X
+|raw|ThatOneBall's rating: 1131 &rarr; <strong>1104</strong><br />(-27 for losing)
+|raw|R3X's rating: 1098 &rarr; <strong>1126</strong><br />(+28 for winning)
+|l|☆ThatOneBall

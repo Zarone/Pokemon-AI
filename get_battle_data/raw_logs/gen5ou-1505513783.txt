@@ -1,0 +1,300 @@
+|j|☆FavMon=Garchomp
+|j|☆Hollow s0ul
+|t:|1644164632
+|gametype|singles
+|player|p1|FavMon=Garchomp|hilbert|
+|player|p2|Hollow s0ul|lady|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Volcarona, F|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Magnezone|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Kyurem-Black|item
+|teampreview
+|j| BB-8-NU
+|j| innovamania
+|j| ThatOneBall
+|j| D0GxAlyx
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FavMon=Garchomp)
+|j|+TDR
+|c|☆Hollow s0ul|smurf
+|c|☆Hollow s0ul|really?
+|
+|t:|1644164666
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-ability|p1a: Aerodactyl|Pressure
+|turn|1
+|j|+AM
+|
+|t:|1644164673
+|move|p1a: Aerodactyl|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|cant|p2a: Garchomp|move: Taunt|Swords Dance
+|
+|upkeep
+|turn|2
+|c| D0GxAlyx|is it really smurf w/o scizor
+|
+|t:|1644164679
+|move|p1a: Aerodactyl|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Hollow s0ul|move: Stealth Rock
+|move|p2a: Garchomp|Outrage|p1a: Aerodactyl
+|-enditem|p1a: Aerodactyl|Focus Sash
+|-damage|p1a: Aerodactyl|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1644164687
+|move|p1a: Aerodactyl|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|72/100
+|move|p2a: Garchomp|Outrage|p1a: Aerodactyl|[from]lockedmove
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|-end|p2a: Garchomp|move: Taunt
+|upkeep
+|j|#susciety
+|
+|t:|1644164696
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|4
+|
+|t:|1644164704
+|move|p1a: Alakazam|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1644164718
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1644164721
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Jirachi|U-turn|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|88/100
+|
+|t:|1644164724
+|switch|p2a: Latios|Latios, M|100/100|[from]move: U-turn
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|j| Dr.Mouse MD
+|
+|t:|1644164748
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Latios|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|92/100
+|
+|upkeep
+|turn|7
+|
+|t:|1644164758
+|switch|p2a: Jirachi|Jirachi|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644164769
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Jirachi|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|47/100
+|-unboost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j|%Damm u captcha
+|
+|t:|1644164780
+|move|p1a: Dragonite|Fire Punch|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|4/100
+|move|p2a: Jirachi|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Jirachi|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644164788
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|10
+|
+|t:|1644164796
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Alakazam|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|47/100
+|-unboost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1644164802
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Alakazam|Shadow Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|76/100
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|upkeep
+|turn|12
+|l| ThatOneBall
+|
+|t:|1644164814
+|move|p1a: Alakazam|Focus Blast|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|j| PichuFlash
+|
+|t:|1644164817
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1644164824
+|move|p2a: Latios|Dragon Pulse|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|15/100
+|-unboost|p2a: Latios|spd|1
+|
+|upkeep
+|turn|14
+|j| bgvfgcvgbhn
+|
+|t:|1644164840
+|move|p2a: Latios|Dragon Pulse|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|t:|1644164849
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|15
+|
+|t:|1644164853
+|move|p1a: Cloyster|Ice Shard|p2a: Latios
+|-enditem|p1a: Cloyster|Ice Gem|[from] gem
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1644164863
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|turn|16
+|
+|t:|1644164868
+|move|p1a: Cloyster|Ice Shard|p2a: Kyurem
+|-damage|p2a: Kyurem|60/100
+|move|p2a: Kyurem|Outrage|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|t:|1644164872
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|17
+|
+|t:|1644164875
+|move|p1a: Breloom|Mach Punch|p2a: Kyurem
+|-enditem|p1a: Breloom|Fighting Gem|[from] gem
+|-supereffective|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1644164879
+|switch|p2a: Reuniclus|Reuniclus, M|47/100
+|turn|18
+|
+|t:|1644164881
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|27/100
+|-damage|p2a: Reuniclus|8/100
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|-hitcount|p2: Reuniclus|3
+|
+|upkeep
+|
+|t:|1644164883
+|switch|p2a: Jirachi|Jirachi|10/100
+|-damage|p2a: Jirachi|4/100|[from] Stealth Rock
+|turn|19
+|c|☆FavMon=Garchomp|gg
+|
+|t:|1644164888
+|move|p1a: Breloom|Mach Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|win|FavMon=Garchomp
+|n|☆FavMon=Garchomp|favmongarchomp
+|n|☆Hollow s0ul|hollows0ul
+|n| BB-8-NU|bb8nu
+|n| innovamania|innovamania
+|n| D0GxAlyx|d0gxalyx
+|n| TDR|tdr
+|n|+AM|am
+|n|+susciety|susciety
+|n| Dr.Mouse MD|drmousemd
+|n| Damm u captcha|dammucaptcha
+|n| PichuFlash|pichuflash
+|n| bgvfgcvgbhn|bgvfgcvgbhn

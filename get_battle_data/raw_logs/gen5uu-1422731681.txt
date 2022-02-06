@@ -1,0 +1,344 @@
+|j|☆blackkaiser
+|j|☆galaxyatior
+|t:|1632438838
+|gametype|singles
+|player|p1|blackkaiser|nate|
+|player|p2|galaxyatior|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Roserade, F|item
+|poke|p1|Druddigon, M|item
+|poke|p1|Mismagius, F|item
+|poke|p1|Mew|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Hitmontop, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Kabutops, F|item
+|poke|p2|Azelf|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Raikou|item
+|poke|p2|Heracross, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blackkaiser)
+|j| uraveragehuman
+|
+|t:|1632438869
+|start
+|switch|p1a: Druddigon|Druddigon, M, shiny|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1632438873
+|move|p2a: Azelf|Stealth Rock|p1a: Druddigon
+|-sidestart|p1: blackkaiser|move: Stealth Rock
+|move|p1a: Druddigon|Dragon Claw|p2a: Azelf
+|-damage|p2a: Azelf|56/100
+|
+|upkeep
+|turn|2
+|
+|t:|1632438877
+|move|p2a: Azelf|Rain Dance|p2a: Azelf
+|-weather|RainDance
+|move|p1a: Druddigon|Dragon Claw|p2a: Azelf
+|-damage|p2a: Azelf|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1632438883
+|move|p2a: Azelf|Explosion|p1a: Druddigon
+|-damage|p1a: Druddigon|20/100
+|faint|p2a: Azelf
+|move|p1a: Druddigon|Stealth Rock|p2: Azelf
+|-sidestart|p2: galaxyatior|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1632438905
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|4
+|
+|t:|1632438908
+|move|p2a: Raikou|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1632438921
+|switch|p1a: Sharpedo|Sharpedo, M|100/100
+|-damage|p1a: Sharpedo|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1632438932
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Raikou|Roar|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|6
+|
+|t:|1632438950
+|move|p1a: Sharpedo|Waterfall|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|-damage|p1a: Sharpedo|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1632438960
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1632438964
+|move|p1a: Sharpedo|Protect|p1a: Sharpedo
+|-singleturn|p1a: Sharpedo|Protect
+|move|p2a: Kingdra|Hydro Pump|p1a: Sharpedo
+|-activate|p1a: Sharpedo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|8
+|
+|t:|1632438968
+|move|p1a: Sharpedo|Crunch|p2a: Kingdra
+|-damage|p2a: Kingdra|13/100
+|-unboost|p2a: Kingdra|def|1
+|-damage|p1a: Sharpedo|68/100|[from] item: Life Orb
+|move|p2a: Kingdra|Hydro Pump|p1a: Sharpedo
+|-resisted|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1632438972
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1632438977
+|move|p2a: Kingdra|Hydro Pump|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|33/100
+|move|p1a: Roserade|Spikes|p2a: Kingdra
+|-sidestart|p2: galaxyatior|Spikes
+|
+|-weather|none
+|-heal|p1a: Roserade|39/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1632438982
+|move|p1a: Roserade|Spikes|p2a: Kingdra
+|-sidestart|p2: galaxyatior|Spikes
+|move|p2a: Kingdra|Hydro Pump|p1a: Roserade|[miss]
+|-miss|p2a: Kingdra|p1a: Roserade
+|
+|-heal|p1a: Roserade|46/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|j| gimme wins
+|
+|t:|1632438987
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Roserade|Giga Drain|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|55/100
+|-heal|p1a: Roserade|55/100|[from] drain|[of] p2a: Tornadus
+|
+|-heal|p1a: Roserade|61/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1632438991
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: Roserade|Stun Spore|p2a: Tornadus
+|-status|p2a: Tornadus|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Roserade|67/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1632438995
+|move|p1a: Roserade|Toxic Spikes|p2a: Tornadus
+|-sidestart|p2: galaxyatior|move: Toxic Spikes
+|move|p2a: Tornadus|Hurricane|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1632438998
+|switch|p1a: Mismagius|Mismagius, F|100/100
+|-damage|p1a: Mismagius|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1632439005
+|move|p1a: Mismagius|Calm Mind|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|1
+|-boost|p1a: Mismagius|spd|1
+|move|p2a: Tornadus|Hurricane|p1a: Mismagius
+|-damage|p1a: Mismagius|46/100
+|-start|p1a: Mismagius|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mismagius|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1632439012
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: galaxyatior|move: Tailwind
+|-activate|p1a: Mismagius|confusion
+|move|p1a: Mismagius|Calm Mind|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|1
+|-boost|p1a: Mismagius|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mismagius|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1632439015
+|-activate|p1a: Mismagius|confusion
+|move|p1a: Mismagius|Calm Mind|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|1
+|-boost|p1a: Mismagius|spd|1
+|cant|p2a: Tornadus|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mismagius|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1632439021
+|switch|p2a: Heracross|Heracross, F|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|-status|p2a: Heracross|psn
+|-damage|p2a: Heracross|72/100 psn|[from] Spikes
+|-activate|p1a: Mismagius|confusion
+|move|p1a: Mismagius|Calm Mind|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|1
+|-boost|p1a: Mismagius|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mismagius|71/100|[from] item: Leftovers
+|-damage|p2a: Heracross|59/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1632439034
+|move|p2a: Heracross|Stone Edge|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Heracross|47/100 psn|[from] psn
+|-sideend|p2: galaxyatior|move: Tailwind
+|upkeep
+|
+|t:|1632439036
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1632439045
+|switch|p2a: Kingdra|Kingdra, M|13/100
+|-damage|p2a: Kingdra|0 fnt|[from] Spikes
+|faint|p2a: Kingdra
+|move|p1a: Mew|Rock Polish|p1a: Mew
+|-boost|p1a: Mew|spe|2
+|
+|-weather|none
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632439061
+|switch|p2a: Tornadus|Tornadus, M|55/100 par
+|-damage|p2a: Tornadus|30/100 par|[from] Stealth Rock
+|turn|20
+|inactive|blackkaiser has 120 seconds left.
+|
+|t:|1632439094
+|move|p1a: Mew|Psychic|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|c|☆blackkaiser|gg
+|c|☆galaxyatior|gg
+|
+|t:|1632439105
+|switch|p2a: Kabutops|Kabutops, F|100/100
+|-status|p2a: Kabutops|psn
+|-damage|p2a: Kabutops|84/100 psn|[from] Spikes
+|-damage|p2a: Kabutops|72/100 psn|[from] Stealth Rock
+|turn|21
+|
+|t:|1632439108
+|move|p1a: Mew|Psychic|p2a: Kabutops
+|-damage|p2a: Kabutops|5/100 psn
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|-damage|p2a: Kabutops|0 fnt|[from] psn
+|faint|p2a: Kabutops
+|upkeep
+|
+|t:|1632439114
+|switch|p2a: Heracross|Heracross, F|47/100 psn
+|-damage|p2a: Heracross|30/100 psn|[from] Spikes
+|-damage|p2a: Heracross|18/100 psn|[from] Stealth Rock
+|turn|22
+|
+|t:|1632439115
+|move|p1a: Mew|Psychic|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|win|blackkaiser
+|n|☆blackkaiser|blackkaiser
+|n|☆galaxyatior|galaxyatior
+|n| uraveragehuman|uraveragehuman
+|n| gimme wins|gimmewins

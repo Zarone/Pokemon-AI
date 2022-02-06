@@ -1,0 +1,151 @@
+|j|☆Giove97
+|j|☆GiovanniFiero
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643454349
+|gametype|singles
+|player|p1|Giove97|gambler|
+|player|p2|GiovanniFiero|dragontamer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tirtouga, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Snover, L5, M|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Cranidos, L5, M|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Axew, L5, M|item
+|poke|p2|Archen, L5, F|item
+|teampreview
+|c|☆Giove97|glhf
+|
+|t:|1643454371
+|start
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|turn|1
+|
+|t:|1643454378
+|move|p2a: Mienfoo|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|80/100
+|-start|p2a: Mienfoo|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Frillish
+|-enditem|p1a: Frillish|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|-damage|p2a: Mienfoo|91/100|[from] item: Life Orb
+|move|p1a: Frillish|Will-O-Wisp|p2a: Mienfoo
+|-status|p2a: Mienfoo|brn
+|
+|-damage|p2a: Mienfoo|81/100 brn|[from] brn
+|upkeep
+|turn|2
+|j| Mr. Luigi 2000
+|
+|t:|1643454394
+|switch|p2a: Gastly|Gastly, L5, F, shiny|100/100
+|move|p1a: Frillish|Scald|p2a: Gastly
+|-damage|p2a: Gastly|32/100
+|-status|p2a: Gastly|brn
+|
+|-damage|p2a: Gastly|22/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1643454406
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Gastly|Shadow Ball|p1a: Drilbur
+|-crit|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|-damage|p2a: Gastly|11/100 brn|[from] brn
+|upkeep
+|
+|t:|1643454412
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|turn|4
+|
+|t:|1643454421
+|move|p2a: Gastly|Dark Pulse|p1a: Porygon
+|-damage|p1a: Porygon|80/100
+|move|p1a: Porygon|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|
+|t:|1643454442
+|switch|p2a: Cranidos|Cranidos, L5, M, shiny|100/100
+|turn|5
+|
+|t:|1643454462
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|move|p2a: Cranidos|Stone Edge|p1a: Timburr|[miss]
+|-miss|p2a: Cranidos|p1a: Timburr
+|
+|upkeep
+|turn|6
+|
+|t:|1643454477
+|move|p2a: Cranidos|Stone Edge|p1a: Timburr|[miss]
+|-miss|p2a: Cranidos|p1a: Timburr
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1643454486
+|switch|p2a: Abra|Abra, L5, M, shiny|100/100
+|move|p1a: Timburr|Drain Punch|p2a: Abra
+|-resisted|p2a: Abra
+|-damage|p2a: Abra|16/100
+|
+|upkeep
+|turn|8
+|
+|t:|1643454494
+|move|p1a: Timburr|Mach Punch|p2a: Abra
+|-resisted|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|
+|t:|1643454506
+|switch|p2a: Cranidos|Cranidos, L5, M, shiny|100/100
+|turn|9
+|
+|t:|1643454510
+|move|p2a: Cranidos|Iron Head|p1a: Timburr
+|-damage|p1a: Timburr|75/100
+|move|p1a: Timburr|Drain Punch|p2a: Cranidos
+|-supereffective|p2a: Cranidos
+|-damage|p2a: Cranidos|0 fnt
+|-heal|p1a: Timburr|100/100|[from] drain|[of] p2a: Cranidos
+|faint|p2a: Cranidos
+|
+|upkeep
+|-message|GiovanniFiero forfeited.
+|
+|win|Giove97
+|n|☆Giove97|giove97
+|n|☆GiovanniFiero|giovannifiero
+|n| Mr. Luigi 2000|mrluigi2000

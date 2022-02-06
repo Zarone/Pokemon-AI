@@ -1,0 +1,387 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641081941
+|gametype|singles
+|player|p1|Shiba|#xshiba|
+|player|p2|Somalia|drayden|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Weavile, M|item
+|poke|p1|Cofagrigus, F|item
+|poke|p1|Roserade, F|item
+|poke|p1|Druddigon, F|item
+|poke|p1|Raikou|item
+|poke|p1|Flygon, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Meloetta|item
+|poke|p2|Heracross, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Empoleon, M|item
+|teampreview
+|inactive|Somalia also wants the timer to be on.
+|c|☆Shiba|hf
+|c|☆Somalia|hf man
+|inactive|Somalia has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1641082003
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: ARMORED ARMADILLO|Rhyperior, M, shiny|100/100
+|turn|1
+|
+|t:|1641082014
+|move|p1a: Roserade|Spikes|p2a: ARMORED ARMADILLO
+|-sidestart|p2: Somalia|Spikes
+|move|p2a: ARMORED ARMADILLO|Stealth Rock|p1a: Roserade
+|-sidestart|p1: Shiba|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641082026
+|move|p1a: Roserade|Spikes|p2a: ARMORED ARMADILLO
+|-sidestart|p2: Somalia|Spikes
+|move|p2a: ARMORED ARMADILLO|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1641082035
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|3
+|inactive|Somalia has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1641082103
+|move|p1a: Flygon|Earthquake|p2a: ARMORED ARMADILLO
+|-supereffective|p2a: ARMORED ARMADILLO
+|-damage|p2a: ARMORED ARMADILLO|55/100
+|move|p2a: ARMORED ARMADILLO|Megahorn|p1a: Flygon
+|-damage|p1a: Flygon|25/100
+|
+|upkeep
+|turn|4
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1641082110
+|switch|p2a: STORM EAGLE|Flygon, F|100/100
+|move|p1a: Flygon|Earthquake|p2a: STORM EAGLE
+|-immune|p2a: STORM EAGLE|[from] ability: Levitate
+|
+|upkeep
+|turn|5
+|
+|t:|1641082115
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p2a: STORM EAGLE|U-turn|p1a: Cofagrigus
+|-resisted|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|81/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Levitate|[of] p2a: STORM EAGLE
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1641082134
+|switch|p2a: STAGE START|Meloetta|100/100|[from]move: U-turn
+|-damage|p2a: STAGE START|84/100|[from] Spikes
+|
+|-heal|p2a: STAGE START|90/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641082143
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: STAGE START|Substitute|p2a: STAGE START
+|-start|p2a: STAGE START|Substitute
+|-damage|p2a: STAGE START|65/100
+|
+|-heal|p1a: Raikou|94/100|[from] item: Leftovers
+|-heal|p2a: STAGE START|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1641082146
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: STAGE START|Calm Mind|p2a: STAGE START
+|-boost|p2a: STAGE START|spa|1
+|-boost|p2a: STAGE START|spd|1
+|
+|-heal|p1a: Raikou|100/100|[from] item: Leftovers
+|-heal|p2a: STAGE START|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1641082148
+|move|p1a: Raikou|Thunderbolt|p2a: STAGE START
+|-end|p2a: STAGE START|Substitute
+|move|p2a: STAGE START|Calm Mind|p2a: STAGE START
+|-boost|p2a: STAGE START|spa|1
+|-boost|p2a: STAGE START|spd|1
+|
+|-heal|p2a: STAGE START|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1641082151
+|move|p1a: Raikou|Thunderbolt|p2a: STAGE START
+|-crit|p2a: STAGE START
+|-damage|p2a: STAGE START|0 fnt
+|faint|p2a: STAGE START
+|
+|upkeep
+|inactive|Somalia has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|
+|t:|1641082191
+|switch|p2a: STORM EAGLE|Flygon, F|100/100
+|turn|10
+|
+|t:|1641082195
+|move|p1a: Raikou|Protect|p1a: Raikou
+|-singleturn|p1a: Raikou|Protect
+|move|p2a: STORM EAGLE|Earthquake|p1a: Raikou
+|-activate|p1a: Raikou|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1641082199
+|switch|p1a: Flygon|Flygon, F|25/100
+|-damage|p1a: Flygon|19/100|[from] Stealth Rock
+|move|p2a: STORM EAGLE|Earthquake|p1a: Flygon
+|-immune|p1a: Flygon|[from] ability: Levitate
+|
+|upkeep
+|turn|12
+|
+|t:|1641082223
+|switch|p2a: ARMORED ARMADILLO|Rhyperior, M, shiny|55/100
+|-damage|p2a: ARMORED ARMADILLO|39/100|[from] Spikes
+|move|p1a: Flygon|Earthquake|p2a: ARMORED ARMADILLO
+|-supereffective|p2a: ARMORED ARMADILLO
+|-damage|p2a: ARMORED ARMADILLO|0 fnt
+|faint|p2a: ARMORED ARMADILLO
+|
+|upkeep
+|
+|t:|1641082229
+|switch|p2a: STORM EAGLE|Flygon, F|100/100
+|turn|13
+|
+|t:|1641082241
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|-damage|p1a: Druddigon|88/100|[from] Stealth Rock
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: STORM EAGLE|U-turn|p1a: Druddigon
+|-damage|p1a: Druddigon|65/100
+|
+|t:|1641082248
+|switch|p2a: SPARK MANDRILL|Heracross, M, shiny|100/100|[from]move: U-turn
+|-damage|p2a: SPARK MANDRILL|84/100|[from] Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1641082263
+|move|p2a: SPARK MANDRILL|Megahorn|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|upkeep
+|
+|t:|1641082265
+|switch|p1a: Cofagrigus|Cofagrigus, F|87/100
+|-damage|p1a: Cofagrigus|74/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1641082271
+|move|p2a: SPARK MANDRILL|Swords Dance|p2a: SPARK MANDRILL
+|-boost|p2a: SPARK MANDRILL|atk|2
+|move|p1a: Cofagrigus|Nasty Plot|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|spa|2
+|
+|-heal|p1a: Cofagrigus|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1641082274
+|move|p2a: SPARK MANDRILL|Megahorn|p1a: Cofagrigus
+|-resisted|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|25/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Guts|[of] p2a: SPARK MANDRILL
+|move|p1a: Cofagrigus|Trick Room|p1a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p1a: Cofagrigus
+|
+|-heal|p1a: Cofagrigus|31/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Somalia has 270 seconds left.
+|
+|t:|1641082285
+|move|p2a: SPARK MANDRILL|Endure|p2a: SPARK MANDRILL
+|-singleturn|p2a: SPARK MANDRILL|move: Endure
+|move|p1a: Cofagrigus|Shadow Ball|p2a: SPARK MANDRILL
+|-activate|p2a: SPARK MANDRILL|move: Endure
+|-damage|p2a: SPARK MANDRILL|1/100
+|-unboost|p2a: SPARK MANDRILL|spd|1
+|
+|-heal|p1a: Cofagrigus|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|-enditem|p2a: SPARK MANDRILL|Custap Berry|[eat]
+|-activate|p2a: SPARK MANDRILL|item: Custap Berry|[consumed]
+|
+|t:|1641082291
+|move|p2a: SPARK MANDRILL|Endure|p2a: SPARK MANDRILL
+|-singleturn|p2a: SPARK MANDRILL|move: Endure
+|move|p1a: Cofagrigus|Hidden Power|p2a: SPARK MANDRILL
+|-resisted|p2a: SPARK MANDRILL
+|-activate|p2a: SPARK MANDRILL|move: Endure
+|-damage|p2a: SPARK MANDRILL|1/100
+|
+|-heal|p1a: Cofagrigus|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1641082301
+|move|p2a: SPARK MANDRILL|Endure||[still]
+|-fail|p2a: SPARK MANDRILL
+|move|p1a: Cofagrigus|Hidden Power|p2a: SPARK MANDRILL
+|-resisted|p2a: SPARK MANDRILL
+|-damage|p2a: SPARK MANDRILL|0 fnt
+|faint|p2a: SPARK MANDRILL
+|
+|-heal|p1a: Cofagrigus|48/100|[from] item: Leftovers
+|upkeep
+|inactive|Somalia has 270 seconds left.
+|
+|t:|1641082314
+|switch|p2a: STORM EAGLE|Flygon, F|100/100
+|turn|20
+|inactive|Somalia has 270 seconds left.
+|
+|t:|1641082342
+|move|p1a: Cofagrigus|Shadow Ball|p2a: STORM EAGLE
+|-damage|p2a: STORM EAGLE|1/100
+|move|p2a: STORM EAGLE|Outrage|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|11/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Levitate|[of] p2a: STORM EAGLE
+|
+|-heal|p1a: Cofagrigus|17/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|c|☆Shiba|wtf evd
+|
+|t:|1641082357
+|move|p2a: STORM EAGLE|Outrage|p1a: Cofagrigus|[from]lockedmove
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|-start|p2a: STORM EAGLE|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1641082361
+|switch|p1a: Weavile|Weavile, M, shiny|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1641082364
+|move|p1a: Weavile|Ice Shard|p2a: STORM EAGLE
+|-supereffective|p2a: STORM EAGLE
+|-damage|p2a: STORM EAGLE|0 fnt
+|faint|p2a: STORM EAGLE
+|
+|upkeep
+|inactive|Somalia has 270 seconds left.
+|inactive|Somalia has 240 seconds left.
+|inactive|Somalia has 210 seconds left.
+|inactive|Somalia has 180 seconds left.
+|inactive|Somalia has 150 seconds left.
+|inactive|Somalia has 120 seconds left.
+|inactive|Somalia has 90 seconds left.
+|inactive|Somalia has 60 seconds left.
+|
+|t:|1641082590
+|switch|p2a: CHILL PENGUIN|Empoleon, M|100/100
+|-damage|p2a: CHILL PENGUIN|84/100|[from] Spikes
+|turn|23
+|
+|t:|1641082597
+|move|p1a: Weavile|Low Kick|p2a: CHILL PENGUIN
+|-supereffective|p2a: CHILL PENGUIN
+|-damage|p2a: CHILL PENGUIN|23/100
+|-enditem|p2a: CHILL PENGUIN|Petaya Berry|[eat]
+|-boost|p2a: CHILL PENGUIN|spa|1|[from] item: Petaya Berry
+|move|p2a: CHILL PENGUIN|Agility|p2a: CHILL PENGUIN
+|-boost|p2a: CHILL PENGUIN|spe|2
+|
+|upkeep
+|turn|24
+|
+|t:|1641082606
+|move|p2a: CHILL PENGUIN|Hydro Pump|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1641082608
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|25
+|
+|t:|1641082614
+|move|p2a: CHILL PENGUIN|Hydro Pump|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|c|☆Shiba|gg
+|
+|t:|1641082618
+|switch|p1a: Flygon|Flygon, F|19/100
+|-damage|p1a: Flygon|13/100|[from] Stealth Rock
+|turn|26
+|c|☆Somalia|ggs man
+|
+|t:|1641082622
+|move|p1a: Flygon|Earthquake|p2a: CHILL PENGUIN
+|-supereffective|p2a: CHILL PENGUIN
+|-damage|p2a: CHILL PENGUIN|0 fnt
+|faint|p2a: CHILL PENGUIN
+|
+|upkeep
+|
+|t:|1641082624
+|switch|p2a: IP MAN|Weavile, M, shiny|100/100
+|-damage|p2a: IP MAN|84/100|[from] Spikes
+|turn|27
+|
+|t:|1641082627
+|move|p2a: IP MAN|Ice Shard|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|win|Somalia

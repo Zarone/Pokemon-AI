@@ -1,0 +1,437 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640657005
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|ford focus 2021|picnicker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Xatu, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Heracross, M|item
+|poke|p1|Lampent, F|item
+|poke|p1|Hariyama, F|item
+|poke|p2|Victini|item
+|poke|p2|Raikou|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Ferroseed, F|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Togekiss, F|item
+|teampreview
+|inactive|Lily has 270 seconds left.
+|inactive|ford focus 2021 has 270 seconds left.
+|
+|t:|1640657055
+|start
+|switch|p1a: on|Lampent, F|100/100
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|1
+|
+|t:|1640657063
+|switch|p1a: mr|Bronzong|100/100
+|move|p2a: Togekiss|Trick|p1a: mr
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: mr
+|-item|p1a: mr|Choice Scarf|[from] move: Trick
+|-item|p2a: Togekiss|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1640657072
+|move|p2a: Togekiss|Flamethrower|p1a: mr
+|-supereffective|p1a: mr
+|-damage|p1a: mr|74/100
+|-status|p1a: mr|brn
+|move|p1a: mr|Hypnosis|p2a: Togekiss
+|-status|p2a: Togekiss|slp|[from] move: Hypnosis
+|
+|-damage|p1a: mr|68/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1640657079
+|switch|p1a: on|Lampent, F|100/100
+|cant|p2a: Togekiss|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1640657086
+|cant|p2a: Togekiss|slp
+|move|p1a: on|Fire Blast|p2a: Togekiss
+|-damage|p2a: Togekiss|42/100 slp
+|
+|-heal|p2a: Togekiss|48/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1640657089
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: on|Fire Blast|p2a: Rhyperior|[miss]
+|-miss|p1a: on|p2a: Rhyperior
+|
+|upkeep
+|turn|6
+|
+|t:|1640657096
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: on|Energy Ball|p2a: Raikou
+|-damage|p2a: Raikou|76/100
+|-unboost|p2a: Raikou|spd|1
+|
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1640657102
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: on|Fire Blast|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-heal|p2a: Raikou|89/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1640657108
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: on|Fire Blast|p2a: Raikou
+|-damage|p2a: Raikou|24/100
+|
+|-heal|p2a: Raikou|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1640657114
+|switch|p1a: youtube|Hariyama, F|100/100
+|move|p2a: Raikou|Thunderbolt|p1a: youtube
+|-crit|p1a: youtube
+|-damage|p1a: youtube|0 fnt
+|faint|p1a: youtube
+|
+|-heal|p2a: Raikou|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640657117
+|switch|p1a: beast|Heracross, M|100/100
+|turn|10
+|
+|t:|1640657119
+|switch|p1a: on|Lampent, F|100/100
+|move|p2a: Raikou|Protect||[still]
+|-fail|p2a: Raikou
+|
+|-heal|p2a: Raikou|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1640657123
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: on|Shadow Ball|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-heal|p2a: Raikou|49/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1640657125
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: on|Shadow Ball|p2a: Raikou
+|-damage|p2a: Raikou|24/100
+|
+|-heal|p2a: Raikou|30/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1640657129
+|switch|p1a: mr|Bronzong|68/100 brn
+|move|p2a: Raikou|Thunderbolt|p1a: mr
+|-damage|p1a: mr|0 fnt
+|faint|p1a: mr
+|
+|-heal|p2a: Raikou|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640657131
+|switch|p1a: beast|Heracross, M|100/100
+|turn|14
+|
+|t:|1640657132
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: beast|Earthquake|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-heal|p2a: Raikou|43/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1640657135
+|move|p1a: beast|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|-ability|p1a: beast|Moxie|boost
+|-boost|p1a: beast|atk|1
+|
+|upkeep
+|
+|t:|1640657141
+|switch|p2a: Togekiss|Togekiss, F|48/100 slp
+|turn|16
+|
+|t:|1640657148
+|switch|p1a: to|Blastoise, M|100/100
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1640657151
+|switch|p2a: Ferroseed|Ferroseed, F|100/100
+|move|p1a: to|Hydro Pump|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|81/100
+|
+|upkeep
+|turn|18
+|
+|t:|1640657157
+|move|p1a: to|Hydro Pump|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|60/100
+|move|p2a: Ferroseed|Seed Bomb|p1a: to
+|-supereffective|p1a: to
+|-crit|p1a: to
+|-damage|p1a: to|38/100
+|
+|-heal|p1a: to|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1640657161
+|switch|p1a: subscribe|Xatu, M|100/100
+|switch|p2a: Victini|Victini|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1640657165
+|move|p1a: subscribe|Protect|p1a: subscribe
+|-singleturn|p1a: subscribe|Protect
+|move|p2a: Victini|V-create|p1a: subscribe
+|-activate|p1a: subscribe|move: Protect
+|
+|upkeep
+|turn|21
+|
+|t:|1640657171
+|switch|p1a: to|Blastoise, M|44/100
+|move|p2a: Victini|Psychic|p1a: to
+|-crit|p1a: to
+|-damage|p1a: to|0 fnt
+|faint|p1a: to
+|-damage|p2a: Victini|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640657178
+|switch|p1a: on|Lampent, F|100/100
+|turn|22
+|
+|t:|1640657185
+|switch|p2a: Ferroseed|Ferroseed, F|60/100
+|move|p1a: on|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|46/100
+|
+|upkeep
+|turn|23
+|
+|t:|1640657187
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: on|Fire Blast|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|24
+|
+|t:|1640657190
+|move|p1a: on|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|33/100
+|move|p2a: Ferroseed|Spikes|p1a: on
+|-sidestart|p1: Lily|Spikes
+|
+|upkeep
+|turn|25
+|
+|t:|1640657193
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: on|Fire Blast|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|26
+|
+|t:|1640657195
+|move|p1a: on|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-crit|p2a: Ferroseed
+|-damage|p2a: Ferroseed|8/100
+|move|p2a: Ferroseed|Leech Seed|p1a: on|[miss]
+|-miss|p2a: Ferroseed|p1a: on
+|
+|upkeep
+|turn|27
+|
+|t:|1640657198
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: on|Shadow Ball|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|28
+|
+|t:|1640657199
+|move|p1a: on|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1640657203
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|turn|29
+|
+|t:|1640657207
+|move|p1a: on|Shadow Ball|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|34/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: on
+|-supereffective|p1a: on
+|-damage|p1a: on|0 fnt
+|faint|p1a: on
+|
+|-heal|p2a: Cofagrigus|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640657209
+|switch|p1a: subscribe|Xatu, M|100/100
+|turn|30
+|
+|t:|1640657213
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: subscribe|Toxic|p2a: Rhyperior
+|-status|p2a: Rhyperior|tox
+|
+|-damage|p2a: Rhyperior|94/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1640657216
+|switch|p2a: Victini|Victini|91/100
+|move|p1a: subscribe|Protect||[still]
+|-fail|p1a: subscribe
+|
+|upkeep
+|turn|32
+|
+|t:|1640657218
+|move|p1a: subscribe|Protect|p1a: subscribe
+|-singleturn|p1a: subscribe|Protect
+|move|p2a: Victini|V-create|p1a: subscribe
+|-activate|p1a: subscribe|move: Protect
+|
+|upkeep
+|turn|33
+|
+|t:|1640657223
+|move|p2a: Victini|V-create|p1a: subscribe
+|-crit|p1a: subscribe
+|-damage|p1a: subscribe|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: subscribe
+|-damage|p2a: Victini|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640657225
+|switch|p1a: beast|Heracross, M|100/100
+|-damage|p1a: beast|88/100|[from] Spikes
+|turn|34
+|
+|t:|1640657231
+|move|p1a: beast|Megahorn|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|-ability|p1a: beast|Moxie|boost
+|-boost|p1a: beast|atk|1
+|
+|upkeep
+|c|☆ford focus 2021|wait
+|c|☆ford focus 2021|thats not ideal
+|
+|t:|1640657241
+|switch|p2a: Cofagrigus|Cofagrigus, F|40/100
+|turn|35
+|
+|t:|1640657255
+|move|p1a: beast|Megahorn|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|3/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Moxie|[of] p1a: beast
+|move|p2a: Cofagrigus|Trick Room|p2a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|10/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1640657258
+|move|p2a: Cofagrigus|Shadow Ball|p1a: beast
+|-damage|p1a: beast|47/100
+|move|p1a: beast|Megahorn|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|upkeep
+|
+|t:|1640657262
+|switch|p2a: Rhyperior|Rhyperior, F|94/100 tox
+|turn|37
+|
+|t:|1640657264
+|move|p2a: Rhyperior|Rock Blast|p1a: beast
+|-damage|p1a: beast|26/100
+|-damage|p1a: beast|6/100
+|-damage|p1a: beast|0 fnt
+|faint|p1a: beast
+|-hitcount|p1: beast|3
+|
+|win|ford focus 2021

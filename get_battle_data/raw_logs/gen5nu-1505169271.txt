@@ -1,0 +1,330 @@
+|j|☆Togkey
+|j|☆meri berry❧
+|t:|1644105662
+|gametype|singles
+|player|p1|Togkey|unknown|
+|player|p2|meri berry❧|#scl1platoon|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Camerupt, F|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Exeggutor, F|item
+|poke|p1|Kecleon, F|item
+|poke|p1|Musharna, M|item
+|poke|p1|Ursaring, M|item
+|poke|p2|Primeape, F|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, F|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|j|@quziel
+|j| brambane
+|j| Hydromancy
+|j|#poh
+|c|☆Togkey|hf
+|j| Segetarius
+|c|☆meri berry❧|u2
+|j| White Gehenna
+|c|#poh|the goons
+|
+|t:|1644105694
+|start
+|switch|p1a: Kecleon|Kecleon, F|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|1
+|c|☆meri berry❧|what the fuck this guy do
+|c|☆Togkey|win
+|
+|t:|1644105706
+|move|p1a: Kecleon|Magic Coat|p1a: Kecleon
+|-singleturn|p1a: Kecleon|move: Magic Coat
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|2
+|j| joey milktank
+|
+|t:|1644105710
+|move|p2a: Alomomola|Scald|p1a: Kecleon
+|-damage|p1a: Kecleon|89/100
+|-start|p1a: Kecleon|typechange|Water|[from] ability: Color Change
+|move|p1a: Kecleon|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: meri berry❧|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|c|☆meri berry❧|wtf
+|c|☆meri berry❧|he learns rocks
+|
+|t:|1644105726
+|move|p2a: Alomomola|Scald|p1a: Kecleon
+|-resisted|p1a: Kecleon
+|-damage|p1a: Kecleon|83/100
+|-status|p1a: Kecleon|brn
+|move|p1a: Kecleon|Trick Room|p1a: Kecleon
+|-fieldstart|move: Trick Room|[of] p1a: Kecleon
+|
+|-damage|p1a: Kecleon|70/100 brn|[from] brn
+|upkeep
+|turn|4
+|c|☆Togkey|no
+|
+|t:|1644105735
+|switch|p1a: Ursaring|Ursaring, M|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-status|p1a: Ursaring|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1644105739
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Ursaring|Swords Dance|p1a: Ursaring
+|-boost|p1a: Ursaring|atk|2
+|
+|-heal|p2a: Garbodor|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Ursaring|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1644105744
+|move|p1a: Ursaring|Facade|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Ursaring|70/100 tox|[from] ability: Aftermath|[of] p2a: Garbodor
+|-damage|p1a: Ursaring|53/100 tox|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|
+|-damage|p1a: Ursaring|41/100 tox|[from] psn
+|upkeep
+|
+|t:|1644105750
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1644105761
+|switch|p1a: Camerupt|Camerupt, F|100/100
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1644105766
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Camerupt|Earth Power|p2a: Alomomola
+|-damage|p2a: Alomomola|24/100
+|
+|-heal|p2a: Alomomola|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644105778
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|switch|p1a: Kecleon|Kecleon, F|70/100 brn
+|
+|-damage|p1a: Kecleon|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1644105783
+|move|p2a: Rotom|Trick|p1a: Kecleon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Kecleon
+|-item|p1a: Kecleon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Focus Sash|[from] move: Trick
+|move|p1a: Kecleon|Trick Room|p1a: Kecleon
+|-fieldstart|move: Trick Room|[of] p1a: Kecleon
+|
+|-damage|p1a: Kecleon|46/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1644105788
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Rotom|Blizzard|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|74/100
+|-enditem|p1a: Alomomola|Eject Button
+|
+|t:|1644105789
+|switch|p1a: Camerupt|Camerupt, F|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1644105798
+|move|p1a: Camerupt|Eruption|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1644105800
+|switch|p2a: Alomomola|Alomomola, F|63/100
+|-damage|p2a: Alomomola|51/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1644105804
+|move|p1a: Camerupt|Eruption|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|c|☆meri berry❧|hm
+|c|☆Togkey|camel
+|
+|t:|1644105813
+|switch|p2a: Skuntank|Skuntank, M|88/100
+|-damage|p2a: Skuntank|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644105814
+|move|p2a: Skuntank|Sucker Punch|p1a: Camerupt
+|-damage|p1a: Camerupt|49/100
+|move|p1a: Camerupt|Eruption|p2a: Skuntank
+|-damage|p2a: Skuntank|18/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|t:|1644105819
+|-activate|p1a: Camerupt|move: Pursuit
+|move|p2a: Skuntank|Pursuit|p1a: Camerupt|[from]Pursuit
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1644105821
+|switch|p1a: Kecleon|Kecleon, F|46/100 brn
+|turn|16
+|
+|t:|1644105824
+|move|p2a: Skuntank|Taunt|p1a: Kecleon
+|-start|p1a: Kecleon|move: Taunt
+|move|p1a: Kecleon|Double-Edge|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Kecleon|21/100 brn|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|-damage|p1a: Kecleon|15/100 brn|[from] Recoil
+|
+|-damage|p1a: Kecleon|2/100 brn|[from] brn
+|upkeep
+|
+|t:|1644105829
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1644105831
+|move|p2a: Golurk|Stealth Rock|p1a: Kecleon
+|-sidestart|p1: Togkey|move: Stealth Rock
+|move|p1a: Kecleon|Double-Edge|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|-heal|p2a: Golurk|100/100|[from] item: Leftovers
+|-damage|p1a: Kecleon|0 fnt|[from] brn
+|faint|p1a: Kecleon
+|upkeep
+|
+|t:|1644105833
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644105851
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|58/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|19
+|
+|t:|1644105858
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100
+|move|p1a: Alomomola|Toxic|p2a: Golurk
+|-status|p2a: Golurk|tox
+|
+|-heal|p1a: Alomomola|77/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Golurk|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1644105862
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Golurk|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Golurk|88/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1644105864
+|switch|p2a: Primeape|Primeape, F|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|97/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|22
+|
+|t:|1644105867
+|move|p2a: Primeape|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|23
+|c| joey milktank|how do people not know kecleon get's rocks smh shaking my head in disapproval
+|-message|meri berry❧ forfeited.
+|
+|win|Togkey
+|n|☆Togkey|togkey
+|n|☆meri berry❧|meriberry
+|n|%quziel|quziel
+|n| brambane|brambane
+|n| Hydromancy|hydromancy
+|n|+poh|poh
+|n| Segetarius|segetarius
+|n| White Gehenna|whitegehenna
+|n| joey milktank|joeymilktank
+|c|☆meri berry❧|gg
+|c|☆Togkey|did it not rock up in oras
+|c|☆Togkey|gg
+|l|☆Togkey
+|c|☆meri berry❧|i don't play oras
+|l| White Gehenna
+|c|☆meri berry❧|and it sucks there too
+|j|☆Togkey
+|player|p1|Togkey|unknown
+|l| Segetarius
+|c|☆meri berry❧|no matter how many ppl use it

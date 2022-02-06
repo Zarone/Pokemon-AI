@@ -1,0 +1,132 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644164537
+|gametype|singles
+|player|p1|starry|#starry|
+|player|p2|Bouff|battlegirl|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Breloom, M|item
+|poke|p1|Salamence, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Lucario, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Dragonite, M|item
+|teampreview
+|c|☆Bouff|hf bud - lets make this a good one for the fans!
+|c|~Finchinator|/log Bouff was muted by Finchinator for 7 minutes.
+|hidelines|unlink|bouff
+|c|+ALlCE|LMLAFO
+|c|+SweetPosho|link mannat stream
+|c|~Finchinator|/log Bouff was unmuted by Finchinator.
+|
+|t:|1644164564
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|t:|1644164581
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Bouff|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|95/100|[from] Hail
+|-damage|p2a: Gliscor|94/100|[from] Hail
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1644164605
+|move|p1a: Skarmory|Taunt|p2a: Gliscor
+|-start|p2a: Gliscor|move: Taunt
+|cant|p2a: Gliscor|move: Taunt|Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Skarmory|89/100|[from] Hail
+|-damage|p2a: Gliscor|88/100 tox|[from] Hail
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1644164610
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-sidestart|p2: Bouff|Spikes
+|move|p2a: Gliscor|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|85/100
+|
+|t:|1644164613
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|85/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|79/100|[from] Hail
+|-damage|p1a: Skarmory|79/100|[from] Hail
+|-heal|p2a: Excadrill|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644164632
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|93/100
+|-damage|p2a: Excadrill|73/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-sideend|p2: Bouff|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: Bouff|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|87/100|[from] Hail
+|-damage|p2a: Excadrill|66/100|[from] Hail
+|-heal|p2a: Excadrill|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644164640
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|move|p1a: Garchomp|Fire Fang|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|81/100|[from] Hail
+|upkeep
+|c|☆Bouff|yeah
+|c|☆starry|eat ass
+|c|+Luthier|,
+|c|☆Bouff|alright buddy.
+|c|+Luthier|LOL
+|c|☆Bouff|think youre so fucking cool
+|c|+ALlCE|beatdown
+|c|☆starry|im literally in ur head
+|c|☆Bouff|bruhj wat the fuck
+|c|☆Bouff|do i do
+|c|☆starry|turn around
+|c|☆starry|im behind u
+|c|☆Bouff|vs this thing
+|inactive|Bouff has 270 seconds left.
+|-message|Bouff forfeited.
+|
+|win|starry

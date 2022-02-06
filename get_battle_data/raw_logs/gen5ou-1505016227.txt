@@ -1,0 +1,128 @@
+|j|☆F1ying Gym Leader
+|j|☆rexxonmobile
+|t:|1644085830
+|gametype|singles
+|player|p1|F1ying Gym Leader|lucas|1000
+|player|p2|rexxonmobile|2|1223
+|teamsize|p1|5
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Gliscor, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Yanmega, M|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Crobat, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, F|item
+|poke|p2|Espeon, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Jolteon, F|item
+|teampreview
+|c|☆F1ying Gym Leader|are you here for your 5th gym badge?
+|
+|t:|1644085862
+|start
+|switch|p1a: Cronk|Crobat, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1644085894
+|move|p2a: Rotom|Trick|p1a: Cronk
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Cronk
+|-item|p1a: Cronk|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Focus Sash|[from] move: Trick
+|move|p1a: Cronk|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1644085909
+|switch|p1a: Flare|Aerodactyl, M|100/100
+|-ability|p1a: Flare|Pressure
+|move|p2a: Rotom|Volt Switch|p1a: Flare
+|-supereffective|p1a: Flare
+|-crit|p1a: Flare
+|-damage|p1a: Flare|0 fnt
+|faint|p1a: Flare
+|
+|t:|1644085926
+|switch|p2a: Jolteon|Jolteon, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1644085931
+|switch|p1a: Assault|Yanmega, M|100/100
+|turn|3
+|
+|t:|1644085936
+|move|p2a: Jolteon|Thunderbolt|p1a: Assault
+|-supereffective|p1a: Assault
+|-damage|p1a: Assault|0 fnt
+|faint|p1a: Assault
+|
+|upkeep
+|
+|t:|1644085943
+|switch|p1a: Dom|Charizard, M|100/100
+|turn|4
+|
+|t:|1644085946
+|move|p2a: Jolteon|Thunderbolt|p1a: Dom
+|-supereffective|p1a: Dom
+|-damage|p1a: Dom|0 fnt
+|faint|p1a: Dom
+|
+|upkeep
+|
+|t:|1644085951
+|switch|p1a: Ace|Gliscor, M, shiny|100/100
+|turn|5
+|
+|t:|1644085956
+|switch|p1a: Cronk|Crobat, M|100/100
+|move|p2a: Jolteon|Hidden Power|p1a: Cronk
+|-supereffective|p1a: Cronk
+|-damage|p1a: Cronk|30/100
+|
+|upkeep
+|turn|6
+|
+|t:|1644085964
+|move|p1a: Cronk|Dark Pulse|p2a: Jolteon
+|-damage|p2a: Jolteon|76/100
+|move|p2a: Jolteon|Hidden Power|p1a: Cronk
+|-supereffective|p1a: Cronk
+|-damage|p1a: Cronk|0 fnt
+|faint|p1a: Cronk
+|
+|upkeep
+|c|☆F1ying Gym Leader|get ready for my ace gliscor
+|
+|t:|1644085993
+|switch|p1a: Ace|Gliscor, M, shiny|100/100
+|turn|7
+|
+|t:|1644085997
+|move|p2a: Jolteon|Hidden Power|p1a: Ace
+|-supereffective|p1a: Ace
+|-damage|p1a: Ace|0 fnt
+|faint|p1a: Ace
+|
+|win|rexxonmobile
+|raw|F1ying Gym Leader's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|rexxonmobile's rating: 1223 &rarr; <strong>1234</strong><br />(+11 for winning)

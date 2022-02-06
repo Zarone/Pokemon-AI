@@ -1,0 +1,466 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1638134088
+|gametype|singles
+|player|p1|Mr.378|gambler|
+|player|p2|Shiba|#xshiba|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heracross, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Slowbro, F|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Clefable, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Raikou|item
+|poke|p2|Flygon, M|item
+|teampreview
+|c|+BluBirD|MR GOAT
+|c|☆Mr.378|Hf
+|c|☆Shiba|u2
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1638134140
+|start
+|switch|p1a: Crobat|Crobat, M|100/100
+|switch|p2a: HURRICANE|Roserade, F|100/100
+|turn|1
+|
+|t:|1638134154
+|switch|p2a: F STRETCH MY HANDS|Raikou|100/100
+|-ability|p2a: F STRETCH MY HANDS|Pressure
+|move|p1a: Crobat|Brave Bird|p2a: F STRETCH MY HANDS
+|-resisted|p2a: F STRETCH MY HANDS
+|-damage|p2a: F STRETCH MY HANDS|71/100
+|-damage|p1a: Crobat|91/100|[from] Recoil
+|
+|-heal|p1a: Crobat|98/100|[from] item: Black Sludge
+|-heal|p2a: F STRETCH MY HANDS|77/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1638134159
+|move|p2a: F STRETCH MY HANDS|Protect|p2a: F STRETCH MY HANDS
+|-singleturn|p2a: F STRETCH MY HANDS|Protect
+|move|p1a: Crobat|U-turn|p2a: F STRETCH MY HANDS
+|-activate|p2a: F STRETCH MY HANDS|move: Protect
+|
+|-heal|p1a: Crobat|100/100|[from] item: Black Sludge
+|-heal|p2a: F STRETCH MY HANDS|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1638134201
+|move|p1a: Crobat|U-turn|p2a: F STRETCH MY HANDS
+|-damage|p2a: F STRETCH MY HANDS|58/100
+|
+|t:|1638134205
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p2a: F STRETCH MY HANDS|Calm Mind|p2a: F STRETCH MY HANDS
+|-boost|p2a: F STRETCH MY HANDS|spa|1
+|-boost|p2a: F STRETCH MY HANDS|spd|1
+|
+|-heal|p2a: F STRETCH MY HANDS|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1638134231
+|move|p2a: F STRETCH MY HANDS|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|56/100
+|move|p1a: Clefable|Encore|p2a: F STRETCH MY HANDS
+|-start|p2a: F STRETCH MY HANDS|Encore
+|
+|-heal|p2a: F STRETCH MY HANDS|71/100|[from] item: Leftovers
+|-heal|p1a: Clefable|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1638134249
+|switch|p2a: HURRICANE|Roserade, F|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: HURRICANE
+|-sidestart|p2: Shiba|move: Stealth Rock
+|
+|-heal|p1a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1638134256
+|switch|p1a: Crobat|Crobat, M|100/100
+|move|p2a: HURRICANE|Spikes|p1a: Crobat
+|-sidestart|p1: Mr.378|Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1638134269
+|switch|p2a: F STRETCH MY HANDS|Raikou|71/100
+|-damage|p2a: F STRETCH MY HANDS|58/100|[from] Stealth Rock
+|-ability|p2a: F STRETCH MY HANDS|Pressure
+|move|p1a: Crobat|Brave Bird|p2a: F STRETCH MY HANDS
+|-resisted|p2a: F STRETCH MY HANDS
+|-damage|p2a: F STRETCH MY HANDS|29/100
+|-damage|p1a: Crobat|92/100|[from] Recoil
+|
+|-heal|p1a: Crobat|98/100|[from] item: Black Sludge
+|-heal|p2a: F STRETCH MY HANDS|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1638134282
+|move|p1a: Crobat|U-turn|p2a: F STRETCH MY HANDS
+|-damage|p2a: F STRETCH MY HANDS|10/100
+|
+|t:|1638134285
+|switch|p1a: Krookodile|Krookodile, M|100/100|[from]move: U-turn
+|-damage|p1a: Krookodile|88/100|[from] Spikes
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: F STRETCH MY HANDS|atk|1
+|move|p2a: F STRETCH MY HANDS|Hidden Power|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|30/100
+|
+|-heal|p2a: F STRETCH MY HANDS|16/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1638134292
+|move|p2a: F STRETCH MY HANDS|Protect|p2a: F STRETCH MY HANDS
+|-singleturn|p2a: F STRETCH MY HANDS|Protect
+|move|p1a: Krookodile|Pursuit|p2a: F STRETCH MY HANDS
+|-activate|p2a: F STRETCH MY HANDS|move: Protect
+|
+|-heal|p2a: F STRETCH MY HANDS|23/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1638134295
+|move|p1a: Krookodile|Pursuit|p2a: F STRETCH MY HANDS
+|-damage|p2a: F STRETCH MY HANDS|0 fnt
+|faint|p2a: F STRETCH MY HANDS
+|
+|upkeep
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1638134308
+|switch|p2a: PRAISE GOD|Druddigon, M|100/100
+|-damage|p2a: PRAISE GOD|88/100|[from] Stealth Rock
+|-ability|p2a: PRAISE GOD|Mold Breaker
+|turn|11
+|
+|t:|1638134318
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|-damage|p1a: Ferroseed|88/100|[from] Spikes
+|move|p2a: PRAISE GOD|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: Mr.378|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1638134333
+|move|p2a: PRAISE GOD|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|59/100
+|move|p1a: Ferroseed|Spikes|p2a: PRAISE GOD
+|-sidestart|p2: Shiba|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1638134341
+|switch|p2a: HURRICANE|Roserade, F|100/100
+|-damage|p2a: HURRICANE|88/100|[from] Spikes
+|-damage|p2a: HURRICANE|76/100|[from] Stealth Rock
+|move|p1a: Ferroseed|Spikes|p2a: HURRICANE
+|-sidestart|p2: Shiba|Spikes
+|
+|-heal|p2a: HURRICANE|82/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1638134345
+|move|p2a: HURRICANE|Spikes|p1a: Ferroseed
+|-sidestart|p1: Mr.378|Spikes
+|move|p1a: Ferroseed|Spikes|p2a: HURRICANE
+|-sidestart|p2: Shiba|Spikes
+|
+|-heal|p2a: HURRICANE|88/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1638134348
+|move|p2a: HURRICANE|Spikes|p1a: Ferroseed
+|-sidestart|p1: Mr.378|Spikes
+|move|p1a: Ferroseed|Gyro Ball|p2a: HURRICANE
+|-damage|p2a: HURRICANE|38/100
+|
+|-heal|p2a: HURRICANE|44/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1638134350
+|move|p2a: HURRICANE|Synthesis|p2a: HURRICANE
+|-heal|p2a: HURRICANE|94/100
+|move|p1a: Ferroseed|Gyro Ball|p2a: HURRICANE
+|-crit|p2a: HURRICANE
+|-damage|p2a: HURRICANE|0 fnt
+|faint|p2a: HURRICANE
+|
+|upkeep
+|
+|t:|1638134379
+|switch|p2a: WAVES|Flygon, M|100/100
+|-damage|p2a: WAVES|95/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1638134387
+|move|p2a: WAVES|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|22/100
+|move|p1a: Ferroseed|Leech Seed|p2a: WAVES
+|-start|p2a: WAVES|move: Leech Seed
+|
+|-damage|p2a: WAVES|82/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|34/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1638134400
+|move|p2a: WAVES|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1638134403
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|-damage|p1a: Heracross|63/100|[from] Spikes
+|turn|19
+|
+|t:|1638134412
+|switch|p2a: JAIL|Cofagrigus, F|100/100
+|-damage|p2a: JAIL|88/100|[from] Stealth Rock
+|-damage|p2a: JAIL|64/100|[from] Spikes
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|-heal|p1a: Heracross|69/100|[from] item: Leftovers
+|-heal|p2a: JAIL|69/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1638134422
+|move|p1a: Heracross|Megahorn|p2a: JAIL|[miss]
+|-miss|p1a: Heracross|p2a: JAIL
+|move|p2a: JAIL|Shadow Ball|p1a: Heracross
+|-damage|p1a: Heracross|28/100
+|
+|-heal|p1a: Heracross|34/100|[from] item: Leftovers
+|-heal|p2a: JAIL|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1638134426
+|move|p1a: Heracross|Megahorn|p2a: JAIL
+|-resisted|p2a: JAIL
+|-damage|p2a: JAIL|25/100
+|-activate|p2a: JAIL|ability: Mummy|Guts|[of] p1a: Heracross
+|move|p2a: JAIL|Shadow Ball|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-heal|p2a: JAIL|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1638134436
+|switch|p1a: Crobat|Crobat, M|98/100
+|-damage|p1a: Crobat|73/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1638134444
+|move|p1a: Crobat|Brave Bird|p2a: JAIL
+|-damage|p2a: JAIL|0 fnt
+|-activate|p2a: JAIL|ability: Mummy|Inner Focus|[of] p1a: Crobat
+|faint|p2a: JAIL
+|-damage|p1a: Crobat|64/100|[from] Recoil
+|
+|-heal|p1a: Crobat|70/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1638134468
+|switch|p2a: WAVES|Flygon, M|82/100
+|-damage|p2a: WAVES|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1638134475
+|move|p2a: WAVES|Outrage|p1a: Crobat
+|-damage|p1a: Crobat|8/100
+|-activate|p1a: Crobat|ability: Mummy|Levitate|[of] p2a: WAVES
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|59/100
+|-singleturn|p1a: Crobat|move: Roost
+|
+|-heal|p1a: Crobat|65/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1638134484
+|switch|p1a: Krookodile|Krookodile, M|30/100
+|-damage|p1a: Krookodile|5/100|[from] Spikes
+|-damage|p1a: Krookodile|0 fnt|[from] Stealth Rock
+|faint|p1a: Krookodile
+|move|p2a: WAVES|Outrage|p1: Krookodile|[from]lockedmove|[notarget]
+|-fail|p2a: WAVES
+|-start|p2a: WAVES|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1638134491
+|switch|p1a: Clefable|Clefable, F|68/100
+|turn|25
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1638134532
+|-activate|p2a: WAVES|confusion
+|move|p2a: WAVES|Outrage|p1a: Clefable
+|-damage|p1a: Clefable|7/100
+|move|p1a: Clefable|Seismic Toss|p2a: WAVES
+|-damage|p2a: WAVES|43/100
+|-activate|p2a: WAVES|ability: Mummy|Magic Guard|[of] p1a: Clefable
+|
+|-heal|p1a: Clefable|13/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1638134548
+|-activate|p2a: WAVES|confusion
+|-damage|p2a: WAVES|27/100|[from] confusion
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|63/100
+|
+|-heal|p1a: Clefable|70/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1638134556
+|-activate|p2a: WAVES|confusion
+|-damage|p2a: WAVES|9/100|[from] confusion
+|move|p1a: Clefable|Seismic Toss|p2a: WAVES
+|-damage|p2a: WAVES|0 fnt
+|faint|p2a: WAVES
+|
+|-heal|p1a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1638134591
+|switch|p2a: PRAISE GOD|Druddigon, M|88/100
+|-damage|p2a: PRAISE GOD|63/100|[from] Spikes
+|-damage|p2a: PRAISE GOD|51/100|[from] Stealth Rock
+|-ability|p2a: PRAISE GOD|Mold Breaker
+|turn|28
+|
+|t:|1638134598
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|76/100|[from] Spikes
+|-damage|p1a: Slowbro|63/100|[from] Stealth Rock
+|move|p2a: PRAISE GOD|Outrage|p1a: Slowbro
+|-enditem|p2a: PRAISE GOD|Dragon Gem|[from] gem
+|-damage|p1a: Slowbro|2/100
+|
+|-heal|p1a: Slowbro|8/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1638134608
+|move|p2a: PRAISE GOD|Outrage|p1a: Slowbro|[from]lockedmove
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|-start|p2a: PRAISE GOD|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1638134612
+|switch|p1a: Clefable|Clefable, F|76/100
+|turn|30
+|
+|t:|1638134627
+|-activate|p2a: PRAISE GOD|confusion
+|-damage|p2a: PRAISE GOD|34/100|[from] confusion
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|
+|upkeep
+|turn|31
+|
+|t:|1638134634
+|-end|p2a: PRAISE GOD|confusion
+|move|p2a: PRAISE GOD|Outrage|p1a: Clefable
+|-damage|p1a: Clefable|32/100
+|move|p1a: Clefable|Seismic Toss|p2a: PRAISE GOD
+|-damage|p2a: PRAISE GOD|4/100
+|
+|-heal|p1a: Clefable|39/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1638134639
+|move|p2a: PRAISE GOD|Outrage|p1a: Clefable|[from]lockedmove
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-start|p2a: PRAISE GOD|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1638134641
+|switch|p1a: Crobat|Crobat, M|65/100
+|-damage|p1a: Crobat|40/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1638134643
+|move|p1a: Crobat|Roost|p1a: Crobat
+|-heal|p1a: Crobat|90/100
+|-singleturn|p1a: Crobat|move: Roost
+|-activate|p2a: PRAISE GOD|confusion
+|-damage|p2a: PRAISE GOD|0 fnt|[from] confusion
+|faint|p2a: PRAISE GOD
+|
+|-heal|p1a: Crobat|96/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1638134649
+|switch|p2a: OFF THE GRID|Weavile, F, shiny|100/100
+|-damage|p2a: OFF THE GRID|76/100|[from] Stealth Rock
+|-damage|p2a: OFF THE GRID|51/100|[from] Spikes
+|turn|34
+|
+|t:|1638134651
+|move|p2a: OFF THE GRID|Ice Shard|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|53/100
+|move|p1a: Crobat|Brave Bird|p2a: OFF THE GRID
+|-damage|p2a: OFF THE GRID|0 fnt
+|faint|p2a: OFF THE GRID
+|-damage|p1a: Crobat|40/100|[from] Recoil
+|
+|win|Mr.378
+|c|☆Shiba|.
+|c|☆Shiba|this sucked
+|c|☆Shiba|gg
+|c|☆Mr.378|Gg
+|player|p1|Mr.378|gambler

@@ -1,0 +1,1187 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640660626
+|gametype|singles
+|player|p1|ninjadog|jasmine|
+|player|p2|pkmn cypher 2013|dawn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gligar, M|item
+|poke|p1|Heracross, F|item
+|poke|p1|Raikou|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Umbreon, M|item
+|poke|p1|Zapdos|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Xatu, F|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Suicune|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Raikou|item
+|teampreview
+|inactive|ninjadog has 270 seconds left.
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|inactive|pkmn cypher 2013 has 210 seconds left.
+|
+|t:|1640660720
+|start
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|1
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|inactive|ninjadog has 270 seconds left.
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1640660794
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Togekiss
+|-damage|p1a: Togekiss|73/100
+|
+|-heal|p1a: Togekiss|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|inactive|ninjadog has 210 seconds left.
+|
+|t:|1640660845
+|move|p1a: Togekiss|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Togekiss
+|-damage|p1a: Togekiss|51/100
+|-status|p1a: Togekiss|par
+|
+|-heal|p1a: Togekiss|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|ninjadog has 210 seconds left.
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|
+|t:|1640660857
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|upkeep
+|turn|4
+|inactive|ninjadog has 210 seconds left.
+|
+|t:|1640660896
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Empoleon|Stealth Rock|p1a: Raikou
+|-sidestart|p1: ninjadog|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1640660909
+|switch|p2a: Snorlax|Snorlax, M|100/100 par
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|upkeep
+|turn|6
+|inactive|ninjadog has 180 seconds left.
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640660965
+|move|p1a: Raikou|Aura Sphere|p2a: Snorlax
+|-enditem|p1a: Raikou|Fighting Gem|[from] gem
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|20/100 par
+|move|p2a: Snorlax|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|24/100
+|
+|-heal|p2a: Snorlax|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|ninjadog has 150 seconds left.
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|inactive|pkmn cypher 2013 has 210 seconds left.
+|
+|t:|1640661029
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Raikou|Aura Sphere|p2a: Raikou
+|-damage|p2a: Raikou|53/100
+|
+|upkeep
+|turn|8
+|inactive|ninjadog has 150 seconds left.
+|inactive|pkmn cypher 2013 has 210 seconds left.
+|
+|t:|1640661051
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Raikou|Thunderbolt|p1a: Umbreon
+|-damage|p1a: Umbreon|60/100
+|
+|-heal|p1a: Umbreon|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1640661058
+|move|p2a: Raikou|Volt Switch|p1a: Umbreon
+|-damage|p1a: Umbreon|45/100
+|
+|t:|1640661072
+|switch|p2a: Empoleon|Empoleon, M|100/100|[from]move: Volt Switch
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640661090
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1: Togekiss|par|[msg]
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Empoleon
+|
+|-heal|p1a: Umbreon|100/100 tox|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|ninjadog has 150 seconds left.
+|inactive|pkmn cypher 2013 has 210 seconds left.
+|
+|t:|1640661115
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|tox|[msg]
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Empoleon
+|
+|-heal|p1a: Umbreon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1640661128
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|tox|[msg]
+|move|p2a: Empoleon|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|79/100
+|
+|-heal|p1a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1640661173
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|move|p2a: Empoleon|Toxic|p1a: Heracross
+|-status|p1a: Heracross|tox
+|
+|-heal|p1a: Heracross|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Heracross|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|ninjadog has 90 seconds left.
+|inactive|pkmn cypher 2013 has 210 seconds left.
+|
+|t:|1640661226
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Heracross|Megahorn|p2a: Xatu
+|-damage|p2a: Xatu|15/100
+|-damage|p1a: Heracross|72/100 tox|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|-heal|p1a: Heracross|78/100 tox|[from] item: Leftovers
+|-damage|p1a: Heracross|66/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1640661249
+|move|p1a: Heracross|Close Combat|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|-damage|p1a: Heracross|49/100 tox|[from] item: Rocky Helmet|[of] p2a: Xatu
+|faint|p2a: Xatu
+|
+|-heal|p1a: Heracross|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Heracross|37/100 tox|[from] psn
+|upkeep
+|inactive|pkmn cypher 2013 has 180 seconds left.
+|
+|t:|1640661271
+|switch|p2a: Raikou|Raikou|53/100
+|-ability|p2a: Raikou|Pressure
+|turn|16
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1640661301
+|switch|p1a: Umbreon|Umbreon, M|85/100
+|-damage|p1a: Umbreon|73/100|[from] Stealth Rock
+|move|p2a: Raikou|Volt Switch|p1a: Umbreon
+|-damage|p1a: Umbreon|51/100
+|inactive|pkmn cypher 2013 has 180 seconds left.
+|
+|t:|1640661320
+|switch|p2a: Suicune|Suicune|100/100|[from]move: Volt Switch
+|-ability|p2a: Suicune|Pressure
+|
+|-heal|p1a: Umbreon|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1640661324
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1640661338
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|pkmn cypher 2013 has 180 seconds left.
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1640661392
+|move|p1a: Zapdos|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|-damage|p1a: Zapdos|66/100|[from] item: Life Orb
+|move|p2a: Suicune|Scald|p1a: Zapdos
+|-damage|p1a: Zapdos|36/100
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1640661420
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|86/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1640661437
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|move|p2a: Krookodile|Crunch|p1a: Gligar
+|-damage|p1a: Gligar|69/100
+|
+|upkeep
+|turn|22
+|inactive|ninjadog has 60 seconds left.
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1640661471
+|switch|p2a: Suicune|Suicune|94/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Gligar|Stealth Rock|p2a: Suicune
+|-sidestart|p2: pkmn cypher 2013|move: Stealth Rock
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|ninjadog has 60 seconds left.
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1640661484
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|move|p1a: Gligar|U-turn|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|t:|1640661497
+|switch|p1a: Togekiss|Togekiss, M|100/100|[from]move: U-turn
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1640661502
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1640661507
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1640661521
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|69/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1640661529
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-crit|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|81/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1640661537
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|87/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|
+|t:|1640661617
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-damage|p2a: Suicune|64/100
+|
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1640661624
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|46/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p2a: Suicune|52/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1640661630
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1640661641
+|move|p2a: Suicune|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|42/100
+|-status|p1a: Togekiss|brn
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|64/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Togekiss|36/100 brn|[from] brn
+|upkeep
+|turn|33
+|inactive|ninjadog has 120 seconds left.
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|inactive|ninjadog has 90 seconds left.
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1640661716
+|move|p2a: Suicune|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|upkeep
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1640661735
+|switch|p1a: Heracross|Heracross, F|37/100 tox
+|-damage|p1a: Heracross|25/100 tox|[from] Stealth Rock
+|turn|34
+|inactive|ninjadog has 60 seconds left.
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1640661750
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Heracross|Close Combat|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p1a: Heracross|31/100 tox|[from] item: Leftovers
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|-damage|p1a: Heracross|25/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|ninjadog has 60 seconds left.
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|
+|t:|1640661793
+|switch|p2a: Snorlax|Snorlax, M|26/100 par
+|-damage|p2a: Snorlax|14/100 par|[from] Stealth Rock
+|move|p1a: Heracross|Close Combat|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Heracross|31/100 tox|[from] item: Leftovers
+|-damage|p1a: Heracross|19/100 tox|[from] psn
+|upkeep
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|inactive|pkmn cypher 2013 has 20 seconds left.
+|inactive|pkmn cypher 2013 has 15 seconds left.
+|
+|t:|1640661813
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Heracross|atk|1
+|turn|36
+|inactive|pkmn cypher 2013 has 25 seconds left this turn.
+|inactive|pkmn cypher 2013 has 20 seconds left.
+|inactive|pkmn cypher 2013 has 15 seconds left.
+|
+|t:|1640661824
+|switch|p1a: Gligar|Gligar, M|69/100
+|-damage|p1a: Gligar|57/100|[from] Stealth Rock
+|move|p2a: Krookodile|Crunch|p1a: Gligar
+|-damage|p1a: Gligar|36/100
+|-unboost|p1a: Gligar|def|1
+|
+|upkeep
+|turn|37
+|inactive|pkmn cypher 2013 has 25 seconds left this turn.
+|inactive|pkmn cypher 2013 has 20 seconds left.
+|
+|t:|1640661836
+|move|p2a: Krookodile|Crunch|p1a: Gligar
+|-damage|p1a: Gligar|5/100
+|move|p1a: Gligar|U-turn|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|57/100
+|inactive|pkmn cypher 2013 has 25 seconds left this turn.
+|
+|t:|1640661840
+|switch|p1a: Umbreon|Umbreon, M|57/100|[from]move: U-turn
+|-damage|p1a: Umbreon|45/100|[from] Stealth Rock
+|
+|-heal|p1a: Umbreon|51/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|
+|t:|1640661852
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|57/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|ninjadog has 90 seconds left.
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|inactive|ninjadog has 60 seconds left.
+|
+|t:|1640661896
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Empoleon|Scald|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|40
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|
+|t:|1640661914
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Empoleon
+|
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|41
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|
+|t:|1640661927
+|switch|p1a: Zapdos|Zapdos|86/100
+|-damage|p1a: Zapdos|62/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Empoleon|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p1a: Zapdos|100/100 tox|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|42
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|
+|t:|1640661946
+|switch|p1a: Umbreon|Umbreon, M|94/100 tox
+|-damage|p1a: Umbreon|82/100 tox|[from] Stealth Rock
+|move|p2a: Empoleon|Protect||[still]
+|-fail|p2a: Empoleon
+|
+|-heal|p1a: Umbreon|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|82/100 tox|[from] psn
+|upkeep
+|turn|43
+|inactive|pkmn cypher 2013 has 30 seconds left.
+|
+|t:|1640661952
+|switch|p2a: Suicune|Suicune|76/100
+|-damage|p2a: Suicune|64/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|tox|[msg]
+|-curestatus|p1: Zapdos|tox|[msg]
+|-curestatus|p1: Heracross|tox|[msg]
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1640661963
+|switch|p1a: Zapdos|Zapdos|94/100
+|-damage|p1a: Zapdos|69/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|45/100
+|
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1640661970
+|move|p1a: Zapdos|Thunderbolt|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|-damage|p1a: Zapdos|59/100|[from] item: Life Orb
+|move|p2a: Suicune|Scald|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|
+|-heal|p2a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1640661992
+|switch|p2a: Raikou|Raikou|53/100
+|-damage|p2a: Raikou|41/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|80/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|47
+|inactive|ninjadog has 90 seconds left.
+|
+|t:|1640662010
+|switch|p1a: Gligar|Gligar, M|5/100
+|-damage|p1a: Gligar|0 fnt|[from] Stealth Rock
+|faint|p1a: Gligar
+|move|p2a: Raikou|Thunderbolt|p1: Gligar|[notarget]
+|-fail|p2a: Raikou
+|
+|upkeep
+|
+|t:|1640662013
+|switch|p1a: Umbreon|Umbreon, M|88/100
+|-damage|p1a: Umbreon|76/100|[from] Stealth Rock
+|turn|48
+|
+|t:|1640662018
+|move|p2a: Raikou|Volt Switch|p1a: Umbreon
+|-damage|p1a: Umbreon|54/100
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1640662030
+|switch|p2a: Empoleon|Empoleon, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|60/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1640662038
+|move|p1a: Umbreon|Foul Play|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|90/100
+|move|p2a: Empoleon|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|43/100
+|
+|-heal|p1a: Umbreon|93/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|99/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|96/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1640662046
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Empoleon
+|
+|-heal|p1a: Umbreon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|51
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1640662067
+|switch|p1a: Zapdos|Zapdos|80/100
+|-damage|p1a: Zapdos|55/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Empoleon|Scald|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1640662085
+|switch|p1a: Heracross|Heracross, F|19/100
+|-damage|p1a: Heracross|6/100|[from] Stealth Rock
+|turn|52
+|
+|t:|1640662099
+|switch|p2a: Raikou|Raikou|41/100
+|-damage|p2a: Raikou|29/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Heracross|Close Combat|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Raikou
+|
+|-heal|p1a: Heracross|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640662102
+|switch|p2a: Krookodile|Krookodile, M|57/100
+|-damage|p2a: Krookodile|51/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Heracross|atk|1
+|turn|53
+|
+|t:|1640662114
+|move|p2a: Krookodile|Earthquake|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+|
+|t:|1640662116
+|switch|p1a: Umbreon|Umbreon, M|94/100 tox
+|-damage|p1a: Umbreon|82/100 tox|[from] Stealth Rock
+|turn|54
+|
+|t:|1640662125
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|-damage|p1a: Umbreon|82/100 tox|[from] psn
+|upkeep
+|turn|55
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640662131
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|tox|[msg]
+|move|p2a: Empoleon|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|65/100
+|-status|p1a: Umbreon|brn
+|-activate|p1a: Umbreon|ability: Synchronize
+|-status|p2a: Empoleon|brn
+|
+|-heal|p1a: Umbreon|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Umbreon|88/100 brn|[from] brn
+|-damage|p2a: Empoleon|88/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1640662140
+|switch|p2a: Suicune|Suicune|58/100
+|-damage|p2a: Suicune|45/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Suicune|51/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Umbreon|82/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1640662153
+|move|p2a: Suicune|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|69/100 brn
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|brn|[msg]
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1640662156
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|33/100
+|move|p1a: Umbreon|Foul Play|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|39/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1640662158
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Umbreon|Foul Play|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|45/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1640662172
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|20/100
+|move|p1a: Umbreon|Foul Play|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|26/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1640662176
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Umbreon|Foul Play|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|32/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1640662183
+|move|p2a: Suicune|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|80/100
+|-status|p1a: Umbreon|brn
+|-activate|p1a: Umbreon|ability: Synchronize
+|-status|p2a: Suicune|brn
+|move|p1a: Umbreon|Foul Play|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|39/100 brn|[from] item: Leftovers
+|-heal|p1a: Umbreon|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Suicune|26/100 brn|[from] brn
+|-damage|p1a: Umbreon|74/100 brn|[from] brn
+|upkeep
+|turn|63
+|inactive|ninjadog has 210 seconds left.
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1640662231
+|move|p2a: Suicune|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|52/100 brn
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Suicune|32/100 brn|[from] item: Leftovers
+|-heal|p1a: Umbreon|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Suicune|20/100 brn|[from] brn
+|-damage|p1a: Umbreon|46/100 brn|[from] brn
+|upkeep
+|turn|64
+|inactive|ninjadog has 210 seconds left.
+|
+|t:|1640662266
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Umbreon|96/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Suicune|26/100 brn|[from] item: Leftovers
+|-heal|p1a: Umbreon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Suicune|14/100 brn|[from] brn
+|-damage|p1a: Umbreon|88/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|t:|1640662275
+|move|p2a: Suicune|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|61/100 brn
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Suicune|20/100 brn|[from] item: Leftovers
+|-heal|p1a: Umbreon|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Suicune|8/100 brn|[from] brn
+|-damage|p1a: Umbreon|55/100 brn|[from] brn
+|upkeep
+|turn|66
+|inactive|ninjadog has 210 seconds left.
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1640662348
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Suicune|Scald|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Suicune|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Suicune|1/100 brn|[from] brn
+|-damage|p1a: Umbreon|88/100 brn|[from] brn
+|upkeep
+|turn|67
+|inactive|ninjadog has 210 seconds left.
+|
+|t:|1640662377
+|move|p2a: Suicune|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|61/100 brn
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Suicune|8/100 brn|[from] item: Leftovers
+|-heal|p1a: Umbreon|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Suicune|0 fnt|[from] brn
+|faint|p2a: Suicune
+|-damage|p1a: Umbreon|55/100 brn|[from] brn
+|upkeep
+|
+|t:|1640662382
+|switch|p2a: Krookodile|Krookodile, M|51/100
+|-damage|p2a: Krookodile|45/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|turn|68
+|
+|t:|1640662396
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Umbreon|88/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|t:|1640662408
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-damage|p1a: Umbreon|48/100 brn
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Umbreon|42/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1640662411
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|92/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|98/100 brn|[from] item: Leftovers
+|-damage|p1a: Umbreon|86/100 brn|[from] brn
+|upkeep
+|turn|71
+|inactive|ninjadog has 210 seconds left.
+|inactive|ninjadog has 180 seconds left.
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640662502
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-damage|p1a: Umbreon|45/100 brn
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|brn|[msg]
+|
+|-heal|p1a: Umbreon|52/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1640662509
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-damage|p1a: Umbreon|15/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|21/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1640662531
+|switch|p2a: Empoleon|Empoleon, M|88/100 brn
+|-damage|p2a: Empoleon|82/100 brn|[from] Stealth Rock
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|71/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|77/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|76/100 brn|[from] brn
+|upkeep
+|turn|74
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640662542
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|83/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|70/100 brn|[from] brn
+|upkeep
+|turn|75
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640662566
+|move|p1a: Umbreon|Foul Play|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|59/100 brn
+|move|p2a: Empoleon|Toxic|p1a: Umbreon|[miss]
+|-miss|p2a: Empoleon|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|89/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|53/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|t:|1640662571
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|95/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|47/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|t:|1640662579
+|move|p1a: Umbreon|Foul Play|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|37/100 brn
+|move|p2a: Empoleon|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|79/100
+|
+|-heal|p1a: Umbreon|85/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|43/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|31/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|t:|1640662585
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|37/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|24/100 brn|[from] brn
+|upkeep
+|turn|79
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1640662626
+|switch|p1a: Raikou|Raikou, shiny|24/100
+|-damage|p1a: Raikou|12/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Empoleon|Toxic|p1a: Raikou
+|-status|p1a: Raikou|tox
+|
+|-heal|p2a: Empoleon|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Raikou|6/100 tox|[from] psn
+|-damage|p2a: Empoleon|18/100 brn|[from] brn
+|upkeep
+|turn|80
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|
+|t:|1640662656
+|move|p2a: Empoleon|Protect|p2a: Empoleon
+|-singleturn|p2a: Empoleon|Protect
+|move|p1a: Raikou|Aura Sphere|p2a: Empoleon
+|-activate|p2a: Empoleon|move: Protect
+|
+|-heal|p2a: Empoleon|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Raikou|0 fnt|[from] psn
+|faint|p1a: Raikou
+|-damage|p2a: Empoleon|12/100 brn|[from] brn
+|upkeep
+|
+|t:|1640662659
+|switch|p1a: Umbreon|Umbreon, M|91/100
+|-damage|p1a: Umbreon|79/100|[from] Stealth Rock
+|turn|81
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|
+|t:|1640662669
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Empoleon|Toxic|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|85/100|[from] item: Leftovers
+|-heal|p2a: Empoleon|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Empoleon|6/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|t:|1640662675
+|move|p1a: Umbreon|Foul Play|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640662678
+|switch|p2a: Krookodile|Krookodile, M|45/100
+|-damage|p2a: Krookodile|39/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|turn|83
+|
+|t:|1640662681
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|97/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|t:|1640662689
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|20/100
+|move|p1a: Umbreon|Foul Play|p2a: Krookodile
+|-resisted|p2a: Krookodile
+|-damage|p2a: Krookodile|9/100
+|
+|-heal|p1a: Umbreon|26/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|inactive|ninjadog has 180 seconds left.
+|
+|t:|1640662695
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|32/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|t:|1640662705
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|win|pkmn cypher 2013

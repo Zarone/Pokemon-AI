@@ -1,0 +1,350 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1629569452
+|gametype|singles
+|player|p1|Heysup|chuck|
+|player|p2|iss|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Carvanha, L5, F|item
+|poke|p1|Wynaut, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Ferroseed, L5, F|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Hippopotas, L5, F|item
+|poke|p2|Lileep, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, M|item
+|teampreview
+|inactive|Heysup has 270 seconds left.
+|inactive|iss has 270 seconds left.
+|c|☆iss|gl!
+|c|☆Heysup|u 2
+|c|+phosphor|GOD HEYSUP
+|
+|t:|1629569509
+|start
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|1
+|
+|t:|1629569533
+|switch|p2a: Hippopotas|Hippopotas, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|move|p1a: Gastly|Shadow Ball|p2a: Hippopotas
+|-damage|p2a: Hippopotas|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|96/100|[from] Sandstorm
+|-heal|p1a: Gastly|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|inactive|iss has 270 seconds left.
+|
+|t:|1629569565
+|switch|p1a: Ferroseed|Ferroseed, L5, F|100/100
+|move|p2a: Hippopotas|Slack Off|p2a: Hippopotas
+|-heal|p2a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|inactive|iss has 270 seconds left.
+|
+|t:|1629569573
+|move|p2a: Hippopotas|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: Heysup|move: Stealth Rock
+|move|p1a: Ferroseed|Spikes|p2a: Hippopotas
+|-sidestart|p2: iss|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1629569582
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|91/100|[from] Spikes
+|move|p1a: Ferroseed|Stealth Rock|p2a: Mienfoo
+|-sidestart|p2: iss|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|87/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1629569588
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|-damage|p1a: Gastly|91/100|[from] Stealth Rock
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|62/100
+|-enditem|p1a: Gastly|Black Sludge|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|58/100|[from] Sandstorm
+|-damage|p2a: Mienfoo|82/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1629569608
+|move|p1a: Gastly|Trick|p2a: Mienfoo
+|-activate|p1a: Gastly|move: Trick|[of] p2a: Mienfoo
+|-enditem|p2a: Mienfoo|Eviolite|[silent]|[from] move: Trick
+|-item|p1a: Gastly|Eviolite|[from] move: Trick
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|53/100
+|
+|t:|1629569611
+|switch|p2a: Abra|Abra, L5, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|48/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|iss has 270 seconds left.
+|
+|t:|1629569645
+|switch|p1a: Carvanha|Carvanha, L5, F|100/100
+|-damage|p1a: Carvanha|90/100|[from] Stealth Rock
+|move|p2a: Abra|Hidden Power|p1a: Carvanha
+|-supereffective|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629569651
+|switch|p1a: Wynaut|Wynaut, L5, F|100/100
+|-damage|p1a: Wynaut|89/100|[from] Stealth Rock
+|turn|8
+|inactive|iss has 270 seconds left.
+|
+|t:|1629569657
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Wynaut|Mirror Coat|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wynaut|86/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1629569662
+|move|p2a: Abra|Shadow Ball|p1a: Wynaut
+|-supereffective|p1a: Wynaut
+|-damage|p1a: Wynaut|26/100
+|move|p1a: Wynaut|Encore|p2a: Abra
+|-start|p2a: Abra|Encore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wynaut|23/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1629569668
+|switch|p1a: Ferroseed|Ferroseed, L5, F|100/100
+|-damage|p1a: Ferroseed|96/100|[from] Stealth Rock
+|move|p2a: Abra|Shadow Ball|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1629569682
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|91/100|[from] Spikes
+|-damage|p2a: Mienfoo|87/100|[from] Stealth Rock
+|move|p1a: Ferroseed|Giga Drain|p2a: Mienfoo
+|-damage|p2a: Mienfoo|55/100
+|-heal|p1a: Ferroseed|96/100|[from] drain|[of] p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|50/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1629569688
+|switch|p1a: Gastly|Gastly, L5, M|48/100
+|-damage|p1a: Gastly|39/100|[from] Stealth Rock
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|34/100
+|
+|t:|1629569694
+|switch|p2a: Abra|Abra, L5, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|29/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1629569702
+|switch|p1a: Ferroseed|Ferroseed, L5, F|96/100
+|-damage|p1a: Ferroseed|91/100|[from] Stealth Rock
+|move|p2a: Abra|Psychic|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1629569711
+|move|p2a: Abra|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629569717
+|switch|p1a: Staryu|Staryu, L5|100/100
+|-damage|p1a: Staryu|91/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1629569732
+|move|p2a: Abra|Psychic|p1a: Staryu
+|-damage|p1a: Staryu|20/100
+|move|p1a: Staryu|Rapid Spin|p2a: Abra
+|-damage|p2a: Abra|90/100
+|-sideend|p1: Heysup|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Staryu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staryu|15/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1629569753
+|move|p2a: Abra|Psychic|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629569756
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|17
+|
+|t:|1629569761
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Mienfoo|U-turn|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1629569769
+|switch|p2a: Mienfoo|Mienfoo, L5, F|82/100
+|-damage|p2a: Mienfoo|78/100|[from] Stealth Rock
+|-damage|p2a: Mienfoo|69/100|[from] Spikes
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|41/100
+|
+|t:|1629569777
+|switch|p1a: Gastly|Gastly, L5, M|29/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|24/100|[from] Sandstorm
+|-damage|p2a: Mienfoo|37/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1629569782
+|move|p1a: Gastly|Shadow Ball|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|20/100|[from] Sandstorm
+|upkeep
+|
+|t:|1629569785
+|switch|p2a: Abra|Abra, L5, F|90/100
+|turn|20
+|
+|t:|1629569788
+|switch|p1a: Wynaut|Wynaut, L5, F|23/100
+|move|p2a: Abra|Psychic|p1a: Wynaut
+|-resisted|p1a: Wynaut
+|-damage|p1a: Wynaut|0 fnt
+|faint|p1a: Wynaut
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629569790
+|switch|p1a: Mienfoo|Mienfoo, L5, F|96/100
+|turn|21
+|
+|t:|1629569793
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Mienfoo|U-turn|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|91/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1629569809
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|-damage|p2a: Gastly|91/100|[from] Stealth Rock
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|86/100
+|
+|t:|1629569811
+|switch|p1a: Gastly|Gastly, L5, M|20/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|15/100|[from] Sandstorm
+|-damage|p2a: Gastly|81/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1629569814
+|move|p2a: Gastly|Shadow Ball|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gastly|77/100|[from] Sandstorm
+|upkeep
+|
+|t:|1629569816
+|switch|p1a: Mienfoo|Mienfoo, L5, F|91/100
+|turn|24
+|c|☆Heysup|gg
+|-message|Heysup forfeited.
+|
+|win|iss
+|c|☆iss|gg
+|c|+Coalette|wait
+|c|+Coalette|was it scarf or not
+|c|+Coalette|the mystery!

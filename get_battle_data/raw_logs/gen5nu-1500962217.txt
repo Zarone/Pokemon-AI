@@ -1,0 +1,429 @@
+|j|☆jahmille118
+|j|☆pikaplayerg
+|t:|1643501931
+|gametype|singles
+|player|p1|jahmille118|170|1069
+|player|p2|pikaplayerg|pokekid|1085
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Primeape, F|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Cradily, M|item
+|poke|p2|Golem, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Pikachu, F|item
+|poke|p2|Primeape, M|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Garbodor, F|item
+|teampreview
+|c|☆pikaplayerg|This feels familiar
+|
+|t:|1643501948
+|start
+|switch|p1a: Cradily|Cradily, M|100/100
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|turn|1
+|
+|t:|1643501955
+|move|p2a: Garbodor|Toxic|p1a: Cradily|[miss]
+|-miss|p2a: Garbodor|p1a: Cradily
+|move|p1a: Cradily|Stealth Rock|p2a: Garbodor
+|-sidestart|p2: pikaplayerg|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643501972
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Garbodor|Toxic|p1a: Garbodor|[miss]
+|-miss|p2a: Garbodor|p1a: Garbodor
+|
+|upkeep
+|turn|3
+|
+|t:|1643501978
+|move|p2a: Garbodor|Spikes|p1a: Garbodor
+|-sidestart|p1: jahmille118|Spikes
+|move|p1a: Garbodor|Toxic Spikes|p2a: Garbodor
+|-sidestart|p2: pikaplayerg|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1643501986
+|switch|p1a: Primeape|Primeape, F|100/100
+|-damage|p1a: Primeape|88/100|[from] Spikes
+|move|p2a: Garbodor|Spikes|p1a: Primeape
+|-sidestart|p1: jahmille118|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1643501993
+|move|p1a: Primeape|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|45/100
+|move|p2a: Garbodor|Toxic|p1a: Primeape
+|-status|p1a: Primeape|tox
+|
+|-heal|p2a: Garbodor|51/100|[from] item: Black Sludge
+|-damage|p1a: Primeape|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1643502006
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|move|p1a: Primeape|Earthquake|p2a: Charizard
+|-immune|p2a: Charizard
+|
+|-damage|p1a: Primeape|69/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1643502019
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|84/100|[from] Spikes
+|move|p2a: Charizard|Fire Blast|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100
+|
+|-heal|p1a: Alomomola|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643502029
+|move|p2a: Charizard|Fire Blast|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|3/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|9/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643502037
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Charizard|Fire Blast|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|59/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643502047
+|switch|p2a: Garbodor|Garbodor, F|51/100
+|-sideend|p2: pikaplayerg|move: Toxic Spikes|[of] p2a: Garbodor
+|-damage|p2a: Garbodor|39/100|[from] Stealth Rock
+|move|p1a: Alomomola|Scald|p2a: Garbodor
+|-damage|p2a: Garbodor|17/100
+|-status|p2a: Garbodor|brn
+|
+|-heal|p2a: Garbodor|23/100 brn|[from] item: Black Sludge
+|-heal|p1a: Alomomola|72/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|11/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643502062
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Garbodor|Toxic|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Garbodor|17/100 brn|[from] item: Black Sludge
+|-heal|p1a: Alomomola|78/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|4/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1643502086
+|switch|p1a: Braviary|Braviary, M|100/100
+|move|p2a: Garbodor|Pain Split|p1a: Braviary
+|-sethp|p1a: Braviary|53/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|49/100 brn|[from] move: Pain Split
+|
+|-heal|p2a: Garbodor|55/100 brn|[from] item: Black Sludge
+|-damage|p2a: Garbodor|43/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1643502097
+|move|p1a: Braviary|Brave Bird|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Braviary|28/100|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|-damage|p1a: Braviary|13/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1643502104
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1643502138
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|84/100|[from] Spikes
+|move|p2a: Zangoose|Quick Attack|p1a: Alomomola
+|-damage|p1a: Alomomola|69/100
+|
+|-heal|p1a: Alomomola|75/100|[from] item: Leftovers
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1643502155
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|-damage|p2a: Pikachu|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Icy Wind|p2a: Pikachu
+|-damage|p2a: Pikachu|54/100
+|-unboost|p2a: Pikachu|spe|1
+|
+|-heal|p1a: Alomomola|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643502171
+|switch|p1a: Braviary|Braviary, M|13/100
+|move|p2a: Pikachu|Volt Switch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|t:|1643502185
+|switch|p2a: Golem|Golem, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Golem|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Golem|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643502196
+|switch|p1a: Cradily|Cradily, M|100/100
+|-damage|p1a: Cradily|84/100|[from] Spikes
+|turn|17
+|
+|t:|1643502201
+|move|p2a: Golem|Stealth Rock|p1a: Cradily
+|-sidestart|p1: jahmille118|move: Stealth Rock
+|move|p1a: Cradily|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|-heal|p1a: Cradily|100/100|[from] drain|[of] p2a: Golem
+|
+|-heal|p2a: Golem|7/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1643502214
+|move|p2a: Golem|Earthquake|p1a: Cradily
+|-damage|p1a: Cradily|52/100
+|move|p1a: Cradily|Giga Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-heal|p1a: Cradily|56/100|[from] drain|[of] p2a: Golem
+|faint|p2a: Golem
+|
+|upkeep
+|
+|t:|1643502222
+|switch|p2a: Primeape|Primeape, M|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643502243
+|move|p2a: Primeape|Ice Punch|p1a: Cradily
+|-supereffective|p1a: Cradily
+|-damage|p1a: Cradily|15/100
+|move|p1a: Cradily|Giga Drain|p2a: Primeape
+|-damage|p2a: Primeape|38/100
+|-heal|p1a: Cradily|38/100|[from] drain|[of] p2a: Primeape
+|
+|upkeep
+|turn|20
+|
+|t:|1643502250
+|move|p2a: Primeape|Ice Punch|p1a: Cradily
+|-supereffective|p1a: Cradily
+|-damage|p1a: Cradily|0 fnt
+|faint|p1a: Cradily
+|
+|upkeep
+|
+|t:|1643502255
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|84/100|[from] Spikes
+|-damage|p1a: Garbodor|72/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1643502271
+|switch|p2a: Zangoose|Zangoose, M|88/100 tox
+|-damage|p2a: Zangoose|76/100 tox|[from] Stealth Rock
+|move|p1a: Garbodor|Toxic Spikes|p2a: Zangoose
+|-sidestart|p2: pikaplayerg|move: Toxic Spikes
+|
+|-damage|p2a: Zangoose|70/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1643502280
+|move|p1a: Garbodor|Protect|p1a: Garbodor
+|-singleturn|p1a: Garbodor|Protect
+|move|p2a: Zangoose|Facade|p1a: Garbodor
+|-activate|p1a: Garbodor|move: Protect
+|
+|-damage|p2a: Zangoose|58/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1643502287
+|move|p2a: Zangoose|Facade|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Zangoose|34/100 tox|[from] ability: Aftermath|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|
+|-damage|p2a: Zangoose|16/100 tox|[from] psn
+|upkeep
+|
+|t:|1643502299
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|-damage|p1a: Alomomola|71/100|[from] Spikes
+|turn|24
+|
+|t:|1643502306
+|switch|p2a: Pikachu|Pikachu, F|54/100
+|-damage|p2a: Pikachu|42/100|[from] Stealth Rock
+|-status|p2a: Pikachu|psn
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|78/100|[from] item: Leftovers
+|-damage|p2a: Pikachu|30/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1643502321
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Pikachu|Thunderbolt|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|84/100|[from] item: Leftovers
+|-damage|p2a: Pikachu|17/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1643502330
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-damage|p1a: Gardevoir|72/100|[from] Spikes
+|move|p2a: Pikachu|Thunderbolt|p1a: Gardevoir
+|-damage|p1a: Gardevoir|11/100
+|
+|-damage|p2a: Pikachu|5/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1643502339
+|move|p1a: Gardevoir|Shadow Ball|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|t:|1643502345
+|switch|p2a: Zangoose|Zangoose, M|16/100 tox
+|-damage|p2a: Zangoose|4/100 tox|[from] Stealth Rock
+|turn|28
+|
+|t:|1643502350
+|move|p2a: Zangoose|Quick Attack|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|-damage|p2a: Zangoose|0 fnt|[from] psn
+|faint|p2a: Zangoose
+|upkeep
+|
+|t:|1643502359
+|switch|p2a: Charizard|Charizard, M|51/100
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Charizard|1/100|[from] Stealth Rock
+|-damage|p1a: Alomomola|84/100|[from] Spikes
+|-damage|p1a: Alomomola|71/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1643502369
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Charizard|Air Slash|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|78/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1643502376
+|move|p2a: Charizard|Air Slash|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1643502380
+|switch|p1a: Primeape|Primeape, F|69/100 tox
+|-damage|p1a: Primeape|53/100 tox|[from] Spikes
+|-damage|p1a: Primeape|46/100 tox|[from] Stealth Rock
+|turn|31
+|
+|t:|1643502386
+|move|p1a: Primeape|Close Combat|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Charizard
+|
+|-damage|p1a: Primeape|40/100 tox|[from] psn
+|upkeep
+|
+|t:|1643502393
+|switch|p2a: Primeape|Primeape, M|38/100
+|-status|p2a: Primeape|psn
+|-damage|p2a: Primeape|32/100 psn|[from] Stealth Rock
+|turn|32
+|
+|t:|1643502399
+|move|p2a: Primeape|Close Combat|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Primeape
+|
+|win|pikaplayerg
+|raw|jahmille118's rating: 1069 &rarr; <strong>1050</strong><br />(-19 for losing)
+|raw|pikaplayerg's rating: 1085 &rarr; <strong>1111</strong><br />(+26 for winning)
+|c|☆pikaplayerg|gg
+|l|☆pikaplayerg

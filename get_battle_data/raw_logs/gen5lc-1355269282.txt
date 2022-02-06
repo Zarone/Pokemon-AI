@@ -1,0 +1,444 @@
+|j|☆Inazuma-Fulgur
+|j|☆WalmartDownBad
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1623166049
+|gametype|singles
+|player|p1|Inazuma-Fulgur|marley|
+|player|p2|WalmartDownBad|guitarist-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Bronzor, L5|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p2|Aipom, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Ferroseed, L5, M|item
+|poke|p2|Natu, L5, F|item
+|teampreview
+|inactive|WalmartDownBad also wants the timer to be on.
+|c|☆WalmartDownBad|Hf
+|c|☆Inazuma-Fulgur|u2
+|
+|t:|1623166070
+|start
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|1
+|
+|t:|1623166074
+|switch|p2a: Ferroseed|Ferroseed, L5, M, shiny|100/100
+|move|p1a: Frillish|Scald|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|87/100
+|
+|upkeep
+|turn|2
+|
+|t:|1623166085
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|move|p2a: Ferroseed|Spikes|p1a: Timburr
+|-sidestart|p1: Inazuma-Fulgur|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1623166095
+|move|p1a: Timburr|Ice Punch|p2a: Ferroseed
+|-damage|p2a: Ferroseed|64/100
+|-damage|p1a: Timburr|88/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|move|p2a: Ferroseed|Thunder Wave|p1a: Timburr
+|-status|p1a: Timburr|par
+|
+|upkeep
+|turn|4
+|
+|t:|1623166100
+|move|p2a: Ferroseed|Leech Seed|p1a: Timburr
+|-start|p1a: Timburr|move: Leech Seed
+|move|p1a: Timburr|Ice Punch|p2a: Ferroseed
+|-damage|p2a: Ferroseed|32/100
+|-damage|p1a: Timburr|75/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|-damage|p1a: Timburr|63/100 par|[from] Leech Seed|[of] p2a: Ferroseed
+|-heal|p2a: Ferroseed|46/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1623166103
+|move|p2a: Ferroseed|Spikes|p1a: Timburr
+|-sidestart|p1: Inazuma-Fulgur|Spikes
+|cant|p1a: Timburr|par
+|
+|-damage|p1a: Timburr|50/100 par|[from] Leech Seed|[of] p2a: Ferroseed
+|-heal|p2a: Ferroseed|60/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1623166109
+|move|p2a: Ferroseed|Bullet Seed|p1a: Timburr
+|-damage|p1a: Timburr|38/100 par
+|-damage|p1a: Timburr|25/100 par
+|-hitcount|p1a: Timburr|2
+|move|p1a: Timburr|Drain Punch|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-heal|p1a: Timburr|55/100 par|[from] drain|[of] p2a: Ferroseed
+|-damage|p1a: Timburr|42/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1623166118
+|switch|p2a: Natu|Natu, L5, F|100/100
+|turn|7
+|
+|t:|1623166122
+|switch|p1a: Bronzor|Bronzor, L5|100/100
+|move|p2a: Natu|Psychic|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-damage|p1a: Bronzor|96/100
+|
+|upkeep
+|turn|8
+|
+|t:|1623166127
+|move|p2a: Natu|U-turn|p1a: Bronzor
+|-damage|p1a: Bronzor|88/100
+|
+|t:|1623166138
+|switch|p2a: Magnemite|Magnemite, L5|100/100|[from]move: U-turn
+|move|p1a: Bronzor|Flash Cannon|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|90/100
+|
+|upkeep
+|turn|9
+|
+|t:|1623166154
+|move|p2a: Magnemite|Volt Switch|p1a: Bronzor
+|-damage|p1a: Bronzor|50/100
+|
+|t:|1623166158
+|switch|p2a: Natu|Natu, L5, F|100/100|[from]move: Volt Switch
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1623166163
+|move|p2a: Natu|Heat Wave|p1a: Bronzor
+|-supereffective|p1a: Bronzor
+|-damage|p1a: Bronzor|25/100
+|move|p1a: Bronzor|Flash Cannon|p2a: Natu
+|-damage|p2a: Natu|60/100
+|
+|upkeep
+|turn|11
+|
+|t:|1623166167
+|move|p2a: Natu|Heat Wave|p1a: Bronzor
+|-supereffective|p1a: Bronzor
+|-damage|p1a: Bronzor|0 fnt
+|faint|p1a: Bronzor
+|
+|upkeep
+|
+|t:|1623166174
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100
+|-damage|p1a: Hippopotas|84/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|12
+|
+|t:|1623166179
+|move|p2a: Natu|U-turn|p1a: Hippopotas
+|-damage|p1a: Hippopotas|76/100
+|
+|t:|1623166186
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100|[from]move: U-turn
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Hippopotas|Stealth Rock|p2a: Drilbur
+|-sidestart|p2: WalmartDownBad|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1623166194
+|move|p2a: Drilbur|Stealth Rock|p1a: Hippopotas
+|-sidestart|p1: Inazuma-Fulgur|move: Stealth Rock
+|move|p1a: Hippopotas|Whirlwind|p2a: Drilbur
+|drag|p2a: Magnemite|Magnemite, L5|90/100
+|-damage|p2a: Magnemite|85/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1623166204
+|switch|p2a: Natu|Natu, L5, F|60/100
+|-damage|p2a: Natu|37/100|[from] Stealth Rock
+|move|p1a: Hippopotas|Whirlwind|p2a: Natu
+|move|p2a: Natu|Whirlwind|p1a: Hippopotas|[from]ability: Magic Bounce
+|drag|p1a: Timburr|Timburr, L5, M|42/100 par
+|-damage|p1a: Timburr|25/100 par|[from] Spikes
+|-damage|p1a: Timburr|21/100 par|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|32/100|[from] Sandstorm
+|-damage|p1a: Timburr|17/100 par|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1623166214
+|cant|p1a: Timburr|par
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|82/100
+|-singleturn|p2a: Natu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|78/100|[from] Sandstorm
+|-damage|p1a: Timburr|13/100 par|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1623166220
+|move|p2a: Natu|Psychic|p1a: Timburr
+|-supereffective|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|73/100|[from] Sandstorm
+|upkeep
+|
+|t:|1623166233
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|-damage|p1a: Lileep|84/100|[from] Spikes
+|-damage|p1a: Lileep|72/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1623166240
+|move|p2a: Natu|U-turn|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|57/100
+|
+|t:|1623166253
+|switch|p2a: Magnemite|Magnemite, L5|85/100|[from]move: U-turn
+|-damage|p2a: Magnemite|79/100|[from] Stealth Rock
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1623166259
+|switch|p1a: Hippopotas|Hippopotas, L5, F|76/100
+|-damage|p1a: Hippopotas|60/100|[from] Spikes
+|-damage|p1a: Hippopotas|57/100|[from] Stealth Rock
+|move|p2a: Magnemite|Flash Cannon|p1a: Hippopotas
+|-damage|p1a: Hippopotas|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1623166263
+|move|p2a: Magnemite|Flash Cannon|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1623166272
+|switch|p1a: Natu|Natu, L5, M|100/100
+|-damage|p1a: Natu|79/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1623166280
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Natu|Heat Wave|p2a: Drilbur
+|-damage|p2a: Drilbur|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|74/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1623166286
+|move|p1a: Natu|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|22/100
+|move|p2a: Drilbur|Rapid Spin|p1a: Natu
+|-damage|p1a: Natu|66/100
+|-sideend|p2: WalmartDownBad|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|61/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1623166292
+|move|p2a: Drilbur|Rock Slide|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1623166295
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|-damage|p1a: Frillish|84/100|[from] Spikes
+|-damage|p1a: Frillish|71/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1623166299
+|move|p2a: Drilbur|Earthquake|p1a: Frillish
+|-damage|p1a: Frillish|30/100
+|move|p1a: Frillish|Scald|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Frillish|25/100|[from] Sandstorm
+|upkeep
+|
+|t:|1623166305
+|switch|p2a: Aipom|Aipom, L5, M, shiny|100/100
+|turn|24
+|
+|t:|1623166309
+|move|p2a: Aipom|Shadow Claw|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|faint|p1a: Frillish
+|-damage|p2a: Aipom|92/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aipom|87/100|[from] Sandstorm
+|upkeep
+|
+|t:|1623166311
+|switch|p1a: Lileep|Lileep, L5, F|100/100
+|-damage|p1a: Lileep|84/100|[from] Spikes
+|-damage|p1a: Lileep|72/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1623166317
+|switch|p2a: Magnemite|Magnemite, L5|79/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1623166321
+|move|p2a: Magnemite|Flash Cannon|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|52/100
+|move|p1a: Lileep|Giga Drain|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|58/100
+|-heal|p1a: Lileep|60/100|[from] drain|[of] p2a: Magnemite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1623166328
+|move|p2a: Magnemite|Flash Cannon|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|12/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1623166335
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1623166340
+|move|p2a: Mienfoo|Fake Out|p1a: Lileep
+|-resisted|p1a: Lileep
+|-damage|p1a: Lileep|96/100
+|cant|p1a: Lileep|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|91/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|t:|1623166343
+|move|p2a: Mienfoo|Knock Off|p1a: Lileep
+|-damage|p1a: Lileep|88/100
+|-enditem|p1a: Lileep|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Lileep|Toxic|p2a: Mienfoo
+|-status|p2a: Mienfoo|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|87/100 tox|[from] Sandstorm
+|-damage|p2a: Mienfoo|82/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1623166348
+|move|p2a: Mienfoo|High Jump Kick|p1a: Lileep|[miss]
+|-miss|p2a: Mienfoo|p1a: Lileep
+|-damage|p2a: Mienfoo|32/100 tox|[from] highjumpkick
+|move|p1a: Lileep|Recover|p1a: Lileep
+|-heal|p1a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mienfoo|28/100 tox|[from] Sandstorm
+|-damage|p2a: Mienfoo|19/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1623166352
+|move|p2a: Mienfoo|High Jump Kick|p1a: Lileep
+|-supereffective|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|faint|p1a: Lileep
+|
+|win|WalmartDownBad
+|n|☆Inazuma-Fulgur|inazumafulgur
+|n|☆WalmartDownBad|walmartdownbad
+|c|☆WalmartDownBad|Gg
+|c|☆Inazuma-Fulgur|gg
+|l|☆WalmartDownBad
+|l|☆Inazuma-Fulgur
+|j|☆Inazuma-Fulgur
+|player|p1|Inazuma-Fulgur|marley

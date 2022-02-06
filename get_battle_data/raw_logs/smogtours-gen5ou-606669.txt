@@ -1,0 +1,249 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644016137
+|gametype|singles
+|player|p1|Faultson‽|#ptpl3medicham|
+|player|p2|toytean|veteran|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Starmie|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Magnezone|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Scizor, F|item
+|teampreview
+|inactive|Faultson‽ also wants the timer to be on.
+|c|☆toytean|hf
+|c|☆Faultson‽|U2
+|
+|t:|1644016147
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|inactive|toytean has 270 seconds left.
+|
+|t:|1644016186
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-enditem|p1a: Jirachi|Shuca Berry|[eat]
+|-enditem|p1a: Jirachi|Shuca Berry|[weaken]
+|-damage|p1a: Jirachi|59/100
+|move|p1a: Jirachi|Icy Wind|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|44/100
+|-unboost|p2a: Garchomp|spe|1
+|
+|upkeep
+|turn|2
+|c|+justamente|Toy das asco
+|inactive|toytean has 270 seconds left.
+|
+|t:|1644016197
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Scizor
+|-sidestart|p2: toytean|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|inactive|toytean has 270 seconds left.
+|
+|t:|1644016222
+|move|p2a: Scizor|Superpower|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Jirachi
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644016227
+|switch|p1a: Starmie|Starmie|100/100
+|turn|4
+|inactive|toytean has 240 seconds left.
+|
+|t:|1644016267
+|switch|p2a: Breloom|Breloom, M, shiny|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|move|p1a: Starmie|Hydro Pump|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|41/100
+|
+|upkeep
+|turn|5
+|
+|t:|1644016273
+|move|p1a: Starmie|Ice Beam|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1644016276
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1644016279
+|move|p2a: Starmie|Rapid Spin|p1a: Starmie
+|-damage|p1a: Starmie|94/100
+|-sideend|p2: toytean|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Starmie
+|-damage|p2a: Starmie|78/100|[from] item: Life Orb
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644016289
+|switch|p2a: Scizor|Scizor, F|91/100
+|turn|7
+|
+|t:|1644016291
+|move|p1a: Starmie|Hydro Pump|p2a: Scizor
+|-damage|p2a: Scizor|9/100
+|move|p2a: Scizor|Pursuit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|6/100
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|-heal|p1a: Starmie|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644016296
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|8
+|
+|t:|1644016302
+|move|p2a: Dragonite|Extreme Speed|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+|
+|t:|1644016324
+|switch|p1a: Garchomp|Garchomp, F, shiny|100/100
+|turn|9
+|
+|t:|1644016339
+|switch|p2a: Garchomp|Garchomp, M|44/100
+|move|p1a: Garchomp|Dual Chop|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-hitcount|p2: Garchomp|1
+|
+|upkeep
+|inactive|toytean has 270 seconds left.
+|
+|t:|1644016364
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|10
+|
+|t:|1644016368
+|move|p1a: Garchomp|Dual Chop|p2a: Volcarona
+|-damage|p2a: Volcarona|68/100
+|-status|p1a: Garchomp|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|-damage|p2a: Volcarona|51/100
+|-hitcount|p2a: Volcarona|2
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-damage|p1a: Garchomp|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1644016379
+|move|p1a: Garchomp|Dual Chop|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|18/100
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-hitcount|p2: Volcarona|2
+|
+|-damage|p1a: Garchomp|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1644016385
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|12
+|
+|t:|1644016391
+|move|p1a: Garchomp|Dual Chop|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|89/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|65/100
+|-hitcount|p2a: Dragonite|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p1a: Garchomp|51/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|toytean has 270 seconds left.
+|
+|t:|1644016422
+|move|p1a: Garchomp|Dual Chop|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|43/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|19/100
+|-hitcount|p2a: Dragonite|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p1a: Garchomp|39/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1644016431
+|move|p2a: Dragonite|Extreme Speed|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Dragonite|6/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1644016433
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|t:|1644016435
+|move|p2a: Dragonite|Extreme Speed|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Faultson‽

@@ -1,0 +1,409 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1638210845
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|james|waiter|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Clefairy, M|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Duosion, M|item
+|poke|p1|Haunter, F|item
+|poke|p2|Exeggutor, F|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Golurk|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Primeape, F|item
+|poke|p2|Carracosta, M|item
+|teampreview
+|inactive|james disconnected and has 300 seconds to reconnect!
+|player|p2|
+|c|☆Lily|hf
+|inactive|james reconnected and has 285 seconds left.
+|player|p2|james|waiter
+|inactive|Lily has 270 seconds left.
+|c|☆james|u2
+|inactive|james has 270 seconds left.
+|inactive|Lily has 240 seconds left.
+|inactive|james has 240 seconds left.
+|c|+watashi|damn that team is ancient
+|c|+Pohjis|nice dragon resists
+|inactive|Lily has 210 seconds left.
+|
+|t:|1638210955
+|start
+|switch|p1a: born to die|Clefairy, M|100/100
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|turn|1
+|c|+Bouff|born to die
+|inactive|Lily has 240 seconds left.
+|inactive|james has 270 seconds left.
+|c|+Pohjis|is that a mcmeghan clefairy
+|inactive|Lily has 210 seconds left.
+|c|+ziloXX|LOL
+|
+|t:|1638211009
+|move|p2a: Rotom|Volt Switch|p1a: born to die
+|-damage|p1a: born to die|76/100
+|
+|t:|1638211012
+|switch|p2a: Golurk|Golurk|100/100|[from]move: Volt Switch
+|move|p1a: born to die|Thunder Wave|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|upkeep
+|turn|2
+|inactive|Lily has 210 seconds left.
+|
+|t:|1638211043
+|switch|p1a: 410757864530|Duosion, M|100/100
+|move|p2a: Golurk|Stealth Rock|p1a: 410757864530
+|-sidestart|p1: Lily|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1638211053
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|switch|p1a: world is a fuck|Seismitoad, F|100/100
+|-damage|p1a: world is a fuck|95/100|[from] Stealth Rock
+|
+|-heal|p1a: world is a fuck|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1638211057
+|switch|p1a: born to die|Clefairy, M|76/100
+|move|p2a: Rotom|Hidden Power|p1a: born to die
+|-damage|p1a: born to die|62/100
+|
+|upkeep
+|turn|5
+|
+|t:|1638211061
+|move|p2a: Rotom|Volt Switch|p1a: born to die
+|-damage|p1a: born to die|38/100
+|c|+confide|GO JAMes (sry lily)
+|
+|t:|1638211069
+|switch|p2a: Exeggutor|Exeggutor, F|100/100|[from]move: Volt Switch
+|move|p1a: born to die|Stealth Rock|p2a: Exeggutor
+|-sidestart|p2: james|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|inactive|Lily has 210 seconds left.
+|
+|t:|1638211116
+|move|p2a: Exeggutor|Substitute|p2a: Exeggutor
+|-start|p2a: Exeggutor|Substitute
+|-damage|p2a: Exeggutor|75/100
+|move|p1a: born to die|Soft-Boiled|p1a: born to die
+|-heal|p1a: born to die|88/100
+|
+|upkeep
+|turn|7
+|
+|t:|1638211125
+|move|p2a: Exeggutor|Sleep Powder|p1a: born to die|[miss]
+|-miss|p2a: Exeggutor|p1a: born to die
+|move|p1a: born to die|Seismic Toss|p2a: Exeggutor
+|-end|p2a: Exeggutor|Substitute
+|
+|upkeep
+|turn|8
+|
+|t:|1638211130
+|move|p2a: Exeggutor|Sleep Powder|p1a: born to die
+|-status|p1a: born to die|slp|[from] move: Sleep Powder
+|cant|p1a: born to die|slp
+|
+|upkeep
+|turn|9
+|inactive|Lily has 210 seconds left.
+|
+|t:|1638211140
+|move|p2a: Exeggutor|Substitute|p2a: Exeggutor
+|-start|p2a: Exeggutor|Substitute
+|-damage|p2a: Exeggutor|50/100
+|-curestatus|p1a: born to die|slp|[msg]
+|move|p1a: born to die|Seismic Toss|p2a: Exeggutor
+|-end|p2a: Exeggutor|Substitute
+|
+|upkeep
+|turn|10
+|c|+watashi|why is sleep allowed in bw nu and not ou 
+|c|+watashi|LOL
+|inactive|Lily has 210 seconds left.
+|c|☆james|spore
+|
+|t:|1638211162
+|move|p2a: Exeggutor|Sleep Powder|p1a: born to die
+|-status|p1a: born to die|slp|[from] move: Sleep Powder
+|cant|p1a: born to die|slp
+|
+|upkeep
+|turn|11
+|c|+Togkey|Breloom and Amoongus aren't NU
+|
+|t:|1638211165
+|move|p2a: Exeggutor|Substitute|p2a: Exeggutor
+|-start|p2a: Exeggutor|Substitute
+|-damage|p2a: Exeggutor|25/100
+|-enditem|p2a: Exeggutor|Petaya Berry|[eat]
+|-boost|p2a: Exeggutor|spa|1|[from] item: Petaya Berry
+|cant|p1a: born to die|slp
+|
+|upkeep
+|turn|12
+|c|+ziloXX|F
+|c|☆Lily|shroomish is legal
+|c|☆Lily|he spores
+|c|☆Lily|foongus too
+|inactive|james has 270 seconds left.
+|c|+Togkey|why aren't u using Shroomish
+|inactive|james has 240 seconds left.
+|
+|t:|1638211227
+|move|p2a: Exeggutor|Psychic|p1a: born to die
+|-damage|p1a: born to die|40/100 slp
+|-curestatus|p1a: born to die|slp|[msg]
+|move|p1a: born to die|Seismic Toss|p2a: Exeggutor
+|-end|p2a: Exeggutor|Substitute
+|
+|-item|p2a: Exeggutor|Petaya Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Exeggutor|Petaya Berry|[eat]
+|-boost|p2a: Exeggutor|spa|1|[from] item: Petaya Berry
+|turn|13
+|inactive|james has 240 seconds left.
+|
+|t:|1638211242
+|move|p2a: Exeggutor|Giga Drain|p1a: born to die
+|-damage|p1a: born to die|0 fnt
+|-heal|p2a: Exeggutor|45/100|[from] drain|[of] p1a: born to die
+|faint|p1a: born to die
+|
+|-item|p2a: Exeggutor|Petaya Berry|[from] ability: Harvest
+|upkeep
+|inactive|Lily has 210 seconds left.
+|inactive|Lily has 180 seconds left.
+|
+|t:|1638211307
+|switch|p1a: i am trash man|Garbodor, M|100/100
+|-damage|p1a: i am trash man|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1638211318
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|move|p1a: i am trash man|Sludge Bomb|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|89/100
+|
+|upkeep
+|turn|15
+|
+|t:|1638211327
+|switch|p1a: world is a fuck|Seismitoad, F|100/100
+|-damage|p1a: world is a fuck|95/100|[from] Stealth Rock
+|move|p2a: Golurk|Earthquake|p1a: world is a fuck
+|-damage|p1a: world is a fuck|36/100
+|
+|-heal|p1a: world is a fuck|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1638211332
+|move|p2a: Golurk|Earthquake|p1a: world is a fuck
+|-damage|p1a: world is a fuck|0 fnt
+|faint|p1a: world is a fuck
+|
+|upkeep
+|inactive|Lily has 180 seconds left.
+|inactive|Lily has 150 seconds left.
+|inactive|Lily has 120 seconds left.
+|inactive|Lily has 90 seconds left.
+|
+|t:|1638211434
+|switch|p1a: kill em all 1989|Misdreavus, F|100/100
+|-damage|p1a: kill em all 1989|88/100|[from] Stealth Rock
+|turn|17
+|inactive|james has 270 seconds left.
+|
+|t:|1638211441
+|switch|p2a: Exeggutor|Exeggutor, F|45/100
+|-damage|p2a: Exeggutor|32/100|[from] Stealth Rock
+|move|p1a: kill em all 1989|Substitute|p1a: kill em all 1989
+|-start|p1a: kill em all 1989|Substitute
+|-damage|p1a: kill em all 1989|63/100
+|
+|upkeep
+|turn|18
+|
+|t:|1638211446
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: kill em all 1989|Shadow Ball|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|65/100
+|
+|upkeep
+|turn|19
+|
+|t:|1638211449
+|move|p1a: kill em all 1989|Thunderbolt|p2a: Skuntank
+|-damage|p2a: Skuntank|29/100
+|move|p2a: Skuntank|Crunch|p1a: kill em all 1989
+|-supereffective|p1a: kill em all 1989
+|-end|p1a: kill em all 1989|Substitute
+|
+|upkeep
+|turn|20
+|
+|t:|1638211458
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|move|p1a: kill em all 1989|Substitute|p1a: kill em all 1989
+|-start|p1a: kill em all 1989|Substitute
+|-damage|p1a: kill em all 1989|38/100
+|
+|upkeep
+|turn|21
+|
+|t:|1638211463
+|move|p2a: Skuntank|Sucker Punch|p1a: kill em all 1989
+|-supereffective|p1a: kill em all 1989
+|-end|p1a: kill em all 1989|Substitute
+|move|p1a: kill em all 1989|Thunderbolt|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1638211468
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|22
+|inactive|Lily has 150 seconds left.
+|
+|t:|1638211474
+|move|p2a: Rotom|Thunderbolt|p1a: kill em all 1989
+|-damage|p1a: kill em all 1989|0 fnt
+|faint|p1a: kill em all 1989
+|
+|upkeep
+|inactive|Lily has 150 seconds left.
+|inactive|Lily has 120 seconds left.
+|inactive|Lily has 90 seconds left.
+|inactive|Lily has 60 seconds left.
+|
+|t:|1638211582
+|switch|p1a: i am trash man|Garbodor, M|88/100
+|-damage|p1a: i am trash man|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1638211597
+|move|p2a: Rotom|Thunderbolt|p1a: i am trash man
+|-damage|p1a: i am trash man|16/100
+|move|p1a: i am trash man|Spikes|p2a: Rotom
+|-sidestart|p2: james|Spikes
+|
+|upkeep
+|turn|24
+|
+|t:|1638211605
+|move|p2a: Rotom|Thunderbolt|p1a: i am trash man
+|-damage|p1a: i am trash man|0 fnt
+|faint|p1a: i am trash man
+|
+|upkeep
+|
+|t:|1638211606
+|switch|p1a: 410757864530|Duosion, M|100/100
+|turn|25
+|
+|t:|1638211610
+|move|p2a: Rotom|Thunderbolt|p1a: 410757864530
+|-damage|p1a: 410757864530|43/100
+|-status|p1a: 410757864530|par
+|move|p1a: 410757864530|Calm Mind|p1a: 410757864530
+|-boost|p1a: 410757864530|spa|1
+|-boost|p1a: 410757864530|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1638211617
+|move|p2a: Rotom|Thunderbolt|p1a: 410757864530
+|-damage|p1a: 410757864530|7/100 par
+|move|p1a: 410757864530|Recover|p1a: 410757864530
+|-heal|p1a: 410757864530|57/100 par
+|
+|upkeep
+|turn|27
+|
+|t:|1638211619
+|move|p2a: Rotom|Thunderbolt|p1a: 410757864530
+|-damage|p1a: 410757864530|22/100 par
+|move|p1a: 410757864530|Recover|p1a: 410757864530
+|-heal|p1a: 410757864530|72/100 par
+|
+|upkeep
+|turn|28
+|
+|t:|1638211622
+|move|p2a: Rotom|Thunderbolt|p1a: 410757864530
+|-damage|p1a: 410757864530|39/100 par
+|move|p1a: 410757864530|Recover|p1a: 410757864530
+|-heal|p1a: 410757864530|89/100 par
+|
+|upkeep
+|turn|29
+|
+|t:|1638211623
+|move|p2a: Rotom|Thunderbolt|p1a: 410757864530
+|-damage|p1a: 410757864530|53/100 par
+|cant|p1a: 410757864530|par
+|
+|upkeep
+|turn|30
+|
+|t:|1638211625
+|move|p2a: Rotom|Thunderbolt|p1a: 410757864530
+|-crit|p1a: 410757864530
+|-damage|p1a: 410757864530|0 fnt
+|faint|p1a: 410757864530
+|
+|upkeep
+|
+|t:|1638211633
+|switch|p1a: dead cops|Haunter, F|100/100
+|-damage|p1a: dead cops|88/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1638211636
+|move|p1a: dead cops|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|move|p2a: Rotom|Thunderbolt|p1a: dead cops
+|-damage|p1a: dead cops|0 fnt
+|faint|p1a: dead cops
+|
+|win|james
+|c|☆Lily|gg
+|c|☆james|gg

@@ -1,0 +1,446 @@
+|j|☆AllhailLordCheezy
+|j|☆Codename Magnum
+|t:|1632399022
+|gametype|singles
+|player|p1|AllhailLordCheezy|wallace|
+|player|p2|Codename Magnum|pokemonranger-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Darmanitan, F|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Xatu, M|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Gligar, M|item
+|poke|p2|Weavile, M|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Raikou|item
+|poke|p2|Flygon, F|item
+|teampreview
+|c|☆Codename Magnum|glhf!
+|c|☆AllhailLordCheezy|glhf
+|
+|t:|1632399041
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|1
+|
+|t:|1632399056
+|switch|p1a: Gligar|Gligar, M|100/100
+|move|p2a: Flygon|U-turn|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|96/100
+|
+|t:|1632399060
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1632399069
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1632399072
+|move|p2a: Weavile|Night Slash|p1a: Lanturn
+|-damage|p1a: Lanturn|23/100
+|move|p1a: Lanturn|Scald|p2a: Weavile
+|-damage|p2a: Weavile|68/100
+|-status|p2a: Weavile|brn
+|-enditem|p2a: Weavile|Lum Berry|[eat]
+|-curestatus|p2a: Weavile|brn|[msg]
+|
+|-heal|p1a: Lanturn|29/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1632399078
+|move|p2a: Weavile|Night Slash|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+|
+|t:|1632399087
+|switch|p1a: Darmanitan|Darmanitan, F|100/100
+|turn|5
+|
+|t:|1632399098
+|move|p1a: Darmanitan|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|t:|1632399109
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1632399118
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|turn|6
+|
+|t:|1632399121
+|move|p1a: Mienshao|U-turn|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|89/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Regenerator|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|t:|1632399131
+|switch|p1a: Xatu|Xatu, M|100/100|[from]move: U-turn
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|5/100
+|
+|-heal|p2a: Cofagrigus|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1632399134
+|move|p1a: Xatu|Night Shade|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|63/100
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-heal|p2a: Cofagrigus|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632399145
+|switch|p1a: Darmanitan|Darmanitan, F|100/100
+|turn|8
+|
+|t:|1632399151
+|move|p1a: Darmanitan|Flare Blitz|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|1/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Sheer Force|[of] p1a: Darmanitan
+|-damage|p1a: Darmanitan|80/100|[from] Recoil
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Darmanitan
+|-damage|p1a: Darmanitan|18/100
+|
+|-heal|p2a: Cofagrigus|7/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1632399158
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Darmanitan|Flare Blitz|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|64/100
+|-damage|p1a: Darmanitan|6/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|t:|1632399163
+|move|p2a: Druddigon|Sucker Punch|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|-activate|p1a: Darmanitan|ability: Mummy|Mold Breaker|[of] p2a: Druddigon
+|faint|p1a: Darmanitan
+|
+|upkeep
+|
+|t:|1632399170
+|switch|p1a: Mienshao|Mienshao, M|91/100
+|turn|11
+|
+|t:|1632399176
+|move|p1a: Mienshao|Fake Out|p2a: Druddigon
+|-damage|p2a: Druddigon|45/100
+|-activate|p2a: Druddigon|ability: Mummy|Regenerator|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|cant|p2a: Druddigon|flinch
+|
+|upkeep
+|turn|12
+|
+|t:|1632399179
+|switch|p2a: Cofagrigus|Cofagrigus, F|7/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Cofagrigus
+|-immune|p2a: Cofagrigus
+|-damage|p1a: Mienshao|31/100|[from] highjumpkick
+|
+|-heal|p2a: Cofagrigus|13/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1632399184
+|move|p1a: Mienshao|U-turn|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-crit|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|-damage|p1a: Mienshao|21/100|[from] item: Life Orb
+|
+|t:|1632399187
+|switch|p1a: Mew|Mew|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1632399193
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|14
+|
+|t:|1632399199
+|switch|p1a: Gligar|Gligar, M|96/100
+|move|p2a: Flygon|U-turn|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|91/100
+|
+|t:|1632399209
+|switch|p2a: Roserade|Roserade, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1632399214
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Roserade|Spikes|p1a: Mew
+|-sidestart|p1: AllhailLordCheezy|Spikes
+|
+|upkeep
+|turn|16
+|
+|t:|1632399221
+|move|p1a: Mew|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|45/100
+|move|p2a: Roserade|Giga Drain|p1a: Mew
+|-damage|p1a: Mew|71/100
+|-heal|p2a: Roserade|60/100|[from] drain|[of] p1a: Mew
+|
+|-heal|p2a: Roserade|66/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1632399232
+|move|p1a: Mew|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|9/100
+|move|p2a: Roserade|Synthesis|p2a: Roserade
+|-heal|p2a: Roserade|59/100
+|
+|-heal|p2a: Roserade|65/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1632399237
+|move|p1a: Mew|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|5/100
+|move|p2a: Roserade|Synthesis|p2a: Roserade
+|-heal|p2a: Roserade|55/100
+|
+|-heal|p2a: Roserade|61/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1632399248
+|move|p1a: Mew|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|1/100
+|move|p2a: Roserade|Giga Drain|p1a: Mew
+|-damage|p1a: Mew|38/100
+|-heal|p2a: Roserade|19/100|[from] drain|[of] p1a: Mew
+|
+|-heal|p2a: Roserade|25/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1632399255
+|move|p1a: Mew|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1632399258
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|21
+|
+|t:|1632399262
+|switch|p1a: Gligar|Gligar, M|91/100
+|move|p2a: Flygon|Dragon Claw|p1a: Gligar
+|-crit|p1a: Gligar
+|-damage|p1a: Gligar|57/100
+|
+|upkeep
+|turn|22
+|
+|t:|1632399268
+|switch|p2a: Druddigon|Druddigon, M|45/100
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|upkeep
+|turn|23
+|j| Cabarlo
+|
+|t:|1632399274
+|move|p1a: Gligar|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: Codename Magnum|move: Stealth Rock
+|move|p2a: Druddigon|Stealth Rock|p1a: Gligar
+|-sidestart|p1: AllhailLordCheezy|move: Stealth Rock
+|
+|upkeep
+|turn|24
+|
+|t:|1632399278
+|move|p1a: Gligar|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|16/100
+|move|p2a: Druddigon|Outrage|p1a: Gligar
+|-enditem|p2a: Druddigon|Dragon Gem|[from] gem
+|-damage|p1a: Gligar|57/100
+|
+|upkeep
+|turn|25
+|
+|t:|1632399283
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|move|p2a: Druddigon|Outrage|p1a: Gligar|[from]lockedmove
+|-damage|p1a: Gligar|68/100
+|-start|p2a: Druddigon|confusion|[fatigue]
+|
+|upkeep
+|turn|26
+|
+|t:|1632399288
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|-activate|p2a: Druddigon|confusion
+|move|p2a: Druddigon|Outrage|p1a: Gligar
+|-damage|p1a: Gligar|70/100
+|
+|upkeep
+|turn|27
+|
+|t:|1632399291
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|-activate|p2a: Druddigon|confusion
+|-damage|p2a: Druddigon|0 fnt|[from] confusion
+|faint|p2a: Druddigon
+|
+|upkeep
+|
+|t:|1632399294
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|28
+|
+|t:|1632399297
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: Gligar|Earthquake|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-heal|p2a: Raikou|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1632399300
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Gligar|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|23/100
+|
+|-heal|p2a: Raikou|29/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1632399303
+|move|p2a: Raikou|Hidden Power|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|-heal|p2a: Raikou|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632399312
+|switch|p1a: Mew|Mew|38/100
+|-damage|p1a: Mew|25/100|[from] Stealth Rock
+|-damage|p1a: Mew|13/100|[from] Spikes
+|turn|31
+|
+|t:|1632399316
+|move|p2a: Raikou|Protect|p2a: Raikou
+|-singleturn|p2a: Raikou|Protect
+|move|p1a: Mew|Psychic|p2a: Raikou
+|-activate|p2a: Raikou|move: Protect
+|
+|-heal|p2a: Raikou|41/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1632399320
+|move|p1a: Mew|Psychic|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+|
+|t:|1632399324
+|switch|p2a: Flygon|Flygon, F|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1632399329
+|move|p2a: Flygon|Earthquake|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|c|☆AllhailLordCheezy|gg
+|c|☆Codename Magnum|gg
+|
+|t:|1632399334
+|switch|p1a: Mienshao|Mienshao, M|21/100
+|-damage|p1a: Mienshao|8/100|[from] Spikes
+|-damage|p1a: Mienshao|2/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1632399337
+|move|p2a: Flygon|Earthquake|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|win|Codename Magnum
+|n|☆AllhailLordCheezy|allhaillordcheezy
+|n|☆Codename Magnum|codenamemagnum
+|n| Cabarlo|cabarlo

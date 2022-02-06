@@ -1,0 +1,387 @@
+|j|☆yimb
+|j|☆Chiri Kitsu
+|t:|1637377330
+|gametype|singles
+|player|p1|yimb|schoolboy-gen2|
+|player|p2|Chiri Kitsu|erika|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Weezing, F|item
+|poke|p1|Regirock|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Lickilicky, M|item
+|poke|p1|Wartortle, M|item
+|poke|p2|Volbeat, M|item
+|poke|p2|Swanna, M|item
+|poke|p2|Ludicolo, M|item
+|poke|p2|Metang|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|j| BB-8-NU
+|j|@Links
+|c|☆Chiri Kitsu|i don't like this
+|
+|t:|1637377340
+|start
+|switch|p1a: Weezing|Weezing, F|100/100
+|switch|p2a: Volbeat|Volbeat, M|100/100
+|turn|1
+|
+|t:|1637377347
+|move|p2a: Volbeat|Rain Dance|p2a: Volbeat
+|-weather|RainDance
+|move|p1a: Weezing|Flamethrower|p2a: Volbeat
+|-supereffective|p2a: Volbeat
+|-damage|p2a: Volbeat|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|j| usurped soviet
+|j| VTOniIndigoFacade
+|
+|t:|1637377353
+|move|p2a: Volbeat|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|95/100
+|
+|t:|1637377359
+|switch|p2a: Swanna|Swanna, M|100/100|[from]move: U-turn
+|move|p1a: Weezing|Will-O-Wisp|p2a: Swanna|[miss]
+|-miss|p1a: Weezing|p2a: Swanna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|j|+Oathkeeper
+|j| abc123xd
+|
+|t:|1637377376
+|switch|p1a: Misdreavus|Misdreavus, F|100/100
+|move|p2a: Swanna|Surf|p1a: Misdreavus
+|-damage|p1a: Misdreavus|30/100
+|-damage|p2a: Swanna|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1637377383
+|move|p2a: Swanna|Surf|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|-damage|p2a: Swanna|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1637377407
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|turn|5
+|
+|t:|1637377411
+|switch|p2a: Metang|Metang|100/100
+|move|p1a: Lickilicky|Body Slam|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|91/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1637377438
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Metang|Stealth Rock|p1a: Lickilicky
+|-sidestart|p1: yimb|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1637377446
+|switch|p1a: Wartortle|Wartortle, M|100/100
+|-damage|p1a: Wartortle|88/100|[from] Stealth Rock
+|move|p2a: Metang|Toxic|p1a: Wartortle
+|-status|p1a: Wartortle|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Wartortle|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|l| VTOniIndigoFacade
+|
+|t:|1637377460
+|move|p1a: Wartortle|Scald|p2a: Metang
+|-damage|p2a: Metang|69/100
+|-status|p2a: Metang|brn
+|move|p2a: Metang|Meteor Mash|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|76/100 tox
+|
+|-weather|none
+|-damage|p1a: Wartortle|63/100 tox|[from] psn
+|-damage|p2a: Metang|57/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1637377471
+|move|p1a: Wartortle|Rapid Spin|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|56/100 brn
+|-sideend|p1: yimb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Wartortle
+|move|p2a: Metang|Meteor Mash|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|58/100 tox
+|-boost|p2a: Metang|atk|1
+|
+|-damage|p1a: Wartortle|39/100 tox|[from] psn
+|-damage|p2a: Metang|43/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1637377482
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|move|p2a: Metang|Stealth Rock|p1a: Lickilicky
+|-sidestart|p1: yimb|move: Stealth Rock
+|
+|-damage|p2a: Metang|31/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1637377536
+|move|p2a: Metang|Toxic|p1a: Lickilicky
+|-status|p1a: Lickilicky|tox
+|move|p1a: Lickilicky|Heal Bell|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Heal Bell
+|-curestatus|p1a: Lickilicky|tox|[msg]
+|-curestatus|p1: Wartortle|tox|[msg]
+|
+|-damage|p2a: Metang|19/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1637377550
+|move|p2a: Metang|Toxic|p1a: Lickilicky
+|-status|p1a: Lickilicky|tox
+|move|p1a: Lickilicky|Body Slam|p2a: Metang
+|-resisted|p2a: Metang
+|-damage|p2a: Metang|10/100 brn
+|
+|-damage|p1a: Lickilicky|94/100 tox|[from] psn
+|-damage|p2a: Metang|0 fnt|[from] brn
+|faint|p2a: Metang
+|upkeep
+|
+|t:|1637377573
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|13
+|
+|t:|1637377577
+|move|p2a: Rotom|Trick|p1a: Lickilicky
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Lickilicky
+|-item|p1a: Lickilicky|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Lickilicky|Heal Bell|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Heal Bell
+|-curestatus|p1a: Lickilicky|tox|[msg]
+|
+|upkeep
+|turn|14
+|
+|t:|1637377654
+|switch|p1a: Regirock|Regirock|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Regirock
+|-damage|p1a: Regirock|45/100
+|
+|-heal|p1a: Regirock|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1637377674
+|move|p2a: Rotom|Volt Switch|p1a: Regirock
+|-damage|p1a: Regirock|23/100
+|
+|t:|1637377680
+|switch|p2a: Volbeat|Volbeat, M|75/100|[from]move: Volt Switch
+|move|p1a: Regirock|Stealth Rock|p2a: Volbeat
+|-sidestart|p2: Chiri Kitsu|move: Stealth Rock
+|
+|-heal|p1a: Regirock|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1637377688
+|switch|p1a: Wartortle|Wartortle, M|39/100
+|-damage|p1a: Wartortle|26/100|[from] Stealth Rock
+|move|p2a: Volbeat|Rain Dance|p2a: Volbeat
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1637377695
+|move|p2a: Volbeat|U-turn|p1a: Wartortle
+|-damage|p1a: Wartortle|14/100
+|
+|t:|1637377699
+|switch|p2a: Rotom|Rotom-Frost|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Wartortle|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|72/100
+|-sideend|p1: yimb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Wartortle
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1637377708
+|move|p2a: Rotom|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637377723
+|switch|p1a: Weezing|Weezing, F|100/100
+|turn|19
+|
+|t:|1637377732
+|move|p2a: Rotom|Thunderbolt|p1a: Weezing
+|-damage|p1a: Weezing|45/100
+|-status|p1a: Weezing|par
+|move|p1a: Weezing|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|91/100 brn|[from] item: Leftovers
+|-heal|p1a: Weezing|50/100 par|[from] item: Black Sludge
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|upkeep
+|turn|20
+|c|☆Chiri Kitsu|mv
+|c|☆Chiri Kitsu|mb*
+|
+|t:|1637377743
+|move|p2a: Rotom|Thunderbolt|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|72/100 brn|[from] brn
+|upkeep
+|
+|t:|1637377758
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|21
+|
+|t:|1637377763
+|move|p1a: Charizard|Focus Blast|p2a: Rotom|[miss]
+|-miss|p1a: Charizard|p2a: Rotom
+|move|p2a: Rotom|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|66/100 brn|[from] brn
+|upkeep
+|l| usurped soviet
+|
+|t:|1637377774
+|switch|p1a: Regirock|Regirock|29/100
+|turn|22
+|
+|t:|1637377779
+|move|p2a: Rotom|Thunderbolt|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|60/100 brn|[from] brn
+|upkeep
+|
+|t:|1637377786
+|switch|p1a: Lickilicky|Lickilicky, M|94/100
+|turn|23
+|
+|t:|1637377791
+|move|p2a: Rotom|Thunderbolt|p1a: Lickilicky
+|-damage|p1a: Lickilicky|67/100
+|move|p1a: Lickilicky|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|24/100 brn
+|
+|-weather|none
+|-heal|p2a: Rotom|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|18/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1637377800
+|move|p2a: Rotom|Thunderbolt|p1a: Lickilicky
+|-damage|p1a: Lickilicky|42/100
+|move|p1a: Lickilicky|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1637377810
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|95/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1637377813
+|move|p2a: Seismitoad|Earthquake|p1a: Lickilicky
+|-damage|p1a: Lickilicky|9/100
+|-damage|p2a: Seismitoad|85/100|[from] item: Life Orb
+|move|p1a: Lickilicky|Body Slam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|46/100
+|-status|p2a: Seismitoad|par
+|
+|upkeep
+|turn|26
+|
+|t:|1637377821
+|move|p1a: Lickilicky|Body Slam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|12/100 par
+|move|p2a: Seismitoad|Earthquake|p1a: Lickilicky
+|-damage|p1a: Lickilicky|0 fnt
+|faint|p1a: Lickilicky
+|-damage|p2a: Seismitoad|2/100 par|[from] item: Life Orb
+|
+|win|Chiri Kitsu
+|n|☆yimb|yimb
+|n|☆Chiri Kitsu|chirikitsu
+|n| BB-8-NU|bb8nu
+|n| Links|links
+|n|+Oathkeeper|oathkeeper
+|n| abc123xd|abc123xd
+|l| BB-8-NU
+|c|☆yimb|gg

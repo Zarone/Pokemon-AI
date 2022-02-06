@@ -1,0 +1,302 @@
+|j|☆jman08
+|j|☆iss
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639262563
+|gametype|singles
+|player|p1|jman08|102|
+|player|p2|iss|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staryu, L5|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Clamperl, L5, M|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|j| Kodiak_45
+|c|☆jman08|hopefully a cleaner 1
+|c|☆jman08|hf
+|c|☆iss|gl
+|
+|t:|1639262588
+|start
+|switch|p1a: Gastly|Gastly, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|1
+|
+|t:|1639262592
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|move|p1a: Gastly|Will-O-Wisp|p2a: Porygon|[miss]
+|-miss|p1a: Gastly|p2a: Porygon
+|
+|upkeep
+|turn|2
+|
+|t:|1639262601
+|switch|p1a: Staryu|Staryu, L5|100/100
+|move|p2a: Porygon|Thunder Wave|p1a: Staryu
+|-status|p1a: Staryu|par
+|
+|upkeep
+|turn|3
+|
+|t:|1639262608
+|move|p2a: Porygon|Thunder Wave|p1a: Staryu
+|-fail|p1a: Staryu|par
+|move|p1a: Staryu|Scald|p2a: Porygon
+|-damage|p2a: Porygon|77/100
+|-status|p2a: Porygon|brn
+|
+|-damage|p2a: Porygon|66/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1639262617
+|move|p2a: Porygon|Thunderbolt|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|34/100 par
+|move|p1a: Staryu|Scald|p2a: Porygon
+|-damage|p2a: Porygon|43/100 brn
+|
+|-damage|p2a: Porygon|31/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1639262626
+|-curestatus|p1a: Staryu|par|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Porygon|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|48/100
+|
+|-damage|p2a: Porygon|20/100 brn|[from] brn
+|upkeep
+|turn|6
+|j| Enigmatic Magnet
+|
+|t:|1639262655
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|79/100
+|
+|t:|1639262670
+|switch|p1a: Gastly|Gastly, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1639262677
+|move|p1a: Gastly|Shadow Ball|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|upkeep
+|j| Very Keyed User
+|inactive|iss has 120 seconds left.
+|
+|t:|1639262697
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|8
+|
+|t:|1639262702
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|move|p2a: Gastly|Shadow Ball|p1a: Porygon
+|-immune|p1a: Porygon
+|
+|upkeep
+|turn|9
+|
+|t:|1639262712
+|switch|p2a: Porygon|Porygon, L5|20/100 brn
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Porygon
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|upkeep
+|
+|t:|1639262726
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|10
+|
+|t:|1639262734
+|switch|p1a: Staryu|Staryu, L5|34/100
+|move|p2a: Mienfoo|Acrobatics|p1a: Staryu
+|-enditem|p2a: Mienfoo|Flying Gem|[from] gem
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|upkeep
+|
+|t:|1639262744
+|switch|p1a: Gastly|Gastly, L5, F|100/100
+|turn|11
+|
+|t:|1639262749
+|move|p1a: Gastly|Shadow Ball|p2a: Mienfoo
+|-damage|p2a: Mienfoo|39/100
+|move|p2a: Mienfoo|Acrobatics|p1a: Gastly
+|-damage|p1a: Gastly|53/100
+|
+|upkeep
+|turn|12
+|
+|t:|1639262757
+|move|p1a: Gastly|Shadow Ball|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1639262763
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|turn|13
+|
+|t:|1639262767
+|move|p2a: Diglett|Substitute|p2a: Diglett
+|-start|p2a: Diglett|Substitute
+|-damage|p2a: Diglett|78/100
+|move|p1a: Gastly|Shadow Ball|p2a: Diglett
+|-end|p2a: Diglett|Substitute
+|
+|upkeep
+|turn|14
+|
+|t:|1639262769
+|move|p2a: Diglett|Beat Up|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|29/100
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|15/100
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|-hitcount|p1: Gastly|3
+|-damage|p2a: Diglett|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639262772
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Arena Trap|[from] ability: Trace|[of] p2a: Diglett
+|turn|15
+|
+|t:|1639262783
+|move|p2a: Diglett|Substitute|p2a: Diglett
+|-start|p2a: Diglett|Substitute
+|-damage|p2a: Diglett|50/100
+|move|p1a: Porygon|Ice Beam|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-end|p2a: Diglett|Substitute
+|
+|upkeep
+|turn|16
+|
+|t:|1639262786
+|move|p2a: Diglett|Memento|p1a: Porygon
+|-unboost|p1a: Porygon|atk|2
+|-unboost|p1a: Porygon|spa|2
+|faint|p2a: Diglett
+|move|p1a: Porygon|Ice Beam|p2: Diglett|[notarget]
+|-fail|p1a: Porygon
+|
+|upkeep
+|
+|t:|1639262790
+|switch|p2a: Clamperl|Clamperl, L5, M|100/100
+|turn|17
+|j| AshKetchumReturnz
+|
+|t:|1639262796
+|move|p2a: Clamperl|Substitute|p2a: Clamperl
+|-start|p2a: Clamperl|Substitute
+|-damage|p2a: Clamperl|75/100
+|move|p1a: Porygon|Psychic|p2a: Clamperl
+|-activate|p2a: Clamperl|Substitute|[damage]
+|
+|upkeep
+|turn|18
+|
+|t:|1639262802
+|move|p2a: Clamperl|Shell Smash|p2a: Clamperl
+|-unboost|p2a: Clamperl|def|1
+|-unboost|p2a: Clamperl|spd|1
+|-boost|p2a: Clamperl|atk|2
+|-boost|p2a: Clamperl|spa|2
+|-boost|p2a: Clamperl|spe|2
+|move|p1a: Porygon|Psychic|p2a: Clamperl
+|-end|p2a: Clamperl|Substitute
+|
+|upkeep
+|turn|19
+|
+|t:|1639262806
+|move|p2a: Clamperl|Surf|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|upkeep
+|
+|t:|1639262810
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|20
+|
+|t:|1639262814
+|move|p2a: Clamperl|Surf|p1a: Abra
+|-enditem|p1a: Abra|Focus Sash
+|-damage|p1a: Abra|6/100
+|move|p1a: Abra|Psychic|p2a: Clamperl
+|-damage|p2a: Clamperl|0 fnt
+|faint|p2a: Clamperl
+|
+|upkeep
+|
+|t:|1639262817
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|21
+|
+|t:|1639262820
+|move|p1a: Abra|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|win|jman08
+|n|☆jman08|jman08
+|n|☆iss|iss
+|n| Kodiak_45|kodiak45
+|n| Enigmatic Magnet|enigmaticmagnet
+|n| Very Keyed User|verykeyeduser
+|n| AshKetchumReturnz|ashketchumreturnz
+|c|☆jman08|gg
+|c|☆iss|gg
+|l|☆jman08
+|l|☆iss
+|l| AshKetchumReturnz
+|l| Kodiak_45
+|j| giove97
+|l| giove97
+|l| Enigmatic Magnet
+|l| Very Keyed User
+|j| Very Keyed User

@@ -1,0 +1,283 @@
+|j|☆julianelvengador
+|j|☆Xxgenisis1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1637092721
+|gametype|singles
+|player|p1|julianelvengador|striker|
+|player|p2|Xxgenisis1|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, M|item
+|poke|p1|Munchlax, L5, M|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p2|Riolu, L5, F|item
+|poke|p2|Munchlax, L5, F|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Dwebble, L5, F|item
+|poke|p2|Tentacool, L5, F|item
+|poke|p2|Chinchou, L5, F|item
+|teampreview
+|j|*Lady Monita ☽
+|c|☆Xxgenisis1|Ah ye
+|c|☆Xxgenisis1|gl hf
+|inactive|julianelvengador has 120 seconds left.
+|inactive|julianelvengador has 90 seconds left.
+|
+|t:|1637092782
+|start
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|switch|p2a: Tentacool|Tentacool, L5, F|100/100
+|turn|1
+|
+|t:|1637092802
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Carvanha|Protect||[still]
+|-fail|p1a: Carvanha
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Carvanha|96/100|[from] Hail
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|2
+|
+|t:|1637092817
+|move|p1a: Carvanha|Crunch|p2a: Snover
+|-damage|p2a: Snover|9/100
+|-unboost|p2a: Snover|def|1
+|-damage|p1a: Carvanha|86/100|[from] item: Life Orb
+|move|p2a: Snover|Giga Drain|p1a: Carvanha
+|-supereffective|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|-heal|p2a: Snover|48/100|[from] drain|[of] p1a: Carvanha
+|faint|p1a: Carvanha
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1637092823
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|turn|3
+|
+|t:|1637092829
+|move|p1a: Timburr|Mach Punch|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Timburr|96/100|[from] Hail
+|upkeep
+|
+|t:|1637092845
+|switch|p2a: Chinchou|Chinchou, L5, F|100/100
+|turn|4
+|inactive|julianelvengador has 120 seconds left.
+|
+|t:|1637092879
+|move|p2a: Chinchou|Surf|p1a: Timburr
+|-damage|p1a: Timburr|48/100
+|-damage|p2a: Chinchou|92/100|[from] item: Life Orb
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Chinchou|88/100|[from] Hail
+|-damage|p1a: Timburr|44/100|[from] Hail
+|upkeep
+|turn|5
+|inactive|julianelvengador has 120 seconds left.
+|inactive|Xxgenisis1 has 120 seconds left.
+|c|☆Xxgenisis1|sry
+|
+|t:|1637092920
+|move|p2a: Chinchou|Surf|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|-damage|p2a: Chinchou|80/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Chinchou|75/100|[from] Hail
+|upkeep
+|inactive|julianelvengador has 120 seconds left.
+|
+|t:|1637092930
+|switch|p1a: Abra|Abra, L5, M|100/100
+|turn|6
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637092937
+|move|p2a: Chinchou|Protect|p2a: Chinchou
+|-singleturn|p2a: Chinchou|Protect
+|move|p1a: Abra|Psychic|p2a: Chinchou
+|-activate|p2a: Chinchou|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Chinchou|71/100|[from] Hail
+|upkeep
+|turn|7
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637092947
+|move|p1a: Abra|Psychic|p2a: Chinchou
+|-damage|p2a: Chinchou|9/100
+|move|p2a: Chinchou|Surf|p1a: Abra
+|-enditem|p1a: Abra|Focus Sash
+|-damage|p1a: Abra|6/100
+|-damage|p2a: Chinchou|0 fnt|[from] item: Life Orb
+|faint|p2a: Chinchou
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637092967
+|switch|p2a: Dwebble|Dwebble, L5, F|100/100
+|turn|8
+|
+|t:|1637092979
+|move|p1a: Abra|Thunder Wave|p2a: Dwebble
+|-status|p2a: Dwebble|par
+|move|p2a: Dwebble|X-Scissor|p1a: Abra
+|-supereffective|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dwebble|96/100 par|[from] Hail
+|upkeep
+|
+|t:|1637092991
+|switch|p1a: Munchlax|Munchlax, L5, M|100/100
+|turn|9
+|
+|t:|1637092997
+|move|p1a: Munchlax|Earthquake|p2a: Dwebble
+|-damage|p2a: Dwebble|55/100 par
+|move|p2a: Dwebble|Knock Off|p1a: Munchlax
+|-damage|p1a: Munchlax|94/100
+|-enditem|p1a: Munchlax|Eviolite|[from] move: Knock Off|[of] p2a: Dwebble
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Munchlax|90/100|[from] Hail
+|-damage|p2a: Dwebble|50/100 par|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1637093005
+|move|p1a: Munchlax|Earthquake|p2a: Dwebble
+|-damage|p2a: Dwebble|9/100 par
+|move|p2a: Dwebble|Spikes|p1a: Munchlax
+|-sidestart|p1: julianelvengador|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Munchlax|87/100|[from] Hail
+|-damage|p2a: Dwebble|5/100 par|[from] Hail
+|upkeep
+|turn|11
+|-enditem|p2a: Dwebble|Custap Berry|[eat]
+|-activate|p2a: Dwebble|item: Custap Berry|[consumed]
+|
+|t:|1637093013
+|move|p2a: Dwebble|Spikes|p1a: Munchlax
+|-sidestart|p1: julianelvengador|Spikes
+|move|p1a: Munchlax|Earthquake|p2a: Dwebble
+|-crit|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Munchlax|84/100|[from] Hail
+|upkeep
+|
+|t:|1637093022
+|switch|p2a: Riolu|Riolu, L5, F|100/100
+|turn|12
+|
+|t:|1637093029
+|move|p2a: Riolu|Drain Punch|p1a: Munchlax
+|-supereffective|p1a: Munchlax
+|-damage|p1a: Munchlax|4/100
+|move|p1a: Munchlax|Earthquake|p2a: Riolu
+|-damage|p2a: Riolu|61/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Riolu|57/100|[from] Hail
+|-damage|p1a: Munchlax|0 fnt|[from] Hail
+|faint|p1a: Munchlax
+|upkeep
+|
+|t:|1637093038
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p1a: Drilbur|87/100|[from] Spikes
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|13
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637093077
+|move|p1a: Drilbur|Rapid Spin|p2a: Riolu
+|-damage|p2a: Riolu|48/100
+|-sideend|p1: julianelvengador|Spikes|[from] move: Rapid Spin|[of] p1a: Drilbur
+|move|p2a: Riolu|Drain Punch|p1a: Drilbur
+|-damage|p1a: Drilbur|46/100
+|-heal|p2a: Riolu|70/100|[from] drain|[of] p1a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|41/100|[from] Hail
+|-damage|p2a: Riolu|66/100|[from] Hail
+|upkeep
+|turn|14
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637093086
+|move|p1a: Drilbur|Earthquake|p2a: Riolu
+|-damage|p2a: Riolu|0 fnt
+|faint|p2a: Riolu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|37/100|[from] Hail
+|upkeep
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637093099
+|switch|p2a: Tentacool|Tentacool, L5, F|100/100
+|turn|15
+|
+|t:|1637093103
+|move|p1a: Drilbur|Earthquake|p2a: Tentacool
+|-supereffective|p2a: Tentacool
+|-damage|p2a: Tentacool|0 fnt
+|faint|p2a: Tentacool
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|32/100|[from] Hail
+|upkeep
+|inactive|Xxgenisis1 has 120 seconds left.
+|
+|t:|1637093113
+|switch|p2a: Munchlax|Munchlax, L5, F|100/100
+|turn|16
+|-message|Xxgenisis1 forfeited.
+|
+|win|julianelvengador
+|n|☆julianelvengador|julianelvengador
+|n|☆Xxgenisis1|xxgenisis1
+|n|*Lady Monita ☽|ladymonita
+|l|*Lady Monita ☽
+|l|☆Xxgenisis1

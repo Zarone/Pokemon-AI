@@ -1,0 +1,318 @@
+|j|☆S3ntret
+|j|☆julianelvengador
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644012809
+|gametype|singles
+|player|p1|S3ntret|n|
+|player|p2|julianelvengador|striker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Shroomish, L5, F|item
+|poke|p1|Spheal, L5, F|
+|poke|p1|Deino, L5, F|
+|poke|p1|Trapinch, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Carvanha, L5, M|item
+|teampreview
+|j| Squabblo
+|
+|t:|1644012821
+|start
+|switch|p1a: Ninja|Mienfoo, L5, M|100/100
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|turn|1
+|j| FruitDogs
+|j| iusebadteamslol
+|
+|t:|1644012833
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Ninja|Drain Punch|p2a: Carvanha
+|-activate|p2a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|2
+|
+|t:|1644012843
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|move|p1a: Ninja|Drain Punch|p2a: Timburr
+|-damage|p2a: Timburr|52/100
+|
+|-status|p2a: Timburr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|j| Kodiak_45
+|
+|t:|1644012853
+|move|p1a: Ninja|Acrobatics|p2a: Timburr
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|4/100 brn
+|move|p2a: Timburr|Drain Punch|p1a: Ninja
+|-damage|p1a: Ninja|43/100
+|-heal|p2a: Timburr|29/100 brn|[from] drain|[of] p1a: Ninja
+|
+|-damage|p2a: Timburr|16/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1644012864
+|move|p2a: Timburr|Mach Punch|p1a: Ninja
+|-damage|p1a: Ninja|15/100
+|move|p1a: Ninja|Drain Punch|p2a: Timburr
+|-crit|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|-heal|p1a: Ninja|24/100|[from] drain|[of] p2a: Timburr
+|faint|p2a: Timburr
+|
+|upkeep
+|
+|t:|1644012876
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|turn|5
+|
+|t:|1644012881
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Ninja|Drain Punch|p2a: Carvanha
+|-activate|p2a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|6
+|l| iusebadteamslol
+|
+|t:|1644012890
+|move|p2a: Carvanha|Waterfall|p1a: Ninja
+|-damage|p1a: Ninja|0 fnt
+|faint|p1a: Ninja
+|-damage|p2a: Carvanha|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|
+|t:|1644012902
+|switch|p1a: Leafy|Shroomish, L5, F|100/100
+|turn|7
+|
+|t:|1644012909
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|move|p1a: Leafy|Giga Drain|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|73/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Leafy|96/100|[from] Hail
+|-status|p1a: Leafy|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1644012933
+|switch|p1a: Shadow|Deino, L5, F|100/100
+|move|p2a: Snover|Blizzard|p1a: Shadow
+|-supereffective|p1a: Shadow
+|-damage|p1a: Shadow|0 fnt
+|faint|p1a: Shadow
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644012943
+|switch|p1a: Chilly|Spheal, L5, F|100/100
+|turn|9
+|
+|t:|1644012956
+|switch|p2a: Munchlax|Munchlax, L5, M|100/100
+|move|p1a: Chilly|Signal Beam|p2a: Munchlax
+|-damage|p2a: Munchlax|87/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Munchlax|84/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1644012968
+|switch|p1a: Spookez|Drifloon, L5, M|100/100
+|move|p2a: Munchlax|Return|p1a: Spookez
+|-immune|p1a: Spookez
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spookez|96/100|[from] Hail
+|-damage|p2a: Munchlax|80/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1644012984
+|move|p1a: Spookez|Knock Off|p2a: Munchlax
+|-damage|p2a: Munchlax|74/100
+|-enditem|p2a: Munchlax|Eviolite|[from] move: Knock Off|[of] p1a: Spookez
+|move|p2a: Munchlax|Pursuit|p1a: Spookez
+|-supereffective|p1a: Spookez
+|-crit|p1a: Spookez
+|-damage|p1a: Spookez|8/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Spookez|4/100|[from] Hail
+|-damage|p2a: Munchlax|70/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1644012996
+|move|p1a: Spookez|Explosion|p2a: Munchlax
+|-damage|p2a: Munchlax|10/100
+|faint|p1a: Spookez
+|move|p2a: Munchlax|Pursuit|p1: Spookez|[notarget]
+|-fail|p2a: Munchlax
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Munchlax|7/100|[from] Hail
+|upkeep
+|inactive|S3ntret has 120 seconds left.
+|
+|t:|1644013008
+|switch|p1a: Chilly|Spheal, L5, F|100/100
+|turn|13
+|
+|t:|1644013013
+|move|p1a: Chilly|Earthquake|p2a: Munchlax
+|-damage|p2a: Munchlax|0 fnt
+|faint|p2a: Munchlax
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644013028
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|14
+|
+|t:|1644013034
+|move|p2a: Drilbur|Rock Slide|p1a: Chilly
+|-supereffective|p1a: Chilly
+|-damage|p1a: Chilly|5/100
+|cant|p1a: Chilly|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|96/100|[from] Hail
+|-heal|p1a: Chilly|9/100|[from] ability: Ice Body
+|upkeep
+|turn|15
+|
+|t:|1644013045
+|switch|p1a: Leafy|Shroomish, L5, F|96/100 tox
+|move|p2a: Drilbur|Earthquake|p1a: Leafy
+|-resisted|p1a: Leafy
+|-damage|p1a: Leafy|55/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|91/100|[from] Hail
+|-damage|p1a: Leafy|50/100 tox|[from] Hail
+|-heal|p1a: Leafy|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|inactive|julianelvengador has 120 seconds left.
+|
+|t:|1644013094
+|move|p2a: Drilbur|Earthquake|p1a: Leafy
+|-resisted|p1a: Leafy
+|-damage|p1a: Leafy|14/100 tox
+|move|p1a: Leafy|Giga Drain|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|37/100
+|-heal|p1a: Leafy|41/100 tox|[from] drain|[of] p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|32/100|[from] Hail
+|-damage|p1a: Leafy|37/100 tox|[from] Hail
+|-heal|p1a: Leafy|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1644013112
+|move|p2a: Drilbur|Earthquake|p1a: Leafy
+|-resisted|p1a: Leafy
+|-damage|p1a: Leafy|5/100 tox
+|move|p1a: Leafy|Giga Drain|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|-heal|p1a: Leafy|23/100 tox|[from] drain|[of] p2a: Drilbur
+|faint|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Leafy|19/100 tox|[from] Hail
+|-heal|p1a: Leafy|28/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1644013117
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|18
+|
+|t:|1644013130
+|move|p2a: Abra|Psychic|p1a: Leafy
+|-damage|p1a: Leafy|0 fnt
+|faint|p1a: Leafy
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644013137
+|switch|p1a: Pincer|Trapinch, L5, M|100/100
+|turn|19
+|
+|t:|1644013142
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Pincer|Crunch|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pincer|96/100|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1644013151
+|move|p2a: Abra|Psychic|p1a: Pincer
+|-damage|p1a: Pincer|0 fnt
+|faint|p1a: Pincer
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1644013158
+|switch|p1a: Chilly|Spheal, L5, F|9/100
+|turn|21
+|l| FruitDogs
+|c|☆S3ntret|NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
+|
+|t:|1644013176
+|move|p2a: Abra|Psychic|p1a: Chilly
+|-damage|p1a: Chilly|0 fnt
+|faint|p1a: Chilly
+|
+|win|julianelvengador
+|n|☆S3ntret|s3ntret
+|n|☆julianelvengador|julianelvengador
+|n| Squabblo|squabblo
+|n| Kodiak_45|kodiak45
+|l|☆S3ntret

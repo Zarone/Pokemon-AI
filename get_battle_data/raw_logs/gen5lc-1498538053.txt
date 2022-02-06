@@ -1,0 +1,397 @@
+|j|☆mentalsoft
+|j|☆cb aaron judge
+|t:|1643164258
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|cb aaron judge|brawly-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Ferroseed, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Ferroseed, L5, M|item
+|poke|p2|Diglett, L5, M|item
+|teampreview
+|c|☆cb aaron judge|g f
+|c|☆cb aaron judge|hf
+|c|☆mentalsoft|u2
+|
+|t:|1643164280
+|start
+|switch|p1a: Snover|Snover, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|1
+|
+|t:|1643164297
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Mienfoo|Fake Out|p1a: Natu
+|-damage|p1a: Natu|87/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Hail
+|-damage|p1a: Natu|83/100|[from] Hail
+|upkeep
+|turn|2
+|
+|t:|1643164327
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magic Bounce|[from] ability: Trace|[of] p1a: Natu
+|move|p1a: Natu|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|79/100|[from] Hail
+|-damage|p2a: Porygon|70/100|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1643164341
+|move|p1a: Natu|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|58/100
+|
+|t:|1643164358
+|switch|p1a: Ferroseed|Ferroseed, L5, F|100/100|[from]move: U-turn
+|move|p2a: Porygon|Zap Cannon|p1a: Ferroseed|[miss]
+|-miss|p2a: Porygon|p1a: Ferroseed
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|54/100|[from] Hail
+|-damage|p1a: Ferroseed|96/100|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1643164365
+|move|p2a: Porygon|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|27/100
+|move|p1a: Ferroseed|Stealth Rock|p2a: Porygon
+|move|p2a: Porygon|Stealth Rock|p1a: Ferroseed|[from]ability: Magic Bounce
+|-sidestart|p1: mentalsoft|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|50/100|[from] Hail
+|-damage|p1a: Ferroseed|22/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1643164375
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|move|p2a: Porygon|Hidden Power|p1a: Mienfoo
+|-damage|p1a: Mienfoo|75/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|71/100|[from] Hail
+|-damage|p2a: Porygon|47/100|[from] Hail
+|upkeep
+|turn|6
+|
+|t:|1643164385
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|96/100
+|
+|t:|1643164391
+|switch|p1a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|-damage|p1a: Snover|79/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|91/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1643164408
+|switch|p2a: Ferroseed|Ferroseed, L5, M|100/100
+|move|p1a: Snover|Blizzard|p2a: Ferroseed
+|-damage|p2a: Ferroseed|69/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferroseed|64/100|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1643164420
+|switch|p1a: Natu|Natu, L5, M|79/100
+|-damage|p1a: Natu|57/100|[from] Stealth Rock
+|move|p2a: Ferroseed|Thunder Wave|p1a: Natu
+|move|p1a: Natu|Thunder Wave|p2a: Ferroseed|[from]ability: Magic Bounce
+|-status|p2a: Ferroseed|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|53/100|[from] Hail
+|-damage|p2a: Ferroseed|60/100 par|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1643164425
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|100/100
+|-singleturn|p1a: Natu|move: Roost
+|cant|p2a: Ferroseed|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|96/100|[from] Hail
+|-damage|p2a: Ferroseed|55/100 par|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1643164466
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|move|p1a: Natu|Heat Wave|p2a: Diglett
+|-damage|p2a: Diglett|45/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Diglett|39/100|[from] Hail
+|-damage|p1a: Natu|92/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1643164508
+|move|p2a: Diglett|Beat Up|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|79/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|66/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|53/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|40/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|27/100
+|-hitcount|p1a: Natu|5
+|-damage|p2a: Diglett|34/100|[from] item: Life Orb
+|move|p1a: Natu|Psychic|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|22/100|[from] Hail
+|upkeep
+|
+|t:|1643164531
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|12
+|
+|t:|1643164538
+|move|p2a: Abra|Knock Off|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|14/100
+|-enditem|p1a: Natu|Eviolite|[from] move: Knock Off|[of] p2a: Abra
+|move|p1a: Natu|U-turn|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|16/100
+|
+|t:|1643164546
+|switch|p1a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|-damage|p1a: Staryu|91/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|86/100|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1643164553
+|move|p1a: Staryu|Scald|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|81/100|[from] Hail
+|upkeep
+|
+|t:|1643164560
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|14
+|
+|t:|1643164565
+|move|p2a: Mienfoo|Fake Out|p1a: Staryu
+|-damage|p1a: Staryu|67/100
+|cant|p1a: Staryu|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|62/100|[from] Hail
+|-damage|p2a: Mienfoo|96/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1643164570
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Staryu
+|-damage|p1a: Staryu|39/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|34/100|[from] Hail
+|-damage|p2a: Mienfoo|91/100|[from] Hail
+|upkeep
+|turn|16
+|
+|t:|1643164575
+|move|p1a: Staryu|Rapid Spin|p2a: Mienfoo
+|-damage|p2a: Mienfoo|82/100
+|-sideend|p1: mentalsoft|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Staryu
+|move|p2a: Mienfoo|High Jump Kick|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|78/100|[from] Hail
+|upkeep
+|
+|t:|1643164586
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|turn|17
+|
+|t:|1643164596
+|switch|p1a: Ferroseed|Ferroseed, L5, F|22/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-damage|p2a: Mienfoo|69/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|64/100|[from] Hail
+|upkeep
+|
+|t:|1643164623
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|18
+|
+|t:|1643164631
+|switch|p2a: Ferroseed|Ferroseed, L5, M|55/100 par
+|move|p1a: Mienfoo|Knock Off|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|50/100 par
+|-damage|p1a: Mienfoo|88/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-enditem|p2a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|84/100|[from] Hail
+|-damage|p2a: Ferroseed|46/100 par|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1643164640
+|switch|p2a: Gastly|Gastly, L5, M|91/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|86/100
+|
+|t:|1643164646
+|switch|p1a: Snover|Snover, L5, M|79/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|81/100|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1643164652
+|switch|p2a: Ferroseed|Ferroseed, L5, M|46/100 par
+|move|p1a: Snover|Blizzard|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1643164655
+|switch|p2a: Mienfoo|Mienfoo, L5, M|96/100
+|turn|21
+|
+|t:|1643164672
+|switch|p1a: Natu|Natu, L5, M|14/100
+|move|p2a: Mienfoo|Fake Out|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|91/100|[from] Hail
+|upkeep
+|
+|t:|1643164681
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|22
+|
+|t:|1643164688
+|move|p2a: Mienfoo|Acrobatics|p1a: Mienfoo
+|-enditem|p2a: Mienfoo|Flying Gem|[from] gem
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|87/100|[from] Hail
+|upkeep
+|
+|t:|1643164704
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|turn|23
+|
+|t:|1643164709
+|move|p2a: Mienfoo|High Jump Kick|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|82/100|[from] Hail
+|upkeep
+|
+|t:|1643164713
+|switch|p1a: Snover|Snover, L5, M|79/100
+|turn|24
+|
+|t:|1643164720
+|switch|p2a: Gastly|Gastly, L5, M|81/100
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|20/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|15/100|[from] Hail
+|upkeep
+|turn|25
+|
+|t:|1643164724
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1643164728
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|26
+|
+|t:|1643164732
+|move|p1a: Snover|Blizzard|p2a: Mienfoo
+|-damage|p2a: Mienfoo|19/100
+|move|p2a: Mienfoo|Acrobatics|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|win|cb aaron judge
+|c|☆mentalsoft|gg
+|c|☆cb aaron judge|ggs
+|l|☆mentalsoft

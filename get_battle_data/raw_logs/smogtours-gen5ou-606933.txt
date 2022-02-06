@@ -1,0 +1,534 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644097927
+|gametype|singles
+|player|p1|Padox|lady-gen4|
+|player|p2|QWILY|dawn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Virizion|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1644097944
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1644097953
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1644097965
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100 brn
+|
+|t:|1644097968
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Landorus
+|-sidestart|p2: QWILY|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|73/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1644097975
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Landorus|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Padox|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1644097983
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|72/100
+|-status|p2a: Rotom|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|66/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1644097996
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|68/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|74/100|[from] item: Black Sludge
+|-heal|p2a: Rotom|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|60/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1644098002
+|move|p1a: Tentacruel|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|57/100 brn
+|-sideend|p1: Padox|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|30/100
+|
+|t:|1644098008
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|24/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|30/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1644098019
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Tyranitar|Pursuit|p1a: Tentacruel
+|-activate|p1a: Tentacruel|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|24/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|30/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1644098025
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|68/100
+|move|p2a: Tyranitar|Crunch|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644098033
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|9
+|
+|t:|1644098040
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|53/100
+|
+|t:|1644098046
+|switch|p1a: Politoed|Politoed, F|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644098050
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Politoed|Scald|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|66/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644098061
+|switch|p2a: Rotom|Rotom-Wash|57/100 brn
+|-damage|p2a: Rotom|44/100 brn|[from] Stealth Rock
+|move|p1a: Politoed|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|30/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|23/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1644098067
+|switch|p1a: Ferrothorn|Ferrothorn, F|73/100 brn
+|move|p2a: Rotom|Pain Split|p1a: Ferrothorn
+|-sethp|p1a: Ferrothorn|47/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|54/100 brn|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|60/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|48/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|40/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1644098080
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|31/100 brn
+|
+|t:|1644098092
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|25/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1644098097
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: Padox|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644098118
+|switch|p2a: Excadrill|Excadrill, F|66/100
+|-damage|p2a: Excadrill|63/100|[from] Stealth Rock
+|move|p1a: Thundurus|Hidden Power|p2a: Excadrill
+|-damage|p2a: Excadrill|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644098133
+|move|p2a: Excadrill|Rapid Spin|p1a: Thundurus
+|-damage|p1a: Thundurus|92/100
+|-sideend|p2: QWILY|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|40/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644098140
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Thundurus|Focus Blast|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|46/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|QWILY has 270 seconds left.
+|
+|t:|1644098178
+|switch|p2a: Rotom|Rotom-Wash|48/100 brn
+|move|p1a: Thundurus|Focus Blast|p2a: Rotom
+|-damage|p2a: Rotom|12/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|85/100|[from] item: Leftovers
+|-heal|p2a: Rotom|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|6/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1644098188
+|move|p1a: Thundurus|Hidden Power|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098197
+|switch|p2a: Latios|Latios, M|100/100
+|turn|20
+|
+|t:|1644098216
+|move|p2a: Latios|Surf|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|98/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644098229
+|move|p2a: Latios|Surf|p1a: Thundurus
+|-damage|p1a: Thundurus|40/100
+|move|p1a: Thundurus|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098234
+|switch|p2a: Virizion|Virizion|100/100
+|turn|22
+|
+|t:|1644098240
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1644098257
+|switch|p2a: Excadrill|Excadrill, F|46/100
+|move|p1a: Latios|Trick|p2a: Excadrill
+|-activate|p1a: Latios|move: Trick|[of] p2a: Excadrill
+|-item|p2a: Excadrill|Choice Scarf|[from] move: Trick
+|-item|p1a: Latios|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1644098267
+|switch|p2a: Virizion|Virizion|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|25/100 brn
+|-damage|p1a: Ferrothorn|19/100 brn|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|12/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1644098279
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1644098283
+|move|p2a: Virizion|Focus Blast|p1a: Scizor
+|-damage|p1a: Scizor|9/100
+|-unboost|p1a: Scizor|spd|1
+|move|p1a: Scizor|U-turn|p2a: Virizion
+|-damage|p2a: Virizion|19/100
+|
+|t:|1644098287
+|switch|p1a: Latios|Latios, M|94/100|[from]move: U-turn
+|-damage|p1a: Latios|82/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latios|88/100|[from] item: Leftovers
+|-heal|p2a: Virizion|25/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1644098297
+|switch|p2a: Tyranitar|Tyranitar, F|68/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Latios|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100|[from] Sandstorm
+|-heal|p1a: Latios|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1644098305
+|switch|p1a: Ferrothorn|Ferrothorn, F|12/100 brn
+|-damage|p1a: Ferrothorn|6/100 brn|[from] Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Tyranitar|30/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644098308
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|29
+|
+|t:|1644098322
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|move|p1a: Politoed|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098327
+|switch|p2a: Virizion|Virizion|25/100
+|turn|30
+|
+|t:|1644098333
+|switch|p1a: Scizor|Scizor, M|9/100
+|-damage|p1a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p1a: Scizor
+|move|p2a: Virizion|Giga Drain|p1: Scizor|[notarget]
+|-fail|p2a: Virizion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Virizion|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098334
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1644098340
+|switch|p2a: Tyranitar|Tyranitar, F|30/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Latios|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|70/100|[from] Sandstorm
+|-heal|p1a: Latios|76/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1644098349
+|move|p1a: Latios|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|70/100|[from] Sandstorm
+|-heal|p1a: Latios|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098351
+|switch|p2a: Excadrill|Excadrill, F|46/100
+|turn|33
+|
+|t:|1644098371
+|switch|p2a: Virizion|Virizion|31/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|46/100
+|-damage|p1a: Thundurus|21/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|25/100|[from] Sandstorm
+|-damage|p1a: Thundurus|15/100|[from] Sandstorm
+|-heal|p2a: Virizion|31/100|[from] item: Leftovers
+|-heal|p1a: Thundurus|21/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1644098383
+|move|p2a: Virizion|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|25/100|[from] Sandstorm
+|-heal|p2a: Virizion|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098386
+|switch|p1a: Latios|Latios, M|76/100
+|-damage|p1a: Latios|63/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1644098410
+|switch|p2a: Excadrill|Excadrill, F|46/100
+|move|p1a: Latios|Draco Meteor|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|57/100|[from] Sandstorm
+|-heal|p1a: Latios|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644098414
+|switch|p2a: Virizion|Virizion|31/100
+|turn|36
+|
+|t:|1644098421
+|move|p1a: Latios|Draco Meteor|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Virizion
+|
+|win|Padox

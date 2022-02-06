@@ -1,0 +1,979 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640657480
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|ford focus 2021|picnicker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Togekiss, F|item
+|poke|p1|Raikou|item
+|poke|p1|Heracross, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Gligar, M|item
+|poke|p1|Umbreon, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Slowbro, F|item
+|poke|p2|Raikou|item
+|poke|p2|Mismagius, F|item
+|teampreview
+|
+|t:|1640657501
+|start
+|switch|p1a: Innocence|Gligar, M|100/100
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|turn|1
+|
+|t:|1640657507
+|move|p2a: Slowbro|Magic Coat|p2a: Slowbro
+|-singleturn|p2a: Slowbro|move: Magic Coat
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|move|p2a: Slowbro|Stealth Rock|p1a: Innocence|[from]Magic Coat
+|-sidestart|p1: Lily|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1640657511
+|move|p2a: Slowbro|Magic Coat|p2a: Slowbro
+|-singleturn|p2a: Slowbro|move: Magic Coat
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|move|p2a: Slowbro|Stealth Rock||[from]Magic Coat|[still]
+|-fail|p2a: Slowbro
+|
+|upkeep
+|turn|3
+|
+|t:|1640657513
+|move|p2a: Slowbro|Magic Coat|p2a: Slowbro
+|-singleturn|p2a: Slowbro|move: Magic Coat
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|move|p2a: Slowbro|Stealth Rock||[from]Magic Coat|[still]
+|-fail|p2a: Slowbro
+|
+|upkeep
+|turn|4
+|
+|t:|1640657515
+|move|p2a: Slowbro|Magic Coat|p2a: Slowbro
+|-singleturn|p2a: Slowbro|move: Magic Coat
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|move|p2a: Slowbro|Stealth Rock||[from]Magic Coat|[still]
+|-fail|p2a: Slowbro
+|
+|upkeep
+|turn|5
+|
+|t:|1640657520
+|move|p2a: Slowbro|Magic Coat|p2a: Slowbro
+|-singleturn|p2a: Slowbro|move: Magic Coat
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|move|p2a: Slowbro|Stealth Rock||[from]Magic Coat|[still]
+|-fail|p2a: Slowbro
+|
+|upkeep
+|turn|6
+|
+|t:|1640657522
+|move|p2a: Slowbro|Magic Coat|p2a: Slowbro
+|-singleturn|p2a: Slowbro|move: Magic Coat
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|move|p2a: Slowbro|Stealth Rock||[from]Magic Coat|[still]
+|-fail|p2a: Slowbro
+|
+|upkeep
+|turn|7
+|
+|t:|1640657523
+|move|p1a: Innocence|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: ford focus 2021|move: Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: Innocence
+|-supereffective|p1a: Innocence
+|-damage|p1a: Innocence|44/100
+|
+|upkeep
+|turn|8
+|
+|t:|1640657529
+|move|p1a: Innocence|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|85/100
+|-damage|p1a: Innocence|28/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|t:|1640657534
+|switch|p1a: La Lune|Umbreon, F, shiny|100/100|[from]move: U-turn
+|-damage|p1a: La Lune|88/100|[from] Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: La Lune
+|-crit|p1a: La Lune
+|-damage|p1a: La Lune|58/100
+|-status|p1a: La Lune|brn
+|-activate|p1a: La Lune|ability: Synchronize
+|-status|p2a: Slowbro|brn
+|
+|-heal|p1a: La Lune|64/100 brn|[from] item: Leftovers
+|-damage|p1a: La Lune|52/100 brn|[from] brn
+|-damage|p2a: Slowbro|72/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1640657545
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|-damage|p2a: Nidoking|95/100|[from] Stealth Rock
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|brn|[msg]
+|
+|-heal|p1a: La Lune|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1640657554
+|move|p1a: La Lune|Protect|p1a: La Lune
+|-singleturn|p1a: La Lune|Protect
+|move|p2a: Nidoking|Fire Blast|p1a: La Lune
+|-activate|p1a: La Lune|move: Protect
+|
+|-heal|p1a: La Lune|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1640657556
+|move|p2a: Nidoking|Focus Blast|p1a: La Lune
+|-supereffective|p1a: La Lune
+|-damage|p1a: La Lune|10/100
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p1a: La Lune|16/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1640657560
+|move|p1a: La Lune|Protect|p1a: La Lune
+|-singleturn|p1a: La Lune|Protect
+|move|p2a: Nidoking|Ice Beam|p1a: La Lune
+|-activate|p1a: La Lune|move: Protect
+|
+|-heal|p1a: La Lune|66/100|[from] move: Wish|[wisher] La Lune
+|-heal|p1a: La Lune|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1640657562
+|move|p2a: Nidoking|Focus Blast|p1a: La Lune
+|-supereffective|p1a: La Lune
+|-damage|p1a: La Lune|19/100
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p1a: La Lune|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1640657569
+|move|p1a: La Lune|Protect|p1a: La Lune
+|-singleturn|p1a: La Lune|Protect
+|move|p2a: Nidoking|Earth Power|p1a: La Lune
+|-activate|p1a: La Lune|move: Protect
+|
+|-heal|p1a: La Lune|75/100|[from] move: Wish|[wisher] La Lune
+|-heal|p1a: La Lune|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1640657571
+|move|p2a: Nidoking|Earth Power|p1a: La Lune
+|-damage|p1a: La Lune|49/100
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p1a: La Lune|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1640657576
+|move|p1a: La Lune|Protect|p1a: La Lune
+|-singleturn|p1a: La Lune|Protect
+|move|p2a: Nidoking|Earth Power|p1a: La Lune
+|-activate|p1a: La Lune|move: Protect
+|
+|-heal|p1a: La Lune|100/100|[from] move: Wish|[wisher] La Lune
+|upkeep
+|turn|17
+|
+|t:|1640657579
+|move|p2a: Nidoking|Focus Blast|p1a: La Lune
+|-supereffective|p1a: La Lune
+|-damage|p1a: La Lune|40/100
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p1a: La Lune|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1640657589
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: La Lune|Protect||[still]
+|-fail|p1a: La Lune
+|
+|-heal|p1a: La Lune|96/100|[from] move: Wish|[wisher] La Lune
+|-heal|p2a: Raikou|94/100|[from] item: Leftovers
+|-heal|p1a: La Lune|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1640657593
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: La Lune|Foul Play|p2a: Raikou
+|-damage|p2a: Raikou|64/100
+|
+|-heal|p2a: Raikou|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1640657595
+|move|p2a: Raikou|Thunderbolt|p1a: La Lune
+|-damage|p1a: La Lune|63/100
+|move|p1a: La Lune|Foul Play|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|6/100
+|
+|-heal|p2a: Raikou|12/100|[from] item: Leftovers
+|-heal|p1a: La Lune|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1640657598
+|move|p2a: Raikou|Thunderbolt|p1a: La Lune
+|-damage|p1a: La Lune|36/100
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p2a: Raikou|18/100|[from] item: Leftovers
+|-heal|p1a: La Lune|42/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1640657603
+|move|p2a: Raikou|Thunderbolt|p1a: La Lune
+|-damage|p1a: La Lune|8/100
+|move|p1a: La Lune|Foul Play|p2a: Raikou
+|-crit|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|-heal|p1a: La Lune|58/100|[from] move: Wish|[wisher] La Lune
+|-heal|p1a: La Lune|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640657609
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1640657613
+|move|p1a: La Lune|Wish|p1a: La Lune
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p1a: La Lune|64/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1640657619
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|100/100 tox|[from] move: Wish|[wisher] La Lune
+|-damage|p1a: La Lune|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1640657622
+|move|p1a: La Lune|Wish|p1a: La Lune
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-fail|p1a: La Lune|tox
+|
+|-heal|p1a: La Lune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: La Lune|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1640657624
+|switch|p1a: Innocence|Gligar, M|28/100
+|-damage|p1a: Innocence|15/100|[from] Stealth Rock
+|move|p2a: Bronzong|Toxic|p1a: Innocence
+|-immune|p1a: Innocence|[from] ability: Immunity
+|
+|-heal|p1a: Innocence|74/100|[from] move: Wish|[wisher] La Lune
+|upkeep
+|turn|27
+|
+|t:|1640657627
+|move|p1a: Innocence|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|89/100
+|
+|t:|1640657630
+|switch|p1a: La Lune|Umbreon, F, shiny|88/100 tox|[from]move: U-turn
+|-damage|p1a: La Lune|76/100 tox|[from] Stealth Rock
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-fail|p1a: La Lune|tox
+|
+|-heal|p1a: La Lune|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|95/100|[from] item: Leftovers
+|-damage|p1a: La Lune|76/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1640657633
+|move|p1a: La Lune|Protect|p1a: La Lune
+|-singleturn|p1a: La Lune|Protect
+|move|p2a: Bronzong|Earthquake|p1a: La Lune
+|-activate|p1a: La Lune|move: Protect
+|
+|-heal|p1a: La Lune|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p1a: La Lune|70/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1640657635
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|76/100 tox|[from] item: Leftovers
+|-damage|p1a: La Lune|70/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1640657638
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|74/100
+|move|p2a: Bronzong|Earthquake|p1a: La Lune
+|-damage|p1a: La Lune|54/100 tox
+|
+|-heal|p1a: La Lune|60/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|80/100|[from] item: Leftovers
+|-damage|p1a: La Lune|48/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1640657643
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|54/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|86/100|[from] item: Leftovers
+|-damage|p1a: La Lune|48/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1640657646
+|switch|p2a: Nidoking|Nidoking, M|95/100
+|-damage|p2a: Nidoking|89/100|[from] Stealth Rock
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|
+|-heal|p1a: La Lune|54/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1640657649
+|switch|p2a: Bronzong|Bronzong|86/100
+|-damage|p2a: Bronzong|80/100|[from] Stealth Rock
+|move|p1a: La Lune|Protect||[still]
+|-fail|p1a: La Lune
+|
+|-heal|p1a: La Lune|60/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|86/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1640657652
+|move|p1a: La Lune|Wish|p1a: La Lune
+|move|p2a: Bronzong|Earthquake|p1a: La Lune
+|-damage|p1a: La Lune|43/100
+|
+|-heal|p1a: La Lune|49/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|93/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1640657654
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|67/100
+|move|p2a: Bronzong|Stealth Rock||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p1a: La Lune|99/100|[from] move: Wish|[wisher] La Lune
+|-heal|p1a: La Lune|100/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|74/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1640657656
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|45/100
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|51/100|[from] item: Leftovers
+|-damage|p1a: La Lune|94/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1640657658
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|58/100|[from] item: Leftovers
+|-damage|p1a: La Lune|94/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1640657662
+|switch|p1a: Innocence|Gligar, M|74/100
+|-damage|p1a: Innocence|62/100|[from] Stealth Rock
+|move|p2a: Bronzong|Protect||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|64/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1640657664
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Innocence|Roost|p1a: Innocence
+|-heal|p1a: Innocence|100/100
+|-singleturn|p1a: Innocence|move: Roost
+|
+|-heal|p2a: Bronzong|70/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1640657667
+|move|p1a: Innocence|Stealth Rock||[still]
+|-fail|p1a: Innocence
+|move|p2a: Bronzong|Earthquake|p1a: Innocence
+|-immune|p1a: Innocence
+|
+|-heal|p2a: Bronzong|76/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1640657669
+|move|p1a: Innocence|Stealth Rock||[still]
+|-fail|p1a: Innocence
+|move|p2a: Bronzong|Stealth Rock||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|82/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1640657671
+|move|p1a: Innocence|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|70/100
+|
+|t:|1640657672
+|switch|p1a: Icarus|Zapdos|100/100|[from]move: U-turn
+|-damage|p1a: Icarus|76/100|[from] Stealth Rock
+|-ability|p1a: Icarus|Pressure
+|move|p2a: Bronzong|Stealth Rock||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|77/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1640657678
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|95/100|[from] Stealth Rock
+|move|p1a: Icarus|Heat Wave|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|46/100
+|-damage|p1a: Icarus|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|44
+|
+|t:|1640657688
+|move|p1a: Icarus|Heat Wave|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|-damage|p1a: Icarus|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640657690
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|-damage|p2a: Mismagius|88/100|[from] Stealth Rock
+|turn|45
+|
+|t:|1640657697
+|move|p2a: Mismagius|Trick|p1a: Icarus
+|-activate|p2a: Mismagius|move: Trick|[of] p1a: Icarus
+|-item|p1a: Icarus|Choice Specs|[from] move: Trick
+|-item|p2a: Mismagius|Life Orb|[from] move: Trick
+|move|p1a: Icarus|Thunderbolt|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+|
+|t:|1640657700
+|switch|p2a: Nidoking|Nidoking, M|89/100
+|-damage|p2a: Nidoking|83/100|[from] Stealth Rock
+|turn|46
+|
+|t:|1640657705
+|switch|p1a: Innocence|Gligar, M|100/100
+|-damage|p1a: Innocence|88/100|[from] Stealth Rock
+|move|p2a: Nidoking|Fire Blast|p1a: Innocence
+|-damage|p1a: Innocence|38/100
+|
+|upkeep
+|turn|47
+|
+|t:|1640657707
+|move|p2a: Nidoking|Ice Beam|p1a: Innocence
+|-supereffective|p1a: Innocence
+|-damage|p1a: Innocence|0 fnt
+|faint|p1a: Innocence
+|
+|upkeep
+|
+|t:|1640657713
+|switch|p1a: La Lune|Umbreon, F, shiny|94/100 tox
+|-damage|p1a: La Lune|82/100 tox|[from] Stealth Rock
+|turn|48
+|c|☆ford focus 2021|got one
+|
+|t:|1640657717
+|switch|p2a: Slowbro|Slowbro, F|100/100 brn
+|-damage|p2a: Slowbro|88/100 brn|[from] Stealth Rock
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|
+|-heal|p1a: La Lune|88/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|76/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1640657720
+|move|p1a: La Lune|Foul Play|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|50/100 brn
+|-damage|p1a: La Lune|72/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|move|p2a: Slowbro|Scald|p1a: La Lune
+|-damage|p1a: La Lune|58/100
+|
+|-heal|p1a: La Lune|64/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|37/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1640657722
+|move|p1a: La Lune|Wish|p1a: La Lune
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|87/100 brn
+|
+|-heal|p1a: La Lune|70/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|75/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1640657725
+|switch|p1a: Pixel Empire|Raikou, shiny|100/100
+|-damage|p1a: Pixel Empire|88/100|[from] Stealth Rock
+|-ability|p1a: Pixel Empire|Pressure
+|move|p2a: Slowbro|Thunder Wave|p1a: Pixel Empire
+|-status|p1a: Pixel Empire|par
+|
+|-heal|p1a: Pixel Empire|100/100 par|[from] move: Wish|[wisher] La Lune
+|-damage|p2a: Slowbro|62/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1640657728
+|switch|p2a: Nidoking|Nidoking, M|83/100
+|-damage|p2a: Nidoking|77/100|[from] Stealth Rock
+|move|p1a: Pixel Empire|Calm Mind|p1a: Pixel Empire
+|-boost|p1a: Pixel Empire|spa|1
+|-boost|p1a: Pixel Empire|spd|1
+|
+|upkeep
+|turn|53
+|
+|t:|1640657730
+|move|p2a: Nidoking|Earth Power|p1a: Pixel Empire
+|-supereffective|p1a: Pixel Empire
+|-damage|p1a: Pixel Empire|10/100 par
+|cant|p1a: Pixel Empire|par
+|
+|upkeep
+|turn|54
+|
+|t:|1640657736
+|move|p2a: Nidoking|Fire Blast|p1a: Pixel Empire
+|-damage|p1a: Pixel Empire|0 fnt
+|faint|p1a: Pixel Empire
+|
+|upkeep
+|
+|t:|1640657741
+|switch|p1a: La Lune|Umbreon, F, shiny|70/100
+|-damage|p1a: La Lune|58/100|[from] Stealth Rock
+|turn|55
+|
+|t:|1640657745
+|switch|p2a: Bronzong|Bronzong|77/100
+|-damage|p2a: Bronzong|70/100|[from] Stealth Rock
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p1a: La Lune|64/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|77/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1640657749
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|48/100
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|100/100 tox|[from] move: Wish|[wisher] La Lune
+|-heal|p2a: Bronzong|54/100|[from] item: Leftovers
+|-damage|p1a: La Lune|94/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1640657753
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p1a: La Lune|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|61/100|[from] item: Leftovers
+|-damage|p1a: La Lune|88/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1640657757
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|35/100
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-fail|p1a: La Lune|tox
+|
+|-heal|p1a: La Lune|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|41/100|[from] item: Leftovers
+|-damage|p1a: La Lune|76/100 tox|[from] psn
+|upkeep
+|turn|59
+|
+|t:|1640657759
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|15/100
+|move|p2a: Bronzong|Toxic|p1a: La Lune|[miss]
+|-miss|p2a: Bronzong|p1a: La Lune
+|
+|-heal|p1a: La Lune|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|22/100|[from] item: Leftovers
+|-damage|p1a: La Lune|58/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|t:|1640657761
+|move|p1a: La Lune|Heal Bell|p1a: La Lune
+|-activate|p1a: La Lune|move: Heal Bell
+|-curestatus|p1a: La Lune|tox|[msg]
+|move|p2a: Bronzong|Toxic|p1a: La Lune|[miss]
+|-miss|p2a: Bronzong|p1a: La Lune
+|
+|-heal|p1a: La Lune|64/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|28/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1640657764
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p1a: La Lune|70/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|34/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1640657765
+|move|p1a: La Lune|Foul Play|p2a: Bronzong
+|-damage|p2a: Bronzong|9/100
+|move|p2a: Bronzong|Toxic|p1a: La Lune
+|-status|p1a: La Lune|tox
+|-activate|p1a: La Lune|ability: Synchronize
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: La Lune|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|15/100|[from] item: Leftovers
+|-damage|p1a: La Lune|70/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1640657767
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: La Lune|Wish|p1a: La Lune
+|
+|-heal|p1a: La Lune|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|21/100|[from] item: Leftovers
+|-damage|p1a: La Lune|64/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|t:|1640657771
+|switch|p2a: Slowbro|Slowbro, F|96/100 brn
+|-damage|p2a: Slowbro|83/100 brn|[from] Stealth Rock
+|move|p1a: La Lune|Foul Play|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|58/100 brn
+|-damage|p1a: La Lune|47/100 tox|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|-heal|p1a: La Lune|97/100 tox|[from] move: Wish|[wisher] La Lune
+|-heal|p1a: La Lune|100/100 tox|[from] item: Leftovers
+|-damage|p1a: La Lune|82/100 tox|[from] psn
+|-damage|p2a: Slowbro|46/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|t:|1640657774
+|move|p1a: La Lune|Wish|p1a: La Lune
+|move|p2a: Slowbro|Thunder Wave||[still]
+|-fail|p2a: Slowbro
+|
+|-heal|p1a: La Lune|88/100 tox|[from] item: Leftovers
+|-damage|p1a: La Lune|64/100 tox|[from] psn
+|-damage|p2a: Slowbro|33/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|t:|1640657778
+|switch|p1a: Zephyr|Togekiss, F|100/100
+|-damage|p1a: Zephyr|76/100|[from] Stealth Rock
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|83/100 brn
+|
+|-heal|p1a: Zephyr|100/100|[from] move: Wish|[wisher] La Lune
+|-damage|p2a: Slowbro|71/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|t:|1640657780
+|move|p1a: Zephyr|Air Slash|p2a: Slowbro
+|-damage|p2a: Slowbro|44/100 brn
+|move|p2a: Slowbro|Thunder Wave|p1a: Zephyr
+|-status|p1a: Zephyr|par
+|
+|-damage|p2a: Slowbro|32/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|t:|1640657783
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|82/100 brn
+|move|p1a: Zephyr|Air Slash|p2a: Slowbro
+|-damage|p2a: Slowbro|55/100 brn
+|
+|-damage|p2a: Slowbro|43/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|t:|1640657786
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|93/100 brn
+|cant|p1a: Zephyr|par
+|
+|-damage|p2a: Slowbro|80/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1640657789
+|move|p2a: Slowbro|Scald|p1a: Zephyr
+|-damage|p1a: Zephyr|76/100 par
+|move|p1a: Zephyr|Air Slash|p2a: Slowbro
+|-damage|p2a: Slowbro|53/100 brn
+|
+|-heal|p1a: Zephyr|83/100 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|40/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|t:|1640657792
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|90/100 brn
+|cant|p1a: Zephyr|par
+|
+|-heal|p1a: Zephyr|89/100 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|78/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|t:|1640657794
+|move|p2a: Slowbro|Scald|p1a: Zephyr
+|-damage|p1a: Zephyr|67/100 par
+|move|p1a: Zephyr|Nasty Plot|p1a: Zephyr
+|-boost|p1a: Zephyr|spa|2
+|
+|-heal|p1a: Zephyr|73/100 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|65/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|t:|1640657796
+|move|p2a: Slowbro|Scald|p1a: Zephyr
+|-damage|p1a: Zephyr|50/100 par
+|move|p1a: Zephyr|Air Slash|p2a: Slowbro
+|-damage|p2a: Slowbro|4/100 brn
+|
+|-heal|p1a: Zephyr|56/100 par|[from] item: Leftovers
+|-damage|p2a: Slowbro|0 fnt|[from] brn
+|faint|p2a: Slowbro
+|upkeep
+|
+|t:|1640657797
+|switch|p2a: Nidoking|Nidoking, M|77/100
+|-damage|p2a: Nidoking|71/100|[from] Stealth Rock
+|turn|74
+|
+|t:|1640657799
+|move|p2a: Nidoking|Ice Beam|p1a: Zephyr
+|-supereffective|p1a: Zephyr
+|-damage|p1a: Zephyr|0 fnt
+|faint|p1a: Zephyr
+|
+|upkeep
+|
+|t:|1640657802
+|switch|p1a: Icarus|Zapdos|56/100
+|-damage|p1a: Icarus|31/100|[from] Stealth Rock
+|-ability|p1a: Icarus|Pressure
+|turn|75
+|
+|t:|1640657804
+|move|p1a: Icarus|Hidden Power|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|upkeep
+|
+|t:|1640657807
+|switch|p2a: Bronzong|Bronzong|21/100
+|-damage|p2a: Bronzong|15/100|[from] Stealth Rock
+|turn|76
+|
+|t:|1640657810
+|move|p1a: Icarus|Hidden Power|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|3/100
+|move|p2a: Bronzong|Toxic|p1a: Icarus
+|-status|p1a: Icarus|tox
+|
+|-heal|p2a: Bronzong|9/100|[from] item: Leftovers
+|-damage|p1a: Icarus|24/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|t:|1640657813
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Icarus|Hidden Power|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|15/100|[from] item: Leftovers
+|-damage|p1a: Icarus|12/100 tox|[from] psn
+|upkeep
+|turn|78
+|
+|t:|1640657817
+|move|p1a: Icarus|Hidden Power|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|4/100
+|move|p2a: Bronzong|Earthquake|p1a: Icarus
+|-immune|p1a: Icarus
+|
+|-heal|p2a: Bronzong|11/100|[from] item: Leftovers
+|-damage|p1a: Icarus|0 fnt|[from] psn
+|faint|p1a: Icarus
+|upkeep
+|
+|t:|1640657821
+|switch|p1a: Finale|Heracross, F|100/100
+|-damage|p1a: Finale|88/100|[from] Stealth Rock
+|turn|79
+|
+|t:|1640657823
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Finale|Close Combat|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|17/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|t:|1640657825
+|move|p1a: Finale|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-unboost|p1a: Finale|def|1
+|-unboost|p1a: Finale|spd|1
+|faint|p2a: Bronzong
+|-ability|p1a: Finale|Moxie|boost
+|-boost|p1a: Finale|atk|1
+|
+|win|Lily

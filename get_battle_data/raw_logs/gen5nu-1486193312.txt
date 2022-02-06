@@ -1,0 +1,701 @@
+|j|☆KinglerIsPowerful
+|j|☆FlyingMaster-Mew
+|t:|1641438159
+|gametype|singles
+|player|p1|KinglerIsPowerful|psychic-gen4|1100
+|player|p2|FlyingMaster-Mew|101|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Tauros, M|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Golem, F|item
+|poke|p1|Braviary, M|item
+|poke|p2|Wartortle, F|item
+|poke|p2|Ivysaur, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Regirock|item
+|poke|p2|Sawsbuck, F|item
+|poke|p2|Alomomola, M|item
+|teampreview
+|c|☆FlyingMaster-Mew|glhg
+|c|☆KinglerIsPowerful|zglhf
+|c|☆KinglerIsPowerful|glhf
+|
+|t:|1641438170
+|start
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|c|☆FlyingMaster-Mew|*glhf
+|c|☆FlyingMaster-Mew|lol
+|
+|t:|1641438178
+|move|p1a: Eelektross|Thunderbolt|p2a: Regirock
+|-damage|p2a: Regirock|58/100
+|move|p2a: Regirock|Stealth Rock|p1a: Eelektross
+|-sidestart|p1: KinglerIsPowerful|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆KinglerIsPowerful|spinning is literally impossible in this tier
+|
+|t:|1641438205
+|move|p1a: Eelektross|Thunderbolt|p2a: Regirock
+|-crit|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|upkeep
+|c|☆FlyingMaster-Mew|oof
+|c|☆FlyingMaster-Mew|yeah its really tough
+|c|☆KinglerIsPowerful|i just deal with it
+|c|☆FlyingMaster-Mew|not many good spinners
+|
+|t:|1641438233
+|switch|p2a: Ivysaur|Ivysaur, M|100/100
+|turn|3
+|
+|t:|1641438236
+|move|p2a: Ivysaur|Sleep Powder|p1a: Eelektross
+|-status|p1a: Eelektross|slp|[from] move: Sleep Powder
+|cant|p1a: Eelektross|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1641438242
+|move|p2a: Ivysaur|Growth|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|1
+|-boost|p2a: Ivysaur|spa|1
+|cant|p1a: Eelektross|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1641438248
+|move|p2a: Ivysaur|Giga Drain|p1a: Eelektross
+|-damage|p1a: Eelektross|65/100 slp
+|-curestatus|p1a: Eelektross|slp|[msg]
+|move|p1a: Eelektross|Flamethrower|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|43/100
+|
+|-heal|p1a: Eelektross|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641438256
+|move|p2a: Ivysaur|Sleep Powder|p1a: Eelektross
+|-status|p1a: Eelektross|slp|[from] move: Sleep Powder
+|cant|p1a: Eelektross|slp
+|
+|-heal|p1a: Eelektross|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1641438262
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Ivysaur|Growth|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|1
+|-boost|p2a: Ivysaur|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1641438273
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Charizard|Fire Blast|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100
+|
+|-heal|p2a: Alomomola|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1641438281
+|move|p1a: Charizard|Fire Blast|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|10/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|16/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1641438290
+|switch|p2a: Wartortle|Wartortle, F|100/100
+|move|p1a: Charizard|Fire Blast|p2a: Wartortle|[miss]
+|-miss|p1a: Charizard|p2a: Wartortle
+|
+|upkeep
+|turn|11
+|
+|t:|1641438296
+|move|p1a: Charizard|Fire Blast|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|75/100
+|move|p2a: Wartortle|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-damage|p1a: Charizard|45/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1641438304
+|move|p1a: Charizard|Fire Blast|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|52/100
+|move|p2a: Wartortle|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1641438317
+|switch|p1a: Tauros|Tauros, M|100/100
+|-damage|p1a: Tauros|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1641438323
+|move|p1a: Tauros|Substitute|p1a: Tauros
+|-start|p1a: Tauros|Substitute
+|-damage|p1a: Tauros|63/100
+|move|p2a: Wartortle|Scald|p1a: Tauros
+|-end|p1a: Tauros|Substitute
+|
+|upkeep
+|turn|14
+|
+|t:|1641438329
+|move|p1a: Tauros|Rock Climb|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|upkeep
+|
+|t:|1641438331
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|15
+|
+|t:|1641438335
+|move|p2a: Charizard|Flamethrower|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|t:|1641438340
+|switch|p1a: Golem|Golem, F|100/100
+|-damage|p1a: Golem|95/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1641438344
+|switch|p2a: Sawsbuck|Sawsbuck, F|100/100
+|move|p1a: Golem|Rock Blast|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|81/100
+|-damage|p2a: Sawsbuck|60/100
+|-hitcount|p2a: Sawsbuck|2
+|
+|-heal|p1a: Golem|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1641438355
+|move|p1a: Golem|Sucker Punch|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|20/100
+|move|p2a: Sawsbuck|Horn Leech|p1a: Golem
+|-supereffective|p1a: Golem
+|-ability|p1a: Golem|Sturdy
+|-damage|p1a: Golem|1/100
+|-heal|p2a: Sawsbuck|78/100|[from] drain|[of] p1a: Golem
+|-damage|p2a: Sawsbuck|68/100|[from] item: Life Orb
+|
+|-heal|p1a: Golem|7/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1641438367
+|move|p1a: Golem|Sucker Punch||[still]
+|-fail|p1a: Golem
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|
+|-heal|p1a: Golem|13/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1641438373
+|move|p2a: Sawsbuck|Horn Leech|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|-heal|p2a: Sawsbuck|76/100|[from] drain|[of] p1a: Golem
+|faint|p1a: Golem
+|-damage|p2a: Sawsbuck|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641438383
+|switch|p1a: Sawk|Sawk, M|100/100
+|-damage|p1a: Sawk|94/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|20
+|
+|t:|1641438394
+|move|p1a: Sawk|Ice Punch|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|upkeep
+|
+|t:|1641438397
+|switch|p2a: Alomomola|Alomomola, M|49/100
+|turn|21
+|
+|t:|1641438402
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|75/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Braviary|82/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|55/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1641438411
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|57/100
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Braviary|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1641438419
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-activate|p1a: Braviary|Substitute|[damage]
+|
+|-heal|p1a: Braviary|69/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆KinglerIsPowerful|seriously wartortle is the only spinner
+|
+|t:|1641438445
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1641438454
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|100/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-crit|p1a: Braviary
+|-damage|p1a: Braviary|83/100
+|
+|-heal|p1a: Braviary|89/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆FlyingMaster-Mew|yeah haha
+|
+|t:|1641438466
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|64/100
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-activate|p1a: Braviary|Substitute|[damage]
+|
+|-heal|p1a: Braviary|70/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆KinglerIsPowerful|others are armaldo and torkoal
+|c|☆KinglerIsPowerful|but they are more offensive
+|
+|t:|1641438488
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|c|☆FlyingMaster-Mew|yeah
+|c|☆FlyingMaster-Mew|plus both are stealth rock weak lol
+|
+|t:|1641438501
+|move|p1a: Braviary|Brave Bird|p2a: Alomomola
+|-damage|p2a: Alomomola|35/100
+|-damage|p1a: Braviary|48/100|[from] Recoil
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|32/100
+|
+|-heal|p1a: Braviary|38/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|41/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆KinglerIsPowerful|LOL
+|
+|t:|1641438511
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|88/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1641438520
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-damage|p1a: Braviary|46/100
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|21/100
+|
+|-heal|p1a: Braviary|27/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆KinglerIsPowerful|you tryna fry my braviary to fried chicken
+|
+|t:|1641438550
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|77/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|84/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆FlyingMaster-Mew|yep haha
+|c|☆FlyingMaster-Mew|looks like its not working too well thoigh
+|
+|t:|1641438562
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-damage|p1a: Braviary|35/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|85/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|91/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆KinglerIsPowerful|maybe it is because i have 252 evs in spdef
+|
+|t:|1641438590
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-damage|p1a: Braviary|42/100
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|17/100
+|
+|-heal|p1a: Braviary|23/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆FlyingMaster-Mew|thats an interesting set
+|
+|t:|1641438609
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-crit|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|73/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|79/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆KinglerIsPowerful|WELL YOU GOT A CRIT ON THE SUB BUT NOT ME
+|
+|t:|1641438635
+|move|p2a: Charizard|Fire Blast|p1a: Braviary|[miss]
+|-miss|p2a: Charizard|p1a: Braviary
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|100/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|upkeep
+|turn|36
+|
+|t:|1641438649
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-damage|p1a: Braviary|57/100
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|32/100
+|
+|-heal|p1a: Braviary|38/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆KinglerIsPowerful|thats is just unlucky
+|c|☆FlyingMaster-Mew|rip yeah lol
+|
+|t:|1641438666
+|move|p2a: Charizard|Fire Blast|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|88/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|95/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|c|☆KinglerIsPowerful|welp time to struggle i guess
+|
+|t:|1641438682
+|-activate|p2a: Charizard|move: Struggle
+|move|p2a: Charizard|Struggle|p1a: Braviary
+|-damage|p1a: Braviary|91/100
+|-damage|p2a: Charizard|76/100|[from] recoil
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|66/100
+|
+|-heal|p1a: Braviary|72/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆FlyingMaster-Mew|yeah haha
+|
+|t:|1641438693
+|switch|p2a: Ivysaur|Ivysaur, M|43/100
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|
+|-heal|p1a: Braviary|78/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1641438700
+|move|p2a: Ivysaur|Hidden Power|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-activate|p1a: Braviary|Substitute|[damage]
+|move|p1a: Braviary|Brave Bird|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|-damage|p1a: Braviary|67/100|[from] Recoil
+|
+|-heal|p1a: Braviary|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641438705
+|switch|p2a: Alomomola|Alomomola, M|74/100
+|turn|41
+|
+|t:|1641438715
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|79/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|80/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1641438724
+|move|p1a: Braviary|Substitute|p1a: Braviary
+|-start|p1a: Braviary|Substitute
+|-damage|p1a: Braviary|54/100
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-activate|p1a: Braviary|Substitute|[damage]
+|
+|-heal|p1a: Braviary|60/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|87/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1641438733
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|move|p2a: Alomomola|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-end|p1a: Braviary|Substitute
+|
+|-heal|p1a: Braviary|67/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|93/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|c|☆KinglerIsPowerful|this is definitely annoying
+|
+|t:|1641438750
+|move|p1a: Braviary|Brave Bird|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Braviary|26/100|[from] Recoil
+|
+|-heal|p1a: Braviary|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641438754
+|switch|p2a: Charizard|Charizard, M|76/100
+|turn|45
+|
+|t:|1641438758
+|move|p2a: Charizard|Air Slash|p1a: Braviary
+|-damage|p1a: Braviary|3/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|53/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|59/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1641438767
+|move|p2a: Charizard|Air Slash|p1a: Braviary
+|-damage|p1a: Braviary|32/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|82/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-heal|p1a: Braviary|88/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1641438774
+|move|p2a: Charizard|Air Slash|p1a: Braviary
+|-damage|p1a: Braviary|57/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|100/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|upkeep
+|turn|48
+|c|☆FlyingMaster-Mew|why not just brave bird haha
+|
+|t:|1641438784
+|move|p2a: Charizard|Air Slash|p1a: Braviary
+|-crit|p1a: Braviary
+|-damage|p1a: Braviary|39/100
+|cant|p1a: Braviary|flinch
+|
+|-heal|p1a: Braviary|46/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1641438791
+|move|p2a: Charizard|Air Slash|p1a: Braviary
+|-damage|p1a: Braviary|14/100
+|cant|p1a: Braviary|flinch
+|
+|-heal|p1a: Braviary|20/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1641438796
+|move|p2a: Charizard|Air Slash|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|upkeep
+|c|☆FlyingMaster-Mew|oof
+|c|☆KinglerIsPowerful|i can give you a chance
+|
+|t:|1641438810
+|switch|p1a: Eelektross|Eelektross, M|78/100 slp
+|-damage|p1a: Eelektross|65/100 slp|[from] Stealth Rock
+|turn|51
+|c|☆FlyingMaster-Mew|thnk u thnk u
+|
+|t:|1641438817
+|move|p2a: Charizard|Air Slash|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|42/100 slp
+|cant|p1a: Eelektross|slp
+|
+|-heal|p1a: Eelektross|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|52
+|c|☆KinglerIsPowerful|i didnt like stall
+|c|☆KinglerIsPowerful|never will like stall
+|
+|t:|1641438838
+|move|p2a: Charizard|Air Slash|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|26/100 slp
+|cant|p1a: Eelektross|slp
+|
+|-heal|p1a: Eelektross|32/100 slp|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1641438845
+|move|p2a: Charizard|Air Slash|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|9/100 slp
+|cant|p1a: Eelektross|slp
+|
+|-heal|p1a: Eelektross|15/100 slp|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1641438851
+|move|p2a: Charizard|Air Slash|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|c|☆FlyingMaster-Mew|agreed
+|
+|t:|1641438855
+|switch|p1a: Sawk|Sawk, M|94/100
+|-damage|p1a: Sawk|88/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|55
+|c|☆FlyingMaster-Mew|well gg this was fun
+|
+|t:|1641438861
+|move|p2a: Charizard|Air Slash|p1a: Sawk
+|-supereffective|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|win|FlyingMaster-Mew
+|raw|KinglerIsPowerful's rating: 1100 &rarr; <strong>1071</strong><br />(-29 for losing)
+|raw|FlyingMaster-Mew's rating: 1047 &rarr; <strong>1085</strong><br />(+38 for winning)
+|c|☆KinglerIsPowerful|gg
+|l|☆FlyingMaster-Mew

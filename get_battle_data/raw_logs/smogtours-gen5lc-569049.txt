@@ -1,0 +1,293 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1625344062
+|gametype|singles
+|player|p1|trash|ethan|
+|player|p2|F i l l e|wallace|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pawniard, L5, M|item
+|poke|p1|Riolu, L5, M|item
+|poke|p1|Shelmet, L5, F|item
+|poke|p1|Diglett, L5, F|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p2|Snover, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Diglett, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Vullaby, L5, F|item
+|teampreview
+|c|☆F i l l e|hf!
+|c|+Boulicrok|foat
+|inactive|trash has 270 seconds left.
+|inactive|F i l l e has 270 seconds left.
+|c|☆trash|hf!
+|inactive|F i l l e has 240 seconds left.
+|
+|t:|1625344126
+|start
+|switch|p1a: Shelmet|Shelmet, L5, F|100/100
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|turn|1
+|c|☆F i l l e|!analysis shelmet
+|c|+F i l l e|/raw <div class="infobox"><a href="https://www.smogon.com/dex/ss/pokemon/shelmet">SS  Shelmet analysis</a>, brought to you by <a href="https://www.smogon.com">Smogon University</a></div>
+|
+|t:|1625344151
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Vullaby|Nasty Plot|p2a: Vullaby
+|-boost|p2a: Vullaby|spa|2
+|
+|upkeep
+|turn|2
+|inactive|trash has 270 seconds left.
+|
+|t:|1625344174
+|move|p1a: Mienfoo|Stone Edge|p2a: Vullaby
+|-supereffective|p2a: Vullaby
+|-damage|p2a: Vullaby|48/100
+|-ability|p2a: Vullaby|Weak Armor|boost
+|-unboost|p2a: Vullaby|def|1
+|-boost|p2a: Vullaby|spe|1
+|move|p2a: Vullaby|Air Slash|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+|inactive|trash has 240 seconds left.
+|inactive|trash has 210 seconds left.
+|inactive|trash has 180 seconds left.
+|
+|t:|1625344279
+|switch|p1a: Diglett|Diglett, L5, F|100/100
+|turn|3
+|inactive|trash has 150 seconds left.
+|
+|t:|1625344318
+|move|p2a: Vullaby|Dark Pulse|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|upkeep
+|
+|t:|1625344331
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|turn|4
+|
+|t:|1625344334
+|move|p1a: Pawniard|Sucker Punch|p2a: Vullaby
+|-resisted|p2a: Vullaby
+|-damage|p2a: Vullaby|22/100
+|-ability|p2a: Vullaby|Weak Armor|boost
+|-unboost|p2a: Vullaby|def|1
+|-boost|p2a: Vullaby|spe|1
+|move|p2a: Vullaby|Heat Wave|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|t:|1625344337
+|switch|p1a: Riolu|Riolu, L5, M|100/100
+|turn|5
+|
+|t:|1625344343
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Heat Wave|p2a: Vullaby|[from]move: Copycat
+|-damage|p2a: Vullaby|5/100
+|move|p2a: Vullaby|Air Slash|p1a: Riolu|[miss]
+|-miss|p2a: Vullaby|p1a: Riolu
+|
+|upkeep
+|turn|6
+|
+|t:|1625344356
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Air Slash|p2a: Vullaby|[from]move: Copycat
+|-damage|p2a: Vullaby|0 fnt
+|faint|p2a: Vullaby
+|
+|upkeep
+|inactive|F i l l e has 270 seconds left.
+|
+|t:|1625344383
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|turn|7
+|
+|t:|1625344387
+|move|p2a: Diglett|Earthquake|p1a: Riolu
+|-damage|p1a: Riolu|61/100
+|move|p1a: Riolu|Drain Punch|p2a: Diglett
+|-damage|p2a: Diglett|28/100
+|-heal|p1a: Riolu|92/100|[from] drain|[of] p2a: Diglett
+|
+|upkeep
+|turn|8
+|
+|t:|1625344394
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Riolu|Crunch|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|48/100
+|
+|upkeep
+|turn|9
+|c|☆F i l l e|yo
+|
+|t:|1625344402
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Riolu|Drain Punch|p2a: Mienfoo
+|-damage|p2a: Mienfoo|67/100
+|-heal|p1a: Riolu|100/100|[from] drain|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|10
+|inactive|trash has 210 seconds left.
+|
+|t:|1625344409
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Drain Punch|p2a: Mienfoo|[from]move: Copycat
+|-damage|p2a: Mienfoo|34/100
+|move|p2a: Mienfoo|Taunt|p1a: Riolu
+|-start|p1a: Riolu|move: Taunt
+|
+|upkeep
+|turn|11
+|inactive|trash has 210 seconds left.
+|
+|t:|1625344427
+|switch|p2a: Diglett|Diglett, L5, M|28/100
+|move|p1a: Riolu|Drain Punch|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|upkeep
+|
+|t:|1625344438
+|switch|p2a: Mienfoo|Mienfoo, L5, M|67/100
+|turn|12
+|
+|t:|1625344448
+|move|p1a: Riolu|Drain Punch|p2a: Mienfoo
+|-damage|p2a: Mienfoo|34/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Riolu
+|-damage|p1a: Riolu|31/100
+|
+|upkeep
+|turn|13
+|
+|t:|1625344459
+|switch|p2a: Natu|Natu, L5, F|48/100
+|move|p1a: Riolu|Drain Punch|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|44/100
+|-heal|p1a: Riolu|35/100|[from] drain|[of] p2a: Natu
+|
+|-end|p1a: Riolu|move: Taunt
+|upkeep
+|turn|14
+|inactive|trash has 210 seconds left.
+|
+|t:|1625344495
+|switch|p1a: Shelmet|Shelmet, L5, F|100/100
+|move|p2a: Natu|Psychic|p1a: Shelmet
+|-damage|p1a: Shelmet|50/100
+|
+|upkeep
+|turn|15
+|
+|t:|1625344518
+|move|p1a: Shelmet|Final Gambit|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p1a: Shelmet
+|faint|p2a: Natu
+|
+|upkeep
+|inactive|F i l l e has 270 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|
+|t:|1625344603
+|switch|p2a: Snover|Snover, L5, F|100/100
+|switch|p1a: Riolu|Riolu, L5, M|35/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|16
+|inactive|trash has 210 seconds left.
+|
+|t:|1625344614
+|move|p2a: Snover|Protect|p2a: Snover
+|-singleturn|p2a: Snover|Protect
+|move|p1a: Riolu|Drain Punch|p2a: Snover
+|-activate|p2a: Snover|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Riolu|31/100|[from] Hail
+|upkeep
+|turn|17
+|
+|t:|1625344618
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Drain Punch|p2a: Snover|[from]move: Copycat
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|40/100
+|-heal|p1a: Riolu|61/100|[from] drain|[of] p2a: Snover
+|move|p2a: Snover|Blizzard|p1a: Riolu
+|-crit|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|faint|p1a: Riolu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1625344621
+|switch|p1a: Drifloon|Drifloon, L5, F|100/100
+|turn|18
+|
+|t:|1625344630
+|move|p2a: Snover|Ice Shard|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-crit|p1a: Drifloon
+|-damage|p1a: Drifloon|8/100
+|move|p1a: Drifloon|Acrobatics|p2a: Snover
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|4/100|[from] Hail
+|upkeep
+|c|☆F i l l e|gg outta respect
+|c|☆trash|gg!
+|
+|t:|1625344637
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Unburden|[from] ability: Trace|[of] p1a: Drifloon
+|turn|19
+|c|☆F i l l e|weird MU
+|c|☆F i l l e|cool af shit tho
+|
+|t:|1625344658
+|move|p1a: Drifloon|Acrobatics|p2a: Porygon
+|-damage|p2a: Porygon|60/100
+|move|p2a: Porygon|Tri Attack|p1a: Drifloon
+|-immune|p1a: Drifloon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drifloon|0 fnt|[from] Hail
+|-damage|p2a: Porygon|57/100|[from] Hail
+|faint|p1a: Drifloon
+|
+|win|F i l l e
+|upkeep

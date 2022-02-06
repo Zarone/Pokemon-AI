@@ -1,0 +1,309 @@
+|j|☆Pecurto23
+|j|☆Xq43
+|t:|1641145499
+|gametype|singles
+|player|p1|Pecurto23|barry|1089
+|player|p2|Xq43|sailor|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawk, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Probopass, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Samurott, F|item
+|poke|p1|Golurk|item
+|poke|p2|Golurk|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Rotom-Frost|item
+|poke|p2|Leafeon, F|item
+|teampreview
+|l|☆Xq43
+|player|p2|
+|c|☆Pecurto23|lol
+|j|☆Xq43
+|player|p2|Xq43|sailor
+|c|☆Xq43|gg
+|c|☆Pecurto23|ggs
+|c|☆Pecurto23|i lose
+|
+|t:|1641145592
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Samurott|Samurott, M|100/100
+|turn|1
+|
+|t:|1641145617
+|move|p1a: Braviary|Brave Bird|p2a: Samurott
+|-damage|p2a: Samurott|36/100
+|-damage|p1a: Braviary|77/100|[from] Recoil
+|move|p2a: Samurott|Waterfall|p1a: Braviary
+|-damage|p1a: Braviary|31/100
+|
+|upkeep
+|turn|2
+|
+|t:|1641145645
+|switch|p1a: Samurott|Samurott, F|100/100
+|move|p2a: Samurott|Aqua Jet|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|91/100
+|
+|upkeep
+|turn|3
+|j| hirogashi23
+|
+|t:|1641145655
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|move|p1a: Samurott|Megahorn|p2a: Rotom|[miss]
+|-miss|p1a: Samurott|p2a: Rotom
+|
+|upkeep
+|turn|4
+|
+|t:|1641145666
+|switch|p1a: Probopass|Probopass, M|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Probopass
+|-damage|p1a: Probopass|73/100
+|
+|-heal|p1a: Probopass|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641145683
+|switch|p2a: Golurk|Golurk, shiny|100/100
+|move|p1a: Probopass|Stealth Rock|p2a: Golurk
+|-sidestart|p2: Xq43|move: Stealth Rock
+|
+|-heal|p1a: Probopass|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641145698
+|switch|p1a: Samurott|Samurott, F|91/100
+|move|p2a: Golurk|Stealth Rock|p1a: Samurott
+|-sidestart|p1: Pecurto23|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1641145706
+|move|p1a: Samurott|Waterfall|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-enditem|p2a: Golurk|Passho Berry|[eat]
+|-enditem|p2a: Golurk|Passho Berry|[weaken]
+|-damage|p2a: Golurk|65/100
+|move|p2a: Golurk|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|-enditem|p1a: Samurott|Lum Berry|[eat]
+|-curestatus|p1a: Samurott|tox|[msg]
+|
+|upkeep
+|turn|8
+|
+|t:|1641145723
+|switch|p2a: Leafeon|Leafeon, F, shiny|100/100
+|-damage|p2a: Leafeon|88/100|[from] Stealth Rock
+|move|p1a: Samurott|Megahorn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|25/100
+|
+|-heal|p2a: Leafeon|31/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1641145762
+|move|p2a: Leafeon|Leaf Blade|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Leafeon|37/100|[from] item: Leftovers
+|upkeep
+|c|☆Pecurto23|that mattered btw
+|c|☆Pecurto23|i'm max hp
+|c|☆Pecurto23|lol
+|c|☆Xq43|Skill issue
+|c|☆Pecurto23|your mother
+|
+|t:|1641145788
+|switch|p1a: Braviary|Braviary, M|31/100
+|-damage|p1a: Braviary|6/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1641145811
+|move|p1a: Braviary|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|t:|1641145819
+|switch|p1a: Sawk|Sawk, M|100/100|[from]move: U-turn
+|-damage|p1a: Sawk|94/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|
+|upkeep
+|
+|t:|1641145825
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|-damage|p2a: Gurdurr|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1641145857
+|move|p1a: Sawk|Close Combat|p2a: Gurdurr
+|-damage|p2a: Gurdurr|23/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|move|p2a: Gurdurr|Bulk Up|p2a: Gurdurr
+|-boost|p2a: Gurdurr|atk|1
+|-boost|p2a: Gurdurr|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1641145887
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|move|p2a: Gurdurr|Mach Punch|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|upkeep
+|turn|13
+|
+|t:|1641145904
+|move|p1a: Golurk|Ice Punch|p2a: Gurdurr
+|-damage|p2a: Gurdurr|0 fnt
+|faint|p2a: Gurdurr
+|
+|upkeep
+|
+|t:|1641145917
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1641145931
+|switch|p1a: Probopass|Probopass, M|85/100
+|-damage|p1a: Probopass|79/100|[from] Stealth Rock
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|
+|-heal|p1a: Probopass|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1641145940
+|switch|p2a: Samurott|Samurott, M|36/100
+|-damage|p2a: Samurott|24/100|[from] Stealth Rock
+|move|p1a: Probopass|Power Gem|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: Probopass|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641145944
+|switch|p2a: Golurk|Golurk, shiny|65/100
+|-damage|p2a: Golurk|59/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1641145952
+|switch|p1a: Braviary|Braviary, M|6/100
+|-damage|p1a: Braviary|0 fnt|[from] Stealth Rock
+|faint|p1a: Braviary
+|move|p2a: Golurk|Ice Punch|p1: Braviary|[notarget]
+|-fail|p2a: Golurk
+|
+|upkeep
+|
+|t:|1641145962
+|switch|p1a: Sawk|Sawk, M|94/100
+|-damage|p1a: Sawk|88/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pecurto23)
+|
+|t:|1641145991
+|move|p1a: Sawk|Ice Punch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|t:|1641145997
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|18
+|c|☆Pecurto23|i thought about clicking cc ngl
+|
+|t:|1641146010
+|switch|p1a: Golurk|Golurk|94/100
+|-damage|p1a: Golurk|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|upkeep
+|turn|19
+|
+|t:|1641146018
+|switch|p2a: Skuntank|Skuntank, F|88/100
+|-damage|p2a: Skuntank|76/100|[from] Stealth Rock
+|move|p1a: Golurk|Drain Punch|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-heal|p1a: Golurk|100/100|[from] drain|[of] p2a: Skuntank
+|-damage|p1a: Golurk|76/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1641146020
+|switch|p2a: Rotom|Rotom-Frost|76/100
+|-damage|p2a: Rotom|51/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1641146025
+|move|p2a: Rotom|Blizzard|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1641146031
+|switch|p1a: Probopass|Probopass, M|91/100
+|-damage|p1a: Probopass|85/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1641146044
+|move|p2a: Rotom|Blizzard|p1a: Probopass
+|-resisted|p1a: Probopass
+|-damage|p1a: Probopass|68/100
+|move|p1a: Probopass|Power Gem|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Pecurto23
+|raw|Pecurto23's rating: 1089 &rarr; <strong>1109</strong><br />(+20 for winning)
+|raw|Xq43's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆Pecurto23|gg
+|c|☆Xq43|gg
+|l|☆Xq43
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

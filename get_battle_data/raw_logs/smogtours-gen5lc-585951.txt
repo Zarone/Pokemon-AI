@@ -1,0 +1,295 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1633911163
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|LpZ IV|dragontamer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Natu, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Bronzor, L5|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Slowpoke, L5, F|item
+|poke|p2|Snover, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Slowpoke, L5, M|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|teampreview
+|c|☆Bughouse|them
+|c|☆LpZ IV|them
+|c|☆LpZ IV|i lost all my teams so i gotta load this
+|inactive|LpZ IV has 270 seconds left.
+|
+|t:|1633911222
+|start
+|switch|p1a: Natu|Natu, L5, M|100/100
+|switch|p2a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|1
+|inactive|Bughouse has 270 seconds left.
+|
+|t:|1633911263
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p2a: Snover|Blizzard|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|53/100|[from] Hail
+|upkeep
+|turn|2
+|
+|t:|1633911275
+|switch|p2a: Slowpoke|Slowpoke, L5, M|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|71/100
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1633911325
+|switch|p1a: Porygon|Porygon, L5|100/100|[from]move: U-turn
+|-ability|p1a: Porygon|Regenerator|[from] ability: Trace|[of] p2a: Slowpoke
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|96/100|[from] Hail
+|-damage|p2a: Slowpoke|67/100|[from] Hail
+|upkeep
+|turn|3
+|inactive|LpZ IV has 270 seconds left.
+|inactive|LpZ IV has 240 seconds left.
+|
+|t:|1633911395
+|move|p1a: Porygon|Trick|p2a: Slowpoke
+|-activate|p1a: Porygon|move: Trick|[of] p2a: Slowpoke
+|-item|p2a: Slowpoke|Choice Scarf|[from] move: Trick
+|-item|p1a: Porygon|Eviolite|[from] move: Trick
+|move|p2a: Slowpoke|Slack Off|p2a: Slowpoke
+|-heal|p2a: Slowpoke|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|92/100|[from] Hail
+|-damage|p2a: Slowpoke|97/100|[from] Hail
+|upkeep
+|turn|4
+|c|☆Bughouse|fastpoke
+|inactive|Bughouse has 210 seconds left.
+|c|☆LpZ IV|i can finally outspeed bronzor
+|c|☆LpZ IV|ty
+|inactive|LpZ IV has 210 seconds left.
+|
+|t:|1633911445
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Porygon|Tri Attack|p2a: Mienfoo
+|-damage|p2a: Mienfoo|57/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|87/100|[from] Hail
+|-damage|p2a: Mienfoo|53/100|[from] Hail
+|upkeep
+|turn|5
+|inactive|Bughouse has 210 seconds left.
+|inactive|LpZ IV has 180 seconds left.
+|
+|t:|1633911489
+|move|p1a: Porygon|Tri Attack|p2a: Mienfoo
+|-damage|p2a: Mienfoo|9/100
+|move|p2a: Mienfoo|Knock Off|p1a: Porygon
+|-damage|p1a: Porygon|79/100
+|-enditem|p1a: Porygon|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|5/100|[from] Hail
+|-damage|p1a: Porygon|74/100|[from] Hail
+|upkeep
+|turn|6
+|inactive|LpZ IV has 180 seconds left.
+|
+|t:|1633911503
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|move|p1a: Porygon|Tri Attack|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|64/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magnemite|58/100|[from] Hail
+|-damage|p1a: Porygon|70/100|[from] Hail
+|upkeep
+|turn|7
+|inactive|LpZ IV has 180 seconds left.
+|
+|t:|1633911518
+|move|p2a: Magnemite|Flash Cannon|p1a: Porygon
+|-damage|p1a: Porygon|14/100
+|move|p1a: Porygon|Tri Attack|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-crit|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|9/100|[from] Hail
+|upkeep
+|inactive|LpZ IV has 180 seconds left.
+|
+|t:|1633911543
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|8
+|
+|t:|1633911551
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Drilbur|Earthquake|p1a: Natu
+|-immune|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|96/100|[from] Hail
+|-damage|p1a: Natu|96/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1633911555
+|move|p2a: Drilbur|Stealth Rock|p1a: Natu
+|-sidestart|p1: Bughouse|move: Stealth Rock
+|move|p1a: Natu|U-turn|p2a: Drilbur
+|-damage|p2a: Drilbur|79/100
+|
+|t:|1633911577
+|switch|p1a: Diglett|Diglett, L5, M|100/100|[from]move: U-turn
+|-damage|p1a: Diglett|95/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|89/100|[from] Hail
+|-damage|p2a: Drilbur|74/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1633911586
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|67/100
+|move|p2a: Drilbur|Earthquake|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|62/100|[from] Hail
+|-damage|p2a: Drilbur|70/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1633911598
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|39/100
+|move|p2a: Drilbur|Earthquake|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|34/100|[from] Hail
+|-damage|p2a: Drilbur|66/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1633911601
+|move|p1a: Diglett|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|-damage|p1a: Diglett|28/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|23/100|[from] Hail
+|upkeep
+|c|☆Bughouse|what a competitive pokemon
+|inactive|LpZ IV has 210 seconds left.
+|c|☆LpZ IV|why did it kill
+|c|☆LpZ IV|lmao
+|inactive|LpZ IV has 180 seconds left.
+|c|☆Bughouse|it always killed
+|
+|t:|1633911658
+|switch|p2a: Snover|Snover, L5, F|100/100
+|turn|13
+|
+|t:|1633911665
+|switch|p1a: Porygon|Porygon, L5|40/100
+|-damage|p1a: Porygon|31/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Snow Warning|[from] ability: Trace|[of] p2a: Snover
+|move|p2a: Snover|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|Bughouse has 210 seconds left.
+|c|☆Bughouse|i think it's time
+|
+|t:|1633911688
+|switch|p1a: Bronzor|Bronzor, L5|100/100
+|-damage|p1a: Bronzor|96/100|[from] Stealth Rock
+|turn|14
+|inactive|LpZ IV has 180 seconds left.
+|inactive|LpZ IV has 150 seconds left.
+|c|☆LpZ IV|is this the legendary
+|c|☆LpZ IV|heatproof bronzor?
+|c|☆Bughouse|no this one is levitate because it's not made by idiots
+|inactive|LpZ IV has 120 seconds left.
+|c|☆LpZ IV|im just gonna freeze np
+|
+|t:|1633911766
+|move|p2a: Snover|Blizzard|p1a: Bronzor
+|-resisted|p1a: Bronzor
+|-crit|p1a: Bronzor
+|-damage|p1a: Bronzor|57/100
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzor|53/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1633911788
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Bronzor|Rest|p1a: Bronzor
+|-status|p1a: Bronzor|slp|[from] move: Rest
+|-heal|p1a: Bronzor|100/100 slp|[silent]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Natu|96/100|[from] Hail
+|-damage|p1a: Bronzor|96/100 slp|[from] Hail
+|upkeep
+|turn|16
+|inactive|Bughouse has 210 seconds left.
+|
+|t:|1633911804
+|move|p2a: Natu|U-turn|p1a: Bronzor
+|-damage|p1a: Bronzor|87/100 slp
+|
+|t:|1633911807
+|switch|p2a: Mienfoo|Mienfoo, L5, M|35/100|[from]move: U-turn
+|cant|p1a: Bronzor|slp
+|move|p1a: Bronzor|Sleep Talk|p1a: Bronzor
+|move|p1a: Bronzor|Flash Cannon|p2a: Mienfoo|[from]move: Sleep Talk
+|-damage|p2a: Mienfoo|5/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|0 fnt|[from] Hail
+|-damage|p1a: Bronzor|83/100 slp|[from] Hail
+|faint|p2a: Mienfoo
+|upkeep
+|c|☆LpZ IV|gg
+|-message|LpZ IV forfeited.
+|
+|win|Bughouse

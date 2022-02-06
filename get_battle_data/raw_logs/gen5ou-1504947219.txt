@@ -1,0 +1,418 @@
+|j|☆1owercase
+|j|☆Thoumst
+|t:|1644076801
+|gametype|singles
+|player|p1|1owercase|flannery|
+|player|p2|Thoumst|roxie|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Celebi|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Politoed, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Garchomp, F|item
+|teampreview
+|j| Spatulakun
+|j| Doctor_DraX
+|j| Mortagon
+|j| PierceTheDriftveil
+|j| Drag8nDance
+|j| uka uka uka
+|l| Mortagon
+|j| Lugiabirb
+|j| coolio1223
+|c| Lugiabirb|randpoke for me
+|j| Bernie
+|j| im tofa
+|
+|t:|1644076944
+|start
+|switch|p1a: chat|Ferrothorn, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|c|☆1owercase|glhf
+|
+|t:|1644076960
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: chat|atk|1
+|move|p1a: chat|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|97/100
+|-enditem|p2a: Landorus|Fighting Gem|[from] move: Knock Off|[of] p1a: chat
+|
+|upkeep
+|turn|2
+|
+|t:|1644077057
+|switch|p1a: god|Celebi|100/100
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|upkeep
+|turn|3
+|l| im tofa
+|
+|t:|1644077112
+|move|p2a: Landorus|Earthquake|p1a: god
+|-resisted|p1a: god
+|-damage|p1a: god|49/100
+|move|p1a: god|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|87/100
+|c| PierceTheDriftveil|where is your z fly?
+|l| uka uka uka
+|c|☆Thoumst|:cheemsamurai:
+|
+|t:|1644077176
+|switch|p1a: barry allen|Tornadus, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1644077227
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: barry allen|Acrobatics|p2a: Tyranitar
+|-enditem|p1a: barry allen|Flying Gem|[from] gem
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: barry allen|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1644077292
+|switch|p1a: ben|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: ben
+|move|p2a: Tyranitar|Stealth Rock|p1a: ben
+|-sidestart|p1: 1owercase|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|l| Lugiabirb
+|
+|t:|1644077357
+|switch|p1a: chat|Ferrothorn, M|100/100
+|-damage|p1a: chat|94/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: chat|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644077391
+|move|p2a: Rotom|Will-O-Wisp|p1a: chat
+|-status|p1a: chat|brn
+|move|p1a: chat|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Thoumst|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: chat|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1644077400
+|switch|p2a: Landorus|Landorus-Therian, M|87/100
+|-damage|p2a: Landorus|75/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: chat|atk|1
+|move|p1a: chat|Spikes|p2a: Landorus
+|-sidestart|p2: Thoumst|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: chat|94/100 brn|[from] item: Leftovers
+|-damage|p1a: chat|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1644077500
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: chat|Power Whip|p2a: Landorus|[miss]
+|-miss|p1a: chat|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: chat|88/100 brn|[from] item: Leftovers
+|-damage|p1a: chat|75/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1644077506
+|move|p2a: Landorus|Earthquake|p1a: chat
+|-damage|p1a: chat|0 fnt
+|faint|p1a: chat
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644077536
+|switch|p1a: barry allen|Tornadus, M, shiny|94/100
+|-damage|p1a: barry allen|70/100|[from] Stealth Rock
+|turn|11
+|l| PierceTheDriftveil
+|
+|t:|1644077565
+|move|p1a: barry allen|Bulk Up|p1a: barry allen
+|-boost|p1a: barry allen|atk|1
+|-boost|p1a: barry allen|def|1
+|move|p2a: Landorus|Superpower|p1a: barry allen
+|-resisted|p1a: barry allen
+|-damage|p1a: barry allen|17/100
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1644077655
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: barry allen|Acrobatics|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644077678
+|move|p1a: barry allen|Superpower|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: barry allen|atk|1
+|-unboost|p1a: barry allen|def|1
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644077703
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644077726
+|move|p1a: barry allen|Tailwind|p1a: barry allen
+|-sidestart|p1: 1owercase|move: Tailwind
+|move|p2a: Latios|Dragon Pulse|p1a: barry allen
+|-damage|p1a: barry allen|0 fnt
+|faint|p1a: barry allen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644077807
+|switch|p1a: fshy|Kyurem-Black, shiny|100/100
+|-damage|p1a: fshy|75/100|[from] Stealth Rock
+|-ability|p1a: fshy|Teravolt
+|turn|15
+|
+|t:|1644077843
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|82/100|[from] Spikes
+|move|p1a: fshy|Dragon Claw|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|-damage|p1a: fshy|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644077912
+|move|p1a: fshy|Freeze Shock||[still]
+|-prepare|p1a: fshy|Freeze Shock
+|-enditem|p1a: fshy|Power Herb
+|-anim|p1a: fshy|Freeze Shock|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: fshy
+|-supereffective|p1a: fshy
+|-damage|p1a: fshy|0 fnt
+|faint|p1a: fshy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644078005
+|switch|p1a: god|Celebi|49/100
+|-damage|p1a: god|37/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1644078013
+|move|p1a: god|Recover|p1a: god
+|-heal|p1a: god|87/100
+|move|p2a: Ferrothorn|Knock Off|p1a: god
+|-supereffective|p1a: god
+|-damage|p1a: god|80/100
+|-enditem|p1a: god|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|-sideend|p1: 1owercase|move: Tailwind
+|upkeep
+|turn|18
+|
+|t:|1644078020
+|move|p1a: god|Swords Dance|p1a: god
+|-boost|p1a: god|atk|2
+|move|p2a: Ferrothorn|Spikes|p1a: god
+|-sidestart|p1: 1owercase|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644078026
+|move|p1a: god|Seed Bomb|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|move|p2a: Ferrothorn|Spikes|p1a: god
+|-sidestart|p1: 1owercase|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644078031
+|move|p1a: god|Swords Dance|p1a: god
+|-boost|p1a: god|atk|2
+|move|p2a: Ferrothorn|Spikes|p1a: god
+|-sidestart|p1: 1owercase|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644078034
+|move|p1a: god|Seed Bomb|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|12/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: god
+|-damage|p1a: god|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|18/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644078039
+|move|p1a: god|Recover|p1a: god
+|-heal|p1a: god|91/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: god
+|-damage|p1a: god|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|25/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1644078045
+|move|p1a: god|Seed Bomb|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|11/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: god
+|-crit|p1a: god
+|-damage|p1a: god|0 fnt
+|faint|p1a: god
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644078053
+|switch|p1a: ben|Politoed, F, shiny|100/100
+|-damage|p1a: ben|88/100|[from] Stealth Rock
+|-damage|p1a: ben|63/100|[from] Spikes
+|turn|24
+|
+|t:|1644078057
+|move|p1a: ben|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|move|p2a: Ferrothorn|Power Whip|p1a: ben
+|-supereffective|p1a: ben
+|-damage|p1a: ben|0 fnt
+|faint|p1a: ben
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644078063
+|switch|p1a: Doug|Excadrill, F, shiny|100/100
+|-damage|p1a: Doug|76/100|[from] Spikes
+|-damage|p1a: Doug|73/100|[from] Stealth Rock
+|-ability|p1a: Doug|Mold Breaker
+|turn|25
+|
+|t:|1644078067
+|move|p1a: Doug|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Doug|60/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644078078
+|switch|p2a: Latios|Latios, M|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1644078081
+|move|p1a: Doug|Iron Head|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644078084
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|-damage|p2a: Garchomp|82/100|[from] Spikes
+|turn|27
+|
+|t:|1644078089
+|move|p2a: Garchomp|Earthquake|p1a: Doug
+|-supereffective|p1a: Doug
+|-damage|p1a: Doug|0 fnt
+|faint|p1a: Doug
+|
+|win|Thoumst
+|l| Spatulakun
+|c|☆1owercase|gg
+|c|☆Thoumst|GG
+|l| coolio1223
+|l| Bernie

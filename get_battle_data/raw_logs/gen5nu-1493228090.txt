@@ -1,0 +1,463 @@
+|j|☆tank skunk
+|j|☆Jasmineangel
+|t:|1642439677
+|gametype|singles
+|player|p1|tank skunk|pokefan|1091
+|player|p2|Jasmineangel|battlegirl-gen4|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lunatone|item
+|poke|p1|Scraggy, M|item
+|poke|p1|Electabuzz, M|item
+|poke|p1|Golbat, F|item
+|poke|p1|Rapidash, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p2|Swalot, F|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Gorebyss, M|item
+|poke|p2|Zebstrika, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jasmineangel)
+|inactive|tank skunk also wants the timer to be on.
+|
+|t:|1642439686
+|start
+|switch|p1a: Ultra Moon|Lunatone|100/100
+|switch|p2a: Gorebyss|Gorebyss, M|100/100
+|turn|1
+|
+|t:|1642439692
+|switch|p1a: Ludacris|Ludicolo, M, shiny|100/100
+|move|p2a: Gorebyss|Surf|p1a: Ludacris
+|-resisted|p1a: Ludacris
+|-damage|p1a: Ludacris|92/100
+|
+|-heal|p1a: Ludacris|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1642439703
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Ludacris|Scald|p2a: Cacturne
+|-immune|p2a: Cacturne|[from] ability: Water Absorb
+|
+|-heal|p1a: Ludacris|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1642439712
+|switch|p1a: Big Mouth|Golbat, F, shiny|100/100
+|move|p2a: Cacturne|Swords Dance|p2a: Cacturne
+|-boost|p2a: Cacturne|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1642439731
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|move|p1a: Big Mouth|Brave Bird|p2a: Piloswine
+|-damage|p2a: Piloswine|75/100
+|-damage|p1a: Big Mouth|91/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1642439745
+|switch|p1a: Rarity|Rapidash, F, shiny|100/100
+|move|p2a: Piloswine|Stone Edge|p1a: Rarity
+|-supereffective|p1a: Rarity
+|-damage|p1a: Rarity|0 fnt
+|faint|p1a: Rarity
+|
+|upkeep
+|
+|t:|1642439751
+|switch|p1a: Ultra Moon|Lunatone|100/100
+|turn|6
+|
+|t:|1642439760
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Ultra Moon|Stealth Rock|p2a: Cacturne
+|-sidestart|p2: Jasmineangel|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1642439768
+|switch|p1a: Big Mouth|Golbat, F, shiny|91/100
+|move|p2a: Cacturne|Foul Play|p1a: Big Mouth
+|-damage|p1a: Big Mouth|74/100
+|
+|upkeep
+|turn|8
+|
+|t:|1642439780
+|switch|p2a: Piloswine|Piloswine, M|75/100
+|-damage|p2a: Piloswine|63/100|[from] Stealth Rock
+|move|p1a: Big Mouth|Toxic|p2a: Piloswine
+|-status|p2a: Piloswine|tox
+|
+|-damage|p2a: Piloswine|56/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1642439787
+|move|p1a: Big Mouth|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|move|p2a: Piloswine|Avalanche|p1a: Big Mouth
+|-supereffective|p1a: Big Mouth
+|-damage|p1a: Big Mouth|41/100
+|
+|-damage|p2a: Piloswine|44/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1642439792
+|move|p2a: Piloswine|Ice Shard|p1a: Big Mouth
+|-supereffective|p1a: Big Mouth
+|-damage|p1a: Big Mouth|17/100
+|move|p1a: Big Mouth|Roost|p1a: Big Mouth
+|-heal|p1a: Big Mouth|67/100
+|-singleturn|p1a: Big Mouth|move: Roost
+|
+|-damage|p2a: Piloswine|25/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1642439798
+|move|p1a: Big Mouth|Roost|p1a: Big Mouth
+|-heal|p1a: Big Mouth|100/100
+|-singleturn|p1a: Big Mouth|move: Roost
+|move|p2a: Piloswine|Avalanche|p1a: Big Mouth
+|-damage|p1a: Big Mouth|84/100
+|
+|-damage|p2a: Piloswine|1/100 tox|[from] psn
+|-end|p2a: Piloswine|move: Taunt
+|upkeep
+|turn|12
+|
+|t:|1642439806
+|move|p2a: Piloswine|Ice Shard|p1a: Big Mouth
+|-supereffective|p1a: Big Mouth
+|-damage|p1a: Big Mouth|61/100
+|move|p1a: Big Mouth|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|
+|-damage|p2a: Piloswine|0 fnt|[from] psn
+|faint|p2a: Piloswine
+|upkeep
+|
+|t:|1642439825
+|switch|p2a: Gorebyss|Gorebyss, M|100/100
+|-damage|p2a: Gorebyss|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1642439833
+|switch|p1a: Ludacris|Ludicolo, M, shiny|100/100
+|move|p2a: Gorebyss|Shell Smash|p2a: Gorebyss
+|-unboost|p2a: Gorebyss|def|1
+|-unboost|p2a: Gorebyss|spd|1
+|-boost|p2a: Gorebyss|atk|2
+|-boost|p2a: Gorebyss|spa|2
+|-boost|p2a: Gorebyss|spe|2
+|-enditem|p2a: Gorebyss|White Herb
+|-clearnegativeboost|p2a: Gorebyss|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1642439839
+|move|p2a: Gorebyss|Ice Beam|p1a: Ludacris
+|-damage|p1a: Ludacris|56/100
+|move|p1a: Ludacris|Giga Drain|p2a: Gorebyss
+|-supereffective|p2a: Gorebyss
+|-damage|p2a: Gorebyss|4/100
+|-heal|p1a: Ludacris|85/100|[from] drain|[of] p2a: Gorebyss
+|
+|-heal|p1a: Ludacris|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1642439843
+|move|p2a: Gorebyss|Ice Beam|p1a: Ludacris
+|-damage|p1a: Ludacris|48/100
+|move|p1a: Ludacris|Scald|p2a: Gorebyss
+|-resisted|p2a: Gorebyss
+|-damage|p2a: Gorebyss|0 fnt
+|faint|p2a: Gorebyss
+|
+|-heal|p1a: Ludacris|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642439847
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|-damage|p2a: Zebstrika|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1642439853
+|switch|p1a: Aldrin|Electabuzz, M|100/100
+|move|p2a: Zebstrika|Spark|p1a: Aldrin
+|-resisted|p1a: Aldrin
+|-damage|p1a: Aldrin|82/100
+|-status|p1a: Aldrin|par
+|
+|-heal|p2a: Zebstrika|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1642439860
+|move|p2a: Zebstrika|Flame Charge|p1a: Aldrin
+|-damage|p1a: Aldrin|64/100 par
+|-boost|p2a: Zebstrika|spe|1
+|cant|p1a: Aldrin|par
+|
+|-heal|p2a: Zebstrika|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1642439867
+|move|p2a: Zebstrika|Double-Edge|p1a: Aldrin
+|-damage|p1a: Aldrin|14/100 par
+|-damage|p2a: Zebstrika|85/100|[from] Recoil
+|move|p1a: Aldrin|Focus Blast|p2a: Zebstrika|[miss]
+|-miss|p1a: Aldrin|p2a: Zebstrika
+|
+|-heal|p2a: Zebstrika|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1642439876
+|move|p2a: Zebstrika|Flame Charge|p1a: Aldrin
+|-damage|p1a: Aldrin|0 fnt
+|-boost|p2a: Zebstrika|spe|1
+|faint|p1a: Aldrin
+|
+|-heal|p2a: Zebstrika|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642439883
+|switch|p1a: Ultra Moon|Lunatone|100/100
+|turn|20
+|
+|t:|1642439888
+|move|p2a: Zebstrika|Spark|p1a: Ultra Moon
+|-damage|p1a: Ultra Moon|63/100
+|move|p1a: Ultra Moon|Psychic|p2a: Zebstrika
+|-damage|p2a: Zebstrika|28/100
+|
+|-heal|p2a: Zebstrika|34/100|[from] item: Leftovers
+|-heal|p1a: Ultra Moon|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1642439896
+|move|p2a: Zebstrika|Double-Edge|p1a: Ultra Moon
+|-resisted|p1a: Ultra Moon
+|-damage|p1a: Ultra Moon|43/100
+|-damage|p2a: Zebstrika|24/100|[from] Recoil
+|move|p1a: Ultra Moon|Hidden Power|p2a: Zebstrika
+|-damage|p2a: Zebstrika|0 fnt
+|faint|p2a: Zebstrika
+|
+|-heal|p1a: Ultra Moon|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642439906
+|switch|p2a: Swalot|Swalot, F|100/100
+|-damage|p2a: Swalot|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1642439911
+|move|p1a: Ultra Moon|Psychic|p2a: Swalot
+|-supereffective|p2a: Swalot
+|-damage|p2a: Swalot|10/100
+|-enditem|p2a: Swalot|Sitrus Berry|[eat]
+|-heal|p2a: Swalot|35/100|[from] item: Sitrus Berry
+|move|p2a: Swalot|Shadow Ball|p1a: Ultra Moon
+|-supereffective|p1a: Ultra Moon
+|-damage|p1a: Ultra Moon|0 fnt
+|faint|p1a: Ultra Moon
+|
+|upkeep
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642439944
+|switch|p1a: PantGround|Scraggy, M, shiny|100/100
+|turn|23
+|
+|t:|1642439949
+|move|p1a: PantGround|Crunch|p2a: Swalot
+|-damage|p2a: Swalot|5/100
+|move|p2a: Swalot|Yawn|p1a: PantGround
+|-start|p1a: PantGround|move: Yawn|[of] p2a: Swalot
+|
+|upkeep
+|turn|24
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642439978
+|switch|p1a: Ludacris|Ludicolo, M, shiny|54/100
+|move|p2a: Swalot|Sludge Wave|p1a: Ludacris
+|-supereffective|p1a: Ludacris
+|-damage|p1a: Ludacris|0 fnt
+|faint|p1a: Ludacris
+|
+|upkeep
+|
+|t:|1642439986
+|switch|p1a: Big Mouth|Golbat, F, shiny|61/100
+|turn|25
+|
+|t:|1642439989
+|move|p1a: Big Mouth|Brave Bird|p2a: Swalot
+|-damage|p2a: Swalot|0 fnt
+|faint|p2a: Swalot
+|-damage|p1a: Big Mouth|60/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1642439992
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1642440004
+|move|p1a: Big Mouth|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|move|p2a: Alomomola|Waterfall|p1a: Big Mouth
+|-damage|p1a: Big Mouth|38/100
+|
+|-heal|p2a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1642440009
+|move|p1a: Big Mouth|Roost|p1a: Big Mouth
+|-heal|p1a: Big Mouth|89/100
+|-singleturn|p1a: Big Mouth|move: Roost
+|move|p2a: Alomomola|Return|p1a: Big Mouth
+|-damage|p1a: Big Mouth|73/100
+|
+|-heal|p2a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|82/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1642440016
+|move|p1a: Big Mouth|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|move|p2a: Alomomola|Waterfall|p1a: Big Mouth
+|-damage|p1a: Big Mouth|55/100
+|
+|-heal|p2a: Alomomola|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|70/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1642440021
+|move|p1a: Big Mouth|Roost|p1a: Big Mouth
+|-heal|p1a: Big Mouth|100/100
+|-singleturn|p1a: Big Mouth|move: Roost
+|move|p2a: Alomomola|Waterfall|p1a: Big Mouth
+|-damage|p1a: Big Mouth|81/100
+|
+|-heal|p2a: Alomomola|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|51/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1642440023
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|-damage|p2a: Cacturne|88/100|[from] Stealth Rock
+|move|p1a: Big Mouth|Brave Bird|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|-damage|p1a: Big Mouth|53/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1642440025
+|switch|p2a: Alomomola|Alomomola, M|84/100 tox
+|-damage|p2a: Alomomola|72/100 tox|[from] Stealth Rock
+|turn|31
+|
+|t:|1642440030
+|move|p1a: Big Mouth|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|move|p2a: Alomomola|Knock Off|p1a: Big Mouth
+|-damage|p1a: Big Mouth|49/100
+|-enditem|p1a: Big Mouth|Eviolite|[from] move: Knock Off|[of] p2a: Alomomola
+|
+|-heal|p2a: Alomomola|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|72/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1642440033
+|move|p1a: Big Mouth|Roost|p1a: Big Mouth
+|-heal|p1a: Big Mouth|99/100
+|-singleturn|p1a: Big Mouth|move: Roost
+|move|p2a: Alomomola|Waterfall|p1a: Big Mouth
+|-damage|p1a: Big Mouth|70/100
+|
+|-heal|p2a: Alomomola|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|66/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1642440035
+|move|p1a: Big Mouth|Brave Bird|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100 tox
+|-damage|p1a: Big Mouth|57/100|[from] Recoil
+|move|p2a: Alomomola|Waterfall|p1a: Big Mouth
+|-damage|p1a: Big Mouth|26/100
+|
+|-heal|p2a: Alomomola|47/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|28/100 tox|[from] psn
+|-end|p2a: Alomomola|move: Taunt
+|upkeep
+|turn|34
+|
+|t:|1642440039
+|move|p2a: Alomomola|Aqua Jet|p1a: Big Mouth
+|-damage|p1a: Big Mouth|11/100
+|move|p1a: Big Mouth|Roost|p1a: Big Mouth
+|-heal|p1a: Big Mouth|61/100
+|-singleturn|p1a: Big Mouth|move: Roost
+|
+|-heal|p2a: Alomomola|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|10/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1642440042
+|move|p2a: Alomomola|Aqua Jet|p1a: Big Mouth
+|-damage|p1a: Big Mouth|46/100
+|move|p1a: Big Mouth|Brave Bird|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Big Mouth|41/100|[from] Recoil
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1091 &rarr; <strong>1111</strong><br />(+20 for winning)
+|raw|Jasmineangel's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆Jasmineangel|Gg
+|c|☆tank skunk|gg

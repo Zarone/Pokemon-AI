@@ -1,0 +1,410 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630891479
+|gametype|singles
+|player|p1|LpZ IV|dragontamer|
+|player|p2|Shiba|#xshiba|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhyperior, F|item
+|poke|p1|Ferroseed, F|item
+|poke|p1|Cofagrigus, M|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Flygon, M|item
+|poke|p1|Suicune|item
+|poke|p2|Roserade, F|item
+|poke|p2|Swampert, F|item
+|poke|p2|Mew|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Sharpedo, F|item
+|teampreview
+|c|☆LpZ IV|hf
+|c|☆Shiba|u2
+|inactive|LpZ IV has 270 seconds left.
+|inactive|LpZ IV has 240 seconds left.
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1630891548
+|start
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|switch|p2a: GIRLS WANT GIRLS|Roserade, F|100/100
+|turn|1
+|inactive|LpZ IV has 270 seconds left.
+|
+|t:|1630891584
+|move|p1a: Mienshao|U-turn|p2a: GIRLS WANT GIRLS
+|-damage|p2a: GIRLS WANT GIRLS|47/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|inactive|LpZ IV has 270 seconds left.
+|inactive|LpZ IV has 240 seconds left.
+|
+|t:|1630891634
+|switch|p1a: Ferroseed|Ferroseed, F|100/100|[from]move: U-turn
+|move|p2a: GIRLS WANT GIRLS|Spikes|p1a: Ferroseed
+|-sidestart|p1: LpZ IV|Spikes
+|
+|-heal|p2a: GIRLS WANT GIRLS|53/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|c|+Donny P.|goo shiba
+|inactive|LpZ IV has 210 seconds left.
+|inactive|Shiba has 270 seconds left.
+|
+|t:|1630891664
+|move|p2a: GIRLS WANT GIRLS|Spikes|p1a: Ferroseed
+|-sidestart|p1: LpZ IV|Spikes
+|move|p1a: Ferroseed|Spikes|p2a: GIRLS WANT GIRLS
+|-sidestart|p2: Shiba|Spikes
+|
+|-heal|p2a: GIRLS WANT GIRLS|59/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1630891672
+|move|p2a: GIRLS WANT GIRLS|Spikes|p1a: Ferroseed
+|-sidestart|p1: LpZ IV|Spikes
+|move|p1a: Ferroseed|Spikes|p2a: GIRLS WANT GIRLS
+|-sidestart|p2: Shiba|Spikes
+|
+|-heal|p2a: GIRLS WANT GIRLS|66/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1630891682
+|switch|p2a: FAIR TRADE|Mew, shiny|100/100
+|-damage|p2a: FAIR TRADE|84/100|[from] Spikes
+|move|p1a: Ferroseed|Spikes|p2a: FAIR TRADE
+|-sidestart|p2: Shiba|Spikes
+|
+|-heal|p2a: FAIR TRADE|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|LpZ IV has 210 seconds left.
+|c|+pokemonisfun|lesbian roserade nick
+|inactive|LpZ IV has 180 seconds left.
+|
+|t:|1630891741
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|-damage|p1a: Rhyperior|76/100|[from] Spikes
+|move|p2a: FAIR TRADE|Substitute|p2a: FAIR TRADE
+|-start|p2a: FAIR TRADE|Substitute
+|-damage|p2a: FAIR TRADE|65/100
+|
+|-heal|p2a: FAIR TRADE|71/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1630891749
+|move|p2a: FAIR TRADE|Nasty Plot|p2a: FAIR TRADE
+|-boost|p2a: FAIR TRADE|spa|2
+|move|p1a: Rhyperior|Rock Blast|p2a: FAIR TRADE
+|-activate|p2a: FAIR TRADE|Substitute|[damage]
+|-activate|p2a: FAIR TRADE|Substitute|[damage]
+|-end|p2a: FAIR TRADE|Substitute
+|-damage|p2a: FAIR TRADE|61/100
+|-hitcount|p2a: FAIR TRADE|4
+|
+|-heal|p2a: FAIR TRADE|68/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|LpZ IV has 180 seconds left.
+|
+|t:|1630891788
+|move|p2a: FAIR TRADE|Psychic|p1a: Rhyperior
+|-damage|p1a: Rhyperior|37/100
+|move|p1a: Rhyperior|Earthquake|p2a: FAIR TRADE
+|-damage|p2a: FAIR TRADE|24/100
+|
+|-heal|p2a: FAIR TRADE|30/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|43/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|LpZ IV has 150 seconds left.
+|inactive|LpZ IV has 120 seconds left.
+|
+|t:|1630891846
+|move|p2a: FAIR TRADE|Psychic|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: FAIR TRADE|36/100|[from] item: Leftovers
+|upkeep
+|inactive|LpZ IV has 90 seconds left.
+|
+|t:|1630891879
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|76/100|[from] Spikes
+|turn|9
+|
+|t:|1630891898
+|switch|p2a: LOVE ALL|Togekiss, M|100/100
+|move|p1a: Mienshao|U-turn|p2a: LOVE ALL
+|-resisted|p2a: LOVE ALL
+|-damage|p2a: LOVE ALL|84/100
+|-damage|p1a: Mienshao|66/100|[from] item: Life Orb
+|inactive|LpZ IV has 90 seconds left.
+|inactive|LpZ IV has 60 seconds left.
+|
+|t:|1630891956
+|switch|p1a: Flygon|Flygon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1630891970
+|switch|p2a: FAIR TRADE|Mew, shiny|36/100
+|-damage|p2a: FAIR TRADE|11/100|[from] Spikes
+|move|p1a: Flygon|Stone Edge|p2a: FAIR TRADE
+|-crit|p2a: FAIR TRADE
+|-damage|p2a: FAIR TRADE|0 fnt
+|faint|p2a: FAIR TRADE
+|
+|upkeep
+|
+|t:|1630891977
+|switch|p2a: IMY2|Swampert, F|100/100
+|-damage|p2a: IMY2|76/100|[from] Spikes
+|turn|11
+|
+|t:|1630891982
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|75/100|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|move|p2a: IMY2|Stealth Rock|p1a: Suicune
+|-sidestart|p1: LpZ IV|move: Stealth Rock
+|
+|-heal|p1a: Suicune|82/100|[from] item: Leftovers
+|-heal|p2a: IMY2|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1630891988
+|switch|p2a: GIRLS WANT GIRLS|Roserade, F|66/100
+|-damage|p2a: GIRLS WANT GIRLS|41/100|[from] Spikes
+|move|p1a: Suicune|Roar|p2a: GIRLS WANT GIRLS
+|drag|p2a: IMY2|Swampert, F|82/100
+|-damage|p2a: IMY2|57/100|[from] Spikes
+|
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|-heal|p2a: IMY2|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1630891994
+|move|p1a: Suicune|Scald|p2a: IMY2
+|-damage|p2a: IMY2|41/100
+|move|p2a: IMY2|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|68/100
+|
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|-heal|p2a: IMY2|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|LpZ IV has 90 seconds left.
+|
+|t:|1630892002
+|move|p1a: Suicune|Scald|p2a: IMY2
+|-damage|p2a: IMY2|23/100
+|-status|p2a: IMY2|brn
+|move|p2a: IMY2|Roar|p1a: Suicune
+|drag|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|
+|-heal|p2a: IMY2|29/100 brn|[from] item: Leftovers
+|-damage|p2a: IMY2|17/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|LpZ IV has 90 seconds left.
+|
+|t:|1630892038
+|move|p1a: Flygon|Earthquake|p2a: IMY2
+|-damage|p2a: IMY2|0 fnt
+|faint|p2a: IMY2
+|
+|upkeep
+|
+|t:|1630892041
+|switch|p2a: LOVE ALL|Togekiss, M|84/100
+|turn|16
+|
+|t:|1630892050
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|-damage|p1a: Cofagrigus|88/100|[from] Stealth Rock
+|-damage|p1a: Cofagrigus|64/100|[from] Spikes
+|move|p2a: LOVE ALL|Air Slash|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|23/100
+|
+|-heal|p1a: Cofagrigus|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|LpZ IV has 60 seconds left.
+|
+|t:|1630892082
+|move|p2a: LOVE ALL|Air Slash|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|upkeep
+|
+|t:|1630892092
+|switch|p1a: Flygon|Flygon, M|95/100
+|-damage|p1a: Flygon|89/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1630892097
+|switch|p2a: GIRLS WANT GIRLS|Roserade, F|41/100
+|-damage|p2a: GIRLS WANT GIRLS|16/100|[from] Spikes
+|move|p1a: Flygon|U-turn|p2a: GIRLS WANT GIRLS
+|-damage|p2a: GIRLS WANT GIRLS|0 fnt
+|faint|p2a: GIRLS WANT GIRLS
+|inactive|LpZ IV has 60 seconds left.
+|inactive|LpZ IV has 30 seconds left.
+|inactive|LpZ IV has 20 seconds left.
+|
+|t:|1630892148
+|switch|p1a: Mienshao|Mienshao, F|99/100|[from]move: U-turn
+|-damage|p1a: Mienshao|93/100|[from] Stealth Rock
+|-damage|p1a: Mienshao|68/100|[from] Spikes
+|
+|upkeep
+|inactive|LpZ IV has 25 seconds left this turn.
+|
+|t:|1630892152
+|switch|p2a: LOVE ALL|Togekiss, M|84/100
+|turn|19
+|
+|t:|1630892155
+|move|p2a: LOVE ALL|Air Slash|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-crit|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1630892158
+|switch|p1a: Flygon|Flygon, M|89/100
+|-damage|p1a: Flygon|83/100|[from] Stealth Rock
+|turn|20
+|inactive|LpZ IV has 30 seconds left.
+|
+|t:|1630892183
+|switch|p2a: U ONLY LIVE TWICE|Cobalion|100/100
+|-damage|p2a: U ONLY LIVE TWICE|76/100|[from] Spikes
+|move|p1a: Flygon|Stone Edge|p2a: U ONLY LIVE TWICE
+|-resisted|p2a: U ONLY LIVE TWICE
+|-damage|p2a: U ONLY LIVE TWICE|70/100
+|
+|upkeep
+|turn|21
+|
+|t:|1630892188
+|switch|p1a: Suicune|Suicune|75/100
+|-damage|p1a: Suicune|62/100|[from] Stealth Rock
+|-damage|p1a: Suicune|37/100|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|move|p2a: U ONLY LIVE TWICE|Swords Dance|p2a: U ONLY LIVE TWICE
+|-boost|p2a: U ONLY LIVE TWICE|atk|2
+|
+|-heal|p1a: Suicune|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1630892197
+|move|p2a: U ONLY LIVE TWICE|Close Combat|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|-unboost|p2a: U ONLY LIVE TWICE|def|1
+|-unboost|p2a: U ONLY LIVE TWICE|spd|1
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1630892200
+|switch|p1a: Flygon|Flygon, M|83/100
+|-damage|p1a: Flygon|77/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1630892223
+|switch|p2a: LOVE ALL|Togekiss, M|84/100
+|move|p1a: Flygon|Stone Edge|p2a: LOVE ALL
+|-supereffective|p2a: LOVE ALL
+|-crit|p2a: LOVE ALL
+|-damage|p2a: LOVE ALL|0 fnt
+|faint|p2a: LOVE ALL
+|
+|upkeep
+|
+|t:|1630892226
+|switch|p2a: U ONLY LIVE TWICE|Cobalion|70/100
+|-damage|p2a: U ONLY LIVE TWICE|45/100|[from] Spikes
+|turn|24
+|
+|t:|1630892235
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|-damage|p1a: Ferroseed|75/100|[from] Spikes
+|-damage|p1a: Ferroseed|69/100|[from] Stealth Rock
+|move|p2a: U ONLY LIVE TWICE|Close Combat|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-unboost|p2a: U ONLY LIVE TWICE|def|1
+|-unboost|p2a: U ONLY LIVE TWICE|spd|1
+|-damage|p2a: U ONLY LIVE TWICE|33/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1630892240
+|switch|p1a: Flygon|Flygon, M|77/100
+|-damage|p1a: Flygon|71/100|[from] Stealth Rock
+|turn|25
+|c|+pokemonisfun|you actually only live one time shiba
+|
+|t:|1630892243
+|move|p1a: Flygon|Earthquake|p2a: U ONLY LIVE TWICE
+|-supereffective|p2a: U ONLY LIVE TWICE
+|-damage|p2a: U ONLY LIVE TWICE|0 fnt
+|faint|p2a: U ONLY LIVE TWICE
+|
+|upkeep
+|
+|t:|1630892245
+|switch|p2a: WAY 2 SEXY|Sharpedo, F|100/100
+|-damage|p2a: WAY 2 SEXY|76/100|[from] Spikes
+|turn|26
+|
+|t:|1630892257
+|move|p2a: WAY 2 SEXY|Protect|p2a: WAY 2 SEXY
+|-singleturn|p2a: WAY 2 SEXY|Protect
+|move|p1a: Flygon|Earthquake|p2a: WAY 2 SEXY
+|-activate|p2a: WAY 2 SEXY|move: Protect
+|
+|-ability|p2a: WAY 2 SEXY|Speed Boost|boost
+|-boost|p2a: WAY 2 SEXY|spe|1
+|upkeep
+|turn|27
+|
+|t:|1630892264
+|move|p2a: WAY 2 SEXY|Protect||[still]
+|-fail|p2a: WAY 2 SEXY
+|move|p1a: Flygon|Earthquake|p2a: WAY 2 SEXY
+|-damage|p2a: WAY 2 SEXY|0 fnt
+|faint|p2a: WAY 2 SEXY
+|
+|win|LpZ IV
+|c|☆LpZ IV|gg
+|c|☆Shiba|gg

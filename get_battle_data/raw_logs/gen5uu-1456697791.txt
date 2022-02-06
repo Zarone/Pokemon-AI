@@ -1,0 +1,454 @@
+|j|☆faded love
+|j|☆Bsuuuu
+|t:|1637266283
+|gametype|singles
+|player|p1|faded love|psychicf|
+|player|p2|Bsuuuu|43|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Porygon-Z|item
+|poke|p1|Flygon, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Qwilfish, F|item
+|poke|p1|Umbreon, F|item
+|poke|p1|Rotom-Heat|item
+|poke|p2|Victini|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Raikou|item
+|poke|p2|Bronzong|item
+|poke|p2|Heracross, M|item
+|teampreview
+|l|☆faded love
+|player|p1|
+|j|☆faded love
+|player|p1|faded love|psychicf
+|c|☆faded love|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by faded love)
+|c|☆Bsuuuu|u2
+|inactive|Bsuuuu has 120 seconds left.
+|
+|t:|1637266395
+|start
+|switch|p1a: BANDITO|Porygon-Z|100/100
+|switch|p2a: Heracross|Heracross, M|100/100
+|-ability|p1a: BANDITO|Download|boost
+|-boost|p1a: BANDITO|atk|1
+|turn|1
+|
+|t:|1637266400
+|switch|p1a: CHLORINE|Qwilfish, F|100/100
+|-ability|p1a: CHLORINE|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|switch|p2a: Bronzong|Bronzong|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1637266410
+|switch|p1a: BANDITO|Porygon-Z|100/100
+|-ability|p1a: BANDITO|Download|boost
+|-boost|p1a: BANDITO|atk|1
+|move|p2a: Bronzong|Stealth Rock|p1a: BANDITO
+|-sidestart|p1: faded love|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1637266434
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: BANDITO|Nasty Plot|p1a: BANDITO
+|-boost|p1a: BANDITO|spa|2
+|
+|upkeep
+|turn|4
+|c|☆Bsuuuu|oh god
+|
+|t:|1637266444
+|move|p1a: BANDITO|Thunder|p2a: Bronzong
+|-enditem|p1a: BANDITO|Electric Gem|[from] gem
+|-damage|p2a: Bronzong|14/100
+|move|p2a: Bronzong|Toxic|p1a: BANDITO
+|-status|p1a: BANDITO|tox
+|
+|-heal|p2a: Bronzong|20/100|[from] item: Leftovers
+|-damage|p1a: BANDITO|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1637266451
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: BANDITO|Ice Beam|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|27/100|[from] item: Leftovers
+|-damage|p1a: BANDITO|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|c|☆Bsuuuu|omg gems
+|inactive|Bsuuuu has 120 seconds left.
+|
+|t:|1637266491
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: BANDITO|Thunder|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen
+|
+|-damage|p1a: BANDITO|64/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1637266499
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: BANDITO|Ice Beam|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|69/100
+|
+|-damage|p1a: BANDITO|39/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1637266513
+|switch|p1a: CHLORINE|Qwilfish, F|100/100
+|-damage|p1a: CHLORINE|88/100|[from] Stealth Rock
+|-ability|p1a: CHLORINE|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|V-create|p1a: CHLORINE
+|-resisted|p1a: CHLORINE
+|-damage|p1a: CHLORINE|66/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|-damage|p2a: Victini|53/100|[from] item: Rocky Helmet|[of] p1a: CHLORINE
+|
+|upkeep
+|turn|9
+|j| ShwiftyShiftry
+|
+|t:|1637266533
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: CHLORINE|Spikes|p2a: Raikou
+|-sidestart|p2: Bsuuuu|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1637266539
+|switch|p1a: LEGEND|Bronzong|100/100
+|-damage|p1a: LEGEND|94/100|[from] Stealth Rock
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|76/100
+|
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|-heal|p1a: LEGEND|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1637266541
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: LEGEND|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1637266545
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Spikes
+|move|p1a: LEGEND|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|72/100
+|
+|-heal|p2a: Blastoise|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1637266552
+|move|p2a: Blastoise|Rapid Spin|p1a: LEGEND
+|-resisted|p1a: LEGEND
+|-damage|p1a: LEGEND|99/100
+|-sideend|p2: Bsuuuu|Spikes|[from] move: Rapid Spin|[of] p2a: Blastoise
+|move|p1a: LEGEND|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-heal|p2a: Blastoise|84/100 tox|[from] item: Leftovers
+|-heal|p1a: LEGEND|100/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|78/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1637266559
+|switch|p2a: Heracross|Heracross, M|100/100
+|switch|p1a: THE HYPE|Umbreon, F|100/100
+|-damage|p1a: THE HYPE|88/100|[from] Stealth Rock
+|
+|-heal|p1a: THE HYPE|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1637266562
+|move|p1a: THE HYPE|Protect|p1a: THE HYPE
+|-singleturn|p1a: THE HYPE|Protect
+|move|p2a: Heracross|Close Combat|p1a: THE HYPE
+|-activate|p1a: THE HYPE|move: Protect
+|
+|-heal|p1a: THE HYPE|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1637266565
+|switch|p1a: CHLORINE|Qwilfish, F|66/100
+|-damage|p1a: CHLORINE|53/100|[from] Stealth Rock
+|-ability|p1a: CHLORINE|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Close Combat|p1a: CHLORINE
+|-resisted|p1a: CHLORINE
+|-damage|p1a: CHLORINE|24/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|-damage|p2a: Heracross|84/100|[from] item: Rocky Helmet|[of] p1a: CHLORINE
+|
+|upkeep
+|turn|17
+|
+|t:|1637266569
+|move|p2a: Heracross|Close Combat|p1a: CHLORINE
+|-resisted|p1a: CHLORINE
+|-damage|p1a: CHLORINE|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|-damage|p2a: Heracross|67/100|[from] item: Rocky Helmet|[of] p1a: CHLORINE
+|faint|p1a: CHLORINE
+|
+|upkeep
+|
+|t:|1637266571
+|switch|p1a: LEVITATE|Flygon, M|100/100
+|-damage|p1a: LEVITATE|95/100|[from] Stealth Rock
+|turn|18
+|l| ShwiftyShiftry
+|inactive|Bsuuuu has 120 seconds left.
+|
+|t:|1637266613
+|switch|p2a: Bronzong|Bronzong|27/100
+|move|p1a: LEVITATE|Dragon Claw|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|3/100
+|
+|-heal|p2a: Bronzong|9/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1637266616
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: LEVITATE|Dragon Claw|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|15/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Bsuuuu has 120 seconds left.
+|
+|t:|1637266641
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: LEVITATE|Dragon Claw|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|22/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1637266645
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: LEVITATE|Dragon Claw|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|28/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆Bsuuuu|oh wow
+|
+|t:|1637266649
+|move|p1a: LEVITATE|Dragon Claw|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|c|☆Bsuuuu|oh LOL
+|c|☆faded love|x
+|c|☆faded love|bw moment
+|inactive|Bsuuuu has 120 seconds left.
+|
+|t:|1637266665
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|23
+|
+|t:|1637266671
+|switch|p1a: THE HYPE|Umbreon, F|99/100
+|-damage|p1a: THE HYPE|88/100|[from] Stealth Rock
+|move|p2a: Nidoqueen|Toxic Spikes|p1a: THE HYPE
+|-sidestart|p1: faded love|move: Toxic Spikes
+|
+|-heal|p1a: THE HYPE|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1637266682
+|move|p2a: Nidoqueen|Taunt|p1a: THE HYPE
+|-start|p1a: THE HYPE|move: Taunt
+|move|p1a: THE HYPE|Foul Play|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|85/100
+|
+|-heal|p2a: Nidoqueen|91/100|[from] item: Black Sludge
+|-heal|p1a: THE HYPE|99/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Bsuuuu|ya didnt really want to go for the triple protect but that was my 'best' play
+|
+|t:|1637266698
+|move|p2a: Nidoqueen|Toxic Spikes|p1a: THE HYPE
+|-sidestart|p1: faded love|move: Toxic Spikes
+|move|p1a: THE HYPE|Foul Play|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|75/100
+|
+|-heal|p2a: Nidoqueen|82/100|[from] item: Black Sludge
+|-heal|p1a: THE HYPE|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1637266707
+|switch|p2a: Heracross|Heracross, M|67/100
+|move|p1a: THE HYPE|Foul Play|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|31/100
+|
+|-end|p1a: THE HYPE|move: Taunt
+|upkeep
+|turn|27
+|
+|t:|1637266711
+|move|p1a: THE HYPE|Protect|p1a: THE HYPE
+|-singleturn|p1a: THE HYPE|Protect
+|move|p2a: Heracross|Close Combat|p1a: THE HYPE
+|-activate|p1a: THE HYPE|move: Protect
+|
+|upkeep
+|turn|28
+|
+|t:|1637266715
+|switch|p1a: BANDITO|Porygon-Z|39/100 tox
+|-damage|p1a: BANDITO|27/100 tox|[from] Stealth Rock
+|-ability|p1a: BANDITO|Download|boost
+|-boost|p1a: BANDITO|atk|1
+|move|p2a: Heracross|Close Combat|p1a: BANDITO
+|-supereffective|p1a: BANDITO
+|-crit|p1a: BANDITO
+|-damage|p1a: BANDITO|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: BANDITO
+|
+|upkeep
+|
+|t:|1637266722
+|switch|p1a: MORPH|Rotom-Heat|100/100
+|-damage|p1a: MORPH|75/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1637266727
+|switch|p2a: Nidoqueen|Nidoqueen, F|82/100
+|move|p1a: MORPH|Overheat|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|14/100
+|-unboost|p1a: MORPH|spa|2
+|
+|-heal|p2a: Nidoqueen|21/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|t:|1637266734
+|switch|p2a: Victini|Victini|53/100
+|move|p1a: MORPH|Overheat|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|38/100
+|-unboost|p1a: MORPH|spa|2
+|
+|upkeep
+|turn|31
+|
+|t:|1637266740
+|switch|p1a: THE HYPE|Umbreon, F|100/100
+|-damage|p1a: THE HYPE|88/100|[from] Stealth Rock
+|-status|p1a: THE HYPE|tox
+|move|p2a: Victini|V-create|p1a: THE HYPE
+|-damage|p1a: THE HYPE|23/100 tox
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: THE HYPE|29/100 tox|[from] item: Leftovers
+|-damage|p1a: THE HYPE|23/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1637266745
+|switch|p1a: LEVITATE|Flygon, M|95/100
+|-damage|p1a: LEVITATE|89/100|[from] Stealth Rock
+|move|p2a: Victini|V-create|p1a: LEVITATE
+|-resisted|p1a: LEVITATE
+|-crit|p1a: LEVITATE
+|-damage|p1a: LEVITATE|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: LEVITATE
+|
+|upkeep
+|c|☆Bsuuuu|oof sorry
+|
+|t:|1637266754
+|switch|p1a: MORPH|Rotom-Heat|75/100
+|-damage|p1a: MORPH|50/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1637266758
+|switch|p2a: Nidoqueen|Nidoqueen, F|21/100
+|move|p1a: MORPH|Overheat|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|-unboost|p1a: MORPH|spa|2
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1637266764
+|switch|p2a: Raikou|Raikou|88/100
+|-ability|p2a: Raikou|Pressure
+|turn|34
+|-message|faded love forfeited.
+|
+|win|Bsuuuu
+|n|☆Bsuuuu|bsuuuu
+|n|☆faded love|fadedlove

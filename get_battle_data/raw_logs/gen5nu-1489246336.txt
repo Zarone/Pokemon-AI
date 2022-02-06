@@ -1,0 +1,261 @@
+|j|☆jahmille118
+|j|☆someone23
+|t:|1641876892
+|gametype|singles
+|player|p1|jahmille118|101|1050
+|player|p2|someone23|gambler|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Audino, M|item
+|poke|p1|Musharna, F|item
+|poke|p1|Rampardos, F|item
+|poke|p1|Eelektross, F|item
+|poke|p1|Banette, M|item
+|poke|p1|Kingler, F|item
+|poke|p2|Basculin, F|item
+|poke|p2|Charizard, F|item
+|poke|p2|Gigalith, M|item
+|poke|p2|Ditto|item
+|poke|p2|Swellow, F|item
+|poke|p2|Ampharos, F|item
+|teampreview
+|
+|t:|1641876912
+|start
+|switch|p1a: Audino|Audino, M|100/100
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|turn|1
+|
+|t:|1641876925
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|move|p2a: Gigalith|Stealth Rock|p1a: Audino
+|-sidestart|p1: jahmille118|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641876933
+|move|p1a: Audino|Calm Mind|p1a: Audino
+|-boost|p1a: Audino|spa|1
+|-boost|p1a: Audino|spd|1
+|move|p2a: Gigalith|Stone Edge|p1a: Audino|[miss]
+|-miss|p2a: Gigalith|p1a: Audino
+|
+|upkeep
+|turn|3
+|
+|t:|1641876940
+|move|p1a: Audino|Ice Beam|p2a: Gigalith
+|-damage|p2a: Gigalith|44/100
+|move|p2a: Gigalith|Stone Edge|p1a: Audino|[miss]
+|-miss|p2a: Gigalith|p1a: Audino
+|
+|-heal|p2a: Gigalith|50/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1641876947
+|move|p1a: Audino|Ice Beam|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|upkeep
+|
+|t:|1641876949
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Audino|[from] ability: Imposter
+|turn|5
+|
+|t:|1641876957
+|move|p2a: Ditto|Hyper Voice|p1a: Audino
+|-damage|p1a: Audino|71/100
+|move|p1a: Audino|Hyper Voice|p2a: Ditto
+|-damage|p2a: Ditto|65/100
+|
+|-heal|p1a: Audino|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641876970
+|move|p2a: Ditto|Hyper Voice|p1a: Audino
+|-damage|p1a: Audino|47/100
+|move|p1a: Audino|Hyper Voice|p2a: Ditto
+|-damage|p2a: Ditto|29/100
+|
+|-heal|p1a: Audino|53/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1641876977
+|move|p2a: Ditto|Hyper Voice|p1a: Audino
+|-damage|p1a: Audino|22/100
+|move|p1a: Audino|Hyper Voice|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Audino|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641876982
+|switch|p2a: Basculin|Basculin, F|100/100
+|turn|8
+|
+|t:|1641876987
+|move|p2a: Basculin|Waterfall|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|upkeep
+|
+|t:|1641877010
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1641877059
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|move|p1a: Eelektross|Giga Drain|p2a: Ampharos
+|-damage|p2a: Ampharos|70/100
+|-heal|p1a: Eelektross|100/100|[from] drain|[of] p2a: Ampharos
+|-damage|p1a: Eelektross|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Ampharos|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1641877076
+|move|p2a: Ampharos|Volt Switch|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|70/100
+|
+|t:|1641877080
+|switch|p2a: Swellow|Swellow, F|100/100|[from]move: Volt Switch
+|move|p1a: Eelektross|Volt Switch|p2a: Swellow
+|-supereffective|p2a: Swellow
+|-crit|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|-damage|p1a: Eelektross|61/100|[from] item: Life Orb
+|
+|t:|1641877093
+|switch|p1a: Musharna|Musharna, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Musharna|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1641877096
+|switch|p2a: Basculin|Basculin, F|100/100
+|turn|11
+|
+|t:|1641877102
+|move|p2a: Basculin|Waterfall|p1a: Musharna
+|-crit|p1a: Musharna
+|-damage|p1a: Musharna|0 fnt
+|faint|p1a: Musharna
+|
+|upkeep
+|
+|t:|1641877107
+|switch|p1a: Kingler|Kingler, F|100/100
+|-damage|p1a: Kingler|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641877119
+|switch|p2a: Ampharos|Ampharos, F|76/100
+|move|p1a: Kingler|X-Scissor|p2a: Ampharos
+|-damage|p2a: Ampharos|30/100
+|-damage|p1a: Kingler|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Ampharos|37/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1641877130
+|move|p1a: Kingler|X-Scissor|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|-damage|p1a: Kingler|69/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641877133
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|14
+|
+|t:|1641877137
+|move|p2a: Charizard|Air Slash|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|upkeep
+|
+|t:|1641877145
+|switch|p1a: Rampardos|Rampardos, F|100/100
+|-damage|p1a: Rampardos|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1641877150
+|move|p2a: Charizard|Air Slash|p1a: Rampardos
+|-resisted|p1a: Rampardos
+|-damage|p1a: Rampardos|49/100
+|move|p1a: Rampardos|Rock Slide|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1641877153
+|switch|p2a: Basculin|Basculin, F|100/100
+|turn|16
+|
+|t:|1641877161
+|move|p2a: Basculin|Waterfall|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|upkeep
+|
+|t:|1641877166
+|switch|p1a: Eelektross|Eelektross, F|61/100
+|-damage|p1a: Eelektross|48/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1641877170
+|move|p2a: Basculin|Waterfall|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1641877174
+|switch|p1a: Banette|Banette, M|100/100
+|-damage|p1a: Banette|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1641877180
+|move|p2a: Basculin|Waterfall|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|faint|p1a: Banette
+|
+|win|someone23
+|raw|jahmille118's rating: 1050 &rarr; <strong>1032</strong><br />(-18 for losing)
+|raw|someone23's rating: 1045 &rarr; <strong>1079</strong><br />(+34 for winning)
+|c|☆someone23|gg

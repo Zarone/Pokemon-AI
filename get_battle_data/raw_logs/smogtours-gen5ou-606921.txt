@@ -1,0 +1,304 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644096935
+|gametype|singles
+|player|p1|sparkling dream|cheren-gen5bw2|
+|player|p2|Mendeez|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Cloyster, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Uxie|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Volcarona, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Latios, M|item
+|teampreview
+|c|☆sparkling dream|hf
+|c|☆Mendeez|hf
+|inactive|Mendeez has 270 seconds left.
+|inactive|Mendeez has 240 seconds left.
+|
+|t:|1644097001
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|c|☆sparkling dream|hf
+|
+|t:|1644097015
+|move|p1a: Uxie|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Mendeez|move: Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Uxie
+|-sidestart|p1: sparkling dream|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1644097023
+|move|p1a: Uxie|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|-damage|p1a: Uxie|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|t:|1644097025
+|switch|p1a: Cloyster|Cloyster, M|100/100|[from]move: U-turn
+|-damage|p1a: Cloyster|88/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Cloyster
+|-sidestart|p1: sparkling dream|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1644097029
+|move|p1a: Cloyster|Icicle Spear|p2a: Skarmory
+|-enditem|p1a: Cloyster|Ice Gem|[from] gem
+|-damage|p2a: Skarmory|85/100
+|-damage|p2a: Skarmory|72/100
+|-damage|p2a: Skarmory|59/100
+|-damage|p2a: Skarmory|46/100
+|-damage|p2a: Skarmory|31/100
+|-hitcount|p2a: Skarmory|5
+|move|p2a: Skarmory|Whirlwind|p1a: Cloyster
+|drag|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|84/100|[from] Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1644097049
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|81/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1644097051
+|move|p1a: Scizor|Superpower|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|-damage|p1a: Scizor|68/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p2a: Skarmory
+|-damage|p1a: Scizor|58/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644097065
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1644097088
+|switch|p1a: Cloyster|Cloyster, M|88/100
+|-damage|p1a: Cloyster|71/100|[from] Spikes
+|move|p2a: Gliscor|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|42/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1644097094
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Cloyster|Icicle Spear|p2a: Reuniclus
+|-damage|p2a: Reuniclus|92/100
+|-damage|p2a: Reuniclus|84/100
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|67/100
+|-damage|p2a: Reuniclus|59/100
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|42/100
+|-hitcount|p2a: Reuniclus|5
+|
+|-heal|p2a: Reuniclus|48/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644097098
+|move|p1a: Cloyster|Icicle Spear|p2a: Reuniclus
+|-damage|p2a: Reuniclus|41/100
+|-damage|p2a: Reuniclus|31/100
+|-damage|p2a: Reuniclus|24/100
+|-damage|p2a: Reuniclus|16/100
+|-damage|p2a: Reuniclus|7/100
+|-hitcount|p2a: Reuniclus|5
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|57/100
+|
+|-heal|p2a: Reuniclus|63/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644097104
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Reuniclus|Psyshock|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-heal|p2a: Reuniclus|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644097111
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|84/100|[from] Spikes
+|turn|10
+|
+|t:|1644097139
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p2a: Reuniclus|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644097150
+|move|p1a: Volcarona|Bug Buzz|p2a: Reuniclus
+|-enditem|p1a: Volcarona|Bug Gem|[from] gem
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|inactive|Mendeez has 270 seconds left.
+|inactive|Mendeez has 240 seconds left.
+|
+|t:|1644097225
+|switch|p2a: Gliscor|Gliscor, F|88/100 tox
+|-damage|p2a: Gliscor|75/100 tox|[from] Stealth Rock
+|turn|12
+|
+|t:|1644097236
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Volcarona|Flamethrower|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1644097239
+|move|p1a: Volcarona|Flamethrower|p2a: Gliscor
+|-damage|p2a: Gliscor|27/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|39/100
+|
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|inactive|Mendeez has 240 seconds left.
+|c|+gilbert arenas|winner of this plays me whenever ug r ready
+|
+|t:|1644097273
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Volcarona|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|33/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1644097282
+|switch|p2a: Gliscor|Gliscor, F|40/100 tox
+|-damage|p2a: Gliscor|27/100 tox|[from] Stealth Rock
+|move|p1a: Volcarona|Bug Buzz|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|27/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644097285
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|16
+|
+|t:|1644097299
+|move|p1a: Volcarona|Giga Drain|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|-heal|p1a: Volcarona|67/100|[from] drain|[of] p2a: Alakazam
+|move|p2a: Alakazam|Psychic|p1a: Volcarona
+|-damage|p1a: Volcarona|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|27/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1644097309
+|move|p1a: Volcarona|Giga Drain|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-heal|p1a: Volcarona|27/100|[from] drain|[of] p2a: Alakazam
+|faint|p2a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|21/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644097313
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644097316
+|move|p1a: Volcarona|Bug Buzz|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|15/100|[from] Sandstorm
+|upkeep
+|c|☆Mendeez|gg
+|
+|t:|1644097319
+|switch|p2a: Tyranitar|Tyranitar, M|64/100
+|-damage|p2a: Tyranitar|52/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1644097321
+|move|p1a: Volcarona|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|sparkling dream
+|c|☆sparkling dream|gg
+|player|p2|Mendeez|lucas

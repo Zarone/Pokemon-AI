@@ -1,0 +1,320 @@
+|j|‽PinkRuby
+|j|☆Argon657
+|t:|1644028593
+|gametype|singles
+|player|p1|PinkRuby|gentleman-gen4dp|1067
+|player|p2|Argon657|steven|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Gliscor, M|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Ninetales, F|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Exeggutor, M|item
+|teampreview
+|
+|t:|1644028606
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Iron Birb|Skarmory, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PinkRuby)
+|
+|t:|1644028648
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Iron Birb|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: PinkRuby|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1644028656
+|move|p1a: Garchomp|Fire Fang|p2a: Iron Birb
+|-supereffective|p2a: Iron Birb
+|-damage|p2a: Iron Birb|57/100
+|move|p2a: Iron Birb|Spikes|p1a: Garchomp
+|-sidestart|p1: PinkRuby|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644028662
+|move|p1a: Garchomp|Fire Fang|p2a: Iron Birb
+|-supereffective|p2a: Iron Birb
+|-damage|p2a: Iron Birb|10/100
+|move|p2a: Iron Birb|Spikes|p1a: Garchomp
+|-sidestart|p1: PinkRuby|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|-enditem|p2a: Iron Birb|Custap Berry|[eat]
+|-activate|p2a: Iron Birb|item: Custap Berry|[consumed]
+|
+|t:|1644028668
+|move|p2a: Iron Birb|Spikes|p1a: Garchomp
+|-sidestart|p1: PinkRuby|Spikes
+|move|p1a: Garchomp|Fire Fang|p2a: Iron Birb
+|-supereffective|p2a: Iron Birb
+|-damage|p2a: Iron Birb|0 fnt
+|faint|p2a: Iron Birb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644028674
+|switch|p2a: Mozilla|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Mozilla
+|turn|5
+|
+|t:|1644028679
+|switch|p2a: Pringles|Jellicent, M|100/100
+|move|p1a: Garchomp|Earthquake|p2a: Pringles
+|-damage|p2a: Pringles|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pringles|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644028689
+|move|p1a: Garchomp|Earthquake|p2a: Pringles
+|-damage|p2a: Pringles|0 fnt
+|faint|p2a: Pringles
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644028692
+|switch|p2a: Allergies|Whimsicott, M|100/100
+|turn|7
+|
+|t:|1644028697
+|move|p2a: Allergies|Tailwind|p2a: Allergies
+|-sidestart|p2: Argon657|move: Tailwind
+|move|p1a: Garchomp|Fire Fang|p2a: Allergies
+|-supereffective|p2a: Allergies
+|-damage|p2a: Allergies|37/100
+|-enditem|p2a: Allergies|Eject Button
+|
+|t:|1644028702
+|switch|p2a: Shofu|Darmanitan, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1644028705
+|move|p2a: Shofu|Flare Blitz|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|3/100
+|-damage|p2a: Shofu|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Shofu|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-damage|p2a: Shofu|38/100|[from] Recoil
+|move|p1a: Garchomp|Earthquake|p2a: Shofu
+|-supereffective|p2a: Shofu
+|-damage|p2a: Shofu|0 fnt
+|faint|p2a: Shofu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644028710
+|switch|p2a: Tropicana|Exeggutor, M|100/100
+|turn|9
+|
+|t:|1644028718
+|move|p2a: Tropicana|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644028721
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644028727
+|move|p2a: Tropicana|Substitute|p2a: Tropicana
+|-start|p2a: Tropicana|Substitute
+|-damage|p2a: Tropicana|75/100
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Argon657|move: Tailwind
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1644028735
+|move|p1a: Gliscor|X-Scissor|p2a: Tropicana
+|-supereffective|p2a: Tropicana
+|-end|p2a: Tropicana|Substitute
+|move|p2a: Tropicana|Substitute|p2a: Tropicana
+|-start|p2a: Tropicana|Substitute
+|-damage|p2a: Tropicana|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1644028740
+|move|p1a: Gliscor|X-Scissor|p2a: Tropicana
+|-supereffective|p2a: Tropicana
+|-crit|p2a: Tropicana
+|-end|p2a: Tropicana|Substitute
+|move|p2a: Tropicana|Substitute|p2a: Tropicana
+|-start|p2a: Tropicana|Substitute
+|-damage|p2a: Tropicana|25/100
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|spd|2|[from] item: Starf Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|spe|2|[from] item: Starf Berry
+|turn|13
+|
+|t:|1644028745
+|move|p2a: Tropicana|Protect|p2a: Tropicana
+|-singleturn|p2a: Tropicana|Protect
+|move|p1a: Gliscor|X-Scissor|p2a: Tropicana
+|-activate|p2a: Tropicana|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|atk|2|[from] item: Starf Berry
+|turn|14
+|
+|t:|1644028756
+|move|p2a: Tropicana|Psychic|p1a: Gliscor
+|-damage|p1a: Gliscor|36/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Tropicana
+|-resisted|p2a: Tropicana
+|-end|p2a: Tropicana|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|def|2|[from] item: Starf Berry
+|turn|15
+|
+|t:|1644028768
+|move|p2a: Tropicana|Protect|p2a: Tropicana
+|-singleturn|p2a: Tropicana|Protect
+|move|p1a: Gliscor|X-Scissor|p2a: Tropicana
+|-activate|p2a: Tropicana|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|def|2|[from] item: Starf Berry
+|turn|16
+|
+|t:|1644028779
+|move|p2a: Tropicana|Psychic|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|spa|2|[from] item: Starf Berry
+|
+|t:|1644028790
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|76/100|[from] Spikes
+|-damage|p1a: Ferrothorn|69/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1644028795
+|move|p2a: Tropicana|Protect|p2a: Tropicana
+|-singleturn|p2a: Tropicana|Protect
+|move|p1a: Ferrothorn|Self-Destruct|p2a: Tropicana
+|-activate|p2a: Tropicana|move: Protect
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropicana|Starf Berry|[eat]
+|-boost|p2a: Tropicana|spa|2|[from] item: Starf Berry
+|
+|t:|1644028805
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|18
+|
+|t:|1644028810
+|move|p2a: Tropicana|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Tropicana|58/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tropicana|52/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644028815
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|19
+|
+|t:|1644028820
+|move|p2a: Tropicana|Giga Drain|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-heal|p2a: Tropicana|100/100|[from] drain|[of] p1a: Reuniclus
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tropicana|94/100|[from] Sandstorm
+|-item|p2a: Tropicana|Starf Berry|[from] ability: Harvest
+|upkeep
+|
+|t:|1644028822
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|76/100|[from] Spikes
+|-damage|p1a: Excadrill|73/100|[from] Stealth Rock
+|turn|20
+|-message|PinkRuby forfeited.
+|
+|win|Argon657
+|raw|PinkRuby's rating: 1067 &rarr; <strong>1053</strong><br />(-14 for losing)
+|raw|Argon657's rating: 1176 &rarr; <strong>1193</strong><br />(+17 for winning)

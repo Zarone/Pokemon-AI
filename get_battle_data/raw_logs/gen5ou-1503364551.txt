@@ -1,0 +1,265 @@
+|j|☆rexxonmobile
+|j|☆e097
+|t:|1643852863
+|gametype|singles
+|player|p1|rexxonmobile|2|1090
+|player|p2|e097|102|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Scizor, F|item
+|poke|p1|Espeon, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Jolteon, F|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Metagross|item
+|poke|p2|Volcarona, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Milotic, F|item
+|poke|p2|Espeon, F|item
+|teampreview
+|
+|t:|1643852874
+|start
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|switch|p2a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p2a: Haxorus|Unnerve
+|turn|1
+|
+|t:|1643852884
+|move|p1a: Jolteon|Hidden Power|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|19/100
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1643852892
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Haxorus|atk|1
+|move|p2a: Haxorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1643852900
+|move|p2a: Haxorus|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|15/100
+|move|p1a: Landorus|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1643852909
+|switch|p2a: Espeon|Espeon, F|100/100
+|turn|4
+|
+|t:|1643852914
+|move|p1a: Landorus|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|t:|1643852918
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|5
+|
+|t:|1643852922
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Milotic|Ice Beam|p1a: Espeon
+|-damage|p1a: Espeon|81/100
+|-status|p1a: Espeon|frz
+|
+|-heal|p1a: Espeon|87/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643852934
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|-curestatus|p1a: Espeon|frz|[msg]
+|move|p1a: Espeon|Hidden Power|p2a: Volcarona
+|-damage|p2a: Volcarona|79/100
+|
+|-heal|p1a: Espeon|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643852946
+|switch|p1a: Landorus|Landorus-Therian, M|15/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1643852954
+|move|p1a: Landorus|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|
+|t:|1643852959
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|9
+|
+|t:|1643852962
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Milotic|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|
+|upkeep
+|turn|10
+|
+|t:|1643852969
+|move|p1a: Rotom|Trick|p2a: Milotic
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Milotic
+|-item|p2a: Milotic|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Milotic|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|85/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1643852978
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Rotom|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|85/100
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|t:|1643852986
+|switch|p1a: Landorus|Landorus-Therian, M|15/100|[from]move: Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|
+|upkeep
+|turn|12
+|
+|t:|1643852993
+|move|p1a: Landorus|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1643852998
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|13
+|
+|t:|1643853001
+|switch|p1a: Rotom|Rotom-Wash|85/100 tox
+|move|p2a: Milotic|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|71/100 tox
+|
+|-heal|p1a: Rotom|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|71/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1643853010
+|move|p1a: Rotom|Volt Switch|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|
+|t:|1643853015
+|switch|p1a: Infernape|Infernape, M|100/100|[from]move: Volt Switch
+|move|p2a: Milotic|Ice Beam|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|83/100
+|
+|upkeep
+|turn|15
+|
+|t:|1643853023
+|move|p1a: Infernape|Stealth Rock|p2a: Milotic
+|-sidestart|p2: e097|move: Stealth Rock
+|move|p2a: Milotic|Ice Beam|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|67/100
+|
+|upkeep
+|turn|16
+|
+|t:|1643853029
+|move|p1a: Infernape|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|12/100
+|-unboost|p1a: Infernape|def|1
+|-unboost|p1a: Infernape|spd|1
+|move|p2a: Milotic|Ice Beam|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|39/100
+|
+|upkeep
+|turn|17
+|
+|t:|1643853038
+|move|p1a: Infernape|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|t:|1643853042
+|switch|p1a: Landorus|Landorus-Therian, M|15/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1643853045
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|-damage|p2a: Metagross|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1643853049
+|move|p2a: Metagross|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643853055
+|switch|p1a: Infernape|Infernape, M|39/100
+|turn|19
+|
+|t:|1643853059
+|move|p1a: Infernape|Overheat|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-unboost|p1a: Infernape|spa|2
+|faint|p2a: Metagross
+|
+|win|rexxonmobile
+|raw|rexxonmobile's rating: 1090 &rarr; <strong>1115</strong><br />(+25 for winning)
+|raw|e097's rating: 1072 &rarr; <strong>1052</strong><br />(-20 for losing)
+|l|☆e097

@@ -1,0 +1,295 @@
+|j|☆theblaze1215
+|j|☆Silas Moffitt
+|t:|1643331155
+|gametype|singles
+|player|p1|theblaze1215|bellelba|
+|player|p2|Silas Moffitt|psychic-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Sableye, F|item
+|poke|p1|Porygon2|item
+|poke|p1|Roserade, M|item
+|poke|p2|Bisharp, F|item
+|poke|p2|Heracross, M|item
+|poke|p2|Slowking, F|item
+|poke|p2|Accelgor, F|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Crobat, F|item
+|teampreview
+|j| SCP-426
+|
+|t:|1643331183
+|start
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|1
+|
+|t:|1643331194
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Heracross
+|-status|p2a: Heracross|brn
+|
+|-damage|p2a: Heracross|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1643331205
+|move|p1a: Sableye|Taunt|p2a: Heracross
+|-start|p2a: Heracross|move: Taunt
+|move|p2a: Heracross|Megahorn|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Heracross|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1643331221
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|3
+|
+|t:|1643331228
+|move|p2a: Heracross|Megahorn|p1a: Porygon2
+|-damage|p1a: Porygon2|44/100
+|move|p1a: Porygon2|Ice Beam|p2a: Heracross
+|-damage|p2a: Heracross|49/100 brn
+|
+|-damage|p2a: Heracross|36/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1643331246
+|switch|p2a: Slowking|Slowking, F, shiny|100/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|94/100
+|
+|upkeep
+|turn|5
+|
+|t:|1643331257
+|move|p1a: Porygon2|Substitute|p1a: Porygon2
+|-start|p1a: Porygon2|Substitute
+|-damage|p1a: Porygon2|69/100
+|move|p2a: Slowking|Thunder Wave||[still]
+|-fail|p2a: Slowking
+|
+|upkeep
+|turn|6
+|
+|t:|1643331263
+|move|p1a: Porygon2|Tri Attack|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|move|p2a: Slowking|Scald|p1a: Porygon2
+|-activate|p1a: Porygon2|Substitute|[damage]
+|
+|upkeep
+|turn|7
+|
+|t:|1643331273
+|switch|p2a: Bisharp|Bisharp, F, shiny|100/100
+|move|p1a: Porygon2|Tri Attack|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|78/100
+|
+|-heal|p2a: Bisharp|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643331283
+|move|p2a: Bisharp|Substitute|p2a: Bisharp
+|-start|p2a: Bisharp|Substitute
+|-damage|p2a: Bisharp|60/100
+|move|p1a: Porygon2|Ice Beam|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-activate|p2a: Bisharp|Substitute|[damage]
+|
+|-heal|p2a: Bisharp|65/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643331292
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Porygon2|Tri Attack|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-end|p2a: Bisharp|Substitute
+|
+|-heal|p2a: Bisharp|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643331302
+|move|p2a: Bisharp|Substitute|p2a: Bisharp
+|-start|p2a: Bisharp|Substitute
+|-damage|p2a: Bisharp|47/100
+|move|p1a: Porygon2|Tri Attack|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-end|p2a: Bisharp|Substitute
+|
+|-heal|p2a: Bisharp|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643331313
+|move|p2a: Bisharp|Iron Head|p1a: Porygon2
+|-end|p1a: Porygon2|Substitute
+|move|p1a: Porygon2|Tri Attack|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|28/100
+|
+|-heal|p2a: Bisharp|34/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643331323
+|move|p2a: Bisharp|Iron Head|p1a: Porygon2
+|-damage|p1a: Porygon2|16/100
+|move|p1a: Porygon2|Substitute|p1a: Porygon2
+|-fail|p1a: Porygon2|move: Substitute|[weak]
+|
+|-heal|p2a: Bisharp|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643331338
+|move|p2a: Bisharp|Iron Head|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-heal|p2a: Bisharp|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643331351
+|switch|p1a: Victini|Victini|100/100
+|turn|14
+|
+|t:|1643331359
+|move|p2a: Bisharp|Sucker Punch|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-heal|p2a: Bisharp|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643331369
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|15
+|
+|t:|1643331377
+|move|p2a: Bisharp|Substitute|p2a: Bisharp
+|-start|p2a: Bisharp|Substitute
+|-damage|p2a: Bisharp|27/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Bisharp|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643331385
+|move|p2a: Bisharp|Sucker Punch|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100
+|move|p1a: Alomomola|Scald|p2a: Bisharp
+|-activate|p2a: Bisharp|Substitute|[damage]
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Bisharp|39/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643331401
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Alomomola|Scald|p2a: Bisharp
+|-end|p2a: Bisharp|Substitute
+|
+|-heal|p2a: Bisharp|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1643331414
+|move|p2a: Bisharp|Substitute|p2a: Bisharp
+|-start|p2a: Bisharp|Substitute
+|-damage|p2a: Bisharp|20/100
+|move|p1a: Alomomola|Scald|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-end|p2a: Bisharp|Substitute
+|
+|-heal|p2a: Bisharp|26/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643331424
+|move|p2a: Bisharp|Sucker Punch|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|move|p1a: Alomomola|Scald|p2a: Bisharp
+|-damage|p2a: Bisharp|4/100
+|
+|-heal|p2a: Bisharp|10/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|47/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643331442
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|move|p2a: Bisharp|Iron Head|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|-heal|p2a: Bisharp|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643331454
+|switch|p1a: Roserade|Roserade, M|100/100
+|turn|21
+|
+|t:|1643331460
+|move|p2a: Bisharp|Sucker Punch|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-heal|p2a: Bisharp|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643331467
+|switch|p1a: Alomomola|Alomomola, F|80/100
+|turn|22
+|
+|t:|1643331472
+|move|p2a: Bisharp|Iron Head|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|move|p1a: Alomomola|Scald|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Alomomola|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643331478
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|23
+|
+|t:|1643331484
+|move|p2a: Accelgor|Final Gambit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p2a: Accelgor
+|faint|p1a: Alomomola
+|
+|win|Silas Moffitt

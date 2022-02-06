@@ -1,0 +1,417 @@
+|j|☆Phantomistix
+|j|☆Monai
+|t:|1631724646
+|gametype|singles
+|player|p1|Phantomistix|265|
+|player|p2|Monai|ninjaboy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gardevoir, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Gurdurr, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Regirock|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Audino, F|item
+|poke|p2|Seismitoad, M|item
+|teampreview
+|j|*BB-8-NU
+|j|@Oathkeepre
+|c|☆Phantomistix|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Phantomistix)
+|c|☆Monai|U2 gamer
+|j| Yung Coolio
+|
+|t:|1631724658
+|start
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|t:|1631724662
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Seismitoad
+|-item|p2a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Phantomistix|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|j| TheKingKarp
+|
+|t:|1631724670
+|switch|p2a: Audino|Audino, F|100/100
+|move|p1a: Rotom|Blizzard|p2a: Audino
+|-damage|p2a: Audino|64/100
+|
+|-heal|p2a: Audino|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j|+Catalisador
+|
+|t:|1631724673
+|move|p1a: Rotom|Volt Switch|p2a: Audino
+|-damage|p2a: Audino|49/100
+|c|+Catalisador|glhf2both!
+|c|+Catalisador|:D
+|c|☆Phantomistix|tyty
+|
+|t:|1631724679
+|switch|p1a: Gurdurr|Gurdurr, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p2a: Audino|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Monai|:D
+|
+|t:|1631724684
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1631724694
+|move|p2a: Charizard|Air Slash|p1a: Gurdurr
+|-supereffective|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|upkeep
+|
+|t:|1631724698
+|switch|p1a: Regirock|Regirock|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1631724705
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|move|p1a: Regirock|Stealth Rock|p2a: Misdreavus
+|-sidestart|p2: Monai|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1631724711
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank|[miss]
+|-miss|p2a: Misdreavus|p1a: Skuntank
+|
+|upkeep
+|turn|8
+|
+|t:|1631724718
+|move|p1a: Skuntank|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|48/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|-enditem|p1a: Skuntank|Lum Berry|[eat]
+|-curestatus|p1a: Skuntank|brn|[msg]
+|
+|upkeep
+|turn|9
+|c|☆Monai|Guh
+|c|☆Phantomistix|soz
+|
+|t:|1631724731
+|move|p1a: Skuntank|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|4/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|
+|-damage|p1a: Skuntank|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|c|☆Monai|It's aight
+|
+|t:|1631724739
+|-activate|p2a: Misdreavus|move: Pursuit
+|move|p1a: Skuntank|Pursuit|p2a: Misdreavus|[from]Pursuit
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-damage|p1a: Skuntank|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1631724741
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1631724752
+|move|p1a: Skuntank|Taunt|p2a: Garbodor
+|-start|p2a: Garbodor|move: Taunt
+|cant|p2a: Garbodor|move: Taunt|Spikes
+|
+|-damage|p1a: Skuntank|51/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1631724766
+|move|p1a: Skuntank|Crunch|p2a: Garbodor
+|-damage|p2a: Garbodor|73/100
+|-damage|p1a: Skuntank|35/100 brn|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|move|p2a: Garbodor|Gunk Shot|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|6/100 brn
+|
+|-damage|p1a: Skuntank|0 fnt|[from] brn
+|faint|p1a: Skuntank
+|upkeep
+|inactive|Phantomistix has 120 seconds left.
+|
+|t:|1631724794
+|switch|p1a: Regirock|Regirock|88/100
+|-damage|p1a: Regirock|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1631724801
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Regirock|Thunder Wave|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|14
+|
+|t:|1631724810
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-status|p1a: Rotom|brn
+|
+|-heal|p1a: Rotom|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|38/100 brn|[from] brn
+|upkeep
+|turn|15
+|c|☆Monai|Mb
+|
+|t:|1631724823
+|switch|p2a: Audino|Audino, F|88/100
+|-damage|p2a: Audino|75/100|[from] Stealth Rock
+|move|p1a: Rotom|Blizzard|p2a: Audino
+|-damage|p2a: Audino|39/100
+|
+|-heal|p1a: Rotom|44/100 brn|[from] item: Leftovers
+|-heal|p2a: Audino|45/100|[from] item: Leftovers
+|-damage|p1a: Rotom|32/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1631724830
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Rotom|Blizzard|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p1a: Rotom|38/100 brn|[from] item: Leftovers
+|-heal|p2a: Audino|51/100|[from] item: Leftovers
+|-damage|p1a: Rotom|26/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1631724834
+|move|p1a: Rotom|Blizzard|p2a: Audino|[miss]
+|-miss|p1a: Rotom|p2a: Audino
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p1a: Rotom|32/100 brn|[from] item: Leftovers
+|-heal|p2a: Audino|57/100|[from] item: Leftovers
+|-damage|p1a: Rotom|20/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1631724852
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Rotom|Blizzard|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|-heal|p2a: Audino|100/100|[from] move: Wish|[wisher] Audino
+|-heal|p1a: Rotom|26/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|13/100 brn|[from] brn
+|upkeep
+|turn|19
+|c|+Catalisador|im getting tempted to use audino...
+|
+|t:|1631724856
+|move|p1a: Rotom|Blizzard|p2a: Audino
+|-damage|p2a: Audino|63/100
+|-status|p2a: Audino|frz
+|cant|p2a: Audino|frz
+|
+|-heal|p1a: Rotom|20/100 brn|[from] item: Leftovers
+|-heal|p2a: Audino|69/100 frz|[from] item: Leftovers
+|-damage|p1a: Rotom|7/100 brn|[from] brn
+|upkeep
+|turn|20
+|c|+Catalisador|rip
+|c|☆Monai|Audino is based
+|
+|t:|1631724871
+|cant|p2a: Audino|frz
+|move|p1a: Rotom|Blizzard|p2a: Audino|[miss]
+|-miss|p1a: Rotom|p2a: Audino
+|
+|-heal|p1a: Rotom|13/100 brn|[from] item: Leftovers
+|-heal|p2a: Audino|75/100 frz|[from] item: Leftovers
+|-damage|p1a: Rotom|1/100 brn|[from] brn
+|upkeep
+|turn|21
+|c|@Oathkeepre|Monai has a Frizzed mon
+|
+|t:|1631724878
+|cant|p2a: Audino|frz
+|move|p1a: Rotom|Blizzard|p2a: Audino
+|-damage|p2a: Audino|39/100 frz
+|
+|-heal|p1a: Rotom|7/100 brn|[from] item: Leftovers
+|-heal|p2a: Audino|45/100 frz|[from] item: Leftovers
+|-damage|p1a: Rotom|0 fnt|[from] brn
+|faint|p1a: Rotom
+|upkeep
+|j| joey milktank
+|
+|t:|1631724887
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Regenerator|[from] ability: Trace|[of] p2a: Audino
+|turn|22
+|j| HuntressRubyRose
+|
+|t:|1631724899
+|switch|p2a: Seismitoad|Seismitoad, M|94/100
+|-damage|p2a: Seismitoad|88/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Substitute|p1a: Gardevoir
+|-start|p1a: Gardevoir|Substitute
+|-damage|p1a: Gardevoir|63/100
+|
+|upkeep
+|turn|23
+|
+|t:|1631724909
+|move|p1a: Gardevoir|Psychic|p2a: Seismitoad
+|-damage|p2a: Seismitoad|26/100
+|-damage|p1a: Gardevoir|54/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: Gardevoir
+|-end|p1a: Gardevoir|Substitute
+|
+|upkeep
+|turn|24
+|
+|t:|1631724913
+|move|p1a: Gardevoir|Psychic|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|-damage|p1a: Gardevoir|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1631724919
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|25
+|l| Yung Coolio
+|
+|t:|1631724937
+|switch|p1a: Regirock|Regirock|76/100
+|-damage|p1a: Regirock|63/100|[from] Stealth Rock
+|move|p2a: Charizard|Hidden Power|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|1/100
+|
+|upkeep
+|turn|26
+|
+|t:|1631724947
+|switch|p2a: Garbodor|Garbodor, M|73/100
+|-damage|p2a: Garbodor|61/100|[from] Stealth Rock
+|move|p1a: Regirock|Stone Edge|p2a: Garbodor
+|-damage|p2a: Garbodor|17/100
+|
+|upkeep
+|turn|27
+|c|☆Phantomistix|ouch
+|
+|t:|1631724954
+|move|p2a: Garbodor|Seed Bomb|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|upkeep
+|
+|t:|1631724961
+|switch|p1a: Gardevoir|Gardevoir, M|77/100
+|-damage|p1a: Gardevoir|65/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Aftermath|[from] ability: Trace|[of] p2a: Garbodor
+|turn|28
+|
+|t:|1631724970
+|move|p1a: Gardevoir|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|-damage|p1a: Gardevoir|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1631724975
+|switch|p2a: Charizard|Charizard, M|51/100
+|-damage|p2a: Charizard|1/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1631724981
+|move|p2a: Charizard|Flamethrower|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1631724983
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1631724987
+|move|p2a: Charizard|Flamethrower|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|win|Monai
+|n|☆Phantomistix|phantomistix
+|n|☆Monai|monai
+|n| BB-8-NU|bb8nu
+|n|+Oathkeepre|oathkeepre
+|n| TheKingKarp|thekingkarp
+|n| Catalisador|catalisador
+|n| joey milktank|joeymilktank
+|n| HuntressRubyRose|huntressrubyrose

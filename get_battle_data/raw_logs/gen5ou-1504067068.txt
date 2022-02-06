@@ -1,0 +1,243 @@
+|j|☆m4gicmushr00m
+|j|☆testbwou
+|t:|1643946696
+|gametype|singles
+|player|p1|m4gicmushr00m|artist|1148
+|player|p2|testbwou|102|1421
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by m4gicmushr00m)
+|
+|t:|1643946722
+|start
+|switch|p1a: Prince|Politoed, M, shiny|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Prince
+|turn|1
+|
+|t:|1643946725
+|move|p2a: Scizor|U-turn|p1a: Prince
+|-damage|p1a: Prince|63/100
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|
+|t:|1643946742
+|switch|p2a: Latios|Latios, M|100/100|[from]move: U-turn
+|move|p1a: Prince|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Prince|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643946750
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Prince|Protect||[still]
+|-fail|p1a: Prince
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Prince|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643946767
+|switch|p1a: Don|Nidoking, M|100/100
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643946773
+|move|p1a: Don|Earth Power|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Hidden Power|p1a: Don
+|-supereffective|p1a: Don
+|-damage|p1a: Don|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643946800
+|switch|p2a: Latios|Latios, M|79/100
+|move|p1a: Don|Earth Power|p2a: Latios
+|-immune|p2a: Latios|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1643946821
+|switch|p1a: Twister|Tornadus, M, shiny|100/100
+|move|p2a: Latios|Psyshock|p1a: Twister
+|-damage|p1a: Twister|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1643946824
+|move|p2a: Latios|Psyshock|p1a: Twister
+|-damage|p1a: Twister|0 fnt
+|faint|p1a: Twister
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643946829
+|switch|p1a: Green|Hydreigon, M, shiny|100/100
+|turn|8
+|
+|t:|1643946849
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Green|Earth Power|p2a: Mamoswine
+|-damage|p2a: Mamoswine|41/100
+|-damage|p1a: Green|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1643946859
+|move|p2a: Mamoswine|Ice Shard|p1a: Green
+|-supereffective|p1a: Green
+|-damage|p1a: Green|28/100
+|-damage|p2a: Mamoswine|31/100|[from] item: Life Orb
+|move|p1a: Green|Earth Power|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|-damage|p1a: Green|18/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| SKT T1 Motherfaker
+|
+|t:|1643946877
+|switch|p2a: Scizor|Scizor, M|91/100
+|turn|10
+|
+|t:|1643946883
+|move|p2a: Scizor|Bullet Punch|p1a: Green
+|-damage|p1a: Green|0 fnt
+|faint|p1a: Green
+|-damage|p2a: Scizor|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643946895
+|switch|p1a: Tentoxa|Tentacruel, F|100/100
+|turn|11
+|
+|t:|1643946910
+|switch|p2a: Magnezone|Magnezone|88/100
+|move|p1a: Tentoxa|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|49/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643946918
+|move|p1a: Tentoxa|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|4/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Tentoxa
+|-supereffective|p1a: Tentoxa
+|-damage|p1a: Tentoxa|9/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentoxa|15/100|[from] ability: Rain Dish
+|-heal|p1a: Tentoxa|21/100|[from] item: Black Sludge
+|-heal|p2a: Magnezone|10/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643946924
+|move|p1a: Tentoxa|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentoxa|27/100|[from] ability: Rain Dish
+|-heal|p1a: Tentoxa|33/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643946933
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|14
+|
+|t:|1643946937
+|move|p1a: Tentoxa|Protect|p1a: Tentoxa
+|-singleturn|p1a: Tentoxa|Protect
+|move|p2a: Garchomp|Earthquake|p1a: Tentoxa
+|-activate|p1a: Tentoxa|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentoxa|40/100|[from] ability: Rain Dish
+|-heal|p1a: Tentoxa|46/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1643946945
+|move|p2a: Garchomp|Earthquake|p1a: Tentoxa
+|-supereffective|p1a: Tentoxa
+|-damage|p1a: Tentoxa|0 fnt
+|faint|p1a: Tentoxa
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643946948
+|switch|p1a: Don|Nidoking, M|29/100
+|turn|16
+|
+|t:|1643946953
+|move|p2a: Garchomp|Earthquake|p1a: Don
+|-supereffective|p1a: Don
+|-damage|p1a: Don|0 fnt
+|faint|p1a: Don
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|m4gicmushr00m forfeited.
+|
+|win|testbwou
+|raw|m4gicmushr00m's rating: 1148 &rarr; <strong>1140</strong><br />(-8 for losing)
+|raw|testbwou's rating: 1439 &rarr; <strong>1445</strong><br />(+6 for winning)
+|l|☆m4gicmushr00m
+|c|☆testbwou|gg
+|l|☆testbwou

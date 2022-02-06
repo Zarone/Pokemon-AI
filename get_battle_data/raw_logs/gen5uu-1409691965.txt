@@ -1,0 +1,282 @@
+|j|☆Bughouse
+|j|☆mmommmo
+|t:|1630704954
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|mmommmo|dawn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhyperior, F|item
+|poke|p1|Cacturne, F|item
+|poke|p1|Hitmonlee, M|item
+|poke|p1|Azelf|item
+|poke|p1|Venomoth, M|item
+|poke|p1|Cobalion|item
+|poke|p2|Ludicolo, M|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Azelf|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Kingdra, F|item
+|teampreview
+|j| blackkaiser
+|j| GUAPGUAPGUAP
+|
+|t:|1630704969
+|start
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|1
+|
+|t:|1630704979
+|move|p1a: Cacturne|Spikes|p2a: Piloswine
+|-sidestart|p2: mmommmo|Spikes
+|move|p2a: Piloswine|Stealth Rock|p1a: Cacturne
+|-sidestart|p1: Bughouse|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1630704987
+|move|p2a: Piloswine|Icicle Spear|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|56/100
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|11/100
+|-hitcount|p1a: Cacturne|2
+|move|p1a: Cacturne|Counter|p2a: Piloswine
+|-damage|p2a: Piloswine|38/100
+|
+|upkeep
+|turn|3
+|
+|t:|1630704998
+|move|p1a: Cacturne|Dark Pulse|p2a: Piloswine
+|-damage|p2a: Piloswine|6/100
+|move|p2a: Piloswine|Earthquake|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-crit|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mmommmo)
+|
+|t:|1630705060
+|switch|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|turn|4
+|inactive|Bughouse has 120 seconds left.
+|
+|t:|1630705114
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: Cobalion|Hidden Power|p2a: Azelf
+|-damage|p2a: Azelf|73/100
+|
+|upkeep
+|turn|5
+|
+|t:|1630705125
+|move|p2a: Azelf|Thunder Wave|p1a: Cobalion
+|-status|p1a: Cobalion|par
+|move|p1a: Cobalion|Stealth Rock|p2a: Azelf
+|-sidestart|p2: mmommmo|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1630705135
+|move|p2a: Azelf|Rain Dance|p2a: Azelf
+|-weather|RainDance
+|move|p1a: Cobalion|Volt Switch|p2a: Azelf
+|-damage|p2a: Azelf|43/100
+|
+|t:|1630705144
+|switch|p1a: Azelf|Azelf|100/100|[from]move: Volt Switch
+|-damage|p1a: Azelf|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1630705151
+|switch|p1a: Cobalion|Cobalion|97/100 par
+|-damage|p1a: Cobalion|94/100 par|[from] Stealth Rock
+|move|p2a: Azelf|Explosion|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|61/100 par
+|faint|p2a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1630705154
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|88/100|[from] Spikes
+|-damage|p2a: Kingdra|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1630705159
+|move|p2a: Kingdra|Hydro Pump|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1630705172
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1630705182
+|move|p1a: Hitmonlee|Endure|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|move: Endure
+|move|p2a: Kingdra|Hydro Pump|p1a: Hitmonlee|[miss]
+|-miss|p2a: Kingdra|p1a: Hitmonlee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|inactive|Bughouse has 120 seconds left.
+|
+|t:|1630705198
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|move|p2a: Kingdra|Hydro Pump|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1630705200
+|switch|p1a: Hitmonlee|Hitmonlee, M|94/100
+|-damage|p1a: Hitmonlee|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1630705208
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Hitmonlee|Endure||[still]
+|-fail|p1a: Hitmonlee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1630705228
+|switch|p1a: Venomoth|Venomoth, M|100/100
+|-damage|p1a: Venomoth|76/100|[from] Stealth Rock
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: mmommmo|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1630705238
+|move|p2a: Tornadus|Hurricane|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|-weather|none
+|upkeep
+|
+|t:|1630705240
+|switch|p1a: Azelf|Azelf|88/100
+|-damage|p1a: Azelf|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1630705247
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: Azelf|Explosion|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1630705252
+|switch|p1a: Hitmonlee|Hitmonlee, M|88/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|-damage|p2a: Empoleon|82/100|[from] Spikes
+|-damage|p1a: Hitmonlee|82/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1630705279
+|move|p1a: Hitmonlee|Endure|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|move: Endure
+|move|p2a: Empoleon|Agility|p2a: Empoleon
+|-boost|p2a: Empoleon|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: mmommmo|move: Tailwind
+|upkeep
+|turn|16
+|
+|t:|1630705287
+|move|p2a: Empoleon|Agility|p2a: Empoleon
+|-boost|p2a: Empoleon|spe|2
+|move|p1a: Hitmonlee|Reversal|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|inactive|Bughouse has 120 seconds left.
+|
+|t:|1630705324
+|move|p1a: Hitmonlee|Endure|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|move: Endure
+|move|p2a: Empoleon|Surf|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|move: Endure
+|-damage|p1a: Hitmonlee|1/100
+|-enditem|p1a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p1a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|c|☆mmommmo|GG.
+|
+|t:|1630705332
+|move|p1a: Hitmonlee|Mach Punch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|mmommmo forfeited.
+|
+|win|Bughouse
+|n|☆Bughouse|bughouse
+|n|☆mmommmo|mmommmo
+|n| blackkaiser|blackkaiser
+|n| GUAPGUAPGUAP|guapguapguap
+|l|☆mmommmo
+|c|☆Bughouse|for you maybe lol
+|c|☆Bughouse|gg
+|l|☆Bughouse

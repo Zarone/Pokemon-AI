@@ -1,0 +1,326 @@
+|j|☆Waves
+|j|☆Corthius
+|t:|1635540909
+|gametype|singles
+|player|p1|Waves|hilda|
+|player|p2|Corthius|supernerd-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawsbuck, F|item
+|poke|p1|Carracosta, F|item
+|poke|p1|Golurk|item
+|poke|p1|Altaria, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Primeape, F|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Braviary, M|item
+|poke|p2|Swellow, F|item
+|poke|p2|Serperior, M|item
+|poke|p2|Riolu, F|item
+|teampreview
+|c|☆Corthius|gl hf bro
+|c|☆Waves|==
+|
+|t:|1635540949
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|turn|1
+|
+|t:|1635540954
+|move|p2a: Garbodor|Spikes|p1a: Golurk
+|-sidestart|p1: Waves|Spikes
+|move|p1a: Golurk|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1635540959
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|2
+|
+|t:|1635540966
+|switch|p1a: Altaria|Altaria, F|100/100
+|move|p2a: Serperior|Calm Mind|p2a: Serperior
+|-boost|p2a: Serperior|spa|1
+|-boost|p2a: Serperior|spd|1
+|
+|upkeep
+|turn|3
+|j| blackkaiser
+|
+|t:|1635540972
+|move|p2a: Serperior|Hidden Power|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|29/100
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|move|p1a: Altaria|Fire Blast|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|20/100
+|
+|upkeep
+|turn|4
+|
+|t:|1635541012
+|switch|p1a: Primeape|Primeape, F|100/100
+|-damage|p1a: Primeape|88/100|[from] Spikes
+|move|p2a: Serperior|Hidden Power|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|59/100
+|-damage|p2a: Serperior|10/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|j| 6d 6f 6e 61 69
+|
+|t:|1635541020
+|move|p1a: Primeape|U-turn|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-crit|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|t:|1635541048
+|switch|p1a: Golurk|Golurk|100/100|[from]move: U-turn
+|-damage|p1a: Golurk|88/100|[from] Spikes
+|
+|upkeep
+|j|%MudkipBeans
+|
+|t:|1635541068
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|6
+|
+|t:|1635541078
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|-damage|p1a: Ludicolo|88/100|[from] Spikes
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ludicolo
+|-sidestart|p1: Waves|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|c|%MudkipBeans|oh its starting
+|
+|t:|1635541093
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|move|p2a: Seismitoad|Toxic|p1a: Ludicolo
+|-status|p1a: Ludicolo|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1635541099
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Ludicolo|Ice Beam|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|4/100
+|-damage|p1a: Ludicolo|72/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|60/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1635541105
+|move|p1a: Ludicolo|Surf|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-damage|p1a: Ludicolo|50/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|32/100 tox|[from] psn
+|upkeep
+|
+|t:|1635541113
+|switch|p2a: Riolu|Riolu, F|100/100
+|turn|10
+|
+|t:|1635541116
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|move|p1a: Ludicolo|Surf|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ludicolo|8/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1635541125
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Ludicolo|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Ludicolo|75/100 tox|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|-damage|p1a: Ludicolo|65/100 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Ludicolo|35/100 tox|[from] psn
+|upkeep
+|
+|t:|1635541130
+|switch|p2a: Riolu|Riolu, F|100/100
+|turn|12
+|j| marikk0715
+|
+|t:|1635541135
+|move|p2a: Riolu|Substitute|p2a: Riolu
+|-start|p2a: Riolu|Substitute
+|-damage|p2a: Riolu|75/100
+|move|p1a: Ludicolo|Surf|p2a: Riolu
+|-end|p2a: Riolu|Substitute
+|-damage|p1a: Ludicolo|25/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Ludicolo|0 fnt|[from] psn
+|faint|p1a: Ludicolo
+|upkeep
+|
+|t:|1635541140
+|switch|p1a: Primeape|Primeape, F|59/100
+|-damage|p1a: Primeape|53/100|[from] Stealth Rock
+|-damage|p1a: Primeape|41/100|[from] Spikes
+|turn|13
+|
+|t:|1635541143
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|move|p1a: Primeape|Close Combat|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1635541148
+|move|p1a: Primeape|Close Combat|p2a: Riolu
+|-damage|p2a: Riolu|22/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Riolu|Roar|p1a: Primeape
+|drag|p1a: Sawsbuck|Sawsbuck, F|100/100
+|-damage|p1a: Sawsbuck|88/100|[from] Spikes
+|-damage|p1a: Sawsbuck|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|15
+|c|☆Waves|why
+|c|☆Waves|did that eat
+|
+|t:|1635541160
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Sawsbuck|[from]move: Copycat
+|drag|p1a: Altaria|Altaria, F|29/100
+|-damage|p1a: Altaria|4/100|[from] Stealth Rock
+|
+|upkeep
+|turn|16
+|c|%MudkipBeans|gg?
+|c|☆Corthius|max def evio
+|
+|t:|1635541166
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Altaria|[from]move: Copycat
+|drag|p1a: Sawsbuck|Sawsbuck, F|76/100
+|-damage|p1a: Sawsbuck|64/100|[from] Stealth Rock
+|-damage|p1a: Sawsbuck|51/100|[from] Spikes
+|
+|upkeep
+|turn|17
+|
+|t:|1635541173
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Sawsbuck|[from]move: Copycat
+|drag|p1a: Golurk|Golurk|88/100
+|-damage|p1a: Golurk|76/100|[from] Spikes
+|-damage|p1a: Golurk|70/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1635541178
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Golurk|[from]move: Copycat
+|drag|p1a: Sawsbuck|Sawsbuck, F|51/100
+|-damage|p1a: Sawsbuck|39/100|[from] Stealth Rock
+|-damage|p1a: Sawsbuck|27/100|[from] Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1635541179
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Sawsbuck|[from]move: Copycat
+|drag|p1a: Altaria|Altaria, F|4/100
+|-damage|p1a: Altaria|0 fnt|[from] Stealth Rock
+|faint|p1a: Altaria
+|
+|upkeep
+|
+|t:|1635541182
+|switch|p1a: Carracosta|Carracosta, F|100/100
+|-damage|p1a: Carracosta|88/100|[from] Spikes
+|-damage|p1a: Carracosta|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1635541185
+|move|p1a: Carracosta|Aqua Jet|p2a: Riolu
+|-damage|p2a: Riolu|0 fnt
+|faint|p2a: Riolu
+|-damage|p1a: Carracosta|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1635541187
+|switch|p2a: Swellow|Swellow, F|100/100
+|turn|21
+|c|%MudkipBeans|well played
+|c|%MudkipBeans|such skill
+|c|☆Corthius|ha
+|c|%MudkipBeans|ah
+|
+|t:|1635541198
+|move|p2a: Swellow|U-turn|p1a: Carracosta
+|-damage|p1a: Carracosta|48/100
+|move|p1a: Carracosta|Stone Edge|p2a: Swellow
+|-supereffective|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|-damage|p1a: Carracosta|38/100|[from] item: Life Orb
+|
+|win|Waves
+|n|☆Waves|waves
+|n|☆Corthius|corthius
+|n| blackkaiser|blackkaiser
+|n| 6d 6f 6e 61 69|6d6f6e6169
+|n|+MudkipBeans|mudkipbeans
+|n| marikk0715|marikk0715
+|c|☆Corthius|gg
+|c|☆Waves|gg
+|l|☆Corthius
+|l| 6d 6f 6e 61 69
+|l| blackkaiser
+|l|+MudkipBeans
+|l| marikk0715
+|j| Pideous
+|j| Tribbling
+|l| Pideous

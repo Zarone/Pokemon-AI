@@ -1,0 +1,316 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641056733
+|gametype|singles
+|player|p1|iss|ethan|
+|player|p2|Detective Noisy|acetrainersnow|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Timburr, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Gastly, L5, M|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Hippopotas, L5, F|item
+|poke|p2|Staryu, L5|item
+|teampreview
+|c|☆iss|gl!
+|inactive|iss has 270 seconds left.
+|inactive|Detective Noisy has 270 seconds left.
+|c|☆Detective Noisy|you aa well
+|inactive|iss has 240 seconds left.
+|inactive|Detective Noisy has 240 seconds left.
+|
+|t:|1641056812
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|1
+|c|+Piyush Master|lcwc ?
+|inactive|Detective Noisy has 270 seconds left.
+|inactive|Detective Noisy has 240 seconds left.
+|
+|t:|1641056869
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|14/100
+|move|p1a: Mienfoo|U-turn|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|inactive|iss has 270 seconds left.
+|
+|t:|1641056901
+|switch|p1a: Gastly|Gastly, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|inactive|Detective Noisy has 240 seconds left.
+|inactive|Detective Noisy has 210 seconds left.
+|
+|t:|1641056953
+|switch|p2a: Staryu|Staryu, L5|100/100
+|turn|2
+|inactive|iss has 270 seconds left.
+|inactive|Detective Noisy has 180 seconds left.
+|inactive|Detective Noisy has 150 seconds left.
+|
+|t:|1641057039
+|move|p2a: Staryu|Hydro Pump|p1a: Gastly
+|-damage|p1a: Gastly|39/100
+|move|p1a: Gastly|Knock Off|p2a: Staryu
+|-damage|p2a: Staryu|96/100
+|-enditem|p2a: Staryu|Eviolite|[from] move: Knock Off|[of] p1a: Gastly
+|
+|upkeep
+|turn|3
+|
+|t:|1641057048
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Regenerator|[from] ability: Trace|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|4
+|inactive|iss has 270 seconds left.
+|inactive|iss has 240 seconds left.
+|
+|t:|1641057107
+|switch|p1a: Gastly|Gastly, L5, M|39/100
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|10/100
+|-enditem|p1a: Gastly|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|5
+|inactive|Detective Noisy has 120 seconds left.
+|
+|t:|1641057136
+|move|p1a: Gastly|Will-O-Wisp|p2a: Mienfoo|[miss]
+|-miss|p1a: Gastly|p2a: Mienfoo
+|move|p2a: Mienfoo|U-turn|p1a: Gastly
+|-resisted|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|inactive|Detective Noisy has 120 seconds left.
+|
+|t:|1641057159
+|switch|p2a: Staryu|Staryu, L5|96/100|[from]move: U-turn
+|
+|upkeep
+|inactive|iss has 210 seconds left.
+|inactive|iss has 180 seconds left.
+|
+|t:|1641057234
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|turn|6
+|
+|t:|1641057245
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Natural Cure|[from] ability: Trace|[of] p1a: Porygon
+|move|p1a: Porygon|Toxic|p2a: Porygon
+|-status|p2a: Porygon|tox
+|
+|-damage|p2a: Porygon|97/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1641057257
+|switch|p1a: Mienfoo|Mienfoo, L5, M|44/100
+|-curestatus|p2a: Porygon|tox|[from] ability: Natural Cure
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|
+|upkeep
+|turn|8
+|inactive|iss has 150 seconds left.
+|inactive|iss has 120 seconds left.
+|
+|t:|1641057325
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1641057336
+|switch|p1a: Timburr|Timburr, L5, F|100/100
+|turn|9
+|
+|t:|1641057358
+|move|p2a: Mienfoo|Knock Off|p1a: Timburr
+|-resisted|p1a: Timburr
+|-damage|p1a: Timburr|96/100
+|-enditem|p1a: Timburr|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1641057372
+|move|p2a: Mienfoo|U-turn|p1a: Timburr
+|-resisted|p1a: Timburr
+|-damage|p1a: Timburr|88/100
+|
+|t:|1641057385
+|switch|p2a: Hippopotas|Hippopotas, L5, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|move|p1a: Timburr|Drain Punch|p2a: Hippopotas
+|-damage|p2a: Hippopotas|72/100
+|-heal|p1a: Timburr|100/100|[from] drain|[of] p2a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|96/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1641057403
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|move|p2a: Hippopotas|Stealth Rock|p1a: Timburr
+|-sidestart|p1: iss|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|92/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1641057418
+|move|p1a: Timburr|Payback|p2a: Hippopotas
+|-crit|p2a: Hippopotas
+|-damage|p2a: Hippopotas|20/100
+|move|p2a: Hippopotas|Earthquake|p1a: Timburr
+|-damage|p1a: Timburr|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|59/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1641057425
+|move|p1a: Timburr|Drain Punch|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|-heal|p1a: Timburr|71/100|[from] drain|[of] p2a: Hippopotas
+|faint|p2a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Timburr|67/100|[from] Sandstorm
+|upkeep
+|inactive|Detective Noisy has 120 seconds left.
+|inactive|Detective Noisy has 90 seconds left.
+|
+|t:|1641057488
+|switch|p2a: Drifloon|Drifloon, L5, F|100/100
+|turn|14
+|inactive|iss has 90 seconds left.
+|inactive|Detective Noisy has 90 seconds left.
+|inactive|iss has 60 seconds left.
+|
+|t:|1641057561
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-damage|p1a: Porygon|89/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Unburden|[from] ability: Trace|[of] p2a: Drifloon
+|move|p2a: Drifloon|Acrobatics|p1a: Porygon
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Porygon|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|96/100|[from] Sandstorm
+|-damage|p1a: Porygon|35/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1641057590
+|move|p2a: Drifloon|Acrobatics|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|92/100|[from] Sandstorm
+|upkeep
+|inactive|iss has 30 seconds left.
+|inactive|iss has 20 seconds left.
+|
+|t:|1641057632
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|-damage|p1a: Diglett|95/100|[from] Stealth Rock
+|turn|16
+|inactive|iss has 30 seconds left this turn.
+|inactive|iss has 20 seconds left.
+|
+|t:|1641057647
+|move|p2a: Drifloon|Substitute|p2a: Drifloon
+|-start|p2a: Drifloon|Substitute
+|-damage|p2a: Drifloon|68/100
+|move|p1a: Diglett|Pursuit|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-end|p2a: Drifloon|Substitute
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|64/100|[from] Sandstorm
+|upkeep
+|turn|17
+|inactive|iss has 30 seconds left this turn.
+|
+|t:|1641057657
+|move|p2a: Drifloon|Acrobatics|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|60/100|[from] Sandstorm
+|upkeep
+|inactive|iss has 30 seconds left this turn.
+|
+|t:|1641057665
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|-damage|p1a: Carvanha|90/100|[from] Stealth Rock
+|turn|18
+|inactive|iss has 30 seconds left.
+|inactive|Detective Noisy has 90 seconds left.
+|
+|t:|1641057673
+|move|p2a: Drifloon|Acrobatics|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|57/100|[from] Sandstorm
+|upkeep
+|
+|t:|1641057677
+|switch|p1a: Timburr|Timburr, L5, F|67/100
+|-damage|p1a: Timburr|63/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1641057679
+|move|p2a: Drifloon|Acrobatics|p1a: Timburr
+|-supereffective|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|
+|win|Detective Noisy
+|c|☆iss|gg
+|c|☆Detective Noisy|sorry about willow miss
+|c|☆Detective Noisy|gg
+|player|p2|Detective Noisy|acetrainersnow
+|player|p2|
+|player|p2|Detective Noisy|acetrainersnow

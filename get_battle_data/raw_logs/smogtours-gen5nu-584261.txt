@@ -1,0 +1,700 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1633464547
+|gametype|singles
+|player|p1|mushamu|acetrainerf-gen4|
+|player|p2|Fant'sy Beast|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Gothorita, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Garbodor, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Misdreavus, M|item
+|teampreview
+|c|☆mushamu|hf
+|c|☆Fant'sy Beast|hf
+|inactive|mushamu has 270 seconds left.
+|inactive|Fant'sy Beast has 270 seconds left.
+|
+|t:|1633464598
+|start
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|1
+|
+|t:|1633464626
+|switch|p1a: Gothorita|Gothorita, M|100/100
+|move|p2a: Misdreavus|Nasty Plot|p2a: Misdreavus
+|-boost|p2a: Misdreavus|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1633464640
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Serperior
+|-damage|p1a: Serperior|20/100
+|-unboost|p1a: Serperior|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1633464647
+|move|p1a: Serperior|Giga Drain|p2a: Misdreavus
+|-damage|p2a: Misdreavus|47/100
+|-heal|p1a: Serperior|45/100|[from] drain|[of] p2a: Misdreavus
+|-damage|p1a: Serperior|35/100|[from] item: Life Orb
+|move|p2a: Misdreavus|Shadow Ball|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1633464652
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|4
+|inactive|Fant'sy Beast has 270 seconds left.
+|
+|t:|1633464700
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Charizard|Acrobatics|p2a: Alomomola
+|-enditem|p1a: Charizard|Flying Gem|[from] gem
+|-damage|p2a: Alomomola|62/100
+|
+|-heal|p2a: Alomomola|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1633464711
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Alomomola|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-heal|p2a: Alomomola|74/100|[from] item: Leftovers
+|-damage|p1a: Charizard|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1633464722
+|switch|p1a: Gothorita|Gothorita, M|100/100
+|move|p2a: Alomomola|Waterfall|p1a: Gothorita
+|-damage|p1a: Gothorita|59/100
+|
+|-heal|p2a: Alomomola|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1633464728
+|move|p1a: Gothorita|Psychic|p2a: Alomomola
+|-damage|p2a: Alomomola|25/100
+|move|p2a: Alomomola|Waterfall|p1a: Gothorita
+|-damage|p1a: Gothorita|18/100
+|
+|-heal|p2a: Alomomola|32/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1633464737
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Gothorita|Psychic|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Fant'sy Beast has 270 seconds left.
+|
+|t:|1633464743
+|move|p1a: Gothorita|Psychic|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|inactive|Fant'sy Beast has 270 seconds left.
+|inactive|Fant'sy Beast has 240 seconds left.
+|
+|t:|1633464779
+|switch|p2a: Misdreavus|Misdreavus, M|47/100
+|turn|10
+|
+|t:|1633464794
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Piloswine
+|-damage|p1a: Piloswine|80/100
+|
+|upkeep
+|turn|11
+|
+|t:|1633464805
+|move|p2a: Misdreavus|Nasty Plot|p2a: Misdreavus
+|-boost|p2a: Misdreavus|spa|2
+|move|p1a: Piloswine|Stealth Rock|p2a: Misdreavus
+|-sidestart|p2: Fant'sy Beast|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1633464809
+|move|p1a: Piloswine|Ice Shard|p2a: Misdreavus
+|-damage|p2a: Misdreavus|30/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Piloswine
+|-damage|p1a: Piloswine|35/100
+|
+|upkeep
+|turn|13
+|
+|t:|1633464827
+|switch|p1a: Gothorita|Gothorita, M|18/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Gothorita
+|-supereffective|p1a: Gothorita
+|-damage|p1a: Gothorita|0 fnt
+|faint|p1a: Gothorita
+|
+|upkeep
+|
+|t:|1633464829
+|switch|p1a: Charizard|Charizard, M|94/100 tox
+|turn|14
+|
+|t:|1633464834
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Charizard|Acrobatics|p2a: Garbodor
+|-damage|p2a: Garbodor|56/100
+|-damage|p1a: Charizard|78/100 tox|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|-damage|p1a: Charizard|72/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1633464844
+|move|p1a: Charizard|Earthquake|p2a: Garbodor
+|-supereffective|p2a: Garbodor
+|-damage|p2a: Garbodor|13/100
+|move|p2a: Garbodor|Rock Blast|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|41/100 tox
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|10/100 tox
+|-hitcount|p1a: Charizard|2
+|
+|-damage|p1a: Charizard|0 fnt|[from] psn
+|faint|p1a: Charizard
+|upkeep
+|
+|t:|1633464860
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|turn|16
+|
+|t:|1633464864
+|move|p1a: Garbodor|Gunk Shot|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1633464870
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1633464873
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100
+|-damage|p2a: Kangaskhan|69/100|[from] Recoil
+|
+|-heal|p1a: Alomomola|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1633464881
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1633464889
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|69/100
+|
+|-heal|p2a: Serperior|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1633464892
+|move|p1a: Garbodor|Gunk Shot|p2a: Serperior|[miss]
+|-miss|p1a: Garbodor|p2a: Serperior
+|move|p2a: Serperior|Leech Seed|p1a: Garbodor
+|-start|p1a: Garbodor|move: Leech Seed
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|-damage|p1a: Garbodor|88/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|92/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1633464897
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Serperior|Hidden Power|p1a: Alomomola
+|-damage|p1a: Alomomola|90/100
+|
+|-heal|p2a: Serperior|99/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1633464902
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Serperior|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1633464905
+|move|p2a: Serperior|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1633464910
+|switch|p1a: Garbodor|Garbodor, M|88/100
+|move|p2a: Serperior|Leech Seed|p1a: Garbodor
+|-start|p1a: Garbodor|move: Leech Seed
+|
+|-heal|p1a: Garbodor|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Garbodor|88/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|25
+|
+|t:|1633464914
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Serperior|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|
+|-damage|p1a: Alomomola|88/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|26
+|
+|t:|1633464919
+|move|p2a: Serperior|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|62/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|49/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|27
+|
+|t:|1633464925
+|move|p2a: Serperior|Leech Seed||[still]
+|-fail|p2a: Serperior
+|move|p1a: Alomomola|Waterfall|p2a: Serperior
+|-resisted|p2a: Serperior
+|-activate|p2a: Serperior|Substitute|[damage]
+|
+|-heal|p1a: Alomomola|99/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|88/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|28
+|
+|t:|1633464929
+|move|p2a: Serperior|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|57/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|63/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|51/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|29
+|
+|t:|1633464933
+|switch|p1a: Garbodor|Garbodor, M|88/100
+|move|p2a: Serperior|Giga Drain|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|76/100
+|
+|-heal|p1a: Garbodor|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|30
+|
+|t:|1633464943
+|move|p1a: Garbodor|Gunk Shot|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|move|p2a: Serperior|Leech Seed|p1a: Garbodor
+|-start|p1a: Garbodor|move: Leech Seed
+|
+|-damage|p1a: Garbodor|88/100|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|31
+|
+|t:|1633464946
+|move|p1a: Garbodor|Gunk Shot|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|2/100
+|-status|p2a: Serperior|psn
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-fail|p2a: Serperior|move: Substitute|[weak]
+|
+|-heal|p2a: Serperior|8/100 psn|[from] item: Leftovers
+|-damage|p1a: Garbodor|76/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|18/100 psn|[silent]
+|-damage|p2a: Serperior|6/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1633464954
+|move|p1a: Garbodor|Gunk Shot|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|inactive|Fant'sy Beast has 270 seconds left.
+|
+|t:|1633464989
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1633464994
+|switch|p1a: Alomomola|Alomomola, M|84/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Alomomola|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1633464998
+|move|p2a: Mandibuzz|Toxic|p1a: Alomomola
+|-status|p1a: Alomomola|tox
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|90/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1633465007
+|switch|p1a: Piloswine|Piloswine, M|35/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Piloswine
+|-damage|p1a: Piloswine|17/100
+|
+|-heal|p1a: Piloswine|79/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|36
+|
+|t:|1633465015
+|move|p2a: Mandibuzz|Toxic|p1a: Piloswine
+|-status|p1a: Piloswine|tox
+|move|p1a: Piloswine|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|94/100 tox|[from] psn
+|-damage|p1a: Piloswine|73/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1633465026
+|switch|p2a: Kangaskhan|Kangaskhan, F|69/100
+|-damage|p2a: Kangaskhan|57/100|[from] Stealth Rock
+|switch|p1a: Alomomola|Alomomola, M|100/100 tox
+|
+|-damage|p1a: Alomomola|94/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1633465034
+|move|p2a: Kangaskhan|Fake Out|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100 tox
+|cant|p1a: Alomomola|flinch
+|
+|-heal|p1a: Alomomola|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|74/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1633465037
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|33/100 tox
+|-damage|p2a: Kangaskhan|38/100|[from] Recoil
+|move|p1a: Alomomola|Waterfall|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|14/100
+|
+|-heal|p1a: Alomomola|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|21/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1633465043
+|switch|p1a: Piloswine|Piloswine, M|73/100 tox
+|move|p2a: Kangaskhan|Earthquake|p1a: Piloswine
+|-damage|p1a: Piloswine|58/100 tox
+|
+|-damage|p1a: Piloswine|52/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1633465049
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Piloswine
+|-damage|p1a: Piloswine|39/100 tox
+|move|p1a: Piloswine|Ice Shard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|-damage|p1a: Piloswine|26/100 tox|[from] psn
+|upkeep
+|
+|t:|1633465053
+|switch|p2a: Mandibuzz|Mandibuzz, F|94/100 tox
+|-damage|p2a: Mandibuzz|70/100 tox|[from] Stealth Rock
+|turn|42
+|
+|t:|1633465062
+|switch|p1a: Alomomola|Alomomola, M|54/100 tox
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-damage|p1a: Alomomola|34/100 tox
+|
+|-heal|p2a: Mandibuzz|76/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|70/100 tox|[from] psn
+|-damage|p1a: Alomomola|34/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1633465076
+|switch|p1a: Garbodor|Garbodor, M|76/100
+|move|p2a: Mandibuzz|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|
+|-heal|p2a: Mandibuzz|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|63/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1633465080
+|switch|p1a: Alomomola|Alomomola, M|68/100 tox
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Alomomola|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|-damage|p1a: Alomomola|68/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1633465083
+|switch|p2a: Misdreavus|Misdreavus, M|30/100
+|-damage|p2a: Misdreavus|17/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|62/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1633465087
+|switch|p1a: Piloswine|Piloswine, M|26/100 tox
+|move|p2a: Misdreavus|Heal Bell|p2a: Misdreavus
+|-activate|p2a: Misdreavus|move: Heal Bell
+|-curestatus|p2: Mandibuzz|tox|[msg]
+|
+|-heal|p1a: Piloswine|89/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Piloswine|83/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1633465089
+|move|p1a: Piloswine|Ice Shard|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|-damage|p1a: Piloswine|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1633465092
+|switch|p2a: Mandibuzz|Mandibuzz, F|82/100
+|-damage|p2a: Mandibuzz|57/100|[from] Stealth Rock
+|turn|48
+|
+|t:|1633465094
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Piloswine|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|94/100 tox|[from] psn
+|-damage|p1a: Piloswine|51/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|t:|1633465105
+|switch|p1a: Alomomola|Alomomola, M|95/100 tox
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100 tox
+|
+|-heal|p2a: Mandibuzz|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Alomomola|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p1a: Alomomola|76/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1633465108
+|move|p2a: Mandibuzz|Foul Play|p1a: Alomomola
+|-damage|p1a: Alomomola|58/100 tox
+|move|p1a: Alomomola|Healing Wish|p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|-heal|p2a: Mandibuzz|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1633465110
+|switch|p1a: Piloswine|Piloswine, M|51/100 tox
+|-heal|p1a: Piloswine|100/100|[from] move: Healing Wish
+|turn|51
+|
+|t:|1633465113
+|move|p1a: Piloswine|Ice Shard|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100 tox
+|move|p2a: Mandibuzz|Toxic|p1a: Piloswine
+|-status|p1a: Piloswine|tox
+|
+|-heal|p2a: Mandibuzz|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|40/100 tox|[from] psn
+|-damage|p1a: Piloswine|94/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1633465120
+|move|p1a: Piloswine|Ice Shard|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|24/100 tox
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|74/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|81/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|50/100 tox|[from] psn
+|-damage|p1a: Piloswine|82/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|t:|1633465123
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|99/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Piloswine|Earthquake|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|79/100 tox
+|
+|-heal|p2a: Mandibuzz|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|48/100 tox|[from] psn
+|-damage|p1a: Piloswine|63/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1633465131
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|99/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Piloswine|Earthquake|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|76/100 tox
+|
+|-heal|p2a: Mandibuzz|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|40/100 tox|[from] psn
+|-damage|p1a: Piloswine|38/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1633465133
+|move|p1a: Piloswine|Ice Shard|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|22/100 tox
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|73/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|30/100 tox|[from] psn
+|-damage|p1a: Piloswine|7/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1633465136
+|move|p1a: Piloswine|Ice Shard|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|12/100 tox
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|62/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|13/100 tox|[from] psn
+|-damage|p1a: Piloswine|0 fnt|[from] psn
+|faint|p1a: Piloswine
+|upkeep
+|
+|t:|1633465138
+|switch|p1a: Garbodor|Garbodor, M|76/100
+|turn|57
+|
+|t:|1633465140
+|move|p1a: Garbodor|Drain Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|1/100 tox
+|-heal|p1a: Garbodor|85/100|[from] drain|[of] p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Garbodor
+|-damage|p1a: Garbodor|35/100
+|
+|-heal|p2a: Mandibuzz|7/100 tox|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|0 fnt|[from] psn
+|faint|p2a: Mandibuzz
+|
+|win|mushamu
+|upkeep

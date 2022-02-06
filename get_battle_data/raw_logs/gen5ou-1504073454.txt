@@ -1,0 +1,249 @@
+|j|☆LightRami.14
+|j|☆testbwou
+|t:|1643947621
+|gametype|singles
+|player|p1|LightRami.14|hilbert-wonderlauncher|1275
+|player|p2|testbwou|102|1445
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Dragonite, M|item
+|poke|p1|Gengar, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Jolteon, F|item
+|poke|p1|Staraptor, F|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|teampreview
+|
+|t:|1643947627
+|start
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|1
+|
+|t:|1643947641
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Scizor|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|68/100
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|
+|t:|1643947643
+|switch|p2a: Latios|Latios, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Gyarados|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643947650
+|move|p2a: Latios|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1643947653
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|3
+|
+|t:|1643947657
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1643947659
+|move|p2a: Mamoswine|Ice Shard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|43/100
+|-damage|p2a: Mamoswine|91/100|[from] item: Life Orb
+|move|p1a: Dragonite|Waterfall|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Dragonite|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643947703
+|switch|p2a: Scizor|Scizor, F|91/100
+|turn|5
+|
+|t:|1643947706
+|move|p2a: Scizor|Bullet Punch|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-damage|p2a: Scizor|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643947708
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|turn|6
+|
+|t:|1643947747
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Staraptor|Brave Bird|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|81/100
+|-damage|p1a: Staraptor|95/100|[from] Recoil
+|
+|-heal|p2a: Magnezone|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|j| SKT T1 Motherfaker
+|
+|t:|1643947755
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|62/100
+|
+|-heal|p2a: Magnezone|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643947759
+|move|p1a: Mamoswine|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Flash Cannon|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|
+|-heal|p2a: Magnezone|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643947763
+|move|p1a: Mamoswine|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1643947765
+|switch|p2a: Scizor|Scizor, F|81/100
+|turn|10
+|
+|t:|1643947768
+|switch|p1a: Staraptor|Staraptor, F|95/100
+|move|p2a: Scizor|Bullet Punch|p1a: Staraptor
+|-damage|p1a: Staraptor|25/100
+|-damage|p2a: Scizor|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1643947772
+|move|p2a: Scizor|Bullet Punch|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|-damage|p2a: Scizor|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643947775
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|turn|12
+|
+|t:|1643947785
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Jolteon|Hidden Power|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1643947790
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|13
+|
+|t:|1643947792
+|move|p2a: Garchomp|Outrage|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|t:|1643947795
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|14
+|
+|t:|1643947797
+|move|p2a: Garchomp|Outrage|p1a: Gengar|[from]lockedmove
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|move|p1a: Gengar|Shadow Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|57/100
+|-unboost|p2a: Garchomp|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1643947806
+|move|p2a: Garchomp|Outrage|p1a: Gengar|[from]lockedmove
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|-start|p2a: Garchomp|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1643947809
+|switch|p1a: Mamoswine|Mamoswine, M|1/100
+|turn|16
+|
+|t:|1643947811
+|move|p1a: Mamoswine|Ice Shard|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1643947815
+|switch|p2a: Scizor|Scizor, F|61/100
+|turn|17
+|
+|t:|1643947817
+|move|p2a: Scizor|Bullet Punch|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|-damage|p2a: Scizor|51/100|[from] item: Life Orb
+|
+|win|testbwou
+|raw|LightRami.14's rating: 1275 &rarr; <strong>1262</strong><br />(-13 for losing)
+|raw|testbwou's rating: 1453 &rarr; <strong>1464</strong><br />(+11 for winning)
+|c|☆testbwou|gg
+|c|☆LightRami.14|gg
+|l|☆LightRami.14
+|l|☆testbwou

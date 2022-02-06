@@ -1,0 +1,278 @@
+|j|☆KFC Chizza
+|j|☆F i l l e
+|t:|1639923339
+|gametype|singles
+|player|p1|KFC Chizza|unknown|
+|player|p2|F i l l e|#scl1breakers|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon, L5|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Tirtouga, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Archen, L5, F|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Abra, L5, F|item
+|teampreview
+|c|☆KFC Chizza|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KFC Chizza)
+|c|☆F i l l e|hf!
+|j| freezai
+|inactive|KFC Chizza has 270 seconds left.
+|inactive|F i l l e has 270 seconds left.
+|j| Piyush21
+|j| KamabokuGomapchiro
+|j| LilyAC
+|j| Crow Music
+|inactive|KFC Chizza has 240 seconds left.
+|inactive|F i l l e has 240 seconds left.
+|inactive|F i l l e has 210 seconds left.
+|j|+stresh
+|j| Boulicrok
+|j| outh dont cry
+|inactive|F i l l e has 180 seconds left.
+|j| itwasthislong
+|c| Boulicrok|foat
+|j| Rahul_3301
+|j| tlenit
+|inactive|F i l l e has 150 seconds left.
+|l| Rahul_3301
+|j| London13
+|inactive|F i l l e has 120 seconds left.
+|inactive|F i l l e has 90 seconds left.
+|
+|t:|1639923557
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|1
+|c| outh dont cry|les go KFC
+|
+|t:|1639923572
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|-damage|p2a: Abra|95/100|[from] item: Life Orb
+|
+|upkeep
+|j| HSOWA
+|c| outh dont cry|,
+|c| Boulicrok|foat
+|
+|t:|1639923582
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|turn|2
+|
+|t:|1639923591
+|move|p1a: Diglett|Earthquake|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|c| outh dont cry|OK
+|
+|t:|1639923597
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Arena Trap|[from] ability: Trace|[of] p1a: Diglett
+|turn|3
+|c| London13|speed run
+|j|+Kipkluif
+|c| tlenit|how fast can the tables turn around
+|
+|t:|1639923611
+|move|p1a: Diglett|Stealth Rock|p2a: Porygon
+|-sidestart|p2: F i l l e|move: Stealth Rock
+|move|p2a: Porygon|Ice Beam|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|upkeep
+|c| outh dont cry|rock up
+|l| itwasthislong
+|j| a cute mudkip
+|c| tlenit|can we end this game by dropping mon every turn?
+|
+|t:|1639923636
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Arena Trap|[from] ability: Trace|[of] p2a: Porygon
+|turn|4
+|c|☆F i l l e|not anymore
+|
+|t:|1639923644
+|move|p1a: Porygon|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|move|p2a: Porygon|Toxic|p1a: Porygon
+|-status|p1a: Porygon|tox
+|
+|-damage|p1a: Porygon|96/100 tox|[from] psn
+|upkeep
+|turn|5
+|c|☆F i l l e|if he'd gone archen and crit me
+|c|☆F i l l e|then yes
+|inactive|F i l l e has 180 seconds left.
+|
+|t:|1639923666
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|81/100 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 par
+|
+|-damage|p1a: Porygon|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1639923670
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|77/100 par
+|move|p2a: Porygon|Thunderbolt|p1a: Porygon
+|-damage|p1a: Porygon|68/100 tox
+|
+|-damage|p1a: Porygon|57/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1639923682
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|58/100 par
+|move|p2a: Porygon|Thunderbolt|p1a: Porygon
+|-damage|p1a: Porygon|36/100 tox
+|
+|-damage|p1a: Porygon|20/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1639923686
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|39/100 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|89/100 par
+|
+|-damage|p1a: Porygon|0 fnt|[from] psn
+|faint|p1a: Porygon
+|upkeep
+|inactive|KFC Chizza has 270 seconds left.
+|c| London13|F i l l e im home alone
+|inactive|KFC Chizza has 240 seconds left.
+|
+|t:|1639923755
+|switch|p1a: Archen|Archen, L5, F|100/100
+|turn|9
+|c|+Kipkluif|cant come over, he's playing bw
+|j| CDNThe3rd
+|inactive|F i l l e has 210 seconds left.
+|
+|t:|1639923776
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|-damage|p2a: Diglett|95/100|[from] Stealth Rock
+|move|p1a: Archen|Acrobatics|p2a: Diglett
+|-enditem|p1a: Archen|Flying Gem|[from] gem
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|upkeep
+|inactive|F i l l e has 180 seconds left.
+|j| Winterains
+|
+|t:|1639923805
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|-damage|p2a: Magnemite|95/100|[from] Stealth Rock
+|turn|10
+|inactive|F i l l e has 180 seconds left.
+|j| frisoeva
+|inactive|F i l l e has 150 seconds left.
+|l| CDNThe3rd
+|
+|t:|1639923862
+|move|p2a: Magnemite|Volt Switch|p1a: Archen
+|-supereffective|p1a: Archen
+|-damage|p1a: Archen|0 fnt
+|faint|p1a: Archen
+|
+|t:|1639923866
+|switch|p2a: Gastly|Gastly, L5, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Gastly|90/100|[from] Stealth Rock
+|
+|upkeep
+|j| CDNThe3rd
+|inactive|KFC Chizza has 240 seconds left.
+|j| Laroxyl
+|l| CDNThe3rd
+|inactive|KFC Chizza has 210 seconds left.
+|inactive|KFC Chizza has 180 seconds left.
+|
+|t:|1639923952
+|switch|p1a: Tirtouga|Tirtouga, L5, M|100/100
+|turn|11
+|
+|t:|1639923956
+|move|p2a: Gastly|Substitute|p2a: Gastly
+|-start|p2a: Gastly|Substitute
+|-damage|p2a: Gastly|69/100
+|move|p1a: Tirtouga|Shell Smash|p1a: Tirtouga
+|-unboost|p1a: Tirtouga|def|1
+|-unboost|p1a: Tirtouga|spd|1
+|-boost|p1a: Tirtouga|atk|2
+|-boost|p1a: Tirtouga|spa|2
+|-boost|p1a: Tirtouga|spe|2
+|
+|upkeep
+|turn|12
+|j| Elly Elehayym
+|j| CDNThe3rd
+|
+|t:|1639923971
+|move|p1a: Tirtouga|Aqua Jet|p2a: Gastly
+|-end|p2a: Gastly|Substitute
+|move|p2a: Gastly|Thunderbolt|p1a: Tirtouga
+|-supereffective|p1a: Tirtouga
+|-crit|p1a: Tirtouga
+|-damage|p1a: Tirtouga|0 fnt
+|faint|p1a: Tirtouga
+|-damage|p2a: Gastly|64/100|[from] item: Life Orb
+|
+|upkeep
+|j| daunt vs
+|
+|t:|1639923978
+|switch|p1a: Natu|Natu, L5, M|100/100
+|turn|13
+|j| MagicalXerneas
+|
+|t:|1639923982
+|move|p2a: Gastly|Shadow Ball|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|-damage|p2a: Gastly|58/100|[from] item: Life Orb
+|
+|win|F i l l e
+|c|☆F i l l e|gg
+|c|☆KFC Chizza|gg
+|c| daunt vs|ofc the crit smh
+|l| Laroxyl
+|l|☆KFC Chizza
+|l| freezai
+|l| MagicalXerneas
+|l|+Kipkluif
+|l| Crow Music
+|l| tlenit
+|l| frisoeva
+|c|☆F i l l e|ya that criit so hard it even went through sturdy D:
+|c| daunt vs|hacker...

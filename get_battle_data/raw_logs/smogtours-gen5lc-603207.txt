@@ -1,0 +1,329 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642370862
+|gametype|singles
+|player|p1|Nalorium|1|
+|player|p2|iss|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Natu, L5, M|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Hippopotas, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Diglett, L5, M|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Shellder, L5, F|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|c|☆iss|gl!
+|c|☆Nalorium|=
+|
+|t:|1642370889
+|start
+|switch|p1a: Porygon|Porygon, L5|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|-ability|p1a: Porygon|Download|boost
+|-boost|p1a: Porygon|spa|1
+|turn|1
+|
+|t:|1642370919
+|move|p1a: Porygon|Psychic|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|10/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Porygon|[miss]
+|-miss|p2a: Mienfoo|p1a: Porygon
+|-damage|p2a: Mienfoo|0 fnt|[from] highjumpkick
+|faint|p2a: Mienfoo
+|
+|upkeep
+|inactive|iss has 270 seconds left.
+|inactive|iss has 240 seconds left.
+|c|☆Nalorium|mb
+|c|☆iss|np
+|inactive|iss has 210 seconds left.
+|
+|t:|1642371008
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|turn|2
+|
+|t:|1642371018
+|move|p1a: Porygon|Psychic|p2a: Diglett
+|-damage|p2a: Diglett|12/100
+|move|p2a: Diglett|Memento|p1a: Porygon
+|-unboost|p1a: Porygon|atk|2
+|-unboost|p1a: Porygon|spa|2
+|faint|p2a: Diglett
+|
+|upkeep
+|
+|t:|1642371021
+|switch|p2a: Shellder|Shellder, L5, F|100/100
+|turn|3
+|
+|t:|1642371036
+|move|p1a: Porygon|Psychic|p2a: Shellder
+|-damage|p2a: Shellder|48/100
+|move|p2a: Shellder|Shell Smash|p2a: Shellder
+|-unboost|p2a: Shellder|def|1
+|-unboost|p2a: Shellder|spd|1
+|-boost|p2a: Shellder|atk|2
+|-boost|p2a: Shellder|spa|2
+|-boost|p2a: Shellder|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1642371042
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Shellder|Icicle Spear|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|68/100
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|36/100
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|4/100
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|-hitcount|p1: Hippopotas|4
+|-damage|p2a: Shellder|43/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shellder|37/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371046
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|5
+|
+|t:|1642371052
+|move|p2a: Shellder|Protect|p2a: Shellder
+|-singleturn|p2a: Shellder|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Shellder
+|-activate|p2a: Shellder|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shellder|32/100|[from] Sandstorm
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1642371054
+|move|p2a: Shellder|Icicle Spear|p1a: Mienfoo
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|41/100
+|-damage|p1a: Mienfoo|19/100
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|-hitcount|p1: Mienfoo|3
+|-damage|p2a: Shellder|27/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shellder|22/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371062
+|switch|p1a: Natu|Natu, L5, M|100/100
+|turn|7
+|
+|t:|1642371070
+|move|p2a: Shellder|Icicle Spear|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|53/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|5/100
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|-hitcount|p1: Natu|3
+|-damage|p2a: Shellder|16/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shellder|11/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371078
+|switch|p1a: Staryu|Staryu, L5|100/100
+|turn|8
+|
+|t:|1642371081
+|move|p2a: Shellder|Rock Blast|p1a: Staryu
+|-damage|p1a: Staryu|77/100
+|-crit|p1a: Staryu
+|-damage|p1a: Staryu|20/100
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|-hitcount|p1: Staryu|3
+|-damage|p2a: Shellder|6/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shellder|0 fnt|[from] Sandstorm
+|faint|p2a: Shellder
+|upkeep
+|
+|t:|1642371103
+|switch|p1a: Porygon|Porygon, L5|100/100
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|-ability|p1a: Porygon|Download|boost
+|-boost|p1a: Porygon|spa|1
+|turn|9
+|
+|t:|1642371111
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Porygon|Psychic|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|79/100
+|-unboost|p2a: Natu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|96/100|[from] Sandstorm
+|-damage|p2a: Natu|74/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1642371115
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|move|p2a: Natu|Heat Wave|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|70/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1642371122
+|switch|p1a: Porygon|Porygon, L5|96/100
+|-ability|p1a: Porygon|Download|boost
+|-boost|p1a: Porygon|spa|1
+|move|p2a: Natu|Heat Wave|p1a: Porygon
+|-damage|p1a: Porygon|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|53/100|[from] Sandstorm
+|-damage|p2a: Natu|66/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1642371126
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Download|[from] ability: Trace|[of] p1a: Porygon
+|-ability|p2a: Porygon|Download|boost
+|-boost|p2a: Porygon|spa|1
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|48/100|[from] Sandstorm
+|-damage|p2a: Porygon|62/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1642371133
+|switch|p1a: Magnemite|Magnemite, L5|43/100
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|97/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1642371145
+|move|p1a: Magnemite|Thunderbolt|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|12/100
+|move|p2a: Porygon|Thunderbolt|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon|8/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1642371166
+|move|p1a: Magnemite|Volt Switch|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|t:|1642371170
+|switch|p1a: Porygon|Porygon, L5|48/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|44/100|[from] Sandstorm
+|upkeep
+|inactive|iss has 270 seconds left.
+|
+|t:|1642371208
+|switch|p2a: Natu|Natu, L5, F|66/100
+|turn|16
+|
+|t:|1642371222
+|move|p1a: Porygon|Ice Beam|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|40/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371225
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|17
+|
+|t:|1642371230
+|switch|p1a: Magnemite|Magnemite, L5|24/100
+|move|p2a: Gastly|Trick|p1a: Magnemite
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Magnemite
+|-item|p1a: Magnemite|Black Sludge|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gastly|96/100|[from] Sandstorm
+|-damage|p1a: Magnemite|15/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1642371233
+|move|p2a: Gastly|Hidden Power|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gastly|91/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642371234
+|switch|p1a: Porygon|Porygon, L5|40/100
+|-ability|p1a: Porygon|Download|boost
+|-boost|p1a: Porygon|spa|1
+|turn|19
+|
+|t:|1642371237
+|move|p1a: Porygon|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|win|Nalorium
+|c|☆Nalorium|Mb for this one
+|c|☆iss|gg
+|c|☆Nalorium|gg
+|c|☆iss|no worries

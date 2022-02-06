@@ -1,0 +1,321 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639079611
+|gametype|singles
+|player|p1|CB AARON JUDGE|scientist-gen3|
+|player|p2|Lily|unknownf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Golurk|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Miltank, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Altaria, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|c|☆Lily|hf
+|c|☆CB AARON JUDGE|u2
+|inactive|CB AARON JUDGE has 270 seconds left.
+|inactive|Lily has 270 seconds left.
+|inactive|CB AARON JUDGE has 240 seconds left.
+|inactive|Lily has 240 seconds left.
+|inactive|Lily has 210 seconds left.
+|
+|t:|1639079707
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: turn off the light|Rotom-Frost|100/100
+|turn|1
+|
+|t:|1639079713
+|move|p2a: turn off the light|Will-O-Wisp|p1a: Golurk
+|-status|p1a: Golurk|brn
+|move|p1a: Golurk|Stone Edge|p2a: turn off the light
+|-supereffective|p2a: turn off the light
+|-crit|p2a: turn off the light
+|-damage|p2a: turn off the light|11/100
+|
+|-damage|p1a: Golurk|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1639079719
+|switch|p2a: wrong turn|Seismitoad, M|100/100
+|move|p1a: Golurk|Stealth Rock|p2a: wrong turn
+|-sidestart|p2: Lily|move: Stealth Rock
+|
+|-damage|p1a: Golurk|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1639079734
+|switch|p1a: Miltank|Miltank, F|100/100
+|move|p2a: wrong turn|Stealth Rock|p1a: Miltank
+|-sidestart|p1: CB AARON JUDGE|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1639079738
+|move|p2a: wrong turn|Hydro Pump|p1a: Miltank
+|-enditem|p2a: wrong turn|Water Gem|[from] gem
+|-damage|p1a: Miltank|37/100
+|move|p1a: Miltank|Heal Bell|p1a: Miltank
+|-activate|p1a: Miltank|move: Heal Bell
+|-curestatus|p1: Golurk|brn|[msg]
+|
+|-heal|p1a: Miltank|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639079744
+|move|p2a: wrong turn|Hydro Pump|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|upkeep
+|
+|t:|1639079759
+|switch|p1a: Altaria|Altaria, M|100/100
+|-damage|p1a: Altaria|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1639079778
+|switch|p2a: turn off the light|Rotom-Frost|11/100
+|-damage|p2a: turn off the light|0 fnt|[from] Stealth Rock
+|faint|p2a: turn off the light
+|move|p1a: Altaria|Draco Meteor|p2: turn off the light|[notarget]
+|-fail|p1a: Altaria
+|
+|upkeep
+|inactive|Lily has 270 seconds left.
+|inactive|Lily has 240 seconds left.
+|
+|t:|1639079857
+|switch|p2a: everybody dies|Serperior, M|100/100
+|-damage|p2a: everybody dies|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1639079861
+|move|p2a: everybody dies|Substitute|p2a: everybody dies
+|-start|p2a: everybody dies|Substitute
+|-damage|p2a: everybody dies|63/100
+|move|p1a: Altaria|Draco Meteor|p2a: everybody dies
+|-end|p2a: everybody dies|Substitute
+|-unboost|p1a: Altaria|spa|2
+|
+|upkeep
+|turn|8
+|
+|t:|1639079872
+|switch|p2a: wrong turn|Seismitoad, M|100/100
+|-damage|p2a: wrong turn|95/100|[from] Stealth Rock
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1639079878
+|switch|p2a: massacre|Garbodor, F|100/100
+|-damage|p2a: massacre|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: massacre
+|-immune|p2a: massacre
+|
+|-heal|p1a: Mandibuzz|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1639079883
+|move|p1a: Mandibuzz|Taunt|p2a: massacre
+|-start|p2a: massacre|move: Taunt
+|cant|p2a: massacre|move: Taunt|Spikes
+|
+|-heal|p1a: Mandibuzz|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639079891
+|switch|p1a: Golurk|Golurk|76/100
+|-damage|p1a: Golurk|70/100|[from] Stealth Rock
+|move|p2a: massacre|Sludge Bomb|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|64/100
+|-status|p1a: Golurk|psn
+|
+|-damage|p1a: Golurk|52/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1639079908
+|switch|p2a: wrong turn|Seismitoad, M|95/100
+|-damage|p2a: wrong turn|89/100|[from] Stealth Rock
+|move|p1a: Golurk|Stone Edge|p2a: wrong turn
+|-resisted|p2a: wrong turn
+|-damage|p2a: wrong turn|67/100
+|
+|-damage|p1a: Golurk|40/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1639079923
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|-damage|p1a: Ludicolo|88/100|[from] Stealth Rock
+|move|p2a: wrong turn|Hydro Pump|p1a: Ludicolo
+|-resisted|p1a: Ludicolo
+|-damage|p1a: Ludicolo|73/100
+|
+|upkeep
+|turn|14
+|
+|t:|1639079934
+|move|p1a: Ludicolo|Ice Beam|p2a: wrong turn
+|-damage|p2a: wrong turn|38/100
+|move|p2a: wrong turn|Hydro Pump|p1a: Ludicolo
+|-resisted|p1a: Ludicolo
+|-damage|p1a: Ludicolo|60/100
+|
+|upkeep
+|turn|15
+|
+|t:|1639079939
+|switch|p2a: o m e n|Skuntank, F|100/100
+|-damage|p2a: o m e n|88/100|[from] Stealth Rock
+|move|p1a: Ludicolo|Ice Beam|p2a: o m e n
+|-damage|p2a: o m e n|49/100
+|
+|upkeep
+|turn|16
+|
+|t:|1639079943
+|move|p1a: Ludicolo|Ice Beam|p2a: o m e n
+|-damage|p2a: o m e n|12/100
+|move|p2a: o m e n|Crunch|p1a: Ludicolo
+|-damage|p1a: Ludicolo|2/100
+|
+|upkeep
+|turn|17
+|
+|t:|1639079949
+|move|p2a: o m e n|Sucker Punch|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|upkeep
+|
+|t:|1639079954
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1639079958
+|move|p2a: o m e n|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|move|p1a: Garbodor|Seed Bomb|p2a: o m e n
+|-resisted|p2a: o m e n
+|-damage|p2a: o m e n|0 fnt
+|faint|p2a: o m e n
+|
+|upkeep
+|
+|t:|1639079981
+|switch|p2a: boo bitch|Misdreavus, M|100/100
+|-damage|p2a: boo bitch|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1639079985
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100
+|-damage|p1a: Mandibuzz|69/100|[from] Stealth Rock
+|move|p2a: boo bitch|Nasty Plot|p2a: boo bitch
+|-boost|p2a: boo bitch|spa|2
+|
+|-heal|p1a: Mandibuzz|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1639079997
+|move|p2a: boo bitch|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|3/100
+|move|p1a: Mandibuzz|Foul Play|p2a: boo bitch
+|-supereffective|p2a: boo bitch
+|-damage|p2a: boo bitch|46/100
+|
+|-heal|p1a: Mandibuzz|9/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639080005
+|move|p2a: boo bitch|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1639080012
+|switch|p1a: Altaria|Altaria, M|76/100
+|-damage|p1a: Altaria|51/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1639080015
+|move|p2a: boo bitch|Shadow Ball|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|upkeep
+|
+|t:|1639080019
+|switch|p1a: Garbodor|Garbodor, M|88/100
+|-damage|p1a: Garbodor|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1639080021
+|move|p2a: boo bitch|Shadow Ball|p1a: Garbodor
+|-damage|p1a: Garbodor|1/100
+|-unboost|p1a: Garbodor|spd|1
+|move|p1a: Garbodor|Seed Bomb|p2a: boo bitch
+|-damage|p2a: boo bitch|24/100
+|
+|upkeep
+|turn|24
+|
+|t:|1639080024
+|move|p2a: boo bitch|Shadow Ball|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1639080027
+|switch|p1a: Golurk|Golurk|40/100 psn
+|-damage|p1a: Golurk|34/100 psn|[from] Stealth Rock
+|turn|25
+|
+|t:|1639080029
+|move|p2a: boo bitch|Shadow Ball|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|win|Lily
+|c|☆Lily|gg

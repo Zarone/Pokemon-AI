@@ -1,0 +1,266 @@
+|j|☆yimb
+|j|☆jahmille118
+|t:|1641755179
+|gametype|singles
+|player|p1|yimb|schoolboy-gen2|1000
+|player|p2|jahmille118|265|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Serperior, F|item
+|poke|p1|Eelektross, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Audino, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Armaldo, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Gorebyss, F|item
+|poke|p2|Liepard, M|item
+|poke|p2|Illumise, F|item
+|poke|p2|Floatzel, F|item
+|teampreview
+|
+|t:|1641755206
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Liepard|Liepard, M|100/100
+|turn|1
+|
+|t:|1641755211
+|move|p2a: Liepard|Fake Out|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|88/100
+|cant|p1a: Kangaskhan|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1641755224
+|switch|p1a: Samurott|Samurott, M|100/100
+|move|p2a: Liepard|Rain Dance|p2a: Liepard
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1641755234
+|move|p2a: Liepard|Night Slash|p1a: Samurott
+|-damage|p1a: Samurott|73/100
+|move|p1a: Samurott|Megahorn|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641755243
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|turn|4
+|
+|t:|1641755265
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|move|p2a: Ludicolo|Energy Ball|p1a: Eelektross
+|-damage|p1a: Eelektross|42/100
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1641755278
+|move|p2a: Ludicolo|Energy Ball|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|-damage|p2a: Ludicolo|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641755284
+|switch|p1a: Kangaskhan|Kangaskhan, F|88/100
+|turn|6
+|
+|t:|1641755295
+|switch|p2a: Gorebyss|Gorebyss, F|100/100
+|move|p1a: Kangaskhan|Fake Out|p2a: Gorebyss
+|-damage|p2a: Gorebyss|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1641755304
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Gorebyss
+|-damage|p2a: Gorebyss|45/100
+|move|p2a: Gorebyss|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|-damage|p2a: Gorebyss|35/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641755316
+|switch|p1a: Audino|Audino, F|100/100
+|turn|8
+|
+|t:|1641755319
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Gorebyss|Surf|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1641755325
+|move|p1a: Audino|Protect||[still]
+|-fail|p1a: Audino
+|move|p2a: Gorebyss|Surf|p1a: Audino
+|-damage|p1a: Audino|43/100
+|-damage|p2a: Gorebyss|25/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Audino|49/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1641755335
+|move|p2a: Gorebyss|Surf|p1a: Audino
+|-damage|p1a: Audino|13/100
+|-damage|p2a: Gorebyss|15/100|[from] item: Life Orb
+|move|p1a: Audino|Double-Edge|p2a: Gorebyss
+|-damage|p2a: Gorebyss|0 fnt
+|faint|p2a: Gorebyss
+|-damage|p1a: Audino|10/100|[from] Recoil
+|
+|-heal|p1a: Audino|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641755348
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|11
+|
+|t:|1641755354
+|switch|p1a: Samurott|Samurott, M|73/100
+|move|p2a: Floatzel|Brick Break|p1a: Samurott
+|-damage|p1a: Samurott|45/100
+|-damage|p2a: Floatzel|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1641755365
+|move|p2a: Floatzel|Brick Break|p1a: Samurott
+|-damage|p1a: Samurott|14/100
+|-damage|p2a: Floatzel|81/100|[from] item: Life Orb
+|move|p1a: Samurott|Megahorn|p2a: Floatzel|[miss]
+|-miss|p1a: Samurott|p2a: Floatzel
+|
+|upkeep
+|turn|13
+|
+|t:|1641755375
+|move|p2a: Floatzel|Brick Break|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Floatzel|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641755379
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|14
+|
+|t:|1641755383
+|move|p2a: Floatzel|Ice Punch|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|28/100
+|-damage|p2a: Floatzel|61/100|[from] item: Life Orb
+|move|p1a: Serperior|Giga Drain|p2a: Floatzel
+|-supereffective|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|-heal|p1a: Serperior|60/100|[from] drain|[of] p2a: Floatzel
+|faint|p2a: Floatzel
+|-damage|p1a: Serperior|50/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641755394
+|switch|p2a: Illumise|Illumise, F|100/100
+|turn|15
+|
+|t:|1641755397
+|move|p1a: Serperior|Hidden Power|p2a: Illumise
+|-supereffective|p2a: Illumise
+|-damage|p2a: Illumise|34/100
+|-damage|p1a: Serperior|40/100|[from] item: Life Orb
+|move|p2a: Illumise|Bug Buzz|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1641755405
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|16
+|
+|t:|1641755409
+|move|p2a: Illumise|Rain Dance|p2a: Illumise
+|-weather|RainDance
+|move|p1a: Charizard|Air Slash|p2a: Illumise
+|-supereffective|p2a: Illumise
+|-damage|p2a: Illumise|0 fnt
+|faint|p2a: Illumise
+|-damage|p1a: Charizard|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641755416
+|switch|p2a: Ludicolo|Ludicolo, F|81/100
+|turn|17
+|
+|t:|1641755419
+|move|p2a: Ludicolo|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Ludicolo|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641755425
+|switch|p1a: Audino|Audino, F|50/100
+|turn|18
+|
+|t:|1641755430
+|move|p2a: Ludicolo|Surf|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|-damage|p2a: Ludicolo|61/100|[from] item: Life Orb
+|
+|win|jahmille118
+|raw|yimb's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|jahmille118's rating: 1113 &rarr; <strong>1130</strong><br />(+17 for winning)
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

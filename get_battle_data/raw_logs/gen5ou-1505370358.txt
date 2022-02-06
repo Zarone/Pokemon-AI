@@ -1,0 +1,477 @@
+|j|☆PotatoMine1
+|j|☆Rkll
+|t:|1644139340
+|gametype|singles
+|player|p1|PotatoMine1|101|1469
+|player|p2|Rkll|acetrainer-gen4|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Audino, M|item
+|poke|p2|Scrafty, M|item
+|poke|p2|Donphan, F|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Dragonite, M|item
+|teampreview
+|
+|t:|1644139354
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|turn|1
+|
+|t:|1644139362
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scrafty|[miss]
+|-miss|p1a: Jellicent|p2a: Scrafty
+|
+|upkeep
+|turn|2
+|
+|t:|1644139368
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|upkeep
+|turn|3
+|
+|t:|1644139378
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1644139386
+|move|p1a: Landorus|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|91/100
+|
+|t:|1644139393
+|switch|p1a: Latios|Latios, M|100/100|[from]move: U-turn
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644139403
+|move|p1a: Latios|Draco Meteor|p2a: Scrafty
+|-damage|p2a: Scrafty|46/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Scrafty|Crunch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Scrafty|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644139410
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|6
+|
+|t:|1644139416
+|move|p1a: Alakazam|Focus Blast|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|t:|1644139423
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|7
+|
+|t:|1644139427
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1644139433
+|move|p1a: Heatran|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|move|p2a: Reuniclus|Focus Blast|p1a: Heatran|[miss]
+|-miss|p2a: Reuniclus|p1a: Heatran
+|
+|upkeep
+|turn|9
+|
+|t:|1644139441
+|move|p1a: Heatran|Magma Storm|p2a: Reuniclus
+|-damage|p2a: Reuniclus|56/100
+|-activate|p2a: Reuniclus|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Reuniclus|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|11/100
+|
+|-heal|p1a: Heatran|17/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|62/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644139451
+|move|p1a: Heatran|Magma Storm|p2a: Reuniclus
+|-damage|p2a: Reuniclus|20/100
+|move|p2a: Reuniclus|Psyshock|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Reuniclus|26/100|[from] item: Leftovers
+|-end|p2a: Reuniclus|move: Taunt
+|upkeep
+|
+|t:|1644139458
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|11
+|
+|t:|1644139466
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Alakazam|Signal Beam|p2a: Audino
+|-damage|p2a: Audino|82/100
+|
+|-heal|p2a: Audino|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644139476
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-heal|p2a: Audino|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644139487
+|switch|p2a: Reuniclus|Reuniclus, M|26/100
+|move|p1a: Jellicent|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|
+|-heal|p2a: Reuniclus|74/100|[from] move: Wish|[wisher] Audino
+|-heal|p2a: Reuniclus|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644139497
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|switch|p2a: Audino|Audino, M|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1644139511
+|switch|p2a: Donphan|Donphan, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|75/100
+|
+|upkeep
+|turn|16
+|
+|t:|1644139517
+|move|p1a: Landorus|U-turn|p2a: Donphan
+|-damage|p2a: Donphan|63/100
+|
+|t:|1644139521
+|switch|p1a: Jellicent|Jellicent, M|100/100|[from]move: U-turn
+|move|p2a: Donphan|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: PotatoMine1|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1644139528
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Jellicent|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|
+|upkeep
+|turn|18
+|
+|t:|1644139534
+|switch|p2a: Reuniclus|Reuniclus, M|80/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Reuniclus
+|-status|p2a: Reuniclus|brn
+|
+|-heal|p2a: Reuniclus|87/100 brn|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644139543
+|move|p1a: Jellicent|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|move|p2a: Reuniclus|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100
+|
+|-heal|p1a: Jellicent|73/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|93/100 brn|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644139555
+|switch|p2a: Audino|Audino, M|100/100
+|move|p1a: Jellicent|Night Shade|p2a: Audino
+|-immune|p2a: Audino
+|
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644139564
+|move|p1a: Jellicent|Taunt|p2a: Audino
+|-start|p2a: Audino|move: Taunt
+|cant|p2a: Audino|move: Taunt|Toxic
+|
+|-heal|p1a: Jellicent|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644139574
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Audino|atk|1
+|switch|p2a: Reuniclus|Reuniclus, M|93/100 brn
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|99/100 brn|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1644139587
+|move|p1a: Landorus|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: Rkll|move: Stealth Rock
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1644139598
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|64/100 brn
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100 brn
+|
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1644139607
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|68/100 brn
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p2a: Reuniclus|75/100 brn|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644139616
+|move|p1a: Landorus|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|43/100 brn
+|
+|t:|1644139619
+|switch|p1a: Jellicent|Jellicent, M|86/100|[from]move: U-turn
+|-damage|p1a: Jellicent|73/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|93/100 brn
+|
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|99/100 brn|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1644139630
+|move|p1a: Jellicent|Taunt|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Taunt
+|move|p2a: Reuniclus|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|17/100
+|
+|-heal|p1a: Jellicent|23/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1644139639
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Reuniclus
+|-fail|p2a: Reuniclus|brn
+|move|p2a: Reuniclus|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|t:|1644139643
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|turn|29
+|
+|t:|1644139652
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|70/100 brn
+|move|p2a: Reuniclus|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|42/100
+|
+|-heal|p1a: Landorus|48/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|76/100 brn|[from] item: Leftovers
+|-end|p2a: Reuniclus|move: Taunt
+|upkeep
+|turn|30
+|
+|t:|1644139662
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|46/100 brn
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|96/100 brn
+|
+|-heal|p1a: Landorus|54/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1644139672
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|69/100 brn
+|move|p2a: Reuniclus|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|8/100
+|
+|-heal|p1a: Landorus|14/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|75/100 brn|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1644139681
+|move|p1a: Landorus|U-turn|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|45/100 brn
+|
+|t:|1644139683
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|95/100 brn
+|
+|-heal|p2a: Reuniclus|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1644139694
+|move|p2a: Reuniclus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|15/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|94/100 brn
+|-enditem|p2a: Reuniclus|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|21/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1644139704
+|move|p2a: Reuniclus|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644139708
+|switch|p1a: Landorus|Landorus-Therian, M|14/100
+|-damage|p1a: Landorus|2/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|turn|35
+|
+|t:|1644139715
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|59/100 brn
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100 brn
+|
+|-heal|p1a: Landorus|8/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1644139723
+|move|p1a: Landorus|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|68/100 brn
+|move|p2a: Reuniclus|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1644139727
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|37
+|
+|t:|1644139733
+|move|p1a: Alakazam|Signal Beam|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|41/100 brn
+|move|p2a: Reuniclus|Psyshock|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|11/100
+|
+|upkeep
+|turn|38
+|
+|t:|1644139740
+|move|p1a: Alakazam|Signal Beam|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|14/100 brn
+|-start|p2a: Reuniclus|confusion
+|-activate|p2a: Reuniclus|confusion
+|move|p2a: Reuniclus|Psyshock|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|Rkll
+|raw|PotatoMine1's rating: 1469 &rarr; <strong>1442</strong><br />(-27 for losing)
+|raw|Rkll's rating: 1335 &rarr; <strong>1362</strong><br />(+27 for winning)

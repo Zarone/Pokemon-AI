@@ -1,0 +1,539 @@
+|j|☆Lakota96
+|j|☆LX.HB24
+|t:|1643907645
+|gametype|singles
+|player|p1|Lakota96|101|1040
+|player|p2|LX.HB24|n|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Alakazam, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Heatran, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Lucario, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|c|☆Lakota96|hi
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LX.HB24)
+|j| SKT T1 Motherfaker
+|
+|t:|1643907672
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|turn|1
+|
+|t:|1643907685
+|move|p2a: Aerodactyl|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|1/100
+|move|p1a: Heatran|Stealth Rock|p2a: Aerodactyl
+|-sidestart|p2: LX.HB24|move: Stealth Rock
+|
+|-heal|p1a: Heatran|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643907695
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Aerodactyl|Earthquake|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|13/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643907739
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|65/100
+|
+|-heal|p1a: Jirachi|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643907758
+|move|p2a: Aerodactyl|Taunt|p1a: Jirachi
+|-start|p1a: Jirachi|move: Taunt
+|cant|p1a: Jirachi|move: Taunt|Wish
+|
+|-heal|p1a: Jirachi|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643907765
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: Lakota96|move: Stealth Rock
+|move|p1a: Jirachi|Thunderbolt|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|37/100
+|
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643907781
+|move|p2a: Aerodactyl|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|45/100
+|move|p1a: Jirachi|Water Pulse|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-heal|p1a: Jirachi|51/100|[from] item: Leftovers
+|-end|p1a: Jirachi|move: Taunt
+|upkeep
+|inactive|LX.HB24 has 120 seconds left.
+|
+|t:|1643907812
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|7
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643907821
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Blastoise|Rapid Spin|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|-sideend|p2: LX.HB24|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p1a: Jirachi|56/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Lakota96 has 120 seconds left.
+|inactive|LX.HB24 has 120 seconds left.
+|
+|t:|1643907832
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Blastoise|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|-status|p1a: Jirachi|brn
+|
+|-heal|p1a: Jirachi|92/100 brn|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|99/100 brn|[from] item: Leftovers
+|-heal|p2a: Blastoise|99/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|86/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643907846
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|92/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|80/100 brn|[from] brn
+|upkeep
+|turn|10
+|j| Colorful toots
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643907857
+|move|p2a: Latias|Light Screen|p2a: Latias
+|-sidestart|p2: LX.HB24|move: Light Screen
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p1a: Jirachi|100/100 brn|[from] move: Wish|[wisher] Jirachi
+|-damage|p1a: Jirachi|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643907866
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: LX.HB24|Reflect
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p1a: Jirachi|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|l| Colorful toots
+|
+|t:|1643907880
+|switch|p2a: Lucario|Lucario, F, shiny|100/100
+|move|p1a: Jirachi|Thunderbolt|p2a: Lucario
+|-damage|p2a: Lucario|59/100
+|
+|-heal|p1a: Jirachi|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1643907893
+|move|p2a: Lucario|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|35/100 brn
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|49/100|[from] item: Life Orb
+|move|p1a: Jirachi|Thunderbolt|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: Jirachi|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|29/100 brn|[from] brn
+|upkeep
+|
+|t:|1643907900
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|14
+|
+|t:|1643907916
+|switch|p1a: Heatran|Heatran, M|13/100
+|-damage|p1a: Heatran|1/100|[from] Stealth Rock
+|move|p2a: Volcarona|Fiery Dance|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Heatran|7/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|l|☆LX.HB24
+|inactive|LX.HB24 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|LX.HB24 has 30 seconds to reconnect!
+|inactive|LX.HB24 has 20 seconds to reconnect!
+|inactive|LX.HB24 has 15 seconds to reconnect!
+|inactive|LX.HB24 has 10 seconds to reconnect!
+|inactive|LX.HB24 has 5 seconds to reconnect!
+|j|☆LX.HB24
+|inactive|LX.HB24 reconnected and has 80 seconds left.
+|player|p2|LX.HB24|n
+|
+|t:|1643907992
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|13/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643908008
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Heatran|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: LX.HB24|move: Stealth Rock
+|
+|-heal|p1a: Heatran|20/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|LX.HB24 has 90 seconds left.
+|
+|t:|1643908020
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|10/100
+|move|p1a: Heatran|Roar|p2a: Volcarona
+|drag|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Heatran|16/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|move: Light Screen
+|upkeep
+|turn|18
+|inactive|LX.HB24 has 90 seconds left.
+|
+|t:|1643908032
+|move|p2a: Latias|Light Screen|p2a: Latias
+|-sidestart|p2: LX.HB24|move: Light Screen
+|move|p1a: Heatran|Lava Plume|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|79/100
+|
+|-heal|p1a: Heatran|23/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|Reflect
+|upkeep
+|turn|19
+|
+|t:|1643908044
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: LX.HB24|Reflect
+|move|p1a: Heatran|Roar|p2a: Latias
+|drag|p2a: Volcarona|Volcarona, F|100/100
+|-damage|p2a: Volcarona|50/100|[from] Stealth Rock
+|
+|-heal|p2a: Volcarona|57/100|[from] item: Leftovers
+|-heal|p1a: Heatran|29/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643908057
+|move|p2a: Volcarona|Fiery Dance|p1a: Heatran
+|-immune|p1a: Heatran|[from] ability: Flash Fire
+|move|p1a: Heatran|Roar|p2a: Volcarona
+|drag|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Heatran|35/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643908066
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Salamence|Earthquake|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|41/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643908074
+|move|p2a: Salamence|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1643908094
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|23
+|inactive|LX.HB24 has 120 seconds left.
+|
+|t:|1643908101
+|move|p2a: Salamence|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|70/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643908111
+|switch|p1a: Alakazam|Alakazam, F, shiny|100/100
+|turn|24
+|
+|t:|1643908115
+|move|p2a: Salamence|Earthquake|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|move|p1a: Alakazam|Thunder Wave|p2a: Salamence
+|-status|p2a: Salamence|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|64/100 par|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1643908127
+|move|p1a: Alakazam|Psychic|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p2: LX.HB24|move: Light Screen
+|upkeep
+|
+|t:|1643908143
+|switch|p2a: Latias|Latias, F|79/100
+|-damage|p2a: Latias|67/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1643908149
+|move|p1a: Alakazam|Shadow Ball|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|21/100
+|move|p2a: Latias|Draco Meteor|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|15/100|[from] Sandstorm
+|-sideend|p2: LX.HB24|Reflect
+|upkeep
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643908184
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|27
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643908191
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: LX.HB24|Reflect
+|move|p1a: Ferrothorn|Spikes|p2a: Latias
+|-sidestart|p2: LX.HB24|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|8/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1643908197
+|move|p2a: Latias|Light Screen|p2a: Latias
+|-sidestart|p2: LX.HB24|move: Light Screen
+|move|p1a: Ferrothorn|Spikes|p2a: Latias
+|-sidestart|p2: LX.HB24|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|2/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1643908211
+|move|p2a: Latias|Healing Wish|p2a: Latias
+|faint|p2a: Latias
+|move|p1a: Ferrothorn|Spikes|p2: Latias
+|-sidestart|p2: LX.HB24|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643908231
+|switch|p2a: Blastoise|Blastoise, M|99/100
+|-heal|p2a: Blastoise|100/100|[from] move: Healing Wish
+|-damage|p2a: Blastoise|76/100|[from] Spikes
+|-damage|p2a: Blastoise|63/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1643908238
+|move|p2a: Blastoise|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|99/100
+|-damage|p2a: Blastoise|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: LX.HB24|Spikes|[from] move: Rapid Spin|[of] p2a: Blastoise
+|-sideend|p2: LX.HB24|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|move|p1a: Ferrothorn|Power Whip|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|20/100|[from] Sandstorm
+|-heal|p2a: Blastoise|26/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1643908251
+|switch|p2a: Volcarona|Volcarona, F|57/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: LX.HB24|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|50/100|[from] Sandstorm
+|-heal|p2a: Volcarona|57/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Lakota96 has 120 seconds left.
+|
+|t:|1643908298
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|55/100
+|-enditem|p2a: Volcarona|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|49/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|t:|1643908315
+|switch|p1a: Jirachi|Jirachi|29/100 brn
+|-damage|p1a: Jirachi|23/100 brn|[from] Stealth Rock
+|move|p2a: Volcarona|Fiery Dance|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|42/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643908325
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1643908329
+|move|p2a: Volcarona|Fiery Dance|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|36/100|[from] Sandstorm
+|-sideend|p2: LX.HB24|Reflect
+|upkeep
+|c|☆Lakota96|gg
+|
+|t:|1643908337
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1643908348
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|86/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Ferrothorn|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|77/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|move: Light Screen
+|upkeep
+|turn|36
+|
+|t:|1643908360
+|move|p2a: Volcarona|Fiery Dance|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Ferrothorn
+|
+|win|LX.HB24
+|raw|Lakota96's rating: 1040 &rarr; <strong>1028</strong><br />(-12 for losing)
+|raw|LX.HB24's rating: 1132 &rarr; <strong>1151</strong><br />(+19 for winning)
+|l|☆LX.HB24

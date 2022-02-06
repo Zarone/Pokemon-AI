@@ -1,0 +1,416 @@
+|j|☆Kounamii
+|j|☆TheRioluGamer
+|t:|1634906058
+|gametype|singles
+|player|p1|Kounamii|blue-gen7|
+|player|p2|TheRioluGamer|n|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Qwilfish, F|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Empoleon, F|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Raikou|item
+|poke|p1|Flygon, M|item
+|poke|p2|Milotic, F|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Weavile, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Bastiodon, M|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kounamii)
+|j| popsnot
+|c|☆TheRioluGamer|glhf
+|c|☆Kounamii|U2
+|inactive|Kounamii has 120 seconds left.
+|
+|t:|1634906099
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Bastiodon|Bastiodon, M|100/100
+|turn|1
+|
+|t:|1634906106
+|move|p1a: Rhyperior|Earthquake|p2a: Bastiodon
+|-supereffective|p2a: Bastiodon
+|-ability|p2a: Bastiodon|Sturdy
+|-damage|p2a: Bastiodon|1/100
+|move|p2a: Bastiodon|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: Kounamii|move: Stealth Rock
+|
+|-heal|p2a: Bastiodon|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1634906116
+|move|p1a: Rhyperior|Stealth Rock|p2a: Bastiodon
+|-sidestart|p2: TheRioluGamer|move: Stealth Rock
+|move|p2a: Bastiodon|Avalanche|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|93/100
+|
+|-heal|p1a: Rhyperior|99/100|[from] item: Leftovers
+|-heal|p2a: Bastiodon|13/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| i Owe yoU a battle
+|l| i Owe yoU a battle
+|
+|t:|1634906127
+|move|p1a: Rhyperior|Earthquake|p2a: Bastiodon
+|-supereffective|p2a: Bastiodon
+|-damage|p2a: Bastiodon|0 fnt
+|faint|p2a: Bastiodon
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634906130
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|turn|4
+|j| Spoonii
+|inactive|Kounamii has 120 seconds left.
+|j| Senegal
+|
+|t:|1634906169
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|move|p2a: Milotic|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|66/100
+|-status|p1a: Qwilfish|brn
+|
+|-heal|p1a: Qwilfish|72/100 brn|[from] item: Black Sludge
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|-damage|p1a: Qwilfish|59/100 brn|[from] brn
+|upkeep
+|turn|5
+|l| Senegal
+|
+|t:|1634906179
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1a: Qwilfish|Spikes|p2a: Milotic
+|-sidestart|p2: TheRioluGamer|Spikes
+|
+|-heal|p1a: Qwilfish|65/100 brn|[from] item: Black Sludge
+|-heal|p2a: Milotic|99/100|[from] item: Leftovers
+|-damage|p1a: Qwilfish|53/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1634906186
+|switch|p2a: Flygon|Flygon, F|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|move|p1a: Qwilfish|Spikes|p2a: Flygon
+|-sidestart|p2: TheRioluGamer|Spikes
+|
+|-heal|p1a: Qwilfish|59/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|47/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|Kounamii has 120 seconds left.
+|
+|t:|1634906211
+|move|p2a: Flygon|Dragon Claw|p1a: Qwilfish
+|-damage|p1a: Qwilfish|15/100 brn
+|move|p1a: Qwilfish|Pain Split|p2a: Flygon
+|-sethp|p2a: Flygon|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Qwilfish|50/100 brn|[from] move: Pain Split
+|
+|-heal|p1a: Qwilfish|56/100 brn|[from] item: Black Sludge
+|-damage|p1a: Qwilfish|44/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1634906226
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Flygon|Dragon Claw|p1a: Togekiss
+|-damage|p1a: Togekiss|52/100
+|
+|-heal|p1a: Togekiss|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1634906230
+|move|p2a: Flygon|Dragon Claw|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|12/100
+|move|p1a: Togekiss|Thunder Wave|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|-heal|p1a: Togekiss|18/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1634906237
+|switch|p1a: Empoleon|Empoleon, F|100/100
+|-damage|p1a: Empoleon|94/100|[from] Stealth Rock
+|move|p2a: Flygon|Dragon Claw|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|74/100
+|
+|upkeep
+|turn|11
+|
+|t:|1634906244
+|move|p2a: Flygon|Dragon Claw|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|53/100
+|move|p1a: Empoleon|Surf|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|t:|1634906249
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-damage|p2a: Gardevoir|84/100|[from] Spikes
+|-damage|p2a: Gardevoir|72/100|[from] Stealth Rock
+|turn|12
+|j| afuyeas
+|
+|t:|1634906264
+|switch|p1a: Togekiss|Togekiss, M|18/100
+|-damage|p1a: Togekiss|0 fnt|[from] Stealth Rock
+|faint|p1a: Togekiss
+|move|p2a: Gardevoir|Focus Blast|p1: Togekiss|[notarget]
+|-fail|p2a: Gardevoir
+|
+|upkeep
+|
+|t:|1634906267
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1634906277
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Flygon|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|65/100
+|
+|t:|1634906283
+|switch|p1a: Rhyperior|Rhyperior, M|100/100|[from]move: U-turn
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1634906289
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Rotom|Protect||[still]
+|-fail|p2a: Rotom
+|
+|-heal|p1a: Raikou|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1634906293
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|69/100
+|move|p2a: Rotom|Overheat|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Raikou|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1634906314
+|switch|p2a: Gardevoir|Gardevoir, F|72/100
+|-damage|p2a: Gardevoir|59/100|[from] Stealth Rock
+|-damage|p2a: Gardevoir|43/100|[from] Spikes
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|51/100
+|
+|-heal|p1a: Raikou|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1634906318
+|move|p2a: Gardevoir|Psychic|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|move|p1a: Raikou|Thunderbolt|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-heal|p1a: Raikou|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634906323
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-damage|p2a: Weavile|59/100|[from] Spikes
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|t:|1634906328
+|move|p2a: Weavile|Fake Out|p1a: Raikou
+|-damage|p1a: Raikou|44/100
+|cant|p1a: Raikou|flinch
+|
+|-heal|p1a: Raikou|50/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1634906334
+|move|p2a: Weavile|Night Slash|p1a: Raikou
+|-damage|p1a: Raikou|5/100
+|move|p1a: Raikou|Thunderbolt|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-heal|p1a: Raikou|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634906341
+|switch|p2a: Rotom|Rotom-Heat|65/100
+|-damage|p2a: Rotom|40/100|[from] Stealth Rock
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|65/100|[from] item: Sitrus Berry
+|turn|20
+|
+|t:|1634906345
+|move|p1a: Raikou|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|48/100
+|-status|p2a: Rotom|par
+|move|p2a: Rotom|Overheat|p1a: Raikou
+|-crit|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|t:|1634906359
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1634906370
+|move|p1a: Rhyperior|Rock Blast|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|22/100 par
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-hitcount|p2: Rotom|2
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634906374
+|switch|p2a: Milotic|Milotic, F|99/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|-damage|p2a: Milotic|71/100|[from] Spikes
+|turn|22
+|
+|t:|1634906378
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|63/100
+|
+|-heal|p2a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1634906382
+|move|p2a: Milotic|Toxic|p1a: Rhyperior
+|-status|p1a: Rhyperior|tox
+|move|p1a: Rhyperior|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|32/100
+|
+|-heal|p2a: Milotic|38/100|[from] item: Leftovers
+|-damage|p1a: Rhyperior|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1634906386
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|88/100
+|move|p1a: Rhyperior|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|50/100
+|
+|-heal|p2a: Milotic|57/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Rhyperior|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1634906389
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|65/100
+|
+|-heal|p2a: Milotic|71/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Rhyperior|76/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1634906391
+|move|p2a: Milotic|Scald|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|7/100 tox
+|move|p1a: Rhyperior|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|32/100
+|
+|-heal|p2a: Milotic|38/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|13/100 tox|[from] item: Leftovers
+|-damage|p1a: Rhyperior|0 fnt|[from] psn
+|faint|p1a: Rhyperior
+|upkeep
+|
+|t:|1634906394
+|switch|p1a: Empoleon|Empoleon, F|53/100
+|-damage|p1a: Empoleon|47/100|[from] Stealth Rock
+|turn|27
+|c|☆Kounamii|Gg
+|
+|t:|1634906398
+|move|p1a: Empoleon|Grass Knot|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|win|Kounamii
+|n|☆Kounamii|kounamii
+|n|☆TheRioluGamer|theriolugamer
+|n| BB-8-NU|bb8nu
+|n| popsnot|popsnot
+|n| Spoonii|spoonii
+|n| afuyeas|afuyeas
+|l| BB-8-NU
+|c|☆TheRioluGamer|gg
+|l| afuyeas
+|l|☆TheRioluGamer

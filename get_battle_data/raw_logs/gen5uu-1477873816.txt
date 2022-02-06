@@ -1,0 +1,441 @@
+|j|☆Mr.378
+|j|☆off our faces
+|t:|1640148783
+|gametype|singles
+|player|p1|Mr.378|sage-gen2jp|
+|player|p2|off our faces|psychicf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rhyperior, M|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Roserade, F|item
+|poke|p1|Victini|item
+|poke|p2|Zapdos|item
+|poke|p2|Victini|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Mienshao, F|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Ferroseed, F|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by off our faces)
+|
+|t:|1640148790
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: PRIMADONNA|Victini|100/100
+|turn|1
+|
+|t:|1640148794
+|move|p2a: PRIMADONNA|Bolt Strike|p1a: Victini
+|-damage|p1a: Victini|61/100
+|-status|p1a: Victini|par
+|move|p1a: Victini|U-turn|p2a: PRIMADONNA
+|-damage|p2a: PRIMADONNA|64/100
+|j|@susciety
+|j|+kenny
+|
+|t:|1640148801
+|switch|p1a: Kingdra|Kingdra, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1640148813
+|switch|p2a: RADIOACTIVE|Ferroseed, F|100/100
+|switch|p1a: Victini|Victini|61/100 par
+|
+|upkeep
+|turn|3
+|
+|t:|1640148820
+|switch|p2a: STARRING ROLE|Blastoise, M|100/100
+|move|p1a: Victini|V-create|p2a: STARRING ROLE
+|-resisted|p2a: STARRING ROLE
+|-damage|p2a: STARRING ROLE|54/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-heal|p2a: STARRING ROLE|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1640148830
+|switch|p1a: Roserade|Roserade, F|100/100
+|move|p2a: STARRING ROLE|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|86/100
+|
+|-heal|p1a: Roserade|92/100|[from] item: Black Sludge
+|-heal|p2a: STARRING ROLE|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1640148836
+|switch|p2a: PRIMADONNA|Victini|64/100
+|move|p1a: Roserade|Spikes|p2a: PRIMADONNA
+|-sidestart|p2: off our faces|Spikes
+|
+|-heal|p1a: Roserade|98/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1640148850
+|move|p2a: PRIMADONNA|V-create|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-unboost|p2a: PRIMADONNA|spe|1
+|-unboost|p2a: PRIMADONNA|def|1
+|-unboost|p2a: PRIMADONNA|spd|1
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1640148852
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|turn|7
+|
+|t:|1640148857
+|move|p2a: PRIMADONNA|Will-O-Wisp|p1a: Rhyperior
+|-status|p1a: Rhyperior|brn
+|move|p1a: Rhyperior|Dragon Tail|p2a: PRIMADONNA
+|-damage|p2a: PRIMADONNA|50/100
+|drag|p2a: POWER AND CONTROL|Nidoqueen, F|100/100
+|-damage|p2a: POWER AND CONTROL|88/100|[from] Spikes
+|
+|-heal|p2a: POWER AND CONTROL|94/100|[from] item: Black Sludge
+|-damage|p1a: Rhyperior|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1640148864
+|move|p2a: POWER AND CONTROL|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: Mr.378|move: Stealth Rock
+|move|p1a: Rhyperior|Stealth Rock|p2a: POWER AND CONTROL
+|-sidestart|p2: off our faces|move: Stealth Rock
+|
+|-heal|p2a: POWER AND CONTROL|99/100|[from] item: Black Sludge
+|-heal|p1a: Rhyperior|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Rhyperior|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1640148871
+|switch|p2a: STARRING ROLE|Blastoise, M|67/100
+|-damage|p2a: STARRING ROLE|54/100|[from] Stealth Rock
+|-damage|p2a: STARRING ROLE|42/100|[from] Spikes
+|move|p1a: Rhyperior|Dragon Tail|p2a: STARRING ROLE
+|-damage|p2a: STARRING ROLE|34/100
+|drag|p2a: BUBBLEGUM BITCH|Zapdos, shiny|100/100
+|-damage|p2a: BUBBLEGUM BITCH|76/100|[from] Stealth Rock
+|-ability|p2a: BUBBLEGUM BITCH|Pressure
+|
+|-heal|p1a: Rhyperior|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Rhyperior|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1640148882
+|move|p2a: BUBBLEGUM BITCH|Roost|p2a: BUBBLEGUM BITCH
+|-heal|p2a: BUBBLEGUM BITCH|100/100
+|-singleturn|p2a: BUBBLEGUM BITCH|move: Roost
+|move|p1a: Rhyperior|Rock Blast|p2a: BUBBLEGUM BITCH
+|-damage|p2a: BUBBLEGUM BITCH|93/100
+|-damage|p2a: BUBBLEGUM BITCH|86/100
+|-hitcount|p2a: BUBBLEGUM BITCH|2
+|
+|-heal|p1a: Rhyperior|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Rhyperior|69/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1640148888
+|move|p2a: BUBBLEGUM BITCH|Roost|p2a: BUBBLEGUM BITCH
+|-heal|p2a: BUBBLEGUM BITCH|100/100
+|-singleturn|p2a: BUBBLEGUM BITCH|move: Roost
+|move|p1a: Rhyperior|Dragon Tail|p2a: BUBBLEGUM BITCH
+|-damage|p2a: BUBBLEGUM BITCH|90/100
+|drag|p2a: STARRING ROLE|Blastoise, M|34/100
+|-damage|p2a: STARRING ROLE|22/100|[from] Stealth Rock
+|-damage|p2a: STARRING ROLE|9/100|[from] Spikes
+|
+|-heal|p2a: STARRING ROLE|15/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Rhyperior|63/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1640148895
+|move|p2a: STARRING ROLE|Rapid Spin|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|62/100 brn
+|-sideend|p2: off our faces|Spikes|[from] move: Rapid Spin|[of] p2a: STARRING ROLE
+|-sideend|p2: off our faces|Stealth Rock|[from] move: Rapid Spin|[of] p2a: STARRING ROLE
+|move|p1a: Rhyperior|Earthquake|p2a: STARRING ROLE
+|-damage|p2a: STARRING ROLE|0 fnt
+|faint|p2a: STARRING ROLE
+|
+|-heal|p1a: Rhyperior|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Rhyperior|56/100 brn|[from] brn
+|upkeep
+|
+|t:|1640148901
+|switch|p2a: HOMEWRECKER|Mienshao, F|100/100
+|turn|13
+|
+|t:|1640148906
+|move|p2a: HOMEWRECKER|High Jump Kick|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|t:|1640148909
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1640148914
+|switch|p2a: BUBBLEGUM BITCH|Zapdos, shiny|90/100
+|-ability|p2a: BUBBLEGUM BITCH|Pressure
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1640148922
+|switch|p1a: Victini|Victini|61/100 par
+|-damage|p1a: Victini|36/100 par|[from] Stealth Rock
+|move|p2a: BUBBLEGUM BITCH|Agility|p2a: BUBBLEGUM BITCH
+|-boost|p2a: BUBBLEGUM BITCH|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1640148927
+|move|p2a: BUBBLEGUM BITCH|Thunderbolt|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|-damage|p2a: BUBBLEGUM BITCH|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1640148929
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|17
+|j| blackkaiser
+|
+|t:|1640148932
+|switch|p2a: RADIOACTIVE|Ferroseed, F|100/100
+|move|p1a: Kingdra|Surf|p2a: RADIOACTIVE
+|-resisted|p2a: RADIOACTIVE
+|-damage|p2a: RADIOACTIVE|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1640148937
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: RADIOACTIVE|Leech Seed|p1a: Flygon
+|-start|p1a: Flygon|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Flygon|82/100|[from] Leech Seed|[of] p2a: RADIOACTIVE
+|-heal|p2a: RADIOACTIVE|82/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1640148944
+|switch|p2a: BUBBLEGUM BITCH|Zapdos, shiny|81/100
+|-ability|p2a: BUBBLEGUM BITCH|Pressure
+|move|p1a: Flygon|Earthquake|p2a: BUBBLEGUM BITCH
+|-immune|p2a: BUBBLEGUM BITCH
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Flygon|70/100|[from] Leech Seed|[of] p2a: BUBBLEGUM BITCH
+|-heal|p2a: BUBBLEGUM BITCH|91/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1640148950
+|switch|p1a: Kingdra|Kingdra, F|88/100
+|-damage|p1a: Kingdra|76/100|[from] Stealth Rock
+|move|p2a: BUBBLEGUM BITCH|Agility|p2a: BUBBLEGUM BITCH
+|-boost|p2a: BUBBLEGUM BITCH|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1640148959
+|move|p1a: Kingdra|Surf|p2a: BUBBLEGUM BITCH
+|-damage|p2a: BUBBLEGUM BITCH|0 fnt
+|faint|p2a: BUBBLEGUM BITCH
+|
+|-weather|none
+|upkeep
+|
+|t:|1640148966
+|switch|p2a: RADIOACTIVE|Ferroseed, F|82/100
+|turn|22
+|
+|t:|1640148969
+|switch|p1a: Flygon|Flygon, M|70/100
+|-damage|p1a: Flygon|64/100|[from] Stealth Rock
+|move|p2a: RADIOACTIVE|Gyro Ball|p1a: Flygon
+|-damage|p1a: Flygon|20/100
+|
+|upkeep
+|turn|23
+|
+|t:|1640148976
+|switch|p2a: PRIMADONNA|Victini|50/100
+|move|p1a: Flygon|Fire Punch|p2a: PRIMADONNA
+|-resisted|p2a: PRIMADONNA
+|-damage|p2a: PRIMADONNA|40/100
+|
+|upkeep
+|turn|24
+|
+|t:|1640148988
+|switch|p1a: Tornadus|Tornadus, M|76/100
+|-damage|p1a: Tornadus|51/100|[from] Stealth Rock
+|move|p2a: PRIMADONNA|Bolt Strike|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|j| potato14798
+|
+|t:|1640148992
+|switch|p1a: Flygon|Flygon, M|20/100
+|-damage|p1a: Flygon|14/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1640148997
+|move|p1a: Flygon|Earthquake|p2a: PRIMADONNA
+|-supereffective|p2a: PRIMADONNA
+|-damage|p2a: PRIMADONNA|0 fnt
+|faint|p2a: PRIMADONNA
+|
+|upkeep
+|
+|t:|1640148999
+|switch|p2a: HOMEWRECKER|Mienshao, F|100/100
+|turn|26
+|
+|t:|1640149001
+|switch|p1a: Kingdra|Kingdra, F|76/100
+|-damage|p1a: Kingdra|63/100|[from] Stealth Rock
+|move|p2a: HOMEWRECKER|U-turn|p1a: Kingdra
+|-damage|p1a: Kingdra|35/100
+|
+|t:|1640149004
+|switch|p2a: RADIOACTIVE|Ferroseed, F|82/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|
+|t:|1640149007
+|move|p1a: Kingdra|Hydro Pump|p2a: RADIOACTIVE
+|-resisted|p2a: RADIOACTIVE
+|-crit|p2a: RADIOACTIVE
+|-damage|p2a: RADIOACTIVE|29/100
+|move|p2a: RADIOACTIVE|Bullet Seed|p1a: Kingdra
+|-damage|p1a: Kingdra|29/100
+|-damage|p1a: Kingdra|22/100
+|-hitcount|p1a: Kingdra|2
+|
+|upkeep
+|turn|28
+|
+|t:|1640149014
+|move|p1a: Kingdra|Hydro Pump|p2a: RADIOACTIVE
+|-resisted|p2a: RADIOACTIVE
+|-damage|p2a: RADIOACTIVE|4/100
+|move|p2a: RADIOACTIVE|Bullet Seed|p1a: Kingdra
+|-damage|p1a: Kingdra|16/100
+|-damage|p1a: Kingdra|10/100
+|-hitcount|p1a: Kingdra|2
+|
+|upkeep
+|turn|29
+|
+|t:|1640149017
+|move|p1a: Kingdra|Hydro Pump|p2a: RADIOACTIVE
+|-resisted|p2a: RADIOACTIVE
+|-damage|p2a: RADIOACTIVE|0 fnt
+|faint|p2a: RADIOACTIVE
+|
+|upkeep
+|
+|t:|1640149019
+|switch|p2a: HOMEWRECKER|Mienshao, F|100/100
+|turn|30
+|
+|t:|1640149022
+|move|p2a: HOMEWRECKER|U-turn|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|t:|1640149025
+|switch|p2a: POWER AND CONTROL|Nidoqueen, F|99/100|[from]move: U-turn
+|
+|-heal|p2a: POWER AND CONTROL|100/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1640149027
+|switch|p1a: Flygon|Flygon, M|14/100
+|-damage|p1a: Flygon|8/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1640149031
+|move|p1a: Flygon|Earthquake|p2a: POWER AND CONTROL
+|-supereffective|p2a: POWER AND CONTROL
+|-damage|p2a: POWER AND CONTROL|0 fnt
+|faint|p2a: POWER AND CONTROL
+|
+|upkeep
+|
+|t:|1640149033
+|switch|p2a: HOMEWRECKER|Mienshao, F|100/100
+|turn|32
+|
+|t:|1640149035
+|move|p2a: HOMEWRECKER|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|win|off our faces
+|n|☆Mr.378|mr378
+|n|☆off our faces|offourfaces
+|n| BB-8-NU|bb8nu
+|n| susciety|susciety
+|n|+kenny|kenny
+|n| blackkaiser|blackkaiser
+|n| potato14798|potato14798

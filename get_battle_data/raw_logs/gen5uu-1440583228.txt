@@ -1,0 +1,336 @@
+|j|☆MolbotheOrange
+|j|☆Cubic_Skunk
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634952080
+|gametype|singles
+|player|p1|MolbotheOrange|sabrina|
+|player|p2|Cubic_Skunk|n|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, F|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Cobalion|item
+|poke|p1|Zapdos|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Flygon, F|item
+|poke|p2|Meloetta|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Victini|item
+|poke|p2|Zapdos|item
+|poke|p2|Cobalion|item
+|teampreview
+|j| BB-8-NU
+|inactive|MolbotheOrange also wants the timer to be on.
+|j| Krivyk
+|j|@susciety
+|c|☆MolbotheOrange|hf
+|c|☆Cubic_Skunk|u2
+|j| Spoonii
+|inactive|MolbotheOrange has 120 seconds left.
+|j|+AM
+|
+|t:|1634952120
+|start
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|1
+|j| RageATMagearna
+|
+|t:|1634952137
+|move|p2a: Rhyperior|Stealth Rock|p1a: Druddigon
+|-sidestart|p1: MolbotheOrange|move: Stealth Rock
+|move|p1a: Druddigon|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: Cubic_Skunk|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1634952142
+|move|p2a: Rhyperior|Rock Blast|p1a: Druddigon
+|-damage|p1a: Druddigon|86/100
+|-damage|p1a: Druddigon|72/100
+|-hitcount|p1a: Druddigon|2
+|move|p1a: Druddigon|Dragon Tail|p2a: Rhyperior
+|-damage|p2a: Rhyperior|86/100
+|drag|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|j| Ladder_Zeke
+|j| Danahi
+|
+|t:|1634952152
+|move|p2a: Victini|U-turn|p1a: Druddigon
+|-damage|p1a: Druddigon|52/100
+|-damage|p2a: Victini|63/100|[from] ability: Rough Skin|[of] p1a: Druddigon
+|-damage|p2a: Victini|47/100|[from] item: Rocky Helmet|[of] p1a: Druddigon
+|
+|t:|1634952154
+|switch|p2a: Blastoise|Blastoise, M|100/100|[from]move: U-turn
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Druddigon|Glare|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|
+|-heal|p2a: Blastoise|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1634952167
+|move|p2a: Blastoise|Scald|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|43/100
+|move|p1a: Druddigon|Dragon Tail|p2a: Blastoise
+|-damage|p2a: Blastoise|77/100 par
+|drag|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1634952174
+|move|p2a: Zapdos|Heat Wave|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|32/100
+|move|p1a: Druddigon|Dragon Tail|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|drag|p2a: Victini|Victini|47/100
+|-damage|p2a: Victini|22/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1634952178
+|move|p2a: Victini|U-turn|p1a: Druddigon
+|-damage|p1a: Druddigon|10/100
+|-damage|p2a: Victini|10/100|[from] ability: Rough Skin|[of] p1a: Druddigon
+|-damage|p2a: Victini|0 fnt|[from] item: Rocky Helmet|[of] p1a: Druddigon
+|faint|p2a: Victini
+|move|p1a: Druddigon|Dragon Tail|p2: Victini|[notarget]
+|-fail|p1a: Druddigon
+|
+|upkeep
+|
+|t:|1634952182
+|switch|p2a: Blastoise|Blastoise, M|77/100 par
+|-damage|p2a: Blastoise|65/100 par|[from] Stealth Rock
+|turn|7
+|
+|t:|1634952192
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|-damage|p1a: Mismagius|88/100|[from] Stealth Rock
+|move|p2a: Blastoise|Rapid Spin|p1a: Mismagius
+|-immune|p1a: Mismagius
+|
+|-heal|p1a: Mismagius|94/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|l| Danahi
+|j| blackkaiser
+|inactive|Cubic_Skunk has 120 seconds left.
+|
+|t:|1634952224
+|move|p1a: Mismagius|Substitute|p1a: Mismagius
+|-start|p1a: Mismagius|Substitute
+|-damage|p1a: Mismagius|69/100
+|move|p2a: Blastoise|Scald|p1a: Mismagius
+|-end|p1a: Mismagius|Substitute
+|
+|-heal|p1a: Mismagius|76/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1634952231
+|switch|p2a: Zapdos|Zapdos|60/100
+|-damage|p2a: Zapdos|35/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|2
+|
+|-heal|p1a: Mismagius|82/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1634952234
+|move|p1a: Mismagius|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Mismagius|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634952237
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|11
+|j| The Winking Dol
+|inactive|MolbotheOrange has 120 seconds left.
+|
+|t:|1634952295
+|move|p2a: Cobalion|Iron Head|p1a: Mismagius
+|-damage|p1a: Mismagius|20/100
+|move|p1a: Mismagius|Shadow Ball|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|50/100
+|
+|-heal|p1a: Mismagius|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1634952300
+|switch|p1a: Druddigon|Druddigon, F|10/100
+|-damage|p1a: Druddigon|0 fnt|[from] Stealth Rock
+|faint|p1a: Druddigon
+|move|p2a: Cobalion|Iron Head|p1: Druddigon|[notarget]
+|-fail|p2a: Cobalion
+|
+|upkeep
+|
+|t:|1634952309
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1634952316
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Blastoise|Rapid Spin|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|49/100
+|-sideend|p1: MolbotheOrange|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p1a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1634952321
+|move|p2a: Cobalion|Close Combat|p1a: Blastoise
+|-damage|p1a: Blastoise|33/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Blastoise|Scald|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-heal|p1a: Blastoise|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634952325
+|switch|p2a: Meloetta|Meloetta|100/100
+|-damage|p2a: Meloetta|88/100|[from] Stealth Rock
+|turn|15
+|inactive|MolbotheOrange has 120 seconds left.
+|
+|t:|1634952349
+|move|p2a: Meloetta|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|j| luchick ^•.•^
+|
+|t:|1634952355
+|switch|p1a: Flygon|Flygon, F|100/100
+|turn|16
+|
+|t:|1634952364
+|move|p1a: Flygon|U-turn|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-crit|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|c|☆MolbotheOrange|yikes
+|c|☆MolbotheOrange|sorry
+|inactive|MolbotheOrange has 120 seconds left.
+|c|☆Cubic_Skunk|gg
+|c|☆MolbotheOrange|gg :(
+|
+|t:|1634952389
+|switch|p1a: Mismagius|Mismagius, M|26/100|[from]move: U-turn
+|
+|-heal|p1a: Mismagius|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634952394
+|switch|p2a: Blastoise|Blastoise, M|77/100 par
+|-damage|p2a: Blastoise|65/100 par|[from] Stealth Rock
+|turn|17
+|
+|t:|1634952403
+|move|p1a: Mismagius|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|10/100 par
+|move|p2a: Blastoise|Scald|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|-heal|p2a: Blastoise|17/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1634952407
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|18
+|l| luchick ^•.•^
+|
+|t:|1634952409
+|move|p1a: Zapdos|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|-damage|p1a: Zapdos|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634952411
+|switch|p2a: Rhyperior|Rhyperior, M|86/100
+|-damage|p2a: Rhyperior|79/100|[from] Stealth Rock
+|turn|19
+|c|☆MolbotheOrange|sorry dude
+|
+|t:|1634952416
+|move|p1a: Zapdos|Hidden Power|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|-damage|p1a: Zapdos|81/100|[from] item: Life Orb
+|
+|win|MolbotheOrange
+|n|☆MolbotheOrange|molbotheorange
+|n|☆Cubic_Skunk|cubicskunk
+|n| BB-8-NU|bb8nu
+|n| Krivyk|krivyk
+|n| susciety|susciety
+|n| Spoonii|spoonii
+|n|+AM|am
+|n| RageATMagearna|rageatmagearna
+|n| Ladder_Zeke|ladderzeke
+|n| blackkaiser|blackkaiser
+|n| The Winking Dol|thewinkingdol
+|l| BB-8-NU
+|l|+AM
+|l|☆MolbotheOrange
+|c|☆Cubic_Skunk|it happens
+|l| Krivyk
+|l| blackkaiser
+|l|☆Cubic_Skunk

@@ -1,0 +1,351 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1622431963
+|gametype|singles
+|player|p1|dcae|ethan|
+|player|p2|Vileman|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Magnemite, L5|item
+|poke|p1|Diglett, L5, F|item
+|poke|p1|Exeggcute, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Hippopotas, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Shellder, L5, M|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Clamperl, L5, F|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|c|☆Vileman|GL
+|c|☆dcae|gl
+|
+|t:|1622431990
+|start
+|switch|p1a: Exeggcute|Exeggcute, L5, M|100/100
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|turn|1
+|
+|t:|1622431993
+|move|p2a: Diglett|Stealth Rock|p1a: Exeggcute
+|-sidestart|p1: dcae|move: Stealth Rock
+|move|p1a: Exeggcute|Substitute|p1a: Exeggcute
+|-start|p1a: Exeggcute|Substitute
+|-damage|p1a: Exeggcute|78/100
+|
+|upkeep
+|turn|2
+|
+|t:|1622431997
+|move|p2a: Diglett|Earthquake|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-end|p1a: Exeggcute|Substitute
+|move|p1a: Exeggcute|Giga Drain|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-enditem|p2a: Diglett|Focus Sash
+|-damage|p2a: Diglett|6/100
+|-heal|p1a: Exeggcute|100/100|[from] drain|[of] p2a: Diglett
+|
+|upkeep
+|turn|3
+|
+|t:|1622432003
+|move|p2a: Diglett|Memento|p1a: Exeggcute
+|-unboost|p1a: Exeggcute|atk|2
+|-unboost|p1a: Exeggcute|spa|2
+|faint|p2a: Diglett
+|move|p1a: Exeggcute|Substitute|p1a: Exeggcute
+|-start|p1a: Exeggcute|Substitute
+|-damage|p1a: Exeggcute|78/100
+|
+|upkeep
+|
+|t:|1622432006
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|4
+|
+|t:|1622432019
+|switch|p1a: Diglett|Diglett, L5, F|100/100
+|-damage|p1a: Diglett|95/100|[from] Stealth Rock
+|move|p2a: Abra|Encore||[still]
+|-fail|p2a: Abra
+|
+|upkeep
+|turn|5
+|
+|t:|1622432024
+|move|p1a: Diglett|Earthquake|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Vileman|im not sash
+|c|☆Vileman|right
+|c|☆dcae|goat
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1622432067
+|switch|p2a: Shellder|Shellder, L5, M|100/100
+|turn|6
+|inactive|dcae has 270 seconds left.
+|
+|t:|1622432117
+|move|p1a: Diglett|Earthquake|p2a: Shellder
+|-damage|p2a: Shellder|56/100
+|-damage|p1a: Diglett|84/100|[from] item: Life Orb
+|move|p2a: Shellder|Shell Smash|p2a: Shellder
+|-unboost|p2a: Shellder|def|1
+|-unboost|p2a: Shellder|spd|1
+|-boost|p2a: Shellder|atk|2
+|-boost|p2a: Shellder|spa|2
+|-boost|p2a: Shellder|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1622432123
+|move|p2a: Shellder|Ice Shard|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|upkeep
+|
+|t:|1622432126
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|-damage|p1a: Magnemite|95/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1622432131
+|move|p2a: Shellder|Icicle Spear|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|90/100
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|85/100
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|79/100
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|74/100
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|69/100
+|-hitcount|p1a: Magnemite|5
+|move|p1a: Magnemite|Thunderbolt|p2a: Shellder
+|-supereffective|p2a: Shellder
+|-crit|p2a: Shellder
+|-damage|p2a: Shellder|0 fnt
+|faint|p2a: Shellder
+|
+|upkeep
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1622432166
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Magnet Pull|[from] ability: Trace|[of] p1a: Magnemite
+|turn|9
+|inactive|dcae has 270 seconds left.
+|
+|t:|1622432201
+|move|p1a: Magnemite|Substitute|p1a: Magnemite
+|-start|p1a: Magnemite|Substitute
+|-damage|p1a: Magnemite|48/100
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|upkeep
+|turn|10
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1622432209
+|move|p2a: Porygon|Tri Attack|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-end|p1a: Magnemite|Substitute
+|move|p1a: Magnemite|Thunderbolt|p2a: Porygon
+|-damage|p2a: Porygon|66/100
+|
+|upkeep
+|turn|11
+|inactive|dcae has 270 seconds left.
+|
+|t:|1622432226
+|move|p2a: Porygon|Tri Attack|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|27/100
+|move|p1a: Magnemite|Thunderbolt|p2a: Porygon
+|-damage|p2a: Porygon|27/100
+|-status|p2a: Porygon|par
+|
+|upkeep
+|turn|12
+|c|☆Vileman|good ol dcae
+|c|☆Vileman|ofc
+|
+|t:|1622432238
+|move|p1a: Magnemite|Thunderbolt|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|upkeep
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1622432258
+|switch|p2a: Drifloon|Drifloon, L5, F|100/100
+|turn|13
+|
+|t:|1622432264
+|move|p2a: Drifloon|Acrobatics|p1a: Magnemite
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-resisted|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|upkeep
+|c|☆dcae|yep
+|
+|t:|1622432269
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100
+|-damage|p1a: Hippopotas|96/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|14
+|
+|t:|1622432276
+|move|p2a: Drifloon|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|68/100
+|move|p1a: Hippopotas|Rock Tomb|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|36/100
+|-unboost|p2a: Drifloon|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|32/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1622432282
+|move|p2a: Drifloon|Shadow Ball|p1a: Hippopotas
+|-damage|p1a: Hippopotas|40/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|29/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1622432291
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|-damage|p1a: Vullaby|79/100|[from] Stealth Rock
+|move|p2a: Drifloon|Shadow Ball|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|24/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1622432296
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|100/100
+|-singleturn|p1a: Vullaby|move: Roost
+|move|p2a: Drifloon|Acrobatics|p1a: Vullaby
+|-crit|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|20/100|[from] Sandstorm
+|upkeep
+|c|☆dcae|yep
+|
+|t:|1622432300
+|switch|p1a: Hippopotas|Hippopotas, L5, F|92/100
+|-damage|p1a: Hippopotas|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1622432302
+|move|p2a: Drifloon|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|60/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifloon|16/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1622432305
+|move|p2a: Drifloon|Acrobatics|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Rock Tomb|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1622432307
+|switch|p2a: Clamperl|Clamperl, L5, F|100/100
+|turn|20
+|
+|t:|1622432311
+|move|p2a: Clamperl|Shell Smash|p2a: Clamperl
+|-unboost|p2a: Clamperl|def|1
+|-unboost|p2a: Clamperl|spd|1
+|-boost|p2a: Clamperl|atk|2
+|-boost|p2a: Clamperl|spa|2
+|-boost|p2a: Clamperl|spe|2
+|move|p1a: Hippopotas|Earthquake|p2a: Clamperl
+|-damage|p2a: Clamperl|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clamperl|10/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1622432315
+|move|p2a: Clamperl|Ice Beam|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-crit|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clamperl|5/100|[from] Sandstorm
+|upkeep
+|
+|t:|1622432317
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|-damage|p1a: Frillish|88/100|[from] Stealth Rock
+|turn|22
+|c|☆Vileman|GGs
+|
+|t:|1622432320
+|move|p2a: Clamperl|Ice Beam|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|44/100
+|-start|p2a: Clamperl|Disable|Ice Beam|[from] ability: Cursed Body|[of] p1a: Frillish
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Clamperl|0 fnt|[from] Sandstorm
+|-damage|p1a: Frillish|92/100|[from] Sandstorm
+|faint|p2a: Clamperl
+|
+|win|dcae
+|upkeep

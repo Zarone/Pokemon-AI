@@ -1,0 +1,224 @@
+|j|☆Fouggi
+|j|☆PotatoMine1
+|t:|1644030536
+|gametype|singles
+|player|p1|Fouggi|102|1373
+|player|p2|PotatoMine1|266|1446
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Tornadus, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1644030543
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|1
+|
+|t:|1644030545
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|-enditem|p1a: Ferrothorn|Lum Berry|[eat]
+|-curestatus|p1a: Ferrothorn|brn|[msg]
+|move|p1a: Ferrothorn|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|3/100
+|
+|-heal|p2a: Jellicent|9/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644030554
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Jellicent|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|t:|1644030556
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|3
+|
+|t:|1644030559
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Heatran|Hidden Power|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1644030562
+|move|p1a: Politoed|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030580
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|5
+|
+|t:|1644030585
+|move|p1a: Politoed|Hydro Pump|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|move|p2a: Alakazam|Focus Blast|p1a: Politoed
+|-damage|p1a: Politoed|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1644030589
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Politoed|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644030596
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|93/100
+|-enditem|p1a: Tornadus|Choice Specs|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644030614
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Tornadus
+|-status|p1a: Tornadus|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644030620
+|move|p1a: Tornadus|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|11/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|61/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|18/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644030624
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030626
+|switch|p2a: Alakazam|Alakazam, M|1/100
+|turn|11
+|
+|t:|1644030638
+|cant|p1a: Tornadus|par
+|move|p2a: Alakazam|Psychic|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030645
+|switch|p1a: Politoed|Politoed, M|3/100
+|turn|12
+|
+|t:|1644030648
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Politoed|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|45/100
+|-status|p2a: Latios|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1644030651
+|cant|p2a: Latios|frz
+|move|p1a: Politoed|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030654
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|turn|14
+|
+|t:|1644030656
+|move|p1a: Politoed|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030657
+|switch|p2a: Alakazam|Alakazam, M|1/100
+|turn|15
+|
+|t:|1644030659
+|move|p1a: Politoed|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|Fouggi
+|raw|Fouggi's rating: 1373 &rarr; <strong>1397</strong><br />(+24 for winning)
+|raw|PotatoMine1's rating: 1446 &rarr; <strong>1422</strong><br />(-24 for losing)
+|l|☆Fouggi

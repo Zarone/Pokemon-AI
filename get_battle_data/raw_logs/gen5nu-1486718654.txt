@@ -1,0 +1,184 @@
+|j|☆PirateMonkeyDLuffy
+|j|☆tank skunk
+|t:|1641510831
+|gametype|singles
+|player|p1|PirateMonkeyDLuffy|red|1071
+|player|p2|tank skunk|pokefan|1041
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Torterra, M|item
+|poke|p1|Samurott, M|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Fraxure, M|item
+|poke|p1|Musharna, F|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Magmar, M|item
+|poke|p2|Exploud, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|inactive|PirateMonkeyDLuffy also wants the timer to be on.
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641510875
+|start
+|switch|p1a: Torterra|Torterra, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641510923
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Torterra|Wood Hammer|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|65/100
+|-damage|p1a: Torterra|90/100|[from] Recoil
+|-damage|p1a: Torterra|80/100|[from] item: Life Orb
+|
+|-heal|p2a: Leafeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1641510934
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Leafeon|Return|p1a: Charizard
+|-damage|p1a: Charizard|61/100
+|
+|-heal|p2a: Leafeon|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1641510944
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Charizard|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|57/100
+|-damage|p1a: Charizard|51/100|[from] item: Life Orb
+|
+|-heal|p2a: Seismitoad|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1641510949
+|move|p1a: Charizard|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|16/100
+|-damage|p1a: Charizard|42/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Seismitoad|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641510956
+|switch|p1a: Fraxure|Fraxure, M, shiny|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|5
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641510978
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|move|p2a: Seismitoad|Toxic|p1a: Fraxure|[miss]
+|-miss|p2a: Seismitoad|p1a: Fraxure
+|
+|-heal|p2a: Seismitoad|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641510988
+|move|p1a: Fraxure|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Toxic
+|
+|-heal|p2a: Seismitoad|34/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1641510991
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|move|p2a: Seismitoad|Scald|p1a: Fraxure
+|-resisted|p1a: Fraxure
+|-damage|p1a: Fraxure|83/100
+|
+|-heal|p2a: Seismitoad|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1641510994
+|move|p1a: Fraxure|Outrage|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641511015
+|switch|p2a: Leafeon|Leafeon, M|77/100
+|turn|9
+|
+|t:|1641511018
+|move|p1a: Fraxure|Outrage|p2a: Leafeon|[from]lockedmove
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|-start|p1a: Fraxure|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1641511022
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|turn|10
+|
+|t:|1641511025
+|-activate|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Taunt|p2a: Misdreavus
+|-start|p2a: Misdreavus|move: Taunt
+|cant|p2a: Misdreavus|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|11
+|
+|t:|1641511031
+|switch|p2a: Magmar|Magmar, M|100/100
+|-activate|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1641511034
+|-end|p1a: Fraxure|confusion
+|move|p1a: Fraxure|Outrage|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|upkeep
+|-message|tank skunk forfeited.
+|
+|win|PirateMonkeyDLuffy
+|raw|PirateMonkeyDLuffy's rating: 1071 &rarr; <strong>1098</strong><br />(+27 for winning)
+|raw|tank skunk's rating: 1041 &rarr; <strong>1026</strong><br />(-15 for losing)
+|l|☆tank skunk
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

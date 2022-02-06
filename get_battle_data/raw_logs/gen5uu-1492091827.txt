@@ -1,0 +1,369 @@
+|j|☆Gingernuts
+|j|☆Gengar_Is_King2301
+|t:|1642268930
+|gametype|singles
+|player|p1|Gingernuts|266|
+|player|p2|Gengar_Is_King2301|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Scyther, F|item
+|poke|p1|Escavalier, F|item
+|poke|p1|Galvantula, M|item
+|poke|p1|Heracross, M|item
+|poke|p1|Beedrill, F|item
+|poke|p1|Armaldo, M|item
+|poke|p2|Lampent, M|item
+|poke|p2|Rotom|item
+|poke|p2|Drifblim, F|
+|poke|p2|Haunter, M|item
+|poke|p2|Dusclops, F|item
+|poke|p2|Cofagrigus, F|item
+|teampreview
+|
+|t:|1642269001
+|start
+|switch|p1a: Nick|Scyther, F, shiny|100/100
+|switch|p2a: Lamp|Lampent, M, shiny|100/100
+|turn|1
+|
+|t:|1642269014
+|move|p1a: Nick|Hidden Power|p2a: Lamp
+|-resisted|p2a: Lamp
+|-damage|p2a: Lamp|91/100
+|move|p2a: Lamp|Toxic|p1a: Nick
+|-status|p1a: Nick|tox
+|
+|-damage|p1a: Nick|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1642269031
+|move|p1a: Nick|Brick Break|p2a: Lamp
+|-immune|p2a: Lamp
+|move|p2a: Lamp|Flamethrower|p1a: Nick
+|-supereffective|p1a: Nick
+|-damage|p1a: Nick|0 fnt
+|faint|p1a: Nick
+|
+|upkeep
+|
+|t:|1642269043
+|switch|p1a: Absolute|Galvantula, M, shiny|100/100
+|turn|3
+|
+|t:|1642269055
+|move|p1a: Absolute|Electro Ball|p2a: Lamp
+|-damage|p2a: Lamp|58/100
+|move|p2a: Lamp|Overheat|p1a: Absolute
+|-supereffective|p1a: Absolute
+|-damage|p1a: Absolute|0 fnt
+|-unboost|p2a: Lamp|spa|2
+|faint|p1a: Absolute
+|
+|upkeep
+|
+|t:|1642269068
+|switch|p1a: Worst|Heracross, M, shiny|100/100
+|turn|4
+|
+|t:|1642269079
+|move|p1a: Worst|Seismic Toss|p2a: Lamp
+|-immune|p2a: Lamp
+|move|p2a: Lamp|Toxic|p1a: Worst
+|-status|p1a: Worst|tox
+|
+|-damage|p1a: Worst|95/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1642269086
+|switch|p1a: Cage's|Escavalier, F, shiny|100/100
+|move|p2a: Lamp|Facade|p1a: Cage's
+|-resisted|p1a: Cage's
+|-damage|p1a: Cage's|96/100
+|
+|-heal|p1a: Cage's|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642269096
+|switch|p2a: Cofagrigus|Cofagrigus, F, shiny|100/100
+|move|p1a: Cage's|Giga Drain|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|89/100
+|
+|upkeep
+|turn|7
+|
+|t:|1642269106
+|move|p1a: Cage's|Poison Jab|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|78/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Swarm|[of] p1a: Cage's
+|move|p2a: Cofagrigus|Knock Off|p1a: Cage's
+|-resisted|p1a: Cage's
+|-damage|p1a: Cage's|99/100
+|-enditem|p1a: Cage's|Leftovers|[from] move: Knock Off|[of] p2a: Cofagrigus
+|
+|upkeep
+|turn|8
+|
+|t:|1642269140
+|move|p1a: Cage's|Poison Jab|p2a: Cofagrigus
+|-resisted|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|69/100
+|move|p2a: Cofagrigus|Night Shade|p1a: Cage's
+|-damage|p1a: Cage's|70/100
+|
+|upkeep
+|turn|9
+|
+|t:|1642269154
+|move|p1a: Cage's|Energy Ball|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|56/100
+|move|p2a: Cofagrigus|Calm Mind|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|1
+|-boost|p2a: Cofagrigus|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1642269164
+|switch|p1a: Nightmare|Armaldo, M, shiny|100/100
+|move|p2a: Cofagrigus|Calm Mind|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|1
+|-boost|p2a: Cofagrigus|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1642269182
+|move|p1a: Nightmare|Iron Defense|p1a: Nightmare
+|-boost|p1a: Nightmare|def|2
+|move|p2a: Cofagrigus|Calm Mind|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|1
+|-boost|p2a: Cofagrigus|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1642269191
+|move|p1a: Nightmare|Iron Defense|p1a: Nightmare
+|-boost|p1a: Nightmare|def|2
+|move|p2a: Cofagrigus|Night Shade|p1a: Nightmare
+|-damage|p1a: Nightmare|69/100
+|
+|-heal|p1a: Nightmare|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1642269220
+|move|p1a: Nightmare|Iron Defense|p1a: Nightmare
+|-boost|p1a: Nightmare|def|2
+|move|p2a: Cofagrigus|Knock Off|p1a: Nightmare
+|-damage|p1a: Nightmare|74/100
+|-enditem|p1a: Nightmare|Leftovers|[from] move: Knock Off|[of] p2a: Cofagrigus
+|
+|upkeep
+|turn|14
+|
+|t:|1642269229
+|move|p1a: Nightmare|Swords Dance|p1a: Nightmare
+|-boost|p1a: Nightmare|atk|2
+|move|p2a: Cofagrigus|Toxic|p1a: Nightmare|[miss]
+|-miss|p2a: Cofagrigus|p1a: Nightmare
+|
+|upkeep
+|turn|15
+|
+|t:|1642269235
+|move|p1a: Nightmare|Swords Dance|p1a: Nightmare
+|-boost|p1a: Nightmare|atk|2
+|move|p2a: Cofagrigus|Toxic|p1a: Nightmare
+|-status|p1a: Nightmare|tox
+|
+|-damage|p1a: Nightmare|68/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1642269259
+|switch|p2a: Drifblim|Drifblim, F, shiny|100/100
+|move|p1a: Nightmare|Swords Dance|p1a: Nightmare
+|-boost|p1a: Nightmare|atk|2
+|
+|-damage|p1a: Nightmare|56/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1642269267
+|move|p2a: Drifblim|Fly||[still]
+|-prepare|p2a: Drifblim|Fly
+|move|p1a: Nightmare|Ancient Power|p2a: Drifblim|[miss]
+|-miss|p1a: Nightmare|p2a: Drifblim
+|
+|-damage|p1a: Nightmare|38/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1642269277
+|move|p2a: Drifblim|Fly|p1a: Nightmare|[from]lockedmove
+|-damage|p1a: Nightmare|31/100 tox
+|move|p1a: Nightmare|Iron Defense|p1a: Nightmare
+|-boost|p1a: Nightmare|def|0
+|
+|-damage|p1a: Nightmare|7/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1642269284
+|move|p2a: Drifblim|Fly||[still]
+|-prepare|p2a: Drifblim|Fly
+|move|p1a: Nightmare|Ancient Power|p2a: Drifblim|[miss]
+|-miss|p1a: Nightmare|p2a: Drifblim
+|
+|-damage|p1a: Nightmare|0 fnt|[from] psn
+|faint|p1a: Nightmare
+|upkeep
+|
+|t:|1642269291
+|switch|p1a: Worst|Heracross, M, shiny|95/100 tox
+|turn|20
+|j| Henke55
+|
+|t:|1642269296
+|move|p2a: Drifblim|Fly|p1a: Worst|[from]lockedmove
+|-supereffective|p1a: Worst
+|-damage|p1a: Worst|0 fnt
+|faint|p1a: Worst
+|
+|upkeep
+|
+|t:|1642269301
+|switch|p1a: Possible|Beedrill, F|100/100
+|turn|21
+|
+|t:|1642269306
+|move|p2a: Drifblim|Hidden Power|p1a: Possible
+|-supereffective|p1a: Possible
+|-damage|p1a: Possible|52/100
+|move|p1a: Possible|Giga Drain|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|94/100
+|-heal|p1a: Possible|57/100|[from] drain|[of] p2a: Drifblim
+|
+|-heal|p1a: Possible|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1642269316
+|move|p2a: Drifblim|Fly||[still]
+|-prepare|p2a: Drifblim|Fly
+|move|p1a: Possible|Sludge Bomb|p2a: Drifblim|[miss]
+|-miss|p1a: Possible|p2a: Drifblim
+|
+|-heal|p1a: Possible|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642269329
+|move|p2a: Drifblim|Fly|p1a: Possible|[from]lockedmove|[miss]
+|-miss|p2a: Drifblim|p1a: Possible
+|move|p1a: Possible|Sludge Bomb|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|84/100
+|
+|-heal|p1a: Possible|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1642269338
+|switch|p1a: Cage's|Escavalier, F, shiny|70/100
+|move|p2a: Drifblim|Acrobatics|p1a: Cage's
+|-damage|p1a: Cage's|40/100
+|
+|upkeep
+|turn|25
+|
+|t:|1642269346
+|move|p2a: Drifblim|Acrobatics|p1a: Cage's
+|-damage|p1a: Cage's|11/100
+|move|p1a: Cage's|Bug Buzz|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|76/100
+|-unboost|p2a: Drifblim|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1642269355
+|move|p2a: Drifblim|Hidden Power|p1a: Cage's
+|-supereffective|p1a: Cage's
+|-damage|p1a: Cage's|0 fnt
+|faint|p1a: Cage's
+|
+|upkeep
+|
+|t:|1642269361
+|switch|p1a: Possible|Beedrill, F|75/100
+|turn|27
+|
+|t:|1642269366
+|switch|p2a: Rotom|Rotom, shiny|100/100
+|move|p1a: Possible|Giga Drain|p2a: Rotom
+|-damage|p2a: Rotom|86/100
+|-heal|p1a: Possible|82/100|[from] drain|[of] p2a: Rotom
+|
+|-heal|p1a: Possible|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1642269375
+|move|p2a: Rotom|Rain Dance|p2a: Rotom
+|-weather|RainDance
+|move|p1a: Possible|Sludge Bomb|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|71/100
+|-status|p2a: Rotom|psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Possible|94/100|[from] item: Leftovers
+|-damage|p2a: Rotom|59/100 psn|[from] psn
+|upkeep
+|turn|29
+|j| Mesp
+|
+|t:|1642269386
+|move|p2a: Rotom|Thunder|p1a: Possible
+|-damage|p1a: Possible|30/100
+|move|p1a: Possible|Giga Drain|p2a: Rotom
+|-damage|p2a: Rotom|41/100 psn
+|-heal|p1a: Possible|38/100|[from] drain|[of] p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Possible|44/100|[from] item: Leftovers
+|-damage|p2a: Rotom|29/100 psn|[from] psn
+|upkeep
+|turn|30
+|j| guts88
+|
+|t:|1642269396
+|move|p2a: Rotom|Thunder|p1a: Possible
+|-damage|p1a: Possible|0 fnt
+|faint|p1a: Possible
+|
+|win|Gengar_Is_King2301
+|l|☆Gingernuts
+|l|☆Gengar_Is_King2301
+|l| Mesp
+|l| guts88

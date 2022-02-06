@@ -1,0 +1,439 @@
+|j|☆mentalsoft
+|j|☆H.D.L.G.P.S.D.R.
+|t:|1631926448
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|H.D.L.G.P.S.D.R.|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Snorlax, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Venomoth, F|item
+|poke|p2|Victini|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Raikou|item
+|poke|p2|Bronzong|item
+|poke|p2|Heracross, F|item
+|teampreview
+|j| BB-8-NU
+|c|☆H.D.L.G.P.S.D.R.|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by H.D.L.G.P.S.D.R.)
+|c|☆mentalsoft|hf
+|inactive|mentalsoft has 120 seconds left.
+|inactive|H.D.L.G.P.S.D.R. has 120 seconds left.
+|j| blackkaiser
+|l| blackkaiser
+|
+|t:|1631926494
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|t:|1631926503
+|move|p1a: Nidoqueen|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: H.D.L.G.P.S.D.R.|move: Stealth Rock
+|move|p2a: Bronzong|Stealth Rock|p1a: Nidoqueen
+|-sidestart|p1: mentalsoft|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1631926518
+|move|p1a: Nidoqueen|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|42/100
+|move|p2a: Bronzong|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|57/100
+|
+|-heal|p2a: Bronzong|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1631926527
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Nidoqueen|Flamethrower|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|54/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1631926538
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Nidoqueen|Flamethrower|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|68/100
+|
+|-heal|p2a: Blastoise|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1631926575
+|move|p1a: Nidoqueen|Earth Power|p2a: Blastoise
+|-damage|p2a: Blastoise|20/100
+|move|p2a: Blastoise|Scald|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|-heal|p2a: Blastoise|26/100|[from] item: Leftovers
+|upkeep
+|inactive|mentalsoft has 120 seconds left.
+|
+|t:|1631926610
+|switch|p1a: Venomoth|Venomoth, F|100/100
+|-damage|p1a: Venomoth|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1631926614
+|move|p1a: Venomoth|Sleep Powder|p2a: Blastoise
+|-status|p2a: Blastoise|slp|[from] move: Sleep Powder
+|cant|p2a: Blastoise|slp
+|
+|-heal|p1a: Venomoth|82/100|[from] item: Black Sludge
+|-heal|p2a: Blastoise|32/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1631926632
+|switch|p2a: Victini|Victini|100/100
+|-damage|p2a: Victini|76/100|[from] Stealth Rock
+|move|p1a: Venomoth|Bug Buzz|p2a: Victini
+|-crit|p2a: Victini
+|-damage|p2a: Victini|6/100
+|
+|-heal|p1a: Venomoth|88/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1631926646
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Victini|Trick|p1a: Blastoise
+|-activate|p2a: Victini|move: Trick|[of] p1a: Blastoise
+|-item|p1a: Blastoise|Choice Scarf|[from] move: Trick
+|-item|p2a: Victini|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Victini|12/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1631926659
+|move|p2a: Victini|Bolt Strike|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|41/100
+|-status|p1a: Blastoise|par
+|move|p1a: Blastoise|Rapid Spin|p2a: Victini
+|-damage|p2a: Victini|8/100
+|-sideend|p1: mentalsoft|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p2a: Victini|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1631926684
+|move|p2a: Victini|Bolt Strike|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Victini|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631926690
+|switch|p1a: Victini|Victini|100/100
+|turn|11
+|
+|t:|1631926699
+|move|p1a: Victini|V-create|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Victini
+|
+|upkeep
+|
+|t:|1631926708
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|turn|12
+|inactive|mentalsoft has 90 seconds left.
+|
+|t:|1631926740
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Nidoqueen|Earth Power|p1a: Bronzong
+|-immune|p1a: Bronzong|[from] ability: Levitate
+|
+|-heal|p2a: Nidoqueen|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1631926748
+|switch|p2a: Bronzong|Bronzong|54/100
+|-damage|p2a: Bronzong|48/100|[from] Stealth Rock
+|move|p1a: Bronzong|Psychic|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|40/100
+|
+|-heal|p2a: Bronzong|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j|+t04ster
+|
+|t:|1631926757
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Victini
+|-sidestart|p1: mentalsoft|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1631926763
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Victini|V-create|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|mentalsoft has 120 seconds left.
+|inactive|H.D.L.G.P.S.D.R. has 120 seconds left.
+|j| adighs
+|j| ruin of light
+|l| adighs
+|inactive|H.D.L.G.P.S.D.R. has 90 seconds left.
+|
+|t:|1631926826
+|switch|p1a: Venomoth|Venomoth, F|88/100
+|-damage|p1a: Venomoth|63/100|[from] Stealth Rock
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Venomoth|69/100|[from] item: Black Sludge
+|-heal|p2a: Nidoqueen|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|mentalsoft has 120 seconds left.
+|inactive|H.D.L.G.P.S.D.R. has 90 seconds left.
+|j|%Damm u captcha
+|inactive|mentalsoft has 90 seconds left.
+|inactive|H.D.L.G.P.S.D.R. has 60 seconds left.
+|j| blackkaiser
+|
+|t:|1631926888
+|switch|p2a: Bronzong|Bronzong|58/100
+|-damage|p2a: Bronzong|52/100|[from] Stealth Rock
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|
+|-heal|p1a: Venomoth|75/100|[from] item: Black Sludge
+|-heal|p2a: Bronzong|58/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1631926900
+|move|p1a: Venomoth|Bug Buzz|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-heal|p1a: Venomoth|81/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1631926907
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|19
+|
+|t:|1631926915
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|move|p2a: Raikou|Thunderbolt|p1a: Venomoth
+|-damage|p1a: Venomoth|46/100
+|-status|p1a: Venomoth|par
+|
+|-heal|p2a: Raikou|94/100|[from] item: Leftovers
+|-heal|p1a: Venomoth|52/100 par|[from] item: Black Sludge
+|upkeep
+|turn|20
+|inactive|H.D.L.G.P.S.D.R. has 60 seconds left.
+|
+|t:|1631926920
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|69/100
+|move|p1a: Venomoth|Bug Buzz|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|76/100|[from] item: Leftovers
+|-heal|p1a: Venomoth|59/100 par|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1631926926
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Venomoth|Bug Buzz|p2a: Raikou
+|-damage|p2a: Raikou|21/100
+|
+|-heal|p2a: Raikou|28/100|[from] item: Leftovers
+|-heal|p1a: Venomoth|65/100 par|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1631926931
+|move|p2a: Raikou|Thunderbolt|p1a: Venomoth
+|-damage|p1a: Venomoth|9/100 par
+|move|p1a: Venomoth|Bug Buzz|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|-heal|p1a: Venomoth|15/100 par|[from] item: Black Sludge
+|upkeep
+|
+|t:|1631926937
+|switch|p2a: Heracross|Heracross, F|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1631926943
+|move|p2a: Heracross|Close Combat|p1a: Venomoth
+|-resisted|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Venomoth
+|
+|upkeep
+|inactive|mentalsoft has 120 seconds left.
+|
+|t:|1631926957
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1631926961
+|switch|p2a: Blastoise|Blastoise, F|32/100 slp
+|-damage|p2a: Blastoise|19/100 slp|[from] Stealth Rock
+|move|p1a: Victini|V-create|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Blastoise
+|
+|upkeep
+|inactive|H.D.L.G.P.S.D.R. has 90 seconds left.
+|
+|t:|1631926968
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|94/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1631926972
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|switch|p2a: Heracross|Heracross, F|88/100
+|-damage|p2a: Heracross|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1631926979
+|move|p2a: Heracross|Megahorn|p1a: Bronzong
+|-damage|p1a: Bronzong|41/100
+|move|p1a: Bronzong|Psychic|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|12/100
+|
+|-heal|p1a: Bronzong|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1631926985
+|move|p2a: Heracross|Megahorn|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|j| thedonjara
+|
+|t:|1631926988
+|switch|p1a: Victini|Victini|76/100
+|-damage|p1a: Victini|51/100|[from] Stealth Rock
+|turn|28
+|c|☆H.D.L.G.P.S.D.R.|gg
+|
+|t:|1631926993
+|switch|p2a: Nidoqueen|Nidoqueen, F|94/100
+|-damage|p2a: Nidoqueen|88/100|[from] Stealth Rock
+|move|p1a: Victini|Zen Headbutt|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|36/100
+|
+|-heal|p2a: Nidoqueen|42/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|t:|1631926999
+|move|p1a: Victini|Zen Headbutt|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1631927001
+|switch|p2a: Heracross|Heracross, F|12/100
+|-damage|p2a: Heracross|0 fnt|[from] Stealth Rock
+|faint|p2a: Heracross
+|
+|win|mentalsoft
+|n|☆mentalsoft|mentalsoft
+|n|☆H.D.L.G.P.S.D.R.|hdlgpsdr
+|n| BB-8-NU|bb8nu
+|n| t04ster|t04ster
+|n| ruin of light|ruinoflight
+|n| Damm u captcha|dammucaptcha
+|n| blackkaiser|blackkaiser
+|n| thedonjara|thedonjara
+|c|☆mentalsoft|gg
+|l| BB-8-NU
+|l|☆H.D.L.G.P.S.D.R.
+|l| thedonjara
+|l| Damm u captcha

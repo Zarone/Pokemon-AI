@@ -1,0 +1,308 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642288346
+|gametype|singles
+|player|p1|coraline882|dawn-gen4pt|
+|player|p2|Amukamara|cyclistf-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Accelgor, F|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Venomoth, M|item
+|poke|p1|Mew|item
+|poke|p1|Cobalion|item
+|poke|p2|Roserade, F|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Flygon, M|item
+|poke|p2|Cofagrigus, M|item
+|poke|p2|Sharpedo, F|item
+|teampreview
+|c|☆Amukamara|glhf
+|c|☆coraline882|u2
+|
+|t:|1642288362
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|1
+|
+|t:|1642288366
+|move|p1a: Azelf|Stealth Rock|p2a: Empoleon
+|-sidestart|p2: Amukamara|move: Stealth Rock
+|move|p2a: Empoleon|Scald|p1a: Azelf
+|-damage|p1a: Azelf|52/100
+|
+|upkeep
+|turn|2
+|
+|t:|1642288368
+|move|p1a: Azelf|Light Screen|p1a: Azelf
+|-sidestart|p1: coraline882|move: Light Screen
+|move|p2a: Empoleon|Stealth Rock|p1a: Azelf
+|-sidestart|p1: coraline882|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1642288374
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p1a: Azelf|Reflect|p1a: Azelf
+|-sidestart|p1: coraline882|Reflect
+|
+|-heal|p2a: Cofagrigus|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1642288386
+|switch|p1a: Venomoth|Venomoth, M|100/100
+|-damage|p1a: Venomoth|76/100|[from] Stealth Rock
+|move|p2a: Cofagrigus|Nasty Plot|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|2
+|
+|-heal|p2a: Cofagrigus|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1642288392
+|move|p1a: Venomoth|Sleep Powder|p2a: Cofagrigus|[miss]
+|-miss|p1a: Venomoth|p2a: Cofagrigus
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Venomoth
+|-damage|p1a: Venomoth|21/100
+|
+|-heal|p2a: Cofagrigus|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642288411
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|95/100|[from] Stealth Rock
+|move|p1a: Venomoth|Sleep Powder|p2a: Empoleon
+|-status|p2a: Empoleon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|c|+LpZ IV|invitational?
+|
+|t:|1642288420
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|move|p1a: Venomoth|Roost|p1a: Venomoth
+|-heal|p1a: Venomoth|71/100
+|-singleturn|p1a: Venomoth|move: Roost
+|
+|upkeep
+|turn|8
+|c|☆Amukamara|yes
+|
+|t:|1642288426
+|switch|p1a: Azelf|Azelf|52/100
+|-damage|p1a: Azelf|39/100|[from] Stealth Rock
+|move|p2a: Flygon|Outrage|p1a: Azelf
+|-damage|p1a: Azelf|3/100
+|
+|upkeep
+|turn|9
+|
+|t:|1642288432
+|move|p2a: Flygon|Outrage|p1a: Azelf|[from]lockedmove
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|-start|p2a: Flygon|confusion|[fatigue]
+|
+|-sideend|p1: coraline882|move: Light Screen
+|upkeep
+|
+|t:|1642288436
+|switch|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1642288438
+|-activate|p2a: Flygon|confusion
+|move|p2a: Flygon|Outrage|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|86/100
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|
+|-sideend|p1: coraline882|Reflect
+|upkeep
+|turn|11
+|
+|t:|1642288446
+|-activate|p2a: Flygon|confusion
+|-damage|p2a: Flygon|78/100|[from] confusion
+|move|p1a: Cobalion|Iron Head|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|-damage|p1a: Cobalion|76/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1642288489
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1642288493
+|move|p1a: Cobalion|Iron Head|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|26/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Justified|[of] p1a: Cobalion
+|-damage|p1a: Cobalion|66/100|[from] item: Life Orb
+|cant|p2a: Cofagrigus|flinch
+|
+|-heal|p2a: Cofagrigus|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1642288497
+|move|p1a: Cobalion|Iron Head|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|-damage|p1a: Cobalion|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642288499
+|switch|p2a: Sharpedo|Sharpedo, F|100/100
+|-damage|p2a: Sharpedo|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1642288503
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Cobalion|Close Combat|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|15
+|
+|t:|1642288506
+|move|p2a: Sharpedo|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|-damage|p2a: Sharpedo|78/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1642288529
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1642288541
+|move|p2a: Sharpedo|Crunch|p1a: Kingdra
+|-damage|p1a: Kingdra|15/100
+|-damage|p2a: Sharpedo|68/100|[from] item: Life Orb
+|move|p1a: Kingdra|Outrage|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|upkeep
+|
+|t:|1642288545
+|switch|p2a: Empoleon|Empoleon, M|95/100 slp
+|-damage|p2a: Empoleon|89/100 slp|[from] Stealth Rock
+|turn|17
+|
+|t:|1642288548
+|move|p1a: Kingdra|Outrage|p2a: Empoleon|[from]lockedmove
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|58/100 slp
+|-start|p1a: Kingdra|confusion|[fatigue]
+|cant|p2a: Empoleon|slp
+|
+|upkeep
+|turn|18
+|
+|t:|1642288560
+|-activate|p1a: Kingdra|confusion
+|-damage|p1a: Kingdra|0 fnt|[from] confusion
+|faint|p1a: Kingdra
+|cant|p2a: Empoleon|slp
+|
+|upkeep
+|inactive|coraline882 has 270 seconds left.
+|
+|t:|1642288589
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|-damage|p1a: Accelgor|75/100|[from] Stealth Rock
+|turn|19
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1642288620
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|move|p1a: Accelgor|Final Gambit|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p1a: Accelgor
+|faint|p2a: Kingdra
+|
+|upkeep
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1642288631
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1642288637
+|move|p2a: Roserade|Sludge Bomb|p1a: Mew
+|-damage|p1a: Mew|26/100
+|-status|p1a: Mew|psn
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: Roserade
+|-damage|p2a: Roserade|78/100|[from] item: Life Orb
+|move|p1a: Mew|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-damage|p1a: Mew|14/100 psn|[from] psn
+|upkeep
+|
+|t:|1642288646
+|switch|p2a: Empoleon|Empoleon, M|58/100 slp
+|-damage|p2a: Empoleon|52/100 slp|[from] Stealth Rock
+|turn|21
+|
+|t:|1642288650
+|move|p1a: Mew|Fire Blast|p2a: Empoleon
+|-damage|p2a: Empoleon|10/100 slp
+|cant|p2a: Empoleon|slp
+|
+|-damage|p1a: Mew|1/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1642288653
+|move|p1a: Mew|Psychic|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|win|coraline882
+|c|☆coraline882|gg
+|c|☆Amukamara|gg

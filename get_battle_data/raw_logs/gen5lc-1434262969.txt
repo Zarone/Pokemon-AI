@@ -1,0 +1,331 @@
+|j|☆Albinson
+|j|☆torterrax1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1634077403
+|gametype|singles
+|player|p1|Albinson|blue-gen3champion|
+|player|p2|torterrax1|erika-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Pawniard, L5, F|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Larvesta, L5, M|item
+|poke|p2|Frillish, L5, F|item
+|poke|p2|Axew, L5, F|item
+|teampreview
+|c|☆Albinson|Hf
+|j| Kodiak_45
+|c|☆torterrax1|gl
+|inactive|torterrax1 has 120 seconds left.
+|
+|t:|1634077433
+|start
+|switch|p1a: Porygon|Porygon, L5|100/100
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|-ability|p1a: Porygon|Mold Breaker|[from] ability: Trace|[of] p2a: Drilbur
+|-ability|p1a: Porygon|Mold Breaker
+|turn|1
+|
+|t:|1634077443
+|move|p2a: Drilbur|Stealth Rock|p1a: Porygon
+|-sidestart|p1: Albinson|move: Stealth Rock
+|move|p1a: Porygon|Blizzard|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|22/100
+|-status|p2a: Drilbur|frz
+|
+|upkeep
+|turn|2
+|
+|t:|1634077453
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p1a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p1a: Drilbur|Mold Breaker
+|cant|p2a: Drilbur|frz
+|
+|upkeep
+|turn|3
+|j| FruitDogs
+|
+|t:|1634077458
+|cant|p2a: Drilbur|frz
+|move|p1a: Drilbur|Stealth Rock|p2a: Drilbur
+|-sidestart|p2: torterrax1|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1634077463
+|move|p1a: Drilbur|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|
+|t:|1634077471
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-damage|p2a: Snover|78/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|5
+|
+|t:|1634077476
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-damage|p1a: Porygon|88/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Snow Warning|[from] ability: Trace|[of] p2a: Snover
+|move|p2a: Snover|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|44/100|[from] Hail
+|upkeep
+|turn|6
+|
+|t:|1634077488
+|switch|p2a: Pawniard|Pawniard, L5, F|100/100
+|-damage|p2a: Pawniard|96/100|[from] Stealth Rock
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|96/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Pawniard|91/100|[from] Hail
+|-damage|p1a: Porygon|92/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1634077496
+|move|p2a: Pawniard|Brick Break|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|52/100
+|move|p1a: Porygon|Thunder Wave|p2a: Pawniard
+|-status|p2a: Pawniard|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|48/100|[from] Hail
+|-damage|p2a: Pawniard|86/100 par|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1634077503
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|move|p2a: Pawniard|Swords Dance|p2a: Pawniard
+|-boost|p2a: Pawniard|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|96/100|[from] Hail
+|-damage|p2a: Pawniard|81/100 par|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1634077518
+|move|p1a: Porygon|Thunderbolt|p2a: Pawniard
+|-damage|p2a: Pawniard|48/100 par
+|move|p2a: Pawniard|Iron Head|p1a: Porygon
+|-damage|p1a: Porygon|36/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|32/100|[from] Hail
+|-damage|p2a: Pawniard|43/100 par|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1634077527
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|84/100
+|move|p2a: Pawniard|Brick Break|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|12/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|8/100|[from] Hail
+|-damage|p2a: Pawniard|39/100 par|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1634077534
+|move|p1a: Porygon|Thunderbolt|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|4/100|[from] Hail
+|upkeep
+|
+|t:|1634077553
+|switch|p2a: Axew|Axew, L5, F|100/100
+|-damage|p2a: Axew|91/100|[from] Stealth Rock
+|-ability|p2a: Axew|Mold Breaker
+|turn|12
+|
+|t:|1634077558
+|move|p2a: Axew|Aqua Tail|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Axew|87/100|[from] Hail
+|upkeep
+|
+|t:|1634077575
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-damage|p1a: Snover|79/100|[from] Stealth Rock
+|turn|13
+|inactive|torterrax1 has 120 seconds left.
+|
+|t:|1634077628
+|switch|p2a: Snover|Snover, L5, M|78/100
+|-damage|p2a: Snover|55/100|[from] Stealth Rock
+|move|p1a: Snover|Blizzard|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1634077632
+|switch|p2a: Larvesta|Larvesta, L5, M|100/100
+|-damage|p2a: Larvesta|53/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1634077642
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|-damage|p1a: Frillish|92/100|[from] Stealth Rock
+|move|p2a: Larvesta|Morning Sun|p2a: Larvesta
+|-heal|p2a: Larvesta|79/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Larvesta|74/100|[from] Hail
+|-damage|p1a: Frillish|87/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1634077664
+|move|p2a: Larvesta|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|74/100
+|
+|t:|1634077669
+|switch|p2a: Frillish|Frillish, L5, F|100/100|[from]move: U-turn
+|-damage|p2a: Frillish|88/100|[from] Stealth Rock
+|move|p1a: Frillish|Shadow Ball|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|70/100|[from] Hail
+|-damage|p2a: Frillish|36/100|[from] Hail
+|upkeep
+|turn|16
+|
+|t:|1634077677
+|move|p1a: Frillish|Shadow Ball|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|0 fnt
+|-start|p1a: Frillish|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Frillish
+|faint|p2a: Frillish
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|66/100|[from] Hail
+|upkeep
+|
+|t:|1634077685
+|switch|p2a: Axew|Axew, L5, F|87/100
+|-damage|p2a: Axew|78/100|[from] Stealth Rock
+|-ability|p2a: Axew|Mold Breaker
+|turn|17
+|
+|t:|1634077690
+|move|p2a: Axew|Dragon Dance|p2a: Axew
+|-boost|p2a: Axew|atk|1
+|-boost|p2a: Axew|spe|1
+|move|p1a: Frillish|Will-O-Wisp|p2a: Axew
+|-status|p2a: Axew|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Axew|73/100 brn|[from] Hail
+|-damage|p1a: Frillish|61/100|[from] Hail
+|-damage|p2a: Axew|64/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1634077702
+|move|p2a: Axew|Dragon Dance|p2a: Axew
+|-boost|p2a: Axew|atk|1
+|-boost|p2a: Axew|spe|1
+|move|p1a: Frillish|Taunt|p2a: Axew
+|-start|p2a: Axew|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Axew|60/100 brn|[from] Hail
+|-damage|p1a: Frillish|57/100|[from] Hail
+|-damage|p2a: Axew|50/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1634077706
+|move|p2a: Axew|Outrage|p1a: Frillish
+|-damage|p1a: Frillish|9/100
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|61/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Axew|46/100 brn|[from] Hail
+|-damage|p1a: Frillish|57/100|[from] Hail
+|-damage|p2a: Axew|37/100 brn|[from] brn
+|-end|p1a: Frillish|Disable
+|upkeep
+|turn|20
+|
+|t:|1634077712
+|move|p2a: Axew|Outrage|p1a: Frillish|[from]lockedmove
+|-damage|p1a: Frillish|5/100
+|move|p1a: Frillish|Shadow Ball|p2a: Axew
+|-crit|p2a: Axew
+|-damage|p2a: Axew|0 fnt
+|faint|p2a: Axew
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Frillish|0 fnt|[from] Hail
+|faint|p1a: Frillish
+|upkeep
+|
+|t:|1634077717
+|switch|p2a: Larvesta|Larvesta, L5, M|74/100
+|switch|p1a: Drilbur|Drilbur, L5, F|96/100
+|-damage|p1a: Drilbur|92/100|[from] Stealth Rock
+|-ability|p1a: Drilbur|Mold Breaker
+|-damage|p2a: Larvesta|27/100|[from] Stealth Rock
+|turn|21
+|c|☆Albinson|Gg
+|c|☆torterrax1|gg
+|
+|t:|1634077726
+|move|p1a: Drilbur|Earthquake|p2a: Larvesta
+|-damage|p2a: Larvesta|0 fnt
+|faint|p2a: Larvesta
+|
+|win|Albinson
+|n|☆Albinson|albinson
+|n|☆torterrax1|torterrax1
+|n| Kodiak_45|kodiak45
+|n| FruitDogs|fruitdogs

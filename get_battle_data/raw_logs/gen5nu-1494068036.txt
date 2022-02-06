@@ -1,0 +1,267 @@
+|j|☆tank skunk
+|j|☆FunniName
+|t:|1642548777
+|gametype|singles
+|player|p1|tank skunk|pokefan|1063
+|player|p2|FunniName|101|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Lunatone|item
+|poke|p1|Scraggy, M|item
+|poke|p1|Electabuzz, M|item
+|poke|p1|Golbat, F|item
+|poke|p1|Rapidash, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Floatzel, F|item
+|poke|p2|Gorebyss, M|item
+|poke|p2|Metang|item
+|poke|p2|Liepard, M|item
+|poke|p2|Volbeat, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|inactive|FunniName also wants the timer to be on.
+|
+|t:|1642548786
+|start
+|switch|p1a: Rarity|Rapidash, F, shiny|100/100
+|switch|p2a: Liepard|Liepard, M|100/100
+|turn|1
+|
+|t:|1642548802
+|switch|p1a: PantGround|Scraggy, M, shiny|100/100
+|move|p2a: Liepard|Rain Dance|p2a: Liepard
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1642548811
+|move|p2a: Liepard|U-turn|p1a: PantGround
+|-damage|p1a: PantGround|75/100
+|
+|t:|1642548829
+|switch|p2a: Metang|Metang|100/100|[from]move: U-turn
+|move|p1a: PantGround|Dragon Dance|p1a: PantGround
+|-boost|p1a: PantGround|atk|1
+|-boost|p1a: PantGround|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1642548833
+|move|p1a: PantGround|Dragon Dance|p1a: PantGround
+|-boost|p1a: PantGround|atk|1
+|-boost|p1a: PantGround|spe|1
+|move|p2a: Metang|Stealth Rock|p1a: PantGround
+|-sidestart|p1: tank skunk|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1642548838
+|move|p1a: PantGround|Dragon Dance|p1a: PantGround
+|-boost|p1a: PantGround|atk|1
+|-boost|p1a: PantGround|spe|1
+|move|p2a: Metang|Meteor Mash|p1a: PantGround
+|-damage|p1a: PantGround|34/100
+|-boost|p2a: Metang|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1642548844
+|move|p1a: PantGround|Drain Punch|p2a: Metang
+|-damage|p2a: Metang|33/100
+|-heal|p1a: PantGround|80/100|[from] drain|[of] p2a: Metang
+|move|p2a: Metang|Meteor Mash|p1a: PantGround
+|-damage|p1a: PantGround|22/100
+|
+|-weather|none
+|-heal|p2a: Metang|39/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642548852
+|move|p1a: PantGround|Drain Punch|p2a: Metang
+|-damage|p2a: Metang|0 fnt
+|-heal|p1a: PantGround|48/100|[from] drain|[of] p2a: Metang
+|faint|p2a: Metang
+|
+|upkeep
+|
+|t:|1642548860
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|7
+|
+|t:|1642548863
+|move|p2a: Floatzel|Aqua Jet|p1a: PantGround
+|-damage|p1a: PantGround|15/100
+|move|p1a: PantGround|Drain Punch|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|-heal|p1a: PantGround|79/100|[from] drain|[of] p2a: Floatzel
+|faint|p2a: Floatzel
+|
+|upkeep
+|
+|t:|1642548873
+|switch|p2a: Volbeat|Volbeat, M|100/100
+|turn|8
+|
+|t:|1642548878
+|move|p2a: Volbeat|Rain Dance|p2a: Volbeat
+|-weather|RainDance
+|move|p1a: PantGround|Crunch|p2a: Volbeat
+|-damage|p2a: Volbeat|23/100
+|-unboost|p2a: Volbeat|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volbeat|29/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1642548906
+|move|p2a: Volbeat|Tail Glow|p2a: Volbeat
+|-boost|p2a: Volbeat|spa|3
+|move|p1a: PantGround|Dragon Dance|p1a: PantGround
+|-boost|p1a: PantGround|atk|1
+|-boost|p1a: PantGround|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volbeat|35/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1642548913
+|move|p2a: Volbeat|Baton Pass|p2a: Volbeat
+|
+|t:|1642548919
+|switch|p2a: Ludicolo|Ludicolo, F|100/100|[from]move: Baton Pass
+|move|p1a: PantGround|Drain Punch|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-heal|p1a: PantGround|100/100|[from] drain|[of] p2a: Ludicolo
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1642548921
+|switch|p2a: Gorebyss|Gorebyss, M|100/100
+|turn|11
+|
+|t:|1642548933
+|move|p1a: PantGround|Crunch|p2a: Gorebyss
+|-enditem|p2a: Gorebyss|Focus Sash
+|-damage|p2a: Gorebyss|1/100
+|move|p2a: Gorebyss|Shell Smash|p2a: Gorebyss
+|-unboost|p2a: Gorebyss|def|1
+|-unboost|p2a: Gorebyss|spd|1
+|-boost|p2a: Gorebyss|atk|2
+|-boost|p2a: Gorebyss|spa|2
+|-boost|p2a: Gorebyss|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1642548958
+|move|p2a: Gorebyss|Surf|p1a: PantGround
+|-damage|p1a: PantGround|0 fnt
+|faint|p1a: PantGround
+|
+|-weather|none
+|upkeep
+|
+|t:|1642548970
+|switch|p1a: Ludacris|Ludicolo, M, shiny|100/100
+|-damage|p1a: Ludacris|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1642548980
+|move|p2a: Gorebyss|Ice Beam|p1a: Ludacris
+|-damage|p1a: Ludacris|45/100
+|move|p1a: Ludacris|Scald|p2a: Gorebyss
+|-resisted|p2a: Gorebyss
+|-damage|p2a: Gorebyss|0 fnt
+|faint|p2a: Gorebyss
+|
+|-heal|p1a: Ludacris|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642548987
+|switch|p2a: Liepard|Liepard, M|100/100
+|turn|14
+|
+|t:|1642548995
+|move|p2a: Liepard|Sucker Punch|p1a: Ludacris
+|-damage|p1a: Ludacris|8/100
+|move|p1a: Ludacris|Giga Drain|p2a: Liepard
+|-damage|p2a: Liepard|53/100
+|-heal|p1a: Ludacris|26/100|[from] drain|[of] p2a: Liepard
+|
+|-heal|p1a: Ludacris|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1642548999
+|move|p2a: Liepard|Sucker Punch||[still]
+|-fail|p2a: Liepard
+|move|p1a: Ludacris|Synthesis|p1a: Ludacris
+|-heal|p1a: Ludacris|82/100
+|
+|-heal|p1a: Ludacris|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1642549002
+|move|p2a: Liepard|Sucker Punch|p1a: Ludacris
+|-damage|p1a: Ludacris|45/100
+|move|p1a: Ludacris|Giga Drain|p2a: Liepard
+|-damage|p2a: Liepard|2/100
+|-heal|p1a: Ludacris|64/100|[from] drain|[of] p2a: Liepard
+|
+|-heal|p1a: Ludacris|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1642549005
+|move|p2a: Liepard|U-turn|p1a: Ludacris
+|-supereffective|p1a: Ludacris
+|-damage|p1a: Ludacris|21/100
+|c|☆FunniName|gg
+|
+|t:|1642549010
+|switch|p2a: Volbeat|Volbeat, M|35/100|[from]move: U-turn
+|move|p1a: Ludacris|Leech Seed|p2a: Volbeat
+|-start|p2a: Volbeat|move: Leech Seed
+|
+|-heal|p2a: Volbeat|41/100|[from] item: Leftovers
+|-heal|p1a: Ludacris|27/100|[from] item: Leftovers
+|-damage|p2a: Volbeat|29/100|[from] Leech Seed|[of] p1a: Ludacris
+|-heal|p1a: Ludacris|38/100|[silent]
+|upkeep
+|turn|18
+|-message|FunniName forfeited.
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1063 &rarr; <strong>1097</strong><br />(+34 for winning)
+|raw|FunniName's rating: 1099 &rarr; <strong>1072</strong><br />(-27 for losing)
+|l|☆FunniName

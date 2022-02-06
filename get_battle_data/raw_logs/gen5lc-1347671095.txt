@@ -1,0 +1,275 @@
+|j|☆AntLemon
+|j|☆Ice Bear Says Rawr
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1622028647
+|gametype|singles
+|player|p1|AntLemon|waiter|
+|player|p2|Ice Bear Says Rawr|swimmer-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Omanyte, L5, F|item
+|poke|p1|Snover, L5, F|item
+|poke|p1|Drifloon, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Hippopotas, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Lileep, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Cacnea, L5, F|item
+|teampreview
+|j|*Lady Monita
+|j| Atiman
+|c|☆Ice Bear Says Rawr|gl hf
+|c|☆AntLemon|u2
+|
+|t:|1622028664
+|start
+|switch|p1a: Snover|Snover, L5, F|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, F, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|l| Atiman
+|
+|t:|1622028673
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Snow Warning|[from] ability: Trace|[of] p1a: Snover
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Porygon
+|move|p1a: Snover|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|66/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|62/100|[from] Hail
+|upkeep
+|turn|2
+|j| sebastianpq
+|
+|t:|1622028688
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Snow Warning|[from] ability: Trace|[of] p2a: Porygon
+|move|p2a: Porygon|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|58/100|[from] Hail
+|-damage|p1a: Porygon|97/100 par|[from] Hail
+|upkeep
+|turn|3
+|j|%Zoaw
+|
+|t:|1622028694
+|switch|p2a: Hippopotas|Hippopotas, L5, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|move|p1a: Porygon|Thunder Wave|p2a: Hippopotas
+|-immune|p2a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|93/100 par|[from] Sandstorm
+|upkeep
+|turn|4
+|l|%Zoaw
+|
+|t:|1622028700
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|move|p2a: Hippopotas|Stealth Rock|p1a: Snover
+|-sidestart|p1: AntLemon|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hippopotas|97/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1622028720
+|switch|p2a: Cacnea|Cacnea, L5, F|100/100
+|move|p1a: Snover|Blizzard|p2a: Cacnea
+|-supereffective|p2a: Cacnea
+|-damage|p2a: Cacnea|5/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cacnea|0 fnt|[from] Hail
+|faint|p2a: Cacnea
+|upkeep
+|
+|t:|1622028728
+|switch|p2a: Porygon|Porygon, L5|58/100
+|-ability|p2a: Porygon|Snow Warning|[from] ability: Trace|[of] p1a: Snover
+|turn|6
+|
+|t:|1622028737
+|switch|p1a: Porygon|Porygon, L5|93/100 par
+|-damage|p1a: Porygon|81/100 par|[from] Stealth Rock
+|-ability|p1a: Porygon|Snow Warning|[from] ability: Trace|[of] p2a: Porygon
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|97/100|[from] Hail
+|-damage|p1a: Porygon|77/100 par|[from] Hail
+|upkeep
+|turn|7
+|j| FarrasCheekyCute
+|
+|t:|1622028742
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|50/100 par
+|move|p1a: Porygon|Tri Attack|p2a: Porygon
+|-damage|p2a: Porygon|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|70/100|[from] Hail
+|-damage|p1a: Porygon|47/100 par|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1622028749
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|20/100 par
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|70/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|66/100|[from] Hail
+|-damage|p1a: Porygon|66/100 par|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1622028757
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|39/100 par
+|move|p1a: Porygon|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|62/100 par|[from] Hail
+|-damage|p1a: Porygon|35/100 par|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1622028761
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|85/100 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|81/100 par|[from] Hail
+|-damage|p2a: Porygon|97/100 par|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1622028766
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|move|p1a: Porygon|Tri Attack|p2a: Drilbur
+|-damage|p2a: Drilbur|46/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|41/100|[from] Hail
+|-damage|p1a: Porygon|77/100 par|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1622028773
+|move|p2a: Drilbur|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|16/100 par
+|-damage|p2a: Drilbur|32/100|[from] item: Life Orb
+|cant|p1a: Porygon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|28/100|[from] Hail
+|-damage|p1a: Porygon|12/100 par|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1622028778
+|switch|p2a: Hippopotas|Hippopotas, L5, F, shiny|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|cant|p1a: Porygon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|8/100 par|[from] Sandstorm
+|upkeep
+|turn|14
+|j| HaaiL!
+|
+|t:|1622028783
+|cant|p1a: Porygon|par
+|move|p2a: Hippopotas|Whirlwind|p1a: Porygon
+|drag|p1a: Snover|Snover, L5, F|100/100
+|-damage|p1a: Snover|78/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hippopotas|93/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1622028788
+|move|p1a: Snover|Blizzard|p2a: Hippopotas
+|-supereffective|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|faint|p2a: Hippopotas
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1622028792
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|16
+|
+|t:|1622028806
+|move|p1a: Snover|Blizzard|p2a: Abra
+|-damage|p2a: Abra|6/100
+|-status|p2a: Abra|frz
+|cant|p2a: Abra|frz
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|17
+|c|☆AntLemon|sorry
+|
+|t:|1622028813
+|move|p1a: Snover|Blizzard|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆Ice Bear Says Rawr|no sweat
+|c|☆Ice Bear Says Rawr|gg
+|
+|t:|1622028819
+|switch|p2a: Drilbur|Drilbur, L5, M|28/100
+|turn|18
+|
+|t:|1622028821
+|move|p1a: Snover|Blizzard|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|-message|Ice Bear Says Rawr forfeited.
+|
+|win|AntLemon
+|n|☆AntLemon|antlemon
+|n|☆Ice Bear Says Rawr|icebearsaysrawr
+|n|*Lady Monita|ladymonita
+|n| sebastianpq|sebastianpq
+|n| FarrasCheekyCute|farrascheekycute
+|n| HaaiL!|haail

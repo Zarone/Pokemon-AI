@@ -1,0 +1,301 @@
+|j|☆SoulZz0
+|j|☆shndj
+|t:|1641156837
+|gametype|singles
+|player|p1|SoulZz0|anabel-gen3|1050
+|player|p2|shndj|parasollady-gen4|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Primeape, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Leafeon, M|item
+|poke|p1|Samurott, F|item
+|poke|p1|Golurk|item
+|poke|p2|Gorebyss, F|item
+|poke|p2|Piloswine, F|item
+|poke|p2|Braviary, M|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Ditto|item
+|poke|p2|Charizard, F|item
+|teampreview
+|c|☆shndj|yo
+|c|☆SoulZz0|yo
+|c|☆shndj|gl
+|c|☆SoulZz0|u2
+|c|☆SoulZz0|ive hardly played ive got like 2 games
+|
+|t:|1641156876
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Charizard|[from] ability: Imposter
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SoulZz0)
+|c|☆shndj|same, been waiting 2 minutes for that one lul
+|c|☆shndj|may I ask
+|c|☆shndj|why HP dragon when dragon pulse
+|inactive|shndj has 120 seconds left.
+|
+|t:|1641156912
+|move|p2a: Ditto|Air Slash|p1a: Charizard
+|-damage|p1a: Charizard|58/100
+|move|p1a: Charizard|Air Slash|p2a: Ditto
+|-damage|p2a: Ditto|33/100
+|
+|upkeep
+|turn|2
+|c|☆SoulZz0|thats your ivs not mine
+|c|☆shndj|ohh
+|
+|t:|1641156926
+|move|p2a: Ditto|Air Slash|p1a: Charizard
+|-damage|p1a: Charizard|11/100
+|cant|p1a: Charizard|flinch
+|
+|upkeep
+|turn|3
+|c|☆shndj|gotcha
+|c|☆SoulZz0|bruh
+|
+|t:|1641156934
+|switch|p1a: Samurott|Samurott, F|100/100
+|move|p2a: Ditto|Air Slash|p1a: Samurott
+|-damage|p1a: Samurott|54/100
+|
+|upkeep
+|turn|4
+|
+|t:|1641156940
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|move|p1a: Samurott|Aqua Jet|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|92/100
+|-damage|p1a: Samurott|44/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1641156958
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1641156965
+|move|p2a: Ludicolo|Surf|p1a: Skuntank
+|-damage|p1a: Skuntank|13/100
+|-damage|p2a: Ludicolo|82/100|[from] item: Life Orb
+|move|p1a: Skuntank|Poison Jab|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skuntank|20/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1641156971
+|switch|p2a: Gorebyss|Gorebyss, F|100/100
+|turn|7
+|c|☆shndj|no poison pls <3
+|c|☆SoulZz0|ur swift swim what
+|c|☆shndj|yes but
+|
+|t:|1641156997
+|move|p2a: Gorebyss|Shell Smash|p2a: Gorebyss
+|-unboost|p2a: Gorebyss|def|1
+|-unboost|p2a: Gorebyss|spd|1
+|-boost|p2a: Gorebyss|atk|2
+|-boost|p2a: Gorebyss|spa|2
+|-boost|p2a: Gorebyss|spe|2
+|move|p1a: Skuntank|Poison Jab|p2a: Gorebyss
+|-damage|p2a: Gorebyss|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skuntank|26/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|c|☆shndj|...
+|c|☆SoulZz0|monka tf
+|
+|t:|1641157008
+|move|p1a: Skuntank|Sucker Punch|p2a: Gorebyss
+|-damage|p2a: Gorebyss|0 fnt
+|faint|p2a: Gorebyss
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skuntank|32/100|[from] item: Black Sludge
+|upkeep
+|c|☆shndj|oh that
+|c|☆SoulZz0|yeah
+|c|☆shndj|I see you
+|
+|t:|1641157020
+|switch|p2a: Piloswine|Piloswine, F|100/100
+|turn|9
+|
+|t:|1641157031
+|move|p1a: Skuntank|Poison Jab|p2a: Piloswine
+|-resisted|p2a: Piloswine
+|-damage|p2a: Piloswine|89/100
+|-status|p2a: Piloswine|psn
+|move|p2a: Piloswine|Stealth Rock|p1a: Skuntank
+|-sidestart|p1: SoulZz0|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Skuntank|38/100|[from] item: Black Sludge
+|-damage|p2a: Piloswine|76/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1641157041
+|move|p1a: Skuntank|Sucker Punch|p2a: Piloswine
+|-damage|p2a: Piloswine|52/100 psn
+|move|p2a: Piloswine|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|-damage|p2a: Piloswine|39/100 psn|[from] psn
+|upkeep
+|inactive|SoulZz0 has 120 seconds left.
+|
+|t:|1641157064
+|switch|p1a: Golurk|Golurk, shiny|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|turn|11
+|c|☆shndj|p sure I lose that one
+|
+|t:|1641157072
+|move|p1a: Golurk|Stealth Rock|p2a: Piloswine
+|-sidestart|p2: shndj|move: Stealth Rock
+|move|p2a: Piloswine|Icicle Crash|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-damage|p2a: Piloswine|27/100 psn|[from] psn
+|upkeep
+|
+|t:|1641157081
+|switch|p1a: Samurott|Samurott, F|44/100
+|-damage|p1a: Samurott|32/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641157090
+|move|p2a: Piloswine|Ice Shard|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|21/100
+|move|p1a: Samurott|Waterfall|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|-damage|p1a: Samurott|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641157101
+|switch|p2a: Ditto|Ditto|33/100
+|-damage|p2a: Ditto|21/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Samurott|[from] ability: Imposter
+|turn|13
+|
+|t:|1641157105
+|move|p2a: Ditto|Aqua Jet|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1641157112
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|-damage|p1a: Leafeon|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1641157120
+|switch|p2a: Charizard|Charizard, F|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|move|p1a: Leafeon|Leaf Blade|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|40/100
+|
+|-heal|p1a: Leafeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1641157131
+|move|p2a: Charizard|Air Slash|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|-damage|p2a: Charizard|30/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641157133
+|switch|p1a: Primeape|Primeape, M|100/100
+|-damage|p1a: Primeape|95/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1641157139
+|move|p1a: Primeape|Stone Edge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1641157146
+|switch|p2a: Ditto|Ditto|21/100
+|-damage|p2a: Ditto|8/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Primeape|[from] ability: Imposter
+|turn|17
+|
+|t:|1641157165
+|move|p1a: Primeape|Stone Edge|p2a: Ditto
+|-resisted|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|t:|1641157169
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|18
+|c|☆shndj|ye ggs
+|
+|t:|1641157176
+|move|p1a: Primeape|Stone Edge|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|win|SoulZz0
+|raw|SoulZz0's rating: 1050 &rarr; <strong>1084</strong><br />(+34 for winning)
+|raw|shndj's rating: 1067 &rarr; <strong>1046</strong><br />(-21 for losing)
+|c|☆SoulZz0|gg
+|l|☆SoulZz0
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|j|☆SoulZz0
+|player|p1|SoulZz0|anabel-gen3

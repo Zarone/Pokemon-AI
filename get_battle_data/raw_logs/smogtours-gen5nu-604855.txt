@@ -1,0 +1,289 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642975447
+|gametype|singles
+|player|p1|Links|elesa|
+|player|p2|Nalorium|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Miltank, F|item
+|poke|p1|Liepard, F|item
+|poke|p1|Ludicolo, F|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Gorebyss, M|item
+|poke|p1|Braviary, M|item
+|poke|p2|Floatzel, F|item
+|poke|p2|Sawsbuck-Winter, F|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Golurk|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|c|☆Nalorium|hf
+|c|☆Links|Hf
+|c|☆Nalorium|1 sec I need to go
+|c|☆Nalorium|dont wanna make a finch
+|inactive|Links has 270 seconds left.
+|inactive|Nalorium has 270 seconds left.
+|c|+LUCK>SKILL|,
+|c|+justamente|Lol
+|c|☆Links|LMAO
+|inactive|Links has 240 seconds left.
+|inactive|Nalorium has 240 seconds left.
+|c|+rabia.|i hope links wins
+|c|+rabia.|fuck nalo
+|inactive|Nalorium has 210 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|c|☆Nalorium|back
+|c|☆Nalorium|hf
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642975608
+|start
+|switch|p1a: Liepard|Liepard, F|100/100
+|switch|p2a: Skuntank|Skuntank, M, shiny|100/100
+|turn|1
+|
+|t:|1642975613
+|move|p1a: Liepard|Rain Dance|p1a: Liepard
+|-weather|RainDance
+|move|p2a: Skuntank|Poison Jab|p1a: Liepard
+|-damage|p1a: Liepard|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1642975623
+|move|p1a: Liepard|Thunder Wave|p2a: Skuntank
+|-status|p2a: Skuntank|par
+|move|p2a: Skuntank|Pursuit|p1a: Liepard
+|-resisted|p1a: Liepard
+|-damage|p1a: Liepard|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1642975634
+|move|p1a: Liepard|Encore|p2a: Skuntank
+|-start|p2a: Skuntank|Encore
+|move|p2a: Skuntank|Pursuit|p1a: Liepard
+|-resisted|p1a: Liepard
+|-damage|p1a: Liepard|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1642975640
+|move|p1a: Liepard|U-turn|p2a: Skuntank
+|-crit|p2a: Skuntank
+|-damage|p2a: Skuntank|63/100 par
+|-damage|p1a: Liepard|0 fnt|[from] item: Rocky Helmet|[of] p2a: Skuntank
+|faint|p1a: Liepard
+|move|p2a: Skuntank|Pursuit|p1: Liepard|[notarget]
+|-fail|p2a: Skuntank
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1642975645
+|switch|p1a: Ludicolo|Ludicolo, F|100/100
+|turn|5
+|inactive|Nalorium has 240 seconds left.
+|inactive|Nalorium has 210 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642975759
+|move|p1a: Ludicolo|Hydro Pump|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1642975764
+|switch|p2a: Rotom|Rotom-Frost, shiny|100/100
+|turn|6
+|
+|t:|1642975768
+|move|p1a: Ludicolo|Hydro Pump|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Ludicolo|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642975795
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|7
+|
+|t:|1642975802
+|move|p1a: Ludicolo|Ice Beam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|40/100
+|-damage|p1a: Ludicolo|71/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|Brave Bird|p1a: Ludicolo
+|-supereffective|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|-damage|p2a: Mandibuzz|24/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mandibuzz|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642975827
+|switch|p1a: Gorebyss|Gorebyss, M|100/100
+|turn|8
+|inactive|Nalorium has 150 seconds left.
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1642975876
+|move|p1a: Gorebyss|Substitute|p1a: Gorebyss
+|-start|p1a: Gorebyss|Substitute
+|-damage|p1a: Gorebyss|75/100
+|move|p2a: Mandibuzz|Brave Bird|p1a: Gorebyss
+|-end|p1a: Gorebyss|Substitute
+|-damage|p2a: Mandibuzz|25/100|[from] Recoil|[of] p1a: Gorebyss
+|
+|-weather|none
+|-heal|p2a: Mandibuzz|31/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1642975903
+|move|p1a: Gorebyss|Ice Beam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|-damage|p1a: Gorebyss|66/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Nalorium has 90 seconds left.
+|inactive|Nalorium has 60 seconds left.
+|inactive|Nalorium has 30 seconds left.
+|inactive|Nalorium has 20 seconds left.
+|
+|t:|1642975984
+|switch|p2a: Sawsbuck|Sawsbuck-Winter, F, shiny|100/100
+|turn|10
+|inactive|Nalorium has 30 seconds left this turn.
+|
+|t:|1642975988
+|switch|p1a: Miltank|Miltank, F|100/100
+|move|p2a: Sawsbuck|Horn Leech|p1a: Miltank
+|-damage|p1a: Miltank|71/100
+|
+|upkeep
+|turn|11
+|
+|t:|1642975994
+|move|p1a: Miltank|Rain Dance|p1a: Miltank
+|-weather|RainDance
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1642975999
+|move|p1a: Miltank|Seismic Toss|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|67/100
+|move|p2a: Sawsbuck|Return|p1a: Miltank
+|-crit|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|faint|p1a: Miltank
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1642976018
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|13
+|
+|t:|1642976041
+|move|p1a: Seismitoad|Sludge Bomb|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Nalorium|yea
+|c|☆Nalorium|im never winning this
+|c|☆Nalorium|gg
+|
+|t:|1642976051
+|switch|p2a: Floatzel|Floatzel, F, shiny|100/100
+|turn|14
+|
+|t:|1642976054
+|move|p1a: Seismitoad|Earthquake|p2a: Floatzel
+|-damage|p2a: Floatzel|43/100
+|-damage|p1a: Seismitoad|81/100|[from] item: Life Orb
+|move|p2a: Floatzel|Waterfall|p1a: Seismitoad
+|-damage|p1a: Seismitoad|16/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Floatzel|49/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Nalorium has 30 seconds left.
+|
+|t:|1642976083
+|switch|p2a: Golurk|Golurk, shiny|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Golurk
+|-damage|p2a: Golurk|61/100
+|-damage|p1a: Seismitoad|6/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1642976086
+|move|p1a: Seismitoad|Hydro Pump|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|-damage|p1a: Seismitoad|0 fnt|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1642976089
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Floatzel|Floatzel, F, shiny|49/100
+|turn|17
+|
+|t:|1642976092
+|move|p1a: Braviary|Brave Bird|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|-damage|p1a: Braviary|83/100|[from] Recoil
+|
+|win|Links
+|c|+AcrOne|nalorium sos malardo y calvo xd
+|c|☆Nalorium|gg
+|c|☆Links|Gg

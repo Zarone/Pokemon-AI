@@ -1,0 +1,687 @@
+|j|☆SteamBuns
+|j|☆Trade
+|t:|1644062809
+|gametype|singles
+|player|p1|SteamBuns|yellow|
+|player|p2|Trade|#wcop2021oceania|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Malaconda, M|item
+|poke|p1|Stratagem|item
+|poke|p1|Infernape, M|item
+|poke|p1|Starmie|item
+|poke|p2|Keldeo|item
+|poke|p2|Colossoil, M|item
+|poke|p2|Kitsunoh, F|item
+|poke|p2|Tomohawk, M|item
+|poke|p2|Mollux, M|item
+|poke|p2|Ferrothorn, M|item
+|teampreview
+|c|☆SteamBuns|woops made it private
+|c|☆SteamBuns|do you know how to fix it
+|c|☆Trade|uh
+|c|☆Trade|./privateroom
+|c|☆SteamBuns|/log SteamBuns made this room public.
+|c|☆SteamBuns|glhf!
+|
+|t:|1644062934
+|start
+|switch|p1a: uwu|Ninetales, F|100/100
+|switch|p2a: Mollux|Mollux, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: uwu
+|turn|1
+|j| Spitfire arcanine
+|j| Amatesta
+|j| succsacturne
+|j| BitchAssBoyo
+|c|☆Trade|gl!
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Trade)
+|j| STABLEPRINCE 聖
+|l| STABLEPRINCE 聖
+|
+|t:|1644063017
+|switch|p1a: dom mommy|Stratagem|100/100
+|move|p2a: Mollux|Toxic Spikes|p1a: dom mommy
+|-sidestart|p1: SteamBuns|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mollux|88/100|[from] ability: Dry Skin|[of] p2a: Mollux
+|-heal|p2a: Mollux|94/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|c| Spitfire arcanine|how do you gl someone with a mon named uwu
+|j| Zephyri
+|j| STABLEPRINCE 聖
+|c|☆Trade|so right besty
+|c| succsacturne|dom mommy
+|c| succsacturne|based
+|c| Spitfire arcanine|hello stableprince
+|
+|t:|1644063037
+|switch|p2a: Colossoil|Colossoil, M|100/100
+|move|p1a: dom mommy|Earth Power|p2a: Colossoil
+|-damage|p2a: Colossoil|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Colossoil|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|n| LUCK>SKILL|succsacturne
+|c| Zephyri|UWU
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063081
+|-activate|p1a: dom mommy|move: Pursuit
+|move|p2a: Colossoil|Pursuit|p1a: dom mommy|[from]Pursuit
+|-damage|p1a: dom mommy|42/100
+|switch|p1a: spamamo|Landorus-Therian, M|100/100
+|-ability|p1a: spamamo|Intimidate|boost
+|-unboost|p2a: Colossoil|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Colossoil|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644063106
+|move|p1a: spamamo|U-turn|p2a: Colossoil
+|-supereffective|p2a: Colossoil
+|-damage|p2a: Colossoil|36/100
+|
+|t:|1644063113
+|switch|p1a: uwu|Ninetales, F|100/100|[from]move: U-turn
+|-status|p1a: uwu|psn
+|move|p2a: Colossoil|U-turn|p1a: uwu
+|-resisted|p1a: uwu
+|-damage|p1a: uwu|94/100 psn
+|
+|t:|1644063117
+|switch|p2a: Keldeo|Keldeo|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: uwu|99/100 psn|[from] item: Leftovers
+|-damage|p1a: uwu|87/100 psn|[from] psn
+|upkeep
+|turn|5
+|j| BlessingoftheWind
+|
+|t:|1644063130
+|switch|p1a: bop it twist it|Starmie|100/100
+|-status|p1a: bop it twist it|psn
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|82/100|[from] item: Leftovers
+|-damage|p1a: bop it twist it|88/100 psn|[from] psn
+|upkeep
+|turn|6
+|j| sigma gab
+|
+|t:|1644063148
+|-curestatus|p1a: bop it twist it|psn|[from] ability: Natural Cure
+|switch|p1a: uwu|Ninetales, F|87/100 psn
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p1a: uwu|93/100 psn|[from] item: Leftovers
+|-damage|p1a: uwu|81/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1644063170
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|move|p1a: uwu|Roar|p2a: Keldeo
+|drag|p2a: Colossoil|Colossoil, M|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Colossoil|43/100|[from] item: Leftovers
+|-heal|p1a: uwu|87/100 psn|[from] item: Leftovers
+|-damage|p1a: uwu|75/100 psn|[from] psn
+|upkeep
+|turn|8
+|c| STABLEPRINCE 聖|Porca troia
+|c| STABLEPRINCE 聖|Due nabbi
+|c| STABLEPRINCE 聖|Dormo
+|c| LUCK>SKILL|LOLOL
+|
+|t:|1644063191
+|switch|p2a: Mollux|Mollux, M|94/100
+|switch|p1a: spamamo|Landorus-Therian, M|100/100
+|-ability|p1a: spamamo|Intimidate|boost
+|-unboost|p2a: Mollux|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mollux|82/100|[from] ability: Dry Skin|[of] p2a: Mollux
+|-heal|p2a: Mollux|88/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|c| LUCK>SKILL|ben detto.
+|
+|t:|1644063202
+|switch|p2a: Tomohawk|Tomohawk, M|100/100
+|move|p1a: spamamo|U-turn|p2a: Tomohawk
+|-resisted|p2a: Tomohawk
+|-damage|p2a: Tomohawk|96/100
+|-damage|p1a: spamamo|84/100|[from] item: Rocky Helmet|[of] p2a: Tomohawk
+|
+|t:|1644063205
+|switch|p1a: monke|Infernape, M|100/100|[from]move: U-turn
+|-status|p1a: monke|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: monke|88/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1644063216
+|switch|p2a: Mollux|Mollux, M|88/100
+|move|p1a: monke|Overheat|p2a: Mollux
+|-enditem|p1a: monke|Fire Gem|[from] gem
+|-resisted|p2a: Mollux
+|-damage|p2a: Mollux|41/100
+|-unboost|p1a: monke|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mollux|29/100|[from] ability: Dry Skin|[of] p2a: Mollux
+|-heal|p2a: Mollux|35/100|[from] item: Black Sludge
+|-damage|p1a: monke|76/100 psn|[from] psn
+|upkeep
+|turn|11
+|inactive|SteamBuns has 240 seconds left.
+|
+|t:|1644063243
+|move|p1a: monke|Stealth Rock|p2a: Mollux
+|-sidestart|p2: Trade|move: Stealth Rock
+|move|p2a: Mollux|Recover|p2a: Mollux
+|-heal|p2a: Mollux|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mollux|72/100|[from] ability: Dry Skin|[of] p2a: Mollux
+|-heal|p2a: Mollux|78/100|[from] item: Black Sludge
+|-damage|p1a: monke|64/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1644063251
+|move|p1a: monke|U-turn|p2a: Mollux
+|-resisted|p2a: Mollux
+|-damage|p2a: Mollux|74/100
+|
+|t:|1644063254
+|switch|p1a: bop it twist it|Starmie|88/100|[from]move: U-turn
+|-status|p1a: bop it twist it|psn
+|move|p2a: Mollux|Sludge Bomb|p1a: bop it twist it
+|-damage|p1a: bop it twist it|39/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mollux|61/100|[from] ability: Dry Skin|[of] p2a: Mollux
+|-heal|p1a: bop it twist it|45/100 psn|[from] item: Leftovers
+|-heal|p2a: Mollux|67/100|[from] item: Black Sludge
+|-damage|p1a: bop it twist it|33/100 psn|[from] psn
+|upkeep
+|turn|13
+|l| STABLEPRINCE 聖
+|
+|t:|1644063261
+|switch|p2a: Kitsunoh|Kitsunoh, F|100/100
+|-damage|p2a: Kitsunoh|95/100|[from] Stealth Rock
+|-item|p1a: bop it twist it|Leftovers|[from] ability: Frisk|[of] p2a: Kitsunoh
+|move|p1a: bop it twist it|Recover|p1a: bop it twist it
+|-heal|p1a: bop it twist it|83/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: bop it twist it|89/100 psn|[from] item: Leftovers
+|-damage|p1a: bop it twist it|77/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1644063275
+|-curestatus|p1a: bop it twist it|psn|[from] ability: Natural Cure
+|switch|p1a: spamamo|Landorus-Therian, M|84/100
+|-ability|p1a: spamamo|Intimidate|boost
+|-unboost|p2a: Kitsunoh|atk|1
+|move|p2a: Kitsunoh|U-turn|p1a: spamamo
+|-resisted|p1a: spamamo
+|-damage|p1a: spamamo|77/100
+|
+|t:|1644063280
+|switch|p2a: Tomohawk|Tomohawk, M|96/100|[from]move: U-turn
+|-damage|p2a: Tomohawk|84/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063288
+|move|p1a: spamamo|U-turn|p2a: Tomohawk
+|-resisted|p2a: Tomohawk
+|-damage|p2a: Tomohawk|80/100
+|-damage|p1a: spamamo|61/100|[from] item: Rocky Helmet|[of] p2a: Tomohawk
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063297
+|switch|p1a: bop it twist it|Starmie|77/100|[from]move: U-turn
+|-status|p1a: bop it twist it|psn
+|move|p2a: Tomohawk|Rapid Spin|p1a: bop it twist it
+|-damage|p1a: bop it twist it|74/100 psn
+|-sideend|p2: Trade|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tomohawk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: bop it twist it|80/100 psn|[from] item: Leftovers
+|-damage|p1a: bop it twist it|67/100 psn|[from] psn
+|upkeep
+|turn|16
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063309
+|switch|p2a: Kitsunoh|Kitsunoh, F|95/100
+|-item|p1a: bop it twist it|Leftovers|[from] ability: Frisk|[of] p2a: Kitsunoh
+|move|p1a: bop it twist it|Hidden Power|p2a: Kitsunoh
+|-supereffective|p2a: Kitsunoh
+|-damage|p2a: Kitsunoh|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: bop it twist it|74/100 psn|[from] item: Leftovers
+|-damage|p1a: bop it twist it|61/100 psn|[from] psn
+|upkeep
+|turn|17
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063323
+|move|p2a: Kitsunoh|U-turn|p1a: bop it twist it
+|-supereffective|p1a: bop it twist it
+|-damage|p1a: bop it twist it|12/100 psn
+|
+|t:|1644063329
+|switch|p2a: Colossoil|Colossoil, M|43/100|[from]move: U-turn
+|move|p1a: bop it twist it|Hidden Power|p2a: Colossoil
+|-damage|p2a: Colossoil|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: bop it twist it|18/100 psn|[from] item: Leftovers
+|-heal|p2a: Colossoil|26/100|[from] item: Leftovers
+|-damage|p1a: bop it twist it|5/100 psn|[from] psn
+|upkeep
+|turn|18
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063347
+|move|p1a: bop it twist it|Rapid Spin|p2a: Colossoil
+|-damage|p2a: Colossoil|22/100
+|-sideend|p1: SteamBuns|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: bop it twist it
+|move|p2a: Colossoil|U-turn|p1a: bop it twist it
+|-supereffective|p1a: bop it twist it
+|-damage|p1a: bop it twist it|0 fnt
+|faint|p1a: bop it twist it
+|
+|t:|1644063365
+|switch|p2a: Keldeo|Keldeo|88/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|94/100|[from] item: Leftovers
+|upkeep
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063388
+|switch|p1a: pubishmsny|Malaconda, M|100/100
+|turn|19
+|
+|t:|1644063405
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: monke|Infernape, M|64/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: monke|51/100 psn|[from] psn
+|upkeep
+|turn|20
+|inactive|SteamBuns has 270 seconds left.
+|
+|t:|1644063414
+|move|p1a: monke|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Trade|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: monke
+|-sidestart|p1: SteamBuns|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: monke|39/100 psn|[from] psn
+|upkeep
+|turn|21
+|inactive|SteamBuns has 270 seconds left.
+|inactive|SteamBuns has 240 seconds left.
+|inactive|SteamBuns has 210 seconds left.
+|j| Requin✩Bleu
+|inactive|SteamBuns has 180 seconds left.
+|inactive|SteamBuns has 150 seconds left.
+|
+|t:|1644063548
+|switch|p2a: Mollux|Mollux, M|67/100
+|-damage|p2a: Mollux|42/100|[from] Stealth Rock
+|move|p1a: monke|Overheat|p2a: Mollux
+|-resisted|p2a: Mollux
+|-damage|p2a: Mollux|16/100
+|-unboost|p1a: monke|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mollux|3/100|[from] ability: Dry Skin|[of] p2a: Mollux
+|-heal|p2a: Mollux|9/100|[from] item: Black Sludge
+|-damage|p1a: monke|27/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1644063557
+|move|p1a: monke|Close Combat|p2a: Mollux
+|-resisted|p2a: Mollux
+|-damage|p2a: Mollux|0 fnt
+|-unboost|p1a: monke|def|1
+|-unboost|p1a: monke|spd|1
+|faint|p2a: Mollux
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: monke|14/100 psn|[from] psn
+|upkeep
+|
+|t:|1644063578
+|switch|p2a: Colossoil|Colossoil, M|22/100
+|-damage|p2a: Colossoil|16/100|[from] Stealth Rock
+|turn|23
+|j| Micaiah
+|inactive|SteamBuns has 150 seconds left.
+|
+|t:|1644063622
+|move|p2a: Colossoil|Sucker Punch|p1a: monke
+|-resisted|p1a: monke
+|-damage|p1a: monke|0 fnt
+|faint|p1a: monke
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Colossoil|22/100|[from] item: Leftovers
+|upkeep
+|inactive|SteamBuns has 120 seconds left.
+|
+|t:|1644063652
+|switch|p1a: spamamo|Landorus-Therian, M|61/100
+|-damage|p1a: spamamo|49/100|[from] Stealth Rock
+|-ability|p1a: spamamo|Intimidate|boost
+|-unboost|p2a: Colossoil|atk|1
+|turn|24
+|
+|t:|1644063657
+|switch|p2a: Tomohawk|Tomohawk, M|80/100
+|-damage|p2a: Tomohawk|68/100|[from] Stealth Rock
+|move|p1a: spamamo|U-turn|p2a: Tomohawk
+|-resisted|p2a: Tomohawk
+|-damage|p2a: Tomohawk|64/100
+|-damage|p1a: spamamo|32/100|[from] item: Rocky Helmet|[of] p2a: Tomohawk
+|inactive|SteamBuns has 90 seconds left.
+|inactive|SteamBuns has 60 seconds left.
+|
+|t:|1644063735
+|switch|p1a: dom mommy|Stratagem|42/100|[from]move: U-turn
+|-damage|p1a: dom mommy|29/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1644063742
+|move|p2a: Tomohawk|Roost|p2a: Tomohawk
+|-heal|p2a: Tomohawk|100/100
+|-singleturn|p2a: Tomohawk|move: Roost
+|move|p1a: dom mommy|Hidden Power|p2a: Tomohawk
+|-crit|p2a: Tomohawk
+|-damage|p2a: Tomohawk|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1644063750
+|move|p2a: Tomohawk|Roost|p2a: Tomohawk
+|-heal|p2a: Tomohawk|100/100
+|-singleturn|p2a: Tomohawk|move: Roost
+|move|p1a: dom mommy|Flamethrower|p2a: Tomohawk
+|-damage|p2a: Tomohawk|59/100
+|-status|p2a: Tomohawk|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Tomohawk|46/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|SteamBuns has 60 seconds left.
+|
+|t:|1644063763
+|move|p1a: dom mommy|Hidden Power|p2a: Tomohawk
+|-supereffective|p2a: Tomohawk
+|-damage|p2a: Tomohawk|0 fnt
+|faint|p2a: Tomohawk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644063769
+|switch|p2a: Kitsunoh|Kitsunoh, F|33/100
+|-damage|p2a: Kitsunoh|27/100|[from] Stealth Rock
+|-item|p1a: dom mommy|Expert Belt|[from] ability: Frisk|[of] p2a: Kitsunoh
+|turn|28
+|inactive|SteamBuns has 60 seconds left.
+|inactive|SteamBuns has 30 seconds left.
+|
+|t:|1644063812
+|switch|p1a: uwu|Ninetales, F|75/100 psn
+|-damage|p1a: uwu|50/100 psn|[from] Stealth Rock
+|move|p2a: Kitsunoh|Shadow Strike|p1a: uwu|[miss]
+|-miss|p2a: Kitsunoh|p1a: uwu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: uwu|56/100 psn|[from] item: Leftovers
+|-damage|p1a: uwu|43/100 psn|[from] psn
+|upkeep
+|turn|29
+|inactive|SteamBuns has 30 seconds left.
+|
+|t:|1644063822
+|switch|p2a: Keldeo|Keldeo|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|move|p1a: uwu|Fire Spin|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|80/100
+|-activate|p2a: Keldeo|move: Fire Spin|[of] p1a: uwu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|86/100|[from] item: Leftovers
+|-heal|p1a: uwu|49/100 psn|[from] item: Leftovers
+|-damage|p1a: uwu|37/100 psn|[from] psn
+|-damage|p2a: Keldeo|80/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|t:|1644063832
+|move|p2a: Keldeo|Secret Sword|p1a: uwu
+|-damage|p1a: uwu|0 fnt
+|faint|p1a: uwu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644063839
+|switch|p1a: dom mommy|Stratagem|29/100
+|-damage|p1a: dom mommy|17/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1644063842
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: dom mommy|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/100
+|-heal|p1a: dom mommy|19/100|[from] drain|[of] p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1644063867
+|move|p1a: dom mommy|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1644063869
+|switch|p2a: Kitsunoh|Kitsunoh, F|27/100
+|-damage|p2a: Kitsunoh|21/100|[from] Stealth Rock
+|-item|p1a: dom mommy|Expert Belt|[from] ability: Frisk|[of] p2a: Kitsunoh
+|turn|33
+|inactive|SteamBuns has 60 seconds left.
+|
+|t:|1644063895
+|move|p2a: Kitsunoh|U-turn|p1a: dom mommy
+|-damage|p1a: dom mommy|0 fnt
+|faint|p1a: dom mommy
+|
+|t:|1644063902
+|switch|p2a: Keldeo|Keldeo|86/100|[from]move: U-turn
+|-damage|p2a: Keldeo|80/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644063904
+|switch|p1a: pubishmsny|Malaconda, M|100/100
+|-damage|p1a: pubishmsny|88/100|[from] Stealth Rock
+|turn|34
+|inactive|SteamBuns has 60 seconds left.
+|
+|t:|1644063910
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|61/100
+|move|p1a: pubishmsny|Power Whip|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|67/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c| Spitfire arcanine|1
+|
+|t:|1644063915
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|43/100
+|move|p1a: pubishmsny|Power Whip|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|49/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c| LUCK>SKILL|2
+|
+|t:|1644063918
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|24/100
+|move|p1a: pubishmsny|Power Whip|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|30/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c| LUCK>SKILL|3
+|
+|t:|1644063921
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|5/100
+|move|p1a: pubishmsny|Power Whip|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|12/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|c| Spitfire arcanine|4
+|inactive|SteamBuns has 90 seconds left.
+|c| LUCK>SKILL|potentially based
+|c| Spitfire arcanine|pubishmsny
+|c| Spitfire arcanine|pls
+|inactive|SteamBuns has 60 seconds left.
+|
+|t:|1644063969
+|move|p2a: Keldeo|Secret Sword|p1a: pubishmsny
+|-supereffective|p1a: pubishmsny
+|-damage|p1a: pubishmsny|0 fnt
+|faint|p1a: pubishmsny
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keldeo|18/100|[from] item: Leftovers
+|upkeep
+|c|☆Trade|xd
+|
+|t:|1644063974
+|switch|p1a: spamamo|Landorus-Therian, M|32/100
+|-damage|p1a: spamamo|20/100|[from] Stealth Rock
+|-ability|p1a: spamamo|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|39
+|
+|t:|1644063976
+|move|p1a: spamamo|Earthquake|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆SteamBuns|gg
+|
+|t:|1644063980
+|switch|p2a: Colossoil|Colossoil, M|22/100
+|-damage|p2a: Colossoil|16/100|[from] Stealth Rock
+|turn|40
+|c|☆Trade|gg
+|-message|SteamBuns forfeited.
+|
+|win|Trade
+|l|☆SteamBuns
+|l| LUCK>SKILL
+|l|☆Trade
+|l| BlessingoftheWind
+|l| Requin✩Bleu
+|j| LUCK>SKILL
+|l| Amatesta
+|l| BitchAssBoyo
+|j|☆Trade
+|player|p2|Trade|#wcop2021oceania

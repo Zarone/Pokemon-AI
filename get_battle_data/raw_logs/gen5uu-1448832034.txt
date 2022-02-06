@@ -1,0 +1,501 @@
+|j|☆Miramus
+|j|☆faded love
+|t:|1636056341
+|gametype|singles
+|player|p1|Miramus|2|
+|player|p2|faded love|psychicf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, F|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Roserade, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Victini|item
+|poke|p2|Virizion|item
+|poke|p2|Raikou|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Bronzong|item
+|poke|p2|Victini|item
+|poke|p2|Blastoise, M|item
+|teampreview
+|j| blackkaiser
+|
+|t:|1636056350
+|start
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1636056357
+|move|p1a: Druddigon|Earthquake|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|46/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Druddigon
+|-sidestart|p1: Miramus|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|52/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1636056376
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Druddigon|Stealth Rock|p2a: Nidoqueen
+|-sidestart|p2: faded love|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|j| Kenneli
+|l|☆faded love
+|player|p2|
+|j|☆faded love
+|player|p2|faded love|psychicf
+|c|☆Miramus|Question are gems stronger than z moves ?
+|
+|t:|1636056414
+|move|p2a: Nidoqueen|Ice Beam|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|59/100
+|move|p1a: Druddigon|Outrage|p2a: Nidoqueen
+|-enditem|p1a: Druddigon|Dragon Gem|[from] gem
+|-damage|p2a: Nidoqueen|36/100
+|
+|-heal|p2a: Nidoqueen|43/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1636056419
+|move|p2a: Nidoqueen|Ice Beam|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|21/100
+|move|p1a: Druddigon|Outrage|p2a: Nidoqueen|[from]lockedmove
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1636056427
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|5
+|c| blackkaiser|it depends on the z move and the base power of the move
+|
+|t:|1636056431
+|move|p2a: Raikou|Thunderbolt|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|upkeep
+|
+|t:|1636056435
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1636056448
+|switch|p2a: Bronzong|Bronzong|52/100
+|-damage|p2a: Bronzong|46/100|[from] Stealth Rock
+|move|p1a: Flygon|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|29/100
+|c|☆Miramus|Ig
+|
+|t:|1636056455
+|switch|p1a: Blastoise|Blastoise, F|100/100|[from]move: U-turn
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Blastoise|94/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|35/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1636056459
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Blastoise|Rapid Spin|p2a: Blastoise
+|-damage|p2a: Blastoise|86/100
+|-sideend|p1: Miramus|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p1a: Blastoise|99/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1636056463
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Blastoise|Rapid Spin|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|-sideend|p2: faded love|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p1a: Zapdos|99/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c| blackkaiser|z moves usually stronger tho
+|
+|t:|1636056493
+|switch|p2a: Virizion|Virizion|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|79/100
+|
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|j|+r0ady
+|c|☆Miramus|Tbh gems are probably better you can use more than one and it let use moves like acrobatics
+|j| forestcave
+|
+|t:|1636056525
+|switch|p1a: Roserade|Roserade, M|100/100
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1636056536
+|move|p2a: Virizion|Calm Mind|p2a: Virizion
+|-boost|p2a: Virizion|spa|1
+|-boost|p2a: Virizion|spd|1
+|move|p1a: Roserade|Sludge Bomb|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|27/100
+|-status|p2a: Virizion|psn
+|-damage|p1a: Roserade|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Virizion|15/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1636056539
+|move|p2a: Virizion|Synthesis|p2a: Virizion
+|-heal|p2a: Virizion|65/100 psn
+|move|p1a: Roserade|Synthesis|p1a: Roserade
+|-heal|p1a: Roserade|100/100
+|
+|-damage|p2a: Virizion|52/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1636056542
+|move|p2a: Virizion|Focus Blast|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|33/100
+|-unboost|p1a: Roserade|spd|1
+|move|p1a: Roserade|Sludge Bomb|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|4/100 psn
+|-damage|p1a: Roserade|23/100|[from] item: Life Orb
+|
+|-damage|p2a: Virizion|0 fnt|[from] psn
+|faint|p2a: Virizion
+|upkeep
+|
+|t:|1636056550
+|switch|p2a: Raikou|Raikou|88/100
+|-ability|p2a: Raikou|Pressure
+|turn|14
+|
+|t:|1636056556
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Raikou|Hidden Power|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|84/100
+|
+|upkeep
+|turn|15
+|
+|t:|1636056561
+|switch|p2a: Blastoise|Blastoise, M|98/100
+|move|p1a: Victini|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|78/100
+|
+|t:|1636056566
+|switch|p1a: Roserade|Roserade, M|23/100|[from]move: U-turn
+|
+|-heal|p2a: Blastoise|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1636056569
+|switch|p2a: Bronzong|Bronzong|35/100
+|move|p1a: Roserade|Sleep Powder|p2a: Bronzong|[miss]
+|-miss|p1a: Roserade|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|42/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1636056571
+|move|p1a: Roserade|Leaf Storm|p2a: Bronzong|[miss]
+|-miss|p1a: Roserade|p2a: Bronzong
+|move|p2a: Bronzong|Stealth Rock|p1a: Roserade
+|-sidestart|p1: Miramus|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|48/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|l| forestcave
+|
+|t:|1636056574
+|move|p1a: Roserade|Sleep Powder|p2a: Bronzong
+|-status|p2a: Bronzong|slp|[from] move: Sleep Powder
+|cant|p2a: Bronzong|slp
+|
+|-heal|p2a: Bronzong|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1636056576
+|move|p1a: Roserade|Synthesis|p1a: Roserade
+|-heal|p1a: Roserade|73/100
+|cant|p2a: Bronzong|slp
+|
+|-heal|p2a: Bronzong|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1636056580
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|cant|p2a: Bronzong|slp
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|66/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1636056586
+|switch|p2a: Raikou|Raikou|88/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Zapdos|Heat Wave|p2a: Raikou
+|-damage|p2a: Raikou|54/100
+|
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|j| 467 11 11p
+|
+|t:|1636056589
+|move|p2a: Raikou|Hidden Power|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100
+|move|p1a: Zapdos|Heat Wave|p2a: Raikou
+|-damage|p2a: Raikou|20/100
+|-status|p2a: Raikou|brn
+|
+|-heal|p1a: Zapdos|19/100|[from] item: Leftovers
+|-damage|p2a: Raikou|8/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1636056598
+|move|p2a: Raikou|Hidden Power|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-damage|p2a: Raikou|0 fnt|[from] brn
+|faint|p2a: Raikou
+|upkeep
+|
+|t:|1636056603
+|switch|p2a: Victini|Victini|100/100
+|switch|p1a: Flygon|Flygon, M|95/100
+|-damage|p1a: Flygon|89/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1636056609
+|move|p1a: Flygon|U-turn|p2a: Victini
+|-damage|p2a: Victini|82/100
+|
+|t:|1636056612
+|switch|p1a: Blastoise|Blastoise, F|99/100|[from]move: U-turn
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|62/100
+|
+|t:|1636056624
+|switch|p2a: Blastoise|Blastoise, M|84/100|[from]move: U-turn
+|
+|-heal|p1a: Blastoise|68/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|90/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1636056628
+|move|p2a: Blastoise|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|57/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Blastoise
+|-damage|p2a: Blastoise|88/100
+|-sideend|p1: Miramus|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p1a: Blastoise|63/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1636056631
+|move|p1a: Blastoise|Scald|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|83/100
+|-status|p2a: Blastoise|brn
+|move|p2a: Blastoise|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|52/100
+|
+|-heal|p1a: Blastoise|58/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Blastoise|77/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1636056640
+|move|p2a: Blastoise|Refresh|p2a: Blastoise
+|-curestatus|p2a: Blastoise|brn|[msg]
+|move|p1a: Blastoise|Roar|p2a: Blastoise
+|drag|p2a: Victini|Victini|82/100
+|
+|-heal|p1a: Blastoise|64/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1636056642
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|49/100
+|
+|t:|1636056644
+|switch|p2a: Blastoise|Blastoise, M|77/100|[from]move: U-turn
+|move|p1a: Blastoise|Scald|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|65/100
+|
+|-heal|p2a: Blastoise|71/100|[from] item: Leftovers
+|-heal|p1a: Blastoise|55/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1636056648
+|move|p2a: Blastoise|Scald|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|44/100
+|move|p1a: Blastoise|Scald|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|61/100
+|-status|p2a: Blastoise|brn
+|
+|-heal|p2a: Blastoise|67/100 brn|[from] item: Leftovers
+|-heal|p1a: Blastoise|50/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|55/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1636056659
+|switch|p1a: Roserade|Roserade, M|73/100
+|move|p2a: Blastoise|Refresh|p2a: Blastoise
+|-curestatus|p2a: Blastoise|brn|[msg]
+|
+|-heal|p2a: Blastoise|61/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1636056664
+|switch|p2a: Victini|Victini|82/100
+|move|p1a: Roserade|Leaf Storm|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|38/100
+|-unboost|p1a: Roserade|spa|2
+|-damage|p1a: Roserade|63/100|[from] item: Life Orb
+|
+|upkeep
+|turn|32
+|
+|t:|1636056670
+|move|p2a: Victini|V-create|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1636056674
+|switch|p1a: Victini|Victini|84/100
+|turn|33
+|
+|t:|1636056677
+|switch|p2a: Bronzong|Bronzong|66/100 slp
+|move|p1a: Victini|Bolt Strike|p2a: Bronzong
+|-damage|p2a: Bronzong|20/100 slp
+|
+|-heal|p2a: Bronzong|27/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1636056679
+|cant|p2a: Bronzong|slp
+|move|p1a: Victini|Bolt Strike|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1636056681
+|switch|p2a: Blastoise|Blastoise, M|61/100
+|turn|35
+|
+|t:|1636056685
+|move|p1a: Victini|Bolt Strike|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1636056688
+|switch|p2a: Victini|Victini|38/100
+|turn|36
+|c|☆Miramus|Did that crit change anything i hope not
+|
+|t:|1636056706
+|move|p2a: Victini|Bolt Strike|p1a: Victini
+|-damage|p1a: Victini|48/100
+|-status|p1a: Victini|par
+|move|p1a: Victini|Bolt Strike|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|win|Miramus
+|n|☆Miramus|miramus
+|n| blackkaiser|blackkaiser
+|n| Kenneli|kenneli
+|n|☆faded love|fadedlove
+|n| r0ady|r0ady
+|n| 467 11 11p|4671111p

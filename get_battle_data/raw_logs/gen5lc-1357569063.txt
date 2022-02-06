@@ -1,0 +1,283 @@
+|j|☆Kzp
+|j|☆kez123
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1623510387
+|gametype|singles
+|player|p1|Kzp|red|
+|player|p2|kez123|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Houndour, L5, M|item
+|poke|p1|Shellder, L5, M|item
+|poke|p1|Trapinch, L5, M|item
+|poke|p1|Elekid, L5, M|item
+|poke|p1|Anorith, L5, M|item
+|poke|p1|Doduo, L5, M|item
+|poke|p2|Dwebble, L5, M|item
+|poke|p2|Vullaby, L5, F|item
+|poke|p2|Pawniard, L5, F|item
+|poke|p2|Chinchou, L5, M|item
+|poke|p2|Axew, L5, M|item
+|poke|p2|Bidoof, L5, M|item
+|teampreview
+|inactive|kez123 has 120 seconds left.
+|
+|t:|1623510438
+|start
+|switch|p1a: Trapinch|Trapinch, L5, M|100/100
+|switch|p2a: Barker|Dwebble, L5, M|100/100
+|turn|1
+|inactive|kez123 has 120 seconds left.
+|
+|t:|1623510487
+|move|p2a: Barker|Spikes|p1a: Trapinch
+|-sidestart|p1: Kzp|Spikes
+|move|p1a: Trapinch|Rock Slide|p2a: Barker
+|-supereffective|p2a: Barker
+|-damage|p2a: Barker|57/100
+|-ability|p2a: Barker|Weak Armor|boost
+|-unboost|p2a: Barker|def|1
+|-boost|p2a: Barker|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1623510496
+|move|p2a: Barker|Stealth Rock|p1a: Trapinch
+|-sidestart|p1: Kzp|move: Stealth Rock
+|move|p1a: Trapinch|Rock Slide|p2a: Barker
+|-supereffective|p2a: Barker
+|-damage|p2a: Barker|5/100
+|-ability|p2a: Barker|Weak Armor|boost
+|-unboost|p2a: Barker|def|1
+|-boost|p2a: Barker|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1623510505
+|move|p1a: Trapinch|Quick Attack|p2a: Barker
+|-resisted|p2a: Barker
+|-damage|p2a: Barker|0 fnt
+|faint|p2a: Barker
+|
+|upkeep
+|
+|t:|1623510533
+|switch|p2a: Bidoof|Bidoof, L5, M|100/100
+|turn|4
+|
+|t:|1623510539
+|move|p2a: Bidoof|Aqua Tail|p1a: Trapinch
+|-supereffective|p1a: Trapinch
+|-damage|p1a: Trapinch|19/100
+|-enditem|p1a: Trapinch|Sitrus Berry|[eat]
+|-heal|p1a: Trapinch|41/100|[from] item: Sitrus Berry
+|move|p1a: Trapinch|Earthquake|p2a: Bidoof
+|-damage|p2a: Bidoof|14/100
+|-enditem|p2a: Bidoof|Sitrus Berry|[eat]
+|-heal|p2a: Bidoof|37/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|5
+|
+|t:|1623510555
+|move|p1a: Trapinch|Quick Attack|p2a: Bidoof
+|-crit|p2a: Bidoof
+|-damage|p2a: Bidoof|0 fnt
+|faint|p2a: Bidoof
+|
+|upkeep
+|
+|t:|1623510563
+|switch|p2a: Hoppus|Pawniard, L5, F|100/100
+|turn|6
+|
+|t:|1623510568
+|move|p2a: Hoppus|Knock Off|p1a: Trapinch
+|-damage|p1a: Trapinch|23/100
+|move|p1a: Trapinch|Earthquake|p2a: Hoppus
+|-supereffective|p2a: Hoppus
+|-damage|p2a: Hoppus|5/100
+|
+|upkeep
+|turn|7
+|
+|t:|1623510575
+|move|p2a: Hoppus|Sucker Punch|p1a: Trapinch
+|-damage|p1a: Trapinch|0 fnt
+|faint|p1a: Trapinch
+|
+|upkeep
+|
+|t:|1623510579
+|switch|p1a: Shellder|Shellder, L5, M|100/100
+|-damage|p1a: Shellder|91/100|[from] Spikes
+|-damage|p1a: Shellder|82/100|[from] Stealth Rock
+|turn|8
+|inactive|kez123 has 120 seconds left.
+|
+|t:|1623510588
+|move|p2a: Hoppus|Thunder Wave|p1a: Shellder
+|-status|p1a: Shellder|par
+|cant|p1a: Shellder|par
+|
+|upkeep
+|turn|9
+|
+|t:|1623510595
+|move|p2a: Hoppus|Iron Head|p1a: Shellder
+|-resisted|p1a: Shellder
+|-damage|p1a: Shellder|64/100 par
+|cant|p1a: Shellder|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1623510604
+|move|p2a: Hoppus|Iron Head|p1a: Shellder
+|-resisted|p1a: Shellder
+|-damage|p1a: Shellder|46/100 par
+|-enditem|p1a: Shellder|Sitrus Berry|[eat]
+|-heal|p1a: Shellder|69/100 par|[from] item: Sitrus Berry
+|cant|p1a: Shellder|flinch
+|
+|upkeep
+|turn|11
+|
+|t:|1623510611
+|switch|p2a: Smith|Chinchou, L5, M|100/100
+|cant|p1a: Shellder|par
+|
+|upkeep
+|turn|12
+|
+|t:|1623510623
+|move|p2a: Smith|Thunderbolt|p1a: Shellder
+|-supereffective|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|faint|p1a: Shellder
+|
+|upkeep
+|
+|t:|1623510629
+|switch|p1a: Elekid|Elekid, L5, M|100/100
+|-damage|p1a: Elekid|91/100|[from] Stealth Rock
+|-damage|p1a: Elekid|81/100|[from] Spikes
+|turn|13
+|
+|t:|1623510644
+|switch|p2a: Axew|Axew, L5, M|100/100
+|move|p1a: Elekid|Hidden Power|p2a: Axew
+|-resisted|p2a: Axew
+|-damage|p2a: Axew|77/100
+|
+|upkeep
+|turn|14
+|
+|t:|1623510653
+|move|p1a: Elekid|Ice Punch|p2a: Axew
+|-supereffective|p2a: Axew
+|-damage|p2a: Axew|29/100
+|-enditem|p2a: Axew|Sitrus Berry|[eat]
+|-heal|p2a: Axew|53/100|[from] item: Sitrus Berry
+|move|p2a: Axew|Dragon Dance|p2a: Axew
+|-boost|p2a: Axew|atk|1
+|-boost|p2a: Axew|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1623510664
+|move|p2a: Axew|Outrage|p1a: Elekid
+|-damage|p1a: Elekid|0 fnt
+|-status|p2a: Axew|par|[from] ability: Static|[of] p1a: Elekid
+|faint|p1a: Elekid
+|
+|upkeep
+|
+|t:|1623510675
+|switch|p1a: Doduo|Doduo, L5, M|100/100
+|-damage|p1a: Doduo|75/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1623510680
+|move|p1a: Doduo|Double-Edge|p2a: Axew
+|-damage|p2a: Axew|0 fnt
+|faint|p2a: Axew
+|-damage|p1a: Doduo|56/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1623510687
+|switch|p2a: Hoppus|Pawniard, L5, F|5/100
+|turn|17
+|
+|t:|1623510695
+|switch|p1a: Houndour|Houndour, L5, M|100/100
+|-damage|p1a: Houndour|77/100|[from] Stealth Rock
+|-damage|p1a: Houndour|67/100|[from] Spikes
+|move|p2a: Hoppus|Sucker Punch||[still]
+|-fail|p2a: Hoppus
+|
+|upkeep
+|turn|18
+|
+|t:|1623510704
+|move|p1a: Houndour|Crunch|p2a: Hoppus
+|-resisted|p2a: Hoppus
+|-damage|p2a: Hoppus|0 fnt
+|faint|p2a: Hoppus
+|
+|upkeep
+|
+|t:|1623510710
+|switch|p2a: Smith|Chinchou, L5, M|100/100
+|turn|19
+|
+|t:|1623510721
+|move|p2a: Smith|Scald|p1a: Houndour
+|-supereffective|p1a: Houndour
+|-damage|p1a: Houndour|0 fnt
+|faint|p1a: Houndour
+|
+|upkeep
+|
+|t:|1623510725
+|switch|p1a: Doduo|Doduo, L5, M|56/100
+|-damage|p1a: Doduo|30/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1623510730
+|move|p2a: Smith|Scald|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|
+|upkeep
+|
+|t:|1623510734
+|switch|p1a: Anorith|Anorith, L5, M|100/100
+|-damage|p1a: Anorith|91/100|[from] Spikes
+|-damage|p1a: Anorith|67/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1623510739
+|move|p2a: Smith|Scald|p1a: Anorith
+|-supereffective|p1a: Anorith
+|-damage|p1a: Anorith|0 fnt
+|faint|p1a: Anorith
+|
+|win|kez123
+|n|☆Kzp|kzp
+|n|☆kez123|kez123

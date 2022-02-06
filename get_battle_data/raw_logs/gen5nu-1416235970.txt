@@ -1,0 +1,562 @@
+|j|☆sensei axew
+|j|☆Oathkeepre
+|t:|1631578501
+|gametype|singles
+|player|p1|sensei axew|teammagmagruntf-gen3|
+|player|p2|Oathkeepre|acetrainer-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, M|item
+|poke|p1|Regice|item
+|poke|p1|Duosion, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Rotom-Fan|item
+|poke|p1|Golurk|item
+|poke|p2|Serperior, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Primeape, F|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Weezing, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sensei axew)
+|j|+Catalisador
+|c|+Catalisador|glhf 2 both friends
+|c|☆Oathkeepre|my bf sensei axew!
+|j| 85percent
+|c|+Catalisador|omg duosion *_* how gorgeous
+|j| J.P.G1337
+|j| Tlenit
+|c|☆sensei axew|hf!
+|c|☆Oathkeepre|u2!
+|inactive|Oathkeepre has 120 seconds left.
+|j| forestcave
+|c|+Catalisador|i remember when i used that as a slowbro-galar replacement here lol
+|j| TheKingKarp
+|j| xbossarux
+|
+|t:|1631578554
+|start
+|switch|p1a: Regice|Regice|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|t:|1631578563
+|move|p2a: Seismitoad|Stealth Rock|p1a: Regice
+|-sidestart|p1: sensei axew|move: Stealth Rock
+|move|p1a: Regice|Ice Beam|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|13/100
+|
+|-heal|p2a: Seismitoad|19/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Oathkeepre|ouch
+|j| qfb
+|j| Ninja
+|
+|t:|1631578593
+|move|p2a: Seismitoad|Toxic|p1a: Regice
+|-status|p1a: Regice|tox
+|move|p1a: Regice|Ice Beam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Regice|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1631578604
+|switch|p2a: Primeape|Primeape, F|100/100
+|turn|3
+|inactive|Oathkeepre has 120 seconds left.
+|
+|t:|1631578640
+|move|p1a: Regice|Protect|p1a: Regice
+|-singleturn|p1a: Regice|Protect
+|move|p2a: Primeape|Close Combat|p1a: Regice
+|-activate|p1a: Regice|move: Protect
+|
+|-heal|p1a: Regice|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Regice|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|c| qfb|Ur boyfriend is cata?
+|c| qfb|down bad
+|
+|t:|1631578653
+|switch|p2a: Charizard|Charizard, F|100/100
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Golurk|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|sensei axew has 120 seconds left.
+|j| Expulso
+|c|+Catalisador|gw's not my boyfriend
+|c|+Catalisador|;(
+|c| qfb|:(
+|
+|t:|1631578699
+|move|p2a: Charizard|Fire Blast|p1a: Golurk
+|-damage|p1a: Golurk|25/100
+|move|p1a: Golurk|Stealth Rock|p2a: Charizard
+|-sidestart|p2: Oathkeepre|move: Stealth Rock
+|
+|-heal|p1a: Golurk|31/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c| qfb|expulso
+|
+|t:|1631578705
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Fire Blast|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|56/100
+|-status|p1a: Alomomola|brn
+|
+|-heal|p1a: Alomomola|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|50/100 brn|[from] brn
+|upkeep
+|turn|7
+|c| qfb|did u sign up for super hidden ability
+|c| Expulso|no
+|c| qfb|L
+|
+|t:|1631578725
+|switch|p2a: Weezing|Weezing, F, shiny|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Mirror Coat||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|44/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Oathkeepre has 90 seconds left.
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631578774
+|move|p2a: Weezing|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|cant|p1a: Alomomola|move: Taunt|Wish
+|
+|-heal|p1a: Alomomola|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|37/100 brn|[from] brn
+|upkeep
+|turn|9
+|j| xImRaptor ☾
+|inactive|Oathkeepre has 90 seconds left.
+|
+|t:|1631578799
+|switch|p2a: Primeape|Primeape, F|100/100
+|-damage|p2a: Primeape|95/100|[from] Stealth Rock
+|switch|p1a: Duosion|Duosion, M|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1631578818
+|move|p2a: Primeape|U-turn|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|68/100
+|
+|t:|1631578821
+|switch|p2a: Skuntank|Skuntank, F, shiny|100/100|[from]move: U-turn
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: Duosion|Thunder|p2a: Skuntank
+|-damage|p2a: Skuntank|50/100
+|-status|p2a: Skuntank|par
+|
+|-heal|p2a: Skuntank|56/100 par|[from] item: Black Sludge
+|upkeep
+|turn|11
+|inactive|Oathkeepre has 90 seconds left.
+|c|☆Oathkeepre|rude
+|c|☆sensei axew|it chewed
+|
+|t:|1631578839
+|-activate|p1a: Duosion|move: Pursuit
+|move|p2a: Skuntank|Pursuit|p1a: Duosion|[from]Pursuit
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|17/100
+|switch|p1a: Alomomola|Alomomola, M|71/100 brn
+|-damage|p1a: Alomomola|58/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Alomomola|65/100 brn|[from] item: Leftovers
+|-heal|p2a: Skuntank|62/100 par|[from] item: Black Sludge
+|-damage|p1a: Alomomola|52/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|Oathkeepre has 60 seconds left.
+|
+|t:|1631578872
+|switch|p2a: Serperior|Serperior, M, shiny|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|58/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|46/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Oathkeepre has 60 seconds left.
+|j| Elfuseon
+|
+|t:|1631578889
+|switch|p2a: Primeape|Primeape, F|95/100
+|-damage|p2a: Primeape|89/100|[from] Stealth Rock
+|switch|p1a: Regice|Regice|88/100 tox
+|-damage|p1a: Regice|63/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Regice|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Regice|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|Oathkeepre has 60 seconds left.
+|
+|t:|1631578901
+|move|p1a: Regice|Protect|p1a: Regice
+|-singleturn|p1a: Regice|Protect
+|move|p2a: Primeape|Close Combat|p1a: Regice
+|-activate|p1a: Regice|move: Protect
+|
+|-heal|p1a: Regice|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Regice|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|l| TheKingKarp
+|inactive|Oathkeepre has 60 seconds left.
+|
+|t:|1631578921
+|switch|p1a: Golurk|Golurk|31/100
+|-damage|p1a: Golurk|25/100|[from] Stealth Rock
+|move|p2a: Primeape|Close Combat|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|-heal|p1a: Golurk|31/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631578933
+|switch|p2a: Weezing|Weezing, F, shiny|88/100
+|-damage|p2a: Weezing|76/100|[from] Stealth Rock
+|switch|p1a: Alomomola|Alomomola, M|79/100 brn
+|-damage|p1a: Alomomola|67/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Alomomola|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|60/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631578943
+|move|p2a: Weezing|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|cant|p1a: Alomomola|move: Taunt|Wish
+|
+|-heal|p1a: Alomomola|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|54/100 brn|[from] brn
+|upkeep
+|turn|18
+|j| Surfy
+|
+|t:|1631578959
+|move|p2a: Weezing|Will-O-Wisp|p1a: Alomomola
+|-fail|p1a: Alomomola|brn
+|move|p1a: Alomomola|Scald|p2a: Weezing
+|-damage|p2a: Weezing|57/100
+|
+|-heal|p1a: Alomomola|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|48/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1631578968
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Weezing|Sludge Bomb|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|71/100
+|
+|upkeep
+|turn|20
+|
+|t:|1631578980
+|move|p1a: Skuntank|Crunch|p2a: Weezing
+|-damage|p2a: Weezing|32/100
+|-damage|p1a: Skuntank|54/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|move|p2a: Weezing|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|-enditem|p1a: Skuntank|Lum Berry|[eat]
+|-curestatus|p1a: Skuntank|brn|[msg]
+|
+|upkeep
+|turn|21
+|l|+Catalisador
+|
+|t:|1631578995
+|move|p1a: Skuntank|Crunch|p2a: Weezing
+|-damage|p2a: Weezing|7/100
+|-damage|p1a: Skuntank|38/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|move|p2a: Weezing|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|
+|-damage|p1a: Skuntank|26/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|Oathkeepre has 60 seconds left.
+|
+|t:|1631579007
+|move|p1a: Skuntank|Crunch|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Skuntank|9/100 brn|[from] item: Rocky Helmet|[of] p2a: Weezing
+|faint|p2a: Weezing
+|
+|-damage|p1a: Skuntank|0 fnt|[from] brn
+|faint|p1a: Skuntank
+|upkeep
+|inactive|Oathkeepre has 60 seconds left.
+|j| Asskov
+|
+|t:|1631579037
+|switch|p1a: Alomomola|Alomomola, M|81/100 brn
+|switch|p2a: Primeape|Primeape, F|89/100
+|-damage|p2a: Primeape|83/100|[from] Stealth Rock
+|-damage|p1a: Alomomola|69/100 brn|[from] Stealth Rock
+|turn|23
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631579078
+|move|p2a: Primeape|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|53/100 brn
+|
+|t:|1631579085
+|switch|p2a: Serperior|Serperior, M, shiny|88/100|[from]move: U-turn
+|-damage|p2a: Serperior|76/100|[from] Stealth Rock
+|move|p1a: Alomomola|Scald|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|68/100
+|
+|-heal|p1a: Alomomola|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|47/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631579098
+|switch|p1a: Duosion|Duosion, M|17/100
+|move|p2a: Serperior|Calm Mind|p2a: Serperior
+|-boost|p2a: Serperior|spa|1
+|-boost|p2a: Serperior|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1631579105
+|move|p2a: Serperior|Giga Drain|p1a: Duosion
+|-damage|p1a: Duosion|0 fnt
+|-heal|p2a: Serperior|77/100|[from] drain|[of] p1a: Duosion
+|faint|p1a: Duosion
+|-damage|p2a: Serperior|67/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1631579107
+|switch|p1a: Regice|Regice|88/100 tox
+|-damage|p1a: Regice|63/100 tox|[from] Stealth Rock
+|turn|26
+|inactive|Oathkeepre has 30 seconds left.
+|inactive|Oathkeepre has 20 seconds left.
+|inactive|Oathkeepre has 15 seconds left.
+|
+|t:|1631579157
+|switch|p2a: Skuntank|Skuntank, F, shiny|62/100 par
+|-damage|p2a: Skuntank|49/100 par|[from] Stealth Rock
+|move|p1a: Regice|Ice Beam|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|-heal|p1a: Regice|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Regice|63/100 tox|[from] psn
+|upkeep
+|inactive|Oathkeepre has 20 seconds left this turn.
+|inactive|Oathkeepre has 15 seconds left.
+|
+|t:|1631579167
+|switch|p2a: Charizard|Charizard, F|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|27
+|inactive|Oathkeepre has 25 seconds left this turn.
+|inactive|sensei axew has 120 seconds left.
+|inactive|Oathkeepre has 20 seconds left.
+|inactive|Oathkeepre has 15 seconds left.
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631579222
+|switch|p1a: Golurk|Golurk|31/100
+|-damage|p1a: Golurk|25/100|[from] Stealth Rock
+|move|p2a: Charizard|Fire Blast|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|inactive|Oathkeepre has 20 seconds left this turn.
+|
+|t:|1631579224
+|switch|p1a: Alomomola|Alomomola, M|80/100 brn
+|-damage|p1a: Alomomola|68/100 brn|[from] Stealth Rock
+|turn|28
+|inactive|Oathkeepre has 30 seconds left this turn.
+|inactive|Oathkeepre has 20 seconds left.
+|
+|t:|1631579239
+|switch|p2a: Primeape|Primeape, F|83/100
+|-damage|p2a: Primeape|77/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|61/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|Oathkeepre has 30 seconds left this turn.
+|inactive|Oathkeepre has 20 seconds left.
+|
+|t:|1631579253
+|move|p2a: Primeape|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|45/100 brn
+|inactive|Oathkeepre has 25 seconds left this turn.
+|
+|t:|1631579255
+|switch|p2a: Serperior|Serperior, M, shiny|67/100|[from]move: U-turn
+|-damage|p2a: Serperior|54/100|[from] Stealth Rock
+|move|p1a: Alomomola|Scald|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|46/100
+|
+|-heal|p1a: Alomomola|95/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|sensei axew has 90 seconds left.
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1631579271
+|move|p2a: Serperior|Calm Mind|p2a: Serperior
+|-boost|p2a: Serperior|spa|1
+|-boost|p2a: Serperior|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|82/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|sensei axew has 90 seconds left.
+|inactive|Oathkeepre has 30 seconds left.
+|inactive|Oathkeepre has 20 seconds left.
+|
+|t:|1631579291
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Serperior|Hidden Power|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Serperior|36/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Oathkeepre has 25 seconds left this turn.
+|inactive|sensei axew has 90 seconds left.
+|
+|t:|1631579297
+|switch|p1a: Regice|Regice|63/100 tox
+|-damage|p1a: Regice|38/100 tox|[from] Stealth Rock
+|turn|32
+|inactive|Oathkeepre has 30 seconds left.
+|inactive|Oathkeepre has 20 seconds left.
+|inactive|Oathkeepre has 15 seconds left.
+|
+|t:|1631579321
+|move|p2a: Serperior|Hidden Power|p1a: Regice
+|-supereffective|p1a: Regice
+|-damage|p1a: Regice|4/100 tox
+|-damage|p2a: Serperior|26/100|[from] item: Life Orb
+|move|p1a: Regice|Ice Beam|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-heal|p1a: Regice|10/100 tox|[from] item: Leftovers
+|-damage|p1a: Regice|4/100 tox|[from] psn
+|upkeep
+|inactive|Oathkeepre has 20 seconds left this turn.
+|inactive|Oathkeepre has 15 seconds left.
+|inactive|Oathkeepre has 10 seconds left.
+|
+|t:|1631579333
+|switch|p2a: Primeape|Primeape, F|77/100
+|-damage|p2a: Primeape|71/100|[from] Stealth Rock
+|turn|33
+|inactive|Oathkeepre has 20 seconds left this turn.
+|
+|t:|1631579339
+|move|p2a: Primeape|U-turn|p1a: Regice
+|-crit|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|faint|p1a: Regice
+|inactive|Oathkeepre has 25 seconds left this turn.
+|
+|t:|1631579342
+|switch|p2a: Charizard|Charizard, F|51/100|[from]move: U-turn
+|-damage|p2a: Charizard|1/100|[from] Stealth Rock
+|
+|upkeep
+|inactive|Oathkeepre has 30 seconds left this turn.
+|
+|t:|1631579344
+|switch|p1a: Alomomola|Alomomola, M|100/100 brn
+|-damage|p1a: Alomomola|88/100 brn|[from] Stealth Rock
+|turn|34
+|
+|t:|1631579349
+|move|p2a: Charizard|Hidden Power|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|win|Oathkeepre
+|n|☆sensei axew|senseiaxew
+|n|☆Oathkeepre|oathkeepre
+|n| 85percent|85percent
+|n| J.P.G1337|jpg1337
+|n| Tlenit|tlenit
+|n| forestcave|forestcave
+|n| xbossarux|xbossarux
+|n| qfb|qfb
+|n| Ninja|ninja
+|n| Expulso|expulso
+|n| xImRaptor ☾|ximraptor
+|n| Elfuseon|elfuseon
+|n| Surfy|surfy
+|n| Asskov|asskov
+|c|☆sensei axew|gg
+|c|☆Oathkeepre|gg
+|l| forestcave
+|l|☆sensei axew

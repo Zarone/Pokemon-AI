@@ -1,0 +1,354 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642381636
+|gametype|singles
+|player|p1|Trade|cyclist-gen4|
+|player|p2|iss|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lileep, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Archen, L5, M|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|c|☆iss|gl!
+|c|☆Trade|gl!
+|inactive|iss has 270 seconds left.
+|
+|t:|1642381677
+|start
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|switch|p2a: Archen|Archen, L5, M|100/100
+|turn|1
+|
+|t:|1642381700
+|move|p2a: Archen|Protect|p2a: Archen
+|-singleturn|p2a: Archen|Protect
+|move|p1a: Gastly|Will-O-Wisp|p2a: Archen
+|-activate|p2a: Archen|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1642381708
+|switch|p2a: Staryu|Staryu, L5|100/100
+|move|p1a: Gastly|Substitute|p1a: Gastly
+|-start|p1a: Gastly|Substitute
+|-damage|p1a: Gastly|75/100
+|
+|-heal|p1a: Gastly|80/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1642381718
+|move|p2a: Staryu|Thunderbolt|p1a: Gastly
+|-end|p1a: Gastly|Substitute
+|move|p1a: Gastly|Trick|p2a: Staryu
+|-activate|p1a: Gastly|move: Trick|[of] p2a: Staryu
+|-item|p2a: Staryu|Black Sludge|[from] move: Trick
+|-item|p1a: Gastly|Eviolite|[from] move: Trick
+|
+|-damage|p2a: Staryu|91/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1642381739
+|move|p2a: Staryu|Scald|p1a: Gastly
+|-damage|p1a: Gastly|35/100
+|move|p1a: Gastly|Shadow Ball|p2a: Staryu
+|-damage|p2a: Staryu|20/100
+|
+|-damage|p2a: Staryu|10/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1642381752
+|switch|p1a: Lileep|Lileep, L5, M|100/100
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|62/100
+|
+|-damage|p2a: Staryu|53/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1642381755
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Lileep|Stealth Rock|p2a: Mienfoo
+|-sidestart|p2: iss|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1642381769
+|move|p2a: Mienfoo|Knock Off|p1a: Lileep
+|-damage|p1a: Lileep|97/100
+|-enditem|p1a: Lileep|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|move|p1a: Lileep|Toxic|p2a: Mienfoo
+|-status|p2a: Mienfoo|tox
+|
+|-damage|p2a: Mienfoo|96/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1642381773
+|switch|p1a: Gastly|Gastly, L5, M|35/100
+|move|p2a: Mienfoo|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-crit|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|-enditem|p1a: Gastly|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|faint|p1a: Gastly
+|
+|-damage|p2a: Mienfoo|87/100 tox|[from] psn
+|upkeep
+|
+|t:|1642381781
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|9
+|
+|t:|1642381789
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|73/100 tox
+|
+|t:|1642381794
+|switch|p1a: Natu|Natu, L5, F|100/100|[from]move: U-turn
+|move|p2a: Mienfoo|U-turn|p1a: Natu
+|-damage|p1a: Natu|74/100
+|inactive|iss has 270 seconds left.
+|inactive|iss has 240 seconds left.
+|
+|t:|1642381877
+|switch|p2a: Gastly|Gastly, L5, M|100/100|[from]move: U-turn
+|-damage|p2a: Gastly|90/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|inactive|Trade has 270 seconds left.
+|
+|t:|1642381910
+|switch|p1a: Lileep|Lileep, L5, M|97/100
+|move|p2a: Gastly|Sludge Bomb|p1a: Lileep
+|-damage|p1a: Lileep|24/100
+|-damage|p2a: Gastly|85/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1642381918
+|move|p2a: Gastly|Sludge Bomb|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|faint|p1a: Lileep
+|-damage|p2a: Gastly|79/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642381920
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|turn|12
+|
+|t:|1642381947
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|78/100
+|move|p2a: Gastly|Shadow Ball|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|-damage|p2a: Gastly|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1642381950
+|move|p1a: Diglett|Beat Up|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-crit|p2a: Gastly
+|-damage|p2a: Gastly|6/100
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|-hitcount|p2: Gastly|2
+|-damage|p1a: Diglett|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642381956
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-damage|p2a: Porygon|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Sand Force|[from] ability: Trace|[of] p1a: Diglett
+|turn|14
+|
+|t:|1642381965
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Porygon|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|40/100
+|
+|upkeep
+|turn|15
+|
+|t:|1642381982
+|switch|p1a: Natu|Natu, L5, F|74/100
+|move|p2a: Porygon|Thunderbolt|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|14/100
+|
+|upkeep
+|turn|16
+|
+|t:|1642381997
+|move|p1a: Natu|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|64/100
+|-unboost|p2a: Porygon|spd|1
+|move|p2a: Porygon|Thunderbolt|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|upkeep
+|
+|t:|1642382000
+|switch|p1a: Mienfoo|Mienfoo, L5, M|70/100
+|turn|17
+|
+|t:|1642382010
+|move|p1a: Mienfoo|Drain Punch|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|8/100
+|-heal|p1a: Mienfoo|100/100|[from] drain|[of] p2a: Porygon
+|move|p2a: Porygon|Thunder Wave|p1a: Mienfoo
+|-status|p1a: Mienfoo|par
+|
+|upkeep
+|turn|18
+|
+|t:|1642382018
+|move|p2a: Porygon|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|31/100 par
+|cant|p1a: Mienfoo|par
+|
+|upkeep
+|turn|19
+|inactive|iss has 240 seconds left.
+|
+|t:|1642382045
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|60/100
+|move|p1a: Mienfoo|Drain Punch|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|-heal|p1a: Mienfoo|66/100 par|[from] drain|[of] p2a: Porygon
+|faint|p2a: Porygon
+|
+|upkeep
+|inactive|iss has 240 seconds left.
+|
+|t:|1642382067
+|switch|p2a: Archen|Archen, L5, M|100/100
+|-damage|p2a: Archen|78/100|[from] Stealth Rock
+|turn|20
+|inactive|Trade has 270 seconds left.
+|
+|t:|1642382093
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Defeatist|[from] ability: Trace|[of] p2a: Archen
+|move|p2a: Archen|Acrobatics|p1a: Porygon
+|-enditem|p2a: Archen|Flying Gem|[from] gem
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|upkeep
+|
+|t:|1642382096
+|switch|p1a: Diglett|Diglett, L5, M|73/100
+|turn|21
+|inactive|iss has 240 seconds left.
+|inactive|iss has 210 seconds left.
+|inactive|Trade has 270 seconds left.
+|inactive|iss has 180 seconds left.
+|
+|t:|1642382179
+|switch|p2a: Staryu|Staryu, L5|53/100
+|-damage|p2a: Staryu|43/100|[from] Stealth Rock
+|move|p1a: Diglett|Substitute|p1a: Diglett
+|-start|p1a: Diglett|Substitute
+|-damage|p1a: Diglett|50/100
+|
+|-damage|p2a: Staryu|34/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1642382181
+|move|p1a: Diglett|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|-damage|p1a: Diglett|45/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642382183
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 tox
+|-damage|p2a: Mienfoo|96/100 tox|[from] Stealth Rock
+|turn|23
+|
+|t:|1642382186
+|move|p1a: Diglett|Earthquake|p2a: Mienfoo
+|-damage|p2a: Mienfoo|41/100 tox
+|-damage|p1a: Diglett|39/100|[from] item: Life Orb
+|move|p2a: Mienfoo|U-turn|p1a: Diglett
+|-end|p1a: Diglett|Substitute
+|
+|t:|1642382197
+|switch|p2a: Archen|Archen, L5, M|78/100|[from]move: U-turn
+|-damage|p2a: Archen|55/100|[from] Stealth Rock
+|
+|upkeep
+|turn|24
+|
+|t:|1642382203
+|move|p2a: Archen|Quick Attack|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|upkeep
+|
+|t:|1642382205
+|switch|p1a: Mienfoo|Mienfoo, L5, M|96/100 par
+|turn|25
+|
+|t:|1642382207
+|move|p2a: Archen|Protect|p2a: Archen
+|-singleturn|p2a: Archen|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Archen
+|-activate|p2a: Archen|move: Protect
+|
+|upkeep
+|turn|26
+|
+|t:|1642382209
+|move|p2a: Archen|Acrobatics|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|win|iss
+|c|☆Trade|gg
+|c|☆iss|gg

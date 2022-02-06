@@ -1,0 +1,94 @@
+|j|‽yaszou
+|j|☆PotatoMine1
+|t:|1644138288
+|gametype|singles
+|player|p1|yaszou|2|1461
+|player|p2|PotatoMine1|101|1452
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Excadrill, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Chansey, F|item
+|poke|p1|Slowbro, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1644138302
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|turn|1
+|
+|t:|1644138306
+|move|p2a: Landorus|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: yaszou|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Landorus
+|-sidestart|p2: PotatoMine1|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1644138310
+|move|p2a: Landorus|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|97/100
+|
+|t:|1644138312
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Heatran
+|-sidestart|p2: PotatoMine1|Spikes
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644138322
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Chansey
+|-damage|p1a: Chansey|67/100
+|-activate|p1a: Chansey|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Chansey|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1644138330
+|move|p2a: Heatran|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|cant|p1a: Chansey|move: Taunt|Soft-Boiled
+|
+|-damage|p1a: Chansey|55/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|-message|yaszou forfeited.
+|
+|win|PotatoMine1
+|raw|yaszou's rating: 1461 &rarr; <strong>1440</strong><br />(-21 for losing)
+|raw|PotatoMine1's rating: 1452 &rarr; <strong>1473</strong><br />(+21 for winning)
+|l|‽yaszou
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

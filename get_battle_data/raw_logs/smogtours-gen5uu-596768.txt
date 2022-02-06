@@ -1,0 +1,374 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639170803
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|tolstoy|dawn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Weavile, F|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Victini|item
+|poke|p1|Zapdos|item
+|poke|p1|Roserade, M|item
+|poke|p1|Rhyperior, F|item
+|poke|p2|Gligar, F|item
+|poke|p2|Suicune|item
+|poke|p2|Mienshao, M|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Xatu, F|item
+|teampreview
+|c|☆Lily|hf
+|inactive|Lily has 270 seconds left.
+|inactive|tolstoy has 270 seconds left.
+|c|☆tolstoy|u2
+|inactive|Lily has 240 seconds left.
+|
+|t:|1639170865
+|start
+|switch|p1a: checking in|Roserade, M|100/100
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|1
+|
+|t:|1639170887
+|move|p2a: Mienshao|U-turn|p1a: checking in
+|-damage|p1a: checking in|59/100
+|
+|t:|1639170894
+|switch|p2a: Roserade|Roserade, M|100/100|[from]move: U-turn
+|move|p1a: checking in|Sludge Bomb|p2a: Roserade
+|-crit|p2a: Roserade
+|-damage|p2a: Roserade|8/100
+|
+|-heal|p2a: Roserade|14/100|[from] item: Black Sludge
+|-heal|p1a: checking in|66/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|c|☆tolstoy|:worrywhirl:
+|c|☆Lily|bw moment
+|
+|t:|1639170909
+|switch|p2a: Gligar|Gligar, F|100/100
+|move|p1a: checking in|Spikes|p2a: Gligar
+|-sidestart|p2: tolstoy|Spikes
+|
+|-heal|p1a: checking in|72/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|inactive|tolstoy has 270 seconds left.
+|c|+KM|yass
+|
+|t:|1639170945
+|switch|p1a: reflection|Blastoise, F|100/100
+|move|p2a: Gligar|Stealth Rock|p1a: reflection
+|-sidestart|p1: Lily|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1639170950
+|move|p2a: Gligar|U-turn|p1a: reflection
+|-damage|p1a: reflection|91/100
+|
+|t:|1639170952
+|switch|p2a: Xatu|Xatu, F|100/100|[from]move: U-turn
+|move|p1a: reflection|Rapid Spin|p2a: Xatu
+|-damage|p2a: Xatu|97/100
+|-damage|p1a: reflection|75/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-sideend|p1: Lily|Stealth Rock|[from] move: Rapid Spin|[of] p1a: reflection
+|
+|-heal|p1a: reflection|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639170961
+|switch|p1a: golden|Zapdos|100/100
+|-ability|p1a: golden|Pressure
+|move|p2a: Xatu|Grass Knot|p1a: golden
+|-resisted|p1a: golden
+|-damage|p1a: golden|90/100
+|
+|upkeep
+|turn|6
+|
+|t:|1639170967
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-damage|p2a: Umbreon|88/100|[from] Spikes
+|move|p1a: golden|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|54/100
+|-damage|p1a: golden|80/100|[from] item: Life Orb
+|
+|-heal|p2a: Umbreon|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1639170979
+|move|p1a: golden|Thunderbolt|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|-damage|p1a: golden|70/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆tolstoy|ok lol
+|c|☆Lily|man
+|c|+KM|-lily
+|c|☆Lily|sorry
+|c|☆tolstoy|the fuck?
+|c|☆tolstoy|what is this game
+|inactive|tolstoy has 270 seconds left.
+|inactive|tolstoy has 240 seconds left.
+|c|+mncmt|pokemon
+|inactive|tolstoy has 210 seconds left.
+|
+|t:|1639171070
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|88/100|[from] Spikes
+|turn|8
+|
+|t:|1639171079
+|switch|p1a: reflection|Blastoise, F|81/100
+|move|p2a: Mienshao|High Jump Kick|p1a: reflection
+|-damage|p1a: reflection|34/100
+|
+|-heal|p1a: reflection|40/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1639171084
+|switch|p1a: starjump|Victini|100/100
+|move|p2a: Mienshao|High Jump Kick|p1a: starjump
+|-resisted|p1a: starjump
+|-damage|p1a: starjump|70/100
+|
+|upkeep
+|turn|10
+|
+|t:|1639171089
+|move|p2a: Mienshao|High Jump Kick|p1a: starjump
+|-resisted|p1a: starjump
+|-damage|p1a: starjump|36/100
+|move|p1a: starjump|U-turn|p2a: Mienshao
+|-resisted|p2a: Mienshao
+|-damage|p2a: Mienshao|69/100
+|
+|t:|1639171093
+|switch|p1a: golden|Zapdos|70/100|[from]move: U-turn
+|-ability|p1a: golden|Pressure
+|
+|upkeep
+|turn|11
+|
+|t:|1639171096
+|switch|p2a: Roserade|Roserade, M|14/100
+|-damage|p2a: Roserade|2/100|[from] Spikes
+|move|p1a: golden|Roost|p1a: golden
+|-heal|p1a: golden|100/100
+|-singleturn|p1a: golden|move: Roost
+|
+|-heal|p2a: Roserade|8/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1639171098
+|move|p1a: golden|Hidden Power|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-damage|p1a: golden|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639171103
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|88/100|[from] Spikes
+|turn|13
+|
+|t:|1639171125
+|switch|p1a: heartofthemountain|Rhyperior, F|100/100
+|move|p2a: Mienshao|High Jump Kick|p1a: heartofthemountain
+|-supereffective|p1a: heartofthemountain
+|-damage|p1a: heartofthemountain|39/100
+|
+|-heal|p1a: heartofthemountain|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1639171132
+|move|p2a: Mienshao|High Jump Kick|p1a: heartofthemountain
+|-supereffective|p1a: heartofthemountain
+|-damage|p1a: heartofthemountain|0 fnt
+|faint|p1a: heartofthemountain
+|
+|upkeep
+|
+|t:|1639171133
+|switch|p1a: golden|Zapdos|91/100
+|-ability|p1a: golden|Pressure
+|turn|15
+|inactive|tolstoy has 270 seconds left.
+|
+|t:|1639171139
+|switch|p2a: Gligar|Gligar, F|100/100
+|move|p1a: golden|Hidden Power|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|-damage|p1a: golden|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639171143
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|88/100|[from] Spikes
+|turn|16
+|
+|t:|1639171148
+|switch|p1a: reflection|Blastoise, F|40/100
+|move|p2a: Mienshao|Stone Edge|p1a: reflection
+|-damage|p1a: reflection|17/100
+|
+|-heal|p1a: reflection|23/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1639171156
+|move|p2a: Mienshao|Stone Edge|p1a: reflection|[miss]
+|-miss|p2a: Mienshao|p1a: reflection
+|move|p1a: reflection|Scald|p2a: Mienshao
+|-damage|p2a: Mienshao|24/100
+|
+|-heal|p1a: reflection|29/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1639171160
+|switch|p2a: Xatu|Xatu, F|97/100
+|move|p1a: reflection|Scald|p2a: Xatu
+|-damage|p2a: Xatu|51/100
+|
+|-heal|p1a: reflection|35/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Lily has 270 seconds left.
+|
+|t:|1639171197
+|move|p2a: Xatu|U-turn|p1a: reflection
+|-damage|p1a: reflection|26/100
+|
+|t:|1639171199
+|switch|p2a: aikune|Suicune|100/100|[from]move: U-turn
+|-damage|p2a: aikune|88/100|[from] Spikes
+|-ability|p2a: aikune|Pressure
+|move|p1a: reflection|Scald|p2a: aikune
+|-resisted|p2a: aikune
+|-damage|p2a: aikune|74/100
+|-status|p2a: aikune|brn
+|
+|-heal|p2a: aikune|80/100 brn|[from] item: Leftovers
+|-heal|p1a: reflection|33/100|[from] item: Leftovers
+|-damage|p2a: aikune|68/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1639171205
+|move|p2a: aikune|Scald|p1a: reflection
+|-resisted|p1a: reflection
+|-damage|p1a: reflection|22/100
+|move|p1a: reflection|Roar|p2a: aikune
+|drag|p2a: Xatu|Xatu, F|51/100
+|
+|-heal|p1a: reflection|28/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639171219
+|switch|p1a: little goth|Weavile, F|100/100
+|-ability|p1a: little goth|Pressure
+|move|p2a: Xatu|U-turn|p1a: little goth
+|-supereffective|p1a: little goth
+|-damage|p1a: little goth|58/100
+|
+|t:|1639171223
+|switch|p2a: Mienshao|Mienshao, M|57/100|[from]move: U-turn
+|-damage|p2a: Mienshao|45/100|[from] Spikes
+|
+|upkeep
+|turn|22
+|
+|t:|1639171235
+|switch|p2a: aikune|Suicune|68/100 brn
+|-damage|p2a: aikune|55/100 brn|[from] Spikes
+|-ability|p2a: aikune|Pressure
+|move|p1a: little goth|Ice Punch|p2a: aikune
+|-resisted|p2a: aikune
+|-damage|p2a: aikune|38/100 brn
+|-damage|p1a: little goth|48/100|[from] item: Life Orb
+|
+|-heal|p2a: aikune|44/100 brn|[from] item: Leftovers
+|-damage|p2a: aikune|32/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1639171245
+|switch|p2a: Xatu|Xatu, F|51/100
+|move|p1a: little goth|Night Slash|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-damage|p1a: little goth|31/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|faint|p2a: Xatu
+|-damage|p1a: little goth|21/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639171247
+|switch|p2a: Mienshao|Mienshao, M|78/100
+|-damage|p2a: Mienshao|66/100|[from] Spikes
+|turn|24
+|
+|t:|1639171250
+|move|p2a: Mienshao|Stone Edge|p1a: little goth
+|-supereffective|p1a: little goth
+|-damage|p1a: little goth|0 fnt
+|faint|p1a: little goth
+|
+|upkeep
+|inactive|Lily has 270 seconds left.
+|c|☆tolstoy|crit 2
+|c|☆tolstoy|hit all 4
+|c|☆tolstoy|you also crit 2 so it's doable
+|inactive|Lily has 240 seconds left.
+|c|+Adaam|high crit rate
+|
+|t:|1639171336
+|switch|p1a: checking in|Roserade, M|72/100
+|turn|25
+|
+|t:|1639171339
+|move|p2a: Mienshao|Stone Edge|p1a: checking in
+|-damage|p1a: checking in|18/100
+|move|p1a: checking in|Sludge Bomb|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|-heal|p1a: checking in|24/100|[from] item: Black Sludge
+|upkeep
+|c|☆tolstoy|alright
+|c|☆tolstoy|gg
+|-message|tolstoy forfeited.
+|
+|win|Lily
+|c|☆Lily|very lame game sry
+|c|☆Lily|gg

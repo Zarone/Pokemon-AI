@@ -1,0 +1,326 @@
+|j|☆togkey
+|j|☆Bughouse
+|t:|1634087355
+|gametype|singles
+|player|p1|togkey|firebreather-gen2|
+|player|p2|Bughouse|#bughouse|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gurdurr, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Zebstrika, F|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Sawk, M|item
+|teampreview
+|
+|t:|1634087375
+|start
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|t:|1634087388
+|move|p2a: Seismitoad|Hydro Pump|p1a: Garbodor
+|-damage|p1a: Garbodor|52/100
+|move|p1a: Garbodor|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: Bughouse|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1634087400
+|switch|p1a: Braviary|Braviary, M, shiny|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Braviary
+|-sidestart|p1: togkey|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1634087415
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|move|p1a: Braviary|U-turn|p2a: Eelektross
+|-damage|p2a: Eelektross|70/100
+|
+|t:|1634087421
+|switch|p1a: Gurdurr|Gurdurr, M|100/100|[from]move: U-turn
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1634087429
+|move|p2a: Eelektross|Volt Switch|p1a: Gurdurr
+|-damage|p1a: Gurdurr|61/100
+|
+|t:|1634087434
+|switch|p2a: Charizard|Charizard, M|100/100|[from]move: Volt Switch
+|move|p1a: Gurdurr|Payback|p2a: Charizard
+|-damage|p2a: Charizard|75/100
+|
+|upkeep
+|turn|5
+|
+|t:|1634087446
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Charizard|Fire Blast|p1a: Seismitoad|[miss]
+|-miss|p2a: Charizard|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1634087452
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Hidden Power|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|71/100
+|-damage|p2a: Charizard|65/100|[from] item: Life Orb
+|
+|-heal|p1a: Skuntank|77/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1634087467
+|switch|p1a: Gurdurr|Gurdurr, M|61/100
+|-damage|p1a: Gurdurr|55/100|[from] Stealth Rock
+|move|p2a: Charizard|Fire Blast|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|-damage|p2a: Charizard|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634087469
+|switch|p1a: Zebstrika|Zebstrika, F, shiny|100/100
+|-damage|p1a: Zebstrika|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1634087474
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-status|p2a: Seismitoad|psn
+|move|p1a: Zebstrika|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-damage|p2a: Seismitoad|88/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1634087485
+|move|p1a: Zebstrika|Hidden Power|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-enditem|p2a: Seismitoad|Rindo Berry|[eat]
+|-enditem|p2a: Seismitoad|Rindo Berry|[weaken]
+|-damage|p2a: Seismitoad|45/100 psn
+|move|p2a: Seismitoad|Hydro Pump|p1a: Zebstrika
+|-damage|p1a: Zebstrika|5/100
+|
+|-damage|p2a: Seismitoad|33/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1634087521
+|move|p1a: Zebstrika|Hidden Power|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|t:|1634087560
+|switch|p2a: Eelektross|Eelektross, M|70/100
+|turn|11
+|
+|t:|1634087571
+|move|p1a: Zebstrika|Overheat|p2a: Eelektross
+|-damage|p2a: Eelektross|31/100
+|-unboost|p1a: Zebstrika|spa|2
+|move|p2a: Eelektross|Rest|p2a: Eelektross
+|-status|p2a: Eelektross|slp|[from] move: Rest
+|-heal|p2a: Eelektross|100/100 slp|[silent]
+|-enditem|p2a: Eelektross|Chesto Berry|[eat]
+|-curestatus|p2a: Eelektross|slp|[msg]
+|
+|upkeep
+|turn|12
+|
+|t:|1634087581
+|move|p1a: Zebstrika|Overheat|p2a: Eelektross
+|-damage|p2a: Eelektross|81/100
+|-unboost|p1a: Zebstrika|spa|2
+|move|p2a: Eelektross|Giga Drain|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|-heal|p2a: Eelektross|82/100|[from] drain|[of] p1a: Zebstrika
+|faint|p1a: Zebstrika
+|
+|upkeep
+|
+|t:|1634087592
+|switch|p1a: Garbodor|Garbodor, M|52/100
+|-damage|p1a: Garbodor|39/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1634087601
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|move|p1a: Garbodor|Pain Split|p2a: Misdreavus
+|-sethp|p2a: Misdreavus|78/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Garbodor|56/100|[from] move: Pain Split
+|
+|upkeep
+|turn|14
+|
+|t:|1634087617
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Misdreavus|Nasty Plot|p2a: Misdreavus
+|-boost|p2a: Misdreavus|spa|2
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1634087621
+|move|p2a: Misdreavus|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|cant|p1a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1634087623
+|move|p2a: Misdreavus|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|34/100
+|move|p1a: Seismitoad|Scald|p2a: Misdreavus
+|-damage|p2a: Misdreavus|54/100
+|
+|-heal|p1a: Seismitoad|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1634087634
+|move|p2a: Misdreavus|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|t:|1634087636
+|switch|p1a: Skuntank|Skuntank, M|77/100
+|-damage|p1a: Skuntank|65/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1634087644
+|move|p1a: Skuntank|Sucker Punch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|
+|-heal|p1a: Skuntank|71/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1634087678
+|switch|p2a: Charizard|Charizard, M|56/100
+|turn|19
+|
+|t:|1634087690
+|switch|p1a: Braviary|Braviary, M, shiny|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|move|p2a: Charizard|Fire Blast|p1a: Braviary|[miss]
+|-miss|p2a: Charizard|p1a: Braviary
+|
+|upkeep
+|turn|20
+|
+|t:|1634087708
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-status|p2a: Gardevoir|psn
+|-ability|p2a: Gardevoir|Defiant|[from] ability: Trace|[of] p1a: Braviary
+|move|p1a: Braviary|Return|p2a: Gardevoir
+|-damage|p2a: Gardevoir|10/100 psn
+|
+|-heal|p2a: Gardevoir|16/100 psn|[from] item: Leftovers
+|-damage|p2a: Gardevoir|4/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1634087721
+|move|p1a: Braviary|Return|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|j| Jmashfan69
+|
+|t:|1634087762
+|switch|p2a: Eelektross|Eelektross, M|82/100
+|turn|22
+|
+|t:|1634087764
+|move|p1a: Braviary|Return|p2a: Eelektross
+|-damage|p2a: Eelektross|20/100
+|move|p2a: Eelektross|Volt Switch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|t:|1634087789
+|switch|p2a: Sawk|Sawk, M|100/100|[from]move: Volt Switch
+|-status|p2a: Sawk|psn
+|-ability|p2a: Sawk|Mold Breaker
+|
+|-damage|p2a: Sawk|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1634087793
+|switch|p1a: Skuntank|Skuntank, M|71/100
+|-damage|p1a: Skuntank|59/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1634087795
+|switch|p1a: Garbodor|Garbodor, M|56/100
+|-damage|p1a: Garbodor|43/100|[from] Stealth Rock
+|move|p2a: Sawk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-damage|p2a: Sawk|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1634087797
+|switch|p1a: Skuntank|Skuntank, M|59/100
+|-damage|p1a: Skuntank|46/100|[from] Stealth Rock
+|turn|24
+|c|☆togkey|hmm
+|c|☆togkey|gg
+|c|☆Bughouse|gg
+|
+|t:|1634087802
+|move|p2a: Sawk|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|win|Bughouse
+|l|☆togkey

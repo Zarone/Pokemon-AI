@@ -1,0 +1,423 @@
+|j|☆MalMoonsault
+|j|☆Dragonicos
+|t:|1622400619
+|gametype|singles
+|player|p1|MalMoonsault|hapu|
+|player|p2|Dragonicos|lance-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p1|Ferroseed, L5, F|item
+|poke|p1|Tentacool, L5, M|item
+|poke|p1|Frillish, L5, M|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Frillish, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Carvanha, L5, F|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Budew, L5, M|item
+|teampreview
+|c|☆MalMoonsault|glhf
+|c|☆Dragonicos|u2
+|
+|t:|1622400636
+|start
+|switch|p1a: Karate Kid|Mienfoo, L5, M|100/100
+|switch|p2a: Budew|Budew, L5, M|100/100
+|turn|1
+|j| kidnelson
+|
+|t:|1622400640
+|move|p1a: Karate Kid|Taunt|p2a: Budew
+|-start|p2a: Budew|move: Taunt
+|cant|p2a: Budew|move: Taunt|Stun Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1622400657
+|switch|p2a: Frillish|Frillish, L5, F|100/100
+|move|p1a: Karate Kid|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|84/100
+|-enditem|p2a: Frillish|Eviolite|[from] move: Knock Off|[of] p1a: Karate Kid
+|
+|upkeep
+|turn|3
+|
+|t:|1622400674
+|move|p1a: Karate Kid|U-turn|p2a: Frillish
+|-resisted|p2a: Frillish
+|-damage|p2a: Frillish|71/100
+|-start|p1a: Karate Kid|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Frillish
+|j| London13
+|
+|t:|1622400697
+|switch|p1a: Archie|Carvanha, L5, M|100/100|[from]move: U-turn
+|move|p2a: Frillish|Will-O-Wisp|p1a: Archie
+|-status|p1a: Archie|brn
+|
+|-damage|p1a: Archie|90/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1622400706
+|switch|p2a: Budew|Budew, L5, M|100/100
+|move|p1a: Archie|Crunch|p2a: Budew
+|-damage|p2a: Budew|79/100
+|-damage|p1a: Archie|85/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Archie|74/100 brn|[from] brn
+|-ability|p1a: Archie|Speed Boost|boost
+|-boost|p1a: Archie|spe|1
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dragonicos)
+|
+|t:|1622400754
+|switch|p1a: Barbara|Ferroseed, L5, F|100/100
+|move|p2a: Budew|Spikes|p1a: Barbara
+|-sidestart|p1: MalMoonsault|Spikes
+|
+|upkeep
+|turn|6
+|j| Ghost Marowak
+|
+|t:|1622400762
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Barbara|Spikes|p2a: Mienfoo
+|-sidestart|p2: Dragonicos|Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1622400766
+|switch|p1a: Jellybaby|Tentacool, L5, M|100/100
+|-damage|p1a: Jellybaby|91/100|[from] Spikes
+|move|p2a: Mienfoo|U-turn|p1a: Jellybaby
+|-resisted|p1a: Jellybaby
+|-damage|p1a: Jellybaby|77/100
+|j| boom bye yeah
+|
+|t:|1622400779
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100|[from]move: U-turn
+|-damage|p2a: Drilbur|92/100|[from] Spikes
+|-ability|p2a: Drilbur|Mold Breaker
+|
+|upkeep
+|turn|8
+|
+|t:|1622400784
+|move|p1a: Jellybaby|Scald|p2a: Drilbur
+|-supereffective|p2a: Drilbur
+|-crit|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|j| Churielix
+|
+|t:|1622400798
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-damage|p2a: Porygon|88/100|[from] Spikes
+|-ability|p2a: Porygon|Liquid Ooze|[from] ability: Trace|[of] p1a: Jellybaby
+|turn|9
+|
+|t:|1622400809
+|switch|p1a: Barbara|Ferroseed, L5, F|100/100
+|-damage|p1a: Barbara|91/100|[from] Spikes
+|move|p2a: Porygon|Psychic|p1a: Barbara
+|-resisted|p1a: Barbara
+|-damage|p1a: Barbara|82/100
+|
+|upkeep
+|turn|10
+|
+|t:|1622400813
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|91/100|[from] Spikes
+|move|p1a: Barbara|Thunder Wave|p2a: Mienfoo
+|-status|p2a: Mienfoo|par
+|
+|upkeep
+|turn|11
+|
+|t:|1622400816
+|switch|p1a: Jellybaby|Tentacool, L5, M|77/100
+|-damage|p1a: Jellybaby|67/100|[from] Spikes
+|cant|p2a: Mienfoo|par
+|
+|upkeep
+|turn|12
+|
+|t:|1622400823
+|switch|p2a: Frillish|Frillish, L5, F|71/100
+|-damage|p2a: Frillish|59/100|[from] Spikes
+|move|p1a: Jellybaby|Rapid Spin|p2a: Frillish
+|-immune|p2a: Frillish
+|
+|upkeep
+|turn|13
+|
+|t:|1622400831
+|switch|p1a: Archie|Carvanha, L5, M|74/100 brn
+|-damage|p1a: Archie|64/100 brn|[from] Spikes
+|move|p2a: Frillish|Recover|p2a: Frillish
+|-heal|p2a: Frillish|100/100
+|
+|-damage|p1a: Archie|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1622400841
+|move|p1a: Archie|Crunch|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|34/100
+|-damage|p1a: Archie|48/100 brn|[from] item: Life Orb
+|move|p2a: Frillish|Giga Drain|p1a: Archie
+|-supereffective|p1a: Archie
+|-damage|p1a: Archie|0 fnt
+|-heal|p2a: Frillish|55/100|[from] drain|[of] p1a: Archie
+|faint|p1a: Archie
+|
+|upkeep
+|inactive|MalMoonsault has 120 seconds left.
+|inactive|MalMoonsault has 90 seconds left.
+|
+|t:|1622400903
+|switch|p1a: Doug|Diglett, L5, M|100/100
+|-damage|p1a: Doug|89/100|[from] Spikes
+|turn|15
+|
+|t:|1622400908
+|move|p1a: Doug|Earthquake|p2a: Frillish
+|-damage|p2a: Frillish|0 fnt
+|-start|p1a: Doug|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Frillish
+|faint|p2a: Frillish
+|-damage|p1a: Doug|84/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1622400916
+|switch|p2a: Carvanha|Carvanha, L5, F|100/100
+|-damage|p2a: Carvanha|90/100|[from] Spikes
+|turn|16
+|j| Parrot67
+|
+|t:|1622400924
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Doug|Substitute|p1a: Doug
+|-start|p1a: Doug|Substitute
+|-damage|p1a: Doug|62/100
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|17
+|
+|t:|1622400927
+|move|p2a: Carvanha|Waterfall|p1a: Doug
+|-supereffective|p1a: Doug
+|-end|p1a: Doug|Substitute
+|-damage|p2a: Carvanha|85/100|[from] item: Life Orb
+|move|p1a: Doug|Rock Slide|p2a: Carvanha
+|-damage|p2a: Carvanha|11/100
+|-damage|p1a: Doug|56/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|18
+|
+|t:|1622400932
+|switch|p1a: Barbara|Ferroseed, L5, F|82/100
+|-damage|p1a: Barbara|73/100|[from] Spikes
+|move|p2a: Carvanha|Crunch|p1a: Barbara
+|-resisted|p1a: Barbara
+|-damage|p1a: Barbara|55/100
+|-damage|p2a: Carvanha|0 fnt|[from] ability: Iron Barbs|[of] p1a: Barbara
+|faint|p2a: Carvanha
+|
+|upkeep
+|
+|t:|1622400935
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 par
+|-damage|p2a: Mienfoo|91/100 par|[from] Spikes
+|turn|19
+|
+|t:|1622400941
+|switch|p1a: Jellybaby|Tentacool, L5, M|67/100
+|-damage|p1a: Jellybaby|58/100|[from] Spikes
+|move|p2a: Mienfoo|U-turn|p1a: Jellybaby
+|-resisted|p1a: Jellybaby
+|-damage|p1a: Jellybaby|43/100
+|j| forestcave
+|j|@Arai
+|
+|t:|1622400945
+|switch|p2a: Porygon|Porygon, L5|88/100|[from]move: U-turn
+|-damage|p2a: Porygon|76/100|[from] Spikes
+|-ability|p2a: Porygon|Liquid Ooze|[from] ability: Trace|[of] p1a: Jellybaby
+|
+|upkeep
+|turn|20
+|
+|t:|1622400951
+|switch|p1a: Pringles|Frillish, L5, M|100/100
+|-damage|p1a: Pringles|88/100|[from] Spikes
+|move|p2a: Porygon|Psychic|p1a: Pringles
+|-damage|p1a: Pringles|68/100
+|
+|upkeep
+|turn|21
+|
+|t:|1622400956
+|move|p1a: Pringles|Recover|p1a: Pringles
+|-heal|p1a: Pringles|100/100
+|move|p2a: Porygon|Thunder Wave|p1a: Pringles
+|-status|p1a: Pringles|par
+|
+|upkeep
+|turn|22
+|
+|t:|1622400960
+|move|p2a: Porygon|Psychic|p1a: Pringles
+|-damage|p1a: Pringles|80/100 par
+|move|p1a: Pringles|Scald|p2a: Porygon
+|-damage|p2a: Porygon|52/100
+|-status|p2a: Porygon|brn
+|
+|-damage|p2a: Porygon|40/100 brn|[from] brn
+|upkeep
+|turn|23
+|l| forestcave
+|
+|t:|1622400965
+|switch|p1a: Karate Kid|Mienfoo, L5, M|100/100
+|-damage|p1a: Karate Kid|91/100|[from] Spikes
+|move|p2a: Porygon|Psychic|p1a: Karate Kid
+|-supereffective|p1a: Karate Kid
+|-damage|p1a: Karate Kid|24/100
+|
+|-damage|p2a: Porygon|29/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1622400972
+|switch|p2a: Budew|Budew, L5, M|79/100
+|-damage|p2a: Budew|70/100|[from] Spikes
+|move|p1a: Karate Kid|High Jump Kick|p2a: Budew
+|-resisted|p2a: Budew
+|-damage|p2a: Budew|48/100
+|
+|upkeep
+|turn|25
+|
+|t:|1622400977
+|move|p1a: Karate Kid|U-turn|p2a: Budew
+|-damage|p2a: Budew|27/100
+|
+|t:|1622400983
+|switch|p1a: Barbara|Ferroseed, L5, F|55/100|[from]move: U-turn
+|-damage|p1a: Barbara|46/100|[from] Spikes
+|move|p2a: Budew|Giga Drain|p1a: Barbara
+|-resisted|p1a: Barbara
+|-damage|p1a: Barbara|41/100
+|-heal|p2a: Budew|31/100|[from] drain|[of] p1a: Barbara
+|
+|upkeep
+|turn|26
+|
+|t:|1622400989
+|move|p2a: Budew|Stun Spore|p1a: Barbara
+|-status|p1a: Barbara|par
+|move|p1a: Barbara|Spikes|p2a: Budew
+|-sidestart|p2: Dragonicos|Spikes
+|
+|upkeep
+|turn|27
+|
+|t:|1622400994
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 par
+|-damage|p2a: Mienfoo|86/100 par|[from] Spikes
+|move|p1a: Barbara|Spikes|p2a: Mienfoo
+|-sidestart|p2: Dragonicos|Spikes
+|
+|upkeep
+|turn|28
+|
+|t:|1622400999
+|switch|p1a: Jellybaby|Tentacool, L5, M|43/100
+|-damage|p1a: Jellybaby|34/100|[from] Spikes
+|move|p2a: Mienfoo|U-turn|p1a: Jellybaby
+|-resisted|p1a: Jellybaby
+|-damage|p1a: Jellybaby|20/100
+|
+|t:|1622401002
+|switch|p2a: Budew|Budew, L5, M|31/100|[from]move: U-turn
+|-damage|p2a: Budew|9/100|[from] Spikes
+|
+|upkeep
+|turn|29
+|
+|t:|1622401005
+|move|p1a: Jellybaby|Rapid Spin|p2a: Budew
+|-damage|p2a: Budew|5/100
+|-sideend|p1: MalMoonsault|Spikes|[from] move: Rapid Spin|[of] p1a: Jellybaby
+|move|p2a: Budew|Giga Drain|p1a: Jellybaby
+|-damage|p1a: Jellybaby|0 fnt
+|-damage|p2a: Budew|0 fnt|[from] ability: Liquid Ooze|[of] p1a: Jellybaby
+|faint|p2a: Budew
+|faint|p1a: Jellybaby
+|
+|upkeep
+|
+|t:|1622401015
+|switch|p1a: Karate Kid|Mienfoo, L5, M|58/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100 par
+|-damage|p2a: Mienfoo|77/100 par|[from] Spikes
+|turn|30
+|
+|t:|1622401021
+|move|p1a: Karate Kid|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|62/100 par
+|
+|t:|1622401023
+|switch|p1a: Pringles|Frillish, L5, M|80/100 par|[from]move: U-turn
+|move|p2a: Mienfoo|Stone Edge|p1a: Pringles|[miss]
+|-miss|p2a: Mienfoo|p1a: Pringles
+|
+|upkeep
+|turn|31
+|l| Parrot67
+|-message|Dragonicos forfeited.
+|
+|win|MalMoonsault
+|n|☆MalMoonsault|malmoonsault
+|n|☆Dragonicos|dragonicos
+|n| kidnelson|kidnelson
+|n| London13|london13
+|n| Ghost Marowak|ghostmarowak
+|n| boom bye yeah|boombyeyeah
+|n| Churielix|churielix
+|n|+Arai|arai
+|l|☆Dragonicos
+|c|☆MalMoonsault|gg
+|l|☆MalMoonsault
+|l| Churielix
+|j| Parrot67

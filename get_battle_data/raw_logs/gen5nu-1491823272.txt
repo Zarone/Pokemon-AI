@@ -1,0 +1,264 @@
+|j|☆Tobias' True Team
+|j|☆tank skunk
+|t:|1642221932
+|gametype|singles
+|player|p1|Tobias' True Team|shadowtriad|1000
+|player|p2|tank skunk|pokefan|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Zangoose, M|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Piloswine, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Magmar, M|item
+|poke|p2|Exploud, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|
+|t:|1642221954
+|start
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|switch|p2a: Palpitine|Seismitoad, F|100/100
+|turn|1
+|
+|t:|1642221965
+|move|p1a: Garbodor|Toxic|p2a: Palpitine|[miss]
+|-miss|p1a: Garbodor|p2a: Palpitine
+|move|p2a: Palpitine|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|41/100
+|
+|upkeep
+|turn|2
+|
+|t:|1642221973
+|move|p1a: Garbodor|Spikes|p2a: Palpitine
+|-sidestart|p2: tank skunk|Spikes
+|move|p2a: Palpitine|Stealth Rock|p1a: Garbodor
+|-sidestart|p1: Tobias' True Team|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1642221978
+|move|p1a: Garbodor|Toxic Spikes|p2a: Palpitine
+|-sidestart|p2: tank skunk|move: Toxic Spikes
+|move|p2a: Palpitine|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1642222007
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|-damage|p1a: Zangoose|88/100|[from] Stealth Rock
+|turn|4
+|inactive|Tobias' True Team has 120 seconds left.
+|
+|t:|1642222025
+|move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+|-boost|p1a: Zangoose|atk|2
+|move|p2a: Palpitine|Scald|p1a: Zangoose
+|-damage|p1a: Zangoose|44/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|inactive|Tobias' True Team has 120 seconds left.
+|
+|t:|1642222055
+|move|p1a: Zangoose|Facade|p2a: Palpitine
+|-damage|p2a: Palpitine|0 fnt
+|faint|p2a: Palpitine
+|
+|-damage|p1a: Zangoose|38/100 tox|[from] psn
+|upkeep
+|
+|t:|1642222069
+|switch|p2a: Tank Skunk|Skuntank, M|100/100
+|-sideend|p2: tank skunk|move: Toxic Spikes|[of] p2a: Tank Skunk
+|-damage|p2a: Tank Skunk|88/100|[from] Spikes
+|turn|6
+|
+|t:|1642222079
+|move|p2a: Tank Skunk|Sucker Punch|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|faint|p1a: Zangoose
+|
+|-heal|p2a: Tank Skunk|94/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1642222096
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1642222117
+|move|p1a: Kangaskhan|Fake Out|p2a: Tank Skunk
+|-damage|p2a: Tank Skunk|66/100
+|cant|p2a: Tank Skunk|flinch
+|
+|-heal|p2a: Tank Skunk|72/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1642222134
+|move|p1a: Kangaskhan|Drain Punch|p2a: Tank Skunk
+|-damage|p2a: Tank Skunk|41/100
+|-heal|p1a: Kangaskhan|100/100|[from] drain|[of] p2a: Tank Skunk
+|move|p2a: Tank Skunk|Acid Spray|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|85/100
+|-unboost|p1a: Kangaskhan|spd|2
+|
+|-heal|p2a: Tank Skunk|47/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1642222148
+|move|p1a: Kangaskhan|Double-Edge|p2a: Tank Skunk
+|-damage|p2a: Tank Skunk|0 fnt
+|faint|p2a: Tank Skunk
+|-damage|p1a: Kangaskhan|70/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1642222158
+|switch|p2a: Bambi|Sawsbuck, M|100/100
+|-damage|p2a: Bambi|88/100|[from] Spikes
+|turn|10
+|
+|t:|1642222166
+|move|p2a: Bambi|Double-Edge|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|-damage|p2a: Bambi|62/100|[from] Recoil
+|-damage|p2a: Bambi|52/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642222183
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1642222189
+|move|p2a: Bambi|Horn Leech|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|41/100
+|-heal|p2a: Bambi|94/100|[from] drain|[of] p1a: Alomomola
+|-damage|p2a: Bambi|84/100|[from] item: Life Orb
+|move|p1a: Alomomola|Toxic|p2a: Bambi
+|-status|p2a: Bambi|tox
+|
+|-heal|p1a: Alomomola|47/100|[from] item: Leftovers
+|-damage|p2a: Bambi|78/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1642222203
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Bambi|Swords Dance|p2a: Bambi
+|-boost|p2a: Bambi|atk|2
+|
+|-heal|p1a: Skuntank|94/100|[from] item: Black Sludge
+|-damage|p2a: Bambi|66/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1642222216
+|move|p2a: Bambi|Double-Edge|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Bambi|41/100 tox|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p1a: Skuntank
+|-damage|p2a: Bambi|5/100 tox|[from] Recoil
+|-damage|p2a: Bambi|0 fnt|[from] item: Life Orb
+|faint|p2a: Bambi
+|
+|upkeep
+|
+|t:|1642222232
+|switch|p2a: FUS RO DAH|Exploud, F|100/100
+|switch|p1a: Piloswine|Piloswine, F|100/100
+|-damage|p2a: FUS RO DAH|88/100|[from] Spikes
+|-damage|p1a: Piloswine|88/100|[from] Stealth Rock
+|turn|14
+|inactive|Tobias' True Team has 90 seconds left.
+|
+|t:|1642222265
+|move|p1a: Piloswine|Ice Shard|p2a: FUS RO DAH
+|-damage|p2a: FUS RO DAH|59/100
+|move|p2a: FUS RO DAH|Surf|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|28/100
+|-damage|p2a: FUS RO DAH|49/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|inactive|Tobias' True Team has 90 seconds left.
+|
+|t:|1642222278
+|move|p2a: FUS RO DAH|Surf|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|-damage|p2a: FUS RO DAH|39/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Tobias' True Team has 90 seconds left.
+|
+|t:|1642222286
+|switch|p1a: Alomomola|Alomomola, M|80/100
+|-damage|p1a: Alomomola|68/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1642222290
+|move|p2a: FUS RO DAH|Hyper Voice|p1a: Alomomola
+|-damage|p1a: Alomomola|12/100
+|-damage|p2a: FUS RO DAH|30/100|[from] item: Life Orb
+|move|p1a: Alomomola|Waterfall|p2a: FUS RO DAH
+|-damage|p2a: FUS RO DAH|0 fnt
+|faint|p2a: FUS RO DAH
+|
+|-heal|p1a: Alomomola|18/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642222302
+|switch|p2a: *agmar|Magmar, M, shiny|100/100
+|-damage|p2a: *agmar|88/100|[from] Spikes
+|turn|17
+|
+|t:|1642222311
+|move|p2a: *agmar|Hidden Power|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|win|tank skunk
+|raw|Tobias&apos; True Team's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|tank skunk's rating: 1119 &rarr; <strong>1136</strong><br />(+17 for winning)
+|c|☆tank skunk|gg
+|l|☆Tobias' True Team

@@ -1,0 +1,794 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639685398
+|gametype|singles
+|player|p1|Laroxyl|#scl1spartans|
+|player|p2|Nalorium|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Pawniard, L5, M|item
+|poke|p1|Frillish, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Natu, L5, M|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Drilbur, L5, M|item
+|teampreview
+|c|☆Nalorium|hf
+|c|☆Laroxyl|hf
+|inactive|Laroxyl has 270 seconds left.
+|inactive|Nalorium has 270 seconds left.
+|inactive|Nalorium has 240 seconds left.
+|inactive|Nalorium has 210 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1639685538
+|start
+|switch|p1a: Frillish|Frillish, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|turn|1
+|
+|t:|1639685550
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|92/100
+|
+|t:|1639685552
+|switch|p2a: Staryu|Staryu, L5, shiny|100/100|[from]move: U-turn
+|move|p1a: Frillish|Will-O-Wisp|p2a: Staryu|[miss]
+|-miss|p1a: Frillish|p2a: Staryu
+|
+|upkeep
+|turn|2
+|
+|t:|1639685560
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|move|p2a: Staryu|Toxic|p1a: Porygon
+|-status|p1a: Porygon|tox
+|
+|-damage|p1a: Porygon|97/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|Nalorium has 240 seconds left.
+|
+|t:|1639685572
+|move|p2a: Staryu|Scald|p1a: Porygon
+|-damage|p1a: Porygon|74/100 tox
+|move|p1a: Porygon|Thunder Wave|p2a: Staryu
+|-status|p2a: Staryu|par
+|
+|-damage|p1a: Porygon|66/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|Nalorium has 240 seconds left.
+|
+|t:|1639685586
+|move|p1a: Porygon|Thunder Wave|p2a: Staryu
+|-fail|p2a: Staryu|par
+|move|p2a: Staryu|Toxic|p1a: Porygon
+|-fail|p1a: Porygon|tox
+|
+|-damage|p1a: Porygon|54/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1639685590
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 tox
+|move|p2a: Staryu|Scald|p1a: Porygon
+|-damage|p1a: Porygon|77/100 tox
+|
+|-damage|p1a: Porygon|62/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1639685599
+|-curestatus|p1a: Porygon|tox|[from] ability: Natural Cure
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Staryu|Toxic|p1a: Natu
+|move|p1a: Natu|Toxic||[from]ability: Magic Bounce|[still]
+|-fail|p1a: Natu
+|
+|upkeep
+|turn|7
+|c|+Howkings|baldorium
+|c|☆Nalorium|im not bald
+|inactive|Nalorium has 240 seconds left.
+|c|+Howkings|uwu
+|inactive|Nalorium has 210 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|c|+TNunes|Last hairless
+|
+|t:|1639685712
+|switch|p1a: Porygon|Porygon, L5|62/100
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|cant|p2a: Staryu|par
+|
+|upkeep
+|turn|8
+|
+|t:|1639685724
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|move|p2a: Staryu|Toxic|p1a: Porygon
+|-status|p1a: Porygon|tox
+|
+|-damage|p1a: Porygon|97/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1639685729
+|move|p1a: Porygon|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|34/100 par
+|cant|p2a: Staryu|par
+|
+|-damage|p1a: Porygon|89/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|Laroxyl has 270 seconds left.
+|
+|t:|1639685772
+|-curestatus|p1a: Porygon|tox|[from] ability: Natural Cure
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-curestatus|p2a: Staryu|par|[from] ability: Natural Cure
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|
+|upkeep
+|turn|11
+|
+|t:|1639685782
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|move|p1a: Mienfoo|Knock Off|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|96/100
+|-enditem|p2a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|12
+|inactive|Laroxyl has 240 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1639685819
+|move|p1a: Mienfoo|High Jump Kick|p2a: Mienfoo|[miss]
+|-miss|p1a: Mienfoo|p2a: Mienfoo
+|-damage|p1a: Mienfoo|53/100|[from] highjumpkick
+|move|p2a: Mienfoo|Knock Off|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|48/100
+|-enditem|p1a: Mienfoo|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|13
+|c|+LpZ IV|lcwc?
+|c|☆Nalorium|mb
+|c|☆Laroxyl|dw
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1639685832
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|87/100
+|
+|t:|1639685838
+|switch|p1a: Frillish|Frillish, L5, M|92/100|[from]move: U-turn
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|84/100
+|-start|p2a: Mienfoo|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Frillish
+|c|+TNunes|Simmmm lpz iv
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1639685849
+|switch|p2a: Staryu|Staryu, L5, shiny|34/100|[from]move: U-turn
+|
+|upkeep
+|turn|14
+|
+|t:|1639685859
+|switch|p1a: Mienfoo|Mienfoo, L5, M|81/100
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|86/100
+|
+|upkeep
+|turn|15
+|
+|t:|1639685870
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|switch|p1a: Porygon|Porygon, L5|89/100
+|-ability|p1a: Porygon|Regenerator|[from] ability: Trace|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|16
+|
+|t:|1639685878
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Mienfoo|U-turn|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|86/100
+|
+|t:|1639685882
+|switch|p2a: Natu|Natu, L5, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1639685890
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|77/100
+|
+|t:|1639685900
+|switch|p1a: Natu|Natu, L5, M|100/100|[from]move: U-turn
+|move|p2a: Natu|U-turn|p1a: Natu
+|-damage|p1a: Natu|87/100
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1639685923
+|switch|p2a: Snover|Snover, L5, M, shiny|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|83/100|[from] Hail
+|upkeep
+|turn|18
+|inactive|Laroxyl has 270 seconds left.
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1639685980
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Mold Breaker|[from] ability: Trace|[of] p2a: Drilbur
+|-ability|p1a: Porygon|Mold Breaker
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|96/100|[from] Hail
+|-damage|p1a: Porygon|97/100|[from] Hail
+|upkeep
+|turn|19
+|inactive|Laroxyl has 240 seconds left.
+|
+|t:|1639685999
+|move|p2a: Drilbur|Stealth Rock|p1a: Porygon
+|-sidestart|p1: Laroxyl|move: Stealth Rock
+|move|p1a: Porygon|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|66/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|61/100|[from] Hail
+|-damage|p1a: Porygon|93/100|[from] Hail
+|upkeep
+|turn|20
+|inactive|Nalorium has 150 seconds left.
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686034
+|switch|p2a: Snover|Snover, L5, M, shiny|100/100
+|move|p1a: Porygon|Psychic|p2a: Snover
+|-damage|p2a: Snover|50/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|89/100|[from] Hail
+|upkeep
+|turn|21
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686047
+|switch|p2a: Porygon|Porygon, L5, shiny|100/100
+|-ability|p2a: Porygon|Mold Breaker|[from] ability: Trace|[of] p1a: Porygon
+|-ability|p2a: Porygon|Mold Breaker
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|97/100|[from] Hail
+|-damage|p2a: Porygon|97/100|[from] Hail
+|upkeep
+|turn|22
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686061
+|move|p1a: Porygon|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|move|p2a: Porygon|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|93/100 par|[from] Hail
+|-damage|p1a: Porygon|93/100 par|[from] Hail
+|upkeep
+|turn|23
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686072
+|move|p1a: Porygon|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|74/100 par
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|66/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|70/100 par|[from] Hail
+|-damage|p1a: Porygon|62/100 par|[from] Hail
+|upkeep
+|turn|24
+|
+|t:|1639686081
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|61/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|57/100|[from] Hail
+|-damage|p1a: Porygon|97/100 par|[from] Hail
+|upkeep
+|turn|25
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1639686102
+|switch|p2a: Staryu|Staryu, L5, shiny|86/100
+|move|p1a: Porygon|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|53/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|48/100|[from] Hail
+|-damage|p1a: Porygon|93/100 par|[from] Hail
+|upkeep
+|turn|26
+|
+|t:|1639686111
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|100/100
+|move|p1a: Porygon|Thunder Wave|p2a: Staryu
+|-status|p2a: Staryu|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|96/100 par|[from] Hail
+|-damage|p1a: Porygon|89/100 par|[from] Hail
+|upkeep
+|turn|27
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1639686131
+|-curestatus|p2a: Staryu|par|[from] ability: Natural Cure
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|57/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Porygon|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|27/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|22/100|[from] Hail
+|-damage|p1a: Porygon|85/100 par|[from] Hail
+|upkeep
+|turn|28
+|
+|t:|1639686145
+|move|p2a: Drilbur|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|47/100 par
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|97/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|18/100|[from] Hail
+|-damage|p1a: Porygon|93/100 par|[from] Hail
+|upkeep
+|turn|29
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686180
+|switch|p2a: Staryu|Staryu, L5, shiny|96/100
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|91/100|[from] Hail
+|-damage|p1a: Porygon|97/100 par|[from] Hail
+|upkeep
+|turn|30
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686194
+|switch|p2a: Drilbur|Drilbur, L5, M, shiny|18/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Porygon|Thunderbolt|p2a: Drilbur
+|-immune|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|14/100|[from] Hail
+|-damage|p1a: Porygon|93/100 par|[from] Hail
+|upkeep
+|turn|31
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686212
+|move|p2a: Drilbur|Rock Slide|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|54/100 par
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|9/100|[from] Hail
+|-damage|p1a: Porygon|97/100 par|[from] Hail
+|upkeep
+|turn|32
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686226
+|move|p2a: Drilbur|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|58/100 par
+|move|p1a: Porygon|Psychic|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|54/100 par|[from] Hail
+|upkeep
+|
+|t:|1639686231
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|turn|33
+|inactive|Laroxyl has 210 seconds left.
+|
+|t:|1639686265
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|move|p2a: Mienfoo|Fake Out|p1a: Mienfoo
+|-damage|p1a: Mienfoo|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|72/100|[from] Hail
+|-damage|p2a: Mienfoo|96/100|[from] Hail
+|upkeep
+|turn|34
+|
+|t:|1639686284
+|move|p1a: Mienfoo|High Jump Kick|p2a: Mienfoo|[miss]
+|-miss|p1a: Mienfoo|p2a: Mienfoo
+|-damage|p1a: Mienfoo|24/100|[from] highjumpkick
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo|[miss]
+|-miss|p2a: Mienfoo|p1a: Mienfoo
+|-damage|p2a: Mienfoo|46/100|[from] highjumpkick
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|20/100|[from] Hail
+|-damage|p2a: Mienfoo|41/100|[from] Hail
+|upkeep
+|turn|35
+|inactive|Nalorium has 180 seconds left.
+|c|~Amaranth|good turn
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1639686335
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|28/100
+|inactive|Laroxyl has 180 seconds left.
+|
+|t:|1639686350
+|switch|p1a: Frillish|Frillish, L5, M|84/100|[from]move: U-turn
+|-damage|p1a: Frillish|71/100|[from] Stealth Rock
+|move|p2a: Mienfoo|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|55/100
+|-enditem|p1a: Frillish|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|23/100|[from] Hail
+|-damage|p1a: Frillish|50/100|[from] Hail
+|upkeep
+|turn|36
+|c|+Xevara|anda en camioneta que parece un troce
+|inactive|Laroxyl has 180 seconds left.
+|
+|t:|1639686365
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|38/100
+|-start|p2a: Mienfoo|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Frillish
+|
+|t:|1639686373
+|switch|p2a: Staryu|Staryu, L5, shiny|91/100|[from]move: U-turn
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|88/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|86/100|[from] Hail
+|-damage|p1a: Frillish|84/100|[from] Hail
+|upkeep
+|turn|37
+|inactive|Laroxyl has 180 seconds left.
+|c|+Xevara|ella mueve el culo pa que se lo gocen
+|
+|t:|1639686394
+|switch|p1a: Natu|Natu, L5, M|83/100
+|-damage|p1a: Natu|61/100|[from] Stealth Rock
+|move|p2a: Staryu|Thunderbolt|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|9/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|81/100|[from] Hail
+|-damage|p1a: Natu|5/100|[from] Hail
+|upkeep
+|turn|38
+|
+|t:|1639686401
+|move|p2a: Staryu|Scald|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|77/100|[from] Hail
+|upkeep
+|
+|t:|1639686406
+|switch|p1a: Porygon|Porygon, L5|54/100 par
+|-damage|p1a: Porygon|43/100 par|[from] Stealth Rock
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|turn|39
+|inactive|Laroxyl has 180 seconds left.
+|
+|t:|1639686413
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|55/100
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|93/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|50/100|[from] Hail
+|-damage|p1a: Porygon|89/100 par|[from] Hail
+|upkeep
+|turn|40
+|inactive|Laroxyl has 180 seconds left.
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1639686438
+|-curestatus|p1a: Porygon|par|[from] ability: Natural Cure
+|switch|p1a: Frillish|Frillish, L5, M|84/100
+|-damage|p1a: Frillish|71/100|[from] Stealth Rock
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|59/100
+|-start|p2a: Mienfoo|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Frillish
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1639686451
+|switch|p2a: Staryu|Staryu, L5, shiny|77/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|72/100|[from] Hail
+|-damage|p1a: Frillish|55/100|[from] Hail
+|upkeep
+|turn|41
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1639686466
+|switch|p1a: Porygon|Porygon, L5|89/100
+|-damage|p1a: Porygon|77/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|move|p2a: Staryu|Scald|p1a: Porygon
+|-damage|p1a: Porygon|54/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|67/100|[from] Hail
+|-damage|p1a: Porygon|50/100|[from] Hail
+|upkeep
+|turn|42
+|
+|t:|1639686475
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|82/100
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|78/100|[from] Hail
+|-damage|p1a: Porygon|97/100|[from] Hail
+|upkeep
+|turn|43
+|inactive|Laroxyl has 150 seconds left.
+|inactive|Laroxyl has 120 seconds left.
+|
+|t:|1639686541
+|move|p2a: Mienfoo|U-turn|p1a: Porygon
+|-damage|p1a: Porygon|81/100
+|
+|t:|1639686547
+|switch|p2a: Snover|Snover, L5, M, shiny|50/100|[from]move: U-turn
+|move|p1a: Porygon|Psychic|p2a: Snover
+|-damage|p2a: Snover|5/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|77/100|[from] Hail
+|upkeep
+|turn|44
+|
+|t:|1639686554
+|move|p2a: Snover|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|39/100
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|89/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|85/100|[from] Hail
+|upkeep
+|turn|45
+|inactive|Laroxyl has 120 seconds left.
+|
+|t:|1639686575
+|move|p2a: Snover|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|47/100
+|move|p1a: Porygon|Thunder Wave|p2a: Snover
+|-status|p2a: Snover|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|43/100|[from] Hail
+|upkeep
+|turn|46
+|inactive|Nalorium has 210 seconds left.
+|
+|t:|1639686581
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|93/100
+|move|p2a: Snover|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|58/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|54/100|[from] Hail
+|upkeep
+|turn|47
+|inactive|Laroxyl has 120 seconds left.
+|
+|t:|1639686598
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|move|p2a: Snover|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|62/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|58/100|[from] Hail
+|upkeep
+|turn|48
+|
+|t:|1639686601
+|move|p1a: Porygon|Psychic|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|54/100|[from] Hail
+|upkeep
+|
+|t:|1639686605
+|switch|p2a: Mienfoo|Mienfoo, L5, F, shiny|100/100
+|turn|49
+|inactive|Laroxyl has 120 seconds left.
+|
+|t:|1639686645
+|switch|p1a: Mienfoo|Mienfoo, L5, M|53/100
+|-damage|p1a: Mienfoo|48/100|[from] Stealth Rock
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mienfoo|96/100|[from] Hail
+|upkeep
+|
+|t:|1639686648
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|-damage|p1a: Diglett|95/100|[from] Stealth Rock
+|turn|50
+|inactive|Nalorium has 240 seconds left.
+|
+|t:|1639686683
+|move|p1a: Diglett|Earthquake|p2a: Mienfoo
+|-damage|p2a: Mienfoo|19/100
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|move|p2a: Mienfoo|High Jump Kick|p1a: Diglett|[miss]
+|-miss|p2a: Mienfoo|p1a: Diglett
+|-damage|p2a: Mienfoo|0 fnt|[from] highjumpkick
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|84/100|[from] Hail
+|upkeep
+|c|☆Laroxyl|mb
+|c|☆Nalorium|yea
+|c|☆Nalorium|thats gg i think
+|
+|t:|1639686699
+|switch|p2a: Staryu|Staryu, L5, shiny|67/100
+|turn|51
+|inactive|Laroxyl has 120 seconds left.
+|
+|t:|1639686727
+|move|p1a: Diglett|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|5/100
+|-damage|p1a: Diglett|78/100|[from] item: Life Orb
+|move|p2a: Staryu|Scald|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|0 fnt|[from] Hail
+|faint|p2a: Staryu
+|upkeep
+|inactive|Nalorium has 210 seconds left.
+|
+|t:|1639686743
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|switch|p2a: Porygon|Porygon, L5, shiny|70/100 par
+|-damage|p1a: Pawniard|96/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Defiant|[from] ability: Trace|[of] p1a: Pawniard
+|turn|52
+|
+|t:|1639686754
+|move|p1a: Pawniard|Knock Off|p2a: Porygon
+|-damage|p2a: Porygon|58/100 par
+|-enditem|p2a: Porygon|Eviolite|[from] move: Knock Off|[of] p1a: Pawniard
+|move|p2a: Porygon|Tri Attack|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|72/100|[from] Hail
+|-damage|p2a: Porygon|54/100 par|[from] Hail
+|upkeep
+|turn|53
+|
+|t:|1639686761
+|move|p1a: Pawniard|Iron Head|p2a: Porygon
+|-damage|p2a: Porygon|8/100 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|58/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|67/100|[from] Hail
+|-damage|p2a: Porygon|54/100 par|[from] Hail
+|upkeep
+|turn|54
+|
+|t:|1639686766
+|move|p1a: Pawniard|Iron Head|p2a: Porygon
+|-damage|p2a: Porygon|4/100 par
+|move|p2a: Porygon|Tri Attack|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|43/100|[from] Hail
+|-damage|p2a: Porygon|0 fnt|[from] Hail
+|faint|p2a: Porygon
+|upkeep
+|
+|t:|1639686768
+|switch|p2a: Natu|Natu, L5, M, shiny|77/100
+|turn|55
+|inactive|Laroxyl has 120 seconds left.
+|
+|t:|1639686774
+|move|p1a: Pawniard|Sucker Punch|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|win|Laroxyl
+|c|☆Laroxyl|gg
+|c|☆Nalorium|gg

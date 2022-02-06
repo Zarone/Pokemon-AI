@@ -1,0 +1,254 @@
+|j|☆Poikih
+|j|☆Togkey
+|t:|1636286943
+|gametype|singles
+|player|p1|Poikih|265|
+|player|p2|Togkey|firebreather-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Porygon2|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Heracross, M|item
+|poke|p1|Gligar, F|item
+|poke|p1|Azelf|item
+|poke|p2|Gallade, M|item
+|poke|p2|Moltres|item
+|poke|p2|Durant, M|item
+|poke|p2|Rhydon, F|item
+|poke|p2|Cryogonal|item
+|poke|p2|Alomomola, F|item
+|teampreview
+|c|☆Togkey|,,
+|c|☆Togkey|why did it just make me load
+|c|☆Togkey|and RU team
+|c|☆Togkey|LOL
+|j| afuyeas
+|c|☆Poikih|Ayo this the real togkey
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Poikih)
+|
+|t:|1636286993
+|start
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|switch|p2a: Durant|Durant, M|100/100
+|turn|1
+|
+|t:|1636287000
+|move|p2a: Durant|Stone Edge|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-crit|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|upkeep
+|
+|t:|1636287014
+|switch|p1a: Azelf|Azelf|100/100
+|turn|2
+|j| wild drud
+|
+|t:|1636287018
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Azelf|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: Togkey|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1636287021
+|move|p1a: Azelf|Psyshock|p2a: Cryogonal
+|-damage|p2a: Cryogonal|43/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Azelf
+|-damage|p1a: Azelf|97/100
+|-sideend|p2: Togkey|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|
+|-heal|p2a: Cryogonal|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|l| wild drud
+|
+|t:|1636287027
+|move|p1a: Azelf|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: Togkey|move: Stealth Rock
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|99/100
+|
+|-heal|p2a: Cryogonal|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1636287032
+|move|p1a: Azelf|Psyshock|p2a: Cryogonal
+|-damage|p2a: Cryogonal|41/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Azelf
+|-damage|p1a: Azelf|93/100
+|-sideend|p2: Togkey|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|
+|-heal|p2a: Cryogonal|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1636287045
+|move|p1a: Azelf|Taunt|p2a: Cryogonal
+|-start|p2a: Cryogonal|move: Taunt
+|move|p2a: Cryogonal|Rapid Spin|p1a: Azelf
+|-damage|p1a: Azelf|90/100
+|
+|-heal|p2a: Cryogonal|53/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1636287048
+|move|p1a: Azelf|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: Togkey|move: Stealth Rock
+|move|p2a: Cryogonal|Rapid Spin|p1a: Azelf
+|-damage|p1a: Azelf|87/100
+|-sideend|p2: Togkey|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|
+|-heal|p2a: Cryogonal|59/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| breakthru89
+|
+|t:|1636287053
+|move|p1a: Azelf|Psyshock|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|
+|upkeep
+|
+|t:|1636287056
+|switch|p2a: Durant|Durant, M|100/100
+|turn|9
+|
+|t:|1636287062
+|move|p2a: Durant|X-Scissor|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|t:|1636287075
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|10
+|
+|t:|1636287079
+|switch|p2a: Gallade|Gallade, M|100/100
+|move|p1a: Porygon2|Agility|p1a: Porygon2
+|-boost|p1a: Porygon2|spe|2
+|
+|upkeep
+|turn|11
+|
+|t:|1636287081
+|move|p1a: Porygon2|Ice Beam|p2a: Gallade
+|-damage|p2a: Gallade|71/100
+|move|p2a: Gallade|Drain Punch|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|54/100
+|-heal|p2a: Gallade|93/100|[from] drain|[of] p1a: Porygon2
+|
+|-heal|p2a: Gallade|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1636287086
+|move|p1a: Porygon2|Tri Attack|p2a: Gallade
+|-damage|p2a: Gallade|60/100
+|-status|p2a: Gallade|frz
+|cant|p2a: Gallade|frz
+|
+|-heal|p2a: Gallade|66/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|l| breakthru89
+|
+|t:|1636287112
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|cant|p2a: Gallade|frz
+|
+|-heal|p2a: Gallade|72/100 frz|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1636287115
+|move|p1a: Porygon2|Tri Attack|p2a: Gallade
+|-damage|p2a: Gallade|33/100 frz
+|cant|p2a: Gallade|frz
+|
+|-heal|p2a: Gallade|39/100 frz|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1636287119
+|move|p1a: Porygon2|Tri Attack|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|t:|1636287121
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|16
+|
+|t:|1636287123
+|move|p1a: Porygon2|Tri Attack|p2a: Alomomola
+|-damage|p2a: Alomomola|24/100
+|move|p2a: Alomomola|Toxic|p1a: Porygon2|[miss]
+|-miss|p2a: Alomomola|p1a: Porygon2
+|
+|-heal|p2a: Alomomola|30/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆Poikih|Lmao
+|c|☆Togkey|man
+|
+|t:|1636287144
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Porygon2|Tri Attack|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|36/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Poikih|I am beating the real togkey rn lmao
+|
+|t:|1636287168
+|switch|p2a: Durant|Durant, M|100/100
+|move|p1a: Porygon2|Tri Attack|p2a: Durant
+|-resisted|p2a: Durant
+|-crit|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+|c|☆Togkey|sheesh
+|c|☆Togkey|gg
+|-message|Togkey forfeited.
+|
+|win|Poikih
+|n|☆Poikih|poikih
+|n|☆Togkey|togkey
+|n| afuyeas|afuyeas
+|l|☆Togkey
+|l| afuyeas
+|j| Cinnmma ♫ ♫

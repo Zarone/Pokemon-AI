@@ -1,0 +1,640 @@
+|j|☆station 4
+|j|☆faded love ☭
+|t:|1643858467
+|gametype|singles
+|player|p1|station 4|acetrainersnow|
+|player|p2|faded love ☭|psychicf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cobalion|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Ferroseed, M|item
+|poke|p1|Flygon, M|item
+|poke|p1|Victini|item
+|poke|p2|Venomoth, F|item
+|poke|p2|Victini|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Cobalion|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by faded love ☭)
+|
+|t:|1643858479
+|start
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|1
+|
+|t:|1643858484
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Ferroseed|Thunder Wave|p2a: Cobalion
+|-status|p2a: Cobalion|par
+|
+|upkeep
+|turn|2
+|
+|t:|1643858492
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|cant|p2a: Cobalion|par
+|
+|upkeep
+|turn|3
+|
+|t:|1643858499
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|84/100
+|
+|upkeep
+|turn|4
+|
+|t:|1643858509
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Victini|V-create|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|23/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|upkeep
+|turn|5
+|j| valeRIIAN
+|
+|t:|1643858531
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Flygon|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|86/100
+|
+|t:|1643858539
+|switch|p1a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|-ability|p1a: Zapdos|Pressure
+|
+|-heal|p2a: Blastoise|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643858548
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|75/100
+|
+|-heal|p2a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643858552
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| hariyana grande
+|
+|t:|1643858570
+|switch|p2a: Blastoise|Blastoise, M|92/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: faded love ☭|move: Stealth Rock
+|
+|-heal|p2a: Blastoise|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|9
+|
+|t:|1643858575
+|switch|p1a: Ferroseed|Ferroseed, M|100/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|99/100
+|-damage|p2a: Blastoise|88/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|-sideend|p2: faded love ☭|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643858579
+|move|p2a: Blastoise|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|93/100
+|-status|p1a: Ferroseed|brn
+|move|p1a: Ferroseed|Leech Seed|p2a: Blastoise
+|-start|p2a: Blastoise|move: Leech Seed
+|
+|-heal|p2a: Blastoise|99/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|88/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|100/100 brn|[silent]
+|-damage|p1a: Ferroseed|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643858587
+|switch|p2a: Cobalion|Cobalion|100/100 par
+|move|p1a: Ferroseed|Spikes|p2a: Cobalion
+|-sidestart|p2: faded love ☭|Spikes
+|
+|-damage|p1a: Ferroseed|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1643858592
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Cobalion|Stealth Rock|p1a: Victini
+|-sidestart|p1: station 4|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1643858598
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Victini|V-create|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|27/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1643858605
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Flygon|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|75/100
+|
+|t:|1643858608
+|switch|p2a: CASUALTY|Venomoth, F|100/100|[from]move: U-turn
+|-damage|p2a: CASUALTY|88/100|[from] Spikes
+|
+|-heal|p2a: CASUALTY|94/100|[from] item: Black Sludge
+|-heal|p1a: Blastoise|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1643858613
+|move|p2a: CASUALTY|Sleep Powder|p1a: Blastoise
+|-status|p1a: Blastoise|slp|[from] move: Sleep Powder
+|cant|p1a: Blastoise|slp
+|
+|-heal|p2a: CASUALTY|100/100|[from] item: Black Sludge
+|-heal|p1a: Blastoise|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643858616
+|move|p2a: CASUALTY|Quiver Dance|p2a: CASUALTY
+|-boost|p2a: CASUALTY|spa|1
+|-boost|p2a: CASUALTY|spd|1
+|-boost|p2a: CASUALTY|spe|1
+|cant|p1a: Blastoise|slp
+|
+|-heal|p1a: Blastoise|93/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643858618
+|move|p2a: CASUALTY|Bug Buzz|p1a: Blastoise
+|-damage|p1a: Blastoise|56/100 slp
+|-curestatus|p1a: Blastoise|slp|[msg]
+|move|p1a: Blastoise|Roar|p2a: CASUALTY
+|drag|p2a: Umbreon|Umbreon, M|87/100
+|-damage|p2a: Umbreon|75/100|[from] Spikes
+|
+|-heal|p1a: Blastoise|62/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1643858622
+|move|p1a: Blastoise|Rapid Spin|p2a: Umbreon
+|-damage|p2a: Umbreon|78/100
+|-sideend|p1: station 4|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Umbreon|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|
+|-heal|p1a: Blastoise|68/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|62/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1643858627
+|move|p1a: Blastoise|Refresh|p1a: Blastoise
+|-curestatus|p1a: Blastoise|tox|[msg]
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Blastoise|68/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643858640
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Blastoise|Blastoise, M|88/100
+|-damage|p2a: Blastoise|75/100|[from] Spikes
+|
+|-heal|p2a: Blastoise|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|21
+|
+|t:|1643858647
+|switch|p2a: Umbreon|Umbreon, M|90/100
+|-damage|p2a: Umbreon|78/100|[from] Spikes
+|move|p1a: Zapdos|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|50/100
+|
+|-heal|p2a: Umbreon|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643858650
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1643858653
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Spikes
+|
+|-heal|p2a: Blastoise|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|24
+|
+|t:|1643858657
+|switch|p2a: Umbreon|Umbreon, M|63/100
+|-damage|p2a: Umbreon|50/100|[from] Spikes
+|move|p1a: Zapdos|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|27/100
+|
+|-heal|p2a: Umbreon|33/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1643858660
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|39/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1643858665
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Cobalion|Stealth Rock|p2a: Umbreon
+|-sidestart|p2: faded love ☭|move: Stealth Rock
+|
+|-heal|p2a: Umbreon|89/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|95/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1643858684
+|move|p1a: Cobalion|Close Combat|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Umbreon
+|
+|upkeep
+|c|☆faded love ☭|ok
+|
+|t:|1643858691
+|switch|p2a: CASUALTY|Venomoth, F|100/100
+|-damage|p2a: CASUALTY|76/100|[from] Stealth Rock
+|-damage|p2a: CASUALTY|63/100|[from] Spikes
+|turn|28
+|
+|t:|1643858694
+|move|p1a: Cobalion|Stone Edge|p2a: CASUALTY
+|-supereffective|p2a: CASUALTY
+|-damage|p2a: CASUALTY|13/100
+|move|p2a: CASUALTY|Quiver Dance|p2a: CASUALTY
+|-boost|p2a: CASUALTY|spa|1
+|-boost|p2a: CASUALTY|spd|1
+|-boost|p2a: CASUALTY|spe|1
+|
+|-heal|p2a: CASUALTY|19/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|inactive|station 4 has 120 seconds left.
+|inactive|station 4 has 90 seconds left.
+|
+|t:|1643858775
+|switch|p1a: Ferroseed|Ferroseed, M|76/100 brn
+|move|p2a: CASUALTY|Roost|p2a: CASUALTY
+|-heal|p2a: CASUALTY|69/100
+|-singleturn|p2a: CASUALTY|move: Roost
+|
+|-heal|p2a: CASUALTY|75/100|[from] item: Black Sludge
+|-damage|p1a: Ferroseed|64/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1643858784
+|switch|p2a: Cobalion|Cobalion|100/100 par
+|-damage|p2a: Cobalion|88/100 par|[from] Spikes
+|-damage|p2a: Cobalion|85/100 par|[from] Stealth Rock
+|move|p1a: Ferroseed|Leech Seed|p2a: Cobalion
+|-start|p2a: Cobalion|move: Leech Seed
+|
+|-heal|p2a: Cobalion|91/100 par|[from] item: Leftovers
+|-damage|p2a: Cobalion|79/100 par|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|77/100 brn|[silent]
+|-damage|p1a: Ferroseed|65/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1643858796
+|switch|p1a: Blastoise|Blastoise, M|68/100
+|move|p2a: Cobalion|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: station 4|move: Stealth Rock
+|
+|-heal|p1a: Blastoise|75/100|[from] item: Leftovers
+|-heal|p2a: Cobalion|85/100 par|[from] item: Leftovers
+|-damage|p2a: Cobalion|73/100 par|[from] Leech Seed|[of] p1a: Blastoise
+|-heal|p1a: Blastoise|86/100|[silent]
+|upkeep
+|turn|32
+|
+|t:|1643858800
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Spikes
+|-damage|p2a: Blastoise|76/100|[from] Stealth Rock
+|move|p1a: Blastoise|Rapid Spin|p2a: Blastoise
+|-damage|p2a: Blastoise|73/100
+|-sideend|p1: station 4|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p1a: Blastoise|92/100|[from] item: Leftovers
+|-heal|p2a: Blastoise|80/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|station 4 has 90 seconds left.
+|
+|t:|1643858817
+|switch|p1a: Ferroseed|Ferroseed, M|65/100 brn
+|move|p2a: Blastoise|Rapid Spin|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|64/100 brn
+|-damage|p2a: Blastoise|67/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|-sideend|p2: faded love ☭|Spikes|[from] move: Rapid Spin|[of] p2a: Blastoise
+|-sideend|p2: faded love ☭|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|73/100|[from] item: Leftovers
+|-damage|p1a: Ferroseed|51/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1643858821
+|switch|p2a: Victini|Victini|84/100
+|move|p1a: Ferroseed|Leech Seed|p2a: Victini
+|-start|p2a: Victini|move: Leech Seed
+|
+|-damage|p2a: Victini|72/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|66/100 brn|[silent]
+|-damage|p1a: Ferroseed|53/100 brn|[from] brn
+|upkeep
+|turn|35
+|j| potato14798
+|inactive|station 4 has 90 seconds left.
+|
+|t:|1643858832
+|switch|p1a: Blastoise|Blastoise, M|92/100
+|move|p2a: Victini|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|70/100
+|
+|t:|1643858833
+|switch|p2a: CASUALTY|Venomoth, F|75/100|[from]move: U-turn
+|
+|-heal|p2a: CASUALTY|81/100|[from] item: Black Sludge
+|-heal|p1a: Blastoise|76/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1643858848
+|switch|p1a: Ferroseed|Ferroseed, M|53/100 brn
+|move|p2a: CASUALTY|Sleep Powder||[still]
+|-fail|p2a: CASUALTY
+|
+|-heal|p2a: CASUALTY|87/100|[from] item: Black Sludge
+|-damage|p1a: Ferroseed|41/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1643858856
+|switch|p2a: Cobalion|Cobalion|73/100 par
+|move|p1a: Ferroseed|Leech Seed|p2a: Cobalion|[miss]
+|-miss|p1a: Ferroseed|p2a: Cobalion
+|
+|-heal|p2a: Cobalion|79/100 par|[from] item: Leftovers
+|-damage|p1a: Ferroseed|29/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1643858868
+|switch|p1a: Blastoise|Blastoise, M|76/100
+|move|p2a: Cobalion|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: station 4|move: Stealth Rock
+|
+|-heal|p1a: Blastoise|82/100|[from] item: Leftovers
+|-heal|p2a: Cobalion|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1643858871
+|switch|p2a: CASUALTY|Venomoth, F|87/100
+|move|p1a: Blastoise|Rapid Spin|p2a: CASUALTY
+|-damage|p2a: CASUALTY|84/100
+|-sideend|p1: station 4|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p2a: CASUALTY|90/100|[from] item: Black Sludge
+|-heal|p1a: Blastoise|88/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1643858894
+|switch|p1a: Ferroseed|Ferroseed, M|29/100 brn
+|move|p2a: CASUALTY|Quiver Dance|p2a: CASUALTY
+|-boost|p2a: CASUALTY|spa|1
+|-boost|p2a: CASUALTY|spd|1
+|-boost|p2a: CASUALTY|spe|1
+|
+|-heal|p2a: CASUALTY|96/100|[from] item: Black Sludge
+|-damage|p1a: Ferroseed|16/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1643858904
+|move|p2a: CASUALTY|Bug Buzz|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|-heal|p2a: CASUALTY|100/100|[from] item: Black Sludge
+|upkeep
+|inactive|station 4 has 90 seconds left.
+|
+|t:|1643858943
+|switch|p1a: Flygon|Flygon, M|23/100
+|turn|42
+|
+|t:|1643858949
+|move|p1a: Flygon|Outrage|p2a: CASUALTY
+|-damage|p2a: CASUALTY|51/100
+|move|p2a: CASUALTY|Bug Buzz|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-heal|p2a: CASUALTY|57/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643858957
+|switch|p1a: Victini|Victini|100/100
+|turn|43
+|
+|t:|1643858960
+|move|p2a: CASUALTY|Sleep Powder|p1a: Victini|[miss]
+|-miss|p2a: CASUALTY|p1a: Victini
+|move|p1a: Victini|V-create|p2a: CASUALTY
+|-supereffective|p2a: CASUALTY
+|-damage|p2a: CASUALTY|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: CASUALTY
+|
+|upkeep
+|
+|t:|1643858963
+|switch|p2a: Victini|Victini|72/100
+|turn|44
+|
+|t:|1643858967
+|switch|p1a: Blastoise|Blastoise, M|88/100
+|move|p2a: Victini|Bolt Strike|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|11/100
+|
+|-heal|p1a: Blastoise|17/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1643858980
+|move|p2a: Victini|Bolt Strike|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1643858986
+|switch|p1a: Victini|Victini|100/100
+|turn|46
+|
+|t:|1643858988
+|move|p1a: Victini|V-create|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|10/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Victini|Bolt Strike|p1a: Victini
+|-damage|p1a: Victini|9/100
+|
+|upkeep
+|turn|47
+|
+|t:|1643858994
+|move|p2a: Victini|Bolt Strike|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1643858997
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|48
+|
+|t:|1643859000
+|switch|p2a: Blastoise|Blastoise, M|73/100
+|move|p1a: Cobalion|Stone Edge|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|37/100
+|
+|-heal|p2a: Blastoise|43/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1643859004
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Blastoise|Scald|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|-status|p1a: Zapdos|brn
+|
+|-heal|p1a: Zapdos|77/100 brn|[from] item: Leftovers
+|-heal|p2a: Blastoise|49/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|64/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1643859014
+|switch|p2a: Flygon|Flygon, M|27/100
+|move|p1a: Zapdos|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: Zapdos|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Zapdos|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1643859016
+|switch|p2a: Victini|Victini|10/100
+|turn|51
+|
+|t:|1643859023
+|move|p1a: Zapdos|Thunderbolt|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-heal|p1a: Zapdos|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Zapdos|52/100 brn|[from] brn
+|upkeep
+|c|☆station 4|kek
+|-message|faded love ☭ forfeited.
+|
+|win|station 4
+|n|☆station 4|station4
+|n|☆faded love ☭|fadedlove
+|n| valeRIIAN|valeriian
+|n| hariyana grande|hariyanagrande
+|n| potato14798|potato14798
+|l|☆faded love ☭
+|l| potato14798
+|l| valeRIIAN

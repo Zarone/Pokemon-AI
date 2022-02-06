@@ -1,0 +1,373 @@
+|j|☆PotatoMine1
+|j|☆Number1RukaFan
+|t:|1643860713
+|gametype|singles
+|player|p1|PotatoMine1|169|1405
+|player|p2|Number1RukaFan|hilbert|1544
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Alakazam, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Heatran, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Starmie|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Dragonite, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Number1RukaFan)
+|c|☆PotatoMine1|hello
+|inactive|Number1RukaFan has 120 seconds left.
+|
+|t:|1643860751
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|turn|1
+|
+|t:|1643860757
+|move|p2a: Aerodactyl|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|move|p1a: Landorus|U-turn|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|82/100
+|
+|t:|1643860759
+|switch|p1a: Latios|Latios, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1643860763
+|switch|p2a: Starmie|Starmie|100/100
+|move|p1a: Latios|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|78/100
+|
+|upkeep
+|turn|3
+|c|☆PotatoMine1|nice
+|
+|t:|1643860773
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|82/100
+|-ability|p2a: Aerodactyl|Pressure
+|
+|upkeep
+|turn|4
+|
+|t:|1643860778
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: PotatoMine1|move: Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|
+|t:|1643860783
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|5
+|
+|t:|1643860812
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|93/100
+|-enditem|p2a: Volcarona|Bug Gem|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|6
+|
+|t:|1643860818
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Fire Blast|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643860821
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|77/100
+|move|p1a: Heatran|Magma Storm|p2a: Volcarona|[miss]
+|-miss|p1a: Heatran|p2a: Volcarona
+|
+|-heal|p1a: Heatran|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643860824
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|68/100
+|move|p1a: Heatran|Magma Storm|p2a: Volcarona
+|-damage|p2a: Volcarona|19/100
+|-activate|p2a: Volcarona|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|74/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|13/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1643860830
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|58/100
+|move|p1a: Heatran|Earth Power|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Heatran|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643860834
+|switch|p2a: Latios|Latios, M|100/100
+|turn|10
+|
+|t:|1643860839
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Heatran|Magma Storm|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|63/100
+|-activate|p2a: Latios|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|70/100|[from] item: Leftovers
+|-damage|p2a: Latios|57/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1643860844
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Heatran|Taunt|p2a: Latios
+|-start|p2a: Latios|move: Taunt
+|
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|-damage|p2a: Latios|51/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1643860847
+|move|p2a: Latios|Draco Meteor|p1a: Heatran|[miss]
+|-miss|p2a: Latios|p1a: Heatran
+|move|p1a: Heatran|Magma Storm|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|26/100
+|
+|-heal|p1a: Heatran|83/100|[from] item: Leftovers
+|-damage|p2a: Latios|20/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1643860851
+|move|p2a: Latios|Draco Meteor|p1a: Heatran
+|-enditem|p2a: Latios|Dragon Gem|[from] gem
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1643860857
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|14
+|
+|t:|1643860863
+|move|p1a: Alakazam|Signal Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1643860866
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|t:|1643860877
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643860879
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Landorus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|65/100
+|
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643860885
+|move|p2a: Dragonite|Fire Punch|p1a: Landorus
+|-damage|p1a: Landorus|68/100
+|move|p1a: Landorus|Hidden Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Landorus|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643860887
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|18
+|j| Happygate
+|
+|t:|1643860897
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Landorus|U-turn|p2a: Cloyster
+|-damage|p2a: Cloyster|72/100
+|
+|t:|1643860899
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643860906
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|78/100
+|-damage|p1a: Ferrothorn|59/100
+|-damage|p1a: Ferrothorn|37/100
+|-damage|p1a: Ferrothorn|15/100
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|-hitcount|p1: Ferrothorn|5
+|
+|upkeep
+|c|☆PotatoMine1|ok
+|l| Happygate
+|c|☆PotatoMine1|nice
+|inactive|PotatoMine1 has 120 seconds left.
+|inactive|PotatoMine1 has 90 seconds left.
+|
+|t:|1643860993
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1643860996
+|move|p2a: Cloyster|Rock Blast|p1a: Jellicent
+|-damage|p1a: Jellicent|73/100
+|-damage|p1a: Jellicent|59/100
+|-damage|p1a: Jellicent|43/100
+|-damage|p1a: Jellicent|29/100
+|-damage|p1a: Jellicent|15/100
+|-hitcount|p1a: Jellicent|5
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Cloyster|[miss]
+|-miss|p1a: Jellicent|p2a: Cloyster
+|
+|-heal|p1a: Jellicent|21/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆PotatoMine1|ok
+|c|☆PotatoMine1|gg
+|c|☆Number1RukaFan|gg
+|
+|t:|1643861005
+|move|p2a: Cloyster|Icicle Spear|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|8/100
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|-hitcount|p1: Jellicent|2
+|
+|upkeep
+|
+|t:|1643861007
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1643861009
+|move|p2a: Cloyster|Ice Shard|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|t:|1643861012
+|switch|p1a: Alakazam|Alakazam, F|100/100
+|turn|23
+|
+|t:|1643861014
+|move|p2a: Cloyster|Icicle Spear|p1a: Alakazam
+|-damage|p1a: Alakazam|30/100
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|-hitcount|p1: Alakazam|2
+|
+|upkeep
+|
+|t:|1643861017
+|switch|p1a: Landorus|Landorus-Therian, M|74/100
+|-damage|p1a: Landorus|62/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cloyster|atk|1
+|turn|24
+|
+|t:|1643861019
+|move|p2a: Cloyster|Icicle Spear|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|5/100
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|2
+|
+|win|Number1RukaFan
+|raw|PotatoMine1's rating: 1405 &rarr; <strong>1393</strong><br />(-12 for losing)
+|raw|Number1RukaFan's rating: 1544 &rarr; <strong>1556</strong><br />(+12 for winning)
+|l|☆Number1RukaFan

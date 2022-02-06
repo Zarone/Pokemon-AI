@@ -1,0 +1,121 @@
+|j|☆Oathkeepre
+|j|☆AnnaMyers
+|t:|1633198683
+|gametype|singles
+|player|p1|Oathkeepre|acetrainer-gen2|
+|player|p2|AnnaMyers|cynthia|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Altaria, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Regirock|item
+|poke|p1|Electabuzz, F|item
+|poke|p1|Samurott, M|item
+|poke|p1|Musharna, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Gothorita, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, M|item
+|teampreview
+|c|☆AnnaMyers|gl hf
+|c|☆Oathkeepre|u2
+|
+|t:|1633198722
+|start
+|switch|p1a: Altaria|Altaria, M|100/100
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|1
+|
+|t:|1633198735
+|switch|p1a: Samurott|Samurott, M|100/100
+|move|p2a: Piloswine|Stealth Rock|p1a: Samurott
+|-sidestart|p1: Oathkeepre|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1633198748
+|move|p1a: Samurott|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|cant|p2a: Piloswine|move: Taunt|Toxic
+|
+|upkeep
+|turn|3
+|
+|t:|1633198781
+|switch|p1a: Regirock|Regirock|100/100
+|-damage|p1a: Regirock|88/100|[from] Stealth Rock
+|switch|p2a: Serperior|Serperior, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1633198811
+|move|p2a: Serperior|Calm Mind|p2a: Serperior
+|-boost|p2a: Serperior|spa|1
+|-boost|p2a: Serperior|spd|1
+|move|p1a: Regirock|Stealth Rock|p2a: Serperior
+|-sidestart|p2: AnnaMyers|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1633198821
+|move|p2a: Serperior|Giga Drain|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633198833
+|switch|p1a: Altaria|Altaria, M|100/100
+|-damage|p1a: Altaria|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1633198839
+|move|p2a: Serperior|Hidden Power|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|2/100
+|-damage|p2a: Serperior|81/100|[from] item: Life Orb
+|move|p1a: Altaria|Fire Blast|p2a: Serperior|[miss]
+|-miss|p1a: Altaria|p2a: Serperior
+|
+|upkeep
+|turn|7
+|c|☆AnnaMyers|mb
+|c|☆Oathkeepre|it's my fate
+|c|☆Oathkeepre|to have that happen
+|c|☆Oathkeepre|not your fault
+|
+|t:|1633198860
+|move|p2a: Serperior|Giga Drain|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|-heal|p2a: Serperior|81/100|[from] drain|[of] p1a: Altaria
+|faint|p1a: Altaria
+|-damage|p2a: Serperior|71/100|[from] item: Life Orb
+|
+|upkeep
+|-message|Oathkeepre forfeited.
+|
+|win|AnnaMyers
+|l|☆Oathkeepre
+|j|☆Oathkeepre
+|player|p1|Oathkeepre|acetrainer-gen2

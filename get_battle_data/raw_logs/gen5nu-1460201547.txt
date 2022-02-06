@@ -1,0 +1,317 @@
+|j|☆meri berry
+|j|☆NUND BAP
+|t:|1637766821
+|gametype|singles
+|player|p1|meri berry|lass|
+|player|p2|NUND BAP|unknownf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mantine, F|item
+|poke|p1|Piloswine, F|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Lickilicky, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Sawsbuck-Summer, F|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Samurott, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Misdreavus, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Charizard, F|item
+|teampreview
+|c|☆NUND BAP|leggo
+|c|☆NUND BAP|gl hf
+|c|☆meri berry|u2
+|j| Links
+|j| Ladder Luc
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NUND BAP)
+|
+|t:|1637766852
+|start
+|switch|p1a: Mantine|Mantine, F|100/100
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p1a: Mantine
+|turn|1
+|j|#poh
+|
+|t:|1637766861
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Gardevoir|Taunt|p1a: Skuntank
+|-start|p1a: Skuntank|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1637766867
+|move|p1a: Skuntank|Pursuit|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|51/100
+|move|p2a: Gardevoir|Will-O-Wisp|p1a: Skuntank|[miss]
+|-miss|p2a: Gardevoir|p1a: Skuntank
+|
+|-heal|p2a: Gardevoir|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1637766875
+|move|p1a: Skuntank|Pursuit|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|9/100
+|move|p2a: Gardevoir|Will-O-Wisp|p1a: Skuntank|[miss]
+|-miss|p2a: Gardevoir|p1a: Skuntank
+|
+|-heal|p2a: Gardevoir|15/100|[from] item: Leftovers
+|-end|p1a: Skuntank|move: Taunt
+|upkeep
+|turn|4
+|c|☆meri berry|mb
+|
+|t:|1637766886
+|-activate|p2a: Gardevoir|move: Pursuit
+|move|p1a: Skuntank|Pursuit|p2a: Gardevoir|[from]Pursuit
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1637766900
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|turn|5
+|
+|t:|1637766915
+|switch|p1a: Lickilicky|Lickilicky, M|100/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Lickilicky
+|-status|p1a: Lickilicky|brn
+|
+|-damage|p1a: Lickilicky|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1637766924
+|move|p2a: Misdreavus|Taunt|p1a: Lickilicky
+|-start|p1a: Lickilicky|move: Taunt
+|cant|p1a: Lickilicky|move: Taunt|Wish
+|
+|-heal|p1a: Lickilicky|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Lickilicky|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1637766931
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|
+|-damage|p1a: Skuntank|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1637766945
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|move|p1a: Skuntank|Crunch|p2a: Piloswine
+|-damage|p2a: Piloswine|92/100
+|
+|-damage|p1a: Skuntank|76/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1637766953
+|switch|p1a: Lickilicky|Lickilicky, M|82/100 brn
+|move|p2a: Piloswine|Stealth Rock|p1a: Lickilicky
+|-sidestart|p1: meri berry|move: Stealth Rock
+|
+|-heal|p1a: Lickilicky|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Lickilicky|75/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1637766963
+|move|p1a: Lickilicky|Heal Bell|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Heal Bell
+|-curestatus|p1a: Lickilicky|brn|[msg]
+|-curestatus|p1: Skuntank|brn|[msg]
+|move|p2a: Piloswine|Roar|p1a: Lickilicky
+|drag|p1a: Sawsbuck|Sawsbuck-Summer, F|100/100
+|-damage|p1a: Sawsbuck|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1637766974
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Sawsbuck|Swords Dance|p1a: Sawsbuck
+|-boost|p1a: Sawsbuck|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1637766977
+|move|p2a: Garbodor|Gunk Shot|p1a: Sawsbuck
+|-supereffective|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|faint|p1a: Sawsbuck
+|
+|upkeep
+|c|☆meri berry|hm
+|
+|t:|1637766998
+|switch|p1a: Piloswine|Piloswine, F|100/100
+|-damage|p1a: Piloswine|88/100|[from] Stealth Rock
+|turn|13
+|c| Links|Such a funny mon
+|c|☆meri berry|scarf moment
+|c| Links|Fr
+|
+|t:|1637767027
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Charizard
+|-sidestart|p2: NUND BAP|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|c| Links|Mans was not getting NP'd
+|
+|t:|1637767036
+|move|p2a: Charizard|Flamethrower|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|31/100
+|move|p1a: Piloswine|Icicle Spear|p2a: Charizard
+|-damage|p2a: Charizard|85/100
+|-damage|p2a: Charizard|70/100
+|-hitcount|p2a: Charizard|2
+|
+|upkeep
+|turn|15
+|
+|t:|1637767041
+|switch|p1a: Lickilicky|Lickilicky, M|75/100
+|-damage|p1a: Lickilicky|63/100|[from] Stealth Rock
+|move|p2a: Charizard|Flamethrower|p1a: Lickilicky
+|-damage|p1a: Lickilicky|26/100
+|
+|-heal|p1a: Lickilicky|32/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1637767049
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Charizard|Flamethrower|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Protect
+|
+|-heal|p1a: Lickilicky|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1637767050
+|move|p2a: Charizard|Flamethrower|p1a: Lickilicky
+|-damage|p1a: Lickilicky|1/100
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|7/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1637767058
+|move|p1a: Lickilicky|Protect|p1a: Lickilicky
+|-singleturn|p1a: Lickilicky|Protect
+|move|p2a: Charizard|Flamethrower|p1a: Lickilicky
+|-activate|p1a: Lickilicky|move: Protect
+|
+|-heal|p1a: Lickilicky|57/100|[from] move: Wish|[wisher] Lickilicky
+|-heal|p1a: Lickilicky|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1637767062
+|move|p2a: Charizard|Flamethrower|p1a: Lickilicky
+|-damage|p1a: Lickilicky|25/100
+|move|p1a: Lickilicky|Wish|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|31/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1637767066
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|-damage|p2a: Misdreavus|88/100|[from] Stealth Rock
+|move|p1a: Lickilicky|Protect||[still]
+|-fail|p1a: Lickilicky
+|
+|-heal|p1a: Lickilicky|81/100|[from] move: Wish|[wisher] Lickilicky
+|-heal|p1a: Lickilicky|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c| Links|Lickilicky is such a king
+|c|☆NUND BAP|fr
+|
+|t:|1637767078
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Garbodor
+|-status|p1a: Garbodor|brn
+|
+|-damage|p1a: Garbodor|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1637767084
+|move|p2a: Misdreavus|Taunt|p1a: Garbodor
+|-start|p1a: Garbodor|move: Taunt
+|cant|p1a: Garbodor|move: Taunt|Spikes
+|
+|-damage|p1a: Garbodor|63/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1637767095
+|switch|p1a: Skuntank|Skuntank, M|76/100
+|-damage|p1a: Skuntank|63/100|[from] Stealth Rock
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|
+|-damage|p1a: Skuntank|51/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|NUND BAP has 120 seconds left.
+|inactive|NUND BAP has 90 seconds left.
+|
+|t:|1637767158
+|move|p1a: Skuntank|Pursuit|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|76/100
+|move|p2a: Misdreavus|Shadow Ball|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|35/100 brn
+|
+|-damage|p1a: Skuntank|22/100 brn|[from] brn
+|upkeep
+|turn|25
+|c|☆meri berry|yea this team sucks gg
+|-message|meri berry forfeited.
+|
+|win|NUND BAP
+|n|☆meri berry|meriberry
+|n|☆NUND BAP|nundbap
+|n| Links|links
+|n| Ladder Luc|ladderluc
+|n|+poh|poh
+|l|☆meri berry
+|c|☆NUND BAP|gg
+|l|☆NUND BAP

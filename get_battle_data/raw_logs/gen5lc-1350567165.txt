@@ -1,0 +1,172 @@
+|j|☆Legendpoketuber12
+|j|☆omegahorn73
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1622459474
+|gametype|singles
+|player|p1|Legendpoketuber12|265|
+|player|p2|omegahorn73|ghetsis-gen5bw|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Buizel, L5, M|item
+|poke|p1|Onix, L5, M|item
+|poke|p1|Gible, L5, M|item
+|poke|p1|Axew, L5, F|item
+|poke|p1|Beldum, L5|item
+|poke|p1|Drowzee, L5, M|item
+|poke|p2|Shelmet, L5, F|item
+|poke|p2|Pidove, L5, F|item
+|poke|p2|Oshawott, L5, F|item
+|poke|p2|Tepig, L5, F|item
+|poke|p2|Archen, L5, F|item
+|poke|p2|Snivy, L5, F|item
+|teampreview
+|j| Imagine Janies
+|
+|t:|1622459479
+|start
+|switch|p1a: Buizel|Buizel, L5, M|100/100
+|switch|p2a: Snivy|Snivy, L5, F|100/100
+|turn|1
+|
+|t:|1622459488
+|move|p1a: Buizel|Blizzard|p2a: Snivy
+|-supereffective|p2a: Snivy
+|-damage|p2a: Snivy|0 fnt
+|faint|p2a: Snivy
+|
+|upkeep
+|
+|t:|1622459496
+|switch|p2a: Shelmet|Shelmet, L5, F|100/100
+|turn|2
+|
+|t:|1622459502
+|move|p1a: Buizel|Blizzard|p2a: Shelmet|[miss]
+|-miss|p1a: Buizel|p2a: Shelmet
+|move|p2a: Shelmet|Energy Ball|p1a: Buizel
+|-supereffective|p1a: Buizel
+|-enditem|p1a: Buizel|Focus Sash
+|-damage|p1a: Buizel|5/100
+|
+|upkeep
+|turn|3
+|
+|t:|1622459513
+|move|p1a: Buizel|Blizzard|p2a: Shelmet
+|-crit|p2a: Shelmet
+|-damage|p2a: Shelmet|0 fnt
+|faint|p2a: Shelmet
+|
+|upkeep
+|
+|t:|1622459522
+|switch|p2a: Pidove|Pidove, L5, F|100/100
+|turn|4
+|
+|t:|1622459526
+|move|p1a: Buizel|Blizzard|p2a: Pidove
+|-supereffective|p2a: Pidove
+|-damage|p2a: Pidove|0 fnt
+|faint|p2a: Pidove
+|
+|upkeep
+|
+|t:|1622459533
+|switch|p2a: Archen|Archen, L5, F, shiny|100/100
+|turn|5
+|
+|t:|1622459539
+|move|p1a: Buizel|Surf|p2a: Archen
+|-supereffective|p2a: Archen
+|-damage|p2a: Archen|0 fnt
+|faint|p2a: Archen
+|
+|upkeep
+|
+|t:|1622459545
+|switch|p2a: Tepig|Tepig, L5, F|100/100
+|turn|6
+|
+|t:|1622459550
+|move|p1a: Buizel|Aqua Jet|p2a: Tepig
+|-supereffective|p2a: Tepig
+|-damage|p2a: Tepig|40/100
+|move|p2a: Tepig|Flame Charge|p1a: Buizel
+|-resisted|p1a: Buizel
+|-damage|p1a: Buizel|0 fnt
+|-boost|p2a: Tepig|spe|1
+|faint|p1a: Buizel
+|
+|upkeep
+|
+|t:|1622459557
+|switch|p1a: Gible|Gible, L5, M|100/100
+|turn|7
+|
+|t:|1622459564
+|move|p2a: Tepig|Heat Crash|p1a: Gible
+|-resisted|p1a: Gible
+|-damage|p1a: Gible|82/100
+|-damage|p2a: Tepig|31/100|[from] ability: Rough Skin|[of] p1a: Gible
+|move|p1a: Gible|Earthquake|p2a: Tepig
+|-supereffective|p2a: Tepig
+|-damage|p2a: Tepig|0 fnt
+|faint|p2a: Tepig
+|
+|upkeep
+|
+|t:|1622459575
+|switch|p2a: Oshawott|Oshawott, L5, F|100/100
+|turn|8
+|
+|t:|1622459582
+|move|p2a: Oshawott|Hydro Pump|p1a: Gible
+|-damage|p1a: Gible|14/100
+|move|p1a: Gible|Draco Meteor|p2a: Oshawott|[miss]
+|-miss|p1a: Gible|p2a: Oshawott
+|
+|upkeep
+|turn|9
+|
+|t:|1622459595
+|move|p2a: Oshawott|Hydro Pump|p1a: Gible
+|-damage|p1a: Gible|0 fnt
+|faint|p1a: Gible
+|
+|upkeep
+|
+|t:|1622459610
+|switch|p1a: Beldum|Beldum, L5|100/100
+|turn|10
+|
+|t:|1622459623
+|move|p2a: Oshawott|Hydro Pump|p1a: Beldum
+|-damage|p1a: Beldum|25/100
+|move|p1a: Beldum|Zen Headbutt|p2a: Oshawott
+|-damage|p2a: Oshawott|46/100
+|
+|upkeep
+|turn|11
+|
+|t:|1622459632
+|move|p2a: Oshawott|Hydro Pump|p1a: Beldum|[miss]
+|-miss|p2a: Oshawott|p1a: Beldum
+|move|p1a: Beldum|Zen Headbutt|p2a: Oshawott
+|-damage|p2a: Oshawott|0 fnt
+|faint|p2a: Oshawott
+|
+|win|Legendpoketuber12
+|n|☆Legendpoketuber12|legendpoketuber12
+|n|☆omegahorn73|omegahorn73
+|n| Imagine Janies|imaginejanies

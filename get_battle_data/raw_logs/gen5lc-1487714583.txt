@@ -1,0 +1,453 @@
+|j|☆iss
+|j|☆F i l l e
+|t:|1641658215
+|gametype|singles
+|player|p1|iss|ethan|
+|player|p2|F i l l e|#scl1breakers|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Larvesta, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Snover, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Smoochum, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|c|☆F i l l e|hf!
+|c|☆iss|gl!
+|j| HSOWA
+|j| frisoeva
+|j| eric versusツ
+|j|+stresh
+|l| HSOWA
+|j| HSOWA
+|
+|t:|1641658347
+|start
+|switch|p1a: Porygon|Porygon, L5|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|turn|1
+|
+|t:|1641658355
+|move|p2a: Gastly|Trick|p1a: Porygon
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Porygon
+|-item|p1a: Porygon|Black Sludge|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|move|p1a: Porygon|Thunder Wave|p2a: Gastly
+|-status|p2a: Gastly|par
+|
+|-damage|p1a: Porygon|88/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|j| Boulicrok
+|
+|t:|1641658369
+|move|p1a: Porygon|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|24/100 par
+|-unboost|p2a: Gastly|spd|1
+|move|p2a: Gastly|Pain Split|p1a: Porygon
+|-sethp|p1a: Porygon|52/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Gastly|62/100 par|[from] move: Pain Split
+|
+|-damage|p1a: Porygon|40/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|c| Boulicrok|Foat
+|j| Shou Dui盗盗
+|l|+stresh
+|
+|t:|1641658390
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Porygon|Psychic|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|55/100
+|
+|-damage|p1a: Porygon|29/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|j| Kodiak_45
+|
+|t:|1641658409
+|move|p2a: Mienfoo|Drain Punch|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|-heal|p2a: Mienfoo|73/100|[from] drain|[of] p1a: Porygon
+|faint|p1a: Porygon
+|
+|upkeep
+|
+|t:|1641658414
+|switch|p1a: Larvesta|Larvesta, L5, M|100/100
+|turn|5
+|l| Shou Dui盗盗
+|
+|t:|1641658421
+|move|p1a: Larvesta|Will-O-Wisp|p2a: Mienfoo
+|-status|p2a: Mienfoo|brn
+|move|p2a: Mienfoo|Knock Off|p1a: Larvesta
+|-damage|p1a: Larvesta|96/100
+|-enditem|p1a: Larvesta|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|-damage|p2a: Mienfoo|64/100 brn|[from] brn
+|upkeep
+|turn|6
+|j| Shou Dui盗盗
+|l| Shou Dui盗盗
+|
+|t:|1641658447
+|move|p1a: Larvesta|Flare Blitz|p2a: Mienfoo
+|-damage|p2a: Mienfoo|10/100 brn
+|-damage|p1a: Larvesta|79/100|[from] Recoil
+|move|p2a: Mienfoo|U-turn|p1a: Larvesta
+|-resisted|p1a: Larvesta
+|-damage|p1a: Larvesta|74/100
+|
+|t:|1641658457
+|switch|p2a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|j|+stresh
+|j| Expulso
+|
+|t:|1641658468
+|switch|p1a: Staryu|Staryu, L5|100/100
+|move|p2a: Staryu|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|81/100
+|-status|p1a: Staryu|brn
+|
+|-damage|p1a: Staryu|72/100 brn|[from] brn
+|upkeep
+|turn|8
+|j| Shou Dui盗盗
+|
+|t:|1641658477
+|-curestatus|p1a: Staryu|brn|[from] ability: Natural Cure
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|move|p2a: Staryu|Thunderbolt|p1a: Snover
+|-resisted|p1a: Snover
+|-crit|p1a: Snover
+|-damage|p1a: Snover|60/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Staryu|95/100|[from] Hail
+|upkeep
+|turn|9
+|l| eric versusツ
+|l| Boulicrok
+|j| Boulicrok
+|j| eric versusツ
+|
+|t:|1641658540
+|switch|p2a: Snover|Snover, L5, M|100/100
+|move|p1a: Snover|Giga Drain|p2a: Snover
+|-resisted|p2a: Snover
+|-damage|p2a: Snover|87/100
+|-heal|p1a: Snover|69/100|[from] drain|[of] p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|10
+|l| eric versusツ
+|
+|t:|1641658550
+|switch|p1a: Larvesta|Larvesta, L5, M|74/100
+|move|p2a: Snover|Blizzard|p1a: Larvesta
+|-resisted|p1a: Larvesta
+|-damage|p1a: Larvesta|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Larvesta|35/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1641658562
+|switch|p2a: Staryu|Staryu, L5|95/100
+|move|p1a: Larvesta|U-turn|p2a: Staryu
+|-damage|p2a: Staryu|58/100
+|j| eric versusツ
+|
+|t:|1641658587
+|switch|p1a: Diglett|Diglett, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|95/100|[from] Hail
+|-damage|p2a: Staryu|53/100|[from] Hail
+|upkeep
+|turn|12
+|l| Expulso
+|
+|t:|1641658595
+|move|p1a: Diglett|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|84/100|[from] Hail
+|upkeep
+|
+|t:|1641658606
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Arena Trap|[from] ability: Trace|[of] p1a: Diglett
+|turn|13
+|
+|t:|1641658610
+|move|p1a: Diglett|Final Gambit|p2a: Porygon
+|-damage|p2a: Porygon|40/100
+|faint|p1a: Diglett
+|move|p2a: Porygon|Tri Attack|p1: Diglett|[notarget]
+|-fail|p2a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Porygon|36/100|[from] Hail
+|upkeep
+|
+|t:|1641658658
+|switch|p1a: Snover|Snover, L5, F|69/100
+|turn|14
+|
+|t:|1641658678
+|move|p1a: Snover|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1641658683
+|switch|p2a: Nicki Minaj|Smoochum, L5, F|100/100
+|-activate|p2a: Nicki Minaj|ability: Forewarn|Blizzard|[of] p1a: Snover
+|turn|15
+|j|+Rhydonphilip
+|
+|t:|1641658781
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Nicki Minaj|Psychic|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|70/100|[from] Hail
+|upkeep
+|turn|16
+|j| gali
+|
+|t:|1641658830
+|switch|p2a: Mienfoo|Mienfoo, L5, M|41/100 brn
+|move|p1a: Natu|Wish|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|66/100|[from] Hail
+|-damage|p2a: Mienfoo|37/100 brn|[from] Hail
+|-damage|p2a: Mienfoo|28/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1641658849
+|move|p1a: Natu|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|23/100 brn
+|l| eric versusツ
+|
+|t:|1641658851
+|switch|p1a: Larvesta|Larvesta, L5, M|35/100|[from]move: U-turn
+|move|p2a: Mienfoo|U-turn|p1a: Larvesta
+|-resisted|p1a: Larvesta
+|-damage|p1a: Larvesta|31/100
+|j| eric versusツ
+|j| 067jox
+|c| 067jox|GOOO FILLE
+|l| Boulicrok
+|
+|t:|1641658930
+|switch|p2a: Gastly|Gastly, L5, F|62/100 par|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Larvesta|27/100|[from] Hail
+|-damage|p2a: Gastly|58/100 par|[from] Hail
+|-heal|p1a: Larvesta|74/100|[from] move: Wish|[wisher] Natu
+|upkeep
+|turn|18
+|j| Boulicrok
+|j|+Kipkluif
+|
+|t:|1641658989
+|move|p1a: Larvesta|Flare Blitz|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|-damage|p1a: Larvesta|57/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Larvesta|53/100|[from] Hail
+|upkeep
+|l| eric versusツ
+|
+|t:|1641659039
+|switch|p2a: Nicki Minaj|Smoochum, L5, F|100/100
+|-activate|p2a: Nicki Minaj|ability: Forewarn|Flare Blitz|[of] p1a: Larvesta
+|turn|19
+|j| eric versusツ
+|j| starmaster
+|j| Fantos13
+|
+|t:|1641659068
+|switch|p1a: Snover|Snover, L5, F|69/100
+|move|p2a: Nicki Minaj|Psychic|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|l| eric versusツ
+|
+|t:|1641659144
+|switch|p1a: Natu|Natu, L5, M|66/100
+|turn|20
+|j| eric versusツ
+|l| eric versusツ
+|
+|t:|1641659164
+|switch|p2a: Snover|Snover, L5, M|87/100
+|move|p1a: Natu|Wish|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|61/100|[from] Hail
+|upkeep
+|turn|21
+|l| Shou Dui盗盗
+|j| eric versusツ
+|j| Meister Siegfried
+|l| Fantos13
+|
+|t:|1641659213
+|move|p2a: Snover|Blizzard|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|j| Fantos13
+|j| Shou Dui盗盗
+|
+|t:|1641659224
+|switch|p1a: Larvesta|Larvesta, L5, M|53/100
+|turn|22
+|
+|t:|1641659254
+|switch|p2a: Mienfoo|Mienfoo, L5, M|55/100 brn
+|move|p1a: Larvesta|Morning Sun|p1a: Larvesta
+|-heal|p1a: Larvesta|79/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Larvesta|74/100|[from] Hail
+|-damage|p2a: Mienfoo|50/100 brn|[from] Hail
+|-damage|p2a: Mienfoo|41/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1641659272
+|move|p1a: Larvesta|Morning Sun|p1a: Larvesta
+|-heal|p1a: Larvesta|100/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Larvesta|[miss]
+|-miss|p2a: Mienfoo|p1a: Larvesta
+|-damage|p2a: Mienfoo|0 fnt|[from] highjumpkick
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Larvesta|96/100|[from] Hail
+|upkeep
+|l| Fantos13
+|l| 067jox
+|j| 067jox
+|l| Shou Dui盗盗
+|l|+stresh
+|
+|t:|1641659445
+|switch|p2a: Nicki Minaj|Smoochum, L5, F|100/100
+|-activate|p2a: Nicki Minaj|ability: Forewarn|Flare Blitz|[of] p1a: Larvesta
+|turn|24
+|j|+stresh
+|j| Fantos13
+|
+|t:|1641659451
+|move|p2a: Nicki Minaj|Psychic|p1a: Larvesta
+|-damage|p1a: Larvesta|31/100
+|move|p1a: Larvesta|U-turn|p2a: Nicki Minaj
+|-supereffective|p2a: Nicki Minaj
+|-damage|p2a: Nicki Minaj|0 fnt
+|faint|p2a: Nicki Minaj
+|
+|t:|1641659455
+|switch|p1a: Staryu|Staryu, L5|72/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|67/100|[from] Hail
+|upkeep
+|
+|t:|1641659456
+|switch|p2a: Snover|Snover, L5, M|87/100
+|turn|25
+|j| Shou Dui盗盗
+|
+|t:|1641659500
+|move|p1a: Staryu|Thunder Wave|p2a: Snover
+|-status|p2a: Snover|par
+|move|p2a: Snover|Giga Drain|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|-heal|p2a: Snover|100/100 par|[from] drain|[of] p1a: Staryu
+|faint|p1a: Staryu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1641659505
+|switch|p1a: Larvesta|Larvesta, L5, M|31/100
+|turn|26
+|l| Fantos13
+|c|☆F i l l e|right
+|c|☆F i l l e|gg
+|j| Fantos13
+|
+|t:|1641659517
+|move|p2a: Snover|Ice Shard|p1a: Larvesta
+|-resisted|p1a: Larvesta
+|-damage|p1a: Larvesta|22/100
+|move|p1a: Larvesta|Flare Blitz|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|-damage|p1a: Larvesta|0 fnt|[from] Recoil
+|faint|p1a: Larvesta
+|
+|win|iss
+|c|☆iss|gg
+|l| eric versusツ
+|l| Shou Dui盗盗
+|c|☆iss|fun team
+|l|☆F i l l e
+|l| Fantos13
+|l|+Kipkluif

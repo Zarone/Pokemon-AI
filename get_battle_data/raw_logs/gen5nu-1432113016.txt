@@ -1,0 +1,309 @@
+|j|☆wild drud
+|j|☆Togkey
+|t:|1633767866
+|gametype|singles
+|player|p1|wild drud|richboy-gen4|
+|player|p2|Togkey|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Eelektross, M|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Primeape, M|item
+|poke|p1|Golurk|item
+|poke|p1|Samurott, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Rotom-Fan|item
+|poke|p2|Gardevoir, M|item
+|poke|p2|Golurk|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|c|☆wild drud|hf
+|c|☆Togkey|u2
+|
+|t:|1633767897
+|start
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|1
+|
+|t:|1633767902
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Golurk
+|-damage|p1a: Golurk|77/100
+|
+|upkeep
+|turn|2
+|
+|t:|1633767906
+|move|p2a: Kangaskhan|Double-Edge|p1a: Golurk
+|-crit|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Kangaskhan|74/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1633767914
+|switch|p1a: Primeape|Primeape, M|100/100
+|turn|3
+|
+|t:|1633767917
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Primeape|U-turn|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|88/100
+|-damage|p1a: Primeape|84/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|
+|t:|1633767919
+|switch|p1a: Eelektross|Eelektross, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1633767922
+|move|p2a: Garbodor|Spikes|p1a: Eelektross
+|-sidestart|p1: wild drud|Spikes
+|move|p1a: Eelektross|Volt Switch|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|t:|1633767939
+|switch|p1a: Skuntank|Skuntank, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Skuntank|88/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1633767944
+|switch|p2a: Golurk|Golurk|100/100
+|turn|5
+|
+|t:|1633767951
+|move|p1a: Skuntank|Crunch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|t:|1633767954
+|switch|p2a: Kangaskhan|Kangaskhan, F|74/100
+|turn|6
+|
+|t:|1633767966
+|switch|p1a: Samurott|Samurott, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Spikes
+|move|p2a: Kangaskhan|Double-Edge|p1a: Samurott
+|-damage|p1a: Samurott|13/100
+|-damage|p2a: Kangaskhan|48/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|t:|1633767968
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1633767978
+|switch|p1a: Primeape|Primeape, M|84/100
+|-damage|p1a: Primeape|72/100|[from] Spikes
+|turn|8
+|
+|t:|1633767980
+|move|p1a: Primeape|U-turn|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|13/100
+|
+|t:|1633767989
+|switch|p1a: Skuntank|Skuntank, M|88/100|[from]move: U-turn
+|-damage|p1a: Skuntank|76/100|[from] Spikes
+|move|p2a: Kangaskhan|Double-Edge|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-damage|p2a: Kangaskhan|0 fnt|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p2a: Kangaskhan
+|faint|p1a: Skuntank
+|
+|upkeep
+|
+|t:|1633767999
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|turn|9
+|
+|t:|1633768007
+|move|p2a: Rotom|Will-O-Wisp|p1a: Eelektross
+|-status|p1a: Eelektross|brn
+|move|p1a: Eelektross|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|10/100
+|
+|-damage|p1a: Eelektross|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1633768013
+|move|p2a: Rotom|Air Slash|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|68/100 brn
+|move|p1a: Eelektross|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Eelektross|55/100 brn|[from] brn
+|upkeep
+|
+|t:|1633768016
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Eelektross
+|turn|11
+|
+|t:|1633768019
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Spikes
+|move|p2a: Gardevoir|Psychic|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|48/100
+|-unboost|p1a: Kangaskhan|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1633768022
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|-damage|p1a: Kangaskhan|28/100|[from] Recoil
+|
+|-heal|p2a: Alomomola|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1633768026
+|switch|p1a: Eelektross|Eelektross, M|55/100 brn
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|71/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|43/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1633768028
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Eelektross|Thunderbolt|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|77/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|30/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1633768029
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Eelektross
+|move|p1a: Eelektross|Thunderbolt|p2a: Gardevoir
+|-damage|p2a: Gardevoir|38/100
+|
+|-heal|p2a: Gardevoir|44/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|18/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1633768038
+|switch|p1a: Kangaskhan|Kangaskhan, F|28/100
+|-damage|p1a: Kangaskhan|16/100|[from] Spikes
+|move|p2a: Gardevoir|Psychic|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|-heal|p2a: Gardevoir|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1633768041
+|switch|p1a: Primeape|Primeape, M|72/100
+|-damage|p1a: Primeape|60/100|[from] Spikes
+|turn|17
+|
+|t:|1633768043
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Primeape|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|
+|t:|1633768045
+|switch|p1a: Eelektross|Eelektross, M|18/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Alomomola|84/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|5/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1633768047
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Eelektross|Thunderbolt|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|90/100|[from] item: Leftovers
+|-damage|p1a: Eelektross|0 fnt|[from] brn
+|faint|p1a: Eelektross
+|upkeep
+|
+|t:|1633768048
+|switch|p1a: Primeape|Primeape, M|60/100
+|-damage|p1a: Primeape|47/100|[from] Spikes
+|turn|19
+|
+|t:|1633768051
+|move|p1a: Primeape|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|36/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|42/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1633768064
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Primeape|Close Combat|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|92/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|98/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1633768066
+|move|p1a: Primeape|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|move|p2a: Alomomola|Waterfall|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|win|Togkey
+|c|☆Togkey|gg
+|c|☆wild drud|gg\
+|l|☆Togkey
+|l|☆wild drud
+|j|☆Togkey
+|player|p2|Togkey|170

@@ -1,0 +1,456 @@
+|j|☆it takes a thief
+|j|☆HaaiL!
+|t:|1622196192
+|gametype|singles
+|player|p1|it takes a thief|psychic-gen3rs|
+|player|p2|HaaiL!|daisy-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Omanyte, L5, F|item
+|poke|p1|Tentacool, L5, M|item
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p2|Aipom, L5, F|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Ferroseed, L5, F|item
+|poke|p2|Natu, L5, M|item
+|teampreview
+|c|☆HaaiL!|Hf
+|c|☆it takes a thief|u2 :]
+|
+|t:|1622196243
+|start
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100
+|switch|p2a: Aipom|Aipom, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|1
+|
+|t:|1622196250
+|move|p1a: Hippopotas|Protect|p1a: Hippopotas
+|-singleturn|p1a: Hippopotas|Protect
+|move|p2a: Aipom|U-turn|p1a: Hippopotas
+|-activate|p1a: Hippopotas|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aipom|96/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1622196262
+|move|p2a: Aipom|U-turn|p1a: Hippopotas
+|-damage|p1a: Hippopotas|80/100
+|-damage|p2a: Aipom|87/100|[from] item: Life Orb
+|
+|t:|1622196266
+|switch|p2a: Natu|Natu, L5, M|100/100|[from]move: U-turn
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|3
+|j| Saaaaaaaaaaaaa
+|
+|t:|1622196285
+|move|p1a: Hippopotas|Protect|p1a: Hippopotas
+|-singleturn|p1a: Hippopotas|Protect
+|move|p2a: Natu|U-turn|p1a: Hippopotas
+|-activate|p1a: Hippopotas|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|91/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1622196309
+|move|p2a: Natu|Psychic|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|87/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1622196317
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|move|p1a: Hippopotas|Stealth Rock|p2a: Ferroseed
+|-sidestart|p2: HaaiL!|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1622196323
+|switch|p1a: Tentacool|Tentacool, L5, M|100/100
+|move|p2a: Ferroseed|Spikes|p1a: Tentacool
+|-sidestart|p1: it takes a thief|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacool|96/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1622196329
+|move|p1a: Tentacool|Scald|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|91/100
+|move|p2a: Ferroseed|Thunder Wave|p1a: Tentacool
+|-status|p1a: Tentacool|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacool|92/100 par|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1622196344
+|move|p2a: Ferroseed|Bullet Seed|p1a: Tentacool
+|-damage|p1a: Tentacool|79/100 par
+|-damage|p1a: Tentacool|66/100 par
+|-damage|p1a: Tentacool|48/100 par
+|-damage|p1a: Tentacool|31/100 par
+|-hitcount|p1a: Tentacool|4
+|move|p1a: Tentacool|Scald|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacool|27/100 par|[from] Sandstorm
+|upkeep
+|turn|9
+|j| iKiQ
+|j| Saurav The Great
+|
+|t:|1622196359
+|switch|p1a: Drifloon|Drifloon, L5, M|100/100
+|move|p2a: Ferroseed|Bullet Seed|p1a: Drifloon
+|-resisted|p1a: Drifloon
+|-damage|p1a: Drifloon|93/100
+|-resisted|p1a: Drifloon
+|-damage|p1a: Drifloon|85/100
+|-resisted|p1a: Drifloon
+|-damage|p1a: Drifloon|77/100
+|-hitcount|p1a: Drifloon|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|74/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1622196393
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p2a: Mienfoo|96/100|[from] Stealth Rock
+|move|p1a: Drifloon|Substitute|p1a: Drifloon
+|-start|p1a: Drifloon|Substitute
+|-damage|p1a: Drifloon|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|47/100|[from] Sandstorm
+|-damage|p2a: Mienfoo|91/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1622196401
+|move|p1a: Drifloon|Acrobatics|p2a: Mienfoo
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|43/100|[from] Sandstorm
+|upkeep
+|
+|t:|1622196428
+|switch|p2a: Aipom|Aipom, L5, F|87/100
+|-damage|p2a: Aipom|79/100|[from] Stealth Rock
+|turn|12
+|j| The_Mastodon
+|
+|t:|1622196436
+|move|p1a: Drifloon|Will-O-Wisp|p2a: Aipom
+|-status|p2a: Aipom|brn
+|move|p2a: Aipom|Shadow Claw|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-crit|p1a: Drifloon
+|-end|p1a: Drifloon|Substitute
+|-damage|p2a: Aipom|70/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|39/100|[from] Sandstorm
+|-damage|p2a: Aipom|66/100 brn|[from] Sandstorm
+|-damage|p2a: Aipom|57/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1622196445
+|move|p1a: Drifloon|Substitute|p1a: Drifloon
+|-start|p1a: Drifloon|Substitute
+|-damage|p1a: Drifloon|16/100
+|move|p2a: Aipom|Shadow Claw|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-end|p1a: Drifloon|Substitute
+|-damage|p2a: Aipom|48/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|12/100|[from] Sandstorm
+|-damage|p2a: Aipom|44/100 brn|[from] Sandstorm
+|-damage|p2a: Aipom|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1622196465
+|move|p1a: Drifloon|Acrobatics|p2a: Aipom
+|-damage|p2a: Aipom|0 fnt
+|faint|p2a: Aipom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifloon|8/100|[from] Sandstorm
+|upkeep
+|
+|t:|1622196486
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|-damage|p2a: Magnemite|95/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1622196533
+|move|p1a: Drifloon|Acrobatics|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|79/100
+|move|p2a: Magnemite|Flash Cannon|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1622196542
+|switch|p1a: Hippopotas|Hippopotas, L5, F|100/100
+|-damage|p1a: Hippopotas|88/100|[from] Spikes
+|turn|16
+|j| Tasha9574
+|
+|t:|1622196569
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p2a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p2a: Drilbur|Mold Breaker
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1622196575
+|move|p1a: Vullaby|U-turn|p2a: Drilbur
+|-damage|p2a: Drilbur|70/100
+|
+|t:|1622196578
+|switch|p1a: Hippopotas|Hippopotas, L5, F|88/100|[from]move: U-turn
+|-damage|p1a: Hippopotas|76/100|[from] Spikes
+|move|p2a: Drilbur|Rapid Spin|p1a: Hippopotas
+|-damage|p1a: Hippopotas|68/100
+|-sideend|p2: HaaiL!|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1622196593
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|move|p2a: Drilbur|Stealth Rock|p1a: Vullaby
+|-sidestart|p1: it takes a thief|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1622196607
+|move|p1a: Vullaby|U-turn|p2a: Drilbur
+|-crit|p2a: Drilbur
+|-damage|p2a: Drilbur|22/100
+|
+|t:|1622196610
+|switch|p1a: Hippopotas|Hippopotas, L5, F|68/100|[from]move: U-turn
+|-damage|p1a: Hippopotas|64/100|[from] Stealth Rock
+|-damage|p1a: Hippopotas|52/100|[from] Spikes
+|move|p2a: Drilbur|Rock Slide|p1a: Hippopotas
+|-resisted|p1a: Hippopotas
+|-damage|p1a: Hippopotas|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1622196614
+|move|p2a: Drilbur|Earthquake|p1a: Hippopotas
+|-damage|p1a: Hippopotas|16/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1622196622
+|switch|p2a: Natu|Natu, L5, M|87/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|82/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1622196633
+|move|p2a: Natu|Psychic|p1a: Hippopotas
+|-damage|p1a: Hippopotas|72/100
+|move|p1a: Hippopotas|Earthquake|p2a: Natu
+|-immune|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|78/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1622196641
+|move|p2a: Natu|Psychic|p1a: Hippopotas
+|-damage|p1a: Hippopotas|44/100
+|move|p1a: Hippopotas|Earthquake|p2a: Natu
+|-immune|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|73/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1622196647
+|switch|p2a: Ferroseed|Ferroseed, L5, F|82/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1622196650
+|move|p1a: Hippopotas|Stealth Rock|p2a: Ferroseed
+|-sidestart|p2: HaaiL!|move: Stealth Rock
+|move|p2a: Ferroseed|Bullet Seed|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|88/100
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|80/100
+|-hitcount|p1a: Hippopotas|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|j| LpZ IV
+|
+|t:|1622196667
+|switch|p1a: Tentacool|Tentacool, L5, M|27/100 par
+|-damage|p1a: Tentacool|18/100 par|[from] Spikes
+|-damage|p1a: Tentacool|9/100 par|[from] Stealth Rock
+|move|p2a: Ferroseed|Leech Seed|p1a: Tentacool
+|-start|p1a: Tentacool|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacool|5/100 par|[from] Sandstorm
+|-damage|p1a: Tentacool|0 fnt|[from] Leech Seed|[of] p2a: Ferroseed
+|-damage|p2a: Ferroseed|78/100|[from] ability: Liquid Ooze|[of] p1a: Tentacool
+|faint|p1a: Tentacool
+|upkeep
+|
+|t:|1622196671
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|-damage|p1a: Vullaby|79/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1622196684
+|switch|p2a: Natu|Natu, L5, M|73/100
+|-damage|p2a: Natu|50/100|[from] Stealth Rock
+|move|p1a: Vullaby|U-turn|p2a: Natu
+|-damage|p2a: Natu|28/100
+|
+|t:|1622196693
+|switch|p1a: Omanyte|Omanyte, L5, F|100/100|[from]move: U-turn
+|-damage|p1a: Omanyte|91/100|[from] Stealth Rock
+|-damage|p1a: Omanyte|81/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|23/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|t:|1622196708
+|move|p2a: Natu|Psychic|p1a: Omanyte
+|-damage|p1a: Omanyte|53/100
+|-unboost|p1a: Omanyte|spd|1
+|move|p1a: Omanyte|Shell Smash|p1a: Omanyte
+|-unboost|p1a: Omanyte|def|1
+|-unboost|p1a: Omanyte|spd|1
+|-boost|p1a: Omanyte|atk|2
+|-boost|p1a: Omanyte|spa|2
+|-boost|p1a: Omanyte|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|19/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1622196717
+|move|p1a: Omanyte|Ice Beam|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1622196725
+|switch|p2a: Ferroseed|Ferroseed, L5, F|78/100
+|-damage|p2a: Ferroseed|73/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1622196728
+|move|p1a: Omanyte|Ice Beam|p2a: Ferroseed
+|-damage|p2a: Ferroseed|23/100
+|-status|p2a: Ferroseed|frz
+|cant|p2a: Ferroseed|frz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|c|☆HaaiL!|Gg
+|-message|HaaiL! forfeited.
+|
+|win|it takes a thief
+|n|☆it takes a thief|ittakesathief
+|n|☆HaaiL!|haail
+|n| Saaaaaaaaaaaaa|saaaaaaaaaaaaa
+|n| iKiQ|ikiq
+|n| Saurav The Great|sauravthegreat
+|n| The_Mastodon|themastodon
+|n| Tasha9574|tasha9574
+|n| LpZ IV|lpziv
+|l|☆HaaiL!
+|c|☆it takes a thief|gg
+|l| Tasha9574
+|l| Saaaaaaaaaaaaa

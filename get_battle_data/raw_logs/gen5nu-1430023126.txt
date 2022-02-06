@@ -1,0 +1,425 @@
+|j|☆Oathkeepre
+|j|☆Typhlosion4
+|t:|1633478599
+|gametype|singles
+|player|p1|Oathkeepre|acetrainer-gen2|
+|player|p2|Typhlosion4|flannery|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Serperior, M|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Primeape, F|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Weezing, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Torterra, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Fraxure, M|item
+|poke|p2|Musharna, M|item
+|teampreview
+|c|☆Typhlosion4|Hf
+|c|☆Oathkeepre|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Typhlosion4)
+|j|+Catalisador
+|c|+Catalisador|boo no priolu
+|c|+Catalisador|awa
+|c|☆Oathkeepre|shush
+|c|+Catalisador|xDD
+|c|+Catalisador|i love u oath :3
+|l|+Catalisador
+|inactive|Oathkeepre has 120 seconds left.
+|
+|t:|1633478659
+|start
+|switch|p1a: Weezing|Weezing, M, shiny|100/100
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|1
+|
+|t:|1633478666
+|move|p1a: Weezing|Taunt|p2a: Piloswine
+|-start|p2a: Piloswine|move: Taunt
+|cant|p2a: Piloswine|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1633478692
+|switch|p1a: Primeape|Primeape, F|100/100
+|switch|p2a: Musharna|Musharna, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1633478697
+|move|p1a: Primeape|U-turn|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|76/100
+|
+|t:|1633478701
+|switch|p1a: Skuntank|Skuntank, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Musharna|Thunder Wave|p1a: Skuntank
+|-status|p1a: Skuntank|par
+|
+|-heal|p2a: Musharna|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1633478710
+|move|p2a: Musharna|Baton Pass|p2a: Musharna
+|
+|t:|1633478713
+|switch|p2a: Piloswine|Piloswine, M|100/100|[from]move: Baton Pass
+|cant|p1a: Skuntank|par
+|
+|upkeep
+|turn|5
+|
+|t:|1633478721
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Piloswine|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Oathkeepre|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1633478732
+|switch|p2a: Musharna|Musharna, M|82/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Musharna
+|-sidestart|p2: Typhlosion4|move: Stealth Rock
+|
+|-heal|p2a: Musharna|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1633478748
+|move|p1a: Seismitoad|Toxic|p2a: Musharna
+|-status|p2a: Musharna|tox
+|-activate|p2a: Musharna|ability: Synchronize
+|-status|p1a: Seismitoad|tox
+|move|p2a: Musharna|Baton Pass|p2a: Musharna
+|
+|t:|1633478756
+|switch|p2a: Torterra|Torterra, M|100/100|[from]move: Baton Pass
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|c|☆Oathkeepre|worth it i guess lol
+|
+|t:|1633478772
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|move|p2a: Torterra|Wood Hammer|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|44/100
+|-damage|p2a: Torterra|81/100|[from] Recoil
+|-damage|p2a: Torterra|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1633478786
+|switch|p2a: Charizard|Charizard, F|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|move|p1a: Serperior|Giga Drain|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|40/100
+|-heal|p1a: Serperior|49/100|[from] drain|[of] p2a: Charizard
+|-damage|p1a: Serperior|39/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1633478796
+|move|p1a: Serperior|Hidden Power|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-damage|p1a: Serperior|29/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633478809
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1633478814
+|switch|p1a: Weezing|Weezing, M, shiny|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Piloswine|Ice Shard|p1a: Weezing
+|-damage|p1a: Weezing|79/100
+|
+|upkeep
+|turn|12
+|inactive|Oathkeepre has 120 seconds left.
+|
+|t:|1633478849
+|switch|p1a: Skuntank|Skuntank, F, shiny|100/100 par
+|-damage|p1a: Skuntank|88/100 par|[from] Stealth Rock
+|switch|p2a: Musharna|Musharna, M|88/100 tox
+|-damage|p2a: Musharna|76/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Musharna|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Skuntank|94/100 par|[from] item: Black Sludge
+|-damage|p2a: Musharna|76/100 tox|[from] psn
+|upkeep
+|turn|13
+|j| Ninja
+|inactive|Oathkeepre has 120 seconds left.
+|l| Ninja
+|
+|t:|1633478864
+|move|p2a: Musharna|Baton Pass|p2a: Musharna
+|
+|t:|1633478867
+|switch|p2a: Samurott|Samurott, M|100/100|[from]move: Baton Pass
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|move|p1a: Skuntank|Pursuit|p2a: Samurott
+|-damage|p2a: Samurott|68/100
+|
+|-heal|p1a: Skuntank|99/100 par|[from] item: Black Sludge
+|upkeep
+|turn|14
+|inactive|Oathkeepre has 120 seconds left.
+|c|☆Oathkeepre|i never understand that
+|c|☆Oathkeepre|you're switching out lol
+|
+|t:|1633478902
+|move|p2a: Samurott|Hidden Power|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|66/100 par
+|-damage|p2a: Samurott|58/100|[from] item: Life Orb
+|move|p1a: Skuntank|Poison Jab|p2a: Samurott
+|-damage|p2a: Samurott|13/100
+|
+|-heal|p1a: Skuntank|72/100 par|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1633478920
+|switch|p1a: Weezing|Weezing, M, shiny|79/100
+|-damage|p1a: Weezing|66/100|[from] Stealth Rock
+|move|p2a: Samurott|Hydro Pump|p1a: Weezing|[miss]
+|-miss|p2a: Samurott|p1a: Weezing
+|
+|upkeep
+|turn|16
+|inactive|Oathkeepre has 90 seconds left.
+|c|☆Typhlosion4|I can’t touch tank anyway
+|c|☆Typhlosion4|lol
+|c|☆Oathkeepre|true
+|inactive|Oathkeepre has 60 seconds left.
+|
+|t:|1633478972
+|switch|p1a: Seismitoad|Seismitoad, F|94/100 tox
+|-damage|p1a: Seismitoad|88/100 tox|[from] Stealth Rock
+|move|p2a: Samurott|Hidden Power|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|-damage|p2a: Samurott|4/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633478987
+|switch|p1a: Primeape|Primeape, F|100/100
+|-damage|p1a: Primeape|95/100|[from] Stealth Rock
+|turn|17
+|j| tingling ツ
+|
+|t:|1633478992
+|move|p1a: Primeape|U-turn|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1633479022
+|switch|p1a: Weezing|Weezing, M, shiny|66/100|[from]move: U-turn
+|-damage|p1a: Weezing|54/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1633479035
+|switch|p2a: Musharna|Musharna, M|76/100 tox
+|-damage|p2a: Musharna|63/100 tox|[from] Stealth Rock
+|turn|18
+|
+|t:|1633479046
+|move|p1a: Weezing|Taunt|p2a: Musharna
+|-start|p2a: Musharna|move: Taunt
+|move|p2a: Musharna|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-heal|p2a: Musharna|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|63/100 tox|[from] psn
+|upkeep
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1633479065
+|switch|p1a: Charizard|Charizard, F|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|19
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1633479071
+|move|p1a: Charizard|Fire Blast|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|upkeep
+|
+|t:|1633479076
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-damage|p2a: Fraxure|88/100|[from] Stealth Rock
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|20
+|
+|t:|1633479088
+|move|p1a: Charizard|Fire Blast|p2a: Fraxure
+|-resisted|p2a: Fraxure
+|-damage|p2a: Fraxure|30/100
+|move|p2a: Fraxure|Dragon Dance|p2a: Fraxure
+|-boost|p2a: Fraxure|atk|1
+|-boost|p2a: Fraxure|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1633479096
+|move|p2a: Fraxure|Outrage|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1633479117
+|switch|p1a: Primeape|Primeape, F|95/100
+|-damage|p1a: Primeape|89/100|[from] Stealth Rock
+|turn|22
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1633479131
+|move|p1a: Primeape|Close Combat|p2a: Fraxure
+|-damage|p2a: Fraxure|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Fraxure
+|
+|upkeep
+|
+|t:|1633479140
+|switch|p2a: Torterra|Torterra, M|71/100
+|-damage|p2a: Torterra|65/100|[from] Stealth Rock
+|turn|23
+|j| the squid game
+|inactive|Oathkeepre has 30 seconds left.
+|
+|t:|1633479160
+|switch|p1a: Serperior|Serperior, M, shiny|29/100
+|-damage|p1a: Serperior|17/100|[from] Stealth Rock
+|move|p2a: Torterra|Wood Hammer|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: Torterra|61/100|[from] Recoil
+|-damage|p2a: Torterra|51/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Oathkeepre has 30 seconds left this turn.
+|inactive|Oathkeepre has 20 seconds left.
+|inactive|Oathkeepre has 15 seconds left.
+|inactive|Oathkeepre has 10 seconds left.
+|
+|t:|1633479183
+|switch|p1a: Primeape|Primeape, F|89/100
+|-damage|p1a: Primeape|83/100|[from] Stealth Rock
+|turn|24
+|inactive|Oathkeepre has 20 seconds left this turn.
+|
+|t:|1633479187
+|switch|p2a: Piloswine|Piloswine, M|88/100
+|-damage|p2a: Piloswine|76/100|[from] Stealth Rock
+|move|p1a: Primeape|U-turn|p2a: Piloswine
+|-damage|p2a: Piloswine|66/100
+|inactive|Oathkeepre has 25 seconds left this turn.
+|inactive|Oathkeepre has 20 seconds left.
+|
+|t:|1633479192
+|switch|p1a: Skuntank|Skuntank, F, shiny|72/100 par|[from]move: U-turn
+|-damage|p1a: Skuntank|59/100 par|[from] Stealth Rock
+|
+|-heal|p1a: Skuntank|65/100 par|[from] item: Black Sludge
+|upkeep
+|turn|25
+|inactive|Oathkeepre has 30 seconds left this turn.
+|
+|t:|1633479203
+|move|p1a: Skuntank|Sucker Punch|p2a: Piloswine
+|-damage|p2a: Piloswine|49/100
+|move|p2a: Piloswine|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|upkeep
+|inactive|Oathkeepre has 30 seconds left this turn.
+|
+|t:|1633479209
+|switch|p1a: Primeape|Primeape, F|83/100
+|-damage|p1a: Primeape|77/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1633479215
+|move|p1a: Primeape|Close Combat|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Piloswine
+|
+|upkeep
+|
+|t:|1633479217
+|switch|p2a: Torterra|Torterra, M|51/100
+|-damage|p2a: Torterra|45/100|[from] Stealth Rock
+|turn|27
+|c| the squid game|player oathkeepre you have been eliminated
+|c|☆Typhlosion4|Gg
+|c|☆Oathkeepre|gg
+|
+|t:|1633479226
+|move|p1a: Primeape|Close Combat|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|-unboost|p1a: Primeape|def|1
+|-unboost|p1a: Primeape|spd|1
+|faint|p2a: Torterra
+|
+|win|Oathkeepre
+|n|☆Oathkeepre|oathkeepre
+|n|☆Typhlosion4|typhlosion4
+|n| tingling ツ|tingling
+|n| the squid game|thesquidgame
+|c| the squid game|jk
+|c| the squid game|reverse

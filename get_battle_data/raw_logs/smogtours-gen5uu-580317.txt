@@ -1,0 +1,222 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1632058783
+|gametype|singles
+|player|p1|youke|lillie|
+|player|p2|Ark|evelyn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kingdra, M|item
+|poke|p1|Kabutops, F|item
+|poke|p1|Qwilfish, F|item
+|poke|p1|Azelf|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Raikou|item
+|poke|p2|Mew|item
+|poke|p2|Heracross, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Sharpedo, F|item
+|teampreview
+|c|+Pohjis|lgi ark
+|inactive|youke has 270 seconds left.
+|c|+drogba in shenhua|go youke
+|
+|t:|1632058829
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|1
+|
+|t:|1632058848
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|move|p2a: Heracross|Megahorn|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|53/100
+|
+|upkeep
+|turn|2
+|
+|t:|1632058851
+|move|p2a: Heracross|Megahorn|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|8/100
+|move|p1a: Qwilfish|Rain Dance|p1a: Qwilfish
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|Ark has 270 seconds left.
+|
+|t:|1632058902
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Qwilfish|Explosion|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|77/100
+|faint|p1a: Qwilfish
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rhyperior|83/100|[from] item: Leftovers
+|upkeep
+|inactive|youke has 270 seconds left.
+|
+|t:|1632058913
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|4
+|inactive|youke has 270 seconds left.
+|
+|t:|1632058935
+|move|p1a: Kingdra|Surf|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1632058938
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|5
+|inactive|youke has 270 seconds left.
+|inactive|youke has 240 seconds left.
+|
+|t:|1632058983
+|move|p2a: Kingdra|Substitute|p2a: Kingdra
+|-start|p2a: Kingdra|Substitute
+|-damage|p2a: Kingdra|76/100
+|move|p1a: Kingdra|Surf|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-end|p2a: Kingdra|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingdra|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1632059001
+|move|p1a: Kingdra|Surf|p2a: Kingdra
+|-resisted|p2a: Kingdra
+|-damage|p2a: Kingdra|54/100
+|move|p2a: Kingdra|Dragon Dance|p2a: Kingdra
+|-boost|p2a: Kingdra|atk|1
+|-boost|p2a: Kingdra|spe|1
+|
+|-weather|none
+|-heal|p2a: Kingdra|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1632059014
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Kingdra|Dragon Dance|p2a: Kingdra
+|-boost|p2a: Kingdra|atk|1
+|-boost|p2a: Kingdra|spe|1
+|
+|-heal|p2a: Kingdra|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1632059024
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: youke|move: Tailwind
+|move|p2a: Kingdra|Waterfall|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-heal|p2a: Kingdra|73/100|[from] item: Leftovers
+|upkeep
+|inactive|youke has 210 seconds left.
+|
+|t:|1632059066
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|9
+|
+|t:|1632059087
+|move|p1a: Raikou|Thunder|p2a: Kingdra|[miss]
+|-miss|p1a: Raikou|p2a: Kingdra
+|move|p2a: Kingdra|Outrage|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|-heal|p2a: Kingdra|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632059091
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|10
+|
+|t:|1632059102
+|move|p2a: Kingdra|Outrage|p1a: Kingdra|[from]lockedmove
+|-supereffective|p1a: Kingdra
+|-crit|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|-start|p2a: Kingdra|confusion|[fatigue]
+|
+|-heal|p2a: Kingdra|85/100|[from] item: Leftovers
+|upkeep
+|inactive|youke has 180 seconds left.
+|
+|t:|1632059145
+|switch|p1a: Kabutops|Kabutops, F|100/100
+|turn|11
+|
+|t:|1632059152
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Kabutops|Stone Edge|p2a: Mew
+|-damage|p2a: Mew|29/100
+|-damage|p1a: Kabutops|91/100|[from] item: Life Orb
+|
+|-sideend|p1: youke|move: Tailwind
+|upkeep
+|turn|12
+|c|☆youke|gg
+|
+|t:|1632059160
+|move|p2a: Mew|Giga Drain|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|-heal|p2a: Mew|64/100|[from] drain|[of] p1a: Kabutops
+|faint|p1a: Kabutops
+|-damage|p2a: Mew|54/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1632059162
+|switch|p1a: Azelf|Azelf|100/100
+|turn|13
+|
+|t:|1632059165
+|move|p1a: Azelf|Stealth Rock|p2a: Mew
+|-sidestart|p2: Ark|move: Stealth Rock
+|move|p2a: Mew|Giga Drain|p1a: Azelf
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|19/100
+|-heal|p2a: Mew|91/100|[from] drain|[of] p1a: Azelf
+|-damage|p2a: Mew|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|t:|1632059168
+|move|p1a: Azelf|Explosion|p2a: Mew
+|-damage|p2a: Mew|10/100
+|faint|p1a: Azelf
+|
+|win|Ark
+|c|☆Ark|gg

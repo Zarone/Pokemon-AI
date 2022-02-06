@@ -1,0 +1,113 @@
+|j|☆jahmille118
+|j|☆tank skunk
+|t:|1642267638
+|gametype|singles
+|player|p1|jahmille118|169|1022
+|player|p2|tank skunk|pokefan|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Victreebel, M|item
+|poke|p1|Leafeon, M|item
+|poke|p1|Liepard, F|item
+|poke|p1|Shuckle, M|item
+|poke|p1|Sawsbuck, M|item
+|poke|p2|Lunatone|item
+|poke|p2|Scraggy, M|item
+|poke|p2|Electabuzz, M|item
+|poke|p2|Golbat, F|item
+|poke|p2|Rapidash, F|item
+|poke|p2|Ludicolo, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|inactive|jahmille118 has 120 seconds left.
+|
+|t:|1642267690
+|start
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Big Mouth|Golbat, F, shiny|100/100
+|turn|1
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642267739
+|switch|p2a: Rarity|Rapidash, F, shiny|100/100
+|move|p1a: Charizard|Flamethrower|p2a: Rarity
+|-start|p2a: Rarity|ability: Flash Fire
+|
+|upkeep
+|turn|2
+|
+|t:|1642267748
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|move|p2a: Rarity|Wild Charge|p1a: Shuckle
+|-damage|p1a: Shuckle|77/100
+|-damage|p2a: Rarity|95/100|[from] Recoil
+|-damage|p2a: Rarity|86/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1642267758
+|-end|p2a: Rarity|ability: Flash Fire|[silent]
+|switch|p2a: Ultra Moon|Lunatone|100/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Ultra Moon
+|-sidestart|p2: tank skunk|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1642267769
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Ultra Moon|Stealth Rock|p1a: Charizard
+|-sidestart|p1: jahmille118|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1642267777
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|move|p2a: Ultra Moon|Hidden Power|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1642267786
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|-damage|p1a: Leafeon|88/100|[from] Stealth Rock
+|turn|6
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1642267823
+|switch|p2a: Big Mouth|Golbat, F, shiny|100/100
+|-damage|p2a: Big Mouth|76/100|[from] Stealth Rock
+|move|p1a: Leafeon|Leaf Blade|p2a: Big Mouth
+|-resisted|p2a: Big Mouth
+|-damage|p2a: Big Mouth|66/100
+|-damage|p1a: Leafeon|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|inactive|tank skunk has 120 seconds left.
+|-message|jahmille118 forfeited.
+|
+|win|tank skunk
+|raw|jahmille118's rating: 1022 &rarr; <strong>1013</strong><br />(-9 for losing)
+|raw|tank skunk's rating: 1127 &rarr; <strong>1145</strong><br />(+18 for winning)
+|l|☆jahmille118

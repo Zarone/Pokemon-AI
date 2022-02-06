@@ -1,0 +1,270 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639276861
+|gametype|singles
+|player|p1|Finchinator|#finchinator|
+|player|p2|ninjadog|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ludicolo, F|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Azelf|item
+|poke|p1|Kingdra, M|item
+|poke|p2|Mew|item
+|poke|p2|Heracross, F|item
+|poke|p2|Roserade, M|item
+|poke|p2|Rhyperior, F|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Sharpedo, M|item
+|teampreview
+|c|☆Finchinator|hf
+|c|☆ninjadog|u2
+|inactive|ninjadog has 270 seconds left.
+|
+|t:|1639276918
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Heracross|Heracross, F|100/100
+|turn|1
+|
+|t:|1639276942
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|move|p2a: Heracross|Megahorn|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|70/100
+|
+|upkeep
+|turn|2
+|inactive|ninjadog has 270 seconds left.
+|
+|t:|1639276964
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: Nidoqueen|Super Fang|p2a: Roserade
+|-damage|p2a: Roserade|51/100
+|-damage|p1a: Nidoqueen|60/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|inactive|ninjadog has 270 seconds left.
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1639277029
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Nidoqueen|Ice Beam|p2a: Mew
+|-damage|p2a: Mew|60/100
+|
+|upkeep
+|turn|4
+|
+|t:|1639277036
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Mew|Psyshock|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|75/100
+|-damage|p2a: Mew|50/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|inactive|ninjadog has 210 seconds left.
+|
+|t:|1639277067
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|move|p2a: Mew|Dark Pulse|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|-damage|p2a: Mew|40/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1639277073
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|6
+|inactive|ninjadog has 210 seconds left.
+|inactive|ninjadog has 180 seconds left.
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1639277150
+|move|p1a: Kingdra|Dragon Pulse|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|ninjadog has 120 seconds left.
+|inactive|ninjadog has 90 seconds left.
+|inactive|ninjadog has 60 seconds left.
+|inactive|ninjadog has 30 seconds left.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1639277281
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|7
+|inactive|ninjadog has 30 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1639277292
+|move|p1a: Kingdra|Dragon Pulse|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|ninjadog has 25 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|c|☆Finchinator|timid too?
+|c|☆ninjadog|ye
+|inactive|ninjadog has 15 seconds left.
+|
+|t:|1639277304
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|turn|8
+|inactive|ninjadog has 25 seconds left this turn.
+|c|☆Finchinator|:x
+|
+|t:|1639277310
+|switch|p1a: Ludicolo|Ludicolo, F|100/100
+|move|p2a: Rhyperior|Dragon Tail|p1a: Ludicolo
+|-damage|p1a: Ludicolo|69/100
+|drag|p1a: Kabutops|Kabutops, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|ninjadog has 30 seconds left.
+|
+|t:|1639277319
+|move|p1a: Kabutops|Waterfall|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|-damage|p1a: Kabutops|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|ninjadog has 30 seconds left.
+|inactive|ninjadog has 20 seconds left.
+|inactive|ninjadog has 15 seconds left.
+|inactive|ninjadog has 10 seconds left.
+|
+|t:|1639277345
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|turn|10
+|inactive|ninjadog has 20 seconds left this turn.
+|
+|t:|1639277352
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: Kabutops|Waterfall|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|11
+|inactive|ninjadog has 30 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1639277372
+|move|p2a: Sharpedo|Protect||[still]
+|-fail|p2a: Sharpedo
+|move|p1a: Kabutops|Waterfall|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-crit|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|-damage|p1a: Kabutops|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|ninjadog has 25 seconds left this turn.
+|inactive|ninjadog has 20 seconds left.
+|
+|t:|1639277379
+|switch|p2a: Roserade|Roserade, M|51/100
+|turn|12
+|inactive|ninjadog has 30 seconds left this turn.
+|
+|t:|1639277387
+|move|p1a: Kabutops|Waterfall|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-damage|p1a: Kabutops|71/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1639277390
+|switch|p2a: Heracross|Heracross, F|100/100
+|turn|13
+|
+|t:|1639277400
+|move|p1a: Kabutops|Aqua Jet|p2a: Heracross
+|-damage|p2a: Heracross|63/100
+|-damage|p1a: Kabutops|61/100|[from] item: Life Orb
+|move|p2a: Heracross|Close Combat|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Kabutops
+|
+|upkeep
+|
+|t:|1639277409
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|14
+|
+|t:|1639277415
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Heracross|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|51/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1639277420
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Finchinator|move: Tailwind
+|move|p2a: Heracross|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|8/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1639277423
+|move|p1a: Tornadus|Hurricane|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|win|Finchinator
+|c|☆Finchinator|came down to tie, gg
+|c|☆ninjadog|gg

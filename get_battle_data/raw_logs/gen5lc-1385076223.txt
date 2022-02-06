@@ -1,0 +1,200 @@
+|j|☆Rowdog 100
+|j|☆Dexpe
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1627403871
+|gametype|singles
+|player|p1|Rowdog 100|101|
+|player|p2|Dexpe|n|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Same Type Clause: Pokémon in a team must share a type
+|clearpoke
+|poke|p1|Onix, L5, F|item
+|poke|p1|Gible, L5, F|item
+|poke|p1|Golett, L5|item
+|poke|p1|Hippopotas, L5, M|item
+|poke|p1|Baltoy, L5|item
+|poke|p1|Sandile, L5, F|item
+|poke|p2|Shellder, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Omanyte, L5, M|item
+|poke|p2|Tirtouga, L5, F|item
+|poke|p2|Carvanha, L5, M|item
+|poke|p2|Chinchou, L5, M|item
+|teampreview
+|j|*Lady Monita
+|
+|t:|1627403890
+|start
+|switch|p1a: Golett|Golett, L5|100/100
+|switch|p2a: Shellder|Shellder, L5, F|100/100
+|turn|1
+|
+|t:|1627403900
+|move|p2a: Shellder|Shell Smash|p2a: Shellder
+|-unboost|p2a: Shellder|def|1
+|-unboost|p2a: Shellder|spd|1
+|-boost|p2a: Shellder|atk|2
+|-boost|p2a: Shellder|spa|2
+|-boost|p2a: Shellder|spe|2
+|move|p1a: Golett|Thunder Punch|p2a: Shellder
+|-supereffective|p2a: Shellder
+|-enditem|p2a: Shellder|Focus Sash
+|-damage|p2a: Shellder|6/100
+|
+|upkeep
+|turn|2
+|
+|t:|1627403915
+|move|p2a: Shellder|Icicle Spear|p1a: Golett
+|-supereffective|p1a: Golett
+|-crit|p1a: Golett
+|-damage|p1a: Golett|19/100
+|-supereffective|p1a: Golett
+|-damage|p1a: Golett|0 fnt
+|faint|p1a: Golett
+|-hitcount|p1: Golett|2
+|
+|upkeep
+|
+|t:|1627403926
+|switch|p1a: Onix|Onix, L5, F|100/100
+|turn|3
+|
+|t:|1627403947
+|move|p2a: Shellder|Icicle Spear|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|80/100
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|50/100
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|30/100
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|-hitcount|p1: Onix|4
+|
+|upkeep
+|
+|t:|1627403958
+|switch|p1a: Sandile|Sandile, L5, F|100/100
+|-ability|p1a: Sandile|Intimidate|boost
+|-unboost|p2a: Shellder|atk|1
+|turn|4
+|
+|t:|1627403964
+|move|p2a: Shellder|Icicle Spear|p1a: Sandile
+|-supereffective|p1a: Sandile
+|-crit|p1a: Sandile
+|-damage|p1a: Sandile|15/100
+|-supereffective|p1a: Sandile
+|-damage|p1a: Sandile|0 fnt
+|faint|p1a: Sandile
+|-hitcount|p1: Sandile|2
+|
+|upkeep
+|
+|t:|1627403972
+|switch|p1a: Gible|Gible, L5, F|100/100
+|turn|5
+|
+|t:|1627403978
+|move|p2a: Shellder|Icicle Spear|p1a: Gible
+|-supereffective|p1a: Gible
+|-damage|p1a: Gible|28/100
+|-supereffective|p1a: Gible
+|-damage|p1a: Gible|0 fnt
+|faint|p1a: Gible
+|-hitcount|p1: Gible|2
+|
+|upkeep
+|
+|t:|1627403985
+|switch|p1a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|6
+|
+|t:|1627403990
+|move|p1a: Hippopotas|Protect|p1a: Hippopotas
+|-singleturn|p1a: Hippopotas|Protect
+|move|p2a: Shellder|Icicle Spear|p1a: Hippopotas
+|-activate|p1a: Hippopotas|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shellder|0 fnt|[from] Sandstorm
+|faint|p2a: Shellder
+|upkeep
+|
+|t:|1627403998
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|turn|7
+|
+|t:|1627404004
+|move|p2a: Carvanha|Waterfall|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|22/100
+|-damage|p2a: Carvanha|95/100|[from] item: Life Orb
+|move|p1a: Hippopotas|Toxic|p2a: Carvanha
+|-status|p2a: Carvanha|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Carvanha|90/100 tox|[from] Sandstorm
+|-damage|p2a: Carvanha|85/100 tox|[from] psn
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|8
+|
+|t:|1627404017
+|move|p1a: Hippopotas|Protect|p1a: Hippopotas
+|-singleturn|p1a: Hippopotas|Protect
+|move|p2a: Carvanha|Aqua Jet|p1a: Hippopotas
+|-activate|p1a: Hippopotas|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Carvanha|79/100 tox|[from] Sandstorm
+|-damage|p2a: Carvanha|69/100 tox|[from] psn
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|9
+|
+|t:|1627404028
+|move|p2a: Carvanha|Aqua Jet|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|-damage|p2a: Carvanha|64/100 tox|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Carvanha|58/100 tox|[from] Sandstorm
+|-damage|p2a: Carvanha|43/100 tox|[from] psn
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|
+|t:|1627404039
+|switch|p1a: Baltoy|Baltoy, L5|100/100
+|turn|10
+|
+|t:|1627404049
+|move|p2a: Carvanha|Waterfall|p1a: Baltoy
+|-supereffective|p1a: Baltoy
+|-damage|p1a: Baltoy|0 fnt
+|faint|p1a: Baltoy
+|-damage|p2a: Carvanha|37/100 tox|[from] item: Life Orb
+|
+|win|Dexpe
+|n|☆Rowdog 100|rowdog100
+|n|☆Dexpe|dexpe
+|n|*Lady Monita|ladymonita

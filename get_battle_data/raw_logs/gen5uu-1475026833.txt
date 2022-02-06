@@ -1,0 +1,435 @@
+|j|☆Ice Spirit Here❄️
+|j|☆Lunar Latioss
+|t:|1639737722
+|gametype|singles
+|player|p1|Ice Spirit Here❄️|dawn-gen4pt|
+|player|p2|Lunar Latioss|maylene|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Meloetta|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Rhyperior, F|item
+|poke|p1|Victini|item
+|poke|p1|Zapdos|item
+|poke|p1|Cobalion|item
+|poke|p2|Meloetta|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Rhyperior, M|item
+|poke|p2|Victini|item
+|poke|p2|Zapdos|item
+|poke|p2|Cobalion|item
+|teampreview
+|c|☆Lunar Latioss|lol
+|c|☆Lunar Latioss|glhf
+|
+|t:|1639737755
+|start
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|1
+|
+|t:|1639737768
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Meloetta|Psychic|p2a: Rhyperior
+|-damage|p2a: Rhyperior|34/100
+|
+|-heal|p2a: Rhyperior|40/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ice Spirit Here❄️)
+|
+|t:|1639737781
+|move|p2a: Rhyperior|Protect|p2a: Rhyperior
+|-singleturn|p2a: Rhyperior|Protect
+|move|p1a: Meloetta|Psychic|p2a: Rhyperior
+|-activate|p2a: Rhyperior|move: Protect
+|
+|-heal|p2a: Rhyperior|46/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1639737789
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Meloetta|Psychic|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|66/100
+|
+|upkeep
+|turn|4
+|c|☆Ice Spirit Here❄️|We both know our sets
+|
+|t:|1639737802
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Victini|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|87/100
+|
+|t:|1639737809
+|switch|p2a: Blastoise|Blastoise, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Rhyperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1639737816
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Blastoise|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1639737835
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Zapdos|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100
+|
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Zapdos|97/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1639737848
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Zapdos|Hidden Power|p1a: Victini
+|-resisted|p1a: Victini
+|-crit|p1a: Victini
+|-damage|p1a: Victini|80/100
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639737863
+|move|p1a: Victini|Bolt Strike|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1639737884
+|switch|p1a: Zapdos|Zapdos|88/100 tox
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Zapdos|Hidden Power|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100 tox
+|
+|-heal|p1a: Zapdos|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|70/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1639737898
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|move|p2a: Zapdos|Discharge|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|40/100
+|
+|-heal|p1a: Blastoise|46/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1639737916
+|move|p2a: Zapdos|Discharge|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1639737920
+|switch|p1a: Rhyperior|Rhyperior, F|94/100
+|turn|12
+|
+|t:|1639737938
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Rhyperior|Rock Blast|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|98/100
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|95/100
+|-hitcount|p2a: Cobalion|2
+|
+|-heal|p1a: Rhyperior|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Ice Spirit Here❄️ has 120 seconds left.
+|
+|t:|1639737973
+|move|p2a: Cobalion|Magnet Rise|p2a: Cobalion
+|-start|p2a: Cobalion|Magnet Rise
+|move|p1a: Rhyperior|Stealth Rock|p2a: Cobalion
+|-sidestart|p2: Lunar Latioss|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Ice Spirit Here❄️ has 120 seconds left.
+|
+|t:|1639737980
+|switch|p1a: Zapdos|Zapdos|70/100 tox
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Cobalion|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|49/100 tox
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|
+|-heal|p1a: Zapdos|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|49/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|Ice Spirit Here❄️ has 120 seconds left.
+|
+|t:|1639738001
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|99/100 tox
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p1a: Zapdos|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1639738014
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-damage|p1a: Zapdos|57/100 tox
+|move|p1a: Zapdos|Discharge|p2a: Zapdos
+|-damage|p2a: Zapdos|48/100
+|-status|p2a: Zapdos|par
+|
+|-heal|p1a: Zapdos|63/100 tox|[from] item: Leftovers
+|-heal|p2a: Zapdos|54/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|45/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1639738023
+|move|p1a: Zapdos|Hidden Power|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|44/100 par
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|94/100 par
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p1a: Zapdos|51/100 tox|[from] item: Leftovers
+|-heal|p2a: Zapdos|99/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|27/100 tox|[from] psn
+|upkeep
+|turn|18
+|j| JamboreeJourney
+|
+|t:|1639738046
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|switch|p2a: Meloetta|Meloetta|100/100
+|-damage|p2a: Meloetta|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1639738058
+|move|p2a: Meloetta|Psychic|p1a: Rhyperior
+|-damage|p1a: Rhyperior|32/100
+|move|p1a: Rhyperior|Earthquake|p2a: Meloetta
+|-damage|p2a: Meloetta|21/100
+|
+|-heal|p1a: Rhyperior|38/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1639738064
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Meloetta|Psychic|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|-heal|p1a: Rhyperior|44/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1639738073
+|switch|p1a: Victini|Victini|80/100
+|move|p2a: Meloetta|Psychic|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|48/100
+|-unboost|p1a: Victini|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1639738081
+|move|p1a: Victini|U-turn|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|
+|t:|1639738086
+|switch|p1a: Zapdos|Zapdos|27/100 tox|[from]move: U-turn
+|-ability|p1a: Zapdos|Pressure
+|
+|-heal|p1a: Zapdos|33/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|27/100 tox|[from] psn
+|upkeep
+|
+|t:|1639738106
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1639738114
+|move|p1a: Zapdos|Discharge|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|32/100
+|-status|p2a: Blastoise|par
+|cant|p2a: Blastoise|par
+|
+|-heal|p1a: Zapdos|33/100 tox|[from] item: Leftovers
+|-heal|p2a: Blastoise|38/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|21/100 tox|[from] psn
+|upkeep
+|turn|24
+|c|☆Lunar Latioss|rip
+|
+|t:|1639738124
+|move|p1a: Zapdos|Discharge|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-heal|p1a: Zapdos|27/100 tox|[from] item: Leftovers
+|-damage|p1a: Zapdos|9/100 tox|[from] psn
+|upkeep
+|c|☆Ice Spirit Here❄️|Fair
+|
+|t:|1639738135
+|switch|p2a: Victini|Victini|66/100
+|-damage|p2a: Victini|41/100|[from] Stealth Rock
+|turn|25
+|c|☆Ice Spirit Here❄️|U also got crits in row
+|
+|t:|1639738155
+|switch|p1a: Rhyperior|Rhyperior, F|44/100
+|move|p2a: Victini|V-create|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|18/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: Rhyperior|24/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1639738167
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Victini|V-create|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|-heal|p1a: Rhyperior|31/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Lunar Latioss has 120 seconds left.
+|
+|t:|1639738200
+|switch|p2a: Cobalion|Cobalion|95/100
+|-damage|p2a: Cobalion|92/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Earthquake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|5/100
+|
+|-heal|p1a: Rhyperior|37/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1639738208
+|switch|p1a: Zapdos|Zapdos|9/100 tox
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Cobalion|Iron Head|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1639738218
+|switch|p1a: Victini|Victini|48/100
+|turn|29
+|
+|t:|1639738225
+|move|p1a: Victini|U-turn|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|t:|1639738231
+|switch|p1a: Rhyperior|Rhyperior, F|37/100|[from]move: U-turn
+|
+|-heal|p1a: Rhyperior|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1639738245
+|switch|p2a: Zapdos|Zapdos|99/100 par
+|-damage|p2a: Zapdos|75/100 par|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|30
+|
+|t:|1639738256
+|move|p1a: Rhyperior|Rock Blast|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|54/100 par
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|32/100 par
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|11/100 par
+|-hitcount|p2a: Zapdos|3
+|cant|p2a: Zapdos|par
+|
+|-heal|p1a: Rhyperior|49/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆Lunar Latioss|ok gg
+|
+|t:|1639738269
+|move|p1a: Rhyperior|Rock Blast|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-hitcount|p2: Zapdos|1
+|
+|-heal|p1a: Rhyperior|55/100|[from] item: Leftovers
+|upkeep
+|-message|Lunar Latioss forfeited.
+|
+|win|Ice Spirit Here❄️
+|n|☆Ice Spirit Here❄️|icespirithere
+|n|☆Lunar Latioss|lunarlatioss
+|n| JamboreeJourney|jamboreejourney
+|l|☆Lunar Latioss

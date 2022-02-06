@@ -1,0 +1,198 @@
+|j|☆PirateMonkeyDLuffy
+|j|☆Kodiak_45
+|t:|1641078429
+|gametype|singles
+|player|p1|PirateMonkeyDLuffy|camper|1000
+|player|p2|Kodiak_45|hilbert|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Omanyte, L5, M|item
+|poke|p1|Tentacool, L5, M|item
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Lileep, L5, M|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Hippopotas, L5, F|item
+|poke|p2|Ferroseed, L5, F|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Vullaby, L5, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PirateMonkeyDLuffy)
+|c|☆Kodiak_45|gl hf
+|c|☆PirateMonkeyDLuffy|glhf
+|inactive|Kodiak_45 has 120 seconds left.
+|
+|t:|1641078465
+|start
+|switch|p1a: Alan|Drifloon, L5, M|100/100
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|turn|1
+|
+|t:|1641078471
+|move|p1a: Alan|Will-O-Wisp|p2a: Ferroseed
+|-status|p2a: Ferroseed|brn
+|move|p2a: Ferroseed|Thunder Wave|p1a: Alan
+|-status|p1a: Alan|par
+|
+|-damage|p2a: Ferroseed|92/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1641078477
+|move|p2a: Ferroseed|Spikes|p1a: Alan
+|-sidestart|p1: PirateMonkeyDLuffy|Spikes
+|move|p1a: Alan|Acrobatics|p2a: Ferroseed
+|-enditem|p1a: Alan|Flying Gem|[from] gem
+|-damage|p2a: Ferroseed|48/100 brn
+|-damage|p1a: Alan|89/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|-damage|p2a: Ferroseed|40/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1641078484
+|move|p1a: Alan|Acrobatics|p2a: Ferroseed
+|-damage|p2a: Ferroseed|9/100 brn
+|-damage|p1a: Alan|77/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|move|p2a: Ferroseed|Iron Head|p1a: Alan
+|-damage|p1a: Alan|54/100 par
+|
+|-damage|p2a: Ferroseed|0 fnt|[from] brn
+|faint|p2a: Ferroseed
+|upkeep
+|
+|t:|1641078493
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|turn|4
+|
+|t:|1641078503
+|move|p2a: Vullaby|Roost||[still]
+|-fail|p2a: Vullaby|heal
+|move|p1a: Alan|Will-O-Wisp|p2a: Vullaby
+|-status|p2a: Vullaby|brn
+|
+|-damage|p2a: Vullaby|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1641078506
+|move|p2a: Vullaby|Brave Bird|p1a: Alan
+|-damage|p1a: Alan|20/100 par
+|-damage|p2a: Vullaby|76/100 brn|[from] Recoil
+|move|p1a: Alan|Memento|p2a: Vullaby
+|-unboost|p2a: Vullaby|atk|2
+|-unboost|p2a: Vullaby|spa|2
+|faint|p1a: Alan
+|
+|-damage|p2a: Vullaby|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1641078524
+|switch|p1a: Gary|Omanyte, L5, M, shiny|100/100
+|-damage|p1a: Gary|91/100|[from] Spikes
+|turn|6
+|
+|t:|1641078535
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|move|p1a: Gary|Shell Smash|p1a: Gary
+|-unboost|p1a: Gary|def|1
+|-unboost|p1a: Gary|spd|1
+|-boost|p1a: Gary|atk|2
+|-boost|p1a: Gary|spa|2
+|-boost|p1a: Gary|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1641078539
+|move|p2a: Mienfoo|Fake Out|p1a: Gary
+|-resisted|p1a: Gary
+|-damage|p1a: Gary|81/100
+|cant|p1a: Gary|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1641078546
+|move|p1a: Gary|Hydro Pump|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1641078561
+|switch|p2a: Vullaby|Vullaby, L5, F|64/100 brn
+|turn|9
+|
+|t:|1641078570
+|move|p1a: Gary|Substitute|p1a: Gary
+|-start|p1a: Gary|Substitute
+|-damage|p1a: Gary|58/100
+|move|p2a: Vullaby|Knock Off|p1a: Gary
+|-activate|p1a: Gary|Substitute|[damage]
+|
+|-damage|p2a: Vullaby|52/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1641078576
+|move|p1a: Gary|Ice Beam|p2a: Vullaby
+|-supereffective|p2a: Vullaby
+|-damage|p2a: Vullaby|0 fnt
+|faint|p2a: Vullaby
+|
+|upkeep
+|
+|t:|1641078580
+|switch|p2a: Hippopotas|Hippopotas, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|11
+|
+|t:|1641078586
+|move|p1a: Gary|Ice Beam|p2a: Hippopotas
+|-supereffective|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|faint|p2a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1641078589
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|12
+|
+|t:|1641078592
+|move|p1a: Gary|Ice Beam|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1641078594
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|13
+|
+|t:|1641078596
+|move|p1a: Gary|Ice Beam|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|win|PirateMonkeyDLuffy
+|raw|PirateMonkeyDLuffy's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|raw|Kodiak_45's rating: 1040 &rarr; <strong>1022</strong><br />(-18 for losing)
+|c|☆PirateMonkeyDLuffy|ggwp
+|l|☆Kodiak_45

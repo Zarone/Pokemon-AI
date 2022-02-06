@@ -1,0 +1,339 @@
+|j|☆crystal vince
+|j|☆Jeran 重力
+|t:|1633279321
+|gametype|singles
+|player|p1|crystal vince|byron|
+|player|p2|Jeran 重力|argenta|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Eelektross, F|item
+|poke|p1|Serperior, M|item
+|poke|p1|Golurk|item
+|poke|p1|Skuntank, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Natu, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Samurott, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jeran 重力)
+|c|☆Jeran 重力|glhf
+|inactive|crystal vince has 270 seconds left.
+|inactive|Jeran 重力 has 270 seconds left.
+|c|☆crystal vince|You wanna post it so people can watch?
+|inactive|crystal vince has 240 seconds left.
+|inactive|Jeran 重力 has 240 seconds left.
+|c|☆Jeran 重力|i mean if u want sure
+|c|☆crystal vince|I did
+|j| Catalisador
+|c| Catalisador|glhf 2 both!
+|inactive|Jeran 重力 has 210 seconds left.
+|
+|t:|1633279413
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|1
+|j| manuft
+|
+|t:|1633279428
+|switch|p2a: Natu|Natu, M|100/100
+|move|p1a: Golurk|Stealth Rock|p2a: Natu
+|move|p2a: Natu|Stealth Rock|p1a: Golurk|[from]ability: Magic Bounce
+|-sidestart|p1: crystal vince|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1633279438
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|move|p2a: Natu|Toxic|p1a: Eelektross
+|-status|p1a: Eelektross|tox
+|
+|-heal|p1a: Eelektross|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Eelektross|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1633279449
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|move|p1a: Eelektross|Thunderbolt|p2a: Piloswine
+|-immune|p2a: Piloswine
+|
+|-heal|p1a: Eelektross|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Eelektross|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1633279462
+|move|p1a: Eelektross|Flamethrower|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|83/100
+|move|p2a: Piloswine|Icicle Spear|p1a: Eelektross
+|-damage|p1a: Eelektross|71/100 tox
+|-damage|p1a: Eelektross|59/100 tox
+|-damage|p1a: Eelektross|48/100 tox
+|-damage|p1a: Eelektross|38/100 tox
+|-damage|p1a: Eelektross|26/100 tox
+|-hitcount|p1a: Eelektross|5
+|
+|-heal|p1a: Eelektross|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Eelektross|14/100 tox|[from] psn
+|upkeep
+|turn|5
+|l| manuft
+|
+|t:|1633279486
+|move|p2a: Piloswine|Ice Shard|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1633279493
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1633279502
+|move|p1a: Charizard|Fire Blast|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|28/100
+|-status|p2a: Piloswine|brn
+|move|p2a: Piloswine|Icicle Spear|p1a: Charizard
+|-damage|p1a: Charizard|44/100
+|-damage|p1a: Charizard|38/100
+|-damage|p1a: Charizard|31/100
+|-hitcount|p1a: Charizard|3
+|
+|-damage|p2a: Piloswine|16/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1633279514
+|move|p1a: Charizard|Fire Blast|p2a: Piloswine|[miss]
+|-miss|p1a: Charizard|p2a: Piloswine
+|move|p2a: Piloswine|Icicle Spear|p1a: Charizard
+|-damage|p1a: Charizard|24/100
+|-damage|p1a: Charizard|17/100
+|-damage|p1a: Charizard|10/100
+|-damage|p1a: Charizard|4/100
+|-hitcount|p1a: Charizard|4
+|
+|-damage|p2a: Piloswine|3/100 brn|[from] brn
+|upkeep
+|turn|8
+|j|+Corthius
+|
+|t:|1633279526
+|move|p2a: Piloswine|Ice Shard|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-damage|p2a: Piloswine|0 fnt|[from] brn
+|faint|p2a: Piloswine
+|upkeep
+|j| Ninja
+|inactive|Jeran 重力 has 270 seconds left.
+|l| Ninja
+|inactive|Jeran 重力 has 240 seconds left.
+|j| UberFiend
+|
+|t:|1633279594
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1633279612
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Fake Out|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|-damage|p2a: Kangaskhan|84/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|upkeep
+|turn|10
+|
+|t:|1633279624
+|move|p2a: Kangaskhan|Toxic|p1a: Alomomola
+|-status|p1a: Alomomola|tox
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1633279632
+|switch|p2a: Natu|Natu, M|100/100
+|move|p1a: Alomomola|Scald|p2a: Natu
+|-damage|p2a: Natu|78/100
+|
+|-heal|p1a: Alomomola|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Jeran 重力 has 240 seconds left.
+|inactive|crystal vince has 270 seconds left.
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279702
+|move|p2a: Natu|Night Shade|p1a: Alomomola
+|-damage|p1a: Alomomola|68/100 tox
+|move|p1a: Alomomola|Scald|p2a: Natu
+|-damage|p2a: Natu|58/100
+|
+|-damage|p1a: Alomomola|49/100 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|crystal vince has 240 seconds left.
+|inactive|Jeran 重力 has 240 seconds left.
+|
+|t:|1633279717
+|switch|p1a: Serperior|Serperior, M|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|
+|upkeep
+|turn|14
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279727
+|move|p1a: Serperior|Giga Drain|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|73/100
+|-heal|p1a: Serperior|100/100|[from] drain|[of] p2a: Natu
+|-damage|p1a: Serperior|91/100|[from] item: Life Orb
+|move|p2a: Natu|Toxic|p1a: Serperior
+|-status|p1a: Serperior|tox
+|
+|-damage|p1a: Serperior|84/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279739
+|move|p1a: Serperior|Hidden Power|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|10/100
+|-damage|p1a: Serperior|74/100 tox|[from] item: Life Orb
+|move|p2a: Natu|Night Shade|p1a: Serperior
+|-damage|p1a: Serperior|40/100 tox
+|
+|-damage|p1a: Serperior|28/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279749
+|move|p1a: Serperior|Hidden Power|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|-damage|p1a: Serperior|18/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Serperior|0 fnt|[from] psn
+|faint|p1a: Serperior
+|upkeep
+|inactive|crystal vince has 240 seconds left.
+|inactive|Jeran 重力 has 240 seconds left.
+|
+|t:|1633279789
+|switch|p1a: Skuntank|Skuntank, M|88/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p1a: Skuntank|76/100|[from] Stealth Rock
+|turn|17
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279808
+|move|p2a: Charizard|Flamethrower|p1a: Skuntank
+|-crit|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|upkeep
+|
+|t:|1633279817
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1633279824
+|move|p2a: Charizard|Flamethrower|p1a: Golurk
+|-damage|p1a: Golurk|27/100
+|-status|p1a: Golurk|brn
+|move|p1a: Golurk|Toxic|p2a: Charizard|[miss]
+|-miss|p1a: Golurk|p2a: Charizard
+|
+|-heal|p1a: Golurk|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Golurk|21/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279835
+|switch|p1a: Alomomola|Alomomola, F|82/100 tox
+|-damage|p1a: Alomomola|70/100 tox|[from] Stealth Rock
+|move|p2a: Charizard|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100 tox
+|
+|-damage|p1a: Alomomola|32/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279852
+|move|p2a: Charizard|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|2/100 tox
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|0 fnt|[from] psn
+|faint|p1a: Alomomola
+|upkeep
+|
+|t:|1633279860
+|switch|p1a: Golurk|Golurk|21/100 brn
+|-damage|p1a: Golurk|15/100 brn|[from] Stealth Rock
+|turn|21
+|inactive|crystal vince has 240 seconds left.
+|
+|t:|1633279873
+|move|p2a: Charizard|Flamethrower|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|win|Jeran 重力
+|c|☆Jeran 重力|gg
+|l|☆Jeran 重力
+|l| Catalisador
+|l|+Corthius
+|j|+Corthius
+|l|+Corthius
+|l| UberFiend
+|l|☆crystal vince
+|j|☆Jeran 重力
+|player|p2|Jeran 重力|argenta
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jeran 重力)
+|j|☆crystal vince
+|player|p1|crystal vince|byron

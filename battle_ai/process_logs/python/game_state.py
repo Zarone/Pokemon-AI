@@ -142,6 +142,8 @@ class GameState:
         team1max = len(self.player1team) - 1
         team2max = len(self.player2team) - 1
 
+        # print(team1max, team2max)
+
         for i in range(6):
             if i > team1max:
                 for val in [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0]]:
@@ -595,7 +597,11 @@ class GameState:
                 elif effect_string == "typechange":
                     effect_int = 15
                     effect_value = 1
+                elif effect_int == "Imprison":
+                    effect_int = 16
+                    effect_value = 1
                 else:
+                    effect_int = 17  
                     print("effect not handled properly: ", effect_string)
                 
                 if effect_int < len(self.player1volatilestatus):

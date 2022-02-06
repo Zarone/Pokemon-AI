@@ -1,0 +1,222 @@
+|j|☆rexxonmobile
+|j|☆nhgbfzv
+|t:|1644086974
+|gametype|singles
+|player|p1|rexxonmobile|2|1265
+|player|p2|nhgbfzv|acetrainer-gen4dp|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nhgbfzv)
+|
+|t:|1644087006
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|t:|1644087014
+|move|p2a: Garchomp|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: rexxonmobile|move: Stealth Rock
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1644087017
+|move|p2a: Garchomp|Outrage|p1a: Thundurus
+|-damage|p1a: Thundurus|27/100
+|move|p1a: Thundurus|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-enditem|p2a: Garchomp|Focus Sash
+|-damage|p2a: Garchomp|1/100
+|
+|-heal|p1a: Thundurus|33/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644087025
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Garchomp|Outrage|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644087032
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|t:|1644087035
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1644087037
+|-activate|p2a: Garchomp|confusion
+|-damage|p2a: Garchomp|0 fnt|[from] confusion
+|faint|p2a: Garchomp
+|move|p1a: Tentacruel|Rapid Spin|p2: Garchomp|[notarget]
+|-fail|p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1644087044
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|6
+|
+|t:|1644087047
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|69/100
+|move|p2a: Thundurus|Thunder|p1a: Tentacruel|[miss]
+|-miss|p2a: Thundurus|p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1644087052
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tentacruel|Scald|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|87/100
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|81/100|[from] item: Black Sludge
+|-heal|p2a: Politoed|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|81/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1644087060
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Tentacruel|Rapid Spin|p2a: Thundurus
+|-damage|p2a: Thundurus|97/100
+|-sideend|p1: rexxonmobile|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|88/100|[from] item: Black Sludge
+|-heal|p2a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644087071
+|move|p1a: Tentacruel|Scald|p2a: Thundurus
+|-damage|p2a: Thundurus|61/100
+|-status|p2a: Thundurus|brn
+|move|p2a: Thundurus|Thunder|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] item: Black Sludge
+|-heal|p2a: Thundurus|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Thundurus|55/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1644087082
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|69/100
+|move|p2a: Thundurus|Hidden Power|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-activate|p1a: Tentacruel|Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|-heal|p2a: Thundurus|61/100 brn|[from] item: Leftovers
+|-damage|p2a: Thundurus|49/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1644087089
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Tentacruel|Protect||[still]
+|-fail|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|81/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1644087092
+|move|p2a: Scizor|Bullet Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|move|p1a: Tentacruel|Scald|p2a: Scizor
+|-damage|p2a: Scizor|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|87/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1644087101
+|move|p2a: Scizor|Bullet Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|58/100
+|move|p1a: Tentacruel|Scald|p2a: Scizor
+|-damage|p2a: Scizor|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|64/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1644087111
+|switch|p2a: Thundurus|Thundurus-Therian, M|49/100 brn
+|move|p1a: Tentacruel|Scald|p2a: Thundurus
+|-damage|p2a: Thundurus|10/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|70/100|[from] item: Black Sludge
+|-heal|p2a: Thundurus|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Thundurus|4/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|nhgbfzv forfeited.
+|
+|win|rexxonmobile
+|raw|rexxonmobile's rating: 1265 &rarr; <strong>1278</strong><br />(+13 for winning)
+|raw|nhgbfzv's rating: 1079 &rarr; <strong>1068</strong><br />(-11 for losing)
+|l|☆nhgbfzv

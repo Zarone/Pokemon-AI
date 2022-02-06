@@ -1,0 +1,392 @@
+|j|☆skdjfhaldjkfasdf
+|j|☆faded love
+|t:|1631572900
+|gametype|singles
+|player|p1|skdjfhaldjkfasdf|acetrainercouple|
+|player|p2|faded love|psychicf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cobalion|item
+|poke|p1|Heracross, F|item
+|poke|p1|Flygon, F|item
+|poke|p1|Swampert, M|item
+|poke|p1|Togekiss, F|item
+|poke|p1|Mismagius, F|item
+|poke|p2|Heracross, F|item
+|poke|p2|Magneton|item
+|poke|p2|Victini|item
+|poke|p2|Gligar, F|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Blastoise, M|item
+|teampreview
+|j| blackkaiser
+|j| Cinnmma ♪♪@!
+|j| Art Imitates Me
+|
+|t:|1631572919
+|start
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: GOOD LIFE|Blastoise, M|100/100
+|turn|1
+|
+|t:|1631572926
+|move|p1a: Flygon|Earthquake|p2a: GOOD LIFE
+|-damage|p2a: GOOD LIFE|64/100
+|-damage|p1a: Flygon|91/100|[from] item: Life Orb
+|move|p2a: GOOD LIFE|Scald|p1a: Flygon
+|-damage|p1a: Flygon|57/100
+|
+|-heal|p2a: GOOD LIFE|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1631572936
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: HOMECOMING|Gligar, F|100/100
+|
+|upkeep
+|turn|3
+|c|☆faded love|let’s get lost tonight / kaiser could be my black Kate Moss tonight
+|
+|t:|1631572967
+|switch|p2a: FLASHING LIGHTS|Magneton|100/100
+|move|p1a: Togekiss|Thunder Wave|p2a: FLASHING LIGHTS
+|-status|p2a: FLASHING LIGHTS|par
+|
+|upkeep
+|turn|4
+|c| blackkaiser|faded stop being a clown wait until you win
+|
+|t:|1631572976
+|move|p1a: Togekiss|Air Slash|p2a: FLASHING LIGHTS
+|-resisted|p2a: FLASHING LIGHTS
+|-damage|p2a: FLASHING LIGHTS|86/100 par
+|cant|p2a: FLASHING LIGHTS|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1631572983
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: FLASHING LIGHTS|Volt Switch|p1a: Swampert
+|-immune|p1a: Swampert
+|
+|upkeep
+|turn|6
+|
+|t:|1631572988
+|switch|p2a: STRONGER|Heracross, F|100/100
+|move|p1a: Swampert|Earthquake|p2a: STRONGER
+|-resisted|p2a: STRONGER
+|-damage|p2a: STRONGER|75/100
+|
+|-status|p2a: STRONGER|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1631572995
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: STRONGER|Megahorn|p1a: Swampert
+|-activate|p1a: Swampert|move: Protect
+|
+|-damage|p2a: STRONGER|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1631572999
+|move|p2a: STRONGER|Megahorn|p1a: Swampert
+|-damage|p1a: Swampert|45/100
+|move|p1a: Swampert|Stealth Rock|p2a: STRONGER
+|-sidestart|p2: faded love|move: Stealth Rock
+|
+|-heal|p1a: Swampert|51/100|[from] item: Leftovers
+|-damage|p2a: STRONGER|57/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1631573005
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: STRONGER|Megahorn|p1a: Swampert
+|-activate|p1a: Swampert|move: Protect
+|
+|-heal|p1a: Swampert|58/100|[from] item: Leftovers
+|-damage|p2a: STRONGER|39/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1631573008
+|switch|p2a: GOOD LIFE|Blastoise, M|70/100
+|-damage|p2a: GOOD LIFE|57/100|[from] Stealth Rock
+|switch|p1a: Mismagius|Mismagius, F|100/100
+|
+|-heal|p2a: GOOD LIFE|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1631573015
+|switch|p2a: THE GLORY|Umbreon, M, shiny|100/100
+|-damage|p2a: THE GLORY|88/100|[from] Stealth Rock
+|move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+|-boost|p1a: Mismagius|spa|2
+|
+|-heal|p2a: THE GLORY|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1631573019
+|move|p1a: Mismagius|Hidden Power|p2a: THE GLORY
+|-supereffective|p2a: THE GLORY
+|-damage|p2a: THE GLORY|48/100
+|move|p2a: THE GLORY|Toxic|p1a: Mismagius
+|-status|p1a: Mismagius|tox
+|
+|-heal|p2a: THE GLORY|55/100|[from] item: Leftovers
+|-damage|p1a: Mismagius|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1631573024
+|move|p1a: Mismagius|Taunt|p2a: THE GLORY
+|-start|p2a: THE GLORY|move: Taunt
+|move|p2a: THE GLORY|Foul Play|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-enditem|p1a: Mismagius|Colbur Berry|[eat]
+|-enditem|p1a: Mismagius|Colbur Berry|[weaken]
+|-damage|p1a: Mismagius|62/100 tox
+|
+|-heal|p2a: THE GLORY|61/100|[from] item: Leftovers
+|-damage|p1a: Mismagius|50/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1631573031
+|move|p1a: Mismagius|Hidden Power|p2a: THE GLORY
+|-supereffective|p2a: THE GLORY
+|-damage|p2a: THE GLORY|14/100
+|move|p2a: THE GLORY|Foul Play|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|-heal|p2a: THE GLORY|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631573037
+|switch|p1a: Flygon|Flygon, F|57/100
+|turn|15
+|j| Twitter Feed
+|
+|t:|1631573046
+|switch|p2a: HOMECOMING|Gligar, F|100/100
+|-damage|p2a: HOMECOMING|88/100|[from] Stealth Rock
+|move|p1a: Flygon|Stone Edge|p2a: HOMECOMING
+|-damage|p2a: HOMECOMING|68/100
+|-damage|p1a: Flygon|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1631573049
+|move|p1a: Flygon|Hidden Power|p2a: HOMECOMING
+|-supereffective|p2a: HOMECOMING
+|-damage|p2a: HOMECOMING|5/100
+|-damage|p1a: Flygon|37/100|[from] item: Life Orb
+|move|p2a: HOMECOMING|Stealth Rock|p1a: Flygon
+|-sidestart|p1: skdjfhaldjkfasdf|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1631573055
+|move|p1a: Flygon|Hidden Power|p2a: HOMECOMING
+|-supereffective|p2a: HOMECOMING
+|-damage|p2a: HOMECOMING|0 fnt
+|faint|p2a: HOMECOMING
+|-damage|p1a: Flygon|27/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1631573058
+|switch|p2a: CHAMPION|Victini|100/100
+|-damage|p2a: CHAMPION|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1631573063
+|switch|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|move|p2a: CHAMPION|V-create|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|-unboost|p2a: CHAMPION|spe|1
+|-unboost|p2a: CHAMPION|def|1
+|-unboost|p2a: CHAMPION|spd|1
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|t:|1631573067
+|switch|p1a: Flygon|Flygon, F|27/100
+|-damage|p1a: Flygon|21/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1631573071
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|71/100
+|-singleturn|p1a: Flygon|move: Roost
+|move|p2a: CHAMPION|V-create|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|16/100
+|-unboost|p2a: CHAMPION|spe|1
+|-unboost|p2a: CHAMPION|def|1
+|-unboost|p2a: CHAMPION|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1631573077
+|switch|p2a: GOOD LIFE|Blastoise, M|63/100
+|-damage|p2a: GOOD LIFE|51/100|[from] Stealth Rock
+|move|p1a: Flygon|Roost|p1a: Flygon
+|-heal|p1a: Flygon|67/100
+|-singleturn|p1a: Flygon|move: Roost
+|
+|-heal|p2a: GOOD LIFE|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c| Twitter Feed|Is it all Kanye songs?
+|
+|t:|1631573093
+|move|p1a: Flygon|Earthquake|p2a: GOOD LIFE
+|-damage|p2a: GOOD LIFE|15/100
+|-damage|p1a: Flygon|57/100|[from] item: Life Orb
+|move|p2a: GOOD LIFE|Scald|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-heal|p2a: GOOD LIFE|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631573097
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|turn|22
+|c| Art Imitates Me|like we always do at this time
+|
+|t:|1631573099
+|move|p1a: Heracross|Close Combat|p2a: GOOD LIFE
+|-damage|p2a: GOOD LIFE|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: GOOD LIFE
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1631573102
+|switch|p2a: CHAMPION|Victini|76/100
+|-damage|p2a: CHAMPION|51/100|[from] Stealth Rock
+|turn|23
+|c| Art Imitates Me|i go for mine i got to shine
+|c| Art Imitates Me|so throw your hands up in the skyyyy
+|c| Twitter Feed|That’s goated
+|
+|t:|1631573139
+|switch|p2a: STRONGER|Heracross, F|39/100 tox
+|-damage|p2a: STRONGER|27/100 tox|[from] Stealth Rock
+|switch|p1a: Swampert|Swampert, M|58/100
+|-damage|p1a: Swampert|51/100|[from] Stealth Rock
+|
+|-heal|p1a: Swampert|58/100|[from] item: Leftovers
+|-damage|p2a: STRONGER|21/100 tox|[from] psn
+|upkeep
+|turn|24
+|j| hdfgfgrd
+|
+|t:|1631573154
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2a: STRONGER|Close Combat|p1a: Swampert
+|-activate|p1a: Swampert|move: Protect
+|
+|-heal|p1a: Swampert|64/100|[from] item: Leftovers
+|-damage|p2a: STRONGER|9/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1631573164
+|switch|p1a: Heracross|Heracross, F|88/100
+|-damage|p1a: Heracross|76/100|[from] Stealth Rock
+|move|p2a: STRONGER|Close Combat|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|14/100
+|-unboost|p2a: STRONGER|def|1
+|-unboost|p2a: STRONGER|spd|1
+|
+|-damage|p2a: STRONGER|0 fnt|[from] psn
+|faint|p2a: STRONGER
+|upkeep
+|
+|t:|1631573167
+|switch|p2a: CHAMPION|Victini|51/100
+|-damage|p2a: CHAMPION|26/100|[from] Stealth Rock
+|turn|26
+|l| Cinnmma ♪♪
+|
+|t:|1631573198
+|switch|p1a: Swampert|Swampert, M|64/100
+|-damage|p1a: Swampert|58/100|[from] Stealth Rock
+|move|p2a: CHAMPION|V-create|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|34/100
+|-unboost|p2a: CHAMPION|spe|1
+|-unboost|p2a: CHAMPION|def|1
+|-unboost|p2a: CHAMPION|spd|1
+|
+|-heal|p1a: Swampert|40/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by skdjfhaldjkfasdf)
+|c| Twitter Feed|d
+|
+|t:|1631573233
+|switch|p2a: THE GLORY|Umbreon, M, shiny|20/100
+|-damage|p2a: THE GLORY|8/100|[from] Stealth Rock
+|move|p1a: Swampert|Earthquake|p2a: THE GLORY
+|-damage|p2a: THE GLORY|0 fnt
+|faint|p2a: THE GLORY
+|
+|-heal|p1a: Swampert|46/100|[from] item: Leftovers
+|upkeep
+|c| Twitter Feed|Did you realize
+|-message|faded love forfeited.
+|
+|win|skdjfhaldjkfasdf
+|n|☆skdjfhaldjkfasdf|skdjfhaldjkfasdf
+|n|☆faded love|fadedlove
+|n| blackkaiser|blackkaiser
+|n| Art Imitates Me|artimitatesme
+|n| Twitter Feed|twitterfeed
+|n| hdfgfgrd|hdfgfgrd
+|l|☆faded love
+|l| blackkaiser
+|c| Twitter Feed|That you was a champion in their eyes!
+|l|☆skdjfhaldjkfasdf
+|l| Art Imitates Me
+|l| Twitter Feed

@@ -1,0 +1,280 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1636938177
+|gametype|singles
+|player|p1|ninjadog|jasmine|
+|player|p2|Sabella|#sabella|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Virizion|item
+|poke|p1|Durant, F|item
+|poke|p1|Snorlax, F|item
+|poke|p1|Slowking, F|item
+|poke|p1|Zapdos|item
+|poke|p2|Xatu, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Linoone, M|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Kingdra, M|item
+|teampreview
+|inactive|ninjadog has 270 seconds left.
+|inactive|Sabella has 270 seconds left.
+|
+|t:|1636938232
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: DIE YOUNG|Xatu, F|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|inactive|ninjadog has 270 seconds left.
+|
+|t:|1636938270
+|switch|p2a: DIRTY LOVE|Krookodile, M|100/100
+|move|p1a: Zapdos|Hidden Power|p2a: DIRTY LOVE
+|-supereffective|p2a: DIRTY LOVE
+|-damage|p2a: DIRTY LOVE|49/100
+|
+|upkeep
+|turn|2
+|inactive|ninjadog has 270 seconds left.
+|
+|t:|1636938283
+|move|p2a: DIRTY LOVE|Stone Edge|p1a: Zapdos|[miss]
+|-miss|p2a: DIRTY LOVE|p1a: Zapdos
+|move|p1a: Zapdos|Hidden Power|p2a: DIRTY LOVE
+|-supereffective|p2a: DIRTY LOVE
+|-damage|p2a: DIRTY LOVE|0 fnt
+|faint|p2a: DIRTY LOVE
+|
+|upkeep
+|
+|t:|1636938295
+|switch|p2a: DIE YOUNG|Xatu, F|100/100
+|turn|3
+|
+|t:|1636938299
+|move|p1a: Zapdos|Thunderbolt|p2a: DIE YOUNG
+|-supereffective|p2a: DIE YOUNG
+|-damage|p2a: DIE YOUNG|0 fnt
+|faint|p2a: DIE YOUNG
+|
+|upkeep
+|c|+faded love|uh
+|
+|t:|1636938322
+|switch|p2a: CRAZY KIDS|Cobalion|100/100
+|turn|4
+|c|~Finchinator|hm.
+|inactive|ninjadog has 270 seconds left.
+|c|+Feliburn|die young died young
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1636938379
+|move|p2a: CRAZY KIDS|Swords Dance|p2a: CRAZY KIDS
+|-boost|p2a: CRAZY KIDS|atk|2
+|move|p1a: Zapdos|Thunderbolt|p2a: CRAZY KIDS
+|-damage|p2a: CRAZY KIDS|41/100
+|
+|upkeep
+|turn|5
+|inactive|ninjadog has 240 seconds left.
+|
+|t:|1636938410
+|move|p2a: CRAZY KIDS|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|inactive|ninjadog has 210 seconds left.
+|inactive|ninjadog has 180 seconds left.
+|
+|t:|1636938460
+|switch|p1a: Slowking|Slowking, F|100/100
+|turn|6
+|
+|t:|1636938470
+|move|p2a: CRAZY KIDS|Stealth Rock|p1a: Slowking
+|-sidestart|p1: ninjadog|move: Stealth Rock
+|move|p1a: Slowking|Scald|p2a: CRAZY KIDS
+|-damage|p2a: CRAZY KIDS|3/100
+|
+|upkeep
+|turn|7
+|
+|t:|1636938480
+|move|p2a: CRAZY KIDS|Stone Edge|p1a: Slowking
+|-damage|p1a: Slowking|63/100
+|move|p1a: Slowking|Scald|p2a: CRAZY KIDS
+|-damage|p2a: CRAZY KIDS|0 fnt
+|faint|p2a: CRAZY KIDS
+|
+|-heal|p1a: Slowking|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636938492
+|switch|p2a: WONDERLAND|Kingdra, M|100/100
+|turn|8
+|
+|t:|1636938508
+|move|p2a: WONDERLAND|Substitute|p2a: WONDERLAND
+|-start|p2a: WONDERLAND|Substitute
+|-damage|p2a: WONDERLAND|76/100
+|move|p1a: Slowking|Dragon Tail|p2a: WONDERLAND
+|-supereffective|p2a: WONDERLAND
+|-crit|p2a: WONDERLAND
+|-end|p2a: WONDERLAND|Substitute
+|
+|-heal|p2a: WONDERLAND|82/100|[from] item: Leftovers
+|-heal|p1a: Slowking|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1636938530
+|move|p2a: WONDERLAND|Outrage|p1a: Slowking
+|-damage|p1a: Slowking|33/100
+|move|p1a: Slowking|Dragon Tail|p2a: WONDERLAND
+|-supereffective|p2a: WONDERLAND
+|-damage|p2a: WONDERLAND|54/100
+|drag|p2a: WARRIOR|Linoone, M|100/100
+|
+|-heal|p1a: Slowking|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|ninjadog has 180 seconds left.
+|
+|t:|1636938570
+|move|p2a: WARRIOR|Seed Bomb|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|7/100
+|move|p1a: Slowking|Scald|p2a: WARRIOR
+|-damage|p2a: WARRIOR|58/100
+|
+|-heal|p1a: Slowking|13/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Sabella has 270 seconds left.
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1636938605
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p1a: Nidoqueen|94/100|[from] Stealth Rock
+|move|p2a: WARRIOR|Seed Bomb|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|74/100
+|
+|upkeep
+|turn|12
+|inactive|ninjadog has 150 seconds left.
+|
+|t:|1636938632
+|move|p2a: WARRIOR|Seed Bomb|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|56/100
+|move|p1a: Nidoqueen|Ice Beam|p2a: WARRIOR
+|-damage|p2a: WARRIOR|6/100
+|-enditem|p2a: WARRIOR|Sitrus Berry|[eat]
+|-heal|p2a: WARRIOR|31/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|13
+|
+|t:|1636938662
+|move|p2a: WARRIOR|Extreme Speed|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|28/100
+|move|p1a: Nidoqueen|Stealth Rock|p2a: WARRIOR
+|-sidestart|p2: Sabella|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1636938672
+|move|p2a: WARRIOR|Extreme Speed|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|1/100
+|move|p1a: Nidoqueen|Earth Power|p2a: WARRIOR
+|-damage|p2a: WARRIOR|0 fnt
+|faint|p2a: WARRIOR
+|
+|upkeep
+|
+|t:|1636938680
+|switch|p2a: SUPERNATURAL|Mismagius, M|100/100
+|-damage|p2a: SUPERNATURAL|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1636938689
+|move|p2a: SUPERNATURAL|Shadow Ball|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|-heal|p2a: SUPERNATURAL|94/100|[from] item: Leftovers
+|upkeep
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1636938718
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1636938722
+|move|p2a: SUPERNATURAL|Nasty Plot|p2a: SUPERNATURAL
+|-boost|p2a: SUPERNATURAL|spa|2
+|move|p1a: Snorlax|Pursuit|p2a: SUPERNATURAL
+|-supereffective|p2a: SUPERNATURAL
+|-damage|p2a: SUPERNATURAL|43/100
+|
+|-heal|p2a: SUPERNATURAL|49/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1636938729
+|move|p2a: SUPERNATURAL|Hidden Power|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|-heal|p2a: SUPERNATURAL|55/100|[from] item: Leftovers
+|upkeep
+|inactive|ninjadog has 120 seconds left.
+|
+|t:|1636938750
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1636938757
+|move|p1a: Virizion|Leaf Blade|p2a: SUPERNATURAL
+|-damage|p2a: SUPERNATURAL|0 fnt
+|faint|p2a: SUPERNATURAL
+|
+|upkeep
+|
+|t:|1636938759
+|switch|p2a: WONDERLAND|Kingdra, M|54/100
+|-damage|p2a: WONDERLAND|42/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1636938762
+|move|p1a: Virizion|Close Combat|p2a: WONDERLAND
+|-damage|p2a: WONDERLAND|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: WONDERLAND
+|
+|win|ninjadog
+|c|☆ninjadog|gg

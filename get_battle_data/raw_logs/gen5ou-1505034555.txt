@@ -1,0 +1,479 @@
+|j|☆itmesm
+|j|☆Dababy3
+|t:|1644088206
+|gametype|singles
+|player|p1|itmesm|hiker-gen4|1375
+|player|p2|Dababy3|lucas-gen4pt|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Quagsire, F|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Magneton|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Starmie|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Rotom-Wash|item
+|teampreview
+|
+|t:|1644088221
+|start
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|switch|p2a: Thorn to Shreds|Ferrothorn, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by itmesm)
+|
+|t:|1644088226
+|move|p1a: Quagsire|Substitute|p1a: Quagsire
+|-start|p1a: Quagsire|Substitute
+|-damage|p1a: Quagsire|76/100
+|move|p2a: Thorn to Shreds|Stealth Rock|p1a: Quagsire
+|-sidestart|p1: itmesm|move: Stealth Rock
+|
+|-heal|p1a: Quagsire|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644088230
+|move|p1a: Quagsire|Scald|p2a: Thorn to Shreds
+|-resisted|p2a: Thorn to Shreds
+|-damage|p2a: Thorn to Shreds|93/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-end|p1a: Quagsire|Substitute
+|
+|-heal|p1a: Quagsire|88/100|[from] item: Leftovers
+|-heal|p2a: Thorn to Shreds|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644088244
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|62/100
+|
+|-heal|p2a: Thorn to Shreds|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644088247
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|37/100
+|move|p2a: Thorn to Shreds|Gyro Ball|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|
+|upkeep
+|turn|5
+|
+|t:|1644088252
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Thorn to Shreds|Gyro Ball|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|t:|1644088256
+|switch|p1a: Politoed|Politoed, F, shiny|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|6
+|
+|t:|1644088260
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644088264
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|94/100|[from] Stealth Rock
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1644088270
+|move|p1a: Magneton|Hidden Power|p2a: Thorn to Shreds
+|-damage|p2a: Thorn to Shreds|78/100
+|move|p2a: Thorn to Shreds|Spikes|p1a: Magneton
+|-sidestart|p1: itmesm|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thorn to Shreds|85/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644088273
+|move|p1a: Magneton|Thunder|p2a: Thorn to Shreds
+|-resisted|p2a: Thorn to Shreds
+|-damage|p2a: Thorn to Shreds|59/100
+|-status|p2a: Thorn to Shreds|par
+|move|p2a: Thorn to Shreds|Spikes|p1a: Magneton
+|-sidestart|p1: itmesm|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thorn to Shreds|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644088277
+|switch|p1a: Tentacruel|Tentacruel, F, shiny|100/100
+|-damage|p1a: Tentacruel|84/100|[from] Spikes
+|-damage|p1a: Tentacruel|72/100|[from] Stealth Rock
+|move|p2a: Thorn to Shreds|Spikes|p1a: Tentacruel
+|-sidestart|p1: itmesm|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|78/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|84/100|[from] item: Black Sludge
+|-heal|p2a: Thorn to Shreds|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644088280
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|59/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|65/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|72/100|[from] item: Black Sludge
+|-heal|p2a: Thorn to Shreds|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644088285
+|switch|p2a: Air Latios|Latios, M|100/100
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|53/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|59/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1644088288
+|move|p2a: Air Latios|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|move|p1a: Tentacruel|Acid Spray|p2a: Air Latios
+|-damage|p2a: Air Latios|89/100
+|-unboost|p2a: Air Latios|spd|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|65/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|72/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1644088291
+|switch|p1a: Quagsire|Quagsire, F|88/100
+|-damage|p1a: Quagsire|63/100|[from] Spikes
+|-damage|p1a: Quagsire|57/100|[from] Stealth Rock
+|move|p2a: Air Latios|Psyshock|p1a: Quagsire
+|-damage|p1a: Quagsire|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644088294
+|move|p2a: Air Latios|Psyshock|p1a: Quagsire
+|-damage|p1a: Quagsire|5/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644088298
+|switch|p2a: Thorn to Shreds|Ferrothorn, F|77/100 par
+|move|p1a: Quagsire|Substitute|p1a: Quagsire
+|-start|p1a: Quagsire|Substitute
+|-damage|p1a: Quagsire|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|43/100|[from] item: Leftovers
+|-heal|p2a: Thorn to Shreds|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644088300
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|93/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-end|p1a: Quagsire|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|99/100|[from] item: Leftovers
+|-heal|p2a: Thorn to Shreds|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1644088303
+|move|p1a: Quagsire|Substitute|p1a: Quagsire
+|-start|p1a: Quagsire|Substitute
+|-damage|p1a: Quagsire|74/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-end|p1a: Quagsire|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|80/100|[from] item: Leftovers
+|-heal|p2a: Thorn to Shreds|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644088307
+|move|p1a: Quagsire|Substitute|p1a: Quagsire
+|-start|p1a: Quagsire|Substitute
+|-damage|p1a: Quagsire|55/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-end|p1a: Quagsire|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|61/100|[from] item: Leftovers
+|-heal|p2a: Thorn to Shreds|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644088318
+|move|p1a: Quagsire|Substitute|p1a: Quagsire
+|-start|p1a: Quagsire|Substitute
+|-damage|p1a: Quagsire|36/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-end|p1a: Quagsire|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|42/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644088324
+|move|p1a: Quagsire|Substitute|p1a: Quagsire
+|-start|p1a: Quagsire|Substitute
+|-damage|p1a: Quagsire|18/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-end|p1a: Quagsire|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1644088327
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|74/100
+|move|p2a: Thorn to Shreds|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644088331
+|switch|p1a: Tentacruel|Tentacruel, F, shiny|72/100
+|-damage|p1a: Tentacruel|47/100|[from] Spikes
+|-damage|p1a: Tentacruel|34/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1644088337
+|switch|p2a: Air Latios|Latios, M|89/100
+|move|p1a: Tentacruel|Substitute|p1a: Tentacruel
+|-start|p1a: Tentacruel|Substitute
+|-damage|p1a: Tentacruel|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|16/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|22/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1644088339
+|move|p2a: Air Latios|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-end|p1a: Tentacruel|Substitute
+|move|p1a: Tentacruel|Acupressure|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|28/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|34/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1644088344
+|move|p2a: Air Latios|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644088348
+|switch|p1a: Politoed|Politoed, F, shiny|94/100
+|-damage|p1a: Politoed|82/100|[from] Stealth Rock
+|-damage|p1a: Politoed|57/100|[from] Spikes
+|turn|26
+|
+|t:|1644088351
+|switch|p2a: Thorn to Shreds|Ferrothorn, F|100/100 par
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Thorn to Shreds|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|63/100|[from] item: Leftovers
+|-start|p1a: Politoed|perish3
+|-start|p2a: Thorn to Shreds|perish3
+|upkeep
+|turn|27
+|
+|t:|1644088357
+|switch|p2a: Worldstar|Starmie|100/100
+|move|p1a: Politoed|Toxic|p2a: Worldstar
+|-status|p2a: Worldstar|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|69/100|[from] item: Leftovers
+|-damage|p2a: Worldstar|94/100 tox|[from] psn
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|28
+|
+|t:|1644088361
+|move|p2a: Worldstar|Thunder|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|1/100
+|move|p1a: Politoed|Scald|p2a: Worldstar
+|-resisted|p2a: Worldstar
+|-damage|p2a: Worldstar|66/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|7/100|[from] item: Leftovers
+|-damage|p2a: Worldstar|53/100 tox|[from] psn
+|-start|p1a: Politoed|perish1
+|upkeep
+|turn|29
+|
+|t:|1644088366
+|-curestatus|p2a: Worldstar|tox|[from] ability: Natural Cure
+|switch|p2a: Thorn to Shreds|Ferrothorn, F|100/100 par
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p2a: Thorn to Shreds|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|14/100|[from] item: Leftovers
+|-start|p1a: Politoed|perish0
+|-start|p2a: Thorn to Shreds|perish3
+|faint|p1a: Politoed
+|upkeep
+|
+|t:|1644088371
+|switch|p1a: Breloom|Breloom, F|37/100
+|-damage|p1a: Breloom|13/100|[from] Spikes
+|-damage|p1a: Breloom|6/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1644088376
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|cant|p2a: Thorn to Shreds|par
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Thorn to Shreds|perish2
+|upkeep
+|turn|31
+|
+|t:|1644088380
+|switch|p2a: Worldstar|Starmie|53/100
+|move|p1a: Breloom|Mach Punch|p2a: Worldstar
+|-resisted|p2a: Worldstar
+|-damage|p2a: Worldstar|4/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1644088385
+|switch|p2a: Deez|Dragonite, M|100/100
+|move|p1a: Breloom|Mach Punch|p2a: Deez
+|-resisted|p2a: Deez
+|-damage|p2a: Deez|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1644088389
+|move|p2a: Deez|Extreme Speed|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644088391
+|switch|p1a: Magneton|Magneton|73/100
+|-damage|p1a: Magneton|48/100|[from] Spikes
+|-damage|p1a: Magneton|42/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1644088393
+|move|p2a: Deez|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|win|Dababy3
+|raw|itmesm's rating: 1375 &rarr; <strong>1355</strong><br />(-20 for losing)
+|raw|Dababy3's rating: 1374 &rarr; <strong>1394</strong><br />(+20 for winning)
+|l|☆itmesm
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

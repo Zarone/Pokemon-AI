@@ -1,0 +1,194 @@
+|j|☆epikgamr420
+|j|☆Rickymixxia
+|t:|1644082055
+|gametype|singles
+|player|p1|epikgamr420|roxie|1123
+|player|p2|Rickymixxia|265|1183
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Bisharp, M|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Scizor, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Zoroark, M|item
+|poke|p2|Conkeldurr, F|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Starmie|item
+|poke|p2|Latios, M|item
+|teampreview
+|l|☆Rickymixxia
+|player|p2|
+|j|☆Rickymixxia
+|player|p2|Rickymixxia|265
+|
+|t:|1644082088
+|start
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|1
+|
+|t:|1644082106
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[from] ability: Levitate
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|c|☆epikgamr420|being gay isn't your choice it's mine you're gay now
+|l|☆Rickymixxia
+|player|p2|
+|j|☆Rickymixxia
+|player|p2|Rickymixxia|265
+|
+|t:|1644082177
+|move|p2a: Latios|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|15/100 tox
+|move|p1a: Gliscor|Ice Fang|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|61/100
+|
+|-heal|p1a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1644082188
+|move|p2a: Latios|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1644082193
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|4
+|
+|t:|1644082201
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|5
+|
+|t:|1644082208
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|90/100
+|
+|upkeep
+|turn|6
+|
+|t:|1644082216
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Reuniclus|Psychic|p2a: Chandelure
+|-damage|p2a: Chandelure|29/100
+|
+|upkeep
+|turn|7
+|
+|t:|1644082223
+|move|p2a: Chandelure|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|t:|1644082227
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|8
+|
+|t:|1644082237
+|-activate|p2a: Chandelure|move: Pursuit
+|move|p1a: Bisharp|Pursuit|p2a: Chandelure|[from]Pursuit
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1644082245
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|9
+|
+|t:|1644082253
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1644082261
+|move|p2a: Conkeldurr|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|42/100
+|move|p1a: Scizor|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|84/100
+|-damage|p1a: Scizor|33/100|[from] item: Life Orb
+|
+|t:|1644082272
+|switch|p1a: Bisharp|Bisharp, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Conkeldurr|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644082279
+|move|p1a: Bisharp|Flamethrower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|49/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-crit|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-heal|p2a: Conkeldurr|86/100|[from] drain|[of] p1a: Bisharp
+|replace|p1a: Zoroark|Zoroark, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-heal|p2a: Conkeldurr|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644082286
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|turn|12
+|
+|t:|1644082295
+|move|p1a: Mienshao|Stone Edge|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|77/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|move|p2a: Conkeldurr|Drain Punch|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|-heal|p2a: Conkeldurr|100/100|[from] drain|[of] p1a: Mienshao
+|faint|p1a: Mienshao
+|
+|upkeep
+|-message|epikgamr420 forfeited.
+|
+|win|Rickymixxia
+|raw|epikgamr420's rating: 1123 &rarr; <strong>1102</strong><br />(-21 for losing)
+|raw|Rickymixxia's rating: 1183 &rarr; <strong>1204</strong><br />(+21 for winning)
+|l|☆epikgamr420

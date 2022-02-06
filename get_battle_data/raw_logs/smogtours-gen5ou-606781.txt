@@ -1,0 +1,309 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644082835
+|gametype|singles
+|player|p1|MTV BRATVA|unknown|
+|player|p2|toytean|veteran|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Breloom, F|item
+|poke|p1|Latias, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Terrakion|item
+|teampreview
+|c|☆MTV BRATVA|hf
+|c|☆toytean|joder bratva
+|c|☆toytean|es para divertrse
+|c|☆MTV BRATVA|es g3
+|c|☆MTV BRATVA|da igual
+|c|☆MTV BRATVA|asi lo testeo
+|c|☆toytean|pero que test ni que mierdas
+|c|☆MTV BRATVA|el latias nunca será util
+|inactive|MTV BRATVA has 270 seconds left.
+|inactive|toytean has 270 seconds left.
+|
+|t:|1644082872
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: SEITON|Tyranitar, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: SEITON|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: SEITON
+|turn|1
+|
+|t:|1644082877
+|move|p1a: Landorus|Stealth Rock|p2a: SEITON
+|-sidestart|p2: toytean|move: Stealth Rock
+|move|p2a: SEITON|Stealth Rock|p1a: Landorus
+|-sidestart|p1: MTV BRATVA|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1644082892
+|switch|p2a: SEIRI|Gliscor, F, shiny|100/100
+|-damage|p2a: SEIRI|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p2a: SEIRI|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1644082900
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: SEIRI|Ice Fang|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: SEIRI|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1644082928
+|move|p1a: Landorus|Explosion|p2a: SEIRI
+|-damage|p2a: SEIRI|0 fnt
+|faint|p1a: Landorus
+|faint|p2a: SEIRI
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644082940
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|switch|p2a: 6S|Terrakion|100/100
+|-damage|p2a: 6S|94/100|[from] Stealth Rock
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|-item|p1a: Bisharp|Air Balloon
+|turn|5
+|
+|t:|1644082949
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|move|p2a: 6S|Close Combat|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|47/100
+|-unboost|p2a: 6S|def|1
+|-unboost|p2a: 6S|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|41/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1644082960
+|switch|p2a: SEITON|Tyranitar, M|100/100
+|-damage|p2a: SEITON|88/100|[from] Stealth Rock
+|move|p1a: Latias|Thunder Wave|p2a: SEITON
+|-status|p2a: SEITON|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|35/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1644082976
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|switch|p2a: SEIKETSU|Latios, M|100/100
+|-damage|p2a: SEIKETSU|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: SEIKETSU|82/100|[from] Sandstorm
+|-damage|p1a: Breloom|88/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1644082985
+|switch|p1a: Latias|Latias, F|35/100
+|-damage|p1a: Latias|22/100|[from] Stealth Rock
+|move|p2a: SEIKETSU|Draco Meteor|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-unboost|p2a: SEIKETSU|spa|2
+|faint|p1a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: SEIKETSU|76/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644082992
+|switch|p1a: Bisharp|Bisharp, F|95/100
+|-damage|p1a: Bisharp|89/100|[from] Stealth Rock
+|-item|p1a: Bisharp|Air Balloon
+|turn|9
+|
+|t:|1644082999
+|move|p2a: SEIKETSU|Draco Meteor|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|44/100
+|-unboost|p2a: SEIKETSU|spa|2
+|-enditem|p1a: Bisharp|Air Balloon
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: SEIKETSU|70/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1644083008
+|switch|p2a: SEITON|Tyranitar, M|88/100 par
+|-damage|p2a: SEITON|76/100 par|[from] Stealth Rock
+|move|p1a: Bisharp|Night Slash|p2a: SEITON
+|-resisted|p2a: SEITON
+|-damage|p2a: SEITON|47/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1644083013
+|move|p1a: Bisharp|Low Kick|p2a: SEITON
+|-supereffective|p2a: SEITON
+|-crit|p2a: SEITON
+|-enditem|p2a: SEITON|Chople Berry|[eat]
+|-enditem|p2a: SEITON|Chople Berry|[weaken]
+|-damage|p2a: SEITON|0 fnt
+|faint|p2a: SEITON
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644083016
+|switch|p2a: 6S|Terrakion|94/100
+|-damage|p2a: 6S|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1644083019
+|move|p1a: Bisharp|Sucker Punch|p2a: 6S
+|-resisted|p2a: 6S
+|-damage|p2a: 6S|34/100
+|-ability|p2a: 6S|Justified|boost
+|-boost|p2a: 6S|atk|1
+|move|p2a: 6S|Close Combat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: 6S|def|1
+|-unboost|p2a: 6S|spd|1
+|faint|p1a: Bisharp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644083026
+|switch|p1a: Breloom|Breloom, F|88/100
+|-damage|p1a: Breloom|82/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1644083034
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100/100
+|move|p1a: Breloom|Mach Punch|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|85/100
+|-damage|p1a: Breloom|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Breloom|66/100|[from] Sandstorm
+|-heal|p2a: Reuniclus|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644083041
+|move|p1a: Breloom|Bullet Seed|p2a: Reuniclus
+|-damage|p2a: Reuniclus|72/100
+|-damage|p2a: Reuniclus|51/100
+|-hitcount|p2a: Reuniclus|2
+|-damage|p1a: Breloom|56/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Psyshock|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644083043
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1644083048
+|move|p1a: Cloyster|Rapid Spin|p2a: Reuniclus
+|-damage|p2a: Reuniclus|53/100
+|-sideend|p1: MTV BRATVA|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cloyster
+|move|p2a: Reuniclus|Thunder|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644083052
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|16
+|
+|t:|1644083057
+|switch|p2a: SEIKETSU|Latios, M|70/100
+|-damage|p2a: SEIKETSU|58/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|94/100|[from] Sandstorm
+|-damage|p2a: SEIKETSU|52/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1644083064
+|move|p1a: Volcarona|Bug Buzz|p2a: SEIKETSU
+|-enditem|p1a: Volcarona|Bug Gem|[from] gem
+|-supereffective|p2a: SEIKETSU
+|-damage|p2a: SEIKETSU|0 fnt
+|faint|p2a: SEIKETSU
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644083067
+|switch|p2a: 6S|Terrakion|34/100
+|-damage|p2a: 6S|28/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644083069
+|move|p2a: 6S|Rock Slide|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|toytean

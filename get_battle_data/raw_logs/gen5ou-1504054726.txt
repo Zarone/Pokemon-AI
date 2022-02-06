@@ -1,0 +1,131 @@
+|j|☆uiuih
+|j|☆rexxonmobile
+|t:|1643944952
+|gametype|singles
+|player|p1|uiuih|ghetsis-gen5bw|1175
+|player|p2|rexxonmobile|266|1265
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Conkeldurr, F|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Chandelure, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, M|item
+|poke|p2|Espeon, F|item
+|poke|p2|Infernape, M|item
+|poke|p2|Jolteon, F|item
+|teampreview
+|
+|t:|1643944963
+|start
+|switch|p1a: 来啊|Metagross, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1643944971
+|move|p2a: Rotom|Will-O-Wisp|p1a: 来啊
+|-status|p1a: 来啊|brn
+|move|p1a: 来啊|Stealth Rock|p2a: Rotom
+|-sidestart|p2: rexxonmobile|move: Stealth Rock
+|
+|-damage|p1a: 来啊|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1643944987
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: 来啊|unboost|[from] ability: Clear Body|[of] p1a: 来啊
+|move|p1a: 来啊|Psychic|p2a: Landorus
+|-damage|p2a: Landorus|36/100
+|
+|-heal|p1a: 来啊|94/100 brn|[from] item: Leftovers
+|-damage|p1a: 来啊|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1643944996
+|move|p2a: Landorus|U-turn|p1a: 来啊
+|-damage|p1a: 来啊|63/100 brn
+|
+|t:|1643944999
+|switch|p2a: Espeon|Espeon, F|100/100|[from]move: U-turn
+|-damage|p2a: Espeon|88/100|[from] Stealth Rock
+|move|p1a: 来啊|Psychic|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|73/100
+|
+|-heal|p2a: Espeon|79/100|[from] item: Leftovers
+|-heal|p1a: 来啊|69/100 brn|[from] item: Leftovers
+|-damage|p1a: 来啊|57/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1643945038
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: 来啊|Ice Punch|p2a: Espeon
+|-damage|p2a: Espeon|64/100
+|
+|-heal|p2a: Espeon|70/100|[from] item: Leftovers
+|-heal|p1a: 来啊|63/100 brn|[from] item: Leftovers
+|-damage|p1a: 来啊|50/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1643945049
+|switch|p1a: 新年快乐|Scizor, F|100/100
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p2a: Espeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643945057
+|move|p2a: Espeon|Hidden Power|p1a: 新年快乐
+|-supereffective|p1a: 新年快乐
+|-damage|p1a: 新年快乐|0 fnt
+|faint|p1a: 新年快乐
+|
+|-heal|p2a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643945069
+|switch|p1a: 新年快乐l|Conkeldurr, F, shiny|100/100
+|turn|7
+|
+|t:|1643945073
+|move|p2a: Espeon|Psychic|p1a: 新年快乐l
+|-supereffective|p1a: 新年快乐l
+|-damage|p1a: 新年快乐l|0 fnt
+|faint|p1a: 新年快乐l
+|
+|-heal|p2a: Espeon|88/100|[from] item: Leftovers
+|upkeep
+|-message|uiuih forfeited.
+|
+|win|rexxonmobile
+|raw|uiuih's rating: 1175 &rarr; <strong>1156</strong><br />(-19 for losing)
+|raw|rexxonmobile's rating: 1265 &rarr; <strong>1284</strong><br />(+19 for winning)
+|l|☆uiuih

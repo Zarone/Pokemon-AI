@@ -1,0 +1,313 @@
+|j|☆kjdaas
+|j|☆Elfuseon
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1624314911
+|gametype|singles
+|player|p1|kjdaas|aromalady-gen3rs|
+|player|p2|Elfuseon|cyclist|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Larvesta, L5, M|item
+|poke|p1|Carvanha, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Abra, L5, F|item
+|poke|p2|Aipom, L5, F|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, F|item
+|poke|p2|Ferroseed, L5, F|item
+|poke|p2|Natu, L5, M|item
+|teampreview
+|c|☆Elfuseon|Hf
+|inactive|kjdaas has 120 seconds left.
+|c|☆kjdaas|u2
+|
+|t:|1624314964
+|start
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|turn|1
+|
+|t:|1624314977
+|move|p2a: Drilbur|Stealth Rock|p1a: Timburr
+|-sidestart|p1: kjdaas|move: Stealth Rock
+|move|p1a: Timburr|Drain Punch|p2a: Drilbur
+|-damage|p2a: Drilbur|44/100
+|
+|upkeep
+|turn|2
+|
+|t:|1624314992
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Timburr|Drain Punch|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|87/100
+|
+|upkeep
+|turn|3
+|
+|t:|1624315003
+|switch|p1a: Staryu|Staryu, L5|100/100
+|-damage|p1a: Staryu|91/100|[from] Stealth Rock
+|move|p2a: Natu|U-turn|p1a: Staryu
+|-damage|p1a: Staryu|77/100
+|
+|t:|1624315025
+|switch|p2a: Aipom|Aipom, L5, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1624315039
+|move|p2a: Aipom|Fury Swipes|p1a: Staryu
+|-damage|p1a: Staryu|58/100
+|-damage|p1a: Staryu|39/100
+|-damage|p1a: Staryu|20/100
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|-hitcount|p1: Staryu|4
+|-damage|p2a: Aipom|92/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1624315044
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|-damage|p1a: Timburr|96/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1624315049
+|switch|p2a: Natu|Natu, L5, M|87/100
+|move|p1a: Timburr|Bulk Up|p1a: Timburr
+|-boost|p1a: Timburr|atk|1
+|-boost|p1a: Timburr|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1624315052
+|move|p2a: Natu|Psychic|p1a: Timburr
+|-supereffective|p1a: Timburr
+|-damage|p1a: Timburr|13/100
+|move|p1a: Timburr|Payback|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|upkeep
+|
+|t:|1624315063
+|switch|p2a: Aipom|Aipom, L5, F|92/100
+|turn|7
+|
+|t:|1624315066
+|move|p2a: Aipom|Fake Out|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|-damage|p2a: Aipom|83/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1624315070
+|switch|p1a: Carvanha|Carvanha, L5, F|100/100
+|-damage|p1a: Carvanha|90/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1624315077
+|switch|p2a: Drilbur|Drilbur, L5, F|44/100
+|-ability|p2a: Drilbur|Mold Breaker
+|switch|p1a: Larvesta|Larvesta, L5, M|100/100
+|-damage|p1a: Larvesta|53/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1624315085
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-damage|p1a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Drilbur|Earthquake|p1a: Drilbur
+|-damage|p1a: Drilbur|40/100
+|
+|upkeep
+|turn|10
+|
+|t:|1624315087
+|move|p1a: Drilbur|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|
+|t:|1624315110
+|switch|p2a: Aipom|Aipom, L5, F|83/100
+|turn|11
+|
+|t:|1624315113
+|switch|p1a: Abra|Abra, L5, F|100/100
+|-damage|p1a: Abra|90/100|[from] Stealth Rock
+|move|p2a: Aipom|Fury Swipes|p1a: Abra
+|-damage|p1a: Abra|64/100
+|-damage|p1a: Abra|37/100
+|-damage|p1a: Abra|11/100
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|-hitcount|p1: Abra|4
+|-damage|p2a: Aipom|74/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1624315117
+|switch|p1a: Carvanha|Carvanha, L5, F|90/100
+|-damage|p1a: Carvanha|79/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1624315121
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100
+|switch|p1a: Larvesta|Larvesta, L5, M|53/100
+|-damage|p1a: Larvesta|5/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1624315127
+|move|p1a: Larvesta|Morning Sun|p1a: Larvesta
+|-heal|p1a: Larvesta|53/100
+|move|p2a: Ferroseed|Thunder Wave|p1a: Larvesta
+|-status|p1a: Larvesta|par
+|
+|upkeep
+|turn|14
+|
+|t:|1624315145
+|move|p2a: Ferroseed|Spikes|p1a: Larvesta
+|-sidestart|p1: kjdaas|Spikes
+|move|p1a: Larvesta|Flare Blitz|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-damage|p1a: Larvesta|44/100 par|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p2a: Ferroseed
+|-damage|p1a: Larvesta|14/100 par|[from] Recoil
+|
+|upkeep
+|
+|t:|1624315160
+|switch|p2a: Aipom|Aipom, L5, F|74/100
+|turn|15
+|
+|t:|1624315163
+|move|p2a: Aipom|Fake Out|p1a: Larvesta
+|-damage|p1a: Larvesta|0 fnt
+|faint|p1a: Larvesta
+|-damage|p2a: Aipom|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1624315166
+|switch|p1a: Carvanha|Carvanha, L5, F|79/100
+|-damage|p1a: Carvanha|69/100|[from] Stealth Rock
+|-damage|p1a: Carvanha|58/100|[from] Spikes
+|turn|16
+|
+|t:|1624315171
+|move|p1a: Carvanha|Protect|p1a: Carvanha
+|-singleturn|p1a: Carvanha|Protect
+|move|p2a: Aipom|U-turn|p1a: Carvanha
+|-activate|p1a: Carvanha|move: Protect
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|17
+|
+|t:|1624315175
+|move|p1a: Carvanha|Waterfall|p2a: Aipom
+|-damage|p2a: Aipom|0 fnt
+|faint|p2a: Aipom
+|-damage|p1a: Carvanha|53/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1624315177
+|switch|p2a: Mienfoo|Mienfoo, L5, F|100/100
+|turn|18
+|
+|t:|1624315181
+|move|p1a: Carvanha|Protect|p1a: Carvanha
+|-singleturn|p1a: Carvanha|Protect
+|move|p2a: Mienfoo|U-turn|p1a: Carvanha
+|-activate|p1a: Carvanha|move: Protect
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|19
+|
+|t:|1624315183
+|move|p1a: Carvanha|Waterfall|p2a: Mienfoo
+|-damage|p2a: Mienfoo|46/100
+|-damage|p1a: Carvanha|48/100|[from] item: Life Orb
+|cant|p2a: Mienfoo|flinch
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|20
+|
+|t:|1624315193
+|move|p1a: Carvanha|Waterfall|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|-damage|p1a: Carvanha|43/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1624315194
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|turn|21
+|
+|t:|1624315197
+|move|p1a: Carvanha|Waterfall|p2a: Magnemite
+|-damage|p2a: Magnemite|11/100
+|-damage|p1a: Carvanha|37/100|[from] item: Life Orb
+|move|p2a: Magnemite|Flash Cannon|p1a: Carvanha
+|-resisted|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|upkeep
+|
+|t:|1624315199
+|switch|p1a: Drilbur|Drilbur, L5, M|40/100
+|-damage|p1a: Drilbur|35/100|[from] Stealth Rock
+|-damage|p1a: Drilbur|27/100|[from] Spikes
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|22
+|c|☆kjdaas|gg
+|
+|t:|1624315203
+|move|p2a: Magnemite|Flash Cannon|p1a: Drilbur
+|-crit|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|win|Elfuseon
+|n|☆kjdaas|kjdaas
+|n|☆Elfuseon|elfuseon

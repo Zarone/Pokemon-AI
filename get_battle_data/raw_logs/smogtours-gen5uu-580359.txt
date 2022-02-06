@@ -1,0 +1,507 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1632065954
+|gametype|singles
+|player|p1|Lily|#scl1machines|
+|player|p2|Finchinator|#finchinator|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Seismitoad, F|item
+|poke|p1|Cofagrigus, M|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Cobalion|item
+|poke|p1|Flygon, F|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Ferroseed, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Cofagrigus, M|item
+|poke|p2|Raikou|item
+|poke|p2|Suicune|item
+|teampreview
+|c|☆Finchinator|hf
+|c|☆Lily|hf
+|c|+hogg|classic?
+|c|☆Lily|bwpl
+|c|☆Finchinator|bwpl
+|c|+ALlCE|bwpl
+|c|+hogg|ah
+|c|+hogg|gl to both
+|inactive|Lily has 270 seconds left.
+|inactive|Finchinator has 270 seconds left.
+|c|+justamente|Gooo Lily
+|c|+Donphantastic|vamos lilianne burrington
+|c|+Tuononda|lily vs finchinator
+|c|+ChillShadow|doxxantastic
+|inactive|Lily has 240 seconds left.
+|c|+ChillShadow|acute observation Tuononda
+|c|+edgar|go fincher.
+|c|+Tuononda|ikr
+|
+|t:|1632066044
+|start
+|switch|p1a: Vivid Dream|Seismitoad, F|100/100
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|1
+|c|+Donphantastic|yo is that cs still logging on to smogtours in the year of lord 2021 
+|c|+Donphantastic|I thought you retired
+|
+|t:|1632066063
+|move|p2a: Druddigon|Stealth Rock|p1a: Vivid Dream
+|-sidestart|p1: Lily|move: Stealth Rock
+|move|p1a: Vivid Dream|Toxic|p2a: Druddigon
+|-status|p2a: Druddigon|tox
+|
+|-damage|p2a: Druddigon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1632066071
+|move|p2a: Druddigon|Taunt|p1a: Vivid Dream
+|-start|p1a: Vivid Dream|move: Taunt
+|cant|p1a: Vivid Dream|move: Taunt|Stealth Rock
+|
+|-damage|p2a: Druddigon|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1632066074
+|move|p2a: Druddigon|Outrage|p1a: Vivid Dream
+|-enditem|p2a: Druddigon|Dragon Gem|[from] gem
+|-damage|p1a: Vivid Dream|18/100
+|move|p1a: Vivid Dream|Scald|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|68/100 tox
+|
+|-heal|p1a: Vivid Dream|24/100|[from] item: Leftovers
+|-damage|p2a: Druddigon|49/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1632066092
+|switch|p1a: Glass Houses|Empoleon, M|100/100
+|-damage|p1a: Glass Houses|94/100|[from] Stealth Rock
+|move|p2a: Druddigon|Outrage|p1a: Glass Houses|[from]lockedmove
+|-resisted|p1a: Glass Houses
+|-damage|p1a: Glass Houses|60/100
+|-start|p2a: Druddigon|confusion|[fatigue]
+|
+|-heal|p1a: Glass Houses|67/100|[from] item: Leftovers
+|-damage|p2a: Druddigon|25/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1632066107
+|switch|p2a: Ferroseed|Ferroseed, F|100/100
+|move|p1a: Glass Houses|Protect||[still]
+|-fail|p1a: Glass Houses
+|
+|-heal|p1a: Glass Houses|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1632066112
+|move|p1a: Glass Houses|Knock Off|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|99/100
+|-damage|p1a: Glass Houses|60/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|-enditem|p2a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p1a: Glass Houses
+|move|p2a: Ferroseed|Spikes|p1a: Glass Houses
+|-sidestart|p1: Lily|Spikes
+|
+|-heal|p1a: Glass Houses|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1632066122
+|switch|p1a: Undersize|Zapdos|100/100
+|-damage|p1a: Undersize|76/100|[from] Stealth Rock
+|-ability|p1a: Undersize|Pressure
+|move|p2a: Ferroseed|Spikes|p1a: Undersize
+|-sidestart|p1: Lily|Spikes
+|
+|-heal|p1a: Undersize|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|+Pohjis|lily against finch
+|
+|t:|1632066131
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Undersize|Heat Wave|p2a: Raikou
+|-damage|p2a: Raikou|67/100
+|
+|-heal|p1a: Undersize|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|+ChillShadow|everyone's on a roll today
+|
+|t:|1632066146
+|switch|p1a: Vivid Dream|Seismitoad, F|24/100
+|-damage|p1a: Vivid Dream|8/100|[from] Spikes
+|-damage|p1a: Vivid Dream|1/100|[from] Stealth Rock
+|move|p2a: Raikou|Roar|p1a: Vivid Dream
+|drag|p1a: Undersize|Zapdos|88/100
+|-damage|p1a: Undersize|63/100|[from] Stealth Rock
+|-ability|p1a: Undersize|Pressure
+|
+|-heal|p1a: Undersize|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1632066152
+|move|p2a: Raikou|Volt Switch|p1a: Undersize
+|-damage|p1a: Undersize|34/100
+|
+|t:|1632066167
+|switch|p2a: Flygon|Flygon, F|100/100|[from]move: Volt Switch
+|move|p1a: Undersize|Roost|p1a: Undersize
+|-heal|p1a: Undersize|84/100
+|-singleturn|p1a: Undersize|move: Roost
+|
+|-heal|p1a: Undersize|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1632066170
+|move|p2a: Flygon|U-turn|p1a: Undersize
+|-resisted|p1a: Undersize
+|-crit|p1a: Undersize
+|-damage|p1a: Undersize|67/100
+|
+|t:|1632066172
+|switch|p2a: Raikou|Raikou|67/100|[from]move: U-turn
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Undersize|Roost|p1a: Undersize
+|-heal|p1a: Undersize|100/100
+|-singleturn|p1a: Undersize|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1632066174
+|move|p2a: Raikou|Thunderbolt|p1a: Undersize
+|-damage|p1a: Undersize|55/100
+|move|p1a: Undersize|Heat Wave|p2a: Raikou|[miss]
+|-miss|p1a: Undersize|p2a: Raikou
+|
+|-heal|p1a: Undersize|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1632066179
+|move|p1a: Undersize|Roost|p1a: Undersize
+|-heal|p1a: Undersize|100/100
+|-singleturn|p1a: Undersize|move: Roost
+|move|p2a: Raikou|Roar|p1a: Undersize
+|drag|p1a: Glass Houses|Empoleon, M|67/100
+|-damage|p1a: Glass Houses|60/100|[from] Stealth Rock
+|-damage|p1a: Glass Houses|44/100|[from] Spikes
+|
+|-heal|p1a: Glass Houses|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1632066186
+|move|p1a: Glass Houses|Protect|p1a: Glass Houses
+|-singleturn|p1a: Glass Houses|Protect
+|move|p2a: Raikou|Thunderbolt|p1a: Glass Houses
+|-activate|p1a: Glass Houses|move: Protect
+|
+|-heal|p1a: Glass Houses|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1632066189
+|switch|p1a: Vivid Dream|Seismitoad, F|1/100
+|-damage|p1a: Vivid Dream|0 fnt|[from] Stealth Rock
+|faint|p1a: Vivid Dream
+|move|p2a: Raikou|Thunderbolt|p1: Vivid Dream|[notarget]
+|-fail|p2a: Raikou
+|
+|upkeep
+|
+|t:|1632066192
+|switch|p1a: Siamese Souls|Flygon, F|100/100
+|-damage|p1a: Siamese Souls|95/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1632066198
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Siamese Souls|U-turn|p2a: Flygon
+|-damage|p2a: Flygon|70/100
+|
+|t:|1632066204
+|switch|p1a: Undersize|Zapdos|100/100|[from]move: U-turn
+|-damage|p1a: Undersize|76/100|[from] Stealth Rock
+|-ability|p1a: Undersize|Pressure
+|
+|-heal|p1a: Undersize|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1632066209
+|move|p2a: Flygon|U-turn|p1a: Undersize
+|-resisted|p1a: Undersize
+|-damage|p1a: Undersize|72/100
+|
+|t:|1632066211
+|switch|p2a: Raikou|Raikou|67/100|[from]move: U-turn
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Undersize|Heat Wave|p2a: Raikou
+|-damage|p2a: Raikou|34/100
+|-enditem|p2a: Raikou|Sitrus Berry|[eat]
+|-heal|p2a: Raikou|59/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Undersize|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1632066215
+|move|p2a: Raikou|Hidden Power|p1a: Undersize
+|-supereffective|p1a: Undersize
+|-damage|p1a: Undersize|34/100
+|move|p1a: Undersize|Roost|p1a: Undersize
+|-heal|p1a: Undersize|84/100
+|-singleturn|p1a: Undersize|move: Roost
+|
+|-heal|p1a: Undersize|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1632066220
+|move|p2a: Raikou|Thunderbolt|p1a: Undersize
+|-damage|p1a: Undersize|42/100
+|-status|p1a: Undersize|par
+|move|p1a: Undersize|Heat Wave|p2a: Raikou
+|-damage|p2a: Raikou|26/100
+|
+|-heal|p1a: Undersize|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1632066231
+|move|p2a: Raikou|Thunderbolt|p1a: Undersize
+|-crit|p1a: Undersize
+|-damage|p1a: Undersize|0 fnt
+|faint|p1a: Undersize
+|
+|upkeep
+|c|☆Finchinator|sorry
+|
+|t:|1632066235
+|switch|p1a: Siamese Souls|Flygon, F|95/100
+|-damage|p1a: Siamese Souls|89/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1632066239
+|switch|p2a: Druddigon|Druddigon, M|25/100 tox
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Siamese Souls|U-turn|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|c|+ChillShadow|(not sorry)
+|
+|t:|1632066254
+|switch|p1a: Glass Houses|Empoleon, M|56/100|[from]move: U-turn
+|-damage|p1a: Glass Houses|50/100|[from] Stealth Rock
+|-damage|p1a: Glass Houses|33/100|[from] Spikes
+|
+|-heal|p1a: Glass Houses|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632066282
+|switch|p2a: Raikou|Raikou|26/100
+|-ability|p2a: Raikou|Pressure
+|turn|22
+|inactive|Lily has 270 seconds left.
+|
+|t:|1632066316
+|switch|p1a: Siamese Souls|Flygon, F|89/100
+|-damage|p1a: Siamese Souls|83/100|[from] Stealth Rock
+|move|p2a: Raikou|Volt Switch|p1a: Siamese Souls
+|-immune|p1a: Siamese Souls
+|
+|upkeep
+|turn|23
+|
+|t:|1632066324
+|switch|p2a: Ferroseed|Ferroseed, F|99/100
+|move|p1a: Siamese Souls|U-turn|p2a: Ferroseed
+|-damage|p2a: Ferroseed|72/100
+|-damage|p1a: Siamese Souls|70/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|
+|t:|1632066326
+|switch|p1a: Composure|Cobalion|100/100|[from]move: U-turn
+|-damage|p1a: Composure|84/100|[from] Spikes
+|-damage|p1a: Composure|81/100|[from] Stealth Rock
+|
+|upkeep
+|turn|24
+|
+|t:|1632066331
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|move|p1a: Composure|Swords Dance|p1a: Composure
+|-boost|p1a: Composure|atk|2
+|
+|upkeep
+|turn|25
+|
+|t:|1632066334
+|move|p1a: Composure|Stone Edge|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|57/100
+|move|p2a: Cofagrigus|Trick Room|p2a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1632066341
+|move|p2a: Cofagrigus|Hidden Power|p1a: Composure
+|-supereffective|p1a: Composure
+|-damage|p1a: Composure|19/100
+|move|p1a: Composure|Stone Edge|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|23/100
+|
+|-heal|p2a: Cofagrigus|30/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1632066347
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Composure
+|-resisted|p1a: Composure
+|-damage|p1a: Composure|0 fnt
+|faint|p1a: Composure
+|
+|-heal|p2a: Cofagrigus|36/100|[from] item: Leftovers
+|upkeep
+|inactive|Lily has 270 seconds left.
+|
+|t:|1632066394
+|switch|p1a: Glass Houses|Empoleon, M|39/100
+|-damage|p1a: Glass Houses|33/100|[from] Stealth Rock
+|-damage|p1a: Glass Houses|17/100|[from] Spikes
+|turn|28
+|
+|t:|1632066408
+|switch|p1a: Siamese Souls|Flygon, F|70/100
+|-damage|p1a: Siamese Souls|64/100|[from] Stealth Rock
+|move|p2a: Cofagrigus|Hidden Power|p1a: Siamese Souls
+|-damage|p1a: Siamese Souls|34/100
+|
+|-heal|p2a: Cofagrigus|42/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1632066414
+|switch|p1a: Glass Houses|Empoleon, M|17/100
+|-damage|p1a: Glass Houses|0 fnt|[from] Spikes
+|faint|p1a: Glass Houses
+|move|p2a: Cofagrigus|Shadow Ball|p1: Glass Houses|[notarget]
+|-fail|p2a: Cofagrigus
+|
+|-heal|p2a: Cofagrigus|48/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1632066416
+|switch|p1a: Funeral Home|Cofagrigus, M|100/100
+|-damage|p1a: Funeral Home|88/100|[from] Stealth Rock
+|-damage|p1a: Funeral Home|72/100|[from] Spikes
+|turn|30
+|
+|t:|1632066420
+|move|p1a: Funeral Home|Shadow Ball|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|
+|-heal|p1a: Funeral Home|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632066426
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|31
+|
+|t:|1632066430
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Funeral Home|Nasty Plot|p1a: Funeral Home
+|-boost|p1a: Funeral Home|spa|2
+|
+|-heal|p1a: Funeral Home|84/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1632066432
+|move|p2a: Suicune|Scald|p1a: Funeral Home
+|-damage|p1a: Funeral Home|47/100
+|move|p1a: Funeral Home|Trick Room|p1a: Funeral Home
+|-fieldstart|move: Trick Room|[of] p1a: Funeral Home
+|
+|-heal|p1a: Funeral Home|53/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1632066439
+|move|p1a: Funeral Home|Shadow Ball|p2a: Suicune
+|-damage|p2a: Suicune|63/100
+|move|p2a: Suicune|Scald|p1a: Funeral Home
+|-damage|p1a: Funeral Home|11/100
+|
+|-heal|p1a: Funeral Home|17/100|[from] item: Leftovers
+|-heal|p2a: Suicune|69/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1632066443
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Funeral Home|Shadow Ball|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p1a: Funeral Home|23/100|[from] item: Leftovers
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1632066447
+|move|p1a: Funeral Home|Shadow Ball|p2a: Suicune
+|-damage|p2a: Suicune|36/100
+|move|p2a: Suicune|Scald|p1a: Funeral Home
+|-damage|p1a: Funeral Home|0 fnt
+|faint|p1a: Funeral Home
+|
+|-heal|p2a: Suicune|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632066449
+|switch|p1a: Siamese Souls|Flygon, F|34/100
+|-damage|p1a: Siamese Souls|28/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1632066451
+|move|p2a: Suicune|Scald|p1a: Siamese Souls
+|-damage|p1a: Siamese Souls|0 fnt
+|faint|p1a: Siamese Souls
+|
+|win|Finchinator
+|c|☆Lily|gg
+|c|☆Finchinator|sry4lame
+|c|☆Finchinator|gg

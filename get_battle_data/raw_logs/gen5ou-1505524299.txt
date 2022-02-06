@@ -1,0 +1,264 @@
+|j|☆BL153
+|j|☆terinuh
+|t:|1644166032
+|gametype|singles
+|player|p1|BL153|nate|1301
+|player|p2|terinuh|1|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Magnezone|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Celebi|item
+|teampreview
+|c|☆BL153|hf
+|
+|t:|1644166045
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|1
+|
+|t:|1644166063
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1644166069
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Landorus|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|76/100
+|
+|t:|1644166075
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1644166084
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|67/100
+|-damage|p2a: Excadrill|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-heal|p1a: Garchomp|73/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644166092
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Fire Blast|p2a: Landorus
+|-damage|p2a: Landorus|65/100
+|
+|-heal|p1a: Garchomp|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644166107
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Landorus|Hidden Power|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|95/100
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644166116
+|switch|p2a: Excadrill|Excadrill, F|94/100
+|move|p1a: Jirachi|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|83/100
+|
+|t:|1644166119
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|-item|p1a: Magnezone|Air Balloon
+|
+|-heal|p2a: Excadrill|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644166133
+|move|p2a: Excadrill|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|92/100
+|-enditem|p1a: Magnezone|Air Balloon
+|move|p1a: Magnezone|Magnet Rise|p1a: Magnezone
+|-start|p1a: Magnezone|Magnet Rise
+|
+|-heal|p2a: Excadrill|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644166143
+|move|p2a: Excadrill|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|83/100
+|move|p1a: Magnezone|Hidden Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|44/100
+|
+|-heal|p2a: Excadrill|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644166148
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Magnezone|Hidden Power|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-heal|p2a: Excadrill|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆BL153|oh u dam mole rat
+|
+|t:|1644166156
+|move|p2a: Excadrill|Iron Head|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|73/100
+|move|p1a: Magnezone|Hidden Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1644166165
+|switch|p2a: Celebi|Celebi|100/100
+|turn|11
+|
+|t:|1644166174
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|move|p1a: Magnezone|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-damage|p2a: Celebi|94/100 tox|[from] psn
+|-end|p1a: Magnezone|Magnet Rise
+|upkeep
+|turn|12
+|
+|t:|1644166185
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Celebi|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|50/100
+|
+|-heal|p2a: Celebi|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|-damage|p2a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1644166191
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Jirachi|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-damage|p1a: Jirachi|44/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1644166199
+|switch|p1a: Magnezone|Magnezone|73/100|[from]move: U-turn
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644166202
+|move|p1a: Magnezone|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644166205
+|switch|p2a: Celebi|Celebi|88/100
+|turn|15
+|
+|t:|1644166215
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-heal|p2a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644166219
+|move|p2a: Celebi|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644166222
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|17
+|
+|t:|1644166226
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Alakazam|Signal Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|-start|p2a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1644166237
+|move|p1a: Alakazam|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|17/100
+|-activate|p2a: Tyranitar|confusion
+|-damage|p2a: Tyranitar|5/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|c|☆terinuh|gg
+|-message|terinuh forfeited.
+|
+|win|BL153
+|raw|BL153's rating: 1301 &rarr; <strong>1326</strong><br />(+25 for winning)
+|raw|terinuh's rating: 1397 &rarr; <strong>1372</strong><br />(-25 for losing)
+|l|☆terinuh
+|c|☆BL153|gg

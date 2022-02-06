@@ -1,0 +1,385 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1630777736
+|gametype|singles
+|player|p1|Ark|evelyn|
+|player|p2|EviGaro|lass-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mienshao, F|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Weavile, M|item
+|poke|p1|Porygon-Z|item
+|poke|p1|Bronzong|item
+|poke|p1|Flygon, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Snorlax, F|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Tangrowth, F|item
+|poke|p2|Empoleon, F|item
+|teampreview
+|inactive|Ark has 270 seconds left.
+|inactive|EviGaro has 270 seconds left.
+|c|☆EviGaro|hf
+|c|+Donny P.|LET'S GOOO ARK
+|
+|t:|1630777771
+|start
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|turn|1
+|c|+avarice|go ark
+|c|☆Ark|hf
+|
+|t:|1630777791
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Mienshao|Fake Out|p2a: Zapdos
+|-damage|p2a: Zapdos|79/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Zapdos|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1630777796
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Mienshao|Stone Edge|p2a: Tangrowth
+|-damage|p2a: Tangrowth|69/100
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1630777805
+|move|p1a: Mienshao|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|22/100
+|-damage|p1a: Mienshao|71/100|[from] item: Life Orb
+|
+|t:|1630777809
+|switch|p1a: Flygon|Flygon, F|100/100|[from]move: U-turn
+|move|p2a: Tangrowth|Synthesis|p2a: Tangrowth
+|-heal|p2a: Tangrowth|72/100
+|
+|upkeep
+|turn|4
+|
+|t:|1630777814
+|move|p1a: Flygon|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-crit|p2a: Tangrowth
+|-damage|p2a: Tangrowth|10/100
+|
+|t:|1630777829
+|switch|p1a: Porygon-Z|Porygon-Z|100/100|[from]move: U-turn
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|move|p2a: Tangrowth|Synthesis|p2a: Tangrowth
+|-heal|p2a: Tangrowth|60/100
+|
+|upkeep
+|turn|5
+|
+|t:|1630777836
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Porygon-Z|Tri Attack|p2a: Snorlax
+|-damage|p2a: Snorlax|50/100
+|-damage|p1a: Porygon-Z|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Snorlax|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1630777846
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Toxic|p1a: Qwilfish
+|-immune|p1a: Qwilfish
+|
+|-heal|p2a: Snorlax|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1630777855
+|switch|p2a: Zapdos|Zapdos|85/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Qwilfish|Spikes|p2a: Zapdos
+|-sidestart|p2: EviGaro|Spikes
+|
+|-heal|p2a: Zapdos|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1630777864
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|71/100
+|
+|-heal|p2a: Zapdos|98/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1630777868
+|move|p2a: Zapdos|Heat Wave|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|33/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: EviGaro|move: Stealth Rock
+|
+|-heal|p2a: Zapdos|100/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1630777871
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Zapdos|Heat Wave|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-heal|p1a: Bronzong|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1630777874
+|move|p2a: Zapdos|Heat Wave|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|t:|1630777879
+|switch|p1a: Flygon|Flygon, F|100/100
+|turn|12
+|
+|t:|1630777892
+|move|p1a: Flygon|Outrage|p2a: Zapdos
+|-damage|p2a: Zapdos|40/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|90/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p2a: Zapdos|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1630777898
+|move|p1a: Flygon|Outrage|p2a: Zapdos|[from]lockedmove
+|-damage|p2a: Zapdos|36/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|86/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p2a: Zapdos|93/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1630777901
+|move|p1a: Flygon|Outrage|p2a: Zapdos|[from]lockedmove
+|-damage|p2a: Zapdos|34/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|84/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p2a: Zapdos|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1630777905
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|84/100|[from] confusion
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|16
+|
+|t:|1630777910
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|-damage|p2a: Empoleon|82/100|[from] Spikes
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|68/100|[from] confusion
+|
+|upkeep
+|turn|17
+|
+|t:|1630777915
+|-end|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|50/100
+|move|p2a: Empoleon|Stealth Rock|p1a: Flygon
+|-sidestart|p1: Ark|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|inactive|EviGaro has 270 seconds left.
+|
+|t:|1630777959
+|switch|p2a: Snorlax|Snorlax, F|62/100
+|-damage|p2a: Snorlax|50/100|[from] Spikes
+|-damage|p2a: Snorlax|37/100|[from] Stealth Rock
+|move|p1a: Flygon|Outrage|p2a: Snorlax|[from]lockedmove
+|-damage|p2a: Snorlax|1/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|
+|-heal|p2a: Snorlax|7/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1630777970
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|move|p2a: Snorlax|Protect||[still]
+|-fail|p2a: Snorlax
+|
+|-heal|p1a: Qwilfish|94/100|[from] item: Black Sludge
+|-heal|p2a: Snorlax|13/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1630777975
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Qwilfish|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|-heal|p1a: Qwilfish|99/100|[from] item: Black Sludge
+|-heal|p2a: Zapdos|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|EviGaro has 270 seconds left.
+|
+|t:|1630777998
+|move|p1a: Qwilfish|Spikes|p2a: Zapdos
+|-sidestart|p2: EviGaro|Spikes
+|move|p2a: Zapdos|Hidden Power|p1a: Qwilfish
+|-crit|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Zapdos|88/100 par|[from] item: Leftovers
+|upkeep
+|inactive|Ark has 270 seconds left.
+|inactive|Ark has 240 seconds left.
+|
+|t:|1630778072
+|switch|p1a: Porygon-Z|Porygon-Z|91/100
+|-damage|p1a: Porygon-Z|78/100|[from] Stealth Rock
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|atk|1
+|turn|22
+|inactive|EviGaro has 270 seconds left.
+|
+|t:|1630778082
+|switch|p2a: Empoleon|Empoleon, F|50/100
+|-damage|p2a: Empoleon|34/100|[from] Spikes
+|-damage|p2a: Empoleon|28/100|[from] Stealth Rock
+|move|p1a: Porygon-Z|Dark Pulse|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|7/100
+|-damage|p1a: Porygon-Z|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|
+|t:|1630778091
+|move|p1a: Porygon-Z|Dark Pulse|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|-damage|p1a: Porygon-Z|58/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|EviGaro has 270 seconds left.
+|
+|t:|1630778120
+|switch|p2a: Zapdos|Zapdos|88/100 par
+|-damage|p2a: Zapdos|63/100 par|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|24
+|
+|t:|1630778125
+|move|p1a: Porygon-Z|Tri Attack|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Porygon-Z|48/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1630778134
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|-damage|p2a: Mismagius|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1630778137
+|move|p2a: Mismagius|Thunderbolt|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|6/100
+|move|p1a: Porygon-Z|Dark Pulse|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|-damage|p1a: Porygon-Z|0 fnt|[from] item: Life Orb
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|inactive|EviGaro has 270 seconds left.
+|
+|t:|1630778157
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|-damage|p2a: Nidoking|95/100|[from] Stealth Rock
+|-damage|p2a: Nidoking|78/100|[from] Spikes
+|turn|26
+|
+|t:|1630778160
+|move|p1a: Mienshao|Fake Out|p2a: Nidoking
+|-damage|p2a: Nidoking|55/100
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|cant|p2a: Nidoking|flinch
+|
+|upkeep
+|turn|27
+|inactive|Ark has 270 seconds left.
+|
+|t:|1630778181
+|move|p1a: Mienshao|High Jump Kick|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|-damage|p1a: Mienshao|75/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|EviGaro has 270 seconds left.
+|c|☆EviGaro|yeah honestly this game sucks lol
+|-message|EviGaro forfeited.
+|
+|win|Ark
+|c|☆Ark|sorry
+|c|☆Ark|gg

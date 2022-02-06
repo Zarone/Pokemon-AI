@@ -1,0 +1,346 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639789233
+|gametype|singles
+|player|p1|pokemonisfun|102|
+|player|p2|Finchinator|#finchinator|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, F|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Roserade, M|item
+|poke|p1|Flygon, F|item
+|poke|p1|Victini|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Ferroseed, M|item
+|poke|p2|Flygon, F|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Mienshao, M|item
+|teampreview
+|c|☆Finchinator|hf 
+|c|+Nalorium|uusd?
+|c|☆pokemonisfun|hf
+|inactive|pokemonisfun has 270 seconds left.
+|inactive|Finchinator has 270 seconds left.
+|
+|t:|1639789278
+|start
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|1
+|
+|t:|1639789299
+|move|p2a: Mienshao|U-turn|p1a: Roserade
+|-damage|p1a: Roserade|39/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|
+|t:|1639789301
+|switch|p2a: Ferroseed|Ferroseed, M|100/100|[from]move: U-turn
+|move|p1a: Roserade|Spikes|p2a: Ferroseed
+|-sidestart|p2: Finchinator|Spikes
+|
+|-heal|p1a: Roserade|45/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|c|☆pokemonisfun|62
+|c|☆pokemonisfun|to a poison type
+|c|☆pokemonisfun|ban mienshao holy fuck
+|inactive|pokemonisfun has 270 seconds left.
+|inactive|pokemonisfun has 240 seconds left.
+|
+|t:|1639789374
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Ferroseed|Spikes|p1a: Victini
+|-sidestart|p1: pokemonisfun|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1639789380
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: Victini|V-create|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1639789385
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Victini|V-create|p2a: Flygon
+|-resisted|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Flygon
+|
+|upkeep
+|c|+KM|go pif omg
+|c|☆Finchinator|.
+|c|☆Finchinator|critting scarf gon vs blastoise dragon resist ;_;
+|inactive|Finchinator has 270 seconds left.
+|
+|t:|1639789429
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-damage|p2a: Druddigon|88/100|[from] Spikes
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|5
+|c|☆pokemonisfun|it does suck RIP
+|c|☆pokemonisfun|at least you brought two dragons
+|inactive|pokemonisfun has 240 seconds left.
+|inactive|pokemonisfun has 210 seconds left.
+|
+|t:|1639789489
+|move|p1a: Victini|V-create|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|22/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Druddigon|Stealth Rock|p1a: Victini
+|-sidestart|p1: pokemonisfun|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1639789512
+|switch|p1a: Roserade|Roserade, M|45/100
+|-damage|p1a: Roserade|33/100|[from] Spikes
+|-damage|p1a: Roserade|20/100|[from] Stealth Rock
+|move|p2a: Druddigon|Outrage|p1a: Roserade
+|-enditem|p2a: Druddigon|Dragon Gem|[from] gem
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|inactive|pokemonisfun has 180 seconds left.
+|
+|t:|1639789530
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|-damage|p1a: Blastoise|76/100|[from] Spikes
+|turn|7
+|
+|t:|1639789534
+|move|p1a: Blastoise|Rapid Spin|p2a: Druddigon
+|-damage|p2a: Druddigon|19/100
+|-sideend|p1: pokemonisfun|Spikes|[from] move: Rapid Spin|[of] p1a: Blastoise
+|-sideend|p1: pokemonisfun|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Druddigon|Outrage|p1a: Blastoise|[from]lockedmove
+|-damage|p1a: Blastoise|37/100
+|-start|p2a: Druddigon|confusion|[fatigue]
+|
+|-heal|p1a: Blastoise|43/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1639789544
+|move|p1a: Blastoise|Scald|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|8/100
+|-activate|p2a: Druddigon|confusion
+|-damage|p2a: Druddigon|0 fnt|[from] confusion
+|faint|p2a: Druddigon
+|
+|-heal|p1a: Blastoise|50/100|[from] item: Leftovers
+|upkeep
+|inactive|Finchinator has 270 seconds left.
+|c|☆Finchinator|bruh
+|
+|t:|1639789561
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|88/100|[from] Spikes
+|turn|9
+|
+|t:|1639789573
+|move|p2a: Mienshao|High Jump Kick|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|-damage|p2a: Mienshao|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639789588
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|10
+|
+|t:|1639789603
+|move|p2a: Mienshao|U-turn|p1a: Druddigon
+|-damage|p1a: Druddigon|70/100
+|-damage|p2a: Mienshao|68/100|[from] item: Life Orb
+|
+|t:|1639789605
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100|[from]move: U-turn
+|-damage|p2a: Nidoqueen|88/100|[from] Spikes
+|move|p1a: Druddigon|Outrage|p2a: Nidoqueen
+|-enditem|p1a: Druddigon|Dragon Gem|[from] gem
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1639789610
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|88/100|[from] Spikes
+|turn|11
+|
+|t:|1639789617
+|move|p2a: Mienshao|High Jump Kick|p1a: Druddigon
+|-crit|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|-damage|p2a: Mienshao|78/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|pokemonisfun has 180 seconds left.
+|inactive|pokemonisfun has 150 seconds left.
+|
+|t:|1639789680
+|switch|p1a: Victini|Victini|100/100
+|turn|12
+|c|☆Finchinator|well if there's ever been a deserved crit
+|
+|t:|1639789699
+|move|p2a: Mienshao|Stone Edge|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|18/100
+|-damage|p2a: Mienshao|68/100|[from] item: Life Orb
+|move|p1a: Victini|V-create|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Mienshao
+|
+|upkeep
+|
+|t:|1639789702
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|13
+|c|☆Finchinator|sad thing is that without the confusion rocks were up and i still won rip
+|inactive|pokemonisfun has 150 seconds left.
+|c|+KM|isn't it a 50/50 in this gen
+|inactive|pokemonisfun has 120 seconds left.
+|c|☆Finchinator|yea but if i get 3 turn toise dies and then i get momentum which 
+|inactive|Finchinator has 270 seconds left.
+|c|☆Finchinator|so 75/25 plus the crit
+|inactive|pokemonisfun has 90 seconds left.
+|inactive|pokemonisfun has 60 seconds left.
+|
+|t:|1639789832
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Flygon
+|-damage|p1a: Flygon|56/100
+|
+|upkeep
+|turn|14
+|
+|t:|1639789855
+|move|p1a: Flygon|Dragon Claw|p2a: Mismagius
+|-damage|p2a: Mismagius|29/100
+|move|p2a: Mismagius|Shadow Ball|p1a: Flygon
+|-damage|p1a: Flygon|2/100
+|
+|upkeep
+|turn|15
+|inactive|pokemonisfun has 30 seconds left.
+|inactive|pokemonisfun has 20 seconds left.
+|
+|t:|1639789885
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|-damage|p2a: Ferroseed|88/100|[from] Spikes
+|move|p1a: Flygon|Dragon Claw|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|73/100
+|-damage|p1a: Flygon|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p1a: Flygon
+|
+|upkeep
+|inactive|pokemonisfun has 25 seconds left this turn.
+|inactive|pokemonisfun has 20 seconds left.
+|inactive|pokemonisfun has 15 seconds left.
+|
+|t:|1639789899
+|switch|p1a: Victini|Victini|18/100
+|turn|16
+|inactive|pokemonisfun has 25 seconds left this turn.
+|c|☆Finchinator|gg but it's a crime you got away with using this bc of that
+|
+|t:|1639789911
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: Victini|V-create|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|17
+|
+|t:|1639789914
+|move|p2a: Ferroseed|Protect||[still]
+|-fail|p2a: Ferroseed
+|move|p1a: Victini|V-create|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|-damage|p1a: Victini|6/100|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1639789916
+|switch|p2a: Mismagius|Mismagius, M|29/100
+|turn|18
+|
+|t:|1639789918
+|move|p2a: Mismagius|Shadow Ball|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1639789920
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|19
+|
+|t:|1639789923
+|move|p2a: Mismagius|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|69/100
+|-status|p1a: Zapdos|par
+|move|p1a: Zapdos|Thunderbolt|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|win|pokemonisfun
+|c|☆pokemonisfun|gg
+|c|☆Finchinator|not even a sorry kek
+|c|☆pokemonisfun|its a game
+|c|☆pokemonisfun|no im not sorry
+|c|☆Finchinator|u apologized the last like 3 times we played
+|c|☆pokemonisfun|you played well
+|c|☆Finchinator|my guy
+|c|☆pokemonisfun|yes well idk if you complained so much last time
+|c|☆pokemonisfun|its just a game
+|c|☆Finchinator|it is, you right
+|c|☆Finchinator|gg
+|c|☆pokemonisfun|nicely played by you
+|c|☆pokemonisfun|very nicely

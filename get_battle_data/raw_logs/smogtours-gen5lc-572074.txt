@@ -1,0 +1,318 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1627857224
+|gametype|singles
+|player|p1|watashi|#flcl|
+|player|p2|trash|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, F|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Slowpoke, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p2|Skitty, L5, F|item
+|poke|p2|Riolu, L5, M|item
+|poke|p2|Shelmet, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Trubbish, L5, F|item
+|poke|p2|Drifloon, L5, M|item
+|teampreview
+|c|☆watashi|gl hf
+|c|☆trash|hf!
+|inactive|watashi has 270 seconds left.
+|
+|t:|1627857270
+|start
+|switch|p1a: Natu|Natu, L5, F|100/100
+|switch|p2a: Shelmet|Shelmet, L5, F|100/100
+|turn|1
+|
+|t:|1627857283
+|move|p2a: Shelmet|Final Gambit|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p2a: Shelmet
+|faint|p1a: Natu
+|
+|upkeep
+|inactive|trash has 270 seconds left.
+|
+|t:|1627857313
+|switch|p1a: Snover|Snover, L5, F|100/100
+|switch|p2a: Skitty|Skitty, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|2
+|
+|t:|1627857333
+|switch|p1a: Slowpoke|Slowpoke, L5, M|100/100
+|move|p2a: Skitty|Thunder Wave|p1a: Slowpoke
+|-status|p1a: Slowpoke|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skitty|96/100|[from] Hail
+|-damage|p1a: Slowpoke|97/100 par|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1627857340
+|move|p2a: Skitty|Wild Charge|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|60/100 par
+|-damage|p2a: Skitty|81/100|[from] Recoil
+|move|p1a: Slowpoke|Scald|p2a: Skitty
+|-damage|p2a: Skitty|48/100
+|-status|p2a: Skitty|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skitty|43/100 brn|[from] Hail
+|-damage|p1a: Slowpoke|56/100 par|[from] Hail
+|-damage|p2a: Skitty|34/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1627857347
+|move|p2a: Skitty|Return|p1a: Slowpoke
+|-damage|p1a: Slowpoke|41/100 par
+|move|p1a: Slowpoke|Slack Off|p1a: Slowpoke
+|-heal|p1a: Slowpoke|93/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skitty|29/100 brn|[from] Hail
+|-damage|p1a: Slowpoke|89/100 par|[from] Hail
+|-damage|p2a: Skitty|20/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1627857351
+|move|p2a: Skitty|Wild Charge|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|52/100 par
+|-damage|p2a: Skitty|5/100 brn|[from] Recoil
+|move|p1a: Slowpoke|Slack Off|p1a: Slowpoke
+|-heal|p1a: Slowpoke|100/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skitty|0 fnt|[from] Hail
+|-damage|p1a: Slowpoke|97/100 par|[from] Hail
+|faint|p2a: Skitty
+|upkeep
+|
+|t:|1627857354
+|switch|p2a: Trubbish|Trubbish, L5, F|100/100
+|turn|6
+|
+|t:|1627857360
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Trubbish|Toxic Spikes|p1a: Drilbur
+|-sidestart|p1: watashi|move: Toxic Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|96/100|[from] Hail
+|-damage|p2a: Trubbish|96/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1627857363
+|move|p1a: Drilbur|Stealth Rock|p2a: Trubbish
+|-sidestart|p2: trash|move: Stealth Rock
+|move|p2a: Trubbish|Explosion|p1a: Drilbur
+|-damage|p1a: Drilbur|9/100
+|faint|p2a: Trubbish
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drilbur|5/100|[from] Hail
+|upkeep
+|
+|t:|1627857368
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|-damage|p2a: Diglett|95/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1627857374
+|move|p2a: Diglett|Earthquake|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|-damage|p2a: Diglett|89/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Diglett|84/100|[from] Hail
+|upkeep
+|
+|t:|1627857379
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-status|p1a: Snover|psn
+|turn|9
+|
+|t:|1627857389
+|move|p1a: Snover|Blizzard|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Snover|91/100 psn|[from] psn
+|upkeep
+|
+|t:|1627857392
+|switch|p2a: Riolu|Riolu, L5, M|100/100
+|-damage|p2a: Riolu|96/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1627857398
+|switch|p1a: Slowpoke|Slowpoke, L5, M|100/100 par
+|move|p2a: Riolu|Drain Punch|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|89/100 par
+|-heal|p2a: Riolu|100/100|[from] drain|[of] p1a: Slowpoke
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Riolu|96/100|[from] Hail
+|-damage|p1a: Slowpoke|86/100 par|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1627857400
+|move|p2a: Riolu|Crunch|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|56/100 par
+|move|p1a: Slowpoke|Psychic|p2a: Riolu
+|-supereffective|p2a: Riolu
+|-damage|p2a: Riolu|35/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Riolu|31/100|[from] Hail
+|-damage|p1a: Slowpoke|52/100 par|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1627857411
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-status|p1a: Mienfoo|psn
+|move|p2a: Riolu|Drain Punch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|70/100 psn
+|-heal|p2a: Riolu|48/100|[from] drain|[of] p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|66/100 psn|[from] Hail
+|-damage|p2a: Riolu|44/100|[from] Hail
+|-damage|p1a: Mienfoo|57/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1627857414
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Drain Punch|p1a: Mienfoo|[from]move: Copycat
+|-damage|p1a: Mienfoo|27/100 psn
+|-heal|p2a: Riolu|61/100|[from] drain|[of] p1a: Mienfoo
+|move|p1a: Mienfoo|High Jump Kick|p2a: Riolu
+|-damage|p2a: Riolu|5/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Riolu|0 fnt|[from] Hail
+|-damage|p1a: Mienfoo|22/100 psn|[from] Hail
+|faint|p2a: Riolu
+|-damage|p1a: Mienfoo|14/100 psn|[from] psn
+|upkeep
+|
+|t:|1627857416
+|switch|p2a: Drifloon|Drifloon, L5, M|100/100
+|-damage|p2a: Drifloon|77/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1627857431
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|move|p2a: Drifloon|Acrobatics|p1a: Magnemite
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|74/100|[from] Hail
+|-damage|p1a: Magnemite|69/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1627857435
+|switch|p1a: Mienfoo|Mienfoo, L5, M|44/100 psn
+|move|p2a: Drifloon|Hidden Power|p1a: Mienfoo
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|70/100|[from] Hail
+|upkeep
+|
+|t:|1627857439
+|switch|p1a: Slowpoke|Slowpoke, L5, M|86/100 par
+|turn|16
+|
+|t:|1627857445
+|move|p2a: Drifloon|Acrobatics|p1a: Slowpoke
+|-damage|p1a: Slowpoke|52/100 par
+|cant|p1a: Slowpoke|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|66/100|[from] Hail
+|-damage|p1a: Slowpoke|49/100 par|[from] Hail
+|upkeep
+|turn|17
+|
+|t:|1627857449
+|move|p2a: Drifloon|Hidden Power|p1a: Slowpoke
+|-damage|p1a: Slowpoke|30/100 par
+|move|p1a: Slowpoke|Thunder Wave|p2a: Drifloon
+|-status|p2a: Drifloon|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|62/100 par|[from] Hail
+|-damage|p1a: Slowpoke|26/100 par|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1627857451
+|cant|p2a: Drifloon|par
+|move|p1a: Slowpoke|Psychic|p2a: Drifloon
+|-damage|p2a: Drifloon|16/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|12/100 par|[from] Hail
+|-damage|p1a: Slowpoke|23/100 par|[from] Hail
+|upkeep
+|turn|19
+|
+|t:|1627857454
+|move|p2a: Drifloon|Acrobatics|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifloon|8/100 par|[from] Hail
+|upkeep
+|
+|t:|1627857456
+|switch|p1a: Snover|Snover, L5, F|91/100 psn
+|turn|20
+|c|☆watashi|gg
+|
+|t:|1627857464
+|move|p1a: Snover|Ice Shard|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-crit|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|win|watashi
+|c|☆trash|gg

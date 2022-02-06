@@ -1,0 +1,409 @@
+|j|☆Monai
+|j|☆dogecreamgaming
+|t:|1641776896
+|gametype|singles
+|player|p1|Monai|ninjaboy|
+|player|p2|dogecreamgaming|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, M|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Rotom-Frost|item
+|poke|p1|Golurk|item
+|poke|p1|Serperior, M|item
+|poke|p1|Skuntank, M|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Regirock|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Garbodor, M|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Rotom-Fan|item
+|teampreview
+|c|☆dogecreamgaming|Hf bro
+|j| Damm u captcha
+|j| Pikablu007
+|j| Colteor
+|l| Pikablu007
+|j|+susciety
+|c|☆Monai|u2 gamer
+|c| Damm u captcha|win geeks!
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Monai)
+|j| probopass gaming
+|j| BBQ Chickens
+|j|+Bughouse
+|j| Polished Bone
+|j| kalifguest22
+|j|+Oathkeeper
+|j| Baildor Robo xd
+|j|+meri berry❧
+|j| BluBirD
+|inactive|dogecreamgaming has 270 seconds left.
+|j| pokeslice
+|j|%estarossa
+|c|+Oathkeeper|go LinMonaiks
+|c| pokeslice|dogecreamgaming szn
+|c|☆dogecreamgaming|dogecreamgaming
+|j| Sirwings
+|j| johnathan madden
+|j| highest in t room
+|j| LpZ IV
+|c|☆Monai|how indistinct oath
+|c|+Oathkeeper|right?
+|c|+Bughouse|o hey it's another team that i have in my builder
+|inactive|Monai has 270 seconds left.
+|inactive|dogecreamgaming has 240 seconds left.
+|c| highest in t room|dogecreamgaming
+|c| BluBirD|the man
+|c| BluBirD|the myth
+|c| BluBirD|the legend himself
+|c| Damm u captcha|dogecreamgamer
+|l| Sirwings
+|c| BluBirD|dogecreamgaming
+|j| AcrOne
+|inactive|dogecreamgaming has 210 seconds left.
+|c|%estarossa|dogecreamgaming
+|j| ASKOV
+|l| BBQ Chickens
+|inactive|dogecreamgaming has 180 seconds left.
+|j| blackkaiser
+|j| TNunes
+|inactive|dogecreamgaming has 150 seconds left.
+|
+|t:|1641777089
+|start
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|t:|1641777096
+|move|p1a: Garbodor|Spikes|p2a: Seismitoad
+|-sidestart|p2: dogecreamgaming|Spikes
+|move|p2a: Seismitoad|Substitute|p2a: Seismitoad
+|-start|p2a: Seismitoad|Substitute
+|-damage|p2a: Seismitoad|75/100
+|
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1641777100
+|move|p1a: Garbodor|Spikes|p2a: Seismitoad
+|-sidestart|p2: dogecreamgaming|Spikes
+|move|p2a: Seismitoad|Earth Power|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|22/100
+|
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| elpresidento
+|
+|t:|1641777105
+|move|p1a: Garbodor|Spikes|p2a: Seismitoad
+|-sidestart|p2: dogecreamgaming|Spikes
+|move|p2a: Seismitoad|Earth Power|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-heal|p2a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641777114
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|4
+|
+|t:|1641777120
+|move|p1a: Serperior|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-end|p2a: Seismitoad|Substitute
+|-damage|p1a: Serperior|91/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Toxic|p1a: Serperior
+|-status|p1a: Serperior|tox
+|
+|-heal|p2a: Seismitoad|99/100|[from] item: Leftovers
+|-damage|p1a: Serperior|84/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|dogecreamgaming has 240 seconds left.
+|
+|t:|1641777157
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|
+|upkeep
+|turn|6
+|inactive|dogecreamgaming has 210 seconds left.
+|
+|t:|1641777190
+|switch|p2a: Seismitoad|Seismitoad, F|99/100
+|-damage|p2a: Seismitoad|75/100|[from] Spikes
+|move|p1a: Golurk|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: dogecreamgaming|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|l| probopass gaming
+|
+|t:|1641777200
+|move|p2a: Seismitoad|Substitute|p2a: Seismitoad
+|-start|p2a: Seismitoad|Substitute
+|-damage|p2a: Seismitoad|56/100
+|move|p1a: Golurk|Dynamic Punch|p2a: Seismitoad
+|-end|p2a: Seismitoad|Substitute
+|
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| 1nightinTHEASIANCY
+|
+|t:|1641777213
+|switch|p1a: Serperior|Serperior, M|84/100 tox
+|move|p2a: Seismitoad|Hydro Pump|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|63/100 tox
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-damage|p1a: Serperior|57/100 tox|[from] psn
+|upkeep
+|turn|9
+|l| 1nightinTHEASIANCY
+|inactive|dogecreamgaming has 210 seconds left.
+|j| 1nightinTHEASIANCY
+|j| probopass gaming
+|inactive|dogecreamgaming has 180 seconds left.
+|
+|t:|1641777275
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Serperior|Giga Drain|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|-heal|p1a: Serperior|66/100 tox|[from] drain|[of] p2a: Rotom
+|-damage|p1a: Serperior|56/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Serperior|44/100 tox|[from] psn
+|upkeep
+|turn|10
+|j|+sensei axew
+|
+|t:|1641777287
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Rotom|Hidden Power|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|66/100
+|-enditem|p1a: Alomomola|Eject Button
+|
+|t:|1641777293
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|
+|upkeep
+|turn|11
+|inactive|dogecreamgaming has 180 seconds left.
+|inactive|dogecreamgaming has 150 seconds left.
+|l| Colteor
+|
+|t:|1641777334
+|switch|p2a: Seismitoad|Seismitoad, F|69/100
+|-damage|p2a: Seismitoad|63/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|38/100|[from] Spikes
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|76/100
+|
+|-heal|p2a: Seismitoad|44/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|dogecreamgaming has 150 seconds left.
+|
+|t:|1641777345
+|move|p1a: Rotom|Blizzard|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|t:|1641777350
+|switch|p2a: Regirock|Regirock|100/100
+|-damage|p2a: Regirock|75/100|[from] Spikes
+|-damage|p2a: Regirock|63/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1641777371
+|move|p1a: Rotom|Thunderbolt|p2a: Regirock
+|-damage|p2a: Regirock|32/100
+|move|p2a: Regirock|Drain Punch|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|-heal|p2a: Regirock|41/100|[from] drain|[of] p1a: Rotom
+|
+|upkeep
+|turn|14
+|inactive|dogecreamgaming has 150 seconds left.
+|inactive|Monai has 270 seconds left.
+|
+|t:|1641777415
+|switch|p1a: Serperior|Serperior, M|44/100 tox
+|move|p2a: Regirock|Stealth Rock|p1a: Serperior
+|-sidestart|p1: Monai|move: Stealth Rock
+|
+|-damage|p1a: Serperior|38/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1641777428
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|76/100|[from] Spikes
+|-damage|p2a: Skuntank|63/100|[from] Stealth Rock
+|move|p1a: Serperior|Giga Drain|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|43/100
+|-heal|p1a: Serperior|52/100 tox|[from] drain|[of] p2a: Skuntank
+|-damage|p1a: Serperior|42/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Serperior|29/100 tox|[from] psn
+|upkeep
+|turn|16
+|j| 1oggodelturt
+|j| Colteor
+|inactive|Monai has 270 seconds left.
+|
+|t:|1641777441
+|move|p1a: Serperior|Hidden Power|p2a: Skuntank
+|-damage|p2a: Skuntank|15/100
+|-damage|p1a: Serperior|19/100 tox|[from] item: Life Orb
+|move|p2a: Skuntank|Pursuit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|inactive|Monai has 270 seconds left.
+|
+|t:|1641777455
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1641777459
+|move|p1a: Skuntank|Pursuit|p2a: Skuntank
+|-resisted|p2a: Skuntank
+|-damage|p2a: Skuntank|3/100
+|move|p2a: Skuntank|Explosion|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|faint|p1a: Skuntank
+|
+|upkeep
+|j| be like cat
+|l| Colteor
+|inactive|Monai has 270 seconds left.
+|j| FavMon=Garchomp
+|inactive|dogecreamgaming has 120 seconds left.
+|l| FavMon=Garchomp
+|inactive|dogecreamgaming has 90 seconds left.
+|j| ibbysonlyfan
+|
+|t:|1641777534
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Rotom|Rotom-Fan|52/100
+|-damage|p2a: Rotom|27/100|[from] Stealth Rock
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|turn|18
+|inactive|dogecreamgaming has 90 seconds left.
+|l| TNunes
+|inactive|Monai has 240 seconds left.
+|c| ibbysonlyfan|dogecreamgaming vs monai
+|j| TNunes
+|j| Colteor
+|inactive|Monai has 210 seconds left.
+|
+|t:|1641777584
+|move|p2a: Rotom|Hidden Power|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|49/100
+|move|p1a: Golurk|Stone Edge|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|dogecreamgaming has 90 seconds left.
+|
+|t:|1641777590
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|-damage|p2a: Sawsbuck|88/100|[from] Stealth Rock
+|-damage|p2a: Sawsbuck|63/100|[from] Spikes
+|turn|19
+|
+|t:|1641777595
+|move|p2a: Sawsbuck|Horn Leech|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-heal|p2a: Sawsbuck|92/100|[from] drain|[of] p1a: Golurk
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1641777608
+|switch|p1a: Rotom|Rotom-Frost|76/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1641777615
+|move|p2a: Sawsbuck|Double-Edge|p1a: Rotom
+|-enditem|p2a: Sawsbuck|Normal Gem|[from] gem
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Sawsbuck|79/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1641777623
+|switch|p1a: Alomomola|Alomomola, F|99/100
+|-damage|p1a: Alomomola|87/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1641777628
+|move|p2a: Sawsbuck|Horn Leech|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100
+|-heal|p2a: Sawsbuck|100/100|[from] drain|[of] p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Sawsbuck
+|-resisted|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|90/100
+|
+|upkeep
+|turn|22
+|inactive|dogecreamgaming has 120 seconds left.
+|j| Corperate N
+|c|☆dogecreamgaming|Gg bro
+|c| pokeslice|dogecreamgaming does it again
+|c|☆Monai|gg
+|l| ASKOV
+|
+|t:|1641777646
+|move|p2a: Sawsbuck|Horn Leech|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-heal|p2a: Sawsbuck|100/100|[from] drain|[of] p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|win|dogecreamgaming
+|c| Damm u captcha|ggs
+|l| Polished Bone
+|l| BluBirD

@@ -1,0 +1,268 @@
+|j|☆playboicobraz
+|j|☆Daffodil Bloke
+|t:|1644096542
+|gametype|singles
+|player|p1|playboicobraz|marlon|1056
+|player|p2|Daffodil Bloke|hiker-gen4|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Jellicent, F|item
+|poke|p2|Golurk|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Machamp, M|item
+|poke|p2|Ursaring, M|item
+|poke|p2|Fearow, F|item
+|poke|p2|Zoroark, M|item
+|teampreview
+|
+|t:|1644096582
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Al|Golurk, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1644096604
+|move|p1a: Tyranitar|Crunch|p2a: Al
+|-supereffective|p2a: Al
+|-damage|p2a: Al|4/100
+|move|p2a: Al|Dynamic Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644096613
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|turn|2
+|
+|t:|1644096626
+|move|p1a: Excadrill|Iron Head|p2a: Al
+|-damage|p2a: Al|0 fnt
+|faint|p2a: Al
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644096674
+|switch|p2a: Riza|Fearow, F|100/100
+|turn|3
+|
+|t:|1644096678
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Riza|Drill Run|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Riza|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1644096694
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Riza|atk|1
+|move|p2a: Riza|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|95/100
+|
+|t:|1644096717
+|switch|p2a: Ed|Bisharp, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ed|94/100|[from] Sandstorm
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644096733
+|move|p2a: Ed|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ed|88/100|[from] Sandstorm
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by playboicobraz)
+|
+|t:|1644096741
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|turn|6
+|
+|t:|1644096754
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2a: Ed|Flamethrower|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ed|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1644096762
+|move|p2a: Ed|Dark Pulse|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|72/100
+|cant|p1a: Excadrill|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ed|76/100|[from] Sandstorm
+|-heal|p1a: Excadrill|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|playboicobraz has 120 seconds left.
+|
+|t:|1644096799
+|move|p2a: Ed|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ed|70/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644096808
+|switch|p1a: Latios|Latios, M|100/100
+|turn|9
+|inactive|Daffodil Bloke has 120 seconds left.
+|
+|t:|1644096839
+|switch|p2a: Alex|Machamp, M|100/100
+|move|p1a: Latios|Trick|p2a: Alex
+|-activate|p1a: Latios|move: Trick|[of] p2a: Alex
+|-item|p2a: Alex|Choice Scarf|[from] move: Trick
+|-item|p1a: Latios|Choice Band|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|-damage|p2a: Alex|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|inactive|Daffodil Bloke has 120 seconds left.
+|inactive|playboicobraz has 120 seconds left.
+|
+|t:|1644096881
+|switch|p1a: Jellicent|Jellicent, F, shiny|100/100
+|move|p2a: Alex|Thunder Punch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|38/100
+|-status|p1a: Jellicent|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alex|88/100|[from] Sandstorm
+|-damage|p1a: Jellicent|32/100 par|[from] Sandstorm
+|-heal|p1a: Jellicent|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644096894
+|move|p2a: Alex|Thunder Punch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alex|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644096904
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|turn|12
+|c|☆playboicobraz|what set you using on bisharp man?
+|inactive|playboicobraz has 90 seconds left.
+|
+|t:|1644096920
+|switch|p2a: Riza|Fearow, F|95/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Riza
+|-resisted|p2a: Riza
+|-damage|p2a: Riza|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Riza|55/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1644096937
+|move|p2a: Riza|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-damage|p2a: Riza|43/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|t:|1644096940
+|switch|p2a: Alex|Machamp, M|82/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Alex
+|-damage|p2a: Alex|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alex|37/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|playboicobraz has 90 seconds left.
+|
+|t:|1644096966
+|move|p2a: Alex|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|40/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Alex
+|-damage|p2a: Alex|0 fnt
+|faint|p2a: Alex
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644096982
+|switch|p2a: Ed|Bisharp, M|70/100
+|turn|15
+|
+|t:|1644096994
+|move|p2a: Ed|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ed|64/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644096999
+|switch|p1a: Latios|Latios, M|95/100
+|turn|16
+|inactive|Daffodil Bloke has 120 seconds left.
+|
+|t:|1644097006
+|move|p2a: Ed|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|win|Daffodil Bloke
+|raw|playboicobraz's rating: 1056 &rarr; <strong>1035</strong><br />(-21 for losing)
+|raw|Daffodil Bloke's rating: 1000 &rarr; <strong>1046</strong><br />(+46 for winning)
+|l|☆playboicobraz

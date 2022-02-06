@@ -1,0 +1,252 @@
+|j|☆BL153
+|j|☆DarkKazam
+|t:|1644074265
+|gametype|singles
+|player|p1|BL153|nate|1280
+|player|p2|DarkKazam|giovanni|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Kyurem-Black|item
+|poke|p1|Magnezone|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tentacruel, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Breloom, M|item
+|poke|p2|Infernape, F|item
+|teampreview
+|c|☆BL153|hf
+|
+|t:|1644074282
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|t:|1644074292
+|move|p2a: Garchomp|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|3/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Jirachi|Icy Wind|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|29/100
+|-unboost|p2a: Garchomp|spe|1
+|
+|-heal|p1a: Jirachi|9/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644074308
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Jirachi|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|92/100
+|
+|t:|1644074314
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1644074320
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: DarkKazam|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1644074330
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1644074339
+|switch|p2a: Garchomp|Garchomp, F|29/100
+|-damage|p2a: Garchomp|23/100|[from] Stealth Rock
+|move|p1a: Magnezone|Thunderbolt|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|6
+|
+|t:|1644074354
+|switch|p1a: Jirachi|Jirachi|9/100
+|move|p2a: Garchomp|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|-damage|p2a: Garchomp|13/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644074361
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|7
+|
+|t:|1644074371
+|switch|p2a: Magnezone|Magnezone|92/100
+|-damage|p2a: Magnezone|86/100|[from] Stealth Rock
+|move|p1a: Alakazam|Psychic|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|52/100
+|
+|upkeep
+|turn|8
+|
+|t:|1644074402
+|move|p1a: Alakazam|Focus Blast|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1644074416
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DarkKazam)
+|
+|t:|1644074459
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Gyarados|Waterfall|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|82/100
+|
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644074469
+|move|p1a: Kyurem|Dragon Claw|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1644074474
+|switch|p2a: Garchomp|Garchomp, F|13/100
+|-damage|p2a: Garchomp|7/100|[from] Stealth Rock
+|turn|11
+|j| SKT T1 Motherfaker
+|
+|t:|1644074481
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Garchomp|Draco Meteor|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|60/100
+|-unboost|p2a: Garchomp|spa|2
+|-enditem|p1a: Magnezone|Air Balloon
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1644074494
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1644074500
+|move|p1a: Magnezone|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|38/100
+|move|p2a: Breloom|Bulk Up|p2a: Breloom
+|-boost|p2a: Breloom|atk|1
+|-boost|p2a: Breloom|def|1
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1644074509
+|move|p1a: Magnezone|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1644074515
+|switch|p2a: Infernape|Infernape, F|100/100
+|-damage|p2a: Infernape|88/100|[from] Stealth Rock
+|turn|14
+|c|☆BL153|no speed on a loom..
+|c|☆BL153|ok
+|
+|t:|1644074525
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Infernape|Swords Dance|p2a: Infernape
+|-boost|p2a: Infernape|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1644074532
+|move|p2a: Infernape|Thunder Punch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|
+|t:|1644074535
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|16
+|
+|t:|1644074541
+|move|p2a: Infernape|Mach Punch|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|51/100
+|move|p1a: Alakazam|Psychic|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1644074549
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1644074555
+|move|p1a: Alakazam|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|win|BL153
+|raw|BL153's rating: 1280 &rarr; <strong>1298</strong><br />(+18 for winning)
+|raw|DarkKazam's rating: 1182 &rarr; <strong>1164</strong><br />(-18 for losing)
+|l|☆DarkKazam
+|c|☆BL153|gg

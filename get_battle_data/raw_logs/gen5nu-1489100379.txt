@@ -1,0 +1,354 @@
+|j|☆tank skunk
+|j|☆Just A Girafe
+|t:|1641856637
+|gametype|singles
+|player|p1|tank skunk|pokefan|1067
+|player|p2|Just A Girafe|fisherman-gen4|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Seismitoad, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Sawsbuck, F|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Magmar, F|item
+|poke|p1|Exploud, F|item
+|poke|p2|Weezing, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Muk, M|item
+|poke|p2|Electrode|item
+|poke|p2|Klang|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|inactive|Just A Girafe has 120 seconds left.
+|
+|t:|1641856668
+|start
+|switch|p1a: Palpitine|Seismitoad, F|100/100
+|switch|p2a: Electrode|Electrode|100/100
+|turn|1
+|j| Nesnot
+|
+|t:|1641856684
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Palpitine|Earthquake|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|73/100
+|
+|upkeep
+|turn|2
+|
+|t:|1641856695
+|switch|p1a: Bambi|Sawsbuck, F|100/100
+|move|p2a: Cacturne|Swords Dance|p2a: Cacturne
+|-boost|p2a: Cacturne|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1641856704
+|move|p2a: Cacturne|Sucker Punch|p1a: Bambi
+|-damage|p1a: Bambi|0 fnt
+|faint|p1a: Bambi
+|-damage|p2a: Cacturne|63/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641856714
+|switch|p1a: Tank Skunk|Skuntank, M|100/100
+|turn|4
+|
+|t:|1641856718
+|move|p2a: Cacturne|Drain Punch|p1a: Tank Skunk
+|-damage|p1a: Tank Skunk|12/100
+|-heal|p2a: Cacturne|100/100|[from] drain|[of] p1a: Tank Skunk
+|-damage|p2a: Cacturne|91/100|[from] item: Life Orb
+|move|p1a: Tank Skunk|Fire Blast|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|
+|-heal|p1a: Tank Skunk|18/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1641856740
+|switch|p2a: Electrode|Electrode|100/100
+|turn|5
+|
+|t:|1641856749
+|switch|p1a: Palpitine|Seismitoad, F|100/100
+|move|p2a: Electrode|Volt Switch|p1a: Palpitine
+|-immune|p1a: Palpitine
+|
+|upkeep
+|turn|6
+|
+|t:|1641856762
+|switch|p2a: Weezing|Weezing, M|100/100
+|move|p1a: Palpitine|Earthquake|p2a: Weezing
+|-immune|p2a: Weezing|[from] ability: Levitate
+|
+|upkeep
+|turn|7
+|
+|t:|1641856770
+|move|p1a: Palpitine|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Just A Girafe|move: Stealth Rock
+|move|p2a: Weezing|Sludge Bomb|p1a: Palpitine
+|-resisted|p1a: Palpitine
+|-damage|p1a: Palpitine|87/100
+|-status|p1a: Palpitine|psn
+|
+|-heal|p1a: Palpitine|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Palpitine|81/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1641856782
+|switch|p1a: *agmar|Magmar, F, shiny|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: *agmar
+|-immune|p1a: *agmar
+|
+|upkeep
+|turn|9
+|
+|t:|1641856793
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: *agmar|Will-O-Wisp|p2a: Skuntank
+|-status|p2a: Skuntank|brn
+|
+|-heal|p2a: Skuntank|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Skuntank|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1641856806
+|move|p1a: *agmar|Flamethrower|p2a: Skuntank
+|-damage|p2a: Skuntank|34/100 brn
+|move|p2a: Skuntank|Poison Jab|p1a: *agmar
+|-damage|p1a: *agmar|79/100
+|-status|p1a: *agmar|psn
+|
+|-heal|p2a: Skuntank|40/100 brn|[from] item: Black Sludge
+|-damage|p1a: *agmar|67/100 psn|[from] psn
+|-damage|p2a: Skuntank|28/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1641856821
+|move|p2a: Skuntank|Sucker Punch|p1a: *agmar
+|-damage|p1a: *agmar|45/100 psn
+|move|p1a: *agmar|Flamethrower|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|-damage|p1a: *agmar|33/100 psn|[from] psn
+|upkeep
+|
+|t:|1641856837
+|switch|p2a: Muk|Muk, M|100/100
+|-damage|p2a: Muk|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641856846
+|move|p2a: Muk|Shadow Sneak|p1a: *agmar
+|-damage|p1a: *agmar|19/100 psn
+|move|p1a: *agmar|Will-O-Wisp|p2a: Muk
+|-status|p2a: Muk|brn
+|
+|-heal|p2a: Muk|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: *agmar|6/100 psn|[from] psn
+|-damage|p2a: Muk|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1641856857
+|switch|p1a: FUS RO DAH|Exploud, F|100/100
+|move|p2a: Muk|Shadow Sneak|p1a: FUS RO DAH
+|-immune|p1a: FUS RO DAH
+|
+|-heal|p2a: Muk|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Muk|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1641856866
+|move|p1a: FUS RO DAH|Hyper Voice|p2a: Muk
+|-damage|p2a: Muk|34/100 brn
+|-damage|p1a: FUS RO DAH|91/100|[from] item: Life Orb
+|move|p2a: Muk|Poison Jab|p1a: FUS RO DAH
+|-crit|p1a: FUS RO DAH
+|-damage|p1a: FUS RO DAH|30/100
+|-status|p1a: FUS RO DAH|psn
+|
+|-heal|p2a: Muk|40/100 brn|[from] item: Black Sludge
+|-damage|p1a: FUS RO DAH|17/100 psn|[from] psn
+|-damage|p2a: Muk|28/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1641856880
+|move|p1a: FUS RO DAH|Hyper Voice|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|-damage|p1a: FUS RO DAH|8/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: FUS RO DAH|0 fnt|[from] psn
+|faint|p1a: FUS RO DAH
+|upkeep
+|
+|t:|1641856900
+|switch|p1a: Palpitine|Seismitoad, F|81/100 psn
+|switch|p2a: Electrode|Electrode|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1641856913
+|move|p2a: Electrode|Hidden Power|p1a: Palpitine
+|-damage|p1a: Palpitine|58/100 psn
+|-damage|p2a: Electrode|78/100|[from] item: Life Orb
+|move|p1a: Palpitine|Scald|p2a: Electrode
+|-damage|p2a: Electrode|42/100
+|
+|-heal|p1a: Palpitine|64/100 psn|[from] item: Leftovers
+|-damage|p1a: Palpitine|52/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1641856926
+|move|p2a: Electrode|Hidden Power|p1a: Palpitine
+|-damage|p1a: Palpitine|28/100 psn
+|-damage|p2a: Electrode|32/100|[from] item: Life Orb
+|move|p1a: Palpitine|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|-heal|p1a: Palpitine|34/100 psn|[from] item: Leftovers
+|-damage|p1a: Palpitine|22/100 psn|[from] psn
+|upkeep
+|
+|t:|1641856941
+|switch|p2a: Weezing|Weezing, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1641856952
+|switch|p1a: Qt Goth Gf|Misdreavus, F|100/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Qt Goth Gf
+|-resisted|p1a: Qt Goth Gf
+|-damage|p1a: Qt Goth Gf|90/100
+|
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1641856965
+|switch|p2a: Klang|Klang|100/100
+|-damage|p2a: Klang|94/100|[from] Stealth Rock
+|move|p1a: Qt Goth Gf|Taunt|p2a: Klang
+|-start|p2a: Klang|move: Taunt
+|
+|upkeep
+|turn|20
+|
+|t:|1641856973
+|move|p1a: Qt Goth Gf|Will-O-Wisp|p2a: Klang
+|-status|p2a: Klang|brn
+|move|p2a: Klang|Gear Grind|p1a: Qt Goth Gf|[miss]
+|-miss|p2a: Klang|p1a: Qt Goth Gf
+|
+|-damage|p2a: Klang|82/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1641856982
+|switch|p1a: Palpitine|Seismitoad, F|22/100 psn
+|move|p2a: Klang|Gear Grind|p1a: Palpitine
+|-resisted|p1a: Palpitine
+|-damage|p1a: Palpitine|18/100 psn
+|-resisted|p1a: Palpitine
+|-damage|p1a: Palpitine|15/100 psn
+|-hitcount|p1a: Palpitine|2
+|
+|-heal|p1a: Palpitine|21/100 psn|[from] item: Leftovers
+|-damage|p1a: Palpitine|8/100 psn|[from] psn
+|-damage|p2a: Klang|70/100 brn|[from] brn
+|-end|p2a: Klang|move: Taunt
+|upkeep
+|turn|22
+|
+|t:|1641856996
+|move|p2a: Klang|Substitute|p2a: Klang
+|-start|p2a: Klang|Substitute
+|-damage|p2a: Klang|45/100 brn
+|move|p1a: Palpitine|Earthquake|p2a: Klang
+|-supereffective|p2a: Klang
+|-end|p2a: Klang|Substitute
+|
+|-heal|p1a: Palpitine|15/100 psn|[from] item: Leftovers
+|-damage|p1a: Palpitine|2/100 psn|[from] psn
+|-damage|p2a: Klang|33/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1641857007
+|move|p2a: Klang|Gear Grind|p1a: Palpitine|[miss]
+|-miss|p2a: Klang|p1a: Palpitine
+|move|p1a: Palpitine|Earthquake|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|0 fnt
+|faint|p2a: Klang
+|
+|-heal|p1a: Palpitine|8/100 psn|[from] item: Leftovers
+|-damage|p1a: Palpitine|0 fnt|[from] psn
+|faint|p1a: Palpitine
+|upkeep
+|
+|t:|1641857017
+|switch|p2a: Weezing|Weezing, M|94/100
+|switch|p1a: *agmar|Magmar, F, shiny|6/100 psn
+|-damage|p2a: Weezing|82/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1641857028
+|move|p1a: *agmar|Flamethrower|p2a: Weezing
+|-damage|p2a: Weezing|17/100
+|move|p2a: Weezing|Thunderbolt|p1a: *agmar
+|-damage|p1a: *agmar|0 fnt
+|faint|p1a: *agmar
+|
+|-heal|p2a: Weezing|23/100|[from] item: Black Sludge
+|upkeep
+|c|☆tank skunk|i like your team
+|c|☆tank skunk|reminds me of team rocket or something
+|c|☆Just A Girafe|thanks man!
+|
+|t:|1641857043
+|switch|p1a: Tank Skunk|Skuntank, M|18/100
+|turn|25
+|c|☆Just A Girafe|i love weezing
+|
+|t:|1641857051
+|move|p1a: Tank Skunk|Fire Blast|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|win|tank skunk
+|raw|tank skunk's rating: 1067 &rarr; <strong>1099</strong><br />(+32 for winning)
+|raw|Just A Girafe's rating: 1090 &rarr; <strong>1065</strong><br />(-25 for losing)

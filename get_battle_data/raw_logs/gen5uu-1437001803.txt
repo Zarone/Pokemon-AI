@@ -1,0 +1,305 @@
+|j|☆e. malatesta
+|j|☆AshesRemainFallen
+|t:|1634474817
+|gametype|singles
+|player|p1|e. malatesta|ninjaboy|
+|player|p2|AshesRemainFallen|flannery|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Suicune|item
+|poke|p1|Umbreon, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Hitmontop, M|item
+|poke|p1|Zapdos|item
+|poke|p2|Mew|item
+|poke|p2|Darmanitan, F|item
+|poke|p2|Lanturn, F|item
+|poke|p2|Xatu, M|item
+|poke|p2|Mienshao, F|item
+|poke|p2|Gligar, F|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AshesRemainFallen)
+|j| The Winking Dol
+|
+|t:|1634474833
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Gligar|Gligar, F|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|1
+|
+|t:|1634474840
+|move|p1a: Suicune|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|52/100
+|move|p2a: Gligar|Stealth Rock|p1a: Suicune
+|-sidestart|p1: e. malatesta|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1634474846
+|move|p1a: Suicune|Scald|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|1/100
+|move|p2a: Gligar|U-turn|p1a: Suicune
+|-damage|p1a: Suicune|93/100
+|
+|t:|1634474851
+|switch|p2a: Mew|Mew|100/100|[from]move: U-turn
+|
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| Ledian Fan
+|
+|t:|1634474870
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Mew|Trick|p1a: Umbreon
+|-activate|p2a: Mew|move: Trick|[of] p1a: Umbreon
+|-item|p1a: Umbreon|Choice Scarf|[from] move: Trick
+|-item|p2a: Mew|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|t:|1634474878
+|move|p2a: Mew|U-turn|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|65/100
+|
+|t:|1634474881
+|switch|p2a: Mienshao|Mienshao, F|100/100|[from]move: U-turn
+|move|p1a: Umbreon|Foul Play|p2a: Mienshao
+|-resisted|p2a: Mienshao
+|-damage|p2a: Mienshao|54/100
+|
+|upkeep
+|turn|5
+|
+|t:|1634474888
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p1a: Nidoqueen|94/100|[from] Stealth Rock
+|move|p2a: Mienshao|High Jump Kick|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|64/100
+|-damage|p2a: Mienshao|44/100|[from] item: Life Orb
+|
+|-heal|p1a: Nidoqueen|70/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1634474899
+|move|p2a: Mienshao|U-turn|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|58/100
+|-damage|p2a: Mienshao|34/100|[from] item: Life Orb
+|
+|t:|1634474902
+|switch|p2a: Xatu|Xatu, M|100/100|[from]move: U-turn
+|move|p1a: Nidoqueen|Ice Beam|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|43/100
+|
+|-heal|p1a: Nidoqueen|64/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|j| Vextal
+|
+|t:|1634474908
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|93/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1634474916
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Xatu|atk|1
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|
+|-heal|p1a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1634474922
+|move|p1a: Hitmontop|Rapid Spin|p2a: Lanturn
+|-damage|p2a: Lanturn|95/100
+|-sideend|p1: e. malatesta|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|move|p2a: Lanturn|Volt Switch|p1a: Hitmontop
+|-crit|p1a: Hitmontop
+|-damage|p1a: Hitmontop|63/100
+|j| SJ_SJJ
+|
+|t:|1634474929
+|switch|p2a: Mew|Mew|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Hitmontop|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1634474934
+|switch|p1a: Suicune|Suicune|99/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Mew|U-turn|p1a: Suicune
+|-damage|p1a: Suicune|90/100
+|
+|t:|1634474938
+|switch|p2a: Mienshao|Mienshao, F|67/100|[from]move: U-turn
+|
+|-heal|p1a: Suicune|96/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1634474942
+|move|p2a: Mienshao|High Jump Kick|p1a: Suicune
+|-damage|p1a: Suicune|49/100
+|-damage|p2a: Mienshao|57/100|[from] item: Life Orb
+|move|p1a: Suicune|Scald|p2a: Mienshao
+|-damage|p2a: Mienshao|5/100
+|-status|p2a: Mienshao|brn
+|
+|-heal|p1a: Suicune|55/100|[from] item: Leftovers
+|-damage|p2a: Mienshao|0 fnt|[from] brn
+|faint|p2a: Mienshao
+|upkeep
+|
+|t:|1634474950
+|switch|p2a: Mew|Mew|100/100
+|turn|12
+|
+|t:|1634474956
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Mew|Giga Drain|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|93/100
+|
+|-heal|p1a: Bronzong|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1634474963
+|switch|p2a: Xatu|Xatu, M|93/100
+|move|p1a: Bronzong|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic|p1a: Bronzong|[from]ability: Magic Bounce
+|-immune|p1a: Bronzong
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1634474967
+|switch|p2a: Gligar|Gligar, F|1/100
+|move|p1a: Bronzong|Protect||[still]
+|-fail|p1a: Bronzong
+|
+|upkeep
+|turn|15
+|l| SJ_SJJ
+|
+|t:|1634474971
+|switch|p1a: Suicune|Suicune|55/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|51/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|-heal|p1a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|l| The Winking Dol
+|
+|t:|1634474976
+|switch|p2a: Lanturn|Lanturn, F|95/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|67/100|[from] item: Leftovers
+|-heal|p2a: Lanturn|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1634474981
+|move|p1a: Suicune|Scald|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|89/100
+|move|p2a: Lanturn|Volt Switch|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|48/100
+|j| stinki33
+|
+|t:|1634474988
+|switch|p2a: Darmanitan|Darmanitan, F|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Suicune|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1634474991
+|move|p2a: Darmanitan|Superpower|p1a: Suicune
+|-damage|p1a: Suicune|27/100
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|move|p1a: Suicune|Scald|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|-heal|p1a: Suicune|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634474994
+|switch|p2a: Mew|Mew|100/100
+|turn|19
+|
+|t:|1634474997
+|move|p2a: Mew|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|13/100
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|
+|upkeep
+|turn|20
+|c|☆AshesRemainFallen|ye this is unwinnable
+|c|☆AshesRemainFallen|gg
+|c|☆e. malatesta|gg
+|-message|AshesRemainFallen forfeited.
+|
+|win|e. malatesta
+|n|☆e. malatesta|emalatesta
+|n|☆AshesRemainFallen|ashesremainfallen
+|n| BB-8-NU|bb8nu
+|n| Ledian Fan|ledianfan
+|n| Vextal|vextal
+|n| stinki33|stinki33
+|l| BB-8-NU
+|l|☆e. malatesta
+|l|☆AshesRemainFallen
+|l| Ledian Fan

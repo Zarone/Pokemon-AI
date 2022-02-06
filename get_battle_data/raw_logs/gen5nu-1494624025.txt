@@ -1,0 +1,186 @@
+|j|☆Wubben
+|j|☆Sificon~
+|t:|1642624562
+|gametype|singles
+|player|p1|Wubben|skier|
+|player|p2|Sificon~|tuberf-gen3rs|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Drifblim, M|item
+|poke|p1|Torkoal, M|item
+|poke|p1|Audino, F|item
+|poke|p1|Samurott, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Golurk|item
+|poke|p2|Samurott, M|item
+|poke|p2|Kangaskhan, F|item
+|teampreview
+|c|☆Wubben|ghlf
+|
+|t:|1642624613
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1642624677
+|move|p1a: Kangaskhan|Fake Out|p2a: Golurk
+|-damage|p2a: Golurk|73/100
+|-damage|p1a: Kangaskhan|91/100|[from] item: Life Orb
+|cant|p2a: Golurk|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1642624684
+|move|p1a: Kangaskhan|Return|p2a: Golurk
+|-damage|p2a: Golurk|11/100
+|-damage|p1a: Kangaskhan|81/100|[from] item: Life Orb
+|move|p2a: Golurk|Stealth Rock|p1a: Kangaskhan
+|-sidestart|p1: Wubben|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1642624727
+|move|p1a: Kangaskhan|Return|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|-damage|p1a: Kangaskhan|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642624730
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|4
+|
+|t:|1642624810
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|76/100|[from] Stealth Rock
+|move|p2a: Primeape|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|57/100
+|
+|t:|1642624823
+|switch|p2a: Eelektross|Eelektross, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mandibuzz|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1642624832
+|move|p1a: Mandibuzz|Toxic|p2a: Eelektross
+|-status|p2a: Eelektross|tox
+|move|p2a: Eelektross|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Eelektross|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1642624836
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1642624861
+|move|p2a: Eelektross|Thunderbolt|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-damage|p2a: Eelektross|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1642624867
+|switch|p1a: Kangaskhan|Kangaskhan, F|71/100
+|-damage|p1a: Kangaskhan|58/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1642624939
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|move|p1a: Kangaskhan|Return|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|30/100
+|-damage|p1a: Kangaskhan|48/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1642624953
+|move|p2a: Kangaskhan|Fake Out|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|25/100
+|cant|p1a: Kangaskhan|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1642624958
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|
+|t:|1642624962
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|-damage|p1a: Drifblim|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1642624995
+|move|p2a: Kangaskhan|Double-Edge|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|-damage|p2a: Kangaskhan|0 fnt|[from] Recoil
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|t:|1642625028
+|switch|p2a: Primeape|Primeape, M|100/100
+|switch|p1a: Samurott|Samurott, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1642625043
+|move|p2a: Primeape|Close Combat|p1a: Samurott
+|-damage|p1a: Samurott|1/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Samurott|Razor Shell|p2a: Primeape|[miss]
+|-miss|p1a: Samurott|p2a: Primeape
+|
+|upkeep
+|turn|12
+|
+|t:|1642625052
+|move|p1a: Samurott|Aqua Jet|p2a: Primeape
+|-damage|p2a: Primeape|10/100
+|move|p2a: Primeape|Close Combat|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|faint|p1a: Samurott
+|
+|upkeep
+|c|☆Wubben|gg
+|-message|Wubben forfeited.
+|
+|win|Sificon~
+|c|☆Sificon~|gg
+|l|☆Sificon~

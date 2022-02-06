@@ -1,0 +1,375 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643582791
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|Vileman|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, M|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Ferroseed, L5, F|item
+|poke|p1|Diglett, L5, F|item
+|poke|p2|Dwebble, L5, M|item
+|poke|p2|Drifloon, L5, M|item
+|poke|p2|Carvanha, L5, F|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Riolu, L5, M|item
+|teampreview
+|c|☆Vileman|HF
+|
+|t:|1643582813
+|start
+|switch|p1a: Diglett|Diglett, L5, F|100/100
+|switch|p2a: Dwebble|Dwebble, L5, M|100/100
+|turn|1
+|
+|t:|1643582822
+|move|p1a: Diglett|Beat Up|p2a: Dwebble
+|-damage|p2a: Dwebble|96/100
+|-damage|p2a: Dwebble|91/100
+|-damage|p2a: Dwebble|86/100
+|-damage|p2a: Dwebble|67/100
+|-damage|p2a: Dwebble|62/100
+|-damage|p2a: Dwebble|58/100
+|-hitcount|p2a: Dwebble|6
+|-damage|p1a: Diglett|95/100|[from] item: Life Orb
+|move|p2a: Dwebble|Stealth Rock|p1a: Diglett
+|-sidestart|p1: Bughouse|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆Vileman|rofl
+|c|☆Bughouse|it's not weak armor lol
+|c|☆Bughouse|shame
+|c|+airfare|!dt weak armor
+|raw|<ul class="utilichart"><li class="result"><span class="col namecol"><a href="https://dex.pokemonshowdown.com/abilities/weakarmor">Weak Armor</a></span> <span class="col abilitydesccol">If a physical attack hits this Pokemon, Defense is lowered by 1, Speed is raised by 1.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Gen:</font> 5</font>
+
+|c|☆Vileman|bruh
+|c|+airfare|o its not
+|c|+airfare|non contact
+|c|☆Vileman|this aint +2 speed weak armor
+|inactive|Bughouse has 270 seconds left.
+|c|☆Vileman|also its not contact
+|c|☆Bughouse|is it really not?
+|c|☆Bughouse|that's sad
+|c|☆Vileman|ye
+|c|☆Bughouse|i've never tried this before lol
+|c|☆Bughouse|thought it would be neat
+|
+|t:|1643582877
+|move|p1a: Diglett|Earthquake|p2a: Dwebble
+|-damage|p2a: Dwebble|0 fnt
+|faint|p2a: Dwebble
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Bughouse|i figured this would be ok too anyhow
+|
+|t:|1643582892
+|switch|p2a: Carvanha|Carvanha, L5, F|100/100
+|turn|3
+|
+|t:|1643582907
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-damage|p1a: Porygon|89/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Speed Boost|[from] ability: Trace|[of] p2a: Carvanha
+|move|p2a: Carvanha|Aqua Jet|p1a: Porygon
+|-damage|p1a: Porygon|70/100
+|-damage|p2a: Carvanha|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|4
+|
+|t:|1643582920
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|
+|-ability|p1a: Porygon|Speed Boost|boost
+|-boost|p1a: Porygon|spe|1
+|upkeep
+|turn|5
+|c|☆Bughouse|turbo porygon
+|
+|t:|1643582936
+|switch|p1a: Ferroseed|Ferroseed, L5, F|100/100
+|-damage|p1a: Ferroseed|96/100|[from] Stealth Rock
+|move|p2a: Bronzor|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|
+|upkeep
+|turn|6
+|c|☆Vileman|get owned lolz
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1643582957
+|move|p2a: Bronzor|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|23/100
+|move|p1a: Ferroseed|Thunder Wave|p2a: Bronzor
+|-status|p2a: Bronzor|par
+|
+|upkeep
+|turn|7
+|
+|t:|1643582961
+|move|p1a: Ferroseed|Stealth Rock|p2a: Bronzor
+|-sidestart|p2: Vileman|move: Stealth Rock
+|move|p2a: Bronzor|Hidden Power|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|upkeep
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1643582980
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1643582988
+|switch|p2a: Staryu|Staryu, L5|100/100
+|-damage|p2a: Staryu|91/100|[from] Stealth Rock
+|move|p1a: Mienfoo|High Jump Kick|p2a: Staryu
+|-crit|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|upkeep
+|c|☆Vileman|-
+|c|☆Vileman|wtf?
+|
+|t:|1643582992
+|switch|p2a: Drifloon|Drifloon, L5, M|100/100
+|-damage|p2a: Drifloon|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1643582996
+|move|p1a: Mienfoo|Acrobatics|p2a: Drifloon
+|-enditem|p1a: Mienfoo|Flying Gem|[from] gem
+|-crit|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|upkeep
+|c|☆Vileman|rude?
+|
+|t:|1643583003
+|switch|p2a: Bronzor|Bronzor, L5|100/100 par
+|-damage|p2a: Bronzor|96/100 par|[from] Stealth Rock
+|turn|10
+|
+|t:|1643583008
+|move|p1a: Mienfoo|U-turn|p2a: Bronzor
+|-crit|p2a: Bronzor
+|-damage|p2a: Bronzor|60/100 par
+|c|☆Vileman|3 crits
+|
+|t:|1643583013
+|switch|p1a: Porygon|Porygon, L5|100/100|[from]move: U-turn
+|-damage|p1a: Porygon|89/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Bronzor
+|move|p2a: Bronzor|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|74/100
+|
+|upkeep
+|turn|11
+|c|☆Vileman|in a row
+|c|☆Vileman|wtf?
+|c|☆Bughouse|get owned
+|
+|t:|1643583020
+|move|p1a: Porygon|Hidden Power|p2a: Bronzor
+|-supereffective|p2a: Bronzor
+|-damage|p2a: Bronzor|29/100 par
+|cant|p2a: Bronzor|par
+|
+|upkeep
+|turn|12
+|c|☆Vileman|nyoo
+|
+|t:|1643583024
+|move|p1a: Porygon|Hidden Power|p2a: Bronzor
+|-supereffective|p2a: Bronzor
+|-damage|p2a: Bronzor|0 fnt
+|faint|p2a: Bronzor
+|
+|upkeep
+|
+|t:|1643583026
+|switch|p2a: Riolu|Riolu, L5, M|100/100
+|-damage|p2a: Riolu|96/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643583031
+|move|p1a: Porygon|Ice Beam|p2a: Riolu
+|-damage|p2a: Riolu|66/100
+|move|p2a: Riolu|Roar|p1a: Porygon
+|drag|p1a: Gastly|Gastly, L5, M|100/100
+|-damage|p1a: Gastly|91/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|c|☆Vileman|here we goooo
+|
+|t:|1643583037
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Roar|p1a: Gastly|[from]move: Copycat
+|drag|p1a: Abra|Abra, L5, M|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1643583041
+|move|p1a: Abra|Protect|p1a: Abra
+|-singleturn|p1a: Abra|Protect
+|move|p2a: Riolu|Copycat||[still]
+|-fail|p2a: Riolu
+|
+|upkeep
+|turn|16
+|c|☆Vileman|boo
+|
+|t:|1643583045
+|move|p2a: Riolu|Protect|p2a: Riolu
+|-singleturn|p2a: Riolu|Protect
+|move|p1a: Abra|Psychic|p2a: Riolu
+|-activate|p2a: Riolu|move: Protect
+|
+|upkeep
+|turn|17
+|
+|t:|1643583050
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Psychic|p1a: Abra|[from]move: Copycat
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|85/100
+|move|p1a: Abra|Psychic|p2a: Riolu
+|-supereffective|p2a: Riolu
+|-damage|p2a: Riolu|0 fnt
+|faint|p2a: Riolu
+|
+|upkeep
+|
+|t:|1643583054
+|switch|p2a: Carvanha|Carvanha, L5, F|91/100
+|-damage|p2a: Carvanha|81/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1643583057
+|move|p2a: Carvanha|Aqua Jet|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|-damage|p2a: Carvanha|72/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|
+|t:|1643583064
+|switch|p1a: Porygon|Porygon, L5|74/100
+|-damage|p1a: Porygon|62/100|[from] Stealth Rock
+|-ability|p1a: Porygon|Speed Boost|[from] ability: Trace|[of] p2a: Carvanha
+|turn|19
+|
+|t:|1643583069
+|move|p2a: Carvanha|Waterfall|p1a: Porygon
+|-damage|p1a: Porygon|16/100
+|-damage|p2a: Carvanha|62/100|[from] item: Life Orb
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|66/100
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|-ability|p1a: Porygon|Speed Boost|boost
+|-boost|p1a: Porygon|spe|1
+|upkeep
+|turn|20
+|
+|t:|1643583075
+|move|p2a: Carvanha|Waterfall|p1a: Porygon
+|-damage|p1a: Porygon|20/100
+|-damage|p2a: Carvanha|53/100|[from] item: Life Orb
+|move|p1a: Porygon|Ice Beam|p2a: Carvanha
+|-resisted|p2a: Carvanha
+|-damage|p2a: Carvanha|24/100
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|-ability|p1a: Porygon|Speed Boost|boost
+|-boost|p1a: Porygon|spe|1
+|upkeep
+|turn|21
+|
+|t:|1643583086
+|move|p2a: Carvanha|Waterfall|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|-damage|p2a: Carvanha|15/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|
+|t:|1643583088
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1643583091
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Carvanha
+|-activate|p2a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|23
+|
+|t:|1643583095
+|switch|p1a: Gastly|Gastly, L5, M|91/100
+|-damage|p1a: Gastly|81/100|[from] Stealth Rock
+|move|p2a: Carvanha|Waterfall|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|-damage|p2a: Carvanha|5/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|c|☆Bughouse|nice 21 hp carvanha btw
+|c|☆Vileman|ty
+|
+|t:|1643583109
+|switch|p1a: Diglett|Diglett, L5, F|89/100
+|-damage|p1a: Diglett|84/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1643583112
+|move|p2a: Carvanha|Aqua Jet|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|-damage|p2a: Carvanha|0 fnt|[from] item: Life Orb
+|faint|p2a: Carvanha
+|
+|win|Bughouse

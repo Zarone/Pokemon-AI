@@ -1,0 +1,213 @@
+|j|☆HotVertigo
+|j|☆Kodiak_45
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643855094
+|gametype|singles
+|player|p1|HotVertigo|hugh|
+|player|p2|Kodiak_45|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abra, L5, M|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Riolu, L5, M|item
+|poke|p1|Torchic, L5, F|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Larvesta, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Aipom, L5, M|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Abra, L5, F|item
+|teampreview
+|c|☆Kodiak_45|gl hf
+|
+|t:|1643855116
+|start
+|switch|p1a: Torchic|Torchic, L5, F|100/100
+|switch|p2a: Aipom|Aipom, L5, M|100/100
+|turn|1
+|
+|t:|1643855126
+|move|p2a: Aipom|Fake Out|p1a: Torchic
+|-damage|p1a: Torchic|53/100
+|-damage|p2a: Aipom|92/100|[from] item: Life Orb
+|cant|p1a: Torchic|flinch
+|
+|upkeep
+|turn|2
+|inactive|Kodiak_45 has 120 seconds left.
+|
+|t:|1643855177
+|move|p2a: Aipom|Shadow Claw|p1a: Torchic
+|-damage|p1a: Torchic|0 fnt
+|faint|p1a: Torchic
+|-damage|p2a: Aipom|83/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643855185
+|switch|p1a: Riolu|Riolu, L5, M|100/100
+|turn|3
+|
+|t:|1643855189
+|move|p1a: Riolu|Substitute|p1a: Riolu
+|-start|p1a: Riolu|Substitute
+|-damage|p1a: Riolu|79/100
+|move|p2a: Aipom|Fury Swipes|p1a: Riolu
+|-activate|p1a: Riolu|Substitute|[damage]
+|-end|p1a: Riolu|Substitute
+|-damage|p1a: Riolu|61/100
+|-damage|p1a: Riolu|44/100
+|-damage|p1a: Riolu|27/100
+|-hitcount|p1a: Riolu|5
+|-damage|p2a: Aipom|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1643855201
+|move|p2a: Aipom|Shadow Claw|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|faint|p1a: Riolu
+|-damage|p2a: Aipom|66/100|[from] item: Life Orb
+|
+|upkeep
+|j| FruitDogs
+|
+|t:|1643855210
+|switch|p1a: Nerd|Abra, L5, M, shiny|100/100
+|turn|5
+|inactive|Kodiak_45 has 120 seconds left.
+|
+|t:|1643855253
+|move|p2a: Aipom|Fury Swipes|p1a: Nerd
+|-damage|p1a: Nerd|74/100
+|-damage|p1a: Nerd|48/100
+|-damage|p1a: Nerd|22/100
+|-damage|p1a: Nerd|0 fnt
+|faint|p1a: Nerd
+|-hitcount|p1: Nerd|4
+|-damage|p2a: Aipom|57/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643855268
+|switch|p1a: YourMom|Gastly, L5, M, shiny|100/100
+|turn|6
+|
+|t:|1643855274
+|move|p2a: Aipom|Shadow Claw|p1a: YourMom
+|-supereffective|p1a: YourMom
+|-damage|p1a: YourMom|0 fnt
+|faint|p1a: YourMom
+|-damage|p2a: Aipom|48/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643855280
+|switch|p1a: DumbDesign|Magnemite, L5, shiny|100/100
+|turn|7
+|inactive|Kodiak_45 has 120 seconds left.
+|c|☆HotVertigo|pls bring me back to OU
+|
+|t:|1643855299
+|move|p1a: DumbDesign|Thunderbolt|p2a: Aipom
+|-damage|p2a: Aipom|0 fnt
+|faint|p2a: Aipom
+|
+|upkeep
+|
+|t:|1643855303
+|switch|p2a: Larvesta|Larvesta, L5, M|100/100
+|turn|8
+|
+|t:|1643855307
+|move|p1a: DumbDesign|Thunderbolt|p2a: Larvesta
+|-damage|p2a: Larvesta|44/100
+|-status|p2a: Larvesta|par
+|move|p2a: Larvesta|Flare Blitz|p1a: DumbDesign
+|-supereffective|p1a: DumbDesign
+|-ability|p1a: DumbDesign|Sturdy
+|-damage|p1a: DumbDesign|6/100
+|-damage|p2a: Larvesta|18/100 par|[from] Recoil
+|
+|upkeep
+|turn|9
+|
+|t:|1643855318
+|move|p1a: DumbDesign|Thunderbolt|p2a: Larvesta
+|-damage|p2a: Larvesta|0 fnt
+|faint|p2a: Larvesta
+|
+|upkeep
+|inactive|Kodiak_45 has 120 seconds left.
+|
+|t:|1643855333
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|10
+|
+|t:|1643855338
+|switch|p1a: UglyMole|Drilbur, L5, M, shiny|100/100
+|-ability|p1a: UglyMole|Mold Breaker
+|move|p2a: Mienfoo|Fake Out|p1a: UglyMole
+|-damage|p1a: UglyMole|83/100
+|
+|upkeep
+|turn|11
+|
+|t:|1643855347
+|move|p2a: Mienfoo|High Jump Kick|p1a: UglyMole
+|-damage|p1a: UglyMole|5/100
+|move|p1a: UglyMole|Swords Dance|p1a: UglyMole
+|-boost|p1a: UglyMole|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1643855353
+|move|p1a: UglyMole|Earthquake|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1643855357
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|13
+|
+|t:|1643855371
+|move|p2a: Snover|Ice Shard|p1a: UglyMole
+|-supereffective|p1a: UglyMole
+|-damage|p1a: UglyMole|0 fnt
+|faint|p1a: UglyMole
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1643855376
+|switch|p1a: DumbDesign|Magnemite, L5, shiny|6/100
+|turn|14
+|
+|t:|1643855381
+|move|p2a: Snover|Ice Shard|p1a: DumbDesign
+|-resisted|p1a: DumbDesign
+|-damage|p1a: DumbDesign|0 fnt
+|faint|p1a: DumbDesign
+|
+|win|Kodiak_45
+|n|☆HotVertigo|hotvertigo
+|n|☆Kodiak_45|kodiak45
+|n| FruitDogs|fruitdogs

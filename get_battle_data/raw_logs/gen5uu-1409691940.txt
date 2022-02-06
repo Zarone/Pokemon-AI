@@ -1,0 +1,371 @@
+|j|☆VyoletRayn
+|j|☆Parkerr
+|t:|1630704950
+|gametype|singles
+|player|p1|VyoletRayn|alder|
+|player|p2|Parkerr|sailor|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mew|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Lanturn, M|item
+|poke|p1|Xatu, F|item
+|poke|p1|Mienshao, M|item
+|poke|p1|Gligar, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Bronzong|item
+|poke|p2|Krookodile, F|item
+|poke|p2|Xatu, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VyoletRayn)
+|j| GUAPGUAPGUAP
+|inactive|VyoletRayn has 120 seconds left.
+|
+|t:|1630704988
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|turn|1
+|
+|t:|1630704995
+|move|p1a: Mew|U-turn|p2a: Houndoom
+|-damage|p2a: Houndoom|70/100
+|
+|t:|1630705006
+|switch|p1a: Lanturn|Lanturn, M|100/100|[from]move: U-turn
+|move|p2a: Houndoom|Dark Pulse|p1a: Lanturn
+|-damage|p1a: Lanturn|64/100
+|
+|-heal|p1a: Lanturn|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1630705016
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Lanturn|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|82/100
+|
+|-heal|p1a: Lanturn|76/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1630705030
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|move|p1a: Lanturn|Volt Switch|p2a: Krookodile
+|-immune|p2a: Krookodile
+|
+|-heal|p1a: Lanturn|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1630705037
+|-activate|p1a: Lanturn|move: Pursuit
+|move|p2a: Krookodile|Pursuit|p1a: Lanturn|[from]Pursuit
+|-crit|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1630705054
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|5
+|
+|t:|1630705057
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Mienshao|atk|1
+|move|p1a: Mienshao|U-turn|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|92/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|t:|1630705071
+|switch|p1a: Mew|Mew|100/100|[from]move: U-turn
+|
+|-heal|p2a: Qwilfish|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1630705077
+|switch|p2a: Bronzong|Bronzong|88/100
+|move|p1a: Mew|U-turn|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|62/100
+|
+|t:|1630705089
+|switch|p1a: Gligar|Gligar, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Bronzong|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1630705095
+|move|p1a: Gligar|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Parkerr|move: Stealth Rock
+|move|p2a: Bronzong|Stealth Rock|p1a: Gligar
+|-sidestart|p1: VyoletRayn|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1630705105
+|move|p1a: Gligar|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|63/100
+|
+|t:|1630705111
+|switch|p1a: Mew|Mew|100/100|[from]move: U-turn
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|move|p2a: Bronzong|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|38/100
+|
+|-heal|p2a: Bronzong|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1630705120
+|move|p1a: Mew|Trick|p2a: Bronzong
+|-activate|p1a: Mew|move: Trick|[of] p2a: Bronzong
+|-item|p2a: Bronzong|Choice Scarf|[from] move: Trick
+|-item|p1a: Mew|Leftovers|[from] move: Trick
+|move|p2a: Bronzong|Gyro Ball|p1a: Mew
+|-damage|p1a: Mew|8/100
+|
+|-heal|p1a: Mew|14/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1630705128
+|move|p1a: Mew|U-turn|p2a: Bronzong
+|-damage|p2a: Bronzong|57/100
+|
+|t:|1630705148
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: U-turn
+|-damage|p1a: Mienshao|94/100|[from] Stealth Rock
+|move|p2a: Bronzong|Gyro Ball|p1a: Mienshao
+|-damage|p1a: Mienshao|35/100
+|
+|upkeep
+|turn|11
+|
+|t:|1630705155
+|move|p1a: Mienshao|High Jump Kick|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|-damage|p1a: Mienshao|25/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1630705161
+|switch|p2a: Qwilfish|Qwilfish, F|98/100
+|-damage|p2a: Qwilfish|86/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Mienshao|atk|1
+|turn|12
+|
+|t:|1630705174
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|move|p2a: Qwilfish|Waterfall|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|63/100
+|
+|-heal|p2a: Qwilfish|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1630705183
+|move|p2a: Qwilfish|Spikes|p1a: Gligar
+|-sidestart|p1: VyoletRayn|Spikes
+|move|p1a: Gligar|Roost|p1a: Gligar
+|-heal|p1a: Gligar|100/100
+|-singleturn|p1a: Gligar|move: Roost
+|
+|-heal|p2a: Qwilfish|98/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1630705200
+|switch|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Immunity|[from] ability: Trace|[of] p1a: Gligar
+|move|p1a: Gligar|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|71/100
+|
+|upkeep
+|turn|15
+|
+|t:|1630705215
+|move|p1a: Gligar|U-turn|p2a: Porygon2
+|-damage|p2a: Porygon2|63/100
+|
+|t:|1630705217
+|switch|p1a: Mienshao|Mienshao, M|59/100|[from]move: U-turn
+|-damage|p1a: Mienshao|46/100|[from] Spikes
+|-damage|p1a: Mienshao|40/100|[from] Stealth Rock
+|move|p2a: Porygon2|Ice Beam|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1630705222
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|-damage|p1a: Darmanitan|88/100|[from] Spikes
+|-damage|p1a: Darmanitan|63/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1630705232
+|switch|p2a: Qwilfish|Qwilfish, F|98/100
+|-damage|p2a: Qwilfish|85/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Darmanitan|atk|1
+|move|p1a: Darmanitan|Rock Slide|p2a: Qwilfish
+|-damage|p2a: Qwilfish|64/100
+|
+|-heal|p2a: Qwilfish|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1630705242
+|switch|p1a: Mew|Mew|14/100
+|-damage|p1a: Mew|1/100|[from] Spikes
+|-damage|p1a: Mew|0 fnt|[from] Stealth Rock
+|faint|p1a: Mew
+|move|p2a: Qwilfish|Waterfall|p1: Mew|[notarget]
+|-fail|p2a: Qwilfish
+|
+|-heal|p2a: Qwilfish|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1630705249
+|switch|p1a: Gligar|Gligar, M|100/100
+|-damage|p1a: Gligar|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1630705259
+|switch|p2a: Porygon2|Porygon2|63/100
+|-damage|p2a: Porygon2|50/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Immunity|[from] ability: Trace|[of] p1a: Gligar
+|switch|p1a: Xatu|Xatu, F|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1630705270
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1630705280
+|move|p1a: Xatu|U-turn|p2a: Porygon2
+|-damage|p2a: Porygon2|92/100
+|
+|t:|1630705286
+|switch|p1a: Gligar|Gligar, M|88/100|[from]move: U-turn
+|-damage|p1a: Gligar|76/100|[from] Stealth Rock
+|move|p2a: Porygon2|Tri Attack|p1a: Gligar
+|-damage|p1a: Gligar|39/100
+|
+|upkeep
+|turn|21
+|
+|t:|1630705294
+|move|p1a: Gligar|U-turn|p2a: Porygon2
+|-damage|p2a: Porygon2|84/100
+|
+|t:|1630705301
+|switch|p1a: Xatu|Xatu, F|100/100|[from]move: U-turn
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|move|p2a: Porygon2|Tri Attack|p1a: Xatu
+|-damage|p1a: Xatu|21/100
+|
+|upkeep
+|turn|22
+|
+|t:|1630705308
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|71/100
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Porygon2|Tri Attack|p1a: Xatu
+|-damage|p1a: Xatu|15/100
+|
+|upkeep
+|turn|23
+|
+|t:|1630705331
+|switch|p2a: Houndoom|Houndoom, M|70/100
+|-damage|p2a: Houndoom|45/100|[from] Stealth Rock
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|65/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|upkeep
+|turn|24
+|
+|t:|1630705343
+|move|p2a: Houndoom|Dark Pulse|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|t:|1630705346
+|switch|p1a: Gligar|Gligar, M|39/100
+|-damage|p1a: Gligar|27/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1630705350
+|move|p2a: Houndoom|Dark Pulse|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|upkeep
+|
+|t:|1630705364
+|switch|p1a: Darmanitan|Darmanitan, M|63/100
+|-damage|p1a: Darmanitan|38/100|[from] Stealth Rock
+|-damage|p1a: Darmanitan|25/100|[from] Spikes
+|turn|26
+|
+|t:|1630705369
+|move|p1a: Darmanitan|Flare Blitz|p2a: Houndoom
+|-start|p2a: Houndoom|ability: Flash Fire
+|move|p2a: Houndoom|Dark Pulse|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|win|Parkerr
+|n|☆VyoletRayn|vyoletrayn
+|n|☆Parkerr|parkerr
+|n| GUAPGUAPGUAP|guapguapguap
+|l|☆VyoletRayn
+|l|☆Parkerr

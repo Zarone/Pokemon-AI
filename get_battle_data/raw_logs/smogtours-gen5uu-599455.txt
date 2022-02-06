@@ -1,0 +1,383 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1640662183
+|gametype|singles
+|player|p1|Lily|unknownf|
+|player|p2|ford focus 2021|picnicker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Victini|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Xatu, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Weavile, F|item
+|poke|p2|Ferroseed, F|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Nidoqueen, F|item
+|teampreview
+|inactive|ford focus 2021 has 270 seconds left.
+|
+|t:|1640662217
+|start
+|switch|p1a: Roaring 20s|Empoleon, M|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|
+|t:|1640662224
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Roaring 20s
+|-sidestart|p1: Lily|move: Stealth Rock
+|move|p1a: Roaring 20s|Scald|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|34/100
+|-status|p2a: Nidoqueen|brn
+|
+|-damage|p2a: Nidoqueen|21/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1640662227
+|move|p1a: Roaring 20s|Protect|p1a: Roaring 20s
+|-singleturn|p1a: Roaring 20s|Protect
+|move|p2a: Nidoqueen|Earth Power|p1a: Roaring 20s
+|-activate|p1a: Roaring 20s|move: Protect
+|
+|-damage|p2a: Nidoqueen|9/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1640662230
+|move|p1a: Roaring 20s|Protect||[still]
+|-fail|p1a: Roaring 20s
+|move|p2a: Nidoqueen|Earth Power|p1a: Roaring 20s
+|-supereffective|p1a: Roaring 20s
+|-damage|p1a: Roaring 20s|23/100
+|
+|-heal|p1a: Roaring 20s|29/100|[from] item: Leftovers
+|-damage|p2a: Nidoqueen|0 fnt|[from] brn
+|faint|p2a: Nidoqueen
+|upkeep
+|
+|t:|1640662235
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|turn|4
+|
+|t:|1640662239
+|move|p1a: Roaring 20s|Protect|p1a: Roaring 20s
+|-singleturn|p1a: Roaring 20s|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Roaring 20s
+|-activate|p1a: Roaring 20s|move: Protect
+|
+|-heal|p1a: Roaring 20s|35/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1640662243
+|switch|p1a: Old Fashioned|Amoonguss, M|100/100
+|-damage|p1a: Old Fashioned|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Heat Wave|p1a: Old Fashioned|[miss]
+|-miss|p2a: Zapdos|p1a: Old Fashioned
+|
+|-heal|p1a: Old Fashioned|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1640662246
+|switch|p2a: Ferroseed|Ferroseed, F|100/100
+|move|p1a: Old Fashioned|Spore|p2a: Ferroseed
+|-status|p2a: Ferroseed|slp|[from] move: Spore
+|
+|-heal|p1a: Old Fashioned|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1640662253
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Old Fashioned|Sludge Bomb|p2a: Blastoise
+|-damage|p2a: Blastoise|79/100
+|-status|p2a: Blastoise|psn
+|
+|-heal|p2a: Blastoise|85/100 psn|[from] item: Leftovers
+|-damage|p2a: Blastoise|72/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1640662256
+|move|p2a: Blastoise|Refresh|p2a: Blastoise
+|-curestatus|p2a: Blastoise|psn|[msg]
+|move|p1a: Old Fashioned|Giga Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|34/100
+|
+|-heal|p2a: Blastoise|40/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1640662259
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Old Fashioned|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|89/100
+|
+|-heal|p2a: Zapdos|96/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1640662261
+|move|p2a: Zapdos|Heat Wave|p1a: Old Fashioned
+|-supereffective|p1a: Old Fashioned
+|-damage|p1a: Old Fashioned|46/100
+|move|p1a: Old Fashioned|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100
+|-status|p2a: Zapdos|psn
+|
+|-heal|p2a: Zapdos|74/100 psn|[from] item: Leftovers
+|-heal|p1a: Old Fashioned|53/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|61/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1640662264
+|switch|p1a: Dying in LA|Krookodile, M|100/100
+|-damage|p1a: Dying in LA|94/100|[from] Stealth Rock
+|-ability|p1a: Dying in LA|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|move|p2a: Zapdos|Heat Wave|p1a: Dying in LA
+|-crit|p1a: Dying in LA
+|-damage|p1a: Dying in LA|0 fnt
+|faint|p1a: Dying in LA
+|
+|-heal|p2a: Zapdos|68/100 psn|[from] item: Leftovers
+|-damage|p2a: Zapdos|55/100 psn|[from] psn
+|upkeep
+|
+|t:|1640662269
+|switch|p1a: King of the Clouds|Zapdos|100/100
+|-damage|p1a: King of the Clouds|76/100|[from] Stealth Rock
+|-ability|p1a: King of the Clouds|Pressure
+|turn|12
+|
+|t:|1640662273
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: King of the Clouds|Roost|p1a: King of the Clouds
+|-heal|p1a: King of the Clouds|100/100
+|-singleturn|p1a: King of the Clouds|move: Roost
+|
+|upkeep
+|turn|13
+|
+|t:|1640662277
+|-activate|p1a: King of the Clouds|move: Pursuit
+|move|p2a: Snorlax|Pursuit|p1a: King of the Clouds|[from]Pursuit
+|-damage|p1a: King of the Clouds|66/100
+|switch|p1a: Roaring 20s|Empoleon, M|35/100
+|-damage|p1a: Roaring 20s|29/100|[from] Stealth Rock
+|
+|-heal|p1a: Roaring 20s|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1640662280
+|move|p1a: Roaring 20s|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: ford focus 2021|move: Stealth Rock
+|move|p2a: Snorlax|Earthquake|p1a: Roaring 20s
+|-supereffective|p1a: Roaring 20s
+|-damage|p1a: Roaring 20s|0 fnt
+|faint|p1a: Roaring 20s
+|
+|upkeep
+|
+|t:|1640662285
+|switch|p1a: Old Fashioned|Amoonguss, M|86/100
+|-damage|p1a: Old Fashioned|73/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1640662290
+|move|p1a: Old Fashioned|Sludge Bomb|p2a: Snorlax
+|-damage|p2a: Snorlax|85/100
+|move|p2a: Snorlax|Frustration|p1a: Old Fashioned
+|-damage|p1a: Old Fashioned|34/100
+|
+|-heal|p1a: Old Fashioned|41/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|91/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1640662295
+|move|p1a: Old Fashioned|Sludge Bomb|p2a: Snorlax
+|-damage|p2a: Snorlax|73/100
+|move|p2a: Snorlax|Frustration|p1a: Old Fashioned
+|-damage|p1a: Old Fashioned|1/100
+|
+|-heal|p1a: Old Fashioned|7/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1640662299
+|switch|p1a: Silver Lining|Xatu, M|100/100
+|-damage|p1a: Silver Lining|76/100|[from] Stealth Rock
+|move|p2a: Snorlax|Frustration|p1a: Silver Lining
+|-damage|p1a: Silver Lining|5/100
+|
+|-heal|p1a: Silver Lining|11/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1640662301
+|move|p1a: Silver Lining|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|66/100
+|move|p2a: Snorlax|Frustration|p1a: Silver Lining
+|-damage|p1a: Silver Lining|0 fnt
+|faint|p1a: Silver Lining
+|
+|-heal|p2a: Snorlax|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640662305
+|switch|p1a: High Hopes|Victini|100/100
+|-damage|p1a: High Hopes|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1640662308
+|move|p1a: High Hopes|Bolt Strike|p2a: Snorlax
+|-damage|p2a: Snorlax|30/100
+|move|p2a: Snorlax|Earthquake|p1a: High Hopes
+|-supereffective|p1a: High Hopes
+|-damage|p1a: High Hopes|10/100
+|
+|-heal|p2a: Snorlax|36/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1640662312
+|switch|p2a: Ferroseed|Ferroseed, F|100/100 slp
+|-damage|p2a: Ferroseed|94/100 slp|[from] Stealth Rock
+|move|p1a: High Hopes|Bolt Strike|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|73/100 slp
+|-damage|p1a: High Hopes|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferroseed
+|faint|p1a: High Hopes
+|
+|upkeep
+|
+|t:|1640662314
+|switch|p1a: Old Fashioned|Amoonguss, M|40/100
+|-damage|p1a: Old Fashioned|28/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1640662317
+|switch|p1a: King of the Clouds|Zapdos|66/100
+|-damage|p1a: King of the Clouds|41/100|[from] Stealth Rock
+|-ability|p1a: King of the Clouds|Pressure
+|cant|p2a: Ferroseed|slp
+|
+|upkeep
+|turn|22
+|
+|t:|1640662319
+|move|p1a: King of the Clouds|Roost|p1a: King of the Clouds
+|-heal|p1a: King of the Clouds|91/100
+|-singleturn|p1a: King of the Clouds|move: Roost
+|cant|p2a: Ferroseed|slp
+|
+|upkeep
+|turn|23
+|
+|t:|1640662321
+|move|p1a: King of the Clouds|Heat Wave|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|-damage|p1a: King of the Clouds|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640662328
+|switch|p2a: Snorlax|Snorlax, M|36/100
+|-damage|p2a: Snorlax|24/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1640662331
+|move|p1a: King of the Clouds|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-damage|p1a: King of the Clouds|71/100|[from] item: Life Orb
+|
+|upkeep
+|c|+Nails ☎ ☎ ☎|king of the chlouds
+|
+|t:|1640662346
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|25
+|
+|t:|1640662348
+|move|p2a: Weavile|Ice Shard|p1a: King of the Clouds
+|-supereffective|p1a: King of the Clouds
+|-damage|p1a: King of the Clouds|20/100
+|move|p1a: King of the Clouds|Heat Wave|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-damage|p1a: King of the Clouds|10/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640662357
+|switch|p2a: Blastoise|Blastoise, M|40/100
+|-damage|p2a: Blastoise|27/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1640662358
+|move|p1a: King of the Clouds|Roost|p1a: King of the Clouds
+|-heal|p1a: King of the Clouds|60/100
+|-singleturn|p1a: King of the Clouds|move: Roost
+|move|p2a: Blastoise|Scald|p1a: King of the Clouds
+|-damage|p1a: King of the Clouds|22/100
+|
+|-heal|p2a: Blastoise|33/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1640662362
+|move|p1a: King of the Clouds|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|-damage|p1a: King of the Clouds|12/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1640662363
+|switch|p2a: Zapdos|Zapdos|55/100 psn
+|-damage|p2a: Zapdos|31/100 psn|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|28
+|
+|t:|1640662365
+|move|p1a: King of the Clouds|Hidden Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: King of the Clouds|2/100|[from] item: Life Orb
+|
+|win|Lily

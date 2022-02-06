@@ -1,0 +1,362 @@
+|j|☆hypergames255
+|j|☆modest6432
+|t:|1643088220
+|gametype|singles
+|player|p1|hypergames255|dawn-gen4pt|1007
+|player|p2|modest6432|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Samurott, M|item
+|poke|p1|Volbeat, M|item
+|poke|p1|Armaldo, F|item
+|poke|p1|Ampharos, M|item
+|poke|p1|Regice|item
+|poke|p1|Gardevoir, M|item
+|poke|p2|Rampardos, F|item
+|poke|p2|Gurdurr, M|item
+|poke|p2|Duosion, F|item
+|poke|p2|Musharna, M|item
+|poke|p2|Spinda, M|item
+|poke|p2|Swellow, M|item
+|teampreview
+|c|☆hypergames255|glhf
+|c|☆modest6432|You too!
+|
+|t:|1643088245
+|start
+|switch|p1a: Dinoaur|Ampharos, M|100/100
+|switch|p2a: Musharna|Musharna, M|100/100
+|turn|1
+|
+|t:|1643088252
+|move|p1a: Dinoaur|Volt Switch|p2a: Musharna
+|-damage|p2a: Musharna|77/100
+|
+|t:|1643088257
+|switch|p1a: Regi from Gamestop|Regice|100/100|[from]move: Volt Switch
+|move|p2a: Musharna|Yawn|p1a: Regi from Gamestop
+|-start|p1a: Regi from Gamestop|move: Yawn|[of] p2a: Musharna
+|
+|-heal|p2a: Musharna|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643088265
+|switch|p1a: Ballade-Mega|Gardevoir, M|100/100
+|-ability|p1a: Ballade-Mega|Synchronize|[from] ability: Trace|[of] p2a: Musharna
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|-heal|p2a: Musharna|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643088276
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Ballade-Mega|Shadow Ball|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|15/100
+|
+|upkeep
+|turn|4
+|
+|t:|1643088283
+|switch|p1a: Dinoaur|Ampharos, M|100/100
+|move|p2a: Duosion|Signal Beam|p1a: Dinoaur
+|-damage|p1a: Dinoaur|64/100
+|
+|-heal|p1a: Dinoaur|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643088291
+|move|p2a: Duosion|Psychic|p1a: Dinoaur
+|-damage|p1a: Dinoaur|5/100
+|move|p1a: Dinoaur|Volt Switch|p2a: Duosion
+|-damage|p2a: Duosion|0 fnt
+|faint|p2a: Duosion
+|
+|t:|1643088299
+|switch|p1a: Regi from Gamestop|Regice|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1643088302
+|switch|p2a: Rampardos|Rampardos, F|100/100
+|turn|6
+|
+|t:|1643088308
+|move|p2a: Rampardos|Head Smash|p1a: Regi from Gamestop
+|-supereffective|p1a: Regi from Gamestop
+|-damage|p1a: Regi from Gamestop|0 fnt
+|faint|p1a: Regi from Gamestop
+|-damage|p2a: Rampardos|55/100|[from] Recoil
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1643088315
+|switch|p1a: Fish|Samurott, M|100/100
+|turn|7
+|
+|t:|1643088320
+|switch|p2a: Musharna|Musharna, M|89/100
+|move|p1a: Fish|Hydro Pump|p2a: Musharna|[miss]
+|-miss|p1a: Fish|p2a: Musharna
+|
+|-heal|p2a: Musharna|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643088327
+|switch|p1a: Bug|Armaldo, F|100/100
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|-heal|p2a: Musharna|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643088333
+|switch|p2a: Gurdurr|Gurdurr, M|100/100
+|move|p1a: Bug|X-Scissor|p2a: Gurdurr
+|-enditem|p1a: Bug|Bug Gem|[from] gem
+|-resisted|p2a: Gurdurr
+|-damage|p2a: Gurdurr|68/100
+|
+|-status|p2a: Gurdurr|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|t:|1643088346
+|switch|p1a: Keith|Volbeat, M|100/100
+|move|p2a: Gurdurr|Drain Punch|p1a: Keith
+|-resisted|p1a: Keith
+|-damage|p1a: Keith|56/100
+|-heal|p2a: Gurdurr|88/100 tox|[from] drain|[of] p1a: Keith
+|
+|-damage|p2a: Gurdurr|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1643088355
+|switch|p2a: Rampardos|Rampardos, F|55/100
+|move|p1a: Keith|Rain Dance|p1a: Keith
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1643088361
+|move|p1a: Keith|Tailwind|p1a: Keith
+|-sidestart|p1: hypergames255|move: Tailwind
+|move|p2a: Rampardos|Head Smash|p1a: Keith
+|-supereffective|p1a: Keith
+|-damage|p1a: Keith|0 fnt
+|faint|p1a: Keith
+|-damage|p2a: Rampardos|31/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1643088373
+|switch|p1a: Fish|Samurott, M|100/100
+|turn|13
+|
+|t:|1643088378
+|move|p1a: Fish|Hydro Pump|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|-damage|p1a: Fish|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643088383
+|switch|p2a: Swellow|Swellow, M|100/100
+|turn|14
+|
+|t:|1643088386
+|move|p2a: Swellow|Protect|p2a: Swellow
+|-singleturn|p2a: Swellow|Protect
+|move|p1a: Fish|Ice Beam|p2a: Swellow
+|-activate|p2a: Swellow|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1643088393
+|move|p1a: Fish|Ice Beam|p2a: Swellow
+|-supereffective|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|-damage|p1a: Fish|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: hypergames255|move: Tailwind
+|upkeep
+|
+|t:|1643088413
+|switch|p2a: Musharna|Musharna, M|100/100
+|turn|16
+|
+|t:|1643088422
+|move|p1a: Fish|Hydro Pump|p2a: Musharna
+|-damage|p2a: Musharna|34/100
+|-damage|p1a: Fish|71/100|[from] item: Life Orb
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Musharna|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1643088431
+|switch|p1a: Dinoaur|Ampharos, M|5/100
+|move|p2a: Musharna|Psybeam|p1a: Dinoaur
+|-damage|p1a: Dinoaur|0 fnt
+|faint|p1a: Dinoaur
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Musharna|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643088441
+|switch|p1a: Bug|Armaldo, F|100/100
+|turn|18
+|
+|t:|1643088444
+|move|p2a: Musharna|Yawn|p1a: Bug
+|-start|p1a: Bug|move: Yawn|[of] p2a: Musharna
+|move|p1a: Bug|Earthquake|p2a: Musharna
+|-damage|p2a: Musharna|17/100
+|
+|-weather|none
+|-heal|p2a: Musharna|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643088452
+|switch|p1a: Ballade-Mega|Gardevoir, M|100/100
+|-ability|p1a: Ballade-Mega|Synchronize|[from] ability: Trace|[of] p2a: Musharna
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|73/100
+|
+|-heal|p2a: Musharna|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643088462
+|switch|p1a: Bug|Armaldo, F|100/100
+|move|p2a: Musharna|Yawn|p1a: Bug
+|-start|p1a: Bug|move: Yawn|[of] p2a: Musharna
+|
+|-heal|p2a: Musharna|85/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|t:|1643088469
+|switch|p1a: Ballade-Mega|Gardevoir, M|100/100
+|-ability|p1a: Ballade-Mega|Synchronize|[from] ability: Trace|[of] p2a: Musharna
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|-heal|p2a: Musharna|92/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643088476
+|switch|p2a: Spinda|Spinda, M|100/100
+|move|p1a: Ballade-Mega|Shadow Ball|p2a: Spinda
+|-immune|p2a: Spinda
+|
+|upkeep
+|turn|23
+|
+|t:|1643088482
+|switch|p1a: Bug|Armaldo, F|100/100
+|move|p2a: Spinda|Superpower|p1a: Bug
+|-damage|p1a: Bug|55/100
+|-boost|p2a: Spinda|atk|1
+|-boost|p2a: Spinda|def|1
+|-damage|p2a: Spinda|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|
+|t:|1643088492
+|switch|p1a: Ballade-Mega|Gardevoir, M|100/100
+|-ability|p1a: Ballade-Mega|Contrary|[from] ability: Trace|[of] p2a: Spinda
+|move|p2a: Spinda|Superpower|p1a: Ballade-Mega
+|-resisted|p1a: Ballade-Mega
+|-damage|p1a: Ballade-Mega|49/100
+|-boost|p2a: Spinda|atk|1
+|-boost|p2a: Spinda|def|1
+|-damage|p2a: Spinda|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|
+|t:|1643088503
+|switch|p1a: Bug|Armaldo, F|55/100
+|move|p2a: Spinda|Superpower|p1a: Bug
+|-damage|p1a: Bug|0 fnt
+|-boost|p2a: Spinda|atk|1
+|-boost|p2a: Spinda|def|1
+|faint|p1a: Bug
+|-damage|p2a: Spinda|71/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1643088516
+|switch|p1a: Fish|Samurott, M|71/100
+|turn|26
+|
+|t:|1643088519
+|move|p2a: Spinda|Sucker Punch|p1a: Fish
+|-damage|p1a: Fish|0 fnt
+|faint|p1a: Fish
+|-damage|p2a: Spinda|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643088523
+|switch|p1a: Ballade-Mega|Gardevoir, M|49/100
+|-ability|p1a: Ballade-Mega|Contrary|[from] ability: Trace|[of] p2a: Spinda
+|turn|27
+|c|☆hypergames255|gg
+|
+|t:|1643088528
+|move|p2a: Spinda|Sucker Punch|p1a: Ballade-Mega
+|-supereffective|p1a: Ballade-Mega
+|-damage|p1a: Ballade-Mega|0 fnt
+|faint|p1a: Ballade-Mega
+|-damage|p2a: Spinda|51/100|[from] item: Life Orb
+|
+|win|modest6432
+|raw|hypergames255's rating: 1007 &rarr; <strong>1000</strong><br />(-7 for losing)
+|raw|modest6432's rating: 1000 &rarr; <strong>1041</strong><br />(+41 for winning)
+|c|☆modest6432|GG
+|l|☆hypergames255

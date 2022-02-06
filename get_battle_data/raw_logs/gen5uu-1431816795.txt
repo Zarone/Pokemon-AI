@@ -1,0 +1,352 @@
+|j|☆kihliuhlkj
+|j|☆Jeran
+|t:|1633721259
+|gametype|singles
+|player|p1|kihliuhlkj|acetrainercouple|
+|player|p2|Jeran|argenta|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Qwilfish, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Virizion|item
+|poke|p1|Zapdos|item
+|poke|p1|Flygon, M|item
+|poke|p1|Bronzong|item
+|poke|p2|Raikou|item
+|poke|p2|Snorlax, F|item
+|poke|p2|Qwilfish, F|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Scrafty, F|item
+|poke|p2|Bronzong|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jeran)
+|j| kllkj089h
+|c| kllkj089h|I feel identity theft
+|
+|t:|1633721275
+|start
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Qwilfish|atk|1
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Qwilfish|atk|1
+|turn|1
+|
+|t:|1633721278
+|move|p1a: Qwilfish|Taunt|p2a: Qwilfish
+|-start|p2a: Qwilfish|move: Taunt
+|cant|p2a: Qwilfish|move: Taunt|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1633721284
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Raikou
+|-sidestart|p2: Jeran|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|j| Nyctoz
+|l| Nyctoz
+|
+|t:|1633721301
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-sideend|p2: Jeran|move: Toxic Spikes|[of] p2a: Qwilfish
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Qwilfish|atk|1
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1633721306
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Qwilfish|atk|1
+|move|p2a: Qwilfish|Spikes|p1a: Qwilfish
+|-sidestart|p1: kihliuhlkj|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1633721312
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Raikou
+|-sidestart|p2: Jeran|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1633721318
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Raikou|Thunderbolt|p1a: Flygon
+|-immune|p1a: Flygon
+|
+|upkeep
+|turn|7
+|
+|t:|1633721321
+|switch|p2a: Bronzong|Bronzong|100/100
+|switch|p1a: Bronzong|Bronzong|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1633721327
+|move|p1a: Bronzong|Trick|p2a: Bronzong
+|-activate|p1a: Bronzong|move: Trick|[of] p2a: Bronzong
+|-item|p2a: Bronzong|Choice Band|[from] move: Trick
+|-item|p1a: Bronzong|Leftovers|[from] move: Trick
+|move|p2a: Bronzong|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: kihliuhlkj|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1633721333
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-sideend|p2: Jeran|move: Toxic Spikes|[of] p2a: Qwilfish
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|move|p1a: Bronzong|Stealth Rock|p2a: Qwilfish
+|-sidestart|p2: Jeran|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1633721340
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-damage|p1a: Qwilfish|88/100|[from] Stealth Rock
+|-damage|p1a: Qwilfish|76/100|[from] Spikes
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Qwilfish|atk|1
+|move|p2a: Qwilfish|Spikes|p1a: Qwilfish
+|-sidestart|p1: kihliuhlkj|Spikes
+|
+|-heal|p1a: Qwilfish|82/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1633721344
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Raikou
+|-sidestart|p2: Jeran|move: Toxic Spikes
+|
+|-heal|p2a: Raikou|94/100|[from] item: Leftovers
+|-heal|p1a: Qwilfish|88/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|j| TEST_ZEKE
+|j| Dragonicos
+|inactive|kihliuhlkj has 120 seconds left.
+|
+|t:|1633721385
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Raikou|Substitute|p2a: Raikou
+|-start|p2a: Raikou|Substitute
+|-damage|p2a: Raikou|69/100
+|
+|-heal|p2a: Raikou|76/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1633721393
+|move|p2a: Raikou|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|69/100
+|move|p1a: Bronzong|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-end|p2a: Raikou|Substitute
+|
+|-heal|p2a: Raikou|82/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|kihliuhlkj has 120 seconds left.
+|
+|t:|1633721411
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-sideend|p2: Jeran|move: Toxic Spikes|[of] p2a: Qwilfish
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|move|p1a: Bronzong|Earthquake|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|65/100
+|
+|-heal|p2a: Qwilfish|71/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1633721420
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|-damage|p2a: Cofagrigus|88/100|[from] Stealth Rock
+|move|p1a: Bronzong|Earthquake|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|76/100
+|
+|-heal|p1a: Bronzong|87/100|[from] item: Leftovers
+|-heal|p2a: Cofagrigus|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1633721427
+|move|p1a: Bronzong|Toxic|p2a: Cofagrigus
+|-status|p2a: Cofagrigus|tox
+|move|p2a: Cofagrigus|Nasty Plot|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|spa|2
+|
+|-heal|p1a: Bronzong|93/100|[from] item: Leftovers
+|-heal|p2a: Cofagrigus|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1633721443
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-heal|p2a: Cofagrigus|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1633721446
+|switch|p1a: Virizion|Virizion|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|-damage|p1a: Virizion|78/100|[from] Spikes
+|turn|18
+|
+|t:|1633721448
+|move|p1a: Virizion|Calm Mind|p1a: Virizion
+|-boost|p1a: Virizion|spa|1
+|-boost|p1a: Virizion|spd|1
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Virizion
+|-damage|p1a: Virizion|34/100
+|-unboost|p1a: Virizion|spd|1
+|
+|-heal|p2a: Cofagrigus|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|64/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1633721452
+|move|p1a: Virizion|Giga Drain|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|13/100 tox
+|-heal|p1a: Virizion|59/100|[from] drain|[of] p2a: Cofagrigus
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|-heal|p2a: Cofagrigus|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Cofagrigus|0 fnt|[from] psn
+|faint|p2a: Cofagrigus
+|upkeep
+|
+|t:|1633721461
+|switch|p1a: Bronzong|Bronzong|93/100
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|-damage|p1a: Bronzong|87/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1633721473
+|switch|p1a: Qwilfish|Qwilfish, M|88/100
+|-damage|p1a: Qwilfish|71/100|[from] Spikes
+|-damage|p1a: Qwilfish|59/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|
+|-heal|p1a: Qwilfish|65/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1633721477
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|move|p1a: Qwilfish|Taunt|p2a: Scrafty
+|-start|p2a: Scrafty|move: Taunt
+|
+|-heal|p1a: Qwilfish|71/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1633721494
+|move|p2a: Scrafty|Crunch|p1a: Qwilfish
+|-damage|p1a: Qwilfish|11/100
+|-unboost|p1a: Qwilfish|def|1
+|-damage|p2a: Scrafty|85/100|[from] item: Life Orb
+|move|p1a: Qwilfish|Pain Split|p2a: Scrafty
+|-sethp|p2a: Scrafty|49/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Qwilfish|41/100|[from] move: Pain Split
+|
+|-heal|p1a: Qwilfish|47/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1633721499
+|move|p2a: Scrafty|Crunch|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|-damage|p2a: Scrafty|39/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633721501
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|turn|24
+|
+|t:|1633721504
+|move|p2a: Scrafty|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Scrafty|29/100|[from] item: Life Orb
+|
+|-end|p2a: Scrafty|move: Taunt
+|upkeep
+|c|☆kihliuhlkj|gg
+|-message|kihliuhlkj forfeited.
+|
+|win|Jeran
+|n|☆kihliuhlkj|kihliuhlkj
+|n|☆Jeran|jeran
+|n| BB-8-NU|bb8nu
+|n| kllkj089h|kllkj089h
+|n| TEST_ZEKE|testzeke
+|n| Dragonicos|dragonicos
+|l|☆kihliuhlkj
+|l| BB-8-NU
+|l|☆Jeran
+|l| Dragonicos
+|j| Dragonicos

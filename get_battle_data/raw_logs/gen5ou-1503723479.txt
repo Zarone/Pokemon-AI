@@ -1,0 +1,406 @@
+|j|☆FooMachin
+|j|☆LX.HB24
+|t:|1643906610
+|gametype|singles
+|player|p1|FooMachin|gambler|1131
+|player|p2|LX.HB24|n|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Volcarona, F|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Salamence, F|item
+|poke|p2|Espeon, F|item
+|poke|p2|Lucario, M|item
+|poke|p2|Latias, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LX.HB24)
+|j| SKT T1 Motherfaker
+|
+|t:|1643906639
+|start
+|switch|p1a: 20thCenturyBoy|Tyranitar, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: 20thCenturyBoy
+|turn|1
+|
+|t:|1643906655
+|move|p2a: Aerodactyl|Earthquake|p1a: 20thCenturyBoy
+|-supereffective|p1a: 20thCenturyBoy
+|-damage|p1a: 20thCenturyBoy|44/100
+|move|p1a: 20thCenturyBoy|Stone Edge|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-enditem|p2a: Aerodactyl|Focus Sash
+|-damage|p2a: Aerodactyl|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|inactive|FooMachin has 120 seconds left.
+|
+|t:|1643906686
+|switch|p1a: Buttercup|Magnezone|100/100
+|-item|p1a: Buttercup|Air Balloon
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Buttercup
+|-sidestart|p1: FooMachin|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|inactive|LX.HB24 has 120 seconds left.
+|
+|t:|1643906718
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Buttercup|Thunderbolt|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|75/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1643906726
+|move|p2a: Latias|Light Screen|p2a: Latias
+|-sidestart|p2: LX.HB24|move: Light Screen
+|move|p1a: Buttercup|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|52/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1643906733
+|switch|p1a: Slow Dancer|Excadrill, F|100/100
+|-damage|p1a: Slow Dancer|97/100|[from] Stealth Rock
+|-ability|p1a: Slow Dancer|Mold Breaker
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: LX.HB24|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|46/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1643906746
+|switch|p2a: Lucario|Lucario, M, shiny|100/100
+|move|p1a: Slow Dancer|Rapid Spin|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|97/100
+|-sideend|p1: FooMachin|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Slow Dancer
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1643906766
+|switch|p1a: 20thCenturyBoy|Tyranitar, M|44/100
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1643906774
+|move|p2a: Lucario|Bullet Punch|p1a: 20thCenturyBoy
+|-supereffective|p1a: 20thCenturyBoy
+|-damage|p1a: 20thCenturyBoy|0 fnt
+|faint|p1a: 20thCenturyBoy
+|-damage|p2a: Lucario|87/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643906781
+|switch|p1a: 5/4 not that new|Hippowdon, F|100/100
+|turn|9
+|
+|t:|1643906790
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|move|p1a: 5/4 not that new|Stealth Rock|p2a: Lucario
+|-sidestart|p2: LX.HB24|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1643906797
+|move|p2a: Lucario|Close Combat|p1a: 5/4 not that new
+|-damage|p1a: 5/4 not that new|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|faint|p1a: 5/4 not that new
+|-damage|p2a: Lucario|77/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643906805
+|switch|p1a: Civil War|Keldeo|100/100
+|turn|11
+|
+|t:|1643906809
+|move|p2a: Lucario|Bullet Punch|p1a: Civil War
+|-resisted|p1a: Civil War
+|-damage|p1a: Civil War|62/100
+|-damage|p2a: Lucario|68/100|[from] item: Life Orb
+|move|p1a: Civil War|Secret Sword|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Civil War|56/100|[from] Sandstorm
+|-sideend|p2: LX.HB24|move: Light Screen
+|upkeep
+|
+|t:|1643906822
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1643906849
+|move|p1a: Civil War|Secret Sword|p2a: Blastoise
+|-damage|p2a: Blastoise|46/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Civil War
+|-damage|p1a: Civil War|52/100
+|-sideend|p2: LX.HB24|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Civil War|46/100|[from] Sandstorm
+|-damage|p2a: Blastoise|40/100|[from] Sandstorm
+|-heal|p2a: Blastoise|46/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|Reflect
+|upkeep
+|turn|13
+|
+|t:|1643906862
+|move|p1a: Civil War|Secret Sword|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Civil War|39/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643906868
+|switch|p2a: Aerodactyl|Aerodactyl, F|1/100
+|-ability|p2a: Aerodactyl|Pressure
+|turn|14
+|
+|t:|1643906884
+|move|p2a: Aerodactyl|Stone Edge|p1a: Civil War
+|-resisted|p1a: Civil War
+|-damage|p1a: Civil War|11/100
+|move|p1a: Civil War|Secret Sword|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Civil War|5/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643906890
+|switch|p2a: Latias|Latias, F|46/100
+|turn|15
+|
+|t:|1643906906
+|switch|p1a: Buttercup|Magnezone|100/100
+|-item|p1a: Buttercup|Air Balloon
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: LX.HB24|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|40/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1643906915
+|move|p2a: Latias|Light Screen|p2a: Latias
+|-sidestart|p2: LX.HB24|move: Light Screen
+|move|p1a: Buttercup|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|16/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1643906921
+|move|p2a: Latias|Healing Wish|p2a: Latias
+|faint|p2a: Latias
+|move|p1a: Buttercup|Hidden Power|p2: Latias|[notarget]
+|-fail|p1a: Buttercup
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643906929
+|switch|p2a: Espeon|Espeon, F|100/100
+|-heal|p2a: Espeon|100/100|[from] move: Healing Wish
+|turn|18
+|
+|t:|1643906955
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Buttercup|Thunderbolt|p2a: Espeon
+|-damage|p2a: Espeon|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|75/100|[from] Sandstorm
+|-heal|p2a: Espeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1643906966
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Buttercup|Thunderbolt|p2a: Espeon
+|-damage|p2a: Espeon|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|58/100|[from] Sandstorm
+|-heal|p2a: Espeon|64/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1643906976
+|move|p2a: Espeon|Psyshock|p1a: Buttercup
+|-resisted|p1a: Buttercup
+|-damage|p1a: Buttercup|54/100
+|-enditem|p1a: Buttercup|Air Balloon
+|move|p1a: Buttercup|Thunderbolt|p2a: Espeon
+|-damage|p2a: Espeon|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|42/100|[from] Sandstorm
+|-heal|p2a: Espeon|48/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643906991
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Buttercup|Thunderbolt|p2a: Espeon
+|-damage|p2a: Espeon|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|27/100|[from] Sandstorm
+|-heal|p2a: Espeon|33/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643907003
+|move|p2a: Espeon|Psyshock|p1a: Buttercup
+|-resisted|p1a: Buttercup
+|-damage|p1a: Buttercup|0 fnt
+|faint|p1a: Buttercup
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Espeon|27/100|[from] Sandstorm
+|-heal|p2a: Espeon|33/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|Reflect
+|upkeep
+|
+|t:|1643907013
+|switch|p1a: Slow Dancer|Excadrill, F|97/100
+|-ability|p1a: Slow Dancer|Mold Breaker
+|turn|23
+|
+|t:|1643907023
+|move|p1a: Slow Dancer|Iron Head|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p2: LX.HB24|move: Light Screen
+|upkeep
+|
+|t:|1643907026
+|switch|p2a: Salamence|Salamence, F|100/100
+|turn|24
+|
+|t:|1643907042
+|move|p2a: Salamence|Earthquake|p1a: Slow Dancer
+|-supereffective|p1a: Slow Dancer
+|-damage|p1a: Slow Dancer|0 fnt
+|faint|p1a: Slow Dancer
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643907050
+|switch|p1a: Civil War|Keldeo|5/100
+|turn|25
+|
+|t:|1643907060
+|move|p2a: Salamence|Earthquake|p1a: Civil War
+|-damage|p1a: Civil War|0 fnt
+|faint|p1a: Civil War
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1643907079
+|switch|p1a: Mambo n°5|Volcarona, F|100/100
+|turn|26
+|
+|t:|1643907083
+|move|p2a: Salamence|Earthquake|p1a: Mambo n°5
+|-damage|p1a: Mambo n°5|18/100
+|move|p1a: Mambo n°5|Bug Buzz|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|57/100
+|-damage|p1a: Mambo n°5|8/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salamence|51/100|[from] Sandstorm
+|-damage|p1a: Mambo n°5|1/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|t:|1643907092
+|move|p2a: Salamence|Earthquake|p1a: Mambo n°5
+|-damage|p1a: Mambo n°5|0 fnt
+|faint|p1a: Mambo n°5
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|win|LX.HB24
+|raw|FooMachin's rating: 1131 &rarr; <strong>1102</strong><br />(-29 for losing)
+|raw|LX.HB24's rating: 1073 &rarr; <strong>1107</strong><br />(+34 for winning)
+|l|☆LX.HB24

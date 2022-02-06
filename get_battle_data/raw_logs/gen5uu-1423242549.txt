@@ -1,0 +1,369 @@
+|j|☆zben ☭_☭
+|j|☆blackkaiser
+|t:|1632511562
+|gametype|singles
+|player|p1|zben ☭_☭|morty-gen2|
+|player|p2|blackkaiser|nate|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mienshao, F|item
+|poke|p1|Heracross, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Omastar, M|item
+|poke|p1|Victini|item
+|poke|p1|Togekiss, M|item
+|poke|p2|Roserade, M|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Mismagius, F|item
+|poke|p2|Mew|item
+|poke|p2|Sharpedo, F|item
+|poke|p2|Hitmontop, M|item
+|teampreview
+|j|+HollyHughes
+|c|☆zben ☭_☭|ioioioi
+|j| Kounamii
+|c|+HollyHughes|blackkaiser
+|c|+HollyHughes|lol
+|c|☆blackkaiser|yo
+|c|☆zben ☭_☭|gl
+|c|☆blackkaiser|hf zben
+|c|+HollyHughes|gl bestie
+|l| Kounamii
+|
+|t:|1632511590
+|start
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|switch|p2a: Druddigon|Druddigon, M, shiny|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|1
+|j|%Links
+|
+|t:|1632511622
+|move|p2a: Druddigon|Glare|p1a: Togekiss
+|-status|p1a: Togekiss|par
+|move|p1a: Togekiss|Air Slash|p2a: Druddigon
+|-damage|p2a: Druddigon|51/100
+|
+|upkeep
+|turn|2
+|j| Ghost Marowak
+|
+|t:|1632511629
+|move|p2a: Druddigon|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: zben ☭_☭|move: Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+|
+|t:|1632511637
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|turn|3
+|
+|t:|1632511640
+|move|p2a: Mismagius|Taunt|p1a: Togekiss
+|-start|p1a: Togekiss|move: Taunt
+|cant|p1a: Togekiss|par
+|
+|upkeep
+|turn|4
+|
+|t:|1632511643
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Togekiss|Air Slash|p2a: Mismagius
+|-damage|p2a: Mismagius|73/100
+|
+|-heal|p2a: Mismagius|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1632511650
+|move|p2a: Mismagius|Calm Mind|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|1
+|-boost|p2a: Mismagius|spd|1
+|move|p1a: Togekiss|Air Slash|p2a: Mismagius
+|-damage|p2a: Mismagius|57/100
+|
+|-heal|p2a: Mismagius|63/100|[from] item: Leftovers
+|-end|p1a: Togekiss|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1632511653
+|move|p2a: Mismagius|Taunt|p1a: Togekiss
+|-start|p1a: Togekiss|move: Taunt
+|move|p1a: Togekiss|Air Slash|p2a: Mismagius
+|-damage|p2a: Mismagius|42/100
+|
+|-heal|p2a: Mismagius|48/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1632511656
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Mew
+|-damage|p2a: Mew|65/100
+|
+|-heal|p2a: Mew|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1632511661
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|
+|-heal|p2a: Mew|77/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1632511666
+|move|p2a: Mew|Rock Polish|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|move|p1a: Bronzong|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-immune|p1a: Bronzong
+|
+|-heal|p2a: Mew|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|77/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1632511670
+|move|p2a: Mew|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-heal|p2a: Mew|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|71/100 tox|[from] psn
+|upkeep
+|
+|t:|1632511674
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1632511677
+|move|p1a: Mienshao|Fake Out|p2a: Mew
+|-damage|p2a: Mew|56/100 tox
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|cant|p2a: Mew|flinch
+|
+|-heal|p2a: Mew|62/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|43/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1632511687
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|move|p2a: Mew|Psychic|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-heal|p2a: Mew|50/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1632511689
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1632511692
+|switch|p2a: Mismagius|Mismagius, F|48/100
+|move|p1a: Mienshao|U-turn|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-damage|p2a: Mismagius|25/100
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|
+|t:|1632511697
+|switch|p1a: Victini|Victini|100/100|[from]move: U-turn
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Mismagius|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1632511706
+|move|p1a: Victini|V-create|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Mismagius
+|
+|upkeep
+|
+|t:|1632511709
+|switch|p2a: Sharpedo|Sharpedo, F|100/100
+|turn|15
+|
+|t:|1632511716
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|move|p2a: Sharpedo|Waterfall|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|-damage|p2a: Sharpedo|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1632511721
+|switch|p1a: Omastar|Omastar, M|100/100
+|-damage|p1a: Omastar|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1632511740
+|move|p2a: Sharpedo|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|-damage|p2a: Sharpedo|81/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|l| Ghost Marowak
+|
+|t:|1632511745
+|switch|p1a: Togekiss|Togekiss, M|100/100 par
+|-damage|p1a: Togekiss|76/100 par|[from] Stealth Rock
+|turn|17
+|
+|t:|1632511748
+|move|p2a: Sharpedo|Waterfall|p1a: Togekiss
+|-damage|p1a: Togekiss|24/100 par
+|-damage|p2a: Sharpedo|71/100|[from] item: Life Orb
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|74/100 par
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-heal|p1a: Togekiss|80/100 par|[from] item: Leftovers
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|18
+|
+|t:|1632511759
+|move|p2a: Sharpedo|Waterfall|p1a: Togekiss
+|-damage|p1a: Togekiss|29/100 par
+|-damage|p2a: Sharpedo|61/100|[from] item: Life Orb
+|move|p1a: Togekiss|Grass Knot|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-heal|p1a: Togekiss|35/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1632511765
+|switch|p2a: Mew|Mew|25/100 tox
+|turn|19
+|
+|t:|1632511769
+|move|p2a: Mew|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Mew|31/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1632511771
+|switch|p1a: Victini|Victini|76/100
+|-damage|p1a: Victini|51/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1632511779
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: Victini|V-create|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1632511781
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|turn|21
+|
+|t:|1632511786
+|move|p1a: Victini|V-create|p2a: Hitmontop
+|-damage|p2a: Hitmontop|34/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Hitmontop|Close Combat|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|12/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-heal|p2a: Hitmontop|40/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆zben ☭_☭|crit
+|c|☆zben ☭_☭|gg
+|
+|t:|1632511792
+|move|p1a: Victini|V-create|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Hitmontop
+|
+|upkeep
+|c|☆blackkaiser|gg
+|
+|t:|1632511793
+|switch|p2a: Mew|Mew|25/100 tox
+|turn|23
+|
+|t:|1632511796
+|move|p2a: Mew|Psychic|p1a: Victini
+|-resisted|p1a: Victini
+|-crit|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|win|blackkaiser
+|n|☆zben ☭_☭|zben
+|n|☆blackkaiser|blackkaiser
+|n| HollyHughes|hollyhughes
+|n| Links|links
+|l| Links
+|l| HollyHughes
+|j| owijefniwa
+|l| owijefniwa
+|j| Dragonicos

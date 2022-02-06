@@ -1,0 +1,142 @@
+|j|☆banana121212
+|j|☆rexxonmobile
+|t:|1643949818
+|gametype|singles
+|player|p1|banana121212|170|1190
+|player|p2|rexxonmobile|266|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Jellicent, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Magnezone|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, F|item
+|poke|p2|Espeon, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Jolteon, F|item
+|teampreview
+|
+|t:|1643949828
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|1
+|
+|t:|1643949840
+|switch|p2a: Espeon|Espeon, M|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Espeon
+|move|p2a: Espeon|Stealth Rock|p1a: Garchomp|[from]ability: Magic Bounce
+|-sidestart|p1: banana121212|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643949853
+|move|p1a: Garchomp|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|23/100
+|move|p2a: Espeon|Psychic|p1a: Garchomp
+|-damage|p1a: Garchomp|53/100
+|
+|-heal|p2a: Espeon|29/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643949862
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Landorus
+|-sidestart|p2: rexxonmobile|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1643949878
+|move|p2a: Landorus|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|27/100
+|-damage|p2a: Landorus|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|t:|1643949884
+|switch|p2a: Espeon|Espeon, M|29/100|[from]move: U-turn
+|-damage|p2a: Espeon|17/100|[from] Stealth Rock
+|move|p1a: Garchomp|Dragon Claw|p2a: Espeon
+|-crit|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|t:|1643949899
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1643949906
+|move|p2a: Jolteon|Shadow Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|l|☆banana121212
+|player|p1|
+|j|☆banana121212
+|player|p1|banana121212|170
+|
+|t:|1643949989
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1643950003
+|move|p2a: Jolteon|Shadow Ball|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|move|p1a: Jirachi|Cosmic Power|p1a: Jirachi
+|-boost|p1a: Jirachi|def|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643950014
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rexxonmobile)
+|inactive|banana121212 has 120 seconds left.
+|inactive|banana121212 has 90 seconds left.
+|inactive|banana121212 has 60 seconds left.
+|inactive|banana121212 has 30 seconds left.
+|inactive|banana121212 has 20 seconds left.
+|inactive|banana121212 has 15 seconds left.
+|inactive|banana121212 has 10 seconds left.
+|l|☆banana121212
+|inactive|banana121212 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|banana121212 has 5 seconds left.
+|-message|banana121212 lost due to inactivity.
+|
+|win|rexxonmobile
+|raw|banana121212's rating: 1190 &rarr; <strong>1174</strong><br />(-16 for losing)
+|raw|rexxonmobile's rating: 1321 &rarr; <strong>1334</strong><br />(+13 for winning)

@@ -1,0 +1,867 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644081411
+|gametype|singles
+|player|p1|toytean|veteran|
+|player|p2|MTV BRATVA|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Celebi|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Jellicent, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Politoed, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|c|☆MTV BRATVA|hf
+|c|☆toytean|hf
+|
+|t:|1644081434
+|start
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jellicent|atk|1
+|turn|1
+|
+|t:|1644081444
+|move|p2a: Landorus|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|87/100
+|
+|t:|1644081449
+|switch|p2a: Politoed|Politoed, F|100/100|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|93/100|[from] item: Leftovers
+|-damage|p2a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1644081461
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644081471
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: SEITON|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: SEITON
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1644081476
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Celebi
+|-sidestart|p1: toytean|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|94/100|[from] Sandstorm
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644081480
+|move|p1a: Celebi|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: MTV BRATVA|move: Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|93/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Celebi|86/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1644081486
+|switch|p1a: TR|Skarmory, F|100/100
+|-damage|p1a: TR|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: TR
+|-sidestart|p1: toytean|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1644081498
+|switch|p2a: Politoed|Politoed, F|88/100 brn
+|-damage|p2a: Politoed|76/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: TR|Spikes|p2a: Politoed
+|-sidestart|p2: MTV BRATVA|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Politoed|70/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1644081504
+|switch|p1a: Celebi|Celebi|86/100
+|-damage|p1a: Celebi|74/100|[from] Stealth Rock
+|-damage|p1a: Celebi|62/100|[from] Spikes
+|move|p2a: Politoed|Refresh|p2a: Politoed
+|-curestatus|p2a: Politoed|brn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644081513
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Spikes
+|-damage|p2a: Tentacruel|76/100|[from] Stealth Rock
+|move|p1a: Celebi|Recover|p1a: Celebi
+|-heal|p1a: Celebi|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|82/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1644081521
+|move|p2a: Tentacruel|Rapid Spin|p1a: Celebi
+|-damage|p1a: Celebi|98/100
+|-sideend|p2: MTV BRATVA|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: MTV BRATVA|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Celebi|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|39/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|45/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1644081531
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Celebi|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: MTV BRATVA|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1644081539
+|switch|p1a: Terrakion|Terrakion|100/100
+|-damage|p1a: Terrakion|94/100|[from] Stealth Rock
+|-damage|p1a: Terrakion|82/100|[from] Spikes
+|move|p2a: Volcarona|Substitute|p2a: Volcarona
+|-start|p2a: Volcarona|Substitute
+|-damage|p2a: Volcarona|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644081546
+|move|p1a: Terrakion|Stone Edge|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-end|p2a: Volcarona|Substitute
+|move|p2a: Volcarona|Hurricane|p1a: Terrakion
+|-damage|p1a: Terrakion|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644081561
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Terrakion|Stone Edge|p2a: Ferrothorn|[miss]
+|-miss|p1a: Terrakion|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644081567
+|switch|p1a: TR|Skarmory, F|88/100
+|-damage|p1a: TR|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: TR
+|-sidestart|p1: toytean|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1644081575
+|move|p1a: TR|Spikes|p2a: Ferrothorn
+|-sidestart|p2: MTV BRATVA|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: TR
+|-resisted|p1a: TR
+|-crit|p1a: TR
+|-damage|p1a: TR|72/100
+|-damage|p2a: Ferrothorn|84/100|[from] item: Rocky Helmet|[of] p1a: TR
+|-enditem|p1a: TR|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644081586
+|switch|p2a: Politoed|Politoed, F|76/100
+|-damage|p2a: Politoed|63/100|[from] Spikes
+|-damage|p2a: Politoed|51/100|[from] Stealth Rock
+|move|p1a: TR|Whirlwind|p2a: Politoed
+|drag|p2a: Tentacruel|Tentacruel, M|45/100
+|-damage|p2a: Tentacruel|33/100|[from] Spikes
+|-damage|p2a: Tentacruel|21/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|27/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|33/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1644081590
+|switch|p1a: Jellicent|Jellicent, F|93/100
+|-damage|p1a: Jellicent|81/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|64/100|[from] Spikes
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|39/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|45/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644081595
+|move|p2a: Tentacruel|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|move|p1a: Jellicent|Night Shade|p2a: Tentacruel
+|-damage|p2a: Tentacruel|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|23/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|29/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|71/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1644081599
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Jellicent|Night Shade|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|35/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|42/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|64/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1644081610
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Latios|[miss]
+|-miss|p1a: Jellicent|p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|52/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1644081620
+|move|p2a: Latios|Surf|p1a: Jellicent
+|-heal|p1a: Jellicent|77/100 tox|[from] ability: Water Absorb|[of] p2a: Latios
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1644081624
+|switch|p1a: Celebi|Celebi|98/100
+|-damage|p1a: Celebi|86/100|[from] Stealth Rock
+|-damage|p1a: Celebi|69/100|[from] Spikes
+|move|p2a: Latios|Draco Meteor|p1a: Celebi
+|-damage|p1a: Celebi|23/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1644081632
+|move|p2a: Latios|Draco Meteor|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Celebi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644081639
+|switch|p1a: SEITON|Tyranitar, M|100/100
+|-damage|p1a: SEITON|84/100|[from] Spikes
+|-damage|p1a: SEITON|71/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: SEITON
+|turn|25
+|
+|t:|1644081646
+|-activate|p2a: Latios|move: Pursuit
+|move|p1a: SEITON|Pursuit|p2a: Latios|[from]Pursuit
+|-supereffective|p2a: Latios
+|-enditem|p2a: Latios|Colbur Berry|[eat]
+|-enditem|p2a: Latios|Colbur Berry|[weaken]
+|-damage|p2a: Latios|35/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|90/100
+|-damage|p2a: Ferrothorn|78/100|[from] Spikes
+|-damage|p2a: Ferrothorn|72/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644081672
+|switch|p1a: TR|Skarmory, F|72/100
+|-damage|p1a: TR|60/100|[from] Stealth Rock
+|switch|p2a: Politoed|Politoed, F|51/100
+|-damage|p2a: Politoed|39/100|[from] Spikes
+|-damage|p2a: Politoed|27/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|33/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1644081681
+|switch|p1a: Jellicent|Jellicent, F|76/100 tox
+|-damage|p1a: Jellicent|63/100 tox|[from] Stealth Rock
+|-damage|p1a: Jellicent|47/100 tox|[from] Spikes
+|move|p2a: Politoed|Scald|p1a: Jellicent
+|-heal|p1a: Jellicent|72/100 tox|[from] ability: Water Absorb|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|78/100 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|39/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|72/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1644081695
+|move|p1a: Jellicent|Night Shade|p2a: Politoed
+|-damage|p2a: Politoed|13/100
+|move|p2a: Politoed|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|63/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|69/100 tox|[from] item: Leftovers
+|-heal|p2a: Politoed|19/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|57/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1644081702
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|25/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1644081714
+|switch|p2a: Ferrothorn|Ferrothorn, M|78/100
+|-damage|p2a: Ferrothorn|65/100|[from] Spikes
+|-damage|p2a: Ferrothorn|59/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|63/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|53/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1644081728
+|switch|p1a: TR|Skarmory, F|60/100
+|-damage|p1a: TR|47/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: TR
+|-sidestart|p1: toytean|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|47/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1644081734
+|switch|p2a: Tentacruel|Tentacruel, M|42/100
+|-damage|p2a: Tentacruel|29/100|[from] Spikes
+|-damage|p2a: Tentacruel|17/100|[from] Stealth Rock
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|97/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|23/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|29/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|t:|1644081741
+|switch|p1a: Jellicent|Jellicent, F|63/100 tox
+|-damage|p1a: Jellicent|51/100 tox|[from] Stealth Rock
+|-damage|p1a: Jellicent|26/100 tox|[from] Spikes
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|35/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|41/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|26/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1644081747
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|76/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|47/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|53/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|70/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1644081758
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|59/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|57/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1644081767
+|move|p2a: Tentacruel|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Tentacruel|[miss]
+|-miss|p1a: Jellicent|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|71/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|77/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|39/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1644081774
+|move|p2a: Tentacruel|Toxic|p1a: Jellicent
+|-fail|p1a: Jellicent|tox
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|89/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|83/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|89/100|[from] item: Black Sludge
+|-heal|p1a: Jellicent|95/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|64/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1644081779
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Alakazam
+|-damage|p1a: Alakazam|94/100
+|-sideend|p2: MTV BRATVA|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: MTV BRATVA|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|96/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|
+|t:|1644081792
+|move|p1a: Alakazam|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644081795
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|40
+|
+|t:|1644081805
+|switch|p1a: TR|Skarmory, F|97/100
+|-damage|p1a: TR|85/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: TR
+|-resisted|p1a: TR
+|-damage|p1a: TR|81/100
+|c|+Leo|bratva es en serio. mi casero ha amenazado con echarme a la calle si no le pago la renta. tus 30 euros podrian salvar mi vida.
+|inactive|MTV BRATVA has 270 seconds left.
+|c|+Leo|esto no es una broma, es un grito de auxilio
+|c|☆MTV BRATVA|donde estas ahora mismo
+|c|+Leo|estoy en un auto de policia
+|
+|t:|1644081863
+|switch|p2a: Volcarona|Volcarona, M|88/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|94/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|c|☆MTV BRATVA|pais
+|c|+Leo|me estan llevando a la estacion para tomar mis huellas
+|c|+Leo|alemania.
+|inactive|MTV BRATVA has 240 seconds left.
+|c|☆MTV BRATVA|voy, iré a pie
+|c|☆MTV BRATVA|tardaré
+|
+|t:|1644081887
+|move|p2a: Volcarona|Substitute|p2a: Volcarona
+|-start|p2a: Volcarona|Substitute
+|-damage|p2a: Volcarona|70/100
+|move|p1a: TR|Whirlwind|p2a: Volcarona
+|drag|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: TR|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|42
+|
+|t:|1644081891
+|move|p2a: Landorus|Stone Edge|p1a: TR
+|-damage|p1a: TR|54/100
+|move|p1a: TR|Spikes|p2a: Landorus
+|-sidestart|p2: MTV BRATVA|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|c|+Leo|apresurate bratva, tienes que correr como goku en el camino serpiente
+|
+|t:|1644081895
+|switch|p2a: Latios|Latios, M|35/100
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|100/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|44
+|
+|t:|1644081904
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|86/100
+|-singleturn|p2a: Latios|move: Roost
+|move|p1a: TR|Spikes|p2a: Latios
+|-sidestart|p2: MTV BRATVA|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|45
+|
+|t:|1644081917
+|move|p2a: Latios|Surf|p1a: TR
+|-damage|p1a: TR|56/100
+|move|p1a: TR|Whirlwind|p2a: Latios
+|drag|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: TR|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+|
+|t:|1644081922
+|move|p2a: Landorus|U-turn|p1a: TR
+|-resisted|p1a: TR
+|-damage|p1a: TR|52/100
+|
+|t:|1644081926
+|switch|p2a: Latios|Latios, M|86/100|[from]move: U-turn
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|100/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|47
+|
+|t:|1644081929
+|move|p2a: Latios|Surf|p1a: TR
+|-damage|p1a: TR|50/100
+|move|p1a: TR|Whirlwind|p2a: Latios
+|drag|p2a: Ferrothorn|Ferrothorn, M|47/100 brn
+|-damage|p2a: Ferrothorn|30/100 brn|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|36/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|24/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1644081945
+|switch|p2a: Latios|Latios, M|86/100
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|99/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|
+|t:|1644081948
+|move|p2a: Latios|Surf|p1a: TR
+|-damage|p1a: TR|54/100
+|move|p1a: TR|Whirlwind|p2a: Latios
+|drag|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: TR|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|50
+|
+|t:|1644081962
+|move|p2a: Landorus|U-turn|p1a: TR
+|-resisted|p1a: TR
+|-damage|p1a: TR|49/100
+|
+|t:|1644081965
+|switch|p2a: Volcarona|Volcarona, M|70/100|[from]move: U-turn
+|-damage|p2a: Volcarona|53/100|[from] Spikes
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|99/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|59/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1644081971
+|move|p2a: Volcarona|Hurricane|p1a: TR
+|-resisted|p1a: TR
+|-crit|p1a: TR
+|-damage|p1a: TR|54/100
+|move|p1a: TR|Whirlwind|p2a: Volcarona
+|drag|p2a: Ferrothorn|Ferrothorn, M|24/100 brn
+|-damage|p2a: Ferrothorn|8/100 brn|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|1/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1644081980
+|switch|p2a: Latios|Latios, M|86/100
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|100/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|53
+|
+|t:|1644081983
+|move|p2a: Latios|Surf|p1a: TR
+|-damage|p1a: TR|51/100
+|move|p1a: TR|Whirlwind|p2a: Latios
+|drag|p2a: Ferrothorn|Ferrothorn, M|1/100 brn
+|-damage|p2a: Ferrothorn|0 fnt|[from] Spikes
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644081989
+|switch|p2a: Latios|Latios, M|86/100
+|turn|54
+|
+|t:|1644081999
+|switch|p1a: Jellicent|Jellicent, F|64/100 tox
+|-damage|p1a: Jellicent|52/100 tox|[from] Stealth Rock
+|-damage|p1a: Jellicent|27/100 tox|[from] Spikes
+|move|p2a: Latios|Surf|p1a: Jellicent
+|-heal|p1a: Jellicent|52/100 tox|[from] ability: Water Absorb|[of] p2a: Latios
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|52/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1644082003
+|move|p2a: Latios|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|13/100 tox
+|-unboost|p1a: Jellicent|spd|1
+|move|p1a: Jellicent|Night Shade|p2a: Latios
+|-damage|p2a: Latios|52/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|19/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|7/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1644082009
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|100/100
+|-singleturn|p2a: Latios|move: Roost
+|move|p1a: Jellicent|Night Shade|p2a: Latios
+|-damage|p2a: Latios|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|13/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|0 fnt|[from] psn
+|faint|p1a: Jellicent
+|upkeep
+|
+|t:|1644082012
+|switch|p1a: Alakazam|Alakazam, M|94/100
+|turn|57
+|
+|t:|1644082022
+|move|p1a: Alakazam|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|15/100
+|move|p2a: Latios|Draco Meteor|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Alakazam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644082026
+|switch|p1a: SEITON|Tyranitar, M|71/100
+|-damage|p1a: SEITON|59/100|[from] Stealth Rock
+|-damage|p1a: SEITON|34/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: SEITON
+|turn|58
+|
+|t:|1644082029
+|move|p2a: Latios|Draco Meteor|p1a: SEITON
+|-damage|p1a: SEITON|18/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: SEITON|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644082041
+|switch|p2a: Politoed|Politoed, F|25/100
+|-damage|p2a: Politoed|8/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|59
+|
+|t:|1644082045
+|move|p2a: Politoed|Scald|p1a: SEITON
+|-supereffective|p1a: SEITON
+|-damage|p1a: SEITON|0 fnt
+|faint|p1a: SEITON
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644082056
+|switch|p1a: TR|Skarmory, F|51/100
+|-damage|p1a: TR|39/100|[from] Stealth Rock
+|turn|60
+|
+|t:|1644082061
+|move|p2a: Politoed|Scald|p1a: TR
+|-damage|p1a: TR|3/100
+|move|p1a: TR|Roost|p1a: TR
+|-heal|p1a: TR|53/100
+|-singleturn|p1a: TR|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|20/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1644082068
+|move|p2a: Politoed|Scald|p1a: TR
+|-crit|p1a: TR
+|-damage|p1a: TR|0 fnt
+|faint|p1a: TR
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644082071
+|switch|p1a: Terrakion|Terrakion|26/100
+|-damage|p1a: Terrakion|20/100|[from] Stealth Rock
+|-damage|p1a: Terrakion|0 fnt|[from] Spikes
+|faint|p1a: Terrakion
+|
+|win|MTV BRATVA
+|c|☆MTV BRATVA|jajajajaj

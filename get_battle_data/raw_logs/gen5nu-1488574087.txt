@@ -1,0 +1,593 @@
+|j|☆quidd games
+|j|☆RyloBurner
+|t:|1641783756
+|gametype|singles
+|player|p1|quidd games|hilda-wonderlauncher|1000
+|player|p2|RyloBurner|nurseryaide|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Golurk|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Musharna, F|item
+|poke|p2|Ludicolo, F|item
+|poke|p2|Swellow, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Golem, F|item
+|poke|p2|Gurdurr, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quidd games)
+|
+|t:|1641783777
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: Gurdurr|Gurdurr, F|100/100
+|turn|1
+|
+|t:|1641783787
+|move|p1a: Garbodor|Toxic Spikes|p2a: Gurdurr
+|-sidestart|p2: RyloBurner|move: Toxic Spikes
+|move|p2a: Gurdurr|Knock Off|p1a: Garbodor
+|-damage|p1a: Garbodor|94/100
+|-damage|p2a: Gurdurr|84/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|-enditem|p1a: Garbodor|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gurdurr
+|
+|upkeep
+|turn|2
+|
+|t:|1641783795
+|switch|p2a: Musharna|Musharna, F|100/100
+|-status|p2a: Musharna|psn
+|move|p1a: Garbodor|Toxic Spikes|p2a: Musharna
+|-sidestart|p2: RyloBurner|move: Toxic Spikes
+|
+|-damage|p2a: Musharna|88/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1641783803
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Musharna|82/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1641783812
+|move|p1a: Skuntank|Pursuit|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|48/100 psn
+|move|p2a: Musharna|Heal Bell|p2a: Musharna
+|-activate|p2a: Musharna|move: Heal Bell
+|-curestatus|p2a: Musharna|psn|[msg]
+|
+|-heal|p2a: Musharna|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641783824
+|move|p1a: Skuntank|Pursuit|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|22/100
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|72/100
+|
+|-heal|p2a: Musharna|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641783832
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1641783840
+|move|p1a: Golurk|Dynamic Punch|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|92/100
+|-start|p2a: Musharna|confusion
+|-activate|p2a: Musharna|confusion
+|move|p2a: Musharna|Psyshock|p1a: Golurk
+|-damage|p1a: Golurk|65/100
+|
+|-heal|p1a: Golurk|71/100|[from] item: Leftovers
+|-heal|p2a: Musharna|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1641783850
+|switch|p2a: Gurdurr|Gurdurr, F|84/100
+|-status|p2a: Gurdurr|tox
+|move|p1a: Golurk|Toxic|p2a: Gurdurr
+|-fail|p2a: Gurdurr|tox
+|
+|-heal|p1a: Golurk|77/100|[from] item: Leftovers
+|-damage|p2a: Gurdurr|78/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1641783859
+|move|p1a: Golurk|Dynamic Punch|p2a: Gurdurr
+|-damage|p2a: Gurdurr|58/100 tox
+|-start|p2a: Gurdurr|confusion
+|-activate|p2a: Gurdurr|confusion
+|move|p2a: Gurdurr|Knock Off|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|65/100
+|-enditem|p1a: Golurk|Leftovers|[from] move: Knock Off|[of] p2a: Gurdurr
+|
+|-damage|p2a: Gurdurr|46/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1641783870
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-status|p2a: Alomomola|tox
+|move|p1a: Golurk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|78/100 tox
+|
+|-heal|p2a: Alomomola|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|78/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1641783878
+|move|p1a: Golurk|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: RyloBurner|move: Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|72/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1641783886
+|switch|p2a: Gurdurr|Gurdurr, F|46/100 tox
+|-damage|p2a: Gurdurr|40/100 tox|[from] Stealth Rock
+|move|p1a: Golurk|Dynamic Punch|p2a: Gurdurr
+|-damage|p2a: Gurdurr|20/100 tox
+|-start|p2a: Gurdurr|confusion
+|
+|-heal|p2a: Gurdurr|91/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Gurdurr|85/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1641783897
+|move|p1a: Golurk|Earthquake|p2a: Gurdurr
+|-damage|p2a: Gurdurr|59/100 tox
+|-activate|p2a: Gurdurr|confusion
+|move|p2a: Gurdurr|Ice Punch|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|16/100
+|-status|p1a: Golurk|frz
+|
+|-damage|p2a: Gurdurr|46/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1641783906
+|switch|p2a: Alomomola|Alomomola, M|100/100 tox
+|-damage|p2a: Alomomola|88/100 tox|[from] Stealth Rock
+|cant|p1a: Golurk|frz
+|
+|-heal|p2a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1641783914
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|move|p2a: Alomomola|Scald|p1a: Rotom
+|-damage|p1a: Rotom|81/100
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1641783926
+|switch|p2a: Golem|Golem, F|100/100
+|-damage|p2a: Golem|94/100|[from] Stealth Rock
+|-status|p2a: Golem|tox
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|62/100
+|
+|-heal|p1a: Rotom|68/100|[from] item: Leftovers
+|-damage|p2a: Golem|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1641783941
+|switch|p2a: Musharna|Musharna, F|99/100
+|-status|p2a: Musharna|tox
+|-damage|p2a: Musharna|86/100 tox|[from] Stealth Rock
+|move|p1a: Rotom|Blizzard|p2a: Musharna|[miss]
+|-miss|p1a: Rotom|p2a: Musharna
+|
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|-heal|p2a: Musharna|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|86/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1641783954
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|92/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|80/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1641783963
+|move|p1a: Skuntank|Crunch|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|18/100 tox
+|-unboost|p2a: Musharna|def|1
+|move|p2a: Musharna|Heal Bell|p2a: Musharna
+|-activate|p2a: Musharna|move: Heal Bell
+|-curestatus|p2a: Musharna|tox|[msg]
+|-curestatus|p2: Gurdurr|tox|[msg]
+|-curestatus|p2: Alomomola|tox|[msg]
+|-curestatus|p2: Golem|tox|[msg]
+|
+|-heal|p2a: Musharna|24/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1641783976
+|switch|p1a: Rotom|Rotom-Frost|74/100
+|switch|p2a: Golem|Golem, F|88/100
+|-status|p2a: Golem|tox
+|-damage|p2a: Golem|82/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|81/100|[from] item: Leftovers
+|-damage|p2a: Golem|76/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1641783985
+|move|p1a: Rotom|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641784005
+|switch|p2a: Gurdurr|Gurdurr, F|46/100
+|-damage|p2a: Gurdurr|40/100|[from] Stealth Rock
+|-status|p2a: Gurdurr|tox
+|turn|22
+|
+|t:|1641784010
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|62/100
+|move|p2a: Gurdurr|Drain Punch|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|-heal|p2a: Gurdurr|48/100 tox|[from] drain|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|68/100|[from] item: Leftovers
+|-damage|p2a: Gurdurr|42/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1641784021
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Gurdurr|Ice Punch|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|92/100
+|-damage|p2a: Gurdurr|25/100 tox|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-damage|p2a: Gurdurr|13/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1641784029
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gurdurr|Drain Punch|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Gurdurr|0 fnt|[from] psn
+|faint|p2a: Gurdurr
+|upkeep
+|
+|t:|1641784033
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|-status|p2a: Ludicolo|tox
+|turn|25
+|
+|t:|1641784043
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1641784049
+|move|p2a: Ludicolo|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100
+|-heal|p2a: Ludicolo|100/100 tox|[from] drain|[of] p1a: Alomomola
+|-damage|p2a: Ludicolo|91/100 tox|[from] item: Life Orb
+|move|p1a: Alomomola|Knock Off|p2a: Ludicolo
+|-damage|p2a: Ludicolo|85/100 tox
+|-enditem|p2a: Ludicolo|Life Orb|[from] move: Knock Off|[of] p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Alomomola|56/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Ludicolo|73/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1641784060
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|55/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1641784068
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Ludicolo|Hydro Pump|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|31/100 tox|[from] psn
+|upkeep
+|
+|t:|1641784076
+|switch|p1a: Alomomola|Alomomola, F|89/100
+|turn|29
+|
+|t:|1641784089
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-status|p2a: Alomomola|tox
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-weather|none
+|-heal|p2a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1641784099
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|82/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1641784111
+|switch|p2a: Musharna|Musharna, F|24/100
+|-status|p2a: Musharna|tox
+|-damage|p2a: Musharna|12/100 tox|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Frost|68/100
+|
+|-heal|p1a: Rotom|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Musharna|73/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Musharna|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|73/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1641784125
+|move|p1a: Rotom|Thunderbolt|p2a: Musharna
+|-damage|p2a: Musharna|38/100 tox
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|88/100 tox
+|
+|-heal|p2a: Musharna|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|81/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1641784133
+|move|p1a: Rotom|Thunderbolt|p2a: Musharna
+|-damage|p2a: Musharna|50/100 tox
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|-heal|p2a: Musharna|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|37/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1641784141
+|move|p1a: Rotom|Thunderbolt|p2a: Musharna
+|-damage|p2a: Musharna|13/100 tox
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|63/100 tox
+|
+|-heal|p2a: Musharna|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Musharna|44/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1641784170
+|move|p1a: Rotom|Thunderbolt|p2a: Musharna
+|-damage|p2a: Musharna|21/100 tox
+|move|p2a: Musharna|Heal Bell|p2a: Musharna
+|-activate|p2a: Musharna|move: Heal Bell
+|-curestatus|p2a: Musharna|tox|[msg]
+|-curestatus|p2: Ludicolo|tox|[msg]
+|-curestatus|p2: Alomomola|tox|[msg]
+|
+|-heal|p2a: Musharna|27/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1641784180
+|move|p1a: Rotom|Blizzard|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|upkeep
+|
+|t:|1641784189
+|switch|p2a: Swellow|Swellow, M|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1641784193
+|move|p2a: Swellow|Protect|p2a: Swellow
+|-singleturn|p2a: Swellow|Protect
+|move|p1a: Rotom|Thunderbolt|p2a: Swellow
+|-activate|p2a: Swellow|move: Protect
+|
+|-status|p2a: Swellow|brn|[from] item: Flame Orb
+|upkeep
+|turn|38
+|
+|t:|1641784209
+|move|p2a: Swellow|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|
+|t:|1641784212
+|switch|p2a: Ludicolo|Ludicolo, F|31/100|[from]move: U-turn
+|-status|p2a: Ludicolo|tox
+|-damage|p2a: Ludicolo|18/100 tox|[from] Stealth Rock
+|move|p1a: Rotom|Thunderbolt|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-heal|p1a: Rotom|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641784214
+|switch|p2a: Swellow|Swellow, M|76/100 brn
+|-damage|p2a: Swellow|51/100 brn|[from] Stealth Rock
+|turn|39
+|
+|t:|1641784225
+|move|p2a: Swellow|Facade|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Swellow|38/100 brn|[from] brn
+|upkeep
+|
+|t:|1641784241
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|turn|40
+|
+|t:|1641784245
+|move|p2a: Swellow|Protect|p2a: Swellow
+|-singleturn|p2a: Swellow|Protect
+|move|p1a: Kangaskhan|Fake Out|p2a: Swellow
+|-activate|p2a: Swellow|move: Protect
+|
+|-damage|p2a: Swellow|26/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1641784252
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Swellow
+|-damage|p2a: Swellow|0 fnt
+|faint|p2a: Swellow
+|
+|upkeep
+|
+|t:|1641784256
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-status|p2a: Alomomola|tox
+|turn|42
+|
+|t:|1641784261
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100 tox
+|-damage|p1a: Kangaskhan|84/100|[from] Recoil
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|54/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1641784270
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|20/100 tox
+|-damage|p1a: Kangaskhan|66/100|[from] Recoil
+|move|p2a: Alomomola|Scald|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|50/100
+|
+|-heal|p2a: Alomomola|70/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|63/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1641784277
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Alomomola|51/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1641784284
+|move|p2a: Alomomola|Toxic|p1a: Alomomola
+|-status|p1a: Alomomola|tox
+|move|p1a: Alomomola|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|49/100 tox
+|-enditem|p2a: Alomomola|Leftovers|[from] move: Knock Off|[of] p1a: Alomomola
+|
+|-damage|p1a: Alomomola|94/100 tox|[from] psn
+|-damage|p2a: Alomomola|24/100 tox|[from] psn
+|upkeep
+|turn|46
+|-message|RyloBurner forfeited.
+|
+|win|quidd games
+|raw|quidd games's rating: 1000 &rarr; <strong>1057</strong><br />(+57 for winning)
+|raw|RyloBurner's rating: 1156 &rarr; <strong>1120</strong><br />(-36 for losing)
+|l|☆RyloBurner

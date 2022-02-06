@@ -1,0 +1,304 @@
+|j|☆SpacialRendevous
+|j|‽Purple Hairy Girl
+|t:|1633046802
+|gametype|singles
+|player|p1|SpacialRendevous|zinnia|
+|player|p2|Purple Hairy Girl|acerola|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Meloetta|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Rhyperior, F|item
+|poke|p1|Victini|item
+|poke|p1|Zapdos|item
+|poke|p1|Cobalion|item
+|poke|p2|Glalie, M|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Bronzong|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Flygon, M|item
+|poke|p2|Emboar, M|item
+|teampreview
+|j|+Chuo͜͡∞ku
+|j| anibunny
+|
+|t:|1633046863
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|
+|t:|1633046871
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Flygon|Outrage|p1a: Blastoise
+|-damage|p1a: Blastoise|51/100
+|
+|-heal|p1a: Blastoise|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1633046877
+|move|p2a: Flygon|Outrage|p1a: Blastoise|[from]lockedmove
+|-damage|p1a: Blastoise|5/100
+|move|p1a: Blastoise|Scald|p2a: Flygon
+|-damage|p2a: Flygon|53/100
+|
+|-heal|p1a: Blastoise|11/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1633046907
+|move|p2a: Flygon|Outrage|p1a: Blastoise|[from]lockedmove
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|-start|p2a: Flygon|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1633046926
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|4
+|
+|t:|1633046936
+|switch|p2a: Emboar|Emboar, M|100/100
+|move|p1a: Cobalion|Close Combat|p2a: Emboar
+|-damage|p2a: Emboar|30/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1633046944
+|move|p2a: Emboar|Superpower|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|-unboost|p2a: Emboar|atk|1
+|-unboost|p2a: Emboar|def|1
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|t:|1633046948
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|6
+|
+|t:|1633046956
+|switch|p2a: Flygon|Flygon, M|53/100
+|move|p1a: Zapdos|Discharge|p2a: Flygon
+|-immune|p2a: Flygon
+|
+|upkeep
+|turn|7
+|
+|t:|1633046958
+|move|p2a: Flygon|Outrage|p1a: Zapdos
+|-damage|p1a: Zapdos|31/100
+|move|p1a: Zapdos|Hidden Power|p2a: Flygon
+|-damage|p2a: Flygon|27/100
+|
+|-heal|p1a: Zapdos|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1633046964
+|move|p2a: Flygon|Outrage|p1a: Zapdos|[from]lockedmove
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-start|p2a: Flygon|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1633046969
+|switch|p1a: Victini|Victini|100/100
+|turn|9
+|
+|t:|1633046991
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|move|p1a: Victini|U-turn|p2a: Spiritomb
+|-damage|p2a: Spiritomb|80/100
+|
+|t:|1633046999
+|switch|p1a: Rhyperior|Rhyperior, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Spiritomb|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1633047005
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Purple Hairy Girl|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1633047008
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Victini
+|-sidestart|p1: SpacialRendevous|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1633047037
+|switch|p2a: Qwilfish|Qwilfish, M|100/100
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|move|p1a: Victini|V-create|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|66/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|
+|-heal|p2a: Qwilfish|72/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1633047054
+|switch|p1a: Meloetta|Meloetta|100/100
+|-damage|p1a: Meloetta|88/100|[from] Stealth Rock
+|move|p2a: Qwilfish|Spikes|p1a: Meloetta
+|-sidestart|p1: SpacialRendevous|Spikes
+|
+|-heal|p2a: Qwilfish|78/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1633047058
+|move|p1a: Meloetta|Shadow Ball|p2a: Qwilfish
+|-damage|p2a: Qwilfish|9/100
+|-unboost|p2a: Qwilfish|spd|1
+|move|p2a: Qwilfish|Thunder Wave|p1a: Meloetta
+|-status|p1a: Meloetta|par
+|
+|-heal|p2a: Qwilfish|15/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1633047061
+|switch|p2a: Spiritomb|Spiritomb, M|86/100
+|-damage|p2a: Spiritomb|74/100|[from] Stealth Rock
+|move|p1a: Meloetta|Shadow Ball|p2a: Spiritomb
+|-damage|p2a: Spiritomb|31/100
+|-unboost|p2a: Spiritomb|spd|1
+|
+|-heal|p2a: Spiritomb|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1633047067
+|move|p2a: Spiritomb|Pursuit|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|42/100 par
+|cant|p1a: Meloetta|par
+|
+|-heal|p2a: Spiritomb|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1633047070
+|move|p2a: Spiritomb|Pursuit|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-heal|p2a: Spiritomb|49/100|[from] item: Leftovers
+|upkeep
+|j| blackkaiser
+|
+|t:|1633047075
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|-damage|p1a: Rhyperior|88/100|[from] Spikes
+|-damage|p1a: Rhyperior|82/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1633047082
+|move|p1a: Rhyperior|Earthquake|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|-heal|p1a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1633047085
+|switch|p2a: Flygon|Flygon, M|27/100
+|-damage|p2a: Flygon|21/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1633047087
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Flygon|Earthquake|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|-heal|p1a: Rhyperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1633047116
+|move|p2a: Flygon|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|37/100
+|move|p1a: Rhyperior|Rock Blast|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|12/100
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|4/100
+|-hitcount|p2a: Flygon|2
+|
+|-heal|p1a: Rhyperior|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|l| blackkaiser
+|
+|t:|1633047155
+|move|p2a: Flygon|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|t:|1633047156
+|switch|p1a: Victini|Victini|100/100
+|-damage|p1a: Victini|76/100|[from] Stealth Rock
+|-damage|p1a: Victini|63/100|[from] Spikes
+|turn|22
+|-message|SpacialRendevous forfeited.
+|
+|win|Purple Hairy Girl
+|n|☆SpacialRendevous|spacialrendevous
+|n|‽Purple Hairy Girl|purplehairygirl
+|n| Chuo͜͡∞ku|chuoku
+|n| anibunny|anibunny
+|l|☆SpacialRendevous
+|l|‽Purple Hairy Girl
+|j| SturdyShedinja291
+|n| Kahiba|chuoku
+|l| anibunny
+|l| SturdyShedinja291
+|j| asenath's chant
+|l| asenath's chant
+|n| Chuo͜͡∞ku|kahiba
+|l| Chuo͜͡∞ku
+|j| Chuo͜͡∞ku

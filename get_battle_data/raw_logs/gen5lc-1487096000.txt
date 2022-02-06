@@ -1,0 +1,71 @@
+|j|☆Quinn010
+|j|☆danet
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641569496
+|gametype|singles
+|player|p1|Quinn010|mars|
+|player|p2|danet|red-gen1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Clamperl, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Hippopotas, L5, F|item
+|poke|p2|Lileep, L5, M|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Frillish, L5, F|item
+|teampreview
+|j| FruitDogs
+|j| AshKetchumReturnz
+|
+|t:|1641569518
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|inactive|danet has 120 seconds left.
+|inactive|danet has 90 seconds left.
+|inactive|danet has 60 seconds left.
+|inactive|danet has 30 seconds left.
+|c|☆Quinn010|a
+|inactive|danet has 20 seconds left.
+|
+|t:|1641569648
+|move|p1a: Mienfoo|U-turn|p2a: Hippopotas
+|-damage|p2a: Hippopotas|84/100
+|inactive|danet has 25 seconds left this turn.
+|
+|t:|1641569651
+|switch|p1a: Natu|Natu, L5, M|100/100|[from]move: U-turn
+|move|p2a: Hippopotas|Stealth Rock|p1a: Natu
+|move|p1a: Natu|Stealth Rock|p2a: Hippopotas|[from]ability: Magic Bounce
+|-sidestart|p2: danet|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|2
+|-message|danet forfeited.
+|
+|win|Quinn010
+|n|☆Quinn010|quinn010
+|n|☆danet|danet
+|n| FruitDogs|fruitdogs
+|n| AshKetchumReturnz|ashketchumreturnz

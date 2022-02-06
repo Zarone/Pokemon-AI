@@ -1,0 +1,49 @@
+|j|☆r0ady
+|j|☆meisterbogen
+|t:|1636224061
+|gametype|singles
+|player|p1|r0ady|giovanni|
+|player|p2|meisterbogen|waiter-gen4|
+|teamsize|p1|6
+|teamsize|p2|1
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Cinccino, F|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Druddigon, F|item
+|poke|p1|Xatu, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Cobalion|item
+|poke|p2|Sawk, M|
+|teampreview
+|j| Miyan
+|c|☆r0ady|oh no
+|l| Miyan
+|c|☆meisterbogen|do u know the name of this pokemon
+|c|☆r0ady|throh
+|c|☆meisterbogen|wrong
+|c|☆meisterbogen|it's sawk
+|c|☆r0ady|hitmonchan
+|c|☆meisterbogen|lol
+|c|☆meisterbogen|anyway sorry
+|-message|meisterbogen forfeited.
+|
+|win|r0ady
+|n|☆r0ady|r0ady
+|n|☆meisterbogen|meisterbogen
+|l|☆meisterbogen
+|l|☆r0ady
+|j|☆meisterbogen
+|player|p2|meisterbogen|waiter-gen4

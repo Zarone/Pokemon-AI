@@ -1,0 +1,362 @@
+|j|☆mimi7kyu七海
+|j|☆34.NiDo
+|t:|1643869456
+|gametype|singles
+|player|p1|mimi7kyu七海|pokemonranger-gen4|
+|player|p2|34.NiDo|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Crobat, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Gastrodon, F|item
+|poke|p2|Durant, M|item
+|poke|p2|Serperior, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mimi7kyu七海)
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1643869484
+|start
+|switch|p1a: my grumpy grandpa|Ferrothorn, M|100/100
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|1
+|
+|t:|1643869495
+|move|p2a: Crobat|Heat Wave|p1a: my grumpy grandpa|[miss]
+|-miss|p2a: Crobat|p1a: my grumpy grandpa
+|move|p1a: my grumpy grandpa|Stealth Rock|p2a: Crobat
+|-sidestart|p2: 34.NiDo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643869505
+|move|p2a: Crobat|Nasty Plot|p2a: Crobat
+|-boost|p2a: Crobat|spa|2
+|move|p1a: my grumpy grandpa|Spikes|p2a: Crobat
+|-sidestart|p2: 34.NiDo|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1643869512
+|move|p2a: Crobat|Heat Wave|p1a: my grumpy grandpa
+|-supereffective|p1a: my grumpy grandpa
+|-damage|p1a: my grumpy grandpa|0 fnt
+|faint|p1a: my grumpy grandpa
+|
+|upkeep
+|
+|t:|1643869515
+|switch|p1a: lil pickle|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: lil pickle
+|turn|4
+|
+|t:|1643869520
+|move|p2a: Crobat|Sludge Bomb|p1a: lil pickle
+|-damage|p1a: lil pickle|40/100
+|-status|p1a: lil pickle|psn
+|move|p1a: lil pickle|Scald|p2a: Crobat
+|-damage|p2a: Crobat|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Crobat|52/100|[from] item: Black Sludge
+|-heal|p1a: lil pickle|47/100 psn|[from] item: Leftovers
+|-damage|p1a: lil pickle|34/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1643869526
+|switch|p1a: squid game omg|Tentacruel, F|100/100
+|move|p2a: Crobat|Sludge Bomb|p1a: squid game omg
+|-resisted|p1a: squid game omg
+|-damage|p1a: squid game omg|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: squid game omg|79/100|[from] ability: Rain Dish
+|-heal|p2a: Crobat|58/100|[from] item: Black Sludge
+|-heal|p1a: squid game omg|85/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1643869545
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|88/100|[from] Spikes
+|-damage|p2a: Gastrodon|82/100|[from] Stealth Rock
+|move|p1a: squid game omg|Scald|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: squid game omg|91/100|[from] ability: Rain Dish
+|-heal|p1a: squid game omg|97/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1643869558
+|move|p1a: squid game omg|Protect|p1a: squid game omg
+|-singleturn|p1a: squid game omg|Protect
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: squid game omg|100/100|[from] ability: Rain Dish
+|upkeep
+|turn|8
+|
+|t:|1643869562
+|switch|p1a: me|Dragonite, M|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: me
+|-immune|p1a: me
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1643869568
+|move|p1a: me|Hidden Power|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|-damage|p1a: me|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643869581
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|t:|1643869596
+|switch|p1a: squid game omg|Tentacruel, F|100/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: squid game omg
+|-status|p1a: squid game omg|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: squid game omg|94/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|-heal|p1a: squid game omg|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1643869601
+|move|p2a: Tyranitar|Stealth Rock|p1a: squid game omg
+|-sidestart|p1: mimi7kyu七海|move: Stealth Rock
+|move|p1a: squid game omg|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: squid game omg|94/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|88/100 tox|[from] item: Leftovers
+|-heal|p1a: squid game omg|100/100 par|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1643869607
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p2a: Excadrill|88/100|[from] Spikes
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: squid game omg|Rapid Spin|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|83/100
+|-sideend|p1: mimi7kyu七海|Stealth Rock|[from] move: Rapid Spin|[of] p1a: squid game omg
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: squid game omg|94/100 par|[from] Sandstorm
+|-heal|p2a: Excadrill|89/100|[from] item: Leftovers
+|-heal|p1a: squid game omg|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1643869616
+|move|p2a: Excadrill|Rapid Spin|p1a: squid game omg
+|-damage|p1a: squid game omg|91/100 par
+|-sideend|p2: 34.NiDo|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: 34.NiDo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: squid game omg|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|27/100
+|-status|p2a: Excadrill|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: squid game omg|85/100 par|[from] Sandstorm
+|-heal|p2a: Excadrill|33/100 brn|[from] item: Leftovers
+|-heal|p1a: squid game omg|91/100 par|[from] item: Black Sludge
+|-damage|p2a: Excadrill|21/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1643869626
+|move|p2a: Excadrill|Earthquake|p1a: squid game omg
+|-supereffective|p1a: squid game omg
+|-damage|p1a: squid game omg|26/100 par
+|move|p1a: squid game omg|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: squid game omg|20/100 par|[from] Sandstorm
+|-heal|p1a: squid game omg|26/100 par|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643869636
+|switch|p2a: Tyranitar|Tyranitar, F|82/100 tox
+|turn|15
+|
+|t:|1643869640
+|cant|p1a: squid game omg|par
+|move|p2a: Tyranitar|Rock Slide|p1a: squid game omg
+|-damage|p1a: squid game omg|0 fnt
+|faint|p1a: squid game omg
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1643869645
+|switch|p1a: big boar|Mamoswine, M|100/100
+|turn|16
+|
+|t:|1643869650
+|move|p1a: big boar|Substitute|p1a: big boar
+|-start|p1a: big boar|Substitute
+|-damage|p1a: big boar|76/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: big boar
+|-sidestart|p1: mimi7kyu七海|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1643869657
+|switch|p2a: Crobat|Crobat, M|58/100
+|move|p1a: big boar|Earthquake|p2a: Crobat
+|-immune|p2a: Crobat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crobat|52/100|[from] Sandstorm
+|-heal|p2a: Crobat|58/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1643869666
+|move|p1a: big boar|Ice Shard|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643869673
+|switch|p2a: Tyranitar|Tyranitar, F|76/100 tox
+|turn|19
+|
+|t:|1643869677
+|move|p1a: big boar|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100 tox
+|move|p2a: Tyranitar|Rock Slide|p1a: big boar
+|-end|p1a: big boar|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|12/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1643869684
+|move|p1a: big boar|Substitute|p1a: big boar
+|-start|p1a: big boar|Substitute
+|-damage|p1a: big boar|51/100
+|move|p2a: Tyranitar|Rock Slide|p1a: big boar
+|-end|p1a: big boar|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|6/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1643869694
+|move|p1a: big boar|Substitute|p1a: big boar
+|-start|p1a: big boar|Substitute
+|-damage|p1a: big boar|26/100
+|move|p2a: Tyranitar|Rock Slide|p1a: big boar|[miss]
+|-miss|p2a: Tyranitar|p1a: big boar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|12/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|upkeep
+|j| 127l
+|
+|t:|1643869697
+|switch|p2a: Durant|Durant, M|100/100
+|turn|22
+|
+|t:|1643869702
+|move|p2a: Durant|Entrainment||[still]
+|-fail|p2a: Durant
+|move|p1a: big boar|Earthquake|p2a: Durant
+|-damage|p2a: Durant|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1643869706
+|cant|p2a: Durant|ability: Truant
+|move|p1a: big boar|Earthquake|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643869708
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|24
+|c| 127l|真的打什么啊
+|
+|t:|1643869717
+|move|p2a: Serperior|Giga Drain|p1a: big boar
+|-supereffective|p1a: big boar
+|-end|p1a: big boar|Substitute
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|move|p1a: big boar|Icicle Crash|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|win|mimi7kyu七海
+|l|☆34.NiDo

@@ -1,0 +1,166 @@
+|j|☆Quinn010
+|j|☆danet
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641568375
+|gametype|singles
+|player|p1|Quinn010|mars|
+|player|p2|danet|red-gen1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Diglett, L5, F|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Clamperl, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Hippopotas, L5, M|item
+|poke|p2|Lileep, L5, F|item
+|poke|p2|Bronzor, L5|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Frillish, L5, F|item
+|teampreview
+|j| epicelite2
+|inactive|Quinn010 has 120 seconds left.
+|inactive|danet has 120 seconds left.
+|j| FruitDogs
+|
+|t:|1641568420
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|
+|t:|1641568436
+|switch|p2a: Natu|Natu, L5, F|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|74/100
+|
+|t:|1641568461
+|switch|p1a: Gastly|Gastly, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|96/100|[from] Sandstorm
+|-damage|p2a: Natu|70/100|[from] Sandstorm
+|upkeep
+|turn|2
+|j| Nesnot
+|
+|t:|1641568490
+|switch|p2a: Lileep|Lileep, L5, F|100/100
+|move|p1a: Gastly|Shadow Ball|p2a: Lileep
+|-damage|p2a: Lileep|76/100
+|-unboost|p2a: Lileep|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|91/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1641568501
+|move|p1a: Gastly|Hidden Power|p2a: Lileep
+|-supereffective|p2a: Lileep
+|-crit|p2a: Lileep
+|-damage|p2a: Lileep|0 fnt
+|faint|p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|86/100|[from] Sandstorm
+|upkeep
+|inactive|danet has 120 seconds left.
+|
+|t:|1641568513
+|switch|p2a: Bronzor|Bronzor, L5|100/100
+|turn|4
+|
+|t:|1641568516
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Bronzor
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|96/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1641568520
+|move|p1a: Porygon|Trick|p2a: Bronzor
+|-activate|p1a: Porygon|move: Trick|[of] p2a: Bronzor
+|-item|p2a: Bronzor|Choice Scarf|[from] move: Trick
+|-item|p1a: Porygon|Eviolite|[from] move: Trick
+|move|p2a: Bronzor|Calm Mind|p2a: Bronzor
+|-boost|p2a: Bronzor|spa|1
+|-boost|p2a: Bronzor|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon|92/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1641568531
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|-damage|p2a: Timburr|96/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1641568541
+|move|p1a: Mienfoo|Acrobatics|p2a: Timburr
+|-enditem|p1a: Mienfoo|Flying Gem|[from] gem
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|91/100|[from] Sandstorm
+|upkeep
+|
+|t:|1641568554
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|turn|8
+|
+|t:|1641568560
+|move|p1a: Mienfoo|Knock Off|p2a: Hippopotas
+|-crit|p2a: Hippopotas
+|-damage|p2a: Hippopotas|80/100
+|-enditem|p2a: Hippopotas|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Hippopotas|Whirlwind|p1a: Mienfoo
+|drag|p1a: Natu|Natu, L5, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Natu|96/100|[from] Sandstorm
+|upkeep
+|turn|9
+|-message|danet forfeited.
+|
+|win|Quinn010
+|n|☆Quinn010|quinn010
+|n|☆danet|danet
+|n| epicelite2|epicelite2
+|n| FruitDogs|fruitdogs
+|n| Nesnot|nesnot
+|l|☆danet
+|l|☆Quinn010
+|j|☆Quinn010
+|player|p1|Quinn010|mars
+|l|☆Quinn010
+|player|p1|
+|l| epicelite2
+|l| Nesnot

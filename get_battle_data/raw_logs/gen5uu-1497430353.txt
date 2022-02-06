@@ -1,0 +1,287 @@
+|j|☆MPKorillon2
+|j|☆jfwq
+|t:|1643027780
+|gametype|singles
+|player|p1|MPKorillon2|li|
+|player|p2|jfwq|preschooler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Porygon-Z|item
+|poke|p1|Zoroark, M|item
+|poke|p1|Heracross, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Registeel|item
+|poke|p2|Accelgor, M|item
+|poke|p2|Heracross, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Poliwrath, F|item
+|poke|p2|Eelektross, M|item
+|teampreview
+|
+|t:|1643027800
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|turn|1
+|
+|t:|1643027809
+|move|p2a: Accelgor|Encore||[still]
+|-fail|p2a: Accelgor
+|move|p1a: Bronzong|Substitute|p1a: Bronzong
+|-start|p1a: Bronzong|Substitute
+|-damage|p1a: Bronzong|76/100
+|
+|-heal|p1a: Bronzong|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643027828
+|switch|p2a: BG|Swampert, M|100/100
+|move|p1a: Bronzong|Stealth Rock|p2a: BG
+|-sidestart|p2: jfwq|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643027836
+|move|p2a: BG|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: MPKorillon2|move: Stealth Rock
+|move|p1a: Bronzong|Zen Headbutt|p2a: BG
+|-damage|p2a: BG|76/100
+|
+|-heal|p1a: Bronzong|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643027851
+|move|p2a: BG|Rain Dance|p2a: BG
+|-weather|RainDance
+|move|p1a: Bronzong|Zen Headbutt|p2a: BG
+|-damage|p2a: BG|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643027860
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|-damage|p2a: Poliwrath|94/100|[from] Stealth Rock
+|move|p1a: Bronzong|Explosion|p2a: Poliwrath
+|-damage|p2a: Poliwrath|24/100
+|-enditem|p2a: Poliwrath|Sitrus Berry|[eat]
+|-heal|p2a: Poliwrath|49/100|[from] item: Sitrus Berry
+|faint|p1a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643027870
+|switch|p1a: Bourrin|Darmanitan, M, shiny|100/100
+|-damage|p1a: Bourrin|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1643027876
+|move|p2a: Poliwrath|Waterfall|p1a: Bourrin
+|-damage|p1a: Bourrin|0 fnt
+|replace|p1a: Zoroark|Zoroark, M, shiny
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643027885
+|switch|p1a: Zap|Porygon-Z|100/100
+|-damage|p1a: Zap|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1643027889
+|move|p2a: Poliwrath|Brick Break|p1a: Zap
+|-supereffective|p1a: Zap
+|-damage|p1a: Zap|7/100
+|move|p1a: Zap|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643027897
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1643027902
+|switch|p1a: salunasi|Registeel|100/100
+|-damage|p1a: salunasi|94/100|[from] Stealth Rock
+|move|p2a: Eelektross|Volt Switch|p1a: salunasi
+|-damage|p1a: salunasi|82/100
+|
+|t:|1643027910
+|switch|p2a: Accelgor|Accelgor, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Accelgor|75/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|j| Kattungar21
+|
+|t:|1643027917
+|move|p2a: Accelgor|Final Gambit|p1a: salunasi
+|-damage|p1a: salunasi|0 fnt
+|faint|p2a: Accelgor
+|faint|p1a: salunasi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|l| Kattungar21
+|
+|t:|1643027925
+|switch|p2a: among us|Amoonguss, M|100/100
+|switch|p1a: Heracross|Heracross, F|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|-damage|p2a: among us|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1643027934
+|move|p1a: Heracross|Megahorn|p2a: among us
+|-damage|p2a: among us|36/100
+|move|p2a: among us|Spore|p1a: Heracross
+|-status|p1a: Heracross|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: among us|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643027943
+|switch|p2a: Eelektross|Eelektross, M|88/100
+|-damage|p2a: Eelektross|76/100|[from] Stealth Rock
+|cant|p1a: Heracross|slp
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1643027950
+|-curestatus|p1a: Heracross|slp|[msg]
+|move|p1a: Heracross|Facade|p2a: Eelektross
+|-damage|p2a: Eelektross|43/100
+|move|p2a: Eelektross|Drain Punch|p1a: Heracross
+|-resisted|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|37/100
+|-heal|p2a: Eelektross|68/100|[from] drain|[of] p1a: Heracross
+|
+|-status|p1a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|t:|1643027965
+|move|p1a: Heracross|Facade|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-damage|p1a: Heracross|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1643027980
+|switch|p2a: petefesse|Heracross, M|100/100
+|-damage|p2a: petefesse|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1643027991
+|move|p2a: petefesse|Endure|p2a: petefesse
+|-singleturn|p2a: petefesse|move: Endure
+|move|p1a: Heracross|Counter||[still]
+|-fail|p1a: Heracross
+|
+|-damage|p1a: Heracross|12/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1643027998
+|move|p2a: petefesse|Endure|p2a: petefesse
+|-singleturn|p2a: petefesse|move: Endure
+|move|p1a: Heracross|Facade|p2a: petefesse
+|-activate|p2a: petefesse|move: Endure
+|-damage|p2a: petefesse|1/100
+|-enditem|p2a: petefesse|Salac Berry|[eat]
+|-boost|p2a: petefesse|spe|1|[from] item: Salac Berry
+|
+|-damage|p1a: Heracross|0 fnt|[from] brn
+|faint|p1a: Heracross
+|upkeep
+|
+|t:|1643028008
+|switch|p1a: Bourrin|Darmanitan, M, shiny|100/100
+|-damage|p1a: Bourrin|75/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1643028017
+|-singleturn|p1a: Bourrin|move: Focus Punch
+|move|p1a: Bourrin|Focus Punch|p2a: petefesse
+|-resisted|p2a: petefesse
+|-damage|p2a: petefesse|0 fnt
+|faint|p2a: petefesse
+|
+|upkeep
+|
+|t:|1643028024
+|switch|p2a: BG|Swampert, M|51/100
+|-damage|p2a: BG|45/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1643028040
+|switch|p1a: Zap|Porygon-Z|7/100
+|-damage|p1a: Zap|0 fnt|[from] Stealth Rock
+|faint|p1a: Zap
+|move|p2a: BG|Rain Dance|p2a: BG
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643028048
+|switch|p1a: Bourrin|Darmanitan, M, shiny|75/100
+|-damage|p1a: Bourrin|50/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1643028054
+|move|p1a: Bourrin|Earthquake|p2a: BG
+|-damage|p2a: BG|0 fnt
+|faint|p2a: BG
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643028059
+|switch|p2a: among us|Amoonguss, M|76/100
+|-damage|p2a: among us|63/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1643028064
+|move|p1a: Bourrin|Earthquake|p2a: among us
+|-crit|p2a: among us
+|-damage|p2a: among us|0 fnt
+|faint|p2a: among us
+|
+|win|MPKorillon2
+|l|☆jfwq

@@ -1,0 +1,284 @@
+|j|☆iss
+|j|☆F i l l e
+|t:|1642896983
+|gametype|singles
+|player|p1|iss|ethan|
+|player|p2|F i l l e|#scl1breakers|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Abra, L5, M|item
+|poke|p1|Trapinch, L5, F|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Chinchou, L5, M|item
+|poke|p1|Vullaby, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Smoochum, L5, F|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|c|☆F i l l e|yo
+|c|☆F i l l e|the brokens!
+|c|☆F i l l e|hfhf
+|c|☆iss|ye
+|c|☆iss|gl!
+|c|☆F i l l e|should we link or something btw?
+|c|☆iss|sure
+|c|☆F i l l e|this should be a highlight lol
+|c|☆F i l l e|//publicroom ?
+|c|☆iss|/log iss made this room public.
+|j|+Kipkluif
+|c|+Kipkluif|gaming
+|j| London13
+|
+|t:|1642897122
+|start
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|1
+|j| Kodiak_45
+|
+|t:|1642897144
+|move|p1a: Vullaby|Nasty Plot|p1a: Vullaby
+|-boost|p1a: Vullaby|spa|2
+|move|p2a: Mienfoo|U-turn|p1a: Vullaby
+|-damage|p1a: Vullaby|80/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|l| Kodiak_45
+|j| Kodiak_45
+|
+|t:|1642897179
+|switch|p2a: Snover|Snover, L5, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vullaby|76/100|[from] Hail
+|upkeep
+|turn|2
+|
+|t:|1642897193
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Vullaby|Air Slash|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vullaby|72/100|[from] Hail
+|upkeep
+|
+|t:|1642897196
+|switch|p2a: Nicki Minaj|Smoochum, L5, F|100/100
+|-activate|p2a: Nicki Minaj|ability: Forewarn|Dark Pulse|[of] p1a: Vullaby
+|turn|3
+|
+|t:|1642897238
+|move|p2a: Nicki Minaj|Blizzard|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642897242
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|4
+|
+|t:|1642897245
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|96/100
+|
+|t:|1642897254
+|switch|p1a: Abra|Abra, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|91/100|[from] Hail
+|-heal|p2a: Gastly|96/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1642897302
+|move|p1a: Abra|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-crit|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642897319
+|switch|p2a: Nicki Minaj|Smoochum, L5, F|100/100
+|-activate|p2a: Nicki Minaj|ability: Forewarn|Psychic|[of] p1a: Abra
+|turn|6
+|j| zben ☭_☭
+|
+|t:|1642897373
+|move|p2a: Nicki Minaj|Blizzard|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642897376
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|7
+|
+|t:|1642897387
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Regenerator|[from] ability: Trace|[of] p1a: Mienfoo
+|move|p1a: Mienfoo|U-turn|p2a: Porygon
+|-damage|p2a: Porygon|80/100
+|
+|t:|1642897395
+|switch|p1a: Chinchou|Chinchou, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chinchou|96/100|[from] Hail
+|-damage|p2a: Porygon|76/100|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1642897404
+|move|p1a: Chinchou|Volt Switch|p2a: Porygon
+|-damage|p2a: Porygon|52/100
+|
+|t:|1642897407
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100|[from]move: Volt Switch
+|move|p2a: Porygon|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|57/100
+|-unboost|p1a: Mienfoo|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|53/100|[from] Hail
+|-damage|p2a: Porygon|48/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1642897415
+|move|p1a: Mienfoo|High Jump Kick|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|48/100|[from] Hail
+|upkeep
+|
+|t:|1642897418
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|10
+|
+|t:|1642897430
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642897432
+|switch|p1a: Trapinch|Trapinch, L5, F|100/100
+|turn|11
+|
+|t:|1642897436
+|move|p2a: Abra|Psychic|p1a: Trapinch
+|-damage|p1a: Trapinch|31/100
+|move|p1a: Trapinch|Earthquake|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Trapinch|27/100|[from] Hail
+|upkeep
+|
+|t:|1642897455
+|switch|p2a: Snover|Snover, L5, M|100/100
+|turn|12
+|
+|t:|1642897461
+|move|p2a: Snover|Blizzard|p1a: Trapinch
+|-supereffective|p1a: Trapinch
+|-damage|p1a: Trapinch|0 fnt
+|faint|p1a: Trapinch
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642897470
+|switch|p1a: Chinchou|Chinchou, L5, M|96/100
+|turn|13
+|
+|t:|1642897503
+|move|p1a: Chinchou|Hidden Power|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|14/100
+|move|p2a: Snover|Blizzard|p1a: Chinchou
+|-resisted|p1a: Chinchou
+|-damage|p1a: Chinchou|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chinchou|55/100|[from] Hail
+|upkeep
+|turn|14
+|
+|t:|1642897526
+|move|p1a: Chinchou|Hidden Power|p2a: Snover
+|-supereffective|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Chinchou|50/100|[from] Hail
+|upkeep
+|
+|t:|1642897529
+|switch|p2a: Nicki Minaj|Smoochum, L5, F|100/100
+|-activate|p2a: Nicki Minaj|ability: Forewarn|Hydro Pump|[of] p1a: Chinchou
+|turn|15
+|
+|t:|1642897538
+|move|p2a: Nicki Minaj|Psychic|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|faint|p1a: Chinchou
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642897540
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|turn|16
+|
+|t:|1642897543
+|move|p1a: Gastly|Sucker Punch|p2a: Nicki Minaj
+|-supereffective|p2a: Nicki Minaj
+|-damage|p2a: Nicki Minaj|0 fnt
+|faint|p2a: Nicki Minaj
+|-damage|p1a: Gastly|95/100|[from] item: Life Orb
+|
+|win|iss
+|c|☆F i l l e|oi
+|c|☆iss|ya
+|l| London13
+|c|☆F i l l e|gg !
+|c|☆iss|gg

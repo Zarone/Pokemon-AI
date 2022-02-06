@@ -1,0 +1,393 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1639888193
+|gametype|singles
+|player|p1|Trade|102|
+|player|p2|brewfasa|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon, L5|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p1|Riolu, L5, M|item
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Natu, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Ferroseed, L5, F|item
+|poke|p2|Vullaby, L5, F|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Diglett, L5, M|item
+|teampreview
+|c|☆brewfasa|gl
+|c|☆Trade|gl
+|inactive|Trade has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1639888250
+|start
+|switch|p1a: Frillish|Frillish, L5, F|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|1
+|
+|t:|1639888262
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|92/100
+|
+|t:|1639888266
+|switch|p2a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|move|p1a: Frillish|Will-O-Wisp|p2a: Staryu
+|-status|p2a: Staryu|brn
+|
+|-damage|p2a: Staryu|91/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1639888277
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|move|p2a: Staryu|Thunder Wave|p1a: Ferroseed
+|-status|p1a: Ferroseed|par
+|
+|-damage|p2a: Staryu|81/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1639888289
+|-curestatus|p2a: Staryu|brn|[from] ability: Natural Cure
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Ferroseed|Spikes|p2a: Mienfoo
+|-sidestart|p2: brewfasa|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1639888297
+|switch|p1a: Frillish|Frillish, L5, F|92/100
+|move|p2a: Mienfoo|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|76/100
+|-start|p2a: Mienfoo|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Frillish
+|-enditem|p1a: Frillish|Eviolite|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|5
+|
+|t:|1639888311
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|64/100
+|
+|t:|1639888329
+|switch|p2a: Ferroseed|Ferroseed, L5, F|100/100|[from]move: U-turn
+|-damage|p2a: Ferroseed|91/100|[from] Spikes
+|move|p1a: Frillish|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|77/100
+|-unboost|p2a: Ferroseed|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1639888345
+|move|p1a: Frillish|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|62/100
+|move|p2a: Ferroseed|Thunderbolt|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|8/100
+|
+|upkeep
+|turn|7
+|
+|t:|1639888356
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100 par
+|move|p2a: Ferroseed|Spikes|p1a: Ferroseed
+|-sidestart|p1: Trade|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1639888373
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p2a: Mienfoo|91/100|[from] Spikes
+|move|p1a: Ferroseed|Spikes|p2a: Mienfoo
+|-sidestart|p2: brewfasa|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1639888385
+|switch|p1a: Natu|Natu, L5, F|100/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Natu
+|-resisted|p1a: Natu
+|-damage|p1a: Natu|87/100
+|
+|upkeep
+|turn|10
+|
+|t:|1639888394
+|move|p1a: Natu|Hidden Power|p2a: Mienfoo
+|-supereffective|p2a: Mienfoo
+|-damage|p2a: Mienfoo|24/100
+|move|p2a: Mienfoo|Stone Edge|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|18/100
+|
+|upkeep
+|turn|11
+|
+|t:|1639888408
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|move|p1a: Natu|Hidden Power|p2a: Vullaby
+|-damage|p2a: Vullaby|76/100
+|
+|upkeep
+|turn|12
+|inactive|Trade has 270 seconds left.
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1639888461
+|move|p1a: Natu|U-turn|p2a: Vullaby
+|-damage|p2a: Vullaby|64/100
+|
+|t:|1639888464
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100 par|[from]move: U-turn
+|-damage|p1a: Ferroseed|92/100 par|[from] Spikes
+|move|p2a: Vullaby|Knock Off|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|87/100 par
+|-damage|p2a: Vullaby|52/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|-enditem|p1a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p2a: Vullaby
+|
+|upkeep
+|turn|13
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1639888476
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100
+|-damage|p1a: Drilbur|92/100|[from] Spikes
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Vullaby|Roost|p2a: Vullaby
+|-heal|p2a: Vullaby|100/100
+|-singleturn|p2a: Vullaby|move: Roost
+|
+|upkeep
+|turn|14
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1639888487
+|switch|p2a: Staryu|Staryu, L5|81/100
+|-damage|p2a: Staryu|67/100|[from] Spikes
+|move|p1a: Drilbur|Stealth Rock|p2a: Staryu
+|-sidestart|p2: brewfasa|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1639888496
+|move|p2a: Staryu|Rapid Spin|p1a: Drilbur
+|-damage|p1a: Drilbur|87/100
+|-sideend|p2: brewfasa|Spikes|[from] move: Rapid Spin|[of] p2a: Staryu
+|-sideend|p2: brewfasa|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Staryu
+|move|p1a: Drilbur|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|20/100
+|
+|upkeep
+|turn|16
+|
+|t:|1639888505
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|72/100
+|move|p1a: Drilbur|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|24/100
+|
+|upkeep
+|turn|17
+|
+|t:|1639888513
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|77/100
+|move|p1a: Drilbur|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|29/100
+|
+|upkeep
+|turn|18
+|
+|t:|1639888521
+|switch|p1a: Ferroseed|Ferroseed, L5, M|87/100 par
+|-damage|p1a: Ferroseed|79/100 par|[from] Spikes
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|81/100
+|
+|upkeep
+|turn|19
+|
+|t:|1639888532
+|switch|p2a: Mienfoo|Mienfoo, L5, M|58/100
+|move|p1a: Ferroseed|Spikes|p2a: Mienfoo
+|-sidestart|p2: brewfasa|Spikes
+|
+|upkeep
+|turn|20
+|
+|t:|1639888540
+|switch|p1a: Frillish|Frillish, L5, F|8/100
+|-damage|p1a: Frillish|0 fnt|[from] Spikes
+|faint|p1a: Frillish
+|move|p2a: Mienfoo|U-turn|p1: Frillish|[notarget]
+|-fail|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1639888541
+|switch|p1a: Natu|Natu, L5, F|18/100
+|turn|21
+|
+|t:|1639888551
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|move|p1a: Natu|Roost|p1a: Natu
+|-heal|p1a: Natu|70/100
+|-singleturn|p1a: Natu|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1639888570
+|move|p1a: Natu|U-turn|p2a: Vullaby
+|-damage|p2a: Vullaby|88/100
+|
+|t:|1639888573
+|switch|p1a: Ferroseed|Ferroseed, L5, M|79/100 par|[from]move: U-turn
+|-damage|p1a: Ferroseed|70/100 par|[from] Spikes
+|move|p2a: Vullaby|Brave Bird|p1a: Ferroseed
+|-damage|p1a: Ferroseed|27/100 par
+|-damage|p2a: Vullaby|76/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|-damage|p2a: Vullaby|64/100|[from] Recoil
+|
+|upkeep
+|turn|23
+|
+|t:|1639888590
+|switch|p1a: Drilbur|Drilbur, L5, M|87/100
+|-damage|p1a: Drilbur|79/100|[from] Spikes
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Vullaby|Brave Bird|p1a: Drilbur
+|-damage|p1a: Drilbur|22/100
+|-damage|p2a: Vullaby|48/100|[from] Recoil
+|
+|upkeep
+|turn|24
+|
+|t:|1639888603
+|switch|p2a: Staryu|Staryu, L5|81/100
+|-damage|p2a: Staryu|72/100|[from] Spikes
+|move|p1a: Drilbur|Stealth Rock|p2a: Staryu
+|-sidestart|p2: brewfasa|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1639888611
+|move|p2a: Staryu|Rapid Spin|p1a: Drilbur
+|-crit|p1a: Drilbur
+|-damage|p1a: Drilbur|5/100
+|-sideend|p2: brewfasa|Spikes|[from] move: Rapid Spin|[of] p2a: Staryu
+|-sideend|p2: brewfasa|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Staryu
+|move|p1a: Drilbur|Rapid Spin|p2a: Staryu
+|-damage|p2a: Staryu|62/100
+|-sideend|p1: Trade|Spikes|[from] move: Rapid Spin|[of] p1a: Drilbur
+|
+|upkeep
+|turn|26
+|
+|t:|1639888620
+|switch|p1a: Ferroseed|Ferroseed, L5, M|27/100 par
+|move|p2a: Staryu|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|14/100 par
+|
+|upkeep
+|turn|27
+|
+|t:|1639888627
+|move|p2a: Staryu|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1639888633
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Natural Cure|[from] ability: Trace|[of] p2a: Staryu
+|turn|28
+|
+|t:|1639888647
+|switch|p2a: Mienfoo|Mienfoo, L5, M|91/100
+|move|p1a: Porygon|Tri Attack|p2a: Mienfoo
+|-damage|p2a: Mienfoo|43/100
+|
+|upkeep
+|turn|29
+|
+|t:|1639888656
+|move|p1a: Porygon|Tri Attack|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|upkeep
+|
+|t:|1639888664
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|30
+|
+|t:|1639888671
+|switch|p1a: Natu|Natu, L5, F|70/100
+|move|p2a: Gastly|Substitute|p2a: Gastly
+|-start|p2a: Gastly|Substitute
+|-damage|p2a: Gastly|79/100
+|
+|upkeep
+|turn|31
+|
+|t:|1639888679
+|move|p2a: Gastly|Shadow Ball|p1a: Natu
+|-supereffective|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|-damage|p2a: Gastly|74/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1639888682
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Levitate|[from] ability: Trace|[of] p2a: Gastly
+|turn|32
+|
+|t:|1639888692
+|move|p1a: Porygon|Shadow Ball|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-end|p2a: Gastly|Substitute
+|move|p2a: Gastly|Hidden Power|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|-damage|p2a: Gastly|69/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Trade|gg 
+|-message|Trade forfeited.
+|
+|win|brewfasa
+|c|☆brewfasa|gg

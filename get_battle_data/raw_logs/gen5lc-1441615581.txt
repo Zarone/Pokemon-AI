@@ -1,0 +1,282 @@
+|j|☆Liv Lux
+|j|☆KanekiDoe
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1635113167
+|gametype|singles
+|player|p1|Liv Lux|idol|
+|player|p2|KanekiDoe|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Karrablast, L5, M|item
+|poke|p1|Shellos, L5, M|item
+|poke|p1|Aipom, L5, F|item
+|poke|p1|Turtwig, L5, F|item
+|poke|p1|Horsea, L5, F|item
+|poke|p1|Gible, L5, M|item
+|poke|p2|Larvesta, L5, M|item
+|poke|p2|Carvanha, L5, M|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Abra, L5, M|item
+|teampreview
+|j| Leofin
+|c|☆KanekiDoe|gl
+|c|☆Liv Lux|gl
+|inactive|KanekiDoe has 120 seconds left.
+|
+|t:|1635113201
+|start
+|switch|p1a: Karrablast|Karrablast, L5, M|100/100
+|switch|p2a: Larvesta|Larvesta, L5, M|100/100
+|turn|1
+|
+|t:|1635113206
+|move|p1a: Karrablast|Aerial Ace|p2a: Larvesta
+|-supereffective|p2a: Larvesta
+|-damage|p2a: Larvesta|48/100
+|-status|p1a: Karrablast|brn|[from] ability: Flame Body|[of] p2a: Larvesta
+|move|p2a: Larvesta|Flare Blitz|p1a: Karrablast
+|-supereffective|p1a: Karrablast
+|-damage|p1a: Karrablast|0 fnt
+|faint|p1a: Karrablast
+|-damage|p2a: Larvesta|18/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1635113217
+|switch|p1a: Aipom|Aipom, L5, F, shiny|100/100
+|turn|2
+|
+|t:|1635113236
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|move|p1a: Aipom|Fake Out|p2a: Carvanha
+|-damage|p2a: Carvanha|37/100
+|-damage|p1a: Aipom|92/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1635113247
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Aipom|Brick Break|p2a: Carvanha
+|-activate|p2a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|4
+|
+|t:|1635113260
+|move|p2a: Carvanha|Waterfall|p1a: Aipom
+|-damage|p1a: Aipom|0 fnt
+|faint|p1a: Aipom
+|-damage|p2a: Carvanha|32/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|
+|t:|1635113265
+|switch|p1a: Turtwig|Turtwig, L5, F|100/100
+|turn|5
+|
+|t:|1635113270
+|move|p2a: Carvanha|Crunch|p1a: Turtwig
+|-damage|p1a: Turtwig|32/100
+|-damage|p2a: Carvanha|27/100|[from] item: Life Orb
+|move|p1a: Turtwig|Seed Bomb|p2a: Carvanha
+|-supereffective|p2a: Carvanha
+|-damage|p2a: Carvanha|0 fnt
+|faint|p2a: Carvanha
+|
+|upkeep
+|
+|t:|1635113274
+|switch|p2a: Larvesta|Larvesta, L5, M|18/100
+|turn|6
+|
+|t:|1635113279
+|move|p2a: Larvesta|Flare Blitz|p1a: Turtwig
+|-supereffective|p1a: Turtwig
+|-damage|p1a: Turtwig|0 fnt
+|faint|p1a: Turtwig
+|-damage|p2a: Larvesta|5/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1635113296
+|switch|p1a: Shellos|Shellos, L5, M|100/100
+|turn|7
+|
+|t:|1635113318
+|move|p2a: Larvesta|Will-O-Wisp|p1a: Shellos|[miss]
+|-miss|p2a: Larvesta|p1a: Shellos
+|move|p1a: Shellos|Surf|p2a: Larvesta
+|-supereffective|p2a: Larvesta
+|-damage|p2a: Larvesta|0 fnt
+|faint|p2a: Larvesta
+|
+|upkeep
+|
+|t:|1635113326
+|switch|p2a: Staryu|Staryu, L5|100/100
+|turn|8
+|
+|t:|1635113333
+|move|p2a: Staryu|Thunderbolt|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|63/100
+|move|p1a: Shellos|Toxic|p2a: Staryu|[miss]
+|-miss|p1a: Shellos|p2a: Staryu
+|
+|upkeep
+|turn|9
+|
+|t:|1635113339
+|move|p2a: Staryu|Thunderbolt|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|26/100
+|move|p1a: Shellos|Recover|p1a: Shellos
+|-heal|p1a: Shellos|78/100
+|
+|upkeep
+|turn|10
+|
+|t:|1635113346
+|move|p2a: Staryu|Thunderbolt|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|41/100
+|move|p1a: Shellos|Toxic|p2a: Staryu
+|-status|p2a: Staryu|tox
+|
+|-damage|p2a: Staryu|96/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1635113351
+|move|p2a: Staryu|Thunderbolt|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|4/100
+|move|p1a: Shellos|Recover|p1a: Shellos
+|-heal|p1a: Shellos|56/100
+|
+|-damage|p2a: Staryu|86/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1635113363
+|move|p2a: Staryu|Thunderbolt|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|19/100
+|move|p1a: Shellos|Recover|p1a: Shellos
+|-heal|p1a: Shellos|71/100
+|
+|-damage|p2a: Staryu|72/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1635113372
+|-curestatus|p2a: Staryu|tox|[from] ability: Natural Cure
+|switch|p2a: Abra|Abra, L5, M|100/100
+|move|p1a: Shellos|Clear Smog|p2a: Abra
+|-damage|p2a: Abra|74/100
+|-clearboost|p2a: Abra
+|
+|upkeep
+|turn|14
+|
+|t:|1635113379
+|move|p2a: Abra|Thunder Wave|p1a: Shellos
+|-status|p1a: Shellos|par
+|move|p1a: Shellos|Surf|p2a: Abra
+|-damage|p2a: Abra|11/100
+|
+|upkeep
+|turn|15
+|
+|t:|1635113383
+|move|p2a: Abra|Energy Ball|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|26/100 par
+|move|p1a: Shellos|Surf|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|
+|t:|1635113388
+|switch|p2a: Staryu|Staryu, L5|72/100
+|turn|16
+|
+|t:|1635113390
+|move|p2a: Staryu|Thunderbolt|p1a: Shellos
+|-supereffective|p1a: Shellos
+|-damage|p1a: Shellos|0 fnt
+|faint|p1a: Shellos
+|
+|upkeep
+|
+|t:|1635113392
+|switch|p1a: Gible|Gible, L5, M, shiny|100/100
+|turn|17
+|
+|t:|1635113403
+|move|p2a: Staryu|Scald|p1a: Gible
+|-damage|p1a: Gible|32/100
+|-status|p1a: Gible|brn
+|move|p1a: Gible|Outrage|p2a: Staryu
+|-damage|p2a: Staryu|34/100
+|-damage|p1a: Gible|23/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Gible|14/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1635113412
+|move|p2a: Staryu|Scald|p1a: Gible
+|-damage|p1a: Gible|0 fnt
+|faint|p1a: Gible
+|
+|upkeep
+|
+|t:|1635113416
+|switch|p1a: Horsea|Horsea, L5, F|100/100
+|turn|19
+|
+|t:|1635113429
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|86/100
+|move|p1a: Horsea|Rain Dance|p1a: Horsea
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1635113434
+|move|p1a: Horsea|Hidden Power|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|10/100
+|-damage|p1a: Horsea|95/100|[from] item: Life Orb
+|move|p2a: Staryu|Thunderbolt|p1a: Horsea
+|-supereffective|p1a: Horsea
+|-damage|p1a: Horsea|0 fnt
+|faint|p1a: Horsea
+|
+|win|KanekiDoe
+|n|☆Liv Lux|livlux
+|n|☆KanekiDoe|kanekidoe
+|n| Leofin|leofin

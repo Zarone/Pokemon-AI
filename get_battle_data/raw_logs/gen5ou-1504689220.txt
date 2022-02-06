@@ -1,0 +1,299 @@
+|j|☆Zextruha
+|j|☆Fouggi
+|t:|1644030159
+|gametype|singles
+|player|p1|Zextruha|red-gen1|1244
+|player|p2|Fouggi|102|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Heracross, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Snorlax, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Swampert, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Tornadus, M|item
+|teampreview
+|j| Bro★taro
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fouggi)
+|
+|t:|1644030184
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1644030202
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Latios|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Zextruha has 120 seconds left.
+|inactive|Zextruha has 90 seconds left.
+|
+|t:|1644030271
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Zextruha|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644030286
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Zextruha has 90 seconds left.
+|
+|t:|1644030295
+|move|p2a: Tentacruel|Scald|p1a: Scizor
+|-damage|p1a: Scizor|54/100
+|move|p1a: Scizor|Bug Bite|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|14/100
+|-damage|p1a: Scizor|44/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|20/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|26/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|inactive|Zextruha has 90 seconds left.
+|
+|t:|1644030306
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|32/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|38/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1644030316
+|move|p1a: Scizor|Bullet Punch|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-damage|p1a: Scizor|34/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030320
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|t:|1644030326
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|30/100
+|-damage|p1a: Scizor|24/100|[from] item: Life Orb
+|move|p2a: Dragonite|Hurricane|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030341
+|switch|p1a: Heracross|Heracross, M|100/100
+|-damage|p1a: Heracross|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1644030355
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Heracross|Stone Edge|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1644030368
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Garchomp|Dual Chop|p1a: Swampert
+|-damage|p1a: Swampert|65/100
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|4/100
+|-hitcount|p1a: Swampert|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Swampert|11/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644030380
+|move|p2a: Garchomp|Dual Chop|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|-hitcount|p1: Swampert|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030391
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1644030406
+|move|p1a: Garchomp|Outrage|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Garchomp|82/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030409
+|switch|p2a: Ferrothorn|Ferrothorn, M|79/100
+|turn|12
+|inactive|Zextruha has 120 seconds left.
+|
+|t:|1644030416
+|move|p1a: Garchomp|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|-damage|p1a: Garchomp|70/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-start|p1a: Garchomp|confusion|[fatigue]
+|-enditem|p1a: Garchomp|Lum Berry|[eat]
+|-end|p1a: Garchomp|confusion
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|7/100
+|-damage|p2a: Ferrothorn|46/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|inactive|Zextruha has 120 seconds left.
+|
+|t:|1644030430
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|move|p2a: Ferrothorn|Spikes|p1a: Garchomp
+|-sidestart|p1: Zextruha|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1644030440
+|move|p1a: Garchomp|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030445
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|15
+|
+|t:|1644030450
+|move|p2a: Tornadus|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030461
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|-damage|p1a: Snorlax|76/100|[from] Spikes
+|turn|16
+|j| PotatoMine1
+|
+|t:|1644030467
+|move|p2a: Tornadus|Hurricane|p1a: Snorlax
+|-damage|p1a: Snorlax|36/100
+|move|p1a: Snorlax|Return|p2a: Tornadus
+|-damage|p2a: Tornadus|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snorlax|42/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644030476
+|move|p2a: Tornadus|Hurricane|p1a: Snorlax
+|-damage|p1a: Snorlax|1/100
+|move|p1a: Snorlax|Return|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Snorlax|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644030497
+|switch|p2a: Politoed|Politoed, M|100/100
+|turn|18
+|
+|t:|1644030509
+|move|p2a: Politoed|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644030517
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1644030525
+|move|p2a: Politoed|Ice Beam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|34/100
+|move|p1a: Latios|Thunderbolt|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Fouggi forfeited.
+|
+|win|Zextruha
+|raw|Zextruha's rating: 1244 &rarr; <strong>1280</strong><br />(+36 for winning)
+|raw|Fouggi's rating: 1401 &rarr; <strong>1373</strong><br />(-28 for losing)
+|l|☆Fouggi
+|l|☆Zextruha
+|l| Bro★taro

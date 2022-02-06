@@ -1,0 +1,216 @@
+|j|☆gimme wins
+|j|☆asperity
+|t:|1642724135
+|gametype|singles
+|player|p1|gimme wins|pokemonbreederf-gen4|
+|player|p2|asperity|parasollady|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Bronzong|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Weavile, M|item
+|poke|p1|Sharpedo, M|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Flygon, F|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Weavile, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Shaymin|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Heracross, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by asperity)
+|c|☆asperity|hf
+|c|☆gimme wins|u too
+|j| blackkaiser
+|
+|t:|1642724177
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|turn|1
+|
+|t:|1642724185
+|move|p2a: Zapdos|Thunderbolt|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|45/100
+|move|p1a: Bronzong|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-heal|p1a: Bronzong|51/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1642724190
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Zapdos|Thunderbolt|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-heal|p2a: Zapdos|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Bronzong|57/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1642724194
+|move|p2a: Zapdos|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|31/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: asperity|move: Stealth Rock
+|
+|-heal|p2a: Zapdos|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Bronzong|37/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|76/100 tox|[from] psn
+|upkeep
+|turn|4
+|j| Arch en Ciel 22
+|
+|t:|1642724200
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Bronzong|Protect||[still]
+|-fail|p1a: Bronzong
+|
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|44/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1642724205
+|move|p2a: Blastoise|Scald|p1a: Bronzong
+|-damage|p1a: Bronzong|27/100
+|move|p1a: Bronzong|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-heal|p2a: Blastoise|99/100 tox|[from] item: Leftovers
+|-heal|p1a: Bronzong|33/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1642724216
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Mienshao
+|-damage|p1a: Mienshao|95/100
+|-sideend|p2: asperity|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1642724221
+|move|p1a: Mienshao|Fake Out|p2a: Blastoise
+|-damage|p2a: Blastoise|76/100 tox
+|-damage|p1a: Mienshao|85/100|[from] item: Life Orb
+|cant|p2a: Blastoise|flinch
+|
+|-heal|p2a: Blastoise|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|64/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1642724236
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Mienshao|High Jump Kick|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|40/100
+|-damage|p1a: Mienshao|75/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1642724243
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Close Combat|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|82/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|-heal|p1a: Qwilfish|88/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1642724247
+|switch|p2a: Zapdos|Zapdos|76/100 tox
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Qwilfish|Spikes|p2a: Zapdos
+|-sidestart|p2: asperity|Spikes
+|
+|-heal|p2a: Zapdos|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Qwilfish|94/100|[from] item: Black Sludge
+|-damage|p2a: Zapdos|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1642724253
+|switch|p2a: Shaymin|Shaymin|100/100
+|-damage|p2a: Shaymin|88/100|[from] Spikes
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|12
+|
+|t:|1642724257
+|move|p1a: Weavile|Ice Punch|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|upkeep
+|
+|t:|1642724261
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-damage|p2a: Druddigon|88/100|[from] Spikes
+|-ability|p2a: Druddigon|Mold Breaker
+|turn|13
+|j|+Aqua8Jet
+|
+|t:|1642724264
+|move|p1a: Weavile|Ice Punch|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-enditem|p2a: Druddigon|Yache Berry|[eat]
+|-enditem|p2a: Druddigon|Yache Berry|[weaken]
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+|c|☆asperity|u won anyway
+|j| Arxtric
+|c|☆asperity|gg
+|c|☆gimme wins|gg
+|-message|asperity forfeited.
+|
+|win|gimme wins
+|n|☆gimme wins|gimmewins
+|n|☆asperity|asperity
+|n| blackkaiser|blackkaiser
+|n| Arch en Ciel 22|archenciel22
+|n| Aqua8Jet|aqua8jet
+|n| Arxtric|arxtric
+|l|☆asperity
+|l| Aqua8Jet
+|l| Arxtric
+|l|☆gimme wins
+|j| Aqua8Jet

@@ -1,0 +1,582 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642368885
+|gametype|singles
+|player|p1|Nalorium|1|
+|player|p2|Lily|#lily|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, M|item
+|poke|p1|Duosion, F|item
+|poke|p1|Ditto|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Piloswine, M|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Natu, F|item
+|poke|p2|Sawsbuck-Winter, F|item
+|poke|p2|Carracosta, F|item
+|poke|p2|Skuntank, M|item
+|teampreview
+|c|☆Nalorium|Oh cmon
+|c|☆Nalorium|lpz started
+|c|☆Lily|lol
+|c|☆Nalorium|1 second
+|inactive|Nalorium has 270 seconds left.
+|inactive|Lily has 270 seconds left.
+|c|☆Lily|.
+|c|☆Nalorium|before
+|c|☆Nalorium|lmao
+|c|☆Nalorium|hf
+|c|☆Lily|hf
+|inactive|Nalorium has 240 seconds left.
+|inactive|Lily has 240 seconds left.
+|c|+Bughouse|natu without zard
+|c|+Bughouse|spicy
+|inactive|Nalorium has 210 seconds left.
+|c|+Bughouse|natu without any other rock weaks at all in fact
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642369053
+|start
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|switch|p2a: Echo|Natu, F|100/100
+|turn|1
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|inactive|Lily has 270 seconds left.
+|
+|t:|1642369127
+|switch|p2a: White Coats|Sawsbuck-Winter, F|100/100
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: White Coats|[from] ability: Imposter
+|
+|upkeep
+|turn|2
+|inactive|Lily has 270 seconds left.
+|inactive|Nalorium has 120 seconds left.
+|inactive|Nalorium has 90 seconds left.
+|
+|t:|1642369202
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|switch|p2a: Beauty Queen|Garbodor, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1642369210
+|move|p1a: Mandibuzz|Taunt|p2a: Beauty Queen
+|-start|p2a: Beauty Queen|move: Taunt
+|cant|p2a: Beauty Queen|move: Taunt|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1642369214
+|switch|p1a: Garbodor|Garbodor, M, shiny|100/100
+|move|p2a: Beauty Queen|Rock Blast|p1a: Garbodor
+|-damage|p1a: Garbodor|96/100
+|-damage|p1a: Garbodor|92/100
+|-damage|p1a: Garbodor|88/100
+|-damage|p1a: Garbodor|83/100
+|-damage|p1a: Garbodor|79/100
+|-hitcount|p1a: Garbodor|5
+|
+|upkeep
+|turn|5
+|
+|t:|1642369218
+|switch|p2a: Echo|Natu, F|100/100
+|move|p1a: Garbodor|Gunk Shot|p2a: Echo|[miss]
+|-miss|p1a: Garbodor|p2a: Echo
+|
+|upkeep
+|turn|6
+|
+|t:|1642369223
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Echo|[from] ability: Imposter
+|move|p2a: Echo|U-turn|p1a: Ditto
+|-damage|p1a: Ditto|88/100
+|
+|t:|1642369234
+|switch|p2a: Talking to Ghosts|Skuntank, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1642369244
+|move|p1a: Ditto|Thunder Wave|p2a: Talking to Ghosts
+|-status|p2a: Talking to Ghosts|par
+|-enditem|p2a: Talking to Ghosts|Lum Berry|[eat]
+|-curestatus|p2a: Talking to Ghosts|par|[msg]
+|move|p2a: Talking to Ghosts|Pursuit|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|39/100
+|
+|upkeep
+|turn|8
+|
+|t:|1642369249
+|switch|p2a: Echo|Natu, F|100/100
+|move|p1a: Ditto|Thunder Wave|p2a: Echo
+|move|p2a: Echo|Thunder Wave|p1a: Ditto|[from]ability: Magic Bounce
+|-status|p1a: Ditto|par
+|
+|upkeep
+|turn|9
+|
+|t:|1642369253
+|move|p2a: Echo|Night Shade|p1a: Ditto
+|-damage|p1a: Ditto|6/100 par
+|move|p1a: Ditto|Thunder Wave|p2a: Echo
+|move|p2a: Echo|Thunder Wave|p1a: Ditto|[from]ability: Magic Bounce
+|-fail|p1a: Ditto|par
+|
+|upkeep
+|turn|10
+|
+|t:|1642369263
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p2a: Echo|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|94/100
+|
+|t:|1642369266
+|switch|p2a: White Coats|Sawsbuck-Winter, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1642369271
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p2a: White Coats|Return|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|18/100
+|-damage|p2a: White Coats|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Mandibuzz|24/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Nalorium|uh
+|
+|t:|1642369285
+|switch|p1a: Ditto|Ditto, shiny|6/100 par
+|-transform|p1a: Ditto|p2a: White Coats|[from] ability: Imposter
+|move|p2a: White Coats|Return|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|-damage|p2a: White Coats|81/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642369318
+|switch|p1a: Las Pleis|Kangaskhan, F, shiny|100/100
+|turn|13
+|
+|t:|1642369329
+|switch|p2a: Beauty Queen|Garbodor, F|100/100
+|move|p1a: Las Pleis|Return|p2a: Beauty Queen
+|-damage|p2a: Beauty Queen|65/100
+|-damage|p1a: Las Pleis|84/100|[from] item: Rocky Helmet|[of] p2a: Beauty Queen
+|
+|-heal|p1a: Las Pleis|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1642369339
+|move|p1a: Las Pleis|Earthquake|p2a: Beauty Queen
+|-supereffective|p2a: Beauty Queen
+|-damage|p2a: Beauty Queen|18/100
+|move|p2a: Beauty Queen|Spikes|p1a: Las Pleis
+|-sidestart|p1: Nalorium|Spikes
+|
+|-heal|p1a: Las Pleis|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1642369354
+|move|p1a: Las Pleis|Earthquake|p2a: Beauty Queen
+|-supereffective|p2a: Beauty Queen
+|-damage|p2a: Beauty Queen|0 fnt
+|faint|p2a: Beauty Queen
+|
+|-heal|p1a: Las Pleis|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642369358
+|switch|p2a: Let Go for Tonight|Piloswine, M|100/100
+|turn|16
+|
+|t:|1642369366
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|99/100
+|-damage|p1a: Seismitoad|87/100|[from] Spikes
+|move|p2a: Let Go for Tonight|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|87/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1642369372
+|switch|p2a: White Coats|Sawsbuck-Winter, F|81/100
+|move|p1a: Seismitoad|Scald|p2a: White Coats
+|-resisted|p2a: White Coats
+|-damage|p2a: White Coats|64/100
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|81/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1642369381
+|switch|p1a: Garbodor|Garbodor, M, shiny|79/100
+|-damage|p1a: Garbodor|66/100|[from] Spikes
+|move|p2a: White Coats|Swords Dance|p2a: White Coats
+|-boost|p2a: White Coats|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1642369383
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|24/100
+|move|p2a: White Coats|Nature Power|p2a: White Coats
+|move|p2a: White Coats|Earthquake|p1a: Mandibuzz|[from]move: Nature Power
+|-immune|p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|30/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1642369385
+|switch|p1a: Garbodor|Garbodor, M, shiny|66/100
+|-damage|p1a: Garbodor|54/100|[from] Spikes
+|move|p2a: White Coats|Return|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: White Coats|39/100|[from] ability: Aftermath|[of] p1a: Garbodor
+|-damage|p2a: White Coats|22/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|-damage|p2a: White Coats|12/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642369393
+|switch|p1a: Las Pleis|Kangaskhan, F, shiny|100/100
+|-damage|p1a: Las Pleis|88/100|[from] Spikes
+|turn|21
+|inactive|Nalorium has 180 seconds left.
+|
+|t:|1642369400
+|move|p1a: Las Pleis|Fake Out|p2a: White Coats
+|-damage|p2a: White Coats|0 fnt
+|faint|p2a: White Coats
+|
+|-heal|p1a: Las Pleis|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642369405
+|switch|p2a: Let Go for Tonight|Piloswine, M|100/100
+|turn|22
+|
+|t:|1642369419
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|81/100 tox
+|-damage|p1a: Seismitoad|69/100 tox|[from] Spikes
+|move|p2a: Let Go for Tonight|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Nalorium|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|69/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1642369423
+|switch|p2a: Echo|Natu, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Echo
+|-damage|p2a: Echo|66/100
+|-status|p2a: Echo|brn
+|
+|-heal|p1a: Seismitoad|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|62/100 tox|[from] psn
+|-damage|p2a: Echo|53/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1642369432
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|30/100
+|-damage|p1a: Mandibuzz|5/100|[from] Stealth Rock
+|move|p2a: Echo|Roost|p2a: Echo
+|-heal|p2a: Echo|100/100 brn
+|-singleturn|p2a: Echo|move: Roost
+|
+|-heal|p1a: Mandibuzz|11/100|[from] item: Leftovers
+|-damage|p2a: Echo|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1642369436
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|61/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Echo|U-turn|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100
+|
+|t:|1642369438
+|switch|p2a: Let Go for Tonight|Piloswine, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mandibuzz|62/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Nalorium has 210 seconds left.
+|
+|t:|1642369463
+|move|p1a: Mandibuzz|Taunt|p2a: Let Go for Tonight
+|-start|p2a: Let Go for Tonight|move: Taunt
+|move|p2a: Let Go for Tonight|Icicle Spear|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|49/100
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|22/100
+|-hitcount|p1a: Mandibuzz|3
+|
+|-heal|p1a: Mandibuzz|28/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1642369465
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|79/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Let Go for Tonight|Earthquake|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100
+|
+|-heal|p1a: Mandibuzz|62/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1642369469
+|switch|p2a: Echo|Natu, F|88/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Echo|76/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1642369484
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|62/100 tox
+|-damage|p1a: Seismitoad|56/100 tox|[from] Stealth Rock
+|-damage|p1a: Seismitoad|44/100 tox|[from] Spikes
+|move|p2a: Echo|Thunder Wave|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|44/100 tox|[from] psn
+|-damage|p2a: Echo|63/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1642369486
+|move|p2a: Echo|Roost|p2a: Echo
+|-heal|p2a: Echo|100/100 brn
+|-singleturn|p2a: Echo|move: Roost
+|move|p1a: Seismitoad|Knock Off|p2a: Echo
+|-supereffective|p2a: Echo
+|-damage|p2a: Echo|92/100 brn
+|-enditem|p2a: Echo|Eviolite|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|37/100 tox|[from] psn
+|-damage|p2a: Echo|80/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1642369490
+|move|p2a: Echo|Night Shade|p1a: Seismitoad
+|-damage|p1a: Seismitoad|12/100 tox
+|move|p1a: Seismitoad|Scald|p2a: Echo
+|-damage|p2a: Echo|25/100 brn
+|
+|-heal|p1a: Seismitoad|19/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|0 fnt|[from] psn
+|faint|p1a: Seismitoad
+|-damage|p2a: Echo|12/100 brn|[from] brn
+|upkeep
+|inactive|Nalorium has 240 seconds left.
+|
+|t:|1642369512
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|-damage|p1a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1642369518
+|move|p1a: Mandibuzz|Foul Play|p2a: Echo
+|-supereffective|p2a: Echo
+|-damage|p2a: Echo|0 fnt
+|faint|p2a: Echo
+|
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642369524
+|switch|p2a: Count the Saints|Carracosta, F|100/100
+|turn|33
+|inactive|Nalorium has 240 seconds left.
+|inactive|Nalorium has 210 seconds left.
+|
+|t:|1642369570
+|move|p1a: Mandibuzz|Taunt|p2a: Count the Saints
+|-start|p2a: Count the Saints|move: Taunt
+|move|p2a: Count the Saints|Stone Edge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|-damage|p2a: Count the Saints|91/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Nalorium has 180 seconds left.
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642369654
+|switch|p1a: Las Pleis|Kangaskhan, F, shiny|94/100
+|-damage|p1a: Las Pleis|82/100|[from] Spikes
+|-damage|p1a: Las Pleis|69/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1642369662
+|move|p1a: Las Pleis|Fake Out|p2a: Count the Saints
+|-resisted|p2a: Count the Saints
+|-damage|p2a: Count the Saints|81/100
+|cant|p2a: Count the Saints|flinch
+|
+|-heal|p1a: Las Pleis|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1642369665
+|move|p1a: Las Pleis|Earthquake|p2a: Count the Saints
+|-supereffective|p2a: Count the Saints
+|-damage|p2a: Count the Saints|40/100
+|move|p2a: Count the Saints|Waterfall|p1a: Las Pleis
+|-damage|p1a: Las Pleis|25/100
+|-damage|p2a: Count the Saints|30/100|[from] item: Life Orb
+|
+|-heal|p1a: Las Pleis|31/100|[from] item: Leftovers
+|-end|p2a: Count the Saints|move: Taunt
+|upkeep
+|turn|36
+|
+|t:|1642369672
+|switch|p2a: Let Go for Tonight|Piloswine, M|100/100
+|move|p1a: Las Pleis|Earthquake|p2a: Let Go for Tonight
+|-damage|p2a: Let Go for Tonight|78/100
+|
+|-heal|p1a: Las Pleis|38/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|Nalorium has 150 seconds left.
+|
+|t:|1642369694
+|switch|p1a: Duosion|Duosion, F, shiny|100/100
+|move|p2a: Let Go for Tonight|Earthquake|p1a: Duosion
+|-damage|p1a: Duosion|76/100
+|
+|upkeep
+|turn|38
+|inactive|Nalorium has 150 seconds left.
+|inactive|Nalorium has 120 seconds left.
+|
+|t:|1642369739
+|switch|p2a: Talking to Ghosts|Skuntank, M|100/100
+|move|p1a: Duosion|Thunder|p2a: Talking to Ghosts|[miss]
+|-miss|p1a: Duosion|p2a: Talking to Ghosts
+|
+|upkeep
+|turn|39
+|
+|t:|1642369744
+|move|p2a: Talking to Ghosts|Crunch|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|24/100
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|74/100
+|
+|upkeep
+|turn|40
+|
+|t:|1642369747
+|move|p2a: Talking to Ghosts|Crunch|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|22/100
+|move|p1a: Duosion|Thunder|p2a: Talking to Ghosts
+|-damage|p2a: Talking to Ghosts|51/100
+|
+|upkeep
+|turn|41
+|
+|t:|1642369752
+|move|p2a: Talking to Ghosts|Pursuit|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|0 fnt
+|faint|p1a: Duosion
+|
+|upkeep
+|
+|t:|1642369754
+|switch|p1a: Las Pleis|Kangaskhan, F, shiny|38/100
+|-damage|p1a: Las Pleis|25/100|[from] Stealth Rock
+|-damage|p1a: Las Pleis|13/100|[from] Spikes
+|turn|42
+|
+|t:|1642369757
+|move|p1a: Las Pleis|Fake Out|p2a: Talking to Ghosts
+|-damage|p2a: Talking to Ghosts|27/100
+|cant|p2a: Talking to Ghosts|flinch
+|
+|-heal|p1a: Las Pleis|19/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1642369760
+|move|p1a: Las Pleis|Sucker Punch|p2a: Talking to Ghosts
+|-resisted|p2a: Talking to Ghosts
+|-damage|p2a: Talking to Ghosts|12/100
+|move|p2a: Talking to Ghosts|Sucker Punch||[still]
+|-fail|p2a: Talking to Ghosts
+|
+|-heal|p1a: Las Pleis|25/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1642369764
+|move|p1a: Las Pleis|Sucker Punch|p2a: Talking to Ghosts
+|-resisted|p2a: Talking to Ghosts
+|-damage|p2a: Talking to Ghosts|0 fnt
+|-damage|p1a: Las Pleis|0 fnt|[from] ability: Aftermath|[of] p2a: Talking to Ghosts
+|faint|p1a: Las Pleis
+|faint|p2a: Talking to Ghosts
+|
+|win|Lily
+|c|☆Lily|gg
+|c|☆Nalorium|yea gg

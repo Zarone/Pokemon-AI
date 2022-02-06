@@ -1,0 +1,285 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644097184
+|gametype|singles
+|player|p1|Ainzcrad|winona-gen6|
+|player|p2|ZAIYAJIN|tateandliza-gen3|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Terrakion|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Breloom, F|item
+|poke|p1|Starmie|item
+|poke|p1|Dragonite, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Tentacruel, F|item
+|teampreview
+|c|☆Ainzcrad|hf
+|c|☆ZAIYAJIN|Hf
+|
+|t:|1644097207
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|t:|1644097226
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|46/100
+|-unboost|p2a: Latios|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1644097246
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Jirachi|Icy Wind|p2a: Politoed|[miss]
+|-miss|p1a: Jirachi|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1644097251
+|move|p1a: Jirachi|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|43/100
+|move|p2a: Politoed|Scald|p1a: Jirachi
+|-damage|p1a: Jirachi|8/100
+|-status|p1a: Jirachi|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|49/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] brn
+|faint|p1a: Jirachi
+|upkeep
+|
+|t:|1644097275
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|4
+|
+|t:|1644097293
+|move|p1a: Terrakion|Stone Edge|p2a: Politoed
+|-damage|p2a: Politoed|9/100
+|move|p2a: Politoed|Scald|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|13/100
+|-status|p1a: Terrakion|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|15/100|[from] item: Leftovers
+|-damage|p1a: Terrakion|1/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1644097298
+|move|p1a: Terrakion|Stealth Rock|p2a: Politoed
+|-sidestart|p2: ZAIYAJIN|move: Stealth Rock
+|move|p2a: Politoed|Scald|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|21/100|[from] item: Leftovers
+|upkeep
+|inactive|Ainzcrad has 270 seconds left.
+|
+|t:|1644097328
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|6
+|
+|t:|1644097332
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Politoed|Encore|p1a: Dragonite
+|-start|p1a: Dragonite|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|28/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644097358
+|switch|p1a: Starmie|Starmie|100/100
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1644097371
+|switch|p2a: Politoed|Politoed, F|28/100
+|-damage|p2a: Politoed|15/100|[from] Stealth Rock
+|move|p1a: Starmie|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|-damage|p1a: Starmie|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644097378
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1644097389
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: Ainzcrad|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|ZAIYAJIN has 270 seconds left.
+|
+|t:|1644097422
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1644097432
+|move|p2a: Keldeo|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644097435
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|12
+|inactive|ZAIYAJIN has 270 seconds left.
+|
+|t:|1644097466
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1644097469
+|move|p2a: Tentacruel|Scald|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|61/100
+|-status|p1a: Breloom|brn
+|move|p1a: Breloom|Bullet Seed|p2a: Tentacruel
+|-enditem|p1a: Breloom|Grass Gem|[from] gem
+|-damage|p2a: Tentacruel|56/100
+|-damage|p2a: Tentacruel|16/100
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-hitcount|p2: Tentacruel|3
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Breloom|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1644097483
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1644097489
+|move|p1a: Breloom|Mach Punch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|63/100
+|move|p2a: Latios|Draco Meteor|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644097509
+|switch|p1a: Starmie|Starmie|91/100
+|-damage|p1a: Starmie|78/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1644097511
+|move|p1a: Starmie|Rapid Spin|p2a: Latios
+|-damage|p2a: Latios|58/100
+|-sideend|p1: Ainzcrad|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-damage|p1a: Starmie|68/100|[from] item: Life Orb
+|move|p2a: Latios|Draco Meteor|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644097515
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|16
+|
+|t:|1644097523
+|switch|p2a: Keldeo|Keldeo-Resolute|94/100
+|-damage|p2a: Keldeo|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1644097527
+|move|p2a: Keldeo|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|53/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1644097537
+|move|p2a: Keldeo|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|ZAIYAJIN
+|c|☆Ainzcrad|gg.
+|c|☆ZAIYAJIN|gg

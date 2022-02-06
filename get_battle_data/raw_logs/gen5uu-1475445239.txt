@@ -1,0 +1,140 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|j|☆medium man14
+|j|☆FavMon=Garchomp
+|t:|1639788149
+|gametype|singles
+|player|p1|medium man14|1|
+|player|p2|FavMon=Garchomp|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Blitz: Super-fast timer
+|clearpoke
+|poke|p1|Drapion, M|item
+|poke|p1|Druddigon, F|item
+|poke|p1|Milotic, M|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Arcanine, F|item
+|poke|p1|Zoroark, F|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Victini|item
+|poke|p2|Steelix, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Mismagius, F|item
+|teampreview
+|inactive|medium man14 has 30 seconds left.
+|j| popsnot
+|inactive|medium man14 has 20 seconds left.
+|inactive|medium man14 has 15 seconds left.
+|inactive|medium man14 has 10 seconds left.
+|inactive|medium man14 has 5 seconds left.
+|
+|t:|1639788187
+|start
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|t:|1639788191
+|move|p2a: Victini|Trick|p1a: Druddigon
+|-activate|p2a: Victini|move: Trick|[of] p1a: Druddigon
+|-item|p1a: Druddigon|Choice Scarf|[from] move: Trick
+|-item|p2a: Victini|Mago Berry|[from] move: Trick
+|move|p1a: Druddigon|Stealth Rock|p2a: Victini
+|-sidestart|p2: FavMon=Garchomp|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1639788194
+|move|p2a: Victini|U-turn|p1a: Druddigon
+|-damage|p1a: Druddigon|82/100
+|-damage|p2a: Victini|88/100|[from] ability: Rough Skin|[of] p1a: Druddigon
+|inactive|FavMon=Garchomp has 10 seconds left.
+|
+|t:|1639788201
+|switch|p2a: Steelix|Steelix, M|100/100|[from]move: U-turn
+|-damage|p2a: Steelix|97/100|[from] Stealth Rock
+|move|p1a: Druddigon|Stealth Rock||[still]
+|-fail|p1a: Druddigon
+|
+|-heal|p2a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|medium man14 has 10 seconds left.
+|
+|t:|1639788207
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Steelix|Stealth Rock|p1a: Milotic
+|-sidestart|p1: medium man14|move: Stealth Rock
+|
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|medium man14 has 10 seconds left.
+|j| Ban Volc Please
+|
+|t:|1639788217
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: Milotic|Scald|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|76/100
+|
+|-heal|p2a: Roserade|83/100|[from] item: Black Sludge
+|-damage|p1a: Milotic|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|medium man14 has 10 seconds left.
+|l| Ban Volc Please
+|
+|t:|1639788222
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-damage|p1a: Arcanine|75/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Roserade|atk|1
+|move|p2a: Roserade|Spikes|p1a: Arcanine
+|-sidestart|p1: medium man14|Spikes
+|
+|-heal|p2a: Roserade|89/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|inactive|medium man14 has 10 seconds left.
+|j| blackkaiser
+|inactive|medium man14 has 5 seconds left.
+|
+|t:|1639788233
+|switch|p2a: Victini|Victini|88/100
+|-damage|p2a: Victini|63/100|[from] Stealth Rock
+|move|p1a: Arcanine|Snarl|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|40/100
+|-unboost|p2a: Victini|spa|1
+|-enditem|p2a: Victini|Mago Berry|[eat]
+|-heal|p2a: Victini|53/100|[from] item: Mago Berry
+|
+|upkeep
+|turn|7
+|inactive|medium man14 has 10 seconds left this turn.
+|inactive|medium man14 has 5 seconds left.
+|-message|medium man14 lost due to inactivity.
+|
+|win|FavMon=Garchomp
+|n|☆medium man14|mediumman14
+|n|☆FavMon=Garchomp|favmongarchomp
+|n| popsnot|popsnot
+|n| blackkaiser|blackkaiser
+|l| blackkaiser
+|l|☆medium man14

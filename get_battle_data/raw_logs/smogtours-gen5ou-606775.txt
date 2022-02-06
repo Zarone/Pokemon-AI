@@ -1,0 +1,585 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644082090
+|gametype|singles
+|player|p1|gilbert arenas|#splxiiityrants|
+|player|p2|THE PDC SHOW|#splxiiityrants|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Sableye, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Terrakion|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Reuniclus, M|item
+|poke|p2|Keldeo|item
+|poke|p2|Jirachi|item
+|poke|p2|Starmie|item
+|teampreview
+|inactive|gilbert arenas has 270 seconds left.
+|inactive|THE PDC SHOW has 270 seconds left.
+|inactive|gilbert arenas has 240 seconds left.
+|
+|t:|1644082168
+|start
+|switch|p1a: Sexcadrill|Excadrill, M|100/100
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|turn|1
+|
+|t:|1644082189
+|move|p1a: Sexcadrill|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: THE PDC SHOW|move: Stealth Rock
+|move|p2a: Reuniclus|Focus Blast|p1a: Sexcadrill
+|-supereffective|p1a: Sexcadrill
+|-crit|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|0 fnt
+|faint|p1a: Sexcadrill
+|
+|upkeep
+|
+|t:|1644082196
+|switch|p1a: Sabletroll|Sableye, M|100/100
+|turn|2
+|
+|t:|1644082205
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Sabletroll|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|74/100
+|-enditem|p2a: Latios|Choice Specs|[from] move: Knock Off|[of] p1a: Sabletroll
+|
+|upkeep
+|turn|3
+|inactive|gilbert arenas has 270 seconds left.
+|
+|t:|1644082248
+|switch|p1a: Irene Noren|Ferrothorn, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Irene Noren
+|-resisted|p1a: Irene Noren
+|-damage|p1a: Irene Noren|76/100
+|-unboost|p2a: Latios|spa|2
+|
+|-heal|p1a: Irene Noren|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644082258
+|move|p2a: Latios|Trick|p1a: Irene Noren
+|-activate|p2a: Latios|move: Trick|[of] p1a: Irene Noren
+|-enditem|p1a: Irene Noren|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Latios|Leftovers|[from] move: Trick
+|move|p1a: Irene Noren|Spikes|p2a: Latios
+|-sidestart|p2: THE PDC SHOW|Spikes
+|
+|-heal|p2a: Latios|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644082269
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Irene Noren|Leech Seed|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Leech Seed
+|
+|upkeep
+|turn|6
+|
+|t:|1644082273
+|switch|p2a: Latios|Latios, M|80/100
+|-damage|p2a: Latios|67/100|[from] Stealth Rock
+|switch|p1a: Sabletroll|Sableye, M|100/100
+|
+|-heal|p2a: Latios|73/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644082276
+|switch|p1a: Irene Noren|Ferrothorn, F|82/100
+|move|p2a: Latios|Surf|p1a: Irene Noren
+|-resisted|p1a: Irene Noren
+|-crit|p1a: Irene Noren
+|-damage|p1a: Irene Noren|58/100
+|
+|-heal|p2a: Latios|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644082281
+|move|p2a: Latios|Draco Meteor|p1a: Irene Noren
+|-resisted|p1a: Irene Noren
+|-damage|p1a: Irene Noren|34/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Irene Noren|Gyro Ball|p2a: Latios
+|-damage|p2a: Latios|14/100
+|
+|-heal|p2a: Latios|20/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644082284
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Irene Noren|Gyro Ball|p2a: Reuniclus
+|-damage|p2a: Reuniclus|84/100
+|
+|upkeep
+|turn|10
+|
+|t:|1644082287
+|switch|p1a: Sabletroll|Sableye, M|100/100
+|move|p2a: Reuniclus|Hidden Power|p1a: Sabletroll
+|-damage|p1a: Sabletroll|65/100
+|
+|-heal|p1a: Sabletroll|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644082291
+|switch|p2a: Keldeo|Keldeo|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|82/100|[from] Spikes
+|move|p1a: Sabletroll|Knock Off|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|79/100
+|-ability|p2a: Keldeo|Justified|boost
+|-boost|p2a: Keldeo|atk|1
+|-enditem|p2a: Keldeo|Choice Scarf|[from] move: Knock Off|[of] p1a: Sabletroll
+|
+|-heal|p1a: Sabletroll|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644082295
+|switch|p2a: Starmie|Starmie|100/100
+|-damage|p2a: Starmie|88/100|[from] Stealth Rock
+|-damage|p2a: Starmie|76/100|[from] Spikes
+|switch|p1a: Ocultia|Latias, F|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1644082300
+|move|p2a: Starmie|Hydro Pump|p1a: Ocultia|[miss]
+|-miss|p2a: Starmie|p1a: Ocultia
+|move|p1a: Ocultia|Roar|p2a: Starmie
+|drag|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1644082304
+|move|p1a: Ocultia|Dragon Pulse|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|7/100
+|move|p2a: Dragonite|Outrage|p1a: Ocultia
+|-supereffective|p1a: Ocultia
+|-damage|p1a: Ocultia|0 fnt
+|faint|p1a: Ocultia
+|
+|upkeep
+|
+|t:|1644082311
+|switch|p1a: Irene Noren|Ferrothorn, F|34/100
+|turn|15
+|
+|t:|1644082314
+|move|p2a: Dragonite|Outrage|p1a: Irene Noren|[from]lockedmove
+|-resisted|p1a: Irene Noren
+|-damage|p1a: Irene Noren|2/100
+|-damage|p2a: Dragonite|0 fnt|[from] ability: Iron Barbs|[of] p1a: Irene Noren
+|faint|p2a: Dragonite
+|move|p1a: Irene Noren|Spikes|p2: Dragonite
+|-sidestart|p2: THE PDC SHOW|Spikes
+|
+|upkeep
+|
+|t:|1644082326
+|switch|p2a: Latios|Latios, M|20/100
+|-damage|p2a: Latios|8/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1644082332
+|switch|p1a: Furia Roja|Gyarados, M, shiny|100/100
+|-ability|p1a: Furia Roja|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|move|p2a: Latios|Psyshock|p1a: Furia Roja
+|-damage|p1a: Furia Roja|71/100
+|
+|-heal|p2a: Latios|14/100|[from] item: Leftovers
+|-heal|p1a: Furia Roja|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644082338
+|switch|p1a: Irene Noren|Ferrothorn, F|2/100
+|move|p2a: Latios|Draco Meteor|p1a: Irene Noren
+|-resisted|p1a: Irene Noren
+|-damage|p1a: Irene Noren|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Irene Noren
+|
+|-heal|p2a: Latios|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644082347
+|switch|p1a: Sabletroll|Sableye, M|77/100
+|turn|18
+|
+|t:|1644082361
+|move|p1a: Sabletroll|Taunt|p2a: Latios
+|-start|p2a: Latios|move: Taunt
+|move|p2a: Latios|Draco Meteor|p1a: Sabletroll
+|-damage|p1a: Sabletroll|37/100
+|-unboost|p2a: Latios|spa|2
+|
+|-heal|p2a: Latios|26/100|[from] item: Leftovers
+|-heal|p1a: Sabletroll|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1644082367
+|switch|p2a: Keldeo|Keldeo|79/100
+|-damage|p2a: Keldeo|72/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|56/100|[from] Spikes
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|93/100
+|
+|-heal|p1a: Sabletroll|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644082377
+|move|p1a: Sabletroll|Will-O-Wisp|p2a: Keldeo
+|-status|p2a: Keldeo|brn
+|move|p2a: Keldeo|Surf|p1a: Sabletroll
+|-damage|p1a: Sabletroll|51/100
+|
+|-heal|p1a: Sabletroll|57/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|44/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1644082382
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|100/100
+|move|p2a: Keldeo|Surf|p1a: Sabletroll
+|-damage|p1a: Sabletroll|52/100
+|
+|-heal|p1a: Sabletroll|58/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|31/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1644082385
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|100/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Sabletroll|[miss]
+|-miss|p2a: Keldeo|p1a: Sabletroll
+|
+|-damage|p2a: Keldeo|19/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1644082397
+|switch|p1a: Furia Roja|Gyarados, M, shiny|78/100
+|-ability|p1a: Furia Roja|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|move|p2a: Keldeo|Hydro Pump|p1a: Furia Roja
+|-resisted|p1a: Furia Roja
+|-damage|p1a: Furia Roja|50/100
+|
+|-heal|p1a: Furia Roja|56/100|[from] item: Leftovers
+|-damage|p2a: Keldeo|6/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1644082403
+|move|p2a: Keldeo|Hydro Pump|p1a: Furia Roja
+|-resisted|p1a: Furia Roja
+|-damage|p1a: Furia Roja|29/100
+|move|p1a: Furia Roja|Rest|p1a: Furia Roja
+|-status|p1a: Furia Roja|slp|[from] move: Rest
+|-heal|p1a: Furia Roja|100/100 slp|[silent]
+|
+|-damage|p2a: Keldeo|0 fnt|[from] brn
+|faint|p2a: Keldeo
+|upkeep
+|
+|t:|1644082407
+|switch|p2a: Starmie|Starmie|76/100
+|-damage|p2a: Starmie|64/100|[from] Stealth Rock
+|-damage|p2a: Starmie|47/100|[from] Spikes
+|turn|25
+|
+|t:|1644082413
+|move|p2a: Starmie|Hydro Pump|p1a: Furia Roja
+|-resisted|p1a: Furia Roja
+|-damage|p1a: Furia Roja|73/100 slp
+|-damage|p2a: Starmie|38/100|[from] item: Life Orb
+|cant|p1a: Furia Roja|slp
+|move|p1a: Furia Roja|Sleep Talk|p1a: Furia Roja
+|move|p1a: Furia Roja|Roar|p2a: Starmie|[from]move: Sleep Talk
+|drag|p2a: Reuniclus|Reuniclus, M|84/100
+|
+|-heal|p1a: Furia Roja|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644082418
+|switch|p1a: Sabletroll|Sableye, M|100/100
+|switch|p2a: Starmie|Starmie|38/100
+|-damage|p2a: Starmie|21/100|[from] Spikes
+|-damage|p2a: Starmie|9/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|t:|1644082425
+|move|p2a: Starmie|Hydro Pump|p1a: Sabletroll|[miss]
+|-miss|p2a: Starmie|p1a: Sabletroll
+|move|p1a: Sabletroll|Knock Off|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-enditem|p2a: Starmie|Life Orb|[from] move: Knock Off|[of] p1a: Sabletroll
+|faint|p2a: Starmie
+|
+|upkeep
+|
+|t:|1644082428
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|84/100|[from] Spikes
+|-damage|p2a: Jirachi|78/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1644082432
+|move|p1a: Sabletroll|Will-O-Wisp|p2a: Jirachi
+|-status|p2a: Jirachi|brn
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-crit|p1a: Sabletroll
+|-damage|p1a: Sabletroll|48/100
+|
+|-heal|p1a: Sabletroll|54/100|[from] item: Leftovers
+|-damage|p2a: Jirachi|66/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1644082445
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|100/100
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-damage|p1a: Sabletroll|74/100
+|-status|p1a: Sabletroll|par
+|
+|-heal|p1a: Sabletroll|80/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|53/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1644082454
+|cant|p1a: Sabletroll|par
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-damage|p1a: Sabletroll|50/100 par
+|
+|-heal|p1a: Sabletroll|56/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|41/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1644082461
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|100/100 par
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-damage|p1a: Sabletroll|75/100 par
+|
+|-heal|p1a: Sabletroll|81/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|29/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1644082467
+|cant|p1a: Sabletroll|par
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-damage|p1a: Sabletroll|52/100 par
+|
+|-heal|p1a: Sabletroll|58/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|16/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1644082471
+|cant|p1a: Sabletroll|par
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-damage|p1a: Sabletroll|30/100 par
+|
+|-heal|p1a: Sabletroll|37/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|4/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1644082474
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|87/100 par
+|move|p2a: Jirachi|Thunderbolt|p1a: Sabletroll
+|-damage|p1a: Sabletroll|59/100 par
+|
+|-heal|p1a: Sabletroll|65/100 par|[from] item: Leftovers
+|-damage|p2a: Jirachi|0 fnt|[from] brn
+|faint|p2a: Jirachi
+|upkeep
+|
+|t:|1644082476
+|switch|p2a: Latios|Latios, M|26/100
+|-damage|p2a: Latios|13/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1644082480
+|switch|p1a: Furia Roja|Gyarados, M, shiny|79/100 slp
+|-ability|p1a: Furia Roja|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|move|p2a: Latios|Psyshock|p1a: Furia Roja
+|-crit|p1a: Furia Roja
+|-damage|p1a: Furia Roja|19/100 slp
+|
+|-heal|p2a: Latios|19/100|[from] item: Leftovers
+|-heal|p1a: Furia Roja|25/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1644082484
+|move|p2a: Latios|Psyshock|p1a: Furia Roja
+|-damage|p1a: Furia Roja|0 fnt
+|faint|p1a: Furia Roja
+|
+|-heal|p2a: Latios|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644082489
+|switch|p1a: Sabletroll|Sableye, M|65/100 par
+|turn|37
+|
+|t:|1644082491
+|cant|p1a: Sabletroll|par
+|move|p2a: Latios|Surf|p1a: Sabletroll
+|-damage|p1a: Sabletroll|31/100 par
+|
+|-heal|p2a: Latios|31/100|[from] item: Leftovers
+|-heal|p1a: Sabletroll|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1644082493
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|88/100 par
+|move|p2a: Latios|Draco Meteor|p1a: Sabletroll
+|-damage|p1a: Sabletroll|6/100 par
+|-unboost|p2a: Latios|spa|2
+|
+|-heal|p2a: Latios|37/100|[from] item: Leftovers
+|-heal|p1a: Sabletroll|12/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1644082497
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|62/100 par
+|move|p2a: Latios|Surf|p1a: Sabletroll
+|-damage|p1a: Sabletroll|45/100 par
+|
+|-heal|p2a: Latios|43/100|[from] item: Leftovers
+|-heal|p1a: Sabletroll|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1644082500
+|switch|p2a: Reuniclus|Reuniclus, M|84/100
+|move|p1a: Sabletroll|Recover|p1a: Sabletroll
+|-heal|p1a: Sabletroll|100/100 par
+|
+|upkeep
+|turn|41
+|
+|t:|1644082503
+|move|p2a: Reuniclus|Hidden Power|p1a: Sabletroll
+|-damage|p1a: Sabletroll|64/100 par
+|move|p1a: Sabletroll|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|72/100
+|-enditem|p2a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p1a: Sabletroll
+|
+|-heal|p1a: Sabletroll|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1644082507
+|move|p1a: Sabletroll|Will-O-Wisp|p2a: Reuniclus|[miss]
+|-miss|p1a: Sabletroll|p2a: Reuniclus
+|move|p2a: Reuniclus|Hidden Power|p1a: Sabletroll
+|-damage|p1a: Sabletroll|44/100 par
+|
+|-heal|p1a: Sabletroll|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1644082513
+|move|p1a: Sabletroll|Will-O-Wisp|p2a: Reuniclus
+|-status|p2a: Reuniclus|brn
+|move|p2a: Reuniclus|Hidden Power|p1a: Sabletroll
+|-damage|p1a: Sabletroll|24/100 par
+|
+|-heal|p1a: Sabletroll|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1644082525
+|move|p1a: Sabletroll|Will-O-Wisp|p2a: Reuniclus
+|-fail|p2a: Reuniclus|brn
+|move|p2a: Reuniclus|Hidden Power|p1a: Sabletroll
+|-damage|p1a: Sabletroll|0 fnt
+|faint|p1a: Sabletroll
+|
+|upkeep
+|
+|t:|1644082528
+|switch|p1a: Uberkion|Terrakion|100/100
+|turn|45
+|
+|t:|1644082532
+|move|p1a: Uberkion|Stone Edge|p2a: Reuniclus
+|-enditem|p1a: Uberkion|Rock Gem|[from] gem
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1644082535
+|switch|p2a: Latios|Latios, M|43/100
+|-damage|p2a: Latios|31/100|[from] Stealth Rock
+|turn|46
+|
+|t:|1644082536
+|move|p2a: Latios|Psyshock|p1a: Uberkion
+|-supereffective|p1a: Uberkion
+|-damage|p1a: Uberkion|5/100
+|move|p1a: Uberkion|Close Combat|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-unboost|p1a: Uberkion|def|1
+|-unboost|p1a: Uberkion|spd|1
+|faint|p2a: Latios
+|
+|win|gilbert arenas

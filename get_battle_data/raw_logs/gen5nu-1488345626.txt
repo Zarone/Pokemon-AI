@@ -1,0 +1,153 @@
+|j|☆jahmille118
+|j|‽Rabootpog
+|t:|1641753884
+|gametype|singles
+|player|p1|jahmille118|265|1086
+|player|p2|Rabootpog|iris-gen5bw2|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Armaldo, F|item
+|poke|p1|Ludicolo, M|item
+|poke|p1|Gorebyss, M|item
+|poke|p1|Liepard, F|item
+|poke|p1|Illumise, F|item
+|poke|p1|Floatzel, F|item
+|poke|p2|Leafeon, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Sawk, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Weezing, M|item
+|poke|p2|Golem, M|item
+|teampreview
+|
+|t:|1641753893
+|start
+|switch|p1a: Armaldo|Armaldo, F|100/100
+|switch|p2a: Golem|Golem, M|100/100
+|turn|1
+|
+|t:|1641753899
+|move|p1a: Armaldo|Stealth Rock|p2a: Golem
+|-sidestart|p2: Rabootpog|move: Stealth Rock
+|move|p2a: Golem|Stealth Rock|p1a: Armaldo
+|-sidestart|p1: jahmille118|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641753904
+|move|p1a: Armaldo|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|37/100
+|-damage|p1a: Armaldo|91/100|[from] item: Life Orb
+|move|p2a: Golem|Stone Edge|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|upkeep
+|
+|t:|1641753913
+|switch|p1a: Liepard|Liepard, F|100/100
+|-damage|p1a: Liepard|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1641753919
+|move|p1a: Liepard|Fake Out|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|33/100
+|cant|p2a: Golem|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1641753924
+|move|p1a: Liepard|Rain Dance|p1a: Liepard
+|-weather|RainDance
+|move|p2a: Golem|Stone Edge|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641753938
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|-damage|p1a: Ludicolo|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1641753944
+|move|p1a: Ludicolo|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|-damage|p1a: Ludicolo|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641753953
+|switch|p2a: Sawk|Sawk, M|100/100
+|-damage|p2a: Sawk|94/100|[from] Stealth Rock
+|-ability|p2a: Sawk|Mold Breaker
+|turn|6
+|
+|t:|1641753962
+|move|p1a: Ludicolo|Surf|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-damage|p1a: Ludicolo|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641753966
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|-damage|p2a: Leafeon|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1641753970
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|move|p1a: Ludicolo|Ice Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|47/100
+|-damage|p1a: Ludicolo|58/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kangaskhan|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1641753981
+|move|p1a: Ludicolo|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|-damage|p1a: Ludicolo|49/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641753991
+|switch|p2a: Weezing|Weezing, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|9
+|-message|Rabootpog forfeited.
+|
+|win|jahmille118
+|raw|jahmille118's rating: 1112 &rarr; <strong>1132</strong><br />(+20 for winning)
+|raw|Rabootpog's rating: 1045 &rarr; <strong>1031</strong><br />(-14 for losing)
+|l|‽Rabootpog

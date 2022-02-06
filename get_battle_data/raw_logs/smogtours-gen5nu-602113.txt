@@ -1,0 +1,655 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642045802
+|gametype|singles
+|player|p1|CB AARON JUDGE|blaine-gen3|
+|player|p2|thedonseena|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Tangela, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Zweilous, F|item
+|poke|p1|Bronzor|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Serperior, M|item
+|poke|p2|Golurk|item
+|poke|p2|Skuntank, F|item
+|teampreview
+|c|☆thedonseena|sorry about that
+|c|☆thedonseena|glhf
+|c|☆CB AARON JUDGE|u2
+|
+|t:|1642045817
+|start
+|switch|p1a: Bronzor|Bronzor|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1642045823
+|move|p2a: Golurk|Stealth Rock|p1a: Bronzor
+|-sidestart|p1: CB AARON JUDGE|move: Stealth Rock
+|move|p1a: Bronzor|Stealth Rock|p2a: Golurk
+|-sidestart|p2: thedonseena|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1642045829
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: Bronzor|Calm Mind|p1a: Bronzor
+|-boost|p1a: Bronzor|spa|1
+|-boost|p1a: Bronzor|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1642045832
+|move|p2a: Skuntank|Taunt|p1a: Bronzor
+|-start|p1a: Bronzor|move: Taunt
+|move|p1a: Bronzor|Flash Cannon|p2a: Skuntank
+|-damage|p2a: Skuntank|67/100
+|
+|upkeep
+|turn|4
+|
+|t:|1642045838
+|move|p2a: Skuntank|Crunch|p1a: Bronzor
+|-damage|p1a: Bronzor|79/100
+|-unboost|p1a: Bronzor|def|1
+|move|p1a: Bronzor|Flash Cannon|p2a: Skuntank
+|-damage|p2a: Skuntank|46/100
+|
+|upkeep
+|turn|5
+|
+|t:|1642045850
+|move|p2a: Skuntank|Crunch|p1a: Bronzor
+|-damage|p1a: Bronzor|50/100
+|-unboost|p1a: Bronzor|def|1
+|move|p1a: Bronzor|Flash Cannon|p2a: Skuntank
+|-damage|p2a: Skuntank|28/100
+|-unboost|p2a: Skuntank|spd|1
+|
+|-end|p1a: Bronzor|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1642045859
+|move|p2a: Skuntank|Taunt|p1a: Bronzor
+|-start|p1a: Bronzor|move: Taunt
+|move|p1a: Bronzor|Flash Cannon|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1642045863
+|switch|p2a: Eelektross|Eelektross, F|100/100
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1642045870
+|switch|p1a: Zweilous|Zweilous, F|100/100
+|-damage|p1a: Zweilous|88/100|[from] Stealth Rock
+|move|p2a: Eelektross|Flamethrower|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|78/100
+|-status|p1a: Zweilous|brn
+|
+|-heal|p2a: Eelektross|94/100|[from] item: Leftovers
+|-damage|p1a: Zweilous|66/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆thedonseena|sorry about that
+|
+|t:|1642045878
+|move|p1a: Zweilous|Rest|p1a: Zweilous
+|-status|p1a: Zweilous|slp|[from] move: Rest
+|-heal|p1a: Zweilous|100/100 slp|[silent]
+|move|p2a: Eelektross|Volt Switch|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|89/100 slp
+|
+|t:|1642045886
+|switch|p2a: Golurk|Golurk|100/100|[from]move: Volt Switch
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Golurk|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1642045894
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Golurk|Ice Punch|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|-status|p1a: Alomomola|frz
+|
+|-heal|p1a: Alomomola|82/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆thedonseena|yikes mb 
+|c|☆CB AARON JUDGE|lol
+|c|☆thedonseena|getting really lucky
+|
+|t:|1642045906
+|-curestatus|p1a: Alomomola|frz|[from] move: Scald
+|move|p1a: Alomomola|Scald|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|76/100
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|
+|-heal|p1a: Alomomola|53/100|[from] item: Leftovers
+|-heal|p2a: Golurk|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆CB AARON JUDGE|doesnt matter
+|c|☆thedonseena|oh forgot that happeend
+|
+|t:|1642045921
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆CB AARON JUDGE|both cases they would be cured
+|
+|t:|1642045929
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Stealth Rock
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|63/100
+|
+|-heal|p1a: Garbodor|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|13
+|
+|t:|1642045932
+|move|p2a: Serperior|Hidden Power|p1a: Garbodor
+|-damage|p1a: Garbodor|77/100
+|-damage|p2a: Serperior|53/100|[from] item: Life Orb
+|move|p1a: Garbodor|Rock Blast|p2a: Serperior
+|-activate|p2a: Serperior|Substitute|[damage]
+|-crit|p2a: Serperior
+|-activate|p2a: Serperior|Substitute|[damage]
+|-end|p2a: Serperior|Substitute
+|-hitcount|p2a: Serperior|3
+|
+|-heal|p1a: Garbodor|83/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1642045943
+|switch|p2a: Golurk|Golurk|82/100
+|-damage|p2a: Golurk|76/100|[from] Stealth Rock
+|move|p1a: Garbodor|Spikes|p2a: Golurk
+|-sidestart|p2: thedonseena|Spikes
+|
+|-heal|p1a: Garbodor|90/100|[from] item: Black Sludge
+|-heal|p2a: Golurk|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1642045948
+|move|p1a: Garbodor|Toxic|p2a: Golurk
+|-status|p2a: Golurk|tox
+|move|p2a: Golurk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|10/100
+|
+|-heal|p1a: Garbodor|16/100|[from] item: Black Sludge
+|-heal|p2a: Golurk|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Golurk|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1642045953
+|move|p1a: Garbodor|Toxic Spikes|p2a: Golurk
+|-sidestart|p2: thedonseena|move: Toxic Spikes
+|move|p2a: Golurk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|-heal|p2a: Golurk|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Golurk|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1642045959
+|switch|p1a: Tangela|Tangela, F|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1642045965
+|move|p1a: Tangela|Giga Drain|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|24/100 tox
+|-heal|p1a: Tangela|100/100|[from] drain|[of] p2a: Golurk
+|move|p2a: Golurk|Toxic|p1a: Tangela
+|-status|p1a: Tangela|tox
+|
+|-heal|p2a: Golurk|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangela|94/100 tox|[from] psn
+|-damage|p2a: Golurk|12/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1642045970
+|move|p1a: Tangela|Hidden Power|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|5/100 tox
+|move|p2a: Golurk|Ice Punch|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|65/100 tox
+|
+|-heal|p2a: Golurk|11/100 tox|[from] item: Leftovers
+|-damage|p1a: Tangela|53/100 tox|[from] psn
+|-damage|p2a: Golurk|0 fnt|[from] psn
+|faint|p2a: Golurk
+|upkeep
+|
+|t:|1642045981
+|switch|p2a: Eelektross|Eelektross, F|94/100
+|-damage|p2a: Eelektross|82/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1642045986
+|switch|p1a: Zweilous|Zweilous, F|89/100 slp
+|-damage|p1a: Zweilous|77/100 slp|[from] Stealth Rock
+|move|p2a: Eelektross|Flamethrower|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|67/100 slp
+|
+|-heal|p2a: Eelektross|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1642045990
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Roar|p2a: Eelektross|[from]move: Sleep Talk
+|drag|p2a: Serperior|Serperior, M|53/100
+|-status|p2a: Serperior|psn
+|-damage|p2a: Serperior|41/100 psn|[from] Spikes
+|-damage|p2a: Serperior|29/100 psn|[from] Stealth Rock
+|
+|-damage|p2a: Serperior|16/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1642045996
+|move|p2a: Serperior|Hidden Power|p1a: Zweilous
+|-damage|p1a: Zweilous|52/100 slp
+|-damage|p2a: Serperior|6/100 psn|[from] item: Life Orb
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Dragon Tail|p2a: Serperior|[from]move: Sleep Talk
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|c|☆thedonseena|dang that did a lot
+|
+|t:|1642046021
+|switch|p2a: Charizard|Charizard, F|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1642046030
+|move|p2a: Charizard|Fire Blast|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|28/100 slp
+|-curestatus|p1a: Zweilous|slp|[msg]
+|move|p1a: Zweilous|Dragon Tail|p2a: Charizard
+|-damage|p2a: Charizard|13/100
+|drag|p2a: Eelektross|Eelektross, F|88/100
+|-damage|p2a: Eelektross|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Eelektross|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642046044
+|move|p1a: Zweilous|Rest|p1a: Zweilous
+|-status|p1a: Zweilous|slp|[from] move: Rest
+|-heal|p1a: Zweilous|100/100 slp|[silent]
+|move|p2a: Eelektross|Volt Switch|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|89/100 slp
+|
+|t:|1642046048
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-damage|p2a: Alomomola|76/100|[from] Spikes
+|-status|p2a: Alomomola|psn
+|
+|-damage|p2a: Alomomola|63/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1642046057
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Dragon Tail|p2a: Alomomola|[from]move: Sleep Talk
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100 psn
+|-damage|p1a: Zweilous|73/100 slp|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|drag|p2a: Eelektross|Eelektross, F|82/100
+|-damage|p2a: Eelektross|69/100|[from] Stealth Rock
+|
+|-heal|p2a: Eelektross|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆thedonseena|oh thats actually really clever
+|c|☆thedonseena|you don't get negative priority right
+|c|☆CB AARON JUDGE|no
+|c|☆thedonseena|since its through sleep talk
+|
+|t:|1642046083
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Zweilous
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|58/100 slp
+|
+|-heal|p2a: Eelektross|81/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1642046093
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|43/100 slp
+|-curestatus|p1a: Zweilous|slp|[msg]
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross|[miss]
+|-miss|p1a: Zweilous|p2a: Eelektross
+|
+|-heal|p2a: Eelektross|87/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1642046101
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|28/100
+|move|p1a: Zweilous|Roar|p2a: Eelektross
+|drag|p2a: Charizard|Charizard, F|13/100
+|-damage|p2a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p2a: Charizard
+|
+|upkeep
+|c|☆thedonseena|well gg again think you won this
+|
+|t:|1642046110
+|switch|p2a: Alomomola|Alomomola, M|64/100 psn
+|-damage|p2a: Alomomola|52/100 psn|[from] Stealth Rock
+|-damage|p2a: Alomomola|39/100 psn|[from] Spikes
+|turn|28
+|
+|t:|1642046114
+|move|p1a: Zweilous|Rest|p1a: Zweilous
+|-status|p1a: Zweilous|slp|[from] move: Rest
+|-heal|p1a: Zweilous|100/100 slp|[silent]
+|move|p2a: Alomomola|Scald|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|96/100 slp
+|
+|-damage|p2a: Alomomola|27/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1642046123
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Zweilous
+|move|p2a: Alomomola|Scald|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|92/100 slp
+|
+|-damage|p2a: Alomomola|14/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1642046128
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Roar|p2a: Alomomola|[from]move: Sleep Talk
+|drag|p2a: Eelektross|Eelektross, F|87/100
+|-damage|p2a: Eelektross|75/100|[from] Stealth Rock
+|
+|-heal|p2a: Eelektross|81/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1642046134
+|-curestatus|p1a: Zweilous|slp|[msg]
+|move|p1a: Zweilous|Sleep Talk||[still]
+|-fail|p1a: Zweilous
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|77/100
+|
+|-heal|p2a: Eelektross|87/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1642046138
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|64/100
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross
+|-damage|p2a: Eelektross|57/100
+|drag|p2a: Alomomola|Alomomola, M|48/100 psn
+|-damage|p2a: Alomomola|35/100 psn|[from] Stealth Rock
+|-damage|p2a: Alomomola|23/100 psn|[from] Spikes
+|
+|-damage|p2a: Alomomola|10/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1642046143
+|move|p2a: Alomomola|Healing Wish|p2a: Alomomola
+|faint|p2a: Alomomola
+|move|p1a: Zweilous|Roar|p2: Alomomola|[notarget]
+|-fail|p1a: Zweilous
+|
+|upkeep
+|
+|t:|1642046145
+|switch|p2a: Eelektross|Eelektross, F|57/100
+|-heal|p2a: Eelektross|100/100|[from] move: Healing Wish
+|-damage|p2a: Eelektross|88/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1642046150
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|49/100
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross
+|-damage|p2a: Eelektross|60/100
+|
+|-heal|p2a: Eelektross|66/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1642046156
+|move|p1a: Zweilous|Rest|p1a: Zweilous
+|-status|p1a: Zweilous|slp|[from] move: Rest
+|-heal|p1a: Zweilous|100/100 slp|[silent]
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|84/100 slp
+|
+|-heal|p2a: Eelektross|72/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1642046159
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Roar||[from]move: Sleep Talk|[still]
+|-fail|p1a: Zweilous
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|70/100 slp
+|
+|-heal|p2a: Eelektross|78/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1642046164
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross|[from]move: Sleep Talk|[miss]
+|-miss|p1a: Zweilous|p2a: Eelektross
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|56/100 slp
+|
+|-heal|p2a: Eelektross|84/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1642046166
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|41/100 slp
+|-curestatus|p1a: Zweilous|slp|[msg]
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross
+|-damage|p2a: Eelektross|56/100
+|
+|-heal|p2a: Eelektross|62/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1642046170
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|28/100
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross
+|-damage|p2a: Eelektross|29/100
+|
+|-heal|p2a: Eelektross|35/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆thedonseena|ggwp
+|
+|t:|1642046176
+|move|p1a: Zweilous|Rest|p1a: Zweilous
+|-status|p1a: Zweilous|slp|[from] move: Rest
+|-heal|p1a: Zweilous|100/100 slp|[silent]
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|84/100 slp
+|
+|-heal|p2a: Eelektross|41/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1642046181
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|69/100 slp
+|cant|p1a: Zweilous|slp
+|
+|-heal|p2a: Eelektross|47/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1642046189
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-crit|p1a: Zweilous
+|-damage|p1a: Zweilous|41/100 slp
+|cant|p1a: Zweilous|slp
+|
+|-heal|p2a: Eelektross|53/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1642046200
+|move|p2a: Eelektross|Giga Drain|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|33/100 slp
+|-heal|p2a: Eelektross|57/100|[from] drain|[of] p1a: Zweilous
+|-curestatus|p1a: Zweilous|slp|[msg]
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross
+|-damage|p2a: Eelektross|27/100
+|
+|-heal|p2a: Eelektross|33/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1642046204
+|move|p2a: Eelektross|Giga Drain|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|26/100
+|-heal|p2a: Eelektross|36/100|[from] drain|[of] p1a: Zweilous
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross
+|-damage|p2a: Eelektross|8/100
+|
+|-heal|p2a: Eelektross|14/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1642046208
+|move|p1a: Zweilous|Rest|p1a: Zweilous
+|-status|p1a: Zweilous|slp|[from] move: Rest
+|-heal|p1a: Zweilous|100/100 slp|[silent]
+|move|p2a: Eelektross|Thunderbolt|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|86/100 slp
+|
+|-heal|p2a: Eelektross|20/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1642046214
+|move|p2a: Eelektross|Giga Drain|p1a: Zweilous
+|-resisted|p1a: Zweilous
+|-damage|p1a: Zweilous|79/100 slp
+|-heal|p2a: Eelektross|24/100|[from] drain|[of] p1a: Zweilous
+|cant|p1a: Zweilous|slp
+|
+|-heal|p2a: Eelektross|30/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1642046220
+|cant|p1a: Zweilous|slp
+|move|p1a: Zweilous|Sleep Talk|p1a: Zweilous
+|move|p1a: Zweilous|Dragon Tail|p2a: Eelektross|[from]move: Sleep Talk
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|win|CB AARON JUDGE
+|c|☆CB AARON JUDGE|ggs
+|c|☆thedonseena|ggwp
+|c|☆thedonseena|youve had a lot of experience in bw nu right
+|c|☆thedonseena|ive seen you in some of the old forums
+|c|☆thedonseena|was wondering if you had any tips on getting better and learning the tier

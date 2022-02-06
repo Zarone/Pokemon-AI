@@ -1,0 +1,240 @@
+|j|☆pokemaster1399
+|j|☆wwDRTTT5T5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1622127985
+|gametype|singles
+|player|p1|pokemaster1399|102|
+|player|p2|wwDRTTT5T5|wallace|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Tentacool, L5, M|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Porygon, L5|item
+|poke|p2|Staryu, L5|item
+|poke|p2|Gastly, L5, M|item
+|poke|p2|Tentacool, L5, M|item
+|teampreview
+|inactive|wwDRTTT5T5 also wants the timer to be on.
+|inactive|pokemaster1399 also wants the timer to be on.
+|c|☆wwDRTTT5T5|same team
+|c|☆wwDRTTT5T5|glhf
+|
+|t:|1622128011
+|start
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|switch|p2a: Tentacool|Tentacool, L5, M|100/100
+|turn|1
+|
+|t:|1622128023
+|move|p1a: Gastly|Will-O-Wisp|p2a: Tentacool
+|-status|p2a: Tentacool|brn
+|move|p2a: Tentacool|Knock Off|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|96/100
+|-enditem|p1a: Gastly|Eviolite|[from] move: Knock Off|[of] p2a: Tentacool
+|
+|-damage|p2a: Tentacool|92/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1622128037
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-ability|p2a: Porygon|Levitate|[from] ability: Trace|[of] p1a: Gastly
+|move|p1a: Gastly|Knock Off|p2a: Porygon
+|-damage|p2a: Porygon|96/100
+|-enditem|p2a: Porygon|Eviolite|[from] move: Knock Off|[of] p1a: Gastly
+|
+|upkeep
+|turn|3
+|
+|t:|1622128047
+|move|p1a: Gastly|Sludge Bomb|p2a: Porygon
+|-damage|p2a: Porygon|48/100
+|-status|p2a: Porygon|psn
+|move|p2a: Porygon|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|-damage|p2a: Porygon|36/100 psn|[from] psn
+|upkeep
+|
+|t:|1622128068
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|4
+|l|☆wwDRTTT5T5
+|inactive|wwDRTTT5T5 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|wwDRTTT5T5 has 30 seconds to reconnect!
+|j|☆wwDRTTT5T5
+|inactive|wwDRTTT5T5 reconnected and has 115 seconds left.
+|player|p2|wwDRTTT5T5|wallace
+|
+|t:|1622128109
+|move|p1a: Drilbur|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|upkeep
+|
+|t:|1622128112
+|switch|p2a: Staryu|Staryu, L5|100/100
+|turn|5
+|
+|t:|1622128128
+|switch|p1a: Staryu|Staryu, L5|100/100
+|move|p2a: Staryu|Scald|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|79/100
+|
+|upkeep
+|turn|6
+|inactive|wwDRTTT5T5 has 120 seconds left.
+|
+|t:|1622128146
+|move|p2a: Staryu|Thunderbolt|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|6/100
+|move|p1a: Staryu|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|27/100
+|-status|p2a: Staryu|par
+|
+|upkeep
+|turn|7
+|
+|t:|1622128154
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Staryu|Thunderbolt|p2a: Drilbur
+|-immune|p2a: Drilbur
+|
+|upkeep
+|turn|8
+|inactive|wwDRTTT5T5 has 120 seconds left.
+|inactive|wwDRTTT5T5 has 90 seconds left.
+|
+|t:|1622128206
+|switch|p2a: Tentacool|Tentacool, L5, M|92/100 brn
+|move|p1a: Staryu|Scald|p2a: Tentacool
+|-resisted|p2a: Tentacool
+|-damage|p2a: Tentacool|79/100 brn
+|
+|-damage|p2a: Tentacool|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|wwDRTTT5T5 has 90 seconds left.
+|
+|t:|1622128224
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Staryu|Thunderbolt|p2a: Drilbur
+|-immune|p2a: Drilbur
+|
+|upkeep
+|turn|10
+|inactive|wwDRTTT5T5 has 60 seconds left.
+|
+|t:|1622128255
+|switch|p2a: Tentacool|Tentacool, L5, M|70/100 brn
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|58/100
+|
+|-damage|p2a: Tentacool|61/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1622128265
+|move|p1a: Staryu|Scald|p2a: Tentacool
+|-resisted|p2a: Tentacool
+|-damage|p2a: Tentacool|48/100 brn
+|move|p2a: Tentacool|Giga Drain|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|6/100
+|-heal|p2a: Tentacool|70/100 brn|[from] drain|[of] p1a: Staryu
+|
+|-damage|p2a: Tentacool|61/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|pokemaster1399 has 120 seconds left.
+|
+|t:|1622128296
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Liquid Ooze|[from] ability: Trace|[of] p2a: Tentacool
+|move|p2a: Tentacool|Giga Drain|p1a: Porygon
+|-damage|p1a: Porygon|88/100
+|-damage|p2a: Tentacool|53/100 brn|[from] ability: Liquid Ooze|[of] p1a: Porygon
+|
+|-damage|p2a: Tentacool|44/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|pokemaster1399 has 120 seconds left.
+|
+|t:|1622128319
+|move|p2a: Tentacool|Toxic Spikes|p1a: Porygon
+|-sidestart|p1: pokemaster1399|move: Toxic Spikes
+|move|p1a: Porygon|Psychic|p2a: Tentacool
+|-supereffective|p2a: Tentacool
+|-damage|p2a: Tentacool|0 fnt
+|faint|p2a: Tentacool
+|
+|upkeep
+|
+|t:|1622128323
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|turn|14
+|
+|t:|1622128329
+|move|p2a: Timburr|Mach Punch|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|57/100
+|move|p1a: Porygon|Psychic|p2a: Timburr
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|50/100
+|
+|upkeep
+|turn|15
+|
+|t:|1622128336
+|switch|p2a: Staryu|Staryu, L5|27/100
+|move|p1a: Porygon|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|upkeep
+|inactive|wwDRTTT5T5 has 60 seconds left.
+|
+|t:|1622128370
+|switch|p2a: Gastly|Gastly, L5, M|100/100
+|turn|16
+|l|☆wwDRTTT5T5
+|inactive|wwDRTTT5T5 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|wwDRTTT5T5 has 30 seconds to reconnect!
+|inactive|wwDRTTT5T5 has 20 seconds to reconnect!
+|inactive|wwDRTTT5T5 has 15 seconds to reconnect!
+|inactive|wwDRTTT5T5 has 10 seconds to reconnect!
+|inactive|wwDRTTT5T5 has 5 seconds to reconnect!
+|-message|wwDRTTT5T5 lost due to inactivity.
+|
+|win|pokemaster1399
+|inactive|wwDRTTT5T5 has 10 seconds left this turn.
+|n|☆pokemaster1399|pokemaster1399

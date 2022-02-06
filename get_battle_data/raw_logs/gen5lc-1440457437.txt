@@ -1,0 +1,283 @@
+|j|☆BlueArk
+|j|☆julianelvengador
+|t:|1634935112
+|gametype|singles
+|player|p1|BlueArk|roughneck-gen4|
+|player|p2|julianelvengador|striker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Frillish, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Carvanha, L5, F|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Budew, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Carvanha, L5, M|item
+|teampreview
+|c|☆BlueArk|Gl! Hf!
+|c|☆julianelvengador|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by julianelvengador)
+|c|☆BlueArk|Its my first time in the tier so i'll be a little slow on the leads
+|c|☆julianelvengador|ok
+|inactive|BlueArk has 120 seconds left.
+|
+|t:|1634935178
+|start
+|switch|p1a: Porygon|Porygon, L5|100/100
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|-ability|p1a: Porygon|Speed Boost|[from] ability: Trace|[of] p2a: Carvanha
+|turn|1
+|
+|t:|1634935198
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Porygon|Thunder Wave|p2a: Carvanha
+|-activate|p2a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|-ability|p1a: Porygon|Speed Boost|boost
+|-boost|p1a: Porygon|spe|1
+|upkeep
+|turn|2
+|inactive|julianelvengador has 120 seconds left.
+|
+|t:|1634935232
+|move|p2a: Carvanha|Crunch|p1a: Porygon
+|-damage|p1a: Porygon|52/100
+|-damage|p2a: Carvanha|91/100|[from] item: Life Orb
+|move|p1a: Porygon|Ice Beam|p2a: Carvanha
+|-resisted|p2a: Carvanha
+|-damage|p2a: Carvanha|62/100
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|-ability|p1a: Porygon|Speed Boost|boost
+|-boost|p1a: Porygon|spe|1
+|upkeep
+|turn|3
+|inactive|julianelvengador has 120 seconds left.
+|
+|t:|1634935242
+|move|p2a: Carvanha|Crunch|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|-damage|p2a: Carvanha|53/100|[from] item: Life Orb
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|c|☆BlueArk|ah thats unfortunate
+|inactive|BlueArk has 120 seconds left.
+|
+|t:|1634935253
+|switch|p1a: Carvanha|Carvanha, L5, F|100/100
+|turn|4
+|inactive|BlueArk has 120 seconds left.
+|
+|t:|1634935272
+|move|p1a: Carvanha|Protect|p1a: Carvanha
+|-singleturn|p1a: Carvanha|Protect
+|move|p2a: Carvanha|Crunch|p1a: Carvanha
+|-activate|p1a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|5
+|inactive|BlueArk has 120 seconds left.
+|
+|t:|1634935283
+|move|p2a: Carvanha|Crunch|p1a: Carvanha
+|-resisted|p1a: Carvanha
+|-damage|p1a: Carvanha|37/100
+|-damage|p2a: Carvanha|43/100|[from] item: Life Orb
+|move|p1a: Carvanha|Crunch|p2a: Carvanha
+|-resisted|p2a: Carvanha
+|-damage|p2a: Carvanha|0 fnt
+|faint|p2a: Carvanha
+|-damage|p1a: Carvanha|32/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1634935292
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|turn|6
+|inactive|BlueArk has 120 seconds left.
+|
+|t:|1634935303
+|switch|p1a: Frillish|Frillish, L5, M|100/100
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|upkeep
+|turn|7
+|inactive|BlueArk has 120 seconds left.
+|
+|t:|1634935322
+|move|p1a: Frillish|Scald|p2a: Timburr
+|-damage|p2a: Timburr|76/100
+|move|p2a: Timburr|Payback|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|25/100
+|
+|upkeep
+|turn|8
+|inactive|BlueArk has 120 seconds left.
+|j| Dragonicos
+|inactive|julianelvengador has 120 seconds left.
+|c|☆BlueArk|Oh this thing has guts, rip
+|inactive|BlueArk has 90 seconds left.
+|
+|t:|1634935379
+|move|p1a: Frillish|Recover|p1a: Frillish
+|-heal|p1a: Frillish|75/100
+|move|p2a: Timburr|Payback|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|faint|p1a: Frillish
+|
+|upkeep
+|
+|t:|1634935394
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|9
+|inactive|julianelvengador has 120 seconds left.
+|
+|t:|1634935415
+|move|p1a: Mienfoo|High Jump Kick|p2a: Timburr
+|-damage|p2a: Timburr|40/100
+|move|p2a: Timburr|Drain Punch|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|-heal|p2a: Timburr|84/100|[from] drain|[of] p1a: Mienfoo
+|faint|p1a: Mienfoo
+|
+|upkeep
+|l| Dragonicos
+|c|☆BlueArk|Yeah ggs, I didn't know what it had so I couldn't stop the snowball
+|inactive|BlueArk has 60 seconds left.
+|c|☆BlueArk|Rip
+|
+|t:|1634935451
+|switch|p1a: Budew|Budew, L5, M|100/100
+|turn|10
+|
+|t:|1634935475
+|move|p1a: Budew|Stun Spore|p2a: Timburr
+|-status|p2a: Timburr|par
+|cant|p2a: Timburr|par
+|
+|upkeep
+|turn|11
+|
+|t:|1634935484
+|move|p1a: Budew|Sludge Bomb|p2a: Timburr
+|-damage|p2a: Timburr|57/100 par
+|move|p2a: Timburr|Payback|p1a: Budew
+|-damage|p1a: Budew|44/100
+|
+|upkeep
+|turn|12
+|j| London13
+|inactive|julianelvengador has 90 seconds left.
+|
+|t:|1634935514
+|move|p1a: Budew|Sludge Bomb|p2a: Timburr
+|-damage|p2a: Timburr|29/100 par
+|move|p2a: Timburr|Payback|p1a: Budew
+|-damage|p1a: Budew|0 fnt
+|faint|p1a: Budew
+|
+|upkeep
+|
+|t:|1634935519
+|switch|p1a: Carvanha|Carvanha, L5, F|32/100
+|turn|13
+|
+|t:|1634935523
+|move|p1a: Carvanha|Waterfall|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|-damage|p1a: Carvanha|27/100|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|inactive|julianelvengador has 90 seconds left.
+|
+|t:|1634935562
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|14
+|c|☆BlueArk|Go my chomp chomp fish, go do, a thing
+|j| Dragonicos
+|inactive|BlueArk has 60 seconds left.
+|
+|t:|1634935593
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p1a: Drilbur|Mold Breaker
+|move|p2a: Abra|Hidden Power|p1a: Drilbur
+|-damage|p1a: Drilbur|70/100
+|
+|upkeep
+|turn|15
+|inactive|julianelvengador has 90 seconds left.
+|inactive|BlueArk has 60 seconds left.
+|
+|t:|1634935607
+|move|p2a: Abra|Psychic|p1a: Drilbur
+|-damage|p1a: Drilbur|5/100
+|move|p1a: Drilbur|Earthquake|p2a: Abra
+|-enditem|p2a: Abra|Focus Sash
+|-damage|p2a: Abra|6/100
+|
+|upkeep
+|turn|16
+|
+|t:|1634935615
+|move|p2a: Abra|Hidden Power|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|upkeep
+|
+|t:|1634935619
+|switch|p1a: Carvanha|Carvanha, L5, F|27/100
+|turn|17
+|
+|t:|1634935635
+|move|p2a: Abra|Hidden Power|p1a: Carvanha
+|-supereffective|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|win|julianelvengador
+|n|☆BlueArk|blueark
+|n|☆julianelvengador|julianelvengador
+|n| London13|london13
+|n| Dragonicos|dragonicos
+|c|☆julianelvengador|gg
+|c|☆BlueArk|its faster? what lol
+|c|☆BlueArk|ggs
+|c|☆julianelvengador|yes

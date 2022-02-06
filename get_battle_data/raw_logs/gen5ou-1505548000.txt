@@ -1,0 +1,321 @@
+|j|☆craphoon
+|j|☆BL153
+|t:|1644169111
+|gametype|singles
+|player|p1|craphoon|palmer|1060
+|player|p2|BL153|nate|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Lucario, M|item
+|poke|p1|Starmie|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Metagross|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Latias, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Magnezone|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Tentacruel, M|item
+|teampreview
+|c|☆BL153|hf
+|c|☆BL153|cool team dude
+|
+|t:|1644169144
+|start
+|switch|p1a: Volcarona|Volcarona, F, shiny|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|t:|1644169153
+|move|p2a: Garchomp|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|27/100
+|move|p1a: Volcarona|Hidden Power|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1644169160
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|2
+|
+|t:|1644169189
+|move|p1a: Volcarona|Giga Drain|p2a: Tentacruel
+|-damage|p2a: Tentacruel|75/100
+|-damage|p1a: Volcarona|13/100|[from] ability: Liquid Ooze|[of] p2a: Tentacruel
+|move|p2a: Tentacruel|Scald|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p2a: Tentacruel|81/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1644169209
+|switch|p1a: Latias|Latias, F|100/100
+|turn|3
+|
+|t:|1644169219
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Latias|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|79/100
+|
+|-heal|p2a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644169250
+|move|p1a: Latias|Dragon Pulse|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|70/100
+|move|p2a: Jirachi|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|62/100
+|
+|t:|1644169256
+|switch|p2a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1644169265
+|move|p2a: Alakazam|Thunder Wave|p1a: Latias
+|-status|p1a: Latias|par
+|move|p1a: Latias|Dragon Pulse|p2a: Alakazam
+|-damage|p2a: Alakazam|35/100
+|
+|upkeep
+|turn|6
+|
+|t:|1644169287
+|switch|p1a: Starmie|Starmie, shiny|100/100
+|move|p2a: Alakazam|Signal Beam|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|32/100
+|
+|upkeep
+|turn|7
+|
+|t:|1644169296
+|move|p2a: Alakazam|Signal Beam|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|upkeep
+|
+|t:|1644169314
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|8
+|
+|t:|1644169320
+|switch|p2a: Tentacruel|Tentacruel, M|81/100
+|move|p1a: Lucario|Extreme Speed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|40/100
+|
+|-heal|p2a: Tentacruel|46/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1644169332
+|move|p1a: Lucario|Extreme Speed|p2a: Tentacruel
+|-damage|p2a: Tentacruel|4/100
+|move|p2a: Tentacruel|Scald|p1a: Lucario
+|-damage|p1a: Lucario|60/100
+|
+|-heal|p2a: Tentacruel|10/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1644169354
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Jirachi|Jirachi|70/100
+|
+|-heal|p2a: Jirachi|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644169364
+|move|p1a: Hydreigon|Flamethrower|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|21/100
+|-damage|p1a: Hydreigon|91/100|[from] item: Life Orb
+|move|p2a: Jirachi|Icy Wind|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|68/100
+|-unboost|p1a: Hydreigon|spe|1
+|
+|-heal|p2a: Jirachi|27/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644169381
+|move|p2a: Jirachi|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|32/100
+|
+|t:|1644169384
+|switch|p2a: Tentacruel|Tentacruel, M|10/100|[from]move: U-turn
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-damage|p1a: Hydreigon|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644169387
+|switch|p2a: Alakazam|Alakazam, M|35/100
+|turn|13
+|
+|t:|1644169402
+|switch|p1a: Lucario|Lucario, M|60/100
+|move|p2a: Alakazam|Signal Beam|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|49/100
+|
+|upkeep
+|turn|14
+|
+|t:|1644169425
+|switch|p2a: Jirachi|Jirachi|27/100
+|move|p1a: Lucario|Extreme Speed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|13/100
+|
+|-heal|p2a: Jirachi|19/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1644169440
+|move|p1a: Lucario|Extreme Speed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|3/100
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|9/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644169447
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Lucario|Extreme Speed|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|80/100
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|-heal|p2a: Magnezone|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|17
+|
+|t:|1644169473
+|move|p1a: Lucario|Extreme Speed|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|81/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1644169490
+|switch|p1a: Hydreigon|Hydreigon, F|23/100
+|turn|18
+|
+|t:|1644169499
+|switch|p2a: Jirachi|Jirachi|9/100
+|move|p1a: Hydreigon|Flamethrower|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-damage|p1a: Hydreigon|13/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644169501
+|switch|p2a: Alakazam|Alakazam, M|35/100
+|turn|19
+|
+|t:|1644169522
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Alakazam|Signal Beam|p1a: Metagross
+|-damage|p1a: Metagross|71/100
+|
+|-heal|p1a: Metagross|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1644169552
+|switch|p2a: Magnezone|Magnezone|81/100
+|move|p1a: Metagross|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Metagross|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644169558
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|21
+|
+|t:|1644169568
+|move|p2a: Kyurem|Fusion Bolt|p1a: Metagross
+|-damage|p1a: Metagross|25/100
+|move|p1a: Metagross|Explosion|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1644169584
+|switch|p2a: Alakazam|Alakazam, M|35/100
+|switch|p1a: Latias|Latias, F|62/100 par
+|turn|22
+|
+|t:|1644169622
+|move|p2a: Alakazam|Signal Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|
+|t:|1644169627
+|switch|p1a: Hydreigon|Hydreigon, F|13/100
+|turn|23
+|c|☆BL153|gg
+|c|☆craphoon|gg
+|
+|t:|1644169634
+|move|p2a: Alakazam|Signal Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|BL153
+|raw|craphoon's rating: 1060 &rarr; <strong>1054</strong><br />(-6 for losing)
+|raw|BL153's rating: 1355 &rarr; <strong>1361</strong><br />(+6 for winning)
+|l|☆craphoon
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

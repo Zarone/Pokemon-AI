@@ -1,0 +1,160 @@
+|j|☆SMSW
+|j|☆Nesnot
+|t:|1641354937
+|gametype|singles
+|player|p1|SMSW|cyclist-gen4|1098
+|player|p2|Nesnot|101|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawk, M|item
+|poke|p1|Primeape, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Sawsbuck, F|item
+|poke|p2|Sawsbuck, M|item
+|poke|p2|Victreebel, M|item
+|poke|p2|Regirock|item
+|poke|p2|Liepard, F|item
+|poke|p2|Cottonee, M|item
+|poke|p2|Charizard, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SMSW)
+|
+|t:|1641354945
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|1
+|
+|t:|1641354948
+|move|p1a: Sawk|Close Combat|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|3/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|move|p2a: Regirock|Stealth Rock|p1a: Sawk
+|-sidestart|p1: SMSW|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641354960
+|move|p1a: Sawk|Close Combat|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1641354963
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|3
+|inactive|SMSW has 120 seconds left.
+|
+|t:|1641354998
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Air Slash|p1a: Skuntank
+|-damage|p1a: Skuntank|27/100
+|
+|-heal|p1a: Skuntank|33/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1641355012
+|switch|p2a: Liepard|Liepard, F|100/100
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|
+|-heal|p1a: Skuntank|39/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1641355017
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Liepard|Encore||[still]
+|-fail|p2a: Liepard
+|
+|upkeep
+|turn|6
+|
+|t:|1641355022
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Charizard|Fire Blast|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1641355026
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|turn|7
+|
+|t:|1641355031
+|move|p2a: Sawsbuck|Return|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Sawsbuck|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|SMSW has 120 seconds left.
+|
+|t:|1641355064
+|switch|p1a: Primeape|Primeape, F|100/100
+|-damage|p1a: Primeape|95/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1641355068
+|move|p2a: Sawsbuck|Return|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|-damage|p2a: Sawsbuck|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|SMSW has 120 seconds left.
+|l|☆SMSW
+|inactive|SMSW disconnected and has a minute to reconnect!
+|player|p1|
+|c|☆Nesnot|FUCKING ADMIT DEFEAT
+|c|☆Nesnot|AND STOP WASTING PEOPLES LIVES
+|inactive|SMSW has 30 seconds to reconnect!
+|c|☆Nesnot|ITS A FUCKING GAME YOU DEGENERATE GARBAGE HUMAN
+|inactive|SMSW has 20 seconds to reconnect!
+|inactive|SMSW has 15 seconds to reconnect!
+|inactive|SMSW has 10 seconds to reconnect!
+|inactive|SMSW has 5 seconds to reconnect!
+|-message|SMSW lost due to inactivity.
+|
+|win|Nesnot
+|raw|SMSW's rating: 1098 &rarr; <strong>1087</strong><br />(-11 for losing)
+|raw|Nesnot's rating: 1321 &rarr; <strong>1330</strong><br />(+9 for winning)
+|j| Tarb A Si Meda
+|j|@Mia
+|n|‽Nesnot|nesnot
+|c|@Mia|/log Nesnot was locked from talking by Mia. (battle harassment)
+|l|@Mia
+|j|@Mia
+|l|@Mia

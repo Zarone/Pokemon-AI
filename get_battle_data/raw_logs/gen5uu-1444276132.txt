@@ -1,0 +1,271 @@
+|j|☆Dvir6789
+|j|☆Lucky-Sama
+|t:|1635451615
+|gametype|singles
+|player|p1|Dvir6789|2|
+|player|p2|Lucky-Sama|marley|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Houndoom, F|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Raikou|item
+|poke|p1|Bronzong|item
+|poke|p1|Heracross, M|item
+|poke|p2|Victini|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Raikou|item
+|poke|p2|Bronzong|item
+|poke|p2|Heracross, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dvir6789)
+|
+|t:|1635451632
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|j| Dunoks
+|
+|t:|1635451641
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Nidoqueen|Taunt|p2a: Bronzong
+|-start|p2a: Bronzong|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1635451649
+|move|p1a: Nidoqueen|Toxic Spikes|p2a: Bronzong
+|-sidestart|p2: Lucky-Sama|move: Toxic Spikes
+|move|p2a: Bronzong|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|72/100
+|
+|-heal|p1a: Nidoqueen|79/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1635451679
+|move|p1a: Nidoqueen|Toxic Spikes|p2a: Bronzong
+|-sidestart|p2: Lucky-Sama|move: Toxic Spikes
+|move|p2a: Bronzong|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|48/100
+|
+|-heal|p1a: Nidoqueen|55/100|[from] item: Black Sludge
+|-end|p2a: Bronzong|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1635451690
+|move|p1a: Nidoqueen|Taunt|p2a: Bronzong
+|-start|p2a: Bronzong|move: Taunt
+|move|p2a: Bronzong|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|23/100
+|
+|-heal|p1a: Nidoqueen|30/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1635451699
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-sideend|p2: Lucky-Sama|move: Toxic Spikes|[of] p2a: Nidoqueen
+|
+|upkeep
+|turn|6
+|
+|t:|1635451712
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Nidoqueen|Earth Power|p1a: Bronzong
+|-immune|p1a: Bronzong|[from] ability: Levitate
+|
+|upkeep
+|turn|7
+|
+|t:|1635451719
+|move|p2a: Nidoqueen|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|cant|p1a: Bronzong|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1635451726
+|switch|p2a: Bronzong|Bronzong|100/100
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1635451733
+|move|p1a: Blastoise|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|83/100
+|move|p2a: Bronzong|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|
+|-heal|p2a: Bronzong|90/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1635451738
+|move|p1a: Blastoise|Scald|p2a: Bronzong
+|-damage|p2a: Bronzong|74/100
+|-status|p2a: Bronzong|brn
+|move|p2a: Bronzong|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: Dvir6789|move: Stealth Rock
+|
+|-heal|p1a: Blastoise|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|88/100 tox|[from] psn
+|-damage|p2a: Bronzong|68/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1635451746
+|move|p1a: Blastoise|Rapid Spin|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|67/100 brn
+|-sideend|p1: Dvir6789|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Bronzong|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|80/100 tox
+|
+|-heal|p1a: Blastoise|86/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|68/100 tox|[from] psn
+|-damage|p2a: Bronzong|61/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1635451756
+|switch|p1a: Heracross|Heracross, M|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Heracross
+|-sidestart|p1: Dvir6789|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|54/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1635451769
+|move|p1a: Heracross|Megahorn|p2a: Bronzong
+|-damage|p2a: Bronzong|2/100 brn
+|move|p2a: Bronzong|Toxic|p1a: Heracross
+|-status|p1a: Heracross|tox
+|
+|-heal|p2a: Bronzong|8/100 brn|[from] item: Leftovers
+|-damage|p1a: Heracross|95/100 tox|[from] psn
+|-damage|p2a: Bronzong|0 fnt|[from] brn
+|faint|p2a: Bronzong
+|upkeep
+|
+|t:|1635451778
+|switch|p2a: Victini|Victini|100/100
+|turn|14
+|
+|t:|1635451788
+|move|p2a: Victini|V-create|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Heracross
+|
+|upkeep
+|
+|t:|1635451798
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|-damage|p1a: Houndoom|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1635451805
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Houndoom|Nasty Plot|p1a: Houndoom
+|-boost|p1a: Houndoom|spa|2
+|
+|upkeep
+|turn|16
+|
+|t:|1635451818
+|move|p1a: Houndoom|Dark Pulse|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|2/100
+|-damage|p1a: Houndoom|66/100|[from] item: Life Orb
+|move|p2a: Nidoqueen|Earth Power|p1a: Houndoom
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|-heal|p2a: Nidoqueen|8/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1635451825
+|switch|p1a: Blastoise|Blastoise, M|68/100 tox
+|-damage|p1a: Blastoise|56/100 tox|[from] Stealth Rock
+|turn|17
+|
+|t:|1635451854
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Heracross
+|-damage|p2a: Heracross|97/100
+|-sideend|p1: Dvir6789|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-heal|p1a: Blastoise|62/100 tox|[from] item: Leftovers
+|-damage|p1a: Blastoise|56/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1635451877
+|move|p2a: Heracross|Close Combat|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Blastoise
+|
+|upkeep
+|inactive|Dvir6789 has 120 seconds left.
+|
+|t:|1635451904
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|19
+|
+|t:|1635451912
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Heracross|Close Combat|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Raikou
+|
+|upkeep
+|-message|Dvir6789 forfeited.
+|
+|win|Lucky-Sama
+|n|☆Dvir6789|dvir6789
+|n|☆Lucky-Sama|luckysama
+|n| Dunoks|dunoks
+|l|☆Dvir6789
+|l| Dunoks
+|j| ahyueah

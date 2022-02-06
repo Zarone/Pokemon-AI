@@ -1,0 +1,303 @@
+|j|☆Feta
+|j|☆rexxonmobile
+|t:|1643942419
+|gametype|singles
+|player|p1|Feta|pokefanf-gen4|1136
+|player|p2|rexxonmobile|266|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Flareon, M|item
+|poke|p1|Vaporeon, F|item
+|poke|p1|Leafeon, M|item
+|poke|p1|Umbreon, F|item
+|poke|p1|Espeon, F|item
+|poke|p1|Glaceon, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Jolteon, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Feta)
+|
+|t:|1643942459
+|start
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1643942470
+|move|p2a: Rotom|Volt Switch|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|75/100
+|
+|t:|1643942475
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Leafeon|atk|1
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1643942483
+|move|p2a: Landorus|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|23/100
+|
+|t:|1643942486
+|switch|p2a: Infernape|Infernape, M|100/100|[from]move: U-turn
+|move|p1a: Leafeon|Leaf Blade|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|21/100
+|-damage|p1a: Leafeon|13/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1643942498
+|move|p2a: Infernape|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|t:|1643942507
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1643942516
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|turn|4
+|
+|t:|1643942521
+|move|p2a: Rotom|Trick|p1a: Umbreon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Umbreon
+|-item|p1a: Umbreon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Umbreon|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1643942530
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Espeon
+|-damage|p1a: Espeon|60/100
+|
+|t:|1643942537
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Espeon|atk|1
+|
+|upkeep
+|turn|6
+|
+|t:|1643942543
+|move|p2a: Landorus|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|t:|1643942549
+|switch|p2a: Infernape|Infernape, M|21/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1643942558
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|turn|7
+|
+|t:|1643942567
+|move|p2a: Infernape|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: Feta|move: Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1643942573
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|8
+|
+|t:|1643942579
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Jolteon|Volt Switch|p1a: Umbreon
+|-damage|p1a: Umbreon|71/100
+|
+|t:|1643942591
+|switch|p2a: Espeon|Espeon, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|9
+|
+|t:|1643942596
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Umbreon|Foul Play|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|45/100
+|
+|-heal|p2a: Espeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643942608
+|move|p2a: Espeon|Hidden Power|p1a: Umbreon
+|-damage|p1a: Umbreon|56/100
+|move|p1a: Umbreon|Foul Play|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|t:|1643942613
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|11
+|
+|t:|1643942617
+|move|p1a: Umbreon|Foul Play|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|72/100
+|move|p2a: Scizor|U-turn|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|t:|1643942629
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1643942634
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|-damage|p1a: Glaceon|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1643942639
+|move|p2a: Landorus|U-turn|p1a: Glaceon
+|-damage|p1a: Glaceon|58/100
+|
+|t:|1643942642
+|switch|p2a: Rotom|Rotom-Wash|94/100 tox|[from]move: U-turn
+|move|p1a: Glaceon|Hail|p1a: Glaceon
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|88/100 tox|[from] Hail
+|-heal|p1a: Glaceon|64/100|[from] ability: Ice Body
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1643942655
+|move|p2a: Rotom|Hydro Pump|p1a: Glaceon
+|-damage|p1a: Glaceon|8/100
+|move|p1a: Glaceon|Hyper Voice|p2a: Rotom
+|-damage|p2a: Rotom|51/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|44/100 tox|[from] Hail
+|-heal|p1a: Glaceon|14/100|[from] ability: Ice Body
+|-heal|p2a: Rotom|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|38/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1643942667
+|move|p2a: Rotom|Volt Switch|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|
+|t:|1643942674
+|switch|p2a: Jolteon|Jolteon, M|100/100|[from]move: Volt Switch
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Jolteon|94/100|[from] Hail
+|upkeep
+|
+|t:|1643942680
+|switch|p1a: Flareon|Flareon, M|100/100
+|-damage|p1a: Flareon|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1643942687
+|move|p2a: Jolteon|Volt Switch|p1a: Flareon
+|-damage|p1a: Flareon|40/100
+|
+|t:|1643942690
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Flareon|atk|1
+|move|p1a: Flareon|Flame Charge|p2a: Landorus
+|-damage|p2a: Landorus|80/100
+|-boost|p1a: Flareon|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|74/100|[from] Hail
+|-damage|p1a: Flareon|34/100|[from] Hail
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|16
+|
+|t:|1643942704
+|move|p2a: Landorus|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|-weather|none
+|upkeep
+|
+|t:|1643942709
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1643942717
+|move|p2a: Landorus|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|48/100
+|move|p1a: Vaporeon|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Vaporeon|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643942726
+|switch|p2a: Jolteon|Jolteon, M|94/100
+|turn|18
+|
+|t:|1643942730
+|move|p2a: Jolteon|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|win|rexxonmobile
+|raw|Feta's rating: 1136 &rarr; <strong>1116</strong><br />(-20 for losing)
+|raw|rexxonmobile's rating: 1213 &rarr; <strong>1233</strong><br />(+20 for winning)

@@ -1,0 +1,491 @@
+|j|☆Ara
+|j|☆blackkaiser
+|t:|1631757478
+|gametype|singles
+|player|p1|Ara|2|
+|player|p2|blackkaiser|lucas-gen4pt|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Azelf|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Cofagrigus, F|item
+|poke|p1|Ferroseed, F|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Snorlax, M|item
+|poke|p2|Mew|item
+|poke|p2|Nidoking, M|item
+|poke|p2|Suicune|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Shaymin|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ara)
+|j| art imitates moi
+|j| Crushy S
+|j| 467 11 11p
+|j| Misa Am4ne
+|l| Misa Am4ne
+|j| LaughLater
+|j|+Chuo͜͡水ku
+|inactive|Ara has 120 seconds left.
+|c|+Chuo͜͡水ku|here comes the twerkulator
+|
+|t:|1631757522
+|start
+|switch|p1a: GETAWAY CAR|Rotom-Heat|100/100
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|turn|1
+|c| 467 11 11p|twerkulator...
+|
+|t:|1631757528
+|move|p2a: Sharpedo|Protect|p2a: Sharpedo
+|-singleturn|p2a: Sharpedo|Protect
+|move|p1a: GETAWAY CAR|Volt Switch|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Protect
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|2
+|
+|t:|1631757534
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|move|p1a: GETAWAY CAR|Volt Switch|p2a: Nidoking
+|-immune|p2a: Nidoking
+|
+|upkeep
+|turn|3
+|c| 467 11 11p|aras thicc
+|j|+AM
+|
+|t:|1631757547
+|switch|p1a: DELICATE|Azelf|100/100
+|switch|p2a: Druddigon|Druddigon, M, shiny|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|
+|upkeep
+|turn|4
+|l|+AM
+|j| forestcave
+|c|+Chuo͜͡水ku|:camera-flash:
+|j|+AM
+|
+|t:|1631757556
+|switch|p1a: GORGEOUS|Nidoqueen, F|100/100
+|move|p2a: Druddigon|Glare|p1a: GORGEOUS|[miss]
+|-miss|p2a: Druddigon|p1a: GORGEOUS
+|
+|upkeep
+|turn|5
+|
+|t:|1631757564
+|move|p2a: Druddigon|Glare|p1a: GORGEOUS
+|-status|p1a: GORGEOUS|par
+|move|p1a: GORGEOUS|Ice Beam|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|45/100
+|
+|upkeep
+|turn|6
+|
+|t:|1631757570
+|move|p2a: Druddigon|Stealth Rock|p1a: GORGEOUS
+|-sidestart|p1: Ara|move: Stealth Rock
+|cant|p1a: GORGEOUS|par
+|
+|upkeep
+|turn|7
+|
+|t:|1631757573
+|move|p2a: Druddigon|Dragon Claw|p1a: GORGEOUS
+|-damage|p1a: GORGEOUS|74/100 par
+|cant|p1a: GORGEOUS|par
+|
+|-heal|p1a: GORGEOUS|81/100 par|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1631757577
+|move|p2a: Druddigon|Dragon Claw|p1a: GORGEOUS
+|-damage|p1a: GORGEOUS|55/100 par
+|cant|p1a: GORGEOUS|par
+|
+|-heal|p1a: GORGEOUS|61/100 par|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1631757581
+|move|p2a: Druddigon|Dragon Claw|p1a: GORGEOUS
+|-damage|p1a: GORGEOUS|33/100 par
+|move|p1a: GORGEOUS|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: blackkaiser|move: Stealth Rock
+|
+|-heal|p1a: GORGEOUS|40/100 par|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1631757586
+|move|p2a: Druddigon|Dragon Claw|p1a: GORGEOUS
+|-damage|p1a: GORGEOUS|10/100 par
+|cant|p1a: GORGEOUS|par
+|
+|-heal|p1a: GORGEOUS|17/100 par|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1631757591
+|move|p2a: Druddigon|Dragon Claw|p1a: GORGEOUS
+|-damage|p1a: GORGEOUS|0 fnt
+|faint|p1a: GORGEOUS
+|
+|upkeep
+|c|☆Ara|outlucked
+|c|☆blackkaiser|this was the only glare i hit today out of 8
+|c|☆blackkaiser|im 1/8 on 90%
+|
+|t:|1631757620
+|switch|p1a: DELICATE|Azelf|100/100
+|-damage|p1a: DELICATE|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1631757630
+|move|p1a: DELICATE|Psyshock|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+|c| 467 11 11p|damn thats rough buddy
+|
+|t:|1631757639
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|-damage|p2a: Sharpedo|88/100|[from] Stealth Rock
+|turn|13
+|c| 467 11 11p|blame ara for your bad luck
+|
+|t:|1631757643
+|switch|p1a: SO IT GOES|Ferroseed, F|100/100
+|-damage|p1a: SO IT GOES|94/100|[from] Stealth Rock
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1631757646
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|69/100
+|move|p1a: SO IT GOES|Thunder Wave||[still]
+|-fail|p1a: SO IT GOES
+|
+|-heal|p2a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1631757648
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: SO IT GOES|Leech Seed||[still]
+|-fail|p1a: SO IT GOES
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆Ara|oops
+|
+|t:|1631757655
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: SO IT GOES|Gyro Ball|p2a: Suicune
+|-resisted|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|l| forestcave
+|c| 467 11 11p|gg
+|c|☆Ara|nah
+|
+|t:|1631757665
+|switch|p1a: END GAME|Cofagrigus, F|100/100
+|-damage|p1a: END GAME|88/100|[from] Stealth Rock
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-heal|p1a: END GAME|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c| 467 11 11p|broo??
+|
+|t:|1631757668
+|move|p2a: Suicune|Scald|p1a: END GAME
+|-damage|p1a: END GAME|27/100
+|move|p1a: END GAME|Trick Room|p1a: END GAME
+|-fieldstart|move: Trick Room|[of] p1a: END GAME
+|
+|-heal|p1a: END GAME|32/100|[from] item: Leftovers
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c| 467 11 11p|LOOOOL
+|c|+Chuo͜͡水ku|is this game
+|
+|t:|1631757677
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: END GAME|Shadow Ball|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p1a: END GAME|38/100|[from] item: Leftovers
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c| 467 11 11p|yes
+|
+|t:|1631757681
+|move|p1a: END GAME|Shadow Ball|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-fail|p2a: Suicune|move: Substitute
+|
+|-heal|p1a: END GAME|44/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|j| thekingkarp
+|
+|t:|1631757687
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: END GAME|Shadow Ball|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p1a: END GAME|50/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1631757690
+|move|p1a: END GAME|Shadow Ball|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p1a: END GAME|56/100|[from] item: Leftovers
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|23
+|c| LaughLater|5 crits in a row lets gooo
+|
+|t:|1631757694
+|move|p2a: Suicune|Scald|p1a: END GAME
+|-damage|p1a: END GAME|0 fnt
+|faint|p1a: END GAME
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631757698
+|switch|p1a: GETAWAY CAR|Rotom-Heat|100/100
+|-damage|p1a: GETAWAY CAR|76/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1631757700
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: GETAWAY CAR|Volt Switch|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1631757702
+|move|p1a: GETAWAY CAR|Volt Switch|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|t:|1631757707
+|switch|p1a: READY FOR IT?|Snorlax, M|100/100|[from]move: Volt Switch
+|-damage|p1a: READY FOR IT?|88/100|[from] Stealth Rock
+|move|p2a: Suicune|Scald|p1a: READY FOR IT?
+|-damage|p1a: READY FOR IT?|53/100
+|-status|p1a: READY FOR IT?|brn
+|
+|-heal|p2a: Suicune|99/100|[from] item: Leftovers
+|-damage|p1a: READY FOR IT?|41/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1631757711
+|move|p2a: Suicune|Scald|p1a: READY FOR IT?
+|-damage|p1a: READY FOR IT?|3/100 brn
+|move|p1a: READY FOR IT?|Return|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|100/100|[from] item: Leftovers
+|-damage|p1a: READY FOR IT?|0 fnt|[from] brn
+|faint|p1a: READY FOR IT?
+|upkeep
+|c|☆Ara|oh yeah it is gg
+|c| 467 11 11p|ATE
+|l|+AM
+|l| art imitates moi
+|c|☆Ara|this is why i stay outta this tier
+|
+|t:|1631757727
+|switch|p1a: DELICATE|Azelf|88/100
+|-damage|p1a: DELICATE|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1631757730
+|move|p1a: DELICATE|Psyshock|p2a: Suicune
+|-damage|p2a: Suicune|55/100
+|move|p2a: Suicune|Scald|p1a: DELICATE
+|-damage|p1a: DELICATE|0 fnt
+|faint|p1a: DELICATE
+|
+|-heal|p2a: Suicune|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631757733
+|switch|p1a: GETAWAY CAR|Rotom-Heat|76/100
+|-damage|p1a: GETAWAY CAR|51/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1631757736
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: GETAWAY CAR|Volt Switch|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|67/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1631757737
+|move|p1a: GETAWAY CAR|Volt Switch|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|50/100
+|c| 467 11 11p|gg
+|
+|t:|1631757740
+|switch|p1a: SO IT GOES|Ferroseed, F|94/100|[from]move: Volt Switch
+|-damage|p1a: SO IT GOES|88/100|[from] Stealth Rock
+|move|p2a: Suicune|Scald|p1a: SO IT GOES
+|-resisted|p1a: SO IT GOES
+|-damage|p1a: SO IT GOES|69/100
+|
+|-heal|p2a: Suicune|56/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1631757743
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|31/100
+|move|p1a: SO IT GOES|Gyro Ball|p2a: Suicune
+|-resisted|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|37/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1631757745
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: SO IT GOES|Gyro Ball|p2a: Suicune
+|-resisted|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|
+|-heal|p2a: Suicune|43/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1631757747
+|move|p2a: Suicune|Scald|p1a: SO IT GOES
+|-resisted|p1a: SO IT GOES
+|-damage|p1a: SO IT GOES|45/100
+|-status|p1a: SO IT GOES|brn
+|move|p1a: SO IT GOES|Gyro Ball|p2a: Suicune
+|-resisted|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|-heal|p2a: Suicune|49/100|[from] item: Leftovers
+|-damage|p1a: SO IT GOES|33/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1631757752
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|24/100
+|move|p1a: SO IT GOES|Thunder Wave||[still]
+|-fail|p1a: SO IT GOES
+|
+|-heal|p2a: Suicune|30/100|[from] item: Leftovers
+|-damage|p1a: SO IT GOES|20/100 brn|[from] brn
+|upkeep
+|turn|34
+|c| 467 11 11p|just ff dignitygets you no where
+|
+|t:|1631757754
+|move|p2a: Suicune|Scald|p1a: SO IT GOES
+|-resisted|p1a: SO IT GOES
+|-damage|p1a: SO IT GOES|0 fnt
+|faint|p1a: SO IT GOES
+|
+|-heal|p2a: Suicune|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631757755
+|switch|p1a: GETAWAY CAR|Rotom-Heat|51/100
+|-damage|p1a: GETAWAY CAR|26/100|[from] Stealth Rock
+|turn|35
+|c|☆blackkaiser|gg
+|c|☆Ara|gg
+|
+|t:|1631757761
+|move|p1a: GETAWAY CAR|Hidden Power|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-activate|p2a: Suicune|Substitute|[damage]
+|move|p2a: Suicune|Scald|p1a: GETAWAY CAR
+|-supereffective|p1a: GETAWAY CAR
+|-damage|p1a: GETAWAY CAR|0 fnt
+|faint|p1a: GETAWAY CAR
+|
+|win|blackkaiser
+|n|☆Ara|ara
+|n|☆blackkaiser|blackkaiser
+|n| Crushy S|crushys
+|n| 467 11 11p|4671111p
+|n| LaughLater|laughlater
+|n| Chuo͜͡水ku|chuoku
+|n| thekingkarp|thekingkarp
+|l| 467 11 11p
+|l| Crushy S
+|l| LaughLater
+|l| thekingkarp

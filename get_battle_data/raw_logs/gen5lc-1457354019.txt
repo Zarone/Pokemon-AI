@@ -1,0 +1,222 @@
+|j|☆MoonbowX
+|j|☆julianelvengador
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1637352311
+|gametype|singles
+|player|p1|MoonbowX|richboy-gen4|
+|player|p2|julianelvengador|striker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dwebble, L5, F|item
+|poke|p1|Riolu, L5, F|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Magnemite, L5|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Carvanha, L5, M|item
+|teampreview
+|j|*Lady Monita ☽
+|
+|t:|1637352317
+|start
+|switch|p1a: Dwebble|Dwebble, L5, F|100/100
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|turn|1
+|
+|t:|1637352332
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|move|p1a: Dwebble|Stealth Rock|p2a: Timburr
+|-sidestart|p2: julianelvengador|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1637352343
+|switch|p1a: Riolu|Riolu, L5, F|100/100
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1637352349
+|move|p2a: Timburr|Drain Punch|p1a: Riolu
+|-damage|p1a: Riolu|35/100
+|move|p1a: Riolu|Roar|p2a: Timburr
+|drag|p2a: Abra|Abra, L5, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1637352356
+|move|p1a: Riolu|Protect|p1a: Riolu
+|-singleturn|p1a: Riolu|Protect
+|move|p2a: Abra|Hidden Power|p1a: Riolu
+|-activate|p1a: Riolu|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1637352362
+|move|p2a: Abra|Psychic|p1a: Riolu
+|-supereffective|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|faint|p1a: Riolu
+|
+|upkeep
+|
+|t:|1637352365
+|switch|p1a: Dwebble|Dwebble, L5, F|100/100
+|turn|6
+|
+|t:|1637352369
+|move|p2a: Abra|Thunder Wave|p1a: Dwebble
+|-status|p1a: Dwebble|par
+|cant|p1a: Dwebble|par
+|
+|upkeep
+|turn|7
+|
+|t:|1637352374
+|move|p2a: Abra|Hidden Power|p1a: Dwebble
+|-damage|p1a: Dwebble|50/100 par
+|-enditem|p1a: Dwebble|Oran Berry|[eat]
+|-heal|p1a: Dwebble|96/100 par|[from] item: Oran Berry
+|move|p1a: Dwebble|Knock Off|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|58/100
+|-enditem|p2a: Abra|Focus Sash|[from] move: Knock Off|[of] p1a: Dwebble
+|
+|upkeep
+|turn|8
+|
+|t:|1637352398
+|move|p2a: Abra|Hidden Power|p1a: Dwebble
+|-damage|p1a: Dwebble|46/100 par
+|move|p1a: Dwebble|Knock Off|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|16/100
+|
+|upkeep
+|turn|9
+|
+|t:|1637352404
+|move|p2a: Abra|Hidden Power|p1a: Dwebble
+|-damage|p1a: Dwebble|0 fnt
+|faint|p1a: Dwebble
+|
+|upkeep
+|
+|t:|1637352411
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|turn|10
+|
+|t:|1637352437
+|move|p2a: Abra|Thunder Wave|p1a: Carvanha
+|-status|p1a: Carvanha|par
+|move|p1a: Carvanha|Crunch|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|-damage|p1a: Carvanha|95/100 par|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1637352443
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|-damage|p2a: Timburr|96/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1637352451
+|move|p1a: Carvanha|Aqua Jet|p2a: Timburr
+|-damage|p2a: Timburr|64/100
+|-damage|p1a: Carvanha|90/100 par|[from] item: Life Orb
+|move|p2a: Timburr|Bulk Up|p2a: Timburr
+|-boost|p2a: Timburr|atk|1
+|-boost|p2a: Timburr|def|1
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|12
+|
+|t:|1637352457
+|cant|p1a: Carvanha|par
+|move|p2a: Timburr|Drain Punch|p1a: Carvanha
+|-supereffective|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|-heal|p2a: Timburr|100/100|[from] drain|[of] p1a: Carvanha
+|faint|p1a: Carvanha
+|
+|upkeep
+|
+|t:|1637352463
+|switch|p1a: Drifloon|Drifloon, L5, M|100/100
+|turn|13
+|
+|t:|1637352466
+|move|p1a: Drifloon|Acrobatics|p2a: Timburr
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-supereffective|p2a: Timburr
+|-damage|p2a: Timburr|29/100
+|move|p2a: Timburr|Payback|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-damage|p1a: Drifloon|0 fnt
+|faint|p1a: Drifloon
+|
+|upkeep
+|
+|t:|1637352472
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|turn|14
+|
+|t:|1637352475
+|move|p1a: Timburr|Payback|p2a: Timburr
+|-resisted|p2a: Timburr
+|-damage|p2a: Timburr|24/100
+|move|p2a: Timburr|Drain Punch|p1a: Timburr
+|-damage|p1a: Timburr|52/100
+|-heal|p2a: Timburr|48/100|[from] drain|[of] p1a: Timburr
+|
+|upkeep
+|turn|15
+|
+|t:|1637352480
+|move|p2a: Timburr|Drain Punch|p1a: Timburr
+|-crit|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|-heal|p2a: Timburr|76/100|[from] drain|[of] p1a: Timburr
+|faint|p1a: Timburr
+|
+|upkeep
+|
+|t:|1637352483
+|switch|p1a: Magnemite|Magnemite, L5|100/100
+|turn|16
+|-message|MoonbowX forfeited.
+|
+|win|julianelvengador
+|n|☆MoonbowX|moonbowx
+|n|☆julianelvengador|julianelvengador
+|n|*Lady Monita ☽|ladymonita
+|l|*Lady Monita ☽
+|l|☆MoonbowX

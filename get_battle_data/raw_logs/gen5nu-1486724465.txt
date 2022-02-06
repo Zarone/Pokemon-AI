@@ -1,0 +1,450 @@
+|j|☆Patrouski
+|j|☆tank skunk
+|t:|1641511545
+|gametype|singles
+|player|p1|Patrouski|101|1000
+|player|p2|tank skunk|pokefan|1016
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Shuckle, M|item
+|poke|p1|Wailord, M|item
+|poke|p1|Beheeyem, M|item
+|poke|p1|Audino, F|item
+|poke|p1|Rampardos, M|item
+|poke|p1|Ursaring, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Misdreavus, F|item
+|poke|p2|Leafeon, F|item
+|poke|p2|Skuntank, F|item
+|poke|p2|Magmar, F|item
+|poke|p2|Exploud, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tank skunk)
+|inactive|Patrouski has 120 seconds left.
+|inactive|tank skunk has 120 seconds left.
+|
+|t:|1641511604
+|start
+|switch|p1a: Audino|Audino, F, shiny|100/100
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|turn|1
+|
+|t:|1641511616
+|move|p2a: Misdreavus|Taunt|p1a: Audino
+|-start|p1a: Audino|move: Taunt
+|cant|p1a: Audino|move: Taunt|Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1641511625
+|switch|p2a: Exploud|Exploud, M|100/100
+|switch|p1a: Shuckle|Shuckle, M, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1641511632
+|move|p2a: Exploud|Surf|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|59/100
+|-damage|p2a: Exploud|91/100|[from] item: Life Orb
+|move|p1a: Shuckle|Toxic|p2a: Exploud
+|-status|p2a: Exploud|tox
+|
+|-heal|p1a: Shuckle|65/100|[from] item: Leftovers
+|-damage|p2a: Exploud|85/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1641511646
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|move|p1a: Shuckle|Protect||[still]
+|-fail|p1a: Shuckle
+|
+|-heal|p1a: Shuckle|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641511652
+|move|p2a: Misdreavus|Taunt|p1a: Shuckle
+|-start|p1a: Shuckle|move: Taunt
+|cant|p1a: Shuckle|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Shuckle|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641511662
+|switch|p1a: Audino|Audino, F, shiny|100/100
+|move|p2a: Misdreavus|Will-O-Wisp|p1a: Audino
+|-status|p1a: Audino|brn
+|
+|-damage|p1a: Audino|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1641511677
+|switch|p1a: Wailord|Wailord, M, shiny|100/100
+|move|p2a: Misdreavus|Taunt|p1a: Wailord
+|-start|p1a: Wailord|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|t:|1641511688
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Wailord|Water Spout|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|9
+|
+|t:|1641511717
+|switch|p1a: Beheeyem|Beheeyem, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Beheeyem
+|-sidestart|p1: Patrouski|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1641511726
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|move|p1a: Beheeyem|Trick Room|p1a: Beheeyem
+|-fieldstart|move: Trick Room|[of] p1a: Beheeyem
+|
+|upkeep
+|turn|11
+|
+|t:|1641511737
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|move|p1a: Beheeyem|Nasty Plot|p1a: Beheeyem
+|-boost|p1a: Beheeyem|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1641511744
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|move|p1a: Beheeyem|Nasty Plot|p1a: Beheeyem
+|-boost|p1a: Beheeyem|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1641511753
+|move|p2a: Skuntank|Sucker Punch||[still]
+|-fail|p2a: Skuntank
+|move|p1a: Beheeyem|Nasty Plot|p1a: Beheeyem
+|-boost|p1a: Beheeyem|spa|2
+|
+|upkeep
+|turn|14
+|
+|t:|1641511759
+|move|p2a: Skuntank|Sucker Punch|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-damage|p1a: Beheeyem|12/100
+|move|p1a: Beheeyem|Hidden Power|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|-damage|p1a: Beheeyem|2/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1641511783
+|switch|p2a: Magmar|Magmar, F|100/100
+|turn|15
+|
+|t:|1641511787
+|move|p2a: Magmar|Hidden Power|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|faint|p1a: Beheeyem
+|
+|upkeep
+|
+|t:|1641511807
+|switch|p1a: Shuckle|Shuckle, M, shiny|78/100
+|-damage|p1a: Shuckle|53/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1641511815
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|move|p1a: Shuckle|Protect||[still]
+|-fail|p1a: Shuckle
+|
+|-heal|p1a: Shuckle|59/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1641511826
+|switch|p1a: Wailord|Wailord, M, shiny|100/100
+|-damage|p1a: Wailord|88/100|[from] Stealth Rock
+|move|p2a: Misdreavus|Taunt|p1a: Wailord
+|-start|p1a: Wailord|move: Taunt
+|
+|upkeep
+|turn|18
+|
+|t:|1641511835
+|move|p2a: Misdreavus|Pain Split|p1a: Wailord
+|-sethp|p1a: Wailord|78/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|100/100|[from] move: Pain Split
+|move|p1a: Wailord|Ice Beam|p2a: Misdreavus
+|-damage|p2a: Misdreavus|79/100
+|
+|upkeep
+|turn|19
+|
+|t:|1641511844
+|move|p2a: Misdreavus|Pain Split|p1a: Wailord
+|-sethp|p1a: Wailord|66/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|97/100|[from] move: Pain Split
+|move|p1a: Wailord|Water Spout|p2a: Misdreavus
+|-enditem|p1a: Wailord|Water Gem|[from] gem
+|-damage|p2a: Misdreavus|48/100
+|
+|-end|p1a: Wailord|move: Taunt
+|upkeep
+|turn|20
+|
+|t:|1641511854
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Wailord|Protect||[still]
+|-fail|p1a: Wailord
+|
+|upkeep
+|turn|21
+|c|☆Patrouski|why
+|c|☆Patrouski|wat is ur reasoning
+|
+|t:|1641511869
+|switch|p1a: Audino|Audino, F, shiny|100/100 brn
+|-damage|p1a: Audino|88/100 brn|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Audino
+|-damage|p1a: Audino|68/100 brn
+|
+|-damage|p1a: Audino|56/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1641511882
+|switch|p2a: Exploud|Exploud, M|85/100 tox
+|move|p1a: Audino|Reflect|p1a: Audino
+|-sidestart|p1: Patrouski|Reflect
+|
+|-damage|p2a: Exploud|79/100 tox|[from] psn
+|-damage|p1a: Audino|43/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1641511891
+|move|p2a: Exploud|Hyper Voice|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|-damage|p2a: Exploud|69/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Exploud|57/100 tox|[from] psn
+|upkeep
+|
+|t:|1641511899
+|switch|p1a: Shuckle|Shuckle, M, shiny|59/100
+|-damage|p1a: Shuckle|34/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1641511903
+|move|p2a: Exploud|Surf|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|-damage|p2a: Exploud|47/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Exploud|29/100 tox|[from] psn
+|upkeep
+|
+|t:|1641511911
+|switch|p1a: Ursaring|Ursaring, F, shiny|100/100
+|-damage|p1a: Ursaring|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1641511926
+|switch|p2a: Misdreavus|Misdreavus, F|48/100
+|move|p1a: Ursaring|Earthquake|p2a: Misdreavus
+|-immune|p2a: Misdreavus|[from] ability: Levitate
+|
+|-status|p1a: Ursaring|brn|[from] item: Flame Orb
+|upkeep
+|turn|26
+|
+|t:|1641511936
+|switch|p1a: Wailord|Wailord, M, shiny|66/100
+|-damage|p1a: Wailord|53/100|[from] Stealth Rock
+|move|p2a: Misdreavus|Taunt|p1a: Wailord
+|-start|p1a: Wailord|move: Taunt
+|
+|upkeep
+|turn|27
+|
+|t:|1641511945
+|move|p2a: Misdreavus|Pain Split|p1a: Wailord
+|-sethp|p1a: Wailord|43/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|63/100|[from] move: Pain Split
+|move|p1a: Wailord|Scald|p2a: Misdreavus
+|-damage|p2a: Misdreavus|39/100
+|
+|upkeep
+|turn|28
+|
+|t:|1641511952
+|move|p2a: Misdreavus|Pain Split|p1a: Wailord
+|-sethp|p1a: Wailord|34/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|51/100|[from] move: Pain Split
+|move|p1a: Wailord|Scald|p2a: Misdreavus
+|-damage|p2a: Misdreavus|25/100
+|
+|-end|p1a: Wailord|move: Taunt
+|upkeep
+|turn|29
+|
+|t:|1641511962
+|move|p2a: Misdreavus|Pain Split|p1a: Wailord
+|-sethp|p1a: Wailord|26/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Misdreavus|38/100|[from] move: Pain Split
+|move|p1a: Wailord|Scald|p2a: Misdreavus
+|-damage|p2a: Misdreavus|11/100
+|-status|p2a: Misdreavus|brn
+|
+|-damage|p2a: Misdreavus|0 fnt|[from] brn
+|faint|p2a: Misdreavus
+|-sideend|p1: Patrouski|Reflect
+|upkeep
+|
+|t:|1641511969
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|turn|30
+|
+|t:|1641511975
+|move|p1a: Wailord|Protect|p1a: Wailord
+|-singleturn|p1a: Wailord|Protect
+|move|p2a: Leafeon|Leaf Blade|p1a: Wailord
+|-activate|p1a: Wailord|move: Protect
+|
+|upkeep
+|turn|31
+|
+|t:|1641511981
+|move|p2a: Leafeon|Leaf Blade|p1a: Wailord
+|-supereffective|p1a: Wailord
+|-crit|p1a: Wailord
+|-damage|p1a: Wailord|0 fnt
+|faint|p1a: Wailord
+|
+|upkeep
+|
+|t:|1641511986
+|switch|p1a: Ursaring|Ursaring, F, shiny|88/100 brn
+|-damage|p1a: Ursaring|75/100 brn|[from] Stealth Rock
+|turn|32
+|
+|t:|1641511993
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|76/100
+|move|p1a: Ursaring|Facade|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|-heal|p2a: Leafeon|82/100|[from] item: Leftovers
+|-damage|p1a: Ursaring|63/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1641512000
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|57/100
+|move|p1a: Ursaring|Facade|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|-heal|p2a: Leafeon|63/100|[from] item: Leftovers
+|-damage|p1a: Ursaring|50/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1641512004
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|38/100
+|move|p1a: Ursaring|Facade|p2a: Leafeon
+|-crit|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|-heal|p2a: Leafeon|44/100|[from] item: Leftovers
+|-damage|p1a: Ursaring|38/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1641512009
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|20/100
+|move|p1a: Ursaring|Facade|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|-heal|p2a: Leafeon|26/100|[from] item: Leftovers
+|-damage|p1a: Ursaring|25/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1641512018
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|1/100
+|move|p1a: Ursaring|Facade|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|-heal|p2a: Leafeon|7/100|[from] item: Leftovers
+|-damage|p1a: Ursaring|13/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1641512026
+|move|p2a: Leafeon|Leaf Blade|p1a: Ursaring
+|-damage|p1a: Ursaring|0 fnt
+|faint|p1a: Ursaring
+|
+|-heal|p2a: Leafeon|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641512032
+|switch|p1a: Rampardos|Rampardos, M, shiny|100/100
+|-damage|p1a: Rampardos|88/100|[from] Stealth Rock
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|38
+|
+|t:|1641512043
+|move|p2a: Leafeon|Leaf Blade|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|win|tank skunk
+|raw|Patrouski's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|tank skunk's rating: 1016 &rarr; <strong>1052</strong><br />(+36 for winning)
+|c|☆tank skunk|ggwp

@@ -1,0 +1,255 @@
+|j|☆FruitDogs
+|j|☆ActualDogWater
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1623724423
+|gametype|singles
+|player|p1|FruitDogs|will|
+|player|p2|ActualDogWater|saturn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Solosis, L5, M|item
+|poke|p1|Drowzee, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Smoochum, L5, F|item
+|poke|p1|Clamperl, L5, M|item
+|poke|p1|Cranidos, L5, M|item
+|poke|p2|Vullaby, L5, F|item
+|poke|p2|Gible, L5, F|item
+|poke|p2|Spinarak, L5, M|item
+|poke|p2|Spheal, L5, M|item
+|poke|p2|Lileep, L5, F|item
+|poke|p2|Chinchou, L5, F|item
+|teampreview
+|
+|t:|1623724433
+|start
+|switch|p1a: Smoochum|Smoochum, L5, F|100/100
+|switch|p2a: Birbo|Vullaby, L5, F|100/100
+|turn|1
+|
+|t:|1623724440
+|move|p2a: Birbo|Dark Pulse|p1a: Smoochum
+|-supereffective|p1a: Smoochum
+|-damage|p1a: Smoochum|15/100
+|move|p1a: Smoochum|Trick Room|p1a: Smoochum
+|-fieldstart|move: Trick Room|[of] p1a: Smoochum
+|
+|upkeep
+|turn|2
+|
+|t:|1623724451
+|switch|p2a: Smol Craydily|Lileep, L5, F, shiny|100/100
+|move|p1a: Smoochum|Ice Beam|p2a: Smol Craydily
+|-supereffective|p2a: Smol Craydily
+|-damage|p2a: Smol Craydily|25/100
+|
+|upkeep
+|turn|3
+|
+|t:|1623724461
+|move|p2a: Smol Craydily|Recover|p2a: Smol Craydily
+|-heal|p2a: Smol Craydily|75/100
+|move|p1a: Smoochum|Ice Beam|p2a: Smol Craydily
+|-supereffective|p2a: Smol Craydily
+|-damage|p2a: Smol Craydily|0 fnt
+|faint|p2a: Smol Craydily
+|
+|upkeep
+|
+|t:|1623724471
+|switch|p2a: Wallcrawler|Spinarak, L5, M, shiny|100/100
+|turn|4
+|
+|t:|1623724477
+|switch|p2a: Angler|Chinchou, L5, F|100/100
+|move|p1a: Smoochum|Psychic|p2a: Angler
+|-damage|p2a: Angler|64/100
+|-unboost|p2a: Angler|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1623724490
+|switch|p2a: Beach Ball|Spheal, L5, M|100/100
+|move|p1a: Smoochum|Ice Beam|p2a: Beach Ball
+|-resisted|p2a: Beach Ball
+|-damage|p2a: Beach Ball|97/100
+|
+|-heal|p2a: Beach Ball|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1623724500
+|move|p2a: Beach Ball|Substitute|p2a: Beach Ball
+|-start|p2a: Beach Ball|Substitute
+|-damage|p2a: Beach Ball|77/100
+|move|p1a: Smoochum|Hidden Power|p2a: Beach Ball
+|-supereffective|p2a: Beach Ball
+|-end|p2a: Beach Ball|Substitute
+|
+|-heal|p2a: Beach Ball|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1623724509
+|move|p2a: Beach Ball|Super Fang|p1a: Smoochum
+|-damage|p1a: Smoochum|10/100
+|move|p1a: Smoochum|Hidden Power|p2a: Beach Ball
+|-supereffective|p2a: Beach Ball
+|-damage|p2a: Beach Ball|27/100
+|
+|-heal|p2a: Beach Ball|31/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1623724532
+|switch|p2a: Angler|Chinchou, L5, F|64/100
+|move|p1a: Smoochum|Trick Room|p1a: Smoochum
+|-fieldstart|move: Trick Room|[of] p1a: Smoochum
+|
+|upkeep
+|turn|9
+|j| Tessthors
+|
+|t:|1623724539
+|move|p1a: Smoochum|Psychic|p2a: Angler
+|-damage|p2a: Angler|29/100
+|move|p2a: Angler|Scald|p1a: Smoochum
+|-damage|p1a: Smoochum|0 fnt
+|faint|p1a: Smoochum
+|
+|upkeep
+|
+|t:|1623724559
+|switch|p1a: Cranidos|Cranidos, L5, M|100/100
+|turn|10
+|
+|t:|1623724574
+|move|p1a: Cranidos|Earthquake|p2a: Angler
+|-supereffective|p2a: Angler
+|-crit|p2a: Angler
+|-damage|p2a: Angler|0 fnt
+|faint|p2a: Angler
+|-damage|p1a: Cranidos|92/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1623724580
+|switch|p2a: Wallcrawler|Spinarak, L5, M, shiny|100/100
+|turn|11
+|
+|t:|1623724589
+|move|p1a: Cranidos|Rock Slide|p2a: Wallcrawler
+|-supereffective|p2a: Wallcrawler
+|-damage|p2a: Wallcrawler|0 fnt
+|faint|p2a: Wallcrawler
+|
+|upkeep
+|
+|t:|1623724594
+|switch|p2a: Jaw|Gible, L5, F|100/100
+|turn|12
+|
+|t:|1623724606
+|move|p1a: Cranidos|Superpower|p2a: Jaw
+|-damage|p2a: Jaw|0 fnt
+|-unboost|p1a: Cranidos|atk|1
+|-unboost|p1a: Cranidos|def|1
+|-damage|p1a: Cranidos|80/100|[from] ability: Rough Skin|[of] p2a: Jaw
+|faint|p2a: Jaw
+|-damage|p1a: Cranidos|72/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1623724615
+|switch|p2a: Birbo|Vullaby, L5, F|100/100
+|turn|13
+|
+|t:|1623724620
+|move|p2a: Birbo|Dark Pulse|p1a: Cranidos
+|-damage|p1a: Cranidos|20/100
+|move|p1a: Cranidos|Thunder Punch|p2a: Birbo
+|-supereffective|p2a: Birbo
+|-damage|p2a: Birbo|44/100
+|-ability|p2a: Birbo|Weak Armor|boost
+|-unboost|p2a: Birbo|def|1
+|-boost|p2a: Birbo|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1623724630
+|move|p2a: Birbo|Dark Pulse|p1a: Cranidos
+|-damage|p1a: Cranidos|0 fnt
+|faint|p1a: Cranidos
+|
+|upkeep
+|
+|t:|1623724635
+|switch|p1a: Porygon|Porygon, L5, shiny|100/100
+|-ability|p1a: Porygon|Weak Armor|[from] ability: Trace|[of] p2a: Birbo
+|turn|15
+|
+|t:|1623724641
+|move|p2a: Birbo|Air Slash|p1a: Porygon
+|-damage|p1a: Porygon|76/100
+|cant|p1a: Porygon|flinch
+|
+|upkeep
+|turn|16
+|
+|t:|1623724647
+|move|p2a: Birbo|Roost|p2a: Birbo
+|-heal|p2a: Birbo|96/100
+|-singleturn|p2a: Birbo|move: Roost
+|move|p1a: Porygon|Trick Room|p1a: Porygon
+|-fieldstart|move: Trick Room|[of] p1a: Porygon
+|
+|upkeep
+|turn|17
+|
+|t:|1623724657
+|move|p1a: Porygon|Thunderbolt|p2a: Birbo
+|-supereffective|p2a: Birbo
+|-damage|p2a: Birbo|35/100
+|move|p2a: Birbo|Dark Pulse|p1a: Porygon
+|-damage|p1a: Porygon|48/100
+|
+|upkeep
+|turn|18
+|
+|t:|1623724664
+|move|p1a: Porygon|Thunderbolt|p2a: Birbo
+|-supereffective|p2a: Birbo
+|-damage|p2a: Birbo|0 fnt
+|faint|p2a: Birbo
+|
+|upkeep
+|
+|t:|1623724669
+|switch|p2a: Beach Ball|Spheal, L5, M|31/100
+|turn|19
+|
+|t:|1623724673
+|move|p1a: Porygon|Thunderbolt|p2a: Beach Ball
+|-supereffective|p2a: Beach Ball
+|-damage|p2a: Beach Ball|0 fnt
+|faint|p2a: Beach Ball
+|
+|win|FruitDogs
+|n|☆FruitDogs|fruitdogs
+|n|☆ActualDogWater|actualdogwater
+|n| Tessthors|tessthors

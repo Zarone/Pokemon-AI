@@ -1,0 +1,854 @@
+|j|☆avarice
+|j|☆estarossa
+|t:|1635632371
+|gametype|singles
+|player|p1|avarice|ethan|
+|player|p2|estarossa|#estarossa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tornadus, M|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Clefable, F|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Krookodile, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Mew|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Druddigon, F|item
+|poke|p2|Blastoise, F|item
+|teampreview
+|j| LatiGOD
+|j| Mendeez
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by avarice)
+|
+|t:|1635632397
+|start
+|switch|p1a: sober to death|Empoleon, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1635632405
+|move|p2a: Mew|Trick|p1a: sober to death
+|-activate|p2a: Mew|move: Trick|[of] p1a: sober to death
+|-item|p1a: sober to death|Choice Scarf|[from] move: Trick
+|-item|p2a: Mew|Focus Sash|[from] move: Trick
+|move|p1a: sober to death|Scald|p2a: Mew
+|-damage|p2a: Mew|61/100
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: sober to death|brn
+|
+|-damage|p1a: sober to death|88/100 brn|[from] brn
+|-damage|p2a: Mew|48/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1635632411
+|switch|p1a: famous prophets|Tornadus, M|100/100
+|move|p2a: Mew|U-turn|p1a: famous prophets
+|-resisted|p1a: famous prophets
+|-damage|p1a: famous prophets|95/100
+|
+|t:|1635632415
+|switch|p2a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|-ability|p2a: Zapdos|Pressure
+|
+|upkeep
+|turn|3
+|j| Shgo Haizaki
+|
+|t:|1635632420
+|switch|p1a: cute thing|Clefable, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|74/100
+|
+|-heal|p1a: cute thing|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1635632425
+|switch|p2a: Druddigon|Druddigon, F|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|switch|p1a: sober to death|Empoleon, M|88/100 brn
+|
+|-damage|p1a: sober to death|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1635632433
+|move|p1a: sober to death|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: estarossa|move: Stealth Rock
+|move|p2a: Druddigon|Stealth Rock|p1a: sober to death
+|-sidestart|p1: avarice|move: Stealth Rock
+|
+|-damage|p1a: sober to death|64/100 brn|[from] brn
+|upkeep
+|turn|6
+|j| luh hertz
+|
+|t:|1635632438
+|switch|p1a: high to death|Slowbro, M|100/100
+|-damage|p1a: high to death|88/100|[from] Stealth Rock
+|move|p2a: Druddigon|Earthquake|p1a: high to death
+|-damage|p1a: high to death|70/100
+|
+|-heal|p1a: high to death|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1635632442
+|move|p2a: Druddigon|Outrage|p1a: high to death
+|-enditem|p2a: Druddigon|Dragon Gem|[from] gem
+|-damage|p1a: high to death|30/100
+|move|p1a: high to death|Scald|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|88/100
+|
+|-heal|p1a: high to death|36/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j|@Juno
+|
+|t:|1635632448
+|move|p2a: Druddigon|Outrage|p1a: high to death|[from]lockedmove
+|-damage|p1a: high to death|4/100
+|-start|p2a: Druddigon|confusion|[fatigue]
+|move|p1a: high to death|Slack Off|p1a: high to death
+|-heal|p1a: high to death|54/100
+|
+|-heal|p1a: high to death|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| AerialLadder
+|
+|t:|1635632452
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: high to death|Slack Off|p1a: high to death
+|-heal|p1a: high to death|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1635632455
+|move|p2a: Roserade|Toxic Spikes|p1a: high to death
+|-sidestart|p1: avarice|move: Toxic Spikes
+|move|p1a: high to death|Psyshock|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|t:|1635632461
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|11
+|j|@laevin
+|
+|t:|1635632464
+|switch|p1a: cute thing|Clefable, F|80/100
+|-status|p1a: cute thing|psn
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|52/100 psn
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|-heal|p1a: cute thing|58/100 psn|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1635632470
+|switch|p2a: Mew|Mew|48/100 brn
+|-damage|p2a: Mew|36/100 brn|[from] Stealth Rock
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p1a: cute thing|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|24/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1635632473
+|move|p1a: cute thing|Protect|p1a: cute thing
+|-singleturn|p1a: cute thing|Protect
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|74/100 brn
+|-singleturn|p2a: Mew|move: Roost
+|
+|-heal|p1a: cute thing|100/100 psn|[from] move: Wish|[wisher] cute thing
+|-damage|p2a: Mew|61/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1635632481
+|switch|p1a: sober to death|Empoleon, M|64/100 brn
+|-damage|p1a: sober to death|58/100 brn|[from] Stealth Rock
+|move|p2a: Mew|Trick|p1a: sober to death
+|-activate|p2a: Mew|move: Trick|[of] p1a: sober to death
+|-item|p1a: sober to death|Focus Sash|[from] move: Trick
+|-item|p2a: Mew|Choice Scarf|[from] move: Trick
+|
+|-damage|p2a: Mew|49/100 brn|[from] brn
+|-damage|p1a: sober to death|46/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1635632488
+|move|p2a: Mew|U-turn|p1a: sober to death
+|-resisted|p1a: sober to death
+|-damage|p1a: sober to death|41/100 brn
+|
+|t:|1635632490
+|switch|p2a: Druddigon|Druddigon, F|88/100|[from]move: U-turn
+|-damage|p2a: Druddigon|76/100|[from] Stealth Rock
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: sober to death|Scald|p2a: Druddigon
+|-resisted|p2a: Druddigon
+|-damage|p2a: Druddigon|58/100
+|
+|-damage|p1a: sober to death|29/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1635632494
+|move|p1a: sober to death|Ice Beam|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|-damage|p1a: sober to death|17/100 brn|[from] brn
+|upkeep
+|
+|t:|1635632499
+|switch|p2a: Zapdos|Zapdos|82/100
+|-damage|p2a: Zapdos|57/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|17
+|
+|t:|1635632504
+|switch|p1a: cute thing|Clefable, F|100/100 psn
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|32/100
+|
+|-heal|p2a: Zapdos|38/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1635632509
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|88/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1635632528
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: cute thing|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-heal|p2a: Blastoise|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1635632532
+|move|p1a: cute thing|Protect|p1a: cute thing
+|-singleturn|p1a: cute thing|Protect
+|move|p2a: Blastoise|Rapid Spin|p1a: cute thing
+|-activate|p1a: cute thing|move: Protect
+|
+|-heal|p2a: Blastoise|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1635632540
+|move|p2a: Blastoise|Rapid Spin|p1a: cute thing
+|-damage|p1a: cute thing|96/100 psn
+|-sideend|p2: estarossa|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p2a: Blastoise|88/100 tox|[from] item: Leftovers
+|-heal|p1a: cute thing|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Blastoise|70/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1635632559
+|move|p2a: Blastoise|Scald|p1a: cute thing
+|-crit|p1a: cute thing
+|-damage|p1a: cute thing|69/100 psn
+|move|p1a: cute thing|Seismic Toss|p2a: Blastoise
+|-damage|p2a: Blastoise|42/100 tox
+|
+|-heal|p1a: cute thing|100/100 psn|[from] move: Wish|[wisher] cute thing
+|-heal|p2a: Blastoise|48/100 tox|[from] item: Leftovers
+|-damage|p2a: Blastoise|24/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1635632568
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|upkeep
+|turn|24
+|
+|t:|1635632581
+|switch|p2a: Mew|Mew|49/100 brn
+|move|p1a: cute thing|Toxic||[still]
+|-fail|p1a: cute thing
+|
+|-damage|p2a: Mew|37/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1635632593
+|switch|p1a: stop smoking|Krookodile, M|100/100
+|-status|p1a: stop smoking|psn
+|-damage|p1a: stop smoking|94/100 psn|[from] Stealth Rock
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|87/100 brn
+|-singleturn|p2a: Mew|move: Roost
+|
+|-damage|p1a: stop smoking|82/100 psn|[from] psn
+|-damage|p2a: Mew|75/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1635632599
+|switch|p2a: Blastoise|Blastoise, F|24/100 tox
+|move|p1a: stop smoking|Crunch|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|-ability|p1a: stop smoking|Moxie|boost
+|-boost|p1a: stop smoking|atk|1
+|
+|-damage|p1a: stop smoking|70/100 psn|[from] psn
+|upkeep
+|
+|t:|1635632605
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|27
+|l| LatiGOD
+|
+|t:|1635632613
+|move|p1a: stop smoking|Crunch|p2a: Snorlax
+|-damage|p2a: Snorlax|51/100
+|move|p2a: Snorlax|Body Slam|p1a: stop smoking
+|-crit|p1a: stop smoking
+|-damage|p1a: stop smoking|0 fnt
+|faint|p1a: stop smoking
+|
+|-heal|p2a: Snorlax|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635632618
+|switch|p1a: famous prophets|Tornadus, M|95/100
+|-damage|p1a: famous prophets|70/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1635632627
+|switch|p2a: Zapdos|Zapdos|94/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: famous prophets|Superpower|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|74/100
+|-unboost|p1a: famous prophets|atk|1
+|-unboost|p1a: famous prophets|def|1
+|-damage|p1a: famous prophets|60/100|[from] item: Life Orb
+|
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1635632631
+|switch|p1a: cute thing|Clefable, F|100/100 psn
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|72/100 psn
+|
+|-heal|p2a: Zapdos|86/100|[from] item: Leftovers
+|-heal|p1a: cute thing|78/100 psn|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1635632642
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|61/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|67/100|[from] item: Leftovers
+|-heal|p1a: cute thing|84/100 psn|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1635632649
+|switch|p2a: Mew|Mew|75/100 brn
+|move|p1a: cute thing|Seismic Toss|p2a: Mew
+|-damage|p2a: Mew|45/100 brn
+|
+|-heal|p1a: cute thing|90/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|33/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1635632655
+|move|p1a: cute thing|Protect|p1a: cute thing
+|-singleturn|p1a: cute thing|Protect
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|83/100 brn
+|-singleturn|p2a: Mew|move: Roost
+|
+|-heal|p1a: cute thing|96/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|71/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1635632659
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|100/100 brn
+|-singleturn|p2a: Mew|move: Roost
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p1a: cute thing|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|88/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1635632664
+|switch|p2a: Zapdos|Zapdos|67/100
+|-ability|p2a: Zapdos|Pressure
+|switch|p1a: sober to death|Empoleon, M|17/100 brn
+|-damage|p1a: sober to death|11/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: sober to death|73/100 brn|[from] move: Wish|[wisher] cute thing
+|-heal|p2a: Zapdos|73/100|[from] item: Leftovers
+|-damage|p1a: sober to death|60/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1635632675
+|switch|p1a: cute thing|Clefable, F|100/100 psn
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|75/100 psn
+|
+|-heal|p2a: Zapdos|79/100|[from] item: Leftovers
+|-heal|p1a: cute thing|81/100 psn|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1635632679
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|54/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|60/100|[from] item: Leftovers
+|-heal|p1a: cute thing|87/100 psn|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1635632683
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|35/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|41/100|[from] item: Leftovers
+|-heal|p1a: cute thing|93/100 psn|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1635632687
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|92/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-damage|p2a: Zapdos|66/100
+|
+|-heal|p2a: Zapdos|72/100|[from] item: Leftovers
+|-heal|p1a: cute thing|99/100 psn|[from] item: Leftovers
+|upkeep
+|turn|39
+|l|@Juno
+|
+|t:|1635632690
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|47/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|53/100|[from] item: Leftovers
+|-heal|p1a: cute thing|100/100 psn|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1635632693
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-damage|p2a: Zapdos|74/100
+|
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1635632695
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|56/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|62/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1635632698
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|37/100
+|move|p1a: cute thing|Toxic|p2a: Zapdos|[miss]
+|-miss|p1a: cute thing|p2a: Zapdos
+|
+|-heal|p2a: Zapdos|43/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1635632701
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|93/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|99/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1635632705
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|74/100
+|move|p1a: cute thing|Toxic||[still]
+|-fail|p1a: cute thing
+|
+|-heal|p2a: Zapdos|80/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1635632709
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|75/100 psn
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p2a: Zapdos|86/100|[from] item: Leftovers
+|-heal|p1a: cute thing|81/100 psn|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1635632713
+|move|p2a: Zapdos|Hidden Power|p1a: cute thing
+|-damage|p1a: cute thing|68/100 psn
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p1a: cute thing|100/100 psn|[from] move: Wish|[wisher] cute thing
+|-heal|p2a: Zapdos|92/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1635632718
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|67/100
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p2a: Zapdos|73/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1635632721
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|72/100 psn
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p1a: cute thing|100/100 psn|[from] move: Wish|[wisher] cute thing
+|-heal|p2a: Zapdos|79/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1635632724
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|55/100
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p2a: Zapdos|61/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1635632728
+|switch|p1a: beach life|Kingdra, F|100/100
+|-damage|p1a: beach life|88/100|[from] Stealth Rock
+|-status|p1a: beach life|psn
+|move|p2a: Zapdos|Thunderbolt|p1a: beach life
+|-damage|p1a: beach life|39/100 psn
+|
+|-heal|p1a: beach life|100/100 psn|[from] move: Wish|[wisher] cute thing
+|-heal|p2a: Zapdos|67/100|[from] item: Leftovers
+|-damage|p1a: beach life|88/100 psn|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1635632735
+|move|p2a: Zapdos|Thunderbolt|p1a: beach life
+|-damage|p1a: beach life|40/100 psn
+|move|p1a: beach life|Dragon Pulse|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|73/100|[from] item: Leftovers
+|-damage|p1a: beach life|28/100 psn|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1635632742
+|switch|p1a: cute thing|Clefable, F|100/100 psn
+|move|p2a: Zapdos|Thunderbolt|p1a: cute thing
+|-damage|p1a: cute thing|74/100 psn
+|
+|-heal|p2a: Zapdos|79/100|[from] item: Leftovers
+|-heal|p1a: cute thing|80/100 psn|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1635632746
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|54/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|60/100|[from] item: Leftovers
+|-heal|p1a: cute thing|86/100 psn|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1635632753
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|35/100
+|move|p1a: cute thing|Seismic Toss|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|41/100|[from] item: Leftovers
+|-heal|p1a: cute thing|92/100 psn|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1635632760
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|91/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: cute thing|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-heal|p2a: Zapdos|97/100 tox|[from] item: Leftovers
+|-heal|p1a: cute thing|98/100 psn|[from] item: Leftovers
+|-damage|p2a: Zapdos|91/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1635632763
+|switch|p2a: Mew|Mew|88/100 brn
+|move|p1a: cute thing|Wish|p1a: cute thing
+|
+|-heal|p1a: cute thing|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Mew|76/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1635632770
+|switch|p1a: famous prophets|Tornadus, M|60/100
+|-damage|p1a: famous prophets|36/100|[from] Stealth Rock
+|move|p2a: Mew|U-turn|p1a: famous prophets
+|-resisted|p1a: famous prophets
+|-damage|p1a: famous prophets|30/100
+|
+|t:|1635632773
+|switch|p2a: Zapdos|Zapdos|91/100 tox|[from]move: U-turn
+|-ability|p2a: Zapdos|Pressure
+|
+|-heal|p1a: famous prophets|96/100|[from] move: Wish|[wisher] cute thing
+|-heal|p2a: Zapdos|97/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|91/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1635632783
+|switch|p1a: cute thing|Clefable, F|100/100 psn
+|switch|p2a: Mew|Mew|76/100 brn
+|
+|-damage|p2a: Mew|64/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1635632789
+|move|p1a: cute thing|Protect|p1a: cute thing
+|-singleturn|p1a: cute thing|Protect
+|move|p2a: Mew|Trick|p1a: cute thing
+|-activate|p1a: cute thing|move: Protect
+|
+|-damage|p2a: Mew|51/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|t:|1635632793
+|switch|p2a: Snorlax|Snorlax, M|57/100
+|switch|p1a: sober to death|Empoleon, M|60/100 brn
+|-damage|p1a: sober to death|54/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Snorlax|63/100|[from] item: Leftovers
+|-damage|p1a: sober to death|42/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|t:|1635632800
+|move|p1a: sober to death|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: estarossa|move: Stealth Rock
+|move|p2a: Snorlax|Earthquake|p1a: sober to death
+|-supereffective|p1a: sober to death
+|-damage|p1a: sober to death|0 fnt
+|faint|p1a: sober to death
+|
+|-heal|p2a: Snorlax|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635632806
+|switch|p1a: famous prophets|Tornadus, M|96/100
+|-damage|p1a: famous prophets|71/100|[from] Stealth Rock
+|turn|62
+|
+|t:|1635632812
+|switch|p2a: Mew|Mew|51/100 brn
+|-damage|p2a: Mew|39/100 brn|[from] Stealth Rock
+|move|p1a: famous prophets|Superpower|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|21/100 brn
+|-unboost|p1a: famous prophets|atk|1
+|-unboost|p1a: famous prophets|def|1
+|-damage|p1a: famous prophets|62/100|[from] item: Life Orb
+|
+|-damage|p2a: Mew|8/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|t:|1635632821
+|move|p1a: famous prophets|Rain Dance|p1a: famous prophets
+|-weather|RainDance
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|59/100 brn
+|-singleturn|p2a: Mew|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mew|46/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|t:|1635632826
+|switch|p2a: Snorlax|Snorlax, M|69/100
+|-damage|p2a: Snorlax|57/100|[from] Stealth Rock
+|move|p1a: famous prophets|Hurricane|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-damage|p1a: famous prophets|52/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1635632829
+|switch|p2a: Zapdos|Zapdos|91/100 tox
+|-damage|p2a: Zapdos|66/100 tox|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|65
+|
+|t:|1635632834
+|move|p1a: famous prophets|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|27/100 tox
+|-start|p2a: Zapdos|confusion
+|-damage|p1a: famous prophets|42/100|[from] item: Life Orb
+|-activate|p2a: Zapdos|confusion
+|move|p2a: Zapdos|Thunderbolt|p1a: famous prophets
+|-supereffective|p1a: famous prophets
+|-damage|p1a: famous prophets|0 fnt
+|faint|p1a: famous prophets
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|33/100 tox|[from] item: Leftovers
+|-damage|p2a: Zapdos|27/100 tox|[from] psn
+|upkeep
+|l| luh hertz
+|
+|t:|1635632841
+|switch|p1a: beach life|Kingdra, F|28/100 psn
+|-damage|p1a: beach life|16/100 psn|[from] Stealth Rock
+|turn|66
+|
+|t:|1635632850
+|move|p1a: beach life|Dragon Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: beach life|3/100 psn|[from] psn
+|upkeep
+|
+|t:|1635632853
+|switch|p2a: Mew|Mew|46/100 brn
+|-damage|p2a: Mew|34/100 brn|[from] Stealth Rock
+|turn|67
+|
+|t:|1635632856
+|move|p1a: beach life|Dragon Pulse|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|avarice
+|n|☆avarice|avarice
+|n|☆estarossa|estarossa
+|n| Mendeez|mendeez
+|n| Shgo Haizaki|shgohaizaki
+|n| AerialLadder|aerialladder
+|n| laevin|laevin

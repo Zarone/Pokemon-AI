@@ -1,0 +1,364 @@
+|j|☆mentalsoft
+|j|☆Milo008
+|t:|1631927272
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|Milo008|psychic-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Golurk|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Alomomola, F|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Golurk|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|j| Colbur dragapult
+|c| Colbur dragapult|What are the odds
+|c| Colbur dragapult|Lol
+|
+|t:|1631927298
+|start
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|turn|1
+|c|☆mentalsoft|lol
+|j| PixelThePegasus
+|c| Colbur dragapult|Oh sample teams
+|j| SpacialRendevous
+|c|☆Milo008|lmao
+|
+|t:|1631927334
+|move|p1a: Rotom|Will-O-Wisp|p2a: Garbodor
+|-status|p2a: Garbodor|brn
+|move|p2a: Garbodor|Toxic Spikes|p1a: Rotom
+|-sidestart|p1: mentalsoft|move: Toxic Spikes
+|
+|-damage|p2a: Garbodor|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|l| Colbur dragapult
+|
+|t:|1631927346
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|76/100
+|move|p2a: Garbodor|Toxic Spikes|p1a: Rotom
+|-sidestart|p1: mentalsoft|move: Toxic Spikes
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1631927351
+|move|p1a: Rotom|Thunderbolt|p2a: Garbodor
+|-damage|p2a: Garbodor|30/100 brn
+|move|p2a: Garbodor|Spikes|p1a: Rotom
+|-sidestart|p1: mentalsoft|Spikes
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|18/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1631927361
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|l| SpacialRendevous
+|
+|t:|1631927391
+|move|p1a: Rotom|Blizzard|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631927437
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|6
+|
+|t:|1631927446
+|move|p2a: Kangaskhan|Fake Out|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|brn
+|
+|-damage|p2a: Kangaskhan|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1631927458
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-damage|p1a: Skuntank|88/100|[from] Spikes
+|-sideend|p1: mentalsoft|move: Toxic Spikes|[of] p1a: Skuntank
+|move|p2a: Kangaskhan|Sucker Punch||[still]
+|-fail|p2a: Kangaskhan
+|
+|-damage|p2a: Kangaskhan|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|j| anibunny
+|
+|t:|1631927468
+|move|p1a: Skuntank|Pursuit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|44/100 brn
+|move|p2a: Kangaskhan|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|45/100
+|
+|-damage|p2a: Kangaskhan|32/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1631927487
+|move|p1a: Skuntank|Pursuit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|5/100 brn
+|move|p2a: Kangaskhan|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|3/100
+|
+|-damage|p2a: Kangaskhan|0 fnt|[from] brn
+|faint|p2a: Kangaskhan
+|upkeep
+|
+|t:|1631927497
+|switch|p2a: Garbodor|Garbodor, F|18/100 brn
+|turn|10
+|
+|t:|1631927511
+|move|p1a: Skuntank|Pursuit|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Skuntank|0 fnt|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p1a: Skuntank
+|faint|p2a: Garbodor
+|
+|upkeep
+|
+|t:|1631927547
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Golurk|88/100|[from] Spikes
+|turn|11
+|
+|t:|1631927559
+|move|p1a: Golurk|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: Milo008|move: Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Golurk|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1631927566
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|-damage|p1a: Garbodor|88/100|[from] Spikes
+|move|p2a: Alomomola|Scald|p1a: Garbodor
+|-damage|p1a: Garbodor|75/100
+|
+|upkeep
+|turn|13
+|
+|t:|1631927576
+|move|p1a: Garbodor|Seed Bomb|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|14
+|
+|t:|1631927581
+|move|p1a: Garbodor|Spikes|p2a: Alomomola
+|-sidestart|p2: Milo008|Spikes
+|move|p2a: Alomomola|Knock Off|p1a: Garbodor
+|-damage|p1a: Garbodor|72/100
+|-damage|p2a: Alomomola|64/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|-enditem|p1a: Garbodor|Rocky Helmet|[from] move: Knock Off|[of] p2a: Alomomola
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|15
+|
+|t:|1631927590
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Garbodor|Spikes|p2a: Alomomola
+|-sidestart|p2: Milo008|Spikes
+|
+|upkeep
+|turn|16
+|c| PixelThePegasus|how do u guys have the ssame pokemons??
+|
+|t:|1631927595
+|move|p1a: Garbodor|Spikes|p2a: Alomomola
+|-sidestart|p2: Milo008|Spikes
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|17
+|c|☆Milo008|coincidence
+|
+|t:|1631927607
+|switch|p1a: Golurk|Golurk|94/100
+|-damage|p1a: Golurk|82/100|[from] Spikes
+|move|p2a: Alomomola|Scald|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|53/100
+|
+|-heal|p1a: Golurk|59/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c| PixelThePegasus|wow thats a amazing thing xD
+|
+|t:|1631927613
+|move|p1a: Golurk|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Golurk|65/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1631927625
+|move|p1a: Golurk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|70/100 tox
+|move|p2a: Alomomola|Scald|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|38/100
+|
+|-heal|p2a: Alomomola|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Golurk|44/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1631927643
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Golurk|Dynamic Punch|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|3/100
+|-start|p2a: Rotom|confusion
+|
+|-heal|p2a: Rotom|10/100|[from] item: Leftovers
+|-heal|p1a: Golurk|50/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1631927651
+|-activate|p2a: Rotom|confusion
+|move|p2a: Rotom|Blizzard|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Rotom|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1631927664
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Spikes
+|turn|22
+|j| GuyTessier
+|
+|t:|1631927695
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|-damage|p2a: Skuntank|63/100|[from] Spikes
+|move|p1a: Kangaskhan|Fake Out|p2a: Skuntank
+|-damage|p2a: Skuntank|33/100
+|
+|upkeep
+|turn|23
+|
+|t:|1631927704
+|move|p2a: Skuntank|Pursuit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|61/100
+|move|p1a: Kangaskhan|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1631927731
+|switch|p2a: Alomomola|Alomomola, F|100/100 tox
+|-damage|p2a: Alomomola|76/100 tox|[from] Spikes
+|-damage|p2a: Alomomola|63/100 tox|[from] Stealth Rock
+|turn|24
+|
+|t:|1631927752
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|22/100 tox
+|-damage|p1a: Kangaskhan|44/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|-damage|p1a: Kangaskhan|25/100|[from] Recoil
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|16/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1631927756
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|66/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|54/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1631927770
+|move|p1a: Kangaskhan|Double-Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|14/100 tox
+|-damage|p1a: Kangaskhan|8/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|-damage|p1a: Kangaskhan|0 fnt|[from] Recoil
+|faint|p1a: Kangaskhan
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|0 fnt|[from] psn
+|faint|p2a: Alomomola
+|upkeep
+|
+|t:|1631927775
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|switch|p2a: Rotom|Rotom-Frost|16/100
+|-damage|p2a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rotom
+|
+|win|mentalsoft
+|n|☆mentalsoft|mentalsoft
+|n|☆Milo008|milo008
+|n| PixelThePegasus|pixelthepegasus
+|n| anibunny|anibunny
+|n| GuyTessier|guytessier

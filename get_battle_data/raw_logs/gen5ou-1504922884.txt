@@ -1,0 +1,296 @@
+|j|☆FBz28
+|j|☆PotatoMine1
+|t:|1644073350
+|gametype|singles
+|player|p1|FBz28|burglar|1196
+|player|p2|PotatoMine1|169|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Salamence, M|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Gengar, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1644073373
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|1
+|
+|t:|1644073381
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|91/100
+|
+|-heal|p2a: Heatran|97/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644073409
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Magma Storm|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|57/100
+|-activate|p1a: Salamence|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Salamence|50/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|j| SKT T1 Motherfaker
+|
+|t:|1644073432
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1644073467
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Landorus|U-turn|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|87/100
+|
+|t:|1644073476
+|switch|p2a: Latios|Latios, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1644073480
+|move|p2a: Latios|Draco Meteor|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Terrakion
+|
+|upkeep
+|
+|t:|1644073484
+|switch|p1a: Salamence|Salamence, M|50/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|turn|6
+|
+|t:|1644073490
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-unboost|p2a: Latios|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1644073499
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|90/100
+|
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644073501
+|move|p2a: Heatran|Magma Storm|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644073512
+|switch|p1a: Salamence|Salamence, M|50/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|9
+|
+|t:|1644073525
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1644073535
+|move|p1a: Thundurus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-damage|p1a: Thundurus|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644073540
+|switch|p2a: Alakazam|Alakazam, F|100/100
+|turn|11
+|
+|t:|1644073547
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Alakazam|Hidden Power|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|80/100
+|
+|-heal|p1a: Bisharp|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1644073554
+|move|p2a: Alakazam|Focus Blast|p1a: Bisharp|[miss]
+|-miss|p2a: Alakazam|p1a: Bisharp
+|move|p1a: Bisharp|Substitute|p1a: Bisharp
+|-start|p1a: Bisharp|Substitute
+|-damage|p1a: Bisharp|61/100
+|
+|-heal|p1a: Bisharp|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1644073559
+|move|p2a: Alakazam|Signal Beam|p1a: Bisharp
+|-end|p1a: Bisharp|Substitute
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p1a: Bisharp|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1644073567
+|move|p1a: Bisharp|Sucker Punch|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|move|p2a: Alakazam|Focus Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1644073576
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|15
+|
+|t:|1644073593
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Salamence|Salamence, M|50/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|
+|upkeep
+|turn|16
+|
+|t:|1644073602
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Salamence
+|-status|p1a: Salamence|par
+|
+|upkeep
+|turn|17
+|
+|t:|1644073607
+|move|p1a: Salamence|Brick Break|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|-damage|p1a: Salamence|38/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|31/100 par
+|
+|-heal|p2a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1644073614
+|move|p1a: Salamence|Brick Break|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Salamence|18/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644073618
+|switch|p2a: Alakazam|Alakazam, F|1/100
+|turn|19
+|
+|t:|1644073621
+|move|p2a: Alakazam|Psychic|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1644073629
+|switch|p1a: Thundurus|Thundurus-Therian, M|90/100
+|turn|20
+|
+|t:|1644073634
+|move|p2a: Alakazam|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|20/100
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|
+|upkeep
+|turn|21
+|
+|t:|1644073637
+|move|p2a: Alakazam|Hidden Power|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1644073639
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|22
+|
+|t:|1644073641
+|move|p2a: Alakazam|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|win|PotatoMine1
+|raw|FBz28's rating: 1196 &rarr; <strong>1186</strong><br />(-10 for losing)
+|raw|PotatoMine1's rating: 1443 &rarr; <strong>1451</strong><br />(+8 for winning)
+|l|☆FBz28

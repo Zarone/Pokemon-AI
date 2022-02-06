@@ -1,0 +1,252 @@
+|j|☆jpjays29
+|j|☆LX.HB24
+|t:|1643907273
+|gametype|singles
+|player|p1|jpjays29|1|1113
+|player|p2|LX.HB24|n|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Raikou|item
+|poke|p1|Jirachi|item
+|poke|p1|Breloom, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Salamence, F|item
+|poke|p2|Lucario, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Volcarona, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LX.HB24)
+|j| SKT T1 Motherfaker
+|
+|t:|1643907284
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, F|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|turn|1
+|
+|t:|1643907299
+|move|p2a: Aerodactyl|Earthquake|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|33/100
+|move|p1a: Terrakion|Stealth Rock|p2a: Aerodactyl
+|-sidestart|p2: LX.HB24|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643907316
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Aerodactyl|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: jpjays29|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1643907333
+|move|p2a: Aerodactyl|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|cant|p1a: Dragonite|move: Taunt|Dragon Dance
+|
+|upkeep
+|turn|4
+|
+|t:|1643907345
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Claw|p2a: Blastoise
+|-damage|p2a: Blastoise|59/100
+|
+|-heal|p2a: Blastoise|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643907360
+|switch|p1a: Breloom|Breloom, F|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|move|p2a: Blastoise|Rapid Spin|p1a: Breloom
+|-damage|p1a: Breloom|90/100
+|-sideend|p2: LX.HB24|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|71/100|[from] item: Leftovers
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1643907381
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1643907392
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Latias|Reflect|p2a: Latias
+|-sidestart|p2: LX.HB24|Reflect
+|
+|upkeep
+|turn|8
+|
+|t:|1643907398
+|move|p2a: Latias|Light Screen|p2a: Latias
+|-sidestart|p2: LX.HB24|move: Light Screen
+|move|p1a: Breloom|Facade|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1643907413
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|9
+|
+|t:|1643907424
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Breloom|Facade|p2a: Volcarona
+|-damage|p2a: Volcarona|67/100
+|
+|-heal|p2a: Volcarona|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643907448
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-heal|p2a: Volcarona|79/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643907462
+|move|p2a: Volcarona|Fiery Dance|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Volcarona|85/100|[from] item: Leftovers
+|upkeep
+|inactive|jpjays29 has 120 seconds left.
+|
+|t:|1643907480
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|12
+|inactive|jpjays29 has 120 seconds left.
+|
+|t:|1643907507
+|move|p2a: Volcarona|Bug Buzz|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|21/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|64/100
+|
+|-heal|p2a: Volcarona|70/100|[from] item: Leftovers
+|-heal|p1a: Dragonite|27/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643907523
+|move|p2a: Volcarona|Fiery Dance|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Volcarona|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643907531
+|switch|p1a: Terrakion|Terrakion|33/100
+|-damage|p1a: Terrakion|27/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1643907537
+|move|p2a: Volcarona|Fiery Dance|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Terrakion
+|
+|-heal|p2a: Volcarona|82/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|Reflect
+|upkeep
+|
+|t:|1643907547
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|15
+|
+|t:|1643907557
+|move|p2a: Volcarona|Fiery Dance|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|-heal|p2a: Volcarona|88/100|[from] item: Leftovers
+|-sideend|p2: LX.HB24|move: Light Screen
+|upkeep
+|
+|t:|1643907565
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|turn|16
+|
+|t:|1643907571
+|move|p2a: Volcarona|Fiery Dance|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Breloom
+|
+|-heal|p2a: Volcarona|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643907578
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1643907585
+|move|p2a: Volcarona|Fiery Dance|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Jirachi
+|
+|win|LX.HB24
+|raw|jpjays29's rating: 1113 &rarr; <strong>1088</strong><br />(-25 for losing)
+|raw|LX.HB24's rating: 1107 &rarr; <strong>1132</strong><br />(+25 for winning)
+|l|☆jpjays29

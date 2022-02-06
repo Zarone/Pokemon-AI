@@ -1,0 +1,245 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642375210
+|gametype|singles
+|player|p1|Shuckleking87|102|
+|player|p2|Oathkeeper|acetrainer-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Piloswine, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Sawsbuck-Autumn, F|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Primeape, F|item
+|poke|p2|Sawk, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Ludicolo, M|item
+|poke|p2|Regirock|item
+|poke|p2|Musharna, M|item
+|poke|p2|Haunter, F|item
+|teampreview
+|c|☆Shuckleking87|glhf man
+|c|☆Oathkeeper|u2 =)
+|inactive|Oathkeeper has 270 seconds left.
+|inactive|Shuckleking87 has 270 seconds left.
+|
+|t:|1642375266
+|start
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|1
+|inactive|Shuckleking87 has 270 seconds left.
+|inactive|Oathkeeper has 270 seconds left.
+|
+|t:|1642375298
+|move|p2a: Sawk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-crit|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|c|☆Shuckleking87|.
+|c|☆Oathkeeper|...
+|inactive|Shuckleking87 has 270 seconds left.
+|c|☆Shuckleking87|well rip haha
+|c|☆Oathkeeper|bummer
+|
+|t:|1642375323
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|turn|2
+|inactive|Oathkeeper has 270 seconds left.
+|
+|t:|1642375342
+|switch|p2a: Musharna|Musharna, M|100/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Musharna
+|-sidestart|p2: Oathkeeper|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1642375360
+|move|p1a: Piloswine|Earthquake|p2a: Musharna
+|-damage|p2a: Musharna|78/100
+|move|p2a: Musharna|Yawn|p1a: Piloswine
+|-start|p1a: Piloswine|move: Yawn|[of] p2a: Musharna
+|
+|-heal|p2a: Musharna|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Oathkeeper has 270 seconds left.
+|inactive|Shuckleking87 has 240 seconds left.
+|inactive|Oathkeeper has 240 seconds left.
+|
+|t:|1642375407
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Musharna|Baton Pass|p2a: Musharna
+|
+|t:|1642375411
+|switch|p2a: Ludicolo|Ludicolo, M, shiny|100/100|[from]move: Baton Pass
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1642375444
+|move|p1a: Seismitoad|Substitute|p1a: Seismitoad
+|-start|p1a: Seismitoad|Substitute
+|-damage|p1a: Seismitoad|76/100
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1642375452
+|move|p2a: Ludicolo|Giga Drain|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-end|p1a: Seismitoad|Substitute
+|-heal|p2a: Ludicolo|100/100|[from] drain|[of] p1a: Seismitoad
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Substitute|p1a: Seismitoad
+|-start|p1a: Seismitoad|Substitute
+|-damage|p1a: Seismitoad|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1642375462
+|move|p2a: Ludicolo|Giga Drain|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-end|p1a: Seismitoad|Substitute
+|-heal|p2a: Ludicolo|100/100|[from] drain|[of] p1a: Seismitoad
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Substitute|p1a: Seismitoad
+|-start|p1a: Seismitoad|Substitute
+|-damage|p1a: Seismitoad|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1642375471
+|move|p2a: Ludicolo|Giga Drain|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-end|p1a: Seismitoad|Substitute
+|-heal|p2a: Ludicolo|100/100|[from] drain|[of] p1a: Seismitoad
+|-damage|p2a: Ludicolo|91/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Substitute|p1a: Seismitoad
+|-start|p1a: Seismitoad|Substitute
+|-damage|p1a: Seismitoad|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1642375481
+|switch|p1a: Sawsbuck|Sawsbuck-Autumn, F|100/100
+|move|p2a: Ludicolo|Giga Drain|p1a: Sawsbuck
+|-ability|p1a: Sawsbuck|Sap Sipper|boost
+|-boost|p1a: Sawsbuck|atk|1
+|
+|-weather|none
+|upkeep
+|turn|10
+|inactive|Oathkeeper has 270 seconds left.
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1642375504
+|switch|p2a: Haunter|Haunter, F|100/100
+|-damage|p2a: Haunter|88/100|[from] Stealth Rock
+|move|p1a: Sawsbuck|Horn Leech|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|-damage|p1a: Sawsbuck|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642375517
+|switch|p2a: Musharna|Musharna, M|85/100
+|-damage|p2a: Musharna|72/100|[from] Stealth Rock
+|turn|11
+|inactive|Shuckleking87 has 240 seconds left.
+|
+|t:|1642375532
+|move|p1a: Sawsbuck|Return|p2a: Musharna
+|-damage|p2a: Musharna|16/100
+|-damage|p1a: Sawsbuck|81/100|[from] item: Life Orb
+|move|p2a: Musharna|Psychic|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|33/100
+|
+|-heal|p2a: Musharna|22/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Oathkeeper has 270 seconds left.
+|
+|t:|1642375544
+|move|p1a: Sawsbuck|Horn Leech|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|-heal|p1a: Sawsbuck|48/100|[from] drain|[of] p2a: Musharna
+|faint|p2a: Musharna
+|-damage|p1a: Sawsbuck|39/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1642375550
+|switch|p2a: Skuntank|Skuntank, M, shiny|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|13
+|inactive|Oathkeeper has 270 seconds left.
+|
+|t:|1642375560
+|move|p1a: Sawsbuck|Nature Power|p1a: Sawsbuck
+|move|p1a: Sawsbuck|Earthquake|p2a: Skuntank|[from]move: Nature Power
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|-damage|p1a: Sawsbuck|29/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Oathkeeper has 270 seconds left.
+|
+|t:|1642375570
+|switch|p2a: Sawk|Sawk, M|100/100
+|-damage|p2a: Sawk|94/100|[from] Stealth Rock
+|-ability|p2a: Sawk|Mold Breaker
+|turn|14
+|inactive|Oathkeeper has 270 seconds left.
+|
+|t:|1642375582
+|move|p1a: Sawsbuck|Return|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|faint|p2a: Sawk
+|-damage|p1a: Sawsbuck|19/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Oathkeeper|frack
+|c|☆Shuckleking87|sawsbuck the god
+|-message|Oathkeeper forfeited.
+|
+|win|Shuckleking87
+|c|☆Shuckleking87|gg
+|c|☆Oathkeeper|gg

@@ -1,0 +1,191 @@
+|j|☆snof2
+|j|☆PotatoMine1
+|t:|1644138516
+|gametype|singles
+|player|p1|snof2|170|1414
+|player|p2|PotatoMine1|101|1473
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Starmie|item
+|poke|p1|Terrakion|item
+|poke|p1|Scizor, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Celebi|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Latios, M|item
+|teampreview
+|
+|t:|1644138524
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|turn|1
+|
+|t:|1644138533
+|move|p1a: Garchomp|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|21/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Landorus|Hidden Power|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|3/100
+|
+|-heal|p2a: Landorus|27/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644138546
+|move|p1a: Garchomp|Stealth Rock|p2a: Landorus
+|-sidestart|p2: PotatoMine1|move: Stealth Rock
+|move|p2a: Landorus|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: snof2|move: Stealth Rock
+|
+|-heal|p2a: Landorus|33/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644138550
+|move|p1a: Garchomp|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|faint|p2a: Landorus
+|-damage|p1a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1644138566
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1644138573
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|
+|t:|1644138577
+|switch|p1a: Celebi|Celebi|100/100|[from]move: Volt Switch
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1644138582
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644138588
+|switch|p1a: Starmie|Starmie|100/100
+|-damage|p1a: Starmie|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|40/100
+|-activate|p1a: Starmie|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Starmie|34/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1644138590
+|move|p1a: Starmie|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|98/100
+|-sideend|p1: snof2|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|-end|p1a: Starmie|Magma Storm|[partiallytrapped]
+|move|p2a: Heatran|Hidden Power|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644138595
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|8
+|
+|t:|1644138609
+|switch|p2a: Jellicent|Jellicent, F|88/100
+|-damage|p2a: Jellicent|76/100|[from] Stealth Rock
+|move|p1a: Terrakion|Substitute|p1a: Terrakion
+|-start|p1a: Terrakion|Substitute
+|-damage|p1a: Terrakion|76/100
+|
+|-heal|p2a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644138613
+|move|p1a: Terrakion|Stone Edge|p2a: Jellicent|[miss]
+|-miss|p1a: Terrakion|p2a: Jellicent
+|move|p2a: Jellicent|Night Shade|p1a: Terrakion
+|-end|p1a: Terrakion|Substitute
+|
+|-heal|p2a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1644138618
+|move|p1a: Terrakion|Stone Edge|p2a: Jellicent|[miss]
+|-miss|p1a: Terrakion|p2a: Jellicent
+|move|p2a: Jellicent|Taunt|p1a: Terrakion
+|-start|p1a: Terrakion|move: Taunt
+|
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1644138622
+|move|p1a: Terrakion|Stone Edge|p2a: Jellicent|[miss]
+|-miss|p1a: Terrakion|p2a: Jellicent
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Terrakion
+|-status|p1a: Terrakion|brn
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Terrakion|63/100 brn|[from] brn
+|upkeep
+|turn|12
+|-message|snof2 forfeited.
+|
+|win|PotatoMine1
+|raw|snof2's rating: 1414 &rarr; <strong>1397</strong><br />(-17 for losing)
+|raw|PotatoMine1's rating: 1473 &rarr; <strong>1490</strong><br />(+17 for winning)
+|l|☆snof2
+|c|☆PotatoMine1|My luck

@@ -1,0 +1,83 @@
+|j|☆jhkgjmgh
+|j|☆Kzrockstar
+|t:|1643999765
+|gametype|singles
+|player|p1|jhkgjmgh|101|1000
+|player|p2|Kzrockstar|101|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Pikachu, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Plusle, F|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Politoed, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Jellicent, F|item
+|teampreview
+|c|☆Kzrockstar|gl hf
+|c|☆jhkgjmgh|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kzrockstar)
+|
+|t:|1643999789
+|start
+|switch|p1a: Tom|Rotom-Wash|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1643999802
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Tom|Thunder|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1643999819
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Tom|Thunder|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|49/100
+|-status|p2a: Magnezone|par
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1643999833
+|move|p1a: Tom|Thunder|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Kzrockstar forfeited.
+|
+|win|jhkgjmgh
+|raw|jhkgjmgh's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|raw|Kzrockstar's rating: 1046 &rarr; <strong>1027</strong><br />(-19 for losing)
+|l|☆Kzrockstar
+|c|☆jhkgjmgh|wow

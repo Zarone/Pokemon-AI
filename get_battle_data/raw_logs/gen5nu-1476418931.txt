@@ -1,0 +1,175 @@
+|j|☆roxiee
+|j|☆UFO VSkee
+|t:|1639945478
+|gametype|singles
+|player|p1|roxiee|burglar-gen3|
+|player|p2|UFO VSkee|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawsbuck, F|item
+|poke|p1|Primeape, F|item
+|poke|p1|Misdreavus, F|item
+|poke|p1|Skuntank, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Charizard, M|item
+|poke|p2|Alomomola, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Eelektross, F|item
+|poke|p2|Serperior, M|item
+|poke|p2|Golurk|item
+|poke|p2|Skuntank, F|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UFO VSkee)
+|j|@Quite Quiet
+|j| JayFeather12
+|
+|t:|1639945498
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|j|+Kiyo
+|j| Floss
+|
+|t:|1639945505
+|switch|p2a: Serperior|Serperior, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Serperior
+|-sidestart|p2: UFO VSkee|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1639945514
+|switch|p1a: Sawsbuck|Sawsbuck, F|100/100
+|move|p2a: Serperior|Calm Mind|p2a: Serperior
+|-boost|p2a: Serperior|spa|1
+|-boost|p2a: Serperior|spd|1
+|
+|upkeep
+|turn|3
+|j| usurped soviet
+|
+|t:|1639945519
+|move|p2a: Serperior|Hidden Power|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|50/100
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|move|p1a: Sawsbuck|Frustration|p2a: Serperior
+|-damage|p2a: Serperior|22/100
+|-damage|p1a: Sawsbuck|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|inactive|UFO VSkee has 120 seconds left.
+|
+|t:|1639945557
+|switch|p1a: Primeape|Primeape, F|100/100
+|move|p2a: Serperior|Hidden Power|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|74/100
+|-damage|p2a: Serperior|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|inactive|UFO VSkee has 120 seconds left.
+|
+|t:|1639945562
+|move|p1a: Primeape|U-turn|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|c|@Quite Quiet|I giga'd there
+|
+|t:|1639945580
+|switch|p1a: Sawsbuck|Sawsbuck, F|40/100|[from]move: U-turn
+|
+|upkeep
+|inactive|UFO VSkee has 120 seconds left.
+|
+|t:|1639945597
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1639945602
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Charizard|Flamethrower|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|76/100
+|
+|-heal|p1a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|UFO VSkee has 120 seconds left.
+|
+|t:|1639945631
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|switch|p1a: Charizard|Charizard, M|100/100
+|
+|upkeep
+|turn|8
+|j|@Links
+|
+|t:|1639945640
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Alomomola|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|86/100
+|
+|-heal|p1a: Skuntank|92/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|inactive|UFO VSkee has 120 seconds left.
+|
+|t:|1639945668
+|move|p1a: Skuntank|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|move|p2a: Alomomola|Scald|p1a: Skuntank
+|-damage|p1a: Skuntank|78/100
+|-status|p1a: Skuntank|brn
+|
+|-heal|p1a: Skuntank|84/100 brn|[from] item: Black Sludge
+|-damage|p2a: Alomomola|82/100 tox|[from] psn
+|-damage|p1a: Skuntank|71/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1639945684
+|move|p1a: Skuntank|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Healing Wish
+|
+|-heal|p1a: Skuntank|77/100 brn|[from] item: Black Sludge
+|-damage|p2a: Alomomola|69/100 tox|[from] psn
+|-damage|p1a: Skuntank|65/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|UFO VSkee forfeited.
+|
+|win|roxiee
+|n|☆roxiee|roxiee
+|n|☆UFO VSkee|ufovskee
+|n| BB-8-NU|bb8nu
+|n|@Quite Quiet|quitequiet
+|n| JayFeather12|jayfeather12
+|n|+Kiyo|kiyo
+|n| Floss|floss
+|n| usurped soviet|usurpedsoviet
+|n| Links|links
+|l|☆UFO VSkee
+|l| BB-8-NU
+|l|☆roxiee

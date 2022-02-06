@@ -1,0 +1,253 @@
+|j|☆BattleBlazikenVGC
+|j|☆Heysup
+|t:|1624046911
+|gametype|singles
+|player|p1|BattleBlazikenVGC|gambler|
+|player|p2|Heysup|chuck|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Larvesta, L5, F|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Timburr, L5, M|item
+|poke|p1|Abra, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Pansage, L5, M|item
+|poke|p2|Zigzagoon, L5, M|item
+|poke|p2|Numel, L5, F|item
+|teampreview
+|
+|t:|1624046948
+|start
+|switch|p1a: Staryu|Staryu, L5|100/100
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|1
+|
+|t:|1624046957
+|move|p2a: Abra|Light Screen|p2a: Abra
+|-sidestart|p2: Heysup|move: Light Screen
+|move|p1a: Staryu|Scald|p2a: Abra
+|-damage|p2a: Abra|82/100
+|-status|p2a: Abra|brn
+|
+|upkeep
+|turn|2
+|
+|t:|1624046961
+|move|p2a: Abra|Reflect|p2a: Abra
+|-sidestart|p2: Heysup|Reflect
+|move|p1a: Staryu|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|64/100 brn
+|
+|upkeep
+|turn|3
+|
+|t:|1624046967
+|switch|p2a: Pansage|Pansage, L5, M|100/100
+|move|p1a: Staryu|Scald|p2a: Pansage
+|-resisted|p2a: Pansage
+|-damage|p2a: Pansage|91/100
+|
+|upkeep
+|turn|4
+|
+|t:|1624046982
+|switch|p1a: Larvesta|Larvesta, L5, F|100/100
+|switch|p2a: Numel|Numel, L5, F|100/100
+|
+|upkeep
+|turn|5
+|j| Guldkatt
+|j| quietisms
+|
+|t:|1624046990
+|move|p1a: Larvesta|U-turn|p2a: Numel
+|-resisted|p2a: Numel
+|-damage|p2a: Numel|92/100
+|
+|t:|1624046993
+|switch|p1a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|move|p2a: Numel|Earthquake|p1a: Staryu
+|-damage|p1a: Staryu|53/100
+|
+|upkeep
+|turn|6
+|
+|t:|1624046998
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|100/100
+|move|p2a: Numel|Flame Charge|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|86/100
+|-boost|p2a: Numel|spe|2
+|
+|upkeep
+|turn|7
+|j|+Bughouse
+|j| JukeDuke
+|
+|t:|1624047006
+|move|p2a: Numel|Howl|p2a: Numel
+|-boost|p2a: Numel|atk|2
+|move|p1a: Staryu|Scald|p2a: Numel
+|-supereffective|p2a: Numel
+|-damage|p2a: Numel|14/100
+|
+|upkeep
+|turn|8
+|c|+Bughouse|based numel
+|
+|t:|1624047022
+|switch|p1a: Timburr|Timburr, L5, M|100/100
+|move|p2a: Numel|Stealth Rock|p1a: Timburr
+|-sidestart|p1: BattleBlazikenVGC|move: Stealth Rock
+|
+|-sideend|p2: Heysup|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1624047029
+|move|p1a: Timburr|Mach Punch|p2a: Numel
+|-damage|p2a: Numel|0 fnt
+|faint|p2a: Numel
+|
+|-sideend|p2: Heysup|Reflect
+|upkeep
+|
+|t:|1624047041
+|switch|p2a: Pansage|Pansage, L5, M|91/100
+|turn|10
+|
+|t:|1624047044
+|move|p2a: Pansage|Giga Drain|p1a: Timburr
+|-damage|p1a: Timburr|63/100
+|-heal|p2a: Pansage|100/100|[from] drain|[of] p1a: Timburr
+|move|p1a: Timburr|Drain Punch|p2a: Pansage
+|-damage|p2a: Pansage|32/100
+|-heal|p1a: Timburr|96/100|[from] drain|[of] p2a: Pansage
+|-enditem|p2a: Pansage|Salac Berry|[eat]
+|-boost|p2a: Pansage|spe|1|[from] item: Salac Berry
+|
+|upkeep
+|turn|11
+|
+|t:|1624047052
+|move|p1a: Timburr|Mach Punch|p2a: Pansage
+|-damage|p2a: Pansage|0 fnt
+|faint|p2a: Pansage
+|
+|upkeep
+|
+|t:|1624047059
+|switch|p2a: Abra|Abra, L5, F|64/100 brn
+|turn|12
+|
+|t:|1624047063
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|-damage|p1a: Carvanha|90/100|[from] Stealth Rock
+|move|p2a: Abra|Reflect|p2a: Abra
+|-sidestart|p2: Heysup|Reflect
+|
+|upkeep
+|turn|13
+|
+|t:|1624047072
+|move|p2a: Abra|Thunder Wave|p1a: Carvanha
+|-status|p1a: Carvanha|par
+|move|p1a: Carvanha|Crunch|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|-damage|p1a: Carvanha|85/100 par|[from] item: Life Orb
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|
+|t:|1624047085
+|switch|p2a: Zigzagoon|Zigzagoon, L5, M|100/100
+|turn|14
+|
+|t:|1624047090
+|move|p2a: Zigzagoon|Belly Drum|p2a: Zigzagoon
+|-damage|p2a: Zigzagoon|50/100
+|-setboost|p2a: Zigzagoon|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Zigzagoon|Oran Berry|[eat]
+|-heal|p2a: Zigzagoon|100/100|[from] item: Oran Berry
+|cant|p1a: Carvanha|par
+|
+|-ability|p1a: Carvanha|Speed Boost|boost
+|-boost|p1a: Carvanha|spe|1
+|upkeep
+|turn|15
+|
+|t:|1624047097
+|move|p2a: Zigzagoon|Extreme Speed|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|upkeep
+|
+|t:|1624047105
+|switch|p1a: Timburr|Timburr, L5, M|96/100
+|-damage|p1a: Timburr|92/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1624047108
+|move|p2a: Zigzagoon|Extreme Speed|p1a: Timburr
+|-damage|p1a: Timburr|0 fnt
+|faint|p1a: Timburr
+|
+|upkeep
+|
+|t:|1624047111
+|switch|p1a: Larvesta|Larvesta, L5, F|100/100
+|-damage|p1a: Larvesta|53/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1624047114
+|move|p2a: Zigzagoon|Extreme Speed|p1a: Larvesta
+|-damage|p1a: Larvesta|0 fnt
+|faint|p1a: Larvesta
+|
+|upkeep
+|c| JukeDuke|Oh shot
+|c| JukeDuke|Shitttt
+|-message|BattleBlazikenVGC forfeited.
+|
+|win|Heysup
+|n|☆BattleBlazikenVGC|battleblazikenvgc
+|n|☆Heysup|heysup
+|n| Guldkatt|guldkatt
+|n| quietisms|quietisms
+|n|+Bughouse|bughouse
+|n| JukeDuke|jukeduke
+|l|☆BattleBlazikenVGC
+|c|☆Heysup|gg
+|c|☆Heysup|wow
+|l| JukeDuke
+|l|☆Heysup
+|j|☆BattleBlazikenVGC
+|player|p1|BattleBlazikenVGC|gambler
+|l| Guldkatt
+|l|☆BattleBlazikenVGC
+|player|p1|
+|l| quietisms
+|l|+Bughouse
+|j| Links
+|j|+Jett@!
+|l|+Jett

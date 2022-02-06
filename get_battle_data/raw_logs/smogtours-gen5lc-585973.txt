@@ -1,0 +1,383 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1633911802
+|gametype|singles
+|player|p1|Bughouse|#bughouse|
+|player|p2|Vileman|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Drifloon, L5, M|item
+|poke|p1|Drilbur, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Shellder, L5, M|item
+|poke|p1|Abra, L5, M|item
+|poke|p2|Abra, L5, F|item
+|poke|p2|Shellder, L5, F|item
+|poke|p2|Diglett, L5, F|item
+|poke|p2|Clamperl, L5, M|item
+|poke|p2|Drifloon, L5, F|item
+|poke|p2|Porygon, L5|item
+|teampreview
+|c|☆Vileman|GL
+|c|☆Bughouse|nice team
+|c|☆Bughouse|LOL
+|c|☆Vileman|ty
+|inactive|Bughouse has 270 seconds left.
+|
+|t:|1633911848
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Diglett|Diglett, L5, F|100/100
+|turn|1
+|
+|t:|1633911871
+|move|p2a: Diglett|Protect|p2a: Diglett
+|-singleturn|p2a: Diglett|Protect
+|move|p1a: Mienfoo|U-turn|p2a: Diglett
+|-activate|p2a: Diglett|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1633911881
+|move|p2a: Diglett|Stealth Rock|p1a: Mienfoo
+|-sidestart|p1: Bughouse|move: Stealth Rock
+|move|p1a: Mienfoo|U-turn|p2a: Diglett
+|-damage|p2a: Diglett|50/100
+|
+|t:|1633911896
+|switch|p1a: Drilbur|Drilbur, L5, M|100/100|[from]move: U-turn
+|-damage|p1a: Drilbur|96/100|[from] Stealth Rock
+|-ability|p1a: Drilbur|Mold Breaker
+|
+|upkeep
+|turn|3
+|
+|t:|1633911908
+|move|p2a: Diglett|Memento|p1a: Drilbur
+|-unboost|p1a: Drilbur|atk|2
+|-unboost|p1a: Drilbur|spa|2
+|faint|p2a: Diglett
+|move|p1a: Drilbur|Stealth Rock|p2: Diglett
+|-sidestart|p2: Vileman|move: Stealth Rock
+|
+|upkeep
+|
+|t:|1633911920
+|switch|p2a: Shellder|Shellder, L5, F|100/100
+|-damage|p2a: Shellder|90/100|[from] Stealth Rock
+|turn|4
+|c|☆Bughouse|question is do i lose
+|
+|t:|1633911943
+|move|p1a: Drilbur|Rapid Spin|p2a: Shellder
+|-damage|p2a: Shellder|80/100
+|-sideend|p1: Bughouse|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Drilbur
+|move|p2a: Shellder|Shell Smash|p2a: Shellder
+|-unboost|p2a: Shellder|def|1
+|-unboost|p2a: Shellder|spd|1
+|-boost|p2a: Shellder|atk|2
+|-boost|p2a: Shellder|spa|2
+|-boost|p2a: Shellder|spe|2
+|
+|upkeep
+|turn|5
+|c|☆Vileman|uh do i ko pory at +4
+|c|☆Vileman|dont make me calc
+|c|☆Vileman|@_@
+|inactive|Vileman has 270 seconds left.
+|c|☆Vileman|eh i probs dont
+|
+|t:|1633911979
+|move|p2a: Shellder|Icicle Spear|p1a: Drilbur
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|53/100
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|9/100
+|-supereffective|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|-hitcount|p1: Drilbur|3
+|
+|upkeep
+|inactive|Bughouse has 270 seconds left.
+|
+|t:|1633912020
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|turn|6
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1633912051
+|move|p2a: Shellder|Icicle Spear|p1a: Mienfoo
+|-damage|p1a: Mienfoo|87/100
+|-damage|p1a: Mienfoo|70/100
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|40/100
+|-damage|p1a: Mienfoo|27/100
+|-damage|p1a: Mienfoo|14/100
+|-hitcount|p1a: Mienfoo|5
+|move|p1a: Mienfoo|U-turn|p2a: Shellder
+|-damage|p2a: Shellder|50/100
+|
+|t:|1633912060
+|switch|p1a: Shellder|Shellder, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|inactive|Bughouse has 240 seconds left.
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1633912088
+|move|p2a: Shellder|Rock Blast|p1a: Shellder
+|-damage|p1a: Shellder|85/100
+|-damage|p1a: Shellder|70/100
+|-damage|p1a: Shellder|56/100
+|-damage|p1a: Shellder|40/100
+|-damage|p1a: Shellder|25/100
+|-hitcount|p1a: Shellder|5
+|move|p1a: Shellder|Rock Blast|p2a: Shellder
+|-damage|p2a: Shellder|35/100
+|-damage|p2a: Shellder|20/100
+|-damage|p2a: Shellder|5/100
+|-damage|p2a: Shellder|0 fnt
+|faint|p2a: Shellder
+|-hitcount|p2: Shellder|4
+|
+|upkeep
+|inactive|Vileman has 270 seconds left.
+|c|☆Bughouse|good smash
+|
+|t:|1633912102
+|switch|p2a: Abra|Abra, L5, F|100/100
+|turn|8
+|c|☆Bughouse|v helpful
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1633912113
+|move|p1a: Shellder|Ice Shard|p2a: Abra
+|-damage|p2a: Abra|78/100
+|move|p2a: Abra|Reflect|p2a: Abra
+|-sidestart|p2: Vileman|Reflect
+|
+|upkeep
+|turn|9
+|c|☆Bughouse|o
+|
+|t:|1633912129
+|move|p2a: Abra|Encore|p1a: Shellder
+|-start|p1a: Shellder|Encore
+|move|p1a: Shellder|Ice Shard|p2a: Abra
+|-damage|p2a: Abra|64/100
+|
+|upkeep
+|turn|10
+|
+|t:|1633912137
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Magic Guard|[from] ability: Trace|[of] p2a: Abra
+|move|p2a: Abra|Light Screen|p2a: Abra
+|-sidestart|p2: Vileman|move: Light Screen
+|
+|upkeep
+|turn|11
+|inactive|Vileman has 270 seconds left.
+|
+|t:|1633912187
+|switch|p1a: Shellder|Shellder, L5, M|25/100
+|move|p2a: Abra|Taunt|p1a: Shellder
+|-start|p1a: Shellder|move: Taunt
+|
+|upkeep
+|turn|12
+|inactive|Bughouse has 240 seconds left.
+|inactive|Vileman has 240 seconds left.
+|c|☆Vileman|hmm
+|
+|t:|1633912226
+|switch|p2a: Clamperl|Clamperl, L5, M|100/100
+|-damage|p2a: Clamperl|91/100|[from] Stealth Rock
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Rattled|[from] ability: Trace|[of] p2a: Clamperl
+|
+|upkeep
+|turn|13
+|
+|t:|1633912235
+|move|p1a: Porygon|Trick|p2a: Clamperl
+|-activate|p1a: Porygon|move: Trick|[of] p2a: Clamperl
+|-item|p2a: Clamperl|Choice Scarf|[from] move: Trick
+|-item|p1a: Porygon|Deep Sea Tooth|[from] move: Trick
+|move|p2a: Clamperl|Shell Smash|p2a: Clamperl
+|-unboost|p2a: Clamperl|def|1
+|-unboost|p2a: Clamperl|spd|1
+|-boost|p2a: Clamperl|atk|2
+|-boost|p2a: Clamperl|spa|2
+|-boost|p2a: Clamperl|spe|2
+|
+|upkeep
+|turn|14
+|inactive|Vileman has 240 seconds left.
+|c|☆Vileman|-
+|c|☆Vileman|ct
+|c|+LpZ IV|ye
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1633912256
+|switch|p2a: Drifloon|Drifloon, L5, F|100/100
+|-damage|p2a: Drifloon|76/100|[from] Stealth Rock
+|move|p1a: Porygon|Ice Beam|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|20/100
+|
+|upkeep
+|turn|15
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1633912269
+|move|p2a: Drifloon|Acrobatics|p1a: Porygon
+|-enditem|p2a: Drifloon|Flying Gem|[from] gem
+|-damage|p1a: Porygon|5/100
+|move|p1a: Porygon|Ice Beam|p2a: Drifloon
+|-supereffective|p2a: Drifloon
+|-damage|p2a: Drifloon|0 fnt
+|faint|p2a: Drifloon
+|
+|-sideend|p2: Vileman|Reflect
+|upkeep
+|c|☆Bughouse|eved
+|
+|t:|1633912276
+|switch|p2a: Porygon|Porygon, L5|100/100
+|-damage|p2a: Porygon|89/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Rattled|[from] ability: Trace|[of] p1a: Porygon
+|turn|16
+|inactive|Bughouse has 240 seconds left.
+|
+|t:|1633912287
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|move|p1a: Porygon|Trick|p2a: Porygon
+|-activate|p1a: Porygon|move: Trick|[of] p2a: Porygon
+|-item|p2a: Porygon|Deep Sea Tooth|[from] move: Trick
+|-item|p1a: Porygon|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|17
+|
+|t:|1633912296
+|move|p2a: Porygon|Tri Attack|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|-sideend|p2: Vileman|move: Light Screen
+|upkeep
+|
+|t:|1633912300
+|switch|p1a: Mienfoo|Mienfoo, L5, M|44/100
+|turn|18
+|c|+LpZ IV|shouldve clicked zap cannon
+|
+|t:|1633912304
+|switch|p2a: Abra|Abra, L5, F|64/100
+|switch|p1a: Shellder|Shellder, L5, M|25/100
+|
+|upkeep
+|turn|19
+|
+|t:|1633912310
+|switch|p1a: Mienfoo|Mienfoo, L5, M|74/100
+|move|p2a: Abra|Reflect|p2a: Abra
+|-sidestart|p2: Vileman|Reflect
+|
+|upkeep
+|turn|20
+|inactive|Bughouse has 270 seconds left.
+|
+|t:|1633912316
+|switch|p2a: Clamperl|Clamperl, L5, M|91/100
+|-damage|p2a: Clamperl|81/100|[from] Stealth Rock
+|move|p1a: Mienfoo|U-turn|p2a: Clamperl
+|-damage|p2a: Clamperl|67/100
+|-ability|p2a: Clamperl|Rattled|boost
+|-boost|p2a: Clamperl|spe|1
+|c|☆Vileman|yo
+|inactive|Bughouse has 270 seconds left.
+|c|☆Vileman|nascar clamperl
+|c|☆Bughouse|lol
+|
+|t:|1633912328
+|switch|p1a: Abra|Abra, L5, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1633912331
+|move|p2a: Clamperl|Surf|p1a: Abra
+|-damage|p1a: Abra|6/100
+|move|p1a: Abra|Psychic|p2a: Clamperl
+|-damage|p2a: Clamperl|0 fnt
+|faint|p2a: Clamperl
+|
+|upkeep
+|
+|t:|1633912342
+|switch|p2a: Abra|Abra, L5, F|64/100
+|turn|22
+|
+|t:|1633912354
+|move|p1a: Abra|Shadow Ball|p2a: Abra
+|-supereffective|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|
+|t:|1633912357
+|switch|p2a: Porygon|Porygon, L5|89/100
+|-damage|p2a: Porygon|77/100|[from] Stealth Rock
+|-ability|p2a: Porygon|Magic Guard|[from] ability: Trace|[of] p1a: Abra
+|turn|23
+|
+|t:|1633912362
+|move|p1a: Abra|Hidden Power|p2a: Porygon
+|-supereffective|p2a: Porygon
+|-damage|p2a: Porygon|8/100
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|upkeep
+|turn|24
+|
+|t:|1633912366
+|move|p2a: Porygon|Tri Attack|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|upkeep
+|c|☆Vileman|GG
+|
+|t:|1633912373
+|switch|p1a: Drifloon|Drifloon, L5, M|100/100
+|turn|25
+|
+|t:|1633912378
+|move|p2a: Porygon|Shadow Ball|p1a: Drifloon
+|-supereffective|p1a: Drifloon
+|-damage|p1a: Drifloon|16/100
+|move|p1a: Drifloon|Acrobatics|p2a: Porygon
+|-enditem|p1a: Drifloon|Flying Gem|[from] gem
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|win|Bughouse
+|c|☆Bughouse|gg

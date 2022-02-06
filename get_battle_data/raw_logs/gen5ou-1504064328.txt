@@ -1,0 +1,168 @@
+|j|☆m4gicmushr00m
+|j|☆rexxonmobile
+|t:|1643946306
+|gametype|singles
+|player|p1|m4gicmushr00m|artist|1170
+|player|p2|rexxonmobile|266|1205
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Scizor, M|item
+|poke|p2|Espeon, M|item
+|poke|p2|Infernape, M|item
+|poke|p2|Jolteon, M|item
+|teampreview
+|
+|t:|1643946315
+|start
+|switch|p1a: Prince|Politoed, M, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Prince
+|turn|1
+|
+|t:|1643946324
+|move|p2a: Rotom|Volt Switch|p1a: Prince
+|-supereffective|p1a: Prince
+|-damage|p1a: Prince|49/100
+|
+|t:|1643946328
+|switch|p2a: Espeon|Espeon, M|100/100|[from]move: Volt Switch
+|move|p1a: Prince|Toxic|p2a: Espeon
+|move|p2a: Espeon|Toxic|p1a: Prince|[from]ability: Magic Bounce
+|-status|p1a: Prince|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Prince|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Prince|49/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1643946341
+|switch|p1a: Green|Hydreigon, M, shiny|100/100
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1643946351
+|move|p1a: Green|Dark Pulse|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|39/100
+|-damage|p1a: Green|91/100|[from] item: Life Orb
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Espeon|45/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643946359
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Green|Dark Pulse|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|68/100
+|-damage|p1a: Green|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643946364
+|move|p1a: Green|Earth Power|p2a: Scizor
+|-damage|p2a: Scizor|26/100
+|-damage|p1a: Green|71/100|[from] item: Life Orb
+|move|p2a: Scizor|U-turn|p1a: Green
+|-supereffective|p1a: Green
+|-damage|p1a: Green|0 fnt
+|faint|p1a: Green
+|
+|t:|1643946373
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643946386
+|switch|p1a: Don|Nidoking, M|100/100
+|turn|6
+|
+|t:|1643946389
+|move|p2a: Landorus|Earthquake|p1a: Don
+|-supereffective|p1a: Don
+|-damage|p1a: Don|0 fnt
+|faint|p1a: Don
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643946392
+|switch|p1a: Twister|Tornadus, M, shiny|100/100
+|turn|7
+|
+|t:|1643946399
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Twister|Hurricane|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-damage|p1a: Twister|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1643946410
+|move|p2a: Rotom|Volt Switch|p1a: Twister
+|-supereffective|p1a: Twister
+|-damage|p1a: Twister|0 fnt
+|faint|p1a: Twister
+|
+|t:|1643946415
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643946428
+|switch|p1a: Satan|Jirachi|100/100
+|turn|9
+|
+|t:|1643946431
+|move|p2a: Landorus|Earthquake|p1a: Satan
+|-supereffective|p1a: Satan
+|-damage|p1a: Satan|0 fnt
+|faint|p1a: Satan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|m4gicmushr00m forfeited.
+|
+|win|rexxonmobile
+|raw|m4gicmushr00m's rating: 1170 &rarr; <strong>1148</strong><br />(-22 for losing)
+|raw|rexxonmobile's rating: 1205 &rarr; <strong>1227</strong><br />(+22 for winning)
+|l|☆m4gicmushr00m

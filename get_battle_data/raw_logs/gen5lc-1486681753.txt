@@ -1,0 +1,178 @@
+|j|☆PirateMonkeyDLuffy
+|j|☆StallingGod0
+|t:|1641506432
+|gametype|singles
+|player|p1|PirateMonkeyDLuffy|red|1015
+|player|p2|StallingGod0|red|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Clamperl, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Ferroseed, L5, M|item
+|poke|p2|Squirtle, L5, F|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Chimchar, L5, F|item
+|poke|p2|Archen, L5, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PirateMonkeyDLuffy)
+|inactive|StallingGod0 also wants the timer to be on.
+|
+|t:|1641506460
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|switch|p2a: Ferroseed|Ferroseed, L5, M|100/100
+|turn|1
+|
+|t:|1641506469
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: Mienfoo|High Jump Kick|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|-damage|p1a: Mienfoo|50/100|[from] highjumpkick
+|
+|upkeep
+|turn|2
+|
+|t:|1641506476
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: Mienfoo|High Jump Kick|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|-damage|p1a: Mienfoo|0 fnt|[from] highjumpkick
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1641506483
+|switch|p1a: Porygon|Porygon, L5, shiny|100/100
+|-ability|p1a: Porygon|Iron Barbs|[from] ability: Trace|[of] p2a: Ferroseed
+|turn|3
+|
+|t:|1641506488
+|move|p1a: Porygon|Hidden Power|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|34/100
+|move|p2a: Ferroseed|Stealth Rock|p1a: Porygon
+|-sidestart|p1: PirateMonkeyDLuffy|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1641506493
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: Porygon|Hidden Power|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1641506495
+|move|p1a: Porygon|Thunderbolt|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|21/100
+|move|p2a: Ferroseed|Leech Seed|p1a: Porygon
+|-start|p1a: Porygon|move: Leech Seed
+|
+|-damage|p1a: Porygon|89/100|[from] Leech Seed|[of] p2a: Ferroseed
+|-heal|p2a: Ferroseed|34/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1641506502
+|switch|p1a: Diglett|Diglett, L5, M|100/100
+|-damage|p1a: Diglett|95/100|[from] Stealth Rock
+|move|p2a: Ferroseed|Protect||[still]
+|-fail|p2a: Ferroseed
+|
+|upkeep
+|turn|7
+|
+|t:|1641506505
+|move|p2a: Ferroseed|Protect|p2a: Ferroseed
+|-singleturn|p2a: Ferroseed|Protect
+|move|p1a: Diglett|Earthquake|p2a: Ferroseed
+|-activate|p2a: Ferroseed|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1641506509
+|move|p1a: Diglett|Earthquake|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|-damage|p1a: Diglett|89/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641506518
+|switch|p2a: Squirtle|Squirtle, L5, F|100/100
+|turn|9
+|
+|t:|1641506525
+|move|p1a: Diglett|Memento|p2a: Squirtle
+|-unboost|p2a: Squirtle|atk|2
+|-unboost|p2a: Squirtle|spa|2
+|faint|p1a: Diglett
+|move|p2a: Squirtle|Toxic|p1: Diglett|[notarget]
+|-fail|p2a: Squirtle
+|
+|upkeep
+|
+|t:|1641506529
+|switch|p1a: Clamperl|Clamperl, L5, F, shiny|100/100
+|-damage|p1a: Clamperl|90/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1641506533
+|move|p1a: Clamperl|Substitute|p1a: Clamperl
+|-start|p1a: Clamperl|Substitute
+|-damage|p1a: Clamperl|65/100
+|move|p2a: Squirtle|Toxic||[still]
+|-fail|p2a: Squirtle
+|
+|upkeep
+|turn|11
+|
+|t:|1641506541
+|switch|p2a: Abra|Abra, L5, M|100/100
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1641506544
+|move|p1a: Clamperl|Surf|p2a: Abra
+|-crit|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|upkeep
+|-message|StallingGod0 forfeited.
+|
+|win|PirateMonkeyDLuffy
+|raw|PirateMonkeyDLuffy's rating: 1015 &rarr; <strong>1051</strong><br />(+36 for winning)
+|raw|StallingGod0's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆StallingGod0
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

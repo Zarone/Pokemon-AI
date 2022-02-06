@@ -1,0 +1,760 @@
+|j|☆Silent Zero
+|j|☆5Dots
+|t:|1642816850
+|gametype|singles
+|player|p1|Silent Zero|veteran|1043
+|player|p2|5Dots|cynthia-gen4|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Rotom-Fan|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Golurk|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Garbodor, M|item
+|poke|p1|Kangaskhan, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Probopass, F|item
+|poke|p2|Golbat, F|item
+|poke|p2|Natu, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Sawk, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Silent Zero)
+|
+|t:|1642816887
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Probopass|Probopass, F|100/100
+|turn|1
+|
+|t:|1642816905
+|switch|p2a: Natu|Natu, M|100/100
+|move|p1a: Golurk|Earthquake|p2a: Natu
+|-immune|p2a: Natu
+|
+|upkeep
+|turn|2
+|
+|t:|1642816912
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Golurk|Thunder Punch|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|69/100
+|
+|upkeep
+|turn|3
+|
+|t:|1642816924
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Cacturne|Seed Bomb|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|83/100
+|
+|upkeep
+|turn|4
+|
+|t:|1642816947
+|switch|p2a: Natu|Natu, M|100/100
+|move|p1a: Garbodor|Seed Bomb|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|93/100
+|
+|upkeep
+|turn|5
+|
+|t:|1642816956
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Natu|Reflect|p2a: Natu
+|-sidestart|p2: 5Dots|Reflect
+|
+|upkeep
+|turn|6
+|
+|t:|1642816965
+|switch|p2a: Probopass|Probopass, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Probopass
+|-damage|p2a: Probopass|74/100
+|
+|t:|1642816971
+|switch|p1a: Golurk|Golurk|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Probopass|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1642816980
+|switch|p2a: Cacturne|Cacturne, M|69/100
+|move|p1a: Golurk|Earthquake|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-crit|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|
+|upkeep
+|
+|t:|1642816992
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|8
+|
+|t:|1642817004
+|switch|p1a: Garbodor|Garbodor, M|83/100
+|move|p2a: Kangaskhan|Fake Out|p1a: Garbodor
+|-damage|p1a: Garbodor|65/100
+|-damage|p2a: Kangaskhan|84/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|
+|upkeep
+|turn|9
+|
+|t:|1642817016
+|move|p2a: Kangaskhan|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|15/100
+|move|p1a: Garbodor|Gunk Shot|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|61/100
+|
+|-sideend|p2: 5Dots|Reflect
+|upkeep
+|turn|10
+|
+|t:|1642817029
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Kangaskhan|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|upkeep
+|turn|11
+|
+|t:|1642817034
+|switch|p2a: Probopass|Probopass, F|80/100
+|move|p1a: Rotom|Air Slash|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|74/100
+|
+|-heal|p2a: Probopass|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1642817051
+|move|p1a: Rotom|Volt Switch|p2a: Probopass
+|-damage|p2a: Probopass|53/100
+|
+|t:|1642817055
+|switch|p1a: Golurk|Golurk|100/100|[from]move: Volt Switch
+|move|p2a: Probopass|Stealth Rock|p1a: Golurk
+|-sidestart|p1: Silent Zero|move: Stealth Rock
+|
+|-heal|p2a: Probopass|59/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1642817079
+|switch|p2a: Natu|Natu, M|93/100
+|move|p1a: Golurk|Stealth Rock|p2a: Natu
+|move|p2a: Natu|Stealth Rock||[from]ability: Magic Bounce|[still]
+|-fail|p2a: Natu
+|
+|upkeep
+|turn|14
+|
+|t:|1642817085
+|move|p2a: Natu|Reflect|p2a: Natu
+|-sidestart|p2: 5Dots|Reflect
+|move|p1a: Golurk|Thunder Punch|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|63/100
+|
+|upkeep
+|turn|15
+|
+|t:|1642817092
+|move|p2a: Natu|Night Shade|p1a: Golurk
+|-damage|p1a: Golurk|73/100
+|move|p1a: Golurk|Stealth Rock|p2a: Natu
+|move|p2a: Natu|Stealth Rock||[from]ability: Magic Bounce|[still]
+|-fail|p2a: Natu
+|
+|upkeep
+|turn|16
+|
+|t:|1642817095
+|move|p2a: Natu|Night Shade|p1a: Golurk
+|-damage|p1a: Golurk|46/100
+|move|p1a: Golurk|Thunder Punch|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|34/100
+|
+|upkeep
+|turn|17
+|
+|t:|1642817100
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|84/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Golurk|Thunder Punch|p2a: Natu
+|-damage|p2a: Natu|68/100
+|
+|upkeep
+|turn|18
+|
+|t:|1642817110
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p1a: Kangaskhan|88/100|[from] Stealth Rock
+|move|p2a: Natu|Night Shade|p1a: Kangaskhan
+|-immune|p1a: Kangaskhan
+|
+|-sideend|p2: 5Dots|Reflect
+|upkeep
+|turn|19
+|
+|t:|1642817127
+|switch|p2a: Golbat|Golbat, F|100/100
+|move|p1a: Kangaskhan|Fake Out|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|73/100
+|
+|upkeep
+|turn|20
+|
+|t:|1642817136
+|move|p1a: Kangaskhan|Double-Edge|p2a: Golbat
+|-damage|p2a: Golbat|32/100
+|-damage|p1a: Kangaskhan|75/100|[from] Recoil
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|82/100
+|-singleturn|p2a: Golbat|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1642817151
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|100/100
+|-singleturn|p2a: Golbat|move: Roost
+|
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1642817157
+|move|p2a: Golbat|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|cant|p1a: Alomomola|move: Taunt|Wish
+|
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1642817173
+|switch|p1a: Garbodor|Garbodor, M|15/100
+|-damage|p1a: Garbodor|2/100|[from] Stealth Rock
+|move|p2a: Golbat|Super Fang|p1a: Garbodor
+|-damage|p1a: Garbodor|1/100
+|-damage|p2a: Golbat|84/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|
+|upkeep
+|turn|24
+|
+|t:|1642817184
+|move|p2a: Golbat|Brave Bird|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|-damage|p2a: Golbat|59/100|[from] ability: Aftermath|[of] p1a: Garbodor
+|-damage|p2a: Golbat|43/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|faint|p1a: Garbodor
+|-damage|p2a: Golbat|42/100|[from] Recoil
+|
+|upkeep
+|inactive|Silent Zero has 120 seconds left.
+|
+|t:|1642817205
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Inner Focus|[from] ability: Trace|[of] p2a: Golbat
+|turn|25
+|
+|t:|1642817212
+|switch|p2a: Probopass|Probopass, F|59/100
+|move|p1a: Gardevoir|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|44/100
+|
+|-heal|p1a: Gardevoir|94/100|[from] item: Leftovers
+|-heal|p2a: Probopass|50/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1642817218
+|move|p1a: Gardevoir|Will-O-Wisp|p2a: Probopass
+|-status|p2a: Probopass|brn
+|move|p2a: Probopass|Volt Switch|p1a: Gardevoir
+|-damage|p1a: Gardevoir|79/100
+|
+|t:|1642817228
+|switch|p2a: Kangaskhan|Kangaskhan, F|61/100|[from]move: Volt Switch
+|
+|-heal|p1a: Gardevoir|85/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1642817237
+|switch|p1a: Golurk|Golurk|46/100
+|-damage|p1a: Golurk|40/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Double-Edge|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Kangaskhan|47/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1642817251
+|switch|p1a: Kangaskhan|Kangaskhan, F|75/100
+|-damage|p1a: Kangaskhan|62/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1642817267
+|switch|p2a: Natu|Natu, M|68/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Natu
+|-damage|p2a: Natu|3/100
+|-damage|p1a: Kangaskhan|45/100|[from] Recoil
+|
+|upkeep
+|turn|29
+|
+|t:|1642817275
+|move|p1a: Kangaskhan|Double-Edge|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|-damage|p1a: Kangaskhan|45/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1642817296
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|30
+|
+|t:|1642817310
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Sawk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|
+|-heal|p1a: Alomomola|46/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1642817318
+|switch|p2a: Golbat|Golbat, F|42/100
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|53/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1642817323
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|93/100
+|-singleturn|p2a: Golbat|move: Roost
+|move|p1a: Alomomola|Waterfall|p2a: Golbat
+|-damage|p2a: Golbat|80/100
+|
+|-heal|p1a: Alomomola|59/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1642817327
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Golbat|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|upkeep
+|turn|34
+|
+|t:|1642817340
+|move|p1a: Rotom|Volt Switch|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|14/100
+|
+|t:|1642817347
+|switch|p1a: Kangaskhan|Kangaskhan, F|45/100|[from]move: Volt Switch
+|-damage|p1a: Kangaskhan|32/100|[from] Stealth Rock
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|65/100
+|-singleturn|p2a: Golbat|move: Roost
+|
+|upkeep
+|turn|35
+|
+|t:|1642817356
+|move|p1a: Kangaskhan|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|100/100
+|-singleturn|p2a: Golbat|move: Roost
+|
+|upkeep
+|turn|36
+|
+|t:|1642817367
+|move|p1a: Kangaskhan|Double-Edge|p2a: Golbat
+|-damage|p2a: Golbat|62/100
+|-damage|p1a: Kangaskhan|20/100|[from] Recoil
+|move|p2a: Golbat|Brave Bird|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|-damage|p2a: Golbat|56/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1642817377
+|switch|p1a: Gardevoir|Gardevoir, M|85/100
+|-damage|p1a: Gardevoir|73/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Inner Focus|[from] ability: Trace|[of] p2a: Golbat
+|turn|37
+|
+|t:|1642817384
+|switch|p2a: Probopass|Probopass, F|50/100 brn
+|move|p1a: Gardevoir|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|34/100 brn
+|
+|-heal|p1a: Gardevoir|79/100|[from] item: Leftovers
+|-heal|p2a: Probopass|40/100 brn|[from] item: Leftovers
+|-damage|p2a: Probopass|28/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1642817389
+|move|p1a: Gardevoir|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|12/100 brn
+|move|p2a: Probopass|Volt Switch|p1a: Gardevoir
+|-damage|p1a: Gardevoir|61/100
+|
+|t:|1642817393
+|switch|p2a: Kangaskhan|Kangaskhan, F|47/100|[from]move: Volt Switch
+|
+|-heal|p1a: Gardevoir|67/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1642817401
+|switch|p1a: Alomomola|Alomomola, M|92/100
+|-damage|p1a: Alomomola|80/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Sucker Punch||[still]
+|-fail|p2a: Kangaskhan
+|
+|-heal|p1a: Alomomola|86/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1642817410
+|switch|p2a: Golbat|Golbat, F|56/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|92/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1642817416
+|switch|p2a: Kangaskhan|Kangaskhan, F|47/100
+|switch|p1a: Gardevoir|Gardevoir, M|67/100
+|-damage|p1a: Gardevoir|55/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Scrappy|[from] ability: Trace|[of] p2a: Kangaskhan
+|
+|-heal|p1a: Gardevoir|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|42
+|
+|t:|1642817422
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Fake Out|p1a: Alomomola
+|-damage|p1a: Alomomola|75/100
+|
+|-heal|p1a: Alomomola|81/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1642817432
+|switch|p2a: Golbat|Golbat, F|56/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|87/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1642817441
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Inner Focus|[from] ability: Trace|[of] p2a: Golbat
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|100/100
+|-singleturn|p2a: Golbat|move: Roost
+|
+|-heal|p1a: Gardevoir|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|45
+|
+|t:|1642817452
+|switch|p2a: Probopass|Probopass, F|12/100 brn
+|move|p1a: Gardevoir|Will-O-Wisp|p2a: Probopass
+|-fail|p2a: Probopass|brn
+|
+|-heal|p2a: Probopass|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Probopass|6/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1642817456
+|move|p1a: Gardevoir|Psychic|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|
+|upkeep
+|
+|t:|1642817466
+|switch|p2a: Kangaskhan|Kangaskhan, F|47/100
+|turn|47
+|
+|t:|1642817480
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100
+|-damage|p2a: Kangaskhan|26/100|[from] Recoil
+|
+|-heal|p1a: Alomomola|50/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1642817501
+|switch|p2a: Golbat|Golbat, F|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|56/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1642817509
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|50
+|
+|t:|1642817524
+|switch|p2a: Golbat|Golbat, F|100/100
+|switch|p1a: Rotom|Rotom-Fan|76/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|51
+|
+|t:|1642817533
+|move|p1a: Rotom|Volt Switch|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|41/100
+|
+|t:|1642817543
+|switch|p1a: Gardevoir|Gardevoir, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Inner Focus|[from] ability: Trace|[of] p2a: Golbat
+|move|p2a: Golbat|Roost|p2a: Golbat
+|-heal|p2a: Golbat|91/100
+|-singleturn|p2a: Golbat|move: Roost
+|
+|-heal|p1a: Gardevoir|94/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1642817554
+|move|p1a: Gardevoir|Psychic|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|27/100
+|-unboost|p2a: Golbat|spd|1
+|move|p2a: Golbat|Brave Bird|p1a: Gardevoir
+|-damage|p1a: Gardevoir|52/100
+|-damage|p2a: Golbat|13/100|[from] Recoil
+|
+|-heal|p1a: Gardevoir|58/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1642817560
+|move|p1a: Gardevoir|Psychic|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|-heal|p1a: Gardevoir|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642817563
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|turn|54
+|
+|t:|1642817581
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Sawk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|41/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|
+|-heal|p1a: Alomomola|47/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1642817589
+|switch|p2a: Kangaskhan|Kangaskhan, F|26/100
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|53/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1642817593
+|move|p2a: Kangaskhan|Fake Out|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|cant|p1a: Alomomola|flinch
+|
+|-heal|p1a: Alomomola|45/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1642817597
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|52/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1642817605
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|11/100
+|-damage|p2a: Kangaskhan|7/100|[from] Recoil
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|17/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1642817620
+|switch|p2a: Sawk|Sawk, M|100/100
+|-ability|p2a: Sawk|Mold Breaker
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|67/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|73/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1642817625
+|move|p2a: Sawk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|28/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|34/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1642817629
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Sawk|Close Combat|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|84/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|90/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1642817636
+|move|p2a: Sawk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|49/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1642817648
+|move|p2a: Sawk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1642817656
+|switch|p1a: Rotom|Rotom-Fan|51/100
+|-damage|p1a: Rotom|26/100|[from] Stealth Rock
+|turn|64
+|
+|t:|1642817659
+|move|p2a: Sawk|Close Combat|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1642817662
+|switch|p1a: Gardevoir|Gardevoir, M|64/100
+|-damage|p1a: Gardevoir|52/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p2a: Sawk
+|-ability|p1a: Gardevoir|Mold Breaker
+|turn|65
+|
+|t:|1642817665
+|move|p2a: Sawk|Close Combat|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Gardevoir
+|
+|win|5Dots
+|raw|Silent Zero's rating: 1043 &rarr; <strong>1035</strong><br />(-8 for losing)
+|raw|5Dots's rating: 1227 &rarr; <strong>1240</strong><br />(+13 for winning)
+|c|☆5Dots|Ggs
+|c|☆Silent Zero|gg
+|l|☆5Dots

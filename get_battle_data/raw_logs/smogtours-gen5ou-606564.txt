@@ -1,0 +1,498 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643997929
+|gametype|singles
+|player|p1|blarghlfarghl|#splxiiiscooters|
+|player|p2|gilbert arenas|#splxiiityrants|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Reuniclus, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Gastrodon-East, M|item
+|poke|p1|Alakazam, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Mamoswine, F|item
+|poke|p2|Breloom, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|c|☆gilbert arenas|hf
+|c|☆blarghlfarghl|same
+|inactive|blarghlfarghl has 270 seconds left.
+|inactive|gilbert arenas has 270 seconds left.
+|inactive|blarghlfarghl has 240 seconds left.
+|c|+Hervalt|whats this for
+|
+|t:|1643998001
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: GORDONE|Skarmory, M|100/100
+|turn|1
+|
+|t:|1643998004
+|move|p2a: GORDONE|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|move|p1a: Skarmory|Secret Power|p2a: GORDONE
+|-resisted|p2a: GORDONE
+|-damage|p2a: GORDONE|94/100
+|-status|p2a: GORDONE|par
+|
+|upkeep
+|turn|2
+|
+|t:|1643998009
+|switch|p1a: Wordle 229 3/6 🟨|Gliscor, M|100/100
+|move|p2a: GORDONE|Stealth Rock|p1a: Wordle 229 3/6 🟨
+|-sidestart|p1: blarghlfarghl|move: Stealth Rock
+|
+|-status|p1a: Wordle 229 3/6 🟨|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1643998013
+|switch|p2a: MONDO ICE|Mamoswine, F|100/100
+|move|p1a: Wordle 229 3/6 🟨|Stealth Rock|p2a: MONDO ICE
+|-sidestart|p2: gilbert arenas|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to ☆!</strong><br />Only users of rank ☆ and higher can talk.</div>
+|inactive|blarghlfarghl has 270 seconds left.
+|
+|t:|1643998050
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: MONDO ICE|Icicle Crash|p1a: Gastrodon
+|-damage|p1a: Gastrodon|48/100
+|
+|-heal|p1a: Gastrodon|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|blarghlfarghl has 270 seconds left.
+|c|☆blarghlfarghl|ouch
+|inactive|gilbert arenas has 270 seconds left.
+|
+|t:|1643998086
+|move|p2a: MONDO ICE|Icicle Crash|p1a: Gastrodon
+|-damage|p1a: Gastrodon|11/100
+|cant|p1a: Gastrodon|flinch
+|
+|-heal|p1a: Gastrodon|17/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆blarghlfarghl|wp
+|inactive|gilbert arenas has 270 seconds left.
+|inactive|blarghlfarghl has 240 seconds left.
+|inactive|blarghlfarghl has 210 seconds left.
+|
+|t:|1643998152
+|move|p2a: MONDO ICE|Icicle Crash|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|c|☆gilbert arenas|u ever rip a mondo w the fellas on a friday afternoon?
+|inactive|blarghlfarghl has 180 seconds left.
+|
+|t:|1643998172
+|switch|p1a: Giovanni Giorgio|Alakazam, M|100/100
+|turn|7
+|inactive|blarghlfarghl has 180 seconds left.
+|inactive|gilbert arenas has 270 seconds left.
+|inactive|blarghlfarghl has 150 seconds left.
+|inactive|blarghlfarghl has 120 seconds left.
+|
+|t:|1643998248
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|gilbert arenas has 270 seconds left.
+|
+|t:|1643998267
+|move|p1a: Skarmory|Spikes|p2a: Jellicent
+|-sidestart|p2: gilbert arenas|Spikes
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|
+|-heal|p1a: Skarmory|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|c|☆blarghlfarghl|up
+|inactive|gilbert arenas has 270 seconds left.
+|
+|t:|1643998290
+|switch|p2a: GORDONE|Skarmory, M|94/100 par
+|-damage|p2a: GORDONE|82/100 par|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: GORDONE
+|-sidestart|p2: gilbert arenas|Spikes
+|
+|-heal|p1a: Skarmory|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1643998298
+|move|p1a: Skarmory|Spikes|p2a: GORDONE
+|-sidestart|p2: gilbert arenas|Spikes
+|cant|p2a: GORDONE|par
+|
+|-heal|p1a: Skarmory|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|75/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643998302
+|move|p2a: GORDONE|Spikes|p1a: Skarmory
+|-sidestart|p1: blarghlfarghl|Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: GORDONE
+|drag|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|63/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|69/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1643998316
+|switch|p2a: SEIGBERT TARRASH|Alakazam, M|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1643998326
+|move|p2a: SEIGBERT TARRASH|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100 brn
+|move|p1a: Skarmory|Secret Power|p2a: SEIGBERT TARRASH
+|-damage|p2a: SEIGBERT TARRASH|85/100
+|-status|p2a: SEIGBERT TARRASH|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|37/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|blarghlfarghl has 120 seconds left.
+|inactive|gilbert arenas has 270 seconds left.
+|
+|t:|1643998368
+|switch|p1a: Wordle 229 3/6 🟨|Gliscor, M|100/100 tox
+|-damage|p1a: Wordle 229 3/6 🟨|88/100 tox|[from] Stealth Rock
+|move|p2a: SEIGBERT TARRASH|Hidden Power|p1a: Wordle 229 3/6 🟨
+|-damage|p1a: Wordle 229 3/6 🟨|67/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Wordle 229 3/6 🟨|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|inactive|gilbert arenas has 270 seconds left.
+|inactive|blarghlfarghl has 90 seconds left.
+|c|☆blarghlfarghl|are u impressed by my wordle score
+|inactive|gilbert arenas has 240 seconds left.
+|inactive|blarghlfarghl has 60 seconds left.
+|
+|t:|1643998423
+|switch|p2a: Jellicent|Jellicent, M|88/100
+|-damage|p2a: Jellicent|76/100|[from] Stealth Rock
+|-damage|p2a: Jellicent|51/100|[from] Spikes
+|move|p1a: Wordle 229 3/6 🟨|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|26/100
+|-enditem|p2a: Jellicent|Eject Button
+|
+|t:|1643998427
+|switch|p2a: MONDO ICE|Mamoswine, F|100/100
+|-damage|p2a: MONDO ICE|88/100|[from] Stealth Rock
+|-damage|p2a: MONDO ICE|63/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Wordle 229 3/6 🟨|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|c|☆blarghlfarghl|ejected
+|inactive|blarghlfarghl has 60 seconds left.
+|
+|t:|1643998467
+|switch|p1a: Skarmory|Skarmory, M|37/100 brn
+|-damage|p1a: Skarmory|25/100 brn|[from] Stealth Rock
+|move|p2a: MONDO ICE|Substitute|p2a: MONDO ICE
+|-start|p2a: MONDO ICE|Substitute
+|-damage|p2a: MONDO ICE|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Skarmory|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|18/100 brn|[from] brn
+|upkeep
+|turn|17
+|c|☆blarghlfarghl|u gonna hit this one too
+|inactive|gilbert arenas has 240 seconds left.
+|
+|t:|1643998503
+|move|p2a: MONDO ICE|Icicle Crash|p1a: Skarmory|[miss]
+|-miss|p2a: MONDO ICE|p1a: Skarmory
+|move|p1a: Skarmory|Whirlwind|p2a: MONDO ICE
+|drag|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|-damage|p2a: Breloom|69/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|63/100|[from] Sandstorm
+|-heal|p1a: Skarmory|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Skarmory|12/100 brn|[from] brn
+|upkeep
+|turn|18
+|c|☆blarghlfarghl|nope
+|inactive|gilbert arenas has 210 seconds left.
+|inactive|blarghlfarghl has 30 seconds left.
+|
+|t:|1643998544
+|move|p2a: Breloom|Mach Punch|p1a: Skarmory
+|-enditem|p2a: Breloom|Fighting Gem|[from] gem
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Breloom|57/100|[from] Sandstorm
+|upkeep
+|inactive|blarghlfarghl has 30 seconds left.
+|inactive|blarghlfarghl has 20 seconds left.
+|
+|t:|1643998561
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|19
+|inactive|blarghlfarghl has 30 seconds left this turn.
+|
+|t:|1643998567
+|move|p2a: Breloom|Bullet Seed|p1a: Reuniclus
+|-damage|p1a: Reuniclus|85/100
+|-damage|p1a: Reuniclus|69/100
+|-damage|p1a: Reuniclus|54/100
+|-hitcount|p1a: Reuniclus|3
+|move|p1a: Reuniclus|Psyshock|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|60/100|[from] item: Leftovers
+|upkeep
+|inactive|gilbert arenas has 180 seconds left.
+|
+|t:|1643998593
+|switch|p2a: Tyranitar|Tyranitar, M|63/100
+|-damage|p2a: Tyranitar|51/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|26/100|[from] Spikes
+|turn|20
+|
+|t:|1643998602
+|move|p2a: Tyranitar|Crunch|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|14/100
+|move|p1a: Reuniclus|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Reuniclus|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Reuniclus|20/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643998606
+|move|p2a: Tyranitar|Pursuit|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643998624
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|76/100|[from] Spikes
+|turn|22
+|
+|t:|1643998630
+|move|p1a: Tyranitar|Superpower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643998640
+|switch|p2a: GORDONE|Skarmory, M|82/100 par
+|-damage|p2a: GORDONE|70/100 par|[from] Stealth Rock
+|turn|23
+|inactive|blarghlfarghl has 60 seconds left.
+|
+|t:|1643998653
+|move|p1a: Tyranitar|Superpower|p2a: GORDONE
+|-damage|p2a: GORDONE|45/100 par
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|move|p2a: GORDONE|Spikes|p1a: Tyranitar
+|-sidestart|p1: blarghlfarghl|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|inactive|blarghlfarghl has 60 seconds left.
+|
+|t:|1643998665
+|move|p1a: Tyranitar|Superpower|p2a: GORDONE
+|-damage|p2a: GORDONE|24/100 par
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|move|p2a: GORDONE|Brave Bird|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|-damage|p2a: GORDONE|0 fnt|[from] Recoil
+|faint|p2a: GORDONE
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643998686
+|switch|p2a: SEIGBERT TARRASH|Alakazam, M|85/100 par
+|turn|25
+|
+|t:|1643998695
+|switch|p1a: Wordle 229 3/6 🟨|Gliscor, M|92/100 tox
+|-damage|p1a: Wordle 229 3/6 🟨|79/100 tox|[from] Stealth Rock
+|move|p2a: SEIGBERT TARRASH|Grass Knot|p1a: Wordle 229 3/6 🟨
+|-damage|p1a: Wordle 229 3/6 🟨|62/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Wordle 229 3/6 🟨|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|inactive|blarghlfarghl has 60 seconds left.
+|
+|t:|1643998717
+|switch|p2a: Jellicent|Jellicent, M|26/100
+|-damage|p2a: Jellicent|14/100|[from] Stealth Rock
+|-damage|p2a: Jellicent|0 fnt|[from] Spikes
+|faint|p2a: Jellicent
+|move|p1a: Wordle 229 3/6 🟨|Earthquake|p2: Jellicent|[notarget]
+|-fail|p1a: Wordle 229 3/6 🟨
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Wordle 229 3/6 🟨|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1643998720
+|switch|p2a: MONDO ICE|Mamoswine, F|38/100
+|-damage|p2a: MONDO ICE|13/100|[from] Spikes
+|-damage|p2a: MONDO ICE|1/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1643998726
+|switch|p1a: Tyranitar|Tyranitar, M|20/100
+|-damage|p1a: Tyranitar|3/100|[from] Spikes
+|-damage|p1a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p1a: Tyranitar
+|move|p2a: MONDO ICE|Icicle Crash|p1: Tyranitar|[notarget]
+|-fail|p2a: MONDO ICE
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643998728
+|switch|p1a: Giovanni Giorgio|Alakazam, M|100/100
+|turn|28
+|c|☆blarghlfarghl|gg
+|c|☆gilbert arenas|gg 
+|inactive|gilbert arenas has 210 seconds left.
+|
+|t:|1643998733
+|move|p2a: MONDO ICE|Ice Shard|p1a: Giovanni Giorgio
+|-crit|p1a: Giovanni Giorgio
+|-enditem|p1a: Giovanni Giorgio|Focus Sash
+|-damage|p1a: Giovanni Giorgio|1/100
+|move|p1a: Giovanni Giorgio|Psychic|p2a: MONDO ICE
+|-damage|p2a: MONDO ICE|0 fnt
+|faint|p2a: MONDO ICE
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643998738
+|switch|p2a: SEIGBERT TARRASH|Alakazam, M|85/100 par
+|turn|29
+|
+|t:|1643998742
+|move|p1a: Giovanni Giorgio|Psychic|p2a: SEIGBERT TARRASH
+|-resisted|p2a: SEIGBERT TARRASH
+|-damage|p2a: SEIGBERT TARRASH|45/100 par
+|cant|p2a: SEIGBERT TARRASH|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1643998746
+|move|p1a: Giovanni Giorgio|Focus Blast|p2a: SEIGBERT TARRASH
+|-resisted|p2a: SEIGBERT TARRASH
+|-damage|p2a: SEIGBERT TARRASH|11/100 par
+|move|p2a: SEIGBERT TARRASH|Psyshock|p1a: Giovanni Giorgio
+|-resisted|p1a: Giovanni Giorgio
+|-damage|p1a: Giovanni Giorgio|0 fnt
+|faint|p1a: Giovanni Giorgio
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1643998748
+|switch|p1a: Wordle 229 3/6 🟨|Gliscor, M|87/100 tox
+|-damage|p1a: Wordle 229 3/6 🟨|75/100 tox|[from] Stealth Rock
+|turn|31
+|
+|t:|1643998752
+|move|p1a: Wordle 229 3/6 🟨|Protect|p1a: Wordle 229 3/6 🟨
+|-singleturn|p1a: Wordle 229 3/6 🟨|Protect
+|cant|p2a: SEIGBERT TARRASH|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Wordle 229 3/6 🟨|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1643998755
+|move|p1a: Wordle 229 3/6 🟨|U-turn|p2a: SEIGBERT TARRASH
+|-supereffective|p2a: SEIGBERT TARRASH
+|-damage|p2a: SEIGBERT TARRASH|0 fnt
+|faint|p2a: SEIGBERT TARRASH
+|
+|win|blarghlfarghl

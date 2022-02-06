@@ -1,0 +1,255 @@
+|j|☆Codybeeber1
+|j|☆forgetk9
+|t:|1637284682
+|gametype|singles
+|player|p1|Codybeeber1|benga|
+|player|p2|forgetk9|fisherman|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Kingdra, M|item
+|poke|p1|Kabutops, M|item
+|poke|p1|Azelf|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Raikou|item
+|poke|p1|Heracross, M|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Kabutops, F|item
+|poke|p2|Azelf|item
+|poke|p2|Tornadus, M|item
+|poke|p2|Raikou|item
+|poke|p2|Heracross, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by forgetk9)
+|j| torterrax1
+|j| butt blasting
+|c|☆forgetk9|hf
+|c|☆Codybeeber1|How did i get i to finals this is my first time trying gen 5 UU
+|c|☆Codybeeber1|glhf
+|inactive|forgetk9 has 120 seconds left.
+|
+|t:|1637284718
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|t:|1637284722
+|move|p1a: Azelf|Taunt|p2a: Azelf
+|-start|p2a: Azelf|move: Taunt
+|cant|p2a: Azelf|move: Taunt|Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1637284728
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Azelf|Stealth Rock|p2a: Heracross
+|-sidestart|p2: forgetk9|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1637284736
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|move|p2a: Heracross|Stone Edge|p1a: Azelf
+|-damage|p1a: Azelf|36/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1637284741
+|move|p1a: Azelf|Explosion|p2a: Heracross
+|-damage|p2a: Heracross|9/100
+|faint|p1a: Azelf
+|move|p2a: Heracross|Stone Edge|p1: Azelf|[notarget]
+|-fail|p2a: Heracross
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1637284750
+|switch|p1a: Kabutops|Kabutops, M|100/100
+|turn|5
+|j| SaberSeven
+|
+|t:|1637284777
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|move|p2a: Heracross|Stone Edge|p1a: Kabutops
+|-damage|p1a: Kabutops|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1637284781
+|move|p1a: Kabutops|Aqua Jet|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|-damage|p1a: Kabutops|33/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|forgetk9 has 120 seconds left.
+|
+|t:|1637284813
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1637284824
+|move|p2a: Kingdra|Surf|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1637284827
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|8
+|
+|t:|1637284837
+|switch|p2a: Azelf|Azelf|100/100
+|-damage|p2a: Azelf|88/100|[from] Stealth Rock
+|move|p1a: Kingdra|Draco Meteor|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1637284843
+|switch|p2a: Kingdra|Kingdra, F|88/100
+|-damage|p2a: Kingdra|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1637284846
+|move|p1a: Kingdra|Draco Meteor|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1637284855
+|switch|p2a: Kabutops|Kabutops, F|100/100
+|-damage|p2a: Kabutops|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1637284856
+|move|p1a: Kingdra|Draco Meteor|p2a: Kabutops
+|-damage|p2a: Kabutops|37/100
+|-unboost|p1a: Kingdra|spa|2
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1637284861
+|move|p1a: Kingdra|Draco Meteor|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|upkeep
+|c|☆forgetk9|bro
+|c|☆forgetk9|my rolls
+|c|☆forgetk9|r just bad
+|
+|t:|1637284876
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|12
+|
+|t:|1637284881
+|move|p2a: Raikou|Thunder|p1a: Kingdra
+|-damage|p1a: Kingdra|19/100
+|-status|p1a: Kingdra|par
+|cant|p1a: Kingdra|par
+|
+|upkeep
+|turn|13
+|
+|t:|1637284889
+|move|p2a: Raikou|Volt Switch|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|t:|1637284893
+|switch|p2a: Tornadus|Tornadus, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1637284894
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|14
+|
+|t:|1637284900
+|move|p1a: Raikou|Thunder|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1637284902
+|switch|p2a: Raikou|Raikou, shiny|88/100
+|-damage|p2a: Raikou|76/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|turn|15
+|
+|t:|1637284907
+|move|p2a: Raikou|Thunder|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|67/100
+|-status|p1a: Raikou|par
+|move|p1a: Raikou|Thunder|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|42/100
+|
+|upkeep
+|turn|16
+|
+|t:|1637284917
+|move|p2a: Raikou|Thunder|p1a: Raikou|[miss]
+|-miss|p2a: Raikou|p1a: Raikou
+|move|p1a: Raikou|Thunder|p2a: Raikou
+|-resisted|p2a: Raikou
+|-damage|p2a: Raikou|6/100
+|-status|p2a: Raikou|par
+|
+|upkeep
+|turn|17
+|-message|forgetk9 forfeited.
+|
+|win|Codybeeber1
+|n|☆Codybeeber1|codybeeber1
+|n|☆forgetk9|forgetk9
+|n| torterrax1|torterrax1
+|n| butt blasting|buttblasting
+|n| SaberSeven|saberseven
+|l|☆forgetk9
+|l|☆Codybeeber1

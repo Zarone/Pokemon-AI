@@ -1,0 +1,74 @@
+|j|☆mentalsoft
+|j|☆SpacialRendevous
+|t:|1631927795
+|gametype|singles
+|player|p1|mentalsoft|lance-gen3|
+|player|p2|SpacialRendevous|zinnia|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Garbodor, F|item
+|poke|p1|Kangaskhan, F|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Skuntank, F|item
+|poke|p1|Golurk|item
+|poke|p1|Rotom-Frost|item
+|poke|p2|Samurott, F|item
+|poke|p2|Garbodor, F|item
+|poke|p2|Primeape, M|item
+|poke|p2|Golurk|item
+|poke|p2|Zweilous, F|item
+|poke|p2|Sawsbuck-Autumn, F|item
+|teampreview
+|j| BB-8-NU
+|j| PixelThePegasus
+|j| GuAnG TaO LiNg
+|l|☆mentalsoft
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpacialRendevous)
+|j|+AM
+|l|+AM
+|inactive|mentalsoft has 30 seconds to reconnect!
+|j| Crystal81
+|l| Crystal81
+|inactive|mentalsoft has 20 seconds to reconnect!
+|inactive|mentalsoft has 15 seconds to reconnect!
+|inactiveoff|Battle timer is now OFF.
+|j|+t04ster
+|c|☆SpacialRendevous|I'll give em a few minutes
+|j|+Bughouse
+|c|+Bughouse|go sawsbuck user
+|c|☆SpacialRendevous|Doesn't look like I'll get to unfort
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpacialRendevous)
+|c| PixelThePegasus|what is mentalsoft doing?
+|inactive|mentalsoft has 10 seconds to reconnect!
+|j| GuyTessier
+|c| GuAnG TaO LiNg|Ehhhhhh
+|inactive|mentalsoft has 5 seconds to reconnect!
+|c|☆SpacialRendevous|they disconnected
+|-message|mentalsoft lost due to inactivity.
+|
+|win|SpacialRendevous
+|n|☆SpacialRendevous|spacialrendevous
+|n| BB-8-NU|bb8nu
+|n| PixelThePegasus|pixelthepegasus
+|n| GuAnG TaO LiNg|guangtaoling
+|n| t04ster|t04ster
+|n|+Bughouse|bughouse
+|n| GuyTessier|guytessier
+|l| BB-8-NU
+|c| PixelThePegasus|oof
+|c| t04ster|well

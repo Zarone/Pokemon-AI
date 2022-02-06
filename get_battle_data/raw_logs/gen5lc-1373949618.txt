@@ -1,0 +1,496 @@
+|j|☆olimar smashyman
+|j|☆NXBKN Greed
+|t:|1625881384
+|gametype|singles
+|player|p1|olimar smashyman|gentleman-gen4dp|
+|player|p2|NXBKN Greed|burglar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Frillish, L5, F|item
+|poke|p1|Carvanha, L5, M|item
+|poke|p1|Drilbur, L5, F|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p2|Aipom, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Mienfoo, L5, M|item
+|poke|p2|Ferroseed, L5, M|item
+|poke|p2|Natu, L5, M|item
+|teampreview
+|j| BB-8-NU
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NXBKN Greed)
+|j| pxburguer
+|j| tempo di anguria
+|
+|t:|1625881409
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|turn|1
+|
+|t:|1625881413
+|move|p1a: Mienfoo|Fake Out|p2a: Mienfoo
+|-damage|p2a: Mienfoo|87/100
+|cant|p2a: Mienfoo|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1625881417
+|move|p1a: Mienfoo|U-turn|p2a: Mienfoo
+|-resisted|p2a: Mienfoo
+|-damage|p2a: Mienfoo|78/100
+|
+|t:|1625881422
+|switch|p1a: Frillish|Frillish, L5, F|100/100|[from]move: U-turn
+|move|p2a: Mienfoo|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|73/100
+|-enditem|p1a: Frillish|Choice Scarf|[from] move: Knock Off|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|3
+|
+|t:|1625881441
+|switch|p2a: Magnemite|Magnemite, L5, shiny|100/100
+|move|p1a: Frillish|Trick|p2a: Magnemite
+|-activate|p1a: Frillish|move: Trick|[of] p2a: Magnemite
+|-enditem|p2a: Magnemite|Choice Scarf|[silent]|[from] move: Trick
+|-item|p1a: Frillish|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|4
+|j| Zekrom54
+|j|@Axgwd ♪
+|
+|t:|1625881458
+|move|p1a: Frillish|Water Spout|p2a: Magnemite
+|-damage|p2a: Magnemite|16/100
+|move|p2a: Magnemite|Flash Cannon|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|46/100
+|
+|upkeep
+|turn|5
+|
+|t:|1625881463
+|switch|p2a: Ferroseed|Ferroseed, L5, M, shiny|100/100
+|move|p1a: Frillish|Water Spout|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|87/100
+|
+|upkeep
+|turn|6
+|
+|t:|1625881471
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Magnemite|Magnemite, L5, shiny|16/100
+|
+|upkeep
+|turn|7
+|
+|t:|1625881475
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|move|p1a: Mienfoo|Fake Out|p2a: Mienfoo
+|-damage|p2a: Mienfoo|87/100
+|
+|upkeep
+|turn|8
+|
+|t:|1625881486
+|switch|p1a: Frillish|Frillish, L5, F|46/100
+|move|p2a: Mienfoo|High Jump Kick|p1a: Frillish
+|-immune|p1a: Frillish
+|-damage|p2a: Mienfoo|37/100|[from] highjumpkick
+|
+|upkeep
+|turn|9
+|
+|t:|1625881493
+|switch|p2a: Ferroseed|Ferroseed, L5, M, shiny|87/100
+|move|p1a: Frillish|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|73/100
+|
+|upkeep
+|turn|10
+|
+|t:|1625881500
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p2a: Ferroseed|Thunder Wave|p1a: Mienfoo
+|-status|p1a: Mienfoo|par
+|
+|upkeep
+|turn|11
+|
+|t:|1625881507
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|69/100
+|move|p1a: Mienfoo|Drain Punch|p2a: Mienfoo
+|-damage|p2a: Mienfoo|28/100
+|
+|upkeep
+|turn|12
+|
+|t:|1625881518
+|switch|p1a: Frillish|Frillish, L5, F|46/100
+|move|p2a: Mienfoo|U-turn|p1a: Frillish
+|-resisted|p1a: Frillish
+|-damage|p1a: Frillish|28/100
+|
+|t:|1625881524
+|switch|p2a: Ferroseed|Ferroseed, L5, M, shiny|73/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1625881535
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 par
+|move|p2a: Ferroseed|Spikes|p1a: Mienfoo
+|-sidestart|p1: olimar smashyman|Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1625881540
+|switch|p2a: Natu|Natu, L5, M, shiny|100/100
+|cant|p1a: Mienfoo|par
+|
+|upkeep
+|turn|15
+|
+|t:|1625881555
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-damage|p1a: Porygon|89/100|[from] Spikes
+|-ability|p1a: Porygon|Magic Bounce|[from] ability: Trace|[of] p2a: Natu
+|move|p2a: Natu|U-turn|p1a: Porygon
+|-damage|p1a: Porygon|77/100
+|inactive|NXBKN Greed has 120 seconds left.
+|
+|t:|1625881595
+|switch|p2a: Aipom|Aipom, L5, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1625881611
+|move|p2a: Aipom|U-turn|p1a: Porygon
+|-damage|p1a: Porygon|54/100
+|-damage|p2a: Aipom|92/100|[from] item: Life Orb
+|inactive|NXBKN Greed has 120 seconds left.
+|
+|t:|1625881622
+|switch|p2a: Ferroseed|Ferroseed, L5, M, shiny|73/100|[from]move: U-turn
+|move|p1a: Porygon|Thunder Wave|p2a: Ferroseed
+|-status|p2a: Ferroseed|par
+|
+|upkeep
+|turn|17
+|
+|t:|1625881627
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|100/100
+|move|p2a: Ferroseed|Leech Seed|p1a: Porygon
+|move|p1a: Porygon|Leech Seed|p2a: Ferroseed|[from]ability: Magic Bounce
+|-immune|p2a: Ferroseed
+|
+|upkeep
+|turn|18
+|
+|t:|1625881644
+|move|p1a: Porygon|Tri Attack|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|60/100 par
+|cant|p2a: Ferroseed|par
+|
+|upkeep
+|turn|19
+|
+|t:|1625881650
+|move|p1a: Porygon|Tri Attack|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|46/100 par
+|cant|p2a: Ferroseed|par
+|
+|upkeep
+|turn|20
+|
+|t:|1625881653
+|move|p1a: Porygon|Tri Attack|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-crit|p2a: Ferroseed
+|-damage|p2a: Ferroseed|14/100 par
+|cant|p2a: Ferroseed|par
+|
+|upkeep
+|turn|21
+|j| salmonelephant
+|l| Zekrom54
+|
+|t:|1625881659
+|move|p1a: Porygon|Tri Attack|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1625881661
+|switch|p2a: Aipom|Aipom, L5, M, shiny|92/100
+|turn|22
+|
+|t:|1625881669
+|move|p2a: Aipom|Fury Swipes|p1a: Porygon
+|-damage|p1a: Porygon|85/100
+|-damage|p1a: Porygon|70/100
+|-damage|p1a: Porygon|54/100
+|-damage|p1a: Porygon|39/100
+|-damage|p1a: Porygon|24/100
+|-hitcount|p1a: Porygon|5
+|-damage|p2a: Aipom|83/100|[from] item: Life Orb
+|move|p1a: Porygon|Tri Attack|p2a: Aipom
+|-damage|p2a: Aipom|27/100
+|
+|upkeep
+|turn|23
+|
+|t:|1625881683
+|move|p2a: Aipom|U-turn|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|-damage|p2a: Aipom|18/100|[from] item: Life Orb
+|
+|t:|1625881688
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|60/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1625881708
+|switch|p1a: Drilbur|Drilbur, L5, F|100/100
+|-damage|p1a: Drilbur|88/100|[from] Spikes
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|24
+|
+|t:|1625881714
+|switch|p2a: Drilbur|Drilbur, L5, F, shiny|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Drilbur|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|35/100
+|
+|upkeep
+|turn|25
+|
+|t:|1625881720
+|move|p2a: Drilbur|Earthquake|p1a: Drilbur
+|-damage|p1a: Drilbur|38/100
+|move|p1a: Drilbur|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|upkeep
+|
+|t:|1625881723
+|switch|p2a: Aipom|Aipom, L5, M, shiny|18/100
+|turn|26
+|
+|t:|1625881728
+|switch|p2a: Magnemite|Magnemite, L5, shiny|16/100
+|switch|p1a: Frillish|Frillish, L5, F|28/100
+|-damage|p1a: Frillish|19/100|[from] Spikes
+|
+|upkeep
+|turn|27
+|
+|t:|1625881749
+|move|p1a: Frillish|Scald|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|upkeep
+|
+|t:|1625881754
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|91/100
+|turn|28
+|
+|t:|1625881759
+|move|p1a: Frillish|Scald|p2a: Mienfoo
+|-damage|p2a: Mienfoo|50/100
+|move|p2a: Mienfoo|Knock Off|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|0 fnt
+|-enditem|p1a: Frillish|Choice Scarf|[from] move: Knock Off|[of] p2a: Mienfoo
+|faint|p1a: Frillish
+|
+|upkeep
+|
+|t:|1625881782
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 par
+|-damage|p1a: Mienfoo|91/100 par|[from] Spikes
+|turn|29
+|
+|t:|1625881785
+|switch|p2a: Natu|Natu, L5, M, shiny|100/100
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|69/100
+|j| Edfggvc
+|l| Edfggvc
+|
+|t:|1625881806
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100|[from]move: U-turn
+|-damage|p1a: Ferroseed|91/100|[from] Spikes
+|
+|upkeep
+|turn|30
+|
+|t:|1625881809
+|move|p2a: Natu|Heat Wave|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|19/100
+|move|p1a: Ferroseed|Bullet Seed|p2a: Natu
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|64/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|55/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|50/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|46/100
+|-resisted|p2a: Natu
+|-damage|p2a: Natu|41/100
+|-hitcount|p2a: Natu|5
+|
+|upkeep
+|turn|31
+|
+|t:|1625881819
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|91/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Ferroseed|Bullet Seed|p2a: Natu
+|-damage|p2a: Natu|78/100
+|-damage|p2a: Natu|64/100
+|-damage|p2a: Natu|50/100
+|-damage|p2a: Natu|37/100
+|-damage|p2a: Natu|23/100
+|-hitcount|p2a: Natu|5
+|
+|upkeep
+|turn|32
+|
+|t:|1625881830
+|switch|p1a: Carvanha|Carvanha, L5, M|100/100
+|-damage|p1a: Carvanha|91/100|[from] Spikes
+|move|p2a: Natu|Heat Wave|p1a: Carvanha
+|-resisted|p1a: Carvanha
+|-damage|p1a: Carvanha|62/100
+|
+|upkeep
+|turn|33
+|
+|t:|1625881845
+|move|p2a: Natu|U-turn|p1a: Carvanha
+|-supereffective|p1a: Carvanha
+|-damage|p1a: Carvanha|0 fnt
+|faint|p1a: Carvanha
+|
+|t:|1625881850
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|82/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1625881857
+|switch|p1a: Drilbur|Drilbur, L5, F|38/100
+|-damage|p1a: Drilbur|25/100|[from] Spikes
+|-ability|p1a: Drilbur|Mold Breaker
+|turn|34
+|
+|t:|1625881861
+|move|p2a: Mienfoo|Fake Out|p1a: Drilbur
+|-damage|p1a: Drilbur|9/100
+|cant|p1a: Drilbur|flinch
+|
+|upkeep
+|turn|35
+|inactive|NXBKN Greed has 120 seconds left.
+|inactive|NXBKN Greed has 90 seconds left.
+|l| pxburguer
+|
+|t:|1625881940
+|move|p2a: Mienfoo|U-turn|p1a: Drilbur
+|-damage|p1a: Drilbur|0 fnt
+|faint|p1a: Drilbur
+|
+|t:|1625881945
+|switch|p2a: Natu|Natu, L5, M, shiny|23/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1625881948
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 par
+|-damage|p1a: Mienfoo|91/100 par|[from] Spikes
+|turn|36
+|
+|t:|1625881951
+|switch|p2a: Mienfoo|Mienfoo, L5, M, shiny|100/100
+|move|p1a: Mienfoo|Fake Out|p2a: Mienfoo
+|-damage|p2a: Mienfoo|87/100
+|
+|upkeep
+|turn|37
+|
+|t:|1625881956
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|29/100 par
+|move|p1a: Mienfoo|Drain Punch|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|5/100
+|-heal|p1a: Mienfoo|72/100 par|[from] drain|[of] p2a: Mienfoo
+|
+|upkeep
+|turn|38
+|l|@Axgwd ♪
+|j|@Axgwd ♪
+|
+|t:|1625881967
+|move|p2a: Mienfoo|High Jump Kick|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1625881969
+|switch|p1a: Ferroseed|Ferroseed, L5, M|19/100
+|-damage|p1a: Ferroseed|10/100|[from] Spikes
+|turn|39
+|
+|t:|1625881973
+|move|p2a: Mienfoo|High Jump Kick|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-damage|p2a: Mienfoo|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p2a: Mienfoo
+|faint|p1a: Ferroseed
+|
+|win|NXBKN Greed
+|n|☆olimar smashyman|olimarsmashyman
+|n|☆NXBKN Greed|nxbkngreed
+|n| BB-8-NU|bb8nu
+|n| tempo di anguria|tempodianguria
+|n| salmonelephant|salmonelephant
+|n|+Axgwd ♪|axgwd
+|c|☆olimar smashyman|gg
+|l| BB-8-NU
+|l|☆olimar smashyman
+|c|☆NXBKN Greed|gg

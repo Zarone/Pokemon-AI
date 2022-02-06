@@ -1,0 +1,215 @@
+|j|☆Disho1
+|j|☆Now I'm REALLY MAD
+|t:|1644104177
+|gametype|singles
+|player|p1|Disho1|hiker-gen4|1031
+|player|p2|Now I'm REALLY MAD|blue|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Ampharos, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Gyarados, M|item
+|poke|p1|Scizor, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Jirachi|item
+|poke|p2|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Kyurem-Black|item
+|teampreview
+|
+|t:|1644104206
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|t:|1644104215
+|move|p2a: Garchomp|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Disho1|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Now I'm REALLY MAD|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1644104220
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|80/100
+|-enditem|p2a: Magnezone|Air Balloon
+|-damage|p1a: Ferrothorn|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1644104233
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|51/100
+|-damage|p1a: Ferrothorn|10/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1644104242
+|move|p2a: Magnezone|Hidden Power|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644104249
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|-damage|p1a: Volcarona|51/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1644104262
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Volcarona|Fire Blast|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|29/100
+|
+|upkeep
+|turn|6
+|
+|t:|1644104270
+|move|p2a: Latios|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|t:|1644104283
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1644104294
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Dragonite|Outrage|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|36/100
+|
+|-heal|p2a: Jirachi|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644104305
+|move|p1a: Dragonite|Outrage|p2a: Jirachi|[from]lockedmove
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|16/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|-enditem|p1a: Dragonite|Persim Berry|[eat]
+|-end|p1a: Dragonite|confusion
+|move|p2a: Jirachi|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|24/100
+|-unboost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Jirachi|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644104319
+|move|p2a: Jirachi|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Jirachi|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644104325
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1644104341
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Jirachi|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|79/100
+|
+|t:|1644104346
+|switch|p2a: Magnezone|Magnezone, shiny|51/100|[from]move: U-turn
+|-damage|p2a: Magnezone|45/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1644104358
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Magnezone|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Now I'm REALLY MAD)
+|
+|t:|1644104367
+|switch|p1a: Ampy|Ampharos, M|100/100
+|-damage|p1a: Ampy|88/100|[from] Stealth Rock
+|-item|p1a: Ampy|Air Balloon
+|turn|12
+|
+|t:|1644104386
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Ampy|Thunder|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|13
+|
+|t:|1644104399
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-damage|p1a: Gyarados|75/100|[from] Stealth Rock
+|move|p2a: Garchomp|Outrage|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1644104407
+|switch|p1a: Ampy|Ampharos, M|88/100
+|-damage|p1a: Ampy|76/100|[from] Stealth Rock
+|-item|p1a: Ampy|Air Balloon
+|turn|14
+|-message|Disho1 forfeited.
+|
+|win|Now I'm REALLY MAD
+|raw|Disho1's rating: 1031 &rarr; <strong>1015</strong><br />(-16 for losing)
+|raw|Now I&apos;m REALLY MAD's rating: 1000 &rarr; <strong>1044</strong><br />(+44 for winning)
+|l|☆Disho1
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

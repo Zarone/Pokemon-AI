@@ -1,0 +1,934 @@
+|j|☆iss
+|j|☆brewfasa
+|t:|1629417578
+|gametype|singles
+|player|p1|iss|ethan|
+|player|p2|brewfasa|jasmine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vullaby, L5, F|item
+|poke|p1|Mienfoo, L5, F|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Ferroseed, L5, M|item
+|poke|p1|Aipom, L5, F|item
+|poke|p1|Trapinch, L5, M|item
+|poke|p2|Hippopotas, L5, M|item
+|poke|p2|Pawniard, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Lileep, L5, F|item
+|poke|p2|Frillish, L5, F|item
+|poke|p2|Natu, L5, M|item
+|teampreview
+|c|☆iss|gl!
+|c|☆brewfasa|gl
+|j| daniYSB
+|j| Elfuseon
+|j| Derkpharocy
+|j| Surfy
+|j| McSim
+|c| Elfuseon|Gl  both
+|l| McSim
+|j| TEAM CHARM
+|
+|t:|1629417654
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100
+|switch|p2a: Hippopotas|Hippopotas, L5, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippopotas
+|turn|1
+|
+|t:|1629417665
+|move|p1a: Mienfoo|Taunt|p2a: Hippopotas
+|-start|p2a: Hippopotas|move: Taunt
+|cant|p2a: Hippopotas|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|96/100|[from] Sandstorm
+|upkeep
+|turn|2
+|j| McSim
+|
+|t:|1629417671
+|move|p1a: Mienfoo|Knock Off|p2a: Hippopotas
+|-damage|p2a: Hippopotas|96/100
+|-enditem|p2a: Hippopotas|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|move|p2a: Hippopotas|Earthquake|p1a: Mienfoo
+|-damage|p1a: Mienfoo|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|60/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1629417693
+|move|p1a: Mienfoo|U-turn|p2a: Hippopotas
+|-damage|p2a: Hippopotas|76/100
+|
+|t:|1629417698
+|switch|p1a: Gastly|Gastly, L5, F|100/100|[from]move: U-turn
+|move|p2a: Hippopotas|Crunch|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|43/100
+|-unboost|p1a: Gastly|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|39/100|[from] Sandstorm
+|-end|p2a: Hippopotas|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1629417713
+|move|p1a: Gastly|Shadow Ball|p2a: Hippopotas
+|-damage|p2a: Hippopotas|24/100
+|move|p2a: Hippopotas|Crunch|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| eXgirlXjeze
+|l| daniYSB
+|j| zeroouttathere
+|j| daniYSB
+|l| Derkpharocy
+|l| Surfy
+|j| Surfy
+|c| McSim|lgi fatty
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brewfasa)
+|j| imanalt
+|
+|t:|1629417792
+|switch|p1a: Aipom|Aipom, L5, F|100/100
+|turn|5
+|inactive|brewfasa has 270 seconds left.
+|l| zeroouttathere
+|j| CMDoge
+|j| Z Strats
+|j| mohenjo
+|j| zeroouttathere
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1629417856
+|move|p1a: Aipom|U-turn|p2a: Hippopotas
+|-damage|p2a: Hippopotas|0 fnt
+|faint|p2a: Hippopotas
+|-damage|p1a: Aipom|92/100|[from] item: Life Orb
+|j| mom lover
+|inactive|iss has 270 seconds left.
+|j| Derkpharocy
+|l| mom lover
+|
+|t:|1629417892
+|switch|p1a: Vullaby|Vullaby, L5, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|96/100|[from] Sandstorm
+|upkeep
+|inactive|brewfasa has 240 seconds left.
+|l| Derkpharocy
+|j| Acehunter1
+|inactive|brewfasa has 210 seconds left.
+|l| daniYSB
+|j| daniYSB
+|
+|t:|1629417957
+|switch|p2a: Lileep|Lileep, L5, F|100/100
+|turn|6
+|inactive|iss has 270 seconds left.
+|inactive|brewfasa has 180 seconds left.
+|inactive|iss has 240 seconds left.
+|inactive|iss has 210 seconds left.
+|j| Alkione
+|inactive|iss has 180 seconds left.
+|
+|t:|1629418058
+|move|p1a: Vullaby|Nasty Plot|p1a: Vullaby
+|-boost|p1a: Vullaby|spa|2
+|move|p2a: Lileep|Bullet Seed|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|92/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|88/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-hitcount|p1a: Vullaby|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|84/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|iss has 180 seconds left.
+|inactive|brewfasa has 180 seconds left.
+|c| Alkione|SS vulla momento ?
+|inactive|iss has 150 seconds left.
+|
+|t:|1629418103
+|move|p1a: Vullaby|Air Slash|p2a: Lileep
+|-damage|p2a: Lileep|72/100
+|move|p2a: Lileep|Bullet Seed|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|76/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|64/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|52/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|40/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-hitcount|p1a: Vullaby|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|36/100|[from] Sandstorm
+|upkeep
+|turn|8
+|inactive|iss has 150 seconds left.
+|
+|t:|1629418123
+|switch|p1a: Mienfoo|Mienfoo, L5, F|91/100
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mienfoo|87/100|[from] Sandstorm
+|upkeep
+|turn|9
+|j| cielau origine ♫
+|inactive|brewfasa has 150 seconds left.
+|
+|t:|1629418139
+|switch|p2a: Natu|Natu, L5, M|100/100
+|move|p1a: Mienfoo|Knock Off|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|83/100
+|-enditem|p2a: Natu|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|79/100|[from] Sandstorm
+|-damage|p1a: Mienfoo|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|inactive|iss has 150 seconds left.
+|inactive|brewfasa has 150 seconds left.
+|
+|t:|1629418163
+|move|p2a: Natu|Thunder Wave|p1a: Mienfoo
+|-status|p1a: Mienfoo|par
+|move|p1a: Mienfoo|U-turn|p2a: Natu
+|-damage|p2a: Natu|48/100
+|inactive|iss has 120 seconds left.
+|j| Derkpharocy
+|
+|t:|1629418206
+|switch|p1a: Aipom|Aipom, L5, F|92/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aipom|87/100|[from] Sandstorm
+|-damage|p2a: Natu|44/100|[from] Sandstorm
+|upkeep
+|turn|11
+|l| Derkpharocy
+|inactive|brewfasa has 150 seconds left.
+|
+|t:|1629418220
+|switch|p2a: Pawniard|Pawniard, L5, M|100/100
+|move|p1a: Aipom|Beat Up|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|96/100
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|91/100
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|86/100
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|81/100
+|-hitcount|p2a: Pawniard|4
+|-damage|p1a: Aipom|79/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aipom|74/100|[from] Sandstorm
+|upkeep
+|turn|12
+|inactive|brewfasa has 150 seconds left.
+|inactive|iss has 90 seconds left.
+|
+|t:|1629418259
+|switch|p2a: Drilbur|Drilbur, L5, M|100/100
+|move|p1a: Aipom|U-turn|p2a: Drilbur
+|-damage|p2a: Drilbur|46/100
+|-damage|p1a: Aipom|66/100|[from] item: Life Orb
+|inactive|iss has 90 seconds left.
+|inactive|iss has 60 seconds left.
+|inactive|iss has 30 seconds left.
+|
+|t:|1629418327
+|switch|p1a: Trapinch|Trapinch, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|inactive|iss has 30 seconds left.
+|
+|t:|1629418338
+|move|p2a: Drilbur|Earthquake|p1a: Trapinch
+|-damage|p1a: Trapinch|44/100
+|move|p1a: Trapinch|Earthquake|p2a: Drilbur
+|-damage|p2a: Drilbur|0 fnt
+|faint|p2a: Drilbur
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629418346
+|switch|p2a: Frillish|Frillish, L5, F|100/100
+|turn|14
+|
+|t:|1629418356
+|switch|p1a: Mienfoo|Mienfoo, L5, F|100/100 par
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|73/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|96/100|[from] Sandstorm
+|-damage|p1a: Mienfoo|69/100 par|[from] Sandstorm
+|upkeep
+|turn|15
+|inactive|brewfasa has 150 seconds left.
+|
+|t:|1629418391
+|move|p2a: Frillish|Scald|p1a: Mienfoo
+|-damage|p1a: Mienfoo|41/100 par
+|move|p1a: Mienfoo|Knock Off|p2a: Frillish
+|-supereffective|p2a: Frillish
+|-damage|p2a: Frillish|80/100
+|-start|p1a: Mienfoo|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Frillish
+|-enditem|p2a: Frillish|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frillish|75/100|[from] Sandstorm
+|-damage|p1a: Mienfoo|37/100 par|[from] Sandstorm
+|upkeep
+|turn|16
+|inactive|iss has 30 seconds left.
+|inactive|iss has 20 seconds left.
+|inactive|iss has 15 seconds left.
+|
+|t:|1629418422
+|switch|p1a: Vullaby|Vullaby, L5, F|36/100
+|move|p2a: Frillish|Scald|p1a: Vullaby
+|-damage|p1a: Vullaby|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|8/100|[from] Sandstorm
+|-damage|p2a: Frillish|71/100|[from] Sandstorm
+|upkeep
+|turn|17
+|inactive|iss has 25 seconds left this turn.
+|inactive|brewfasa has 120 seconds left.
+|
+|t:|1629418438
+|switch|p2a: Lileep|Lileep, L5, F|100/100
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|60/100
+|-singleturn|p1a: Vullaby|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|57/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|iss has 30 seconds left.
+|
+|t:|1629418452
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|move|p2a: Lileep|Swords Dance|p2a: Lileep
+|-boost|p2a: Lileep|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|inactive|iss has 30 seconds left.
+|inactive|iss has 20 seconds left.
+|
+|t:|1629418467
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|76/100
+|move|p1a: Ferroseed|Stealth Rock|p2a: Lileep
+|-sidestart|p2: brewfasa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|inactive|iss has 30 seconds left this turn.
+|inactive|iss has 20 seconds left.
+|
+|t:|1629418477
+|switch|p1a: Aipom|Aipom, L5, F|66/100
+|move|p2a: Lileep|Bullet Seed|p1a: Aipom
+|-damage|p1a: Aipom|35/100
+|-damage|p1a: Aipom|5/100
+|-damage|p1a: Aipom|0 fnt
+|faint|p1a: Aipom
+|-hitcount|p1: Aipom|3
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|iss has 25 seconds left this turn.
+|inactive|iss has 20 seconds left.
+|inactive|iss has 15 seconds left.
+|inactive|iss has 10 seconds left.
+|
+|t:|1629418493
+|switch|p1a: Mienfoo|Mienfoo, L5, F|69/100 par
+|turn|21
+|inactive|iss has 20 seconds left this turn.
+|
+|t:|1629418497
+|move|p2a: Lileep|Bullet Seed|p1a: Mienfoo
+|-damage|p1a: Mienfoo|50/100 par
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|10/100 par
+|-crit|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|-hitcount|p1: Mienfoo|3
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|iss has 25 seconds left this turn.
+|inactive|iss has 20 seconds left.
+|inactive|iss has 15 seconds left.
+|j| wesh papillon
+|
+|t:|1629418507
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|turn|22
+|inactive|iss has 25 seconds left this turn.
+|
+|t:|1629418514
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|96/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|91/100
+|-hitcount|p1a: Ferroseed|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|100/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|inactive|iss has 30 seconds left.
+|
+|t:|1629418524
+|move|p2a: Lileep|Swords Dance|p2a: Lileep
+|-boost|p2a: Lileep|atk|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|inactive|iss has 30 seconds left.
+|
+|t:|1629418535
+|switch|p1a: Vullaby|Vullaby, L5, F|57/100
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|52/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1629418545
+|move|p1a: Vullaby|Nasty Plot|p1a: Vullaby
+|-boost|p1a: Vullaby|spa|2
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vullaby|48/100|[from] Sandstorm
+|upkeep
+|turn|26
+|inactive|brewfasa has 180 seconds left.
+|
+|t:|1629418553
+|move|p1a: Vullaby|Dark Pulse|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|move|p2a: Lileep|Bullet Seed|p1a: Vullaby
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|36/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|20/100
+|-ability|p1a: Vullaby|Weak Armor|boost
+|-unboost|p1a: Vullaby|def|1
+|-boost|p1a: Vullaby|spe|1
+|-resisted|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|-hitcount|p1: Vullaby|3
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629418560
+|switch|p1a: Ferroseed|Ferroseed, L5, M|100/100
+|turn|27
+|
+|t:|1629418569
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|76/100
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1629418576
+|move|p2a: Lileep|Swords Dance|p2a: Lileep
+|-boost|p2a: Lileep|atk|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1629418583
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|52/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1629418589
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|100/100
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|inactive|brewfasa has 210 seconds left.
+|
+|t:|1629418595
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|96/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|91/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|87/100
+|-hitcount|p1a: Ferroseed|3
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1629418605
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|73/100
+|-resisted|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|-hitcount|p1a: Ferroseed|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|-heal|p1a: Ferroseed|64/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|j| daunt vs
+|j| Expulso
+|
+|t:|1629418615
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|76/100
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|73/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1629418622
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|69/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|64/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|55/100
+|-hitcount|p1a: Ferroseed|4
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|-heal|p1a: Ferroseed|64/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1629418634
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|52/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|36
+|l| daunt vs
+|
+|t:|1629418640
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|55/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|50/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|46/100
+|-hitcount|p1a: Ferroseed|4
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|55/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1629418652
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|50/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|46/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|41/100
+|-hitcount|p1a: Ferroseed|3
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|-heal|p1a: Ferroseed|46/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|38
+|inactive|iss has 150 seconds left.
+|
+|t:|1629418664
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|29/100
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|55/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|39
+|
+|t:|1629418671
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|80/100
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|-heal|p1a: Ferroseed|64/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|40
+|
+|t:|1629418679
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|57/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1629418697
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|55/100
+|-hitcount|p1a: Ferroseed|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|64/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|42
+|inactive|iss has 180 seconds left.
+|l| Expulso
+|
+|t:|1629418706
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|100/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|inactive|brewfasa has 240 seconds left.
+|
+|t:|1629418713
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|60/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|55/100
+|-hitcount|p1a: Ferroseed|2
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|44
+|
+|t:|1629418721
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|76/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|45
+|
+|t:|1629418727
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|50/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|46/100
+|-hitcount|p1a: Ferroseed|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|55/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|46
+|
+|t:|1629418736
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|50/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|46/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|41/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|37/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|32/100
+|-hitcount|p1a: Ferroseed|5
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|-heal|p1a: Ferroseed|37/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|47
+|l| daniYSB
+|
+|t:|1629418749
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|52/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|48
+|
+|t:|1629418756
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|32/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|28/100
+|-hitcount|p1a: Ferroseed|2
+|move|p1a: Ferroseed|Giga Drain|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|-heal|p1a: Ferroseed|37/100|[from] drain|[of] p2a: Lileep
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|49
+|
+|t:|1629418765
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|32/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|28/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|23/100
+|-hitcount|p1a: Ferroseed|3
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|50
+|j| daunt vs
+|inactive|brewfasa has 270 seconds left.
+|
+|t:|1629418774
+|move|p2a: Lileep|Recover|p2a: Lileep
+|-heal|p2a: Lileep|100/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|51
+|
+|t:|1629418781
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|76/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-crit|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|52
+|
+|t:|1629418787
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|19/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|14/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|10/100
+|-hitcount|p1a: Ferroseed|3
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-crit|p2a: Lileep
+|-end|p2a: Lileep|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|53
+|
+|t:|1629418798
+|move|p2a: Lileep|Substitute|p2a: Lileep
+|-start|p2a: Lileep|Substitute
+|-damage|p2a: Lileep|52/100
+|move|p1a: Ferroseed|Thunderbolt|p2a: Lileep
+|-resisted|p2a: Lileep
+|-activate|p2a: Lileep|Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|54
+|
+|t:|1629418804
+|move|p2a: Lileep|Bullet Seed|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|5/100
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|-hitcount|p1: Ferroseed|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1629418807
+|switch|p1a: Trapinch|Trapinch, L5, M|44/100
+|turn|55
+|l| Z Strats
+|
+|t:|1629418812
+|move|p2a: Lileep|Bullet Seed|p1a: Trapinch
+|-supereffective|p1a: Trapinch
+|-damage|p1a: Trapinch|0 fnt
+|faint|p1a: Trapinch
+|-hitcount|p1: Trapinch|1
+|
+|win|brewfasa
+|l| eXgirlXjeze
+|c|☆iss|gg
+|c|☆brewfasa|gg
+|l| daunt vs
+|l|☆iss
+|l| Acehunter1
+|l| Elfuseon
+|l| CMDoge
+|l| Surfy
+|l| McSim
+|l| TEAM CHARM
+|l| wesh papillon

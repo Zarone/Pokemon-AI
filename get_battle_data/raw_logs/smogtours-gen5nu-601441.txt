@@ -1,0 +1,365 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641685067
+|gametype|singles
+|player|p1|Togkey|firebreather-gen2|
+|player|p2|Nalorium|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Sawsbuck, F|item
+|poke|p1|Regirock|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Regice|item
+|poke|p1|Mandibuzz, F|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Primeape, M|item
+|poke|p2|Samurott, M|item
+|poke|p2|Eelektross, M|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Golurk|item
+|teampreview
+|c|☆Togkey|hf
+|c|☆Nalorium|=
+|c|+Yathze|GO NALO.
+|inactive|Nalorium has 270 seconds left.
+|c|+daniYSB|GO TOG
+|c|+daniYSB|.
+|inactive|Nalorium has 240 seconds left.
+|c|+Aawin|GO TOG
+|
+|t:|1641685140
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Tony Montana|Primeape, M, shiny|100/100
+|turn|1
+|c|~Finchinator|go Aawin
+|c|+Aawin|okay!
+|c|+rabia.|shut up
+|
+|t:|1641685163
+|move|p2a: Tony Montana|Stone Edge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|37/100
+|move|p1a: Mandibuzz|Toxic|p2a: Tony Montana
+|-status|p2a: Tony Montana|tox
+|
+|-heal|p1a: Mandibuzz|43/100|[from] item: Leftovers
+|-damage|p2a: Tony Montana|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|inactive|Togkey has 270 seconds left.
+|
+|t:|1641685197
+|switch|p1a: Regirock|Regirock|100/100
+|move|p2a: Tony Montana|Stone Edge|p1a: Regirock|[miss]
+|-miss|p2a: Tony Montana|p1a: Regirock
+|
+|-damage|p2a: Tony Montana|83/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1641685216
+|switch|p2a: Fantasmón|Golurk, shiny|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|43/100
+|
+|-heal|p1a: Mandibuzz|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1641685222
+|switch|p2a: FELACIONADOR 1050|Eelektross, M, shiny|100/100
+|move|p1a: Mandibuzz|Taunt|p2a: FELACIONADOR 1050
+|-start|p2a: FELACIONADOR 1050|move: Taunt
+|
+|-heal|p1a: Mandibuzz|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1641685225
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: FELACIONADOR 1050|Volt Switch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|54/100
+|
+|t:|1641685229
+|switch|p2a: Tony Montana|Primeape, M, shiny|83/100 tox|[from]move: Volt Switch
+|
+|-heal|p1a: Mandibuzz|60/100|[from] item: Leftovers
+|-damage|p2a: Tony Montana|77/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1641685244
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Tony Montana|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|83/100
+|-damage|p2a: Tony Montana|60/100 tox|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|t:|1641685246
+|switch|p2a: FELACIONADOR 1050|Eelektross, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1641685249
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: FELACIONADOR 1050|Thunderbolt|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1641685254
+|switch|p1a: Sawsbuck|Sawsbuck, F|100/100
+|move|p2a: FELACIONADOR 1050|Thunderbolt|p1a: Sawsbuck
+|-resisted|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|51/100
+|
+|upkeep
+|turn|9
+|
+|t:|1641685281
+|switch|p2a: Tejon Negro|Skuntank, M, shiny|100/100
+|move|p1a: Sawsbuck|Horn Leech|p2a: Tejon Negro
+|-resisted|p2a: Tejon Negro
+|-damage|p2a: Tejon Negro|71/100
+|-heal|p1a: Sawsbuck|68/100|[from] drain|[of] p2a: Tejon Negro
+|-damage|p1a: Sawsbuck|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1641685300
+|move|p1a: Sawsbuck|Nature Power|p1a: Sawsbuck
+|move|p1a: Sawsbuck|Earthquake|p2a: Tejon Negro|[from]move: Nature Power
+|-supereffective|p2a: Tejon Negro
+|-damage|p2a: Tejon Negro|0 fnt
+|faint|p2a: Tejon Negro
+|-damage|p1a: Sawsbuck|49/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641685307
+|switch|p2a: Italoamericano|Kangaskhan, F, shiny|100/100
+|turn|11
+|
+|t:|1641685312
+|switch|p1a: Regirock|Regirock|100/100
+|move|p2a: Italoamericano|Fake Out|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|96/100
+|
+|-heal|p1a: Regirock|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1641685318
+|switch|p2a: Tony Montana|Primeape, M, shiny|60/100 tox
+|move|p1a: Regirock|Stealth Rock|p2a: Tony Montana
+|-sidestart|p2: Nalorium|move: Stealth Rock
+|
+|-damage|p2a: Tony Montana|54/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1641685322
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Tony Montana|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|53/100
+|-unboost|p2a: Tony Montana|def|1
+|-unboost|p2a: Tony Montana|spd|1
+|-damage|p2a: Tony Montana|38/100 tox|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-damage|p2a: Tony Montana|26/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1641685330
+|move|p2a: Tony Montana|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|9/100
+|-unboost|p2a: Tony Montana|def|1
+|-unboost|p2a: Tony Montana|spd|1
+|-damage|p2a: Tony Montana|9/100 tox|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Tony Montana|0 fnt|[from] psn
+|faint|p2a: Tony Montana
+|upkeep
+|
+|t:|1641685332
+|switch|p2a: FELACIONADOR 1050|Eelektross, M, shiny|100/100
+|-damage|p2a: FELACIONADOR 1050|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1641685340
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: FELACIONADOR 1050|Thunderbolt|p1a: Regice
+|-damage|p1a: Regice|59/100
+|
+|-heal|p1a: Regice|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|16
+|
+|t:|1641685355
+|switch|p2a: Fantasmón|Golurk, shiny|100/100
+|-damage|p2a: Fantasmón|94/100|[from] Stealth Rock
+|move|p1a: Regice|Ice Beam|p2a: Fantasmón
+|-supereffective|p2a: Fantasmón
+|-enditem|p2a: Fantasmón|Yache Berry|[eat]
+|-enditem|p2a: Fantasmón|Yache Berry|[weaken]
+|-damage|p2a: Fantasmón|43/100
+|
+|upkeep
+|turn|17
+|
+|t:|1641685358
+|move|p1a: Regice|Ice Beam|p2a: Fantasmón
+|-supereffective|p2a: Fantasmón
+|-damage|p2a: Fantasmón|0 fnt
+|faint|p2a: Fantasmón
+|
+|upkeep
+|
+|t:|1641685363
+|switch|p2a: Italoamericano|Kangaskhan, F, shiny|100/100
+|-damage|p2a: Italoamericano|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1641685369
+|switch|p1a: Regirock|Regirock|100/100
+|move|p2a: Italoamericano|Double-Edge|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|87/100
+|-damage|p2a: Italoamericano|84/100|[from] Recoil
+|
+|-heal|p1a: Regirock|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1641685372
+|move|p2a: Italoamericano|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|69/100
+|move|p1a: Regirock|Thunder Wave|p2a: Italoamericano
+|-status|p2a: Italoamericano|par
+|
+|-heal|p1a: Regirock|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1641685375
+|move|p1a: Regirock|Stone Edge|p2a: Italoamericano|[miss]
+|-miss|p1a: Regirock|p2a: Italoamericano
+|move|p2a: Italoamericano|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|48/100
+|
+|-heal|p1a: Regirock|54/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1641685378
+|switch|p2a: FELACIONADOR 1050|Eelektross, M, shiny|88/100
+|-damage|p2a: FELACIONADOR 1050|76/100|[from] Stealth Rock
+|move|p1a: Regirock|Stone Edge|p2a: FELACIONADOR 1050
+|-damage|p2a: FELACIONADOR 1050|36/100
+|
+|-heal|p1a: Regirock|60/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1641685387
+|move|p2a: FELACIONADOR 1050|Volt Switch|p1a: Regirock
+|-damage|p1a: Regirock|21/100
+|
+|t:|1641685393
+|switch|p2a: Italoamericano|Kangaskhan, F, shiny|84/100 par|[from]move: Volt Switch
+|-damage|p2a: Italoamericano|71/100 par|[from] Stealth Rock
+|move|p1a: Regirock|Stone Edge|p2a: Italoamericano
+|-damage|p2a: Italoamericano|34/100 par
+|
+|-heal|p1a: Regirock|27/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1641685398
+|move|p1a: Regirock|Stone Edge|p2a: Italoamericano
+|-damage|p2a: Italoamericano|0 fnt
+|faint|p2a: Italoamericano
+|
+|-heal|p1a: Regirock|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641685399
+|switch|p2a: FELACIONADOR 1050|Eelektross, M, shiny|36/100
+|-damage|p2a: FELACIONADOR 1050|24/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1641685401
+|move|p2a: FELACIONADOR 1050|Thunderbolt|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|upkeep
+|
+|t:|1641685405
+|switch|p1a: Sawsbuck|Sawsbuck, F|49/100
+|turn|25
+|
+|t:|1641685408
+|move|p1a: Sawsbuck|Horn Leech|p2a: FELACIONADOR 1050
+|-damage|p2a: FELACIONADOR 1050|0 fnt
+|-heal|p1a: Sawsbuck|62/100|[from] drain|[of] p2a: FELACIONADOR 1050
+|faint|p2a: FELACIONADOR 1050
+|-damage|p1a: Sawsbuck|52/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641685409
+|switch|p2a: Mayorca|Samurott, M, shiny|100/100
+|-damage|p2a: Mayorca|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1641685411
+|move|p1a: Sawsbuck|Horn Leech|p2a: Mayorca
+|-supereffective|p2a: Mayorca
+|-enditem|p2a: Mayorca|Rindo Berry|[eat]
+|-enditem|p2a: Mayorca|Rindo Berry|[weaken]
+|-damage|p2a: Mayorca|46/100
+|-heal|p1a: Sawsbuck|78/100|[from] drain|[of] p2a: Mayorca
+|-damage|p1a: Sawsbuck|68/100|[from] item: Life Orb
+|move|p2a: Mayorca|Swords Dance|p2a: Mayorca
+|-boost|p2a: Mayorca|atk|2
+|
+|upkeep
+|turn|27
+|
+|t:|1641685422
+|move|p2a: Mayorca|Aqua Jet|p1a: Sawsbuck
+|-resisted|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|37/100
+|move|p1a: Sawsbuck|Horn Leech|p2a: Mayorca
+|-supereffective|p2a: Mayorca
+|-damage|p2a: Mayorca|0 fnt
+|-heal|p1a: Sawsbuck|65/100|[from] drain|[of] p2a: Mayorca
+|faint|p2a: Mayorca
+|-damage|p1a: Sawsbuck|55/100|[from] item: Life Orb
+|
+|win|Togkey
+|c|☆Togkey|gg
+|c|☆Nalorium|gg

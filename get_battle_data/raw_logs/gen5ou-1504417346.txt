@@ -1,0 +1,510 @@
+|j|☆Argentide
+|j|☆Lena Nitro
+|t:|1643997317
+|gametype|singles
+|player|p1|Argentide|101|
+|player|p2|Lena Nitro|youngcouple-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Keldeo|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Scizor, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Ditto|item
+|poke|p2|Politoed, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Toxicroak, M|item
+|teampreview
+|c|☆Lena Nitro|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lena Nitro)
+|j| c3720
+|c|☆Argentide|hf
+|j| wertco
+|inactive|Argentide has 270 seconds left.
+|j| SenseiSese
+|j| EuleLP
+|
+|t:|1643997386
+|start
+|switch|p1a: Chansey|Chansey, F|100/100
+|switch|p2a: Edward|Scizor, M, shiny|100/100
+|turn|1
+|j| MangoSteak
+|inactive|Argentide has 270 seconds left.
+|
+|t:|1643997420
+|move|p2a: Edward|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|60/100
+|
+|t:|1643997424
+|switch|p2a: Iron Man|Ferrothorn, M, shiny|100/100|[from]move: U-turn
+|move|p1a: Chansey|Counter|p2a: Iron Man
+|-damage|p2a: Iron Man|0 fnt
+|-damage|p1a: Chansey|47/100|[from] ability: Iron Barbs|[of] p2a: Iron Man
+|faint|p2a: Iron Man
+|
+|upkeep
+|
+|t:|1643997434
+|switch|p2a: Edward|Scizor, M, shiny|100/100
+|turn|2
+|
+|t:|1643997444
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Edward|Superpower|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|67/100
+|-unboost|p2a: Edward|atk|1
+|-unboost|p2a: Edward|def|1
+|
+|-heal|p1a: Latias|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643997451
+|switch|p2a: Calgon|Rotom-Wash, shiny|100/100
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|48/100
+|
+|-heal|p1a: Latias|54/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643997454
+|move|p2a: Calgon|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|-heal|p1a: Latias|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643997457
+|move|p2a: Calgon|Hidden Power|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|37/100
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|12/100
+|
+|-heal|p1a: Latias|18/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643997462
+|switch|p2a: Edward|Scizor, M, shiny|100/100
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|68/100
+|
+|-heal|p1a: Latias|74/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643997471
+|switch|p1a: Chansey|Chansey, F|47/100
+|move|p2a: Edward|Bullet Punch|p1a: Chansey
+|-damage|p1a: Chansey|14/100
+|
+|upkeep
+|turn|8
+|inactive|Argentide has 270 seconds left.
+|inactive|Argentide has 240 seconds left.
+|
+|t:|1643997549
+|switch|p2a: Calgon|Rotom-Wash, shiny|100/100
+|switch|p1a: Keldeo|Keldeo|100/100
+|
+|upkeep
+|turn|9
+|inactive|Argentide has 210 seconds left.
+|inactive|Lena Nitro has 270 seconds left.
+|
+|t:|1643997593
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Calgon|[from] ability: Imposter
+|move|p2a: Calgon|Trick|p1a: Ditto
+|-activate|p2a: Calgon|move: Trick|[of] p1a: Ditto
+|-item|p1a: Ditto|Choice Scarf|[from] move: Trick
+|-item|p2a: Calgon|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|10
+|inactive|Argentide has 180 seconds left.
+|
+|t:|1643997638
+|move|p2a: Calgon|Hydro Pump|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|70/100
+|move|p1a: Ditto|Hydro Pump|p2a: Calgon
+|-resisted|p2a: Calgon
+|-damage|p2a: Calgon|69/100
+|
+|upkeep
+|turn|11
+|inactive|Lena Nitro has 270 seconds left.
+|
+|t:|1643997660
+|switch|p1a: Latias|Latias, F|74/100
+|switch|p2a: toadally awesome|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: toadally awesome
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643997671
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|56/100
+|move|p2a: toadally awesome|Ice Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-crit|p1a: Latias
+|-end|p1a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Argentide has 150 seconds left.
+|inactive|Lena Nitro has 270 seconds left.
+|
+|t:|1643997716
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|37/100
+|move|p2a: toadally awesome|Ice Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|43/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643997726
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|93/100
+|move|p2a: toadally awesome|Ice Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Latias|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Argentide has 150 seconds left.
+|inactive|Lena Nitro has 270 seconds left.
+|
+|t:|1643997738
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: toadally awesome|Ice Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|inactive|Argentide has 150 seconds left.
+|inactive|Lena Nitro has 270 seconds left.
+|
+|t:|1643997759
+|switch|p2a: Edward|Scizor, M, shiny|100/100
+|move|p1a: Scizor|U-turn|p2a: Edward
+|-resisted|p2a: Edward
+|-damage|p2a: Edward|67/100
+|
+|t:|1643997778
+|switch|p1a: Keldeo|Keldeo|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1643997787
+|switch|p2a: D.3.S. Frosch|Toxicroak, M, shiny|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: D.3.S. Frosch
+|-immune|p2a: D.3.S. Frosch|[from] ability: Dry Skin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|inactive|Lena Nitro has 270 seconds left.
+|inactive|Argentide has 120 seconds left.
+|
+|t:|1643997839
+|move|p1a: Keldeo|Secret Sword|p2a: D.3.S. Frosch
+|-resisted|p2a: D.3.S. Frosch
+|-damage|p2a: D.3.S. Frosch|64/100
+|move|p2a: D.3.S. Frosch|Cross Chop|p1a: Keldeo|[miss]
+|-miss|p2a: D.3.S. Frosch|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: D.3.S. Frosch|76/100|[from] ability: Dry Skin
+|upkeep
+|turn|19
+|j| Dorli1D
+|inactive|Argentide has 90 seconds left.
+|inactive|Argentide has 60 seconds left.
+|
+|t:|1643997914
+|move|p1a: Keldeo|Secret Sword|p2a: D.3.S. Frosch
+|-resisted|p2a: D.3.S. Frosch
+|-damage|p2a: D.3.S. Frosch|44/100
+|move|p2a: D.3.S. Frosch|Cross Chop|p1a: Keldeo
+|-damage|p1a: Keldeo|23/100
+|-damage|p2a: D.3.S. Frosch|34/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: D.3.S. Frosch|47/100|[from] ability: Dry Skin
+|upkeep
+|turn|20
+|inactive|Lena Nitro has 240 seconds left.
+|j| el guapo loco
+|inactive|Lena Nitro has 210 seconds left.
+|
+|t:|1643997966
+|switch|p2a: Edward|Scizor, M, shiny|67/100
+|move|p1a: Keldeo|Secret Sword|p2a: Edward
+|-damage|p2a: Edward|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|l| Dorli1D
+|
+|t:|1643997977
+|switch|p1a: Scizor|Scizor, F|74/100
+|move|p2a: Edward|Bullet Punch|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|l| el guapo loco
+|inactive|Argentide has 30 seconds left.
+|
+|t:|1643997999
+|switch|p2a: toadally awesome|Politoed, F, shiny|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: toadally awesome
+|-resisted|p2a: toadally awesome
+|-damage|p2a: toadally awesome|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|inactive|Argentide has 30 seconds left.
+|
+|t:|1643998011
+|switch|p1a: Chansey|Chansey, F|14/100
+|move|p2a: toadally awesome|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Argentide has 30 seconds left this turn.
+|
+|t:|1643998017
+|switch|p1a: Keldeo|Keldeo|23/100
+|turn|24
+|
+|t:|1643998023
+|move|p1a: Keldeo|Hidden Power|p2a: toadally awesome
+|-supereffective|p2a: toadally awesome
+|-damage|p2a: toadally awesome|13/100
+|move|p2a: toadally awesome|Hydro Pump|p1a: Keldeo|[miss]
+|-miss|p2a: toadally awesome|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|inactive|Lena Nitro has 240 seconds left.
+|
+|t:|1643998030
+|move|p1a: Keldeo|Secret Sword|p2a: toadally awesome
+|-damage|p2a: toadally awesome|0 fnt
+|faint|p2a: toadally awesome
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Lena Nitro has 240 seconds left.
+|
+|t:|1643998055
+|switch|p2a: Calgon|Rotom-Wash, shiny|69/100
+|turn|26
+|
+|t:|1643998072
+|switch|p1a: Ditto|Ditto|70/100
+|-transform|p1a: Ditto|p2a: Calgon|[from] ability: Imposter
+|move|p2a: Calgon|Hydro Pump|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1643998086
+|move|p1a: Ditto|Hydro Pump|p2a: Calgon
+|-resisted|p2a: Calgon
+|-damage|p2a: Calgon|19/100
+|move|p2a: Calgon|Hydro Pump|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643998089
+|switch|p1a: Latias|Latias, F|32/100
+|turn|28
+|inactive|Lena Nitro has 240 seconds left.
+|
+|t:|1643998103
+|move|p2a: Calgon|Hydro Pump|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643998124
+|switch|p1a: Scizor|Scizor, F|48/100
+|turn|29
+|inactive|Lena Nitro has 240 seconds left.
+|
+|t:|1643998149
+|switch|p2a: D.3.S. Frosch|Toxicroak, M, shiny|47/100
+|move|p1a: Scizor|Bullet Punch|p2a: D.3.S. Frosch
+|-damage|p2a: D.3.S. Frosch|0 fnt
+|faint|p2a: D.3.S. Frosch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643998159
+|switch|p2a: FastScarfer|Thundurus-Therian, M, shiny|100/100
+|turn|30
+|
+|t:|1643998191
+|switch|p1a: Keldeo|Keldeo|23/100
+|move|p2a: FastScarfer|Agility|p2a: FastScarfer
+|-boost|p2a: FastScarfer|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1643998201
+|move|p2a: FastScarfer|Thunder|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643998207
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|32
+|
+|t:|1643998210
+|move|p2a: FastScarfer|Focus Blast|p1a: Excadrill|[miss]
+|-miss|p2a: FastScarfer|p1a: Excadrill
+|move|p1a: Excadrill|Rock Slide|p2a: FastScarfer
+|-supereffective|p2a: FastScarfer
+|-damage|p2a: FastScarfer|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: FastScarfer|31/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1643998221
+|move|p2a: FastScarfer|Focus Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: FastScarfer|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643998224
+|switch|p1a: Scizor|Scizor, F|48/100
+|turn|34
+|inactive|Lena Nitro has 270 seconds left.
+|
+|t:|1643998242
+|move|p1a: Scizor|Bullet Punch|p2a: FastScarfer
+|-resisted|p2a: FastScarfer
+|-damage|p2a: FastScarfer|0 fnt
+|faint|p2a: FastScarfer
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643998253
+|switch|p2a: Edward|Scizor, M, shiny|16/100
+|turn|35
+|
+|t:|1643998258
+|move|p2a: Edward|Bullet Punch|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|23/100
+|move|p1a: Scizor|Bullet Punch|p2a: Edward
+|-resisted|p2a: Edward
+|-damage|p2a: Edward|0 fnt
+|faint|p2a: Edward
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643998261
+|switch|p2a: Calgon|Rotom-Wash, shiny|19/100
+|turn|36
+|
+|t:|1643998266
+|move|p1a: Scizor|Bullet Punch|p2a: Calgon
+|-resisted|p2a: Calgon
+|-damage|p2a: Calgon|3/100
+|move|p2a: Calgon|Volt Switch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|Lena Nitro
+|c|☆Lena Nitro|gg
+|c|☆Argentide|gg
+|l| c3720
+|l| SenseiSese
+|l| wertco
+|l|☆Lena Nitro
+|j| QuantumGlobber
+|l| QuantumGlobber
+|j| QuantumGlobber
+|j| drfool

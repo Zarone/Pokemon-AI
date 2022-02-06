@@ -1,0 +1,330 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644097625
+|gametype|singles
+|player|p1|Padox|lady-gen4|
+|player|p2|QWILY|dawn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Alakazam, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Breloom, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Starmie|item
+|poke|p2|Scizor, M|item
+|teampreview
+|
+|t:|1644097654
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: DALLA A ALLA Z|Garchomp, M|100/100
+|turn|1
+|
+|t:|1644097667
+|move|p2a: DALLA A ALLA Z|Swords Dance|p2a: DALLA A ALLA Z
+|-boost|p2a: DALLA A ALLA Z|atk|2
+|move|p1a: Ferrothorn|Stealth Rock|p2a: DALLA A ALLA Z
+|-sidestart|p2: QWILY|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1644097676
+|move|p2a: DALLA A ALLA Z|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Padox|move: Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: DALLA A ALLA Z|[miss]
+|-miss|p1a: Ferrothorn|p2a: DALLA A ALLA Z
+|
+|upkeep
+|turn|3
+|
+|t:|1644097679
+|move|p2a: DALLA A ALLA Z|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100
+|move|p1a: Ferrothorn|Power Whip|p2a: DALLA A ALLA Z
+|-damage|p2a: DALLA A ALLA Z|62/100
+|-damage|p1a: Ferrothorn|10/100|[from] ability: Rough Skin|[of] p2a: DALLA A ALLA Z
+|
+|-heal|p1a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1644097688
+|move|p2a: DALLA A ALLA Z|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1644097692
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1644097699
+|move|p1a: Latios|Draco Meteor|p2a: DALLA A ALLA Z
+|-supereffective|p2a: DALLA A ALLA Z
+|-damage|p2a: DALLA A ALLA Z|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: DALLA A ALLA Z
+|
+|upkeep
+|
+|t:|1644097705
+|switch|p2a: CI PENSO DOPO|Starmie|100/100
+|-damage|p2a: CI PENSO DOPO|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1644097710
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: CI PENSO DOPO|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100
+|-sideend|p2: QWILY|Stealth Rock|[from] move: Rapid Spin|[of] p2a: CI PENSO DOPO
+|-damage|p2a: CI PENSO DOPO|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CI PENSO DOPO|72/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1644097720
+|move|p2a: CI PENSO DOPO|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|-damage|p2a: CI PENSO DOPO|62/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: CI PENSO DOPO
+|-sidestart|p2: QWILY|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CI PENSO DOPO|56/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1644097728
+|move|p2a: CI PENSO DOPO|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/100
+|-sideend|p2: QWILY|Stealth Rock|[from] move: Rapid Spin|[of] p2a: CI PENSO DOPO
+|-damage|p2a: CI PENSO DOPO|46/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stealth Rock|p2a: CI PENSO DOPO
+|-sidestart|p2: QWILY|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CI PENSO DOPO|40/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1644097734
+|move|p2a: CI PENSO DOPO|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2a: CI PENSO DOPO|30/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CI PENSO DOPO|24/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644097736
+|switch|p1a: Alakazam|Alakazam, M, shiny|100/100
+|turn|10
+|
+|t:|1644097750
+|switch|p2a: MI STAI SUL CAZZO|Scizor, M|100/100
+|-damage|p2a: MI STAI SUL CAZZO|88/100|[from] Stealth Rock
+|move|p1a: Alakazam|Signal Beam|p2a: MI STAI SUL CAZZO
+|-resisted|p2a: MI STAI SUL CAZZO
+|-damage|p2a: MI STAI SUL CAZZO|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1644097768
+|move|p1a: Alakazam|Psychic|p2a: MI STAI SUL CAZZO
+|-resisted|p2a: MI STAI SUL CAZZO
+|-damage|p2a: MI STAI SUL CAZZO|33/100
+|move|p2a: MI STAI SUL CAZZO|Swords Dance|p2a: MI STAI SUL CAZZO
+|-boost|p2a: MI STAI SUL CAZZO|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1644097774
+|move|p2a: MI STAI SUL CAZZO|Bullet Punch|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|-damage|p2a: MI STAI SUL CAZZO|24/100|[from] item: Life Orb
+|move|p1a: Alakazam|Psychic|p2a: MI STAI SUL CAZZO
+|-resisted|p2a: MI STAI SUL CAZZO
+|-damage|p2a: MI STAI SUL CAZZO|0 fnt
+|faint|p2a: MI STAI SUL CAZZO
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644097784
+|switch|p2a: STILI D'INSONNIA|Breloom, M|100/100
+|-damage|p2a: STILI D'INSONNIA|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1644097799
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|move|p2a: STILI D'INSONNIA|Mach Punch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|34/100|[from] Sandstorm
+|-damage|p2a: STILI D'INSONNIA|88/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1644097807
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: STILI D'INSONNIA|Mach Punch|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: STILI D'INSONNIA|82/100|[from] Sandstorm
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1644097816
+|switch|p2a: COME TE|Dragonite, M|100/100
+|-damage|p2a: COME TE|75/100|[from] Stealth Rock
+|move|p1a: Gliscor|Facade|p2a: COME TE
+|-damage|p2a: COME TE|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: COME TE|36/100|[from] Sandstorm
+|-heal|p1a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1644097824
+|move|p2a: COME TE|Outrage|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: COME TE|30/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644097833
+|switch|p1a: Alakazam|Alakazam, M, shiny|1/100
+|turn|17
+|
+|t:|1644097837
+|move|p1a: Alakazam|Psychic|p2a: COME TE
+|-damage|p2a: COME TE|0 fnt
+|faint|p2a: COME TE
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644097839
+|switch|p2a: STILI D'INSONNIA|Breloom, M|82/100
+|-damage|p2a: STILI D'INSONNIA|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1644097844
+|switch|p1a: Latios|Latios, M|34/100
+|-damage|p1a: Latios|21/100|[from] Stealth Rock
+|move|p2a: STILI D'INSONNIA|Mach Punch|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: STILI D'INSONNIA|70/100|[from] Sandstorm
+|upkeep
+|
+|t:|1644097846
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1644097854
+|move|p2a: STILI D'INSONNIA|Mach Punch|p1a: Rotom
+|-damage|p1a: Rotom|41/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: STILI D'INSONNIA
+|-status|p2a: STILI D'INSONNIA|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: STILI D'INSONNIA|64/100 brn|[from] Sandstorm
+|-damage|p1a: Rotom|35/100|[from] Sandstorm
+|-heal|p1a: Rotom|41/100|[from] item: Leftovers
+|-damage|p2a: STILI D'INSONNIA|51/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1644097876
+|switch|p2a: CI PENSO DOPO|Starmie|24/100
+|-damage|p2a: CI PENSO DOPO|12/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: CI PENSO DOPO
+|-supereffective|p2a: CI PENSO DOPO
+|-damage|p2a: CI PENSO DOPO|0 fnt
+|faint|p2a: CI PENSO DOPO
+|
+|t:|1644097881
+|switch|p1a: Alakazam|Alakazam, M, shiny|1/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644097883
+|switch|p2a: STILI D'INSONNIA|Breloom, M|51/100 brn
+|-damage|p2a: STILI D'INSONNIA|45/100 brn|[from] Stealth Rock
+|turn|21
+|
+|t:|1644097886
+|switch|p1a: Rotom|Rotom-Wash|41/100
+|-damage|p1a: Rotom|29/100|[from] Stealth Rock
+|move|p2a: STILI D'INSONNIA|Mach Punch|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: STILI D'INSONNIA|39/100 brn|[from] Sandstorm
+|-damage|p1a: Rotom|0 fnt|[from] Sandstorm
+|faint|p1a: Rotom
+|-damage|p2a: STILI D'INSONNIA|27/100 brn|[from] brn
+|upkeep
+|
+|t:|1644097891
+|switch|p1a: Alakazam|Alakazam, M, shiny|1/100
+|turn|22
+|
+|t:|1644097899
+|move|p2a: STILI D'INSONNIA|Mach Punch|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|QWILY

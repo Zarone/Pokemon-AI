@@ -1,0 +1,412 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641330326
+|gametype|singles
+|player|p1|Amukamara|cyclistf-gen4|
+|player|p2|Lily|unknownf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Slowking, F|item
+|poke|p1|Roserade, F|item
+|poke|p1|Rhyperior, F|item
+|poke|p1|Togekiss, M|item
+|poke|p1|Raikou|item
+|poke|p1|Mienshao, M|item
+|poke|p2|Sharpedo, M|item
+|poke|p2|Cofagrigus, M|item
+|poke|p2|Kingdra, M|item
+|poke|p2|Qwilfish, M|item
+|poke|p2|Cobalion|item
+|poke|p2|Mew|item
+|teampreview
+|c|+Iam Fakee|go liam
+|c|☆Amukamara|hf
+|c|☆Lily|hf
+|inactive|Amukamara has 270 seconds left.
+|inactive|Lily has 270 seconds left.
+|inactive|Lily has 240 seconds left.
+|
+|t:|1641330387
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: antivist|Qwilfish, M|100/100
+|-ability|p1a: Raikou|Pressure
+|-ability|p2a: antivist|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|turn|1
+|c|+ALlCE|the lilburr show
+|
+|t:|1641330391
+|move|p1a: Raikou|Thunderbolt|p2a: antivist
+|-supereffective|p2a: antivist
+|-enditem|p2a: antivist|Focus Sash
+|-damage|p2a: antivist|1/100
+|move|p2a: antivist|Thunder Wave|p1a: Raikou
+|-status|p1a: Raikou|par
+|
+|upkeep
+|turn|2
+|
+|t:|1641330395
+|move|p2a: antivist|Spikes|p1a: Raikou
+|-sidestart|p1: Amukamara|Spikes
+|move|p1a: Raikou|Thunderbolt|p2a: antivist
+|-supereffective|p2a: antivist
+|-damage|p2a: antivist|0 fnt
+|faint|p2a: antivist
+|
+|upkeep
+|inactive|Lily has 270 seconds left.
+|
+|t:|1641330433
+|switch|p2a: empire|Cobalion|100/100
+|turn|3
+|
+|t:|1641330442
+|move|p2a: empire|Stealth Rock|p1a: Raikou
+|-sidestart|p1: Amukamara|move: Stealth Rock
+|cant|p1a: Raikou|par
+|
+|upkeep
+|turn|4
+|
+|t:|1641330447
+|move|p2a: empire|Swords Dance|p2a: empire
+|-boost|p2a: empire|atk|2
+|move|p1a: Raikou|Thunderbolt|p2a: empire
+|-damage|p2a: empire|36/100
+|
+|upkeep
+|turn|5
+|
+|t:|1641330454
+|switch|p1a: Slowking|Slowking, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|-damage|p1a: Slowking|76/100|[from] Stealth Rock
+|move|p2a: empire|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|-unboost|p2a: empire|def|1
+|-unboost|p2a: empire|spd|1
+|
+|-heal|p1a: Slowking|47/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1641330459
+|move|p2a: empire|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|11/100
+|-unboost|p2a: empire|def|1
+|-unboost|p2a: empire|spd|1
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|61/100
+|
+|-heal|p1a: Slowking|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1641330465
+|move|p2a: empire|Swords Dance|p2a: empire
+|-boost|p2a: empire|atk|2
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1641330485
+|move|p2a: empire|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|-unboost|p2a: empire|def|1
+|-unboost|p2a: empire|spd|1
+|move|p1a: Slowking|Scald|p2a: empire
+|-damage|p2a: empire|0 fnt
+|faint|p2a: empire
+|
+|-heal|p1a: Slowking|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641330500
+|switch|p2a: deathbeds|Sharpedo, M|100/100
+|turn|9
+|
+|t:|1641330509
+|switch|p1a: Raikou|Raikou|100/100 par
+|-damage|p1a: Raikou|88/100 par|[from] Stealth Rock
+|-damage|p1a: Raikou|76/100 par|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|move|p2a: deathbeds|Crunch|p1a: Raikou
+|-damage|p1a: Raikou|2/100 par
+|-unboost|p1a: Raikou|def|1
+|-damage|p2a: deathbeds|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Raikou|9/100 par|[from] item: Leftovers
+|-ability|p2a: deathbeds|Speed Boost|boost
+|-boost|p2a: deathbeds|spe|1
+|upkeep
+|turn|10
+|
+|t:|1641330514
+|move|p1a: Raikou|Protect|p1a: Raikou
+|-singleturn|p1a: Raikou|Protect
+|move|p2a: deathbeds|Crunch|p1a: Raikou
+|-activate|p1a: Raikou|move: Protect
+|
+|-heal|p1a: Raikou|15/100 par|[from] item: Leftovers
+|-ability|p2a: deathbeds|Speed Boost|boost
+|-boost|p2a: deathbeds|spe|1
+|upkeep
+|turn|11
+|
+|t:|1641330516
+|move|p2a: deathbeds|Crunch|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|-damage|p2a: deathbeds|81/100|[from] item: Life Orb
+|
+|-ability|p2a: deathbeds|Speed Boost|boost
+|-boost|p2a: deathbeds|spe|1
+|upkeep
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1641330565
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1641330570
+|switch|p2a: sleepwalking|Mew|100/100
+|move|p1a: Togekiss|Tri Attack|p2a: sleepwalking
+|-damage|p2a: sleepwalking|46/100
+|
+|-heal|p2a: sleepwalking|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1641330576
+|move|p2a: sleepwalking|Psychic|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: sleepwalking|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641330602
+|switch|p1a: Slowking|Slowking, F|90/100
+|-damage|p1a: Slowking|77/100|[from] Spikes
+|-damage|p1a: Slowking|65/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1641330617
+|switch|p2a: hospital for souls|Cofagrigus, M|100/100
+|move|p1a: Slowking|Thunder Wave|p2a: hospital for souls
+|-status|p2a: hospital for souls|par
+|
+|-heal|p1a: Slowking|71/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1641330623
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|-damage|p1a: Roserade|76/100|[from] Spikes
+|cant|p2a: hospital for souls|par
+|
+|-heal|p1a: Roserade|82/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1641330627
+|move|p1a: Roserade|Spikes|p2a: hospital for souls
+|-sidestart|p2: Lily|Spikes
+|move|p2a: hospital for souls|Shadow Ball|p1a: Roserade
+|-damage|p1a: Roserade|50/100
+|
+|-heal|p1a: Roserade|56/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|Amukamara has 270 seconds left.
+|
+|t:|1641330633
+|move|p1a: Roserade|Spikes|p2a: hospital for souls
+|-sidestart|p2: Lily|Spikes
+|cant|p2a: hospital for souls|par
+|
+|-heal|p1a: Roserade|62/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1641330637
+|move|p1a: Roserade|Spikes|p2a: hospital for souls
+|-sidestart|p2: Lily|Spikes
+|move|p2a: hospital for souls|Nasty Plot|p2a: hospital for souls
+|-boost|p2a: hospital for souls|spa|2
+|
+|-heal|p1a: Roserade|68/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1641330640
+|move|p1a: Roserade|Giga Drain|p2a: hospital for souls
+|-damage|p2a: hospital for souls|64/100 par
+|-heal|p1a: Roserade|86/100|[from] drain|[of] p2a: hospital for souls
+|cant|p2a: hospital for souls|par
+|
+|-heal|p1a: Roserade|92/100|[from] item: Black Sludge
+|-heal|p2a: hospital for souls|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1641330643
+|move|p1a: Roserade|Giga Drain|p2a: hospital for souls
+|-damage|p2a: hospital for souls|33/100 par
+|-heal|p1a: Roserade|100/100|[from] drain|[of] p2a: hospital for souls
+|move|p2a: hospital for souls|Shadow Ball|p1a: Roserade
+|-damage|p1a: Roserade|33/100
+|
+|-heal|p1a: Roserade|39/100|[from] item: Black Sludge
+|-heal|p2a: hospital for souls|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1641330646
+|move|p1a: Roserade|Giga Drain|p2a: hospital for souls
+|-damage|p2a: hospital for souls|0 fnt
+|-heal|p1a: Roserade|58/100|[from] drain|[of] p2a: hospital for souls
+|faint|p2a: hospital for souls
+|
+|-heal|p1a: Roserade|64/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1641330667
+|switch|p2a: shadow moses|Kingdra, M|100/100
+|-damage|p2a: shadow moses|76/100|[from] Spikes
+|turn|22
+|
+|t:|1641330671
+|switch|p1a: Slowking|Slowking, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|-damage|p1a: Slowking|76/100|[from] Stealth Rock
+|move|p2a: shadow moses|Dragon Dance|p2a: shadow moses
+|-boost|p2a: shadow moses|atk|1
+|-boost|p2a: shadow moses|spe|1
+|
+|-heal|p2a: shadow moses|82/100|[from] item: Leftovers
+|-heal|p1a: Slowking|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1641330674
+|move|p2a: shadow moses|Outrage|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|move|p1a: Slowking|Dragon Tail|p2a: shadow moses|[miss]
+|-miss|p1a: Slowking|p2a: shadow moses
+|
+|-heal|p2a: shadow moses|88/100|[from] item: Leftovers
+|-heal|p1a: Slowking|35/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|+Iam Fakee|.
+|
+|t:|1641330690
+|switch|p1a: Roserade|Roserade, F|64/100
+|-damage|p1a: Roserade|52/100|[from] Spikes
+|-damage|p1a: Roserade|39/100|[from] Stealth Rock
+|move|p2a: shadow moses|Outrage|p1a: Roserade|[from]lockedmove
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|-start|p2a: shadow moses|confusion|[fatigue]
+|
+|-heal|p2a: shadow moses|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641330692
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|-damage|p1a: Mienshao|88/100|[from] Spikes
+|-damage|p1a: Mienshao|82/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1641330700
+|move|p1a: Mienshao|U-turn|p2a: shadow moses
+|-damage|p2a: shadow moses|63/100
+|
+|t:|1641330702
+|switch|p1a: Rhyperior|Rhyperior, F|100/100|[from]move: U-turn
+|-damage|p1a: Rhyperior|88/100|[from] Spikes
+|-damage|p1a: Rhyperior|82/100|[from] Stealth Rock
+|-activate|p2a: shadow moses|confusion
+|-damage|p2a: shadow moses|43/100|[from] confusion
+|
+|-heal|p2a: shadow moses|49/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|+ALlCE|shadow moses island
+|
+|t:|1641330709
+|-end|p2a: shadow moses|confusion
+|move|p2a: shadow moses|Dragon Dance|p2a: shadow moses
+|-boost|p2a: shadow moses|atk|1
+|-boost|p2a: shadow moses|spe|1
+|move|p1a: Rhyperior|Stealth Rock|p2a: shadow moses
+|-sidestart|p2: Lily|move: Stealth Rock
+|
+|-heal|p2a: shadow moses|55/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|+ALlCE|h  
+|
+|t:|1641330718
+|move|p2a: shadow moses|Waterfall|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: shadow moses|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641330722
+|switch|p1a: Slowking|Slowking, F|68/100
+|-damage|p1a: Slowking|56/100|[from] Stealth Rock
+|-damage|p1a: Slowking|43/100|[from] Spikes
+|turn|28
+|
+|t:|1641330746
+|move|p2a: shadow moses|Outrage|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: shadow moses|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641330748
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|-damage|p1a: Mienshao|82/100|[from] Spikes
+|turn|29
+|
+|t:|1641330751
+|move|p2a: shadow moses|Outrage|p1a: Mienshao|[from]lockedmove
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|win|Lily
+|c|☆Lily|sry about this 
+|c|☆Lily|gg
+|c|☆Amukamara|gg

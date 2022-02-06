@@ -1,0 +1,270 @@
+|j|☆minozz
+|j|☆jahmille118
+|t:|1642308314
+|gametype|singles
+|player|p1|minozz|2|1000
+|player|p2|jahmille118|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Solrock|item
+|poke|p1|Slaking, F|item
+|poke|p1|Ursaring, M|item
+|poke|p1|Braviary, M|item
+|poke|p1|Armaldo, M|item
+|poke|p1|Tangela, M|item
+|poke|p2|Victreebel, M|item
+|poke|p2|Leafeon, F|item
+|poke|p2|Liepard, F|item
+|poke|p2|Sawsbuck, F|item
+|poke|p2|Camerupt, F|item
+|poke|p2|Golem, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minozz)
+|
+|t:|1642308329
+|start
+|switch|p1a: Armaldo|Armaldo, M|100/100
+|switch|p2a: Golem|Golem, F|100/100
+|turn|1
+|
+|t:|1642308339
+|move|p2a: Golem|Rock Polish|p2a: Golem
+|-boost|p2a: Golem|spe|2
+|move|p1a: Armaldo|Stealth Rock|p2a: Golem
+|-sidestart|p2: jahmille118|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1642308345
+|move|p2a: Golem|Rock Slide|p1a: Armaldo
+|-supereffective|p1a: Armaldo
+|-damage|p1a: Armaldo|49/100
+|move|p1a: Armaldo|X-Scissor|p2a: Golem
+|-damage|p2a: Golem|71/100
+|
+|-heal|p1a: Armaldo|55/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1642308355
+|switch|p1a: Tangela|Tangela, M|100/100
+|move|p2a: Golem|Rock Slide|p1a: Tangela
+|-damage|p1a: Tangela|82/100
+|
+|upkeep
+|turn|4
+|
+|t:|1642308363
+|move|p2a: Golem|Fire Punch|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|56/100
+|move|p1a: Tangela|Knock Off|p2a: Golem
+|-damage|p2a: Golem|68/100
+|-enditem|p2a: Golem|Rindo Berry|[from] move: Knock Off|[of] p1a: Tangela
+|
+|upkeep
+|turn|5
+|
+|t:|1642308378
+|switch|p2a: Victreebel|Victreebel, M|100/100
+|-damage|p2a: Victreebel|88/100|[from] Stealth Rock
+|move|p1a: Tangela|Giga Drain|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|75/100
+|-heal|p1a: Tangela|62/100|[from] drain|[of] p2a: Victreebel
+|
+|upkeep
+|turn|6
+|
+|t:|1642308386
+|move|p2a: Victreebel|Sunny Day|p2a: Victreebel
+|-weather|SunnyDay
+|move|p1a: Tangela|Hidden Power|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1642308398
+|move|p2a: Victreebel|Sludge Bomb|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|-damage|p2a: Victreebel|0 fnt|[from] item: Life Orb
+|faint|p2a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|minozz has 120 seconds left.
+|inactive|jahmille118 has 120 seconds left.
+|
+|t:|1642308436
+|switch|p2a: Golem|Golem, F|68/100
+|switch|p1a: Solrock|Solrock|100/100
+|-damage|p2a: Golem|62/100|[from] Stealth Rock
+|turn|8
+|inactive|jahmille118 has 120 seconds left.
+|
+|t:|1642308444
+|move|p2a: Golem|Sucker Punch|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|30/100
+|move|p1a: Solrock|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-crit|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|-damage|p1a: Solrock|20/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|jahmille118 has 120 seconds left.
+|
+|t:|1642308453
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|-damage|p2a: Leafeon|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1642308458
+|move|p2a: Leafeon|Leaf Blade|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|0 fnt
+|faint|p1a: Solrock
+|-damage|p2a: Leafeon|78/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642308466
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|10
+|
+|t:|1642308474
+|move|p2a: Leafeon|Facade|p1a: Braviary
+|-damage|p1a: Braviary|63/100
+|-damage|p2a: Leafeon|68/100|[from] item: Life Orb
+|move|p1a: Braviary|Brave Bird|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|-damage|p1a: Braviary|45/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1642308484
+|switch|p2a: Liepard|Liepard, F|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1642308488
+|switch|p1a: Armaldo|Armaldo, M|55/100
+|move|p2a: Liepard|Fake Out|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|51/100
+|
+|-heal|p1a: Armaldo|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1642308501
+|move|p2a: Liepard|Sunny Day|p2a: Liepard
+|-weather|SunnyDay
+|move|p1a: Armaldo|X-Scissor|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Armaldo|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1642308509
+|switch|p2a: Camerupt|Camerupt, F|100/100
+|-damage|p2a: Camerupt|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1642308520
+|move|p2a: Camerupt|Rock Polish|p2a: Camerupt
+|-boost|p2a: Camerupt|spe|2
+|move|p1a: Armaldo|Rock Slide|p2a: Camerupt
+|-damage|p2a: Camerupt|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Armaldo|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1642308531
+|move|p2a: Camerupt|Flamethrower|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642308550
+|switch|p1a: Braviary|Braviary, M|45/100
+|turn|15
+|
+|t:|1642308557
+|move|p1a: Braviary|Brave Bird|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|-damage|p1a: Braviary|35/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642308563
+|switch|p2a: Sawsbuck|Sawsbuck, F|100/100
+|-damage|p2a: Sawsbuck|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1642308566
+|move|p2a: Sawsbuck|Wild Charge|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|-damage|p2a: Sawsbuck|78/100|[from] Recoil
+|-damage|p2a: Sawsbuck|68/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1642308576
+|switch|p1a: Slaking|Slaking, F|100/100
+|turn|17
+|
+|t:|1642308579
+|move|p2a: Sawsbuck|Double Kick|p1a: Slaking
+|-supereffective|p1a: Slaking
+|-damage|p1a: Slaking|82/100
+|-supereffective|p1a: Slaking
+|-damage|p1a: Slaking|61/100
+|-hitcount|p1a: Slaking|2
+|-damage|p2a: Sawsbuck|58/100|[from] item: Life Orb
+|move|p1a: Slaking|Return|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|win|minozz
+|raw|minozz's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|jahmille118's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

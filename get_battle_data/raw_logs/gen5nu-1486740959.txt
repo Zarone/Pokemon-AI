@@ -1,0 +1,342 @@
+|j|☆it is i DI0
+|j|☆FlyingMaster-Mew
+|t:|1641513672
+|gametype|singles
+|player|p1|it is i DI0|dragontamer|1105
+|player|p2|FlyingMaster-Mew|2|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, F|item
+|poke|p1|Charizard, F|item
+|poke|p1|Pinsir, F|item
+|poke|p1|Zangoose, M|item
+|poke|p1|Tauros, M|item
+|poke|p1|Sawk, M|item
+|poke|p2|Wartortle, M|item
+|poke|p2|Ivysaur, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Regirock|item
+|poke|p2|Sawsbuck, F|item
+|poke|p2|Alomomola, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by it is i DI0)
+|c|☆FlyingMaster-Mew|glhf
+|
+|t:|1641513691
+|start
+|switch|p1a: Tauros|Tauros, M|100/100
+|switch|p2a: Regirock|Regirock|100/100
+|turn|1
+|c|☆it is i DI0|glhf
+|inactive|FlyingMaster-Mew has 120 seconds left.
+|
+|t:|1641513728
+|switch|p1a: Sawk|Sawk, M|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|move|p2a: Regirock|Stealth Rock|p1a: Sawk
+|-sidestart|p1: it is i DI0|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1641513735
+|move|p1a: Sawk|Close Combat|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|45/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|move|p2a: Regirock|Sunny Day|p2a: Regirock
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|FlyingMaster-Mew has 120 seconds left.
+|
+|t:|1641513758
+|switch|p2a: Ivysaur|Ivysaur, M|100/100
+|move|p1a: Sawk|Close Combat|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|70/100
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|FlyingMaster-Mew has 120 seconds left.
+|
+|t:|1641513769
+|move|p2a: Ivysaur|Sleep Powder|p1a: Sawk
+|-status|p1a: Sawk|slp|[from] move: Sleep Powder
+|cant|p1a: Sawk|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|FlyingMaster-Mew has 120 seconds left.
+|
+|t:|1641513781
+|move|p2a: Ivysaur|Growth|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|-boost|p2a: Ivysaur|spa|2
+|-curestatus|p1a: Sawk|slp|[msg]
+|move|p1a: Sawk|Fire Punch|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|FlyingMaster-Mew has 120 seconds left.
+|c|☆FlyingMaster-Mew|oof thought you were choiced
+|
+|t:|1641513798
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|6
+|
+|t:|1641513809
+|switch|p1a: Alomomola|Alomomola, F, shiny|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Air Slash|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|7
+|
+|t:|1641513818
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Charizard|Air Slash|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|8
+|
+|t:|1641513833
+|switch|p1a: Tauros|Tauros, M|100/100
+|-damage|p1a: Tauros|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Air Slash|p1a: Tauros
+|-damage|p1a: Tauros|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|63/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|9
+|
+|t:|1641513842
+|move|p2a: Charizard|Air Slash|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-weather|none
+|upkeep
+|
+|t:|1641513849
+|switch|p1a: Pinsir|Pinsir, F|100/100
+|-damage|p1a: Pinsir|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1641513874
+|move|p2a: Charizard|Air Slash|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|
+|t:|1641513890
+|switch|p1a: Zangoose|Zangoose, M|100/100
+|-damage|p1a: Zangoose|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1641513898
+|switch|p2a: Regirock|Regirock|45/100
+|move|p1a: Zangoose|Facade|p2a: Regirock
+|-resisted|p2a: Regirock
+|-damage|p2a: Regirock|38/100
+|
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1641513909
+|move|p1a: Zangoose|Close Combat|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|faint|p2a: Regirock
+|
+|-damage|p1a: Zangoose|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1641513920
+|switch|p2a: Charizard|Charizard, M|63/100
+|turn|13
+|
+|t:|1641513926
+|move|p1a: Zangoose|Quick Attack|p2a: Charizard
+|-damage|p2a: Charizard|20/100
+|move|p2a: Charizard|Flamethrower|p1a: Zangoose
+|-crit|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|faint|p1a: Zangoose
+|
+|upkeep
+|
+|t:|1641513933
+|switch|p1a: Alomomola|Alomomola, F, shiny|58/100
+|-damage|p1a: Alomomola|46/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1641513938
+|switch|p2a: Sawsbuck|Sawsbuck, F|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|15
+|
+|t:|1641513943
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Sawsbuck|Return|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|96/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|16
+|
+|t:|1641513952
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|move|p1a: Alomomola|Scald|p2a: Sawsbuck
+|-resisted|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|91/100
+|
+|upkeep
+|turn|17
+|
+|t:|1641513960
+|move|p2a: Sawsbuck|Return|p1a: Alomomola
+|-damage|p1a: Alomomola|29/100
+|-damage|p2a: Sawsbuck|74/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Sawsbuck|64/100|[from] item: Life Orb
+|move|p1a: Alomomola|Scald|p2a: Sawsbuck
+|-resisted|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|54/100
+|
+|upkeep
+|turn|18
+|
+|t:|1641513971
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Sawsbuck|Horn Leech|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|19
+|
+|t:|1641513977
+|switch|p1a: Charizard|Charizard, F, shiny|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|move|p2a: Sawsbuck|Return|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Sawsbuck|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1641513986
+|switch|p1a: Sawk|Sawk, M|100/100
+|-damage|p1a: Sawk|94/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|20
+|
+|t:|1641513993
+|move|p1a: Sawk|Fire Punch|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|upkeep
+|
+|t:|1641513997
+|switch|p2a: Charizard|Charizard, M|20/100
+|turn|21
+|
+|t:|1641514004
+|move|p2a: Charizard|Air Slash|p1a: Sawk
+|-supereffective|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|upkeep
+|
+|t:|1641514008
+|switch|p1a: Alomomola|Alomomola, F, shiny|63/100
+|-damage|p1a: Alomomola|50/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1641514014
+|switch|p2a: Wartortle|Wartortle, M|100/100
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|upkeep
+|turn|23
+|
+|t:|1641514019
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Wartortle|Toxic|p1a: Alomomola|[miss]
+|-miss|p2a: Wartortle|p1a: Alomomola
+|
+|upkeep
+|turn|24
+|
+|t:|1641514024
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Wartortle|Toxic|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|99/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|25
+|
+|t:|1641514031
+|move|p1a: Alomomola|Toxic|p2a: Wartortle|[miss]
+|-miss|p1a: Alomomola|p2a: Wartortle
+|move|p2a: Wartortle|Toxic|p1a: Alomomola
+|-status|p1a: Alomomola|tox
+|
+|-damage|p1a: Alomomola|94/100 tox|[from] psn
+|upkeep
+|turn|26
+|-message|it is i DI0 forfeited.
+|
+|win|FlyingMaster-Mew
+|raw|it is i DI0's rating: 1105 &rarr; <strong>1083</strong><br />(-22 for losing)
+|raw|FlyingMaster-Mew's rating: 1145 &rarr; <strong>1167</strong><br />(+22 for winning)
+|l|☆it is i DI0
+|c|☆FlyingMaster-Mew|ggwp
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,647 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643475027
+|gametype|singles
+|player|p1|Finchinator|#finchinator|
+|player|p2|johnny rapidspin|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Druddigon, F|item
+|poke|p1|Ferroseed, F|item
+|poke|p1|Flygon, M|item
+|poke|p1|Cofagrigus, M|item
+|poke|p1|Raikou|item
+|poke|p1|Suicune|item
+|poke|p2|Mew|item
+|poke|p2|Blastoise, M|item
+|poke|p2|Ferroseed, F|item
+|poke|p2|Gligar, M|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Raikou|item
+|teampreview
+|c|☆Finchinator|hf
+|c|☆johnny rapidspin|hf
+|
+|t:|1643475053
+|start
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1643475057
+|move|p2a: Togekiss|Air Slash|p1a: Druddigon
+|-damage|p1a: Druddigon|31/100
+|move|p1a: Druddigon|Stealth Rock|p2a: Togekiss
+|-sidestart|p2: johnny rapidspin|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643475060
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Togekiss|Air Slash|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|70/100
+|
+|upkeep
+|turn|3
+|
+|t:|1643475067
+|move|p1a: Raikou|Volt Switch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|30/100
+|
+|t:|1643475070
+|switch|p1a: Suicune|Suicune|100/100|[from]move: Volt Switch
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Togekiss|Air Slash|p1a: Suicune
+|-damage|p1a: Suicune|53/100
+|
+|-heal|p1a: Suicune|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643475075
+|move|p1a: Suicune|Scald|p2a: Togekiss
+|-damage|p2a: Togekiss|7/100
+|move|p2a: Togekiss|Air Slash|p1a: Suicune
+|-damage|p1a: Suicune|11/100
+|
+|-heal|p1a: Suicune|18/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1643475089
+|switch|p2a: Raikou|Raikou|100/100
+|-damage|p2a: Raikou|88/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Suicune|Scald|p2a: Raikou
+|-damage|p2a: Raikou|63/100
+|
+|-heal|p1a: Suicune|24/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643475096
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Raikou|Extrasensory|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643475101
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|move|p2a: Raikou|Volt Switch|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|89/100
+|
+|t:|1643475112
+|switch|p2a: Mew|Mew|100/100|[from]move: Volt Switch
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643475116
+|move|p2a: Mew|Taunt|p1a: Ferroseed
+|-start|p1a: Ferroseed|move: Taunt
+|cant|p1a: Ferroseed|move: Taunt|Spikes
+|
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643475120
+|switch|p1a: Raikou|Raikou|70/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Mew|Will-O-Wisp|p1a: Raikou
+|-status|p1a: Raikou|brn
+|
+|-damage|p1a: Raikou|57/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1643475124
+|move|p2a: Mew|Soft-Boiled||[still]
+|-fail|p2a: Mew|heal
+|move|p1a: Raikou|Roar|p2a: Mew
+|drag|p2a: Ferroseed|Ferroseed, F|100/100
+|-damage|p2a: Ferroseed|94/100|[from] Stealth Rock
+|
+|-damage|p1a: Raikou|45/100 brn|[from] brn
+|upkeep
+|-enditem|p1a: Raikou|Sitrus Berry|[eat]
+|-heal|p1a: Raikou|70/100 brn|[from] item: Sitrus Berry
+|turn|11
+|
+|t:|1643475128
+|move|p1a: Raikou|Volt Switch|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|81/100
+|
+|t:|1643475129
+|switch|p1a: Suicune|Suicune|30/100|[from]move: Volt Switch
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Ferroseed|Spikes|p1a: Suicune
+|-sidestart|p1: Finchinator|Spikes
+|
+|-heal|p1a: Suicune|36/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643475136
+|switch|p2a: Raikou|Raikou|63/100
+|-damage|p2a: Raikou|50/100|[from] Stealth Rock
+|-ability|p2a: Raikou|Pressure
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|11/100
+|
+|-heal|p1a: Suicune|17/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1643475140
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Raikou|Thunderbolt|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|24/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1643475142
+|move|p2a: Raikou|Thunderbolt|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-end|p1a: Suicune|Substitute
+|move|p1a: Suicune|Scald|p2a: Raikou
+|-damage|p2a: Raikou|23/100
+|
+|-heal|p1a: Suicune|30/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1643475146
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Raikou|Thunderbolt|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|36/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1643475150
+|switch|p1a: Ferroseed|Ferroseed, F|89/100
+|-damage|p1a: Ferroseed|76/100|[from] Spikes
+|move|p2a: Raikou|Volt Switch|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|53/100
+|
+|t:|1643475153
+|switch|p2a: Ferroseed|Ferroseed, F|81/100|[from]move: Volt Switch
+|-damage|p2a: Ferroseed|75/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1643475158
+|move|p1a: Ferroseed|Spikes|p2a: Ferroseed
+|-sidestart|p2: johnny rapidspin|Spikes
+|move|p2a: Ferroseed|Leech Seed|p1a: Ferroseed
+|-immune|p1a: Ferroseed
+|
+|upkeep
+|turn|18
+|
+|t:|1643475161
+|switch|p1a: Druddigon|Druddigon, F|31/100
+|-damage|p1a: Druddigon|19/100|[from] Spikes
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Ferroseed|Spikes|p1a: Druddigon
+|-sidestart|p1: Finchinator|Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1643475172
+|switch|p2a: Togekiss|Togekiss, M|7/100
+|-damage|p2a: Togekiss|0 fnt|[from] Stealth Rock
+|faint|p2a: Togekiss
+|move|p1a: Druddigon|Fire Punch|p2: Togekiss|[notarget]
+|-fail|p1a: Druddigon
+|
+|upkeep
+|
+|t:|1643475175
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Spikes
+|-damage|p2a: Mew|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1643475180
+|move|p2a: Mew|Psychic|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-heal|p2a: Mew|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643475183
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|-damage|p1a: Cofagrigus|84/100|[from] Spikes
+|turn|21
+|
+|t:|1643475197
+|move|p2a: Mew|Psychic|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|51/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|38/100
+|-unboost|p2a: Mew|spd|1
+|
+|-heal|p2a: Mew|44/100|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1643475204
+|switch|p2a: Ferroseed|Ferroseed, F|75/100
+|-damage|p2a: Ferroseed|69/100|[from] Stealth Rock
+|-damage|p2a: Ferroseed|56/100|[from] Spikes
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|42/100
+|
+|-heal|p1a: Cofagrigus|64/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1643475208
+|switch|p1a: Ferroseed|Ferroseed, F|53/100
+|-damage|p1a: Ferroseed|36/100|[from] Spikes
+|move|p2a: Ferroseed|Leech Seed|p1a: Ferroseed
+|-immune|p1a: Ferroseed
+|
+|upkeep
+|turn|24
+|
+|t:|1643475212
+|move|p1a: Ferroseed|Spikes|p2a: Ferroseed
+|-sidestart|p2: johnny rapidspin|Spikes
+|move|p2a: Ferroseed|Spikes|p1a: Ferroseed
+|-sidestart|p1: Finchinator|Spikes
+|
+|upkeep
+|turn|25
+|
+|t:|1643475216
+|switch|p2a: Gligar|Gligar, M|100/100
+|-damage|p2a: Gligar|88/100|[from] Stealth Rock
+|move|p1a: Ferroseed|Leech Seed|p2a: Gligar
+|-start|p2a: Gligar|move: Leech Seed
+|
+|-damage|p2a: Gligar|76/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|50/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1643475222
+|switch|p1a: Suicune|Suicune|36/100
+|-damage|p1a: Suicune|11/100|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Gligar|Stealth Rock|p1a: Suicune
+|-sidestart|p1: Finchinator|move: Stealth Rock
+|
+|-heal|p1a: Suicune|17/100|[from] item: Leftovers
+|-damage|p2a: Gligar|64/100|[from] Leech Seed|[of] p1a: Suicune
+|-heal|p1a: Suicune|27/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1643475232
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|84/100|[from] Spikes
+|-damage|p2a: Blastoise|72/100|[from] Stealth Rock
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|2/100
+|
+|-heal|p1a: Suicune|8/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1643475235
+|switch|p1a: Cofagrigus|Cofagrigus, M|64/100
+|-damage|p1a: Cofagrigus|51/100|[from] Stealth Rock
+|-damage|p1a: Cofagrigus|26/100|[from] Spikes
+|move|p2a: Blastoise|Rapid Spin|p1a: Cofagrigus
+|-immune|p1a: Cofagrigus
+|
+|-heal|p1a: Cofagrigus|32/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1643475242
+|switch|p2a: Gligar|Gligar, M|64/100
+|-damage|p2a: Gligar|51/100|[from] Stealth Rock
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Gligar
+|-damage|p2a: Gligar|15/100
+|
+|-heal|p1a: Cofagrigus|39/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1643475248
+|switch|p1a: Raikou|Raikou|70/100 brn
+|-damage|p1a: Raikou|57/100 brn|[from] Stealth Rock
+|-damage|p1a: Raikou|32/100 brn|[from] Spikes
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|65/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|-damage|p1a: Raikou|20/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1643475252
+|switch|p2a: Ferroseed|Ferroseed, F|42/100
+|-damage|p2a: Ferroseed|36/100|[from] Stealth Rock
+|-damage|p2a: Ferroseed|19/100|[from] Spikes
+|move|p1a: Raikou|Roar|p2a: Ferroseed
+|drag|p2a: Mew|Mew|44/100
+|-damage|p2a: Mew|32/100|[from] Stealth Rock
+|-damage|p2a: Mew|15/100|[from] Spikes
+|
+|-heal|p2a: Mew|22/100|[from] item: Leftovers
+|-damage|p1a: Raikou|7/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1643475256
+|switch|p2a: Ferroseed|Ferroseed, F|19/100
+|-damage|p2a: Ferroseed|13/100|[from] Stealth Rock
+|-damage|p2a: Ferroseed|0 fnt|[from] Spikes
+|faint|p2a: Ferroseed
+|move|p1a: Raikou|Thunderbolt|p2: Ferroseed|[notarget]
+|-fail|p1a: Raikou
+|
+|-damage|p1a: Raikou|0 fnt|[from] brn
+|faint|p1a: Raikou
+|upkeep
+|
+|t:|1643475269
+|switch|p1a: Suicune|Suicune|8/100
+|switch|p2a: Gligar|Gligar, M|65/100
+|-damage|p1a: Suicune|0 fnt|[from] Stealth Rock
+|faint|p1a: Suicune
+|-damage|p2a: Gligar|53/100|[from] Stealth Rock
+|
+|t:|1643475272
+|switch|p1a: Ferroseed|Ferroseed, F|50/100
+|-damage|p1a: Ferroseed|25/100|[from] Spikes
+|-damage|p1a: Ferroseed|19/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1643475276
+|move|p2a: Gligar|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|faint|p1a: Ferroseed
+|
+|upkeep
+|
+|t:|1643475298
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1643475317
+|move|p1a: Flygon|Outrage|p2a: Gligar
+|-damage|p2a: Gligar|28/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|78/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|35
+|
+|t:|1643475321
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-crit|p2a: Gligar
+|-damage|p2a: Gligar|25/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|75/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|36
+|
+|t:|1643475324
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|77/100|[from] confusion
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|37
+|
+|t:|1643475329
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar
+|-damage|p2a: Gligar|75/100
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|38
+|
+|t:|1643475332
+|-end|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-damage|p2a: Gligar|51/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|39
+|
+|t:|1643475337
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|60/100|[from] confusion
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|40
+|
+|t:|1643475344
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar
+|-damage|p2a: Gligar|75/100
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|41
+|
+|t:|1643475347
+|-end|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-crit|p2a: Gligar
+|-damage|p2a: Gligar|20/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|70/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|42
+|
+|t:|1643475351
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-damage|p2a: Gligar|46/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|96/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|43
+|
+|t:|1643475360
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|45/100|[from] confusion
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|44
+|
+|t:|1643475362
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar
+|-damage|p2a: Gligar|69/100
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|45
+|
+|t:|1643475364
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|29/100|[from] confusion
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|46
+|
+|t:|1643475366
+|-end|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar
+|-damage|p2a: Gligar|74/100
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|47
+|
+|t:|1643475369
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-damage|p2a: Gligar|49/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|99/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|48
+|
+|t:|1643475373
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-damage|p2a: Gligar|73/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Gligar|Stealth Rock||[still]
+|-fail|p2a: Gligar
+|
+|upkeep
+|turn|49
+|
+|t:|1643475375
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar
+|-damage|p2a: Gligar|46/100
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|96/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|turn|50
+|
+|t:|1643475378
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: Gligar|[from]lockedmove
+|-damage|p2a: Gligar|69/100
+|move|p2a: Gligar|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|12/100
+|
+|t:|1643475383
+|switch|p2a: Mew|Mew|22/100|[from]move: U-turn
+|-damage|p2a: Mew|5/100|[from] Spikes
+|-damage|p2a: Mew|0 fnt|[from] Stealth Rock
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1643475385
+|switch|p2a: Gligar|Gligar, M|69/100
+|-damage|p2a: Gligar|57/100|[from] Stealth Rock
+|turn|51
+|
+|t:|1643475389
+|-activate|p1a: Flygon|confusion
+|-damage|p1a: Flygon|0 fnt|[from] confusion
+|faint|p1a: Flygon
+|move|p2a: Gligar|Roost|p2a: Gligar
+|-heal|p2a: Gligar|100/100
+|-singleturn|p2a: Gligar|move: Roost
+|
+|upkeep
+|
+|t:|1643475391
+|switch|p1a: Cofagrigus|Cofagrigus, M|39/100
+|-damage|p1a: Cofagrigus|26/100|[from] Stealth Rock
+|-damage|p1a: Cofagrigus|1/100|[from] Spikes
+|turn|52
+|
+|t:|1643475392
+|move|p2a: Gligar|Earthquake|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|win|johnny rapidspin
+|c|☆Finchinator|gg
+|c|☆johnny rapidspin|ggs

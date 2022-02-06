@@ -1,0 +1,332 @@
+|j|☆NURW7 Vince
+|j|☆The Winking Dol
+|t:|1632804712
+|gametype|singles
+|player|p1|NURW7 Vince|byron|
+|player|p2|The Winking Dol|depotagent|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Alomomola, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Eelektross, F|item
+|poke|p1|Serperior, F|item
+|poke|p1|Golurk|item
+|poke|p1|Skuntank, F|item
+|poke|p2|Swellow, F|item
+|poke|p2|Kangaskhan, F|item
+|poke|p2|Zangoose, M|item
+|poke|p2|Gothorita, M|item
+|poke|p2|Golurk|item
+|poke|p2|Rotom-Frost|item
+|teampreview
+|c|☆The Winking Dol|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Winking Dol)
+|c|☆NURW7 Vince|Ty for helping me practice
+|c|☆The Winking Dol|np
+|inactive|The Winking Dol has 270 seconds left.
+|
+|t:|1632804749
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|1
+|
+|t:|1632804774
+|switch|p2a: Gothorita|Gothorita, M|100/100
+|move|p1a: Golurk|Stealth Rock|p2a: Gothorita
+|-sidestart|p2: The Winking Dol|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1632804785
+|move|p2a: Gothorita|Trick|p1a: Golurk
+|-activate|p2a: Gothorita|move: Trick|[of] p1a: Golurk
+|-item|p1a: Golurk|Choice Specs|[from] move: Trick
+|-item|p2a: Gothorita|Leftovers|[from] move: Trick
+|move|p1a: Golurk|Toxic|p2a: Gothorita|[miss]
+|-miss|p1a: Golurk|p2a: Gothorita
+|
+|upkeep
+|turn|3
+|inactive|The Winking Dol has 270 seconds left.
+|
+|t:|1632804813
+|move|p2a: Gothorita|Psychic|p1a: Golurk
+|-damage|p1a: Golurk|64/100
+|move|p1a: Golurk|Toxic|p2a: Gothorita
+|-status|p2a: Gothorita|tox
+|
+|-damage|p2a: Gothorita|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|The Winking Dol has 270 seconds left.
+|
+|t:|1632804822
+|move|p2a: Gothorita|Grass Knot|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-crit|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Gothorita|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Gothorita|89/100 tox|[from] psn
+|upkeep
+|
+|t:|1632804830
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|turn|5
+|inactive|The Winking Dol has 270 seconds left.
+|inactive|The Winking Dol has 240 seconds left.
+|
+|t:|1632804879
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Skuntank|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|29/100
+|
+|upkeep
+|turn|6
+|
+|t:|1632804904
+|move|p2a: Rotom|Will-O-Wisp|p1a: Skuntank
+|-status|p1a: Skuntank|brn
+|-enditem|p1a: Skuntank|Lum Berry|[eat]
+|-curestatus|p1a: Skuntank|brn|[msg]
+|move|p1a: Skuntank|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|The Winking Dol has 240 seconds left.
+|
+|t:|1632804922
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|-damage|p2a: Zangoose|88/100|[from] Stealth Rock
+|turn|7
+|inactive|The Winking Dol has 240 seconds left.
+|
+|t:|1632804929
+|move|p1a: Skuntank|Sucker Punch|p2a: Zangoose
+|-damage|p2a: Zangoose|22/100
+|move|p2a: Zangoose|Close Combat|p1a: Skuntank
+|-damage|p1a: Skuntank|49/100
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|
+|-status|p2a: Zangoose|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|inactive|The Winking Dol has 240 seconds left.
+|
+|t:|1632804960
+|move|p2a: Zangoose|Close Combat|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|-unboost|p2a: Zangoose|def|1
+|-unboost|p2a: Zangoose|spd|1
+|-damage|p2a: Zangoose|0 fnt|[from] ability: Aftermath|[of] p1a: Skuntank
+|faint|p2a: Zangoose
+|faint|p1a: Skuntank
+|
+|upkeep
+|inactive|The Winking Dol has 210 seconds left.
+|
+|t:|1632804988
+|switch|p2a: Swellow|Swellow, F|100/100
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|-damage|p2a: Swellow|76/100|[from] Stealth Rock
+|turn|9
+|inactive|The Winking Dol has 210 seconds left.
+|
+|t:|1632804994
+|switch|p2a: Golurk|Golurk|100/100
+|-damage|p2a: Golurk|95/100|[from] Stealth Rock
+|move|p1a: Eelektross|Volt Switch|p2a: Golurk
+|-immune|p2a: Golurk
+|
+|upkeep
+|turn|10
+|
+|t:|1632805002
+|move|p2a: Golurk|Stealth Rock|p1a: Eelektross
+|-sidestart|p1: NURW7 Vince|move: Stealth Rock
+|move|p1a: Eelektross|Giga Drain|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|39/100
+|
+|upkeep
+|turn|11
+|
+|t:|1632805012
+|switch|p2a: Gothorita|Gothorita, M|89/100 tox
+|-damage|p2a: Gothorita|77/100 tox|[from] Stealth Rock
+|move|p1a: Eelektross|Giga Drain|p2a: Gothorita
+|-damage|p2a: Gothorita|44/100 tox
+|
+|-heal|p2a: Gothorita|50/100 tox|[from] item: Leftovers
+|-damage|p2a: Gothorita|44/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1632805023
+|move|p2a: Gothorita|Hidden Power|p1a: Eelektross
+|-immune|p1a: Eelektross|[from] ability: Levitate
+|move|p1a: Eelektross|Thunderbolt|p2a: Gothorita
+|-damage|p2a: Gothorita|0 fnt
+|faint|p2a: Gothorita
+|
+|upkeep
+|
+|t:|1632805031
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1632805041
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|-damage|p2a: Kangaskhan|72/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Kangaskhan|53/100|[from] Recoil
+|
+|upkeep
+|turn|14
+|
+|t:|1632805059
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Kangaskhan|Double-Edge|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|15
+|
+|t:|1632805066
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|move|p2a: Kangaskhan|Double-Edge|p1a: Eelektross
+|-damage|p1a: Eelektross|12/100
+|-damage|p2a: Kangaskhan|27/100|[from] Recoil
+|
+|-heal|p1a: Eelektross|18/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1632805077
+|switch|p2a: Golurk|Golurk|39/100
+|-damage|p2a: Golurk|33/100|[from] Stealth Rock
+|switch|p1a: Alomomola|Alomomola, M|82/100
+|-damage|p1a: Alomomola|70/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1632805094
+|move|p2a: Golurk|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100
+|move|p1a: Alomomola|Scald|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|t:|1632805108
+|switch|p2a: Swellow|Swellow, F|76/100
+|-damage|p2a: Swellow|51/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1632805114
+|switch|p1a: Eelektross|Eelektross, F|18/100
+|-damage|p1a: Eelektross|6/100|[from] Stealth Rock
+|move|p2a: Swellow|Facade|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|-status|p2a: Swellow|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1632805125
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1632805131
+|switch|p1a: Alomomola|Alomomola, M|70/100
+|-damage|p1a: Alomomola|58/100|[from] Stealth Rock
+|move|p2a: Swellow|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|14/100
+|-damage|p2a: Swellow|34/100 tox|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-damage|p2a: Swellow|28/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1632805142
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Swellow|Facade|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Swellow|16/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1632805151
+|move|p2a: Swellow|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-damage|p2a: Swellow|0 fnt|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|faint|p2a: Swellow
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1632805158
+|switch|p2a: Kangaskhan|Kangaskhan, F|27/100
+|switch|p1a: Charizard|Charizard, M|51/100
+|-damage|p1a: Charizard|1/100|[from] Stealth Rock
+|-damage|p2a: Kangaskhan|15/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1632805165
+|move|p2a: Kangaskhan|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1632805169
+|switch|p1a: Serperior|Serperior, F|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1632805174
+|move|p2a: Kangaskhan|Sucker Punch|p1a: Serperior
+|-damage|p1a: Serperior|58/100
+|move|p1a: Serperior|Giga Drain|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-heal|p1a: Serperior|67/100|[from] drain|[of] p2a: Kangaskhan
+|faint|p2a: Kangaskhan
+|-damage|p1a: Serperior|57/100|[from] item: Life Orb
+|
+|win|NURW7 Vince
+|c|☆The Winking Dol|gg
+|c|☆NURW7 Vince|Gg
+|l|☆The Winking Dol
+|l|☆NURW7 Vince
+|j|☆NURW7 Vince
+|player|p1|NURW7 Vince|byron

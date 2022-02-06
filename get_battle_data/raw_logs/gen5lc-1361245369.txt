@@ -1,0 +1,311 @@
+|j|☆zeriloa
+|j|☆yell ow fin
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1624056415
+|gametype|singles
+|player|p1|zeriloa|acetrainer-gen4dp|
+|player|p2|yell ow fin|reporter|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snover, L5, F|item
+|poke|p1|Trapinch, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Pawniard, L5, M|item
+|poke|p1|Natu, L5, F|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p2|Shellder, L5, F|item
+|poke|p2|Magnemite, L5|item
+|poke|p2|Natu, L5, F|item
+|poke|p2|Diglett, L5, M|item
+|poke|p2|Gastly, L5, F|item
+|poke|p2|Mienfoo, L5, M|item
+|teampreview
+|c|☆yell ow fin|hf
+|c|☆zeriloa|hf
+|inactive|yell ow fin has 120 seconds left.
+|
+|t:|1624056447
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Gastly|Gastly, L5, F|100/100
+|turn|1
+|
+|t:|1624056460
+|move|p2a: Gastly|Will-O-Wisp|p1a: Mienfoo
+|-status|p1a: Mienfoo|brn
+|move|p1a: Mienfoo|Knock Off|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|86/100
+|-enditem|p2a: Gastly|Black Sludge|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|-damage|p1a: Mienfoo|92/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|yell ow fin has 120 seconds left.
+|
+|t:|1624056493
+|move|p2a: Gastly|Trick|p1a: Mienfoo
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Mienfoo
+|-enditem|p1a: Mienfoo|Eviolite|[silent]|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|move|p1a: Mienfoo|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|81/100
+|
+|t:|1624056505
+|switch|p1a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1624056514
+|switch|p2a: Mienfoo|Mienfoo, L5, M|100/100
+|move|p1a: Staryu|Surf|p2a: Mienfoo
+|-damage|p2a: Mienfoo|70/100
+|
+|upkeep
+|turn|4
+|
+|t:|1624056522
+|move|p1a: Staryu|Thunder Wave|p2a: Mienfoo
+|-status|p2a: Mienfoo|par
+|cant|p2a: Mienfoo|par
+|
+|upkeep
+|turn|5
+|
+|t:|1624056530
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100 brn
+|move|p2a: Mienfoo|U-turn|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|87/100 brn
+|inactive|yell ow fin has 120 seconds left.
+|inactive|yell ow fin has 90 seconds left.
+|
+|t:|1624056609
+|switch|p2a: Natu|Natu, L5, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Mienfoo|79/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1624056622
+|move|p2a: Natu|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+|
+|t:|1624056626
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|7
+|inactive|yell ow fin has 90 seconds left.
+|
+|t:|1624056637
+|move|p1a: Snover|Blizzard|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|0 fnt
+|faint|p2a: Natu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|yell ow fin has 90 seconds left.
+|
+|t:|1624056649
+|switch|p2a: Shellder|Shellder, L5, F|100/100
+|turn|8
+|
+|t:|1624056654
+|switch|p1a: Pawniard|Pawniard, L5, M|100/100
+|move|p2a: Shellder|Shell Smash|p2a: Shellder
+|-unboost|p2a: Shellder|def|1
+|-unboost|p2a: Shellder|spd|1
+|-boost|p2a: Shellder|atk|2
+|-boost|p2a: Shellder|spa|2
+|-boost|p2a: Shellder|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shellder|95/100|[from] Hail
+|-damage|p1a: Pawniard|96/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1624056661
+|move|p1a: Pawniard|Sucker Punch|p2a: Shellder
+|-damage|p2a: Shellder|45/100
+|move|p2a: Shellder|Razor Shell|p1a: Pawniard
+|-damage|p1a: Pawniard|34/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shellder|40/100|[from] Hail
+|-damage|p1a: Pawniard|29/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1624056670
+|switch|p2a: Mienfoo|Mienfoo, L5, M|70/100 par
+|move|p1a: Pawniard|Sucker Punch||[still]
+|-fail|p1a: Pawniard
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|24/100|[from] Hail
+|-damage|p2a: Mienfoo|66/100 par|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1624056677
+|move|p1a: Pawniard|Stealth Rock|p2a: Mienfoo
+|-sidestart|p2: yell ow fin|move: Stealth Rock
+|cant|p2a: Mienfoo|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|20/100|[from] Hail
+|-damage|p2a: Mienfoo|61/100 par|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1624056683
+|move|p1a: Pawniard|Iron Head|p2a: Mienfoo
+|-damage|p2a: Mienfoo|22/100 par
+|cant|p2a: Mienfoo|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|15/100|[from] Hail
+|-damage|p2a: Mienfoo|18/100 par|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1624056689
+|move|p1a: Pawniard|Iron Head|p2a: Mienfoo
+|-crit|p2a: Mienfoo
+|-damage|p2a: Mienfoo|0 fnt
+|faint|p2a: Mienfoo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|10/100|[from] Hail
+|upkeep
+|
+|t:|1624056694
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|-damage|p2a: Diglett|95/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1624056703
+|move|p2a: Diglett|Stealth Rock|p1a: Pawniard
+|-sidestart|p1: zeriloa|move: Stealth Rock
+|move|p1a: Pawniard|Iron Head|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|5/100|[from] Hail
+|upkeep
+|
+|t:|1624056707
+|switch|p2a: Magnemite|Magnemite, L5|100/100
+|-damage|p2a: Magnemite|95/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1624056713
+|switch|p2a: Shellder|Shellder, L5, F|40/100
+|-damage|p2a: Shellder|30/100|[from] Stealth Rock
+|move|p1a: Pawniard|Sucker Punch||[still]
+|-fail|p1a: Pawniard
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pawniard|0 fnt|[from] Hail
+|-damage|p2a: Shellder|25/100|[from] Hail
+|faint|p1a: Pawniard
+|upkeep
+|
+|t:|1624056723
+|switch|p1a: Staryu|Staryu, L5|100/100
+|-damage|p1a: Staryu|91/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1624056729
+|move|p1a: Staryu|Surf|p2a: Shellder
+|-resisted|p2a: Shellder
+|-damage|p2a: Shellder|0 fnt
+|faint|p2a: Shellder
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|86/100|[from] Hail
+|upkeep
+|
+|t:|1624056731
+|switch|p2a: Magnemite|Magnemite, L5|95/100
+|-damage|p2a: Magnemite|90/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1624056741
+|move|p2a: Magnemite|Volt Switch|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|t:|1624056743
+|switch|p2a: Gastly|Gastly, L5, F|81/100|[from]move: Volt Switch
+|-damage|p2a: Gastly|72/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gastly|67/100|[from] Hail
+|upkeep
+|
+|t:|1624056753
+|switch|p1a: Snover|Snover, L5, F|100/100
+|-damage|p1a: Snover|78/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1624056768
+|move|p1a: Snover|Blizzard|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1624056770
+|switch|p2a: Magnemite|Magnemite, L5|90/100
+|-damage|p2a: Magnemite|85/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1624056778
+|move|p2a: Magnemite|Flash Cannon|p1a: Snover
+|-supereffective|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Magnemite|79/100|[from] Hail
+|upkeep
+|
+|t:|1624056781
+|switch|p1a: Trapinch|Trapinch, L5, M|100/100
+|-damage|p1a: Trapinch|96/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1624056793
+|move|p2a: Magnemite|Flash Cannon|p1a: Trapinch
+|-damage|p1a: Trapinch|53/100
+|move|p1a: Trapinch|Earthquake|p2a: Magnemite
+|-supereffective|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|win|zeriloa
+|n|☆zeriloa|zeriloa
+|n|☆yell ow fin|yellowfin

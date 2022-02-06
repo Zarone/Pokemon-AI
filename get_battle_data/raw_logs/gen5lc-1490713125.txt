@@ -1,0 +1,273 @@
+|j|☆Sir Grandmaster
+|j|☆HornBill DD
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1642081017
+|gametype|singles
+|player|p1|Sir Grandmaster|ghetsis|
+|player|p2|HornBill DD|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L5, F|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Lileep, L5, F|item
+|poke|p1|Staryu, L5|item
+|poke|p1|Gastly, L5, M|item
+|poke|p1|Zigzagoon, L5, M|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Drilbur, L5, M|item
+|poke|p2|Timburr, L5, F|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Riolu, L5, F|item
+|teampreview
+|j|*Lady Monita ❄
+|inactive|HornBill DD also wants the timer to be on.
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081049
+|start
+|switch|p1a: Hippopotas|Hippopotas, L5, F, shiny|100/100
+|switch|p2a: Crushed|Timburr, L5, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|1
+|j| ANoobWithoutANameツ
+|j| Amitkoptop
+|l| Amitkoptop
+|inactive|Sir Grandmaster has 120 seconds left.
+|
+|t:|1642081087
+|move|p2a: Crushed|Bulk Up|p2a: Crushed
+|-boost|p2a: Crushed|atk|1
+|-boost|p2a: Crushed|def|1
+|move|p1a: Hippopotas|Stealth Rock|p2a: Crushed
+|-sidestart|p2: HornBill DD|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crushed|96/100|[from] Sandstorm
+|-status|p2a: Crushed|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081115
+|move|p2a: Crushed|Drain Punch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|27/100
+|-heal|p2a: Crushed|100/100 brn|[from] drain|[of] p1a: Hippopotas
+|-enditem|p1a: Hippopotas|Sitrus Berry|[eat]
+|-heal|p1a: Hippopotas|50/100|[from] item: Sitrus Berry
+|move|p1a: Hippopotas|Whirlwind|p2a: Crushed
+|drag|p2a: Riolu|Riolu, L5, F|100/100
+|-damage|p2a: Riolu|96/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Riolu|92/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Sir Grandmaster has 120 seconds left.
+|
+|t:|1642081138
+|move|p2a: Riolu|Drain Punch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|24/100
+|-heal|p2a: Riolu|100/100|[from] drain|[of] p1a: Hippopotas
+|move|p1a: Hippopotas|Earthquake|p2a: Riolu
+|-damage|p2a: Riolu|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Riolu|31/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081157
+|move|p2a: Riolu|Drain Punch|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|-heal|p2a: Riolu|44/100|[from] drain|[of] p1a: Hippopotas
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Riolu|40/100|[from] Sandstorm
+|upkeep
+|j| gyhfvujbj
+|inactive|Sir Grandmaster has 120 seconds left.
+|inactive|Sir Grandmaster has 90 seconds left.
+|j| Dark Red 979
+|inactive|Sir Grandmaster has 60 seconds left.
+|
+|t:|1642081228
+|switch|p1a: Gastly|Gastly, L5, M|100/100
+|turn|5
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081246
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Drain Punch|p1a: Gastly|[from]move: Copycat
+|-immune|p1a: Gastly
+|move|p1a: Gastly|Shadow Ball|p2a: Riolu
+|-damage|p2a: Riolu|0 fnt
+|faint|p2a: Riolu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gastly|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1642081260
+|switch|p2a: Sparks|Abra, L5, M|100/100
+|turn|6
+|
+|t:|1642081272
+|move|p1a: Gastly|Shadow Ball|p2a: Sparks
+|-supereffective|p2a: Sparks
+|-enditem|p2a: Sparks|Focus Sash
+|-damage|p2a: Sparks|6/100
+|-unboost|p2a: Sparks|spd|1
+|move|p2a: Sparks|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1642081285
+|switch|p1a: Zigzagoon|Zigzagoon, L5, M|100/100
+|turn|7
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081294
+|move|p1a: Zigzagoon|Extreme Speed|p2a: Sparks
+|-damage|p2a: Sparks|0 fnt
+|faint|p2a: Sparks
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zigzagoon|96/100|[from] Sandstorm
+|upkeep
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081305
+|switch|p2a: Crushed|Timburr, L5, F|100/100 brn
+|-damage|p2a: Crushed|96/100 brn|[from] Stealth Rock
+|turn|8
+|inactive|HornBill DD has 120 seconds left.
+|
+|t:|1642081314
+|move|p1a: Zigzagoon|Belly Drum|p1a: Zigzagoon
+|-damage|p1a: Zigzagoon|48/100
+|-setboost|p1a: Zigzagoon|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Zigzagoon|Sitrus Berry|[eat]
+|-heal|p1a: Zigzagoon|72/100|[from] item: Sitrus Berry
+|move|p2a: Crushed|Drain Punch|p1a: Zigzagoon
+|-supereffective|p1a: Zigzagoon
+|-damage|p1a: Zigzagoon|0 fnt
+|-heal|p2a: Crushed|100/100 brn|[from] drain|[of] p1a: Zigzagoon
+|faint|p1a: Zigzagoon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crushed|96/100 brn|[from] Sandstorm
+|-damage|p2a: Crushed|84/100 brn|[from] brn
+|upkeep
+|
+|t:|1642081323
+|switch|p1a: Staryu|Staryu, L5|100/100
+|turn|9
+|
+|t:|1642081337
+|switch|p2a: Horizons|Snover, L5, M|100/100
+|-damage|p2a: Horizons|78/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Horizons
+|move|p1a: Staryu|Hydro Pump|p2a: Horizons|[miss]
+|-miss|p1a: Staryu|p2a: Horizons
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|95/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1642081344
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Snow Warning|[from] ability: Trace|[of] p2a: Horizons
+|move|p2a: Horizons|Giga Drain|p1a: Porygon
+|-damage|p1a: Porygon|66/100
+|-heal|p2a: Horizons|100/100|[from] drain|[of] p1a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|62/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1642081353
+|move|p2a: Horizons|Giga Drain|p1a: Porygon
+|-damage|p1a: Porygon|27/100
+|move|p1a: Porygon|Tri Attack|p2a: Horizons
+|-damage|p2a: Horizons|28/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|24/100|[from] Hail
+|upkeep
+|turn|12
+|
+|t:|1642081356
+|move|p2a: Horizons|Giga Drain|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|-heal|p2a: Horizons|41/100|[from] drain|[of] p1a: Porygon
+|faint|p1a: Porygon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642081362
+|switch|p1a: Staryu|Staryu, L5|95/100
+|turn|13
+|l| gyhfvujbj
+|
+|t:|1642081375
+|move|p2a: Horizons|Giga Drain|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|-heal|p2a: Horizons|82/100|[from] drain|[of] p1a: Staryu
+|faint|p1a: Staryu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1642081382
+|switch|p1a: Lileep|Lileep, L5, F, shiny|100/100
+|turn|14
+|
+|t:|1642081408
+|move|p2a: Horizons|Giga Drain|p1a: Lileep
+|-crit|p1a: Lileep
+|-damage|p1a: Lileep|39/100
+|-heal|p2a: Horizons|100/100|[from] drain|[of] p1a: Lileep
+|move|p1a: Lileep|Ancient Power|p2a: Horizons
+|-supereffective|p2a: Horizons
+|-damage|p2a: Horizons|19/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lileep|35/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1642081414
+|move|p2a: Horizons|Giga Drain|p1a: Lileep
+|-crit|p1a: Lileep
+|-damage|p1a: Lileep|0 fnt
+|-heal|p2a: Horizons|41/100|[from] drain|[of] p1a: Lileep
+|faint|p1a: Lileep
+|
+|win|HornBill DD
+|n|☆Sir Grandmaster|sirgrandmaster
+|n|☆HornBill DD|hornbilldd
+|n|*Lady Monita ❄|ladymonita
+|n| ANoobWithoutANameツ|anoobwithoutaname
+|n| Dark Red 979|darkred979

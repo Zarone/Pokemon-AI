@@ -1,0 +1,380 @@
+|j|☆UgabaBeAbS
+|j|☆Quinn010
+|t:|1641643253
+|gametype|singles
+|player|p1|UgabaBeAbS|red|1000
+|player|p2|Quinn010|mars|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electabuzz, M|item
+|poke|p1|Sawk, M|item
+|poke|p1|Cacturne, F|item
+|poke|p1|Garbodor, F|item
+|poke|p1|Alomomola, M|item
+|poke|p1|Zangoose, F|item
+|poke|p2|Combusken, M|item
+|poke|p2|Roselia, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Miltank, F|item
+|poke|p2|Golurk|item
+|poke|p2|Wartortle, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UgabaBeAbS)
+|
+|t:|1641643279
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1641643287
+|move|p2a: Golurk|Earthquake|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|0 fnt
+|faint|p1a: Garbodor
+|
+|upkeep
+|
+|t:|1641643293
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|turn|2
+|inactive|Quinn010 has 120 seconds left.
+|
+|t:|1641643350
+|switch|p2a: Combusken|Combusken, M|100/100
+|move|p1a: Cacturne|Leech Seed|p2a: Combusken
+|-start|p2a: Combusken|move: Leech Seed
+|
+|-damage|p2a: Combusken|88/100|[from] Leech Seed|[of] p1a: Cacturne
+|upkeep
+|turn|3
+|
+|t:|1641643364
+|switch|p2a: Roselia|Roselia, M|100/100
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1641643369
+|move|p1a: Alomomola|Knock Off|p2a: Roselia
+|-damage|p2a: Roselia|96/100
+|-enditem|p2a: Roselia|Eviolite|[from] move: Knock Off|[of] p1a: Alomomola
+|move|p2a: Roselia|Toxic Spikes|p1a: Alomomola
+|-sidestart|p1: UgabaBeAbS|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1641643381
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|-status|p1a: Cacturne|psn
+|move|p2a: Roselia|Toxic Spikes|p1a: Cacturne
+|-sidestart|p1: UgabaBeAbS|move: Toxic Spikes
+|
+|-damage|p1a: Cacturne|88/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1641643388
+|move|p2a: Roselia|Sludge Bomb|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|upkeep
+|
+|t:|1641643393
+|switch|p1a: Zangoose|Zangoose, F|100/100
+|-status|p1a: Zangoose|tox
+|turn|7
+|
+|t:|1641643399
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Zangoose|Ice Punch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|18/100
+|
+|-damage|p1a: Zangoose|95/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1641643406
+|move|p1a: Zangoose|Ice Punch|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-damage|p1a: Zangoose|83/100 tox|[from] psn
+|upkeep
+|
+|t:|1641643411
+|switch|p2a: Combusken|Combusken, M|88/100
+|turn|9
+|
+|t:|1641643414
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Zangoose|Facade|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|94/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|65/100 tox|[from] psn
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|turn|10
+|
+|t:|1641643424
+|move|p1a: Zangoose|Quick Attack|p2a: Combusken
+|-damage|p2a: Combusken|42/100
+|move|p2a: Combusken|Substitute|p2a: Combusken
+|-start|p2a: Combusken|Substitute
+|-damage|p2a: Combusken|17/100
+|
+|-heal|p2a: Combusken|23/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|41/100 tox|[from] psn
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|turn|11
+|
+|t:|1641643432
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Zangoose|Quick Attack|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|30/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|12/100 tox|[from] psn
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|turn|12
+|
+|t:|1641643441
+|move|p1a: Zangoose|Quick Attack|p2a: Combusken
+|-end|p2a: Combusken|Substitute
+|move|p2a: Combusken|Substitute|p2a: Combusken
+|-start|p2a: Combusken|Substitute
+|-damage|p2a: Combusken|5/100
+|
+|-heal|p2a: Combusken|11/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|0 fnt|[from] psn
+|faint|p1a: Zangoose
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|
+|t:|1641643457
+|switch|p1a: Electabuzz|Electabuzz, M|100/100
+|-status|p1a: Electabuzz|tox
+|turn|13
+|
+|t:|1641643461
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Electabuzz|Psychic|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|17/100|[from] item: Leftovers
+|-damage|p1a: Electabuzz|95/100 tox|[from] psn
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1641643472
+|move|p2a: Combusken|Flamethrower|p1a: Electabuzz
+|-damage|p1a: Electabuzz|60/100 tox
+|move|p1a: Electabuzz|Psychic|p2a: Combusken
+|-supereffective|p2a: Combusken
+|-end|p2a: Combusken|Substitute
+|
+|-heal|p2a: Combusken|23/100|[from] item: Leftovers
+|-damage|p1a: Electabuzz|48/100 tox|[from] psn
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1641643481
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Electabuzz|Psychic|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|29/100|[from] item: Leftovers
+|-damage|p1a: Electabuzz|31/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1641643489
+|move|p2a: Combusken|Flamethrower|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|-heal|p2a: Combusken|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641643495
+|switch|p1a: Sawk|Sawk, M|100/100
+|-status|p1a: Sawk|tox
+|turn|17
+|
+|t:|1641643503
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Sawk|Close Combat|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|41/100|[from] item: Leftovers
+|-damage|p1a: Sawk|94/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1641643511
+|move|p2a: Combusken|Substitute|p2a: Combusken
+|-start|p2a: Combusken|Substitute
+|-damage|p2a: Combusken|17/100
+|move|p1a: Sawk|Close Combat|p2a: Combusken
+|-end|p2a: Combusken|Substitute
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|
+|-heal|p2a: Combusken|23/100|[from] item: Leftovers
+|-damage|p1a: Sawk|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1641643520
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Sawk|Close Combat|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|29/100|[from] item: Leftovers
+|-damage|p1a: Sawk|63/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1641643528
+|move|p2a: Combusken|Flamethrower|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|
+|-heal|p2a: Combusken|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641643534
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-status|p1a: Alomomola|tox
+|turn|21
+|
+|t:|1641643540
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Alomomola|Toxic|p2a: Combusken
+|-activate|p2a: Combusken|move: Protect
+|
+|-heal|p2a: Combusken|41/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|c|☆Quinn010|gg
+|
+|t:|1641643547
+|move|p2a: Combusken|Substitute|p2a: Combusken
+|-start|p2a: Combusken|Substitute
+|-damage|p2a: Combusken|16/100
+|move|p1a: Alomomola|Toxic||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p2a: Combusken|22/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1641643556
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Combusken|28/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|76/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1641643564
+|move|p2a: Combusken|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|58/100 tox
+|move|p1a: Alomomola|Knock Off|p2a: Combusken
+|-resisted|p2a: Combusken
+|-activate|p2a: Combusken|Substitute|[damage]
+|
+|-heal|p1a: Alomomola|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Combusken|35/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|76/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1641643574
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Combusken|41/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|51/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1641643595
+|move|p2a: Combusken|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|31/100 tox
+|move|p1a: Alomomola|Wish||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|81/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Combusken|47/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|51/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1641643609
+|move|p2a: Combusken|Flamethrower|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|31/100 tox
+|move|p1a: Alomomola|Knock Off|p2a: Combusken
+|-resisted|p2a: Combusken
+|-activate|p2a: Combusken|Substitute|[damage]
+|
+|-heal|p2a: Combusken|53/100|[from] item: Leftovers
+|-heal|p1a: Alomomola|37/100 tox|[from] item: Leftovers
+|-damage|p1a: Alomomola|0 fnt|[from] psn
+|faint|p1a: Alomomola
+|
+|win|Quinn010
+|upkeep
+|raw|UgabaBeAbS's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Quinn010's rating: 1151 &rarr; <strong>1166</strong><br />(+15 for winning)
+|l|☆UgabaBeAbS

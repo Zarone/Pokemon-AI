@@ -1,0 +1,534 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1643068546
+|gametype|singles
+|player|p1|Amukamara|pokemonbreederf-gen4|
+|player|p2|robjr|#splxiiisharks|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Tangrowth, M|item
+|poke|p1|Qwilfish, M|item
+|poke|p1|Druddigon, M|item
+|poke|p1|Mienshao, F|item
+|poke|p1|Flygon, M|item
+|poke|p1|Bronzong|item
+|poke|p2|Druddigon, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Krookodile, F|item
+|poke|p2|Sableye, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Cobalion|item
+|teampreview
+|c|☆robjr|hf
+|c|☆Amukamara|u too
+|inactive|robjr has 270 seconds left.
+|
+|t:|1643068583
+|start
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|
+|t:|1643068589
+|move|p2a: Sableye|Taunt|p1a: Tangrowth
+|-start|p1a: Tangrowth|move: Taunt
+|move|p1a: Tangrowth|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|95/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|2
+|
+|t:|1643068599
+|move|p2a: Sableye|Will-O-Wisp|p1a: Tangrowth
+|-status|p1a: Tangrowth|brn
+|move|p1a: Tangrowth|Giga Drain|p2a: Sableye
+|-damage|p2a: Sableye|62/100
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1643068605
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Sableye
+|-damage|p2a: Sableye|63/100
+|-heal|p1a: Tangrowth|100/100 brn|[from] drain|[of] p2a: Sableye
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|-end|p1a: Tangrowth|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1643068612
+|move|p2a: Sableye|Taunt|p1a: Tangrowth
+|-start|p1a: Tangrowth|move: Taunt
+|move|p1a: Tangrowth|Giga Drain|p2a: Sableye
+|-damage|p2a: Sableye|28/100
+|-heal|p1a: Tangrowth|100/100 brn|[from] drain|[of] p2a: Sableye
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1643068618
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|78/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Sableye
+|-damage|p2a: Sableye|44/100
+|-heal|p1a: Tangrowth|100/100 brn|[from] drain|[of] p2a: Sableye
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1643068625
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|94/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Sableye
+|-damage|p2a: Sableye|59/100
+|-heal|p1a: Tangrowth|100/100 brn|[from] drain|[of] p2a: Sableye
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|-end|p1a: Tangrowth|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1643068628
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|95/100
+|-heal|p1a: Tangrowth|90/100 brn|[from] drain|[of] p2a: Roserade
+|
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|-damage|p1a: Tangrowth|78/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1643068644
+|move|p2a: Roserade|Spikes|p1a: Tangrowth
+|-sidestart|p1: Amukamara|Spikes
+|move|p1a: Tangrowth|Sleep Powder|p2a: Roserade
+|-status|p2a: Roserade|slp|[from] move: Sleep Powder
+|
+|-damage|p1a: Tangrowth|66/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1643068649
+|-curestatus|p2a: Roserade|slp|[from] ability: Natural Cure
+|switch|p2a: Sableye|Sableye, F|59/100
+|switch|p1a: Bronzong|Bronzong|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1643068654
+|switch|p1a: Tangrowth|Tangrowth, M|99/100 brn
+|-damage|p1a: Tangrowth|86/100 brn|[from] Spikes
+|move|p2a: Sableye|Taunt|p1a: Tangrowth
+|-start|p1a: Tangrowth|move: Taunt
+|
+|-damage|p1a: Tangrowth|74/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1643068658
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Sableye
+|-damage|p2a: Sableye|67/100
+|-heal|p1a: Tangrowth|87/100 brn|[from] drain|[of] p2a: Sableye
+|
+|-damage|p1a: Tangrowth|74/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1643068661
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|96/100
+|-heal|p1a: Tangrowth|76/100 brn|[from] drain|[of] p2a: Roserade
+|
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|-damage|p1a: Tangrowth|64/100 brn|[from] brn
+|-end|p1a: Tangrowth|move: Taunt
+|upkeep
+|turn|13
+|
+|t:|1643068672
+|switch|p2a: Sableye|Sableye, F|67/100
+|switch|p1a: Bronzong|Bronzong|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1643068675
+|switch|p1a: Tangrowth|Tangrowth, M|97/100 brn
+|-damage|p1a: Tangrowth|85/100 brn|[from] Spikes
+|move|p2a: Sableye|Taunt|p1a: Tangrowth
+|-start|p1a: Tangrowth|move: Taunt
+|
+|-damage|p1a: Tangrowth|72/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1643068687
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Tangrowth|Hidden Power|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-crit|p2a: Druddigon
+|-damage|p2a: Druddigon|35/100
+|
+|-heal|p2a: Druddigon|41/100|[from] item: Leftovers
+|-damage|p1a: Tangrowth|60/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1643068707
+|move|p1a: Tangrowth|Hidden Power|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|9/100
+|move|p2a: Druddigon|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: Amukamara|move: Stealth Rock
+|
+|-heal|p2a: Druddigon|15/100|[from] item: Leftovers
+|-damage|p1a: Tangrowth|48/100 brn|[from] brn
+|-end|p1a: Tangrowth|move: Taunt
+|upkeep
+|turn|17
+|
+|t:|1643068715
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|switch|p2a: Roserade|Roserade, F|100/100
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1643068723
+|move|p2a: Roserade|Spikes|p1a: Bronzong
+|-sidestart|p1: Amukamara|Spikes
+|move|p1a: Bronzong|Stealth Rock|p2a: Roserade
+|-sidestart|p2: robjr|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1643068737
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|move|p2a: Roserade|Spikes|p1a: Flygon
+|-sidestart|p1: Amukamara|Spikes
+|
+|upkeep
+|turn|20
+|inactive|robjr has 270 seconds left.
+|inactive|robjr has 240 seconds left.
+|
+|t:|1643068798
+|switch|p2a: Druddigon|Druddigon, M|15/100
+|-damage|p2a: Druddigon|3/100|[from] Stealth Rock
+|-ability|p2a: Druddigon|Mold Breaker
+|move|p1a: Flygon|Outrage|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|upkeep
+|inactive|robjr has 240 seconds left.
+|inactive|robjr has 210 seconds left.
+|inactive|robjr has 180 seconds left.
+|
+|t:|1643068874
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1643068896
+|move|p1a: Flygon|Outrage|p2a: Cobalion|[from]lockedmove
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|76/100
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|22
+|
+|t:|1643068902
+|move|p1a: Flygon|Outrage|p2a: Cobalion|[from]lockedmove
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|55/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Cobalion|Rock Polish|p2a: Cobalion
+|-boost|p2a: Cobalion|spe|2
+|
+|upkeep
+|turn|23
+|
+|t:|1643068911
+|switch|p1a: Tangrowth|Tangrowth, M|81/100 brn
+|-damage|p1a: Tangrowth|56/100 brn|[from] Spikes
+|-damage|p1a: Tangrowth|43/100 brn|[from] Stealth Rock
+|move|p2a: Cobalion|Close Combat|p1a: Tangrowth
+|-enditem|p2a: Cobalion|Fighting Gem|[from] gem
+|-damage|p1a: Tangrowth|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|-damage|p2a: Cobalion|38/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1643068917
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-damage|p1a: Qwilfish|76/100|[from] Spikes
+|-damage|p1a: Qwilfish|63/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Cobalion|atk|1
+|turn|24
+|inactive|robjr has 180 seconds left.
+|inactive|robjr has 150 seconds left.
+|
+|t:|1643068984
+|move|p2a: Cobalion|Stone Edge|p1a: Qwilfish|[miss]
+|-miss|p2a: Cobalion|p1a: Qwilfish
+|move|p1a: Qwilfish|Thunder Wave|p2a: Cobalion
+|-status|p2a: Cobalion|par
+|
+|-heal|p1a: Qwilfish|69/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1643068991
+|move|p1a: Qwilfish|Spikes|p2a: Cobalion
+|-sidestart|p2: robjr|Spikes
+|move|p2a: Cobalion|Close Combat|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|38/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|
+|-heal|p1a: Qwilfish|44/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|t:|1643069000
+|move|p1a: Qwilfish|Spikes|p2a: Cobalion
+|-sidestart|p2: robjr|Spikes
+|cant|p2a: Cobalion|par
+|
+|-heal|p1a: Qwilfish|50/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1643069003
+|move|p1a: Qwilfish|Spikes|p2a: Cobalion
+|-sidestart|p2: robjr|Spikes
+|cant|p2a: Cobalion|par
+|
+|-heal|p1a: Qwilfish|56/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|t:|1643069006
+|move|p1a: Qwilfish|Waterfall|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-heal|p1a: Qwilfish|62/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643069008
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|29
+|
+|t:|1643069019
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|-damage|p1a: Druddigon|88/100|[from] Stealth Rock
+|-damage|p1a: Druddigon|64/100|[from] Spikes
+|move|p2a: Zapdos|Thunderbolt|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|32/100
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1643069029
+|move|p2a: Zapdos|Hidden Power|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643069034
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1643069049
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-damage|p2a: Krookodile|70/100|[from] Spikes
+|move|p1a: Bronzong|Toxic|p2a: Krookodile
+|-status|p2a: Krookodile|tox
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p2a: Krookodile|64/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1643069055
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Krookodile|Crunch|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-damage|p2a: Krookodile|52/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1643069084
+|move|p2a: Krookodile|Crunch|p1a: Bronzong
+|-damage|p1a: Bronzong|66/100
+|-unboost|p1a: Bronzong|def|1
+|move|p1a: Bronzong|Earthquake|p2a: Krookodile
+|-damage|p2a: Krookodile|25/100 tox
+|
+|-heal|p1a: Bronzong|73/100|[from] item: Leftovers
+|-damage|p2a: Krookodile|7/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|robjr has 210 seconds left.
+|
+|t:|1643069104
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|76/100|[from] Spikes
+|-damage|p1a: Mienshao|70/100|[from] Stealth Rock
+|move|p2a: Krookodile|Crunch|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|31/100
+|
+|-damage|p2a: Krookodile|0 fnt|[from] psn
+|faint|p2a: Krookodile
+|upkeep
+|inactive|robjr has 210 seconds left.
+|inactive|robjr has 180 seconds left.
+|
+|t:|1643069169
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|76/100|[from] Spikes
+|-damage|p2a: Roserade|63/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1643069181
+|move|p1a: Mienshao|U-turn|p2a: Roserade
+|-damage|p2a: Roserade|10/100
+|-damage|p1a: Mienshao|21/100|[from] item: Life Orb
+|
+|t:|1643069184
+|switch|p1a: Flygon|Flygon, M|95/100|[from]move: U-turn
+|-damage|p1a: Flygon|89/100|[from] Stealth Rock
+|move|p2a: Roserade|Giga Drain|p1a: Flygon
+|-damage|p1a: Flygon|46/100
+|-heal|p2a: Roserade|30/100|[from] drain|[of] p1a: Flygon
+|
+|-heal|p2a: Roserade|36/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|t:|1643069192
+|move|p1a: Flygon|U-turn|p2a: Roserade
+|-damage|p2a: Roserade|1/100
+|
+|t:|1643069199
+|switch|p1a: Qwilfish|Qwilfish, M|62/100|[from]move: U-turn
+|-damage|p1a: Qwilfish|49/100|[from] Stealth Rock
+|-damage|p1a: Qwilfish|24/100|[from] Spikes
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Roserade|atk|1
+|move|p2a: Roserade|Giga Drain|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|-heal|p2a: Roserade|14/100|[from] drain|[of] p1a: Qwilfish
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Roserade|20/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1643069207
+|switch|p1a: Mienshao|Mienshao, F|54/100
+|-damage|p1a: Mienshao|29/100|[from] Spikes
+|-damage|p1a: Mienshao|23/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1643069210
+|move|p1a: Mienshao|Hidden Power|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-damage|p1a: Mienshao|13/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|robjr has 180 seconds left.
+|inactive|robjr has 150 seconds left.
+|inactive|robjr has 120 seconds left.
+|
+|t:|1643069297
+|switch|p2a: Zapdos|Zapdos|88/100
+|-damage|p2a: Zapdos|63/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|38
+|inactive|robjr has 90 seconds left.
+|
+|t:|1643069348
+|move|p1a: Mienshao|Stone Edge|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Mienshao|3/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643069352
+|switch|p2a: Sableye|Sableye, F|67/100
+|-damage|p2a: Sableye|54/100|[from] Stealth Rock
+|-damage|p2a: Sableye|29/100|[from] Spikes
+|turn|39
+|
+|t:|1643069367
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|79/100
+|move|p1a: Mienshao|Stone Edge|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-damage|p1a: Mienshao|0 fnt|[from] item: Life Orb
+|faint|p1a: Mienshao
+|
+|win|Amukamara
+|c|☆Amukamara|gg
+|c|☆robjr|gg
+|player|p1|Amukamara|pokemonbreederf-gen4
+|player|p1|

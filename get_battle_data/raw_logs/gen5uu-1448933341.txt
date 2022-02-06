@@ -1,0 +1,408 @@
+|j|☆ZURS_Maxee
+|j|☆Rcook
+|t:|1636067512
+|gametype|singles
+|player|p1|ZURS_Maxee|colress-gen7|
+|player|p2|Rcook|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Raikou|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Slowking, F|item
+|poke|p1|Escavalier, F|item
+|poke|p1|Flygon, M|item
+|poke|p2|Druddigon, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Zapdos|item
+|poke|p2|Roserade, F|item
+|poke|p2|Flygon, F|item
+|poke|p2|Victini|item
+|teampreview
+|
+|t:|1636067563
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|t:|1636067594
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Victini|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|82/100
+|
+|t:|1636067601
+|switch|p2a: Roserade|Roserade, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1636067618
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p2a: Zapdos|Pressure
+|switch|p1a: Crobat|Crobat, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1636067627
+|move|p1a: Crobat|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|90/100
+|j| ahyueah
+|
+|t:|1636067646
+|switch|p1a: Raikou|Raikou|100/100|[from]move: U-turn
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Zapdos|Thunderbolt|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|77/100
+|
+|-heal|p1a: Raikou|83/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| banana love
+|
+|t:|1636067663
+|move|p1a: Raikou|Hidden Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|move|p2a: Zapdos|Heat Wave|p1a: Raikou
+|-damage|p1a: Raikou|47/100
+|
+|-heal|p1a: Raikou|53/100|[from] item: Leftovers
+|-heal|p2a: Zapdos|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1636067694
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Raikou|Hidden Power|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|90/100
+|
+|-heal|p1a: Raikou|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|j| torterrax1
+|
+|t:|1636067723
+|switch|p1a: Rhyperior|Rhyperior, M|88/100
+|move|p2a: Victini|Zen Headbutt|p1a: Rhyperior
+|-damage|p1a: Rhyperior|55/100
+|
+|-heal|p1a: Rhyperior|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1636067731
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Blastoise
+|-sidestart|p2: Rcook|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1636067760
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Slowking
+|-damage|p1a: Slowking|98/100
+|-sideend|p2: Rcook|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|l| torterrax1
+|
+|t:|1636067777
+|move|p2a: Blastoise|Roar|p1a: Slowking
+|drag|p1a: Escavalier|Escavalier, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1636067784
+|move|p2a: Blastoise|Scald|p1a: Escavalier
+|-damage|p1a: Escavalier|78/100
+|move|p1a: Escavalier|Megahorn|p2a: Blastoise
+|-damage|p2a: Blastoise|27/100
+|
+|-heal|p2a: Blastoise|33/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1636067794
+|switch|p2a: Flygon|Flygon, F|100/100
+|switch|p1a: Slowking|Slowking, F|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1636067799
+|move|p2a: Flygon|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|70/100
+|
+|t:|1636067803
+|switch|p2a: Roserade|Roserade, F|100/100|[from]move: U-turn
+|move|p1a: Slowking|Dragon Tail|p2a: Roserade
+|-damage|p2a: Roserade|75/100
+|drag|p2a: Druddigon|Druddigon, F|100/100
+|-ability|p2a: Druddigon|Mold Breaker
+|
+|-heal|p1a: Slowking|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1636067812
+|move|p1a: Slowking|Toxic|p2a: Druddigon|[miss]
+|-miss|p1a: Slowking|p2a: Druddigon
+|move|p2a: Druddigon|Dragon Tail|p1a: Slowking
+|-enditem|p2a: Druddigon|Dragon Gem|[from] gem
+|-damage|p1a: Slowking|43/100
+|drag|p1a: Rhyperior|Rhyperior, M|67/100
+|
+|-heal|p1a: Rhyperior|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1636067816
+|move|p2a: Druddigon|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: ZURS_Maxee|move: Stealth Rock
+|move|p1a: Rhyperior|Stealth Rock|p2a: Druddigon
+|-sidestart|p2: Rcook|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1636067823
+|move|p1a: Rhyperior|Earthquake|p2a: Druddigon
+|-damage|p2a: Druddigon|45/100
+|move|p2a: Druddigon|Dragon Tail|p1a: Rhyperior
+|-damage|p1a: Rhyperior|60/100
+|drag|p1a: Raikou|Raikou|59/100
+|-damage|p1a: Raikou|47/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|
+|-heal|p1a: Raikou|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|j| torterrax1
+|
+|t:|1636067829
+|move|p1a: Raikou|Hidden Power|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|6/100
+|move|p2a: Druddigon|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|t:|1636067836
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1636067843
+|move|p1a: Flygon|U-turn|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|t:|1636067857
+|switch|p1a: Crobat|Crobat, M|100/100|[from]move: U-turn
+|-damage|p1a: Crobat|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Crobat|82/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1636067860
+|switch|p2a: Zapdos|Zapdos|53/100
+|-damage|p2a: Zapdos|29/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|18
+|
+|t:|1636067869
+|move|p1a: Crobat|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|19/100
+|
+|t:|1636067876
+|switch|p1a: Rhyperior|Rhyperior, M|60/100|[from]move: U-turn
+|-damage|p1a: Rhyperior|54/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hidden Power|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Zapdos|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636067887
+|switch|p1a: Flygon|Flygon, M|95/100
+|-damage|p1a: Flygon|89/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1636067897
+|move|p1a: Flygon|Outrage|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1636067907
+|switch|p2a: Flygon|Flygon, F|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1636067910
+|move|p2a: Flygon|Dragon Claw|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|
+|t:|1636067914
+|switch|p1a: Escavalier|Escavalier, F|78/100
+|-damage|p1a: Escavalier|66/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1636067918
+|switch|p2a: Blastoise|Blastoise, F|33/100
+|-damage|p2a: Blastoise|21/100|[from] Stealth Rock
+|move|p1a: Escavalier|Megahorn|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1636067919
+|switch|p2a: Victini|Victini|90/100
+|-damage|p2a: Victini|65/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1636067928
+|switch|p1a: Slowking|Slowking, F|76/100
+|-damage|p1a: Slowking|63/100|[from] Stealth Rock
+|move|p2a: Victini|V-create|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|16/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: Slowking|23/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1636067936
+|move|p2a: Victini|V-create|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1636067938
+|switch|p1a: Crobat|Crobat, M|82/100
+|-damage|p1a: Crobat|57/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1636067942
+|switch|p2a: Roserade|Roserade, F|75/100
+|-damage|p2a: Roserade|63/100|[from] Stealth Rock
+|move|p1a: Crobat|Brave Bird|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-damage|p1a: Crobat|42/100|[from] Recoil
+|
+|-heal|p1a: Crobat|48/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1636067945
+|switch|p2a: Flygon|Flygon, F|95/100
+|-damage|p2a: Flygon|89/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1636067952
+|switch|p1a: Escavalier|Escavalier, F|66/100
+|-damage|p1a: Escavalier|54/100|[from] Stealth Rock
+|move|p2a: Flygon|Dragon Claw|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|38/100
+|
+|upkeep
+|turn|26
+|
+|t:|1636067957
+|move|p2a: Flygon|Dragon Claw|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|22/100
+|move|p1a: Escavalier|Megahorn|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|t:|1636067959
+|switch|p2a: Victini|Victini|65/100
+|-damage|p2a: Victini|40/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1636067965
+|move|p2a: Victini|Bolt Strike|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|
+|t:|1636067968
+|switch|p1a: Crobat|Crobat, M|48/100
+|-damage|p1a: Crobat|24/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1636067969
+|move|p1a: Crobat|Brave Bird|p2a: Victini
+|-crit|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|-damage|p1a: Crobat|11/100|[from] Recoil
+|
+|win|ZURS_Maxee
+|n|☆ZURS_Maxee|zursmaxee
+|n|☆Rcook|rcook
+|n| ahyueah|ahyueah
+|n| banana love|bananalove
+|n| torterrax1|torterrax1
+|l|☆Rcook
+|l|☆ZURS_Maxee
+|l| banana love
+|l| torterrax1
+|l| ahyueah
+|j| ahyueah
+|l| ahyueah
+|j| torterrax1

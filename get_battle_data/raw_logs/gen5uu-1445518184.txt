@@ -1,0 +1,338 @@
+|j|☆uu10l 56
+|j|☆nofa irman
+|t:|1635615520
+|gametype|singles
+|player|p1|uu10l 56|swimmer-gen4dp|
+|player|p2|nofa irman|guitarist-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Regice|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Xatu, F|item
+|poke|p1|Qwilfish, F|item
+|poke|p1|Weavile, F|item
+|poke|p1|Virizion|item
+|poke|p2|Krookodile, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Magneton|item
+|poke|p2|Crobat, F|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Sharpedo, M|item
+|teampreview
+|j| afuyeas
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nofa irman)
+|
+|t:|1635615542
+|start
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Sharpedo|atk|1
+|turn|1
+|
+|t:|1635615549
+|switch|p2a: Magneton|Magneton|100/100
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Magneton
+|-sidestart|p2: nofa irman|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1635615557
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Magneton|Flash Cannon|p1a: Virizion
+|-damage|p1a: Virizion|48/100
+|-unboost|p1a: Virizion|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1635615564
+|switch|p2a: Crobat|Crobat, F|100/100
+|move|p1a: Virizion|Stone Edge|p2a: Crobat|[miss]
+|-miss|p1a: Virizion|p2a: Crobat
+|
+|upkeep
+|turn|4
+|
+|t:|1635615568
+|move|p2a: Crobat|U-turn|p1a: Virizion
+|-damage|p1a: Virizion|10/100
+|
+|t:|1635615572
+|switch|p2a: Magneton|Magneton|100/100|[from]move: U-turn
+|move|p1a: Virizion|Synthesis|p1a: Virizion
+|-heal|p1a: Virizion|60/100
+|
+|upkeep
+|turn|5
+|
+|t:|1635615577
+|switch|p2a: Crobat|Crobat, F|100/100
+|move|p1a: Virizion|Close Combat|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|78/100
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|-damage|p1a: Virizion|50/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1635615584
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Crobat|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|81/100
+|
+|t:|1635615592
+|switch|p2a: Magneton|Magneton|100/100|[from]move: U-turn
+|
+|-heal|p1a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1635615602
+|move|p2a: Magneton|Flash Cannon|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|t:|1635615610
+|switch|p1a: Virizion|Virizion|50/100
+|turn|8
+|
+|t:|1635615615
+|move|p1a: Virizion|Close Combat|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|faint|p2a: Magneton
+|-damage|p1a: Virizion|40/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1635615618
+|switch|p2a: Crobat|Crobat, F|78/100
+|turn|9
+|
+|t:|1635615623
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Crobat|Brave Bird|p1a: Xatu
+|-damage|p1a: Xatu|38/100
+|-damage|p2a: Crobat|56/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|l| afuyeas
+|
+|t:|1635615633
+|move|p2a: Crobat|Brave Bird|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|-damage|p2a: Crobat|43/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1635615635
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|11
+|j| Ladder_Zeke
+|
+|t:|1635615654
+|-activate|p2a: Crobat|move: Pursuit
+|move|p1a: Weavile|Pursuit|p2a: Crobat|[from]Pursuit
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|upkeep
+|
+|t:|1635615656
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|12
+|
+|t:|1635615664
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Cobalion|atk|1
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-status|p2a: Krookodile|psn
+|
+|-damage|p2a: Krookodile|88/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1635615671
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Krookodile|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|23/100
+|
+|-damage|p2a: Krookodile|76/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1635615679
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Weavile|Ice Shard|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|88/100
+|
+|upkeep
+|turn|15
+|inactive|nofa irman has 120 seconds left.
+|inactive|nofa irman has 90 seconds left.
+|
+|t:|1635615746
+|switch|p1a: Virizion|Virizion|40/100
+|move|p2a: Cobalion|Close Combat|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|t:|1635615752
+|switch|p1a: Weavile|Weavile, F|23/100
+|-ability|p1a: Weavile|Pressure
+|turn|16
+|
+|t:|1635615757
+|move|p1a: Weavile|Low Kick|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-enditem|p2a: Cobalion|Chople Berry|[eat]
+|-enditem|p2a: Cobalion|Chople Berry|[weaken]
+|-damage|p2a: Cobalion|17/100
+|move|p2a: Cobalion|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1635615763
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Cobalion|atk|1
+|turn|17
+|inactive|nofa irman has 90 seconds left.
+|
+|t:|1635615789
+|switch|p2a: Sharpedo|Sharpedo, M|100/100
+|-status|p2a: Sharpedo|psn
+|move|p1a: Qwilfish|Scald|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|78/100 psn
+|
+|-damage|p2a: Sharpedo|66/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1635615795
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: Sharpedo|Hydro Pump|p1a: Regice
+|-damage|p1a: Regice|58/100
+|-damage|p2a: Sharpedo|56/100 psn|[from] item: Life Orb
+|
+|-heal|p1a: Regice|64/100|[from] item: Leftovers
+|-damage|p2a: Sharpedo|43/100 psn|[from] psn
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|19
+|
+|t:|1635615799
+|move|p2a: Sharpedo|Hidden Power|p1a: Regice
+|-supereffective|p1a: Regice
+|-damage|p1a: Regice|33/100
+|-damage|p2a: Sharpedo|33/100 psn|[from] item: Life Orb
+|move|p1a: Regice|Substitute|p1a: Regice
+|-start|p1a: Regice|Substitute
+|-damage|p1a: Regice|8/100
+|
+|-heal|p1a: Regice|14/100|[from] item: Leftovers
+|-damage|p2a: Sharpedo|21/100 psn|[from] psn
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|20
+|
+|t:|1635615804
+|move|p2a: Sharpedo|Hidden Power|p1a: Regice
+|-supereffective|p1a: Regice
+|-end|p1a: Regice|Substitute
+|-damage|p2a: Sharpedo|11/100 psn|[from] item: Life Orb
+|move|p1a: Regice|Ice Beam|p2a: Sharpedo
+|-resisted|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|
+|-heal|p1a: Regice|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635615811
+|switch|p2a: Krookodile|Krookodile, F|76/100 psn
+|turn|21
+|
+|t:|1635615818
+|move|p2a: Krookodile|Earthquake|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|faint|p1a: Regice
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|-damage|p2a: Krookodile|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1635615820
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Krookodile|atk|1
+|turn|22
+|
+|t:|1635615822
+|move|p2a: Krookodile|Earthquake|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|15/100
+|move|p1a: Qwilfish|Scald|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|16/100 psn
+|
+|-heal|p1a: Qwilfish|21/100|[from] item: Black Sludge
+|-damage|p2a: Krookodile|3/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1635615828
+|move|p2a: Krookodile|Earthquake|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|win|nofa irman
+|n|☆uu10l 56|uu10l56
+|n|☆nofa irman|nofairman
+|n| Ladder_Zeke|ladderzeke

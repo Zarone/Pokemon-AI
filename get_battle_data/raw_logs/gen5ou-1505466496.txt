@@ -1,0 +1,289 @@
+|j|☆Daffodil Bloke
+|j|☆tdog124
+|t:|1644157892
+|gametype|singles
+|player|p1|Daffodil Bloke|hiker-gen4|1015
+|player|p2|tdog124|iris-gen5bw2|1064
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Scizor, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Infernape, M|item
+|poke|p1|Lucario, M|item
+|poke|p1|Politoed, F|item
+|poke|p1|Xatu, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Salamence, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|
+|t:|1644157906
+|start
+|switch|p1a: Levi|Lucario, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|
+|t:|1644157914
+|move|p1a: Levi|Close Combat|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|-unboost|p1a: Levi|def|1
+|-unboost|p1a: Levi|spd|1
+|move|p2a: Mamoswine|Earthquake|p1a: Levi
+|-supereffective|p1a: Levi
+|-enditem|p1a: Levi|Focus Sash
+|-damage|p1a: Levi|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1644157930
+|switch|p1a: Mikasa|Scizor, F|100/100
+|move|p2a: Mamoswine|Ice Shard|p1a: Mikasa
+|-resisted|p1a: Mikasa
+|-damage|p1a: Mikasa|92/100
+|
+|-heal|p1a: Mikasa|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1644157939
+|move|p2a: Mamoswine|Endeavor|p1a: Mikasa
+|-damage|p1a: Mikasa|1/100
+|move|p1a: Mikasa|Pursuit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Mikasa|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644157943
+|switch|p2a: Latios|Latios, M|100/100
+|turn|4
+|
+|t:|1644157958
+|move|p1a: Mikasa|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|65/100
+|move|p2a: Latios|Surf|p1a: Mikasa
+|-damage|p1a: Mikasa|0 fnt
+|faint|p1a: Mikasa
+|
+|upkeep
+|
+|t:|1644157967
+|switch|p1a: Armen|Jirachi|100/100
+|turn|5
+|
+|t:|1644158004
+|move|p2a: Latios|Surf|p1a: Armen
+|-damage|p1a: Armen|54/100
+|move|p1a: Armen|Thunder Wave|p2a: Latios
+|-status|p2a: Latios|par
+|
+|-heal|p1a: Armen|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1644158025
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Armen|Iron Head|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|90/100
+|
+|-heal|p1a: Armen|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644158039
+|move|p1a: Armen|Drain Punch|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|37/100
+|-heal|p1a: Armen|88/100|[from] drain|[of] p2a: Magnezone
+|move|p2a: Magnezone|Volt Switch|p1a: Armen
+|-damage|p1a: Armen|39/100
+|
+|t:|1644158043
+|switch|p2a: Salamence|Salamence, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Armen|45/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1644158057
+|move|p2a: Salamence|Fire Blast|p1a: Armen
+|-supereffective|p1a: Armen
+|-damage|p1a: Armen|3/100
+|move|p1a: Armen|Thunder Wave|p2a: Salamence
+|-status|p2a: Salamence|par
+|
+|-heal|p1a: Armen|9/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1644158067
+|move|p1a: Armen|Iron Head|p2a: Salamence
+|-damage|p2a: Salamence|56/100 par
+|move|p2a: Salamence|Fire Blast|p1a: Armen
+|-supereffective|p1a: Armen
+|-damage|p1a: Armen|0 fnt
+|faint|p1a: Armen
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1644158091
+|switch|p1a: Levi|Lucario, M|1/100
+|turn|10
+|
+|t:|1644158137
+|move|p1a: Levi|Ice Punch|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1644158141
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|11
+|
+|t:|1644158163
+|move|p2a: Scizor|Bullet Punch|p1a: Levi
+|-resisted|p1a: Levi
+|-crit|p1a: Levi
+|-damage|p1a: Levi|0 fnt
+|faint|p1a: Levi
+|
+|upkeep
+|
+|t:|1644158190
+|switch|p1a: Erwin|Xatu, M, shiny|100/100
+|turn|12
+|
+|t:|1644158205
+|move|p2a: Scizor|Bullet Punch|p1a: Erwin
+|-damage|p1a: Erwin|5/100
+|move|p1a: Erwin|Heat Wave|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1644158209
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|13
+|
+|t:|1644158219
+|move|p1a: Erwin|Hidden Power|p2a: Kyurem
+|-damage|p2a: Kyurem|73/100
+|move|p2a: Kyurem|Fusion Bolt|p1a: Erwin
+|-supereffective|p1a: Erwin
+|-damage|p1a: Erwin|0 fnt
+|faint|p1a: Erwin
+|
+|upkeep
+|
+|t:|1644158234
+|switch|p1a: Aerin|Infernape, M|100/100
+|turn|14
+|
+|t:|1644158256
+|move|p1a: Aerin|Close Combat|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Aerin|def|1
+|-unboost|p1a: Aerin|spd|1
+|faint|p2a: Kyurem
+|-damage|p1a: Aerin|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644158259
+|switch|p2a: Latios|Latios, M|65/100 par
+|turn|15
+|
+|t:|1644158278
+|switch|p1a: Hanji|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Hanji
+|move|p2a: Latios|Psychic|p1a: Hanji
+|-damage|p1a: Hanji|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hanji|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1644158303
+|move|p1a: Hanji|Protect|p1a: Hanji
+|-singleturn|p1a: Hanji|Protect
+|move|p2a: Latios|Psychic|p1a: Hanji
+|-activate|p1a: Hanji|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hanji|56/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1644158313
+|move|p1a: Hanji|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|44/100 par
+|move|p2a: Latios|Psychic|p1a: Hanji
+|-damage|p1a: Hanji|0 fnt
+|faint|p1a: Hanji
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644158323
+|switch|p1a: Aerin|Infernape, M|91/100
+|turn|18
+|
+|t:|1644158336
+|move|p1a: Aerin|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-damage|p1a: Aerin|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644158338
+|switch|p2a: Magnezone|Magnezone|37/100
+|turn|19
+|
+|t:|1644158347
+|move|p1a: Aerin|Close Combat|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: Aerin|def|1
+|-unboost|p1a: Aerin|spd|1
+|faint|p2a: Magnezone
+|-damage|p1a: Aerin|71/100|[from] item: Life Orb
+|
+|win|Daffodil Bloke
+|raw|Daffodil Bloke's rating: 1015 &rarr; <strong>1058</strong><br />(+43 for winning)
+|raw|tdog124's rating: 1064 &rarr; <strong>1042</strong><br />(-22 for losing)
+|l|☆tdog124
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

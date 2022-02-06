@@ -1,0 +1,380 @@
+|j|☆London13
+|j|☆julianelvengador
+|t:|1634935677
+|gametype|singles
+|player|p1|London13|2|
+|player|p2|julianelvengador|striker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] LC
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Diglett, L5, M|item
+|poke|p1|Clamperl, L5, M|item
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Porygon, L5|item
+|poke|p1|Natu, L5, M|item
+|poke|p1|Staryu, L5|item
+|poke|p2|Snover, L5, M|item
+|poke|p2|Munchlax, L5, M|item
+|poke|p2|Drilbur, L5, F|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Abra, L5, M|item
+|poke|p2|Carvanha, L5, M|item
+|teampreview
+|j| BB-8-NU
+|j| Lezzz_goo
+|l| Lezzz_goo
+|
+|t:|1634935683
+|start
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|switch|p2a: Carvanha|Carvanha, L5, M|100/100
+|turn|1
+|
+|t:|1634935697
+|move|p2a: Carvanha|Protect|p2a: Carvanha
+|-singleturn|p2a: Carvanha|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Carvanha
+|-activate|p2a: Carvanha|move: Protect
+|
+|-ability|p2a: Carvanha|Speed Boost|boost
+|-boost|p2a: Carvanha|spe|1
+|upkeep
+|turn|2
+|j| BlueArk
+|
+|t:|1634935716
+|move|p2a: Carvanha|Waterfall|p1a: Mienfoo
+|-damage|p1a: Mienfoo|48/100
+|-damage|p2a: Carvanha|91/100|[from] item: Life Orb
+|move|p1a: Mienfoo|U-turn|p2a: Carvanha
+|-supereffective|p2a: Carvanha
+|-damage|p2a: Carvanha|0 fnt
+|faint|p2a: Carvanha
+|c|☆julianelvengador|I lost :/
+|
+|t:|1634935743
+|switch|p1a: Staryu|Staryu, L5|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1634935754
+|switch|p2a: Snover|Snover, L5, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Snover
+|turn|3
+|c| BlueArk|No julian! You can still go for comeback hype!
+|j| dratinivictini
+|c| BlueArk|GL everyone, this will be a fun game
+|
+|t:|1634935776
+|switch|p1a: Porygon|Porygon, L5|100/100
+|-ability|p1a: Porygon|Snow Warning|[from] ability: Trace|[of] p2a: Snover
+|move|p2a: Snover|Hidden Power|p1a: Porygon
+|-damage|p1a: Porygon|85/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|81/100|[from] Hail
+|upkeep
+|turn|4
+|j| Darkness Shining
+|
+|t:|1634935790
+|switch|p2a: Munchlax|Munchlax, L5, M|100/100
+|move|p1a: Porygon|Thunder Wave|p2a: Munchlax
+|-status|p2a: Munchlax|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|77/100|[from] Hail
+|-damage|p2a: Munchlax|97/100 par|[from] Hail
+|upkeep
+|turn|5
+|j| Dragonicos
+|
+|t:|1634935826
+|move|p1a: Porygon|Psychic|p2a: Munchlax
+|-damage|p2a: Munchlax|80/100 par
+|move|p2a: Munchlax|Return|p1a: Porygon
+|-damage|p1a: Porygon|39/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|35/100|[from] Hail
+|-damage|p2a: Munchlax|77/100 par|[from] Hail
+|upkeep
+|turn|6
+|j| Kounamii
+|l| Kounamii
+|c|☆julianelvengador|I have never won any tournament here in this chat, I always lose
+|
+|t:|1634935848
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|85/100
+|cant|p2a: Munchlax|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Porygon|81/100|[from] Hail
+|-damage|p2a: Munchlax|74/100 par|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1634935861
+|move|p1a: Porygon|Psychic|p2a: Munchlax
+|-damage|p2a: Munchlax|57/100 par
+|move|p2a: Munchlax|Return|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Munchlax|54/100 par|[from] Hail
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by julianelvengador)
+|
+|t:|1634935878
+|switch|p1a: Mienfoo|Mienfoo, L5, M|79/100
+|turn|8
+|c|☆London13|that helps
+|
+|t:|1634935891
+|switch|p2a: Drilbur|Drilbur, L5, F|100/100
+|-ability|p2a: Drilbur|Mold Breaker
+|move|p1a: Mienfoo|High Jump Kick|p2a: Drilbur
+|-damage|p2a: Drilbur|41/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drilbur|37/100|[from] Hail
+|-damage|p1a: Mienfoo|74/100|[from] Hail
+|upkeep
+|turn|9
+|j|#Waves
+|
+|t:|1634935903
+|move|p2a: Drilbur|Earthquake|p1a: Mienfoo
+|-damage|p1a: Mienfoo|22/100
+|move|p1a: Mienfoo|U-turn|p2a: Drilbur
+|-damage|p2a: Drilbur|10/100
+|
+|t:|1634935914
+|switch|p1a: Diglett|Diglett, L5, M|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|95/100|[from] Hail
+|-damage|p2a: Drilbur|5/100|[from] Hail
+|upkeep
+|turn|10
+|c|#Waves|god london
+|
+|t:|1634935923
+|switch|p1a: Natu|Natu, L5, M|100/100
+|move|p2a: Drilbur|Earthquake|p1a: Natu
+|-immune|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Natu|96/100|[from] Hail
+|-damage|p2a: Drilbur|0 fnt|[from] Hail
+|faint|p2a: Drilbur
+|upkeep
+|
+|t:|1634935940
+|switch|p2a: Snover|Snover, L5, M|100/100
+|turn|11
+|
+|t:|1634935956
+|move|p2a: Snover|Blizzard|p1a: Natu
+|-supereffective|p1a: Natu
+|-crit|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1634935959
+|switch|p1a: Staryu|Staryu, L5|100/100
+|turn|12
+|
+|t:|1634935967
+|switch|p2a: Munchlax|Munchlax, L5, M|54/100 par
+|move|p1a: Staryu|Psychic|p2a: Munchlax
+|-damage|p2a: Munchlax|37/100 par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|95/100|[from] Hail
+|-damage|p2a: Munchlax|34/100 par|[from] Hail
+|upkeep
+|turn|13
+|
+|t:|1634935977
+|move|p1a: Staryu|Hydro Pump|p2a: Munchlax
+|-damage|p2a: Munchlax|4/100 par
+|move|p2a: Munchlax|Return|p1a: Staryu
+|-damage|p1a: Staryu|30/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Staryu|25/100|[from] Hail
+|-damage|p2a: Munchlax|0 fnt|[from] Hail
+|faint|p2a: Munchlax
+|upkeep
+|
+|t:|1634935996
+|switch|p2a: Snover|Snover, L5, M|100/100
+|turn|14
+|
+|t:|1634936001
+|move|p2a: Snover|Giga Drain|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1634936004
+|switch|p1a: Mienfoo|Mienfoo, L5, M|53/100
+|turn|15
+|
+|t:|1634936008
+|switch|p2a: Timburr|Timburr, L5, M|100/100
+|move|p1a: Mienfoo|High Jump Kick|p2a: Timburr
+|-damage|p2a: Timburr|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|48/100|[from] Hail
+|-damage|p2a: Timburr|44/100|[from] Hail
+|upkeep
+|turn|16
+|
+|t:|1634936013
+|move|p1a: Mienfoo|High Jump Kick|p2a: Timburr
+|-damage|p2a: Timburr|0 fnt
+|faint|p2a: Timburr
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|44/100|[from] Hail
+|upkeep
+|
+|t:|1634936017
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|17
+|
+|t:|1634936023
+|switch|p1a: Diglett|Diglett, L5, M|95/100
+|move|p2a: Abra|Psychic|p1a: Diglett
+|-damage|p1a: Diglett|23/100
+|-unboost|p1a: Diglett|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diglett|17/100|[from] Hail
+|upkeep
+|turn|18
+|
+|t:|1634936049
+|move|p1a: Diglett|Memento|p2a: Abra
+|-unboost|p2a: Abra|atk|2
+|-unboost|p2a: Abra|spa|2
+|faint|p1a: Diglett
+|move|p2a: Abra|Psychic|p1: Diglett|[notarget]
+|-fail|p2a: Abra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1634936051
+|switch|p1a: Clamperl|Clamperl, L5, M|100/100
+|turn|19
+|
+|t:|1634936059
+|switch|p2a: Snover|Snover, L5, M|100/100
+|move|p1a: Clamperl|Shell Smash|p1a: Clamperl
+|-unboost|p1a: Clamperl|def|1
+|-unboost|p1a: Clamperl|spd|1
+|-boost|p1a: Clamperl|atk|2
+|-boost|p1a: Clamperl|spa|2
+|-boost|p1a: Clamperl|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Clamperl|96/100|[from] Hail
+|upkeep
+|turn|20
+|
+|t:|1634936062
+|move|p1a: Clamperl|Ice Beam|p2a: Snover
+|-damage|p2a: Snover|0 fnt
+|faint|p2a: Snover
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Clamperl|91/100|[from] Hail
+|upkeep
+|
+|t:|1634936065
+|switch|p2a: Abra|Abra, L5, M|100/100
+|turn|21
+|
+|t:|1634936078
+|move|p1a: Clamperl|Surf|p2a: Abra
+|-enditem|p2a: Abra|Focus Sash
+|-damage|p2a: Abra|6/100
+|move|p2a: Abra|Psychic|p1a: Clamperl
+|-damage|p1a: Clamperl|0 fnt
+|faint|p1a: Clamperl
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1634936080
+|switch|p1a: Mienfoo|Mienfoo, L5, M|74/100
+|turn|22
+|
+|t:|1634936087
+|move|p2a: Abra|Protect|p2a: Abra
+|-singleturn|p2a: Abra|Protect
+|move|p1a: Mienfoo|Fake Out|p2a: Abra
+|-activate|p2a: Abra|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mienfoo|70/100|[from] Hail
+|upkeep
+|turn|23
+|
+|t:|1634936091
+|move|p2a: Abra|Psychic|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|win|julianelvengador
+|n|☆London13|london13
+|n|☆julianelvengador|julianelvengador
+|n| BB-8-NU|bb8nu
+|n| BlueArk|blueark
+|n| dratinivictini|dratinivictini
+|n| Darkness Shining|darknessshining
+|n| Dragonicos|dragonicos
+|n|+Waves|waves
+|l| BB-8-NU
+|c|☆London13|gg
+|l|+Waves
+|c|☆julianelvengador|gg
+|c| BlueArk|LETS GO! good job julian!
+|c|☆julianelvengador|...
+|c|☆julianelvengador|:0
+|c|☆julianelvengador|First tour win :''''D
+|c| BlueArk|Ggs everyone
+|l| dratinivictini
+|c|☆julianelvengador|thanks
+|l|☆London13
+|l| Darkness Shining
+|l| Dragonicos
+|j| Zekrom54
+|l| Zekrom54
+|j| Dragonicos
+|l| Dragonicos
+|j| Dragonicos

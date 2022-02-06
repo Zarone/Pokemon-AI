@@ -1,0 +1,361 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1641765977
+|gametype|singles
+|player|p1|Finchinator|#finchinator|
+|player|p2|estarossa|#estarossa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] UU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ludicolo, M|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Tornadus, M|item
+|poke|p1|Kabutops, F|item
+|poke|p1|Azelf|item
+|poke|p1|Kingdra, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Blastoise, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Mew|item
+|poke|p2|Sableye, M|item
+|poke|p2|Zapdos|item
+|teampreview
+|c|☆Finchinator|good night
+|c|☆Finchinator|(HF)
+|c|☆estarossa|hf
+|inactive|estarossa has 270 seconds left.
+|
+|t:|1641766007
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|1
+|
+|t:|1641766021
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|move|p1a: Nidoqueen|Earth Power|p2a: Blastoise
+|-damage|p2a: Blastoise|53/100
+|
+|-heal|p2a: Blastoise|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1641766033
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Blastoise|Scald|p1a: Azelf
+|-damage|p1a: Azelf|68/100
+|
+|-heal|p2a: Blastoise|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1641766039
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|move|p2a: Blastoise|Scald|p1a: Azelf
+|-damage|p1a: Azelf|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blastoise|71/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1641766046
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Azelf|Stealth Rock|p2a: Sableye
+|-sidestart|p2: estarossa|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1641766055
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Kingdra|[miss]
+|-miss|p2a: Sableye|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|c|☆Finchinator|mb dog
+|
+|t:|1641766065
+|switch|p2a: Blastoise|Blastoise, F|71/100
+|-damage|p2a: Blastoise|59/100|[from] Stealth Rock
+|move|p1a: Kingdra|Hydro Pump|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|4/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blastoise|10/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1641766069
+|move|p1a: Kingdra|Hydro Pump|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641766073
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1641766079
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Roserade|Spikes|p1a: Tornadus
+|-sidestart|p1: Finchinator|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1641766086
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Spikes
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1641766090
+|move|p1a: Kingdra|Hydro Pump|p2a: Clefable|[miss]
+|-miss|p1a: Kingdra|p2a: Clefable
+|move|p2a: Clefable|Knock Off|p1a: Kingdra
+|-damage|p1a: Kingdra|84/100
+|-enditem|p1a: Kingdra|Choice Specs|[from] move: Knock Off|[of] p2a: Clefable
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1641766097
+|move|p1a: Kingdra|Hydro Pump|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|move|p2a: Clefable|Seismic Toss|p1a: Kingdra
+|-damage|p1a: Kingdra|50/100
+|
+|-heal|p2a: Clefable|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1641766108
+|switch|p1a: Azelf|Azelf|21/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1641766118
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sableye|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|14
+|
+|t:|1641766125
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Tornadus|[miss]
+|-miss|p2a: Sableye|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1641766135
+|move|p2a: Sableye|Will-O-Wisp|p1a: Tornadus
+|-status|p1a: Tornadus|brn
+|move|p1a: Tornadus|Hurricane|p2a: Sableye
+|-damage|p2a: Sableye|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sableye|41/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1641766149
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Tornadus|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|15/100
+|-start|p2a: Zapdos|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zapdos|21/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|76/100 brn|[from] brn
+|upkeep
+|turn|17
+|c|☆Finchinator|ok this is dumb
+|
+|t:|1641766159
+|move|p1a: Tornadus|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tornadus|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1641766161
+|switch|p2a: Clefable|Clefable, F, shiny|77/100
+|turn|18
+|
+|t:|1641766172
+|switch|p1a: Kabutops|Kabutops, F|100/100
+|-damage|p1a: Kabutops|88/100|[from] Spikes
+|move|p2a: Clefable|Seismic Toss|p1a: Kabutops
+|-damage|p1a: Kabutops|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clefable|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1641766185
+|switch|p2a: Sableye|Sableye, M|41/100
+|-damage|p2a: Sableye|29/100|[from] Stealth Rock
+|move|p1a: Kabutops|Waterfall|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-damage|p1a: Kabutops|40/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641766191
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1641766199
+|switch|p1a: Azelf|Azelf|21/100
+|move|p2a: Mew|Aura Sphere|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|8/100
+|
+|-weather|none
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1641766205
+|move|p1a: Azelf|Rain Dance|p1a: Azelf
+|-weather|RainDance
+|move|p2a: Mew|Aura Sphere|p1a: Azelf
+|-resisted|p1a: Azelf
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1641766213
+|switch|p1a: Kabutops|Kabutops, F|40/100
+|-damage|p1a: Kabutops|28/100|[from] Spikes
+|turn|22
+|
+|t:|1641766217
+|move|p1a: Kabutops|Waterfall|p2a: Mew
+|-damage|p2a: Mew|50/100
+|-damage|p1a: Kabutops|18/100|[from] item: Life Orb
+|cant|p2a: Mew|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|56/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|+Bughouse|lol how did azelf rd 3 times
+|
+|t:|1641766226
+|move|p1a: Kabutops|Waterfall|p2a: Mew
+|-damage|p2a: Mew|1/100
+|-damage|p1a: Kabutops|8/100|[from] item: Life Orb
+|cant|p2a: Mew|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|7/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Finchinator|sorry
+|
+|t:|1641766234
+|move|p1a: Kabutops|Waterfall|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-damage|p1a: Kabutops|0 fnt|[from] item: Life Orb
+|faint|p1a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641766241
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|switch|p2a: Roserade|Roserade, F|94/100
+|-damage|p1a: Ludicolo|88/100|[from] Spikes
+|-damage|p2a: Roserade|82/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1641766247
+|move|p1a: Ludicolo|Ice Punch|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|-damage|p1a: Ludicolo|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1641766252
+|switch|p2a: Clefable|Clefable, F, shiny|83/100
+|turn|26
+|
+|t:|1641766255
+|move|p1a: Ludicolo|Swords Dance|p1a: Ludicolo
+|-boost|p1a: Ludicolo|atk|2
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1641766257
+|move|p1a: Ludicolo|Waterfall|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-damage|p1a: Ludicolo|68/100|[from] item: Life Orb
+|
+|win|Finchinator
+|c|☆estarossa|gg
+|c|☆Finchinator|you had a good chance and the game was dumb
+|c|☆Finchinator|sorry
+|c|☆Finchinator|gg
+|c|☆estarossa|yea no worries

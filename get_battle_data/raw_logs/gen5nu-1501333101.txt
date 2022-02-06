@@ -1,0 +1,184 @@
+|j|☆LunaTheCatgirl4976
+|j|‽Yung Waitress
+|t:|1643567989
+|gametype|singles
+|player|p1|LunaTheCatgirl4976|cynthia-gen4|1000
+|player|p2|Yung Waitress|waitress-gen4|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] NU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Electrode|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Haunter, F|item
+|poke|p1|Ditto|item
+|poke|p1|Ninjask, M|item
+|poke|p1|Camerupt, F|item
+|poke|p2|Musharna, M|item
+|poke|p2|Cacturne, F|item
+|poke|p2|Probopass, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Vanilluxe, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yung Waitress)
+|
+|t:|1643568016
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Probopass|Probopass, F|100/100
+|-item|p2a: Probopass|Air Balloon
+|-transform|p1a: Ditto|p2a: Probopass|[from] ability: Imposter
+|turn|1
+|
+|t:|1643568026
+|move|p1a: Ditto|Stealth Rock|p2a: Probopass
+|-sidestart|p2: Yung Waitress|move: Stealth Rock
+|move|p2a: Probopass|Stealth Rock|p1a: Ditto
+|-sidestart|p1: LunaTheCatgirl4976|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1643568034
+|move|p1a: Ditto|Flash Cannon|p2a: Probopass
+|-crit|p2a: Probopass
+|-damage|p2a: Probopass|53/100
+|-enditem|p2a: Probopass|Air Balloon
+|move|p2a: Probopass|Volt Switch|p1a: Ditto
+|-damage|p1a: Ditto|84/100
+|
+|t:|1643568036
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Seismitoad|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643568048
+|move|p2a: Seismitoad|Earth Power|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1643568057
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1643568062
+|move|p1a: Ninjask|Substitute|p1a: Ninjask
+|-start|p1a: Ninjask|Substitute
+|-damage|p1a: Ninjask|26/100
+|move|p2a: Seismitoad|Scald|p1a: Ninjask
+|-end|p1a: Ninjask|Substitute
+|
+|-heal|p1a: Ninjask|32/100|[from] item: Leftovers
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|5
+|
+|t:|1643568072
+|move|p1a: Ninjask|X-Scissor|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|18/100
+|move|p2a: Seismitoad|Scald|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|-heal|p2a: Seismitoad|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643568079
+|switch|p1a: Haunter|Haunter, F|100/100
+|-damage|p1a: Haunter|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1643568085
+|switch|p2a: Cacturne|Cacturne, F|100/100
+|-damage|p2a: Cacturne|88/100|[from] Stealth Rock
+|move|p1a: Haunter|Shadow Ball|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|53/100
+|
+|upkeep
+|turn|7
+|
+|t:|1643568094
+|move|p2a: Cacturne|Sucker Punch|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|-damage|p2a: Cacturne|43/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643568097
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Cacturne
+|turn|8
+|
+|t:|1643568103
+|move|p2a: Cacturne|Sucker Punch|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|-damage|p2a: Cacturne|33/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643568105
+|switch|p1a: Electrode|Electrode|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1643568109
+|move|p2a: Cacturne|Sucker Punch|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|-damage|p2a: Cacturne|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643568113
+|switch|p1a: Camerupt|Camerupt, F|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1643568116
+|move|p2a: Cacturne|Seed Bomb|p1a: Camerupt
+|-damage|p1a: Camerupt|28/100
+|-damage|p2a: Cacturne|13/100|[from] item: Life Orb
+|move|p1a: Camerupt|Stealth Rock||[still]
+|-fail|p1a: Camerupt
+|
+|upkeep
+|turn|11
+|
+|t:|1643568123
+|move|p2a: Cacturne|Seed Bomb|p1a: Camerupt
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|-damage|p2a: Cacturne|3/100|[from] item: Life Orb
+|
+|win|Yung Waitress
+|raw|LunaTheCatgirl4976's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Yung Waitress's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|c|☆LunaTheCatgirl4976|Gg

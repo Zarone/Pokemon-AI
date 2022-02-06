@@ -1,0 +1,448 @@
+|j|☆im noob dont worry
+|j|☆victor7fdz
+|t:|1643975957
+|gametype|singles
+|player|p1|im noob dont worry|skyla|1216
+|player|p2|victor7fdz|lance|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Sharpedo, F|item
+|poke|p1|Yanmega, F|item
+|poke|p1|Starmie|item
+|poke|p1|Conkeldurr, M|item
+|poke|p2|Mew|item
+|poke|p2|Scizor, F|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Rotom-Mow|item
+|poke|p2|Politoed, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by im noob dont worry)
+|
+|t:|1643975970
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Politoed|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1643975978
+|move|p1a: Landorus|Stealth Rock|p2a: Politoed
+|-sidestart|p2: victor7fdz|move: Stealth Rock
+|move|p2a: Politoed|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1643975998
+|switch|p1a: 草钢之父|Magnezone|100/100
+|turn|2
+|
+|t:|1643976026
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: 草钢之父|Substitute|p1a: 草钢之父
+|-start|p1a: 草钢之父|Substitute
+|-damage|p1a: 草钢之父|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: 草钢之父|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643976039
+|move|p2a: Rotom|Leaf Storm|p1a: 草钢之父
+|-resisted|p1a: 草钢之父
+|-end|p1a: 草钢之父|Substitute
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: 草钢之父|Flash Cannon|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: 草钢之父|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976059
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: 草钢之父|Substitute|p1a: 草钢之父
+|-start|p1a: 草钢之父|Substitute
+|-damage|p1a: 草钢之父|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|-heal|p1a: 草钢之父|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976071
+|move|p2a: Mew|Ice Beam|p1a: 草钢之父
+|-resisted|p1a: 草钢之父
+|-activate|p1a: 草钢之父|Substitute|[damage]
+|move|p1a: 草钢之父|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|60/100|[from] item: Leftovers
+|-heal|p1a: 草钢之父|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1643976080
+|move|p2a: Mew|Ice Beam|p1a: 草钢之父
+|-resisted|p1a: 草钢之父
+|-end|p1a: 草钢之父|Substitute
+|move|p1a: 草钢之父|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|27/100|[from] item: Leftovers
+|-heal|p1a: 草钢之父|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1643976089
+|move|p2a: Mew|Taunt|p1a: 草钢之父
+|-start|p1a: 草钢之父|move: Taunt
+|cant|p1a: 草钢之父|move: Taunt|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|33/100|[from] item: Leftovers
+|-heal|p1a: 草钢之父|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643976097
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|83/100
+|move|p1a: 草钢之父|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|48/100|[from] item: Leftovers
+|-heal|p1a: 草钢之父|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1643976106
+|move|p2a: Mew|Will-O-Wisp|p1a: 草钢之父
+|-status|p1a: 草钢之父|brn
+|move|p1a: 草钢之父|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|2/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|8/100|[from] item: Leftovers
+|-heal|p1a: 草钢之父|99/100 brn|[from] item: Leftovers
+|-damage|p1a: 草钢之父|87/100 brn|[from] brn
+|-end|p1a: 草钢之父|move: Taunt
+|upkeep
+|turn|10
+|
+|t:|1643976118
+|move|p2a: Mew|Taunt|p1a: 草钢之父
+|-start|p1a: 草钢之父|move: Taunt
+|move|p1a: 草钢之父|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: 草钢之父|93/100 brn|[from] item: Leftovers
+|-damage|p1a: 草钢之父|80/100 brn|[from] brn
+|upkeep
+|
+|t:|1643976127
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1643976133
+|move|p2a: Tentacruel|Rapid Spin|p1a: 草钢之父
+|-resisted|p1a: 草钢之父
+|-damage|p1a: 草钢之父|78/100 brn
+|-sideend|p2: victor7fdz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: 草钢之父|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|7/100
+|-status|p2a: Tentacruel|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|13/100 par|[from] ability: Rain Dish
+|-heal|p1a: 草钢之父|84/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|19/100 par|[from] item: Black Sludge
+|-damage|p1a: 草钢之父|72/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1643976160
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: 草钢之父|Thunderbolt|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|25/100 par|[from] ability: Rain Dish
+|-heal|p1a: 草钢之父|78/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|32/100 par|[from] item: Black Sludge
+|-damage|p1a: 草钢之父|66/100 brn|[from] brn
+|-end|p1a: 草钢之父|move: Taunt
+|upkeep
+|turn|13
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976177
+|move|p1a: 草钢之父|Substitute|p1a: 草钢之父
+|-start|p1a: 草钢之父|Substitute
+|-damage|p1a: 草钢之父|41/100 brn
+|move|p2a: Tentacruel|Scald|p1a: 草钢之父
+|-end|p1a: 草钢之父|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|38/100 par|[from] ability: Rain Dish
+|-heal|p1a: 草钢之父|47/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|44/100 par|[from] item: Black Sludge
+|-damage|p1a: 草钢之父|34/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976190
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: 草钢之父|Thunderbolt|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|50/100 par|[from] ability: Rain Dish
+|-heal|p1a: 草钢之父|40/100 brn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|56/100 par|[from] item: Black Sludge
+|-damage|p1a: 草钢之父|28/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976206
+|switch|p2a: Rotom|Rotom-Mow|61/100
+|move|p1a: 草钢之父|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: 草钢之父|34/100 brn|[from] item: Leftovers
+|-damage|p1a: 草钢之父|21/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976223
+|move|p2a: Rotom|Volt Switch|p1a: 草钢之父
+|-resisted|p1a: 草钢之父
+|-damage|p1a: 草钢之父|1/100 brn
+|
+|t:|1643976229
+|switch|p2a: Scizor|Scizor, F|100/100|[from]move: Volt Switch
+|move|p1a: 草钢之父|Flash Cannon|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: 草钢之父|7/100 brn|[from] item: Leftovers
+|-heal|p2a: Scizor|87/100|[from] item: Leftovers
+|-damage|p1a: 草钢之父|0 fnt|[from] brn
+|faint|p1a: 草钢之父
+|upkeep
+|
+|t:|1643976252
+|switch|p1a: Starmie|Starmie|100/100
+|turn|17
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976258
+|move|p1a: Starmie|Reflect Type|p2a: Scizor
+|-start|p1a: Starmie|typechange|[from] move: Reflect Type|[of] p2a: Scizor
+|move|p2a: Scizor|Bug Bite|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|-heal|p2a: Scizor|93/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976271
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Starmie|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|88/100|[from] item: Leftovers
+|-heal|p2a: Volcarona|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|victor7fdz has 120 seconds left.
+|
+|t:|1643976293
+|move|p1a: Starmie|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1643976302
+|switch|p2a: Politoed|Politoed, F|100/100
+|turn|20
+|
+|t:|1643976315
+|move|p1a: Starmie|Reflect Type|p2a: Politoed
+|-start|p1a: Starmie|typechange|[from] move: Reflect Type|[of] p2a: Politoed
+|move|p2a: Politoed|Hydro Pump|p1a: Starmie|[miss]
+|-miss|p2a: Politoed|p1a: Starmie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Starmie|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1643976324
+|switch|p2a: Rotom|Rotom-Mow|44/100
+|move|p1a: Starmie|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|c|☆victor7fdz|good move
+|
+|t:|1643976349
+|switch|p1a: Yanmega|Yanmega, F|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Yanmega
+|-supereffective|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆victor7fdz|reflect type, never saw it
+|
+|t:|1643976356
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|23
+|
+|t:|1643976360
+|switch|p2a: Politoed|Politoed, F|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Politoed
+|-damage|p2a: Politoed|75/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|24
+|
+|t:|1643976367
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1643976376
+|switch|p2a: Tentacruel|Tentacruel, M|56/100 par
+|turn|25
+|
+|t:|1643976380
+|move|p2a: Tentacruel|Protect|p2a: Tentacruel
+|-singleturn|p2a: Tentacruel|Protect
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Tentacruel
+|-activate|p2a: Tentacruel|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|62/100 par|[from] ability: Rain Dish
+|-heal|p2a: Tentacruel|68/100 par|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1643976391
+|switch|p2a: Scizor|Scizor, F|93/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|-heal|p1a: Conkeldurr|100/100 brn|[from] drain|[of] p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|33/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1643976403
+|move|p1a: Conkeldurr|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-heal|p1a: Conkeldurr|100/100 brn|[from] drain|[of] p2a: Scizor
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1643976411
+|switch|p2a: Rotom|Rotom-Mow|17/100
+|turn|28
+|
+|t:|1643976414
+|move|p1a: Conkeldurr|Mach Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1643976419
+|switch|p2a: Tentacruel|Tentacruel, M|68/100 par
+|turn|29
+|
+|t:|1643976422
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|win|im noob dont worry
+|raw|im noob dont worry's rating: 1216 &rarr; <strong>1236</strong><br />(+20 for winning)
+|raw|victor7fdz's rating: 1151 &rarr; <strong>1131</strong><br />(-20 for losing)
+|l|☆victor7fdz

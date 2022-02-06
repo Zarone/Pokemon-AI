@@ -1,0 +1,637 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644018786
+|gametype|singles
+|player|p1|Mendeez|lucas|
+|player|p2|MTV BRATVA|unknown|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|5
+|tier|[Gen 5] OU
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Clause: Sleep-inducing moves are banned
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Politoed, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Ferrothorn, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|c|☆MTV BRATVA|hf
+|c|+mars and back|hf
+|c|☆Mendeez|nooo hijoputa
+|c|☆Mendeez|hf
+|inactive|Mendeez has 270 seconds left.
+|inactive|MTV BRATVA has 270 seconds left.
+|
+|t:|1644018840
+|start
+|switch|p1a: Keldeo|Keldeo|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1644018864
+|switch|p2a: Jellicent|Jellicent, M, shiny|100/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1644018890
+|switch|p1a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Politoed
+|-status|p1a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1644018901
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Jellicent|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1644018908
+|switch|p1a: Politoed|Politoed, M|88/100 brn
+|move|p2a: Jellicent|Night Shade|p1a: Politoed
+|-damage|p1a: Politoed|62/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|56/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1644018915
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Jellicent|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1644018920
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|96/100
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1644018927
+|move|p2a: Jellicent|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100 brn
+|move|p1a: Ferrothorn|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|53/100 brn|[from] brn
+|-end|p1a: Ferrothorn|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1644018934
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|move|p2a: Jellicent|Taunt|p1a: Thundurus
+|-start|p1a: Thundurus|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1644018953
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Thundurus|Thunder|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|61/100
+|-status|p2a: Latios|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|inactive|Mendeez has 270 seconds left.
+|c|+Pinto|heal bell lati
+|c|+Pinto|revela
+|c|+mars and back|*refresh
+|
+|t:|1644019002
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Thundurus|Hidden Power|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|-end|p1a: Thundurus|move: Taunt
+|upkeep
+|turn|11
+|inactive|MTV BRATVA has 270 seconds left.
+|
+|t:|1644019041
+|switch|p1a: Politoed|Politoed, M|56/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|49/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1644019050
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Landorus|U-turn|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|43/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1644019054
+|move|p2a: Landorus|U-turn|p1a: Politoed
+|-damage|p1a: Politoed|12/100 brn
+|inactive|MTV BRATVA has 270 seconds left.
+|
+|t:|1644019076
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p1a: Politoed|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Politoed|6/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|Mendeez has 270 seconds left.
+|inactive|MTV BRATVA has 240 seconds left.
+|
+|t:|1644019113
+|switch|p1a: Keldeo|Keldeo|94/100
+|switch|p2a: Tyranitar|Tyranitar, M|87/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|turn|15
+|inactive|MTV BRATVA has 240 seconds left.
+|
+|t:|1644019133
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|switch|p2a: Jellicent|Jellicent, M, shiny|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|85/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1644019147
+|move|p1a: Tentacruel|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Tentacruel|[miss]
+|-miss|p2a: Jellicent|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|79/100 tox|[from] Sandstorm
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p2a: Jellicent|73/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1644019155
+|move|p1a: Tentacruel|Protect|p1a: Tentacruel
+|-singleturn|p1a: Tentacruel|Protect
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100 tox|[from] Sandstorm
+|-heal|p1a: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p2a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|Mendeez has 270 seconds left.
+|
+|t:|1644019179
+|switch|p1a: Keldeo|Keldeo|88/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1644019189
+|switch|p2a: Jellicent|Jellicent, M, shiny|82/100 tox
+|move|p1a: Keldeo|Secret Sword|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|76/100|[from] Sandstorm
+|-damage|p2a: Jellicent|76/100 tox|[from] Sandstorm
+|-damage|p2a: Jellicent|69/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Mendeez has 270 seconds left.
+|
+|t:|1644019221
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1644019234
+|move|p2a: Landorus|Stone Edge|p1a: Thundurus|[miss]
+|-miss|p2a: Landorus|p1a: Thundurus
+|move|p1a: Thundurus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|-heal|p1a: Thundurus|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644019243
+|switch|p2a: Tyranitar|Tyranitar, M|87/100
+|turn|22
+|
+|t:|1644019254
+|switch|p1a: Politoed|Politoed, M|6/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Tyranitar|Crunch|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644019261
+|switch|p1a: Keldeo|Keldeo|76/100
+|turn|23
+|inactive|MTV BRATVA has 240 seconds left.
+|
+|t:|1644019268
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|switch|p2a: Jellicent|Jellicent, M, shiny|69/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Jellicent|63/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1644019274
+|switch|p2a: Tyranitar|Tyranitar, M|87/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|70/100|[from] Sandstorm
+|-heal|p1a: Thundurus|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1644019281
+|move|p1a: Thundurus|Thunder|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100
+|move|p2a: Tyranitar|Crunch|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|70/100|[from] Sandstorm
+|-heal|p1a: Thundurus|76/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1644019292
+|switch|p1a: Keldeo|Keldeo|76/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: Mendeez|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|69/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|t:|1644019303
+|switch|p2a: Jellicent|Jellicent, M, shiny|63/100 tox
+|move|p1a: Keldeo|Hidden Power|p2a: Jellicent
+|-damage|p2a: Jellicent|38/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|63/100|[from] Sandstorm
+|-damage|p2a: Jellicent|32/100 tox|[from] Sandstorm
+|-damage|p2a: Jellicent|26/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1644019310
+|move|p1a: Keldeo|Hidden Power|p2a: Jellicent
+|-damage|p2a: Jellicent|1/100 tox
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|51/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|57/100|[from] Sandstorm
+|-damage|p2a: Jellicent|45/100 tox|[from] Sandstorm
+|-damage|p2a: Jellicent|33/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1644019316
+|move|p1a: Keldeo|Hidden Power|p2a: Jellicent
+|-damage|p2a: Jellicent|7/100 tox
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|57/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|51/100|[from] Sandstorm
+|-damage|p2a: Jellicent|51/100 tox|[from] Sandstorm
+|-damage|p2a: Jellicent|32/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|MTV BRATVA has 270 seconds left.
+|
+|t:|1644019325
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Keldeo|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|45/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1644019331
+|switch|p1a: Ferrothorn|Ferrothorn, M|53/100 brn
+|-damage|p1a: Ferrothorn|47/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Mendeez|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|53/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|41/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1644019337
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: MTV BRATVA|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Mendeez|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|47/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|35/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1644019349
+|switch|p2a: Jellicent|Jellicent, M, shiny|32/100 tox
+|-damage|p2a: Jellicent|19/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|15/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|9/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|2/100 tox|[from] psn
+|-damage|p1a: Ferrothorn|28/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1644019355
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|53/100 tox
+|move|p1a: Ferrothorn|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|12/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|6/100 tox|[from] Sandstorm
+|-heal|p1a: Ferrothorn|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|0 fnt|[from] psn
+|faint|p2a: Jellicent
+|-damage|p1a: Ferrothorn|22/100 brn|[from] brn
+|upkeep
+|inactive|MTV BRATVA has 270 seconds left.
+|
+|t:|1644019379
+|switch|p2a: Tyranitar|Tyranitar, M|52/100
+|-damage|p2a: Tyranitar|40/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1644019385
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Tyranitar|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|16/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1644019391
+|move|p2a: Tyranitar|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644019406
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|84/100|[from] Spikes
+|-damage|p1a: Tentacruel|72/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1644019411
+|move|p1a: Tentacruel|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|66/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|72/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1644019413
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|38
+|
+|t:|1644019441
+|move|p2a: Alakazam|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1644019443
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|39
+|c|☆MTV BRATVA|!calc
+|c|+MTV BRATVA|/raw <div class="infobox">Pok&eacute;mon Showdown! damage calculator. (Courtesy of Honko, Austin, &amp; Kris)<br />- <a href="https://calc.pokemonshowdown.com/index.html">Damage Calculator</a></div>
+|inactive|MTV BRATVA has 270 seconds left.
+|inactive|MTV BRATVA has 240 seconds left.
+|inactive|MTV BRATVA has 210 seconds left.
+|
+|t:|1644019557
+|move|p1a: Latios|Draco Meteor|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-enditem|p2a: Alakazam|Focus Sash
+|-damage|p2a: Alakazam|1/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Alakazam|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|82/100 par|[from] Sandstorm
+|upkeep
+|turn|40
+|
+|t:|1644019583
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|-damage|p2a: Ferrothorn|89/100|[from] Stealth Rock
+|cant|p1a: Latios|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|76/100 par|[from] Sandstorm
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|c|+Pinto|bratva te imaginas fallabas?
+|
+|t:|1644019597
+|move|p1a: Latios|Draco Meteor|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|39/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|33/100 par|[from] Sandstorm
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1644019605
+|cant|p1a: Latios|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644019610
+|switch|p1a: Keldeo|Keldeo|45/100
+|-damage|p1a: Keldeo|38/100|[from] Stealth Rock
+|-damage|p1a: Keldeo|22/100|[from] Spikes
+|turn|43
+|
+|t:|1644019620
+|move|p1a: Keldeo|Secret Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|3/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644019623
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|76/100
+|-damage|p1a: Thundurus|51/100|[from] Stealth Rock
+|turn|44
+|
+|t:|1644019627
+|move|p1a: Thundurus|Hidden Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|45/100|[from] Sandstorm
+|-heal|p1a: Thundurus|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1644019633
+|switch|p2a: Alakazam|Alakazam, M|1/100
+|turn|45
+|
+|t:|1644019636
+|move|p2a: Alakazam|Psychic|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|win|MTV BRATVA
+|c|☆Mendeez|gg
+|c|☆MTV BRATVA|gg
