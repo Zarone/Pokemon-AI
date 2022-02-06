@@ -3,6 +3,8 @@
 #include "luaconf.h"
 #include "mpack/mpack.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 #define L1 425
 #define L2 100
@@ -20,6 +22,12 @@ struct State {
     char name[11];
 };
 
+struct Move {
+    int moves[2]; // structured like [ player1move, player2move ]
+    double estimate;
+    int isMultiEvent; // whether or not there are mulitple possible outcomes after move
+};
+
 void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3]) 
 {
     mpack_tag_t tag = mpack_read_tag(reader);
@@ -30,7 +38,6 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
  
     if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
-        // printf("count is %i", count);
         int newIndexes[] = {0, 0, 0};
         for (uint32_t i = count; i > 0; --i) {
             if (layer == 0){
@@ -55,18 +62,12 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
     if (layer == 3){
         double val = mpack_tag_double_value(&tag);
         if (indexes[0] == 3){
-            // if (L2-indexes[2] == 0){
-                // printf("weight_pointer->h_layer_1[%i][%i] = %f\n", L1-indexes[1], L2-indexes[2], val);
-            // }
             weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = val;
         }
         else if (indexes[0] == 2){
-            // printf("indexes[0]=3,indexes[1]=%i,indexes[2]=%i, val=%f\n", indexes[1], indexes[2], val);
-            // printf("weight_pointer->h_layer_2[%i][%i] = %f\n", L2-indexes[1], L3-indexes[2], val);
             weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = val;
         }
         else if (indexes[0] == 1){
-            // printf("indexes[0]=3,indexes[1]=%i,indexes[2]=%i, val=%f\n", indexes[1], indexes[2], val);
             if (indexes[1] == 2){
                 weight_pointer->biases_1[L2-indexes[2]] = val;
             } else if (indexes[1] == 1){
@@ -78,39 +79,43 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
     }
 }
 
-int get_weights(){
+void print_weights(struct Weights *my_weights){
+    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
+    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
+    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
+    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
+    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
+    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
+    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
+    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
+
+    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
+    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
+    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
+    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
+    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
+    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
+    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
+    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
+    
+    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
+    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
+    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
+    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
+    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
+    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
+    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+}
+
+int get_weights(struct Weights *my_weights){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
 
-    struct Weights my_weights;
     int blank_indexes[] = {0,0,0};
 
-    parse_weights(&reader, 0, &my_weights, blank_indexes);
-    // printf("weights[0][0][0] = %f\n", my_weights.h_layer_1[0][0]);
-    // printf("weights[0][0][1] = %f\n", my_weights.h_layer_1[0][1]);
-    // printf("weights[0][0][2] = %f\n", my_weights.h_layer_1[0][2]);
-    // printf("weights[0][0][3] = %f\n", my_weights.h_layer_1[0][3]);
-    // printf("weights[0][0][4] = %f\n", my_weights.h_layer_1[0][4]);
-    // printf("weights[0][0][5] = %f\n", my_weights.h_layer_1[0][5]);
-    // printf("weights[0][0][6] = %f\n", my_weights.h_layer_1[0][6]);
-    // printf("weights[0][0][7] = %f\n", my_weights.h_layer_1[0][7]);
-
-    // printf("weights[1][0][0] = %f\n", my_weights.h_layer_2[0][0]);
-    // printf("weights[1][1][0] = %f\n", my_weights.h_layer_2[1][0]);
-    // printf("weights[1][2][0] = %f\n", my_weights.h_layer_2[2][0]);
-    // printf("weights[1][3][0] = %f\n", my_weights.h_layer_2[3][0]);
-    // printf("weights[1][4][0] = %f\n", my_weights.h_layer_2[4][0]);
-    // printf("weights[1][5][0] = %f\n", my_weights.h_layer_2[5][0]);
-    // printf("weights[1][6][0] = %f\n", my_weights.h_layer_2[6][0]);
-    // printf("weights[1][7][0] = %f\n", my_weights.h_layer_2[7][0]);
+    parse_weights(&reader, 0, my_weights, blank_indexes);
     
-    // printf("biases[0][0] = %f\n", my_weights.biases_1[0]);
-    // printf("biases[0][1] = %f\n", my_weights.biases_1[1]);
-    // printf("biases[0][2] = %f\n", my_weights.biases_1[2]);
-    // printf("biases[0][3] = %f\n", my_weights.biases_1[3]);
-    // printf("biases[0][4] = %f\n", my_weights.biases_1[4]);
-    // printf("biases[0][5] = %f\n", my_weights.biases_1[5]);
-    // printf("biases[1][0] = %f\n", my_weights.biases_2[0]);
+    // print_weights(my_weights);
 
     mpack_error_t error = mpack_reader_destroy(&reader);
     if (error != mpack_ok){
@@ -155,9 +160,9 @@ void parse_state(mpack_reader_t* reader, struct State *state){
     }
 }
 
-void parse_inputs(mpack_reader_t* reader, int layer, struct State (*inputs_pointer)[10][10][25], int indexes[3]) 
+void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
 {
-    printf("%i\n", layer);
+
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
         printf("error in reader: %i\n", mpack_reader_error(reader));
@@ -167,10 +172,26 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State (*inputs_point
     if (layer == 3){
         struct State myState;
         parse_state(reader, &myState);
-        printf("switch data: %s\n", myState.name);
-        printf("inputs[0]: %i\n", myState.game_data[0]);
-        printf("inputs[1]: %i\n", myState.game_data[1]);
-        printf("inputs[2]: %i\n", myState.game_data[2]);
+
+        // printf("switch data: %s\n", myState.name);
+        // printf("inputs[0]: %i\n", myState.game_data[0]);
+        // printf("inputs[1]: %i\n", myState.game_data[1]);
+        // printf("inputs[2]: %i\n", myState.game_data[2]);
+
+        int side1 = 10 - indexes[0];
+        int side2 = 10 - indexes[1];
+        int side3 = indexes[2];
+
+        for (int i = 0; i < 11; i++){
+
+            // sets the state[side1][side2][side3]
+            (inputs_pointer+side1*10*25+side2*25+side3)->name[i] = myState.name[i];
+        }
+
+        for (int i = 0; i < L1; i++){
+            (inputs_pointer+side1*10*25+side2*25+side3)->game_data[i] = myState.game_data[i];
+        }
+
         mpack_done_array(reader);
     } else if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
@@ -184,7 +205,7 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State (*inputs_point
             } else if (layer == 2){
                 newIndexes[0] = indexes[0];
                 newIndexes[1] = indexes[1];
-                newIndexes[2] = i;
+                newIndexes[2] = mpack_tag_array_count(&tag)-i;
             }
             parse_inputs(reader, layer+1, inputs_pointer, newIndexes );
             if (mpack_reader_error(reader) != mpack_ok){ // critical check!
@@ -194,36 +215,99 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State (*inputs_point
         }
         mpack_done_array(reader);
     }
+
 }
 
-int get_inputs(){
+// argument is pointer to first element of array
+int get_inputs(struct State *my_states){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/state_files/battleStatesFromShowdown.txt");
 
-    /*
-
-    [
-        [
-            [ [ State, State ] ],
-            [ [ State, State ] ],
-            ... for each player 1 game action
-        ],
-        [
-            [ [ State, State ] ],
-            [ [ State, State ] ],
-            ... for each player 1 game action
-        ],
-        ... for each player 2 game action
-    ]
-
-    */
-
-    struct State myStates[10][10][25];
     int blank_indexes[] = {0,0,0};
 
-    parse_inputs(&reader, 0, &myStates, blank_indexes);
+    parse_inputs(&reader, 0, my_states, blank_indexes);
 
     return mpack_reader_destroy(&reader) == mpack_ok;
+}
+
+void print_inputs(struct State my_states){
+    printf("name: %s\n", my_states.name);
+    printf("data[0]: %i\n", my_states.game_data[0]);
+    printf("data[1]: %i\n", my_states.game_data[1]);
+    printf("data[2]: %i\n", my_states.game_data[2]);
+    printf("data[3]: %i\n", my_states.game_data[3]);
+    printf("data[4]: %i\n", my_states.game_data[4]);
+}
+
+double relu(double a){
+    return (a > 0) ? a : 0;
+}
+
+double logistic(double a){
+    return 1 / (1 + exp(-1*(double)a));
+}
+
+double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
+    
+    double activations_layer2[L2];
+
+    // propagate into activations_layer2
+    for (int i = 0; i < L2; i++){
+        activations_layer2[i] = 0;
+        for (int j = 0; j < L1; j++){
+            // printf("%i %i %f\n", i, j, (double)(*inputs)[j] * my_weights->h_layer_1[j][i]);
+            activations_layer2[i] += (double)(*inputs)[j] * my_weights->h_layer_1[j][i];
+        }
+        activations_layer2[i] += my_weights->biases_1[i];
+        // printf("%i %f\n", i, activations_layer2[i]);
+        activations_layer2[i] = relu(activations_layer2[i]);
+    }
+
+
+    double activation_output = 0;
+
+    // propagate into output layer
+    for (int i = 0; i < L2; i++){
+        // printf("%i %i %f\n", i, j, (double)(*inputs)[j] * my_weights->h_layer_1[j][i]);
+        activation_output += activations_layer2[i] * my_weights->h_layer_2[i][0];
+    }
+    activation_output += my_weights->biases_2[0];
+    // printf("output pre logistic: %f\n", activation_output);
+    activation_output = logistic(activation_output);
+    return activation_output;
+}
+
+int evaluate_moves(){
+
+    struct State blank_state;
+    blank_state.name[0] = '\0';
+
+    struct State my_states[10][10][25] = {blank_state};
+    get_inputs(&my_states[0][0][0]);
+    struct Weights my_weights;
+    get_weights(&my_weights);
+
+    // print_weights(&my_weights);
+    // print_inputs(my_states[0][0][0]);
+
+    for (int i = 0; i < 10; i++){
+        for (int j = 0; j < 10; j++){
+            for (int k = 0; k < 25; k++){
+                if (my_states[i][j][k].name[0] != '\0'){
+                    // printf("%i %i %i; name: %s\n", i, j, k, my_states[i][j][k].name);
+                    printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[i][j][k].game_data)));
+                }
+            }
+        }
+    }
+
+    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][0][0].game_data)));
+    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][1][0].game_data)));
+    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][2][0].game_data)));
+    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][3][0].game_data)));
+    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][5][0].game_data)));
+
+    return 1;
 }
 
 int get_move(lua_State *L){
@@ -231,8 +315,9 @@ int get_move(lua_State *L){
     // gets rid of function args
     lua_settop(L, 0);
  
-    lua_pushstring(L, get_weights() == 1 ? "sucessfully returned from \"get_weights()\"" : "error in \"get_weights()\"");
+    // lua_pushstring(L, get_weights() == 1 ? "sucessfully returned from \"get_weights()\"" : "error in \"get_weights()\"");
     // lua_pushstring(L, get_inputs() == 1 ? "sucessfully returned from \"get_inputs()\"" : "error in \"get_inputs()\"");
+    lua_pushstring(L, evaluate_moves() == 1 ? "sucessfully returned from \"evaluate_moves()\"" : "error in \"evaluate_moves()\"");
 
     return 1;
 
