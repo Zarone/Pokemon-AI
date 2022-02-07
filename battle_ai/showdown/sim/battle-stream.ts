@@ -49,6 +49,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	battle: Battle | null;
 	initChunk: string | undefined;
 	jsonOutput: any;
+	msgOutput: any;
+	nnDebug = true;
 
 	constructor(
 		options: {
@@ -387,6 +389,197 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return returnVal;
 	}
 
+	getHazardDebug(hazard: string) {
+		if (this.battle?.sides[0].sideConditions[hazard] == null) {
+			return 0;
+		} else if (this.battle?.sides[0].sideConditions[hazard].duration) {
+			return this.battle?.sides[0].sideConditions[hazard].duration;
+		} else if (this.battle?.sides[0].sideConditions[hazard].layers) {
+			return this.battle?.sides[0].sideConditions[hazard].layers;
+		}
+	}
+
+	getVolatilesDebug(side: Side) {
+		let volatiles = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+		for (let i = 0; i < 6; i++) {
+			if (i < side.pokemon.length) {
+				if (side.pokemon[i].volatiles["leechseed"]) {
+					volatiles[0] = 1;
+				}
+				if (side.pokemon[i].volatiles["confusion"]) {
+					volatiles[1] = side.pokemon[i].volatiles["confusion"].duration;
+				}
+				if (side.pokemon[i].volatiles["taunt"]) {
+					volatiles[2] = side.pokemon[i].volatiles["taunt"].duration;
+				}
+				if (side.pokemon[i].volatiles["yawn"]) {
+					volatiles[3] = 1;
+				}
+				if (side.pokemon[i].volatiles["perishsong"]) {
+					if (side.pokemon[i].volatiles["perishsong"].duration == 3) {
+						volatiles[4] = 1;
+					} else if (
+						side.pokemon[i].volatiles["perishsong"].duration == 2
+					) {
+						volatiles[4] = 2;
+					} else if (
+						side.pokemon[i].volatiles["perishsong"].duration == 1
+					) {
+						volatiles[4] = 3;
+					}
+				}
+				if (side.pokemon[i].volatiles["substitute"]) {
+					volatiles[5] = 1;
+				}
+				if (side.pokemon[i].volatiles["focusenergy"]) {
+					volatiles[6] = 1;
+				}
+				if (side.pokemon[i].volatiles["ingrain"]) {
+					volatiles[7] = 1;
+				}
+				if (side.pokemon[i].volatiles["disable"]) {
+					volatiles[8] = side.pokemon[i].volatiles["disable"].duration;
+				}
+				if (side.pokemon[i].volatiles["encore"]) {
+					volatiles[9] = side.pokemon[i].volatiles["encore"].duration;
+				}
+				if (side.slotConditions[0]["futuremove"]) {
+					volatiles[10] = side.slotConditions[0]["futuremove"].duration;
+				}
+				if (side.pokemon[i].volatiles["aquaring"]) {
+					volatiles[11] = 1;
+				}
+				if (side.pokemon[i].volatiles["attract"]) {
+					volatiles[12] = 1;
+				}
+				if (side.pokemon[i].volatiles["torment"]) {
+					volatiles[13] = 1;
+				}
+			}
+		}
+		return volatiles;
+	}
+
+	getBoostsDebug(pokemon: Pokemon[]) {
+		let boosts = [];
+		for (let i = 0; i < 6; i++) {
+			if (i < pokemon.length) {
+				boosts[i] = pokemon[i].boosts;
+			} else {
+				boosts[i] = {};
+			}
+		}
+		return boosts;
+	}
+
+	getHPDebug(pokemon: Pokemon[]) {
+		let hp = [];
+		for (let i = 0; i < 6; i++) {
+			if (i < pokemon.length) {
+				hp[i] = Math.round((pokemon[i].hp / pokemon[i].maxhp) * 100);
+			} else {
+				hp[i] = "N/A";
+			}
+		}
+		return hp;
+	}
+
+	getStatsDebug(pokemon: Pokemon[]) {
+		let stats = [];
+		for (let i = 0; i < 6; i++) {
+			if (i < pokemon.length) {
+				stats[i] = pokemon[i].storedStats;
+			} else {
+				stats[i] = {};
+			}
+		}
+		return stats;
+	}
+
+	getTypesDebug(pokemon: Pokemon[]) {
+		let types = [];
+		for (let i = 0; i < 6; i++) {
+			if (i < pokemon.length) {
+				types[i] = pokemon[i].types;
+			} else {
+				types[i] = [];
+			}
+		}
+		return types;
+	}
+
+	getJsonDebug() {
+		let weather = this.battle?.field.weather;
+		let hazards = [
+			this.getHazardDebug("spikes"),
+			this.getHazardDebug("toxicspikes"),
+			this.getHazardDebug("stealthrock"),
+			this.getHazardDebug("reflect"),
+			this.getHazardDebug("lightscreen"),
+			this.getHazardDebug("safeguard"),
+			this.getHazardDebug("mist"),
+			this.getHazardDebug("tailwind"),
+			this.getHazardDebug("luckychant"),
+		];
+		let statusP1 = [];
+		let statusP2 = [];
+
+		for (let i = 0; i < 6; i++) {
+			if (i < (this.battle?.sides[0].pokemon as Pokemon[]).length) {
+				statusP1.push(this.battle?.sides[0].pokemon[i].status);
+			} else {
+				statusP1.push("N/A");
+			}
+
+			if (i < (this.battle?.sides[1].pokemon as Pokemon[]).length) {
+				statusP2.push(this.battle?.sides[1].pokemon[i].status);
+			} else {
+				statusP2.push("N/A");
+			}
+		}
+
+		let volatilesP1 = this.getVolatilesDebug(this.battle?.sides[0] as Side);
+		let volatilesP2 = this.getVolatilesDebug(this.battle?.sides[1] as Side);
+
+		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
+		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
+
+		let hpP1 = this.getHPDebug(this.battle?.sides[0].pokemon as Pokemon[]);
+		let hpP2 = this.getHPDebug(this.battle?.sides[1].pokemon as Pokemon[]);
+
+		let statsP1 = this.getStatsDebug(
+			this.battle?.sides[0].pokemon as Pokemon[]
+		);
+		let statsP2 = this.getStatsDebug(
+			this.battle?.sides[1].pokemon as Pokemon[]
+		);
+
+		let typesP1 = this.getTypesDebug(
+			this.battle?.sides[0].pokemon as Pokemon[]
+		);
+		let typesP2 = this.getTypesDebug(
+			this.battle?.sides[1].pokemon as Pokemon[]
+		);
+
+		return {
+			weather,
+			hazards,
+			statusP1,
+			statusP2,
+			volatilesP1,
+			volatilesP2,
+			boostsP1,
+			boostsP2,
+			hpP1,
+			hpP2,
+			statsP1,
+			statsP2,
+			typesP1,
+			typesP2,
+			log: this.battle?.log,
+		};
+	}
+
 	playFromAction(i: number, j: number) {
 		if (i < 5) {
 			this._writeLine("p1", `move ${i}`);
@@ -440,6 +633,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						}
 
 						let thisOutput = [];
+						let thisOutputDebug = [];
 
 						if (
 							this.battle?.sides[0].choice.forcedSwitchesLeft == 0 &&
@@ -449,6 +643,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						) {
 							// if there's no errors or forced switches
 							thisOutput.push(this.getJson(activeNickname));
+
+							if (this.nnDebug) {
+								thisOutputDebug.push(this.getJsonDebug());
+							}
 						}
 
 						if (
@@ -464,8 +662,12 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 									this._writeLine("p1", `switch ${k - 4}`);
 									this._writeLine("p2", `switch ${l - 4}`);
 									this.battle?.sendUpdates();
-									if (this.battle?.sides[0].choice.error === "")
+									if (this.battle?.sides[0].choice.error === "") {
 										thisOutput.push(this.getJson(activeNickname));
+										if (this.nnDebug) {
+											thisOutputDebug.push(this.getJsonDebug());
+										}
+									}
 
 									if (k !== 10 || l !== 10) {
 										this._write(this.initChunk as string);
@@ -479,48 +681,72 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							) {
 								this._writeLine("p1", "switch 1");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[0].choice.error === "")
+								if (this.battle?.sides[0].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 2`);
 								this.playFromAction(i, j);
 								this._writeLine("p1", "switch 2");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[0].choice.error === "")
+								if (this.battle?.sides[0].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 3`);
 								this.playFromAction(i, j);
 								this._writeLine("p1", "switch 3");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[0].choice.error === "")
+								if (this.battle?.sides[0].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 4`);
 								this.playFromAction(i, j);
 								this._writeLine("p1", "switch 4");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[0].choice.error === "")
+								if (this.battle?.sides[0].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 5`);
 								this.playFromAction(i, j);
 								this._writeLine("p1", "switch 5");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[0].choice.error === "")
+								if (this.battle?.sides[0].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p1 switch 6`);
 								this.playFromAction(i, j);
 								this._writeLine("p1", "switch 6");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[0].choice.error === "")
+								if (this.battle?.sides[0].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 							}
 
 							if (
@@ -529,54 +755,83 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 							) {
 								this._writeLine("p2", "switch 1");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[1].choice.error === "")
+								if (this.battle?.sides[1].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 2`);
 								this.playFromAction(i, j);
 								this._writeLine("p2", "switch 2");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[1].choice.error === "")
+								if (this.battle?.sides[1].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 3`);
 								this.playFromAction(i, j);
 								this._writeLine("p2", "switch 3");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[1].choice.error === "")
+								if (this.battle?.sides[1].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 4`);
 								this.playFromAction(i, j);
 								this._writeLine("p2", "switch 4");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[1].choice.error === "")
+								if (this.battle?.sides[1].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 5`);
 								this.playFromAction(i, j);
 								this._writeLine("p2", "switch 5");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[1].choice.error === "")
+								if (this.battle?.sides[1].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 								this._write(this.initChunk as string);
 
 								// this.battle?.send("", `${i} ${j}: p2 switch 6`);
 								this.playFromAction(i, j);
 								this._writeLine("p2", "switch 6");
 								this.battle?.sendUpdates();
-								if (this.battle?.sides[1].choice.error === "")
+								if (this.battle?.sides[1].choice.error === "") {
 									thisOutput.push(this.getJson(activeNickname));
+									if (this.nnDebug) {
+										thisOutputDebug.push(this.getJsonDebug());
+									}
+								}
 							}
 						}
 
-						this.jsonOutput = this.jsonOutput || [];
-						this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
-						this.jsonOutput[j - 1][i - 1] = thisOutput;
+						if (this.nnDebug) {
+							this.jsonOutput = this.jsonOutput || [];
+							this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
+							this.jsonOutput[j - 1][i - 1] = thisOutputDebug;
+						}
+						this.msgOutput = this.msgOutput || [];
+						this.msgOutput[j - 1] = this.msgOutput[j - 1] || [];
+						this.msgOutput[j - 1][i - 1] = thisOutput;
 
 						if (i !== 10 || j !== 10)
 							this._write(this.initChunk as string);
@@ -585,14 +840,16 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 				fs.writeFileSync(
 					"./battle_ai/state_files/battleStatesFromShowdown.txt",
-					Buffer.from(msgpack.encode(this.jsonOutput))
+					Buffer.from(msgpack.encode(this.msgOutput))
 				);
 
 				// this write file is purely for debugging
-				fs.writeFileSync(
-					"./battle_ai/state_files/battleStatesFromShowdown.json",
-					JSON.stringify(this.jsonOutput)
-				);
+				if (this.nnDebug) {
+					fs.writeFileSync(
+						"./battle_ai/state_files/battleStatesFromShowdown.json",
+						JSON.stringify(this.jsonOutput)
+					);
+				}
 
 				console.log("Saved Showdown Simulation");
 				return true;

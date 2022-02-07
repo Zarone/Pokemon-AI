@@ -295,7 +295,8 @@ int evaluate_moves(){
             for (int k = 0; k < 25; k++){
                 if (my_states[i][j][k].name[0] != '\0'){
                     // printf("%i %i %i; name: %s\n", i, j, k, my_states[i][j][k].name);
-                    printf("feedforward output %i %i %i : %i\n", i, j, k, (int)round(feedforward(&my_weights, &(my_states[i][j][k].game_data))));
+                    // printf("feedforward output %i %i %i : %i\n", i, j, k, (int)round(feedforward(&my_weights, &(my_states[i][j][k].game_data))));
+                    printf("feedforward output %i %i %i : %f\n", i, j, k, feedforward(&my_weights, &(my_states[i][j][k].game_data)));
                 }
             }
         }
