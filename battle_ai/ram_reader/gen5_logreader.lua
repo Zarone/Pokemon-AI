@@ -547,6 +547,12 @@ function GameReader:pass_turn()
     if self.enemy.volatiles[2] > 0 then
         self.enemy.volatiles[2] = self.enemy.volatiles[2] - 1
     end
+    if self.player.volatiles[3] > 0 then
+        self.player.volatiles[3] = self.player.volatiles[3] - 1
+    end
+    if self.enemy.volatiles[3] > 0 then
+        self.enemy.volatiles[3] = self.enemy.volatiles[3] - 1
+    end
     if self.player.volatiles[9] > 0 then
         self.player.volatiles[9] = self.player.volatiles[9] - 1
     end
@@ -558,6 +564,12 @@ function GameReader:pass_turn()
     end
     if self.enemy.volatiles[10] > 0 then
         self.enemy.volatiles[10] = self.enemy.volatiles[10] - 1
+    end
+    if self.player.volatiles[11] > 0 then
+        self.player.volatiles[11] = self.player.volatiles[11] - 1
+    end
+    if self.enemy.volatiles[11] > 0 then
+        self.enemy.volatiles[11] = self.enemy.volatiles[11] - 1
     end
 end
 

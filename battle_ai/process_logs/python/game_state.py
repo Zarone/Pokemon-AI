@@ -1,6 +1,4 @@
 import json
-from os import stat
-from shutil import move
 
 VOLATILE_CONDITIONS = 14
 BOOSTS = 7
@@ -118,6 +116,7 @@ class GameState:
         )
 
         if not filter_target_name in pokemon_data:
+            # print(filter_target_name)
             filter_target_name = self.nickname_table[filter_target_name].translate(
                 dict((ord(char), None) for char in "â€™’")
             )
@@ -142,7 +141,8 @@ class GameState:
         team1max = len(self.player1team) - 1
         team2max = len(self.player2team) - 1
 
-        # print(team1max, team2max)
+        if team1max < 0 or team2max < 0:
+            print("teams max: ", team1max, team2max)
 
         for i in range(6):
             if i > team1max:
@@ -211,6 +211,29 @@ class GameState:
             print("player not specified")
             return []
 
+    def in_between_turns(self):
+        if self.player1volatilestatus[1] > 0:
+            self.player1volatilestatus[1] -= 1
+        if self.player1volatilestatus[2] > 0:
+            self.player1volatilestatus[2] -= 1
+        if self.player1volatilestatus[8] > 0:
+            self.player1volatilestatus[8] -= 1
+        if self.player1volatilestatus[9] > 0:
+            self.player1volatilestatus[9] -= 1
+        if self.player1volatilestatus[10] > 0:
+            self.player1volatilestatus[10] -= 1
+        if self.player2volatilestatus[1] > 0:
+            self.player2volatilestatus[1] -= 1
+        if self.player2volatilestatus[2] > 0:
+            self.player2volatilestatus[2] -= 1
+        if self.player2volatilestatus[8] > 0:
+            self.player2volatilestatus[8] -= 1
+        if self.player2volatilestatus[9] > 0:
+            self.player2volatilestatus[9] -= 1
+        if self.player2volatilestatus[10] > 0:
+            self.player2volatilestatus[10] -= 1
+        
+
     def next_turn(self):
         # returning true indicates that the game has not ended
         
@@ -221,8 +244,9 @@ class GameState:
                     if i == (len(self.log) - 1):
                         return False
                     else:
+                        self.in_between_turns()
                         return True
-            elif self.log[i].startswith("|switch"):
+            elif self.log[i].startswith("|switch") or self.log[i].startswith("|drag"):
 
                 player = 3
                 if self.log[i].startswith("p1a", 8):
@@ -236,7 +260,10 @@ class GameState:
 
                 target_pokemon = self.log[i].split("|")[3].split(",")[0]
 
-                nickname = self.log[i].split("|")[2].split(":")[1].lstrip()
+                nickname = self.log[i].split("|")[2].split(":")[1].translate(
+                    dict((ord(char), None) for char in "â€™’")
+                ).strip()
+                # print("add nickname to list: "+nickname)
                 self.nickname_table[nickname] = target_pokemon
 
                 if (player == 1):
@@ -249,6 +276,15 @@ class GameState:
                         if self.is_form_of(self.player2team[j]["name"], target_pokemon):
                             self.player2active = j
                             break
+            elif self.log[i].startswith("|replace"):
+                target_pokemon = self.log[i].split("|")[3].split(",")[0]
+
+                nickname = self.log[i].split("|")[2].split(":")[1].translate(
+                    dict((ord(char), None) for char in "â€™’")
+                ).strip()
+                # print("add nickname to list: "+nickname)
+                self.nickname_table[nickname] = target_pokemon
+
             elif self.log[i].startswith("|-damage") or self.log[i].startswith("|-heal"):
                 player = 3
 
@@ -414,9 +450,11 @@ class GameState:
                     move_index = 10
 
                 else:
+
+                    move_index = 11
                     print("couldn't find entry hazard: ", move_name)
                 
-                if move_index != 9 and move_index != 10:
+                if move_index < 9:
                     if (player_string == "p1"):
                         if move_index == 0 and self.player1hazards[move_index] < 3:
                             self.player1hazards[move_index] += 1
@@ -487,9 +525,10 @@ class GameState:
                     move_index = 10
 
                 else:
+                    move_index = 11
                     print("couldn't find entry hazard: ", move_name)
                 
-                if move_index != 9 and move_index != 10:
+                if move_index < 9:
                     if (player_string == "p1"):
                         self.player1hazards[move_index] = 0    
                     elif (player_string == "p2"):
@@ -512,7 +551,7 @@ class GameState:
                 weather_type = log_split[2].strip()
 
                 if (len(log_split) < 4 or log_split[3].startswith("[from]")): # that means that it's a trigger
-                    self.numberofweatherturns = 0
+                    self.numberofweatherturns = 5
                     if weather_type == "SunnyDay":
                         self.weathertype = [1, 0, 0, 0]
                     elif weather_type == "RainDance":
@@ -526,7 +565,8 @@ class GameState:
                     else:
                         print("unknown weather condition: ", weather_type)
                 elif log_split[3].startswith("[upkeep]"):
-                    self.numberofweatherturns += 1                
+                    if self.numberofweatherturns > 0:
+                        self.numberofweatherturns-=1
             elif self.log[i].startswith("|-start"):
                 log_split = self.log[i].split("|")
                 player_string = log_split[2].split(":")[0].lstrip()
@@ -545,10 +585,10 @@ class GameState:
                     effect_value = 1
                 elif effect_string == "confusion":
                     effect_int = 1
-                    effect_value = 1
+                    effect_value = 5
                 elif effect_string == "Taunt":
                     effect_int = 2
-                    effect_value = 1
+                    effect_value = 3
                 elif effect_string == "Yawn":
                     effect_int = 3
                     effect_value = 1
@@ -575,13 +615,13 @@ class GameState:
                     effect_value = 1
                 elif effect_string == "Disable":
                     effect_int = 8
-                    effect_value = 1
+                    effect_value = 4
                 elif effect_string == "Encore":
                     effect_int = 9
-                    effect_value = 1
+                    effect_value = 3
                 elif effect_string == "Future Sight":
                     effect_int = 10
-                    effect_value = 1
+                    effect_value = 3
                 elif effect_string == "Aqua Ring":
                     effect_int = 11
                     effect_value = 1
@@ -597,11 +637,29 @@ class GameState:
                 elif effect_string == "typechange":
                     effect_int = 15
                     effect_value = 1
-                elif effect_int == "Imprison":
+                elif effect_string == "Imprison":
                     effect_int = 16
                     effect_value = 1
+                elif effect_string == "Magnet Rise":
+                    effect_int = 17
+                    effect_value = 1
+                elif effect_string == "Flash Fire":
+                    effect_int = 18
+                    effect_value = 1
+                elif effect_string == "Foresight":
+                    effect_int = 19
+                    effect_value = 1
+                elif effect_string == "stockpile1":
+                    effect_int = 20
+                    effect_value = 1
+                elif effect_string == "stockpile2":
+                    effect_int = 21
+                    effect_value = 1
+                elif effect_string == "stockpile3":
+                    effect_int = 22
+                    effect_value = 1
                 else:
-                    effect_int = 17  
+                    effect_int = 100
                     print("effect not handled properly: ", effect_string)
                 
                 if effect_int < len(self.player1volatilestatus):

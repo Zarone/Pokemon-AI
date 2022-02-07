@@ -79,14 +79,20 @@ import msgpack
 raw_log_dir = "../../../get_battle_data/raw_logs/"
 
 def get_all_logs():
+  process_files = 0
   for file in os.listdir(raw_log_dir):
       if file != ".DS_Store":
         print(file)
+        process_files+=1
+        print(process_files)
         get_log(raw_log_dir+file, file)
 
 def get_log(log_name, file):
   log = open(log_name, "r", encoding='utf-8', errors='ignore')
   new_game = gs.GameState(log.readlines(), False)
+  if len(new_game.player1team) < 1 or len(new_game.player2team) < 1:
+    print(file, "- null team")
+    return False
   maxTurns = 100
   for i in range(maxTurns):
     if (new_game.next_turn()):
