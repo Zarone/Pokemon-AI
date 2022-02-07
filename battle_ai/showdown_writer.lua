@@ -16,7 +16,7 @@ function Writer.new(team1, team2)
     -- windows: 
     -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
 
-    FORMAT = "gen8nationaldex"
+    FORMAT = "gen5ubers"
     team1 = team1 or
                 "Reuniclus||Life Orb    |Magic Guard |trickroom,psychic,focusblast,shadowball     |Quiet   |192,0,64,252,0,0 ||31,31,30,31,31,2 ||72 |255 ,,]Crustle  ||none        |Sturdy      |bugbite,stealthrock,rockslide,slash         |Docile  |0,0,0,0,0,0      ||20,0,7,16,26,20  ||35 |70  ,,]Nidoqueen||none        |Poison Point|toxicspikes,superpower,earthpower,furyswipes|Sassy   |85,85,85,85,85,85||31,31,31,31,31,31||100|72  ,,]Qwilfish ||Focus Sash  |Swift Swim  |spikes,pinmissile,takedown,aquatail         |Quirky  |0,0,0,0,0,0      ||15,9,22,12,18,14 ||47 |70  ,,]Hydreigon||Choice Specs|Levitate    |dracometeor,fly,darkpulse,focusblast        |Timid   |6,0,0,252,0,252  ||31,31,31,31,31,31||100|255 ,,]Blaziken ||Leftovers   |Speed Boost |highjumpkick,rockslide,protect,flareblitz   |Adamant |4,252,0,0,0,252  ||31,31,31,24,31,31||77 |255 ,,"
     team2 = team2 or
