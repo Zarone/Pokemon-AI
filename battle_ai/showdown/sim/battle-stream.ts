@@ -271,6 +271,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 		// [0, *[0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], *[0, 0, 0, 0, 0]]
 		// [100, 75, 75, 75, 130, 95, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+		// console.log(1, basestats.length, types.length, status.length);
+
 		return [hp, ...basestats, ...types, ...status];
 	}
 
@@ -367,6 +370,21 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
 		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
+
+		// console.log(
+		// 	1,
+		// 	weather.length,
+		// 	hazardsP1.length,
+		// 	hazardsP2.length,
+		// 	volatilesP1.length,
+		// 	volatilesP2.length,
+		// 	boostsP1.length,
+		// 	boostsP2.length,
+		// 	activeP1.length,
+		// 	activeP2.length,
+		// 	benchP1.length,
+		// 	benchP2.length
+		// );
 
 		let returnVal = [
 			[
