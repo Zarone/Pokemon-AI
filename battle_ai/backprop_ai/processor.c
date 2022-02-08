@@ -7,7 +7,7 @@
 #include <math.h>
 
 #define L1 425
-#define L2 100
+#define L2 200
 #define L3 1 
 
 struct Weights {
@@ -243,8 +243,8 @@ double relu(double a){
     return (a > 0) ? a : 0;
 }
 
-double logistic(double a){
-    return 1 / (1 + exp(-1*(double)a));
+double logistic(double a, double spread){
+    return 1 / (1 + exp(-spread*(double)a));
 }
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
@@ -273,7 +273,7 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
     }
     activation_output += my_weights->biases_2[0];
     // printf("output pre logistic: %f\n", activation_output);
-    activation_output = logistic(activation_output);
+    // activation_output = logistic(activation_output, 0.03);
     return activation_output;
 }
 
@@ -292,13 +292,16 @@ int evaluate_moves(){
 
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
-            for (int k = 0; k < 25; k++){
-                if (my_states[i][j][k].name[0] != '\0'){
+            // for (int k = 0; k < 25; k++){
+                if (my_states[i][j][0].name[0] != '\0'){
+
+                    // "i" is player2's move
+                    // "j" is player1's move
                     // printf("%i %i %i; name: %s\n", i, j, k, my_states[i][j][k].name);
                     // printf("feedforward output %i %i %i : %i\n", i, j, k, (int)round(feedforward(&my_weights, &(my_states[i][j][k].game_data))));
-                    printf("feedforward output %i %i %i : %f\n", i, j, k, feedforward(&my_weights, &(my_states[i][j][k].game_data)));
+                    printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
                 }
-            }
+            // }
         }
     }
 
