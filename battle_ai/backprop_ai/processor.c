@@ -350,7 +350,7 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
         activation_output += activations_layer2[i] * my_weights->h_layer_2[i][0];
     }
     activation_output += my_weights->biases_2[0];
-    // activation_output = logistic(activation_output, 0.03);
+    // activation_output = logistic(activation_output, 1);
     return activation_output;
 #elif LAYERS == 4
     double activations_layer3[L3];
@@ -369,10 +369,10 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 
     // propagate into output layer
     for (int i = 0; i < L3; i++){
-        activation_output += activations_layer2[i] * my_weights->h_layer_3[i][0];
+        activation_output += activations_layer3[i] * my_weights->h_layer_3[i][0];
     }
     activation_output += my_weights->biases_3[0];
-    // activation_output = logistic(activation_output, 0.03);
+    activation_output = logistic(activation_output, 1);
     return activation_output;
 #endif
 }

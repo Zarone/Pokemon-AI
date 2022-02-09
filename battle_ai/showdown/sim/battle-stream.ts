@@ -865,7 +865,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				if (this.nnDebug) {
 					fs.writeFileSync(
 						"./battle_ai/state_files/battleStatesFromShowdown.json",
-						JSON.stringify(this.jsonOutput)
+						JSON.stringify(this.msgOutput)
 					);
 				}
 
