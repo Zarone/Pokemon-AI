@@ -7,6 +7,53 @@ from sklearn.model_selection import train_test_split
 
 process_log_dir = "../state_files/processed_logs/"
 
+def log_weight_data(clf):
+    print("calculating input_scaling")
+    input_scaling = [0 for _ in range (425)]
+
+    for i in range(len(clf.coefs_[0])):
+        # len(clf.coefs_[0]) = 425
+
+        for j in range(len(clf.coefs_[1])):
+            #len(clf.coefs_[1]) = 200
+            
+            for k in range(len(clf.coefs_[2])):
+                input_scaling[i] += clf.coefs_[0][i][j] * clf.coefs_[1][j][k] * clf.coefs_[2][k][0]
+
+
+
+    print("HP P1")
+    print(input_scaling[65])
+    print(input_scaling[95])
+    print(input_scaling[125])
+    print(input_scaling[155])
+    print(input_scaling[185])
+    print(input_scaling[215])
+    print("Boosts P1")
+    print(input_scaling[51])
+    print(input_scaling[52])
+    print(input_scaling[53])
+    print(input_scaling[54])
+    print(input_scaling[55])
+    print(input_scaling[56])
+    print(input_scaling[57])
+    print("\n")
+    print("HP P2")
+    print(input_scaling[245])
+    print(input_scaling[275])
+    print(input_scaling[305])
+    print(input_scaling[335])
+    print(input_scaling[365])
+    print(input_scaling[395])
+    print("Boosts P2")
+    print(input_scaling[58])
+    print(input_scaling[59])
+    print(input_scaling[60])
+    print(input_scaling[61])
+    print(input_scaling[62])
+    print(input_scaling[63])
+    print(input_scaling[64])
+
 def get_data():
     x = []
     y = []
@@ -42,92 +89,24 @@ def get_data():
 
 X, y = get_data()
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
-clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(100, 20)).fit(X_train, y_train)
+# X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
+# clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(100, 20)).fit(X_train, y_train)
 
+clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(100, 20)).fit(X, y)
 
-# print("calculating input_scaling")
-# input_scaling = [0 for _ in range (425)]
+# log_weight_data(clf)
 
-# for i in range(len(clf.coefs_[0])):
-#     # len(clf.coefs_[0]) = 425
+file = open("./weights.txt", "wb")
 
-#     for j in range(len(clf.coefs_[1])):
-#         #len(clf.coefs_[1]) = 200
-        
-#         for k in range(len(clf.coefs_[2])):
-#             input_scaling[i] += clf.coefs_[0][i][j] * clf.coefs_[1][j][k] * clf.coefs_[2][k][0]
-
-
-
-# print("HP P1")
-# print(input_scaling[65])
-# print(input_scaling[95])
-# print(input_scaling[125])
-# print(input_scaling[155])
-# print(input_scaling[185])
-# print(input_scaling[215])
-# print("Boosts P1")
-# print(input_scaling[51])
-# print(input_scaling[52])
-# print(input_scaling[53])
-# print(input_scaling[54])
-# print(input_scaling[55])
-# print(input_scaling[56])
-# print(input_scaling[57])
-# print("\n")
-# print("HP P2")
-# print(input_scaling[245])
-# print(input_scaling[275])
-# print(input_scaling[305])
-# print(input_scaling[335])
-# print(input_scaling[365])
-# print(input_scaling[395])
-# print("Boosts P2")
-# print(input_scaling[58])
-# print(input_scaling[59])
-# print(input_scaling[60])
-# print(input_scaling[61])
-# print(input_scaling[62])
-# print(input_scaling[63])
-# print(input_scaling[64])
-
-test = [ [254, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 326,
-          221, 216, 349, 216, 324, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 99, 101, 71, 94, 56, 66, 43, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 342, 221, 231,
-          207, 249, 188, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 80, 125, 98, 85, 62, 65, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43, 233, 153, 152, 251, 139,
-          190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 57, 184, 97, 232, 161, 192, 61, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 244, 111,
-          125, 132, 192, 111, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 100, 201, 139, 137, 125, 125, 182, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 315, 139, 88,
-          154, 102, 139, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 100, 228, 202, 139, 93, 139, 114, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 192, 96, 158,
-          238, 173, 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0, 0, 0, 0, 0
-]]
-
-print(clf.predict(test))
-
-# file = open("./weights.txt", "wb")
-
-# file.write(
-#     msgpack.packb( [ 
-#         clf.coefs_[0].tolist(), 
-#         clf.coefs_[1].tolist(), 
-#         clf.coefs_[2].tolist(),
-#         [ 
-#             clf.intercepts_[0].tolist(),
-#             clf.intercepts_[1].tolist(),
-#             clf.intercepts_[2].tolist()
-#         ] 
-#     ] )
-# )
+file.write(
+    msgpack.packb( [ 
+        clf.coefs_[0].tolist(), 
+        clf.coefs_[1].tolist(), 
+        clf.coefs_[2].tolist(),
+        [ 
+            clf.intercepts_[0].tolist(),
+            clf.intercepts_[1].tolist(),
+            clf.intercepts_[2].tolist()
+        ] 
+    ] )
+)
