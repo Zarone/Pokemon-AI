@@ -6,16 +6,30 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define L1 425
-#define L2 200
-#define L3 1 
+#define LAYERS 4
 
+#define L1 425
+#define L2 100
+#define L3 20 
+#define L4 1
+
+#if LAYERS == 3
 struct Weights {
     double h_layer_1[L1][L2];
     double h_layer_2[L2][L3];
     double biases_1[L2];
     double biases_2[L3];
 };
+#elif LAYERS == 4
+struct Weights {
+    double h_layer_1[L1][L2];
+    double h_layer_2[L2][L3];
+    double h_layer_3[L3][L4];
+    double biases_1[L2];
+    double biases_2[L3];
+    double biases_3[L4];
+};
+#endif
 
 struct State {
     int game_data[L1]; // the input to the neural network
@@ -28,16 +42,17 @@ struct Move {
     int isMultiEvent; // whether or not there are mulitple possible outcomes after move
 };
 
-void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3]) 
+void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3])
 {
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
         printf("error loading layer %i\n", layer);
         return;
     }
- 
+
     if (mpack_tag_type(&tag) == mpack_type_array) {
         uint32_t count = mpack_tag_array_count(&tag);
+
         int newIndexes[] = {0, 0, 0};
         for (uint32_t i = count; i > 0; --i) {
             if (layer == 0){
@@ -56,9 +71,13 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
                 break;
             }
         }
+        
+
         mpack_done_array(reader);
     }
 
+
+    #if LAYERS==3
     if (layer == 3){
         double val = mpack_tag_double_value(&tag);
         if (indexes[0] == 3){
@@ -77,9 +96,35 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
             printf("wasn't 1 or 2 or 3, indexes[0] = %i", indexes[0]);
         }
     }
+    #elif LAYERS==4
+    if (layer == 3){
+        double val = mpack_tag_double_value(&tag);
+        if (indexes[0] == 4){
+            weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = val;
+        }
+        else if (indexes[0] == 3){
+            weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = val;
+        }
+        else if (indexes[0] == 2){
+            weight_pointer->h_layer_3[L3-indexes[1]][L4-indexes[2]] = val;
+        }
+        else if (indexes[0] == 1){
+            if (indexes[1] == 3){
+                weight_pointer->biases_1[L2-indexes[2]] = val;
+            } else if (indexes[1] == 2){
+                weight_pointer->biases_2[L3-indexes[2]] = val;
+            } else if (indexes[1] == 1){
+                weight_pointer->biases_3[L4-indexes[2]] = val;
+            }
+        } else {
+            printf("wasn't 1 or 2 or 3 or 4, indexes[0] = %i", indexes[0]);
+        }
+    }
+    #endif
 }
 
 void print_weights(struct Weights *my_weights){
+#if LAYERS == 3
     printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
     printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
     printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
@@ -105,18 +150,56 @@ void print_weights(struct Weights *my_weights){
     printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
     printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
     printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+#elif LAYERS == 4
+    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
+    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
+    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
+    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
+    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
+    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
+    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
+    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
+
+    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
+    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
+    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
+    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
+    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
+    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
+    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
+    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
+    
+    printf("weights[2][0][0] = %f\n", my_weights->h_layer_3[0][0]);
+    printf("weights[2][1][0] = %f\n", my_weights->h_layer_3[1][0]);
+    printf("weights[2][2][0] = %f\n", my_weights->h_layer_3[2][0]);
+    printf("weights[2][3][0] = %f\n", my_weights->h_layer_3[3][0]);
+    printf("weights[2][4][0] = %f\n", my_weights->h_layer_3[4][0]);
+    printf("weights[2][5][0] = %f\n", my_weights->h_layer_3[5][0]);
+    printf("weights[2][6][0] = %f\n", my_weights->h_layer_3[6][0]);
+    printf("weights[2][7][0] = %f\n", my_weights->h_layer_3[7][0]);
+
+    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
+    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
+    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
+    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
+    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
+    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
+    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+#endif
 }
 
 int get_weights(struct Weights *my_weights){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
 
+    #if LAYERS == 3
     int blank_indexes[] = {0,0,0};
+    #elif LAYERS == 4
+    int blank_indexes[] = {0,0,0,0};
+    #endif
 
     parse_weights(&reader, 0, my_weights, blank_indexes);
     
-    // print_weights(my_weights);
-
     mpack_error_t error = mpack_reader_destroy(&reader);
     if (error != mpack_ok){
         printf("error destorying reader: %s\n", mpack_error_to_string(error));
@@ -248,33 +331,50 @@ double logistic(double a, double spread){
 }
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
-    
     double activations_layer2[L2];
 
     // propagate into activations_layer2
     for (int i = 0; i < L2; i++){
         activations_layer2[i] = 0;
         for (int j = 0; j < L1; j++){
-            // printf("%i %i %f\n", i, j, (double)(*inputs)[j] * my_weights->h_layer_1[j][i]);
             activations_layer2[i] += (double)(*inputs)[j] * my_weights->h_layer_1[j][i];
         }
         activations_layer2[i] += my_weights->biases_1[i];
-        // printf("%i %f\n", i, activations_layer2[i]);
         activations_layer2[i] = relu(activations_layer2[i]);
     }
-
-
+#if LAYERS == 3
     double activation_output = 0;
 
     // propagate into output layer
     for (int i = 0; i < L2; i++){
-        // printf("%i %i %f\n", i, j, (double)(*inputs)[j] * my_weights->h_layer_1[j][i]);
         activation_output += activations_layer2[i] * my_weights->h_layer_2[i][0];
     }
     activation_output += my_weights->biases_2[0];
-    // printf("output pre logistic: %f\n", activation_output);
     // activation_output = logistic(activation_output, 0.03);
     return activation_output;
+#elif LAYERS == 4
+    double activations_layer3[L3];
+
+    // propagate into activations_layer3
+    for (int i = 0; i < L3; i++){
+        activations_layer3[i] = 0;
+        for (int j = 0; j < L2; j++){
+            activations_layer3[i] += activations_layer2[j] * my_weights->h_layer_2[j][i];
+        }
+        activations_layer3[i] += my_weights->biases_2[i];
+        activations_layer3[i] = relu(activations_layer3[i]);
+    }
+
+    double activation_output = 0;
+
+    // propagate into output layer
+    for (int i = 0; i < L3; i++){
+        activation_output += activations_layer2[i] * my_weights->h_layer_3[i][0];
+    }
+    activation_output += my_weights->biases_3[0];
+    // activation_output = logistic(activation_output, 0.03);
+    return activation_output;
+#endif
 }
 
 int evaluate_moves(){
