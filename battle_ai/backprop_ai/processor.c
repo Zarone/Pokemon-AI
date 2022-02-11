@@ -372,7 +372,7 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
         activation_output += activations_layer3[i] * my_weights->h_layer_3[i][0];
     }
     activation_output += my_weights->biases_3[0];
-    activation_output = logistic(activation_output, 1);
+    activation_output = logistic(activation_output, 0.03);
     return activation_output;
 #endif
 }
@@ -397,8 +397,6 @@ int evaluate_moves(){
 
                     // "i" is player2's move
                     // "j" is player1's move
-                    // printf("%i %i %i; name: %s\n", i, j, k, my_states[i][j][k].name);
-                    // printf("feedforward output %i %i %i : %i\n", i, j, k, (int)round(feedforward(&my_weights, &(my_states[i][j][k].game_data))));
                     printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
                 }
             // }

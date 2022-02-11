@@ -1,4 +1,5 @@
 import json
+from os import stat
 
 VOLATILE_CONDITIONS = 14
 BOOSTS = 7
@@ -67,24 +68,24 @@ def get_types_array(typelist):
 
 
 def get_status_array(status):
-    status = [0 for _ in range(6)]
+    status_arr = [0 for _ in range(6)]
 
     if status == 1:
-        status[0] = 1
+        status_arr[0] = 1
     elif status == 2:
-        status[1] = 1
+        status_arr[1] = 1
     elif status == 3:
-        status[2] = 1
+        status_arr[2] = 1
     elif status == 4:
-        status[3] = 1
+        status_arr[3] = 1
     elif status == 5:
-        status[3] = 2
+        status_arr[3] = 2
     elif status == 6:
-        status[4] = 1
+        status_arr[4] = 1
     elif status == 7:
-        status[5] == 1
+        status_arr[5] = 1
 
-    return status
+    return status_arr
 
 def get_basestat_array(baseStats):
     return [baseStats["hp"], baseStats["atk"], baseStats["def"], baseStats["spa"], baseStats["spd"], baseStats["spe"]]
@@ -116,7 +117,6 @@ class GameState:
         )
 
         if not filter_target_name in pokemon_data:
-            # print(filter_target_name)
             filter_target_name = self.nickname_table[filter_target_name].translate(
                 dict((ord(char), None) for char in "â€™’")
             )
@@ -233,13 +233,12 @@ class GameState:
         if self.player2volatilestatus[10] > 0:
             self.player2volatilestatus[10] -= 1
         
-
     def next_turn(self):
         # returning true indicates that the game has not ended
         
         for i in range(self.next_line, len(self.log)):
             if self.log[i].startswith("|turn"):
-                if self.log[i].split("|")[2].strip() != str(self.current_turn):
+                if self.log[i].split("|")[2].strip() != str(self.next_line):
                     self.next_line = i+1
                     if i == (len(self.log) - 1):
                         return False
@@ -263,7 +262,6 @@ class GameState:
                 nickname = self.log[i].split("|")[2].split(":")[1].translate(
                     dict((ord(char), None) for char in "â€™’")
                 ).strip()
-                # print("add nickname to list: "+nickname)
                 self.nickname_table[nickname] = target_pokemon
 
                 if (player == 1):
@@ -282,9 +280,7 @@ class GameState:
                 nickname = self.log[i].split("|")[2].split(":")[1].translate(
                     dict((ord(char), None) for char in "â€™’")
                 ).strip()
-                # print("add nickname to list: "+nickname)
                 self.nickname_table[nickname] = target_pokemon
-
             elif self.log[i].startswith("|-damage") or self.log[i].startswith("|-heal"):
                 player = 3
 
@@ -672,13 +668,11 @@ class GameState:
             elif self.log[i].startswith("|win") or self.log[i].startswith("|tie|"):
                 return False
 
-        self.current_turn += 1
         return True
 
     def __init__(self, log_lines, debug=False):
         self.log = log_lines
         self.next_line = 0
-        self.current_turn = 1
         self.player1name = None
         self.player2name = None
         self.player1team = []
@@ -710,7 +704,6 @@ class GameState:
             print(self.player1name, self.player2name)
 
         for line in log_lines:
-            # print(line)
             self.next_line += 1
             if line.startswith("|player"):
                 if(line.split("|")[2] == "p1"):
@@ -718,7 +711,6 @@ class GameState:
                 elif(line.split("|")[2] == "p2"):
                     self.player2name = line.split("|")[3]
             elif line.startswith("|poke"):
-                # print(line)
                 split_player = None
 
                 player = 3
@@ -776,7 +768,7 @@ class GameState:
             elif line.strip() == "|start":
                 turn_zero = True
 
-        self.next_line = 0
+        self.next_line = 1
 
         if (debug):
             print(self.player1team)

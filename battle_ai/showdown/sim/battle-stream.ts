@@ -544,13 +544,21 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 		for (let i = 0; i < 6; i++) {
 			if (i < (this.battle?.sides[0].pokemon as Pokemon[]).length) {
-				statusP1.push(this.battle?.sides[0].pokemon[i].status);
+				statusP1.push(
+					this.statusToArray(
+						this.battle?.sides[0].pokemon[i].status as string
+					)
+				);
 			} else {
 				statusP1.push("N/A");
 			}
 
 			if (i < (this.battle?.sides[1].pokemon as Pokemon[]).length) {
-				statusP2.push(this.battle?.sides[1].pokemon[i].status);
+				statusP2.push(
+					this.statusToArray(
+						this.battle?.sides[1].pokemon[i].status as string
+					)
+				);
 			} else {
 				statusP2.push("N/A");
 			}
@@ -865,7 +873,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				if (this.nnDebug) {
 					fs.writeFileSync(
 						"./battle_ai/state_files/battleStatesFromShowdown.json",
-						JSON.stringify(this.msgOutput)
+						JSON.stringify({
+							inputState: this.battle?.importData,
+							outputStates: this.jsonOutput,
+						})
 					);
 				}
 
