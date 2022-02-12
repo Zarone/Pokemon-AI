@@ -3191,6 +3191,10 @@ export class Battle {
 				}
 				this.midTurn = true;
 
+				if (this.importData.turns_left_of_weather > 5) {
+					this.importData.turns_left_of_weather = 5;
+				}
+
 				// set weather
 				if (this.importData.weather == 4) {
 					//sand

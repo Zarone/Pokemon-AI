@@ -7,67 +7,6 @@ from sklearn.model_selection import train_test_split
 
 process_log_dir = "../state_files/processed_logs/"
 
-def log_weight_data(clf):
-    print("calculating input_scaling")
-    input_scaling = [0 for _ in range (425)]
-
-    for i in range(len(clf.coefs_[0])):
-        # len(clf.coefs_[0]) = 425
-
-        for j in range(len(clf.coefs_[1])):
-            #len(clf.coefs_[1]) = 200
-            
-            for k in range(len(clf.coefs_[2])):
-                input_scaling[i] += clf.coefs_[0][i][j] * clf.coefs_[1][j][k] * clf.coefs_[2][k][0]
-
-
-
-    print("HP P1")
-    print(input_scaling[65])
-    print(input_scaling[95])
-    print(input_scaling[125])
-    print(input_scaling[155])
-    print(input_scaling[185])
-    print(input_scaling[215])
-    print("Boosts P1")
-    print(input_scaling[51])
-    print(input_scaling[52])
-    print(input_scaling[53])
-    print(input_scaling[54])
-    print(input_scaling[55])
-    print(input_scaling[56])
-    print(input_scaling[57])
-    print("Fainted P1")
-    print(input_scaling[94])
-    print(input_scaling[124])
-    print(input_scaling[154])
-    print(input_scaling[184])
-    print(input_scaling[214])
-    print(input_scaling[244])
-    print("\n")
-    print("HP P2")
-    print(input_scaling[245])
-    print(input_scaling[275])
-    print(input_scaling[305])
-    print(input_scaling[335])
-    print(input_scaling[365])
-    print(input_scaling[395])
-    print("Boosts P2")
-    print(input_scaling[58])
-    print(input_scaling[59])
-    print(input_scaling[60])
-    print(input_scaling[61])
-    print(input_scaling[62])
-    print(input_scaling[63])
-    print(input_scaling[64])
-    print("Fainted P2")
-    print(input_scaling[274])
-    print(input_scaling[304])
-    print(input_scaling[334])
-    print(input_scaling[364])
-    print(input_scaling[394])
-    print(input_scaling[424])
-
 def get_data():
     x = []
     y = []
@@ -101,17 +40,14 @@ def get_data():
             y.append(int(val[1]))
     return x, y
 
-
 X, y = get_data()
 print("got data")
 
 # X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
 # clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(100, 20)).fit(X_train, y_train)
 
-clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(100, 20)).fit(X, y)
+clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(200, 100)).fit(X, y)
 print("got finished training")
-
-log_weight_data(clf)
 
 file = open("./weights.txt", "wb")
 

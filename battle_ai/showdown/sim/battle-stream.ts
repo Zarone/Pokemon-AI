@@ -262,10 +262,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 	getArray(pokemon: Pokemon) {
 		let hp = Math.round((pokemon.hp / pokemon.maxhp) * 100);
-		let basestats = this.baseStatsToArray({
-			...pokemon.storedStats,
-			hp: pokemon.baseMaxhp,
-		});
+		let basestats = this.baseStatsToArray(pokemon.species.baseStats);
 		let types = this.typesToArray(pokemon["types"]);
 		let status = this.statusToArray(pokemon.status);
 
@@ -407,7 +404,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return returnVal;
 	}
 
-	getHazardDebug(hazard: string) {
+	getHazardDebug(hazard: string, side: number) {
 		if (this.battle?.sides[0].sideConditions[hazard] == null) {
 			return 0;
 		} else if (this.battle?.sides[0].sideConditions[hazard].duration) {
@@ -506,7 +503,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let stats = [];
 		for (let i = 0; i < 6; i++) {
 			if (i < pokemon.length) {
-				stats[i] = pokemon[i].storedStats;
+				stats[i] = this.baseStatsToArray(pokemon[i].species.baseStats);
 			} else {
 				stats[i] = {};
 			}
@@ -528,16 +525,27 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 	getJsonDebug() {
 		let weather = this.battle?.field.weather;
-		let hazards = [
-			this.getHazardDebug("spikes"),
-			this.getHazardDebug("toxicspikes"),
-			this.getHazardDebug("stealthrock"),
-			this.getHazardDebug("reflect"),
-			this.getHazardDebug("lightscreen"),
-			this.getHazardDebug("safeguard"),
-			this.getHazardDebug("mist"),
-			this.getHazardDebug("tailwind"),
-			this.getHazardDebug("luckychant"),
+		let hazardsP1 = [
+			this.getHazardDebug("spikes", 0),
+			this.getHazardDebug("toxicspikes", 0),
+			this.getHazardDebug("stealthrock", 0),
+			this.getHazardDebug("reflect", 0),
+			this.getHazardDebug("lightscreen", 0),
+			this.getHazardDebug("safeguard", 0),
+			this.getHazardDebug("mist", 0),
+			this.getHazardDebug("tailwind", 0),
+			this.getHazardDebug("luckychant", 0),
+		];
+		let hazardsP2 = [
+			this.getHazardDebug("spikes", 1),
+			this.getHazardDebug("toxicspikes", 1),
+			this.getHazardDebug("stealthrock", 1),
+			this.getHazardDebug("reflect", 1),
+			this.getHazardDebug("lightscreen", 1),
+			this.getHazardDebug("safeguard", 1),
+			this.getHazardDebug("mist", 1),
+			this.getHazardDebug("tailwind", 1),
+			this.getHazardDebug("luckychant", 1),
 		];
 		let statusP1 = [];
 		let statusP2 = [];
@@ -589,7 +597,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 		return {
 			weather,
-			hazards,
+			hazardsP1,
+			hazardsP2,
 			statusP1,
 			statusP2,
 			volatilesP1,

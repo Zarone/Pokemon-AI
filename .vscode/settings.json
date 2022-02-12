@@ -11,6 +11,7 @@
     "string_view": "c",
     "vector": "c",
     "__string": "c",
-    "cstddef": "c"
+    "cstddef": "c",
+    "cmath": "c"
   }
 }

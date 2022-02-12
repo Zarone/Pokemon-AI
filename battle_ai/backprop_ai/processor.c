@@ -5,12 +5,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "helper/helper.h"
 
 #define LAYERS 4
 
 #define L1 425
-#define L2 100
-#define L3 20 
+#define L2 200
+#define L3 100 
 #define L4 1
 
 #if LAYERS == 3
@@ -33,7 +34,7 @@ struct Weights {
 
 struct State {
     int game_data[L1]; // the input to the neural network
-    char name[11];
+    char name[10];
 };
 
 struct Move {
@@ -41,6 +42,97 @@ struct Move {
     double estimate;
     int isMultiEvent; // whether or not there are mulitple possible outcomes after move
 };
+
+struct Input {
+    char name[20];
+    double val;
+    double input_val;
+};
+
+void merge(struct Input arr[], int l, int m, int r) 
+{ 
+    int i, j, k; 
+    int n1 = m - l + 1; 
+    int n2 =  r - m; 
+    struct Input L[n1], R[n2]; 
+    for (i = 0; i < n1; i++) {
+        for (int inc = 0; inc < 20; inc++){
+            L[i].name[inc] = arr[l + i].name[inc]; 
+        }
+        L[i].val = arr[l+i].val;
+        L[i].input_val = arr[l+i].input_val;
+    }
+    for (j = 0; j < n2; j++) {
+
+        for (int inc = 0; inc < 20; inc++){
+            R[j].name[inc] = arr[m + 1 + j].name[inc]; 
+        }
+        R[j].val = arr[m + 1 + j].val;
+        R[j].input_val = arr[m + 1 + j].input_val;
+    }
+    i = 0; 
+    j = 0; 
+    k = l; 
+    while (i < n1 && j < n2) { 
+        if (L[i].val <= R[j].val){ 
+            for (int inc = 0; inc < 20; inc++){
+                arr[k].name[inc] = L[i].name[inc];
+            }
+            arr[k].val = L[i].val;
+            arr[k].input_val = L[i].input_val;
+            i++; 
+        } 
+        else { 
+            for (int inc = 0; inc < 20; inc++){
+                arr[k].name[inc] = R[j].name[inc];
+            }
+            arr[k].val = R[j].val;
+            arr[k].input_val = R[j].input_val;
+            j++; 
+        } 
+        k++; 
+    } 
+    while (i < n1) { 
+        for (int inc = 0; inc < 20; inc++){
+            arr[k].name[inc] = L[i].name[inc];
+        }
+        arr[k].val = L[i].val;
+        arr[k].input_val = L[i].input_val;
+        i++; 
+        k++; 
+    } 
+    while (j < n2) { 
+        for (int inc = 0; inc < 20; inc++){
+            arr[k].name[inc] = R[j].name[inc];
+        }
+        arr[k].val = R[j].val;; 
+        arr[k].input_val = R[j].input_val;; 
+        j++; 
+        k++; 
+    } 
+}
+
+void mergeSort(struct Input arr[], int l, int r) 
+{ 
+    if (l < r) 
+    { 
+        int m = l+(r-l)/2; 
+        mergeSort(arr, l, m); 
+        mergeSort(arr, m+1, r); 
+        merge(arr, l, m, r); 
+    } 
+} 
+
+void printErrors(struct Input A[], int size, int top) 
+{ 
+    printf("\n"); 
+    for (int i = 0; i < top; i++) {
+        printf("name: %s, val: %f, inputVal: %f\n", A[i].name, A[i].val, A[i].input_val); 
+    }
+    for (int i = size-1; i > size-1-top; i--) {
+        printf("name: %s, val: %f, inputVal: %f\n", A[i].name, A[i].val, A[i].input_val); 
+    }
+}
 
 void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3])
 {
@@ -326,21 +418,24 @@ double relu(double a){
     return (a > 0) ? a : 0;
 }
 
-double logistic(double a, double spread){
-    return 1 / (1 + exp(-spread*(double)a));
+#define SPREAD 0.5
+
+double logistic(double a){
+    return 1 / (1 + exp(-SPREAD*(double)a));
 }
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
     double activations_layer2[L2];
+    double z_layer2[L2];
 
     // propagate into activations_layer2
     for (int i = 0; i < L2; i++){
-        activations_layer2[i] = 0;
+        z_layer2[i] = 0;
         for (int j = 0; j < L1; j++){
-            activations_layer2[i] += (double)(*inputs)[j] * my_weights->h_layer_1[j][i];
+            z_layer2[i] += (double)(*inputs)[j] * my_weights->h_layer_1[j][i];
         }
-        activations_layer2[i] += my_weights->biases_1[i];
-        activations_layer2[i] = relu(activations_layer2[i]);
+        z_layer2[i] += my_weights->biases_1[i];
+        activations_layer2[i] = relu(z_layer2[i]);
     }
 #if LAYERS == 3
     double activation_output = 0;
@@ -354,26 +449,73 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
     return activation_output;
 #elif LAYERS == 4
     double activations_layer3[L3];
+    double z_layer3[L3];
 
     // propagate into activations_layer3
     for (int i = 0; i < L3; i++){
-        activations_layer3[i] = 0;
+        z_layer3[i] = 0;
         for (int j = 0; j < L2; j++){
-            activations_layer3[i] += activations_layer2[j] * my_weights->h_layer_2[j][i];
+            z_layer3[i] += activations_layer2[j] * my_weights->h_layer_2[j][i];
         }
-        activations_layer3[i] += my_weights->biases_2[i];
-        activations_layer3[i] = relu(activations_layer3[i]);
+        z_layer3[i] += my_weights->biases_2[i];
+        activations_layer3[i] = relu(z_layer3[i]);
     }
 
-    double activation_output = 0;
+    double activation_layer4 = 0;
+    double z_layer4 = 0;
 
     // propagate into output layer
     for (int i = 0; i < L3; i++){
-        activation_output += activations_layer3[i] * my_weights->h_layer_3[i][0];
+        z_layer4 += activations_layer3[i] * my_weights->h_layer_3[i][0];
     }
-    activation_output += my_weights->biases_3[0];
-    activation_output = logistic(activation_output, 0.03);
-    return activation_output;
+    z_layer4 += my_weights->biases_3[0];
+    // activation_layer4 = logistic(z_layer4);
+    activation_layer4 = logistic(z_layer4);
+
+
+    // backpropagate to find ideal changes to inputs
+    
+    // I'm also defining error as ( del V / del a ) where V 
+    // is the very last activation and a is any given activation value
+
+    double error_layer3[L3];
+    for (int i = 0; i < L3; i++){ 
+        error_layer3[i] = my_weights->h_layer_3[i][0] * activation_layer4/z_layer4;
+    }
+
+    double error_layer2[L2] = {0};
+    for (int i = 0; i < L2; i++){
+        for (int j = 0; j < L3; j++){
+            error_layer2[i] += my_weights->h_layer_2[i][j] * (activations_layer3[j]/z_layer3[j]) * error_layer3[j];
+        }
+    }
+
+    struct Input blank_input;
+    blank_input.val = 0;
+    blank_input.name[0] = '\n';
+    struct Input error_layer1[L1] = { blank_input };
+    for (int i = 0; i < L1; i++){
+        for (int k = 0; k < 20; k++){
+            error_layer1[i].name[k] = network_mapping[i][k];
+        }
+        for (int j = 0; j < L2; j++){
+            error_layer1[i].val += my_weights->h_layer_1[i][j] * (activations_layer2[j]/z_layer2[j]) * error_layer2[j];
+        }
+        error_layer1[i].input_val = (double)(*inputs)[i];
+        error_layer1[i].val *= error_layer1[i].input_val;
+    }
+
+    // double test_output = 0;
+    // for (int i = 0; i < L1; i++){
+    //     test_output += error_layer1[i].val;
+    // }
+    // printf("\ntest: %f", test_output);
+
+    mergeSort(error_layer1, 0, L1-1);
+    printErrors(error_layer1, L1, 20);
+
+
+    return activation_layer4;
 #endif
 }
 
@@ -402,12 +544,6 @@ int evaluate_moves(){
             // }
         }
     }
-
-    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][0][0].game_data)));
-    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][1][0].game_data)));
-    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][2][0].game_data)));
-    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][3][0].game_data)));
-    // printf("feedforward output: %f\n", feedforward(&my_weights, &(my_states[0][5][0].game_data)));
 
     return 1;
 }
