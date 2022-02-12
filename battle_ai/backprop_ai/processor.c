@@ -39,15 +39,27 @@ struct State {
 
 struct Move {
     int moves[2]; // structured like [ player1move, player2move ]
-    double estimate;
+    double estimate; // the estimated winrate given this move is made
     int isMultiEvent; // whether or not there are mulitple possible outcomes after move
 };
 
+// this struct is for storing the "impact" of a single input
 struct Input {
     char name[20];
+
+    // this is for ∂V/∂a where V is whether
+    // or not player 1 won, and a is this given input
     double val;
+
+
+    // this is the value of that input
     double input_val;
 };
+
+
+
+
+// "struct Input" array merge sort functions
 
 void merge(struct Input arr[], int l, int m, int r) 
 { 
@@ -134,6 +146,87 @@ void printErrors(struct Input A[], int size, int top)
     }
 }
 
+
+
+
+// print functions for debugging
+
+void print_weights(struct Weights *my_weights){
+#if LAYERS == 3
+    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
+    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
+    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
+    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
+    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
+    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
+    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
+    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
+
+    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
+    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
+    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
+    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
+    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
+    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
+    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
+    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
+    
+    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
+    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
+    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
+    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
+    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
+    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
+    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+#elif LAYERS == 4
+    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
+    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
+    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
+    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
+    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
+    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
+    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
+    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
+
+    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
+    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
+    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
+    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
+    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
+    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
+    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
+    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
+    
+    printf("weights[2][0][0] = %f\n", my_weights->h_layer_3[0][0]);
+    printf("weights[2][1][0] = %f\n", my_weights->h_layer_3[1][0]);
+    printf("weights[2][2][0] = %f\n", my_weights->h_layer_3[2][0]);
+    printf("weights[2][3][0] = %f\n", my_weights->h_layer_3[3][0]);
+    printf("weights[2][4][0] = %f\n", my_weights->h_layer_3[4][0]);
+    printf("weights[2][5][0] = %f\n", my_weights->h_layer_3[5][0]);
+    printf("weights[2][6][0] = %f\n", my_weights->h_layer_3[6][0]);
+    printf("weights[2][7][0] = %f\n", my_weights->h_layer_3[7][0]);
+
+    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
+    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
+    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
+    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
+    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
+    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
+    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+#endif
+}
+
+void print_inputs(struct State my_states){
+    printf("name: %s\n", my_states.name);
+    printf("data[0]: %i\n", my_states.game_data[0]);
+    printf("data[1]: %i\n", my_states.game_data[1]);
+    printf("data[2]: %i\n", my_states.game_data[2]);
+    printf("data[3]: %i\n", my_states.game_data[3]);
+    printf("data[4]: %i\n", my_states.game_data[4]);
+}
+
+
+
 void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3])
 {
     mpack_tag_t tag = mpack_read_tag(reader);
@@ -215,71 +308,6 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
     #endif
 }
 
-void print_weights(struct Weights *my_weights){
-#if LAYERS == 3
-    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
-    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
-    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
-    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
-    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
-    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
-    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
-    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
-
-    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
-    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
-    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
-    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
-    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
-    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
-    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
-    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
-    
-    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
-    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
-    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
-    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
-    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
-    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
-    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
-#elif LAYERS == 4
-    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
-    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
-    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
-    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
-    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
-    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
-    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
-    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
-
-    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
-    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
-    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
-    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
-    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
-    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
-    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
-    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
-    
-    printf("weights[2][0][0] = %f\n", my_weights->h_layer_3[0][0]);
-    printf("weights[2][1][0] = %f\n", my_weights->h_layer_3[1][0]);
-    printf("weights[2][2][0] = %f\n", my_weights->h_layer_3[2][0]);
-    printf("weights[2][3][0] = %f\n", my_weights->h_layer_3[3][0]);
-    printf("weights[2][4][0] = %f\n", my_weights->h_layer_3[4][0]);
-    printf("weights[2][5][0] = %f\n", my_weights->h_layer_3[5][0]);
-    printf("weights[2][6][0] = %f\n", my_weights->h_layer_3[6][0]);
-    printf("weights[2][7][0] = %f\n", my_weights->h_layer_3[7][0]);
-
-    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
-    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
-    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
-    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
-    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
-    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
-    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
-#endif
-}
-
 int get_weights(struct Weights *my_weights){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
@@ -298,6 +326,8 @@ int get_weights(struct Weights *my_weights){
     }
     return error == mpack_ok;
 }
+
+
 
 void parse_state(mpack_reader_t* reader, struct State *state){
     mpack_tag_t inputsTag = mpack_read_tag(reader);
@@ -334,6 +364,8 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         printf("I've misunderstood nameTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&nameTag)), mpack_tag_uint_value(&nameTag));
     }
 }
+
+
 
 void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
 {
@@ -405,14 +437,9 @@ int get_inputs(struct State *my_states){
     return mpack_reader_destroy(&reader) == mpack_ok;
 }
 
-void print_inputs(struct State my_states){
-    printf("name: %s\n", my_states.name);
-    printf("data[0]: %i\n", my_states.game_data[0]);
-    printf("data[1]: %i\n", my_states.game_data[1]);
-    printf("data[2]: %i\n", my_states.game_data[2]);
-    printf("data[3]: %i\n", my_states.game_data[3]);
-    printf("data[4]: %i\n", my_states.game_data[4]);
-}
+
+
+// neural network stuff
 
 double relu(double a){
     return (a > 0) ? a : 0;
@@ -511,15 +538,35 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
     // }
     // printf("\ntest: %f", test_output);
 
-    mergeSort(error_layer1, 0, L1-1);
-    printErrors(error_layer1, L1, 20);
+    // mergeSort(error_layer1, 0, L1-1);
+    // printErrors(error_layer1, L1, 20);
 
 
     return activation_layer4;
 #endif
 }
 
-int evaluate_moves(){
+
+
+// struct Move evaluate_move()
+
+
+void check_state(lua_State *L, int *state){
+
+
+
+    lua_createtable(L, L1, 0);
+    // lua_newtable(L);
+    for (int i = 0; i < L1; i++){
+        lua_pushinteger(L, i+1);
+        lua_pushinteger(L, *(state+i));
+        lua_settable(L, 2);
+    }
+    lua_call(L, 1, 0);
+
+}
+
+int evaluate_moves(lua_State *L){
 
     struct State blank_state;
     blank_state.name[0] = '\0';
@@ -531,6 +578,8 @@ int evaluate_moves(){
 
     // print_weights(&my_weights);
     // print_inputs(my_states[0][0][0]);
+
+    check_state(L, &my_states[0][0][0].game_data[0]);
 
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
@@ -548,14 +597,18 @@ int evaluate_moves(){
     return 1;
 }
 
+
+
 int get_move(lua_State *L){
     
     // gets rid of function args
-    lua_settop(L, 0);
  
     // lua_pushstring(L, get_weights() == 1 ? "sucessfully returned from \"get_weights()\"" : "error in \"get_weights()\"");
     // lua_pushstring(L, get_inputs() == 1 ? "sucessfully returned from \"get_inputs()\"" : "error in \"get_inputs()\"");
-    lua_pushstring(L, evaluate_moves() == 1 ? "sucessfully returned from \"evaluate_moves()\"" : "error in \"evaluate_moves()\"");
+    
+    int res = evaluate_moves(L);
+    lua_settop(L, 0);
+    lua_pushstring(L, res == 1 ? "sucessfully returned from \"evaluate_moves()\"" : "error in \"evaluate_moves()\"");
 
     return 1;
 

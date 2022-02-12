@@ -168,8 +168,7 @@ export class Battle {
 	importData: any;
 	constructor(options: BattleOptions) {
 		let data = fs.readFileSync(
-			"./debug_tools/testing_battleState.json",
-			// "./battle_ai/state_files/battleStateForShowdown.json",
+			"./battle_ai/state_files/battleStateForShowdown.json",
 			"utf8"
 		);
 

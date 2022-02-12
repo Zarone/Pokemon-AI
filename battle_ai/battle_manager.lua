@@ -124,7 +124,7 @@ function BattleManager:act_open()
             team1 = "Mew2|Mewtwo|none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|72,,]Nidoqueen||none|Poison Point|toxicspikes,superpower,earthpower,furyswipes|Sassy|85,85,85,85,85,85||31,31,31,31,31,31||100|76,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|72,,]Hydreigon||Choice Specs|Levitate|dracometeor,fly,darkpulse,focusblast|Timid|6,0,0,252,0,252||31,31,31,31,31,31||100|255,," 
             team2 = "Cofagrigus||none|Mummy|shadowball,psychic,willowisp,energyball|Sassy|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Jellicent||none|Cursed Body|shadowball,psychic,hydropump,sludgewave|Careful|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Froslass||none|Snow Cloak|shadowball,psychic,blizzard,iceshard|Impish|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Drifblim||none|Aftermath|shadowball,psychic,acrobatics,thunder|Quirky|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Golurk||none|Iron Fist|shadowpunch,earthquake,hammerarm,curse|Jolly|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Chandelure||none|Flame Body|shadowball,psychic,fireblast,payback|Calm|0,0,0,0,0,0||30,30,30,30,30,30||73|255,,"
         end
-        self.showdown_instance = Writer.new(team1, team2)
+        self.showdown_instance = Writer.exec(team1, team2)
         self:get_action()
     end 
     return self.queued_move
@@ -139,7 +139,7 @@ function BattleManager:act_close()
 end
 
 function BattleManager:get_action()
-    print(processor.get_move())
+    print(processor.get_move(saveArrayState))
     returnAction = 1 -- indicates moveslot 1
     
     print("BattleManager:get_action()")
@@ -154,6 +154,14 @@ end
 
 function BattleManager:get_switch()
     return 3
+end
+
+function saveArrayState(array)
+    print("array1", array[1])
+    print("array1", array[2])
+    print("array1", array[3])
+    print("array1", array[4])
+    print("array1", array[5])
 end
 
 function BattleManager:saveState()

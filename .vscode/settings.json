@@ -12,6 +12,7 @@
     "vector": "c",
     "__string": "c",
     "cstddef": "c",
-    "cmath": "c"
+    "cmath": "c",
+    "algorithm": "c"
   }
 }

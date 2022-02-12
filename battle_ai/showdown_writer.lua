@@ -5,7 +5,7 @@ sf = string.format
 Writer = {}
 Writer.__index = Writer
 
-function Writer.new(team1, team2)
+function Writer.exec(team1, team2)
 
     instance = setmetatable({}, Writer)
     -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
@@ -31,18 +31,7 @@ function Writer.new(team1, team2)
     instance.ps_stream:close()
     print("Stream Closed")
 
-    -- instance.ps_stream:write(sf([[>start {"formatid": "%s"}]] .. "\n", FORMAT) .. "\n")
-    -- instance.ps_stream:write(sf([[>player p1 {"name":"A", "team": "%s"}]], team1) .. "\n")
-    -- instance.ps_stream:write(sf([[>player p2 {"name":"B", "team": "%s"}]], team2) .. "\n")
-    -- instance.ps_stream:write([[>p1 team 123456]] .. "\n")
-    -- instance.ps_stream:write([[>p2 team 123456]] .. "\n")
-    -- instance.ps_stream:write([[>run-all ]] .. "\n")
-
     return instance
-end
-
-function Writer:write(command)
-    self.ps_stream:write(command)
 end
 
 function move_to_id(move)
