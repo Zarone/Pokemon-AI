@@ -3101,67 +3101,118 @@ export class Battle {
 					this.startTeam[1].push(this.sides[1].pokemon[i].species.name);
 				}
 
-				for (let i = 0; i < 6; i++) {
-					if (i < this.importData.player.statuses[0].length) {
-						if (this.importData.player.health[i] == 0) {
-							this.sides[0].pokemon[i].faint();
-						} else {
-							this.sides[0].pokemon[i].sethp(
-								this.importData.player.health[i]
+				for (let i = 0; i < 12; i++) {
+					let id = 65 + 30 * i;
+
+					// this would be zero if there wasn't a pokemon in this slot
+					// like if the player had 5 or less pokemon
+					if (this.importData[0][id + 1] != 0) {
+						let thisSide = null;
+
+						if (i < 6) {
+							thisSide = 0;
+						} else if (i < 12) {
+							thisSide = 1;
+						}
+
+						if (this.importData[0][id + 6] == 1) {
+							this.sides[thisSide as number].pokemon[i % 6].faint();
+						}
+
+						this.sides[thisSide as number].pokemon[i % 6].sethp(
+							Math.round(
+								this.sides[thisSide as number].pokemon[i % 6].maxhp *
+									this.importData[0][id]
+							)
+						);
+
+						if (this.importData[0][id + 24] == 1) {
+							this.sides[thisSide as number].pokemon[i % 6].setStatus(
+								"brn"
 							);
-						}
-						// console.log("set user 0, pokemon ", i, " to, ", this.importData.player.health[i])
-
-						if (this.importData.player.statuses[0][i][0] == 1) {
-							// paralysis
-							this.sides[0].pokemon[i].setStatus("par");
-						} else if (this.importData.player.statuses[0][i][1] == 1) {
-							// sleep
-							this.sides[0].pokemon[i].setStatus("slp");
-						} else if (this.importData.player.statuses[0][i][2] == 1) {
-							// freeze
-							this.sides[0].pokemon[i].setStatus("frz");
-						} else if (this.importData.player.statuses[0][i][3] == 1) {
-							// burn
-							this.sides[0].pokemon[i].setStatus("brn");
-						} else if (this.importData.player.statuses[0][i][4] > 0) {
-							// poison
-							this.sides[0].pokemon[i].setStatus("psn");
-						}
-					}
-
-					if (i < this.importData.enemy.statuses[0].length) {
-						if (this.importData.enemy.health[i] == 0) {
-							this.sides[1].pokemon[i].faint();
-						} else {
-							this.sides[1].pokemon[i].sethp(
-								this.importData.enemy.health[i]
+						} else if (this.importData[0][id + 25] == 1) {
+							this.sides[thisSide as number].pokemon[i % 6].setStatus(
+								"par"
 							);
-						}
-						// console.log("set user 1, pokemon ", i, " to, ", this.importData.enemy.health[i])
-
-						if (this.importData.enemy.statuses[0][i][0] == 1) {
-							// paralysis
-							this.sides[1].pokemon[i].setStatus("par");
-						} else if (this.importData.enemy.statuses[0][i][1] == 1) {
-							// sleep
-							this.sides[1].pokemon[i].setStatus("slp");
-						} else if (this.importData.enemy.statuses[0][i][2] == 1) {
-							// freeze
-							this.sides[1].pokemon[i].setStatus("frz");
-						} else if (this.importData.enemy.statuses[0][i][3] == 1) {
-							// burn
-							this.sides[1].pokemon[i].setStatus("brn");
-						} else if (this.importData.enemy.statuses[0][i][4] > 0) {
-							// poison
-							if (this.importData.enemy.statuses[0][i][4] == 1) {
-								this.sides[1].pokemon[i].setStatus("psn");
-							} else if (this.importData.enemy.statuses[0][i][4] == 2) {
-								this.sides[1].pokemon[i].setStatus("tox");
-							}
+						} else if (this.importData[0][id + 26] == 1) {
+							this.sides[thisSide as number].pokemon[i % 6].setStatus(
+								"frz"
+							);
+						} else if (this.importData[0][id + 27] == 1) {
+							this.sides[thisSide as number].pokemon[i % 6].setStatus(
+								"psn"
+							);
+						} else if (this.importData[0][id + 27] == 2) {
+							this.sides[thisSide as number].pokemon[i % 6].setStatus(
+								"tox"
+							);
+						} else if (this.importData[0][id + 28] == 1) {
+							this.sides[thisSide as number].pokemon[i % 6].setStatus(
+								"slp"
+							);
 						}
 					}
 				}
+
+				// for (let i = 0; i < 6; i++) {
+				// 	if (i < this.importData.player.statuses[0].length) {
+				// 		if (this.importData.player.health[i] == 0) {
+				// 			this.sides[0].pokemon[i].faint();
+				// 		} else {
+				// 			this.sides[0].pokemon[i].sethp(
+				// 				this.importData.player.health[i]
+				// 			);
+				// 		}
+
+				// 		if (this.importData.player.statuses[0][i][0] == 1) {
+				// 			// paralysis
+				// 			this.sides[0].pokemon[i].setStatus("par");
+				// 		} else if (this.importData.player.statuses[0][i][1] == 1) {
+				// 			// sleep
+				// 			this.sides[0].pokemon[i].setStatus("slp");
+				// 		} else if (this.importData.player.statuses[0][i][2] == 1) {
+				// 			// freeze
+				// 			this.sides[0].pokemon[i].setStatus("frz");
+				// 		} else if (this.importData.player.statuses[0][i][3] == 1) {
+				// 			// burn
+				// 			this.sides[0].pokemon[i].setStatus("brn");
+				// 		} else if (this.importData.player.statuses[0][i][4] > 0) {
+				// 			// poison
+				// 			this.sides[0].pokemon[i].setStatus("psn");
+				// 		}
+				// 	}
+
+				// 	if (i < this.importData.enemy.statuses[0].length) {
+				// 		if (this.importData.enemy.health[i] == 0) {
+				// 			this.sides[1].pokemon[i].faint();
+				// 		} else {
+				// 			this.sides[1].pokemon[i].sethp(
+				// 				this.importData.enemy.health[i]
+				// 			);
+				// 		}
+
+				// 		if (this.importData.enemy.statuses[0][i][0] == 1) {
+				// 			// paralysis
+				// 			this.sides[1].pokemon[i].setStatus("par");
+				// 		} else if (this.importData.enemy.statuses[0][i][1] == 1) {
+				// 			// sleep
+				// 			this.sides[1].pokemon[i].setStatus("slp");
+				// 		} else if (this.importData.enemy.statuses[0][i][2] == 1) {
+				// 			// freeze
+				// 			this.sides[1].pokemon[i].setStatus("frz");
+				// 		} else if (this.importData.enemy.statuses[0][i][3] == 1) {
+				// 			// burn
+				// 			this.sides[1].pokemon[i].setStatus("brn");
+				// 		} else if (this.importData.enemy.statuses[0][i][4] > 0) {
+				// 			// poison
+				// 			if (this.importData.enemy.statuses[0][i][4] == 1) {
+				// 				this.sides[1].pokemon[i].setStatus("psn");
+				// 			} else if (this.importData.enemy.statuses[0][i][4] == 2) {
+				// 				this.sides[1].pokemon[i].setStatus("tox");
+				// 			}
+				// 		}
+				// 	}
+				// }
 
 				for (const side of this.sides) {
 					for (let i = 0; i < side.active.length; i++) {
@@ -3171,17 +3222,15 @@ export class Battle {
 							side.active[i].fainted = true;
 							side.active[i].hp = 0;
 						} else {
-							// this.actions.switchIn(side.pokemon[i], i);
-
 							this.actions.switchIn(side.pokemon[i], i);
 							if (side.id == "p1") {
 								this.actions.switchIn(
-									side.pokemon[this.importData.player.active],
+									side.pokemon[this.importData[2]],
 									i
 								);
 							} else if (side.id == "p2") {
 								this.actions.switchIn(
-									side.pokemon[this.importData.enemy.active],
+									side.pokemon[this.importData[3]],
 									i
 								);
 							}
@@ -3198,163 +3247,201 @@ export class Battle {
 				}
 				this.midTurn = true;
 
-				if (this.importData.turns_left_of_weather > 5) {
-					this.importData.turns_left_of_weather = 5;
+				if (this.importData[0][0] > 5) {
+					this.importData[0][0] = 5;
 				}
 
-				// set weather
-				if (this.importData.weather == 4) {
-					//sand
-					this.field.setWeather("Sandstorm", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				} else if (this.importData.weather == 3) {
-					//hail
-					this.field.setWeather("hail", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				} else if (this.importData.weather == 2) {
-					//rain
-					this.field.setWeather("RainDance", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
-				} else if (this.importData.weather == 1) {
-					// sun
+				if (this.importData[0][1] == 1) {
 					this.field.setWeather("sunnyday", this.sides[0].active[0]);
-					this.field.weatherState.duration =
-						this.importData.turns_left_of_weather;
+					this.field.weatherState.duration = this.importData[0][0];
+				} else if (this.importData[0][2]) {
+					this.field.setWeather("RainDance", this.sides[0].active[0]);
+					this.field.weatherState.duration = this.importData[0][0];
+				} else if (this.importData[0][3]) {
+					this.field.setWeather("Sandstorm", this.sides[0].active[0]);
+					this.field.weatherState.duration = this.importData[0][0];
+				} else if (this.importData[0][4]) {
+					this.field.setWeather("hail", this.sides[0].active[0]);
+					this.field.weatherState.duration = this.importData[0][0];
 				}
+
+				// if (this.importData.turns_left_of_weather > 5) {
+				// 	this.importData.turns_left_of_weather = 5;
+				// }
+
+				// // set weather
+				// if (this.importData.weather == 4) {
+				// 	//sand
+				// 	this.field.setWeather("Sandstorm", this.sides[0].active[0]);
+				// 	this.field.weatherState.duration =
+				// 		this.importData.turns_left_of_weather;
+				// } else if (this.importData.weather == 3) {
+				// 	//hail
+				// 	this.field.setWeather("hail", this.sides[0].active[0]);
+				// 	this.field.weatherState.duration =
+				// 		this.importData.turns_left_of_weather;
+				// } else if (this.importData.weather == 2) {
+				// 	//rain
+				// 	this.field.setWeather("RainDance", this.sides[0].active[0]);
+				// 	this.field.weatherState.duration =
+				// 		this.importData.turns_left_of_weather;
+				// } else if (this.importData.weather == 1) {
+				// 	// sun
+				// this.field.setWeather("sunnyday", this.sides[0].active[0]);
+				// this.field.weatherState.duration =
+				// 	this.importData.turns_left_of_weather;
+				// }
 
 				let boost1 = {
-					atk:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][0] - 6,
-					def:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][1] - 6,
-					spa:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][2] - 6,
-					spd:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][3] - 6,
-					spe:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][4] - 6,
-					accuracy:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][5] - 6,
-					evasion:
-						this.importData.player.boosts[0][
-							this.importData.player.active
-						][6] - 6,
+					atk: this.importData[0][51],
+					def: this.importData[0][52],
+					spa: this.importData[0][53],
+					spd: this.importData[0][54],
+					spe: this.importData[0][55],
+					accuracy: this.importData[0][56],
+					evasion: this.importData[0][57],
 				};
 
 				let boost2 = {
-					atk:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][0] - 6,
-					def:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][1] - 6,
-					spa:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][2] - 6,
-					spd:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][3] - 6,
-					spe:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][4] - 6,
-					accuracy:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][5] - 6,
-					evasion:
-						this.importData.enemy.boosts[0][
-							this.importData.enemy.active
-						][6] - 6,
+					atk: this.importData[0][58],
+					def: this.importData[0][59],
+					spa: this.importData[0][60],
+					spd: this.importData[0][61],
+					spe: this.importData[0][62],
+					accuracy: this.importData[0][63],
+					evasion: this.importData[0][64],
 				};
+
+				// let boost1 = {
+				// 	atk:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][0] - 6,
+				// 	def:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][1] - 6,
+				// 	spa:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][2] - 6,
+				// 	spd:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][3] - 6,
+				// 	spe:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][4] - 6,
+				// 	accuracy:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][5] - 6,
+				// 	evasion:
+				// 		this.importData.player.boosts[0][
+				// 			this.importData.player.active
+				// 		][6] - 6,
+				// };
+
+				// let boost2 = {
+				// 	atk:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][0] - 6,
+				// 	def:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][1] - 6,
+				// 	spa:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][2] - 6,
+				// 	spd:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][3] - 6,
+				// 	spe:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][4] - 6,
+				// 	accuracy:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][5] - 6,
+				// 	evasion:
+				// 		this.importData.enemy.boosts[0][
+				// 			this.importData.enemy.active
+				// 		][6] - 6,
+				// };
 
 				this.sides[0].active[0].setBoost(boost1);
 				this.sides[1].active[0].setBoost(boost2);
 
-				if (this.importData.player.volatiles[0] == 1) {
+				if (this.importData[0][23] == 1) {
 					this.sides[0].active[0].addVolatile(
 						"leechseed",
-						this.sides[1].active[0]
+						this.sides[0].active[0]
 					);
 				}
-				if (this.importData.player.volatiles[1] != 0) {
+				if (this.importData[0][24] != 0) {
 					this.sides[0].active[0].addVolatile("confusion");
 					this.sides[0].active[0].volatiles["confusion"].duration =
-						this.importData.player.volatiles[1];
+						this.importData[0][24];
 				}
-				if (this.importData.player.volatiles[2] != 0) {
+				if (this.importData[0][25] != 0) {
 					this.sides[0].active[0].addVolatile("taunt");
 					this.sides[0].active[0].volatiles["taunt"].duration =
-						this.importData.player.volatiles[2];
+						this.importData[0][25];
 				}
-				if (this.importData.player.volatiles[3] == 1) {
+				if (this.importData[0][26] == 1) {
 					this.sides[0].active[0].addVolatile("yawn");
 				}
-				if (this.importData.player.volatiles[4] == 1) {
+				if (this.importData[0][27] == 1) {
 					this.sides[0].active[0].addVolatile("perishsong");
 					this.sides[0].active[0].volatiles["perishsong"].duration = 3;
-				} else if (this.importData.player.volatiles[4] == 2) {
+				} else if (this.importData[0][27] == 2) {
 					this.sides[0].active[0].addVolatile("perishsong");
 					this.sides[0].active[0].volatiles["perishsong"].duration = 2;
-				} else if (this.importData.player.volatiles[4] == 3) {
+				} else if (this.importData[0][27] == 3) {
 					this.sides[0].active[0].addVolatile("perishsong");
 					this.sides[0].active[0].volatiles["perishsong"].duration = 1;
 				}
-				if (this.importData.player.volatiles[5] == 1) {
+				if (this.importData[0][28] == 1) {
 					this.sides[0].active[0].addVolatile("substitute");
 				}
-				if (this.importData.player.volatiles[6] == 1) {
+				if (this.importData[0][29] == 1) {
 					this.sides[0].active[0].addVolatile("focusenergy");
 				}
-				if (this.importData.player.volatiles[7] == 1) {
+				if (this.importData[0][30] == 1) {
 					this.sides[0].active[0].addVolatile("ingrain");
 				}
-				if (this.importData.player.volatiles[8] != 0) {
+				if (this.importData[0][31] != 0) {
 					this.sides[0].active[0].lastMove = {
-						id: this.importData.player.disable_move as ID,
+						id: this.importData[6] as ID,
 					} as ActiveMove;
 					this.sides[0].active[0].addVolatile(
 						"disable",
 						this.sides[1].active[0]
 					);
 					this.sides[0].active[0].volatiles["disable"].duration =
-						this.importData.player.volatiles[8];
+						this.importData[0][31];
 				}
-				if (this.importData.player.volatiles[9] != 0) {
+				if (this.importData[0][32] != 0) {
 					this.sides[0].active[0].lastMove = {
-						id: this.importData.player.last_move as ID,
+						id: this.importData[4] as ID,
 					} as ActiveMove;
 					this.sides[0].active[0].addVolatile("encore");
 					this.sides[0].active[0].volatiles["encore"].duration =
-						this.importData.player.volatiles[9];
+						this.importData[0][32];
 				}
-				if (this.importData.player.volatiles[10] != 0) {
+				if (this.importData[0][33] != 0) {
 					this.sides[0].addSlotCondition(
 						this.sides[0].active[0],
 						"futuremove",
 						this.sides[1].active[0]
 					);
 					this.sides[0].slotConditions[0]["futuremove"].duration =
-						this.importData.player.volatiles[10];
+						this.importData[0][33];
 					this.sides[0].slotConditions[0]["futuremove"].move =
 						"futuresight";
 					this.sides[0].slotConditions[0]["futuremove"].moveData = {
@@ -3371,87 +3458,87 @@ export class Battle {
 						type: "Psychic",
 					};
 				}
-				if (this.importData.player.volatiles[11] != 0) {
+				if (this.importData[0][34] != 0) {
 					this.sides[0].active[0].addVolatile("aquaring");
 				}
-				if (this.importData.player.volatiles[12] != 0) {
+				if (this.importData[0][35] != 0) {
 					this.sides[0].active[0].addVolatile(
 						"attract",
 						this.sides[1].active[0]
 					);
 				}
-				if (this.importData.player.volatiles[13] != 0) {
+				if (this.importData[0][36] != 0) {
 					this.sides[0].active[0].addVolatile("torment");
 				}
 
-				if (this.importData.enemy.volatiles[0] == 1) {
+				if (this.importData[0][37] == 1) {
 					this.sides[1].active[0].addVolatile(
 						"leechseed",
 						this.sides[0].active[0]
 					);
 				}
-				if (this.importData.enemy.volatiles[1] != 0) {
+				if (this.importData[0][38] != 0) {
 					this.sides[1].active[0].addVolatile("confusion");
 					this.sides[1].active[0].volatiles["confusion"].duration =
-						this.importData.enemy.volatiles[1];
+						this.importData[0][38];
 				}
-				if (this.importData.enemy.volatiles[2] != 0) {
+				if (this.importData[0][39] != 0) {
 					this.sides[1].active[0].addVolatile("taunt");
 					this.sides[1].active[0].volatiles["taunt"].duration =
-						this.importData.enemy.volatiles[2];
+						this.importData[0][39];
 				}
-				if (this.importData.enemy.volatiles[3] == 1) {
+				if (this.importData[0][40] == 1) {
 					this.sides[1].active[0].addVolatile("yawn");
 				}
-				if (this.importData.enemy.volatiles[4] == 1) {
+				if (this.importData[0][41] == 1) {
 					this.sides[1].active[0].addVolatile("perishsong");
 					this.sides[1].active[0].volatiles["perishsong"].duration = 3;
-				} else if (this.importData.enemy.volatiles[4] == 2) {
+				} else if (this.importData[0][41] == 2) {
 					this.sides[1].active[0].addVolatile("perishsong");
 					this.sides[1].active[0].volatiles["perishsong"].duration = 2;
-				} else if (this.importData.enemy.volatiles[4] == 3) {
+				} else if (this.importData[0][41] == 3) {
 					this.sides[1].active[0].addVolatile("perishsong");
 					this.sides[1].active[0].volatiles["perishsong"].duration = 1;
 				}
-				if (this.importData.enemy.volatiles[5] == 1) {
+				if (this.importData[0][42] == 1) {
 					this.sides[1].active[0].addVolatile("substitute");
 				}
-				if (this.importData.enemy.volatiles[6] == 1) {
+				if (this.importData[0][43] == 1) {
 					this.sides[1].active[0].addVolatile("focusenergy");
 				}
-				if (this.importData.enemy.volatiles[7] == 1) {
+				if (this.importData[0][44] == 1) {
 					this.sides[1].active[0].addVolatile("ingrain");
 				}
-				if (this.importData.enemy.volatiles[8] != 0) {
+				if (this.importData[0][45] != 0) {
 					this.sides[1].active[0].lastMove = {
-						id: this.importData.enemy.disable_move as ID,
+						id: this.importData[7] as ID,
 					} as ActiveMove;
 					this.sides[1].active[0].addVolatile(
 						"disable",
 						this.sides[0].active[0]
 					);
-					this.sides[1].active[0].volatiles["disable"].duration =
-						this.importData.enemy.volatiles[8];
+					this.sides[0].active[0].volatiles["disable"].duration =
+						this.importData[0][45];
 				}
-				if (this.importData.enemy.volatiles[9] != 0) {
+				if (this.importData[0][46] != 0) {
 					this.sides[1].active[0].lastMove = {
-						id: this.importData.enemy.last_move as ID,
+						id: this.importData[5] as ID,
 					} as ActiveMove;
 					this.sides[1].active[0].addVolatile("encore");
 					this.sides[1].active[0].volatiles["encore"].duration =
-						this.importData.enemy.volatiles[9];
+						this.importData[0][46];
 				}
-				if (this.importData.enemy.volatiles[10] != 0) {
+				if (this.importData[0][47] != 0) {
 					this.sides[1].addSlotCondition(
 						this.sides[1].active[0],
 						"futuremove",
-						this.sides[1].active[0]
+						this.sides[0].active[0]
 					);
 					this.sides[1].slotConditions[0]["futuremove"].duration =
-						this.importData.enemy.volatiles[10];
-					this.sides[1].slotConditions[0]["futuremove"].move =
+						this.importData[0][47];
+					this.sides[0].slotConditions[0]["futuremove"].move =
 						"futuresight";
-					this.sides[1].slotConditions[0]["futuremove"].moveData = {
+					this.sides[0].slotConditions[0]["futuremove"].moveData = {
 						id: "futuresight",
 						name: "Future Sight",
 						accuracy: 100,
@@ -3465,18 +3552,206 @@ export class Battle {
 						type: "Psychic",
 					};
 				}
-				if (this.importData.enemy.volatiles[11] != 0) {
+				if (this.importData[0][48] != 0) {
 					this.sides[1].active[0].addVolatile("aquaring");
 				}
-				if (this.importData.enemy.volatiles[12] != 0) {
+				if (this.importData[0][49] != 0) {
 					this.sides[1].active[0].addVolatile(
 						"attract",
 						this.sides[0].active[0]
 					);
 				}
-				if (this.importData.enemy.volatiles[13] != 0) {
+				if (this.importData[0][50] != 0) {
 					this.sides[1].active[0].addVolatile("torment");
 				}
+
+				// if (this.importData.player.volatiles[0] == 1) {
+				// 	this.sides[0].active[0].addVolatile(
+				// 		"leechseed",
+				// 		this.sides[1].active[0]
+				// 	);
+				// }
+				// if (this.importData.player.volatiles[1] != 0) {
+				// 	this.sides[0].active[0].addVolatile("confusion");
+				// 	this.sides[0].active[0].volatiles["confusion"].duration =
+				// 		this.importData.player.volatiles[1];
+				// }
+				// if (this.importData.player.volatiles[2] != 0) {
+				// 	this.sides[0].active[0].addVolatile("taunt");
+				// 	this.sides[0].active[0].volatiles["taunt"].duration =
+				// 		this.importData.player.volatiles[2];
+				// }
+				// if (this.importData.player.volatiles[3] == 1) {
+				// 	this.sides[0].active[0].addVolatile("yawn");
+				// }
+				// if (this.importData.player.volatiles[4] == 1) {
+				// 	this.sides[0].active[0].addVolatile("perishsong");
+				// 	this.sides[0].active[0].volatiles["perishsong"].duration = 3;
+				// } else if (this.importData.player.volatiles[4] == 2) {
+				// 	this.sides[0].active[0].addVolatile("perishsong");
+				// 	this.sides[0].active[0].volatiles["perishsong"].duration = 2;
+				// } else if (this.importData.player.volatiles[4] == 3) {
+				// 	this.sides[0].active[0].addVolatile("perishsong");
+				// 	this.sides[0].active[0].volatiles["perishsong"].duration = 1;
+				// }
+				// if (this.importData.player.volatiles[5] == 1) {
+				// 	this.sides[0].active[0].addVolatile("substitute");
+				// }
+				// if (this.importData.player.volatiles[6] == 1) {
+				// 	this.sides[0].active[0].addVolatile("focusenergy");
+				// }
+				// if (this.importData.player.volatiles[7] == 1) {
+				// 	this.sides[0].active[0].addVolatile("ingrain");
+				// }
+				// if (this.importData.player.volatiles[8] != 0) {
+				// 	this.sides[0].active[0].lastMove = {
+				// 		id: this.importData.player.disable_move as ID,
+				// 	} as ActiveMove;
+				// 	this.sides[0].active[0].addVolatile(
+				// 		"disable",
+				// 		this.sides[1].active[0]
+				// 	);
+				// 	this.sides[0].active[0].volatiles["disable"].duration =
+				// 		this.importData.player.volatiles[8];
+				// }
+				// if (this.importData.player.volatiles[9] != 0) {
+				// 	this.sides[0].active[0].lastMove = {
+				// 		id: this.importData.player.last_move as ID,
+				// 	} as ActiveMove;
+				// 	this.sides[0].active[0].addVolatile("encore");
+				// 	this.sides[0].active[0].volatiles["encore"].duration =
+				// 		this.importData.player.volatiles[9];
+				// }
+				// if (this.importData.player.volatiles[10] != 0) {
+				// 	this.sides[0].addSlotCondition(
+				// 		this.sides[0].active[0],
+				// 		"futuremove",
+				// 		this.sides[1].active[0]
+				// 	);
+				// 	this.sides[0].slotConditions[0]["futuremove"].duration =
+				// 		this.importData.player.volatiles[10];
+				// 	this.sides[0].slotConditions[0]["futuremove"].move =
+				// 		"futuresight";
+				// 	this.sides[0].slotConditions[0]["futuremove"].moveData = {
+				// 		id: "futuresight",
+				// 		name: "Future Sight",
+				// 		accuracy: 100,
+				// 		basePower: 120,
+				// 		category: "Special",
+				// 		priority: 0,
+				// 		flags: {},
+				// 		ignoreImmunity: false,
+				// 		effectType: "Move",
+				// 		isFutureMove: true,
+				// 		type: "Psychic",
+				// 	};
+				// }
+				// if (this.importData.player.volatiles[11] != 0) {
+				// 	this.sides[0].active[0].addVolatile("aquaring");
+				// }
+				// if (this.importData.player.volatiles[12] != 0) {
+				// 	this.sides[0].active[0].addVolatile(
+				// 		"attract",
+				// 		this.sides[1].active[0]
+				// 	);
+				// }
+				// if (this.importData.player.volatiles[13] != 0) {
+				// 	this.sides[0].active[0].addVolatile("torment");
+				// }
+
+				// if (this.importData.enemy.volatiles[0] == 1) {
+				// 	this.sides[1].active[0].addVolatile(
+				// 		"leechseed",
+				// 		this.sides[0].active[0]
+				// 	);
+				// }
+				// if (this.importData.enemy.volatiles[1] != 0) {
+				// 	this.sides[1].active[0].addVolatile("confusion");
+				// 	this.sides[1].active[0].volatiles["confusion"].duration =
+				// 		this.importData.enemy.volatiles[1];
+				// }
+				// if (this.importData.enemy.volatiles[2] != 0) {
+				// 	this.sides[1].active[0].addVolatile("taunt");
+				// 	this.sides[1].active[0].volatiles["taunt"].duration =
+				// 		this.importData.enemy.volatiles[2];
+				// }
+				// if (this.importData.enemy.volatiles[3] == 1) {
+				// 	this.sides[1].active[0].addVolatile("yawn");
+				// }
+				// if (this.importData.enemy.volatiles[4] == 1) {
+				// 	this.sides[1].active[0].addVolatile("perishsong");
+				// 	this.sides[1].active[0].volatiles["perishsong"].duration = 3;
+				// } else if (this.importData.enemy.volatiles[4] == 2) {
+				// 	this.sides[1].active[0].addVolatile("perishsong");
+				// 	this.sides[1].active[0].volatiles["perishsong"].duration = 2;
+				// } else if (this.importData.enemy.volatiles[4] == 3) {
+				// 	this.sides[1].active[0].addVolatile("perishsong");
+				// 	this.sides[1].active[0].volatiles["perishsong"].duration = 1;
+				// }
+				// if (this.importData.enemy.volatiles[5] == 1) {
+				// 	this.sides[1].active[0].addVolatile("substitute");
+				// }
+				// if (this.importData.enemy.volatiles[6] == 1) {
+				// 	this.sides[1].active[0].addVolatile("focusenergy");
+				// }
+				// if (this.importData.enemy.volatiles[7] == 1) {
+				// 	this.sides[1].active[0].addVolatile("ingrain");
+				// }
+				// if (this.importData.enemy.volatiles[8] != 0) {
+				// 	this.sides[1].active[0].lastMove = {
+				// 		id: this.importData.enemy.disable_move as ID,
+				// 	} as ActiveMove;
+				// 	this.sides[1].active[0].addVolatile(
+				// 		"disable",
+				// 		this.sides[0].active[0]
+				// 	);
+				// 	this.sides[1].active[0].volatiles["disable"].duration =
+				// 		this.importData.enemy.volatiles[8];
+				// }
+				// if (this.importData.enemy.volatiles[9] != 0) {
+				// 	this.sides[1].active[0].lastMove = {
+				// 		id: this.importData.enemy.last_move as ID,
+				// 	} as ActiveMove;
+				// 	this.sides[1].active[0].addVolatile("encore");
+				// 	this.sides[1].active[0].volatiles["encore"].duration =
+				// 		this.importData.enemy.volatiles[9];
+				// }
+				// if (this.importData.enemy.volatiles[10] != 0) {
+				// 	this.sides[1].addSlotCondition(
+				// 		this.sides[1].active[0],
+				// 		"futuremove",
+				// 		this.sides[1].active[0]
+				// 	);
+				// 	this.sides[1].slotConditions[0]["futuremove"].duration =
+				// 		this.importData.enemy.volatiles[10];
+				// 	this.sides[1].slotConditions[0]["futuremove"].move =
+				// 		"futuresight";
+				// 	this.sides[1].slotConditions[0]["futuremove"].moveData = {
+				// 		id: "futuresight",
+				// 		name: "Future Sight",
+				// 		accuracy: 100,
+				// 		basePower: 120,
+				// 		category: "Special",
+				// 		priority: 0,
+				// 		flags: {},
+				// 		ignoreImmunity: false,
+				// 		effectType: "Move",
+				// 		isFutureMove: true,
+				// 		type: "Psychic",
+				// 	};
+				// }
+				// if (this.importData.enemy.volatiles[11] != 0) {
+				// 	this.sides[1].active[0].addVolatile("aquaring");
+				// }
+				// if (this.importData.enemy.volatiles[12] != 0) {
+				// 	this.sides[1].active[0].addVolatile(
+				// 		"attract",
+				// 		this.sides[0].active[0]
+				// 	);
+				// }
+				// if (this.importData.enemy.volatiles[13] != 0) {
+				// 	this.sides[1].active[0].addVolatile("torment");
+				// }
 
 				break;
 			}
@@ -3598,84 +3873,162 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-				for (let i = 0; i < this.importData.player.hazards[0]; i++) {
+				for (let i = 0; i < this.importData[0][5]; i++) {
 					this.sides[0].addSideCondition("spikes", "debug");
 				}
-				for (let i = 0; i < this.importData.player.hazards[1]; i++) {
+				for (let i = 0; i < this.importData[0][6]; i++) {
 					this.sides[0].addSideCondition("toxicspikes", "debug");
 				}
-				for (let i = 0; i < this.importData.player.hazards[2]; i++) {
+				for (let i = 0; i < this.importData[0][7]; i++) {
 					this.sides[0].addSideCondition("stealthrock", "debug");
 				}
-				if (this.importData.player.hazards[3] != 0) {
+				if (this.importData[0][8] != 0) {
 					this.sides[0].addSideCondition("reflect", "debug");
 					this.sides[0].sideConditions["reflect"].duration =
-						this.importData.player.hazards[3];
+						this.importData[0][8];
 				}
-				if (this.importData.player.hazards[4] != 0) {
+				if (this.importData[0][9] != 0) {
 					this.sides[0].addSideCondition("lightscreen", "debug");
 					this.sides[0].sideConditions["lightscreen"].duration =
-						this.importData.player.hazards[4];
+						this.importData[0][9];
 				}
-				if (this.importData.player.hazards[5] != 0) {
+				if (this.importData[0][10] != 0) {
 					this.sides[0].addSideCondition("safeguard", "debug");
 					this.sides[0].sideConditions["safeguard"].duration =
-						this.importData.player.hazards[5];
+						this.importData[0][10];
 				}
-				if (this.importData.player.hazards[6] != 0) {
+				if (this.importData[0][11] != 0) {
 					this.sides[0].addSideCondition("mist", "debug");
 					this.sides[0].sideConditions["mist"].duration =
-						this.importData.player.hazards[6];
+						this.importData[0][11];
 				}
-				if (this.importData.player.hazards[7] != 0) {
+				if (this.importData[0][12] != 0) {
 					this.sides[0].addSideCondition("tailwind", "debug");
 					this.sides[0].sideConditions["tailwind"].duration =
-						this.importData.player.hazards[7];
+						this.importData[0][12];
 				}
-				if (this.importData.player.hazards[8] != 0) {
+				if (this.importData[0][13] != 0) {
 					this.sides[0].addSideCondition("luckychant", "debug");
 					this.sides[0].sideConditions["luckychant"].duration =
-						this.importData.player.hazards[8];
+						this.importData[0][13];
 				}
-				for (let i = 0; i < this.importData.enemy.hazards[0]; i++) {
+				for (let i = 0; i < this.importData[0][14]; i++) {
 					this.sides[1].addSideCondition("spikes", "debug");
 				}
-				for (let i = 0; i < this.importData.enemy.hazards[1]; i++) {
+				for (let i = 0; i < this.importData[0][15]; i++) {
 					this.sides[1].addSideCondition("toxicspikes", "debug");
 				}
-				for (let i = 0; i < this.importData.enemy.hazards[2]; i++) {
+				for (let i = 0; i < this.importData[0][16]; i++) {
 					this.sides[1].addSideCondition("stealthrock", "debug");
 				}
-				if (this.importData.enemy.hazards[3] != 0) {
+				if (this.importData[0][17] != 0) {
 					this.sides[1].addSideCondition("reflect", "debug");
 					this.sides[1].sideConditions["reflect"].duration =
-						this.importData.enemy.hazards[3];
+						this.importData[0][17];
 				}
-				if (this.importData.enemy.hazards[4] != 0) {
+				if (this.importData[0][18] != 0) {
 					this.sides[1].addSideCondition("lightscreen", "debug");
 					this.sides[1].sideConditions["lightscreen"].duration =
-						this.importData.enemy.hazards[4];
+						this.importData[0][18];
 				}
-				if (this.importData.enemy.hazards[5] != 0) {
+				if (this.importData[0][19] != 0) {
 					this.sides[1].addSideCondition("safeguard", "debug");
 					this.sides[1].sideConditions["safeguard"].duration =
-						this.importData.enemy.hazards[5];
+						this.importData[0][19];
 				}
-				if (this.importData.enemy.hazards[6] != 0) {
+				if (this.importData[0][20] != 0) {
 					this.sides[1].addSideCondition("mist", "debug");
 					this.sides[1].sideConditions["mist"].duration =
-						this.importData.enemy.hazards[6];
+						this.importData[0][20];
 				}
-				if (this.importData.enemy.hazards[7] != 0) {
+				if (this.importData[0][21] != 0) {
 					this.sides[1].addSideCondition("tailwind", "debug");
 					this.sides[1].sideConditions["tailwind"].duration =
-						this.importData.enemy.hazards[7];
+						this.importData[0][21];
 				}
-				if (this.importData.enemy.hazards[8] != 0) {
+				if (this.importData[0][22] != 0) {
 					this.sides[1].addSideCondition("luckychant", "debug");
 					this.sides[1].sideConditions["luckychant"].duration =
-						this.importData.enemy.hazards[8];
+						this.importData[0][22];
 				}
+				// for (let i = 0; i < this.importData.player.hazards[0]; i++) {
+				// 	this.sides[0].addSideCondition("spikes", "debug");
+				// }
+				// for (let i = 0; i < this.importData.player.hazards[1]; i++) {
+				// 	this.sides[0].addSideCondition("toxicspikes", "debug");
+				// }
+				// for (let i = 0; i < this.importData.player.hazards[2]; i++) {
+				// 	this.sides[0].addSideCondition("stealthrock", "debug");
+				// }
+				// if (this.importData.player.hazards[3] != 0) {
+				// 	this.sides[0].addSideCondition("reflect", "debug");
+				// 	this.sides[0].sideConditions["reflect"].duration =
+				// 		this.importData.player.hazards[3];
+				// }
+				// if (this.importData.player.hazards[4] != 0) {
+				// 	this.sides[0].addSideCondition("lightscreen", "debug");
+				// 	this.sides[0].sideConditions["lightscreen"].duration =
+				// 		this.importData.player.hazards[4];
+				// }
+				// if (this.importData.player.hazards[5] != 0) {
+				// 	this.sides[0].addSideCondition("safeguard", "debug");
+				// 	this.sides[0].sideConditions["safeguard"].duration =
+				// 		this.importData.player.hazards[5];
+				// }
+				// if (this.importData.player.hazards[6] != 0) {
+				// 	this.sides[0].addSideCondition("mist", "debug");
+				// 	this.sides[0].sideConditions["mist"].duration =
+				// 		this.importData.player.hazards[6];
+				// }
+				// if (this.importData.player.hazards[7] != 0) {
+				// 	this.sides[0].addSideCondition("tailwind", "debug");
+				// 	this.sides[0].sideConditions["tailwind"].duration =
+				// 		this.importData.player.hazards[7];
+				// }
+				// if (this.importData.player.hazards[8] != 0) {
+				// 	this.sides[0].addSideCondition("luckychant", "debug");
+				// 	this.sides[0].sideConditions["luckychant"].duration =
+				// 		this.importData.player.hazards[8];
+				// }
+				// for (let i = 0; i < this.importData.enemy.hazards[0]; i++) {
+				// 	this.sides[1].addSideCondition("spikes", "debug");
+				// }
+				// for (let i = 0; i < this.importData.enemy.hazards[1]; i++) {
+				// 	this.sides[1].addSideCondition("toxicspikes", "debug");
+				// }
+				// for (let i = 0; i < this.importData.enemy.hazards[2]; i++) {
+				// 	this.sides[1].addSideCondition("stealthrock", "debug");
+				// }
+				// if (this.importData.enemy.hazards[3] != 0) {
+				// 	this.sides[1].addSideCondition("reflect", "debug");
+				// 	this.sides[1].sideConditions["reflect"].duration =
+				// 		this.importData.enemy.hazards[3];
+				// }
+				// if (this.importData.enemy.hazards[4] != 0) {
+				// 	this.sides[1].addSideCondition("lightscreen", "debug");
+				// 	this.sides[1].sideConditions["lightscreen"].duration =
+				// 		this.importData.enemy.hazards[4];
+				// }
+				// if (this.importData.enemy.hazards[5] != 0) {
+				// 	this.sides[1].addSideCondition("safeguard", "debug");
+				// 	this.sides[1].sideConditions["safeguard"].duration =
+				// 		this.importData.enemy.hazards[5];
+				// }
+				// if (this.importData.enemy.hazards[6] != 0) {
+				// 	this.sides[1].addSideCondition("mist", "debug");
+				// 	this.sides[1].sideConditions["mist"].duration =
+				// 		this.importData.enemy.hazards[6];
+				// }
+				// if (this.importData.enemy.hazards[7] != 0) {
+				// 	this.sides[1].addSideCondition("tailwind", "debug");
+				// 	this.sides[1].sideConditions["tailwind"].duration =
+				// 		this.importData.enemy.hazards[7];
+				// }
+				// if (this.importData.enemy.hazards[8] != 0) {
+				// 	this.sides[1].addSideCondition("luckychant", "debug");
+				// 	this.sides[1].sideConditions["luckychant"].duration =
+				// 		this.importData.enemy.hazards[8];
+				// }
 
 				this.eachEvent("BeforeTurn");
 				break;

@@ -37,6 +37,10 @@ struct State {
     char name[10];
     int activePokemonP1;
     int activePokemonP2;
+    char encoreMoveP1[20];
+    char encoreMoveP2[20];
+    char disableMoveP1[20];
+    char disableMoveP2[20];
 };
 
 struct Move {
@@ -227,6 +231,10 @@ void print_inputs(struct State my_states){
     printf("data[4]: %i\n", my_states.game_data[4]);
     printf("activeP1: %i\n", my_states.activePokemonP1);
     printf("activeP2: %i\n", my_states.activePokemonP2);
+    printf("encoreP1: %s\n", my_states.encoreMoveP1);
+    printf("encoreP2: %s\n", my_states.encoreMoveP2);
+    printf("disableP1: %s\n", my_states.disableMoveP1);
+    printf("disableP2: %s\n", my_states.disableMoveP2);
 }
 
 
@@ -316,11 +324,7 @@ int get_weights(struct Weights *my_weights){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
 
-    #if LAYERS == 3
     int blank_indexes[] = {0,0,0};
-    #elif LAYERS == 4
-    int blank_indexes[] = {0,0,0,0};
-    #endif
 
     parse_weights(&reader, 0, my_weights, blank_indexes);
     
@@ -400,6 +404,82 @@ void parse_state(mpack_reader_t* reader, struct State *state){
     } else {
         printf("I've misunderstood activeP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP2)), mpack_tag_uint_value(&activeP2));
     }
+
+    mpack_tag_t encoreP1 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading encoreP1: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&encoreP1) == mpack_type_str){
+        char strBuffer[20];
+        mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&encoreP1)+1, mpack_tag_str_length(&encoreP1));
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in encoreP1: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        for (int i = 0; i < 20; i++){
+            state->encoreMoveP1[i] = strBuffer[i];
+        }
+    } else {
+        printf("I've misunderstood encoreP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&encoreP1)), mpack_tag_uint_value(&encoreP1));
+    }
+
+    mpack_tag_t encoreP2 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading encoreP2: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&encoreP2) == mpack_type_str){
+        char strBuffer[20];
+        mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&encoreP2)+1, mpack_tag_str_length(&encoreP2));
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in encoreP2: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        for (int i = 0; i < 20; i++){
+            state->encoreMoveP2[i] = strBuffer[i];
+        }
+    } else {
+        printf("I've misunderstood encoreP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&encoreP2)), mpack_tag_uint_value(&encoreP2));
+    }
+
+    mpack_tag_t disableP1 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading disableP1: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&disableP1) == mpack_type_str){
+        char strBuffer[20];
+        mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&disableP1)+1, mpack_tag_str_length(&disableP1));
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in disableP1: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        for (int i = 0; i < 20; i++){
+            state->disableMoveP1[i] = strBuffer[i];
+        }
+    } else {
+        printf("I've misunderstood disableP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP1)), mpack_tag_uint_value(&disableP1));
+    }
+
+    mpack_tag_t disableP2 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading disableP2: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&disableP2) == mpack_type_str){
+        char strBuffer[20];
+        mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&disableP2)+1, mpack_tag_str_length(&disableP2));
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in disableP2: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        for (int i = 0; i < 20; i++){
+            state->disableMoveP2[i] = strBuffer[i];
+        }
+    } else {
+        printf("I've misunderstood disableP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP2)), mpack_tag_uint_value(&disableP2));
+    }
 }
 
 void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
@@ -428,6 +508,15 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
 
             // sets the state[side1][side2][side3]
             (inputs_pointer+side1*10*25+side2*25+side3)->name[i] = myState.name[i];
+        }
+
+        for (int i = 0; i < 20; i++){
+
+            // sets the state[side1][side2][side3]
+            (inputs_pointer+side1*10*25+side2*25+side3)->encoreMoveP1[i] = myState.encoreMoveP1[i];
+            (inputs_pointer+side1*10*25+side2*25+side3)->encoreMoveP2[i] = myState.encoreMoveP2[i];
+            (inputs_pointer+side1*10*25+side2*25+side3)->disableMoveP1[i] = myState.disableMoveP1[i];
+            (inputs_pointer+side1*10*25+side2*25+side3)->disableMoveP2[i] = myState.disableMoveP2[i];
         }
 
         for (int i = 0; i < L1; i++){
@@ -589,21 +678,21 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 // struct Move evaluate_move()
 
 
-void run_showdown(lua_State *L, int *state){
+void run_showdown(lua_State *L, struct State *state){
 
     lua_createtable(L, L1, 0);
     for (int i = 0; i < L1; i++){
         lua_pushinteger(L, i+1);
-        lua_pushinteger(L, *(state+i));
+        lua_pushinteger(L, state->game_data[i]);
         lua_settable(L, 2);
     }
-    lua_call(L, 1, 0);
+    lua_pushinteger(L, state->activePokemonP1);
+    lua_pushinteger(L, state->activePokemonP2);
+    lua_call(L, 3, 0);
 
 }
 
 int run_evaluation(lua_State *L){
-
-    // run_showdown(L, &my_states[0][0][0].game_data[0]);
 
     struct State blank_state;
     blank_state.name[0] = '\0';
@@ -615,8 +704,10 @@ int run_evaluation(lua_State *L){
     struct Weights my_weights;
     get_weights(&my_weights);
 
+    // run_showdown(L, &my_states[0][0][0]);
+
     // print_weights(&my_weights);
-    print_inputs(my_states[5][5][0]);
+    print_inputs(my_states[0][0][0]);
 
     // for (int i = 0; i < 10; i++){
         // for (int j = 0; j < 10; j++){

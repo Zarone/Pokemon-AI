@@ -27,7 +27,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
         volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         disabled_move = "",
-        last_move = ""
+        last_move = "",
+        encored_move = ""
         -- # Seeded
         -- # Confused
         -- # Taunted
@@ -49,7 +50,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
         hazards = {0, 0, 0, 0, 0, 0, 0, 0, 0},
         volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         disabled_move = "",
-        last_move = ""
+        last_move = "",
+        encored_move = ""
     }
 
     instance.nicknames = nicknames
@@ -219,10 +221,12 @@ function GameReader:process_line(line)
         end
     elseif line == self.nicknames[self.active + 1] .. " received an encore!" then
         self.player.volatiles[10] = 3
+        self.player.encored_move = self.player.last_move
     elseif line ==
         (self.wild_battle and "The wild " .. self.nicknames_enemy[self.enemy_active + 1] .. " received an encore!" or
             "The foe's " .. self.nicknames_enemy[self.enemy_active + 1] .. " received an encore!") then
         self.enemy.volatiles[10] = 3
+        self.enemy.encored_move = self.enemy.last_move
     elseif line == self.nicknames[self.active + 1] .. "'s encore ended!" then
         self.player.volatiles[10] = 0
     elseif line ==

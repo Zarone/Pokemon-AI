@@ -290,6 +290,26 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return 500;
 	}
 
+	getEncoredMove(side: number) {
+		if ((this.battle as Battle).sides[side].active[0].volatiles["encore"]) {
+			return (this.battle as Battle).sides[side].active[0].volatiles[
+				"encore"
+			].move;
+		} else {
+			return "N/A";
+		}
+	}
+
+	getDisabledMove(side: number) {
+		if ((this.battle as Battle).sides[side].active[0].volatiles["disable"]) {
+			return (this.battle as Battle).sides[side].active[0].volatiles[
+				"disable"
+			].move;
+		} else {
+			return "N/A";
+		}
+	}
+
 	getJson(activePokemonName: string | undefined) {
 		let weatherStr = this.battle?.field.weather;
 		let weather;
@@ -417,6 +437,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			activePokemonName || "not switch",
 			this.getActive(0),
 			this.getActive(1),
+			this.getEncoredMove(0),
+			this.getEncoredMove(1),
+			this.getDisabledMove(0),
+			this.getDisabledMove(1),
 		];
 
 		return returnVal;

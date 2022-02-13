@@ -111,9 +111,9 @@ end
 
 function BattleManager:act_open()
     if self.queued_move == nil then
-        if not using_test_data then
+        -- if not using_test_data then
             self:saveState()
-        end
+        -- end
 
         team1 = nil
         team2 = nil
@@ -138,13 +138,20 @@ function BattleManager:act_close()
     return 0
 end
 
-function saveArrayState(state)
+function saveArrayState(state, activeP1, activeP2)
     print("array1", state[1])
     print("array2", state[2])
     print("array3", state[3])
     print("array4", state[4])
     print("array5", state[5])
-    Writer.exec()
+    print(activeP1)
+    print(activeP2)
+    -- stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
+    -- stateFile:write(
+    --     json.encode(state)
+    -- )
+    -- stateFile:close()
+    -- Writer.exec()
 end
 
 function BattleManager:get_action()
@@ -168,32 +175,76 @@ end
 
 function BattleManager:saveState()
     stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
-    -- print("stateFile:", stateFile)
     stateFile:write(
-        json.encode({
-            weather = StateReader.get_weather(),
-            turns_left_of_weather = StateReader.get_remaining_weather_turns(),
-            player = {
-                boosts = {StateReader.get_player_boosts()},
-                statuses = {StateReader.get_player_status()},
-                hazards = self.game_reader.player.hazards,
-                volatiles = self.game_reader.player.volatiles,
-                active = self.game_reader.active,
-                disable_move = self.game_reader.player.disabled_move,
-                last_move = self.game_reader.player.last_move,
-                health = StateReader.get_player_health()
-            },
-            enemy = {
-                boosts = {StateReader.get_enemy_boosts()},
-                statuses = {StateReader.get_enemy_status()},
-                hazards = self.game_reader.enemy.hazards,
-                volatiles = self.game_reader.enemy.volatiles,
-                active = self.game_reader.enemy_active,
-                disable_move = self.game_reader.enemy.disabled_move,
-                last_move = self.game_reader.enemy.last_move,
-                health = StateReader.get_enemy_health()
+        json.encode(
+            {
+                {
+                    3, 1, 0, 0, 0, 
+                    0, 0, 0, 0, 0,
+
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0,
+
+                    0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0,
+
+                    0, 5, 5, 0, 0, 
+                    0, 0, 0, 0, 0,
+
+                    0, 0, 0, 0, 0, 
+                    0, 0, 0, 0, 0,
+                    0, 0, 0, -2, 0, 
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 92, 105, 90, 125, 90, 98,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100,
+                    70, 105, 125, 65, 75, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 100, 90, 92, 87, 75, 85, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 65, 95, 85, 55, 55, 85, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 106, 110,
+                    90, 154, 90, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 89, 124, 80, 55, 80, 55, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 58, 50, 145, 95,
+                    105, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 100, 70, 80, 70, 80, 70, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 150, 80, 44, 90, 54, 80, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 60, 70, 85, 105,
+                    60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+                    100, 60, 55, 90, 145, 90, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0
+                },
+                "not switch",
+                4,
+                4,
+                "dracometeor",
+                "fix this Zach",
+                "darkpulse",
+                "fix this too Zach"
             }
-        })
+            -- {
+            --     weather = StateReader.get_weather(),
+            --     turns_left_of_weather = StateReader.get_remaining_weather_turns(),
+            --     player = {
+            --         boosts = {StateReader.get_player_boosts()},
+            --         statuses = {StateReader.get_player_status()},
+            --         hazards = self.game_reader.player.hazards,
+            --         volatiles = self.game_reader.player.volatiles,
+            --         active = self.game_reader.active,
+            --         disable_move = self.game_reader.player.disabled_move,
+            --         encored_move = self.game_reader.player.encored_move,
+            --         health = StateReader.get_player_health()
+            --     },
+            --     enemy = {
+            --         boosts = {StateReader.get_enemy_boosts()},
+            --         statuses = {StateReader.get_enemy_status()},
+            --         hazards = self.game_reader.enemy.hazards,
+            --         volatiles = self.game_reader.enemy.volatiles,
+            --         active = self.game_reader.enemy_active,
+            --         disable_move = self.game_reader.enemy.disabled_move,
+            --         encored_move = self.game_reader.enemy.encored_move,
+            --         health = StateReader.get_enemy_health()
+            --     }
+            -- }
+        )
     )
     stateFile:close()
 end
