@@ -281,7 +281,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			i++
 		) {
 			if (
-				(this.battle as Battle).sides[side].pokemon[i].species.name ==
+				(this.battle as Battle).startTeam[side][i] ==
 				(this.battle as Battle).sides[side].active[0].species.name
 			) {
 				return i;
@@ -630,6 +630,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			typesP1,
 			typesP2,
 			log: this.battle?.log,
+			P1Active: this.getActive(0),
+			P2Active: this.getActive(1),
 		};
 	}
 
@@ -902,7 +904,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						"./battle_ai/state_files/battleStatesFromShowdown.json",
 						JSON.stringify({
 							inputState: this.battle?.importData,
-							outputStates: this.msgOutput,
+							outputStates: this.jsonOutput,
 						})
 					);
 				}

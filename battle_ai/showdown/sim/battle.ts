@@ -166,6 +166,7 @@ export class Battle {
 	clampIntRange: (num: any, min?: number, max?: number) => number;
 	toID = toID;
 	importData: any;
+	startTeam: string[][] = [[], []];
 	constructor(options: BattleOptions) {
 		let data = fs.readFileSync(
 			"./battle_ai/state_files/battleStateForShowdown.json",
@@ -3091,6 +3092,13 @@ export class Battle {
 					if ("+*-!".includes(rule.charAt(0))) continue;
 					const subFormat = this.dex.formats.get(rule);
 					if (subFormat.onBattleStart) subFormat.onBattleStart.call(this);
+				}
+
+				for (let i = 0; i < this.sides[0].pokemon.length; i++) {
+					this.startTeam[0].push(this.sides[0].pokemon[i].species.name);
+				}
+				for (let i = 0; i < this.sides[1].pokemon.length; i++) {
+					this.startTeam[1].push(this.sides[1].pokemon[i].species.name);
 				}
 
 				for (let i = 0; i < 6; i++) {
