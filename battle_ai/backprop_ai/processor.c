@@ -50,6 +50,11 @@ struct Move {
     int isMultiEvent; // whether or not there are mulitple possible outcomes after move
 };
 
+struct PartialMove {
+    double estimate;
+    int move;
+};
+
 // this struct is for storing the "impact" of a single input
 struct Input {
     char name[20];
@@ -163,6 +168,102 @@ void printAllErrors(struct Input A[], int size)
 
 
 
+void merge_PartialMove(struct PartialMove arr[], int l, int m, int r) 
+{ 
+    int i, j, k; 
+    int n1 = m - l + 1; 
+    int n2 =  r - m; 
+    struct PartialMove L[n1], R[n2]; 
+    for (i = 0; i < n1; i++) {
+        // for (int inc = 0; inc < 20; inc++){
+        //     L[i].name[inc] = arr[l + i].name[inc]; 
+        // }
+        // L[i].val = arr[l+i].val;
+        // L[i].input_val = arr[l+i].input_val;
+
+        L[i].estimate = arr[l+i].estimate;
+        L[i].move = arr[l+i].move;
+    }
+    for (j = 0; j < n2; j++) {
+
+        // for (int inc = 0; inc < 20; inc++){
+        //     R[j].name[inc] = arr[m + 1 + j].name[inc]; 
+        // }
+        // R[j].val = arr[m + 1 + j].val;
+        // R[j].input_val = arr[m + 1 + j].input_val;
+
+        R[j].estimate = arr[m + 1 + j].estimate;
+        R[j].move = arr[m + 1 + j].move;
+    }
+    i = 0; 
+    j = 0; 
+    k = l; 
+    while (i < n1 && j < n2) { 
+        if (L[i].estimate <= R[j].estimate){ 
+            // for (int inc = 0; inc < 20; inc++){
+            //     arr[k].name[inc] = L[i].name[inc];
+            // }
+            // arr[k].val = L[i].val;
+            // arr[k].input_val = L[i].input_val;
+
+            arr[k].estimate = L[i].estimate;
+            arr[k].move = L[i].move;
+            i++; 
+        } 
+        else { 
+            // for (int inc = 0; inc < 20; inc++){
+            //     arr[k].name[inc] = R[j].name[inc];
+            // }
+            // arr[k].val = R[j].val;
+            // arr[k].input_val = R[j].input_val;
+            arr[k].estimate = R[j].estimate;
+            arr[k].move = R[j].move;
+            j++; 
+        } 
+        k++; 
+    } 
+    while (i < n1) { 
+        // for (int inc = 0; inc < 20; inc++){
+        //     arr[k].name[inc] = L[i].name[inc];
+        // }
+        // arr[k].val = L[i].val;
+        // arr[k].input_val = L[i].input_val;
+        arr[k].estimate = L[i].estimate;
+        arr[k].move = L[i].move;
+        i++; 
+        k++; 
+    } 
+    while (j < n2) { 
+        // for (int inc = 0; inc < 20; inc++){
+        //     arr[k].name[inc] = R[j].name[inc];
+        // }
+        // arr[k].val = R[j].val;
+        // arr[k].input_val = R[j].input_val;
+        arr[k].estimate = R[j].estimate;
+        arr[k].move = R[j].move;
+        j++; 
+        k++; 
+    } 
+}
+
+void mergeSort_PartialMove(struct PartialMove arr[], int l, int r) 
+{ 
+    if (l < r) 
+    { 
+        int m = l+(r-l)/2; 
+        mergeSort_PartialMove(arr, l, m); 
+        mergeSort_PartialMove(arr, m+1, r); 
+        merge_PartialMove(arr, l, m, r); 
+    } 
+} 
+
+void printArr_PartialMove(struct PartialMove A[], int size) 
+{ 
+    printf("\n"); 
+    for (int i = 0; i < size; i++) {
+        printf("estimate: %f, move: %d\n", A[i].estimate, A[i].move); 
+    }
+}
 
 // print functions for debugging
 
@@ -685,7 +786,6 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 #endif
 }
 
-
 void load_showdown_state(lua_State *L, struct State *state){
 
     lua_createtable(L, L1, 0);
@@ -718,8 +818,13 @@ void load_showdown_state(lua_State *L, struct State *state){
 
 }
 
-struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights){
+struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
     load_showdown_state(L, my_state);
+
+
+    // the blank_state variable here just makes sure
+    // that each state initialized inside my_states
+    // starts off with the correct values
 
     struct State blank_state;
     blank_state.name[0] = '\0';
@@ -730,16 +835,87 @@ struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *
     blank_state.encoreMoveP1[0] = '\0';
     blank_state.encoreMoveP2[0] = '\0';
 
+
     struct State my_states[10][10][25] = {blank_state};
+
+
+    // the "inputs" here are states resulting from load_showdown_state
+    
+    // I pass in this reference here so that the "get_inputs" can figure out
+    // where each element in the array is located
     get_inputs(&my_states[0][0][0]);
 
-    printf( "%f\n", feedforward( my_weights, &(my_states[0][0][0].game_data) ) );
+    // printf( "%f\n", feedforward( my_weights, &(my_states[0][0][0].game_data) ) );
+
+    struct Move null_move;
+    null_move.moves[0] = -1;
+    struct Move allMoves[10][10] = {null_move};
+
+    for (int i = 0; i < 10; i++){
+        for (int j = 0; j < 10; j++){
+            double total_estimate = 0.0;
+            for (int k = 0; k < 26; k++){
+                if (my_states[i][j][k].name[0] != '\0'){
+
+                    // "i" is player2's move
+                    // "j" is player1's move
+
+                    double estimate = feedforward(my_weights, &(my_states[i][j][0].game_data));
+                    // printf("feedforward output %i %i %i : %f\n", i, j, k, estimate);
+                    total_estimate+=estimate;
+
+                } else {
+                    if (k > 0){
+                        struct Move thisMove;
+                        thisMove.estimate = total_estimate / k;
+                        thisMove.isMultiEvent = (k>1) ? 1 : 0;
+                        thisMove.moves[0] = j;
+                        thisMove.moves[1] = i;
+                        allMoves[j][i] = thisMove;
+                    }
+                    break;
+
+                }
+            }
+        }
+    }
+
+    struct PartialMove p2moves[10];
+    for (int i = 0; i < 10; i++){
+        double acculative_estimate = 0.0;
+        int possibilities = 0;
+        
+        for (int j = 0; j < 10; j++){
+
+            // "i" represents player2move
+            // "j" represents player1move
+            
+            // if this move combination occured
+            if (allMoves[j][i].moves[0] != -1){
+                possibilities+=1;
+                // printf("j: %i, i: %i, estimate: %f, move1: %i\n", j, i, allMoves[j][i].estimate, allMoves[j][i].moves[0]);
+                acculative_estimate+=allMoves[j][i].estimate;
+            }
+
+        }
+
+        printf("acculative_estimate: %f, possibilities: %i\n", acculative_estimate, possibilities);
+        p2moves[i].estimate = acculative_estimate/(double)possibilities;
+        p2moves[i].move = i;
+    }
+
+    mergeSort_PartialMove(p2moves, 0, 0);
+    printArr_PartialMove(p2moves, 10);
 
     struct Move blank;
     return blank;
 }
 
 int run_evaluation(lua_State *L){
+
+
+    // all this stack manipulation is just to cleanup
+    // the stack and get relevant data into "start_state"
 
 
     // stack: [ exec_showdown_state, state ]
@@ -750,64 +926,57 @@ int run_evaluation(lua_State *L){
     // stack: [ exec_showdown_state, state, switch_info ]
 
     strcpy(start_state.name, lua_tostring(L, -1));
+    
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 3);
     // stack: [ exec_showdown_state, state, activeInfoP1 ]
 
     start_state.activePokemonP1 = lua_tointeger(L, -1);
+    
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 4);
     // stack: [ exec_showdown_state, state, activeInfoP2 ]
 
     start_state.activePokemonP2 = lua_tointeger(L, -1);
+    
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 5);
     // stack: [ exec_showdown_state, state, encoreP1 ]
 
     strcpy(start_state.encoreMoveP1, lua_tostring(L, -1));
+    
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 6);
     // stack: [ exec_showdown_state, state, encoreP2 ]
 
     strcpy(start_state.encoreMoveP2, lua_tostring(L, -1));
+    
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 7);
     // stack: [ exec_showdown_state, state, disableP1 ]
 
     strcpy(start_state.disableMoveP1, lua_tostring(L, -1));
+    
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 8);
     // stack: [ exec_showdown_state, state, disableP2 ]
 
     strcpy(start_state.disableMoveP2, lua_tostring(L, -1));
+ 
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
-
-
 
     lua_geti(L, -1, 1);
     // stack: [ exec_showdown_state, state, inputs ]
@@ -815,46 +984,22 @@ int run_evaluation(lua_State *L){
     for (int i = 0; i < L1; i++){
         lua_geti(L, -1, i+1);
         // stack: [ exec_showdown_state, state, inputs, thisInput ]
+        
         start_state.game_data[i] = lua_tointeger(L, -1);
 
         lua_remove(L, -1);
         // stack: [ exec_showdown_state, state, inputs ]
-
     }
-
 
     lua_remove(L, -1);
     // stack: [ exec_showdown_state, state ]
 
-
     lua_remove(L, -1);
     // stack: [ exec_showdown_state ]
 
-
     struct Weights my_weights;
     get_weights(&my_weights);
-    evaluate_move(L, &start_state, &my_weights);
-
-
-
-
-    // run_showdown(L, &my_states[0][0][0]);
-
-    // print_weights(&my_weights);
-    // print_inputs(my_states[0][0][0]);
-
-    // for (int i = 0; i < 10; i++){
-    //     for (int j = 0; j < 10; j++){
-    //         // for (int k = 0; k < 25; k++){
-    //             if (my_states[i][j][0].name[0] != '\0'){
-
-    //                 // "i" is player2's move
-    //                 // "j" is player1's move
-    //                 printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
-    //             }
-    //         // }
-    //     }
-    // }
+    evaluate_move(L, &start_state, &my_weights, 3);
 
     return 1;
 }
