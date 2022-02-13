@@ -35,6 +35,8 @@ struct Weights {
 struct State {
     int game_data[L1]; // the input to the neural network
     char name[10];
+    int activePokemonP1;
+    int activePokemonP2;
 };
 
 struct Move {
@@ -223,6 +225,8 @@ void print_inputs(struct State my_states){
     printf("data[2]: %i\n", my_states.game_data[2]);
     printf("data[3]: %i\n", my_states.game_data[3]);
     printf("data[4]: %i\n", my_states.game_data[4]);
+    printf("activeP1: %i\n", my_states.activePokemonP1);
+    printf("activeP2: %i\n", my_states.activePokemonP2);
 }
 
 
@@ -354,25 +358,56 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         char strBuffer[11];
         mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&nameTag)+1, mpack_tag_str_length(&nameTag));
         if (mpack_reader_error(reader) != mpack_ok){
-           printf("error reading string in nameTag: %i\n", mpack_reader_error(reader));
-        return;
-    }
+            printf("error reading string in nameTag: %i\n", mpack_reader_error(reader));
+            return;
+        }
         for (int i = 0; i < 11; i++){
             state->name[i] = strBuffer[i];
         }
     } else {
         printf("I've misunderstood nameTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&nameTag)), mpack_tag_uint_value(&nameTag));
     }
+
+    mpack_tag_t activeP1 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading activeP1: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&activeP1) == mpack_type_uint){
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in activeP1: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        unsigned int tag_value = mpack_tag_int_value(&activeP1);
+        state->activePokemonP1 = tag_value;
+
+    } else {
+        printf("I've misunderstood activeP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP1)), mpack_tag_uint_value(&activeP1));
+    }
+
+    mpack_tag_t activeP2 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading activeP2: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&activeP2) == mpack_type_uint){
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in activeP2: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        unsigned int tag_value = mpack_tag_int_value(&activeP2);
+        state->activePokemonP2 = tag_value;
+    } else {
+        printf("I've misunderstood activeP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP2)), mpack_tag_uint_value(&activeP2));
+    }
 }
-
-
 
 void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
 {
 
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reader: %i\n", mpack_reader_error(reader));
+        printf("error in reader (parse_inputs): %i\n", mpack_reader_error(reader));
         return;
     }
  
@@ -398,6 +433,9 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
         for (int i = 0; i < L1; i++){
             (inputs_pointer+side1*10*25+side2*25+side3)->game_data[i] = myState.game_data[i];
         }
+
+        (inputs_pointer+side1*10*25+side2*25+side3)->activePokemonP1 = myState.activePokemonP1;
+        (inputs_pointer+side1*10*25+side2*25+side3)->activePokemonP2 = myState.activePokemonP2;
 
         mpack_done_array(reader);
     } else if (mpack_tag_type(&tag) == mpack_type_array) {
@@ -551,12 +589,9 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 // struct Move evaluate_move()
 
 
-void check_state(lua_State *L, int *state){
-
-
+void run_showdown(lua_State *L, int *state){
 
     lua_createtable(L, L1, 0);
-    // lua_newtable(L);
     for (int i = 0; i < L1; i++){
         lua_pushinteger(L, i+1);
         lua_pushinteger(L, *(state+i));
@@ -566,10 +601,14 @@ void check_state(lua_State *L, int *state){
 
 }
 
-int evaluate_moves(lua_State *L){
+int run_evaluation(lua_State *L){
+
+    // run_showdown(L, &my_states[0][0][0].game_data[0]);
 
     struct State blank_state;
     blank_state.name[0] = '\0';
+    blank_state.activePokemonP1 = 404;
+    blank_state.activePokemonP2 = 404;
 
     struct State my_states[10][10][25] = {blank_state};
     get_inputs(&my_states[0][0][0]);
@@ -577,22 +616,20 @@ int evaluate_moves(lua_State *L){
     get_weights(&my_weights);
 
     // print_weights(&my_weights);
-    // print_inputs(my_states[0][0][0]);
+    print_inputs(my_states[5][5][0]);
 
-    check_state(L, &my_states[0][0][0].game_data[0]);
-
-    for (int i = 0; i < 10; i++){
-        for (int j = 0; j < 10; j++){
+    // for (int i = 0; i < 10; i++){
+        // for (int j = 0; j < 10; j++){
             // for (int k = 0; k < 25; k++){
-                if (my_states[i][j][0].name[0] != '\0'){
+                // if (my_states[i][j][0].name[0] != '\0'){
 
                     // "i" is player2's move
                     // "j" is player1's move
-                    printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
-                }
+                    // printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
+                // }
             // }
-        }
-    }
+        // }
+    // }
 
     return 1;
 }
@@ -600,15 +637,13 @@ int evaluate_moves(lua_State *L){
 
 
 int get_move(lua_State *L){
-    
-    // gets rid of function args
- 
+     
     // lua_pushstring(L, get_weights() == 1 ? "sucessfully returned from \"get_weights()\"" : "error in \"get_weights()\"");
     // lua_pushstring(L, get_inputs() == 1 ? "sucessfully returned from \"get_inputs()\"" : "error in \"get_inputs()\"");
     
-    int res = evaluate_moves(L);
+    int res = run_evaluation(L);
     lua_settop(L, 0);
-    lua_pushstring(L, res == 1 ? "sucessfully returned from \"evaluate_moves()\"" : "error in \"evaluate_moves()\"");
+    lua_pushstring(L, res == 1 ? "sucessfully returned from \"function\"" : "error in function in get_move()\"");
 
     return 1;
 

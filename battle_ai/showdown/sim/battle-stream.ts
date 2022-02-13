@@ -274,6 +274,22 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return [hp, ...basestats, ...types, ...status];
 	}
 
+	getActive(side: number) {
+		for (
+			let i = 0;
+			i < (this.battle as Battle).sides[side].pokemon.length;
+			i++
+		) {
+			if (
+				(this.battle as Battle).sides[side].pokemon[i].species.name ==
+				(this.battle as Battle).sides[side].active[0].species.name
+			) {
+				return i;
+			}
+		}
+		return 500;
+	}
+
 	getJson(activePokemonName: string | undefined) {
 		let weatherStr = this.battle?.field.weather;
 		let weather;
@@ -399,6 +415,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				...benchP2,
 			],
 			activePokemonName || "not switch",
+			this.getActive(0),
+			this.getActive(1),
 		];
 
 		return returnVal;
