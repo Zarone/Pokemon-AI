@@ -112,7 +112,7 @@ end
 function BattleManager:act_open()
     if self.queued_move == nil then
         -- if not using_test_data then
-            self:saveState()
+            -- self:saveState()
         -- end
 
         team1 = nil
@@ -138,25 +138,25 @@ function BattleManager:act_close()
     return 0
 end
 
-function saveArrayState(state, activeP1, activeP2)
-    print("array1", state[1])
-    print("array2", state[2])
-    print("array3", state[3])
-    print("array4", state[4])
-    print("array5", state[5])
-    print(activeP1)
-    print(activeP2)
-    -- stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
-    -- stateFile:write(
-    --     json.encode(state)
-    -- )
-    -- stateFile:close()
-    -- Writer.exec()
+function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2)
+    -- print("array1", state[1])
+    -- print("array2", state[2])
+    -- print("array3", state[3])
+    -- print("array4", state[4])
+    -- print("array5", state[5])
+    -- print(activeP1)
+    -- print(activeP2)
+    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
+    stateFile:write(
+        json.encode({state, "", activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2})
+    )
+    stateFile:close()
+    Writer.exec()
 end
 
 function BattleManager:get_action()
-    Writer.exec()
-    print(processor.get_move(saveArrayState))
+    print(processor.get_move(exec_showdown_state, self:getState()))
+    -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
     returnAction = 1 -- indicates moveslot 1
     
     print("BattleManager:get_action()")
@@ -173,175 +173,172 @@ function BattleManager:get_switch()
     return 3
 end
 
-function BattleManager:saveState()
-    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
-    stateFile:write(
-        json.encode(
-            {
-                {
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    100, 92, 105, 90, 125,
-                    
-                    90, 98, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    100, 70, 105, 125, 65,
-                    
-                    75, 45, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0,
-                    100, 90, 92, 87, 75,
-
-                    85, 76, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    1, 65, 95, 85, 55, 
-                    
-                    55, 85, 0, 0, 0,
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    100, 106, 110, 90, 154, 
-                    
-                    90, 130, 0, 0, 0,
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    100, 89, 124, 80, 55,
-                    
-                    80, 55, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0, 
-                    100, 58, 50, 145, 95,
-
-                    105, 30, 0, 0, 0, 
-                    0, 0, 0, 0, 0,
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    100, 70, 80, 70, 80, 
-                    
-                    70, 110, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    100, 150, 80, 44, 90, 
-                    
-                    54, 80, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 100, 60, 70, 85, 
-                    
-                    105, 60, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 1,
-                    100, 60, 55, 90, 145, 
-                    
-                    90, 80, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0, 
-                    0, 0, 0, 0, 0, 
-                    
-                    0, 0, 0, 0, 0
-                },
-                "not switch",
-                4,
-                4,
-                "dracometeor",
-                "fix this Zach",
-                "darkpulse",
-                "fix this too Zach"
+function BattleManager:getState()
+    if using_test_data then
+        return {
+                    {
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        100, 92, 105, 90, 125,
+                        
+                        90, 98, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        100, 70, 105, 125, 65,
+                        
+                        75, 45, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+    
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0,
+                        100, 90, 92, 87, 75,
+    
+                        85, 76, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        1, 65, 95, 85, 55, 
+                        
+                        55, 85, 0, 0, 0,
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        100, 106, 110, 90, 154, 
+                        
+                        90, 130, 0, 0, 0,
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+    
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        100, 89, 124, 80, 55,
+                        
+                        80, 55, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0, 
+                        100, 58, 50, 145, 95,
+    
+                        105, 30, 0, 0, 0, 
+                        0, 0, 0, 0, 0,
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        100, 70, 80, 70, 80, 
+                        
+                        70, 110, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        100, 150, 80, 44, 90, 
+                        
+                        54, 80, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 100, 60, 70, 85, 
+                        
+                        105, 60, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 1,
+                        100, 60, 55, 90, 145, 
+                        
+                        90, 80, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0, 
+                        0, 0, 0, 0, 0, 
+                        
+                        0, 0, 0, 0, 0
+                    },
+                    "not switch",
+                    4,
+                    3,
+                    "dracometeor",
+                    "",
+                    "darkpulse",
+                    ""
+                }
+    else
+        return {
+            weather = StateReader.get_weather(),
+            turns_left_of_weather = StateReader.get_remaining_weather_turns(),
+            player = {
+                boosts = {StateReader.get_player_boosts()},
+                statuses = {StateReader.get_player_status()},
+                hazards = self.game_reader.player.hazards,
+                volatiles = self.game_reader.player.volatiles,
+                active = self.game_reader.active,
+                disable_move = self.game_reader.player.disabled_move,
+                encored_move = self.game_reader.player.encored_move,
+                health = StateReader.get_player_health()
+            },
+            enemy = {
+                boosts = {StateReader.get_enemy_boosts()},
+                statuses = {StateReader.get_enemy_status()},
+                hazards = self.game_reader.enemy.hazards,
+                volatiles = self.game_reader.enemy.volatiles,
+                active = self.game_reader.enemy_active,
+                disable_move = self.game_reader.enemy.disabled_move,
+                encored_move = self.game_reader.enemy.encored_move,
+                health = StateReader.get_enemy_health()
             }
-            -- {
-            --     weather = StateReader.get_weather(),
-            --     turns_left_of_weather = StateReader.get_remaining_weather_turns(),
-            --     player = {
-            --         boosts = {StateReader.get_player_boosts()},
-            --         statuses = {StateReader.get_player_status()},
-            --         hazards = self.game_reader.player.hazards,
-            --         volatiles = self.game_reader.player.volatiles,
-            --         active = self.game_reader.active,
-            --         disable_move = self.game_reader.player.disabled_move,
-            --         encored_move = self.game_reader.player.encored_move,
-            --         health = StateReader.get_player_health()
-            --     },
-            --     enemy = {
-            --         boosts = {StateReader.get_enemy_boosts()},
-            --         statuses = {StateReader.get_enemy_status()},
-            --         hazards = self.game_reader.enemy.hazards,
-            --         volatiles = self.game_reader.enemy.volatiles,
-            --         active = self.game_reader.enemy_active,
-            --         disable_move = self.game_reader.enemy.disabled_move,
-            --         encored_move = self.game_reader.enemy.encored_move,
-            --         health = StateReader.get_enemy_health()
-            --     }
-            -- }
-        )
-    )
-    stateFile:close()
+        }
+    end
 end
 
 if using_test_data then

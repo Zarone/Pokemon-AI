@@ -421,7 +421,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 		let returnVal = [
 			[
-				this.battle?.field.weatherState.duration,
+				this.battle?.field.weatherState.duration || 0,
 				...weather,
 				...hazardsP1,
 				...hazardsP2,
@@ -928,7 +928,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						"./battle_ai/state_files/battleStatesFromShowdown.json",
 						JSON.stringify({
 							inputState: this.battle?.importData,
-							outputStates: this.jsonOutput,
+							outputStates: this.msgOutput,
 						})
 					);
 				}

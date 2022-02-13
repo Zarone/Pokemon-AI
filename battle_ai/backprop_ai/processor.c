@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "helper/helper.h"
+#include <string.h>
 
 #define LAYERS 4
 
@@ -34,7 +35,7 @@ struct Weights {
 
 struct State {
     int game_data[L1]; // the input to the neural network
-    char name[10];
+    char name[20];
     int activePokemonP1;
     int activePokemonP2;
     char encoreMoveP1[20];
@@ -367,13 +368,13 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         return;
     }
     if (mpack_tag_type(&nameTag) == mpack_type_str){
-        char strBuffer[11];
+        char strBuffer[20];
         mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&nameTag)+1, mpack_tag_str_length(&nameTag));
         if (mpack_reader_error(reader) != mpack_ok){
             printf("error reading string in nameTag: %i\n", mpack_reader_error(reader));
             return;
         }
-        for (int i = 0; i < 11; i++){
+        for (int i = 0; i < 20; i++){
             state->name[i] = strBuffer[i];
         }
     } else {
@@ -512,7 +513,7 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
         int side2 = 10 - indexes[1];
         int side3 = indexes[2];
 
-        for (int i = 0; i < 11; i++){
+        for (int i = 0; i < 20; i++){
 
             // sets the state[side1][side2][side3]
             (inputs_pointer+side1*10*25+side2*25+side3)->name[i] = myState.name[i];
@@ -584,7 +585,7 @@ double relu_derivative(double a){
     return (a > 0) ? 1 : 0;
 }
 
-#define SPREAD 0.5
+#define SPREAD 0.3
 
 double logistic(double a){
     return 1 / (1 + exp(-SPREAD*(double)a));
@@ -675,8 +676,8 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
         error_layer1[i].val *= error_layer1[i].input_val;
     }
 
-    mergeSort(error_layer1, 0, L1-1);
-    printErrors(error_layer1, L1, 1);
+    // mergeSort(error_layer1, 0, L1-1);
+    // printErrors(error_layer1, L1, 1);
     // printAllErrors(error_layer1, L1);
 
 
@@ -685,53 +686,175 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 }
 
 
-
-// struct Move evaluate_move()
-
-
-void run_showdown(lua_State *L, struct State *state){
+void load_showdown_state(lua_State *L, struct State *state){
 
     lua_createtable(L, L1, 0);
+
+    // stack
+    // [ exec_showdown_state, {} ]
+
     for (int i = 0; i < L1; i++){
         lua_pushinteger(L, i+1);
+        // stack
+        // [ exec_showdown_state, {}, i+1 ]
+
         lua_pushinteger(L, state->game_data[i]);
+        // stack
+        // [ exec_showdown_state, {}, i+1, state->game_data[i] ]
+
         lua_settable(L, 2);
     }
+
+    // stack
+    // [ exec_showdown_state, { ... } ]
+
     lua_pushinteger(L, state->activePokemonP1);
     lua_pushinteger(L, state->activePokemonP2);
-    lua_call(L, 3, 0);
+    lua_pushstring(L, state->encoreMoveP1);
+    lua_pushstring(L, state->encoreMoveP2);
+    lua_pushstring(L, state->disableMoveP1);
+    lua_pushstring(L, state->disableMoveP2);
+    lua_call(L, 7, 0);
 
 }
 
-int run_evaluation(lua_State *L){
+struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights){
+    load_showdown_state(L, my_state);
 
     struct State blank_state;
     blank_state.name[0] = '\0';
     blank_state.activePokemonP1 = 404;
     blank_state.activePokemonP2 = 404;
+    blank_state.disableMoveP1[0] = '\0';
+    blank_state.disableMoveP2[0] = '\0';
+    blank_state.encoreMoveP1[0] = '\0';
+    blank_state.encoreMoveP2[0] = '\0';
 
     struct State my_states[10][10][25] = {blank_state};
     get_inputs(&my_states[0][0][0]);
+
+    printf( "%f\n", feedforward( my_weights, &(my_states[0][0][0].game_data) ) );
+
+    struct Move blank;
+    return blank;
+}
+
+int run_evaluation(lua_State *L){
+
+
+    // stack: [ exec_showdown_state, state ]
+
+    struct State start_state;
+
+    lua_geti(L, -1, 2);
+    // stack: [ exec_showdown_state, state, switch_info ]
+
+    strcpy(start_state.name, lua_tostring(L, -1));
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 3);
+    // stack: [ exec_showdown_state, state, activeInfoP1 ]
+
+    start_state.activePokemonP1 = lua_tointeger(L, -1);
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 4);
+    // stack: [ exec_showdown_state, state, activeInfoP2 ]
+
+    start_state.activePokemonP2 = lua_tointeger(L, -1);
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 5);
+    // stack: [ exec_showdown_state, state, encoreP1 ]
+
+    strcpy(start_state.encoreMoveP1, lua_tostring(L, -1));
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 6);
+    // stack: [ exec_showdown_state, state, encoreP2 ]
+
+    strcpy(start_state.encoreMoveP2, lua_tostring(L, -1));
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 7);
+    // stack: [ exec_showdown_state, state, disableP1 ]
+
+    strcpy(start_state.disableMoveP1, lua_tostring(L, -1));
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 8);
+    // stack: [ exec_showdown_state, state, disableP2 ]
+
+    strcpy(start_state.disableMoveP2, lua_tostring(L, -1));
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+
+    lua_geti(L, -1, 1);
+    // stack: [ exec_showdown_state, state, inputs ]
+
+    for (int i = 0; i < L1; i++){
+        lua_geti(L, -1, i+1);
+        // stack: [ exec_showdown_state, state, inputs, thisInput ]
+        start_state.game_data[i] = lua_tointeger(L, -1);
+
+        lua_remove(L, -1);
+        // stack: [ exec_showdown_state, state, inputs ]
+
+    }
+
+
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state ]
+
+
     struct Weights my_weights;
     get_weights(&my_weights);
+    evaluate_move(L, &start_state, &my_weights);
+
+
+
 
     // run_showdown(L, &my_states[0][0][0]);
 
     // print_weights(&my_weights);
     // print_inputs(my_states[0][0][0]);
 
-    for (int i = 0; i < 10; i++){
-        for (int j = 0; j < 10; j++){
-            // for (int k = 0; k < 25; k++){
-                if (my_states[i][j][0].name[0] != '\0'){
+    // for (int i = 0; i < 10; i++){
+    //     for (int j = 0; j < 10; j++){
+    //         // for (int k = 0; k < 25; k++){
+    //             if (my_states[i][j][0].name[0] != '\0'){
 
-                    // "i" is player2's move
-                    // "j" is player1's move
-                    printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
-                }
-            // }
-        }
-    }
+    //                 // "i" is player2's move
+    //                 // "j" is player1's move
+    //                 printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
+    //             }
+    //         // }
+    //     }
+    // }
 
     return 1;
 }
