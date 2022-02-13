@@ -152,6 +152,14 @@ void printErrors(struct Input A[], int size, int top)
     }
 }
 
+void printAllErrors(struct Input A[], int size) 
+{ 
+    printf("\n"); 
+    for (int i = 0; i < size; i++) {
+        printf("name: %s, val: %f, inputVal: %f\n", A[i].name, A[i].val, A[i].input_val); 
+    }
+}
+
 
 
 
@@ -572,10 +580,18 @@ double relu(double a){
     return (a > 0) ? a : 0;
 }
 
+double relu_derivative(double a){
+    return (a > 0) ? 1 : 0;
+}
+
 #define SPREAD 0.5
 
 double logistic(double a){
     return 1 / (1 + exp(-SPREAD*(double)a));
+}
+
+double logistic_derivative(double a){
+    return logistic(a)*(1-logistic(a));
 }
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
@@ -634,13 +650,13 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 
     double error_layer3[L3];
     for (int i = 0; i < L3; i++){ 
-        error_layer3[i] = my_weights->h_layer_3[i][0] * activation_layer4/z_layer4;
+        error_layer3[i] = my_weights->h_layer_3[i][0] * logistic_derivative(z_layer4);
     }
 
     double error_layer2[L2] = {0};
     for (int i = 0; i < L2; i++){
         for (int j = 0; j < L3; j++){
-            error_layer2[i] += my_weights->h_layer_2[i][j] * (activations_layer3[j]/z_layer3[j]) * error_layer3[j];
+            error_layer2[i] += my_weights->h_layer_2[i][j] * relu_derivative(z_layer3[j]) * error_layer3[j];
         }
     }
 
@@ -653,20 +669,15 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
             error_layer1[i].name[k] = network_mapping[i][k];
         }
         for (int j = 0; j < L2; j++){
-            error_layer1[i].val += my_weights->h_layer_1[i][j] * (activations_layer2[j]/z_layer2[j]) * error_layer2[j];
+            error_layer1[i].val += my_weights->h_layer_1[i][j] * relu_derivative(z_layer2[j]) * error_layer2[j];
         }
         error_layer1[i].input_val = (double)(*inputs)[i];
         error_layer1[i].val *= error_layer1[i].input_val;
     }
 
-    // double test_output = 0;
-    // for (int i = 0; i < L1; i++){
-    //     test_output += error_layer1[i].val;
-    // }
-    // printf("\ntest: %f", test_output);
-
-    // mergeSort(error_layer1, 0, L1-1);
-    // printErrors(error_layer1, L1, 20);
+    mergeSort(error_layer1, 0, L1-1);
+    printErrors(error_layer1, L1, 1);
+    // printAllErrors(error_layer1, L1);
 
 
     return activation_layer4;
@@ -707,20 +718,20 @@ int run_evaluation(lua_State *L){
     // run_showdown(L, &my_states[0][0][0]);
 
     // print_weights(&my_weights);
-    print_inputs(my_states[0][0][0]);
+    // print_inputs(my_states[0][0][0]);
 
-    // for (int i = 0; i < 10; i++){
-        // for (int j = 0; j < 10; j++){
+    for (int i = 0; i < 10; i++){
+        for (int j = 0; j < 10; j++){
             // for (int k = 0; k < 25; k++){
-                // if (my_states[i][j][0].name[0] != '\0'){
+                if (my_states[i][j][0].name[0] != '\0'){
 
                     // "i" is player2's move
                     // "j" is player1's move
-                    // printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
-                // }
+                    printf("feedforward output %i %i %i : %f\n", i, j, 0, feedforward(&my_weights, &(my_states[i][j][0].game_data)));
+                }
             // }
-        // }
-    // }
+        }
+    }
 
     return 1;
 }

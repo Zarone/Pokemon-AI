@@ -236,33 +236,33 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		];
 	}
 
-	typesToArray(types: any) {
-		types = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+	typesToArray(typesStr: any) {
+		let types = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-		if (types.includes("Bug")) types[0] = 1;
-		if (types.includes("Dark")) types[1] = 1;
-		if (types.includes("Dragon")) types[2] = 1;
-		if (types.includes("Electric")) types[3] = 1;
-		if (types.includes("Fighting")) types[4] = 1;
-		if (types.includes("Fire")) types[5] = 1;
-		if (types.includes("Flying")) types[6] = 1;
-		if (types.includes("Ghost")) types[7] = 1;
-		if (types.includes("Grass")) types[8] = 1;
-		if (types.includes("Ground")) types[9] = 1;
-		if (types.includes("Ice")) types[10] = 1;
-		if (types.includes("Normal")) types[11] = 1;
-		if (types.includes("Poison")) types[12] = 1;
-		if (types.includes("Psychic")) types[13] = 1;
-		if (types.includes("Rock")) types[14] = 1;
-		if (types.includes("Steel")) types[15] = 1;
-		if (types.includes("Water")) types[16] = 1;
+		if (typesStr.includes("Bug")) types[0] = 1;
+		if (typesStr.includes("Dark")) types[1] = 1;
+		if (typesStr.includes("Dragon")) types[2] = 1;
+		if (typesStr.includes("Electric")) types[3] = 1;
+		if (typesStr.includes("Fighting")) types[4] = 1;
+		if (typesStr.includes("Fire")) types[5] = 1;
+		if (typesStr.includes("Flying")) types[6] = 1;
+		if (typesStr.includes("Ghost")) types[7] = 1;
+		if (typesStr.includes("Grass")) types[8] = 1;
+		if (typesStr.includes("Ground")) types[9] = 1;
+		if (typesStr.includes("Ice")) types[10] = 1;
+		if (typesStr.includes("Normal")) types[11] = 1;
+		if (typesStr.includes("Poison")) types[12] = 1;
+		if (typesStr.includes("Psychic")) types[13] = 1;
+		if (typesStr.includes("Rock")) types[14] = 1;
+		if (typesStr.includes("Steel")) types[15] = 1;
+		if (typesStr.includes("Water")) types[16] = 1;
 
 		return types;
 	}
 
 	getArray(pokemon: Pokemon) {
 		let hp = Math.round((pokemon.hp / pokemon.maxhp) * 100);
-		let basestats = this.baseStatsToArray(pokemon.species.baseStats);
+		let basestats = this.baseStatsToArray(pokemon.baseStoredStats);
 		let types = this.typesToArray(pokemon["types"]);
 		let status = this.statusToArray(pokemon.status);
 
