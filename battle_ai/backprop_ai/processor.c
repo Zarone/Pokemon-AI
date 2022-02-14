@@ -847,9 +847,7 @@ struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *
 
     // printf( "%f\n", feedforward( my_weights, &(my_states[0][0][0].game_data) ) );
 
-    struct Move null_move;
-    null_move.moves[0] = -1;
-    struct Move allMoves[10][10] = {null_move};
+    struct Move allMoves[10][10];
 
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
@@ -872,6 +870,8 @@ struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *
                         thisMove.moves[0] = j;
                         thisMove.moves[1] = i;
                         allMoves[j][i] = thisMove;
+                    } else {
+                        allMoves[j][i].moves[0] = -1;
                     }
                     break;
 
@@ -893,19 +893,53 @@ struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *
             // if this move combination occured
             if (allMoves[j][i].moves[0] != -1){
                 possibilities+=1;
-                // printf("j: %i, i: %i, estimate: %f, move1: %i\n", j, i, allMoves[j][i].estimate, allMoves[j][i].moves[0]);
+                printf("j: %i, i: %i, estimate: %f, move1: %i\n", j, i, allMoves[j][i].estimate, allMoves[j][i].moves[0]);
                 acculative_estimate+=allMoves[j][i].estimate;
             }
 
         }
 
         printf("acculative_estimate: %f, possibilities: %i\n", acculative_estimate, possibilities);
-        p2moves[i].estimate = acculative_estimate/(double)possibilities;
+        if (possibilities > 0){
+            p2moves[i].estimate = acculative_estimate/(double)possibilities;
+        } else {
+            p2moves[i].estimate = 1;
+        }
+            
         p2moves[i].move = i;
     }
 
-    mergeSort_PartialMove(p2moves, 0, 0);
+    mergeSort_PartialMove(p2moves, 0, 9);
     printArr_PartialMove(p2moves, 10);
+
+    // double minP2 = p2moves[1].estimate;
+
+
+    struct Move moves_filteredP2[10][2];
+
+    int k = 0;
+    for (int j = 0; j < 10; j++){
+        if (j == p2moves[0].move || j == p2moves[1].move){
+            for (int i = 0; i < 10; i++){
+                // j is player2 move
+                // i is player1 move
+                
+                // allMoves is indexes by [player1move][player2move]
+                moves_filteredP2[i][k].estimate = allMoves[i][j].estimate;
+                moves_filteredP2[i][k].isMultiEvent = allMoves[i][j].isMultiEvent;
+                moves_filteredP2[i][k].moves[0] = allMoves[i][j].moves[0];
+                moves_filteredP2[i][k].moves[1] = allMoves[i][j].moves[1];
+
+            }
+            k++;
+        }
+    }
+
+    for (int i = 0; i < 10; i++){
+        for (int j = 0; j < 2; j++){
+            printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate);
+        }
+    }
 
     struct Move blank;
     return blank;
