@@ -818,6 +818,17 @@ void load_showdown_state(lua_State *L, struct State *state){
 
 }
 
+
+#define TRIM_P2 2
+int matches(int move, struct PartialMove (*sortedMoveList)[10]){
+    // return move == (*sortedMoveList)[0].move || move == (*sortedMoveList)[1].move;
+    
+    for (int i = 0; i < TRIM_P2; i++){
+        if ((*sortedMoveList)[i].move == move) return 1; 
+    }
+    return 0;
+}
+
 struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
     load_showdown_state(L, my_state);
 
@@ -914,12 +925,12 @@ struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *
 
     // double minP2 = p2moves[1].estimate;
 
-
-    struct Move moves_filteredP2[10][2];
+    struct Move moves_filteredP2[10][TRIM_P2];
 
     int k = 0;
     for (int j = 0; j < 10; j++){
-        if (j == p2moves[0].move || j == p2moves[1].move){
+        // if (j == p2moves[0].move || j == p2moves[1].move){
+        if (matches(j, &p2moves) == 1){
             for (int i = 0; i < 10; i++){
                 // j is player2 move
                 // i is player1 move
@@ -936,7 +947,7 @@ struct Move evaluate_move(lua_State *L, struct State *my_state, struct Weights *
     }
 
     for (int i = 0; i < 10; i++){
-        for (int j = 0; j < 2; j++){
+        for (int j = 0; j < TRIM_P2; j++){
             printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate);
         }
     }
