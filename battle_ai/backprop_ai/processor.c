@@ -259,7 +259,6 @@ void mergeSort_PartialMove(struct PartialMove arr[], int l, int r)
 
 void printArr_PartialMove(struct PartialMove A[], int size) 
 { 
-    printf("\n"); 
     for (int i = 0; i < size; i++) {
         printf("estimate: %f, move: %d\n", A[i].estimate, A[i].move); 
     }
@@ -822,12 +821,11 @@ void load_showdown_state(lua_State *L, struct State *state){
 #define TRIM_P2 2
 #define TRIM_P1 2
 int matchesP1(int move, struct PartialMove (*sortedMoveList)[10]){
-    // return move == (*sortedMoveList)[0].move || move == (*sortedMoveList)[1].move;
+    // return move == (*sortedMoveList)[9].move || move == (*sortedMoveList)[8].move;
     
     for (int i = 0; i < TRIM_P1; i++){
-        // printf("sortedMoveList[%i]: does %i match %i\n", 9-i, move, (*sortedMoveList)[9-i].move);
-        printf("%f\n", (*sortedMoveList)[9-i].estimate);
-        if ((*sortedMoveList)[9-i].move == move) return 1; 
+        int index = 9-i;
+        if ((*sortedMoveList)[index].move == move) return 1; 
     }
     return 0;
 }
@@ -931,7 +929,10 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     }
 
     mergeSort_PartialMove(p2moves, 0, 9);
-    // printArr_PartialMove(p2moves, 10);
+
+    printf("\nsorted P2 moves: \n");
+    printArr_PartialMove(p2moves, 10);
+    printf("\n");
 
 
     struct Move moves_filteredP2[10][TRIM_P2];
@@ -987,38 +988,42 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         p1moves[j].move = j;
     }
     mergeSort_PartialMove(p1moves, 0, 9);
-    printf("\n");
+    printf("\nsorted P1 moves: \n");
     printArr_PartialMove(p1moves, 10);
+    printf("\n");
     if (depth == 1){
         return p1moves[9];
     } else {
+        
+        
         struct Move moves_filteredP1[TRIM_P1][TRIM_P2];
 
         int k = 0;
-        for (int j = 0; j < 10; j++){
-            printf("j: %i\n", j);
-            if (matchesP1(j, &p1moves) == 1){
-                printf("matches\n");
-                for (int i = 0; i < 10; i++){
-                    // j is player2 move
-                    // i is player1 move
+        for (int i = 0; i < 10; i++){
+            if (matchesP1(i, &p1moves) == 1){
+                for (int j = 0; j < TRIM_P2; j++){
+                    // i is the player1 index on moves_filteredP2
+                    // j is the player2 index on moves_filteredP2 and moves_filteredP2
+
+                    // k is the player1 index on moves_filteredP1
                     
                     // moves_filteredP2 is indexes by [player1move][player2move]
-                    moves_filteredP1[i][k].estimate = moves_filteredP2[i][j].estimate;
-                    moves_filteredP1[i][k].isMultiEvent = moves_filteredP2[i][j].isMultiEvent;
-                    moves_filteredP1[i][k].moves[0] = moves_filteredP2[i][j].moves[0];
-                    moves_filteredP1[i][k].moves[1] = moves_filteredP2[i][j].moves[1];
+                    moves_filteredP1[k][j].estimate = moves_filteredP2[i][j].estimate;
+                    moves_filteredP1[k][j].isMultiEvent = moves_filteredP2[i][j].isMultiEvent;
+                    moves_filteredP1[k][j].moves[0] = moves_filteredP2[i][j].moves[0];
+                    moves_filteredP1[k][j].moves[1] = moves_filteredP2[i][j].moves[1];
 
                 }
                 k++;
             }
         }
-        printf("\n");
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 10; j++){
+        printf("moves_filteredP1: \n");
+        for (int i = 0; i < TRIM_P1; i++){
+            for (int j = 0; j < TRIM_P2; j++){
                 printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f\n", i, j, moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], moves_filteredP1[i][j].estimate);
             }
         }
+
     }
 
 
