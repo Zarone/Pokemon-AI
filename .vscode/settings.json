@@ -13,6 +13,7 @@
     "__string": "c",
     "cstddef": "c",
     "cmath": "c",
-    "algorithm": "c"
+    "algorithm": "c",
+    "ios": "c"
   }
 }
