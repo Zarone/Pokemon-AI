@@ -873,6 +873,8 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         for (int j = 0; j < 10; j++){
             double total_estimate = 0.0;
             for (int k = 0; k < 26; k++){
+
+                // if state exists
                 if (my_states[i][j][k].name[0] != '\0'){
 
                     // "i" is player2's move
@@ -955,9 +957,10 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         }
     }
 
+    printf("all moves after trim by p2: \n");
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < TRIM_P2; j++){
-            printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate);
+            printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
         }
     }
 
@@ -1020,7 +1023,14 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         printf("moves_filteredP1: \n");
         for (int i = 0; i < TRIM_P1; i++){
             for (int j = 0; j < TRIM_P2; j++){
-                printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f\n", i, j, moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], moves_filteredP1[i][j].estimate);
+                printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, is multi: %i\n", i, j, moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], moves_filteredP1[i][j].estimate, moves_filteredP1[i][j].isMultiEvent);
+                
+                if (moves_filteredP1[i][j].isMultiEvent){
+                    // moves_filteredP1[i][j].estimate = evaluate_switch( ... )
+                } else {
+                    // moves_filteredP1[i][j].estimate = evaluate_move( ... )
+                }
+                
             }
         }
 
