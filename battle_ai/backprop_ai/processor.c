@@ -1028,7 +1028,12 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
                 if (moves_filteredP1[i][j].isMultiEvent){
                     // moves_filteredP1[i][j].estimate = evaluate_switch( ... )
                 } else {
-                    // moves_filteredP1[i][j].estimate = evaluate_move( ... )
+                    moves_filteredP1[i][j].estimate = evaluate_move(
+                        L,
+                        &my_states[moves_filteredP1[i][j].moves[0]][moves_filteredP1[i][j].moves[1]][0],
+                        my_weights,
+                        depth - 1 
+                    ).estimate;
                 }
                 
             }
