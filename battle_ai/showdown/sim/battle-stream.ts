@@ -310,7 +310,11 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		}
 	}
 
-	getJson(activePokemonName: string | undefined) {
+	getJson(
+		activePokemonName: string | undefined,
+		player1secondary: number,
+		player2secondary: number
+	) {
 		let weatherStr = this.battle?.field.weather;
 		let weather;
 
@@ -441,6 +445,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			this.getEncoredMove(1),
 			this.getDisabledMove(0),
 			this.getDisabledMove(1),
+			player1secondary,
+			player2secondary,
 		];
 
 		return returnVal;
@@ -449,10 +455,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	getHazardDebug(hazard: string, side: number) {
 		if (this.battle?.sides[0].sideConditions[hazard] == null) {
 			return 0;
-		} else if (this.battle?.sides[0].sideConditions[hazard].duration) {
-			return this.battle?.sides[0].sideConditions[hazard].duration;
-		} else if (this.battle?.sides[0].sideConditions[hazard].layers) {
-			return this.battle?.sides[0].sideConditions[hazard].layers;
+		} else if (this.battle?.sides[side].sideConditions[hazard].duration) {
+			return this.battle?.sides[side].sideConditions[hazard].duration;
+		} else if (this.battle?.sides[side].sideConditions[hazard].layers) {
+			return this.battle?.sides[side].sideConditions[hazard].layers;
 		}
 	}
 
@@ -565,7 +571,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return types;
 	}
 
-	getJsonDebug() {
+	getJsonDebug(secondaryP1: number, secondaryP2: number) {
 		let weather = this.battle?.field.weather;
 		let hazardsP1 = [
 			this.getHazardDebug("spikes", 0),
@@ -656,6 +662,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			log: this.battle?.log,
 			P1Active: this.getActive(0),
 			P2Active: this.getActive(1),
+			P1Secondary: secondaryP1,
+			P2Secondary: secondaryP2,
 		};
 	}
 
@@ -701,12 +709,12 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			case "run-all":
 				for (let i = 1; i < 11; i++) {
 					for (let j = 1; j < 11; j++) {
+						// j is player 2 move
+						// i is player 1 move
+
 						this.playFromAction(i, j);
-
 						this.battle?.sendUpdates();
-
 						let activeNickname = undefined;
-
 						if (i > 4) {
 							activeNickname = this.battle?.sides[0].active[0].name;
 						}
@@ -714,26 +722,30 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						let thisOutput = [];
 						let thisOutputDebug = [];
 
+						// if there's no errors or forced switches
 						if (
 							this.battle?.sides[0].choice.forcedSwitchesLeft == 0 &&
 							this.battle?.sides[1].choice.forcedSwitchesLeft == 0 &&
 							this.battle?.sides[0].choice.error === "" &&
 							this.battle?.sides[1].choice.error === ""
 						) {
-							// if there's no errors or forced switches
-							thisOutput.push(this.getJson(activeNickname));
+							thisOutput.push(this.getJson(activeNickname, 0, 0));
 
 							if (this.nnDebug) {
-								thisOutputDebug.push(this.getJsonDebug());
+								thisOutputDebug.push(this.getJsonDebug(0, 0));
 							}
 						}
 
+						// if both players have forced switches
 						if (
 							this.battle?.sides[0].choice.forcedSwitchesLeft !== 0 &&
 							this.battle?.sides[1].choice.forcedSwitchesLeft !== 0
 						) {
 							for (let k = 5; k < 11; k++) {
 								for (let l = 5; l < 11; l++) {
+									// k is player 1 move
+									// l is player 2 move
+
 									if (k !== 5 || l !== 5) {
 										this.playFromAction(k, j);
 									}
@@ -742,9 +754,11 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 									this._writeLine("p2", `switch ${l - 4}`);
 									this.battle?.sendUpdates();
 									if (this.battle?.sides[0].choice.error === "") {
-										thisOutput.push(this.getJson(activeNickname));
+										thisOutput.push(
+											this.getJson(activeNickname, k, l)
+										);
 										if (this.nnDebug) {
-											thisOutputDebug.push(this.getJsonDebug());
+											thisOutputDebug.push(this.getJsonDebug(k, l));
 										}
 									}
 
@@ -754,6 +768,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								}
 							}
 						} else {
+							// if player 1 has forced switches
 							if (
 								!!this.battle?.sides[0].choice.forcedSwitchesLeft &&
 								this.battle?.sides[0].choice.forcedSwitchesLeft > 0
@@ -761,9 +776,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 1");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 5, 0));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(5, 0));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -773,9 +788,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 2");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 6, 0));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(6, 0));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -785,9 +800,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 3");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 7, 0));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(7, 0));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -797,9 +812,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 4");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 8, 0));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(8, 0));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -809,9 +824,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 5");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 9, 0));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(9, 0));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -821,23 +836,23 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p1", "switch 6");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[0].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 10, 0));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(10, 0));
 									}
 								}
 							}
-
-							if (
+							// if player 2 has forced switches
+							else if (
 								!!this.battle?.sides[1].choice.forcedSwitchesLeft &&
 								this.battle?.sides[1].choice.forcedSwitchesLeft > 0
 							) {
 								this._writeLine("p2", "switch 1");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 0, 5));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(0, 5));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -847,9 +862,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 2");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 0, 6));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(0, 6));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -859,9 +874,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 3");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 0, 7));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(0, 7));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -871,9 +886,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 4");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 0, 8));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(0, 8));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -883,9 +898,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 5");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 0, 9));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(0, 9));
 									}
 								}
 								this._write(this.initChunk as string);
@@ -895,9 +910,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								this._writeLine("p2", "switch 6");
 								this.battle?.sendUpdates();
 								if (this.battle?.sides[1].choice.error === "") {
-									thisOutput.push(this.getJson(activeNickname));
+									thisOutput.push(this.getJson(activeNickname, 0, 10));
 									if (this.nnDebug) {
-										thisOutputDebug.push(this.getJsonDebug());
+										thisOutputDebug.push(this.getJsonDebug(0, 9));
 									}
 								}
 							}

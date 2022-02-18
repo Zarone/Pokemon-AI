@@ -42,6 +42,8 @@ struct State {
     char encoreMoveP2[20];
     char disableMoveP1[20];
     char disableMoveP2[20];
+    int secondaryP1;
+    int secondaryP2;
 };
 
 struct Move {
@@ -340,6 +342,8 @@ void print_inputs(struct State my_states){
     printf("data[4]: %i\n", my_states.game_data[4]);
     printf("activeP1: %i\n", my_states.activePokemonP1);
     printf("activeP2: %i\n", my_states.activePokemonP2);
+    printf("secondaryP1: %i\n", my_states.secondaryP1);
+    printf("secondaryP2: %i\n", my_states.secondaryP2);
     printf("encoreP1: %s\n", my_states.encoreMoveP1);
     printf("encoreP2: %s\n", my_states.encoreMoveP2);
     printf("disableP1: %s\n", my_states.disableMoveP1);
@@ -589,6 +593,39 @@ void parse_state(mpack_reader_t* reader, struct State *state){
     } else {
         printf("I've misunderstood disableP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP2)), mpack_tag_uint_value(&disableP2));
     }
+
+    mpack_tag_t secondaryP1 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading activeP1: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&secondaryP1) == mpack_type_uint){
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in activeP1: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        unsigned int tag_value = mpack_tag_int_value(&secondaryP1);
+        state->secondaryP1 = tag_value;
+
+    } else {
+        printf("I've misunderstood secondaryP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&secondaryP1)), mpack_tag_uint_value(&secondaryP1));
+    }
+
+    mpack_tag_t secondaryP2 = mpack_read_tag(reader);
+    if (mpack_reader_error(reader) != mpack_ok){
+        printf("error in reading secondaryP2: %i\n", mpack_reader_error(reader));
+        return;
+    }
+    if (mpack_tag_type(&activeP2) == mpack_type_uint){
+        if (mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in secondaryP2: %i\n", mpack_reader_error(reader));
+            return;
+        }
+        unsigned int tag_value = mpack_tag_int_value(&secondaryP2);
+        state->secondaryP2 = tag_value;
+    } else {
+        printf("I've misunderstood secondaryP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&secondaryP2)), mpack_tag_uint_value(&secondaryP2));
+    }
 }
 
 void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
@@ -634,6 +671,9 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
 
         (inputs_pointer+side1*10*25+side2*25+side3)->activePokemonP1 = myState.activePokemonP1;
         (inputs_pointer+side1*10*25+side2*25+side3)->activePokemonP2 = myState.activePokemonP2;
+
+        (inputs_pointer+side1*10*25+side2*25+side3)->secondaryP1 = myState.secondaryP1;
+        (inputs_pointer+side1*10*25+side2*25+side3)->secondaryP2 = myState.secondaryP2;
 
         mpack_done_array(reader);
     } else if (mpack_tag_type(&tag) == mpack_type_array) {
@@ -787,12 +827,14 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 
 void load_showdown_state(lua_State *L, struct State *state){
 
+
     lua_createtable(L, L1, 0);
 
     // stack
     // [ exec_showdown_state, {} ]
 
     for (int i = 0; i < L1; i++){
+
         lua_pushinteger(L, i+1);
         // stack
         // [ exec_showdown_state, {}, i+1 ]
@@ -801,8 +843,10 @@ void load_showdown_state(lua_State *L, struct State *state){
         // stack
         // [ exec_showdown_state, {}, i+1, state->game_data[i] ]
 
-        lua_settable(L, 2);
+        lua_settable(L, -3);
+    
     }
+
 
     // stack
     // [ exec_showdown_state, { ... } ]
@@ -813,7 +857,11 @@ void load_showdown_state(lua_State *L, struct State *state){
     lua_pushstring(L, state->encoreMoveP2);
     lua_pushstring(L, state->disableMoveP1);
     lua_pushstring(L, state->disableMoveP2);
-    lua_call(L, 7, 0);
+    lua_pushinteger(L, state->secondaryP1);
+    lua_pushinteger(L, state->secondaryP2);
+
+    lua_call(L, 9, 0);
+    lua_getglobal(L, "exec_showdown_state");
 
 }
 
@@ -838,13 +886,17 @@ int matchesP2(int move, struct PartialMove (*sortedMoveList)[10]){
     return 0;
 }
 
-struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
+void testing(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
+    printf("\n%p\n", L);
+    printf("%p\n", my_state);
+    printf("%p\n", my_weights);
+    printf("%p\n", &depth);
+
+    printf("here1\n");
+
     load_showdown_state(L, my_state);
 
-
-    // the blank_state variable here just makes sure
-    // that each state initialized inside my_states
-    // starts off with the correct values
+    printf("here2\n");
 
     struct State blank_state;
     blank_state.name[0] = '\0';
@@ -856,14 +908,43 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     blank_state.encoreMoveP2[0] = '\0';
 
 
-    struct State my_states[10][10][25] = {blank_state};
+    struct State* my_states = malloc(10*10*25 * sizeof(struct State));
+    get_inputs( my_states );
+
+}
+
+struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
+    load_showdown_state(L, my_state);
+
+    printf("depth: %i\n", depth);
+
+
+    // the blank_state variable here just makes sure
+    // that each state initialized inside my_states
+    // starts off with the correct values
+
+    // struct State blank_state;
+    // blank_state.name[0] = '\0';
+    // blank_state.activePokemonP1 = 404;
+    // blank_state.activePokemonP2 = 404;
+    // blank_state.disableMoveP1[0] = '\0';
+    // blank_state.disableMoveP2[0] = '\0';
+    // blank_state.encoreMoveP1[0] = '\0';
+    // blank_state.encoreMoveP2[0] = '\0';
+    // struct State my_states[10][10][25] = {blank_state};
+
+    // struct State my_states[10][10][25];
+    // get_inputs(&my_states[0][0][0]);
+
+    struct State* my_states = malloc(10*10*25 * sizeof(struct State));
+
+    get_inputs(my_states);
 
 
     // the "inputs" here are states resulting from load_showdown_state
     
     // I pass in this reference here so that the "get_inputs" can figure out
     // where each element in the array is located
-    get_inputs(&my_states[0][0][0]);
 
     // printf( "%f\n", feedforward( my_weights, &(my_states[0][0][0].game_data) ) );
 
@@ -872,21 +953,54 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
             double total_estimate = 0.0;
+
+            // // -- alternative algorithm -- 
+            // if (my_states[i][j][0].secondaryP2 != 0){
+            //     total_estimate = 1.0;
+            // }
+
             for (int k = 0; k < 26; k++){
 
                 // if state exists
-                if (my_states[i][j][k].name[0] != '\0'){
+                // if (my_states[i][j][k].name[0] != '\0'){
+                if ( (*(my_states + i*10*25 + j*25 + k) ).name[0] != '\0'){
 
                     // "i" is player2's move
                     // "j" is player1's move
 
-                    double estimate = feedforward(my_weights, &(my_states[i][j][0].game_data));
-                    // printf("feedforward output %i %i %i : %f\n", i, j, k, estimate);
+                    // double estimate = feedforward(my_weights, &(my_states[i][j][k].game_data));
+                    double estimate = feedforward(my_weights, &((my_states + i*10*25 + j*25 + k)->game_data) );
                     total_estimate+=estimate;
+
+                    // // -- alterative algorithm --
+                    // // if this is the only move
+                    // if(my_states[i][j][k].secondaryP1 == 0 && my_states[i][j][k].secondaryP2 == 0){
+                    //     total_estimate = estimate;
+                    // } else if (my_states[i][j][k].secondaryP1 != 0 && my_states[i][j][k].secondaryP2 != 0){
+                    //     // if both players have a forced switch, we just add all 
+                    //     // together and take an average at the end
+                    //     total_estimate += estimate;
+                    // } else if (my_states[i][j][k].secondaryP1 != 0){
+                    //     // if only player 1 chooses the switch, select the highest ranking move only
+                    //     if (estimate > total_estimate){
+                    //         total_estimate = estimate;
+                    //     }
+                    // } else if (my_states[i][j][k].secondaryP2 != 0){
+                    //     // if only player 2 chooses the switch, select the lowest ranking move only
+                    //     if (estimate < total_estimate){                            
+                    //         total_estimate = estimate;
+                    //     }
+                    // }
 
                 } else {
                     if (k > 0){
                         struct Move thisMove;
+                        // // -- alternative algorithm --
+                        // if (my_states[i][j][0].secondaryP1 != 0 && my_states[i][j][0].secondaryP2 != 0){
+                        //     thisMove.estimate = total_estimate / k;
+                        // } else {
+                        //     thisMove.estimate = total_estimate;
+                        // }
                         thisMove.estimate = total_estimate / k;
                         thisMove.isMultiEvent = (k>1) ? 1 : 0;
                         thisMove.moves[0] = j;
@@ -901,6 +1015,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
             }
         }
     }
+
 
     struct PartialMove p2moves[10];
     for (int i = 0; i < 10; i++){
@@ -932,9 +1047,9 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
 
     mergeSort_PartialMove(p2moves, 0, 9);
 
-    printf("\nsorted P2 moves: \n");
-    printArr_PartialMove(p2moves, 10);
-    printf("\n");
+    // printf("\nsorted P2 moves: \n");
+    // printArr_PartialMove(p2moves, 10);
+    // printf("\n");
 
 
     struct Move moves_filteredP2[10][TRIM_P2];
@@ -957,12 +1072,12 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         }
     }
 
-    printf("all moves after trim by p2: \n");
-    for (int i = 0; i < 10; i++){
-        for (int j = 0; j < TRIM_P2; j++){
-            printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
-        }
-    }
+    // printf("all moves after trim by p2: \n");
+    // for (int i = 0; i < 10; i++){
+    //     for (int j = 0; j < TRIM_P2; j++){
+    //         printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
+    //     }
+    // }
 
     struct PartialMove p1moves[10];
     for (int j = 0; j < 10; j++){
@@ -991,13 +1106,12 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         p1moves[j].move = j;
     }
     mergeSort_PartialMove(p1moves, 0, 9);
-    printf("\nsorted P1 moves: \n");
-    printArr_PartialMove(p1moves, 10);
-    printf("\n");
+    // printf("\nsorted P1 moves: \n");
+    // printArr_PartialMove(p1moves, 10);
+    // printf("\n");
     if (depth == 1){
         return p1moves[9];
     } else {
-        
         
         struct Move moves_filteredP1[TRIM_P1][TRIM_P2];
 
@@ -1020,29 +1134,38 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
                 k++;
             }
         }
+
         printf("moves_filteredP1: \n");
         for (int i = 0; i < TRIM_P1; i++){
             for (int j = 0; j < TRIM_P2; j++){
-                printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, is multi: %i\n", i, j, moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], moves_filteredP1[i][j].estimate, moves_filteredP1[i][j].isMultiEvent);
+                printf("before set, i: %i, j: %i, move1: %i, move2: %i, estimate: %f, is multi: %i\n",
+                    i, j, 
+                    moves_filteredP1[i][j].moves[0], 
+                    moves_filteredP1[i][j].moves[1], 
+                    moves_filteredP1[i][j].estimate, 
+                    moves_filteredP1[i][j].isMultiEvent
+                );
                 
-                if (moves_filteredP1[i][j].isMultiEvent){
-                    // moves_filteredP1[i][j].estimate = evaluate_switch( ... )
-                } else {
-                    moves_filteredP1[i][j].estimate = evaluate_move(
-                        L,
-                        &my_states[moves_filteredP1[i][j].moves[0]][moves_filteredP1[i][j].moves[1]][0],
-                        my_weights,
-                        depth - 1 
-                    ).estimate;
-                }
-                
+                moves_filteredP1[i][j].estimate = evaluate_move(L,
+                    (my_states + moves_filteredP1[i][j].moves[0]*25*10 + moves_filteredP1[i][j].moves[1]*25 ),
+                    my_weights,
+                    depth - 1 
+                ).estimate;
+
+                printf("after set, i: %i, j: %i, move1: %i, move2: %i, estimate: %f, is multi: %i\n",
+                    i, j, 
+                    moves_filteredP1[i][j].moves[0], 
+                    moves_filteredP1[i][j].moves[1], 
+                    moves_filteredP1[i][j].estimate, 
+                    moves_filteredP1[i][j].isMultiEvent
+                );
             }
         }
 
     }
 
 
-    printf("return blank");
+    printf("return blank\n");
     struct PartialMove blank;
     return blank;
 }
@@ -1141,8 +1264,6 @@ int run_evaluation(lua_State *L){
 
     return 1;
 }
-
-
 
 int get_move(lua_State *L){
      
