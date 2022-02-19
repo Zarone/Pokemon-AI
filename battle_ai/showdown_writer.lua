@@ -12,7 +12,8 @@ function Writer.saveTeams(team1, team2)
     "Mewtwo|||pressure|toxicspikes,stealthrock,reflect,|Modest|252,,,252,4,||,,,30,30,|||]Ludicolo||lifeorb|swiftswim|surf,gigadrain,icebeam,raindance|Modest|4,,,252,,252|||||]Volbeat||damprock|prankster|tailglow,batonpass,encore,raindance|Bold|248,,252,,8,|M||||]Seismitoad||lifeorb|swiftswim|hydropump,earthpower,stealthrock,raindance|Modest|,,,252,4,252|||||]Alomomola||damprock|regenerator|wish,protect,toxic,raindance|Bold|252,,252,,4,|||||]Armaldo||leftovers|swiftswim|xscissor,stoneedge,aquatail,rapidspin|Adamant|128,252,4,,,124|||||"
 
     startup = io.open("./battle_ai/state_files/startInfoForShowdown.json", "w")
-    startup:write(json.encode({ ["format"]=FORMAT, ["team1"] = team1, ["team2"] = team2 }))
+    startup:write(json.encode({ ["format"]="gen5ubers", ["team1"] = team1, ["team2"] = team2 }))
+    startup:close()
 
 end
 
@@ -26,8 +27,6 @@ function Writer.exec()
     -- SHOWDOWN_FILE = "./showdown/pokemon-showdown"
     -- windows: 
     -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
-
-    FORMAT = "gen5ubers"
 
     showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
                 

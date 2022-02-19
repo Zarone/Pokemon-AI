@@ -448,8 +448,6 @@ int get_weights(struct Weights *my_weights){
     return error == mpack_ok;
 }
 
-
-
 void parse_state(mpack_reader_t* reader, struct State *state){
     mpack_tag_t inputsTag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
@@ -891,22 +889,22 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
 // my_state is intented as a pointer to to State array of length 25
 struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
     
-    printf("\nIn evaluate_switch, Depth: %i\n", depth);
+    // printf("\nIn evaluate_switch, Depth: %i\n", depth);
 
     // if both players switched
     if ( (*my_state).secondaryP1 != 0 && (*my_state).secondaryP2 != 0 ){
-        printf("I straight up have not coded this scenario yet, fix this Zach\n");
+
+        printf("still haven't coded double forced switch\n");
         exit(0);
+
     } 
     // if only player 1 has a forced switch
     else if ((*my_state).secondaryP1 != 0){
-        printf("Detected that only player1 had forced switch\n");
         double accumulativeP1[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
         int countP1[] = {0, 0, 0, 0, 0, 0};
 
         for (int i = 0; i < 25; i++){
             if ( (*(my_state + i) ).name[0] != '\0' ) {
-                // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
                 double thisEstimate = feedforward(my_weights, &((*(my_state + i)).game_data));
                 accumulativeP1[(*(my_state + i) ).secondaryP1 - 5] += thisEstimate;
                 countP1[(*(my_state + i) ).secondaryP1 - 5]+=1;
@@ -927,14 +925,15 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         mergeSort_PartialMove(P1Moves, 0, 5);
         printArr_PartialMove(P1Moves, 6);
-        struct PartialMove bestMove = evaluate_move(L, (my_state + P1Moves[5].move), my_weights, depth-1 );
-        // printf("Worst Move After Recursion: %f\n", worstMove.estimate);
 
-        return bestMove;
+        for (int i = 0; i < 25; i++){
+            if ((*(my_state + i)).secondaryP1 == P1Moves[5].move+5){
+                return evaluate_move(L, my_state + i, my_weights, depth-1 );
+            }
+        }
     } 
     // if only player 2 chooses, they choose the worst option for player 1
     else if ((*my_state).secondaryP2 != 0){
-        printf("Detected that only player2 had forced switch\n");
         double accumulativeP2[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
         int countP2[] = {0, 0, 0, 0, 0, 0};
 
@@ -961,10 +960,11 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         mergeSort_PartialMove(P2Moves, 0, 5);
         printArr_PartialMove(P2Moves, 6);
-        struct PartialMove worstMove = evaluate_move(L, (my_state + P2Moves[0].move), my_weights, depth-1 );
-        // printf("Worst Move After Recursion: %f\n", worstMove.estimate);
-
-        return worstMove;
+        for (int i = 0; i < 25; i++){
+            if ((*(my_state + i)).secondaryP2 == P2Moves[0].move+5){
+                return evaluate_move(L, my_state + i, my_weights, depth-1 );
+            }
+        }
     }
 
 
@@ -978,7 +978,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 // my_state is intended as a pointer to State object
 struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
     
-    printf("\n\n\n\n\n\nDepth: %i\n", depth);
+    // printf("\n\n\n\n\n\nDepth: %i\n", depth);
     
     load_showdown_state(L, my_state);
 
@@ -998,11 +998,6 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         for (int j = 0; j < 10; j++){
             double total_estimate = 0.0;
 
-            // // -- alternative algorithm -- 
-            // if (my_states[i][j][0].secondaryP2 != 0){
-            //     total_estimate = 1.0;
-            // }
-
             for (int k = 0; k < 26; k++){
 
                 // if state exists
@@ -1014,35 +1009,9 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
                     double estimate = feedforward(my_weights, &((my_states + i*10*25 + j*25 + k)->game_data) );
                     total_estimate+=estimate;
 
-                    // // -- alterative algorithm --
-                    // // if this is the only move
-                    // if(my_states[i][j][k].secondaryP1 == 0 && my_states[i][j][k].secondaryP2 == 0){
-                    //     total_estimate = estimate;
-                    // } else if (my_states[i][j][k].secondaryP1 != 0 && my_states[i][j][k].secondaryP2 != 0){
-                    //     // if both players have a forced switch, we just add all 
-                    //     // together and take an average at the end
-                    //     total_estimate += estimate;
-                    // } else if (my_states[i][j][k].secondaryP1 != 0){
-                    //     // if only player 1 chooses the switch, select the highest ranking move only
-                    //     if (estimate > total_estimate){
-                    //         total_estimate = estimate;
-                    //     }
-                    // } else if (my_states[i][j][k].secondaryP2 != 0){
-                    //     // if only player 2 chooses the switch, select the lowest ranking move only
-                    //     if (estimate < total_estimate){                            
-                    //         total_estimate = estimate;
-                    //     }
-                    // }
-
                 } else {
                     if (k > 0){
                         struct Move thisMove;
-                        // // -- alternative algorithm --
-                        // if (my_states[i][j][0].secondaryP1 != 0 && my_states[i][j][0].secondaryP2 != 0){
-                        //     thisMove.estimate = total_estimate / k;
-                        // } else {
-                        //     thisMove.estimate = total_estimate;
-                        // }
                         thisMove.estimate = total_estimate / k;
                         thisMove.isMultiEvent = (k>1) ? 1 : 0;
                         thisMove.moves[0] = j;
@@ -1200,14 +1169,14 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
                     // }
                     moveAverageP1 += moves_filteredP1[i][j].estimate;
 
-                    printf("after evaluate_move, i: %i, j: %i, move1: %i, move2: %i, is multi: %i, estimate: %f to %f\n",
-                        i, j, 
-                        moves_filteredP1[i][j].moves[0], 
-                        moves_filteredP1[i][j].moves[1], 
-                        moves_filteredP1[i][j].isMultiEvent,
-                        last_estimate,
-                        moves_filteredP1[i][j].estimate
-                    );
+                    // printf("after evaluate_move, i: %i, j: %i, move1: %i, move2: %i, is multi: %i, estimate: %f to %f\n",
+                    //     i, j, 
+                    //     moves_filteredP1[i][j].moves[0], 
+                    //     moves_filteredP1[i][j].moves[1], 
+                    //     moves_filteredP1[i][j].isMultiEvent,
+                    //     last_estimate,
+                    //     moves_filteredP1[i][j].estimate
+                    // );
                 } else {
                     double last_estimate = moves_filteredP1[i][j].estimate;
                     struct State* statePointer = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
@@ -1226,14 +1195,14 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
                     // }
                     moveAverageP1 += moves_filteredP1[i][j].estimate;
 
-                    printf("after evaluate_switch, i: %i, j: %i, move1: %i, move2: %i, is multi: %i, estimate: %f to %f\n",
-                        i, j, 
-                        moves_filteredP1[i][j].moves[0], 
-                        moves_filteredP1[i][j].moves[1], 
-                        moves_filteredP1[i][j].isMultiEvent,
-                        last_estimate,
-                        moves_filteredP1[i][j].estimate
-                    );
+                    // printf("after evaluate_switch, i: %i, j: %i, move1: %i, move2: %i, is multi: %i, estimate: %f to %f\n",
+                    //     i, j, 
+                    //     moves_filteredP1[i][j].moves[0], 
+                    //     moves_filteredP1[i][j].moves[1], 
+                    //     moves_filteredP1[i][j].isMultiEvent,
+                    //     last_estimate,
+                    //     moves_filteredP1[i][j].estimate
+                    // );
                 }
 
             }
@@ -1243,7 +1212,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
             }
         }
         free(my_states);
-        printf("\nreturned bestMove\n");
+        // printf("\nreturned bestMove\n");
         return bestMove;
 
     }
@@ -1342,11 +1311,12 @@ int run_evaluation(lua_State *L){
 
     struct Weights my_weights;
     get_weights(&my_weights);
+    // print_weights(&my_weights);
     
-    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 3);
+    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
     printf("Best Move, estimate: %f, move: %i\n", bestMove.estimate, bestMove.move);
 
-    return 1;
+    return bestMove.move;
 }
 
 int get_move(lua_State *L){
@@ -1356,7 +1326,7 @@ int get_move(lua_State *L){
     
     int res = run_evaluation(L);
     lua_settop(L, 0);
-    lua_pushstring(L, res == 1 ? "sucessfully returned from \"function\"" : "error in function in get_move()\"");
+    lua_pushnumber(L, res);
 
     return 1;
 

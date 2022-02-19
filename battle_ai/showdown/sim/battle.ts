@@ -3685,163 +3685,86 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-				for (let i = 0; i < this.importData[0][5]; i++) {
-					this.sides[0].addSideCondition("spikes", "debug");
+				if (this.turn == 1) {
+					for (let i = 0; i < this.importData[0][5]; i++) {
+						this.sides[0].addSideCondition("spikes", "debug");
+					}
+					for (let i = 0; i < this.importData[0][6]; i++) {
+						this.sides[0].addSideCondition("toxicspikes", "debug");
+					}
+					for (let i = 0; i < this.importData[0][7]; i++) {
+						this.sides[0].addSideCondition("stealthrock", "debug");
+					}
+					if (this.importData[0][8] != 0) {
+						this.sides[0].addSideCondition("reflect", "debug");
+						this.sides[0].sideConditions["reflect"].duration =
+							this.importData[0][8];
+					}
+					if (this.importData[0][9] != 0) {
+						this.sides[0].addSideCondition("lightscreen", "debug");
+						this.sides[0].sideConditions["lightscreen"].duration =
+							this.importData[0][9];
+					}
+					if (this.importData[0][10] != 0) {
+						this.sides[0].addSideCondition("safeguard", "debug");
+						this.sides[0].sideConditions["safeguard"].duration =
+							this.importData[0][10];
+					}
+					if (this.importData[0][11] != 0) {
+						this.sides[0].addSideCondition("mist", "debug");
+						this.sides[0].sideConditions["mist"].duration =
+							this.importData[0][11];
+					}
+					if (this.importData[0][12] != 0) {
+						this.sides[0].addSideCondition("tailwind", "debug");
+						this.sides[0].sideConditions["tailwind"].duration =
+							this.importData[0][12];
+					}
+					if (this.importData[0][13] != 0) {
+						this.sides[0].addSideCondition("luckychant", "debug");
+						this.sides[0].sideConditions["luckychant"].duration =
+							this.importData[0][13];
+					}
+					for (let i = 0; i < this.importData[0][14]; i++) {
+						this.sides[1].addSideCondition("spikes", "debug");
+					}
+					for (let i = 0; i < this.importData[0][15]; i++) {
+						this.sides[1].addSideCondition("toxicspikes", "debug");
+					}
+					for (let i = 0; i < this.importData[0][16]; i++) {
+						this.sides[1].addSideCondition("stealthrock", "debug");
+					}
+					if (this.importData[0][17] != 0) {
+						this.sides[1].addSideCondition("reflect", "debug");
+						this.sides[1].sideConditions["reflect"].duration =
+							this.importData[0][17];
+					}
+					if (this.importData[0][18] != 0) {
+						this.sides[1].addSideCondition("lightscreen", "debug");
+						this.sides[1].sideConditions["lightscreen"].duration =
+							this.importData[0][18];
+					}
+					if (this.importData[0][19] != 0) {
+						this.sides[1].addSideCondition("safeguard", "debug");
+						this.sides[1].sideConditions["safeguard"].duration =
+							this.importData[0][19];
+					}
+					if (this.importData[0][20] != 0) {
+						this.sides[1].addSideCondition("mist", "debug");
+						this.sides[1].sideConditions["mist"].duration =
+							this.importData[0][20];
+					}
+					if (this.importData[0][21] != 0) {
+						this.sides[1].addSideCondition("tailwind", "debug");
+						this.sides[1].sideConditions["tailwind"].duration =
+							this.importData[0][21];
+					}
+					if (this.importData[0][22] != 0) {
+						this.sides[1].addSideCondition("luckychant", "debug");
+						this.sides[1].sideConditions["luckychant"].duration =
+							this.importData[0][22];
+					}
 				}
-				for (let i = 0; i < this.importData[0][6]; i++) {
-					this.sides[0].addSideCondition("toxicspikes", "debug");
-				}
-				for (let i = 0; i < this.importData[0][7]; i++) {
-					this.sides[0].addSideCondition("stealthrock", "debug");
-				}
-				if (this.importData[0][8] != 0) {
-					this.sides[0].addSideCondition("reflect", "debug");
-					this.sides[0].sideConditions["reflect"].duration =
-						this.importData[0][8];
-				}
-				if (this.importData[0][9] != 0) {
-					this.sides[0].addSideCondition("lightscreen", "debug");
-					this.sides[0].sideConditions["lightscreen"].duration =
-						this.importData[0][9];
-				}
-				if (this.importData[0][10] != 0) {
-					this.sides[0].addSideCondition("safeguard", "debug");
-					this.sides[0].sideConditions["safeguard"].duration =
-						this.importData[0][10];
-				}
-				if (this.importData[0][11] != 0) {
-					this.sides[0].addSideCondition("mist", "debug");
-					this.sides[0].sideConditions["mist"].duration =
-						this.importData[0][11];
-				}
-				if (this.importData[0][12] != 0) {
-					this.sides[0].addSideCondition("tailwind", "debug");
-					this.sides[0].sideConditions["tailwind"].duration =
-						this.importData[0][12];
-				}
-				if (this.importData[0][13] != 0) {
-					this.sides[0].addSideCondition("luckychant", "debug");
-					this.sides[0].sideConditions["luckychant"].duration =
-						this.importData[0][13];
-				}
-				for (let i = 0; i < this.importData[0][14]; i++) {
-					this.sides[1].addSideCondition("spikes", "debug");
-				}
-				for (let i = 0; i < this.importData[0][15]; i++) {
-					this.sides[1].addSideCondition("toxicspikes", "debug");
-				}
-				for (let i = 0; i < this.importData[0][16]; i++) {
-					this.sides[1].addSideCondition("stealthrock", "debug");
-				}
-				if (this.importData[0][17] != 0) {
-					this.sides[1].addSideCondition("reflect", "debug");
-					this.sides[1].sideConditions["reflect"].duration =
-						this.importData[0][17];
-				}
-				if (this.importData[0][18] != 0) {
-					this.sides[1].addSideCondition("lightscreen", "debug");
-					this.sides[1].sideConditions["lightscreen"].duration =
-						this.importData[0][18];
-				}
-				if (this.importData[0][19] != 0) {
-					this.sides[1].addSideCondition("safeguard", "debug");
-					this.sides[1].sideConditions["safeguard"].duration =
-						this.importData[0][19];
-				}
-				if (this.importData[0][20] != 0) {
-					this.sides[1].addSideCondition("mist", "debug");
-					this.sides[1].sideConditions["mist"].duration =
-						this.importData[0][20];
-				}
-				if (this.importData[0][21] != 0) {
-					this.sides[1].addSideCondition("tailwind", "debug");
-					this.sides[1].sideConditions["tailwind"].duration =
-						this.importData[0][21];
-				}
-				if (this.importData[0][22] != 0) {
-					this.sides[1].addSideCondition("luckychant", "debug");
-					this.sides[1].sideConditions["luckychant"].duration =
-						this.importData[0][22];
-				}
-				// for (let i = 0; i < this.importData.player.hazards[0]; i++) {
-				// 	this.sides[0].addSideCondition("spikes", "debug");
-				// }
-				// for (let i = 0; i < this.importData.player.hazards[1]; i++) {
-				// 	this.sides[0].addSideCondition("toxicspikes", "debug");
-				// }
-				// for (let i = 0; i < this.importData.player.hazards[2]; i++) {
-				// 	this.sides[0].addSideCondition("stealthrock", "debug");
-				// }
-				// if (this.importData.player.hazards[3] != 0) {
-				// 	this.sides[0].addSideCondition("reflect", "debug");
-				// 	this.sides[0].sideConditions["reflect"].duration =
-				// 		this.importData.player.hazards[3];
-				// }
-				// if (this.importData.player.hazards[4] != 0) {
-				// 	this.sides[0].addSideCondition("lightscreen", "debug");
-				// 	this.sides[0].sideConditions["lightscreen"].duration =
-				// 		this.importData.player.hazards[4];
-				// }
-				// if (this.importData.player.hazards[5] != 0) {
-				// 	this.sides[0].addSideCondition("safeguard", "debug");
-				// 	this.sides[0].sideConditions["safeguard"].duration =
-				// 		this.importData.player.hazards[5];
-				// }
-				// if (this.importData.player.hazards[6] != 0) {
-				// 	this.sides[0].addSideCondition("mist", "debug");
-				// 	this.sides[0].sideConditions["mist"].duration =
-				// 		this.importData.player.hazards[6];
-				// }
-				// if (this.importData.player.hazards[7] != 0) {
-				// 	this.sides[0].addSideCondition("tailwind", "debug");
-				// 	this.sides[0].sideConditions["tailwind"].duration =
-				// 		this.importData.player.hazards[7];
-				// }
-				// if (this.importData.player.hazards[8] != 0) {
-				// 	this.sides[0].addSideCondition("luckychant", "debug");
-				// 	this.sides[0].sideConditions["luckychant"].duration =
-				// 		this.importData.player.hazards[8];
-				// }
-				// for (let i = 0; i < this.importData.enemy.hazards[0]; i++) {
-				// 	this.sides[1].addSideCondition("spikes", "debug");
-				// }
-				// for (let i = 0; i < this.importData.enemy.hazards[1]; i++) {
-				// 	this.sides[1].addSideCondition("toxicspikes", "debug");
-				// }
-				// for (let i = 0; i < this.importData.enemy.hazards[2]; i++) {
-				// 	this.sides[1].addSideCondition("stealthrock", "debug");
-				// }
-				// if (this.importData.enemy.hazards[3] != 0) {
-				// 	this.sides[1].addSideCondition("reflect", "debug");
-				// 	this.sides[1].sideConditions["reflect"].duration =
-				// 		this.importData.enemy.hazards[3];
-				// }
-				// if (this.importData.enemy.hazards[4] != 0) {
-				// 	this.sides[1].addSideCondition("lightscreen", "debug");
-				// 	this.sides[1].sideConditions["lightscreen"].duration =
-				// 		this.importData.enemy.hazards[4];
-				// }
-				// if (this.importData.enemy.hazards[5] != 0) {
-				// 	this.sides[1].addSideCondition("safeguard", "debug");
-				// 	this.sides[1].sideConditions["safeguard"].duration =
-				// 		this.importData.enemy.hazards[5];
-				// }
-				// if (this.importData.enemy.hazards[6] != 0) {
-				// 	this.sides[1].addSideCondition("mist", "debug");
-				// 	this.sides[1].sideConditions["mist"].duration =
-				// 		this.importData.enemy.hazards[6];
-				// }
-				// if (this.importData.enemy.hazards[7] != 0) {
-				// 	this.sides[1].addSideCondition("tailwind", "debug");
-				// 	this.sides[1].sideConditions["tailwind"].duration =
-				// 		this.importData.enemy.hazards[7];
-				// }
-				// if (this.importData.enemy.hazards[8] != 0) {
-				// 	this.sides[1].addSideCondition("luckychant", "debug");
-				// 	this.sides[1].sideConditions["luckychant"].duration =
-				// 		this.importData.enemy.hazards[8];
-				// }
-
 				this.eachEvent("BeforeTurn");
 				break;
 			case "residual":

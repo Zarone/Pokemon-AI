@@ -51,6 +51,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	jsonOutput: any;
 	msgOutput: any;
 	nnDebug = true;
+	logger;
 
 	constructor(
 		options: {
@@ -58,6 +59,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			noCatch?: boolean;
 			keepAlive?: boolean;
 			replay?: boolean | "spectator";
+			logger?: boolean;
 		} = {}
 	) {
 		super();
@@ -66,6 +68,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		this.replay = options.replay || false;
 		this.keepAlive = !!options.keepAlive;
 		this.battle = null;
+		this.logger = options.logger || false;
 	}
 
 	_write(chunk: string) {
@@ -121,7 +124,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	getHazard(hazard: string, side: number) {
-		if (this.battle?.sides[side].sideConditions[hazard] == null) {
+		if (!this.battle?.sides[side].sideConditions[hazard]) {
 			return 0;
 		} else if (this.battle?.sides[side].sideConditions[hazard].duration) {
 			return this.battle?.sides[side].sideConditions[hazard].duration;
@@ -315,7 +318,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		player1secondary: number,
 		player2secondary: number
 	) {
-		let weatherStr = this.battle?.field.weather;
+		let weatherStr = this.battle?.field?.weather || 0;
 		let weather;
 
 		if (weatherStr == "sunnyday") {
@@ -453,7 +456,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	}
 
 	getHazardDebug(hazard: string, side: number) {
-		if (this.battle?.sides[0].sideConditions[hazard] == null) {
+		if (!this.battle?.sides[side].sideConditions[hazard]) {
 			return 0;
 		} else if (this.battle?.sides[side].sideConditions[hazard].duration) {
 			return this.battle?.sides[side].sideConditions[hazard].duration;
@@ -1074,6 +1077,16 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 	_writeEnd() {
 		// if battle already ended, we don't need to pushEnd.
+
+		console.log(`here: ${!!this.battle?.sides[0]} ${this.logger}`);
+
+		if (this.battle?.sides[0] && this.logger) {
+			console.log("writing to current state.json");
+			fs.writeFileSync(
+				"./battle_ai/state_files/thisCurrentState.json",
+				JSON.stringify(this.getJson("N/A", 0, 0))
+			);
+		}
 		if (!this.atEOF) this.pushEnd();
 		this._destroy();
 	}

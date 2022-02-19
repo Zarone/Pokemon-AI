@@ -141,13 +141,6 @@ end
 function exec_showdown_state(
     state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2
 )
-    -- print("array1", state[1])
-    -- print("array2", state[2])
-    -- print("array3", state[3])
-    -- print("array4", state[4])
-    -- print("array5", state[5])
-    -- print(activeP1)
-    -- print(activeP2)
     stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
     stateFile:write(
         json.encode({state, "", activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2})
@@ -308,7 +301,7 @@ function BattleManager:getState()
                         0, 0, 0, 0, 0
                     },
                     "not switch",
-                    4,
+                    0,
                     3,
                     "dracometeor",
                     "",
