@@ -894,8 +894,69 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
     // if both players switched
     if ( (*my_state).secondaryP1 != 0 && (*my_state).secondaryP2 != 0 ){
 
-        printf("still haven't coded double forced switch\n");
-        exit(0);
+        double accumulativeP2[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+        int countP2[] = {0, 0, 0, 0, 0, 0};
+        double allEstimates[25] = {0.0};
+
+        for (int i = 0; i < 25; i++){
+            if ( (*(my_state + i) ).name[0] != '\0' ) {
+                // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
+                double thisEstimate = feedforward(my_weights, &((*(my_state + i)).game_data));
+                allEstimates[i] = thisEstimate;
+                accumulativeP2[(*(my_state + i) ).secondaryP2 - 5] += thisEstimate;
+                countP2[(*(my_state + i) ).secondaryP2 - 5]+=1;
+            } else {
+                break;
+            }
+        }
+
+        struct PartialMove P2Moves[6];
+        for (int i = 0; i < 6; i++){
+            P2Moves[i].move = i;
+            if (countP2[i] > 0){
+                P2Moves[i].estimate = accumulativeP2[i] / countP2[i];
+            } else {
+                P2Moves[i].estimate = 1.0;
+            }
+        }
+
+        mergeSort_PartialMove(P2Moves, 0, 5);
+        
+        double accumulativeP1[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+        int countP1[] = {0, 0, 0, 0, 0, 0};
+
+        for (int i = 0; i < 25; i++){
+            if ( (*(my_state + i) ).name[0] != '\0' ) {
+                if ( matchesP2( (*(my_state + i)).secondaryP2, &P2Moves ) ){
+                    double thisEstimate = allEstimates[i];
+                    accumulativeP1[(*(my_state + i) ).secondaryP1 - 5] += thisEstimate;
+                    countP1[(*(my_state + i) ).secondaryP1 - 5]+=1;
+                }
+            } else {
+                break;
+            }
+        }
+
+        int bestMove = 0;
+        double bestAverage = 0.0;
+
+        for (int i = 0; i < 6; i++){
+            double newEstimate = accumulativeP1[i] / countP1[i];
+            if (newEstimate > bestAverage){
+                bestAverage = newEstimate;
+                bestMove = i;
+            }
+        }
+
+        for (int i = 0; i < 25; i++){
+
+            // secondaryP1 is in range [5, 10]
+            // bestMove is in range [0, 5]
+            // P2Moves[0].move is in range [0, 5]
+            if ((*(my_state + i)).secondaryP1 == bestMove+5 && (*(my_state + i)).secondaryP1 == P2Moves[0].move){
+                return evaluate_move(L, my_state + i, my_weights, depth-1 );
+            }
+        }
 
     } 
     // if only player 1 has a forced switch
@@ -924,7 +985,6 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
         }
 
         mergeSort_PartialMove(P1Moves, 0, 5);
-        printArr_PartialMove(P1Moves, 6);
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP1 == P1Moves[5].move+5){
@@ -960,6 +1020,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         mergeSort_PartialMove(P2Moves, 0, 5);
         printArr_PartialMove(P2Moves, 6);
+
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP2 == P2Moves[0].move+5){
                 return evaluate_move(L, my_state + i, my_weights, depth-1 );
@@ -1224,8 +1285,6 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
 }
 
 int run_evaluation(lua_State *L){
-
-
     // all this stack manipulation is just to cleanup
     // the stack and get relevant data into "start_state"
 
@@ -1311,18 +1370,14 @@ int run_evaluation(lua_State *L){
 
     struct Weights my_weights;
     get_weights(&my_weights);
-    // print_weights(&my_weights);
     
-    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
+    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 3);
     printf("Best Move, estimate: %f, move: %i\n", bestMove.estimate, bestMove.move);
 
     return bestMove.move;
 }
 
 int get_move(lua_State *L){
-     
-    // lua_pushstring(L, get_weights() == 1 ? "sucessfully returned from \"get_weights()\"" : "error in \"get_weights()\"");
-    // lua_pushstring(L, get_inputs() == 1 ? "sucessfully returned from \"get_inputs()\"" : "error in \"get_inputs()\"");
     
     int res = run_evaluation(L);
     lua_settop(L, 0);
