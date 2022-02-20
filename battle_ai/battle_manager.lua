@@ -150,9 +150,11 @@ function exec_showdown_state(
 end
 
 function BattleManager:get_action()
-    print(processor.get_move(exec_showdown_state, self:getState()))
+    -- print(processor.get_move(exec_showdown_state, self:getState()))
     -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
-    returnAction = 1 -- indicates moveslot 1
+    local thisMove = processor.get_move(exec_showdown_state, self:getState())
+    print("making move: ", thisMove)
+    returnAction = thisMove
     
     print("BattleManager:get_action()")
 
@@ -165,7 +167,7 @@ function BattleManager:get_action()
 end
 
 function BattleManager:get_switch()
-    return 3
+    return processor.get_switch(exec_showdown_state, self:getState())
 end
 
 function BattleManager:getState()

@@ -65,8 +65,8 @@ while true do
                 A = true
             }, 5}}, 25)
             -- action = battleState:get_switch()
-        elseif 1 == 0 then -- if forced switch
-        -- elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
+        -- elseif 1 == 0 then -- if forced switch
+        elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
             is_forced_switch = true
             action = battleState:get_switch()
             if action == 1 then

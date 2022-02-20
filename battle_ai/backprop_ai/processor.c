@@ -1284,6 +1284,46 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     return blank;
 }
 
+// *my_state is a point to a single incomplete state, and
+// by incomplete I mean it's taken at a point where the active
+// pokemon is fainted
+struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
+    int activePokemon[30] = {0};
+    struct State possibleStates[25];
+
+    for (int i = 65; i < 95; i++){
+        activePokemon[i-65] = (*my_state).game_data[i];
+    }
+
+    for (int i = 5; i < 25; i++){
+        struct State blank_state;
+        blank_state.name[0] = '\0';
+        possibleStates[i] = blank_state;
+    }
+    for (int i = 1; i < 6; i++){
+        struct State new_state;
+
+        // copy non-pokemon data from state
+        for (int j = 0; j < 65; j++){
+            new_state.game_data[j] = (*my_state).game_data[j];
+        }
+
+        // copy data from the pokemon you're switching to
+        // into the active
+
+        // for example, let's say you switch to slot 2,
+        // that would be in data range [95, 125),
+        // so you'd copy that data range in data range [65, 95)
+        for (int j = 65+30*i; j < 95+30*i; j++){
+            (*my_state).game_data[j-30*i] = new_state.game_data[j];
+            // now copy stored active pokemon data into that range
+            new_state.game_data[j] = activePokemon[j-65-30*i];
+        }
+    }
+
+    return evaluate_switch(L, &possibleStates[0], my_weights, depth);
+}
+
 int run_evaluation(lua_State *L){
     // all this stack manipulation is just to cleanup
     // the stack and get relevant data into "start_state"
@@ -1377,6 +1417,100 @@ int run_evaluation(lua_State *L){
     return bestMove.move;
 }
 
+int run_evaluation_switch(lua_State *L){
+    // all this stack manipulation is just to cleanup
+    // the stack and get relevant data into "start_state"
+
+
+    // stack: [ exec_showdown_state, state ]
+
+    struct State start_state;
+
+    lua_geti(L, -1, 2);
+    // stack: [ exec_showdown_state, state, switch_info ]
+
+    strcpy(start_state.name, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 3);
+    // stack: [ exec_showdown_state, state, activeInfoP1 ]
+
+    start_state.activePokemonP1 = lua_tointeger(L, -1);
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 4);
+    // stack: [ exec_showdown_state, state, activeInfoP2 ]
+
+    start_state.activePokemonP2 = lua_tointeger(L, -1);
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 5);
+    // stack: [ exec_showdown_state, state, encoreP1 ]
+
+    strcpy(start_state.encoreMoveP1, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 6);
+    // stack: [ exec_showdown_state, state, encoreP2 ]
+
+    strcpy(start_state.encoreMoveP2, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 7);
+    // stack: [ exec_showdown_state, state, disableP1 ]
+
+    strcpy(start_state.disableMoveP1, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 8);
+    // stack: [ exec_showdown_state, state, disableP2 ]
+
+    strcpy(start_state.disableMoveP2, lua_tostring(L, -1));
+ 
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_geti(L, -1, 1);
+    // stack: [ exec_showdown_state, state, inputs ]
+
+    for (int i = 0; i < L1; i++){
+        lua_geti(L, -1, i+1);
+        // stack: [ exec_showdown_state, state, inputs, thisInput ]
+        
+        start_state.game_data[i] = lua_tointeger(L, -1);
+
+        lua_remove(L, -1);
+        // stack: [ exec_showdown_state, state, inputs ]
+    }
+
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state ]
+
+    struct Weights my_weights;
+    get_weights(&my_weights);
+    
+    struct PartialMove bestSwitch = evaluate_switch_from_partial_start(L, &start_state, &my_weights, 2);
+    printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
+
+    return bestSwitch.move;
+}
+
+// takes arguments [exec_showdown_state, state]
 int get_move(lua_State *L){
     
     int res = run_evaluation(L);
@@ -1387,9 +1521,19 @@ int get_move(lua_State *L){
 
 }
 
+// takes arguments [exec_showdown_state, state]
+int get_switch(lua_State *L){
+    int res = run_evaluation_switch(L);
+    lua_settop(L, 0);
+    lua_pushnumber(L, res);
+
+    return 1;
+}
+
 int luaopen_processor(lua_State *L){
   luaL_Reg fns[] = {
     {"get_move", get_move},
+    {"get_switch", get_switch},
     {NULL, NULL}
   };
   luaL_newlib(L, fns);
