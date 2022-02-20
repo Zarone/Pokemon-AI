@@ -15,7 +15,7 @@ p2
 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Acrobatics","id":"acrobatics","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Thunder","id":"thunder","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"A","id":"p2","pokemon":[{"ident":"p2: Drifblim","details":"Drifblim, L71, F","condition":"315/315","active":true,"stats":{"atk":139,"def":88,"spa":154,"spd":102,"spe":139},"moves":["shadowball","psychic","acrobatics","thunder"],"baseAbility":"aftermath","item":"none","pokeball":"pokeball"},{"ident":"p2: Jellicent","details":"Jellicent, L71, F","condition":"244/244","active":false,"stats":{"atk":111,"def":125,"spa":132,"spd":192,"spe":111},"moves":["shadowball","psychic","hydropump","sludgewave"],"baseAbility":"cursedbody","item":"none","pokeball":"pokeball"},{"ident":"p2: Froslass","details":"Froslass, L71, F","condition":"201/201","active":false,"stats":{"atk":139,"def":137,"spa":125,"spd":125,"spe":182},"moves":["shadowball","psychic","blizzard","iceshard"],"baseAbility":"snowcloak","item":"none","pokeball":"pokeball"},{"ident":"p2: Cofagrigus","details":"Cofagrigus, L71, F","condition":"184/184","active":false,"stats":{"atk":97,"def":232,"spa":161,"spd":192,"spe":61},"moves":["shadowball","psychic","willowisp","energyball"],"baseAbility":"mummy","item":"none","pokeball":"pokeball"},{"ident":"p2: Golurk","details":"Golurk, L71","condition":"1/228","active":false,"stats":{"atk":202,"def":139,"spa":93,"spd":139,"spe":114},"moves":["shadowpunch","earthquake","hammerarm","curse"],"baseAbility":"ironfist","item":"none","pokeball":"pokeball"},{"ident":"p2: Chandelure","details":"Chandelure, L73, F","condition":"192/192","active":false,"stats":{"atk":96,"def":158,"spa":238,"spd":173,"spe":143},"moves":["shadowball","psychic","fireblast","payback"],"baseAbility":"flamebody","item":"none","pokeball":"pokeball"}]}}
 
 update
-|t:|1645310046
+|t:|1645317470
 |gametype|singles
 |player|p1|A||
 |player|p2|A||
@@ -44,7 +44,7 @@ update
 |poke|p2|Chandelure, L73, F|item
 |teampreview
 |
-|t:|1645310046
+|t:|1645317471
 |start
 |split|p1
 |switch|p1a: Mew2|Mewtwo, L70|233/233
@@ -69,7 +69,7 @@ p2
 
 update
 |
-|t:|1645310046
+|t:|1645317471
 |move|p1a: Mew2|Psycho Cut|p2a: Drifblim
 |split|p2
 |-damage|p2a: Drifblim|212/315
