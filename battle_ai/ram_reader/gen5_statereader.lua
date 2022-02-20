@@ -39,6 +39,44 @@ function StateReader.is_wild_battle()
     read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)
 end
 
+-- current atk: read_halfword(get_battle_slot(num) + 284)
+-- current def: read_halfword(get_battle_slot(num) + 286)
+-- current spa: read_halfword(get_battle_slot(num) + 288)
+-- current spd: read_halfword(get_battle_slot(num) + 290)
+-- current spe: read_halfword(get_battle_slot(num) + 292)
+
+function stats_in_battle_slot(num)
+    atk = memory.readbyte(get_battle_slot(num) + 284)
+    def = memory.readbyte(get_battle_slot(num) + 286)
+    spa = memory.readbyte(get_battle_slot(num) + 288)
+    spd = memory.readbyte(get_battle_slot(num) + 290)
+    spe = memory.readbyte(get_battle_slot(num) + 292)
+    return {atk, def, spa, spd, spe}
+end
+
+function get_player_stats()
+    stats = {}
+    for i = -12, -7 do
+        table.insert(stats, stats_in_battle_slot(i))
+    end
+    return stats
+end
+
+function get_enemy_stats()
+
+    -- if it's a wild battle
+    if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
+        read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
+        return {stats_in_battle_slot(1)}
+    else
+        stats = {}
+        for i = -6, -1 do
+            table.insert(stats, stats_in_battle_slot(i))
+        end
+        return stats
+    end
+end
+
 function StateReader.get_player_boosts()
     boosts = {}
     for i = -12, -7 do
@@ -112,6 +150,54 @@ end
 
 function StateReader.get_remaining_weather_turns()
     return memory.readbyte(0x021F63F8)
+end
+
+function StateReader.get_player_pokemon_array()
+    local Pokemon = {}
+    local L_healths = StateReader.get_player_health()
+    local L_stats = get_player_stats()
+    local L_statuses = StateReader.get_player_status()
+
+    -- okay so types for this export shouldn't matter I don't think
+    -- since showdown doesn't read them
+
+    for i = 1, 6 do
+        table.insert(Pokemon, {
+            L_healths[i],
+            unpack(L_stats[i]),
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0,
+            unpack(L_statuses[i])
+        })
+    end
+
+    return Pokemon
+end
+
+function StateReader.get_enemy_pokemon_array()
+    local Pokemon = {}
+    local L_healths = StateReader.get_enemy_health()
+    local L_stats = get_enemy_stats()
+    local L_statuses = StateReader.get_player_status()
+
+    -- okay so types for this export shouldn't matter I don't think
+    -- since showdown doesn't read them
+
+    for i = 1, 6 do
+        table.insert(Pokemon, {
+            L_healths[i],
+            unpack(L_stats[i]),
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0,
+            unpack(L_statuses[i])
+        })
+    end
+
+    return Pokemon
 end
 
 return StateReader
