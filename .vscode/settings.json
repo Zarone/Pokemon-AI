@@ -14,6 +14,7 @@
     "cstddef": "c",
     "cmath": "c",
     "algorithm": "c",
-    "ios": "c"
-  }
+    "ios": "c",
+    "mpack.h": "c"
+}
 }

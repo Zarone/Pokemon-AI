@@ -449,6 +449,7 @@ int get_weights(struct Weights *my_weights){
 }
 
 void parse_state(mpack_reader_t* reader, struct State *state){
+
     mpack_tag_t inputsTag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
         printf("error in reading inputsTag: %i\n", mpack_reader_error(reader));
@@ -457,16 +458,19 @@ void parse_state(mpack_reader_t* reader, struct State *state){
     if (mpack_tag_type(&inputsTag) == mpack_type_array){
         for (int i = 0; i < L1; i++){
             mpack_tag_t inputTag = mpack_read_tag(reader);
+
             state->game_data[i] = mpack_tag_int_value(&inputTag);
+            // printf("state[%i] = %i\n", i, state->game_data[i]);
         }
         mpack_done_array(reader);
     } else {
         printf("I've misunderstood inputsTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&inputsTag)), mpack_tag_uint_value(&inputsTag));
     }
 
+
     mpack_tag_t nameTag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading nameTag: %i\n", mpack_reader_error(reader));
+        printf("error in reading nameTag: %i\n", reader->error);
         return;
     }
     if (mpack_tag_type(&nameTag) == mpack_type_str){
@@ -479,22 +483,26 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         for (int i = 0; i < 20; i++){
             state->name[i] = strBuffer[i];
         }
+        // printf("name: %s\n", state->name);
     } else {
         printf("I've misunderstood nameTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&nameTag)), mpack_tag_uint_value(&nameTag));
     }
 
     mpack_tag_t activeP1 = mpack_read_tag(reader);
-    if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading activeP1: %i\n", mpack_reader_error(reader));
+
+    if ( reader->error && mpack_ok && mpack_reader_error(reader) != mpack_ok){
+        printf("error reading activeP1: %i\n", mpack_reader_error(reader));
         return;
     }
+
     if (mpack_tag_type(&activeP1) == mpack_type_uint){
-        if (mpack_reader_error(reader) != mpack_ok){
-            printf("error reading string in activeP1: %i\n", mpack_reader_error(reader));
+        if ( reader->error && mpack_ok && mpack_reader_error(reader) != mpack_ok){
+            printf("error reading string in activeP1: %i\n",  (*reader).error);
             return;
         }
-        unsigned int tag_value = mpack_tag_int_value(&activeP1);
+        unsigned int tag_value = mpack_tag_uint_value(&activeP1);
         state->activePokemonP1 = tag_value;
+        // printf("activeP1: %i\n", state->activePokemonP1);
 
     } else {
         printf("I've misunderstood activeP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP1)), mpack_tag_uint_value(&activeP1));
@@ -510,8 +518,9 @@ void parse_state(mpack_reader_t* reader, struct State *state){
             printf("error reading string in activeP2: %i\n", mpack_reader_error(reader));
             return;
         }
-        unsigned int tag_value = mpack_tag_int_value(&activeP2);
+        unsigned int tag_value = mpack_tag_uint_value(&activeP2);
         state->activePokemonP2 = tag_value;
+        // printf("activeP2: %i\n", state->activePokemonP2);
     } else {
         printf("I've misunderstood activeP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP2)), mpack_tag_uint_value(&activeP2));
     }
@@ -531,6 +540,7 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         for (int i = 0; i < 20; i++){
             state->encoreMoveP1[i] = strBuffer[i];
         }
+        // printf("encoreP1: %s\n", state->encoreMoveP1);
     } else {
         printf("I've misunderstood encoreP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&encoreP1)), mpack_tag_uint_value(&encoreP1));
     }
@@ -550,9 +560,11 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         for (int i = 0; i < 20; i++){
             state->encoreMoveP2[i] = strBuffer[i];
         }
+        // printf("encoreP2: %s\n", state->encoreMoveP2);
     } else {
         printf("I've misunderstood encoreP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&encoreP2)), mpack_tag_uint_value(&encoreP2));
     }
+
 
     mpack_tag_t disableP1 = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
@@ -569,6 +581,7 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         for (int i = 0; i < 20; i++){
             state->disableMoveP1[i] = strBuffer[i];
         }
+        // printf("disableP1: %s\n", state->encoreMoveP2);
     } else {
         printf("I've misunderstood disableP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP1)), mpack_tag_uint_value(&disableP1));
     }
@@ -588,22 +601,24 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         for (int i = 0; i < 20; i++){
             state->disableMoveP2[i] = strBuffer[i];
         }
+        // printf("disableP2: %s\n", state->encoreMoveP2);
     } else {
         printf("I've misunderstood disableP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP2)), mpack_tag_uint_value(&disableP2));
     }
 
     mpack_tag_t secondaryP1 = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading activeP1: %i\n", mpack_reader_error(reader));
+        printf("error in reading secondaryP1: %i\n", mpack_reader_error(reader));
         return;
     }
     if (mpack_tag_type(&secondaryP1) == mpack_type_uint){
         if (mpack_reader_error(reader) != mpack_ok){
-            printf("error reading string in activeP1: %i\n", mpack_reader_error(reader));
+            printf("error reading string in secondaryP1: %i\n", mpack_reader_error(reader));
             return;
         }
-        unsigned int tag_value = mpack_tag_int_value(&secondaryP1);
+        unsigned int tag_value = mpack_tag_uint_value(&secondaryP1);
         state->secondaryP1 = tag_value;
+        // printf("secondaryP1: %i\n", state->secondaryP1);
 
     } else {
         printf("I've misunderstood secondaryP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&secondaryP1)), mpack_tag_uint_value(&secondaryP1));
@@ -619,8 +634,9 @@ void parse_state(mpack_reader_t* reader, struct State *state){
             printf("error reading string in secondaryP2: %i\n", mpack_reader_error(reader));
             return;
         }
-        unsigned int tag_value = mpack_tag_int_value(&secondaryP2);
+        unsigned int tag_value = mpack_tag_uint_value(&secondaryP2);
         state->secondaryP2 = tag_value;
+        // printf("secondaryP2: %i\n", state->secondaryP2);
     } else {
         printf("I've misunderstood secondaryP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&secondaryP2)), mpack_tag_uint_value(&secondaryP2));
     }
@@ -628,7 +644,6 @@ void parse_state(mpack_reader_t* reader, struct State *state){
 
 void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
 {
-
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
         printf("error in reader (parse_inputs): %i\n", mpack_reader_error(reader));
@@ -638,6 +653,7 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
     if (layer == 3){
         struct State myState;
         parse_state(reader, &myState);
+
 
         // printf("switch data: %s\n", myState.name);
         // printf("inputs[0]: %i\n", myState.game_data[0]);
@@ -703,6 +719,11 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
 int get_inputs(struct State *my_states){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/state_files/battleStatesFromShowdown.txt");
+
+    if (mpack_reader_error(&reader) != mpack_ok){
+        printf("error initialing reader: %i\n", mpack_reader_error(&reader));
+        return -1;
+    }
 
     int blank_indexes[] = {0,0,0};
 
@@ -875,11 +896,11 @@ int matchesP1(int move, struct PartialMove (*sortedMoveList)[10]){
     }
     return 0;
 }
-int matchesP2(int move, struct PartialMove (*sortedMoveList)[]){
+int matchesP2(int move, struct PartialMove (*sortedMoveList)){
     // return move == (*sortedMoveList)[0].move || move == (*sortedMoveList)[1].move;
     
     for (int i = 0; i < TRIM_P2; i++){
-        if ((*sortedMoveList)[i].move == move) return 1; 
+        if ( (*(sortedMoveList+i)).move == move) return 1; 
     }
     return 0;
 }
@@ -927,7 +948,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         for (int i = 0; i < 25; i++){
             if ( (*(my_state + i) ).name[0] != '\0' ) {
-                if ( matchesP2( (*(my_state + i)).secondaryP2, &P2Moves ) ){
+                if ( matchesP2( (*(my_state + i)).secondaryP2, &P2Moves[0] ) ){
                     double thisEstimate = allEstimates[i];
                     accumulativeP1[(*(my_state + i) ).secondaryP1 - 5] += thisEstimate;
                     countP1[(*(my_state + i) ).secondaryP1 - 5]+=1;
@@ -1043,7 +1064,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     
     load_showdown_state(L, my_state);
 
-    struct State* my_states = malloc(10*10*25 * sizeof(struct State));
+    struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
 
     get_inputs(my_states);
 
@@ -1126,7 +1147,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
 
     int k = 0;
     for (int j = 0; j < 10; j++){
-        if (matchesP2(j, &p2moves) == 1){
+        if (matchesP2(j, &p2moves[0]) == 1){
             for (int i = 0; i < 10; i++){
                 // j is player2 move
                 // i is player1 move
@@ -1411,7 +1432,13 @@ int run_evaluation(lua_State *L){
     struct Weights my_weights;
     get_weights(&my_weights);
     
-    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 3);
+
+    // struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
+    // get_inputs(my_states);
+    // print_inputs(*my_states);
+    // free(my_states);
+
+    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
     printf("Best Move, estimate: %f, move: %i\n", bestMove.estimate, bestMove.move);
 
     return bestMove.move;
@@ -1518,7 +1545,6 @@ int get_move(lua_State *L){
     lua_pushnumber(L, res);
 
     return 1;
-
 }
 
 // takes arguments [exec_showdown_state, state]

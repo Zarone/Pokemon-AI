@@ -946,7 +946,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						"./battle_ai/state_files/battleStatesFromShowdown.json",
 						JSON.stringify({
 							inputState: this.battle?.importData,
-							outputStates: this.jsonOutput,
+							outputStates: this.msgOutput,
 						})
 					);
 				}
@@ -1078,15 +1078,13 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	_writeEnd() {
 		// if battle already ended, we don't need to pushEnd.
 
-		console.log(`here: ${!!this.battle?.sides[0]} ${this.logger}`);
-
-		if (this.battle?.sides[0] && this.logger) {
-			console.log("writing to current state.json");
-			fs.writeFileSync(
-				"./battle_ai/state_files/thisCurrentState.json",
-				JSON.stringify(this.getJson("N/A", 0, 0))
-			);
-		}
+		// if (this.battle?.sides[0] && this.logger) {
+		// 	console.log("writing to current state.json");
+		// 	fs.writeFileSync(
+		// 		"./battle_ai/state_files/thisCurrentState.json",
+		// 		JSON.stringify(this.getJson("N/A", 0, 0))
+		// 	);
+		// }
 		if (!this.atEOF) this.pushEnd();
 		this._destroy();
 	}
