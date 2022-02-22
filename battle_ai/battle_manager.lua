@@ -1,4 +1,4 @@
-using_test_data = true
+using_test_data = false
 
 json = require "lunajson"
 

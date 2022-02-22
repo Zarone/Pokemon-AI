@@ -1438,7 +1438,7 @@ int run_evaluation(lua_State *L){
     // print_inputs(*my_states);
     // free(my_states);
 
-    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 2);
+    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
     printf("Best Move, estimate: %f, move: %i\n", bestMove.estimate, bestMove.move);
 
     return bestMove.move;

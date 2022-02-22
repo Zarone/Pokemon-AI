@@ -186,6 +186,7 @@ function StateReader.get_enemy_pokemon_array()
     -- since showdown doesn't read them
 
     for i = 1, 6 do
+        if i > #L_stats then break end
         table.insert(Pokemon, {
             L_healths[i],
             unpack(L_stats[i]),
