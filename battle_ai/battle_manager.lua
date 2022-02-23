@@ -152,7 +152,9 @@ end
 function BattleManager:get_action()
     -- print(processor.get_move(exec_showdown_state, self:getState()))
     -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
-    local thisMove = processor.get_move(exec_showdown_state, self:getState())
+    local state = self:getState()
+    print("State:", state)
+    local thisMove = processor.get_move(exec_showdown_state, state)
     print("making move: ", thisMove)
     returnAction = thisMove
     
@@ -324,6 +326,29 @@ function BattleManager:getState()
         elseif weather == 1 then
             weatherArray[1] = 1
         end
+
+        print("weatherturns", StateReader.get_remaining_weather_turns())
+        print("weather", weatherArray)
+        print("hazards_player", self.game_reader.player.hazards)
+        print("hazards_enemy", self.game_reader.enemy.hazards)
+        print("volatiles_player", self.game_reader.player.volatiles)
+        print("volatiles_enemy", self.game_reader.enemy.volatiles)
+        print("boosts_player", StateReader.get_player_boosts()[self.game_reader.active+1])
+        print("boosts_enemy", StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1])
+        print("pokemon array player", StateReader.get_player_pokemon_array())
+        print("pokemon array enemy", StateReader.get_enemy_pokemon_array())
+
+        local returnTable = {}
+        
+        local index = 1
+        returnTable[index] = StateReader.get_remaining_weather_turns()
+        index = index + 1
+
+        for i = 0, 4 do
+            returnTable[index+i] = weatherArray[i]
+        end
+        index = index + 4
+
         return {
             {
                 StateReader.get_remaining_weather_turns(),

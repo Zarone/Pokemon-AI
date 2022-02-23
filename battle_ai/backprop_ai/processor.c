@@ -350,7 +350,12 @@ void print_inputs(struct State my_states){
     printf("disableP2: %s\n", my_states.disableMoveP2);
 }
 
-
+// this function prints directly to lua
+// this is helpful because the emulator
+// doesn't log output which came directly 
+// from C. And I only declare it later for
+// organizational purposes
+void printLua(lua_State *L, const char *label, int value);
 
 void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3])
 {
@@ -1440,6 +1445,7 @@ int run_evaluation(lua_State *L){
 
     struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
     printf("Best Move, estimate: %f, move: %i\n", bestMove.estimate, bestMove.move);
+    printLua(L, "printed from c function: ", bestMove.move);
 
     return bestMove.move;
 }
@@ -1554,6 +1560,13 @@ int get_switch(lua_State *L){
     lua_pushnumber(L, res);
 
     return 1;
+}
+
+void printLua(lua_State *L, const char *label, int value){
+    lua_getglobal(L, "print");
+    lua_pushstring(L, label);
+    lua_pushnumber(L, value);
+    lua_call(L, 2, 0);
 }
 
 int luaopen_processor(lua_State *L){
