@@ -72,6 +72,13 @@ struct Input {
 
 
 
+// this function prints directly to lua
+// this is helpful because the emulator
+// doesn't log output which came directly 
+// from C. And I only declare it later for
+// organizational purposes
+void printLua_double(lua_State *L, const char *label, double value);
+void printLua_string(lua_State *L, const char *label, const char *value);
 
 // "struct Input" array merge sort functions
 
@@ -169,7 +176,6 @@ void printAllErrors(struct Input A[], int size)
 }
 
 
-
 void merge_PartialMove(struct PartialMove arr[], int l, int m, int r) 
 { 
     int i, j, k; 
@@ -259,16 +265,18 @@ void mergeSort_PartialMove(struct PartialMove arr[], int l, int r)
     } 
 } 
 
-void printArr_PartialMove(struct PartialMove A[], int size) 
+void printArr_PartialMove(lua_State *L, struct PartialMove A[], int size) 
 { 
     for (int i = 0; i < size; i++) {
-        printf("estimate: %f, move: %d\n", A[i].estimate, A[i].move); 
+        // printf("estimate: %f, move: %d\n", A[i].estimate, A[i].move); 
+        printLua_double(L, "Move: ", A[i].move);
+        printLua_double(L, "Estimate: ", A[i].estimate);
     }
 }
 
 // print functions for debugging
 
-void print_weights(struct Weights *my_weights){
+void print_weights(struct Weights *my_weights, lua_State *L){
 #if LAYERS == 3
     printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
     printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
@@ -296,72 +304,100 @@ void print_weights(struct Weights *my_weights){
     printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
     printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
 #elif LAYERS == 4
-    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
-    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
-    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
-    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
-    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
-    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
-    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
-    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
+    // printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
+    // printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
+    // printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
+    // printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
+    // printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
+    // printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
+    // printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
+    // printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
 
-    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
-    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
-    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
-    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
-    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
-    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
-    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
-    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
+    // printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
+    // printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
+    // printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
+    // printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
+    // printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
+    // printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
+    // printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
+    // printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
     
-    printf("weights[2][0][0] = %f\n", my_weights->h_layer_3[0][0]);
-    printf("weights[2][1][0] = %f\n", my_weights->h_layer_3[1][0]);
-    printf("weights[2][2][0] = %f\n", my_weights->h_layer_3[2][0]);
-    printf("weights[2][3][0] = %f\n", my_weights->h_layer_3[3][0]);
-    printf("weights[2][4][0] = %f\n", my_weights->h_layer_3[4][0]);
-    printf("weights[2][5][0] = %f\n", my_weights->h_layer_3[5][0]);
-    printf("weights[2][6][0] = %f\n", my_weights->h_layer_3[6][0]);
-    printf("weights[2][7][0] = %f\n", my_weights->h_layer_3[7][0]);
+    // printf("weights[2][0][0] = %f\n", my_weights->h_layer_3[0][0]);
+    // printf("weights[2][1][0] = %f\n", my_weights->h_layer_3[1][0]);
+    // printf("weights[2][2][0] = %f\n", my_weights->h_layer_3[2][0]);
+    // printf("weights[2][3][0] = %f\n", my_weights->h_layer_3[3][0]);
+    // printf("weights[2][4][0] = %f\n", my_weights->h_layer_3[4][0]);
+    // printf("weights[2][5][0] = %f\n", my_weights->h_layer_3[5][0]);
+    // printf("weights[2][6][0] = %f\n", my_weights->h_layer_3[6][0]);
+    // printf("weights[2][7][0] = %f\n", my_weights->h_layer_3[7][0]);
 
-    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
-    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
-    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
-    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
-    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
-    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
-    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+    // printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
+    // printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
+    // printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
+    // printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
+    // printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
+    // printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
+    // printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
+
+    printLua_double(L, "weights[0][0][0] = ", my_weights->h_layer_1[0][0]);
+    printLua_double(L, "weights[0][0][1] = ", my_weights->h_layer_1[0][1]);
+    printLua_double(L, "weights[0][0][2] = ", my_weights->h_layer_1[0][2]);
+    printLua_double(L, "weights[0][0][3] = ", my_weights->h_layer_1[0][3]);
+    printLua_double(L, "weights[0][0][4] = ", my_weights->h_layer_1[0][4]);
+    printLua_double(L, "weights[0][0][5] = ", my_weights->h_layer_1[0][5]);
+    printLua_double(L, "weights[0][0][6] = ", my_weights->h_layer_1[0][6]);
+    printLua_double(L, "weights[0][0][7] = ", my_weights->h_layer_1[0][7]);
+
+    printLua_double(L, "weights[1][0][0] = ", my_weights->h_layer_2[0][0]);
+    printLua_double(L, "weights[1][1][0] = ", my_weights->h_layer_2[1][0]);
+    printLua_double(L, "weights[1][2][0] = ", my_weights->h_layer_2[2][0]);
+    printLua_double(L, "weights[1][3][0] = ", my_weights->h_layer_2[3][0]);
+    printLua_double(L, "weights[1][4][0] = ", my_weights->h_layer_2[4][0]);
+    printLua_double(L, "weights[1][5][0] = ", my_weights->h_layer_2[5][0]);
+    printLua_double(L, "weights[1][6][0] = ", my_weights->h_layer_2[6][0]);
+    printLua_double(L, "weights[1][7][0] = ", my_weights->h_layer_2[7][0]);
+    
+    printLua_double(L, "weights[2][0][0] = ", my_weights->h_layer_3[0][0]);
+    printLua_double(L, "weights[2][1][0] = ", my_weights->h_layer_3[1][0]);
+    printLua_double(L, "weights[2][2][0] = ", my_weights->h_layer_3[2][0]);
+    printLua_double(L, "weights[2][3][0] = ", my_weights->h_layer_3[3][0]);
+    printLua_double(L, "weights[2][4][0] = ", my_weights->h_layer_3[4][0]);
+    printLua_double(L, "weights[2][5][0] = ", my_weights->h_layer_3[5][0]);
+    printLua_double(L, "weights[2][6][0] = ", my_weights->h_layer_3[6][0]);
+    printLua_double(L, "weights[2][7][0] = ", my_weights->h_layer_3[7][0]);
+
+    printLua_double(L, "biases[0][0] = ", my_weights->biases_1[0]);
+    printLua_double(L, "biases[0][1] = ", my_weights->biases_1[1]);
+    printLua_double(L, "biases[0][2] = ", my_weights->biases_1[2]);
+    printLua_double(L, "biases[0][3] = ", my_weights->biases_1[3]);
+    printLua_double(L, "biases[0][4] = ", my_weights->biases_1[4]);
+    printLua_double(L, "biases[0][5] = ", my_weights->biases_1[5]);
+    printLua_double(L, "biases[1][0] = ", my_weights->biases_2[0]);
 #endif
 }
 
-void print_inputs(struct State my_states){
-    printf("name: %s\n", my_states.name);
-    printf("data[0]: %i\n", my_states.game_data[0]);
-    printf("data[1]: %i\n", my_states.game_data[1]);
-    printf("data[2]: %i\n", my_states.game_data[2]);
-    printf("data[3]: %i\n", my_states.game_data[3]);
-    printf("data[4]: %i\n", my_states.game_data[4]);
-    printf("activeP1: %i\n", my_states.activePokemonP1);
-    printf("activeP2: %i\n", my_states.activePokemonP2);
-    printf("secondaryP1: %i\n", my_states.secondaryP1);
-    printf("secondaryP2: %i\n", my_states.secondaryP2);
-    printf("encoreP1: %s\n", my_states.encoreMoveP1);
-    printf("encoreP2: %s\n", my_states.encoreMoveP2);
-    printf("disableP1: %s\n", my_states.disableMoveP1);
-    printf("disableP2: %s\n", my_states.disableMoveP2);
+void print_inputs(struct State my_states, lua_State *L){
+    printLua_string(L, "name: ", my_states.name);
+    printLua_double(L, "data[0]: ", my_states.game_data[0]);
+    printLua_double(L, "data[1]: ", my_states.game_data[1]);
+    printLua_double(L, "data[2]: ", my_states.game_data[2]);
+    printLua_double(L, "data[3]: ", my_states.game_data[3]);
+    printLua_double(L, "data[4]: ", my_states.game_data[4]);
+    printLua_double(L, "activeP1: ", my_states.activePokemonP1);
+    printLua_double(L, "activeP2: ", my_states.activePokemonP2);
+    printLua_double(L, "secondaryP1: ", my_states.secondaryP1);
+    printLua_double(L, "secondaryP2: ", my_states.secondaryP2);
+    printLua_string(L, "encoreP1: ", my_states.encoreMoveP1);
+    printLua_string(L, "encoreP2: ", my_states.encoreMoveP2);
+    printLua_string(L, "disableP1: ", my_states.disableMoveP1);
+    printLua_string(L, "disableP2: ", my_states.disableMoveP2);
 }
 
-// this function prints directly to lua
-// this is helpful because the emulator
-// doesn't log output which came directly 
-// from C. And I only declare it later for
-// organizational purposes
-void printLua(lua_State *L, const char *label, int value);
-
-void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3])
+void parse_weights(lua_State *L, mpack_reader_t* reader, int layer, struct Weights *weight_pointer, int indexes[3])
 {
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error loading layer %i\n", layer);
+        printLua_double(L, "error loading layer ", layer);
         return;
     }
 
@@ -380,9 +416,9 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
                 newIndexes[1] = indexes[1];
                 newIndexes[2] = i;
             }
-            parse_weights(reader, layer+1, weight_pointer, newIndexes );
+            parse_weights(L, reader, layer+1, weight_pointer, newIndexes );
             if (mpack_reader_error(reader) != mpack_ok){ // critical check!
-                printf("error in mpack: %u\n", (unsigned)mpack_reader_error(reader));
+                printLua_double(L, "error in mpack: %u\n", (unsigned)mpack_reader_error(reader));
                 break;
             }
         }
@@ -432,32 +468,32 @@ void parse_weights(mpack_reader_t* reader, int layer, struct Weights *weight_poi
                 weight_pointer->biases_3[L4-indexes[2]] = val;
             }
         } else {
-            printf("wasn't 1 or 2 or 3 or 4, indexes[0] = %i", indexes[0]);
+            printLua_double(L, "wasn't 1 or 2 or 3 or 4, indexes[0] = ", indexes[0]);
         }
     }
     #endif
 }
 
-int get_weights(struct Weights *my_weights){
+int get_weights(lua_State *L, struct Weights *my_weights){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/backprop_ai/weights.txt");
 
     int blank_indexes[] = {0,0,0};
 
-    parse_weights(&reader, 0, my_weights, blank_indexes);
+    parse_weights(L, &reader, 0, my_weights, blank_indexes);
     
     mpack_error_t error = mpack_reader_destroy(&reader);
     if (error != mpack_ok){
-        printf("error destorying reader: %s\n", mpack_error_to_string(error));
+        printLua_string(L, "error destorying reader: ", mpack_error_to_string(error));
     }
     return error == mpack_ok;
 }
 
-void parse_state(mpack_reader_t* reader, struct State *state){
+void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
 
     mpack_tag_t inputsTag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading inputsTag: %i\n", mpack_reader_error(reader));
+        printLua_double(L, "error in reading inputsTag: ", mpack_reader_error(reader));
         return;
     }
     if (mpack_tag_type(&inputsTag) == mpack_type_array){
@@ -469,20 +505,20 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         }
         mpack_done_array(reader);
     } else {
-        printf("I've misunderstood inputsTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&inputsTag)), mpack_tag_uint_value(&inputsTag));
+        printLua_string(L, "inputsTag of type ", mpack_type_to_string(mpack_tag_type(&inputsTag)));
     }
 
 
     mpack_tag_t nameTag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading nameTag: %i\n", reader->error);
+        printLua_double(L, "error in reading nameTag: ", reader->error);
         return;
     }
     if (mpack_tag_type(&nameTag) == mpack_type_str){
         char strBuffer[20];
         mpack_read_cstr(reader, strBuffer, mpack_tag_str_length(&nameTag)+1, mpack_tag_str_length(&nameTag));
         if (mpack_reader_error(reader) != mpack_ok){
-            printf("error reading string in nameTag: %i\n", mpack_reader_error(reader));
+            printLua_double(L, "error reading string in nameTag: ", mpack_reader_error(reader));
             return;
         }
         for (int i = 0; i < 20; i++){
@@ -490,19 +526,19 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         }
         // printf("name: %s\n", state->name);
     } else {
-        printf("I've misunderstood nameTag, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&nameTag)), mpack_tag_uint_value(&nameTag));
+        printLua_string(L, "nameTag of type ", mpack_type_to_string(mpack_tag_type(&nameTag)));
     }
 
     mpack_tag_t activeP1 = mpack_read_tag(reader);
 
     if ( reader->error && mpack_ok && mpack_reader_error(reader) != mpack_ok){
-        printf("error reading activeP1: %i\n", mpack_reader_error(reader));
+        printLua_double(L, "error reading activeP1: ", mpack_reader_error(reader));
         return;
     }
 
     if (mpack_tag_type(&activeP1) == mpack_type_uint){
         if ( reader->error && mpack_ok && mpack_reader_error(reader) != mpack_ok){
-            printf("error reading string in activeP1: %i\n",  (*reader).error);
+            printLua_double(L, "error reading string in activeP1: ",  (*reader).error);
             return;
         }
         unsigned int tag_value = mpack_tag_uint_value(&activeP1);
@@ -510,17 +546,17 @@ void parse_state(mpack_reader_t* reader, struct State *state){
         // printf("activeP1: %i\n", state->activePokemonP1);
 
     } else {
-        printf("I've misunderstood activeP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP1)), mpack_tag_uint_value(&activeP1));
+        printLua_string(L, "activeP1 of type ", mpack_type_to_string(mpack_tag_type(&activeP1)));
     }
 
     mpack_tag_t activeP2 = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading activeP2: %i\n", mpack_reader_error(reader));
+        printLua_double(L, "error in reading activeP2: ", mpack_reader_error(reader));
         return;
     }
     if (mpack_tag_type(&activeP2) == mpack_type_uint){
         if (mpack_reader_error(reader) != mpack_ok){
-            printf("error reading string in activeP2: %i\n", mpack_reader_error(reader));
+            printLua_double(L, "error reading string in activeP2: ", mpack_reader_error(reader));
             return;
         }
         unsigned int tag_value = mpack_tag_uint_value(&activeP2);
@@ -613,20 +649,20 @@ void parse_state(mpack_reader_t* reader, struct State *state){
 
     mpack_tag_t secondaryP1 = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
-        printf("error in reading secondaryP1: %i\n", mpack_reader_error(reader));
+        printLua_double(L, "error in reading secondaryP1: ", mpack_reader_error(reader));
         return;
     }
     if (mpack_tag_type(&secondaryP1) == mpack_type_uint){
         if (mpack_reader_error(reader) != mpack_ok){
-            printf("error reading string in secondaryP1: %i\n", mpack_reader_error(reader));
+            printLua_double(L, "error reading string in secondaryP1: ", mpack_reader_error(reader));
             return;
         }
         unsigned int tag_value = mpack_tag_uint_value(&secondaryP1);
         state->secondaryP1 = tag_value;
-        // printf("secondaryP1: %i\n", state->secondaryP1);
+        // printLua_double(L, "secondaryP1 set to: ", state->secondaryP1);
 
     } else {
-        printf("I've misunderstood secondaryP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&secondaryP1)), mpack_tag_uint_value(&secondaryP1));
+        printLua_string(L, "secondaryP1 of type ", mpack_type_to_string(mpack_tag_type(&secondaryP1)));
     }
 
     mpack_tag_t secondaryP2 = mpack_read_tag(reader);
@@ -647,7 +683,7 @@ void parse_state(mpack_reader_t* reader, struct State *state){
     }
 }
 
-void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
+void parse_inputs(lua_State *L, mpack_reader_t* reader, int layer, struct State *inputs_pointer, int indexes[3]) 
 {
     mpack_tag_t tag = mpack_read_tag(reader);
     if (mpack_reader_error(reader) != mpack_ok){
@@ -657,7 +693,7 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
  
     if (layer == 3){
         struct State myState;
-        parse_state(reader, &myState);
+        parse_state(L, reader, &myState);
 
 
         // printf("switch data: %s\n", myState.name);
@@ -709,7 +745,7 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
                 newIndexes[1] = indexes[1];
                 newIndexes[2] = mpack_tag_array_count(&tag)-i;
             }
-            parse_inputs(reader, layer+1, inputs_pointer, newIndexes );
+            parse_inputs(L, reader, layer+1, inputs_pointer, newIndexes );
             if (mpack_reader_error(reader) != mpack_ok){ // critical check!
                 printf("error in mpack input: %u\n", (unsigned)mpack_reader_error(reader));
                 break;
@@ -721,7 +757,7 @@ void parse_inputs(mpack_reader_t* reader, int layer, struct State *inputs_pointe
 }
 
 // argument is pointer to first element of array
-int get_inputs(struct State *my_states){
+int get_inputs(lua_State *L, struct State *my_states){
     mpack_reader_t reader;
     mpack_reader_init_filename(&reader, "./battle_ai/state_files/battleStatesFromShowdown.txt");
 
@@ -732,7 +768,7 @@ int get_inputs(struct State *my_states){
 
     int blank_indexes[] = {0,0,0};
 
-    parse_inputs(&reader, 0, my_states, blank_indexes);
+    parse_inputs(L, &reader, 0, my_states, blank_indexes);
 
     return mpack_reader_destroy(&reader) == mpack_ok;
 }
@@ -749,7 +785,7 @@ double relu_derivative(double a){
     return (a > 0) ? 1 : 0;
 }
 
-#define SPREAD 0.3
+#define SPREAD 0.01
 
 double logistic(double a){
     return 1 / (1 + exp(-SPREAD*(double)a));
@@ -1045,7 +1081,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
         }
 
         mergeSort_PartialMove(P2Moves, 0, 5);
-        printArr_PartialMove(P2Moves, 6);
+        printArr_PartialMove(L, P2Moves, 6);
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP2 == P2Moves[0].move+5){
@@ -1064,14 +1100,12 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
 // my_state is intended as a pointer to State object
 struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
-    
-    // printf("\n\n\n\n\n\nDepth: %i\n", depth);
-    
+        
     load_showdown_state(L, my_state);
 
     struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
 
-    get_inputs(my_states);
+    get_inputs(L, my_states);
 
 
     // the "inputs" here are states resulting from load_showdown_state
@@ -1145,7 +1179,8 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     mergeSort_PartialMove(p2moves, 0, 9);
 
     // printf("\nSorted P2 moves: \n");
-    // printArr_PartialMove(p2moves, 10);
+    printLua_string(L, "\nSorted P2 Moves: ", "");
+    printArr_PartialMove(L, p2moves, 10);
     // printf("\n");
 
     struct Move moves_filteredP2[10][TRIM_P2];
@@ -1169,11 +1204,19 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     }
 
     // printf("All moves after trim by P2: \n");
-    // for (int i = 0; i < 10; i++){
-    //     for (int j = 0; j < TRIM_P2; j++){
-    //         printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
-    //     }
-    // }
+    printLua_string(L, "\nAll moves after trim by P2: ", "");
+    for (int i = 0; i < 10; i++){
+        for (int j = 0; j < TRIM_P2; j++){
+            // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
+            // printLua_double(L, "i: ", i);
+            // printLua_double(L, "j: ", j);
+            printLua_double(L, "move1: ", moves_filteredP2[i][j].moves[0]);
+            // printLua_double(L, "move2: ", moves_filteredP2[i][j].moves[1]);
+            printLua_double(L, "estimate: ", moves_filteredP2[i][j].estimate);
+
+            // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
+        }
+    }
 
     struct PartialMove p1moves[10];
     for (int j = 0; j < 10; j++){
@@ -1205,6 +1248,10 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     // printf("\nSorted P1 moves: \n");
     // printArr_PartialMove(p1moves, 10);
     // printf("\n");
+
+    printLua_string(L, "\nSorted P1 Moves: ", "");
+    printArr_PartialMove(L, p1moves, 10);
+
     if (depth == 1){
         return p1moves[9];
     } else {
@@ -1423,6 +1470,8 @@ int run_evaluation(lua_State *L){
         // stack: [ exec_showdown_state, state, inputs, thisInput ]
         
         start_state.game_data[i] = lua_tointeger(L, -1);
+        // printLua(L, "i: ", i);
+        // printLua(L, "Game State: ", start_state.game_data[i]);
 
         lua_remove(L, -1);
         // stack: [ exec_showdown_state, state, inputs ]
@@ -1435,8 +1484,9 @@ int run_evaluation(lua_State *L){
     // stack: [ exec_showdown_state ]
 
     struct Weights my_weights;
-    get_weights(&my_weights);
-    
+    get_weights(L, &my_weights);
+    // print_weights(&my_weights, L);
+    // print_inputs(start_state, L);
 
     // struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
     // get_inputs(my_states);
@@ -1444,8 +1494,7 @@ int run_evaluation(lua_State *L){
     // free(my_states);
 
     struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
-    printf("Best Move, estimate: %f, move: %i\n", bestMove.estimate, bestMove.move);
-    printLua(L, "printed from c function: ", bestMove.move);
+    // printLua_double(L, "Best Move: ", (double)bestMove.move);
 
     return bestMove.move;
 }
@@ -1535,10 +1584,10 @@ int run_evaluation_switch(lua_State *L){
     // stack: [ exec_showdown_state ]
 
     struct Weights my_weights;
-    get_weights(&my_weights);
+    get_weights(L, &my_weights);
     
     struct PartialMove bestSwitch = evaluate_switch_from_partial_start(L, &start_state, &my_weights, 2);
-    printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
+    // printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
 
     return bestSwitch.move;
 }
@@ -1562,23 +1611,28 @@ int get_switch(lua_State *L){
     return 1;
 }
 
-void printLua(lua_State *L, const char *label, int value){
+void printLua_double(lua_State *L, const char *label, double value){
     lua_getglobal(L, "print");
     lua_pushstring(L, label);
     lua_pushnumber(L, value);
     lua_call(L, 2, 0);
 }
 
+void printLua_string(lua_State *L, const char *label, const char *value){
+    lua_getglobal(L, "print");
+    lua_pushstring(L, label);
+    lua_pushstring(L, value);
+    lua_call(L, 2, 0);
+}
+
 int luaopen_processor(lua_State *L){
-
-
-// this code is functional in lua 5.4 but not (as I've learned) lua 5.1
-//   luaL_Reg fns[] = {
-//     {"get_move", get_move},
-//     {"get_switch", get_switch},
-//     {NULL, NULL}
-//   };
-//   luaL_newlib(L, fns);
+    // this code is functional in lua 5.4 but not (as I've learned) lua 5.1
+    //   luaL_Reg fns[] = {
+    //     {"get_move", get_move},
+    //     {"get_switch", get_switch},
+    //     {NULL, NULL}
+    //   };
+    //   luaL_newlib(L, fns);
     lua_newtable(L);
     lua_pushcfunction(L, get_move);
     lua_setfield(L, -2, "get_move");

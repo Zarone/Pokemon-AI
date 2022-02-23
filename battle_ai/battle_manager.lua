@@ -153,12 +153,12 @@ function BattleManager:get_action()
     -- print(processor.get_move(exec_showdown_state, self:getState()))
     -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
     local state = self:getState()
-    -- print("State:", #state[1])
-    local thisMove = processor.get_move(exec_showdown_state, state)
+    -- print("State:", state)
+    local thisMove = processor.get_move(exec_showdown_state, state)+1
     print("making move: ", thisMove)
     returnAction = thisMove
     
-    print("BattleManager:get_action()")
+    -- print("BattleManager:get_action()")
 
     -- self.showdown_instance:write(">p1 move 2\n")
     -- self.showdown_instance:write(">p2 move 4\n")
@@ -337,6 +337,8 @@ function BattleManager:getState()
         -- print("boosts_enemy", #StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1])
         -- print("pokemon array player", #StateReader.get_player_pokemon_array())
         -- print("pokemon array enemy", #StateReader.get_enemy_pokemon_array())
+        
+        -- make sure active pokemon is first pokemon in list
 
         local returnTable = {}
         

@@ -73,6 +73,13 @@ function GameReader:new_active()
     else
         self.active = memory.readbyte(0x02273226)
     end
+
+    -- this doesn't make much logical sense,
+    -- but it gets around out of bounds errors
+    if self.active == 31 then
+        self.active = 1
+    end
+
     print("new active: ", self.active)
     self.player.disabled_move = ""
     self.player.last_move = ""
