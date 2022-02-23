@@ -3122,7 +3122,7 @@ export class Battle {
 						this.sides[thisSide as number].pokemon[i % 6].sethp(
 							Math.round(
 								this.sides[thisSide as number].pokemon[i % 6].maxhp *
-									this.importData[0][id]
+									this.importData[0][id] / 100
 							)
 						);
 

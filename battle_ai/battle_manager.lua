@@ -153,7 +153,7 @@ function BattleManager:get_action()
     -- print(processor.get_move(exec_showdown_state, self:getState()))
     -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
     local state = self:getState()
-    print("State:", state)
+    -- print("State:", #state[1])
     local thisMove = processor.get_move(exec_showdown_state, state)
     print("making move: ", thisMove)
     returnAction = thisMove
@@ -327,16 +327,16 @@ function BattleManager:getState()
             weatherArray[1] = 1
         end
 
-        print("weatherturns", StateReader.get_remaining_weather_turns())
-        print("weather", weatherArray)
-        print("hazards_player", self.game_reader.player.hazards)
-        print("hazards_enemy", self.game_reader.enemy.hazards)
-        print("volatiles_player", self.game_reader.player.volatiles)
-        print("volatiles_enemy", self.game_reader.enemy.volatiles)
-        print("boosts_player", StateReader.get_player_boosts()[self.game_reader.active+1])
-        print("boosts_enemy", StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1])
-        print("pokemon array player", StateReader.get_player_pokemon_array())
-        print("pokemon array enemy", StateReader.get_enemy_pokemon_array())
+        -- print("weatherturns", StateReader.get_remaining_weather_turns())
+        -- print("weather", #weatherArray)
+        -- print("hazards_player", #self.game_reader.player.hazards)
+        -- print("hazards_enemy", #self.game_reader.enemy.hazards)
+        -- print("volatiles_player", #self.game_reader.player.volatiles)
+        -- print("volatiles_enemy", #self.game_reader.enemy.volatiles)
+        -- print("boosts_player", #StateReader.get_player_boosts()[self.game_reader.active+1])
+        -- print("boosts_enemy", #StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1])
+        -- print("pokemon array player", #StateReader.get_player_pokemon_array())
+        -- print("pokemon array enemy", #StateReader.get_enemy_pokemon_array())
 
         local returnTable = {}
         
@@ -344,24 +344,72 @@ function BattleManager:getState()
         returnTable[index] = StateReader.get_remaining_weather_turns()
         index = index + 1
 
-        for i = 0, 4 do
-            returnTable[index+i] = weatherArray[i]
+        for i = 0, 3 do
+            returnTable[index+i] = weatherArray[i+1]
         end
         index = index + 4
 
+        for i = 0, 8 do
+            returnTable[index+i] = self.game_reader.player.hazards[i+1]
+        end
+        index = index + 9
+
+        for i = 0, 8 do
+            returnTable[index+i] = self.game_reader.enemy.hazards[i+1]
+        end
+        index = index + 9
+
+        for i = 0, 13 do
+            returnTable[index+i] = self.game_reader.player.volatiles[i+1]
+        end
+        index = index + 14
+
+        for i = 0, 13 do
+            returnTable[index+i] = self.game_reader.enemy.volatiles[i+1]
+        end
+        index = index + 14
+
+        local boosts_player = StateReader.get_player_boosts()[self.game_reader.active+1]
+        for i = 0, 6 do
+            returnTable[index+i] = boosts_player[i+1]
+        end
+        index = index + 7
+
+        local boosts_enemy = StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1]
+        for i = 0, 6 do
+            returnTable[index+i] = boosts_enemy[i+1]
+        end
+        index = index + 7
+
+        local pokemon_player = StateReader.get_player_pokemon_array()
+        for i = 0, 179 do
+            returnTable[index+i] = pokemon_player[i+1]
+        end
+        index = index + 180
+
+        local pokemon_enemy = StateReader.get_enemy_pokemon_array()
+        for i = 0, 179 do
+            returnTable[index+i] = pokemon_enemy[i+1]
+        end
+        index = index + 180
+
+        -- print("returnTable", returnTable)
+        -- print("len", #returnTable)
+
         return {
-            {
-                StateReader.get_remaining_weather_turns(),
-                unpack(weatherArray),
-                unpack(self.game_reader.player.hazards),
-                unpack(self.game_reader.enemy.hazards),
-                unpack(self.game_reader.player.volatiles),
-                unpack(self.game_reader.enemy.volatiles),
-                unpack(StateReader.get_player_boosts()[self.game_reader.active+1]),
-                unpack(StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1]),
-                unpack(StateReader.get_player_pokemon_array()),
-                unpack(StateReader.get_enemy_pokemon_array())
-            },
+            -- {
+            --     StateReader.get_remaining_weather_turns(),
+            --     unpack(weatherArray),
+            --     unpack(self.game_reader.player.hazards),
+            --     unpack(self.game_reader.enemy.hazards),
+            --     unpack(self.game_reader.player.volatiles),
+            --     unpack(self.game_reader.enemy.volatiles),
+            --     unpack(StateReader.get_player_boosts()[self.game_reader.active+1]),
+            --     unpack(StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1]),
+            --     unpack(StateReader.get_player_pokemon_array()),
+            --     unpack(StateReader.get_enemy_pokemon_array())
+            -- },
+            returnTable,
             "this value",
             self.game_reader.active,
             self.game_reader.enemy_active,
