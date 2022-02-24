@@ -3086,6 +3086,7 @@ export class Battle {
 				}
 
 				this.add("start");
+                
 
 				if (this.format.onBattleStart) this.format.onBattleStart.call(this);
 				for (const rule of this.ruleTable.keys()) {
@@ -3115,7 +3116,7 @@ export class Battle {
 							thisSide = 1;
 						}
 
-						if (this.importData[0][id + 6] == 1) {
+						if (this.importData[0][id + 29] == 1) {
 							this.sides[thisSide as number].pokemon[i % 6].faint();
 						}
 
@@ -3153,66 +3154,6 @@ export class Battle {
 						}
 					}
 				}
-
-				// for (let i = 0; i < 6; i++) {
-				// 	if (i < this.importData.player.statuses[0].length) {
-				// 		if (this.importData.player.health[i] == 0) {
-				// 			this.sides[0].pokemon[i].faint();
-				// 		} else {
-				// 			this.sides[0].pokemon[i].sethp(
-				// 				this.importData.player.health[i]
-				// 			);
-				// 		}
-
-				// 		if (this.importData.player.statuses[0][i][0] == 1) {
-				// 			// paralysis
-				// 			this.sides[0].pokemon[i].setStatus("par");
-				// 		} else if (this.importData.player.statuses[0][i][1] == 1) {
-				// 			// sleep
-				// 			this.sides[0].pokemon[i].setStatus("slp");
-				// 		} else if (this.importData.player.statuses[0][i][2] == 1) {
-				// 			// freeze
-				// 			this.sides[0].pokemon[i].setStatus("frz");
-				// 		} else if (this.importData.player.statuses[0][i][3] == 1) {
-				// 			// burn
-				// 			this.sides[0].pokemon[i].setStatus("brn");
-				// 		} else if (this.importData.player.statuses[0][i][4] > 0) {
-				// 			// poison
-				// 			this.sides[0].pokemon[i].setStatus("psn");
-				// 		}
-				// 	}
-
-				// 	if (i < this.importData.enemy.statuses[0].length) {
-				// 		if (this.importData.enemy.health[i] == 0) {
-				// 			this.sides[1].pokemon[i].faint();
-				// 		} else {
-				// 			this.sides[1].pokemon[i].sethp(
-				// 				this.importData.enemy.health[i]
-				// 			);
-				// 		}
-
-				// 		if (this.importData.enemy.statuses[0][i][0] == 1) {
-				// 			// paralysis
-				// 			this.sides[1].pokemon[i].setStatus("par");
-				// 		} else if (this.importData.enemy.statuses[0][i][1] == 1) {
-				// 			// sleep
-				// 			this.sides[1].pokemon[i].setStatus("slp");
-				// 		} else if (this.importData.enemy.statuses[0][i][2] == 1) {
-				// 			// freeze
-				// 			this.sides[1].pokemon[i].setStatus("frz");
-				// 		} else if (this.importData.enemy.statuses[0][i][3] == 1) {
-				// 			// burn
-				// 			this.sides[1].pokemon[i].setStatus("brn");
-				// 		} else if (this.importData.enemy.statuses[0][i][4] > 0) {
-				// 			// poison
-				// 			if (this.importData.enemy.statuses[0][i][4] == 1) {
-				// 				this.sides[1].pokemon[i].setStatus("psn");
-				// 			} else if (this.importData.enemy.statuses[0][i][4] == 2) {
-				// 				this.sides[1].pokemon[i].setStatus("tox");
-				// 			}
-				// 		}
-				// 	}
-				// }
 
 				for (const side of this.sides) {
 					for (let i = 0; i < side.active.length; i++) {
@@ -3264,33 +3205,6 @@ export class Battle {
 					this.field.setWeather("hail", this.sides[0].active[0]);
 					this.field.weatherState.duration = this.importData[0][0];
 				}
-
-				// if (this.importData.turns_left_of_weather > 5) {
-				// 	this.importData.turns_left_of_weather = 5;
-				// }
-
-				// // set weather
-				// if (this.importData.weather == 4) {
-				// 	//sand
-				// 	this.field.setWeather("Sandstorm", this.sides[0].active[0]);
-				// 	this.field.weatherState.duration =
-				// 		this.importData.turns_left_of_weather;
-				// } else if (this.importData.weather == 3) {
-				// 	//hail
-				// 	this.field.setWeather("hail", this.sides[0].active[0]);
-				// 	this.field.weatherState.duration =
-				// 		this.importData.turns_left_of_weather;
-				// } else if (this.importData.weather == 2) {
-				// 	//rain
-				// 	this.field.setWeather("RainDance", this.sides[0].active[0]);
-				// 	this.field.weatherState.duration =
-				// 		this.importData.turns_left_of_weather;
-				// } else if (this.importData.weather == 1) {
-				// 	// sun
-				// this.field.setWeather("sunnyday", this.sides[0].active[0]);
-				// this.field.weatherState.duration =
-				// 	this.importData.turns_left_of_weather;
-				// }
 
 				let boost1 = {
 					atk: this.importData[0][51],
@@ -3685,7 +3599,7 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-				if (this.turn == 1) {
+                if (this.turn == 1) {
 					for (let i = 0; i < this.importData[0][5]; i++) {
 						this.sides[0].addSideCondition("spikes", "debug");
 					}

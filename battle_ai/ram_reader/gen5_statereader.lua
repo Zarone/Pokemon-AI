@@ -161,6 +161,8 @@ function StateReader.get_player_pokemon_array()
     -- okay so types and stats for this export shouldn't matter I don't think
     -- since showdown doesn't read them
 
+    -- although max hp must be greater than 1 for the way I setup showdown
+
     for i = 1, 6 do
         local isFainted = 0
         if L_healths[i] < 1 then
@@ -170,7 +172,7 @@ function StateReader.get_player_pokemon_array()
         local thisPokemon = {
             L_healths[i],
             -- unpack(L_stats[i]),
-            0, 0, 0, 0, 0, 0,
+            1, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0,
             0, 0, 0, 0, 0,
             0, 0, 0, 0, 0,
@@ -189,10 +191,12 @@ function StateReader.get_enemy_pokemon_array()
     local Pokemon = {}
     local L_healths = StateReader.get_enemy_health()
     -- local L_stats = get_enemy_stats()
-    local L_statuses = StateReader.get_player_status()
+    local L_statuses = StateReader.get_enemy_status()
 
     -- okay so types for this export shouldn't matter I don't think
     -- since showdown doesn't read them
+
+    -- although max hp must be greater than 1 for the way I setup showdown
 
     for i = 1, 6 do
         local isFainted = 0
@@ -203,7 +207,7 @@ function StateReader.get_enemy_pokemon_array()
         local thisPokemon = {
             L_healths[i],
             -- unpack(L_stats[i]),
-            0, 0, 0, 0, 0, 0,
+            1, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0,
             0, 0, 0, 0, 0,
             0, 0, 0, 0, 0,

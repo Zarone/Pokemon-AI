@@ -34,7 +34,7 @@ local was_in_battle = false
 -- end
 
 while true do
-    md.update_map(true)
+    if not is_in_battle then md.update_map(true) end
     controls = joypad.get(1)
     is_text_onscreen = mem.is_dialogue_onscreen()
     is_in_battle = mem.is_in_battle()
@@ -61,13 +61,14 @@ while true do
         text_end = battleState.game_reader:line_text():sub(-6, -1)
 
         if battleState.game_reader.wild_battle and memory.readbyte(0x022DF58E) == 33 then -- if it's asking "switch or run"
+            print("if it's asking switch or run")
             output_manager.press({{{}, 5}, {{
                 A = true
             }, 5}}, 25)
             -- action = battleState:get_switch()
         -- elseif 1 == 0 then -- if forced switch
         elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
-            print("registered forced switch")
+            print("if forced switch")
             is_forced_switch = true
             action = battleState:get_switch()
             if action == 1 then
@@ -130,31 +131,31 @@ while true do
                 is_forced_switch = false
             end
         elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
+            print("if battle is over and money or exp gains are happening, line: ", battleState.game_reader:line_text())
+            output_manager.current_sequence_index = 1
             output_manager.press({
                 {{A = true}, 5}
             }, 25)
         elseif can_move then
+            local initDelay = 10
             action = battleState:act()
+            -- print("Action: ", action)
             if action == 0 then
+                print("reset output manager")
                 output_manager.reset()
             elseif action == 1 then
                 output_manager.press({
-                    {{}, 5},
-                    {{
-                    up = true
-                }, 5}, {{
-                    A = true
-                }, 5}, {{
-                    up = true
-                }, 5}, {{
-                    left = true
-                }, 5}, {{
-                    A = true
-                }, 5}}, 25)
+                    {{}, initDelay},
+                    {{up = true}, 5}, 
+                    {{A = true}, 5}, 
+                    {{up = true}, 5}, 
+                    {{left = true}, 5},
+                    {{A = true}, 5}
+                }, 25)
             elseif action == 2 then
                 output_manager.press(
                 {
-                    {{}, 5},
+                    {{}, initDelay},
                     {{up = true}, 5},
                     {{A = true}, 5},
                     {{up = true}, 5},
@@ -167,7 +168,7 @@ while true do
                 }, 5}}, 25)
             elseif action == 3 then
                 output_manager.press({
-                    {{}, 5},
+                    {{}, initDelay},
                     {{
                     up = true
                 }, 5}, {{
@@ -183,7 +184,7 @@ while true do
                 }, 5}}, 25)
             elseif action == 4 then
                 output_manager.press({
-                    {{}, 5},
+                    {{}, initDelay},
                     {{
                     up = true
                 }, 5}, {{
@@ -200,11 +201,10 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 5 then
-                output_manager.press({{{
-                    up = true
-                }, 5}, {{
-                    down = true
-                }, 5}, {{
+                output_manager.press({
+                    {{}, initDelay},
+                    {{ up = true }, 5}, 
+                {{ down = true }, 5}, {{
                     right = true
                 }, 5}, {{
                     right = true
@@ -216,7 +216,8 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 6 then
-                output_manager.press({{{
+                output_manager.press({
+                    {{}, initDelay},{{
                     up = true
                 }, 5}, {{
                     down = true
@@ -234,7 +235,7 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 7 then
-                output_manager.press({{{
+                output_manager.press({{{}, initDelay},{{
                     up = true
                 }, 5}, {{
                     down = true
@@ -252,7 +253,7 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 8 then
-                output_manager.press({{{
+                output_manager.press({{{}, initDelay},{{
                     up = true
                 }, 5}, {{
                     down = true
@@ -272,7 +273,7 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 9 then
-                output_manager.press({{{
+                output_manager.press({{{}, initDelay},{{
                     up = true
                 }, 5}, {{
                     down = true
@@ -292,7 +293,7 @@ while true do
                     A = true
                 }, 5}}, 25)
             elseif action == 10 then
-                output_manager.press({{{
+                output_manager.press({{{}, initDelay},{{
                     up = true
                 }, 5}, {{
                     down = true

@@ -383,6 +383,20 @@ void print_inputs(struct State my_states, lua_State *L){
     printLua_double(L, "data[2]: ", my_states.game_data[2]);
     printLua_double(L, "data[3]: ", my_states.game_data[3]);
     printLua_double(L, "data[4]: ", my_states.game_data[4]);
+    printLua_double(L, "data[5]: ", my_states.game_data[5]);
+    printLua_double(L, "data[6]: ", my_states.game_data[6]);
+    printLua_double(L, "data[7]: ", my_states.game_data[7]);
+    printLua_double(L, "data[8]: ", my_states.game_data[8]);
+    printLua_double(L, "data[9]: ", my_states.game_data[9]);
+    printLua_double(L, "data[10]: ", my_states.game_data[10]);
+    printLua_double(L, "data[11]: ", my_states.game_data[11]);
+    printLua_double(L, "data[12]: ", my_states.game_data[12]);
+    printLua_double(L, "data[13]: ", my_states.game_data[13]);
+    printLua_double(L, "data[14]: ", my_states.game_data[14]);
+    printLua_double(L, "data[15]: ", my_states.game_data[15]);
+    printLua_double(L, "data[16]: ", my_states.game_data[16]);
+    printLua_double(L, "data[65]: ", my_states.game_data[65]);
+    printLua_double(L, "data[95]: ", my_states.game_data[95]);
     printLua_double(L, "activeP1: ", my_states.activePokemonP1);
     printLua_double(L, "activeP2: ", my_states.activePokemonP2);
     printLua_double(L, "secondaryP1: ", my_states.secondaryP1);
@@ -1089,9 +1103,6 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
             }
         }
     }
-
-
-    
     
     printf("returned blank from evaluate_switch\n");
     struct PartialMove blank;
@@ -1101,6 +1112,8 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 // my_state is intended as a pointer to State object
 struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
         
+    printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
+
     load_showdown_state(L, my_state);
 
     struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
@@ -1179,7 +1192,8 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     mergeSort_PartialMove(p2moves, 0, 9);
 
     // printf("\nSorted P2 moves: \n");
-    printLua_string(L, "\nSorted P2 Moves: ", "");
+    printLua_string(L, "", "");
+    printLua_string(L, "Sorted P2 Moves: ", "");
     printArr_PartialMove(L, p2moves, 10);
     // printf("\n");
 
@@ -1204,7 +1218,8 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     }
 
     // printf("All moves after trim by P2: \n");
-    printLua_string(L, "\nAll moves after trim by P2: ", "");
+    printLua_string(L, "", "");
+    printLua_string(L, "All moves after trim by P2: ", "");
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < TRIM_P2; j++){
             // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
@@ -1249,7 +1264,8 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     // printArr_PartialMove(p1moves, 10);
     // printf("\n");
 
-    printLua_string(L, "\nSorted P1 Moves: ", "");
+    printLua_string(L, "", "");
+    printLua_string(L, "Sorted P1 Moves: ", "");
     printArr_PartialMove(L, p1moves, 10);
 
     if (depth == 1){
@@ -1368,17 +1384,16 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
         activePokemon[i-65] = (*my_state).game_data[i];
     }
 
-    for (int i = 5; i < 25; i++){
+    for (int i = 6; i < 25; i++){
         struct State blank_state;
         blank_state.name[0] = '\0';
         possibleStates[i] = blank_state;
     }
     for (int i = 1; i < 6; i++){
-        struct State new_state;
 
         // copy non-pokemon data from state
         for (int j = 0; j < 65; j++){
-            new_state.game_data[j] = (*my_state).game_data[j];
+            possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
         }
 
         // copy data from the pokemon you're switching to
@@ -1388,10 +1403,18 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
         // that would be in data range [95, 125),
         // so you'd copy that data range in data range [65, 95)
         for (int j = 65+30*i; j < 95+30*i; j++){
-            (*my_state).game_data[j-30*i] = new_state.game_data[j];
+            // (*my_state).game_data[j-30*i] = possibleStates[i-1].game_data[j];
+
+            // printLua_double(L, "Set to: ", )
+
+            possibleStates[i-1].game_data[j-30*i] = possibleStates[i-1].game_data[j];
+
             // now copy stored active pokemon data into that range
-            new_state.game_data[j] = activePokemon[j-65-30*i];
+            possibleStates[i-1].game_data[j] = activePokemon[j-65-30*i];
+            // secondaryP1 is in range [5, 10]
+            possibleStates[i-1].secondaryP1 = i+5;
         }
+        // possibleStates[i-1] = new_state;
     }
 
     return evaluate_switch(L, &possibleStates[0], my_weights, depth);
@@ -1589,7 +1612,9 @@ int run_evaluation_switch(lua_State *L){
     struct PartialMove bestSwitch = evaluate_switch_from_partial_start(L, &start_state, &my_weights, 2);
     // printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
 
-    return bestSwitch.move;
+    printLua_double(L, "Best Switch: ", bestSwitch.move);
+
+    return bestSwitch.move - 4;
 }
 
 // takes arguments [exec_showdown_state, state]

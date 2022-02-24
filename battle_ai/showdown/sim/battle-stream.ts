@@ -125,12 +125,17 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
 	getHazard(hazard: string, side: number) {
 		if (!this.battle?.sides[side].sideConditions[hazard]) {
+            // this.battle?.send("Hazard Info: ", "zero condition reached");
 			return 0;
 		} else if (this.battle?.sides[side].sideConditions[hazard].duration) {
+            this.battle?.send("Hazard Info: ", "duration condition reached");
 			return this.battle?.sides[side].sideConditions[hazard].duration;
 		} else if (this.battle?.sides[side].sideConditions[hazard].layers) {
+            this.battle?.send("Hazard Info: ", "layers condition reached");
 			return this.battle?.sides[side].sideConditions[hazard].layers;
-		}
+		} else {
+            return 1;
+        }
 	}
 
 	statusToArray(status: string) {
@@ -462,7 +467,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			return this.battle?.sides[side].sideConditions[hazard].duration;
 		} else if (this.battle?.sides[side].sideConditions[hazard].layers) {
 			return this.battle?.sides[side].sideConditions[hazard].layers;
-		}
+		} else {
+            return 1;
+        }
 	}
 
 	getVolatilesDebug(side: Side) {

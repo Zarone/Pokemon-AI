@@ -94,13 +94,15 @@ function BattleManager.new()
         game_reader = instance_game_reader,
         IGReader = instance_IGReader,
         showdown_instance = nil,
-        queued_move = nil
+        queued_move = nil,
+        queued_switch = nil
     }, BattleManager)
     return instance
 end
 
 function BattleManager.act(self)
     if self.game_reader:get_line() then
+        self.queued_switch = nil
         return self:act_open()
     else
         self:act_close()
@@ -126,6 +128,7 @@ function BattleManager:act_open()
         end
         Writer.saveTeams(team1, team2)
         self:get_action()
+        return 0
     end 
     return self.queued_move
 end
@@ -157,19 +160,17 @@ function BattleManager:get_action()
     local thisMove = processor.get_move(exec_showdown_state, state)+1
     print("making move: ", thisMove)
     returnAction = thisMove
-    
-    -- print("BattleManager:get_action()")
-
-    -- self.showdown_instance:write(">p1 move 2\n")
-    -- self.showdown_instance:write(">p2 move 4\n")
-    -- self.showdown_instance:write(">p1 move 2\n")
-    -- self.showdown_instance:write(">p2 move 4\n")
 
     self.queued_move = returnAction
 end
 
 function BattleManager:get_switch()
-    return processor.get_switch(exec_showdown_state, self:getState())
+    if self.queued_switch == nil then
+        print("registered forced switch")
+        self.queued_switch = processor.get_switch(exec_showdown_state, self:getState())+1
+        print("new queued switch", self.queued_switch)
+    end
+    return self.queued_switch
 end
 
 function BattleManager:getState()

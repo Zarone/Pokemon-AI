@@ -27,6 +27,8 @@ output_manager.press = function(sequence, time_between_actions)
     else
 
         output_manager.progress_of_output = output_manager.progress_of_output + 1
+        print("sequence", sequence)
+        print("output_manager.current_sequence_index", output_manager.current_sequence_index)
         button_info = sequence[output_manager.current_sequence_index][1]
         joypad.set(0, button_info)
         -- print(button_info)
