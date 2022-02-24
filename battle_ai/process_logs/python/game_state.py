@@ -288,8 +288,12 @@ class GameState:
                 pokemon_string = self.log[i].split(
                     "|")[2].split(":")[1].strip()
 
-                new_hp = self.log[i].split("|")[3].split(
-                    "/")[0].split("fnt")[0].rstrip()
+                new_hp = ""
+                before_slash = self.log[i].split("|")[3]
+                if(before_slash.startswith("0")):
+                    new_hp = "0"
+                else:
+                    new_hp = before_slash.split("/")[0].split("fnt")[0].rstrip()
 
                 if player_string == "p1a":
                     player = 1
@@ -707,9 +711,13 @@ class GameState:
             self.next_line += 1
             if line.startswith("|player"):
                 if(line.split("|")[2] == "p1"):
-                    self.player1name = line.split("|")[3]
+                    this_split = line.split("|")
+                    if len(this_split) > 3:
+                        self.player1name = this_split[3]
                 elif(line.split("|")[2] == "p2"):
-                    self.player2name = line.split("|")[3]
+                    this_split = line.split("|")
+                    if len(this_split) > 3:
+                        self.player2name = this_split[3]
             elif line.startswith("|poke"):
                 split_player = None
 

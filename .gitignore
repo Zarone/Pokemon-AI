@@ -5,7 +5,6 @@ RAM analysis/states/*
 RAM analysis/predict.json
 battle_ai/state_files/last_log.txt
 battle_ai/state_files/processed_logs/*
-battle_ai/state_files/last_log.txt
 battle_ai/state_files/startInfoForShowdown.json
 .vscode/settings.json
 battle_ai/state_files/battleStateForShowdown.json
@@ -13,3 +12,6 @@ battle_ai/state_files/startInfoForShowdown.json
 battle_ai/state_files/battleStatesFromShowdown.txt
 battle_ai/state_files/battleStatesFromShowdown.json
 battle_ai/backprop_ai/build/processor.o
+get_battle_data/old_logs/*
+get_battle_data/raw_logs/*
+get_battle_data/unused_logs/*
