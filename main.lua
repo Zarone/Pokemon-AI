@@ -131,7 +131,7 @@ while true do
                 is_forced_switch = false
             end
         elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
-            print("if battle is over and money or exp gains are happening, line: ", battleState.game_reader:line_text())
+            -- print("if battle is over and money or exp gains are happening, line: ", battleState.game_reader:line_text())
             output_manager.current_sequence_index = 1
             output_manager.press({
                 {{A = true}, 5}

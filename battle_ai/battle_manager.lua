@@ -156,7 +156,7 @@ function BattleManager:get_action()
     -- print(processor.get_move(exec_showdown_state, self:getState()))
     -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
     local state = self:getState()
-    -- print("State:", state)
+    print("State:", state)
     local thisMove = processor.get_move(exec_showdown_state, state)+1
     print("making move: ", thisMove)
     returnAction = thisMove
@@ -167,7 +167,9 @@ end
 function BattleManager:get_switch()
     if self.queued_switch == nil then
         print("registered forced switch")
-        self.queued_switch = processor.get_switch(exec_showdown_state, self:getState())+1
+        local state = self:getState()
+        print(state)
+        self.queued_switch = processor.get_switch(exec_showdown_state, state)+1
         print("new queued switch", self.queued_switch)
     end
     return self.queued_switch

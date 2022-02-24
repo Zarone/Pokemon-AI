@@ -1030,7 +1030,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
             // bestMove is in range [0, 5]
             // P2Moves[0].move is in range [0, 5]
             if ((*(my_state + i)).secondaryP1 == bestMove+5 && (*(my_state + i)).secondaryP1 == P2Moves[0].move){
-                return evaluate_move(L, my_state + i, my_weights, depth-1 );
+                return depth == 1 ? P2Moves[0] : evaluate_move(L, my_state + i, my_weights, depth-1 );
             }
         }
 
@@ -1064,7 +1064,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP1 == P1Moves[5].move+5){
-                return evaluate_move(L, my_state + i, my_weights, depth-1 );
+                return depth == 1 ? P1Moves[5] : evaluate_move(L, my_state + i, my_weights, depth-1 );
             }
         }
     } 
@@ -1099,7 +1099,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP2 == P2Moves[0].move+5){
-                return evaluate_move(L, my_state + i, my_weights, depth-1 );
+                return depth == 1 ? P2Moves[0] : evaluate_move(L, my_state + i, my_weights, depth-1 );
             }
         }
     }
@@ -1391,6 +1391,15 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
     }
     for (int i = 1; i < 6; i++){
 
+        possibleStates[i-1].secondaryP1 = i+5;
+        // I might need to add some way to track activePokemon1, IDK yet
+        possibleStates[i-1].activePokemonP2 = (*my_state).activePokemonP2;
+        // possibleStates[i-1].activePokemonP1 = i;
+        strcpy(possibleStates[i-1].disableMoveP1, (*my_state).disableMoveP1);
+        strcpy(possibleStates[i-1].disableMoveP2, (*my_state).disableMoveP2);
+        strcpy(possibleStates[i-1].encoreMoveP1, (*my_state).encoreMoveP1);
+        strcpy(possibleStates[i-1].encoreMoveP2, (*my_state).encoreMoveP2);
+        
         // copy non-pokemon data from state
         for (int j = 0; j < 65; j++){
             possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
@@ -1403,18 +1412,27 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
         // that would be in data range [95, 125),
         // so you'd copy that data range in data range [65, 95)
         for (int j = 65+30*i; j < 95+30*i; j++){
-            // (*my_state).game_data[j-30*i] = possibleStates[i-1].game_data[j];
+            // copy active data into the slot you're switching to
+            possibleStates[i-1].game_data[j-30*i] = (*my_state).game_data[j];
 
-            // printLua_double(L, "Set to: ", )
-
-            possibleStates[i-1].game_data[j-30*i] = possibleStates[i-1].game_data[j];
-
-            // now copy stored active pokemon data into that range
+            // now copy stored active pokemon data into range of slot your switched out of
             possibleStates[i-1].game_data[j] = activePokemon[j-65-30*i];
             // secondaryP1 is in range [5, 10]
-            possibleStates[i-1].secondaryP1 = i+5;
         }
-        // possibleStates[i-1] = new_state;
+
+        // copy remaining pokemon data
+        for (int j = 95; j < 65+30*i; j++){
+            // printLua_double(L, "i: ", i);
+            // printLua_double(L, "j: ", j);
+            // printLua_double(L, "data: ", (*my_state).game_data[j]);
+            possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
+        }
+        for (int j = 95+30*i; j < 425; j++){
+            // printLua_double(L, "i: ", i);
+            // printLua_double(L, "j: ", j);
+            // printLua_double(L, "data: ", (*my_state).game_data[j]);
+            possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
+        }
     }
 
     return evaluate_switch(L, &possibleStates[0], my_weights, depth);
