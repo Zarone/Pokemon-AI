@@ -55,6 +55,7 @@ struct Move {
 struct PartialMove {
     double estimate;
     int move;
+    char name[20];
 };
 
 // this struct is for storing the "impact" of a single input
@@ -515,11 +516,13 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
             mpack_tag_t inputTag = mpack_read_tag(reader);
 
             state->game_data[i] = mpack_tag_int_value(&inputTag);
+
             // printf("state[%i] = %i\n", i, state->game_data[i]);
         }
         mpack_done_array(reader);
     } else {
         printLua_string(L, "inputsTag of type ", mpack_type_to_string(mpack_tag_type(&inputsTag)));
+        printLua_double(L, "inputsTag of value ", mpack_tag_double_value(&inputsTag));
     }
 
 
@@ -541,6 +544,8 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         // printf("name: %s\n", state->name);
     } else {
         printLua_string(L, "nameTag of type ", mpack_type_to_string(mpack_tag_type(&nameTag)));
+        printLua_double(L, "nameTag of value ", mpack_tag_uint_value(&nameTag));
+        
     }
 
     mpack_tag_t activeP1 = mpack_read_tag(reader);
@@ -719,6 +724,16 @@ void parse_inputs(lua_State *L, mpack_reader_t* reader, int layer, struct State 
         int side2 = 10 - indexes[1];
         int side3 = indexes[2];
 
+        // printLua_double(L, "side1: ", side1);
+        // printLua_double(L, "side2: ", side2);
+        // printLua_double(L, "side3: ", side3);
+        // printLua_double(L, "inputs[0]", myState.game_data[0]);
+        // printLua_double(L, "inputs[1]", myState.game_data[1]);
+        // printLua_double(L, "inputs[2]", myState.game_data[2]);
+        // printLua_double(L, "inputs[3]", myState.game_data[3]);
+        // printLua_double(L, "inputs[4]", myState.game_data[4]);
+        // printLua_string(L, "switch data: ", myState.name);
+
         for (int i = 0; i < 20; i++){
 
             // sets the state[side1][side2][side3]
@@ -799,7 +814,7 @@ double relu_derivative(double a){
     return (a > 0) ? 1 : 0;
 }
 
-#define SPREAD 0.01
+#define SPREAD 0.1
 
 double logistic(double a){
     return 1 / (1 + exp(-SPREAD*(double)a));
@@ -1282,6 +1297,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
     printArr_PartialMove(L, p1moves, 10);
 
     if (depth == 1){
+        strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
         return p1moves[9];
     } else {
         
@@ -1372,6 +1388,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
             if (moveAverageP1/(double)TRIM_P2 > bestMove.estimate){
                 bestMove.estimate = moveAverageP1/(double)TRIM_P2;
                 bestMove.move = moves_filteredP1[i][0].moves[0];
+                strcpy(bestMove.name, (*(my_states + 0*10*25 + moves_filteredP1[i][0].moves[0]*25 + 0) ).name);
             }
         }
         free(my_states);
@@ -1566,6 +1583,13 @@ int run_evaluation(lua_State *L){
 
     struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
     // printLua_double(L, "Best Move: ", (double)bestMove.move);
+    lua_settop(L, 0);
+    // lua_createtable(L);
+    lua_newtable(L);
+    lua_pushinteger(L, bestMove.move);
+    lua_setfield(L, -2, "move");
+    lua_pushstring(L, bestMove.name);
+    lua_setfield(L, -2, "name");
 
     return bestMove.move;
 }
@@ -1669,8 +1693,8 @@ int run_evaluation_switch(lua_State *L){
 int get_move(lua_State *L){
     
     int res = run_evaluation(L);
-    lua_settop(L, 0);
-    lua_pushnumber(L, res);
+    // lua_settop(L, 0);
+    // lua_pushnumber(L, res);
 
     return 1;
 }

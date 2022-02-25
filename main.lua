@@ -71,7 +71,10 @@ while true do
             -- print("if forced switch")
             is_forced_switch = true
             action = battleState:get_switch()
-            if action == 1 then
+            if action == 0 then
+                print("reset output manager")
+                output_manager.reset()
+            elseif action == 1 then
                 output_manager.press({{{}, 5}, {{
                     A = true
                 }, 5}, {{

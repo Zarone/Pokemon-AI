@@ -59,6 +59,7 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance.active = 0
     instance.enemy_active = 0
     instance.wild_battle = wild_battle
+    instance.pokemon_order= {0, 1, 2, 3, 4, 5}
 
     return instance
 end
@@ -68,6 +69,7 @@ function GameReader:new_active()
     -- self.active = memory.readbyte(0x021F44AA)
     -- self.active = memory.readbyte(0x02271CBE)
     -- self.active = memory.readbyte(0x021F44AB)
+
     if self.wild_battle then
         self.active = memory.readbyte(0x022724C8)
     else
@@ -81,6 +83,18 @@ function GameReader:new_active()
     end
 
     print("new active: ", self.active)
+    local temp = self.pokemon_order[1]
+
+    local active_pokemon_slot = nil
+    for i = 1, 6 do
+        if self.active == self.pokemon_order[i] then
+            active_pokemon_slot = i
+            break
+        end
+    end
+
+    self.pokemon_order[1] = self.pokemon_order[active_pokemon_slot]
+    self.pokemon_order[active_pokemon_slot] = temp
     self.player.disabled_move = ""
     self.player.last_move = ""
     self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}

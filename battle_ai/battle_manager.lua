@@ -156,10 +156,28 @@ function BattleManager:get_action()
     -- print(processor.get_move(exec_showdown_state, self:getState()))
     -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
     local state = self:getState()
-    print("State:", state)
-    local thisMove = processor.get_move(exec_showdown_state, state)+1
+    -- print("State:", state)
+    -- print("State Len:", #state)
+    -- print("State[1] Len:", #state[1])
+    local thisMove = processor.get_move(exec_showdown_state, state)
     print("making move: ", thisMove)
-    returnAction = thisMove
+    thisMove.move = thisMove.move + 1
+    
+    -- if it's a switch, make sure you switch to right pokemon
+    -- if thisMove.move > 4 then
+    --     thisMove.move = self.game_reader.pokemon_order[thisMove.move-4] + 5
+    -- end
+    -- print(thisMove)
+    if thisMove.move > 4 then
+        for i = 1, 6 do
+            if (thisMove.move-5) == self.game_reader.pokemon_order[i] then
+                thisMove.move = i+4
+                -- print(i, self.game_reader.pokemon_order[i], thisMove.move-4, thisMove.name)
+                break
+            end
+        end
+    end
+    returnAction = thisMove.move
 
     self.queued_move = returnAction
 end
@@ -168,9 +186,11 @@ function BattleManager:get_switch()
     if self.queued_switch == nil then
         print("registered forced switch")
         local state = self:getState()
-        print(state)
-        self.queued_switch = processor.get_switch(exec_showdown_state, state)+1
+        -- print(state)
+        local thisMove = processor.get_switch(exec_showdown_state, state)+1
+        self.queued_switch = thisMove
         print("new queued switch", self.queued_switch)
+        return 0
     end
     return self.queued_switch
 end
@@ -386,17 +406,21 @@ function BattleManager:getState()
         end
         index = index + 7
 
-        local pokemon_player = StateReader.get_player_pokemon_array()
+        local pokemon_player = StateReader.get_player_pokemon_array(self.game_reader.pokemon_order)
         for i = 0, 179 do
             returnTable[index+i] = pokemon_player[i+1]
         end
         index = index + 180
 
-        local pokemon_enemy = StateReader.get_enemy_pokemon_array()
+        -- print("pokemon_player", pokemon_player)
+
+        local pokemon_enemy = StateReader.get_enemy_pokemon_array(self.game_reader.enemy_active)
         for i = 0, 179 do
             returnTable[index+i] = pokemon_enemy[i+1]
         end
         index = index + 180
+
+        -- print("pokemon_enemy", pokemon_enemy)
 
         -- print("returnTable", returnTable)
         -- print("len", #returnTable)
@@ -415,7 +439,7 @@ function BattleManager:getState()
             --     unpack(StateReader.get_enemy_pokemon_array())
             -- },
             returnTable,
-            "this value",
+            "N/A_s",
             self.game_reader.active,
             self.game_reader.enemy_active,
             self.game_reader.player.encored_move,
@@ -453,11 +477,6 @@ if using_test_data then
     my_battle_manager = BattleManager.new()
     my_battle_manager:act_open()
     my_battle_manager:act_close()
-end
-
-function read_halfword(address)
-    range = memory.readbyterange(address, 2)
-    return range[2] * 256 + range[1]
 end
 
 return BattleManager
