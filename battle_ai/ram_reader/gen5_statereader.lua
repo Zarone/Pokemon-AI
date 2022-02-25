@@ -20,6 +20,10 @@ function boosts_in_battle_slot(num)
     return {atk, def, spa, spd, spe, accuracy, evasion}
 end
 
+function StateReader.get_battle_slot(num)
+    return get_battle_slot(num)
+end
+
 function status_in_battle_slot(num)
     return {
         memory.readbyte(get_battle_slot(num) + 78), -- paralyzed

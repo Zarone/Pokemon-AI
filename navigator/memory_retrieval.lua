@@ -71,4 +71,9 @@ function mem.can_move()
     return memory.readbyteunsigned(0x0224F77D)
 end
 
+-- this is for the team that's displayed when you switch
+function mem.get_displayed_team()
+
+end
+
 return mem

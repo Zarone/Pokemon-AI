@@ -1030,7 +1030,9 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
             // bestMove is in range [0, 5]
             // P2Moves[0].move is in range [0, 5]
             if ((*(my_state + i)).secondaryP1 == bestMove+5 && (*(my_state + i)).secondaryP1 == P2Moves[0].move){
-                return depth == 1 ? P2Moves[0] : evaluate_move(L, my_state + i, my_weights, depth-1 );
+                P2Moves[0].move += 4;
+                if (depth != 1) P2Moves->estimate = evaluate_move(L, my_state + i, my_weights, depth-1 ).estimate;
+                return P2Moves[0];
             }
         }
 
@@ -1041,7 +1043,10 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
         int countP1[] = {0, 0, 0, 0, 0, 0};
 
         for (int i = 0; i < 25; i++){
+            // if the state occurs
             if ( (*(my_state + i) ).name[0] != '\0' ) {
+
+
                 double thisEstimate = feedforward(my_weights, &((*(my_state + i)).game_data));
                 accumulativeP1[(*(my_state + i) ).secondaryP1 - 5] += thisEstimate;
                 countP1[(*(my_state + i) ).secondaryP1 - 5]+=1;
@@ -1056,18 +1061,24 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
             if (countP1[i] > 0){
                 P1Moves[i].estimate = accumulativeP1[i] / countP1[i];
             } else {
+                printLua_double(L, "set to zero: ", i);
                 P1Moves[i].estimate = 0.0;
             }
         }
 
         mergeSort_PartialMove(P1Moves, 0, 5);
+        printLua_string(L, "", "");
+        printLua_string(L, "5 Moves inside of evaluate switch", "");
+        printArr_PartialMove(L, P1Moves, 6);
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP1 == P1Moves[5].move+5){
-                return depth == 1 ? P1Moves[5] : evaluate_move(L, my_state + i, my_weights, depth-1 );
+                P1Moves[5].move += 4;
+                if (depth != 1) P1Moves->estimate = evaluate_move(L, my_state + i, my_weights, depth-1 ).estimate;
+                return P1Moves[5];
             }
         }
-    } 
+    }
     // if only player 2 chooses, they choose the worst option for player 1
     else if ((*my_state).secondaryP2 != 0){
         double accumulativeP2[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
@@ -1099,7 +1110,9 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP2 == P2Moves[0].move+5){
-                return depth == 1 ? P2Moves[0] : evaluate_move(L, my_state + i, my_weights, depth-1 );
+                P2Moves[0].move += 4;
+                if (depth != 1) P2Moves->estimate = evaluate_move(L, my_state + i, my_weights, depth-1 ).estimate;
+                return P2Moves[5];
             }
         }
     }
@@ -1384,25 +1397,41 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
         activePokemon[i-65] = (*my_state).game_data[i];
     }
 
-    for (int i = 6; i < 25; i++){
+    for (int i = 0; i < 25; i++){
         struct State blank_state;
         blank_state.name[0] = '\0';
         possibleStates[i] = blank_state;
     }
-    for (int i = 1; i < 6; i++){
 
-        possibleStates[i-1].secondaryP1 = i+5;
+    int index = 0;
+    for (int i = 0; i < 6; i++){
+
+        printLua_double(L, "i: ", i);
+        printLua_double(L, "HP Active Slot: ", (*my_state).game_data[65+30*i]);
+        if ((*my_state).game_data[65+30*i] == 0) continue;
+
+        // secondaryP2 is in range [5, 10]
+        possibleStates[index].secondaryP1 = i+5;
+
+        possibleStates[index].activePokemonP2 = (*my_state).activePokemonP2;
+        possibleStates[index].name[0] = 'N';
+        possibleStates[index].name[1] = '/';
+        possibleStates[index].name[2] = 'A';
+        
         // I might need to add some way to track activePokemon1, IDK yet
-        possibleStates[i-1].activePokemonP2 = (*my_state).activePokemonP2;
-        // possibleStates[i-1].activePokemonP1 = i;
-        strcpy(possibleStates[i-1].disableMoveP1, (*my_state).disableMoveP1);
-        strcpy(possibleStates[i-1].disableMoveP2, (*my_state).disableMoveP2);
-        strcpy(possibleStates[i-1].encoreMoveP1, (*my_state).encoreMoveP1);
-        strcpy(possibleStates[i-1].encoreMoveP2, (*my_state).encoreMoveP2);
+        if (i == (*my_state).activePokemonP1){
+            possibleStates[index].activePokemonP1 = 0;
+        } else {
+            possibleStates[index].activePokemonP1 = i;
+        }
+        strcpy(possibleStates[index].disableMoveP1, (*my_state).disableMoveP1);
+        strcpy(possibleStates[index].disableMoveP2, (*my_state).disableMoveP2);
+        strcpy(possibleStates[index].encoreMoveP1, (*my_state).encoreMoveP1);
+        strcpy(possibleStates[index].encoreMoveP2, (*my_state).encoreMoveP2);
         
         // copy non-pokemon data from state
         for (int j = 0; j < 65; j++){
-            possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
+            possibleStates[index].game_data[j] = (*my_state).game_data[j];
         }
 
         // copy data from the pokemon you're switching to
@@ -1413,10 +1442,10 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
         // so you'd copy that data range in data range [65, 95)
         for (int j = 65+30*i; j < 95+30*i; j++){
             // copy active data into the slot you're switching to
-            possibleStates[i-1].game_data[j-30*i] = (*my_state).game_data[j];
+            possibleStates[index].game_data[j-30*i] = (*my_state).game_data[j];
 
             // now copy stored active pokemon data into range of slot your switched out of
-            possibleStates[i-1].game_data[j] = activePokemon[j-65-30*i];
+            possibleStates[index].game_data[j] = activePokemon[j-65-30*i];
             // secondaryP1 is in range [5, 10]
         }
 
@@ -1425,14 +1454,15 @@ struct PartialMove evaluate_switch_from_partial_start(lua_State *L, struct State
             // printLua_double(L, "i: ", i);
             // printLua_double(L, "j: ", j);
             // printLua_double(L, "data: ", (*my_state).game_data[j]);
-            possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
+            possibleStates[index].game_data[j] = (*my_state).game_data[j];
         }
         for (int j = 95+30*i; j < 425; j++){
             // printLua_double(L, "i: ", i);
             // printLua_double(L, "j: ", j);
             // printLua_double(L, "data: ", (*my_state).game_data[j]);
-            possibleStates[i-1].game_data[j] = (*my_state).game_data[j];
+            possibleStates[index].game_data[j] = (*my_state).game_data[j];
         }
+        index++;
     }
 
     return evaluate_switch(L, &possibleStates[0], my_weights, depth);
@@ -1627,7 +1657,7 @@ int run_evaluation_switch(lua_State *L){
     struct Weights my_weights;
     get_weights(L, &my_weights);
     
-    struct PartialMove bestSwitch = evaluate_switch_from_partial_start(L, &start_state, &my_weights, 2);
+    struct PartialMove bestSwitch = evaluate_switch_from_partial_start(L, &start_state, &my_weights, 1);
     // printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
 
     printLua_double(L, "Best Switch: ", bestSwitch.move);

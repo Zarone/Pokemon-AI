@@ -455,5 +455,9 @@ if using_test_data then
     my_battle_manager:act_close()
 end
 
+function read_halfword(address)
+    range = memory.readbyterange(address, 2)
+    return range[2] * 256 + range[1]
+end
 
 return BattleManager
