@@ -761,7 +761,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 									// l is player 2 move
 
 									if (k !== 5 || l !== 5) {
-										this.playFromAction(k, j);
+										this.playFromAction(i, j);
 									}
 
 									this._writeLine("p1", `switch ${k - 4}`);

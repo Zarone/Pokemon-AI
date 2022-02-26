@@ -101,7 +101,7 @@ function GameReader:new_active(name_active)
     print("from: ", self.pokemon_order)
     self.pokemon_order[1] = self.pokemon_order[active_pokemon_slot]
     self.pokemon_order[active_pokemon_slot] = temp
-    print(self.pokemon_order)
+    -- print(self.pokemon_order)
     print("to: ", self.pokemon_order)
     self.player.disabled_move = ""
     self.player.last_move = ""
@@ -148,10 +148,10 @@ function GameReader:process_line(line)
         self:new_active(line:sub(12, -2))
         print("new active on line: ", line)
     elseif line:find("Just a little more!", 0) then
-        self:new_active(line:sub(41, -2))
+        self:new_active(line:sub(36, -2))
         print("new active on line: ", line)
     elseif line:find("Your foe's weak!", 0) then
-        self:new_active(line:sub(18, -2))
+        self:new_active(line:sub(27, -2))
         print("new active on line: ", line)
     elseif line:find("sent out", 0) then
         self:new_enemy_active()

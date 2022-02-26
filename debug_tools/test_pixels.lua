@@ -29,7 +29,7 @@ while true do
     -- 120, 155 => {123, 123, 132}
     r4, g4 = gui.getpixel(120, 155)
 
-    local is_in_battle = 
+    local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 115 and g3 == 0 and b3 == 24 and r4 == 123 and g4 == 123)
     print(is_in_battle)
 
     x = 120

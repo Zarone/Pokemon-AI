@@ -814,7 +814,7 @@ double relu_derivative(double a){
     return (a > 0) ? 1 : 0;
 }
 
-#define SPREAD 0.1
+#define SPREAD 0.2
 
 double logistic(double a){
     return 1 / (1 + exp(-SPREAD*(double)a));
@@ -1140,7 +1140,7 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
 // my_state is intended as a pointer to State object
 struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
         
-    printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
+    // printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
 
     load_showdown_state(L, my_state);
 
@@ -1170,6 +1170,11 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
 
                     double estimate = feedforward(my_weights, &((my_states + i*10*25 + j*25 + k)->game_data) );
                     total_estimate+=estimate;
+                    // printLua_string(L, "", "");
+                    // printLua_double(L, "Player 1 Move: ", j);
+                    // printLua_double(L, "Player 2 Move: ", i);
+                    // printLua_double(L, "Outcome #: ", k);
+                    // printLua_double(L, "Estimate: ", estimate);
 
                 } else {
                     if (k > 0){

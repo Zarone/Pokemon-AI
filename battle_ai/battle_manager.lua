@@ -157,6 +157,10 @@ function BattleManager:get_action()
     thisMove.move = thisMove.move + 1
     
     if thisMove.move > 4 then
+        -- 5 means switch to slot 1, 6 means switch to slot 2, etc
+        if thisMove.move-4-1 == self.game_reader.active then
+            thisMove.move = 5
+        end
         for i = 1, 6 do
             if (thisMove.move-5) == self.game_reader.pokemon_order[i] then
                 thisMove.move = i+4
@@ -399,6 +403,7 @@ function BattleManager:getState()
         index = index + 180
 
     
+        print("self.game_reader.active in getState", self.game_reader.active)
         return {
             -- {
             --     StateReader.get_remaining_weather_turns(),

@@ -60,7 +60,12 @@ function mem.is_in_battle()
     -- 120, 155 => {123, 123, 132}
     r4, g4 = gui.getpixel(120, 155)
 
-    local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 115 and g3 == 0 and b3 == 24 and r4 == 123 and g4 == 123)
+    -- 120, 80 => {57, 8, 16}
+    r5, g5, b5 = gui.getpixel(120, 80)
+    -- 120, 125 => {66, 66, 66}
+    r6, g6 = gui.getpixel(120, 125)
+
+    local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 115 and g3 == 0 and b3 == 24 and r4 == 123 and g4 == 123) or (r5 == 57 and g5 == 8 and b5 == 16 and r6 == 66 and g6 == 66)
     
     return is_in_battle
     -- return memory.readbyteunsigned(0x022D5C0B) ~= 0
