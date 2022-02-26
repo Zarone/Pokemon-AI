@@ -1686,7 +1686,7 @@ int run_evaluation_switch(lua_State *L){
 
     printLua_double(L, "Best Switch: ", bestSwitch.move);
 
-    return bestSwitch.move - 4;
+    return bestSwitch.move;
 }
 
 // takes arguments [exec_showdown_state, state]

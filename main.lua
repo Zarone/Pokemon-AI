@@ -42,8 +42,6 @@ while true do
 
     r1, g1, b1 = gui.getpixel(235, 172)
 
-    -- print(is_text_onscreen)
-
     if was_in_battle and not is_in_battle then
         print("battle ended")
         was_in_battle = false
@@ -51,7 +49,6 @@ while true do
     end
 
     if is_in_battle then
-        -- print("is in battle")
         if not was_in_battle then
             print("battle started")
             was_in_battle = true
@@ -66,9 +63,7 @@ while true do
                 A = true
             }, 5}}, 25)
             -- action = battleState:get_switch()
-        -- elseif 1 == 0 then -- if forced switch
         elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
-            -- print("if forced switch")
             is_forced_switch = true
             action = battleState:get_switch()
             if action == 0 then
@@ -134,7 +129,6 @@ while true do
                 is_forced_switch = false
             end
         elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
-            -- print("if battle is over and money or exp gains are happening, line: ", battleState.game_reader:line_text())
             output_manager.current_sequence_index = 1
             output_manager.press({
                 {{A = true}, 5}
@@ -142,7 +136,6 @@ while true do
         elseif can_move then
             local initDelay = 10
             action = battleState:act()
-            -- print("Action: ", action)
             if action == 0 then
                 print("reset output manager")
                 output_manager.reset()

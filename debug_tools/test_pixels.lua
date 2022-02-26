@@ -11,11 +11,33 @@
 -- end
 
 while true do
-    x = 85
-    y = -156
-    print( {gui.getpixel(x, y)} )
-    -- gui.box(x, y, x+5, y+5, {255, 255, 255})
-    -- gui.pixel(x, y, {255, 0, 255})
+
+    -- 20 -150 => { 255, 255, 255 }    
+    r1, g1, b1 = gui.getpixel(20, -150)
+
+    -- okay so a weird potential source of bugs in the future,
+    -- I'm like 40% sure that this g value, the second color
+    -- value in get pixel is occasionally 173. I'm not sure
+    -- so I didn't want to add a condition here, but I feel 
+    -- like I want to make a reminder here.
+
+    -- 85 -156 => { 255, 174, ? }
+    r2, g2 = gui.getpixel(85, -156)
+
+    -- 127, 10 => {115, 0, 24}
+    r3, g3, b3 = gui.getpixel(127, 10)
+    -- 120, 155 => {123, 123, 132}
+    r4, g4 = gui.getpixel(120, 155)
+
+    local is_in_battle = 
+    print(is_in_battle)
+
+    x = 120
+    y = 155
+    -- print( {gui.getpixel(x, y)} )
+    -- gui.box(x, y, x+15, y+15, {255, 255, 255})
+    -- gui.pixel(x, y, {0, 0, 255})
+
     emu.frameadvance()
 end
 

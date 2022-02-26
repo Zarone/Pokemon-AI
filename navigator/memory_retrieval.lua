@@ -44,9 +44,8 @@ function mem.is_dialogue_onscreen()
 end
 
 function mem.is_in_battle()
-    -- 20, -150 => { 255, 255, 255 }
+    -- 20 -150 => { 255, 255, 255 }    
     r1, g1, b1 = gui.getpixel(20, -150)
-
 
     -- okay so a weird potential source of bugs in the future,
     -- I'm like 40% sure that this g value, the second color
@@ -56,12 +55,13 @@ function mem.is_in_battle()
 
     -- 85 -156 => { 255, 174, ? }
     r2, g2 = gui.getpixel(85, -156)
-    -- 120, 80 => {57, 8, 16}
-    r3, g3, b3 = gui.getpixel(120, 80)
-    -- 120, 125 => {66, 66, 66}
-    r4, g4 = gui.getpixel(120, 125)
+    -- 127, 10 => {115, 0, 24}
+    r3, g3, b3 = gui.getpixel(127, 10)
+    -- 120, 155 => {123, 123, 132}
+    r4, g4 = gui.getpixel(120, 155)
 
-    local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 57 and g3 == 8 and b3 == 16 and r4 == 66 and g4 == 66)
+    local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 115 and g3 == 0 and b3 == 24 and r4 == 123 and g4 == 123)
+    
     return is_in_battle
     -- return memory.readbyteunsigned(0x022D5C0B) ~= 0
     -- return memory.readbyteunsigned(0x02122DE6)    
@@ -69,11 +69,6 @@ end
 
 function mem.can_move()
     return memory.readbyteunsigned(0x0224F77D)
-end
-
--- this is for the team that's displayed when you switch
-function mem.get_displayed_team()
-
 end
 
 return mem

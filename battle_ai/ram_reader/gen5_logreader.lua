@@ -64,7 +64,8 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     return instance
 end
 
-function GameReader:new_active()
+function GameReader:new_active(name_active)
+    print(name_active, ": name")
     -- 02271CBE
     -- self.active = memory.readbyte(0x021F44AA)
     -- self.active = memory.readbyte(0x02271CBE)
@@ -76,10 +77,14 @@ function GameReader:new_active()
         self.active = memory.readbyte(0x02273226)
     end
 
-    -- this doesn't make much logical sense,
-    -- but it gets around out of bounds errors
+    -- if the active immedietely faints
+    -- check against nicknames
     if self.active == 31 then
-        self.active = 1
+        for i = 1, 6 do
+            if name_active == self.nicknames[i] then
+                self.active = i-1
+            end
+        end
     end
 
     print("new active: ", self.active)
@@ -93,8 +98,11 @@ function GameReader:new_active()
         end
     end
 
+    print("from: ", self.pokemon_order)
     self.pokemon_order[1] = self.pokemon_order[active_pokemon_slot]
     self.pokemon_order[active_pokemon_slot] = temp
+    print(self.pokemon_order)
+    print("to: ", self.pokemon_order)
     self.player.disabled_move = ""
     self.player.last_move = ""
     self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}
@@ -131,15 +139,20 @@ function GameReader:process_line(line)
     hazard = nil -- 1 is spikes, 2 is toxic spikes, 3 is stealth rocks
     new_hazard = nil
     if line:find("Go!", 0) then
-        self:new_active()
+        self:new_active(line:sub(5, -2))
+        print("new active on line: ", line)
     elseif line:find("You're in charge,", 0) then
-        self:new_active()
+        self:new_active(line:sub(19, -2))
+        print("new active on line: ", line)
     elseif line:find("Go for it,", 0) then
-        self:new_active()
+        self:new_active(line:sub(12, -2))
+        print("new active on line: ", line)
     elseif line:find("Just a little more!", 0) then
-        self:new_active()
+        self:new_active(line:sub(41, -2))
+        print("new active on line: ", line)
     elseif line:find("Your foe's weak!", 0) then
-        self:new_active()
+        self:new_active(line:sub(18, -2))
+        print("new active on line: ", line)
     elseif line:find("sent out", 0) then
         self:new_enemy_active()
     elseif line:sub(0, #self.nicknames[self.active + 1] + 5) == self.nicknames[self.active + 1] .. " used" then

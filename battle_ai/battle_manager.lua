@@ -141,9 +141,7 @@ function BattleManager:act_close()
     return 0
 end
 
-function exec_showdown_state(
-    state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2
-)
+function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2)
     stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
     stateFile:write(
         json.encode({state, "", activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2})
@@ -153,26 +151,15 @@ function exec_showdown_state(
 end
 
 function BattleManager:get_action()
-    -- print(processor.get_move(exec_showdown_state, self:getState()))
-    -- print(processor.get_move(exec_showdown_state, { [1]="ooga" }))
     local state = self:getState()
-    -- print("State:", state)
-    -- print("State Len:", #state)
-    -- print("State[1] Len:", #state[1])
     local thisMove = processor.get_move(exec_showdown_state, state)
     print("making move: ", thisMove)
     thisMove.move = thisMove.move + 1
     
-    -- if it's a switch, make sure you switch to right pokemon
-    -- if thisMove.move > 4 then
-    --     thisMove.move = self.game_reader.pokemon_order[thisMove.move-4] + 5
-    -- end
-    -- print(thisMove)
     if thisMove.move > 4 then
         for i = 1, 6 do
             if (thisMove.move-5) == self.game_reader.pokemon_order[i] then
                 thisMove.move = i+4
-                -- print(i, self.game_reader.pokemon_order[i], thisMove.move-4, thisMove.name)
                 break
             end
         end
@@ -186,8 +173,14 @@ function BattleManager:get_switch()
     if self.queued_switch == nil then
         print("registered forced switch")
         local state = self:getState()
-        -- print(state)
-        local thisMove = processor.get_switch(exec_showdown_state, state)+1
+        local targetSwitchPokemon = processor.get_switch(exec_showdown_state, state)-4
+        local thisMove = nil
+        for i = 1, 6 do
+            if self.game_reader.pokemon_order[i] == targetSwitchPokemon then
+                thisMove = i
+                break
+            end
+        end
         self.queued_switch = thisMove
         print("new queued switch", self.queued_switch)
         return 0
@@ -350,19 +343,6 @@ function BattleManager:getState()
             weatherArray[1] = 1
         end
 
-        -- print("weatherturns", StateReader.get_remaining_weather_turns())
-        -- print("weather", #weatherArray)
-        -- print("hazards_player", #self.game_reader.player.hazards)
-        -- print("hazards_enemy", #self.game_reader.enemy.hazards)
-        -- print("volatiles_player", #self.game_reader.player.volatiles)
-        -- print("volatiles_enemy", #self.game_reader.enemy.volatiles)
-        -- print("boosts_player", #StateReader.get_player_boosts()[self.game_reader.active+1])
-        -- print("boosts_enemy", #StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1])
-        -- print("pokemon array player", #StateReader.get_player_pokemon_array())
-        -- print("pokemon array enemy", #StateReader.get_enemy_pokemon_array())
-        
-        -- make sure active pokemon is first pokemon in list
-
         local returnTable = {}
         
         local index = 1
@@ -412,19 +392,13 @@ function BattleManager:getState()
         end
         index = index + 180
 
-        -- print("pokemon_player", pokemon_player)
-
         local pokemon_enemy = StateReader.get_enemy_pokemon_array(self.game_reader.enemy_active)
         for i = 0, 179 do
             returnTable[index+i] = pokemon_enemy[i+1]
         end
         index = index + 180
 
-        -- print("pokemon_enemy", pokemon_enemy)
-
-        -- print("returnTable", returnTable)
-        -- print("len", #returnTable)
-
+    
         return {
             -- {
             --     StateReader.get_remaining_weather_turns(),
