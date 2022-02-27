@@ -955,7 +955,7 @@ void load_showdown_state(lua_State *L, struct State *state){
 }
 
 
-#define TRIM_P2 2
+#define TRIM_P2 3
 #define TRIM_P1 2
 int matchesP1(int move, struct PartialMove (*sortedMoveList)[10]){
     // return move == (*sortedMoveList)[9].move || move == (*sortedMoveList)[8].move;
@@ -1259,7 +1259,7 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
             // printLua_double(L, "i: ", i);
             // printLua_double(L, "j: ", j);
             printLua_double(L, "move1: ", moves_filteredP2[i][j].moves[0]);
-            // printLua_double(L, "move2: ", moves_filteredP2[i][j].moves[1]);
+            printLua_double(L, "move2: ", moves_filteredP2[i][j].moves[1]);
             printLua_double(L, "estimate: ", moves_filteredP2[i][j].estimate);
 
             // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);

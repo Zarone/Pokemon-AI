@@ -725,6 +725,21 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 					for (let j = 1; j < 11; j++) {
 						// j is player 2 move
 						// i is player 1 move
+                        
+                        let thisOutput: any[] = [];
+                        let thisOutputDebug: any[] = [];
+
+                        if (i == 5 || j == 5){
+                            if (this.nnDebug) {
+                                this.jsonOutput = this.jsonOutput || [];
+                                this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
+                                this.jsonOutput[j - 1][i - 1] = thisOutputDebug;
+                            }
+                            this.msgOutput = this.msgOutput || [];
+                            this.msgOutput[j - 1] = this.msgOutput[j - 1] || [];
+                            this.msgOutput[j - 1][i - 1] = thisOutput;
+                            continue;
+                        }
 
 						this.playFromAction(i, j);
 						this.battle?.sendUpdates();
@@ -732,9 +747,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						if (i > 4) {
 							activeNickname = this.battle?.sides[0].active[0].name;
 						}
-
-						let thisOutput = [];
-						let thisOutputDebug = [];
 
 						// if there's no errors or forced switches
 						if (

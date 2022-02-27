@@ -98,11 +98,11 @@ function GameReader:new_active(name_active)
         end
     end
 
-    print("from: ", self.pokemon_order)
+    -- print("from: ", self.pokemon_order)
     self.pokemon_order[1] = self.pokemon_order[active_pokemon_slot]
     self.pokemon_order[active_pokemon_slot] = temp
     -- print(self.pokemon_order)
-    print("to: ", self.pokemon_order)
+    -- print("to: ", self.pokemon_order)
     self.player.disabled_move = ""
     self.player.last_move = ""
     self.player.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.player.volatiles[11], 0, 0, 0}
@@ -126,7 +126,7 @@ end
 
 function GameReader:new_enemy_active()
     self.enemy_active = memory.readbyte(0x02273229) - 12
-    print("new enemy active: ", self.enemy_active)
+    -- print("new enemy active: ", self.enemy_active)
     self.enemy.disabled_move = ""
     self.enemy.last_move = ""
     self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.enemy.volatiles[11], 0, 0, 0}
