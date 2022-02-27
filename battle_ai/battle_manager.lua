@@ -148,6 +148,7 @@ function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disa
     )
     stateFile:close()
     Writer.exec()
+    emu.frameadvance()
 end
 
 function BattleManager:get_action()

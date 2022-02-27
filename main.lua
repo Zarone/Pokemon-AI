@@ -33,6 +33,13 @@ local was_in_battle = false
 --     loaded_saved_data = nil
 -- end
 
+
+
+-- so when the player is in battle, there's a chance the "is_in_battle"
+-- function returns false for a frame or two. This variable makes sure the battle 
+-- doesn't accidentally end prematurally
+local battle_clock = 0
+
 while true do
     if not is_in_battle then md.update_map(true) end
     controls = joypad.get(1)
@@ -43,14 +50,18 @@ while true do
     r1, g1, b1 = gui.getpixel(235, 172)
 
     if was_in_battle and not is_in_battle then
-        print("battle ended")
-        was_in_battle = false
-        battleState = nil
+        battle_clock = battle_clock + 1
+        if battle_clock > 5 then
+            print("battle ended")
+            was_in_battle = false
+            battleState = nil
+        end
     end
 
     if is_in_battle then
         if not was_in_battle then
             print("battle started")
+            battle_clock = 0
             was_in_battle = true
             battleState = BattleManager.new()
         end

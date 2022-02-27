@@ -956,7 +956,7 @@ void load_showdown_state(lua_State *L, struct State *state){
 
 
 #define TRIM_P2 3
-#define TRIM_P1 2
+#define TRIM_P1 5
 int matchesP1(int move, struct PartialMove (*sortedMoveList)[10]){
     // return move == (*sortedMoveList)[9].move || move == (*sortedMoveList)[8].move;
     
@@ -976,6 +976,8 @@ int matchesP2(int move, struct PartialMove (*sortedMoveList)){
 }
 
 struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth);
+
+#define START_DEPTH 2
 
 // my_state is intented as a pointer to to State array of length 25
 struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth){
@@ -1076,15 +1078,15 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
             if (countP1[i] > 0){
                 P1Moves[i].estimate = accumulativeP1[i] / countP1[i];
             } else {
-                printLua_double(L, "set to zero: ", i);
+                // printLua_double(L, "set to zero: ", i);
                 P1Moves[i].estimate = 0.0;
             }
         }
 
         mergeSort_PartialMove(P1Moves, 0, 5);
-        printLua_string(L, "", "");
-        printLua_string(L, "5 Moves inside of evaluate switch", "");
-        printArr_PartialMove(L, P1Moves, 6);
+        // printLua_string(L, "", "");
+        // printLua_string(L, "5 Moves inside of evaluate switch", "");
+        // printArr_PartialMove(L, P1Moves, 6);
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP1 == P1Moves[5].move+5){
@@ -1121,13 +1123,15 @@ struct PartialMove evaluate_switch(lua_State *L, struct State *my_state, struct 
         }
 
         mergeSort_PartialMove(P2Moves, 0, 5);
+        printLua_string(L, "", "");
+        printLua_string(L, "printArr_PartialMove: ", "");
         printArr_PartialMove(L, P2Moves, 6);
 
         for (int i = 0; i < 25; i++){
             if ((*(my_state + i)).secondaryP2 == P2Moves[0].move+5){
                 P2Moves[0].move += 4;
                 if (depth != 1) P2Moves->estimate = evaluate_move(L, my_state + i, my_weights, depth-1 ).estimate;
-                return P2Moves[5];
+                return P2Moves[0];
             }
         }
     }
@@ -1224,11 +1228,12 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
 
     mergeSort_PartialMove(p2moves, 0, 9);
 
-    // printf("\nSorted P2 moves: \n");
-    printLua_string(L, "", "");
-    printLua_string(L, "Sorted P2 Moves: ", "");
-    printArr_PartialMove(L, p2moves, 10);
-    // printf("\n");
+    // if (depth == START_DEPTH) {
+        printLua_string(L, "", "");
+        printLua_double(L, "DEPTH: ", depth);
+        printLua_string(L, "Sorted P2 Moves: ", "");
+        printArr_PartialMove(L, p2moves, 10);
+    // }
 
     struct Move moves_filteredP2[10][TRIM_P2];
 
@@ -1250,19 +1255,20 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         }
     }
 
-    // printf("All moves after trim by P2: \n");
-    printLua_string(L, "", "");
-    printLua_string(L, "All moves after trim by P2: ", "");
-    for (int i = 0; i < 10; i++){
-        for (int j = 0; j < TRIM_P2; j++){
-            // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
-            // printLua_double(L, "i: ", i);
-            // printLua_double(L, "j: ", j);
-            printLua_double(L, "move1: ", moves_filteredP2[i][j].moves[0]);
-            printLua_double(L, "move2: ", moves_filteredP2[i][j].moves[1]);
-            printLua_double(L, "estimate: ", moves_filteredP2[i][j].estimate);
+    if (depth == START_DEPTH) {
+        printLua_string(L, "", "");
+        printLua_string(L, "All moves after trim by P2: ", "");
+        for (int i = 0; i < 10; i++){
+            for (int j = 0; j < TRIM_P2; j++){
+                // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
+                // printLua_double(L, "i: ", i);
+                // printLua_double(L, "j: ", j);
+                printLua_double(L, "move1: ", moves_filteredP2[i][j].moves[0]);
+                printLua_double(L, "move2: ", moves_filteredP2[i][j].moves[1]);
+                printLua_double(L, "estimate: ", moves_filteredP2[i][j].estimate);
 
-            // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
+                // printf("i: %i, j: %i, move1: %i, move2: %i, estimate: %f, isMulti: %i\n", i, j, moves_filteredP2[i][j].moves[0], moves_filteredP2[i][j].moves[1], moves_filteredP2[i][j].estimate, moves_filteredP2[i][j].isMultiEvent);
+            }
         }
     }
 
@@ -1293,13 +1299,13 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
         p1moves[j].move = j;
     }
     mergeSort_PartialMove(p1moves, 0, 9);
-    // printf("\nSorted P1 moves: \n");
-    // printArr_PartialMove(p1moves, 10);
-    // printf("\n");
 
-    printLua_string(L, "", "");
-    printLua_string(L, "Sorted P1 Moves: ", "");
-    printArr_PartialMove(L, p1moves, 10);
+    // if (depth == START_DEPTH){
+        printLua_string(L, "", "");
+        printLua_double(L, "DEPTH: ", depth);
+        printLua_string(L, "Sorted P1 Moves: ", "");
+        printArr_PartialMove(L, p1moves, 10);
+    // }
 
     if (depth == 1){
         strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
@@ -1341,55 +1347,44 @@ struct PartialMove evaluate_move(lua_State *L, struct State *my_state, struct We
                 if (moves_filteredP1[i][j].isMultiEvent == 0){
                     double last_estimate = moves_filteredP1[i][j].estimate;
 
+                    printLua_string(L, "", "");
+                    printLua_double(L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
+                    printLua_double(L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
+                    printLua_double(L, "From: ", moves_filteredP1[i][j].estimate);
                     moves_filteredP1[i][j].estimate = evaluate_move(L,
                         (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 ),
                         my_weights,
                         depth - 1 
                     ).estimate;
 
-                    // if (moves_filteredP1[i][j].estimate > bestMove.estimate){
-                    //     bestMove.estimate = moves_filteredP1[i][j].estimate;
-                    //     bestMove.move = moves_filteredP1[i][j].moves[0];
-                    // }
                     moveAverageP1 += moves_filteredP1[i][j].estimate;
 
-                    // printf("after evaluate_move, i: %i, j: %i, move1: %i, move2: %i, is multi: %i, estimate: %f to %f\n",
-                    //     i, j, 
-                    //     moves_filteredP1[i][j].moves[0], 
-                    //     moves_filteredP1[i][j].moves[1], 
-                    //     moves_filteredP1[i][j].isMultiEvent,
-                    //     last_estimate,
-                    //     moves_filteredP1[i][j].estimate
-                    // );
+                    printLua_double(L, "To: ", moves_filteredP1[i][j].estimate);
                 } else {
                     double last_estimate = moves_filteredP1[i][j].estimate;
                     struct State* statePointer = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
-                    // printf("move1: %i, move2: %i\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1]);
-                    // printf("state being passed to evaluate switch, secondaryP1: %i, secondaryP2: %i, name: %s\n", statePointer->secondaryP1, statePointer->secondaryP2, statePointer->name);
 
+                    printLua_string(L, "", "");
+                    printLua_double(L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
+                    printLua_double(L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
+                    printLua_double(L, "From: ", moves_filteredP1[i][j].estimate);
                     moves_filteredP1[i][j].estimate = evaluate_switch(L,
                         statePointer,
                         my_weights,
                         depth
                     ).estimate;
 
-                    // if (moves_filteredP1[i][j].estimate > bestMove.estimate){
-                    //     bestMove.estimate = moves_filteredP1[i][j].estimate;
-                    //     bestMove.move = moves_filteredP1[i][j].moves[0];
-                    // }
                     moveAverageP1 += moves_filteredP1[i][j].estimate;
+                    printLua_double(L, "To: ", moves_filteredP1[i][j].estimate);
 
-                    // printf("after evaluate_switch, i: %i, j: %i, move1: %i, move2: %i, is multi: %i, estimate: %f to %f\n",
-                    //     i, j, 
-                    //     moves_filteredP1[i][j].moves[0], 
-                    //     moves_filteredP1[i][j].moves[1], 
-                    //     moves_filteredP1[i][j].isMultiEvent,
-                    //     last_estimate,
-                    //     moves_filteredP1[i][j].estimate
-                    // );
                 }
 
             }
+
+            printLua_string(L, "", "");
+            printLua_double(L, "Move: ", moves_filteredP1[i][0].moves[0]);
+            printLua_double(L, "New Estimate: ", moveAverageP1/(double)TRIM_P2);
+
             if (moveAverageP1/(double)TRIM_P2 > bestMove.estimate){
                 bestMove.estimate = moveAverageP1/(double)TRIM_P2;
                 bestMove.move = moves_filteredP1[i][0].moves[0];
@@ -1586,7 +1581,7 @@ int run_evaluation(lua_State *L){
     // print_inputs(*my_states);
     // free(my_states);
 
-    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, 1);
+    struct PartialMove bestMove = evaluate_move(L, &start_state, &my_weights, START_DEPTH);
     // printLua_double(L, "Best Move: ", (double)bestMove.move);
     lua_settop(L, 0);
     // lua_createtable(L);
