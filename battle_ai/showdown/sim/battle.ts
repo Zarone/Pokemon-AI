@@ -167,9 +167,9 @@ export class Battle {
 	toID = toID;
 	importData: any;
 	startTeam: string[][] = [[], []];
-	constructor(options: BattleOptions) {
+	constructor(options: BattleOptions, key: number) {
 		let data = fs.readFileSync(
-			"./battle_ai/state_files/battleStateForShowdown.json",
+			"./battle_ai/state_files/battleStateForShowdown/"+key,
 			"utf8"
 		);
 
@@ -261,6 +261,7 @@ export class Battle {
 		this.SILENT_FAIL = null;
 
 		this.send = options.send || (() => {});
+        this.send("startState", data);
 
 		const inputOptions: {
 			formatid: ID;
@@ -312,6 +313,8 @@ export class Battle {
 				this.setPlayer(side, options[side]!);
 			}
 		}
+
+        this.send("end of start in battle.ts", "");
 	}
 
 	toJSON(): AnyObject {
@@ -3079,6 +3082,7 @@ export class Battle {
 		const pokemonOriginalHP = action.pokemon?.hp;
 		let residualPokemon: (readonly [Pokemon, number])[] = [];
 		// returns whether or not we ended in a callback
+        this.send("action.choice", action.choice);
 		switch (action.choice) {
 			case "start": {
 				for (const side of this.sides) {

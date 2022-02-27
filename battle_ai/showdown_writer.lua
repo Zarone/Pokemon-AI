@@ -17,7 +17,7 @@ function Writer.saveTeams(team1, team2)
 
 end
 
-function Writer.exec()
+function Writer.exec(key)
 
     instance = setmetatable({}, Writer)
     -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
@@ -28,7 +28,7 @@ function Writer.exec()
     -- windows: 
     -- SHOWDOWN_FILE = "node ./showdown/pokemon-showdown"
 
-    showdown_init = sf("%s simulate-battle", SHOWDOWN_FILE)
+    showdown_init = sf("%s simulate-battle -"..key, SHOWDOWN_FILE)
                 
     -- print("running ", showdown_init )
     instance.ps_stream = io.popen(showdown_init, "w")

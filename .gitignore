@@ -15,3 +15,7 @@ battle_ai/backprop_ai/build/processor.o
 get_battle_data/old_logs/*
 get_battle_data/raw_logs/*
 get_battle_data/unused_logs/*
+battle_ai/state_files/battleStateForShowdown/*
+battle_ai/state_files/battleStatesFromShowdown/*
+battle_ai/state_files/battleStatesFromShowdownJSON/*
+.vscode/*

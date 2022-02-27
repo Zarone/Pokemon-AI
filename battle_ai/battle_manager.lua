@@ -141,13 +141,13 @@ function BattleManager:act_close()
     return 0
 end
 
-function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2)
-    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown.json", "w")
+function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2, key)
+    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown/"..key, "w")
     stateFile:write(
         json.encode({state, "", activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2})
     )
     stateFile:close()
-    Writer.exec()
+    Writer.exec(key)
     emu.frameadvance()
 end
 
