@@ -555,7 +555,6 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         printLua_double(L, "error reading activeP1: ", mpack_reader_error(reader));
         return;
     }
-
     if (mpack_tag_type(&activeP1) == mpack_type_uint){
         if ( reader->error && mpack_ok && mpack_reader_error(reader) != mpack_ok){
             printLua_double(L, "error reading string in activeP1: ",  (*reader).error);
@@ -945,6 +944,39 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
    // potential C Code
    /*
 
+    // encode to memory buffer
+    char* data;
+    mpack_writer_t writer;
+    mpack_writer_init_growable(&writer, &data, &size);
+    
+    // write the example on the msgpack homepage
+    mpack_start_array(&writer, 10);
+
+    mpack_start_array(&writer, 425);
+
+    for (int i = 0; i < 425; i++){
+        mpack_write_int(&writer, state->game_data[i]);
+    }
+    mpack_finish_array(&writer);
+
+    mpack_write_str(&writer, "", 1);
+    mpack_write_uint(&writer, state->activePokemonP1)
+    mpack_write_uint(&writer, state->activePokemonP2)
+    mpack_write_str(&writer, state->encoreMoveP1, 20)
+    mpack_write_str(&writer, state->encoreMoveP2, 20)
+    mpack_write_str(&writer, state->disableMoveP1, 20)
+    mpack_write_str(&writer, state->disableMoveP2, 20)
+    mpack_write_uint(&writer, state->secondaryP1)
+    mpack_write_uint(&writer, state->secondaryP2)
+
+    mpack_finish_array(&writer);
+    
+    // finish writing
+    if (mpack_writer_destroy(&writer) != mpack_ok) {
+        fprintf(stderr, "An error occurred encoding the data!\n");
+        return;
+    }
+
     char stringKey[3];
     sprintf(stringKey, "%d", key);  
     
@@ -954,7 +986,7 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
         printf("file can't be opened\n");
         exit(1);
     }
-    fprintf(fp, json);
+    fprintf(fp, data);
     fclose(fp);
    
     char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
