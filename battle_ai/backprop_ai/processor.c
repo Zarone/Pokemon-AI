@@ -923,6 +923,46 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 
 void load_showdown_state(lua_State *L, struct State *state, int key){
 
+    // instead of doing this, i can probably execute this whole thing in C
+    
+    // original Lua Code
+    /*
+    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown/"..key, "w")
+    stateFile:write(
+        json.encode({state, "", activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2})
+    )
+    stateFile:close()
+
+    showdown_init = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -"..key
+                
+    -- print("running ", showdown_init )
+    instance.ps_stream = io.popen(showdown_init, "w")
+    instance.ps_stream:close()
+    print("Stream Closed")    
+    emu.frameadvance()  
+    */
+
+   // potential C Code
+   /*
+
+    char stringKey[3];
+    sprintf(stringKey, "%d", key);  
+    
+    fp = fopen("./battle_ai/state_files/battleStateForShowdown/"..key, "w");
+ 
+    if(fp == NULL) {
+        printf("file can't be opened\n");
+        exit(1);
+    }
+    fprintf(fp, json);
+    fclose(fp);
+   
+    char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
+    strcat(process, stringKey);
+    system(process);
+
+   */
+
 
     lua_createtable(L, L1, 0);
 
