@@ -25,6 +25,9 @@ import { BattleQueue, Action } from "./battle-queue";
 import { BattleActions } from "./battle-actions";
 import { Utils } from "../lib";
 import { timingSafeEqual } from "crypto";
+
+let msgpack = require("@msgpack/msgpack");
+
 declare const __version: any;
 
 let fs = require("fs");
@@ -169,12 +172,16 @@ export class Battle {
 	startTeam: string[][] = [[], []];
 	constructor(options: BattleOptions, key: number) {
 		let data = fs.readFileSync(
-			"./battle_ai/state_files/battleStateForShowdown/"+key,
+			"./battle_ai/state_files/battleStateForShowdown/" + key,
 			"utf8"
 		);
 
 		// parse JSON string to JSON object
-		const databases = JSON.parse(data);
+
+		// const databases = JSON.parse(data);
+
+		const databases = msgpack.decode(data);
+
 		this.importData = databases;
 
 		this.log = [];
@@ -261,7 +268,7 @@ export class Battle {
 		this.SILENT_FAIL = null;
 
 		this.send = options.send || (() => {});
-        this.send("startState", data);
+		this.send("startState", data);
 
 		const inputOptions: {
 			formatid: ID;
@@ -314,7 +321,7 @@ export class Battle {
 			}
 		}
 
-        this.send("end of start in battle.ts", "");
+		this.send("end of start in battle.ts", "");
 	}
 
 	toJSON(): AnyObject {
@@ -3082,7 +3089,7 @@ export class Battle {
 		const pokemonOriginalHP = action.pokemon?.hp;
 		let residualPokemon: (readonly [Pokemon, number])[] = [];
 		// returns whether or not we ended in a callback
-        this.send("action.choice", action.choice);
+		this.send("action.choice", action.choice);
 		switch (action.choice) {
 			case "start": {
 				for (const side of this.sides) {
@@ -3090,7 +3097,6 @@ export class Battle {
 				}
 
 				this.add("start");
-                
 
 				if (this.format.onBattleStart) this.format.onBattleStart.call(this);
 				for (const rule of this.ruleTable.keys()) {
@@ -3126,8 +3132,9 @@ export class Battle {
 
 						this.sides[thisSide as number].pokemon[i % 6].sethp(
 							Math.round(
-								this.sides[thisSide as number].pokemon[i % 6].maxhp *
-									this.importData[0][id] / 100
+								(this.sides[thisSide as number].pokemon[i % 6].maxhp *
+									this.importData[0][id]) /
+									100
 							)
 						);
 
@@ -3603,7 +3610,7 @@ export class Battle {
 				break;
 
 			case "beforeTurn":
-                if (this.turn == 1) {
+				if (this.turn == 1) {
 					for (let i = 0; i < this.importData[0][5]; i++) {
 						this.sides[0].addSideCondition("spikes", "debug");
 					}
