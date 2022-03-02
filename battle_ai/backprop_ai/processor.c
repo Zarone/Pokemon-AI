@@ -949,7 +949,6 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     mpack_writer_t writer;
     mpack_writer_init_growable(&writer, &data, &size);
     
-    // write the example on the msgpack homepage
     mpack_start_array(&writer, 10);
 
     mpack_start_array(&writer, 425);
@@ -960,14 +959,14 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     mpack_finish_array(&writer);
 
     mpack_write_str(&writer, "", 1);
-    mpack_write_uint(&writer, state->activePokemonP1)
-    mpack_write_uint(&writer, state->activePokemonP2)
-    mpack_write_str(&writer, state->encoreMoveP1, 20)
-    mpack_write_str(&writer, state->encoreMoveP2, 20)
-    mpack_write_str(&writer, state->disableMoveP1, 20)
-    mpack_write_str(&writer, state->disableMoveP2, 20)
-    mpack_write_uint(&writer, state->secondaryP1)
-    mpack_write_uint(&writer, state->secondaryP2)
+    mpack_write_uint(&writer, state->activePokemonP1);
+    mpack_write_uint(&writer, state->activePokemonP2);
+    mpack_write_str(&writer, state->encoreMoveP1, 20);
+    mpack_write_str(&writer, state->encoreMoveP2, 20);
+    mpack_write_str(&writer, state->disableMoveP1, 20);
+    mpack_write_str(&writer, state->disableMoveP2, 20);
+    mpack_write_uint(&writer, state->secondaryP1);
+    mpack_write_uint(&writer, state->secondaryP2);
 
     mpack_finish_array(&writer);
     
@@ -978,10 +977,12 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     }
 
     char stringKey[3];
-    sprintf(stringKey, "%d", key);  
+    sprintf(stringKey, "%d", key);
     
-    fp = fopen("./battle_ai/state_files/battleStateForShowdown/"..key, "w");
- 
+    char directory[] = "./battle_ai/state_files/battleStateForShowdown/";
+    strcat(directory, stringKey);
+    fp = fopen(directory, "w");
+
     if(fp == NULL) {
         printf("file can't be opened\n");
         exit(1);
