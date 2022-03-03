@@ -324,6 +324,8 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 >p1 team 123456
 >p2 team 123456
 >run-all`);
+                console.log("end of showdown")
+                process.exit(1)
 			}
 			break;
 		case "unpack-team":

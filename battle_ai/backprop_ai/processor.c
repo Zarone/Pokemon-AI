@@ -942,11 +942,12 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     */
 
    // potential C Code
-   /*
+   
 
     // encode to memory buffer
     char* data;
     mpack_writer_t writer;
+    size_t size;
     mpack_writer_init_growable(&writer, &data, &size);
     
     mpack_start_array(&writer, 10);
@@ -961,10 +962,10 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     mpack_write_str(&writer, "", 1);
     mpack_write_uint(&writer, state->activePokemonP1);
     mpack_write_uint(&writer, state->activePokemonP2);
-    mpack_write_str(&writer, state->encoreMoveP1, 20);
-    mpack_write_str(&writer, state->encoreMoveP2, 20);
-    mpack_write_str(&writer, state->disableMoveP1, 20);
-    mpack_write_str(&writer, state->disableMoveP2, 20);
+    mpack_write_str(&writer, state->encoreMoveP1, strlen(state->encoreMoveP1));
+    mpack_write_str(&writer, state->encoreMoveP2, strlen(state->encoreMoveP2));
+    mpack_write_str(&writer, state->disableMoveP1, strlen(state->disableMoveP1));
+    mpack_write_str(&writer, state->disableMoveP2, strlen(state->disableMoveP2));
     mpack_write_uint(&writer, state->secondaryP1);
     mpack_write_uint(&writer, state->secondaryP2);
 
@@ -981,57 +982,59 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     
     char directory[] = "./battle_ai/state_files/battleStateForShowdown/";
     strcat(directory, stringKey);
+    FILE * fp;
     fp = fopen(directory, "w");
 
     if(fp == NULL) {
         printf("file can't be opened\n");
         exit(1);
     }
-    fprintf(fp, data);
+    // fprintf(fp, "data");
+    fwrite(data, size, 1, fp);
     fclose(fp);
    
     char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
     strcat(process, stringKey);
     system(process);
+    lua_call(L, 0, 0);
+    lua_getglobal(L, "frame");
+   
+    // lua_createtable(L, L1, 0);
 
-   */
+    // // stack
+    // // [ exec_showdown_state, {} ]
 
+    // for (int i = 0; i < L1; i++){
 
-    lua_createtable(L, L1, 0);
+    //     lua_pushinteger(L, i+1);
+    //     // stack
+    //     // [ exec_showdown_state, {}, i+1 ]
 
-    // stack
-    // [ exec_showdown_state, {} ]
+    //     lua_pushinteger(L, state->game_data[i]);
+    //     // stack
+    //     // [ exec_showdown_state, {}, i+1, state->game_data[i] ]
 
-    for (int i = 0; i < L1; i++){
-
-        lua_pushinteger(L, i+1);
-        // stack
-        // [ exec_showdown_state, {}, i+1 ]
-
-        lua_pushinteger(L, state->game_data[i]);
-        // stack
-        // [ exec_showdown_state, {}, i+1, state->game_data[i] ]
-
-        lua_settable(L, -3);
+    //     lua_settable(L, -3);
     
-    }
+    // }
 
 
-    // stack
-    // [ exec_showdown_state, { ... } ]
+    // // stack
+    // // [ exec_showdown_state, { ... } ]
 
-    lua_pushinteger(L, state->activePokemonP1);
-    lua_pushinteger(L, state->activePokemonP2);
-    lua_pushstring(L, state->encoreMoveP1);
-    lua_pushstring(L, state->encoreMoveP2);
-    lua_pushstring(L, state->disableMoveP1);
-    lua_pushstring(L, state->disableMoveP2);
-    lua_pushinteger(L, state->secondaryP1);
-    lua_pushinteger(L, state->secondaryP2);
-    lua_pushinteger(L, key);
+    // lua_pushinteger(L, state->activePokemonP1);
+    // lua_pushinteger(L, state->activePokemonP2);
+    // lua_pushstring(L, state->encoreMoveP1);
+    // lua_pushstring(L, state->encoreMoveP2);
+    // lua_pushstring(L, state->disableMoveP1);
+    // lua_pushstring(L, state->disableMoveP2);
+    // lua_pushinteger(L, state->secondaryP1);
+    // lua_pushinteger(L, state->secondaryP2);
+    // lua_pushinteger(L, key);
 
-    lua_call(L, 10, 0);
-    lua_getglobal(L, "exec_showdown_state");
+    // lua_call(L, 10, 0);
+    // lua_getglobal(L, "exec_showdown_state");
+
 }
 
 

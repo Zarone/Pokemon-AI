@@ -1,5 +1,10 @@
 using_test_data = false
 
+params = {...}
+if params[1] == "debug" then
+    using_test_data = true
+end
+
 json = require "lunajson"
 
 Writer = require "./battle_ai/showdown_writer"
@@ -122,8 +127,9 @@ function BattleManager:act_open()
 
         if not using_test_data then
             team1, team2 = BattleManager.get_teams_packed(self.IGReader)
+            -- print(team1, team2)
         else
-            team1 = "Mew2|Mewtwo|none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|72,,]Nidoqueen||none|Poison Point|toxicspikes,superpower,earthpower,furyswipes|Sassy|85,85,85,85,85,85||31,31,31,31,31,31||100|76,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|72,,]Hydreigon||Choice Specs|Levitate|dracometeor,fly,darkpulse,focusblast|Timid|6,0,0,252,0,252||31,31,31,31,31,31||100|255,," 
+            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|74,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
             team2 = "Cofagrigus||none|Mummy|shadowball,psychic,willowisp,energyball|Sassy|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Jellicent||none|Cursed Body|shadowball,psychic,hydropump,sludgewave|Careful|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Froslass||none|Snow Cloak|shadowball,psychic,blizzard,iceshard|Impish|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Drifblim||none|Aftermath|shadowball,psychic,acrobatics,thunder|Quirky|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Golurk||none|Iron Fist|shadowpunch,earthquake,hammerarm,curse|Jolly|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Chandelure||none|Flame Body|shadowball,psychic,fireblast,payback|Calm|0,0,0,0,0,0||30,30,30,30,30,30||73|255,,"
         end
         Writer.saveTeams(team1, team2)
@@ -141,6 +147,11 @@ function BattleManager:act_close()
     return 0
 end
 
+-- this function is only meant to be called by C
+function frame()
+    emu.frameadvance()
+end
+
 function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2, key)
     stateFile = io.open("./battle_ai/state_files/battleStateForShowdown/"..key, "w")
     stateFile:write(
@@ -153,7 +164,7 @@ end
 
 function BattleManager:get_action()
     local state = self:getState()
-    local thisMove = processor.get_move(exec_showdown_state, state)
+    local thisMove = processor.get_move(frame, state)
     print("making move: ", thisMove)
     thisMove.move = thisMove.move + 1
     
@@ -178,7 +189,7 @@ function BattleManager:get_switch()
     if self.queued_switch == nil then
         print("registered forced switch")
         local state = self:getState()
-        local targetSwitchPokemon = processor.get_switch(exec_showdown_state, state)-4
+        local targetSwitchPokemon = processor.get_switch(frame, state)-4
         local thisMove = nil
         for i = 1, 6 do
             if self.game_reader.pokemon_order[i] == targetSwitchPokemon then

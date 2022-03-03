@@ -173,16 +173,13 @@ export class Battle {
 	constructor(options: BattleOptions, key: number) {
 		let data = fs.readFileSync(
 			"./battle_ai/state_files/battleStateForShowdown/" + key,
-			"utf8"
+			// "utf8"
 		);
 
 		// parse JSON string to JSON object
 
 		// const databases = JSON.parse(data);
 
-		const databases = msgpack.decode(data);
-
-		this.importData = databases;
 
 		this.log = [];
 		this.add("t:", Math.floor(Date.now() / 1000));
@@ -268,7 +265,17 @@ export class Battle {
 		this.SILENT_FAIL = null;
 
 		this.send = options.send || (() => {});
-		this.send("startState", data);
+		// this.send("startState", data);
+		// console.log("data", data)
+        let databases;
+        try {
+            databases = msgpack.decode(data);
+            // console.log("no error", databases)
+        } catch(error: any){
+            console.log("error", error);
+        }
+		this.importData = databases;
+
 
 		const inputOptions: {
 			formatid: ID;
@@ -3130,6 +3137,7 @@ export class Battle {
 							this.sides[thisSide as number].pokemon[i % 6].faint();
 						}
 
+                        // console.log(i)
 						this.sides[thisSide as number].pokemon[i % 6].sethp(
 							Math.round(
 								(this.sides[thisSide as number].pokemon[i % 6].maxhp *
@@ -3352,7 +3360,8 @@ export class Battle {
 						this.importData[0][31];
 				}
 				if (this.importData[0][32] != 0) {
-					this.sides[0].active[0].lastMove = {
+					console.log(this.importData[4])
+                    this.sides[0].active[0].lastMove = {
 						id: this.importData[4] as ID,
 					} as ActiveMove;
 					this.sides[0].active[0].addVolatile("encore");
