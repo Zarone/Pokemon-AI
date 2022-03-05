@@ -8,6 +8,7 @@
 #include "helper/helper.h"
 #include <string.h>
 #include <pthread.h>
+#include <Windows.h>
 
 #define LAYERS 4
 
@@ -981,9 +982,34 @@ void load_showdown_state(struct State *state, int key){
     fwrite(data, size, 1, fp);
     fclose(fp);
    
-    char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
+    char process[] = "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/Zachary Alfano/Code/Pokemon Bot/battle_ai/showdown/pokemon-showdown\" simulate-battle -";
     strcat(process, stringKey);
-    system(process);
+    // system(process);
+    // WinExec(process, SW_HIDE);
+    STARTUPINFO si;
+    PROCESS_INFORMATION pi;
+
+    ZeroMemory(&si, sizeof(si));
+    si.cb = sizeof(si);
+    ZeroMemory(&pi, sizeof(pi));
+
+    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    {
+        WaitForSingleObject(pi.hProcess, INFINITE);
+        CloseHandle(pi.hProcess);
+        CloseHandle(pi.hThread);
+    } else {
+        printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    }
+
+    // if (CreateProcessW(NULL, (LPWSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    // {
+    //     WaitForSingleObject(pi.hProcess, INFINITE);
+    //     CloseHandle(pi.hProcess);
+    //     CloseHandle(pi.hThread);
+    // } else {
+    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    // }
 
     // pthread_mutex_lock(&lock);
     // lua_call(L, 0, 0);
