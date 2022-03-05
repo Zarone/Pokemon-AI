@@ -149,12 +149,10 @@ end
 
 -- this function is only meant to be called by C
 function frame()
-    for i = 0, 1 do
-        if not using_test_data then
-            emu.frameadvance()
-        end
-        print("frame "..i)
+    if not using_test_data then
+        emu.frameadvance()
     end
+    print("Skipping Frame")
 end
 
 function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2, key)
@@ -173,7 +171,7 @@ function BattleManager:get_action()
     print("making move: ", thisMove)
     thisMove.move = thisMove.move + 1
     
-    if thisMove.move > 4 then
+    if not using_test_data and thisMove.move > 4 then
         -- 5 means switch to slot 1, 6 means switch to slot 2, etc
         if thisMove.move-4-1 == self.game_reader.active then
             thisMove.move = 5

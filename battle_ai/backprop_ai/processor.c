@@ -930,7 +930,7 @@ void frameSkip(lua_State *L){
     lua_getglobal(L, "frame");
 }
 
-void load_showdown_state(lua_State *L, struct State *state, int key){
+void load_showdown_state(struct State *state, int key){
 
     // encode to memory buffer
     char* data;
@@ -1275,15 +1275,14 @@ void *evaluate_move(void *rawArgs ){
     // printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
 
-    pthread_mutex_lock(&lock);
+
+    if (args->depth != START_DEPTH){ pthread_mutex_lock(&lock); }
     key++;
     int thisKey = key;
-    // if (args->depth != START_DEPTH){
-    //     printf("new thread with key %i\n", thisKey);
-    // }
-    pthread_mutex_unlock(&lock);
+    if (args->depth != START_DEPTH){ pthread_mutex_unlock(&lock); }
     
-    load_showdown_state(args->L, args->my_state, key);
+    
+    load_showdown_state(args->my_state, key);
 
     struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
 
