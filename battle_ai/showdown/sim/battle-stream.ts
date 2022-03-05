@@ -1008,7 +1008,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
                 // this.battle?.send("data", "here writing output 3");
 
 
-				console.log("Saved Showdown Simulation");
+				// console.log("Saved Showdown Simulation");
 				return true;
 			// break;
 			case "forcewin":

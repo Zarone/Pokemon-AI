@@ -7,7 +7,7 @@
 #include <math.h>
 #include "helper/helper.h"
 #include <string.h>
-// #include <pthread.h>
+#include <pthread.h>
 
 #define LAYERS 4
 
@@ -72,7 +72,7 @@ struct Input {
     double input_val;
 };
 
-
+pthread_mutex_t lock;
 
 // this function prints directly to lua
 // this is helpful because the emulator
@@ -582,7 +582,7 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         state->activePokemonP2 = tag_value;
         // printf("activeP2: %i\n", state->activePokemonP2);
     } else {
-        printf("I've misunderstood activeP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&activeP2)), mpack_tag_uint_value(&activeP2));
+        printf("Error activeP2 type, it's actually of type %s\n", mpack_type_to_string(mpack_tag_type(&activeP2)));
     }
 
     mpack_tag_t encoreP1 = mpack_read_tag(reader);
@@ -602,7 +602,7 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         }
         // printf("encoreP1: %s\n", state->encoreMoveP1);
     } else {
-        printf("I've misunderstood encoreP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&encoreP1)), mpack_tag_uint_value(&encoreP1));
+        printf("I've misunderstood encoreP1, it's actually of type %s\n", mpack_type_to_string(mpack_tag_type(&encoreP1)));
     }
 
     mpack_tag_t encoreP2 = mpack_read_tag(reader);
@@ -622,7 +622,7 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         }
         // printf("encoreP2: %s\n", state->encoreMoveP2);
     } else {
-        printf("I've misunderstood encoreP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&encoreP2)), mpack_tag_uint_value(&encoreP2));
+        printf("I've misunderstood encoreP2, it's actually of type %s\n", mpack_type_to_string(mpack_tag_type(&encoreP2)));
     }
 
 
@@ -643,7 +643,7 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         }
         // printf("disableP1: %s\n", state->encoreMoveP2);
     } else {
-        printf("I've misunderstood disableP1, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP1)), mpack_tag_uint_value(&disableP1));
+        printf("I've misunderstood disableP1, it's actually of type %s\n", mpack_type_to_string(mpack_tag_type(&disableP1)));
     }
 
     mpack_tag_t disableP2 = mpack_read_tag(reader);
@@ -663,7 +663,7 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         }
         // printf("disableP2: %s\n", state->encoreMoveP2);
     } else {
-        printf("I've misunderstood disableP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&disableP2)), mpack_tag_uint_value(&disableP2));
+        printf("I've misunderstood disableP2, it's actually of type %s\n", mpack_type_to_string(mpack_tag_type(&disableP2)));
     }
 
     mpack_tag_t secondaryP1 = mpack_read_tag(reader);
@@ -698,7 +698,7 @@ void parse_state(lua_State *L, mpack_reader_t* reader, struct State *state){
         state->secondaryP2 = tag_value;
         // printf("secondaryP2: %i\n", state->secondaryP2);
     } else {
-        printf("I've misunderstood secondaryP2, it's actually of type %s and has value %llu\n", mpack_type_to_string(mpack_tag_type(&secondaryP2)), mpack_tag_uint_value(&secondaryP2));
+        printf("I've misunderstood secondaryP2, it's actually of type %s\n", mpack_type_to_string(mpack_tag_type(&secondaryP2)));
     }
 }
 
@@ -793,7 +793,12 @@ int get_inputs(lua_State *L, struct State *my_states, int currentKey){
 
     char filename[60] = "./battle_ai/state_files/battleStatesFromShowdown/";
     strcat(filename, stringKey);
-    printLua_string(L, "checking file path: ", filename);
+
+    // pthread_mutex_lock(&lock);
+    // printf("checking file path %s\n", filename);
+    // printLua_string(L, "checking file path: ", filename);
+    // pthread_mutex_unlock(&lock);
+
     mpack_reader_init_filename(&reader, filename);
 
     if (mpack_reader_error(&reader) != mpack_ok){
@@ -920,29 +925,12 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
 #endif
 }
 
+void frameSkip(lua_State *L){
+    lua_call(L, 0, 0);
+    lua_getglobal(L, "frame");
+}
+
 void load_showdown_state(lua_State *L, struct State *state, int key){
-
-    // instead of doing this, i can probably execute this whole thing in C
-    
-    // original Lua Code
-    /*
-    stateFile = io.open("./battle_ai/state_files/battleStateForShowdown/"..key, "w")
-    stateFile:write(
-        json.encode({state, "", activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2})
-    )
-    stateFile:close()
-
-    showdown_init = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -"..key
-                
-    -- print("running ", showdown_init )
-    instance.ps_stream = io.popen(showdown_init, "w")
-    instance.ps_stream:close()
-    print("Stream Closed")    
-    emu.frameadvance()  
-    */
-
-   // potential C Code
-   
 
     // encode to memory buffer
     char* data;
@@ -996,8 +984,11 @@ void load_showdown_state(lua_State *L, struct State *state, int key){
     char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
     strcat(process, stringKey);
     system(process);
-    lua_call(L, 0, 0);
-    lua_getglobal(L, "frame");
+
+    // pthread_mutex_lock(&lock);
+    // lua_call(L, 0, 0);
+    // lua_getglobal(L, "frame");
+    // pthread_mutex_unlock(&lock);
    
     // lua_createtable(L, L1, 0);
 
@@ -1245,9 +1236,9 @@ void *evaluate_switch(void *rawArgs){
         }
 
         mergeSort_PartialMove(P2Moves, 0, 5);
-        printLua_string(args->L, "", "");
-        printLua_string(args->L, "printArr_PartialMove: ", "");
-        printArr_PartialMove(args->L, P2Moves, 6);
+        // printLua_string(args->L, "", "");
+        // printLua_string(args->L, "printArr_PartialMove: ", "");
+        // printArr_PartialMove(args->L, P2Moves, 6);
 
         for (int i = 0; i < 25; i++){
             if ((*(args->my_state + i)).secondaryP2 == P2Moves[0].move+5){
@@ -1272,13 +1263,11 @@ void *evaluate_switch(void *rawArgs){
         }
     }
     
-    printf("returned blank from evaluate_switch\n");
-    void *voidReturn;
-    return voidReturn;
+    // printf("returned blank from evaluate_switch\n");
+    return NULL;
 }
 
 volatile int key = 0;
-// pthread_mutex_t lock;
 
 // my_state is intended as a pointer to State object
 void *evaluate_move(void *rawArgs ){
@@ -1286,10 +1275,13 @@ void *evaluate_move(void *rawArgs ){
     // printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
 
-    // pthread_mutex_lock(&lock);
+    pthread_mutex_lock(&lock);
     key++;
     int thisKey = key;
-    // pthread_mutex_unlock(&lock);
+    // if (args->depth != START_DEPTH){
+    //     printf("new thread with key %i\n", thisKey);
+    // }
+    pthread_mutex_unlock(&lock);
     
     load_showdown_state(args->L, args->my_state, key);
 
@@ -1455,8 +1447,12 @@ void *evaluate_move(void *rawArgs ){
     if (args->depth == 1){
         strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
         *(args->outputPtr) = p1moves[9];
-        void *voidReturn;
-        return voidReturn;
+        // pthread_mutex_lock(&lock);
+        // printf("set estimate with key %i and address %p\n", thisKey, (void *)args->outputPtr);
+        // pthread_mutex_unlock(&lock);
+
+        pthread_exit(0);
+        return 0;
     } else {
         
         struct Move moves_filteredP1[TRIM_P1][TRIM_P2];
@@ -1486,7 +1482,7 @@ void *evaluate_move(void *rawArgs ){
 
         struct PartialMove newEstimates[TRIM_P1][TRIM_P2];
 
-        // pthread_t threads[TRIM_P1][TRIM_P2];
+        pthread_t threads[TRIM_P1][TRIM_P2];
 
         int error;
 
@@ -1498,41 +1494,65 @@ void *evaluate_move(void *rawArgs ){
 
 
                 if (moves_filteredP1[i][j].isMultiEvent == 0){
-                    printLua_string(args->L, "", "" );
-                    printLua_double(args->L, "Start Evaluate Move On p1: ", moves_filteredP1[i][j].moves[0]);
-                    printLua_double(args->L, "Start Evaluate Move On p2: ", moves_filteredP1[i][j].moves[1]);
+                    // pthread_mutex_lock(&lock);
+                    // printLua_string(args->L, "", "" );
+                    // printLua_double(args->L, "Start Evaluate Move On p1: ", moves_filteredP1[i][j].moves[0]);
+                    // printLua_double(args->L, "Start Evaluate Move On p2: ", moves_filteredP1[i][j].moves[1]);
+                    // pthread_mutex_unlock(&lock);
 
-                    struct EvaluateArgs newArgs;
-                    newArgs.L = args->L;
-                    newArgs.my_state = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
-                    newArgs.my_weights = args->my_weights;
-                    newArgs.depth = args->depth - 1;
-                    newArgs.outputPtr = &(newEstimates[i][j]);
+                    // struct EvaluateArgs newArgs;
+                    // newArgs.L = args->L;
+                    // newArgs.my_state = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
+                    // newArgs.my_weights = args->my_weights;
+                    // newArgs.depth = args->depth - 1;
+                    // newArgs.outputPtr = &(newEstimates[i][j]);
+                    struct EvaluateArgs* newArgs = malloc(sizeof(struct EvaluateArgs));
+                    newArgs->L = args->L;
+                    newArgs->my_state = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
+                    newArgs->my_weights = args->my_weights;
+                    newArgs->depth = args->depth - 1;
+                    newArgs->outputPtr = &(newEstimates[i][j]);
                     
-                    evaluate_move(&newArgs);
-
+                    // pthread_mutex_lock(&lock);
+                    // printf("creating thread %i %i with outputPtr %p\n", i, j, (void *)newArgs.outputPtr);
+                    // printf("creating thread %i %i with outputPtr %p\n", i, j, (void *)newArgs->outputPtr);
+                    // pthread_mutex_unlock(&lock);
                     // error = pthread_create(&threads[i][j], NULL, evaluate_move, (void *)&newArgs);
-                    // if (error != 0)
-                    //     printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                    error = pthread_create(&threads[i][j], NULL, evaluate_move, newArgs);
+                    if (error != 0){
+                        printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                    }
 
                 } else {
                     struct State* statePointer = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
-                    printLua_string(args->L, "", "" );
-                    printLua_double(args->L, "Start Evaluate Switch On p1: ", moves_filteredP1[i][j].moves[0]);
-                    printLua_double(args->L, "Start Evaluate Switch On p2: ", moves_filteredP1[i][j].moves[1]);
+                    // pthread_mutex_lock(&lock);
+                    // printLua_string(args->L, "", "" );
+                    // printLua_double(args->L, "Start Evaluate Switch On p1: ", moves_filteredP1[i][j].moves[0]);
+                    // printLua_double(args->L, "Start Evaluate Switch On p2: ", moves_filteredP1[i][j].moves[1]);
+                    // pthread_mutex_unlock(&lock);
                     
-                    struct EvaluateArgs newArgs;
-                    newArgs.L = args->L;
-                    newArgs.my_state = statePointer;
-                    newArgs.my_weights = args->my_weights;
-                    newArgs.depth = args->depth;
-                    newArgs.outputPtr = &(newEstimates[i][j]);
+                    // struct EvaluateArgs newArgs;
+                    // newArgs.L = args->L;
+                    // newArgs.my_state = statePointer;
+                    // newArgs.my_weights = args->my_weights;
+                    // newArgs.depth = args->depth;
+                    // newArgs.outputPtr = &(newEstimates[i][j]);
+                    struct EvaluateArgs* newArgs = malloc(sizeof(struct EvaluateArgs));
+                    newArgs->L = args->L;
+                    newArgs->my_state = statePointer;
+                    newArgs->my_weights = args->my_weights;
+                    newArgs->depth = args->depth;
+                    newArgs->outputPtr = &(newEstimates[i][j]);
                     
-                    evaluate_switch(&newArgs);
-
+                    // pthread_mutex_lock(&lock);
+                    // printf("creating thread %i %i\n", i, j);
+                    // printf("creating thread %i %i with outputPtr %p\n", i, j, (void *)newArgs->outputPtr);
+                    // pthread_mutex_unlock(&lock);
                     // error = pthread_create(&threads[i][j], NULL, evaluate_switch, (void *)&newArgs);
-                    // if (error != 0)
-                    //     printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                    error = pthread_create(&threads[i][j], NULL, evaluate_switch, newArgs);
+                    if (error != 0){
+                        printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                    }
 
 
                 }
@@ -1543,17 +1563,39 @@ void *evaluate_move(void *rawArgs ){
         for (int i = 0; i < TRIM_P1; i++){
             double moveAverageP1 = 0.0;
             for (int j = 0; j < TRIM_P2; j++){
+                pthread_mutex_lock(&lock);
+                // printf("new repeat in loop\n");
                 printLua_string(args->L, "", "");
                 printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
                 printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
                 printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
-                // pthread_join(threads[i][j], NULL);
+                // printf("Changing move p1: %i\n", moves_filteredP1[i][j].moves[0]);
+                // printf("Changing move p2: %i\n", moves_filteredP1[i][j].moves[1]);
+                // printf("From: %f\n", moves_filteredP1[i][j].estimate);
+                // printf("pthread_join pre-response\n");
+                pthread_mutex_unlock(&lock);
+                
+                int joinRes = pthread_join(threads[i][j], NULL);
+                if (joinRes != 0){
+                    printf("error in joinRes: %i\n", joinRes);
+                }
+                
+                pthread_mutex_lock(&lock);
+                // printf("pthread_join response: %i\n", joinRes);
                 printLua_double(args->L, "To: ", newEstimates[i][j].estimate);
+                frameSkip(args->L);
+                // printf("To: %f in memory address %p\n", newEstimates[i][j].estimate, (void *)&newEstimates[i][j]);
+                pthread_mutex_unlock(&lock);
                 moveAverageP1 += newEstimates[i][j].estimate;
             }
-            printLua_string(args->L, "", "");
-            printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
-            printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2);
+            // pthread_mutex_lock(&lock);
+            // printLua_string(args->L, "", "");
+            // printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
+            // printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2);
+            // printf("Move: %i\n", moves_filteredP1[i][0].moves[0]);
+            // printf("Estimate: %f\n", moveAverageP1/(double)TRIM_P2);
+            // pthread_mutex_unlock(&lock);
+            
             if (moveAverageP1/(double)TRIM_P2 > bestMove.estimate){
                 bestMove.estimate = moveAverageP1/(double)TRIM_P2;
                 bestMove.move = moves_filteredP1[i][0].moves[0];
@@ -1561,10 +1603,9 @@ void *evaluate_move(void *rawArgs ){
             }
         }
         free(my_states);
-        // printf("\nreturned bestMove\n");
+        printf("\nreturned bestMove\n");
         *(args->outputPtr) = bestMove;
-        void *voidReturn;
-        return voidReturn;
+        return NULL;
     }
 
 
@@ -1661,6 +1702,8 @@ void *evaluate_switch_from_partial_start(void *rawArgs){
     newArgs.outputPtr = args->outputPtr;
 
     evaluate_switch(&newArgs);
+
+    return NULL;
 }
 
 int run_evaluation(lua_State *L){
@@ -1770,10 +1813,10 @@ int run_evaluation(lua_State *L){
 
     key = 0;
     
-    // if (pthread_mutex_init(&lock, NULL) != 0) {
-    //     printLua_string(L, "mutex init has failed", "");
-    //     return -1;
-    // }
+    if (pthread_mutex_init(&lock, NULL) != 0) {
+        printLua_string(L, "mutex init has failed", "");
+        return -1;
+    }
     evaluate_move(&args);
     // printLua_double(L, "Best Move: ", (double)bestMove.move);
     lua_settop(L, 0);
@@ -1883,6 +1926,10 @@ int run_evaluation_switch(lua_State *L){
     args.depth = 1;
     args.outputPtr = &bestSwitch;
 
+    // if (pthread_mutex_init(&lock, NULL) != 0) {
+    //     printLua_string(L, "mutex init has failed", "");
+    //     return -1;
+    // }
     evaluate_switch_from_partial_start(&args);
     // printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
 
@@ -1894,7 +1941,7 @@ int run_evaluation_switch(lua_State *L){
 // takes arguments [exec_showdown_state, state]
 int get_move(lua_State *L){
     
-    int res = run_evaluation(L);
+    run_evaluation(L);
     // lua_settop(L, 0);
     // lua_pushnumber(L, res);
 

@@ -149,7 +149,12 @@ end
 
 -- this function is only meant to be called by C
 function frame()
-    emu.frameadvance()
+    for i = 0, 1 do
+        if not using_test_data then
+            emu.frameadvance()
+        end
+        print("frame "..i)
+    end
 end
 
 function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2, key)
