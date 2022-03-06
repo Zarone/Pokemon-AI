@@ -152,7 +152,7 @@ function frame()
     if not using_test_data then
         emu.frameadvance()
     end
-    print("Skipping Frame")
+    -- print("Skipping Frame")
 end
 
 function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disabledP1, disabledP2, secP1, secP2, key)
