@@ -74,7 +74,14 @@ struct Input {
     double input_val;
 };
 
+// this is the data we update everytime we run the neural network
+struct BackpropData {
+    double condition; // tallies how much the AI wants to go to the pokemon center
+    double typeDesire[17]; // tallies how much the AI wants to catch pokemon of a certain type
+};
+
 pthread_mutex_t lock;
+struct BackpropData lastBackpropBatch;
 
 // this function prints directly to lua
 // this is helpful because the emulator
@@ -837,7 +844,7 @@ double logistic_derivative(double a){
     return logistic(a)*(1-logistic(a));
 }
 
-double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
+double feedforward(struct Weights *my_weights, int (*inputs)[L1], int tallyBackprop){
     double activations_layer2[L2];
     double z_layer2[L2];
 
@@ -885,42 +892,62 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1]){
     // activation_layer4 = logistic(z_layer4);
     activation_layer4 = logistic(z_layer4);
 
+    if (tallyBackprop == 1){
+        // backpropagate to find ideal changes to inputs
+        
+        // I'm also defining error as ( del V / del a ) where V 
+        // is the very last activation and a is any given activation value
 
-    // backpropagate to find ideal changes to inputs
-    
-    // I'm also defining error as ( del V / del a ) where V 
-    // is the very last activation and a is any given activation value
-
-    double error_layer3[L3];
-    for (int i = 0; i < L3; i++){ 
-        error_layer3[i] = my_weights->h_layer_3[i][0] * logistic_derivative(z_layer4);
-    }
-
-    double error_layer2[L2] = {0};
-    for (int i = 0; i < L2; i++){
-        for (int j = 0; j < L3; j++){
-            error_layer2[i] += my_weights->h_layer_2[i][j] * relu_derivative(z_layer3[j]) * error_layer3[j];
+        double error_layer3[L3];
+        for (int i = 0; i < L3; i++){ 
+            error_layer3[i] = my_weights->h_layer_3[i][0] * logistic_derivative(z_layer4);
         }
-    }
 
-    struct Input blank_input;
-    blank_input.val = 0;
-    blank_input.name[0] = '\n';
-    struct Input error_layer1[L1] = { blank_input };
-    for (int i = 0; i < L1; i++){
-        for (int k = 0; k < 20; k++){
-            error_layer1[i].name[k] = network_mapping[i][k];
+        double error_layer2[L2] = {0};
+        for (int i = 0; i < L2; i++){
+            for (int j = 0; j < L3; j++){
+                error_layer2[i] += my_weights->h_layer_2[i][j] * relu_derivative(z_layer3[j]) * error_layer3[j];
+            }
         }
-        for (int j = 0; j < L2; j++){
-            error_layer1[i].val += my_weights->h_layer_1[i][j] * relu_derivative(z_layer2[j]) * error_layer2[j];
-        }
-        error_layer1[i].input_val = (double)(*inputs)[i];
-        error_layer1[i].val *= error_layer1[i].input_val;
-    }
 
-    // mergeSort(error_layer1, 0, L1-1);
-    // printErrors(error_layer1, L1, 1);
-    // printAllErrors(error_layer1, L1);
+        struct Input blank_input;
+        blank_input.val = 0;
+        blank_input.name[0] = '\n';
+        struct Input error_layer1[L1] = { blank_input };
+        for (int i = 0; i < L1; i++){
+            for (int k = 0; k < 20; k++){
+                error_layer1[i].name[k] = network_mapping[i][k];
+            }
+            for (int j = 0; j < L2; j++){
+                error_layer1[i].val += my_weights->h_layer_1[i][j] * relu_derivative(z_layer2[j]) * error_layer2[j];
+            }
+            error_layer1[i].input_val = (double)(*inputs)[i];
+            // error_layer1[i].val *= error_layer1[i].input_val;
+        }
+
+        for (int i = 65; i < 245; i+=30){
+            // if there's a pokemon in this slot
+            if (error_layer1[i+1].val > 0){
+                lastBackpropBatch.condition -= error_layer1[i].val*(error_layer1[i].input_val-100.0f);
+
+                if (error_layer1[i+24].val < 0) lastBackpropBatch.condition -= error_layer1[i+24].val*error_layer1[i+24].input_val;
+                if (error_layer1[i+25].val < 0) lastBackpropBatch.condition -= error_layer1[i+25].val*error_layer1[i+25].input_val;
+                if (error_layer1[i+26].val < 0) lastBackpropBatch.condition -= error_layer1[i+26].val*error_layer1[i+26].input_val;
+                if (error_layer1[i+27].val < 0) lastBackpropBatch.condition -= error_layer1[i+27].val*error_layer1[i+27].input_val;
+                if (error_layer1[i+28].val < 0) lastBackpropBatch.condition -= error_layer1[i+28].val*error_layer1[i+28].input_val;
+                if (error_layer1[i+29].val < 0) lastBackpropBatch.condition -= error_layer1[i+29].val*error_layer1[i+29].input_val;
+
+            } else {
+                for (int j = 7; j < 24; j++){
+                    if (error_layer1[i+j].val < 0) lastBackpropBatch.typeDesire[j-7] += error_layer1[i+j].val;
+                }
+            }
+        }
+        
+        // mergeSort(error_layer1, 0, L1-1);
+        // printErrors(error_layer1, L1, 3);
+        // printAllErrors(error_layer1, L1);
+    }
 
 
     return activation_layer4;
@@ -1053,7 +1080,7 @@ void *evaluate_switch(void *rawArgs){
         for (int i = 0; i < 25; i++){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
                 // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data));
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), 0);
                 allEstimates[i] = thisEstimate;
                 accumulativeP2[(*(args->my_state + i) ).secondaryP2 - 5] += thisEstimate;
                 countP2[(*(args->my_state + i) ).secondaryP2 - 5]+=1;
@@ -1137,7 +1164,7 @@ void *evaluate_switch(void *rawArgs){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
 
 
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data));
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), 0);
                 accumulativeP1[(*(args->my_state + i) ).secondaryP1 - 5] += thisEstimate;
                 countP1[(*(args->my_state + i) ).secondaryP1 - 5]+=1;
             } else {
@@ -1192,7 +1219,7 @@ void *evaluate_switch(void *rawArgs){
         for (int i = 0; i < 25; i++){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
                 // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data));
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), 0);
                 accumulativeP2[(*(args->my_state + i) ).secondaryP2 - 5] += thisEstimate;
                 countP2[(*(args->my_state + i) ).secondaryP2 - 5]+=1;
             } else {
@@ -1268,6 +1295,7 @@ void *evaluate_move(void *rawArgs ){
     // where each element in the array is located
 
     struct Move allMoves[10][10];
+    int totalStatesEvaluated = 0;
 
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
@@ -1281,8 +1309,9 @@ void *evaluate_move(void *rawArgs ){
                     // "i" is player2's move
                     // "j" is player1's move
 
-                    double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data) );
+                    double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH);
                     total_estimate+=estimate;
+                    totalStatesEvaluated++;
                     // printLua_string(L, "", "");
                     // printLua_double(L, "Player 1 Move: ", j);
                     // printLua_double(L, "Player 2 Move: ", i);
@@ -1305,6 +1334,13 @@ void *evaluate_move(void *rawArgs ){
                 }
             }
         }
+    }
+
+    if (args->depth == START_DEPTH){
+        for (int l = 0; l < 17; l++){
+            lastBackpropBatch.typeDesire[l] /= totalStatesEvaluated;
+        }
+        lastBackpropBatch.condition /= totalStatesEvaluated;
     }
 
     struct PartialMove p2moves[10];
@@ -1779,6 +1815,18 @@ int run_evaluation(lua_State *L){
     // print_inputs(*my_states);
     // free(my_states);
 
+    key = 0;
+    
+    if (pthread_mutex_init(&lock, NULL) != 0) {
+        printLua_string(L, "mutex init has failed", "");
+        return -1;
+    }
+
+    lastBackpropBatch.condition = 0;
+    for (int i = 0; i < 17; i++){
+        lastBackpropBatch.typeDesire[i] = 0;
+    }
+
     struct PartialMove bestMove;
 
     struct EvaluateArgs args;
@@ -1787,22 +1835,28 @@ int run_evaluation(lua_State *L){
     args.my_weights = &my_weights;
     args.depth = START_DEPTH;
     args.outputPtr = &bestMove;
-
-    key = 0;
     
-    if (pthread_mutex_init(&lock, NULL) != 0) {
-        printLua_string(L, "mutex init has failed", "");
-        return -1;
-    }
     evaluate_move(&args);
-    // printLua_double(L, "Best Move: ", (double)bestMove.move);
     lua_settop(L, 0);
-    // lua_createtable(L);
     lua_newtable(L);
     lua_pushinteger(L, bestMove.move);
     lua_setfield(L, -2, "move");
     lua_pushstring(L, bestMove.name);
     lua_setfield(L, -2, "name");
+    
+    
+    // this is the "backprop information" used to decide
+    // when to heal, which pokemon to catch, whether or not
+    // we're underleveled, etc.
+    
+    lua_createtable(L, 17, 0);
+    for(int i = 0; i < 17; i++){
+        lua_pushnumber(L, lastBackpropBatch.typeDesire[i]);
+        lua_rawseti(L, -2, i+1);
+    }
+    lua_setfield(L, -2, "type_info");
+    lua_pushnumber(L, lastBackpropBatch.condition);
+    lua_setfield(L, -2, "condition");
 
     return bestMove.move;
 }

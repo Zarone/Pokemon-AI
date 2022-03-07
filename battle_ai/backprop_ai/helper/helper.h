@@ -1,5 +1,4 @@
-char network_mapping[425][20] = { "Weather Turns", // 0
-    "Weather Sun",
+char network_mapping[425][20] = { "Weather Turns", "Weather Sun",
     "Weather Rain",
     "Weather Sand",
     "Weather Hail", // 4
