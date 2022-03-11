@@ -39,6 +39,15 @@ local was_in_battle = false
 -- function returns false for a frame or two. This variable makes sure the battle 
 -- doesn't accidentally end prematurally
 local battle_clock = 0
+local battle_weights = {
+    condition = 0,
+    type_info = {
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0,
+        0, 0
+    }
+}
 
 while true do
     if not is_in_battle then md.update_map(true) end
@@ -146,7 +155,13 @@ while true do
             }, 25)
         elseif can_move then
             local initDelay = 10
-            action = battleState:act()
+            action_info = battleState:act()
+            action = action_info.move
+
+            if action_info ~= nil then 
+                battle_weights.condition = (battle_weights.condition + action_info.condition) / 2 
+            end
+
             if action == 0 then
                 print("reset output manager")
                 output_manager.reset()

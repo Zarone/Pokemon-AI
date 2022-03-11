@@ -183,7 +183,7 @@ function BattleManager:get_action()
             end
         end
     end
-    returnAction = thisMove.move
+    returnAction = thisMove
 
     self.queued_move = returnAction
 end
