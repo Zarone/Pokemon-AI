@@ -48,6 +48,7 @@ local battle_weights = {
         0, 0
     }
 }
+local last_battle_action = nil
 
 while true do
     if not is_in_battle then md.update_map(true) end
@@ -56,8 +57,12 @@ while true do
     is_in_battle = mem.is_in_battle()
     can_move = mem.can_move()
 
+
     r1, g1, b1 = gui.getpixel(235, 172)
 
+    -- okay so this section is to make sure that the
+    -- battle doesn't quit out if "is_in_battle" returns
+    -- false for a single frame
     if was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
         if battle_clock > 5 then
@@ -155,12 +160,25 @@ while true do
             }, 25)
         elseif can_move then
             local initDelay = 10
-            action_info = battleState:act()
-            action = action_info.move
+            local action_info = battleState:act()
+            local action
+            
+            -- print("action_info", action_info)
 
             if action_info ~= nil then 
-                battle_weights.condition = (battle_weights.condition + action_info.condition) / 2 
+                action = action_info.move
+                if action ~= 0 and last_battle_action ~= action then
+                    battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
+                    print("condition", battle_weights.condition)
+                        for i = 1, 17 do
+                        battle_weights.type_info[i] = (battle_weights.type_info[i] + action_info.type_info[i]) / 2
+                        print(i, battle_weights.type_info[i])
+                    end
+                end
             end
+
+
+            last_battle_action = action
 
             if action == 0 then
                 print("reset output manager")

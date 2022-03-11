@@ -844,7 +844,7 @@ double logistic_derivative(double a){
     return logistic(a)*(1-logistic(a));
 }
 
-double feedforward(struct Weights *my_weights, int (*inputs)[L1], int tallyBackprop){
+double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
     double activations_layer2[L2];
     double z_layer2[L2];
 
@@ -939,7 +939,7 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int tallyBackp
 
             } else {
                 for (int j = 7; j < 24; j++){
-                    if (error_layer1[i+j].val < 0) lastBackpropBatch.typeDesire[j-7] += error_layer1[i+j].val;
+                    if (error_layer1[i+j].val < 0) lastBackpropBatch.typeDesire[j-7] -= error_layer1[i+j].val;
                 }
             }
         }
@@ -1457,7 +1457,7 @@ void *evaluate_move(void *rawArgs ){
         pthread_mutex_lock(&lock);
         *(args->outputPtr) = p1moves[9];
      
-        // printLua_double(args->L, "set estimate with key", thisKey);
+        printLua_double(args->L, "set estimate with key", thisKey);
         // frameSkip(args->L);
         pthread_mutex_unlock(&lock);
 
@@ -1581,7 +1581,7 @@ void *evaluate_move(void *rawArgs ){
                 while((newEstimates+i*TRIM_P2+j)->estimate == -2){
                     // pthread_mutex_unlock(&lock);
                     // pthread_mutex_lock(&lock);
-                    if (k % 4 == 0) {
+                    if (k % 3 == 0) {
                         pthread_mutex_lock(&lock);
                         frameSkip(args->L);
                         printLua_double(args->L, "k: ", k);

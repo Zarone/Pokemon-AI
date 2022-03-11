@@ -134,7 +134,7 @@ function BattleManager:act_open()
         end
         Writer.saveTeams(team1, team2)
         self:get_action()
-        return 0
+        return {move = 0}
     end 
     return self.queued_move
 end
