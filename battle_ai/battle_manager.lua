@@ -107,6 +107,7 @@ end
 
 function BattleManager.act(self)
     if self.game_reader:get_line() then
+        self.queued_move = nil
         self.queued_switch = nil
         return self:act_open()
     else
