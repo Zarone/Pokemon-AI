@@ -1072,6 +1072,7 @@ void *evaluate_switch(void *rawArgs){
 
     // if both players switched
     if ( args->my_state->secondaryP1 != 0 && args->my_state->secondaryP2 != 0 ){
+        printf("thinks they both faint\n");
 
         double accumulativeP2[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
         int countP2[] = {0, 0, 0, 0, 0, 0};
@@ -1204,6 +1205,7 @@ void *evaluate_switch(void *rawArgs){
                     evaluate_move(&newArgs);
                     P1Moves->estimate = output.estimate;
                 }
+                printf("in evaluate_switch, outputPtr %p\n", (void *)args->outputPtr);
                 *(args->outputPtr) = P1Moves[5];
                 
                 void *voidReturn;
@@ -1254,8 +1256,9 @@ void *evaluate_switch(void *rawArgs){
                     newArgs.my_weights = args->my_weights;
                     newArgs.depth = args->depth-1;
                     newArgs.outputPtr = &output;
+                    printf("in evaluate_switch, calling evaluate_move with outputPtr %p\n", (void *)newArgs.outputPtr);
 
-                    evaluate_move(&newArgs );
+                    evaluate_move(&newArgs);
                     P2Moves->estimate = output.estimate;
                 }
                 *(args->outputPtr) = P2Moves[0];
@@ -1456,12 +1459,18 @@ void *evaluate_move(void *rawArgs ){
         strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
         pthread_mutex_lock(&lock);
         *(args->outputPtr) = p1moves[9];
+
+        // args->outputPtr->estimate = p1moves[9].estimate;
+        // args->outputPtr->move = p1moves[9].move;
+        // args->outputPtr->name = p1moves[9].name;
+        // strcpy(args->outputPtr->name, p1moves[9].name);
      
-        printLua_double(args->L, "set estimate with key", thisKey);
+        // printLua_double(args->L, "set estimate with key", thisKey);
+        printf("set estimate %f with key %i at address %p\n", p1moves[9].estimate, thisKey, (void *)(args->outputPtr));
         // frameSkip(args->L);
         pthread_mutex_unlock(&lock);
 
-        pthread_exit(0);
+        // pthread_exit(0);
         return 0;
     } else {
         
@@ -1506,6 +1515,7 @@ void *evaluate_move(void *rawArgs ){
                 // j is player 2 move
 
                 (newEstimates+i*TRIM_P2+j)->estimate = -2;
+                printf("set estimate at %p to -2\n", (void *)(newEstimates+i*TRIM_P2+j));
 
                 struct EvaluateArgs* newArgs = (struct EvaluateArgs*)(allNewArgs + TRIM_P2*i + j);
                 if (moves_filteredP1[i][j].isMultiEvent == 0){
@@ -1522,6 +1532,7 @@ void *evaluate_move(void *rawArgs ){
                     newArgs->depth = args->depth - 1;
                     // newArgs->outputPtr = &(newEstimates[i][j]);
                     newArgs->outputPtr = (newEstimates+i*TRIM_P2+j);
+                    printf("setting outputPtr to %p\n", (void *)newArgs->outputPtr);
                     
 
                     error = pthread_create(&threads[i][j], NULL, evaluate_move, newArgs);
@@ -1544,6 +1555,7 @@ void *evaluate_move(void *rawArgs ){
                     newArgs->depth = args->depth;
                     // newArgs->outputPtr = &(newEstimates[i][j]);
                     newArgs->outputPtr = (newEstimates+i*TRIM_P2+j);
+                    printf("setting outputPtr to %p\n", (void *)newArgs->outputPtr);
                     
                     error = pthread_create(&threads[i][j], NULL, evaluate_switch, newArgs);
                     if (error != 0){
@@ -1581,10 +1593,11 @@ void *evaluate_move(void *rawArgs ){
                 while((newEstimates+i*TRIM_P2+j)->estimate == -2){
                     // pthread_mutex_unlock(&lock);
                     // pthread_mutex_lock(&lock);
-                    if (k % 3 == 0) {
+                    if (k % 4 == 0) {
                         pthread_mutex_lock(&lock);
                         frameSkip(args->L);
                         printLua_double(args->L, "k: ", k);
+                        // printf("k: %i, value: %f, at %p\n", k, (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j) );
                         pthread_mutex_unlock(&lock);
                     } else {
                         sleep(1);

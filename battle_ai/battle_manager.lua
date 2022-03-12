@@ -1,4 +1,5 @@
 using_test_data = false
+debug_data = false
 
 params = {...}
 if params[1] == "debug" then
@@ -127,6 +128,7 @@ function BattleManager:act_open()
 
         if not using_test_data then
             team1, team2 = BattleManager.get_teams_packed(self.IGReader)
+            if debug_data then print("team1", team1, "team2", team2) end
             -- print(team1, team2)
         else
             team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|74,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
@@ -211,144 +213,149 @@ function BattleManager:getState()
     if using_test_data then
         return {
             {
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                100, 92, 105, 90, 125,
-                
-                90, 98, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                100, 70, 105, 125, 65,
-                
-                75, 45, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0,
-                100, 90, 92, 87, 75,
-
-                85, 76, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                1, 65, 95, 85, 55, 
-                
-                55, 85, 0, 0, 0,
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                100, 106, 110, 90, 154, 
-                
-                90, 130, 0, 0, 0,
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                100, 89, 124, 80, 55,
-                
-                80, 55, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0,
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0, 
-                100, 58, 50, 145, 95,
-
-                105, 30, 0, 0, 0, 
-                0, 0, 0, 0, 0,
-                
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                100, 70, 80, 70, 80, 
-                
-                70, 110, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                100, 150, 80, 44, 90, 
-                
-                54, 80, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                0, 100, 60, 70, 85, 
-                
-                105, 60, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 1,
-                100, 60, 55, 90, 145, 
-                
-                90, 80, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0, 
-                0, 0, 0, 0, 0, 
-                
-                0, 0, 0, 0, 0
-            },
-            "not switch",
-            0,
-            3,
-            "dracometeor",
-            "",
-            "darkpulse",
-            "",
-            0,
-            0
+                255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 92, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 184, 97, 232, 161, 192, 61, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 244, 111, 125, 132, 192, 111, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 201, 139, 137, 125, 125, 182, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 59, 139, 88, 154, 102, 139, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 228, 202, 139, 93, 139, 114, false, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 192, 96, 158, 238, 173, 143, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0
+            }, 'N/A_s', 4, 0, '', '', '', '', 0, 0
         }
+        -- return {
+        --     {
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         100, 92, 105, 90, 125,
+                
+        --         90, 98, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         100, 70, 105, 125, 65,
+                
+        --         75, 45, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0,
+        --         100, 90, 92, 87, 75,
+
+        --         85, 76, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         1, 65, 95, 85, 55, 
+                
+        --         55, 85, 0, 0, 0,
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         100, 106, 110, 90, 154, 
+                
+        --         90, 130, 0, 0, 0,
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         100, 89, 124, 80, 55,
+                
+        --         80, 55, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0,
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0, 
+        --         100, 58, 50, 145, 95,
+
+        --         105, 30, 0, 0, 0, 
+        --         0, 0, 0, 0, 0,
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         100, 70, 80, 70, 80, 
+                
+        --         70, 110, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         100, 150, 80, 44, 90, 
+                
+        --         54, 80, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 100, 60, 70, 85, 
+                
+        --         105, 60, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 1,
+        --         100, 60, 55, 90, 145, 
+                
+        --         90, 80, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0, 
+        --         0, 0, 0, 0, 0, 
+                
+        --         0, 0, 0, 0, 0
+        --     },
+        --     "not switch",
+        --     0,
+        --     3,
+        --     "dracometeor",
+        --     "",
+        --     "darkpulse",
+        --     "",
+        --     0,
+        --     0
+        -- }
     else
         weather = StateReader.get_weather()
         weatherArray = { 0, 0, 0, 0 }
@@ -417,21 +424,20 @@ function BattleManager:getState()
         end
         index = index + 180
 
-    
-        print("self.game_reader.active in getState", self.game_reader.active)
+        if debug_data then print("game data", {
+                returnTable,
+                "N/A_s",
+                self.game_reader.active,
+                self.game_reader.enemy_active,
+                self.game_reader.player.encored_move,
+                self.game_reader.enemy.encored_move,
+                self.game_reader.player.disabled_move,
+                self.game_reader.enemy.disabled_move,
+                0, 0
+            })
+        end
+
         return {
-            -- {
-            --     StateReader.get_remaining_weather_turns(),
-            --     unpack(weatherArray),
-            --     unpack(self.game_reader.player.hazards),
-            --     unpack(self.game_reader.enemy.hazards),
-            --     unpack(self.game_reader.player.volatiles),
-            --     unpack(self.game_reader.enemy.volatiles),
-            --     unpack(StateReader.get_player_boosts()[self.game_reader.active+1]),
-            --     unpack(StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1]),
-            --     unpack(StateReader.get_player_pokemon_array()),
-            --     unpack(StateReader.get_enemy_pokemon_array())
-            -- },
             returnTable,
             "N/A_s",
             self.game_reader.active,
@@ -441,28 +447,6 @@ function BattleManager:getState()
             self.game_reader.player.disabled_move,
             self.game_reader.enemy.disabled_move,
             0, 0
-            -- weather = StateReader.get_weather(),
-            -- turns_left_of_weather = StateReader.get_remaining_weather_turns(),
-            -- player = {
-            --     boosts = {StateReader.get_player_boosts()},
-            --     statuses = {StateReader.get_player_status()},
-            --     hazards = self.game_reader.player.hazards,
-            --     volatiles = self.game_reader.player.volatiles,
-            --     active = self.game_reader.active,
-            --     disable_move = self.game_reader.player.disabled_move,
-            --     encored_move = self.game_reader.player.encored_move,
-            --     health = StateReader.get_player_health()
-            -- },
-            -- enemy = {
-            --     boosts = {StateReader.get_enemy_boosts()},
-            --     statuses = {StateReader.get_enemy_status()},
-            --     hazards = self.game_reader.enemy.hazards,
-            --     volatiles = self.game_reader.enemy.volatiles,
-            --     active = self.game_reader.enemy_active,
-            --     disable_move = self.game_reader.enemy.disabled_move,
-            --     encored_move = self.game_reader.enemy.encored_move,
-            --     health = StateReader.get_enemy_health()
-            -- }
         }
     end
 end
