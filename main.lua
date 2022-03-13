@@ -361,7 +361,7 @@ while true do
 
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
-    elseif (is_text_onscreen) then
+    elseif ((not was_in_battle) and is_text_onscreen) then
         print("there's on screen dialogue, time to button mash")
         -- button_masher.mash({A = true})
         output_manager.press({{{

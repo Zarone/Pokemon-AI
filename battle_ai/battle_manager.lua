@@ -170,7 +170,7 @@ end
 function BattleManager:get_action()
     local state = self:getState()
     local thisMove = processor.get_move(frame, state)
-    print("making move: ", thisMove)
+    -- print("making move: ", thisMove)
     thisMove.move = thisMove.move + 1
     
     if not using_test_data and thisMove.move > 4 then
