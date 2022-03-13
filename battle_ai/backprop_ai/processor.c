@@ -959,7 +959,7 @@ void frameSkip(lua_State *L){
     lua_getglobal(L, "frame");
 }
 
-void load_showdown_state(struct State *state, int localKey){
+void load_showdown_state(struct State *state, int localKey, int /* boolean */ firstCall){
 
     // encode to memory buffer
     char* data;
@@ -967,12 +967,38 @@ void load_showdown_state(struct State *state, int localKey){
     size_t size;
     mpack_writer_init_growable(&writer, &data, &size);
     
+    // this newGameData is needed because showdown expects the
+    // pokemon in the same order as initialized
+    int newGameData[L1];
+    for (int i = 0; i < L1; i++){
+        newGameData[i] = state->game_data[i];
+    }
+
+    if (!firstCall){
+        printf("activeP1 %i actionP2 %i\n", state->activePokemonP1, state->activePokemonP2);
+        if (state->activePokemonP1 != 0){
+            for (int i = 65; i < 95; i++){
+                // printf("set %i to %i of val %i\n", i, i+30*state->activePokemonP1, state->game_data[i+30*state->activePokemonP1]);
+                newGameData[i] = state->game_data[i+30*state->activePokemonP1];
+                newGameData[i+30*state->activePokemonP1] = state->game_data[i];
+            }
+        }
+
+        if (state->activePokemonP2 != 0){
+            for (int i = 245; i < 275; i++){
+                newGameData[i] = state->game_data[i+30*state->activePokemonP2];
+                newGameData[i+30*state->activePokemonP2] = state->game_data[i];
+            }
+        }
+    }
+    
+
     mpack_start_array(&writer, 10);
 
-    mpack_start_array(&writer, 425);
+    mpack_start_array(&writer, L1);
 
-    for (int i = 0; i < 425; i++){
-        mpack_write_int(&writer, state->game_data[i]);
+    for (int i = 0; i < L1; i++){
+        mpack_write_int(&writer, newGameData[i]);
     }
     mpack_finish_array(&writer);
 
@@ -1274,6 +1300,8 @@ void *evaluate_switch(void *rawArgs){
 }
 
 volatile int key = 0;
+/* boolean */ #define MULTITHREADED 0
+
 
 // my_state is intended as a pointer to State object
 void *evaluate_move(void *rawArgs ){
@@ -1287,7 +1315,7 @@ void *evaluate_move(void *rawArgs ){
     if (args->depth != START_DEPTH){ pthread_mutex_unlock(&lock); }
     
     
-    load_showdown_state(args->my_state, thisKey);
+    load_showdown_state(args->my_state, thisKey, args->depth == START_DEPTH);
 
     struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
 
@@ -1537,9 +1565,13 @@ void *evaluate_move(void *rawArgs ){
                     // printf("setting outputPtr to %p\n", (void *)newArgs->outputPtr);
                     
 
-                    error = pthread_create(&threads[i][j], NULL, evaluate_move, newArgs);
-                    if (error != 0){
-                        printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                    if (MULTITHREADED && args->depth == START_DEPTH){
+                        error = pthread_create(&threads[i][j], NULL, evaluate_move, newArgs);
+                        if (error != 0){
+                            printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                        }
+                    } else {
+                        evaluate_move(newArgs);
                     }
 
                 } else {
@@ -1560,10 +1592,16 @@ void *evaluate_move(void *rawArgs ){
                     // printf("setting outputPtr to %p\n", (void *)newArgs->outputPtr);
                     
                     printf("call evaluate_switch at %i %i\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1]);
-                    error = pthread_create(&threads[i][j], NULL, evaluate_switch, newArgs);
-                    if (error != 0){
-                        printLua_string(args->L, "Thread can't be created : ", strerror(error));
+
+                    if (MULTITHREADED && args->depth == START_DEPTH){
+                        error = pthread_create(&threads[i][j], NULL, evaluate_switch, newArgs);
+                        if (error != 0){
+                            printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                        }
+                    } else {
+                        evaluate_switch(newArgs);
                     }
+
 
 
                 }

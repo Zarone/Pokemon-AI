@@ -1,5 +1,5 @@
 using_test_data = false
-debug_data = false
+debug_data = true
 
 params = {...}
 if params[1] == "debug" then
@@ -213,8 +213,23 @@ function BattleManager:getState()
     if using_test_data then
         return {
             {
-                255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 92, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 184, 97, 232, 161, 192, 61, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 244, 111, 125, 132, 192, 111, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 201, 139, 137, 125, 125, 182, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 59, 139, 88, 154, 102, 139, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 228, 202, 139, 93, 139, 114, false, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 192, 96, 158, 238, 173, 143, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0
-            }, 'N/A_s', 4, 0, '', '', '', '', 0, 0
+                255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+                
+                100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 
+                92, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                
+                100, 184, 97, 232, 161, 192, 61, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 244, 111, 125, 132, 192, 111, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 
+                100, 201, 139, 137, 125, 125, 182, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 59, 139, 88, 154, 102, 139, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 228, 202, 139, 93, 139, 114, false, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 192, 96, 158, 238, 173, 143, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0
+            },
+            'N/A_s', 4, 0, '', '', '', '', 0, 0
         }
         -- return {
         --     {

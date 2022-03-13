@@ -329,6 +329,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		player1secondary: number,
 		player2secondary: number
 	) {
+
+        let p1ActiveMon = this.getActive(0)
+        let p2ActiveMon = this.getActive(1)
+
 		let weatherStr = this.battle?.field?.weather || 0;
 		let weather;
 
@@ -372,49 +376,106 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let benchP1 = [];
 		let benchP2 = [];
 
-		for (let i = 0; i < 6; i++) {
-			if (i < (this.battle?.sides[0].pokemon.length as number)) {
-				if (!this.battle?.sides[0].pokemon[i].isActive) {
-					benchP1.push(
-						...this.getArray(this.battle?.sides[0].pokemon[i] as Pokemon)
-					);
-				} else {
-					activeP1.push(
-						...this.getArray(this.battle?.sides[0].pokemon[i] as Pokemon)
-					);
-				}
-			} else {
-				benchP1.push(
-					...[
-						0,
-						...[0, 0, 0, 0, 0, 0],
-						...[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-						...[0, 0, 0, 0, 0, 0],
-					]
-				);
-			}
+        // push the active first
 
-			if (i < (this.battle?.sides[1].pokemon.length as number)) {
-				if (!this.battle?.sides[1].pokemon[i].isActive) {
-					benchP2.push(
-						...this.getArray(this.battle?.sides[1].pokemon[i] as Pokemon)
-					);
-				} else {
-					activeP2.push(
-						...this.getArray(this.battle?.sides[1].pokemon[i] as Pokemon)
-					);
-				}
-			} else {
-				benchP2.push(
-					...[
-						0,
-						...[0, 0, 0, 0, 0, 0],
-						...[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-						...[0, 0, 0, 0, 0, 0],
-					]
-				);
-			}
-		}
+        // then go through every mon after the first ordered from startTeam
+            // if the mon is active, push mon 1 instead
+
+        activeP1.push(
+            ...this.getArray(this.battle?.sides[0].active[0] as Pokemon)
+        );
+
+        activeP2.push(
+            ...this.getArray(this.battle?.sides[1].active[0] as Pokemon)
+        );
+
+        for (let i = 1; i < 6; i++){
+            
+            if (i == p1ActiveMon){
+                for (let j = 0; j < 6; j++){
+                    if (this.battle?.sides[0].pokemon[j].species.name == this.battle?.startTeam[0][0]){
+                        benchP1.push(
+                            ...this.getArray(this.battle?.sides[0].pokemon[j] as Pokemon)
+                        );
+                        break;
+                    }
+                }
+            } else {
+                for (let j = 0; j < 6; j++){
+                    if (this.battle?.sides[0].pokemon[j].species.name == this.battle?.startTeam[0][i]){
+                        benchP1.push(
+                            ...this.getArray(this.battle?.sides[0].pokemon[j] as Pokemon)
+                        );
+                        break;
+                    }
+                }
+            }
+
+            if (i == p2ActiveMon){
+                for (let j = 0; j < 6; j++){
+                    if (this.battle?.sides[1].pokemon[j].species.name == this.battle?.startTeam[1][0]){
+                        benchP2.push(
+                            ...this.getArray(this.battle?.sides[1].pokemon[j] as Pokemon)
+                        );
+                        break;
+                    }
+                }
+            } else {
+                for (let j = 0; j < 6; j++){
+                    if (this.battle?.sides[1].pokemon[j].species.name == this.battle?.startTeam[1][i]){
+                        benchP2.push(
+                            ...this.getArray(this.battle?.sides[1].pokemon[j] as Pokemon)
+                        );
+                        break;
+                    }
+                }
+            }
+        }
+
+		// for (let i = 0; i < 6; i++) {
+		// 	if (i < (this.battle?.sides[0].pokemon.length as number)) {
+		// 		if (!this.battle?.sides[0].pokemon[i].isActive) {
+        //             benchP1.push(
+		// 				...this.getArray(this.battle?.sides[0].pokemon[i] as Pokemon)
+		// 			);
+		// 		} else {
+		// 			activeP1.push(
+		// 				...this.getArray(this.battle?.sides[0].pokemon[i] as Pokemon)
+		// 			);
+		// 		}
+		// 	} else {
+		// 		benchP1.push(
+		// 			...[
+		// 				0,
+		// 				...[0, 0, 0, 0, 0, 0],
+		// 				...[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+		// 				...[0, 0, 0, 0, 0, 0],
+		// 			]
+		// 		);
+		// 	}
+
+		// 	if (i < (this.battle?.sides[1].pokemon.length as number)) {
+		// 		if (!this.battle?.sides[1].pokemon[i].isActive) {
+                    
+        //             benchP2.push(
+		// 				...this.getArray(this.battle?.sides[1].pokemon[i] as Pokemon)
+		// 			);
+		// 		} else {
+		// 			activeP2.push(
+		// 				...this.getArray(this.battle?.sides[1].pokemon[i] as Pokemon)
+		// 			);
+		// 		}
+		// 	} else {
+		// 		benchP2.push(
+		// 			...[
+		// 				0,
+		// 				...[0, 0, 0, 0, 0, 0],
+		// 				...[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+		// 				...[0, 0, 0, 0, 0, 0],
+		// 			]
+		// 		);
+		// 	}
+		// }
 
 		let volatilesP1 = this.getVolatiles(this.battle?.sides[0] as Side);
 		let volatilesP2 = this.getVolatiles(this.battle?.sides[1] as Side);
@@ -456,8 +517,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				...benchP2,
 			],
 			activePokemonName || "not switch",
-			this.getActive(0),
-			this.getActive(1),
+			p1ActiveMon,
+            p2ActiveMon,
 			this.getEncoredMove(0),
 			this.getEncoredMove(1),
 			this.getDisabledMove(0),
