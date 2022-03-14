@@ -18,6 +18,18 @@
 #define L3 100 
 #define L4 1
 
+// this effects the sigmoid curve for the
+// feedforward algorithm
+#define SPREAD 0.2
+
+#define TRIM_P2 3
+#define TRIM_P1 5
+
+#define START_DEPTH 2
+
+// boolean
+#define MULTITHREADED 1
+
 #if LAYERS == 3
 struct Weights {
     double h_layer_1[L1][L2];
@@ -796,6 +808,9 @@ void parse_inputs(lua_State *L, mpack_reader_t* reader, int layer, struct State 
 
 // argument is pointer to first element of array
 int get_inputs(lua_State *L, struct State *my_states, int currentKey){
+    pthread_mutex_lock(&lock);
+    // printf("get input with key %i\n", currentKey);
+    pthread_mutex_unlock(&lock);
     mpack_reader_t reader;
     char stringKey[3];
     sprintf(stringKey, "%d", currentKey);
@@ -834,7 +849,6 @@ double relu_derivative(double a){
     return (a > 0) ? 1 : 0;
 }
 
-#define SPREAD 0.2
 
 double logistic(double a){
     return 1 / (1 + exp(-SPREAD*(double)a));
@@ -961,6 +975,10 @@ void frameSkip(lua_State *L){
 
 void load_showdown_state(struct State *state, int localKey, int /* boolean */ firstCall){
 
+    pthread_mutex_lock(&lock);
+    // printf("save with key %i and state at %p\n", localKey, (void*)state);
+    pthread_mutex_unlock(&lock);
+
     // encode to memory buffer
     char* data;
     mpack_writer_t writer;
@@ -975,7 +993,6 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
     }
 
     if (!firstCall){
-        printf("activeP1 %i actionP2 %i\n", state->activePokemonP1, state->activePokemonP2);
         if (state->activePokemonP1 != 0){
             for (int i = 65; i < 95; i++){
                 // printf("set %i to %i of val %i\n", i, i+30*state->activePokemonP1, state->game_data[i+30*state->activePokemonP1]);
@@ -1056,9 +1073,6 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
 
 }
 
-
-#define TRIM_P2 3
-#define TRIM_P1 5
 int matchesP1(int move, struct PartialMove (*sortedMoveList)[10]){
     // return move == (*sortedMoveList)[9].move || move == (*sortedMoveList)[8].move;
     
@@ -1088,11 +1102,8 @@ struct EvaluateArgs {
 // void evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth, struct PartialMove* outputPtr);
 void *evaluate_move(void *rawArgs);
 
-#define START_DEPTH 2
-
 // my_state is intented as a pointer to to State array of length 25
 void *evaluate_switch(void *rawArgs){
-    
     // printf("\nIn evaluate_switch, Depth: %i\n", depth);
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
 
@@ -1183,6 +1194,7 @@ void *evaluate_switch(void *rawArgs){
     } 
     // if only player 1 has a forced switch
     else if ((*(args->my_state)).secondaryP1 != 0){
+        pthread_mutex_lock(&lock);
         double accumulativeP1[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
         int countP1[] = {0, 0, 0, 0, 0, 0};
 
@@ -1215,6 +1227,7 @@ void *evaluate_switch(void *rawArgs){
         // printLua_string(L, "5 Moves inside of evaluate switch", "");
         // printArr_PartialMove(L, P1Moves, 6);
 
+        pthread_mutex_unlock(&lock);
         for (int i = 0; i < 25; i++){
             if ((*(args->my_state + i)).secondaryP1 == P1Moves[5].move+5){
                 P1Moves[5].move += 4;
@@ -1300,8 +1313,6 @@ void *evaluate_switch(void *rawArgs){
 }
 
 volatile int key = 0;
-/* boolean */ #define MULTITHREADED 0
-
 
 // my_state is intended as a pointer to State object
 void *evaluate_move(void *rawArgs ){
@@ -1313,7 +1324,6 @@ void *evaluate_move(void *rawArgs ){
     key++;
     int thisKey = key;
     if (args->depth != START_DEPTH){ pthread_mutex_unlock(&lock); }
-    
     
     load_showdown_state(args->my_state, thisKey, args->depth == START_DEPTH);
 
@@ -1331,6 +1341,7 @@ void *evaluate_move(void *rawArgs ){
 
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
+
             double total_estimate = 0.0;
 
             for (int k = 0; k < 26; k++){
@@ -1502,7 +1513,6 @@ void *evaluate_move(void *rawArgs ){
         // pthread_exit(0);
         return 0;
     } else {
-        
         struct Move moves_filteredP1[TRIM_P1][TRIM_P2];
 
         int k = 0;
@@ -1548,21 +1558,14 @@ void *evaluate_move(void *rawArgs ){
 
                 struct EvaluateArgs* newArgs = (struct EvaluateArgs*)(allNewArgs + TRIM_P2*i + j);
                 if (moves_filteredP1[i][j].isMultiEvent == 0){
-                    // pthread_mutex_lock(&lock);
-                    // printLua_string(args->L, "", "" );
-                    // printLua_double(args->L, "Start Evaluate Move On p1: ", moves_filteredP1[i][j].moves[0]);
-                    // printLua_double(args->L, "Start Evaluate Move On p2: ", moves_filteredP1[i][j].moves[1]);
-                    // pthread_mutex_unlock(&lock);
 
-                    // struct EvaluateArgs* newArgs = malloc(sizeof(struct EvaluateArgs));
                     newArgs->L = args->L;
                     newArgs->my_state = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
                     newArgs->my_weights = args->my_weights;
                     newArgs->depth = args->depth - 1;
                     // newArgs->outputPtr = &(newEstimates[i][j]);
                     newArgs->outputPtr = (newEstimates+i*TRIM_P2+j);
-                    printf("call evaluate_move at %i %i\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1]);
-                    // printf("setting outputPtr to %p\n", (void *)newArgs->outputPtr);
+                    printf("call evaluate_move at %i %i, addr: %p, state ptr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr, (void *)newArgs->my_state);
                     
 
                     if (MULTITHREADED && args->depth == START_DEPTH){
@@ -1576,22 +1579,15 @@ void *evaluate_move(void *rawArgs ){
 
                 } else {
                     struct State* statePointer = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
-                    // pthread_mutex_lock(&lock);
-                    // printLua_string(args->L, "", "" );
-                    // printLua_double(args->L, "Start Evaluate Switch On p1: ", moves_filteredP1[i][j].moves[0]);
-                    // printLua_double(args->L, "Start Evaluate Switch On p2: ", moves_filteredP1[i][j].moves[1]);
-                    // pthread_mutex_unlock(&lock);
-                    
-                    // struct EvaluateArgs* newArgs = malloc(sizeof(struct EvaluateArgs));
+
                     newArgs->L = args->L;
                     newArgs->my_state = statePointer;
                     newArgs->my_weights = args->my_weights;
                     newArgs->depth = args->depth;
                     // newArgs->outputPtr = &(newEstimates[i][j]);
                     newArgs->outputPtr = (newEstimates+i*TRIM_P2+j);
-                    // printf("setting outputPtr to %p\n", (void *)newArgs->outputPtr);
                     
-                    printf("call evaluate_switch at %i %i\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1]);
+                    printf("call evaluate_switch at %i %i, addr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr);
 
                     if (MULTITHREADED && args->depth == START_DEPTH){
                         error = pthread_create(&threads[i][j], NULL, evaluate_switch, newArgs);
@@ -1654,13 +1650,13 @@ void *evaluate_move(void *rawArgs ){
                 pthread_mutex_unlock(&lock);
                 moveAverageP1 += (newEstimates+i*TRIM_P2+j)->estimate;
             }
-            // pthread_mutex_lock(&lock);
+            pthread_mutex_lock(&lock);
             // printLua_string(args->L, "", "");
             printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
             printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2);
             // printf("Move: %i\n", moves_filteredP1[i][0].moves[0]);
             // printf("Estimate: %f\n", moveAverageP1/(double)TRIM_P2);
-            // pthread_mutex_unlock(&lock);
+            pthread_mutex_unlock(&lock);
             
             if (moveAverageP1/(double)TRIM_P2 > bestMove.estimate){
                 bestMove.estimate = moveAverageP1/(double)TRIM_P2;
