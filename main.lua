@@ -10,6 +10,7 @@ local BattleManager = require "./battle_ai/battle_manager"
 -- game actions the bot is attempting to perform
 -- 0 => bot needs to decide
 -- 1 => goals
+-- 2 => healing
 local mode = 1
 
 local battleState = nil
@@ -65,10 +66,11 @@ while true do
     -- false for a single frame
     if was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
-        if battle_clock > 5 then
+        if battle_clock > 24 then
             print("battle ended")
             was_in_battle = false
             battleState = nil
+            mode = 0
         end
     end
 
@@ -170,7 +172,7 @@ while true do
                 if action ~= 0 and last_battle_action ~= action then
                     battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
                     print("condition", battle_weights.condition)
-                        for i = 1, 17 do
+                    for i = 1, 17 do
                         battle_weights.type_info[i] = (battle_weights.type_info[i] + action_info.type_info[i]) / 2
                         print(i, battle_weights.type_info[i])
                     end
@@ -367,6 +369,10 @@ while true do
         output_manager.press({{{
             A = true
         }, 5}}, 5)
+    elseif (mode == 0) then
+        if (battle_weights.condition > 0.3) then
+            mode = 2
+        end
     elseif (mode == 1) then
         -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()
@@ -426,6 +432,9 @@ while true do
                 end
             end
         end
+    
+    elseif (mode == 2) then
+        print("find nearing pokemon center")
     end
 
     emu.frameadvance()

@@ -22,7 +22,7 @@
 // feedforward algorithm
 #define SPREAD 0.2
 
-#define TRIM_P2 3
+#define TRIM_P2 4
 #define TRIM_P1 5
 
 #define START_DEPTH 2
@@ -1242,7 +1242,7 @@ void *evaluate_switch(void *rawArgs){
                     newArgs.outputPtr = &output;
 
                     evaluate_move(&newArgs);
-                    P1Moves->estimate = output.estimate;
+                    P1Moves[5].estimate = output.estimate;
                 }
                 // printf("in evaluate_switch, outputPtr %p\n", (void *)args->outputPtr);
                 *(args->outputPtr) = P1Moves[5];
@@ -1298,10 +1298,9 @@ void *evaluate_switch(void *rawArgs){
                     printf("in evaluate_switch, calling evaluate_move with outputPtr %p\n", (void *)newArgs.outputPtr);
 
                     evaluate_move(&newArgs);
-                    P2Moves->estimate = output.estimate;
+                    P2Moves[0].estimate = output.estimate;
                 }
                 *(args->outputPtr) = P2Moves[0];
-                args->outputPtr->estimate = (P2Moves[0].estimate + P2Moves[1].estimate)/2;
                 void *voidReturn;
                 return voidReturn;
             }
@@ -1353,6 +1352,7 @@ void *evaluate_move(void *rawArgs ){
                     // "j" is player1's move
 
                     double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH);
+
                     total_estimate+=estimate;
                     totalStatesEvaluated++;
                     // printLua_string(L, "", "");

@@ -1,5 +1,5 @@
 using_test_data = false
-debug_data = true
+debug_data = false
 
 params = {...}
 if params[1] == "debug" then
