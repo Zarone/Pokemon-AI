@@ -160,6 +160,8 @@ while true do
             output_manager.press({
                 {{A = true}, 5}
             }, 25)
+        elseif battleState.game_reader.wild_battle and (battle_weights.type_info[ type1 ] > 0.3 or battle_weights.type_info[ type2 ] > 0.3) then
+            print("want to catch this \'mon")
         elseif can_move then
             local initDelay = 10
             local action_info = battleState:act()
