@@ -270,7 +270,13 @@ export class Battle {
         // console.log("key", key)
         let databases;
         try {
-            databases = msgpack.decode(data);
+
+            // I don't know why, but for some reason a line break is occasionally just added
+            // to the buffer. I don't know. 10 is the char code for line break. I don't understand
+            // but whatever.
+            databases = msgpack.decode( Buffer.from(data).filter((num) => {
+                return num != 10;
+            }) );
             // console.log("no error", databases)
         } catch(error: any){
             console.log("error reading import data", error);
