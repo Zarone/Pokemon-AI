@@ -28,7 +28,7 @@
 #define START_DEPTH 2
 
 // boolean
-#define MULTITHREADED 1
+#define MULTITHREADED 0
 
 #if LAYERS == 3
 struct Weights {
@@ -1016,18 +1016,28 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
 
     for (int i = 0; i < L1; i++){
         mpack_write_int(&writer, newGameData[i]);
+        // printf("%i %i\n", i, newGameData[i]);
     }
     mpack_finish_array(&writer);
 
-    mpack_write_str(&writer, "", 1);
-    mpack_write_uint(&writer, state->activePokemonP1);
-    mpack_write_uint(&writer, state->activePokemonP2);
+    mpack_write_str(&writer, "", strlen(""));
+    // printf("%s\n", "");
+    mpack_write_int(&writer, state->activePokemonP1);
+    // printf("%i\n", state->activePokemonP1);
+    mpack_write_int(&writer, state->activePokemonP2);
+    // printf("%i\n", state->activePokemonP2);
     mpack_write_str(&writer, state->encoreMoveP1, strlen(state->encoreMoveP1));
+    // printf("%s\n", state->encoreMoveP1);
     mpack_write_str(&writer, state->encoreMoveP2, strlen(state->encoreMoveP2));
+    // printf("%s\n", state->encoreMoveP2);
     mpack_write_str(&writer, state->disableMoveP1, strlen(state->disableMoveP1));
+    // printf("%s\n", state->disableMoveP1);
     mpack_write_str(&writer, state->disableMoveP2, strlen(state->disableMoveP2));
-    mpack_write_uint(&writer, state->secondaryP1);
-    mpack_write_uint(&writer, state->secondaryP2);
+    // printf("%s\n", state->disableMoveP2);
+    mpack_write_int(&writer, state->secondaryP1);
+    // printf("%i\n", state->secondaryP1);
+    mpack_write_int(&writer, state->secondaryP2);
+    // printf("%i\n", state->secondaryP2);
 
     mpack_finish_array(&writer);
     
@@ -1055,21 +1065,24 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
    
     char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
     strcat(process, stringKey);
-    STARTUPINFO si;
-    PROCESS_INFORMATION pi;
 
-    ZeroMemory(&si, sizeof(si));
-    si.cb = sizeof(si);
-    ZeroMemory(&pi, sizeof(pi));
+    system(process);
 
-    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
-    {
-        WaitForSingleObject(pi.hProcess, INFINITE);
-        CloseHandle(pi.hProcess);
-        CloseHandle(pi.hThread);
-    } else {
-        printf( "CreateProcess failed (%ld)\n", GetLastError() );
-    }
+    // STARTUPINFO si;
+    // PROCESS_INFORMATION pi;
+
+    // ZeroMemory(&si, sizeof(si));
+    // si.cb = sizeof(si);
+    // ZeroMemory(&pi, sizeof(pi));
+
+    // if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    // {
+    //     WaitForSingleObject(pi.hProcess, INFINITE);
+    //     CloseHandle(pi.hProcess);
+    //     CloseHandle(pi.hThread);
+    // } else {
+    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    // }
 
 }
 

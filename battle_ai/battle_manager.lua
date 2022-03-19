@@ -93,7 +93,7 @@ function BattleManager.new()
     
     instance_game_reader = nil
     if not using_test_data then
-        instance_game_reader = GameReader.new(StateReader.is_wild_battle(), names, names_enemy)
+        instance_game_reader = GameReader.new(StateReader.is_wild_battle(), names, names_enemy, StateReader.get_player_health())
     end
 
     instance = setmetatable({
@@ -221,15 +221,15 @@ function BattleManager:getState()
                 100, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 
                 92, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                
+
                 100, 184, 97, 232, 161, 192, 61, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 244, 111, 125, 132, 192, 111, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 
                 100, 201, 139, 137, 125, 125, 182, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 59, 139, 88, 154, 102, 139, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 228, 202, 139, 93, 139, 114, false, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 192, 96, 158, 238, 173, 143, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0
-            },
-            'N/A_s', 4, 0, '', '', '', '', 0, 0
+            }, 
+            'N/A_s', 5, 0, '', '', '', '', 0, 0
         }
         -- return {
         --     {
@@ -470,6 +470,44 @@ if using_test_data then
     my_battle_manager = BattleManager.new()
     my_battle_manager:act_open()
     my_battle_manager:act_close()
+end
+
+function BattleManager.type_id(id)
+    if ("Bug" == id) then
+        return 1
+    elseif ("Dark" == id) then
+        return 2
+    elseif ("Dragon" == id) then
+        return 3
+    elseif ("Electric" == id) then
+        return 4
+    elseif ("Fighting" == id) then
+        return 5
+    elseif ("Fire" == id) then
+        return 6
+    elseif ("Flying" == id) then
+        return 7
+    elseif ("Ghost" == id) then
+        return 8
+    elseif ("Grass" == id) then
+        return 9
+    elseif ("Ground" == id) then
+        return 10
+    elseif ("Ice" == id) then
+        return 11
+    elseif ("Normal" == id) then
+        return 12
+    elseif ("Poison" == id) then
+        return 13
+    elseif ("Psychic" == id) then
+        return 14
+    elseif ("Rock" == id) then
+        return 15
+    elseif ("Steel" == id) then
+        return 16
+    elseif ("Water" == id) then
+        return 17
+    end
 end
 
 return BattleManager

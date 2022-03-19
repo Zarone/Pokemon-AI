@@ -17,7 +17,7 @@ function move_to_id(move)
     return move:gsub(" ", ""):gsub("-", ""):lower()
 end
 
-function GameReader.new(wild_battle, nicknames, nicknames_enemy)
+function GameReader.new(wild_battle, nicknames, nicknames_enemy, p1_hp_array)
     instance = setmetatable({}, GameReader)
 
     instance.last_str = ""
@@ -57,9 +57,20 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy)
     instance.nicknames = nicknames
     instance.nicknames_enemy = nicknames_enemy
     instance.active = 0
+    for i = 1, 6 do
+        if p1_hp_array[i] < 1 then
+            instance.active = instance.active + 1
+        else
+            break
+        end
+    end
     instance.enemy_active = 0
     instance.wild_battle = wild_battle
     instance.pokemon_order= {0, 1, 2, 3, 4, 5}
+    for i = 1, 6 do
+        instance.pokemon_order[i] = (instance.active + i - 1) % 6
+    end
+    print("active", instance.active, "order", instance.pokemon_order)
 
     return instance
 end

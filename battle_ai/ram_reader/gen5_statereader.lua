@@ -72,7 +72,8 @@ function get_enemy_stats()
     -- if it's a wild battle
     if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
         read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
-        return {stats_in_battle_slot(1)}
+        -- return {stats_in_battle_slot(1)}
+        return {stats_in_battle_slot(1), {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}}
     else
         stats = {}
         for i = -6, -1 do
@@ -245,7 +246,6 @@ function get_player_types()
 end
 
 function StateReader.get_player_pokemon_array(pokemon_order)
-    print("pokemon_order", pokemon_order)
     local Pokemon = {}
     local L_healths = StateReader.get_player_health()
     local L_stats = get_player_stats()

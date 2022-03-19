@@ -391,6 +391,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 
         for (let i = 1; i < 6; i++){
             
+            if(i < ((this.battle?.startTeam[1] as string[]).length as number)){
             if (i == p1ActiveMon){
                 for (let j = 0; j < 6; j++){
                     if (this.battle?.sides[0].pokemon[j].species.name == this.battle?.startTeam[0][0]){
@@ -410,7 +411,17 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
                     }
                 }
             }
+            } else {
+                benchP1.push(
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                );
+            }
 
+            if(i < ((this.battle?.startTeam[1] as string[]).length as number)){
             if (i == p2ActiveMon){
                 for (let j = 0; j < 6; j++){
                     if (this.battle?.sides[1].pokemon[j].species.name == this.battle?.startTeam[1][0]){
@@ -430,6 +441,16 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
                     }
                 }
             }
+            } else {
+                benchP2.push(
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0,
+                );
+            }
+
         }
 
 		// for (let i = 0; i < 6; i++) {
@@ -527,6 +548,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			player2secondary,
 		];
 
+        // console.log(returnVal.length==10, returnVal[0].length==425)
 		return returnVal;
 	}
 
@@ -1052,6 +1074,9 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 					"./battle_ai/state_files/battleStatesFromShowdown/"+this.thisKey,
 					Buffer.from(msgpack.encode(this.msgOutput))
 				);
+                // console.log(this.msgOutput[1][3].length)
+                // console.log(this.msgOutput[1][3][0].length)
+                // console.log(this.msgOutput[1][3][0][0].length)
 
                 // this.battle?.send("data", "here writing output 2");
 

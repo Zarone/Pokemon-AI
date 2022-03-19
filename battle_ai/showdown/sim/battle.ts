@@ -266,15 +266,17 @@ export class Battle {
 
 		this.send = options.send || (() => {});
 		// this.send("startState", data);
-		// console.log("data", data)
+		// console.log("data", data.toString())
+        // console.log("key", key)
         let databases;
         try {
             databases = msgpack.decode(data);
             // console.log("no error", databases)
         } catch(error: any){
-            console.log("error", error);
+            console.log("error reading import data", error);
         }
 		this.importData = databases;
+        // console.log(this.importData)
 
 
 		const inputOptions: {
@@ -3137,7 +3139,6 @@ export class Battle {
 							this.sides[thisSide as number].pokemon[i % 6].faint();
 						}
 
-                        // console.log(i)
 						this.sides[thisSide as number].pokemon[i % 6].sethp(
 							Math.round(
 								(this.sides[thisSide as number].pokemon[i % 6].maxhp *

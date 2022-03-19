@@ -5,6 +5,13 @@ local mem = require "./navigator/memory_retrieval"
 -- local button_masher = require "button_masher"
 local output_manager = require "./navigator/output_manager"
 local BattleManager = require "./battle_ai/battle_manager"
+local json = require "lunajson"
+
+gamedata_file = io.open("./battle_ai/gamedata/pokedex.json", "r")
+local gamedata = json.decode(gamedata_file:read())
+print(gamedata[""])
+gamedata_file:close()
+
 
 -- the purpose of "mode" is to determine what
 -- game actions the bot is attempting to perform
@@ -50,6 +57,7 @@ local battle_weights = {
     }
 }
 local last_battle_action = nil
+local enemy_pokemon1_types
 
 while true do
     if not is_in_battle then md.update_map(true) end
@@ -74,12 +82,23 @@ while true do
         end
     end
 
+    
     if is_in_battle then
         if not was_in_battle then
             print("battle started")
             battle_clock = 0
             was_in_battle = true
             battleState = BattleManager.new()
+            
+            if battleState.game_reader.wild_battle then
+                local enemy_pokemon1_types_raw = gamedata[battleState.IGReader:get(5)[1].name].types
+                if #enemy_pokemon1_types_raw == 1 then
+                    enemy_pokemon1_types_raw[2] = enemy_pokemon1_types_raw[1]
+                end
+
+                enemy_pokemon1_types = { BattleManager.type_id(enemy_pokemon1_types_raw[1]), BattleManager.type_id(enemy_pokemon1_types_raw[2]) }
+                print(battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
+            end
         end
 
         text_end = battleState.game_reader:line_text():sub(-6, -1)
@@ -160,8 +179,10 @@ while true do
             output_manager.press({
                 {{A = true}, 5}
             }, 25)
-        elseif battleState.game_reader.wild_battle and (battle_weights.type_info[ type1 ] > 0.3 or battle_weights.type_info[ type2 ] > 0.3) then
+        elseif battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > 0.3 or battle_weights.type_info[ enemy_pokemon1_types[2] ] > 0.3) then
             print("want to catch this \'mon")
+            print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
+            print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])
         elseif can_move then
             local initDelay = 10
             local action_info = battleState:act()
@@ -372,9 +393,12 @@ while true do
             A = true
         }, 5}}, 5)
     elseif (mode == 0) then
+        print("battle_weights.condition: ", battle_weights.condition)
         if (battle_weights.condition > 0.3) then
             mode = 2
         end
+    elseif (mode == 2) then
+        print("find nearing pokemon center")
     elseif (mode == 1) then
         -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()
@@ -389,6 +413,7 @@ while true do
                         md.wander()
                         -- print(md.local_map)
                     else
+                        output_manager.reset()
                         -- print("enough information to traverse global map")
                     end
                 else
@@ -428,15 +453,12 @@ while true do
                 end
 
             elseif objective[1] == 2 then
-                if (button_masher.mash(objective[2][1], 100)) then
+                if (output_manager.press({objective[2][1]}, 100)) then
                     goals.objective_complete()
-                    button_masher.reset_time()
+                    button_masher.reset()
                 end
             end
         end
-    
-    elseif (mode == 2) then
-        print("find nearing pokemon center")
     end
 
     emu.frameadvance()
