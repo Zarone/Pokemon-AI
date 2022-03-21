@@ -132,7 +132,7 @@ function BattleManager:act_open()
             -- print(team1, team2)
         else
             team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|74,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
-            team2 = "Cofagrigus||none|Mummy|shadowball,psychic,willowisp,energyball|Sassy|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Jellicent||none|Cursed Body|shadowball,psychic,hydropump,sludgewave|Careful|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Froslass||none|Snow Cloak|shadowball,psychic,blizzard,iceshard|Impish|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Drifblim||none|Aftermath|shadowball,psychic,acrobatics,thunder|Quirky|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Golurk||none|Iron Fist|shadowpunch,earthquake,hammerarm,curse|Jolly|0,0,0,0,0,0||30,30,30,30,30,30||71|255,,]Chandelure||none|Flame Body|shadowball,psychic,fireblast,payback|Calm|0,0,0,0,0,0||30,30,30,30,30,30||73|255,,"
+            team2 = "Boldore||Everstone|Sturdy|smackdown,powergem,rockslide,stealthrock|Careful|0,0,0,0,0,0||20,21,30,11,25,12||39|70,,"
         end
         Writer.saveTeams(team1, team2)
         self:get_action()
@@ -211,26 +211,7 @@ end
 
 function BattleManager:getState()
     if using_test_data then
-        return {
-            {
-                255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-                
-                100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 
-                92, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-
-                100, 184, 97, 232, 161, 192, 61, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 244, 111, 125, 132, 192, 111, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 
-                100, 201, 139, 137, 125, 125, 182, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 59, 139, 88, 154, 102, 139, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 228, 202, 139, 93, 139, 114, false, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 192, 96, 158, 238, 173, 143, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0
-            }, 
-            'N/A_s', 5, 0, '', '', '', '', 0, 0
-        }
+        return {{255, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 84, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 111, 95, 98, 43, 49, 25, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1}, 'N/A_s', 2, 0, '', '', '', '', 0, 0}
         -- return {
         --     {
         --         0, 0, 0, 0, 0, 

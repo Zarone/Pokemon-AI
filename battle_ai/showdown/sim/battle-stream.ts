@@ -839,8 +839,17 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						this.battle?.sendUpdates();
 						let activeNickname = undefined;
 						if (i > 4) {
-							activeNickname = this.battle?.sides[0].active[0].name;
+                            activeNickname = this.battle?.sides[0].active[0].name;
 						}
+                        if (this.battle?.ended) {
+                            thisOutput.push(this.getJson(activeNickname, 0, 0));
+
+                            if (this.nnDebug) {
+                                thisOutputDebug.push(this.getJsonDebug(0, 0, activeNickname as string));
+                            }
+                            
+                            continue
+                        }
 
 						// if there's no errors or forced switches
 						if (

@@ -305,7 +305,6 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 					"./battle_ai/state_files/startInfoForShowdown.json",
 					{ encoding: "utf8", flag: "r" }
 				);
-                logFile.write("key: "+key);
 
 				let jsonData = JSON.parse(startup);
 

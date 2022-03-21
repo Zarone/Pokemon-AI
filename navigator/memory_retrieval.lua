@@ -76,4 +76,20 @@ function mem.can_move()
     return memory.readbyteunsigned(0x0224F77D)
 end
 
+function mem.has_ball()
+    local start = 0x2233FAC
+    for i = 0, 639, 4 do
+        local index = start + i
+        local item_index = memory.readword(index)
+        -- print("item", item_gen5[item_index+1])
+        print("is ball: ", item_index > 0 and item_index < 17)
+        print("count", memory.readbyte(index+2))
+        if item_index > 0 and item_index < 17 then
+            print("found ball")
+            return true
+        end
+    end
+    return false
+end
+
 return mem
