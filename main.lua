@@ -9,7 +9,6 @@ local json = require "lunajson"
 
 gamedata_file = io.open("./battle_ai/gamedata/pokedex.json", "r")
 local gamedata = json.decode(gamedata_file:read())
-print(gamedata[""])
 gamedata_file:close()
 
 
@@ -184,17 +183,31 @@ while true do
             print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
             print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])
 
-            output_manager.press({
-                {{}, initDelay},
-                {{down = true}, 5}, 
-                {{A = true}, 5}, 
-                {{right = true}, 5}, 
-                {{A = true}, 5},
-                {{A = true}, 5},
-                {{down = true}, 5},
-                {{A = true}, 5},
-                {{A = true}, 5},
-            }, 25)
+            local initDelay = 10
+            local action_info = battleState:act_catch()
+            local action
+            if active_info ~= nil then
+                action = action_info.move
+            end 
+
+            if action == 11 then
+                -- Throw the first pokeball queued from the bag
+
+                -- If I really wanted to I could add a more verbose system
+                -- to select the optimal ball, but I just don't think I need
+                -- to.
+                output_manager.press({
+                    {{}, initDelay},
+                    {{down = true}, 5}, 
+                    {{A = true}, 5}, 
+                    {{right = true}, 5}, 
+                    {{A = true}, 5},
+                    {{A = true}, 5},
+                    {{down = true}, 5},
+                    {{A = true}, 5},
+                    {{A = true}, 5},
+                }, 25)
+            end
             
         elseif can_move then
             local initDelay = 10

@@ -1783,6 +1783,12 @@ void *evaluate_switch_from_partial_start(void *rawArgs){
     return NULL;
 }
 
+void *evaluate_move_catch(void *rawArgs){
+    struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
+    struct PartialMove sampleMove;
+    args->outputPtr = sampleMove;
+}
+
 int run_evaluation(lua_State *L){
     // all this stack manipulation is just to cleanup
     // the stack and get relevant data into "start_state"
@@ -2033,6 +2039,129 @@ int run_evaluation_switch(lua_State *L){
     return bestSwitch.move;
 }
 
+int run_evaluation_catch(lua_State *L){
+    // all this stack manipulation is just to cleanup
+    // the stack and get relevant data into "start_state"
+
+
+    // stack: [ exec_showdown_state, state ]
+
+    struct State start_state;
+
+    lua_rawgeti(L, -1, 2);
+    // stack: [ exec_showdown_state, state, switch_info ]
+
+    strcpy(start_state.name, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 3);
+    // stack: [ exec_showdown_state, state, activeInfoP1 ]
+
+    start_state.activePokemonP1 = lua_tointeger(L, -1);
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 4);
+    // stack: [ exec_showdown_state, state, activeInfoP2 ]
+
+    start_state.activePokemonP2 = lua_tointeger(L, -1);
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 5);
+    // stack: [ exec_showdown_state, state, encoreP1 ]
+
+    strcpy(start_state.encoreMoveP1, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 6);
+    // stack: [ exec_showdown_state, state, encoreP2 ]
+
+    strcpy(start_state.encoreMoveP2, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 7);
+    // stack: [ exec_showdown_state, state, disableP1 ]
+
+    strcpy(start_state.disableMoveP1, lua_tostring(L, -1));
+    
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 8);
+    // stack: [ exec_showdown_state, state, disableP2 ]
+
+    strcpy(start_state.disableMoveP2, lua_tostring(L, -1));
+ 
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_rawgeti(L, -1, 1);
+    // stack: [ exec_showdown_state, state, inputs ]
+
+    for (int i = 0; i < L1; i++){
+        lua_rawgeti(L, -1, i+1);
+        // stack: [ exec_showdown_state, state, inputs, thisInput ]
+        
+        start_state.game_data[i] = lua_tointeger(L, -1);
+        // printLua(L, "i: ", i);
+        // printLua(L, "Game State: ", start_state.game_data[i]);
+
+        lua_remove(L, -1);
+        // stack: [ exec_showdown_state, state, inputs ]
+    }
+
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state, state ]
+
+    lua_remove(L, -1);
+    // stack: [ exec_showdown_state ]
+
+    struct Weights my_weights;
+    get_weights(L, &my_weights);
+    // print_weights(&my_weights, L);
+    // print_inputs(start_state, L);
+
+    // struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
+    // get_inputs(my_states);
+    // print_inputs(*my_states);
+    // free(my_states);
+
+    key = 0;
+    
+    if (pthread_mutex_init(&lock, NULL) != 0) {
+        printLua_string(L, "mutex init has failed", "");
+        return -1;
+    }
+
+    struct PartialMove bestMove;
+
+    struct EvaluateArgs args;
+    args.L = L;
+    args.my_state = &start_state;
+    args.my_weights = &my_weights;
+    args.depth = START_DEPTH;
+    args.outputPtr = &bestMove;
+    
+    evaluate_move_catch(&args);
+    lua_settop(L, 0);
+    lua_newtable(L);
+    lua_pushinteger(L, bestMove.move);
+    lua_setfield(L, -2, "move");
+    lua_pushstring(L, bestMove.name);
+    lua_setfield(L, -2, "name");
+
+    return bestMove.move;
+}
+
 // takes arguments [exec_showdown_state, state]
 int get_move(lua_State *L){
     
@@ -2045,11 +2174,20 @@ int get_move(lua_State *L){
 
 // takes arguments [exec_showdown_state, state]
 int get_switch(lua_State *L){
-    int res = run_evaluation_switch(L);
+    int res = run_evaluation(L);
     lua_settop(L, 0);
     lua_pushnumber(L, res);
 
     return 1;
+}
+
+int get_move_catch(lua_State *L){
+    
+    int res = run_evaluation_switch(L);
+    lua_settop(L, 0);
+    lua_pushnumber(L, res);
+
+    return 1
 }
 
 void printLua_double(lua_State *L, const char *label, double value){
@@ -2067,17 +2205,21 @@ void printLua_string(lua_State *L, const char *label, const char *value){
 }
 
 int luaopen_processor(lua_State *L){
-    // this code is functional in lua 5.4 but not (as I've learned) lua 5.1
+    // this code is functional in lua 5.4 but not (as I've learned) in lua 5.1
+
     //   luaL_Reg fns[] = {
     //     {"get_move", get_move},
     //     {"get_switch", get_switch},
     //     {NULL, NULL}
     //   };
     //   luaL_newlib(L, fns);
+
     lua_newtable(L);
     lua_pushcfunction(L, get_move);
     lua_setfield(L, -2, "get_move");
     lua_pushcfunction(L, get_switch);
     lua_setfield(L, -2, "get_switch");
+    lua_pushcfunction(L, get_move_catch);
+    lua_setfield(L, -2, "get_move_catch");
     return 1;  // Number of Lua-facing return values on the Lua stack in L.
 }

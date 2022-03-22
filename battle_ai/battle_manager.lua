@@ -106,6 +106,41 @@ function BattleManager.new()
     return instance
 end
 
+function BattleManager.act_catch(self)
+    if self.game_reader:get_line() then
+        self.queued_switch = nil
+        return self:act_open_catch()
+    else
+        self:act_close()
+    end
+
+    -- either 0 for no action, 1 for moveslot 1... 4 for moveslot 4, 5 for switch to party slot 1, 10 for party slot 6 
+end
+
+function BattleManager:act_open_catch()
+    if self.queued_move == nil then
+        -- if not using_test_data then
+            -- self:saveState()
+        -- end
+
+        team1 = nil
+        team2 = nil
+
+        if not using_test_data then
+            team1, team2 = BattleManager.get_teams_packed(self.IGReader)
+            if debug_data then print("team1", team1, "team2", team2) end
+            -- print(team1, team2)
+        else
+            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|74,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
+            team2 = "Boldore||Everstone|Sturdy|smackdown,powergem,rockslide,stealthrock|Careful|0,0,0,0,0,0||20,21,30,11,25,12||39|70,,"
+        end
+        Writer.saveTeams(team1, team2)
+        self:get_action_catch()
+        return {move = 0}
+    end 
+    return self.queued_move
+end
+
 function BattleManager.act(self)
     if self.game_reader:get_line() then
         self.queued_switch = nil
@@ -174,6 +209,29 @@ function BattleManager:get_action()
     thisMove.move = thisMove.move + 1
     
     if not using_test_data and thisMove.move > 4 then
+        -- 5 means switch to slot 1, 6 means switch to slot 2, etc
+        if thisMove.move-4-1 == self.game_reader.active then
+            thisMove.move = 5
+        end
+        for i = 1, 6 do
+            if (thisMove.move-5) == self.game_reader.pokemon_order[i] then
+                thisMove.move = i+4
+                break
+            end
+        end
+    end
+    returnAction = thisMove
+
+    self.queued_move = returnAction
+end
+
+function BattleManager:get_action_catch()
+    local state = self:getState()
+    local thisMove = processor.get_move_catch(frame, state)
+    -- print("making move: ", thisMove)
+    thisMove.move = thisMove.move + 1
+    
+    if not using_test_data and thisMove.move > 4 and thisMove.move < 11 then
         -- 5 means switch to slot 1, 6 means switch to slot 2, etc
         if thisMove.move-4-1 == self.game_reader.active then
             thisMove.move = 5
