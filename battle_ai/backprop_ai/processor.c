@@ -1783,10 +1783,103 @@ void *evaluate_switch_from_partial_start(void *rawArgs){
     return NULL;
 }
 
+double catchRate(int (*inputs)[L1]){
+    printf("Haven't implemented catchRate function");
+    return 0;
+}
+
 void *evaluate_move_catch(void *rawArgs){
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
-    struct PartialMove sampleMove;
-    args->outputPtr = sampleMove;
+
+    if (args->depth != START_DEPTH){ pthread_mutex_lock(&lock); }
+    key++;
+    int thisKey = key;
+    if (args->depth != START_DEPTH){ pthread_mutex_unlock(&lock); }
+    
+    load_showdown_state(args->my_state, thisKey, args->depth == START_DEPTH);
+
+    struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
+
+    get_inputs(args->L, my_states, thisKey);
+
+    // the "inputs" here are states resulting from load_showdown_state
+    
+    // I pass in this reference here so that the "get_inputs" can figure out
+    // where each element in the array is located
+
+    struct Move allMoves[10][4];
+    int totalStatesEvaluated = 0;
+
+    for (int i = 0; i < 4; i++){
+        for (int j = 0; j < 10; j++){
+
+            double total_estimate = 0.0;
+
+            for (int k = 0; k < 26; k++){
+
+                // if state exists
+                if ( (*(my_states + i*10*25 + j*25 + k) ).name[0] != '\0'){
+
+                    // "i" is player2's move
+                    // "j" is player1's move
+
+                    double estimate = catchRate(&((my_states + i*10*25 + j*25 + k)->game_data));
+
+                    total_estimate+=estimate;
+                    totalStatesEvaluated++;
+                    // printLua_string(L, "", "");
+                    // printLua_double(L, "Player 1 Move: ", j);
+                    // printLua_double(L, "Player 2 Move: ", i);
+                    // printLua_double(L, "Outcome #: ", k);
+                    // printLua_double(L, "Estimate: ", estimate);
+
+                } else {
+                    if (k > 0){
+                        struct Move thisMove;
+                        thisMove.estimate = total_estimate / k;
+                        thisMove.isMultiEvent = (k>1) ? 1 : 0;
+                        thisMove.moves[0] = j;
+                        thisMove.moves[1] = i;
+                        allMoves[j][i] = thisMove;
+                    } else {
+                        allMoves[j][i].moves[0] = -1;
+                    }
+                    break;
+
+                }
+            }
+        }
+    }
+
+    struct PartialMove p2moves[4];
+    for (int i = 0; i < 4; i++){
+        double acculative_estimate = 0.0;
+        int possibilities = 0;
+        
+        for (int j = 0; j < 10; j++){
+
+            // "i" represents player2move
+            // "j" represents player1move
+            
+            // if this move combination occured
+            if (allMoves[j][i].moves[0] != -1){
+                possibilities+=1;
+                acculative_estimate+=allMoves[j][i].estimate;
+            }
+
+        }
+
+        if (possibilities > 0){
+            p2moves[i].estimate = acculative_estimate/(double)possibilities;
+        } else {
+            p2moves[i].estimate = 1;
+        }
+            
+        p2moves[i].move = i;
+    }
+
+    mergeSort_PartialMove(p2moves, 0, 3);
+
 }
 
 int run_evaluation(lua_State *L){
@@ -2183,7 +2276,7 @@ int get_switch(lua_State *L){
 
 int get_move_catch(lua_State *L){
     
-    int res = run_evaluation_switch(L);
+    int res = run_evaluation_catch(L);
     lua_settop(L, 0);
     lua_pushnumber(L, res);
 
