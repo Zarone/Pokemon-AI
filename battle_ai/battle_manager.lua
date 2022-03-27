@@ -125,7 +125,7 @@ function BattleManager:act_open_catch()
 
         team1 = nil
         team2 = nil
-
+        
         if not using_test_data then
             team1, team2 = BattleManager.get_teams_packed(self.IGReader)
             if debug_data then print("team1", team1, "team2", team2) end
@@ -136,9 +136,9 @@ function BattleManager:act_open_catch()
         end
         Writer.saveTeams(team1, team2)
         self:get_action_catch()
+        print(self.queued_move.move)
         return {move = 0}
     end 
-    print(self.queued_move)
     return self.queued_move
 end
 

@@ -25,7 +25,7 @@
 #define TRIM_P2 4
 #define TRIM_P2_CATCH 1
 #define TRIM_P1 5
-#define TRIM_P2_CATCH 3
+#define TRIM_P1_CATCH 3
 
 #define START_DEPTH 2
 #define START_DEPTH_CATCH 1
@@ -1818,12 +1818,12 @@ double catchRate(int (*inputs)[L1]){
 void *evaluate_move_catch(void *rawArgs){
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
 
-    if (args->depth != START_DEPTH){ pthread_mutex_lock(&lock); }
+    if (args->depth != START_DEPTH_CATCH){ pthread_mutex_lock(&lock); }
     key++;
     int thisKey = key;
-    if (args->depth != START_DEPTH){ pthread_mutex_unlock(&lock); }
+    if (args->depth != START_DEPTH_CATCH){ pthread_mutex_unlock(&lock); }
     
-    load_showdown_state(args->my_state, thisKey, args->depth == START_DEPTH);
+    load_showdown_state(args->my_state, thisKey, args->depth == START_DEPTH_CATCH);
 
     struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
 
@@ -1879,6 +1879,8 @@ void *evaluate_move_catch(void *rawArgs){
         allMoves[10][i].isMultiEvent = 0;
         float baseCatchRate = catchRate( &(args->my_state)->game_data );
         allMoves[10][i].estimate = 1 - (1-baseCatchRate)*(1-baseCatchRate);
+        allMoves[10][i].moves[0] = 10;
+        allMoves[10][i].moves[1] = i;
 
     }
 
@@ -1911,7 +1913,7 @@ void *evaluate_move_catch(void *rawArgs){
 
     mergeSort_PartialMove(p2moves, 0, 3);
 
-    if (args->depth == START_DEPTH) {
+    if (args->depth == START_DEPTH_CATCH) {
         printLua_string(args->L, "", "");
         printLua_string(args->L, "Sorted P2 Moves: ", "");
         printArr_PartialMove(args->L, p2moves, 4);
@@ -1937,7 +1939,7 @@ void *evaluate_move_catch(void *rawArgs){
         }
     }
 
-    if (args->depth == START_DEPTH) {
+    if (args->depth == START_DEPTH_CATCH) {
         printLua_string(args->L, "", "");
         printLua_string(args->L, "All moves after trim by P2: ", "");
         for (int i = 0; i < 11; i++){
@@ -1986,9 +1988,9 @@ void *evaluate_move_catch(void *rawArgs){
     }
 
     if (args->depth == 1){
-        strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
+        strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[10].move*25 + 0) ).name);
         pthread_mutex_lock(&lock);
-        *(args->outputPtr) = p1moves[9];
+        *(args->outputPtr) = p1moves[10];
 
         // args->outputPtr->estimate = p1moves[9].estimate;
         // args->outputPtr->move = p1moves[9].move;
@@ -2008,7 +2010,7 @@ void *evaluate_move_catch(void *rawArgs){
     return NULL;
 }
 
-int run_evaluation(lua_State *L){
+void run_evaluation(lua_State *L){
     // all this stack manipulation is just to cleanup
     // the stack and get relevant data into "start_state"
 
@@ -2108,7 +2110,7 @@ int run_evaluation(lua_State *L){
     
     if (pthread_mutex_init(&lock, NULL) != 0) {
         printLua_string(L, "mutex init has failed", "");
-        return -1;
+        // return -1;
     }
 
     lastBackpropBatch.condition = 0;
@@ -2147,7 +2149,7 @@ int run_evaluation(lua_State *L){
     lua_pushnumber(L, lastBackpropBatch.condition);
     lua_setfield(L, -2, "condition");
 
-    return bestMove.move;
+    // return bestMove.move;
 }
 
 int run_evaluation_switch(lua_State *L){
@@ -2258,7 +2260,7 @@ int run_evaluation_switch(lua_State *L){
     return bestSwitch.move;
 }
 
-int run_evaluation_catch(lua_State *L){
+void run_evaluation_catch(lua_State *L){
     // all this stack manipulation is just to cleanup
     // the stack and get relevant data into "start_state"
 
@@ -2358,7 +2360,7 @@ int run_evaluation_catch(lua_State *L){
     
     if (pthread_mutex_init(&lock, NULL) != 0) {
         printLua_string(L, "mutex init has failed", "");
-        return -1;
+        // return -1;
     }
 
     struct PartialMove bestMove;
@@ -2378,7 +2380,7 @@ int run_evaluation_catch(lua_State *L){
     lua_pushstring(L, bestMove.name);
     lua_setfield(L, -2, "name");
 
-    return bestMove.move;
+    // return bestMove.move;
 }
 
 // takes arguments [exec_showdown_state, state]
@@ -2393,7 +2395,7 @@ int get_move(lua_State *L){
 
 // takes arguments [exec_showdown_state, state]
 int get_switch(lua_State *L){
-    int res = run_evaluation(L);
+    int res = run_evaluation_switch(L);
     lua_settop(L, 0);
     lua_pushnumber(L, res);
 
@@ -2402,9 +2404,7 @@ int get_switch(lua_State *L){
 
 int get_move_catch(lua_State *L){
     
-    int res = run_evaluation_catch(L);
-    lua_settop(L, 0);
-    lua_pushnumber(L, res);
+    run_evaluation_catch(L);
 
     return 1;
 }
