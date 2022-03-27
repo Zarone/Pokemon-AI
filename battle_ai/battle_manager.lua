@@ -138,6 +138,7 @@ function BattleManager:act_open_catch()
         self:get_action_catch()
         return {move = 0}
     end 
+    print(self.queued_move)
     return self.queued_move
 end
 
@@ -507,7 +508,7 @@ end
 
 if using_test_data then
     my_battle_manager = BattleManager.new()
-    my_battle_manager:act_open()
+    my_battle_manager:act_open_catch()
     my_battle_manager:act_close()
 end
 

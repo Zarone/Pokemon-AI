@@ -70,19 +70,19 @@ def get_types_array(typelist):
 def get_status_array(status):
     status_arr = [0 for _ in range(6)]
 
-    if status == 1:
+    if status == 1: # burn
         status_arr[0] = 1
-    elif status == 2:
+    elif status == 2: # freeze
         status_arr[1] = 1
-    elif status == 3:
+    elif status == 3: # paralyze
         status_arr[2] = 1
-    elif status == 4:
+    elif status == 4: # poison
         status_arr[3] = 1
-    elif status == 5:
+    elif status == 5: # toxic
         status_arr[3] = 2
-    elif status == 6:
+    elif status == 6: # sleep
         status_arr[4] = 1
-    elif status == 7:
+    elif status == 7: # fainted
         status_arr[5] = 1
 
     return status_arr

@@ -23,9 +23,12 @@
 #define SPREAD 0.2
 
 #define TRIM_P2 4
+#define TRIM_P2_CATCH 1
 #define TRIM_P1 5
+#define TRIM_P2_CATCH 3
 
 #define START_DEPTH 2
+#define START_DEPTH_CATCH 1
 
 // boolean
 #define MULTITHREADED 0
@@ -1103,6 +1106,15 @@ int matchesP2(int move, struct PartialMove (*sortedMoveList)){
     }
     return 0;
 }
+int matchesP2Catch(int move, struct PartialMove (*sortedMoveList)){
+    // return move == (*sortedMoveList)[0].move || move == (*sortedMoveList)[1].move;
+    
+    for (int i = 0; i < TRIM_P2_CATCH; i++){
+        if ( (*(sortedMoveList+i)).move == move) return 1; 
+    }
+    return 0;
+}
+
 
 struct EvaluateArgs {
     lua_State *L;
@@ -1784,8 +1796,23 @@ void *evaluate_switch_from_partial_start(void *rawArgs){
 }
 
 double catchRate(int (*inputs)[L1]){
-    printf("Haven't implemented catchRate function");
-    return 0;
+
+    float statusMult = 1;
+    if (*inputs[269] == 1){
+        statusMult = 1.5;
+    } else if (*inputs[270] == 1){
+        statusMult = 2.5;
+    } else if (*inputs[271] == 1){
+        statusMult = 1.5;
+    } else if (*inputs[272] == 1 || *inputs[272] == 2){
+        statusMult = 1.5;
+    } else if (*inputs[273] == 1){
+        statusMult = 2.5;
+    }
+
+    float hpPercent = *inputs[245]/100;
+
+    return (3-2*hpPercent)*statusMult/255;
 }
 
 void *evaluate_move_catch(void *rawArgs){
@@ -1807,7 +1834,7 @@ void *evaluate_move_catch(void *rawArgs){
     // I pass in this reference here so that the "get_inputs" can figure out
     // where each element in the array is located
 
-    struct Move allMoves[10][4];
+    struct Move allMoves[11][4];
     int totalStatesEvaluated = 0;
 
     for (int i = 0; i < 4; i++){
@@ -1849,6 +1876,10 @@ void *evaluate_move_catch(void *rawArgs){
                 }
             }
         }
+        allMoves[10][i].isMultiEvent = 0;
+        float baseCatchRate = catchRate( &(args->my_state)->game_data );
+        allMoves[10][i].estimate = 1 - (1-baseCatchRate)*(1-baseCatchRate);
+
     }
 
     struct PartialMove p2moves[4];
@@ -1880,6 +1911,101 @@ void *evaluate_move_catch(void *rawArgs){
 
     mergeSort_PartialMove(p2moves, 0, 3);
 
+    if (args->depth == START_DEPTH) {
+        printLua_string(args->L, "", "");
+        printLua_string(args->L, "Sorted P2 Moves: ", "");
+        printArr_PartialMove(args->L, p2moves, 4);
+    }
+
+    struct Move moves_filteredP2[11][TRIM_P2_CATCH];
+
+    int k = 0;
+    for (int j = 0; j < 10; j++){
+        if (matchesP2Catch(j, &p2moves[0]) == 1){
+            for (int i = 0; i < 11; i++){
+                // j is player2 move
+                // i is player1 move
+                
+                // allMoves is indexes by [player1move][player2move]
+                moves_filteredP2[i][k].estimate = allMoves[i][j].estimate;
+                moves_filteredP2[i][k].isMultiEvent = allMoves[i][j].isMultiEvent;
+                moves_filteredP2[i][k].moves[0] = allMoves[i][j].moves[0];
+                moves_filteredP2[i][k].moves[1] = allMoves[i][j].moves[1];
+
+            }
+            k++;
+        }
+    }
+
+    if (args->depth == START_DEPTH) {
+        printLua_string(args->L, "", "");
+        printLua_string(args->L, "All moves after trim by P2: ", "");
+        for (int i = 0; i < 11; i++){
+            for (int j = 0; j < TRIM_P2_CATCH; j++){
+                printLua_double(args->L, "move1: ", moves_filteredP2[i][j].moves[0]);
+                printLua_double(args->L, "move2: ", moves_filteredP2[i][j].moves[1]);
+                printLua_double(args->L, "estimate: ", moves_filteredP2[i][j].estimate);
+            }
+        }
+    }
+    
+    struct PartialMove p1moves[11];
+    
+    for (int j = 0; j < 11; j++){
+        double acculative_estimate = 0.0;
+        int possibilities = 0;
+        
+        for (int i = 0; i < TRIM_P2_CATCH; i++){
+
+            // "i" represents player2move
+            // "j" represents player1move
+            
+            // if this move combination occured
+            if (moves_filteredP2[j][i].moves[0] != -1){
+                possibilities+=1;
+                acculative_estimate+=moves_filteredP2[j][i].estimate;
+            }
+
+        }
+
+        if (possibilities > 0){
+            p1moves[j].estimate = acculative_estimate/(double)possibilities;
+        } else {
+            p1moves[j].estimate = -1;
+        }
+
+        p1moves[j].move = j;
+    }
+    mergeSort_PartialMove(p1moves, 0, 10);
+    
+    if (args->depth == START_DEPTH){
+        printLua_string(args->L, "", "");
+        // printLua_double(L, "DEPTH: ", depth);
+        printLua_string(args->L, "Sorted P1 Moves: ", "");
+        printArr_PartialMove(args->L, p1moves, 10);
+    }
+
+    if (args->depth == 1){
+        strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
+        pthread_mutex_lock(&lock);
+        *(args->outputPtr) = p1moves[9];
+
+        // args->outputPtr->estimate = p1moves[9].estimate;
+        // args->outputPtr->move = p1moves[9].move;
+        // args->outputPtr->name = p1moves[9].name;
+        // strcpy(args->outputPtr->name, p1moves[9].name);
+     
+        // printLua_double(args->L, "set estimate with key", thisKey);
+        // printf("set estimate %f with key %i at address %p\n", p1moves[9].estimate, thisKey, (void *)(args->outputPtr));
+        // frameSkip(args->L);
+        pthread_mutex_unlock(&lock);
+
+        // pthread_exit(0);
+        return NULL;
+    }
+
+    printf("reached evaluate_move_catch\n");
+    return NULL;
 }
 
 int run_evaluation(lua_State *L){
@@ -2241,7 +2367,7 @@ int run_evaluation_catch(lua_State *L){
     args.L = L;
     args.my_state = &start_state;
     args.my_weights = &my_weights;
-    args.depth = START_DEPTH;
+    args.depth = START_DEPTH_CATCH;
     args.outputPtr = &bestMove;
     
     evaluate_move_catch(&args);
@@ -2280,7 +2406,7 @@ int get_move_catch(lua_State *L){
     lua_settop(L, 0);
     lua_pushnumber(L, res);
 
-    return 1
+    return 1;
 }
 
 void printLua_double(lua_State *L, const char *label, double value){
