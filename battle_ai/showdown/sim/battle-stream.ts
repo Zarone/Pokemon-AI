@@ -842,6 +842,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
                             activeNickname = this.battle?.sides[0].active[0].name;
 						}
                         if (this.battle?.ended) {
+                            // console.log(`battle ended in showdown at ${i} ${j}`)
                             thisOutput.push(this.getJson(activeNickname, 0, 0));
 
                             if (this.nnDebug) {

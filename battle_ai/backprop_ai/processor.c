@@ -28,10 +28,10 @@
 #define TRIM_P1_CATCH 3
 
 #define START_DEPTH 2
-#define START_DEPTH_CATCH 1
+#define START_DEPTH_CATCH 2
 
 // boolean
-#define MULTITHREADED 0
+#define MULTITHREADED 1
 
 #if LAYERS == 3
 struct Weights {
@@ -1106,6 +1106,13 @@ int matchesP2(int move, struct PartialMove (*sortedMoveList)){
     }
     return 0;
 }
+int matchesP1Catch(int move, struct PartialMove (*sortedMoveList)[11]){
+    for (int i = 0; i < TRIM_P1_CATCH; i++){
+        int index = 10-i;
+        if ((*sortedMoveList)[index].move == move) return 1; 
+    }
+    return 0;
+}
 int matchesP2Catch(int move, struct PartialMove (*sortedMoveList)){
     // return move == (*sortedMoveList)[0].move || move == (*sortedMoveList)[1].move;
     
@@ -1126,8 +1133,9 @@ struct EvaluateArgs {
 
 // void evaluate_move(lua_State *L, struct State *my_state, struct Weights *my_weights, int depth, struct PartialMove* outputPtr);
 void *evaluate_move(void *rawArgs);
+void *evaluate_move_catch(void *rawArgs);
 
-// my_state is intented as a pointer to to State array of length 25
+// args->my_state is intented as a pointer to to State array of length 25
 void *evaluate_switch(void *rawArgs){
     // printf("\nIn evaluate_switch, Depth: %i\n", depth);
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
@@ -1545,7 +1553,7 @@ void *evaluate_move(void *rawArgs ){
             if (matchesP1(i, &p1moves) == 1){
                 for (int j = 0; j < TRIM_P2; j++){
                     // i is the player1 index on moves_filteredP2
-                    // j is the player2 index on moves_filteredP2 and moves_filteredP2
+                    // j is the player2 index on moves_filteredP1 and moves_filteredP2
 
                     // k is the player1 index on moves_filteredP1
                     
@@ -1699,8 +1707,7 @@ void *evaluate_move(void *rawArgs ){
 
 
     printf("\nreturn blank\n");
-    void *voidReturn;
-    return voidReturn;
+    return NULL;
 }
 
 // *my_state is a point to a single incomplete state, and
@@ -1813,6 +1820,64 @@ double catchRate(int (*inputs)[L1]){
     float hpPercent = *inputs[245]/100;
 
     return (3-2*hpPercent)*statusMult/255;
+}
+
+// args->my_state is intented as a pointer to to State array of length 25
+void *evaluate_switch_catch(void *rawArgs){
+    struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
+
+    // pthread_mutex_lock(&lock);
+    double accumulativeP1[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+    int countP1[] = {0, 0, 0, 0, 0, 0};
+
+    for (int i = 0; i < 6; i++){
+        // if the state occurs
+        if ( (*(args->my_state + i) ).name[0] != '\0' ) {
+            double thisEstimate = catchRate(&((*(args->my_state + i)).game_data));
+            accumulativeP1[(*(args->my_state + i) ).secondaryP1 - 5] += thisEstimate;
+            countP1[(*(args->my_state + i) ).secondaryP1 - 5]+=1;
+        } else {
+            break;
+        }
+    }
+
+    struct PartialMove P1Moves[6];
+    for (int i = 0; i < 6; i++){
+        P1Moves[i].move = i;
+        if (countP1[i] > 0){
+            P1Moves[i].estimate = accumulativeP1[i] / countP1[i];
+        } else {
+            // printLua_double(L, "set to zero: ", i);
+            P1Moves[i].estimate = 0.0;
+        }
+    }
+
+    mergeSort_PartialMove(P1Moves, 0, 5);
+
+    // pthread_mutex_unlock(&lock);
+    for (int i = 0; i < 6; i++){
+        if ((*(args->my_state + i)).secondaryP1 == P1Moves[5].move+5){
+            P1Moves[5].move += 4;
+            if (args->depth != 1) {
+                struct PartialMove output;
+
+                struct EvaluateArgs newArgs;
+                newArgs.L = args->L;
+                newArgs.my_state = args->my_state + i;
+                newArgs.my_weights = args->my_weights;
+                newArgs.depth = args->depth-1;
+                newArgs.outputPtr = &output;
+
+                evaluate_move_catch(&newArgs);
+                P1Moves[5].estimate = output.estimate;
+            }
+            *(args->outputPtr) = P1Moves[5];
+            
+            return NULL;
+        }
+    }
+    
+    return NULL;
 }
 
 void *evaluate_move_catch(void *rawArgs){
@@ -1980,29 +2045,166 @@ void *evaluate_move_catch(void *rawArgs){
     }
     mergeSort_PartialMove(p1moves, 0, 10);
     
-    if (args->depth == START_DEPTH){
+    if (args->depth == START_DEPTH_CATCH){
         printLua_string(args->L, "", "");
         // printLua_double(L, "DEPTH: ", depth);
         printLua_string(args->L, "Sorted P1 Moves: ", "");
-        printArr_PartialMove(args->L, p1moves, 10);
+        printArr_PartialMove(args->L, p1moves, 11);
     }
 
     if (args->depth == 1){
         strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[10].move*25 + 0) ).name);
-        pthread_mutex_lock(&lock);
+        // pthread_mutex_lock(&lock);
         *(args->outputPtr) = p1moves[10];
+        // pthread_mutex_unlock(&lock);
 
-        // args->outputPtr->estimate = p1moves[9].estimate;
-        // args->outputPtr->move = p1moves[9].move;
-        // args->outputPtr->name = p1moves[9].name;
-        // strcpy(args->outputPtr->name, p1moves[9].name);
-     
-        // printLua_double(args->L, "set estimate with key", thisKey);
-        // printf("set estimate %f with key %i at address %p\n", p1moves[9].estimate, thisKey, (void *)(args->outputPtr));
-        // frameSkip(args->L);
-        pthread_mutex_unlock(&lock);
+        return NULL;
+    } else {
+        struct Move moves_filteredP1[TRIM_P1_CATCH][TRIM_P2_CATCH];
 
-        // pthread_exit(0);
+        int k = 0;
+        for (int i = 0; i < 11; i++){
+            // if it's in the top TRIM_P1_CATCH
+            if (matchesP1Catch(i, &p1moves) == 1){
+                for (int j = 0; j < TRIM_P2_CATCH; j++){
+                    // i is the player1 index on moves_filteredP2
+                    // j is the player2 index on moves_filteredP1 and moves_filteredP2
+
+                    // k is the player1 index on moves_filteredP1
+                    
+                    // moves_filteredP2 is indexes by [player1move][player2move]
+                    moves_filteredP1[k][j].estimate = moves_filteredP2[i][j].estimate;
+                    moves_filteredP1[k][j].isMultiEvent = moves_filteredP2[i][j].isMultiEvent;
+                    moves_filteredP1[k][j].moves[0] = moves_filteredP2[i][j].moves[0];
+                    moves_filteredP1[k][j].moves[1] = moves_filteredP2[i][j].moves[1];
+
+                }
+                k++;
+            }
+        }
+
+        struct PartialMove bestMove;
+        bestMove.estimate = 0.0;
+
+        // struct PartialMove newEstimates[TRIM_P1][TRIM_P2];
+        struct PartialMove* newEstimates = malloc(sizeof(struct PartialMove)*TRIM_P1_CATCH*TRIM_P2_CATCH);
+
+        pthread_t threads[TRIM_P1_CATCH][TRIM_P2_CATCH];
+        unsigned int argsSize = sizeof(struct EvaluateArgs);
+        struct EvaluateArgs* allNewArgs = malloc(argsSize * TRIM_P1_CATCH * TRIM_P2_CATCH);
+
+        int error;
+
+        for (int i = 0; i < TRIM_P1_CATCH; i++){
+            for (int j = 0; j < TRIM_P2_CATCH; j++){
+                // i is player 1 move
+                // j is player 2 move
+
+                // just to give a default value, so that when I'm 
+                // debugging I can tell that the value is unchanged
+                (newEstimates+i*TRIM_P2_CATCH+j)->estimate = -2;
+
+                struct EvaluateArgs* newArgs = (struct EvaluateArgs*)(allNewArgs + TRIM_P2_CATCH*i + j);
+                if (moves_filteredP1[i][j].isMultiEvent == 0){
+
+                    newArgs->L = args->L;
+                    newArgs->my_state = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
+                    newArgs->my_weights = args->my_weights;
+                    newArgs->depth = args->depth - 1;
+                    newArgs->outputPtr = (newEstimates+i*TRIM_P2_CATCH+j);
+                    printf("call evaluate_move at %i %i, addr: %p, state ptr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr, (void *)newArgs->my_state);
+                    
+
+                    if (MULTITHREADED && args->depth == START_DEPTH_CATCH){
+                        error = pthread_create(&threads[i][j], NULL, evaluate_move_catch, newArgs);
+                        if (error != 0){
+                            printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                        }
+                    } else {
+                        evaluate_move_catch(newArgs);
+                    }
+
+                } else {
+                    struct State* statePointer = (my_states + moves_filteredP1[i][j].moves[1]*25*10 + moves_filteredP1[i][j].moves[0]*25 );
+
+                    newArgs->L = args->L;
+                    newArgs->my_state = statePointer;
+                    newArgs->my_weights = args->my_weights;
+                    newArgs->depth = args->depth;
+                    newArgs->outputPtr = (newEstimates+i*TRIM_P2_CATCH+j);
+                    
+                    printf("call evaluate_switch at %i %i, addr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr);
+
+                    if (MULTITHREADED && args->depth == START_DEPTH_CATCH){
+                        error = pthread_create(&threads[i][j], NULL, evaluate_switch_catch, newArgs);
+                        if (error != 0){
+                            printLua_string(args->L, "Thread can't be created : ", strerror(error));
+                        }
+                    } else {
+                        evaluate_switch_catch(newArgs);
+                    }
+
+
+
+                }
+            }
+
+        }
+
+        for (int i = 0; i < TRIM_P1_CATCH; i++){
+            double moveAverageP1 = 0.0;
+            for (int j = 0; j < TRIM_P2_CATCH; j++){
+                pthread_mutex_lock(&lock);
+                printLua_string(args->L, "", "");
+                printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
+                printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
+                printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
+                pthread_mutex_unlock(&lock);
+
+                int k = 0;
+                while((newEstimates+i*TRIM_P2_CATCH+j)->estimate == -2){
+                    if (k % 4 == 0) {
+                        pthread_mutex_lock(&lock);
+                        frameSkip(args->L);
+                        printLua_double(args->L, "k: ", k);
+                        // printf("k: %i, value: %f, at %p\n", k, (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j) );
+                        pthread_mutex_unlock(&lock);
+                    } else {
+                        sleep(1);
+                    }
+                    // printf("k: %i, at %p\n", k, (void *)(newEstimates+i*TRIM_P2+j));
+                    k++;
+                }
+                
+                pthread_mutex_lock(&lock);
+                if ( moves_filteredP1[i][j].moves[0] == 10 ){
+                    double mergedEstimate = 1 - (1 - (newEstimates+i*TRIM_P2_CATCH+j)->estimate) * (1 - moves_filteredP1[i][j].estimate);
+                    printf("merged components %f %f\n", (newEstimates+i*TRIM_P2_CATCH+j)->estimate , moves_filteredP1[i][j].estimate);
+                    printLua_double(args->L, "To (merged): ", mergedEstimate);
+                    moveAverageP1 += mergedEstimate;
+                } else {
+                    printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2_CATCH+j)->estimate);
+                    moveAverageP1 += (newEstimates+i*TRIM_P2_CATCH+j)->estimate;
+                }
+                pthread_mutex_unlock(&lock);
+
+            }
+            pthread_mutex_lock(&lock);
+            printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
+            printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2_CATCH);
+            pthread_mutex_unlock(&lock);
+            
+            if (moveAverageP1/(double)TRIM_P2_CATCH > bestMove.estimate){
+                bestMove.estimate = moveAverageP1/(double)TRIM_P2_CATCH;
+                bestMove.move = moves_filteredP1[i][0].moves[0];
+                // strcpy(bestMove.name, (*(my_states + 0*10*25 + moves_filteredP1[i][0].moves[0]*25 + 0) ).name);
+            }
+        }
+
+        free(allNewArgs);
+        free(my_states);
+        *(args->outputPtr) = bestMove;
+        if (args->depth == START_DEPTH_CATCH) printf("\nreturned bestMove %i with estimate %f\n", args->outputPtr->move, args->outputPtr->estimate);
         return NULL;
     }
 
