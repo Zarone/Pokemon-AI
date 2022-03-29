@@ -22,12 +22,14 @@
 // feedforward algorithm
 #define SPREAD 0.2
 
-#define TRIM_P2 4
+// #define TRIM_P2 4
+#define TRIM_P2 3
 #define TRIM_P2_CATCH 1
+// #define TRIM_P1 5
 #define TRIM_P1 5
 #define TRIM_P1_CATCH 3
 
-#define START_DEPTH 2
+#define START_DEPTH 3
 #define START_DEPTH_CATCH 2
 
 // boolean

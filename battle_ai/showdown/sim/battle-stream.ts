@@ -327,7 +327,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	getJson(
 		activePokemonName: string | undefined,
 		player1secondary: number,
-		player2secondary: number
+		player2secondary: number, 
+        winner = 0
 	) {
 
         let p1ActiveMon = this.getActive(0)
@@ -504,24 +505,6 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
 		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
 
-		// this.battle?.send(
-        //     "about to output", 
-        //     JSON.stringify([
-        //         1,
-        //         weather.length,
-        //         hazardsP1.length,
-        //         hazardsP2.length,
-        //         volatilesP1.length,
-        //         volatilesP2.length,
-        //         boostsP1.length,
-        //         boostsP2.length,
-        //         activeP1.length,
-        //         activeP2.length,
-        //         benchP1.length,
-        //         benchP2.length
-        //     ])
-        // );
-
 		let returnVal = [
 			[
 				this.battle?.field.weatherState.duration || 0,
@@ -546,6 +529,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			this.getDisabledMove(1),
 			player1secondary,
 			player2secondary,
+            // winner
 		];
 
         // console.log(returnVal.length==10, returnVal[0].length==425)
@@ -673,7 +657,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		return types;
 	}
 
-	getJsonDebug(secondaryP1: number, secondaryP2: number, activePokemonName: string) {
+	getJsonDebug(secondaryP1: number, secondaryP2: number, activePokemonName: string, winner = 0) {
 		let weather = this.battle?.field.weather;
 		let hazardsP1 = [
 			this.getHazardDebug("spikes", 0),
@@ -766,7 +750,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			P2Active: this.getActive(1),
 			P1Secondary: secondaryP1,
 			P2Secondary: secondaryP2,
-            name: activePokemonName || "not switch"
+            name: activePokemonName || "not switch",
+            winner
 		};
 	}
 
@@ -843,10 +828,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						}
                         if (this.battle?.ended) {
                             // console.log(`battle ended in showdown at ${i} ${j}`)
-                            thisOutput.push(this.getJson(activeNickname, 0, 0));
+                            thisOutput.push(this.getJson(activeNickname, 0, 0, this.battle?.winner == "A" ? 1 : 2));
 
                             if (this.nnDebug) {
-                                thisOutputDebug.push(this.getJsonDebug(0, 0, activeNickname as string));
+                                thisOutputDebug.push(this.getJsonDebug(0, 0, activeNickname as string, this.battle?.winner == "A" ? 1 : 2));
                             }
                             
                             continue

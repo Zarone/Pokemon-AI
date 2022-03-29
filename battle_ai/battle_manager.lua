@@ -509,7 +509,8 @@ end
 
 if using_test_data then
     my_battle_manager = BattleManager.new()
-    my_battle_manager:act_open_catch()
+    my_battle_manager:act_open()
+    -- my_battle_manager:act_open_catch()
     my_battle_manager:act_close()
 end
 
