@@ -1,5 +1,5 @@
 using_test_data = false
-debug_data = false
+debug_data = true
 
 params = {...}
 if params[1] == "debug" then
@@ -131,8 +131,8 @@ function BattleManager:act_open_catch()
             if debug_data then print("team1", team1, "team2", team2) end
             -- print(team1, team2)
         else
-            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Qwilfish||Focus Sash|Swift Swim|spikes,pinmissile,takedown,aquatail|Quirky|0,0,0,0,0,0||15,9,22,12,18,14||47|74,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
-            team2 = "Durant||none|Hustle|metalclaw,bugbite,crunch,ironhead|Quiet|0,0,0,0,0,0||19,2,17,6,6,8||40|70,,"
+            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
+            team2 = "Durant||none|Swarm|metalclaw,bugbite,crunch,ironhead|Jolly|0,0,0,0,0,0||6,7,8,30,4,25||40|70,,"
         end
 
         Writer.saveTeams(team1, team2)
@@ -271,7 +271,26 @@ end
 
 function BattleManager:getState()
     if using_test_data then
-        return {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 125, 98, 85, 62, 65, 91, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 104, 93, 101, 49, 45, 85, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
+        return {
+            {
+                255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+                
+                100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 98, 95, 97, 49, 45, 112, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0, 
+                
+                100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+                100, 98, 95, 97, 49, 45, 112, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0
+            
+            }, 'N/A_s', 0, 0, '', '', '', '', 0, 0
+        }
         -- return {
         --     {
         --         0, 0, 0, 0, 0, 
@@ -468,7 +487,7 @@ function BattleManager:getState()
         end
         index = index + 7
 
-        local pokemon_player = StateReader.get_player_pokemon_array(self.game_reader.pokemon_order)
+        local pokemon_player = StateReader.get_player_pokemon_array(self.game_reader.pokemon_order, self.IGReader)
         for i = 0, 179 do
             returnTable[index+i] = pokemon_player[i+1]
         end
@@ -509,8 +528,8 @@ end
 
 if using_test_data then
     my_battle_manager = BattleManager.new()
-    my_battle_manager:act_open()
-    -- my_battle_manager:act_open_catch()
+    -- my_battle_manager:act_open()
+    my_battle_manager:act_open_catch()
     my_battle_manager:act_close()
 end
 

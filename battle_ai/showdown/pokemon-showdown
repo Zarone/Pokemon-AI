@@ -306,6 +306,7 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 					{ encoding: "utf8", flag: "r" }
 				);
 
+                console.log(startup)
 				let jsonData = JSON.parse(startup);
 
                 // logFile.write(`
@@ -319,7 +320,7 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
  				battleStream.battleStream
  					._write(`>start {"formatid": "${jsonData.format}"}
 >player p1 {"name":"A", "team": "${jsonData.team1}"}
->player p2 {"name":"A", "team": "${jsonData.team2}"}
+>player p2 {"name":"B", "team": "${jsonData.team2}"}
 >p1 team 123456
 >p2 team 123456
 >run-all`);

@@ -22,18 +22,16 @@
 // feedforward algorithm
 #define SPREAD 0.2
 
-// #define TRIM_P2 4
-#define TRIM_P2 3
+#define TRIM_P2 4
 #define TRIM_P2_CATCH 1
-// #define TRIM_P1 5
 #define TRIM_P1 5
 #define TRIM_P1_CATCH 3
 
-#define START_DEPTH 3
-#define START_DEPTH_CATCH 2
+#define START_DEPTH 2
+#define START_DEPTH_CATCH 4
 
 // boolean
-#define MULTITHREADED 1
+#define MULTITHREADED 0
 
 #if LAYERS == 3
 struct Weights {
@@ -1052,7 +1050,7 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
         return;
     }
 
-    char stringKey[3];
+    char stringKey[4];
     sprintf(stringKey, "%d", localKey);
     
     char directory[] = "./battle_ai/state_files/battleStateForShowdown/";
@@ -1806,22 +1804,28 @@ void *evaluate_switch_from_partial_start(void *rawArgs){
 
 double catchRate(int (*inputs)[L1]){
 
+    // printf("hp %d\n", (*inputs)[245]);
+    if ((*inputs)[245] == 0) return 0;
+    
+    float hpPercent = (*inputs)[245]/100.0f;
+    // printf("hpPercent %f\n", hpPercent);
+
     float statusMult = 1;
-    if (*inputs[269] == 1){
+    if ((*inputs)[269] == 1){
         statusMult = 1.5;
-    } else if (*inputs[270] == 1){
+    } else if ((*inputs)[270] == 1){
         statusMult = 2.5;
-    } else if (*inputs[271] == 1){
+    } else if ((*inputs)[271] == 1){
         statusMult = 1.5;
-    } else if (*inputs[272] == 1 || *inputs[272] == 2){
+    } else if ((*inputs)[272] == 1 || (*inputs)[272] == 2){
         statusMult = 1.5;
-    } else if (*inputs[273] == 1){
+    } else if ((*inputs)[273] == 1){
         statusMult = 2.5;
     }
 
-    float hpPercent = *inputs[245]/100;
+    // printf("statusMult %f\n", statusMult);
 
-    return (3-2*hpPercent)*statusMult/255;
+    return (3-2*hpPercent)*statusMult/255.0f;
 }
 
 // args->my_state is intented as a pointer to to State array of length 25
@@ -1918,6 +1922,7 @@ void *evaluate_move_catch(void *rawArgs){
                     // "j" is player1's move
 
                     double estimate = catchRate(&((my_states + i*10*25 + j*25 + k)->game_data));
+                    // printf("%i %i catchrate: %f\n", j, i, estimate);
 
                     total_estimate+=estimate;
                     totalStatesEvaluated++;
@@ -2045,8 +2050,9 @@ void *evaluate_move_catch(void *rawArgs){
 
         p1moves[j].move = j;
     }
+
     mergeSort_PartialMove(p1moves, 0, 10);
-    
+
     if (args->depth == START_DEPTH_CATCH){
         printLua_string(args->L, "", "");
         // printLua_double(L, "DEPTH: ", depth);

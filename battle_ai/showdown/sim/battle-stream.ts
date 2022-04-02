@@ -224,19 +224,17 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		for (let i = 0; i < 6; i++) {
 			if (i < pokemon.length && pokemon[i].isActive) {
 				boosts.push(
-					...[
-						pokemon[i].boosts.atk,
-						pokemon[i].boosts.def,
-						pokemon[i].boosts.spa,
-						pokemon[i].boosts.spd,
-						pokemon[i].boosts.spe,
-						pokemon[i].boosts.accuracy,
-						pokemon[i].boosts.evasion,
-					]
+                    pokemon[i].boosts.atk,
+                    pokemon[i].boosts.def,
+                    pokemon[i].boosts.spa,
+                    pokemon[i].boosts.spd,
+                    pokemon[i].boosts.spe,
+                    pokemon[i].boosts.accuracy,
+                    pokemon[i].boosts.evasion,
 				);
 			}
 		}
-		return boosts;
+		return boosts.length > 0 ? boosts : [0,0,0,0,0,0,0];
 	}
 
 	baseStatsToArray(basestats: any) {
@@ -599,7 +597,20 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 			// winner
 		];
 
-		// console.log(returnVal.length==10, returnVal[0].length==425)
+		// console.log(returnVal.length, returnVal[0].length, hazardsP1.length,
+        //     hazardsP2.length,
+        //     volatilesP1.length,
+        //     volatilesP2.length,
+        //     boostsP1.length,
+        //     boostsP2.length,
+        //     activeP1.length,
+        //     benchP1.length,
+        //     activeP2.length,
+        //     benchP2.length,
+        //     this.battle?.ended)
+        if (returnVal[0].length != 425){
+            console.log("returnVal[0] not of length 425")
+        }
 		return returnVal;
 	}
 
@@ -847,7 +858,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				options.send = (t: string, data: any) => {
 					if (Array.isArray(data)) data = data.join("\n");
 					this.pushMessage(t, data);
-					if (t === "end" && !this.keepAlive) this.pushEnd();
+					// if (t === "end" && !this.keepAlive) this.pushEnd();
 				};
 				if (this.debug) options.debug = true;
 				// options.send("\nhere before new Battle()", "")
@@ -895,7 +906,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						let activeNickname = undefined;
 
 						if (this.battle?.ended) {
-							// console.log(`battle ended in showdown at ${i} ${j}`)
+                            // console.log(`battle pre-ended in showdown at ${i} ${j}`)
 							thisOutput.push(
 								this.getJson(
 									"",
@@ -916,11 +927,24 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 								);
 							}
 
+                            if (this.nnDebug) {
+                                this.jsonOutput = this.jsonOutput || [];
+                                this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
+                                this.jsonOutput[j - 1][i - 1] = thisOutputDebug;
+                            }
+                            this.msgOutput = this.msgOutput || [];
+                            this.msgOutput[j - 1] = this.msgOutput[j - 1] || [];
+                            this.msgOutput[j - 1][i - 1] = thisOutput;
+    
+                            if (i !== 10 || j !== 10) // if it's not the last move
+                                this._write(this.initChunk as string);
+
 							continue;
 						}
 
 						this.playFromAction(i, j);
-						this.battle?.sendUpdates();
+                        // console.log(i, j)
+                        this.battle?.sendUpdates();
 						if (i > 4) {
 							activeNickname = this.battle?.sides[0].active[0].name;
 						}
@@ -945,6 +969,20 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 									)
 								);
 							}
+
+                            if (this.nnDebug) {
+                                this.jsonOutput = this.jsonOutput || [];
+                                this.jsonOutput[j - 1] = this.jsonOutput[j - 1] || [];
+                                this.jsonOutput[j - 1][i - 1] = thisOutputDebug;
+                            }
+                            this.msgOutput = this.msgOutput || [];
+                            this.msgOutput[j - 1] = this.msgOutput[j - 1] || [];
+                            this.msgOutput[j - 1][i - 1] = thisOutput;
+    
+                            if (i !== 10 || j !== 10){ // if it's not the last move
+                                this.battle = null;
+                                this._write(this.initChunk as string);
+                            }
 
 							continue;
 						}
@@ -1300,39 +1338,16 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						this.msgOutput[j - 1] = this.msgOutput[j - 1] || [];
 						this.msgOutput[j - 1][i - 1] = thisOutput;
 
-						if (i !== 10 || j !== 10)
+						if (i !== 10 || j !== 10) // if it's not the last move
 							this._write(this.initChunk as string);
 					}
 				}
-
-				// fs.writeFileSync(
-				// 	"./battle_ai/state_files/battleStatesFromShowdown.txt",
-				// 	Buffer.from(msgpack.encode(this.msgOutput))
-				// );
-
-				// // this write file is purely for debugging
-				// if (this.nnDebug) {
-				// 	fs.writeFileSync(
-				// 		"./battle_ai/state_files/battleStatesFromShowdown.json",
-				// 		JSON.stringify({
-				// 			inputState: this.battle?.importData,
-				// 			outputStates: this.jsonOutput,
-				// 		})
-				// 	);
-				// }
-
-				// this.battle?.send("data", "here writing output 1");
 
 				fs.writeFileSync(
 					"./battle_ai/state_files/battleStatesFromShowdown/" +
 						this.thisKey,
 					Buffer.from(msgpack.encode(this.msgOutput))
 				);
-				// console.log(this.msgOutput[1][3].length)
-				// console.log(this.msgOutput[1][3][0].length)
-				// console.log(this.msgOutput[1][3][0][0].length)
-
-				// this.battle?.send("data", "here writing output 2");
 
 				// this write file is purely for debugging
 				if (this.nnDebug) {
@@ -1343,11 +1358,10 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 						JSON.stringify({
 							inputState: this.battle?.importData,
 							outputStates: this.jsonOutput,
+							// outputStates: this.msgOutput,
 						})
 					);
 				}
-
-				// this.battle?.send("data", "here writing output 3");
 
 				// console.log("Saved Showdown Simulation");
 				return true;

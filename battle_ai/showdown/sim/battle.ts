@@ -279,7 +279,7 @@ export class Battle {
             }) );
             // console.log("no error", databases)
         } catch(error: any){
-            console.log("error reading import data", error);
+            console.log(`error reading import data, key ${key}`, error);
         }
 		this.importData = databases;
         // console.log(this.importData)

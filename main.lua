@@ -57,6 +57,7 @@ local battle_weights = {
 }
 local last_battle_action = nil
 local enemy_pokemon1_types
+local catch_threshold = 0.01
 
 while true do
     if not is_in_battle then md.update_map(true) end
@@ -73,7 +74,7 @@ while true do
     -- false for a single frame
     if was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
-        if battle_clock > 72 then
+        if battle_clock > 240 then
             print("battle ended")
             was_in_battle = false
             battleState = nil
@@ -178,7 +179,7 @@ while true do
             output_manager.press({
                 {{A = true}, 5}
             }, 25)
-        elseif battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > 0.3 or battle_weights.type_info[ enemy_pokemon1_types[2] ] > 0.3) and mem.has_ball() then
+        elseif #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
             print("want to catch this \'mon")
             print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
             print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])

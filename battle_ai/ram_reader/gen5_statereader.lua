@@ -38,10 +38,10 @@ function health_in_battle_slot(num)
     return math.ceil(100 * read_halfword(get_battle_slot(num) + 62) / read_halfword(get_battle_slot(num) + 60))
 end
 
-function StateReader.is_wild_battle()
-    return read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
-    read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)
-end
+-- function StateReader.is_wild_battle()
+--     return read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
+--     read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)
+-- end
 
 -- current atk: read_halfword(get_battle_slot(num) + 284)
 -- current def: read_halfword(get_battle_slot(num) + 286)
@@ -59,94 +59,132 @@ function stats_in_battle_slot(num)
     return {hp, atk, def, spa, spd, spe}
 end
 
-function get_player_stats()
+function get_player_stats(player_pokemon_count)
     stats = {}
-    for i = -12, -7 do
+    for i = -12, -12+(player_pokemon_count-1) do
         table.insert(stats, stats_in_battle_slot(i))
+    end
+    for i = 1, 6-player_pokemon_count do
+        table.insert(stats, {0, 0, 0, 0, 0, 0})
     end
     return stats
 end
 
-function get_enemy_stats()
+function get_enemy_stats(player_pokemon_count, enemy_pokemon_count)
 
-    -- if it's a wild battle
-    if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
-        read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
-        -- return {stats_in_battle_slot(1)}
-        return {stats_in_battle_slot(1), {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}}
-    else
-        stats = {}
-        for i = -6, -1 do
-            table.insert(stats, stats_in_battle_slot(i))
-        end
-        return stats
+    -- -- if it's a wild battle
+    -- if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
+    --     read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
+    --     -- return {stats_in_battle_slot(1)}
+    --     return {stats_in_battle_slot(1), {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}}
+    -- else
+    --     stats = {}
+    --     for i = -6, -1 do
+    --         table.insert(stats, stats_in_battle_slot(i))
+    --     end
+    --     return stats
+    -- end
+    stats = {}
+    for i = -12+player_pokemon_count, -12+player_pokemon_count+(enemy_pokemon_count-1) do
+        table.insert(stats, stats_in_battle_slot(i))
     end
+    for i = 1, 6-enemy_pokemon_count do
+        table.insert(stats, {0, 0, 0, 0, 0, 0})
+    end
+    return stats
 end
 
-function StateReader.get_player_boosts()
+function StateReader.get_player_boosts(player_pokemon_count)
     boosts = {}
-    for i = -12, -7 do
+    for i = -12, -12+(player_pokemon_count-1) do
         table.insert(boosts, boosts_in_battle_slot(i))
     end
     return boosts
 end
 
-function StateReader.get_enemy_boosts()
+function StateReader.get_enemy_boosts(player_pokemon_count, enemy_pokemon_count)
 
     -- if it's a wild battle
-    if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
-        read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
-        return {boosts_in_battle_slot(1)}
-    else
-        boosts = {}
-        for i = -6, -1 do
-            table.insert(boosts, boosts_in_battle_slot(i))
-        end
-        return boosts
+    -- if (read_halfword(get_battle_slot(-12) + 60) == read_halfword(get_battle_slot(-5) + 60) and
+    --     read_halfword(get_battle_slot(-12) + 62) == read_halfword(get_battle_slot(-5) + 62)) then
+    --     return {boosts_in_battle_slot(1)}
+    -- else
+    --     boosts = {}
+    --     for i = -6, -1 do
+    --         table.insert(boosts, boosts_in_battle_slot(i))
+    --     end
+    --     return boosts
+    -- end
+    boosts = {}
+    for i = -12+player_pokemon_count, -12+player_pokemon_count+(enemy_pokemon_count-1) do
+        table.insert(boosts, boosts_in_battle_slot(i))
     end
+    return boosts
 
 end
 
-function StateReader.get_player_status()
+function StateReader.get_player_status(player_pokemon_count)
     statuses = {}
-    for i = -12, -7 do
+    for i = -12, -12+(player_pokemon_count-1) do
         table.insert(statuses, status_in_battle_slot(i))
+    end
+    for i = 1, 6-player_pokemon_count do
+        table.insert(statuses, {0, 0, 0, 0, 0, 0})
     end
     return statuses
 end
 
-function StateReader.get_enemy_status() 
+function StateReader.get_enemy_status(player_pokemon_count, enemy_pokemon_count) 
 
-    if StateReader.is_wild_battle() then
-        return {status_in_battle_slot(1), {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}}
-    else
-        statuses = {}
-        for i = -6, -1 do
-            table.insert(statuses, status_in_battle_slot(i))
-        end
-        return statuses
+    -- if StateReader.is_wild_battle() then
+    --     return {status_in_battle_slot(1), {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}}
+    -- else
+    --     statuses = {}
+    --     for i = -6, -1 do
+    --         table.insert(statuses, status_in_battle_slot(i))
+    --     end
+    --     return statuses
+    -- end
+    statuses = {}
+    for i = -12+player_pokemon_count, -12+player_pokemon_count+(enemy_pokemon_count-1) do
+        table.insert(statuses, status_in_battle_slot(i))
     end
+    for i = 1, 6-enemy_pokemon_count do
+        table.insert(statuses, {0, 0, 0, 0, 0, 0})
+    end
+    return statuses
 
 end
 
-function StateReader.get_player_health()
+function StateReader.get_player_health(player_pokemon_count)
     health = {}
-    for i = -12, -7 do
+    for i = -12, -12+(player_pokemon_count-1) do
         table.insert(health, health_in_battle_slot(i))
+    end
+    for i = 1, 6-player_pokemon_count do
+        table.insert(health, 0)
     end
     return health
 end
 
-function StateReader.get_enemy_health() 
-    if StateReader.is_wild_battle() then
-        return {health_in_battle_slot(1), 0, 0, 0, 0, 0}
-    else
-        health = {}
-        for i = -6, -1 do
-            table.insert(health, health_in_battle_slot(i))
-        end
-        return health
+function StateReader.get_enemy_health(player_pokemon_count, enemy_pokemon_count) 
+    -- if StateReader.is_wild_battle() then
+    --     return {health_in_battle_slot(1), 0, 0, 0, 0, 0}
+    -- else
+    --     health = {}
+    --     for i = -6, -1 do
+    --         table.insert(health, health_in_battle_slot(i))
+    --     end
+    --     return health
+    -- end
+    health = {}
+    for i = -12+player_pokemon_count, -12+player_pokemon_count+(enemy_pokemon_count-1) do
+        table.insert(health, health_in_battle_slot(i))
     end
+    for i = 1, 6-enemy_pokemon_count do
+        table.insert(health, 0)
+    end
+    return health
 
 end
 
@@ -218,39 +256,50 @@ function types_in_battle_slot(num)
     }
 end
 
-function get_enemy_types() 
+function get_enemy_types(player_pokemon_count, enemy_pokemon_count) 
 
-    if StateReader.is_wild_battle() then
-        return {types_in_battle_slot(1), 
-            {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
-            {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
-            {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
-            {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
-            {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
-        }
-    else
-        types = {}
-        for i = -6, -1 do
-            table.insert(types, types_in_battle_slot(i))
-        end
-        return types
+    -- if StateReader.is_wild_battle() then
+    --     return {types_in_battle_slot(1), 
+    --         {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
+    --         {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
+    --         {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
+    --         {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
+    --         {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0}, 
+    --     }
+    -- else
+    --     types = {}
+    --     for i = -6, -1 do
+    --         table.insert(types, types_in_battle_slot(i))
+    --     end
+    --     return types
+    -- end
+    types = {}
+    for i = -12+player_pokemon_count, -12+player_pokemon_count+(enemy_pokemon_count-1) do
+        table.insert(types, types_in_battle_slot(i))
     end
+    for i = 1, 6-enemy_pokemon_count do
+        table.insert(types, {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0})
+    end
+    return types
 
 end
-function get_player_types()
+function get_player_types(player_pokemon_count)
     local types = {}
-    for i = -12, -7 do
+    for i = -12, -12+(player_pokemon_count-1) do
         table.insert(types, types_in_battle_slot(i))
+    end
+    for i = 1, 6-player_pokemon_count do
+        table.insert(statuses, {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0})
     end
     return types
 end
 
-function StateReader.get_player_pokemon_array(pokemon_order)
+function StateReader.get_player_pokemon_array(pokemon_order, player_pokemon_count, enemy_pokemon_count)
     local Pokemon = {}
-    local L_healths = StateReader.get_player_health()
-    local L_stats = get_player_stats()
-    local L_statuses = StateReader.get_player_status()
-    local L_types = get_player_types()
+    local L_healths = StateReader.get_player_health(player_pokemon_count)
+    local L_stats = get_player_stats(player_pokemon_count)
+    local L_statuses = StateReader.get_player_status(player_pokemon_count)
+    local L_types = get_player_types(player_pokemon_count)
 
     -- okay so types and stats for this export shouldn't matter I don't think
     -- since showdown doesn't read them
@@ -295,12 +344,12 @@ function StateReader.get_player_pokemon_array(pokemon_order)
     return Pokemon
 end
 
-function StateReader.get_enemy_pokemon_array(enemy_active)
+function StateReader.get_enemy_pokemon_array(enemy_active, player_pokemon_count, enemy_pokemon_count)
     local Pokemon = {}
-    local L_healths = StateReader.get_enemy_health()
-    local L_statuses = StateReader.get_enemy_status()
-    local L_stats = get_enemy_stats()
-    local L_types = get_enemy_types()
+    local L_healths = StateReader.get_enemy_health(player_pokemon_count, enemy_pokemon_count)
+    local L_statuses = StateReader.get_enemy_status(player_pokemon_count, enemy_pokemon_count)
+    local L_stats = get_enemy_stats(player_pokemon_count, enemy_pokemon_count)
+    local L_types = get_enemy_types(player_pokemon_count, enemy_pokemon_count)
 
     local index = 1
     for i = 1, 6 do

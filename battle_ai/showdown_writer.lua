@@ -54,8 +54,8 @@ function values_to_string(nums)
 end
 
 function to_packed_pokemon(tbl)
-    -- print(tbl)
-    if tbl == nil then
+    print(tbl)
+    if tbl == nil or tbl.nickname == nil then
         return ""
     else
         return
