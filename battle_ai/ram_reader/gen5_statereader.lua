@@ -278,7 +278,7 @@ function get_enemy_types(player_pokemon_count, enemy_pokemon_count)
         table.insert(types, types_in_battle_slot(i))
     end
     for i = 1, 6-enemy_pokemon_count do
-        table.insert(types, {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0})
+        table.insert(types, {false, false, false, false, false,  false, false, false, false, false,  false, false, false, false, false,  false, false})
     end
     return types
 
@@ -289,12 +289,12 @@ function get_player_types(player_pokemon_count)
         table.insert(types, types_in_battle_slot(i))
     end
     for i = 1, 6-player_pokemon_count do
-        table.insert(statuses, {0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0, 0, 0, 0,  0, 0})
+        table.insert(types, {false, false, false, false, false,  false, false, false, false, false,  false, false, false, false, false,  false, false})
     end
     return types
 end
 
-function StateReader.get_player_pokemon_array(pokemon_order, player_pokemon_count, enemy_pokemon_count)
+function StateReader.get_player_pokemon_array(pokemon_order, player_pokemon_count)
     local Pokemon = {}
     local L_healths = StateReader.get_player_health(player_pokemon_count)
     local L_stats = get_player_stats(player_pokemon_count)

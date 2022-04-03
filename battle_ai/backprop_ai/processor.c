@@ -27,8 +27,8 @@
 #define TRIM_P1 5
 #define TRIM_P1_CATCH 3
 
-#define START_DEPTH 2
-#define START_DEPTH_CATCH 4
+#define START_DEPTH 1
+#define START_DEPTH_CATCH 3
 
 // boolean
 #define MULTITHREADED 0

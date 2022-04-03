@@ -24,12 +24,12 @@ processor = require "processor"
 BattleManager = {}
 BattleManager.__index = BattleManager
 
-function BattleManager.get_teams(IGReader)
+function BattleManager.get_teams(IGReader, is_wild)
 
     team1 = IGReader:get(1)
 
     team2 = nil
-    if StateReader.is_wild_battle() then
+    if is_wild then
         team2 = IGReader:get(5)
     else
         team2 = IGReader:get(2)
@@ -38,12 +38,12 @@ function BattleManager.get_teams(IGReader)
     return team1, team2
 end
 
-function BattleManager.get_teams_packed(IGReader)
+function BattleManager.get_teams_packed(IGReader, is_wild)
     team1 = IGReader:get(1)
     str_team1 = Writer.to_packed_team(team1)
 
     team2 = nil
-    if StateReader.is_wild_battle() then
+    if is_wild then
         team2 = IGReader:get(5)
     else
         team2 = IGReader:get(2)
@@ -57,10 +57,14 @@ end
 function BattleManager.new()
 
     instance_IGReader = nil
+    if (not using_test_data) then
+        instance_IGReader = PokeReader.new(4, 5)        
+    end
+    
     
     if (not using_test_data) then
-        instance_IGReader = PokeReader.new(4, 5)
-        team1, team2 = BattleManager.get_teams(instance_IGReader)
+        local wild_battle = not not (GameReader.line_text():find("A wild"))
+        team1, team2 = BattleManager.get_teams(instance_IGReader, wild_battle)
     else
         team1 = {
             {nickname='Freeza', ability='Pressure', nature='Modest', happiness=70, evs={0, 0, 0, 0, 0, 0}, name='Mewtwo', item='none', ivs={7, 16, 30, 13, 12, 5}, level=70, moves={'Psycho Cut', 'Disable', 'Future Sight', 'Guard Swap'}},
@@ -90,10 +94,10 @@ function BattleManager.new()
     for i, v in pairs(team2) do
         table.insert(names_enemy, v.nickname)
     end
-    
+
     instance_game_reader = nil
     if not using_test_data then
-        instance_game_reader = GameReader.new(StateReader.is_wild_battle(), names, names_enemy, StateReader.get_player_health())
+        instance_game_reader = GameReader.new(names, names_enemy, StateReader.get_player_health(#instance_IGReader:get(1)))
     end
 
     instance = setmetatable({
@@ -131,8 +135,8 @@ function BattleManager:act_open_catch()
             if debug_data then print("team1", team1, "team2", team2) end
             -- print(team1, team2)
         else
-            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|74,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|72,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
-            team2 = "Durant||none|Swarm|metalclaw,bugbite,crunch,ironhead|Jolly|0,0,0,0,0,0||6,7,8,30,4,25||40|70,,"
+            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|76,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|74,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
+            team2 = "Durant||none|Hustle|metalclaw,bugbite,crunch,ironhead|Careful|0,0,0,0,0,0||25,21,29,25,21,10||40|70,,"
         end
 
         Writer.saveTeams(team1, team2)
@@ -271,7 +275,7 @@ end
 
 function BattleManager:getState()
     if using_test_data then
-        return {
+        return  {
             {
                 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
                 
@@ -280,15 +284,14 @@ function BattleManager:getState()
                 100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
                 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 98, 95, 97, 49, 45, 112, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0, 
+                0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
                 
-                100, 101, 71, 94, 56, 66, 43, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 233, 153, 152, 251, 139, 190, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 145, 87, 110, 205, 109, 176, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 241, 231, 166, 136, 166, 210, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-                100, 98, 95, 97, 49, 45, 112, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0
-            
+                100, 106, 100, 106, 47, 56, 96, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0, 
+                0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+                0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+                0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+                0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+                0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1
             }, 'N/A_s', 0, 0, '', '', '', '', 0, 0
         }
         -- return {
@@ -475,25 +478,42 @@ function BattleManager:getState()
         end
         index = index + 14
 
-        local boosts_player = StateReader.get_player_boosts()[self.game_reader.active+1]
+        local player_pokemon_count = #self.IGReader:get(1)
+
+        local enemy_pokemon_count
+        if self.game_reader.wild_battle then
+            enemy_pokemon_count = #self.IGReader:get(5)
+        else
+            enemy_pokemon_count = #self.IGReader:get(2)
+        end
+
+        print(self.IGReader:get(1))
+        print("")
+        print(self.IGReader:get(2))
+        print("")
+        print(self.IGReader:get(5))
+
+        print(player_pokemon_count, enemy_pokemon_count)
+
+        local boosts_player = StateReader.get_player_boosts(player_pokemon_count)[self.game_reader.active+1]
         for i = 0, 6 do
             returnTable[index+i] = boosts_player[i+1]
         end
         index = index + 7
 
-        local boosts_enemy = StateReader.get_enemy_boosts()[self.game_reader.enemy_active+1]
+        local boosts_enemy = StateReader.get_enemy_boosts(player_pokemon_count, enemy_pokemon_count)[self.game_reader.enemy_active+1]
         for i = 0, 6 do
             returnTable[index+i] = boosts_enemy[i+1]
         end
         index = index + 7
 
-        local pokemon_player = StateReader.get_player_pokemon_array(self.game_reader.pokemon_order, self.IGReader)
+        local pokemon_player = StateReader.get_player_pokemon_array(self.game_reader.pokemon_order, player_pokemon_count)
         for i = 0, 179 do
             returnTable[index+i] = pokemon_player[i+1]
         end
         index = index + 180
 
-        local pokemon_enemy = StateReader.get_enemy_pokemon_array(self.game_reader.enemy_active)
+        local pokemon_enemy = StateReader.get_enemy_pokemon_array(self.game_reader.enemy_active, player_pokemon_count, enemy_pokemon_count)
         for i = 0, 179 do
             returnTable[index+i] = pokemon_enemy[i+1]
         end

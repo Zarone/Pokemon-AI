@@ -346,15 +346,17 @@ function PokeReader:get(mode)
                 tbl.item = item_gen5[self.heldItem+1]
                 tbl.happiness = self.friendship_or_steps_to_hatch
                 tbl.nickname = table.concat(self.nickname)
+                
+                -- party[q] = tbl
+                table.insert(party, tbl)
             end
-            party[q] = tbl
         end
     end
-    if mode == 5 then
-        return { party[1] }
-    else
-        return party
-    end
+    -- if mode == 5 then
+    --     return { party[1] }
+    -- else
+    return party
+    -- end
 end
 
 return PokeReader

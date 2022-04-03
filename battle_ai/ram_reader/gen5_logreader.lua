@@ -17,7 +17,7 @@ function move_to_id(move)
     return move:gsub(" ", ""):gsub("-", ""):lower()
 end
 
-function GameReader.new(wild_battle, nicknames, nicknames_enemy, p1_hp_array)
+function GameReader.new(nicknames, nicknames_enemy, p1_hp_array)
     instance = setmetatable({}, GameReader)
 
     instance.last_str = ""
@@ -65,7 +65,7 @@ function GameReader.new(wild_battle, nicknames, nicknames_enemy, p1_hp_array)
         end
     end
     instance.enemy_active = 0
-    instance.wild_battle = wild_battle
+    instance.wild_battle = false
     instance.pokemon_order= {0, 1, 2, 3, 4, 5}
     for i = 1, 6 do
         instance.pokemon_order[i] = (instance.active + i - 1) % 6
@@ -520,7 +520,6 @@ function GameReader:process_line(line)
 end
 
 function GameReader:get_line()
-    
     new_str = self.line_text()
 
     returnVal = false
@@ -532,13 +531,17 @@ function GameReader:get_line()
 
     if self.last_str ~= new_str then
         returnVal = self:process_line(new_str)
+        if new_str:find("A wild ") then
+            print("set to wild battle mode")
+            self.wild_battle = true
+        end
     end
     self.last_str = new_str
 
     return returnVal
 end
 
-function GameReader:line_text()
+function GameReader.line_text()
     str = {}
     startChar = 0x02296380
     endChar = startChar + 2 * memory.readbyte(0x0229637A) - 1
@@ -550,7 +553,27 @@ function GameReader:line_text()
             table.insert(str, string.char(memory.readbyte(i)))
         end
     end
-    return table.concat(str, "")
+
+    if (#str == 0) then
+        startCharSecondaryBuffer = 0x022A388C
+        endChar = startCharSecondaryBuffer + 2 * 6 - 1
+        for i = startCharSecondaryBuffer, endChar, 2 do
+            byteVal = memory.readbyte(i)
+            if byteVal == 254 then
+                table.insert(str, " ")
+            else
+                table.insert(str, string.char(memory.readbyte(i)))
+            end
+        end
+        local strValue = table.concat(str, "")
+        if strValue == "A wild" then
+            return strValue
+        end
+        return ""
+    else
+        return table.concat(str, "")
+    end
+
 end
 
 function GameReader:pass_turn()
