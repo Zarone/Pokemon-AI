@@ -14,10 +14,12 @@ end
 
 output_manager.press = function(sequence, time_between_actions)
     -- sequence looks like {{buttonMap1, 10}, {buttonMap2, 5}}
-    -- 
+    
     -- that would mean joypad.set(0, buttonMap1) for 10 frame, then do joypad.set(0, buttonMap2) for 5
 
-    -- loop is a bool, if true it just repeats the pattern
+    if output_manager.current_sequence_index > #sequence then
+        output_manager.reset()
+    end
 
     if output_manager.between_actions and output_manager.pause_progress < time_between_actions then
         output_manager.pause_progress = output_manager.pause_progress + 1

@@ -676,7 +676,16 @@ while true do
                 end
 
             elseif objective[1] == 2 then
-                if (output_manager.press({objective[2][1]}, 100)) then
+                print({objective[2][1]}, 100)
+                -- output_manager.press({
+                --     {{}, initDelay},
+                --     {{up = true}, 5}, 
+                --     {{A = true}, 5}, 
+                --     {{up = true}, 5}, 
+                --     {{left = true}, 5},
+                --     {{A = true}, 5}
+                -- }, 25)
+                if (output_manager.press({objective[2]}, 100)) then
                     goals.objective_complete()
                     button_masher.reset()
                 end
