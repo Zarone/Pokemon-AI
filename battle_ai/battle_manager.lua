@@ -64,6 +64,7 @@ function BattleManager.new()
     
     if (not using_test_data) then
         local wild_battle = not not (GameReader.line_text():find("A wild"))
+        if wild_battle then print("is wild battle") end
         team1, team2 = BattleManager.get_teams(instance_IGReader, wild_battle)
     else
         team1 = {
@@ -136,7 +137,7 @@ function BattleManager:act_open_catch()
             -- print(team1, team2)
         else
             team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|76,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|74,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
-            team2 = "Durant||none|Hustle|metalclaw,bugbite,crunch,ironhead|Careful|0,0,0,0,0,0||25,21,29,25,21,10||40|70,,"
+            team2 = "Durant||none|Swarm|metalclaw,bugbite,crunch,ironhead|Adamant|0,0,0,0,0,0||25,21,29,25,21,10||39|70,,"
         end
 
         Writer.saveTeams(team1, team2)
@@ -275,7 +276,7 @@ end
 
 function BattleManager:getState()
     if using_test_data then
-        return  {
+        return {
             {
                 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
                 
@@ -286,13 +287,14 @@ function BattleManager:getState()
                 100, 234, 32, 136, 172, 136, 200, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
                 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
                 
-                100, 106, 100, 106, 47, 56, 96, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0, 
+                100, 103, 107, 103, 46, 50, 93, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, 0, 0, 0, 0, 0, 0, 
                 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
                 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
                 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
                 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
                 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1
-            }, 'N/A_s', 0, 0, '', '', '', '', 0, 0
+            }, 
+            'N/A_s', 0, 0, '', '', '', '', 0, 0
         }
         -- return {
         --     {
@@ -546,13 +548,6 @@ function BattleManager:getState()
     end
 end
 
-if using_test_data then
-    my_battle_manager = BattleManager.new()
-    -- my_battle_manager:act_open()
-    my_battle_manager:act_open_catch()
-    my_battle_manager:act_close()
-end
-
 function BattleManager.type_id(id)
     if ("Bug" == id) then
         return 1
@@ -589,6 +584,13 @@ function BattleManager.type_id(id)
     elseif ("Water" == id) then
         return 17
     end
+end
+
+if using_test_data then
+    my_battle_manager = BattleManager.new()
+    my_battle_manager:act_open()
+    -- my_battle_manager:act_open_catch()
+    my_battle_manager:act_close()
 end
 
 return BattleManager

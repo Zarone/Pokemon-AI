@@ -531,7 +531,7 @@ function GameReader:get_line()
 
     if self.last_str ~= new_str then
         returnVal = self:process_line(new_str)
-        if new_str:find("A wild ") then
+        if new_str:find("A wild") then
             print("set to wild battle mode")
             self.wild_battle = true
         end

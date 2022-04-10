@@ -58,6 +58,7 @@ local battle_weights = {
 local last_battle_action = nil
 local enemy_pokemon1_types
 local catch_threshold = 0.01
+local enemy_pokemon1_types = {}
 
 while true do
     if not is_in_battle then md.update_map(true) end
@@ -76,6 +77,7 @@ while true do
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
             print("battle ended")
+            enemy_pokemon1_types = {}
             was_in_battle = false
             battleState = nil
             mode = 0
@@ -85,23 +87,29 @@ while true do
     
     if is_in_battle then
         if not was_in_battle then
-            print("battle started")
             battle_clock = 0
             was_in_battle = true
             battleState = BattleManager.new()
-            
-            if battleState.game_reader.wild_battle then
-                local enemy_pokemon1_types_raw = gamedata[battleState.IGReader:get(5)[1].name].types
-                if #enemy_pokemon1_types_raw == 1 then
-                    enemy_pokemon1_types_raw[2] = enemy_pokemon1_types_raw[1]
-                end
-
-                enemy_pokemon1_types = { BattleManager.type_id(enemy_pokemon1_types_raw[1]), BattleManager.type_id(enemy_pokemon1_types_raw[2]) }
-                print(battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
-            end
+            print("battle started")
         end
 
+        if battleState.game_reader.wild_battle and #enemy_pokemon1_types == 0 then
+            print("changed to wild battle")
+            local enemy_pokemon1_types_raw = gamedata[battleState.IGReader:get(5)[1].name].types
+            if #enemy_pokemon1_types_raw == 1 then
+                enemy_pokemon1_types_raw[2] = enemy_pokemon1_types_raw[1]
+            end
+
+            enemy_pokemon1_types = { BattleManager.type_id(enemy_pokemon1_types_raw[1]), BattleManager.type_id(enemy_pokemon1_types_raw[2]) }
+            print(enemy_pokemon1_types)
+            print(battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
+        end
+
+        print("catch decision", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ], catch_threshold)
+
         text_end = battleState.game_reader:line_text():sub(-6, -1)
+
+        -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
 
         if battleState.game_reader.wild_battle and memory.readbyte(0x022DF58E) == 33 then -- if it's asking "switch or run"
             -- print("if it's asking switch or run")

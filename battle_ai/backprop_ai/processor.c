@@ -20,18 +20,20 @@
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
-#define SPREAD 0.2
+#define SPREAD 0.01
 
-#define TRIM_P2 4
+// #define TRIM_P2 4
+#define TRIM_P2 2
 #define TRIM_P2_CATCH 1
-#define TRIM_P1 5
+// #define TRIM_P1 5
+#define TRIM_P1 2
 #define TRIM_P1_CATCH 3
 
-#define START_DEPTH 1
+#define START_DEPTH 3
 #define START_DEPTH_CATCH 3
 
 // boolean
-#define MULTITHREADED 0
+#define MULTITHREADED 1
 
 #if LAYERS == 3
 struct Weights {
@@ -1580,6 +1582,8 @@ void *evaluate_move(void *rawArgs ){
 
         int error;
 
+        int isMultithreaded = MULTITHREADED && args->depth == START_DEPTH;
+
         for (int i = 0; i < TRIM_P1; i++){
             // double moveAverageP1 = 0.0;
             for (int j = 0; j < TRIM_P2; j++){
@@ -1601,7 +1605,7 @@ void *evaluate_move(void *rawArgs ){
                     printf("call evaluate_move at %i %i, addr: %p, state ptr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr, (void *)newArgs->my_state);
                     
 
-                    if (MULTITHREADED && args->depth == START_DEPTH){
+                    if (isMultithreaded){
                         error = pthread_create(&threads[i][j], NULL, evaluate_move, newArgs);
                         if (error != 0){
                             printLua_string(args->L, "Thread can't be created : ", strerror(error));
@@ -1622,7 +1626,7 @@ void *evaluate_move(void *rawArgs ){
                     
                     printf("call evaluate_switch at %i %i, addr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr);
 
-                    if (MULTITHREADED && args->depth == START_DEPTH){
+                    if (isMultithreaded){
                         error = pthread_create(&threads[i][j], NULL, evaluate_switch, newArgs);
                         if (error != 0){
                             printLua_string(args->L, "Thread can't be created : ", strerror(error));
@@ -1634,26 +1638,22 @@ void *evaluate_move(void *rawArgs ){
 
 
                 }
-                // printf("successfully made it here with ram allocated at %p\n", (void *)newArgs);
 
             }
 
         }
 
-        // pthread_mutex_lock(&lock);
-        
-        // pthread_mutex_unlock(&lock);
-
         for (int i = 0; i < TRIM_P1; i++){
             double moveAverageP1 = 0.0;
             for (int j = 0; j < TRIM_P2; j++){
-                pthread_mutex_lock(&lock);
-                printLua_string(args->L, "", "");
-                printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
-                printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
-                printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
-                pthread_mutex_unlock(&lock);
-                
+                if (isMultithreaded){
+                    pthread_mutex_lock(&lock);
+                    printLua_string(args->L, "", "");
+                    printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
+                    printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
+                    printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
+                    pthread_mutex_unlock(&lock);
+                } 
                 // int joinRes = pthread_join(threads[i][j], NULL);
                 // if (joinRes != 0){
                 //     printf("error in joinRes: %i\n", joinRes);
@@ -1675,21 +1675,24 @@ void *evaluate_move(void *rawArgs ){
                     // printf("k: %i, at %p\n", k, (void *)(newEstimates+i*TRIM_P2+j));
                     k++;
                 }
-                
-                pthread_mutex_lock(&lock);
-                // printf("To: %f at %p\n", (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j));
-                printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2+j)->estimate);
-                // frameSkip(args->L);
-                pthread_mutex_unlock(&lock);
+                if (isMultithreaded){
+                    pthread_mutex_lock(&lock);
+                    // printf("To: %f at %p\n", (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j));
+                    printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2+j)->estimate);
+                    // frameSkip(args->L);
+                    pthread_mutex_unlock(&lock);
+                }
                 moveAverageP1 += (newEstimates+i*TRIM_P2+j)->estimate;
             }
-            pthread_mutex_lock(&lock);
-            // printLua_string(args->L, "", "");
-            printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
-            printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2);
-            // printf("Move: %i\n", moves_filteredP1[i][0].moves[0]);
-            // printf("Estimate: %f\n", moveAverageP1/(double)TRIM_P2);
-            pthread_mutex_unlock(&lock);
+            if (isMultithreaded) {
+                pthread_mutex_lock(&lock);
+                // printLua_string(args->L, "", "");
+                printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
+                printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2);
+                // printf("Move: %i\n", moves_filteredP1[i][0].moves[0]);
+                // printf("Estimate: %f\n", moveAverageP1/(double)TRIM_P2);
+                pthread_mutex_unlock(&lock);
+            }
             
             if (moveAverageP1/(double)TRIM_P2 > bestMove.estimate){
                 bestMove.estimate = moveAverageP1/(double)TRIM_P2;
@@ -2102,6 +2105,7 @@ void *evaluate_move_catch(void *rawArgs){
         struct EvaluateArgs* allNewArgs = malloc(argsSize * TRIM_P1_CATCH * TRIM_P2_CATCH);
 
         int error;
+        int isMultithreaded = MULTITHREADED && args->depth == START_DEPTH_CATCH;
 
         for (int i = 0; i < TRIM_P1_CATCH; i++){
             for (int j = 0; j < TRIM_P2_CATCH; j++){
@@ -2123,7 +2127,7 @@ void *evaluate_move_catch(void *rawArgs){
                     printf("call evaluate_move at %i %i, addr: %p, state ptr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr, (void *)newArgs->my_state);
                     
 
-                    if (MULTITHREADED && args->depth == START_DEPTH_CATCH){
+                    if (isMultithreaded){
                         error = pthread_create(&threads[i][j], NULL, evaluate_move_catch, newArgs);
                         if (error != 0){
                             printLua_string(args->L, "Thread can't be created : ", strerror(error));
@@ -2143,7 +2147,7 @@ void *evaluate_move_catch(void *rawArgs){
                     
                     printf("call evaluate_switch at %i %i, addr: %p\n", moves_filteredP1[i][j].moves[0], moves_filteredP1[i][j].moves[1], (void *)newArgs->outputPtr);
 
-                    if (MULTITHREADED && args->depth == START_DEPTH_CATCH){
+                    if (isMultithreaded){
                         error = pthread_create(&threads[i][j], NULL, evaluate_switch_catch, newArgs);
                         if (error != 0){
                             printLua_string(args->L, "Thread can't be created : ", strerror(error));
@@ -2162,21 +2166,25 @@ void *evaluate_move_catch(void *rawArgs){
         for (int i = 0; i < TRIM_P1_CATCH; i++){
             double moveAverageP1 = 0.0;
             for (int j = 0; j < TRIM_P2_CATCH; j++){
-                pthread_mutex_lock(&lock);
-                printLua_string(args->L, "", "");
-                printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
-                printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
-                printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
-                pthread_mutex_unlock(&lock);
+                if (isMultithreaded){
+                    pthread_mutex_lock(&lock);
+                    printLua_string(args->L, "", "");
+                    printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
+                    printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
+                    printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
+                    pthread_mutex_unlock(&lock);
+                }
 
                 int k = 0;
                 while((newEstimates+i*TRIM_P2_CATCH+j)->estimate == -2){
                     if (k % 4 == 0) {
-                        pthread_mutex_lock(&lock);
-                        frameSkip(args->L);
-                        printLua_double(args->L, "k: ", k);
-                        // printf("k: %i, value: %f, at %p\n", k, (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j) );
-                        pthread_mutex_unlock(&lock);
+                        if (isMultithreaded){
+                            pthread_mutex_lock(&lock);
+                            frameSkip(args->L);
+                            printLua_double(args->L, "k: ", k);
+                            // printf("k: %i, value: %f, at %p\n", k, (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j) );
+                            pthread_mutex_unlock(&lock);
+                        }
                     } else {
                         sleep(1);
                     }
@@ -2184,17 +2192,17 @@ void *evaluate_move_catch(void *rawArgs){
                     k++;
                 }
                 
-                pthread_mutex_lock(&lock);
+                if (isMultithreaded) pthread_mutex_lock(&lock);
                 if ( moves_filteredP1[i][j].moves[0] == 10 ){
                     double mergedEstimate = 1 - (1 - (newEstimates+i*TRIM_P2_CATCH+j)->estimate) * (1 - moves_filteredP1[i][j].estimate);
                     printf("merged components %f %f\n", (newEstimates+i*TRIM_P2_CATCH+j)->estimate , moves_filteredP1[i][j].estimate);
-                    printLua_double(args->L, "To (merged): ", mergedEstimate);
+                    if (isMultithreaded) printLua_double(args->L, "To (merged): ", mergedEstimate);
                     moveAverageP1 += mergedEstimate;
                 } else {
-                    printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2_CATCH+j)->estimate);
+                    if (isMultithreaded) printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2_CATCH+j)->estimate);
                     moveAverageP1 += (newEstimates+i*TRIM_P2_CATCH+j)->estimate;
                 }
-                pthread_mutex_unlock(&lock);
+                if (isMultithreaded) pthread_mutex_unlock(&lock);
 
             }
             pthread_mutex_lock(&lock);

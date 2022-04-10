@@ -82,10 +82,10 @@ function mem.has_ball()
         local index = start + i
         local item_index = memory.readword(index)
         -- print("item", item_gen5[item_index+1])
-        print("is ball: ", item_index > 0 and item_index < 17)
-        print("count", memory.readbyte(index+2))
+        -- print("is ball: ", item_index > 0 and item_index < 17)
+        -- print("count", memory.readbyte(index+2))
         if item_index > 0 and item_index < 17 then
-            print("found ball")
+            -- print("found ball")
             return true
         end
     end
