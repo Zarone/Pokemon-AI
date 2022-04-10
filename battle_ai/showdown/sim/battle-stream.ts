@@ -54,6 +54,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 	nnDebug = true;
 	logger;
 	thisKey: number;
+    importData: any;
 
 	constructor(
 		options: {
@@ -73,6 +74,24 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		this.battle = null;
 		this.logger = options.logger || false;
 		this.thisKey = options.key || 0;
+        
+        let data = fs.readFileSync(
+			"./battle_ai/state_files/battleStateForShowdown/" + this.thisKey,
+			// "utf8"
+		);
+        let databases;
+        try {
+
+            // I don't know why, but for some reason a line break is occasionally just added
+            // to the buffer. I don't know. 10 is the char code for line break. I don't understand
+            // but whatever.
+            databases = msgpack.decode( Buffer.from(data).filter((num) => {
+                return num != 10;
+            }) );
+        } catch(error: any){
+            console.log(`error reading import data, key ${this.thisKey}`, error);
+        }
+		this.importData = databases;
 	}
 
 	_write(chunk: string) {
@@ -862,7 +881,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				};
 				if (this.debug) options.debug = true;
 				// options.send("\nhere before new Battle()", "")
-				this.battle = new Battle(options, this.thisKey);
+				this.battle = new Battle(options, this.thisKey, this.importData);
 				// this.battle?.send("data", "here reading start");
 				break;
 			case "player":
@@ -882,8 +901,8 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				}
 				break;
 			case "run-all":
-				// this.battle?.send("data", "here reading run-all");
-				for (let i = 1; i < 11; i++) {
+
+                for (let i = 1; i < 11; i++) {
 					for (let j = 1; j < 11; j++) {
 						// j is player 2 move
 						// i is player 1 move

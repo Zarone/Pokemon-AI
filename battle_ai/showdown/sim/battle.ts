@@ -170,11 +170,8 @@ export class Battle {
 	toID = toID;
 	importData: any;
 	startTeam: string[][] = [[], []];
-	constructor(options: BattleOptions, key: number) {
-		let data = fs.readFileSync(
-			"./battle_ai/state_files/battleStateForShowdown/" + key,
-			// "utf8"
-		);
+	constructor(options: BattleOptions, key: number, importData: any) {
+		this.importData = importData;
 
 		// parse JSON string to JSON object
 
@@ -265,25 +262,6 @@ export class Battle {
 		this.SILENT_FAIL = null;
 
 		this.send = options.send || (() => {});
-		// this.send("startState", data);
-		// console.log("data", data.toString())
-        // console.log("key", key)
-        let databases;
-        try {
-
-            // I don't know why, but for some reason a line break is occasionally just added
-            // to the buffer. I don't know. 10 is the char code for line break. I don't understand
-            // but whatever.
-            databases = msgpack.decode( Buffer.from(data).filter((num) => {
-                return num != 10;
-            }) );
-            // console.log("no error", databases)
-        } catch(error: any){
-            console.log(`error reading import data, key ${key}`, error);
-        }
-		this.importData = databases;
-        // console.log(this.importData)
-
 
 		const inputOptions: {
 			formatid: ID;
