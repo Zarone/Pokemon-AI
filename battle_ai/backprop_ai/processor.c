@@ -980,9 +980,9 @@ void frameSkip(lua_State *L){
 
 void load_showdown_state(struct State *state, int localKey, int /* boolean */ firstCall){
 
-    pthread_mutex_lock(&lock);
+    // pthread_mutex_lock(&lock);
     // printf("save with key %i and state at %p\n", localKey, (void*)state);
-    pthread_mutex_unlock(&lock);
+    // pthread_mutex_unlock(&lock);
 
     // encode to memory buffer
     char* data;
@@ -2205,10 +2205,13 @@ void *evaluate_move_catch(void *rawArgs){
                 if (isMultithreaded) pthread_mutex_unlock(&lock);
 
             }
-            pthread_mutex_lock(&lock);
-            printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
-            printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2_CATCH);
-            pthread_mutex_unlock(&lock);
+
+            if (isMultithreaded){
+                pthread_mutex_lock(&lock);
+                printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
+                printLua_double(args->L, "Estimate: ", moveAverageP1/(double)TRIM_P2_CATCH);
+                pthread_mutex_unlock(&lock);
+            }
             
             if (moveAverageP1/(double)TRIM_P2_CATCH > bestMove.estimate){
                 bestMove.estimate = moveAverageP1/(double)TRIM_P2_CATCH;

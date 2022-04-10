@@ -82,21 +82,23 @@ function GameReader:new_active(name_active)
     -- self.active = memory.readbyte(0x02271CBE)
     -- self.active = memory.readbyte(0x021F44AB)
 
-    if self.wild_battle then
-        self.active = memory.readbyte(0x022724C8)
-    else
-        self.active = memory.readbyte(0x02273226)
-    end
+    -- if self.wild_battle then
+    --     self.active = memory.readbyte(0x022724C8)
+    --     print("get active for wild battle", self.active)
+    -- else
+    --     self.active = memory.readbyte(0x02273226)
+    --     print("get active for trainer battle", self.active)
+    -- end
 
     -- if the active immedietely faints
     -- check against nicknames
-    if self.active == 31 then
-        for i = 1, 6 do
-            if name_active == self.nicknames[i] then
-                self.active = i-1
-            end
+    -- if self.active == 31 then
+    for i = 1, 6 do
+        if name_active == self.nicknames[i] then
+            self.active = i-1
         end
     end
+    -- end
 
     print("new active: ", self.active)
     local temp = self.pokemon_order[1]

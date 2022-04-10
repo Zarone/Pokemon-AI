@@ -1,5 +1,5 @@
 using_test_data = false
-debug_data = true
+debug_data = false
 
 params = {...}
 if params[1] == "debug" then
@@ -210,6 +210,7 @@ function exec_showdown_state(state, activeP1, activeP2, encoreP1, encoreP2, disa
 end
 
 function BattleManager:get_action()
+    if not using_test_data then print("active", self.game_reader.active) end
     local state = self:getState()
     local thisMove = processor.get_move(frame, state)
     -- print("making move: ", thisMove)
@@ -233,6 +234,7 @@ function BattleManager:get_action()
 end
 
 function BattleManager:get_action_catch()
+    if not using_test_data then print("active", self.game_reader.active) end
     local state = self:getState()
     local thisMove = processor.get_move_catch(frame, state)
     -- print("making move: ", thisMove)
@@ -483,19 +485,19 @@ function BattleManager:getState()
         local player_pokemon_count = #self.IGReader:get(1)
 
         local enemy_pokemon_count
-        if self.game_reader.wild_battle then
-            enemy_pokemon_count = #self.IGReader:get(5)
-        else
+        -- if self.game_reader.wild_battle then
             enemy_pokemon_count = #self.IGReader:get(2)
-        end
+        -- else
+        --     enemy_pokemon_count = #self.IGReader:get(5)
+        -- end
 
         print(self.IGReader:get(1))
         print("")
         print(self.IGReader:get(2))
-        print("")
-        print(self.IGReader:get(5))
+        -- print("")
+        -- print(self.IGReader:get(5))
 
-        print(player_pokemon_count, enemy_pokemon_count)
+        -- print("pokemon counts", player_pokemon_count, enemy_pokemon_count)
 
         local boosts_player = StateReader.get_player_boosts(player_pokemon_count)[self.game_reader.active+1]
         for i = 0, 6 do
@@ -521,7 +523,9 @@ function BattleManager:getState()
         end
         index = index + 180
 
-        if debug_data then print("game data", {
+        if debug_data then 
+            local thisState = io.open("./battle_ai/state_files/last_state.json", "w")
+            local stateStr = json.encode({
                 returnTable,
                 "N/A_s",
                 self.game_reader.active,
@@ -532,6 +536,11 @@ function BattleManager:getState()
                 self.game_reader.enemy.disabled_move,
                 0, 0
             })
+
+            print(stateStr)
+            thisState:write(stateStr)
+            thisState:close()
+
         end
 
         return {

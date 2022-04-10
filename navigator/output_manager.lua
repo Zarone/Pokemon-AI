@@ -36,7 +36,7 @@ output_manager.press = function(sequence, time_between_actions)
         -- if current button press is completed 
         if output_manager.progress_of_output > sequence[output_manager.current_sequence_index][2] then
 
-            print("completed: ", sequence[output_manager.current_sequence_index][1])
+            -- print("completed: ", sequence[output_manager.current_sequence_index][1])
 
             -- if there's another output in the sequence
             if output_manager.current_sequence_index < #sequence then

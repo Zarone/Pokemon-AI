@@ -57,7 +57,7 @@ local battle_weights = {
 }
 local last_battle_action = nil
 local enemy_pokemon1_types
-local catch_threshold = 0.01
+local catch_threshold = -0.01
 local enemy_pokemon1_types = {}
 
 while true do
@@ -105,7 +105,7 @@ while true do
             print(battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
         end
 
-        print("catch decision", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ], catch_threshold)
+        -- print("catch decision", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ], catch_threshold)
 
         text_end = battleState.game_reader:line_text():sub(-6, -1)
 
@@ -113,6 +113,7 @@ while true do
 
         if battleState.game_reader.wild_battle and memory.readbyte(0x022DF58E) == 33 then -- if it's asking "switch or run"
             -- print("if it's asking switch or run")
+            print("switch or run")
             output_manager.press({{{}, 5}, {{
                 A = true
             }, 5}}, 25)
@@ -183,42 +184,227 @@ while true do
                 is_forced_switch = false
             end
         elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
+            print("exp gain or something")
             output_manager.current_sequence_index = 1
             output_manager.press({
                 {{A = true}, 5}
             }, 25)
-        elseif #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
-            print("want to catch this \'mon")
-            print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
-            print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])
+        elseif can_move and #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
+            -- print("want to catch this \'mon")
+            -- print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
+            -- print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])
 
-            print(battleState.game_reader.last_str)
+            -- print(battleState.game_reader.last_str)
 
-            -- local initDelay = 10
-            -- local action_info = battleState:act_catch()
-            -- local action
-            -- if active_info ~= nil then
-            --     action = action_info.move
-            -- end 
+            local initDelay = 10
+            local action_info = battleState:act_catch()
+            -- print("action_info", action_info)
+            local action
+            if action_info ~= nil then
+                action = action_info.move
+            end 
+            -- print("action", action)
 
-            -- if action == 11 then
-            --     -- Throw the first pokeball queued from the bag
+            if action == 0 then
+                print("reset output manager")
+                output_manager.reset()
+            elseif action == 1 then
+                output_manager.press({
+                    {{}, initDelay},
+                    {{up = true}, 5}, 
+                    {{A = true}, 5}, 
+                    {{up = true}, 5}, 
+                    {{left = true}, 5},
+                    {{A = true}, 5}
+                }, 25)
+            elseif action == 2 then
+                output_manager.press(
+                {
+                    {{}, initDelay},
+                    {{up = true}, 5},
+                    {{A = true}, 5},
+                    {{up = true}, 5},
+                    {{
+                    left = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 3 then
+                output_manager.press({
+                    {{}, initDelay},
+                    {{
+                    up = true
+                }, 5}, {{
+                    A = true
+                }, 5}, {{
+                    up = true
+                }, 5}, {{
+                    left = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 4 then
+                output_manager.press({
+                    {{}, initDelay},
+                    {{
+                    up = true
+                }, 5}, {{
+                    A = true
+                }, 5}, {{
+                    up = true
+                }, 5}, {{
+                    left = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 5 then
+                output_manager.press({
+                    {{}, initDelay},
+                    {{ up = true }, 5}, 
+                {{ down = true }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 60}, {{
+                    A = true
+                }, 20}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 6 then
+                output_manager.press({
+                    {{}, initDelay},{{
+                    up = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 60}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 20}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 7 then
+                output_manager.press({{{}, initDelay},{{
+                    up = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 60}, {{
+                    down = true
+                }, 5}, {{
+                    A = true
+                }, 20}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 8 then
+                output_manager.press({{{}, initDelay},{{
+                    up = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 60}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 20}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 9 then
+                output_manager.press({{{}, initDelay},{{
+                    up = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 60}, {{
+                    down = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    A = true
+                }, 20}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 10 then
+                output_manager.press({{{}, initDelay},{{
+                    up = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 60}, {{
+                    down = true
+                }, 5}, {{
+                    down = true
+                }, 5}, {{
+                    right = true
+                }, 5}, {{
+                    A = true
+                }, 20}, {{
+                    A = true
+                }, 5}}, 25)
+            elseif action == 11 then
+                -- Throw the first pokeball queued from the bag
 
-            --     -- If I really wanted to I could add a more verbose system
-            --     -- to select the optimal ball, but I just don't think I need
-            --     -- to.
-            --     output_manager.press({
-            --         {{}, initDelay},
-            --         {{down = true}, 5}, 
-            --         {{A = true}, 5}, 
-            --         {{right = true}, 5}, 
-            --         {{A = true}, 5},
-            --         {{A = true}, 5},
-            --         {{down = true}, 5},
-            --         {{A = true}, 5},
-            --         {{A = true}, 5},
-            --     }, 25)
-            -- end
+                -- If I really wanted to I could add a more verbose system
+                -- to select the optimal ball, but I just don't think I need
+                -- to.
+                output_manager.press({
+                    {{}, initDelay},
+                    {{down = true}, 5}, 
+                    {{A = true}, 5}, 
+                    {{}, 5},
+                    {{right = true}, 5}, 
+                    {{A = true}, 5},
+                    {{A = true}, 5},
+                    {{down = true}, 5},
+                    {{A = true}, 5},
+                    {{A = true}, 5},
+                }, 25)
+            else
+                if output_manager.current_sequence_index > 1 then
+                    output_manager.reset()
+                end
+                output_manager.press({
+                    {{A = true}, 5},
+                }, 5)
+            end
             
         elseif can_move then
             local initDelay = 10
