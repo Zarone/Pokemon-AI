@@ -1,5 +1,9 @@
 using_test_data = false
-debug_data = false
+debug_data = true
+
+debug_state = {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 21, 10, 9, 10, 10, 11, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 100, 19, 8, 11, 9, 10, 11, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
+debug_team1 = "Tepig||none|Blaze|tackle,tailwhip,,|Timid|0,0,0,0,0,0||4,23,3,19,16,29||5|70,,"
+debug_team2 = " Snivy||none|Overgrow|tackle,leer,,|Bold|0,0,0,0,0,0||0,0,0,0,0,0||5|255,,"
 
 params = {...}
 if params[1] == "debug" then
@@ -136,8 +140,8 @@ function BattleManager:act_open_catch()
             if debug_data then print("team1", team1, "team2", team2) end
             -- print(team1, team2)
         else
-            team1 = "Crustle||none|Sturdy|bugbite,stealthrock,rockslide,slash|Docile|0,0,0,0,0,0||20,0,7,16,26,20||35|76,,]Mewtwo||none|Pressure|psychocut,disable,futuresight,guardswap|Modest|0,0,0,0,0,0||7,16,30,13,12,5||70|74,,]Darkrai||Leftovers|Bad Dreams|darkvoid,darkpulse,dreameater,chargebeam|Modest|0,0,4,252,0,252||31,5,30,31,28,30||50|255,,]Victini||Quick Claw|Victory Star|vcreate,zenheadbutt,fusionbolt,uturn|Adamant|0,252,0,0,4,252||31,31,30,10,30,31||70|100,,]Blaziken||Leftovers|Speed Boost|highjumpkick,rockslide,protect,flareblitz|Adamant|4,252,0,0,0,252||31,31,31,24,31,31||77|255,," 
-            team2 = "Durant||none|Swarm|metalclaw,bugbite,crunch,ironhead|Adamant|0,0,0,0,0,0||25,21,29,25,21,10||39|70,,"
+            team1 = debug_team1
+            team2 = debug_team1
         end
 
         Writer.saveTeams(team1, team2)
@@ -278,166 +282,7 @@ end
 
 function BattleManager:getState()
     if using_test_data then
-        return {
-            {
-                255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-                
-                100,21,10,9,10,10,11,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,0,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                
-                100,19,8,11,9,10,11,false,false,false,false,false,false,false,false,true,false,false,false,false,false,false,false,false,0,0,0,0,0,0,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1,
-                0,0,0,0,0,0,0,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0,0,0,1
-            
-            },"N/A_s",0,0,"","","","",0,0
-        }
-        -- return {
-        --     {
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         100, 92, 105, 90, 125,
-                
-        --         90, 98, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         100, 70, 105, 125, 65,
-                
-        --         75, 45, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0,
-        --         100, 90, 92, 87, 75,
-
-        --         85, 76, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         1, 65, 95, 85, 55, 
-                
-        --         55, 85, 0, 0, 0,
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         100, 106, 110, 90, 154, 
-                
-        --         90, 130, 0, 0, 0,
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         100, 89, 124, 80, 55,
-                
-        --         80, 55, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0,
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0, 
-        --         100, 58, 50, 145, 95,
-
-        --         105, 30, 0, 0, 0, 
-        --         0, 0, 0, 0, 0,
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         100, 70, 80, 70, 80, 
-                
-        --         70, 110, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         100, 150, 80, 44, 90, 
-                
-        --         54, 80, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 100, 60, 70, 85, 
-                
-        --         105, 60, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 1,
-        --         100, 60, 55, 90, 145, 
-                
-        --         90, 80, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0, 
-        --         0, 0, 0, 0, 0, 
-                
-        --         0, 0, 0, 0, 0
-        --     },
-        --     "not switch",
-        --     0,
-        --     3,
-        --     "dracometeor",
-        --     "",
-        --     "darkpulse",
-        --     "",
-        --     0,
-        --     0
-        -- }
+        return debug_state
     else
         weather = StateReader.get_weather()
         weatherArray = { 0, 0, 0, 0 }
@@ -491,12 +336,9 @@ function BattleManager:getState()
         --     enemy_pokemon_count = #self.IGReader:get(5)
         -- end
 
-        print(self.IGReader:get(1))
-        print("")
-        print(self.IGReader:get(2))
+        -- print(self.IGReader:get(1))
         -- print("")
-        -- print(self.IGReader:get(5))
-
+        -- print(self.IGReader:get(2))
         -- print("pokemon counts", player_pokemon_count, enemy_pokemon_count)
 
         local boosts_player = StateReader.get_player_boosts(player_pokemon_count)[self.game_reader.active+1]
@@ -524,8 +366,8 @@ function BattleManager:getState()
         index = index + 180
 
         if debug_data then 
-            local thisState = io.open("./battle_ai/state_files/last_state.json", "w")
-            local stateStr = json.encode({
+            local this_state = io.open("./battle_ai/state_files/last_state.json", "w")
+            local raw_state = {
                 returnTable,
                 "N/A_s",
                 self.game_reader.active,
@@ -535,11 +377,12 @@ function BattleManager:getState()
                 self.game_reader.player.disabled_move,
                 self.game_reader.enemy.disabled_move,
                 0, 0
-            })
+            }
+            local state_str = json.encode(raw_state)
 
-            print(stateStr)
-            thisState:write(stateStr)
-            thisState:close()
+            print(raw_state)
+            this_state:write(state_str)
+            this_state:close()
 
         end
 

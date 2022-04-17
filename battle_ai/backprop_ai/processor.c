@@ -862,6 +862,18 @@ double logistic_derivative(double a){
 }
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
+
+    int won = 1;
+
+    for (int i = 245; i < 425; i+=30){
+        if ((double)(*inputs)[i] > 1){
+            won = 0;
+            break;
+        }
+    }
+
+    if (won) return 1.0;
+
     double activations_layer2[L2];
     double z_layer2[L2];
 
