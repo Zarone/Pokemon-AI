@@ -981,6 +981,22 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
         // printAllErrors(error_layer1, L1);
     }
 
+    // number of enemy pokemon not fainted
+    int enemyNum = 6;
+    
+    for (int i = 245; i < 425; i+=30){
+        if ((double)(*inputs)[i] < 1){
+            enemyNum--;
+        }
+    }
+
+    // look... this code is entirely cheating. But as I'm writing it, my alternative options is 
+    // to rework the network layer and train it with a greater layer count. That's pretty annoying, 
+    // and I'm tired.
+
+    if (enemyNum == 1) {
+        return activation_layer4 + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
+    }
 
     return activation_layer4;
 #endif
