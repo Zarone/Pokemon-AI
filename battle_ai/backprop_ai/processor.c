@@ -861,8 +861,7 @@ double logistic_derivative(double a){
     return logistic(a)*(1-logistic(a));
 }
 
-double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
-
+int checkWin(int (*inputs)[L1]){
     int won = 1;
 
     for (int i = 245; i < 425; i+=30){
@@ -871,8 +870,12 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
             break;
         }
     }
+    return won;
+}
 
-    if (won) return 1.0;
+double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
+
+    if (checkWin(inputs)) return 1.0;
 
     double activations_layer2[L2];
     double z_layer2[L2];
