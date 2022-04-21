@@ -17,6 +17,8 @@
 #define L2 200
 #define L3 100 
 #define L4 1
+#define L5 0
+#define L6 0
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
@@ -33,23 +35,52 @@
 // boolean
 #define MULTITHREADED 1
 
-#if LAYERS == 3
+// struct Weights {
+//     double h_layer_1[L1][L2];
+//     double biases_1[L2];
+//     double h_layer_2[L2][L3];
+//     double biases_2[L3];
+// #if LAYERS == 4
+//     double h_layer_3[L3][L4];
+//     double biases_3[L4];
+// #endif
+// };
+
 struct Weights {
-    double h_layer_1[L1][L2];
-    double h_layer_2[L2][L3];
-    double biases_1[L2];
-    double biases_2[L3];
+    double** weights[LAYERS-1];
+    double* biases[LAYERS-1];
 };
-#elif LAYERS == 4
-struct Weights {
-    double h_layer_1[L1][L2];
-    double h_layer_2[L2][L3];
-    double h_layer_3[L3][L4];
-    double biases_1[L2];
-    double biases_2[L3];
-    double biases_3[L4];
-};
-#endif
+
+int getLayerSize(int layer){
+    if (layer > LAYERS) {
+        printf("out of layer bounds\n");
+        return -1;
+    }
+    switch (layer){
+        case 0:
+            return L1;
+            break;
+        case 1:
+            return L2;
+            break;
+        case 2:
+            return L3;
+            break;
+        case 3:
+            return L4;
+            break;
+        case 4:
+            return L5;
+            break;
+        case 5:
+            return L6;
+            break;
+        default:
+            printf("triggered default in getLayerSize()\n");
+            return -1;
+            break;
+    }
+}
 
 struct State {
     int game_data[L1]; // the input to the neural network
@@ -302,104 +333,25 @@ void printArr_PartialMove(lua_State *L, struct PartialMove A[], int size)
 
 // print functions for debugging
 
-void print_weights(struct Weights *my_weights, lua_State *L){
-#if LAYERS == 3
-    printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
-    printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
-    printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
-    printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
-    printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
-    printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
-    printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
-    printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
-
-    printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
-    printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
-    printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
-    printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
-    printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
-    printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
-    printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
-    printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
+void print_weights(struct Weights *my_weights){
     
-    printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
-    printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
-    printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
-    printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
-    printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
-    printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
-    printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
-#elif LAYERS == 4
-    // printf("weights[0][0][0] = %f\n", my_weights->h_layer_1[0][0]);
-    // printf("weights[0][0][1] = %f\n", my_weights->h_layer_1[0][1]);
-    // printf("weights[0][0][2] = %f\n", my_weights->h_layer_1[0][2]);
-    // printf("weights[0][0][3] = %f\n", my_weights->h_layer_1[0][3]);
-    // printf("weights[0][0][4] = %f\n", my_weights->h_layer_1[0][4]);
-    // printf("weights[0][0][5] = %f\n", my_weights->h_layer_1[0][5]);
-    // printf("weights[0][0][6] = %f\n", my_weights->h_layer_1[0][6]);
-    // printf("weights[0][0][7] = %f\n", my_weights->h_layer_1[0][7]);
+    for (int i = 0; i < LAYERS-1; i++){// i is the layer
+        for (int j = 0; j < getLayerSize(i); j+=100){// j is the from node
+            for (int k = 0; k < getLayerSize(i+1); k+=40){// k is the to node
+                printf("weights[%i][%i][%i] = %f\n ", i, j, k, 
+                    ((double*)(my_weights->weights[i]))[j*getLayerSize(i+1) + k]
+                );
+            }
+        }
+    }
 
-    // printf("weights[1][0][0] = %f\n", my_weights->h_layer_2[0][0]);
-    // printf("weights[1][1][0] = %f\n", my_weights->h_layer_2[1][0]);
-    // printf("weights[1][2][0] = %f\n", my_weights->h_layer_2[2][0]);
-    // printf("weights[1][3][0] = %f\n", my_weights->h_layer_2[3][0]);
-    // printf("weights[1][4][0] = %f\n", my_weights->h_layer_2[4][0]);
-    // printf("weights[1][5][0] = %f\n", my_weights->h_layer_2[5][0]);
-    // printf("weights[1][6][0] = %f\n", my_weights->h_layer_2[6][0]);
-    // printf("weights[1][7][0] = %f\n", my_weights->h_layer_2[7][0]);
-    
-    // printf("weights[2][0][0] = %f\n", my_weights->h_layer_3[0][0]);
-    // printf("weights[2][1][0] = %f\n", my_weights->h_layer_3[1][0]);
-    // printf("weights[2][2][0] = %f\n", my_weights->h_layer_3[2][0]);
-    // printf("weights[2][3][0] = %f\n", my_weights->h_layer_3[3][0]);
-    // printf("weights[2][4][0] = %f\n", my_weights->h_layer_3[4][0]);
-    // printf("weights[2][5][0] = %f\n", my_weights->h_layer_3[5][0]);
-    // printf("weights[2][6][0] = %f\n", my_weights->h_layer_3[6][0]);
-    // printf("weights[2][7][0] = %f\n", my_weights->h_layer_3[7][0]);
-
-    // printf("biases[0][0] = %f\n", my_weights->biases_1[0]);
-    // printf("biases[0][1] = %f\n", my_weights->biases_1[1]);
-    // printf("biases[0][2] = %f\n", my_weights->biases_1[2]);
-    // printf("biases[0][3] = %f\n", my_weights->biases_1[3]);
-    // printf("biases[0][4] = %f\n", my_weights->biases_1[4]);
-    // printf("biases[0][5] = %f\n", my_weights->biases_1[5]);
-    // printf("biases[1][0] = %f\n", my_weights->biases_2[0]);
-
-    printLua_double(L, "weights[0][0][0] = ", my_weights->h_layer_1[0][0]);
-    printLua_double(L, "weights[0][0][1] = ", my_weights->h_layer_1[0][1]);
-    printLua_double(L, "weights[0][0][2] = ", my_weights->h_layer_1[0][2]);
-    printLua_double(L, "weights[0][0][3] = ", my_weights->h_layer_1[0][3]);
-    printLua_double(L, "weights[0][0][4] = ", my_weights->h_layer_1[0][4]);
-    printLua_double(L, "weights[0][0][5] = ", my_weights->h_layer_1[0][5]);
-    printLua_double(L, "weights[0][0][6] = ", my_weights->h_layer_1[0][6]);
-    printLua_double(L, "weights[0][0][7] = ", my_weights->h_layer_1[0][7]);
-
-    printLua_double(L, "weights[1][0][0] = ", my_weights->h_layer_2[0][0]);
-    printLua_double(L, "weights[1][1][0] = ", my_weights->h_layer_2[1][0]);
-    printLua_double(L, "weights[1][2][0] = ", my_weights->h_layer_2[2][0]);
-    printLua_double(L, "weights[1][3][0] = ", my_weights->h_layer_2[3][0]);
-    printLua_double(L, "weights[1][4][0] = ", my_weights->h_layer_2[4][0]);
-    printLua_double(L, "weights[1][5][0] = ", my_weights->h_layer_2[5][0]);
-    printLua_double(L, "weights[1][6][0] = ", my_weights->h_layer_2[6][0]);
-    printLua_double(L, "weights[1][7][0] = ", my_weights->h_layer_2[7][0]);
-    
-    printLua_double(L, "weights[2][0][0] = ", my_weights->h_layer_3[0][0]);
-    printLua_double(L, "weights[2][1][0] = ", my_weights->h_layer_3[1][0]);
-    printLua_double(L, "weights[2][2][0] = ", my_weights->h_layer_3[2][0]);
-    printLua_double(L, "weights[2][3][0] = ", my_weights->h_layer_3[3][0]);
-    printLua_double(L, "weights[2][4][0] = ", my_weights->h_layer_3[4][0]);
-    printLua_double(L, "weights[2][5][0] = ", my_weights->h_layer_3[5][0]);
-    printLua_double(L, "weights[2][6][0] = ", my_weights->h_layer_3[6][0]);
-    printLua_double(L, "weights[2][7][0] = ", my_weights->h_layer_3[7][0]);
-
-    printLua_double(L, "biases[0][0] = ", my_weights->biases_1[0]);
-    printLua_double(L, "biases[0][1] = ", my_weights->biases_1[1]);
-    printLua_double(L, "biases[0][2] = ", my_weights->biases_1[2]);
-    printLua_double(L, "biases[0][3] = ", my_weights->biases_1[3]);
-    printLua_double(L, "biases[0][4] = ", my_weights->biases_1[4]);
-    printLua_double(L, "biases[0][5] = ", my_weights->biases_1[5]);
-    printLua_double(L, "biases[1][0] = ", my_weights->biases_2[0]);
-#endif
+    for (int i = 0; i < LAYERS-1; i++){
+        for (int j = 0; j < getLayerSize(i+1); j+=20){
+            printf("biases[%i][%i] = %f\n", i, j, 
+                ((double*)(my_weights->weights[i]))[j] 
+            );
+        }
+    }
 }
 
 void print_inputs(struct State my_states, lua_State *L){
@@ -467,51 +419,26 @@ void parse_weights(lua_State *L, mpack_reader_t* reader, int layer, struct Weigh
         mpack_done_array(reader);
     }
 
+    if (layer == 3){
+        double val = mpack_tag_double_value(&tag);
 
-    #if LAYERS==3
-    if (layer == 3){
-        double val = mpack_tag_double_value(&tag);
-        if (indexes[0] == 3){
-            weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = val;
-        }
-        else if (indexes[0] == 2){
-            weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = val;
-        }
-        else if (indexes[0] == 1){
-            if (indexes[1] == 2){
-                weight_pointer->biases_1[L2-indexes[2]] = val;
-            } else if (indexes[1] == 1){
-                weight_pointer->biases_2[L3-indexes[2]] = val;
-            }
-        } else {
-            printf("wasn't 1 or 2 or 3, indexes[0] = %i", indexes[0]);
-        }
-    }
-    #elif LAYERS==4
-    if (layer == 3){
-        double val = mpack_tag_double_value(&tag);
-        if (indexes[0] == 4){
-            weight_pointer->h_layer_1[L1-indexes[1]][L2-indexes[2]] = val;
-        }
-        else if (indexes[0] == 3){
-            weight_pointer->h_layer_2[L2-indexes[1]][L3-indexes[2]] = val;
-        }
-        else if (indexes[0] == 2){
-            weight_pointer->h_layer_3[L3-indexes[1]][L4-indexes[2]] = val;
-        }
-        else if (indexes[0] == 1){
-            if (indexes[1] == 3){
-                weight_pointer->biases_1[L2-indexes[2]] = val;
-            } else if (indexes[1] == 2){
-                weight_pointer->biases_2[L3-indexes[2]] = val;
-            } else if (indexes[1] == 1){
-                weight_pointer->biases_3[L4-indexes[2]] = val;
-            }
+        if (indexes[0] > 1){
+            int thisLayer = LAYERS - indexes[0];
+            int fromNode = getLayerSize(thisLayer)-indexes[1];
+            int toNode = getLayerSize(thisLayer+1)-indexes[2];
+            // printf("%i %i %i\n", thisLayer, fromNode, toNode);
+            ((double*)(weight_pointer->weights[thisLayer]))[fromNode*getLayerSize(thisLayer+1) + toNode] = val;
+        } else if (indexes[0] == 1){
+            int thisLayer = LAYERS - indexes[1] - 1;
+            int node = getLayerSize(thisLayer+1)-indexes[2];
+            // printf("indexes: %i %i %i\n", indexes[0], indexes[1], indexes[2]);
+            // printf("%i %i\n", thisLayer, node);
+            ((double*)(weight_pointer->biases[thisLayer]))[node] = val;
         } else {
             printLua_double(L, "wasn't 1 or 2 or 3 or 4, indexes[0] = ", indexes[0]);
         }
     }
-    #endif
+
 }
 
 int get_weights(lua_State *L, struct Weights *my_weights){
@@ -520,7 +447,15 @@ int get_weights(lua_State *L, struct Weights *my_weights){
 
     int blank_indexes[] = {0,0,0};
 
+    for (int i = 0; i < LAYERS-1; i++){
+        int fromLayerCount = getLayerSize(i);
+        int toLayerCount = getLayerSize(i+1);
+        my_weights->weights[i] = (double**)malloc(fromLayerCount * toLayerCount * sizeof(double));
+        my_weights->biases[i] = (double*)malloc(toLayerCount * sizeof(double));
+        printf("\ninitialized layer %i, addr: %p\n", i, (void*)my_weights->weights[i], (*(my_weights->weights[i])) );
+    }
     parse_weights(L, &reader, 0, my_weights, blank_indexes);
+
     
     mpack_error_t error = mpack_reader_destroy(&reader);
     if (error != mpack_ok){
@@ -875,60 +810,76 @@ int checkWin(int (*inputs)[L1]){
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
 
-    if (checkWin(inputs)) return 1.0;
+    // print_weights(my_weights);
+    // for (int i = 0; i < L1; i++){
+    //     printf("input %i has val %i\n", i, (*inputs)[i]);
+    // }
 
-    double activations_layer2[L2];
-    double z_layer2[L2];
+    tallyBackprop = tallyBackprop + 0; // if I forget to remove this code, it was supposed to be temporary to avoid compiler errors
 
-    // propagate into activations_layer2
-    for (int i = 0; i < L2; i++){
-        z_layer2[i] = 0;
-        for (int j = 0; j < L1; j++){
-            z_layer2[i] += (double)(*inputs)[j] * my_weights->h_layer_1[j][i];
+    if (checkWin(inputs)) return 1.0;    
+
+    double* activationLayers[LAYERS-2]; // skip over input layer, and output layer
+    double* zLayers[LAYERS-1]; // skip over input layer
+    activationLayers[0] = malloc(L2*sizeof(double));
+    zLayers[0] = malloc(L2*sizeof(double));
+
+    // printf("weight 0 0 0: %f\n", (my_weights->weights[0])[0]);
+    // printf("weight 0 0 0: %f\n", ((double*)(my_weights->weights[0]))[0*getLayerSize(0+1) + 0]);
+
+    for (int i = 0; i < L2; i++){ // i is the toNode
+        // printf("i: %i\n", i);
+        zLayers[0][i] = 0;
+        for (int j = 0; j < L1; j++){ // j is the fromNode
+            // printf("j: %i, += %f * %f\n", i, (*inputs)[j], ((double*)(my_weights->weights[0]))[j*L2 + i]);
+            zLayers[0][i] += (*inputs)[j] * ((double*)(my_weights->weights[0]))[j*L2 + i];
         }
-        z_layer2[i] += my_weights->biases_1[i];
-        activations_layer2[i] = relu(z_layer2[i]);
+        zLayers[0][i] += my_weights->biases[0][i];
+        activationLayers[0][i] = relu(zLayers[0][i]);
+        // printf("zLayers[0][%i] = %f\n", i, zLayers[0][i]);
+        // printf("activationLayers[0][%i] = %f\n", i, activationLayers[0][i]);
     }
-#if LAYERS == 3
-    double activation_output = 0;
 
-    // propagate into output layer
-    for (int i = 0; i < L2; i++){
-        activation_output += activations_layer2[i] * my_weights->h_layer_2[i][0];
-    }
-    activation_output += my_weights->biases_2[0];
-    // activation_output = logistic(activation_output, 1);
-    return activation_output;
-#elif LAYERS == 4
-    double activations_layer3[L3];
-    double z_layer3[L3];
+    double outputNode = 0;
 
-    // propagate into activations_layer3
-    for (int i = 0; i < L3; i++){
-        z_layer3[i] = 0;
-        for (int j = 0; j < L2; j++){
-            z_layer3[i] += activations_layer2[j] * my_weights->h_layer_2[j][i];
+    for (int i = 1; i < LAYERS-1; i++){
+        
+        // allocate mem for layer "i"
+        activationLayers[i] = malloc(getLayerSize(i+1)*sizeof(double));
+        zLayers[i] = malloc(getLayerSize(i+1)*sizeof(double));
+        
+        // printf("Layer: %i\n", i);
+
+        // prop from layer "i" to layer "i+1"
+        for (int j = 0; j < getLayerSize(i+1); j++){ // j is the toNode
+            // printf("start j %i\n", j);
+            zLayers[i][j] = 0;
+            for (int k = 0; k < getLayerSize(i); k++){ // k is the fromNode
+                // printf("+=%f * %f\n", activationLayers[i-1][k], ((double*)(my_weights->weights[i]))[k*getLayerSize(i+1) + j]);
+                zLayers[i][j] += activationLayers[i-1][k] * ((double*)(my_weights->weights[i]))[k*getLayerSize(i+1) + j];
+            }
+            
+            zLayers[i][j] += ((double*)(my_weights->biases[i]))[j];
+            if (i == LAYERS-2){
+                outputNode = logistic( zLayers[i][j] );
+                // printf("zLayer output: %f, output: %f\n", zLayers[i][j],  outputNode);
+            } else {
+                activationLayers[i][j] = relu( zLayers[i][j] );
+                // printf("zLayers[%i][%i]: %f, activationLayers[%i][%i]: %f\n", i, j, zLayers[i][j], i, j, activationLayers[i][j]);
+            }
         }
-        z_layer3[i] += my_weights->biases_2[i];
-        activations_layer3[i] = relu(z_layer3[i]);
     }
 
-    double activation_layer4 = 0;
-    double z_layer4 = 0;
 
-    // propagate into output layer
-    for (int i = 0; i < L3; i++){
-        z_layer4 += activations_layer3[i] * my_weights->h_layer_3[i][0];
-    }
-    z_layer4 += my_weights->biases_3[0];
-    // activation_layer4 = logistic(z_layer4);
-    activation_layer4 = logistic(z_layer4);
 
+    /*
     if (tallyBackprop == 1){
         // backpropagate to find ideal changes to inputs
         
         // I'm also defining error as ( del V / del a ) where V 
         // is the very last activation and a is any given activation value
+
+
 
         double error_layer3[L3];
         for (int i = 0; i < L3; i++){ 
@@ -980,6 +931,14 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
         // printErrors(error_layer1, L1, 3);
         // printAllErrors(error_layer1, L1);
     }
+    */
+
+    for (int i = 0; i < LAYERS-2; i++){
+        free(activationLayers[i]);
+    }
+    for (int i = 0; i < LAYERS-1; i++){
+        free(zLayers[i]);
+    }
 
     // number of enemy pokemon not fainted
     int enemyNum = 6;
@@ -995,11 +954,12 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
     // and I'm tired.
 
     if (enemyNum == 1) {
-        return activation_layer4 + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
+        return outputNode + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
     }
 
-    return activation_layer4;
-#endif
+    return outputNode;
+
+    
 }
 
 void frameSkip(lua_State *L){
@@ -1382,6 +1342,7 @@ void *evaluate_move(void *rawArgs ){
         
     // printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
+    // print_weights(args->my_weights);
 
     if (args->depth != START_DEPTH){ pthread_mutex_lock(&lock); }
     key++;
@@ -2352,7 +2313,7 @@ void run_evaluation(lua_State *L){
 
     struct Weights my_weights;
     get_weights(L, &my_weights);
-    // print_weights(&my_weights, L);
+    // print_weights(&my_weights);
     // print_inputs(start_state, L);
 
     // struct State* my_states = (struct State*) malloc(10*10*25 * sizeof(struct State));
@@ -2402,6 +2363,12 @@ void run_evaluation(lua_State *L){
     lua_setfield(L, -2, "type_info");
     lua_pushnumber(L, lastBackpropBatch.condition);
     lua_setfield(L, -2, "condition");
+
+    // deallocate memory from weights
+    for (int i = 0; i < LAYERS-1; i++){
+        free(my_weights.weights[i]);
+        free(my_weights.biases[i]);
+    }
 
     // return bestMove.move;
 }
