@@ -452,7 +452,6 @@ int get_weights(lua_State *L, struct Weights *my_weights){
         int toLayerCount = getLayerSize(i+1);
         my_weights->weights[i] = (double**)malloc(fromLayerCount * toLayerCount * sizeof(double));
         my_weights->biases[i] = (double*)malloc(toLayerCount * sizeof(double));
-        printf("\ninitialized layer %i, addr: %p\n", i, (void*)my_weights->weights[i], (*(my_weights->weights[i])) );
     }
     parse_weights(L, &reader, 0, my_weights, blank_indexes);
 
@@ -797,15 +796,23 @@ double logistic_derivative(double a){
 }
 
 int checkWin(int (*inputs)[L1]){
-    int won = 1;
-
     for (int i = 245; i < 425; i+=30){
         if ((double)(*inputs)[i] > 1){
-            won = 0;
-            break;
+            return 0;
         }
     }
-    return won;
+    printf("win\n");
+    return 1;
+}
+
+int checkLoss(int (*inputs)[L1]){
+    for (int i = 65; i < 245; i+=30){
+        if ((double)(*inputs)[i] > 1){
+            return 0;
+        }
+    }
+    printf("lose\n");
+    return 1;
 }
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
@@ -815,17 +822,13 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
     //     printf("input %i has val %i\n", i, (*inputs)[i]);
     // }
 
-    tallyBackprop = tallyBackprop + 0; // if I forget to remove this code, it was supposed to be temporary to avoid compiler errors
+    if (checkWin(inputs)) return 1.0f;    
+    if (checkLoss(inputs)) return 0.0f;
 
-    if (checkWin(inputs)) return 1.0;    
-
-    double* activationLayers[LAYERS-2]; // skip over input layer, and output layer
+    double* activationLayers[LAYERS-1]; // skip over input layer
     double* zLayers[LAYERS-1]; // skip over input layer
     activationLayers[0] = malloc(L2*sizeof(double));
     zLayers[0] = malloc(L2*sizeof(double));
-
-    // printf("weight 0 0 0: %f\n", (my_weights->weights[0])[0]);
-    // printf("weight 0 0 0: %f\n", ((double*)(my_weights->weights[0]))[0*getLayerSize(0+1) + 0]);
 
     for (int i = 0; i < L2; i++){ // i is the toNode
         // printf("i: %i\n", i);
@@ -840,98 +843,79 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
         // printf("activationLayers[0][%i] = %f\n", i, activationLayers[0][i]);
     }
 
-    double outputNode = 0;
-
     for (int i = 1; i < LAYERS-1; i++){
         
-        // allocate mem for layer "i"
-        activationLayers[i] = malloc(getLayerSize(i+1)*sizeof(double));
-        zLayers[i] = malloc(getLayerSize(i+1)*sizeof(double));
-        
-        // printf("Layer: %i\n", i);
+        int thisLayerCount = getLayerSize(i+1);
+        int lastLayerCount = getLayerSize(i);
 
+        // allocate mem for layer "i"
+        activationLayers[i] = malloc(thisLayerCount*sizeof(double));
+        zLayers[i] = malloc(thisLayerCount*sizeof(double));
+        
         // prop from layer "i" to layer "i+1"
-        for (int j = 0; j < getLayerSize(i+1); j++){ // j is the toNode
-            // printf("start j %i\n", j);
+        for (int j = 0; j < thisLayerCount; j++){ // j is the toNode
             zLayers[i][j] = 0;
-            for (int k = 0; k < getLayerSize(i); k++){ // k is the fromNode
-                // printf("+=%f * %f\n", activationLayers[i-1][k], ((double*)(my_weights->weights[i]))[k*getLayerSize(i+1) + j]);
-                zLayers[i][j] += activationLayers[i-1][k] * ((double*)(my_weights->weights[i]))[k*getLayerSize(i+1) + j];
+            for (int k = 0; k < lastLayerCount; k++){ // k is the fromNode
+                zLayers[i][j] += activationLayers[i-1][k] * ((double*)(my_weights->weights[i]))[k*thisLayerCount + j];
             }
             
             zLayers[i][j] += ((double*)(my_weights->biases[i]))[j];
-            if (i == LAYERS-2){
-                outputNode = logistic( zLayers[i][j] );
-                // printf("zLayer output: %f, output: %f\n", zLayers[i][j],  outputNode);
-            } else {
-                activationLayers[i][j] = relu( zLayers[i][j] );
-                // printf("zLayers[%i][%i]: %f, activationLayers[%i][%i]: %f\n", i, j, zLayers[i][j], i, j, activationLayers[i][j]);
-            }
+            activationLayers[i][j] = (i == LAYERS - 2) ? logistic( zLayers[i][j] ) : relu( zLayers[i][j] );
         }
     }
 
 
-
-    /*
     if (tallyBackprop == 1){
         // backpropagate to find ideal changes to inputs
-        
+
         // I'm also defining error as ( del V / del a ) where V 
         // is the very last activation and a is any given activation value
 
+        double* errorLayers[LAYERS-1]; // excluding the output layer
 
+        for (int i = 1; i < LAYERS; i++){
+            
+            int thisLayerCount = getLayerSize(LAYERS-1-i); 
+            
+            errorLayers[i-1] = malloc(thisLayerCount * sizeof(double));
+            
+            for (int j = 0; j < thisLayerCount; j++){
+                errorLayers[i-1][j] = 0;
+                int nextLayerCount = getLayerSize(LAYERS-i);
+                for (int k = 0; k < nextLayerCount; k++){
+                    // printf("Layer: %i, fromNode: %i, toNode: %i\n", LAYERS-i, j, k);
 
-        double error_layer3[L3];
-        for (int i = 0; i < L3; i++){ 
-            error_layer3[i] = my_weights->h_layer_3[i][0] * logistic_derivative(z_layer4);
-        }
-
-        double error_layer2[L2] = {0};
-        for (int i = 0; i < L2; i++){
-            for (int j = 0; j < L3; j++){
-                error_layer2[i] += my_weights->h_layer_2[i][j] * relu_derivative(z_layer3[j]) * error_layer3[j];
+                    double derivative1 = ((double*)(my_weights->weights[LAYERS-1-i]))[j*nextLayerCount + k];
+                    double derivative2 = (i == 1) ? logistic_derivative( zLayers[LAYERS-1-i][k] ) : relu_derivative( zLayers[LAYERS-1-i][k] );
+                    double derivative3 = (i == 1) ? 1 : errorLayers[i - 2][k];
+                    // printf("del z_l+1 / del a_l: %f\n", derivative1);
+                    // printf("del a_l+1 / del z_l+1: %f\n", derivative2);
+                    // printf("del V / del a_l+1: %f\n", derivative3);
+                    errorLayers[i-1][j] += derivative1 * derivative2 * derivative3;
+                }
             }
-        }
-
-        struct Input blank_input;
-        blank_input.val = 0;
-        blank_input.name[0] = '\n';
-        struct Input error_layer1[L1] = { blank_input };
-        for (int i = 0; i < L1; i++){
-            for (int k = 0; k < 20; k++){
-                error_layer1[i].name[k] = network_mapping[i][k];
-            }
-            for (int j = 0; j < L2; j++){
-                error_layer1[i].val += my_weights->h_layer_1[i][j] * relu_derivative(z_layer2[j]) * error_layer2[j];
-            }
-            error_layer1[i].input_val = (double)(*inputs)[i];
-            // error_layer1[i].val *= error_layer1[i].input_val;
         }
 
         for (int i = 65; i < 245; i+=30){
             // if there's a pokemon in this slot
-            if (error_layer1[i+1].val > 0){
-                lastBackpropBatch.condition -= error_layer1[i].val*(error_layer1[i].input_val-100.0f);
+            if ((*inputs)[i+1] > 0){
+                lastBackpropBatch.condition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
 
-                if (error_layer1[i+24].val < 0) lastBackpropBatch.condition -= error_layer1[i+24].val*error_layer1[i+24].input_val;
-                if (error_layer1[i+25].val < 0) lastBackpropBatch.condition -= error_layer1[i+25].val*error_layer1[i+25].input_val;
-                if (error_layer1[i+26].val < 0) lastBackpropBatch.condition -= error_layer1[i+26].val*error_layer1[i+26].input_val;
-                if (error_layer1[i+27].val < 0) lastBackpropBatch.condition -= error_layer1[i+27].val*error_layer1[i+27].input_val;
-                if (error_layer1[i+28].val < 0) lastBackpropBatch.condition -= error_layer1[i+28].val*error_layer1[i+28].input_val;
-                if (error_layer1[i+29].val < 0) lastBackpropBatch.condition -= error_layer1[i+29].val*error_layer1[i+29].input_val;
+                if (errorLayers[LAYERS-2][i+24] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+24]*((*inputs)[i+24]);
+                if (errorLayers[LAYERS-2][i+25] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+25]*((*inputs)[i+25]);
+                if (errorLayers[LAYERS-2][i+26] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+26]*((*inputs)[i+26]);
+                if (errorLayers[LAYERS-2][i+27] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+27]*((*inputs)[i+27]);
+                if (errorLayers[LAYERS-2][i+28] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+28]*((*inputs)[i+28]);
+                if (errorLayers[LAYERS-2][i+29] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+29]*((*inputs)[i+29]);
 
             } else {
                 for (int j = 7; j < 24; j++){
-                    if (error_layer1[i+j].val < 0) lastBackpropBatch.typeDesire[j-7] -= error_layer1[i+j].val;
+                    if (errorLayers[LAYERS-2][i+j]) lastBackpropBatch.typeDesire[j-7] -= errorLayers[LAYERS-2][i+j];
                 }
             }
         }
-        
-        // mergeSort(error_layer1, 0, L1-1);
-        // printErrors(error_layer1, L1, 3);
-        // printAllErrors(error_layer1, L1);
+
     }
-    */
 
     for (int i = 0; i < LAYERS-2; i++){
         free(activationLayers[i]);
@@ -940,24 +924,26 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
         free(zLayers[i]);
     }
 
-    // number of enemy pokemon not fainted
-    int enemyNum = 6;
-    
-    for (int i = 245; i < 425; i+=30){
-        if ((double)(*inputs)[i] < 1){
-            enemyNum--;
+    /*
+        // number of enemy pokemon not fainted
+        int enemyNum = 6;
+        
+        for (int i = 245; i < 425; i+=30){
+            if ((double)(*inputs)[i] < 1){
+                enemyNum--;
+            }
         }
-    }
 
-    // look... this code is entirely cheating. But as I'm writing it, my alternative options is 
-    // to rework the network layer and train it with a greater layer count. That's pretty annoying, 
-    // and I'm tired.
+        // look... this code is entirely cheating. But as I'm writing it, my alternative options is 
+        // to rework the network layer and train it with a greater layer count. That's pretty annoying, 
+        // and I'm tired.
 
-    if (enemyNum == 1) {
-        return outputNode + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
-    }
+        if (enemyNum == 1) {
+            return activationLayers[LAYERS-2][0] + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
+        }
+    */
 
-    return outputNode;
+    return activationLayers[LAYERS-2][0];
 
     
 }
@@ -1692,7 +1678,6 @@ void *evaluate_move(void *rawArgs ){
         free(allNewArgs);
         free(my_states);
         *(args->outputPtr) = bestMove;
-        if (args->depth == START_DEPTH) printf("\nreturned bestMove %i with estimate %f\n", args->outputPtr->move, args->outputPtr->estimate);
         return NULL;
     }
 
@@ -2358,6 +2343,7 @@ void run_evaluation(lua_State *L){
     lua_createtable(L, 17, 0);
     for(int i = 0; i < 17; i++){
         lua_pushnumber(L, lastBackpropBatch.typeDesire[i]);
+        printf("type %i: %f\n", i, lastBackpropBatch.typeDesire[i]);
         lua_rawseti(L, -2, i+1);
     }
     lua_setfield(L, -2, "type_info");
@@ -2369,6 +2355,8 @@ void run_evaluation(lua_State *L){
         free(my_weights.weights[i]);
         free(my_weights.biases[i]);
     }
+
+    printf("returned bestMove %i with estimate %f\n", args.outputPtr->move, args.outputPtr->estimate);
 
     // return bestMove.move;
 }
