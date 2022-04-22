@@ -95,36 +95,15 @@ def get_log(log_name, file):
     return False
   maxTurns = 100
   for i in range(maxTurns):
-    if (new_game.next_turn()):
-      outputFile = open('../../state_files/processed_logs/'+file+"-"+str(i), 'wb')
-      output = new_game.get_output(1)
-      # print("game start")
-      # print(output[0][94])    
-      # print(output[0][124])    
-      # print(output[0][154])    
-      # print(output[0][184])    
-      # print(output[0][214])    
-      # print(output[0][244])  
-
-      # print(output[0][274])    
-      # print(output[0][304])    
-      # print(output[0][334])    
-      # print(output[0][364])    
-      # print(output[0][394])    
-      # print(output[0][424])    
-      # print("game end\n")
-      outputFile.write(msgpack.packb(output))
-      outputFile.close()
-      
-      # return
-    # print(str(i)+" out of "+str(maxTurns))
-    # print(i, len(new_game.get_output(1)[0]))
-    # print("\n")
-    else:
+    outputFile = open('../../state_files/processed_logs/'+file+"-"+str(i), 'wb')
+    output = new_game.get_output(1)
+    if (output == None):
+        return
+    
+    outputFile.write(msgpack.packb(output))
+    outputFile.close()
+    if not new_game.next_turn():
       break
-  # log.close()
-  # new_game.next_turn()
-  # new_game.next_turn()
 
 get_all_logs()
 # get_log("last.txt")

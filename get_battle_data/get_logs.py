@@ -3,7 +3,7 @@ import json
 
 SEARCH_URL = "https://replay.pokemonshowdown.com/search.json?"
 LOG_URL = "https://replay.pokemonshowdown.com/"
-LOG_FOLDER = "raw_logs/"
+LOG_FOLDER = "unused_logs/"
 
 def get_battle_ids(formats, pages_per_format): #50 battles per page
     id_list = []

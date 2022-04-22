@@ -179,6 +179,9 @@ class GameState:
         # print(len(p2_bench))
         # print("\n\n\n")
 
+        if p1_active == None:
+            return None
+
         if player == 1:
             return [
                 [

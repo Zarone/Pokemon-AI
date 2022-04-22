@@ -11,14 +11,15 @@
 #include <Windows.h>
 #include <unistd.h>
 
-#define LAYERS 4
+#define LAYERS 7
 
 #define L1 425
 #define L2 200
-#define L3 100 
-#define L4 1
-#define L5 0
-#define L6 0
+#define L3 50 
+#define L4 20
+#define L5 20
+#define L6 10
+#define L7 1
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
@@ -74,6 +75,9 @@ int getLayerSize(int layer){
             break;
         case 5:
             return L6;
+            break;
+        case 6:
+            return L7;
             break;
         default:
             printf("triggered default in getLayerSize()\n");
