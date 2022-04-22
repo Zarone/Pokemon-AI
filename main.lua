@@ -73,6 +73,8 @@ while true do
     -- okay so this section is to make sure that the
     -- battle doesn't quit out if "is_in_battle" returns
     -- false for a single frame
+    
+    
     if was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
@@ -81,11 +83,9 @@ while true do
             was_in_battle = false
             battleState = nil
             mode = 0
+            -- md.pf.clear_neighbors()
         end
-    end
-
-    
-    if is_in_battle then
+    elseif is_in_battle then
         if not was_in_battle then
             battle_clock = 0
             was_in_battle = true
@@ -618,7 +618,7 @@ while true do
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
     elseif ((not was_in_battle) and is_text_onscreen) then
-        print("there's on screen dialogue, time to button mash")
+        -- print("there's on screen dialogue, time to button mash")
         -- button_masher.mash({A = true})
         output_manager.press({{{
             A = true
@@ -686,7 +686,7 @@ while true do
                 end
 
             elseif objective[1] == 2 then
-                print({objective[2][1]}, 100)
+                -- print({objective[2][1]}, 100)
                 if (output_manager.press({objective[2]}, 100)) then
                     goals.objective_complete()
                     output_manager.reset()

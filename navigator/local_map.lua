@@ -53,7 +53,7 @@ end
 
 lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or (1, 0)
 
-    dir = {}
+    local dir = {}
 
     if (lmd.pf.move_x_dir == 0 and lmd.pf.move_y_dir == -1) then
         dir.up = true
@@ -65,7 +65,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         dir.left = true
     end
 
-    same_pos = lmd.pf.last_x == lmd.x and lmd.pf.last_y == lmd.y
+    local same_pos = lmd.pf.last_x == lmd.x and lmd.pf.last_y == lmd.y
 
     -- repeat the input so the player moves
     if same_pos then
@@ -76,7 +76,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
         -- if the character has moved 
         if not same_pos then
-
             -- if the map hasn't changed
             if (lmd.map_id == lmd.pf.last_map) then
                 -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
@@ -134,7 +133,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                         x_offset = lmd.x_offset
 
                     }
-                    table.save(export_data, string.format("./map_cache/%d.lua", (lmd.pf.last_map)))
+                    table.save(export_data, string.format("./navigator/map_cache/%d.lua", (lmd.pf.last_map)))
                     print("saved map data to: ", lmd.pf.last_map)
                     print("saved map data was: ", export_data)
 
@@ -172,8 +171,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                     lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
                 end
 
-                lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] =
-                    2
+                lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
                 return 2 -- indicate failed move
             else
                 return 3 -- indicate npc interference
@@ -190,8 +188,21 @@ lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
     return math.sqrt((node_x - dest_x) ^ 2 + (node_y - dest_y) ^ 2)
 end
 
+lmd.pf.clear_neighbors = function()
+    neighbor_clear = function(clear_x, clear_y)
+        if lmd.local_map[clear_y] ~= nil and lmd.local_map[clear_y][clear_x] == 2 then
+            lmd.local_map[clear_y][clear_x] = nil
+        end
+    end
+
+    neighbor_clear(lmd.x, lmd.y + 1)
+    neighbor_clear(lmd.x, lmd.y - 1)
+    neighbor_clear(lmd.x + 1, lmd.y)
+    neighbor_clear(lmd.x - 1, lmd.y)
+end
+
 lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
-    neighbors = {}
+    local neighbors = {}
 
     neighbor_insert = function(insert_x, insert_y)
         -- if the row doesn't exist
@@ -199,7 +210,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
         if ((lmd.local_map[insert_y] == nil) or
             (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
 
-            -- if the neighbor is without an npc
+            -- if the neighbor is an npc
             npc_bool = lmd.is_npc_at(insert_x, insert_y)
 
             if not npc_bool then
@@ -209,10 +220,11 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                 -- if it's not a warp
                 if lmd.local_map[insert_y] == nil or lmd.local_map[insert_y][insert_x] ~= 3 or h_cost < 0.01 then
 
-                    new_node_path = nil
+                    local new_node_path = nil
                     if #given_node[3] == 0 then
                         new_node_path = {{insert_x, insert_y}}
                     else
+                        print(given_node[3])
                         new_node_path = {unpack(given_node[3])}
                         table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
                     end
@@ -233,22 +245,22 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 
     end
 
-    neighbor_insert(given_node[1], given_node[2] + 1)
-    neighbor_insert(given_node[1], given_node[2] - 1)
     neighbor_insert(given_node[1] + 1, given_node[2])
     neighbor_insert(given_node[1] - 1, given_node[2])
+    neighbor_insert(given_node[1], given_node[2] + 1)
+    neighbor_insert(given_node[1], given_node[2] - 1)
 
     return neighbors
 end
 
 lmd.pf.find_path = function(dest_x, dest_y)
-    stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack
+    local stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack using current player position
     -- local example_node = { x, y, { -- previous nodes -- }, heuristic_cost }
 
     -- the x, y or node 1 would be visited_nodes_x[1], visited_nodes_y[1]
     -- a node is visited when it has been added to queue
-    visited_nodes_x = {} -- tracks the visited x-coordinates
-    visited_nodes_y = {} -- tracks the visited y-coordinates
+    local visited_nodes_x = {} -- tracks the visited x-coordinates
+    local visited_nodes_y = {} -- tracks the visited y-coordinates
 
     -- Create a loop that goes through stack. Each iteration, look at the top node, 
     -- rank its available options using a cost function, then add those to the stack best nodes on top.
@@ -256,7 +268,7 @@ lmd.pf.find_path = function(dest_x, dest_y)
     while #stack > 0 do
 
         -- get top element of stack
-        current_node = stack[#stack]
+        local current_node = stack[#stack]
 
         if (current_node[4] < 0.01) then
             for i = #current_node[3], 1, -1 do
@@ -266,7 +278,7 @@ lmd.pf.find_path = function(dest_x, dest_y)
         end
 
         -- find neighbors of element
-        current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
+        local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
 
         -- remove top element of stack
         table.remove(stack)
@@ -343,11 +355,11 @@ lmd.pf.load_map = function()
     lmd.map_id = mem.get_map()
 
     -- first check to see if the map is already stored somewhere
-    saved_map = io.open(string.format("./map_cache/%d.lua", (lmd.map_id)), "r")
+    saved_map = io.open(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)), "r")
     if saved_map ~= nil then
         saved_map:close()
 
-        import_data = table.load(string.format("./map_cache/%d.lua", (lmd.map_id)))
+        import_data = table.load(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)))
 
         lmd.local_map = import_data.map
         lmd.map_x_start = import_data.map_x_start
@@ -359,6 +371,7 @@ lmd.pf.load_map = function()
 
         print("imported map data: ", import_data)
     else
+        print("calling reset_map from load_map")
         lmd.reset_map()
     end
 end
@@ -483,11 +496,11 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 end
 
                 if has_found_blank_tile < 1 then
-                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] + 1, current_node[2])
-                end
-
-                if has_found_blank_tile < 1 then
                     has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] - 1, current_node[2])
+                end
+                
+                if has_found_blank_tile < 1 then
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] + 1, current_node[2])
                 end
 
                 if has_found_blank_tile > 0 then
@@ -524,7 +537,7 @@ lmd.set_global_map_data = function(data)
 end
 
 function lmd.reset_map()
-    print("reset map")
+    print("inside reset map")
 
     lmd.local_map = {{1}}
     lmd.map_x_start = 1
@@ -641,8 +654,10 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
 
         if lmd.map_id == nil then
             lmd.reset_map()
+            print("reset map called from update_map")
         end
         lmd.map_id = mem.get_map()
+        -- lmd.pf.load_map()
 
     elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
 
