@@ -10,6 +10,7 @@
 #include <pthread.h>
 #include <Windows.h>
 #include <unistd.h>
+#include <time.h>
 
 #define LAYERS 7
 
@@ -805,7 +806,6 @@ int checkWin(int (*inputs)[L1]){
             return 0;
         }
     }
-    printf("win\n");
     return 1;
 }
 
@@ -815,7 +815,6 @@ int checkLoss(int (*inputs)[L1]){
             return 0;
         }
     }
-    printf("lose\n");
     return 1;
 }
 
@@ -1476,6 +1475,7 @@ void *evaluate_move(void *rawArgs ){
 
     struct PartialMove p1moves[10];
     
+    
     for (int j = 0; j < 10; j++){
         double acculative_estimate = 0.0;
         int possibilities = 0;
@@ -1501,6 +1501,7 @@ void *evaluate_move(void *rawArgs ){
 
         p1moves[j].move = j;
     }
+
     mergeSort_PartialMove(p1moves, 0, 9);
 
     if (args->depth == START_DEPTH){
@@ -1510,7 +1511,7 @@ void *evaluate_move(void *rawArgs ){
         printArr_PartialMove(args->L, p1moves, 10);
     }
 
-    if (args->depth == 1){
+    if (args->depth == 1 || p1moves[9].estimate == 1 || p1moves[9].estimate == 0){
         strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[9].move*25 + 0) ).name);
         pthread_mutex_lock(&lock);
         *(args->outputPtr) = p1moves[9];
@@ -1573,8 +1574,15 @@ void *evaluate_move(void *rawArgs ){
                 (newEstimates+i*TRIM_P2+j)->estimate = -2;
                 // printf("set estimate at %p to -2\n", (void *)(newEstimates+i*TRIM_P2+j));
 
+
                 struct EvaluateArgs* newArgs = (struct EvaluateArgs*)(allNewArgs + TRIM_P2*i + j);
-                if (moves_filteredP1[i][j].moves[0] == -1){
+                if (moves_filteredP1[i][j].estimate == 1){
+                    // strcpy( (my_states + moves_filteredP1[i][j].moves[1]*10*25 + moves_filteredP1[i][j].moves[0]*25)->name, (newEstimates+i*TRIM_P2+j)->name );
+                    (newEstimates+i*TRIM_P2+j)->estimate = 1;
+                } else if (moves_filteredP1[i][j].estimate == 0){
+                    // strcpy( (my_states + moves_filteredP1[i][j].moves[1]*10*25 + moves_filteredP1[i][j].moves[0]*25)->name, (newEstimates+i*TRIM_P2+j)->name );
+                    (newEstimates+i*TRIM_P2+j)->estimate = 0;
+                } else if (moves_filteredP1[i][j].moves[0] == -1){
                     (newEstimates+i*TRIM_P2+j)->estimate = -1;
                     (newEstimates+i*TRIM_P2+j)->move = moves_filteredP1[i][j].moves[0];
                 } else if (moves_filteredP1[i][j].isMultiEvent == 0){
@@ -1631,12 +1639,14 @@ void *evaluate_move(void *rawArgs ){
             int count = 0;
             for (int j = 0; j < TRIM_P2; j++){
                 if (isMultithreaded){
-                    pthread_mutex_lock(&lock);
-                    printLua_string(args->L, "", "");
-                    printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
-                    printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
-                    printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
-                    pthread_mutex_unlock(&lock);
+                    if (moves_filteredP1[i][j].moves[0] != -1 && moves_filteredP1[i][j].moves[1] != -1){
+                        pthread_mutex_lock(&lock);
+                        printLua_string(args->L, "", "");
+                        printLua_double(args->L, "Changing move p1: ", moves_filteredP1[i][j].moves[0]);
+                        printLua_double(args->L, "Changing move p2: ", moves_filteredP1[i][j].moves[1]);
+                        printLua_double(args->L, "From: ", moves_filteredP1[i][j].estimate);
+                        pthread_mutex_unlock(&lock);
+                    }
                 } 
 
                 int k = 0;
@@ -1652,9 +1662,11 @@ void *evaluate_move(void *rawArgs ){
                     k++;
                 }
                 if (isMultithreaded){
-                    pthread_mutex_lock(&lock);
-                    printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2+j)->estimate);
-                    pthread_mutex_unlock(&lock);
+                    if (moves_filteredP1[i][j].moves[0] != -1 && moves_filteredP1[i][j].moves[1] != -1){
+                        pthread_mutex_lock(&lock);
+                        printLua_double(args->L, "To: ", (newEstimates+i*TRIM_P2+j)->estimate);
+                        pthread_mutex_unlock(&lock);
+                    }
                 }
                 if ((newEstimates+i*TRIM_P2+j)->estimate != -1){
                     count++;
@@ -1665,10 +1677,12 @@ void *evaluate_move(void *rawArgs ){
             double thisMoveEstimate = moveAverageP1/(double)count;
 
             if (isMultithreaded) {
-                pthread_mutex_lock(&lock);
-                printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
-                printLua_double(args->L, "Estimate: ", thisMoveEstimate);
-                pthread_mutex_unlock(&lock);
+                if (moves_filteredP1[i][0].moves[0] != -1){
+                    pthread_mutex_lock(&lock);
+                    printLua_double(args->L, "Move: ", moves_filteredP1[i][0].moves[0]);
+                    printLua_double(args->L, "Estimate: ", thisMoveEstimate);
+                    pthread_mutex_unlock(&lock);
+                }
             }
             
             if (thisMoveEstimate > bestMove.estimate){
@@ -2599,7 +2613,11 @@ void run_evaluation_catch(lua_State *L){
 // takes arguments [exec_showdown_state, state]
 int get_move(lua_State *L){
     
+    clock_t before = clock();
     run_evaluation(L);
+    clock_t elapsed = clock() - before;
+    int msec = elapsed * 1000 / CLOCKS_PER_SEC;
+    printf("Time taken: %d seconds, %d milliseconds\n", msec/1000, msec%1000);
     // lua_settop(L, 0);
     // lua_pushnumber(L, res);
 

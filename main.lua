@@ -119,6 +119,7 @@ while true do
             }, 5}}, 25)
             -- action = battleState:get_switch()
         elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
+            print('forced switch')
             is_forced_switch = true
             action = battleState:get_switch()
             if action == 0 then
@@ -426,6 +427,12 @@ while true do
             end
 
 
+            if(action == nil) then
+                output_manager.current_sequence_index = 1
+                output_manager.press({
+                    {{A = true}, 5}
+                }, 25)
+            end
             last_battle_action = action
 
             if action == 0 then
@@ -605,6 +612,7 @@ while true do
             end
         else
             battleState.game_reader:get_line()
+            
         end
 
         -- button_masher.mash({A = true})
@@ -617,8 +625,10 @@ while true do
         }, 5}}, 5)
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
-        if (battle_weights.condition > 0.3) then
+        if (goals.current_goal > 3 and battle_weights.condition > 0.3) then
             mode = 2
+        else
+            mode = 1
         end
     elseif (mode == 2) then
         print("find nearing pokemon center")
@@ -677,17 +687,9 @@ while true do
 
             elseif objective[1] == 2 then
                 print({objective[2][1]}, 100)
-                -- output_manager.press({
-                --     {{}, initDelay},
-                --     {{up = true}, 5}, 
-                --     {{A = true}, 5}, 
-                --     {{up = true}, 5}, 
-                --     {{left = true}, 5},
-                --     {{A = true}, 5}
-                -- }, 25)
                 if (output_manager.press({objective[2]}, 100)) then
                     goals.objective_complete()
-                    button_masher.reset()
+                    output_manager.reset()
                 end
             end
         end

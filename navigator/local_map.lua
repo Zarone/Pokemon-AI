@@ -67,6 +67,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
     same_pos = lmd.pf.last_x == lmd.x and lmd.pf.last_y == lmd.y
 
+    -- repeat the input so the player moves
     if same_pos then
         joypad.set(0, dir)
     end
