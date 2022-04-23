@@ -77,6 +77,9 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         -- if the character has moved 
         if not same_pos then
             -- if the map hasn't changed
+            
+            lmd.wander_to = nil
+
             if (lmd.map_id == lmd.pf.last_map) then
                 -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
                 lmd.pf.ismoving = false
@@ -88,6 +91,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 print("try_move: has warped")
 
                 if lmd.map_id ~= nil then
+
 
                     -- set the last location to a warp
 
@@ -116,6 +120,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                         gmd.map[lmd.pf.last_map] = {}
                     end
 
+
                     table.insert(gmd.map[lmd.pf.last_map], {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir,
                     lmd.pf.last_y + lmd.pf.move_y_dir, lmd.x, lmd.y})
 
@@ -134,8 +139,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                     }
                     table.save(export_data, string.format("./navigator/map_cache/%d.lua", (lmd.pf.last_map)))
-                    print("saved map data to: ", lmd.pf.last_map)
-                    print("saved map data was: ", export_data)
+                    -- print("saved map data to: ", lmd.pf.last_map)
+                    -- print("saved map data was: ", export_data)
 
                     lmd.pf.load_map()
 
@@ -188,19 +193,6 @@ lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
     return math.sqrt((node_x - dest_x) ^ 2 + (node_y - dest_y) ^ 2)
 end
 
-lmd.pf.clear_neighbors = function()
-    neighbor_clear = function(clear_x, clear_y)
-        if lmd.local_map[clear_y] ~= nil and lmd.local_map[clear_y][clear_x] == 2 then
-            lmd.local_map[clear_y][clear_x] = nil
-        end
-    end
-
-    neighbor_clear(lmd.x, lmd.y + 1)
-    neighbor_clear(lmd.x, lmd.y - 1)
-    neighbor_clear(lmd.x + 1, lmd.y)
-    neighbor_clear(lmd.x - 1, lmd.y)
-end
-
 lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
     local neighbors = {}
 
@@ -224,7 +216,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                     if #given_node[3] == 0 then
                         new_node_path = {{insert_x, insert_y}}
                     else
-                        print(given_node[3])
+                        -- print("given_node[3]:", given_node[3])
                         new_node_path = {unpack(given_node[3])}
                         table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
                     end
@@ -254,6 +246,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 end
 
 lmd.pf.find_path = function(dest_x, dest_y)
+    -- print("find path, destination: ", dest_x, dest_y)
     local stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack using current player position
     -- local example_node = { x, y, { -- previous nodes -- }, heuristic_cost }
 
@@ -274,12 +267,15 @@ lmd.pf.find_path = function(dest_x, dest_y)
             for i = #current_node[3], 1, -1 do
                 table.insert(lmd.pf.path, (current_node[3][i]))
             end
+            -- print("found path: ", lmd.pf.path)
             break
         end
 
         -- find neighbors of element
         local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
 
+        -- print("remove from stack: ", stack[#stack])
+        
         -- remove top element of stack
         table.remove(stack)
 
@@ -299,6 +295,7 @@ lmd.pf.find_path = function(dest_x, dest_y)
                 table.insert(stack, #stack + 1, node)
                 table.insert(visited_nodes_x, #visited_nodes_x + 1, node[1])
                 table.insert(visited_nodes_y, #visited_nodes_y + 1, node[2])
+                -- print("add to stack: ", node)
             end
         end
 
@@ -436,7 +433,7 @@ end
 lmd.wander_to = nil
 
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
-    -- print "wander: new call"
+    print "wander: new call"
     if lmd.wander_to == nil then
         if gmd.fully_explored[lmd.map_id] == true then
             print("implement navigation to new map")
@@ -537,9 +534,9 @@ lmd.set_global_map_data = function(data)
 end
 
 function lmd.reset_map()
-    print("inside reset map")
+    -- print("inside reset map")
 
-    lmd.local_map = {{1}}
+    lmd.local_map = {{nil}}
     lmd.map_x_start = 1
     lmd.map_x_end = 1
     lmd.map_y_start = 1
@@ -577,7 +574,6 @@ function lmd.debug_map_view()
 
             if lmd.local_map == nil or lmd.local_map[i] == nil then
                 print("debug_map: error in map, here's the map and the search coordinates: ", lmd.local_map, i, j)
-                print("reloading map")
                 lmd.pf.load_map()
                 return
             end
@@ -660,6 +656,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         -- lmd.pf.load_map()
 
     elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
+        -- print("before map change: ", lmd.local_map)
 
         lmd.x, lmd.y = mem.get_pos()
 
@@ -687,6 +684,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
             end
             if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
                 lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+                print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
             end
         end
 
@@ -698,8 +696,12 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
             end
             if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
                 lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+                print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
             end
         end
+
+        -- print("after map change: ", lmd.local_map)
+
     end
 
     if debug_map then

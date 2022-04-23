@@ -635,6 +635,7 @@ while true do
     elseif (mode == 1) then
         -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()
+        print(objective)
 
         if objective ~= -1 then -- if we aren't out of goals to complete
             if objective[1] == 0 or objective[1] == 1 then -- if the goal is to move to coordinates
