@@ -36,11 +36,11 @@ lmd.pf = { -- pathfinder
     frame_per_move = 50,
     is_warping = false,
     warp_frame_counter = 0,
-    warp_frames_per_warp = 100
+    warp_frames_per_warp = 140
 }
 
 lmd.pf.try_move_start = function(dir_x, dir_y)
-    -- print("try_move_start: ", lmd.map_id)
+    print("try_move_start: ", lmd.map_id, dir_x, dir_y)
 
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
@@ -52,6 +52,8 @@ lmd.pf.try_move_start = function(dir_x, dir_y)
 end
 
 lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or (1, 0)
+    -- local before = os.clock()
+    -- print("elapsed", os.clock()-before)
 
     local dir = {}
 
@@ -72,7 +74,11 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         joypad.set(0, dir)
     end
 
+    print(lmd.pf.frame_counter)
+
     if lmd.pf.frame_counter > lmd.pf.frame_per_move then
+
+        print("end move, landed", mem.get_map(), lmd.x, lmd.y)
 
         -- if the character has moved 
         if not same_pos then
@@ -81,6 +87,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
             -- if (lmd.map_id == lmd.pf.last_map) then
             if (lmd.map_id == mem.get_map()) then
                 -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
+                print("same map")
                 lmd.pf.ismoving = false
                 return 0 -- indicate successfuly move
             else
@@ -89,6 +96,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                 print("try_move: has warped")
                 lmd.wander_to = nil
+                lmd.gpf.current_path = nil
 
                 if lmd.map_id ~= nil then
 
@@ -154,6 +162,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 -- 1 + lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
             -- moved unsucessfully
 
+            print("failed to move from", lmd.pf.last_x, lmd.pf.last_y, "with velocity", lmd.pf.move_y_dir, lmd.pf.move_x_dir)
 
             if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
                 lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
@@ -163,7 +172,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                 -- expand the map
                 print("expand the map from try move")
-                local before = os.clock()
 
                 if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
                     lmd.map_y_start = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
@@ -182,8 +190,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 end
 
                 lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
-
-                print("elapsed", os.clock()-before)
 
                 return 2 -- indicate failed move
             else
@@ -267,11 +273,16 @@ lmd.pf.find_path = function(dest_x, dest_y)
 
     -- Create a loop that goes through stack. Each iteration, look at the top node, 
     -- rank its available options using a cost function, then add those to the stack best nodes on top.
-
+    
+    local before = os.clock()    
+    -- print("target", dest_x, dest_y)
     while #stack > 0 do
 
         -- get top element of stack
         local current_node = stack[#stack]
+        -- if (#current_node[3] < 30) then
+        --     print(current_node)
+        -- end
 
         if (current_node[4] < 0.01) then
             for i = #current_node[3], 1, -1 do
@@ -283,6 +294,7 @@ lmd.pf.find_path = function(dest_x, dest_y)
 
         -- find neighbors of element
         local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
+        -- print(current_node, current_node_neighbors)
 
         -- print("remove from stack: ", stack[#stack])
         
@@ -310,11 +322,14 @@ lmd.pf.find_path = function(dest_x, dest_y)
         end
 
     end
+    print("elapsed", os.clock()-before)
+
 end
 
 lmd.pf.follow_path = function()
     -- At any point if we’re unsure about the status (walking or blocked), 
     -- attempt to traverse it and if the tile is traversable restart algorithm.
+
     if not lmd.pf.ismoving then
         dir_x = lmd.pf.path[#lmd.pf.path][1] - (lmd.x_offset + lmd.x + 1)
         dir_y = lmd.pf.path[#lmd.pf.path][2] - (lmd.y_offset + lmd.y + 1)
@@ -385,8 +400,9 @@ lmd.pf.load_map = function()
 end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
-
+    
     if #lmd.pf.path == 0 then
+
         if lmd.pf.is_warping then
             if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
                 lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
@@ -399,6 +415,7 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
                 return 1 -- indicates player is at destination
             end
             lmd.pf.find_path(dest_x, dest_y)
+            
         end
     else
         -- lmd.pf.follow_path can return:
@@ -709,7 +726,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
 
         -- expand the map
         print("in update_map, changing start")
-        print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
+        -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
         if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
             lmd.map_y_start = lmd.y + lmd.y_offset + 1
         elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then
