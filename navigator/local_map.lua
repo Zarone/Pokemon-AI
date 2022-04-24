@@ -78,8 +78,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         if not same_pos then
             -- if the map hasn't changed
             
-            lmd.wander_to = nil
-
             if (lmd.map_id == lmd.pf.last_map) then
                 -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
                 lmd.pf.ismoving = false
@@ -351,6 +349,7 @@ end
 
 lmd.pf.load_map = function()
     lmd.map_id = mem.get_map()
+    lmd.wander_to = nil
 
     -- first check to see if the map is already stored somewhere
     saved_map = io.open(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)), "r")
@@ -441,7 +440,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
             -- print("implement navigation to new map")
             -- print("current global map: ", gmd.map)
 
-            print(gmd.map, lmd.map_id)
+            -- print(gmd.map, lmd.map_id)
             if gmd.map[lmd.map_id] ~= nil then
                 for _, warp in pairs(gmd.map[lmd.map_id]) do
                     -- print("warp", warp)
@@ -455,6 +454,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
             end
 
         else
+            print("finding wander path at time ", os.time())
             queue = {}
 
             -- gives starting node
@@ -515,6 +515,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 end
 
                 if has_found_blank_tile > 0 then
+                    print("found wander path at time ", os.time())
                     return
                 end
 

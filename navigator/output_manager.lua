@@ -59,6 +59,13 @@ output_manager.press = function(sequence, time_between_actions)
     return false
 end
 
+output_manager.pressA = function()
+    output_manager.current_sequence_index = 1
+    output_manager.press({
+        {{A = true}, 5}
+    }, 25)
+end
+
 done = false
 
 return output_manager
