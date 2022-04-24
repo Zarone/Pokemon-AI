@@ -89,6 +89,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 lmd.pf.ismoving = false
 
                 print("try_move: has warped")
+                lmd.wander_to = nil
 
                 if lmd.map_id ~= nil then
 
@@ -433,14 +434,27 @@ end
 lmd.wander_to = nil
 
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
-    print "wander: new call"
+    -- print("wander to: ", lmd.wander_to)
     if lmd.wander_to == nil then
+        -- print("wander_to == nil")
         if gmd.fully_explored[lmd.map_id] == true then
-            print("implement navigation to new map")
-        else
-            -- if the row doesn't exist
-            -- or if the row exists, and the element does not equal an unmovable space
+            -- print("implement navigation to new map")
+            -- print("current global map: ", gmd.map)
 
+            print(gmd.map, lmd.map_id)
+            if gmd.map[lmd.map_id] ~= nil then
+                for _, warp in pairs(gmd.map[lmd.map_id]) do
+                    -- print("warp", warp)
+                    if not (gmd.fully_explored[warp[1]]) then
+                        lmd.pf.abs_manage_path_to(warp[2], warp[3])
+                        return
+                    end
+                end
+            else
+                print("current map not found in global")
+            end
+
+        else
             queue = {}
 
             -- gives starting node
@@ -511,8 +525,16 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
 
                 table.remove(queue, 1)
             end
+
+            if lmd.wander_to == nil then
+                gmd.fully_explored[lmd.map_id] = true
+                print("gmd.fully_explored[lmd.map_id] = true")
+            else
+                print("wander to ", lmd.wander_to)
+            end
         end
     else
+        -- print("wander_to != nil")
         manage_path_res = lmd.pf.manage_path_to(unpack(lmd.wander_to))
 
         -- print("wander: manage_path_res: ", manage_path_res)
@@ -649,7 +671,8 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         -- end
 
         if lmd.map_id == nil then
-            lmd.reset_map()
+            -- lmd.reset_map()
+            lmd.pf.load_map()
             print("reset map called from update_map")
         end
         lmd.map_id = mem.get_map()
@@ -684,7 +707,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
             end
             if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
                 lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
-                print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
+                -- print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
             end
         end
 
@@ -696,7 +719,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
             end
             if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
                 lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
-                print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
+                -- print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
             end
         end
 
@@ -712,7 +735,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         gui.text(31, 30, lmd.y + lmd.y_offset + 1)
         gui.text(1, 50, lmd.x)
         gui.text(31, 50, lmd.y)
-        gui.text(1, 70, string.format("Map Id: %s", lmd.map_id))
+        gui.text(1, 70, string.format("Map ID: %s", lmd.map_id))
     end
 end
 
