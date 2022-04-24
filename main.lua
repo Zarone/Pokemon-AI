@@ -22,23 +22,23 @@ local mode = 1
 local battleState = nil
 local was_in_battle = false
 
--- function exit()
---     print("saving data")
---     -- saves global map data
---     table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal }, "./map_cache/global_map_cache.lua")
--- end
+function exit()
+    print("saving data")
+    -- saves global map data
+    table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal }, "./navigator/map_cache/global_map_cache.lua")
+end
 
--- -- runs exit function on close
--- emu.registerexit(exit)
+-- runs exit function on close
+emu.registerexit(exit)
 
--- loaded_saved_data = table.load("./map_cache/global_map_cache.lua")
--- if loaded_saved_data ~= nil then
---     goals.current_goal = loaded_saved_data.current_goal
---     print("current_goal: ", goals.current_goal)    
+loaded_saved_data = table.load("./navigator/map_cache/global_map_cache.lua")
+if loaded_saved_data ~= nil then
+    goals.current_goal = loaded_saved_data.current_goal
+    print("current_goal: ", goals.current_goal)    
 
---     md.set_global_map_data(loaded_saved_data.global_map_data)
---     loaded_saved_data = nil
--- end
+    md.set_global_map_data(loaded_saved_data.global_map_data)
+    loaded_saved_data = nil
+end
 
 
 
@@ -674,9 +674,15 @@ while true do
                 to_map, to_x, to_y = unpack(objective[2])
                 
                 if md.gpf.current_path == nil then
+                    local before_find_g_path = os.clock()
                     if not md.gpf.find_global_path(to_map, to_x, to_y) then
+                        -- print("after find g path", os.clock()-before_find_g_path)
                         -- print("not enough information to traverse global map: wander")
+                        local before_wander = os.clock()
                         md.wander()
+                        if (os.clock() - before_wander > 0.001) then
+                            -- print("wander ran in", os.clock() - before_wander)
+                        end
                         -- print(md.local_map)
                     else
                         -- print("enough information to traverse global map")

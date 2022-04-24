@@ -40,8 +40,6 @@ lmd.pf = { -- pathfinder
 }
 
 lmd.pf.try_move_start = function(dir_x, dir_y)
-    print("try_move_start: ", lmd.map_id, dir_x, dir_y)
-
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
     lmd.pf.last_map = lmd.map_id
@@ -74,11 +72,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         joypad.set(0, dir)
     end
 
-    print(lmd.pf.frame_counter)
-
     if lmd.pf.frame_counter > lmd.pf.frame_per_move then
 
-        print("end move, landed", mem.get_map(), lmd.x, lmd.y)
 
         -- if the character has moved 
         if not same_pos then
@@ -86,8 +81,6 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
             
             -- if (lmd.map_id == lmd.pf.last_map) then
             if (lmd.map_id == mem.get_map()) then
-                -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
-                print("same map")
                 lmd.pf.ismoving = false
                 return 0 -- indicate successfuly move
             else
@@ -104,7 +97,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                     -- set the last location to a warp
 
                     -- expand the map
-                    print("expand map in try move after warp")
+                    print("expand map in try move after warp, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
                     if (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 < lmd.map_y_start) then
                         lmd.map_y_start = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
                     elseif (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 > lmd.map_y_end) then
@@ -116,6 +109,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                     elseif (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
                         lmd.map_x_end = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
                     end
+                    print("try_move1", lmd.map_y_start, lmd.map_y_end)
 
                     -- if the new row is nil
                     if lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] == nil then
@@ -184,6 +178,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 elseif (lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
                     lmd.map_x_end = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
                 end
+                print("trymove_2", lmd.map_y_start, lmd.map_y_end)
 
                 if (lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] == nil) then -- if the new row is nil
                     lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
@@ -322,7 +317,7 @@ lmd.pf.find_path = function(dest_x, dest_y)
         end
 
     end
-    print("elapsed", os.clock()-before)
+    print("loop in find path took", os.clock()-before)
 
 end
 
@@ -482,7 +477,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
             end
 
         else
-            print("finding wander path at time ", os.time())
+            local wander_time_start = os.clock()
             queue = {}
 
             -- gives starting node
@@ -531,11 +526,11 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 end
 
                 if has_found_blank_tile < 1 then
-                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] - 1)
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] - 1, current_node[2])
                 end
 
                 if has_found_blank_tile < 1 then
-                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1] - 1, current_node[2])
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] - 1)
                 end
                 
                 if has_found_blank_tile < 1 then
@@ -543,7 +538,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 end
 
                 if has_found_blank_tile > 0 then
-                    print("found wander path at time ", os.time())
+                    -- print("found wander path at time ", os.clock() - wander_time_start)
                     return
                 end
 
@@ -725,7 +720,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         -- end
 
         -- expand the map
-        print("in update_map, changing start")
+        -- print("in update_map, changing start")
         -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
         if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
             lmd.map_y_start = lmd.y + lmd.y_offset + 1
@@ -738,6 +733,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         elseif (lmd.x + lmd.x_offset + 1 > lmd.map_x_end) then
             lmd.map_x_end = lmd.x + lmd.x_offset + 1
         end
+        print("update_map", lmd.map_y_start, lmd.map_y_end)
 
         if (lmd.y ~= old_y) then -- if the y changed
             if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then -- if the new row is nil
