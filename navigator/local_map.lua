@@ -78,7 +78,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         if not same_pos then
             -- if the map hasn't changed
             
-            if (lmd.map_id == lmd.pf.last_map) then
+            -- if (lmd.map_id == lmd.pf.last_map) then
+            if (lmd.map_id == mem.get_map()) then
                 -- print("move sucessful:", lmd.x + lmd.x_offset + 1, 1 + lmd.y + lmd.y_offset)
                 lmd.pf.ismoving = false
                 return 0 -- indicate successfuly move
@@ -91,10 +92,11 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
 
                 if lmd.map_id ~= nil then
 
-
+                    lmd.map_id = mem.get_map()
                     -- set the last location to a warp
 
                     -- expand the map
+                    print("expand map in try move after warp")
                     if (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 < lmd.map_y_start) then
                         lmd.map_y_start = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
                     elseif (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 > lmd.map_y_end) then
@@ -152,6 +154,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 -- 1 + lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
             -- moved unsucessfully
 
+
             if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
                 lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
 
@@ -159,6 +162,9 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 --     lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
 
                 -- expand the map
+                print("expand the map from try move")
+                local before = os.clock()
+
                 if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
                     lmd.map_y_start = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
                 elseif (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir > lmd.map_y_end) then
@@ -176,10 +182,15 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 end
 
                 lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
+
+                print("elapsed", os.clock()-before)
+
                 return 2 -- indicate failed move
             else
                 return 3 -- indicate npc interference
             end
+
+
         end
 
     end
@@ -499,11 +510,11 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 has_found_blank_tile = 0
 
                 if has_found_blank_tile < 1 then
-                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] - 1)
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] + 1)
                 end
 
                 if has_found_blank_tile < 1 then
-                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] + 1)
+                    has_found_blank_tile = has_found_blank_tile + insert_node(current_node[1], current_node[2] - 1)
                 end
 
                 if has_found_blank_tile < 1 then
@@ -592,13 +603,17 @@ function lmd.debug_map_view()
     if lmd.pf.is_warping then
         return
     end
+    -- print(lmd.map_y_start, lmd.map_y_end, lmd.map_x_start, lmd.map_x_end)
     for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows 
         for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
 
-            if lmd.local_map == nil or lmd.local_map[i] == nil then
+            if lmd.local_map == nil then
                 print("debug_map: error in map, here's the map and the search coordinates: ", lmd.local_map, i, j)
                 lmd.pf.load_map()
                 return
+            end
+            if lmd.local_map[i] == nil then
+                lmd.local_map[i] = {}
             end
             node_type = lmd.local_map[i][j]
             color = {}
@@ -659,13 +674,14 @@ end
 
 function lmd.update_map(debug_map) -- boolean debug_map decides whether or not to render map
 
+
     old_x = lmd.x
     old_y = lmd.y
 
     lmd.x, lmd.y = mem.get_pos()
     if lmd.map_id ~= mem.get_map() then -- if the map has changed
 
-        print("update map: map is wrong")
+        -- print("update map: map is wrong")
 
         -- if lmd.map_id == nil or not lmd.is_moving then
         --     lmd.reset_map()
@@ -674,13 +690,15 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         if lmd.map_id == nil then
             -- lmd.reset_map()
             lmd.pf.load_map()
-            print("reset map called from update_map")
+            print("load_map called from update_map")
+        -- else
+            -- lmd.map_id = mem.get_map()
         end
-        lmd.map_id = mem.get_map()
-        -- lmd.pf.load_map()
 
     elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
         -- print("before map change: ", lmd.local_map)
+
+
 
         lmd.x, lmd.y = mem.get_pos()
 
@@ -690,6 +708,8 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         -- end
 
         -- expand the map
+        print("in update_map, changing start")
+        print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
         if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
             lmd.map_y_start = lmd.y + lmd.y_offset + 1
         elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then

@@ -60,23 +60,33 @@ local enemy_pokemon1_types
 local catch_threshold = -0.01
 local enemy_pokemon1_types = {}
 
+-- require "socket"
+-- print("Milliseconds: " .. socket.gettime()*1000)
+
 while true do
     if not is_in_battle then md.update_map(true) end
     controls = joypad.get(1)
     is_text_onscreen = mem.is_dialogue_onscreen()
+    -- print("after init 2", os.clock() - before)
     is_in_battle = mem.is_in_battle()
     can_move = mem.can_move()
-
-
+    
+    -- print("after init 3", os.clock() - before)
+        
     r1, g1, b1 = gui.getpixel(235, 172)
+    -- print("after init 4", os.clock() - before)
+    
+    -- print("past init vars", os.time())
 
     -- okay so this section is to make sure that the
     -- battle doesn't quit out if "is_in_battle" returns
     -- false for a single frame
     
     if mem.asking_nickname() then
+        print("loop A")
         output_manager.pressB()
     elseif was_in_battle and not is_in_battle then
+        print("loopB")
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
             print("battle ended")
@@ -87,6 +97,7 @@ while true do
             -- md.pf.clear_neighbors()
         end
     elseif is_in_battle then
+        print("loopC")
         if not was_in_battle then
             battleState = BattleManager.new()
             battle_clock = 0
@@ -628,11 +639,10 @@ while true do
         -- button_masher.mash({A = true})
         -- output_manager.press( {{{A = true}, 5}}, 5 )
     elseif ((not was_in_battle) and is_text_onscreen) then
+        -- print("loopD")
         -- print("there's on screen dialogue, time to button mash")
         -- button_masher.mash({A = true})
-        output_manager.press({{{
-            A = true
-        }, 5}}, 5)
+        output_manager.pressA()
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
         if (goals.current_goal > 3 and battle_weights.condition > 0.3) then
@@ -681,8 +691,8 @@ while true do
                         md.wander()
                         -- print(md.local_map)
                     else
-                        output_manager.reset()
                         -- print("enough information to traverse global map")
+                        output_manager.reset()
                     end
                 else
                     -- check the result of our path manager
