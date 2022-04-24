@@ -74,8 +74,9 @@ while true do
     -- battle doesn't quit out if "is_in_battle" returns
     -- false for a single frame
     
-    
-    if was_in_battle and not is_in_battle then
+    if mem.asking_nickname() then
+        output_manager.pressB()
+    elseif was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
             print("battle ended")
@@ -396,6 +397,7 @@ while true do
                     -- to.
                     output_manager.press({
                         {{}, initDelay},
+                        {{left = true}, 5}, 
                         {{down = true}, 5}, 
                         {{A = true}, 5}, 
                         {{}, 5},

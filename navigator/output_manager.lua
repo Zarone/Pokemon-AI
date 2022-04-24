@@ -66,6 +66,13 @@ output_manager.pressA = function()
     }, 25)
 end
 
+output_manager.pressB = function()
+    output_manager.current_sequence_index = 1
+    output_manager.press({
+        {{B = true}, 5}
+    }, 25)
+end
+
 done = false
 
 return output_manager

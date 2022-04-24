@@ -92,4 +92,21 @@ function mem.has_ball()
     return false
 end
 
+function mem.asking_nickname()
+    str = {}
+    startChar = 0x22833F0
+
+    -- gets ten characters
+    endChar = startChar + 2 * 10 - 1
+    for i = startChar, endChar, 2 do
+        byteVal = memory.readbyte(i)
+        if byteVal == 254 then
+            table.insert(str, " ")
+        else
+            table.insert(str, string.char(memory.readbyte(i)))
+        end
+    end
+    return table.concat(str, "") == "Give a nic"
+end
+
 return mem

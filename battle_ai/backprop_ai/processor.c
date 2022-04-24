@@ -1819,7 +1819,7 @@ double catchRate(int (*inputs)[L1]){
 
     // printf("statusMult %f\n", statusMult);
 
-    return (3-2*hpPercent)*statusMult/255.0f;
+    return (3.0f-2.0f*hpPercent)*statusMult/255.0f;
 }
 
 // args->my_state is intented as a pointer to to State array of length 25
