@@ -82,6 +82,50 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
             -- if (lmd.map_id == lmd.pf.last_map) then
             if (lmd.map_id == mem.get_map()) then
                 lmd.pf.ismoving = false
+
+                -- set the last location to movable space
+                -- if old_x ~= nil then
+                --     lmd.local_map[old_y + lmd.y_offset + 1][old_x + lmd.x_offset + 1] = 1
+                -- end
+        
+                -- expand the map
+                -- print("in update_map, changing start")
+                -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
+                if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
+                    lmd.map_y_start = lmd.y + lmd.y_offset + 1
+                elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then
+                    lmd.map_y_end = lmd.y + lmd.y_offset + 1
+                end
+        
+                if (lmd.x + lmd.x_offset + 1 < lmd.map_x_start) then
+                    lmd.map_x_start = lmd.x + lmd.x_offset + 1
+                elseif (lmd.x + lmd.x_offset + 1 > lmd.map_x_end) then
+                    lmd.map_x_end = lmd.x + lmd.x_offset + 1
+                end
+                -- print("update_map", lmd.map_y_start, lmd.map_y_end)
+        
+                if (lmd.y ~= lmd.pf.last_y) then -- if the y changed
+                    if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then -- if the new row is nil
+                        lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
+                    end
+                    if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
+                        lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+                        -- print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
+                    end
+                end
+        
+                if (lmd.x ~= lmd.pf.last_x) then -- if the x changed
+                    if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then
+                        print("error in update map, so reloading map")
+                        lmd.pf.load_map()
+                        return
+                    end
+                    if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
+                        lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+                        -- print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
+                    end
+                end
+
                 return 0 -- indicate successfuly move
             else
 
@@ -687,8 +731,8 @@ end
 function lmd.update_map(debug_map) -- boolean debug_map decides whether or not to render map
 
 
-    old_x = lmd.x
-    old_y = lmd.y
+    -- old_x = lmd.x
+    -- old_y = lmd.y
 
     lmd.x, lmd.y = mem.get_pos()
     if lmd.map_id ~= mem.get_map() then -- if the map has changed
@@ -707,55 +751,12 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
             -- lmd.map_id = mem.get_map()
         end
 
-    elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
+    -- elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
         -- print("before map change: ", lmd.local_map)
 
 
 
-        lmd.x, lmd.y = mem.get_pos()
-
-        -- set the last location to movable space
-        -- if old_x ~= nil then
-        --     lmd.local_map[old_y + lmd.y_offset + 1][old_x + lmd.x_offset + 1] = 1
-        -- end
-
-        -- expand the map
-        -- print("in update_map, changing start")
-        -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
-        if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
-            lmd.map_y_start = lmd.y + lmd.y_offset + 1
-        elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then
-            lmd.map_y_end = lmd.y + lmd.y_offset + 1
-        end
-
-        if (lmd.x + lmd.x_offset + 1 < lmd.map_x_start) then
-            lmd.map_x_start = lmd.x + lmd.x_offset + 1
-        elseif (lmd.x + lmd.x_offset + 1 > lmd.map_x_end) then
-            lmd.map_x_end = lmd.x + lmd.x_offset + 1
-        end
-        print("update_map", lmd.map_y_start, lmd.map_y_end)
-
-        if (lmd.y ~= old_y) then -- if the y changed
-            if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then -- if the new row is nil
-                lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
-            end
-            if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
-                lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
-                -- print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
-            end
-        end
-
-        if (lmd.x ~= old_x) then -- if the x changed
-            if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then
-                print("error in update map, so reloading map")
-                lmd.pf.load_map()
-                return
-            end
-            if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
-                lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
-                -- print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
-            end
-        end
+        
 
         -- print("after map change: ", lmd.local_map)
 
