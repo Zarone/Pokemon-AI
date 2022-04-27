@@ -42,7 +42,7 @@ lmd.pf = { -- pathfinder
 lmd.pf.try_move_start = function(dir_x, dir_y)
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
-    lmd.pf.last_map = lmd.map_id
+    lmd.pf.last_map = mem.get_map()
     lmd.pf.ismoving = true
     lmd.pf.move_x_dir = dir_x
     lmd.pf.move_y_dir = dir_y
@@ -72,6 +72,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         joypad.set(0, dir)
     end
 
+    if lmd.pf.frame_counter % 3 == 0 then print(lmd.pf.frame_counter) end
+
     if lmd.pf.frame_counter > lmd.pf.frame_per_move then
 
 
@@ -89,7 +91,8 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 -- end
         
                 -- expand the map
-                -- print("in update_map, changing start")
+                print("expand map, not same pos, same map, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
+
                 -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
                 if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
                     lmd.map_y_start = lmd.y + lmd.y_offset + 1
@@ -102,7 +105,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 elseif (lmd.x + lmd.x_offset + 1 > lmd.map_x_end) then
                     lmd.map_x_end = lmd.x + lmd.x_offset + 1
                 end
-                -- print("update_map", lmd.map_y_start, lmd.map_y_end)
+                print(lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
         
                 if (lmd.y ~= lmd.pf.last_y) then -- if the y changed
                     if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then -- if the new row is nil
@@ -153,7 +156,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                     elseif (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
                         lmd.map_x_end = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
                     end
-                    print("try_move1", lmd.map_y_start, lmd.map_y_end)
+                    print(lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
 
                     -- if the new row is nil
                     if lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] == nil then
@@ -209,7 +212,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 --     lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
 
                 -- expand the map
-                print("expand the map from try move")
+                print("expand map in try move, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
 
                 if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
                     lmd.map_y_start = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
@@ -222,7 +225,7 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
                 elseif (lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
                     lmd.map_x_end = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
                 end
-                print("trymove_2", lmd.map_y_start, lmd.map_y_end)
+                print(lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
 
                 if (lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] == nil) then -- if the new row is nil
                     lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
@@ -370,8 +373,11 @@ lmd.pf.follow_path = function()
     -- attempt to traverse it and if the tile is traversable restart algorithm.
 
     if not lmd.pf.ismoving then
+        
         dir_x = lmd.pf.path[#lmd.pf.path][1] - (lmd.x_offset + lmd.x + 1)
         dir_y = lmd.pf.path[#lmd.pf.path][2] - (lmd.y_offset + lmd.y + 1)
+
+        print(lmd.x_offset, lmd.x, "try_move_start with path: ", lmd.pf.path)
 
         lmd.pf.try_move_start(dir_x, dir_y)
 
@@ -441,6 +447,10 @@ end
 lmd.pf.manage_path_to = function(dest_x, dest_y)
     
     if #lmd.pf.path == 0 then
+
+        if lmd.map_id ~= mem.get_map() then
+            lmd.pf.load_map()
+        end
 
         if lmd.pf.is_warping then
             if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
@@ -631,6 +641,7 @@ function lmd.reset_map()
     lmd.map_x_end = 1
     lmd.map_y_start = 1
     lmd.map_y_end = 1
+    lmd.x, lmd.y = mem.get_pos()
     lmd.y_offset = -lmd.y
     lmd.x_offset = -lmd.x
 end

@@ -62,7 +62,7 @@ end
 output_manager.pressA = function()
     output_manager.current_sequence_index = 1
     output_manager.press({
-        {{A = true}, 5}
+        {{A = true}, 4}
     }, 25)
 end
 

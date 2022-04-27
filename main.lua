@@ -629,7 +629,6 @@ while true do
         -- output_manager.press( {{{A = true}, 5}}, 5 )
     elseif ((not was_in_battle) and is_text_onscreen) then
         -- print("there's on screen dialogue, time to button mash")
-        -- button_masher.mash({A = true})
         output_manager.pressA()
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
