@@ -27,7 +27,7 @@ end
 
 function mem.get_npc_mem()
     editat = 0x08 + 5 * 0x14 + ows
-    count = memory.readbyteunsigned(ows + 3 + mode)
+    count = memory.readbyteunsigned(ows + 3 + mode) + 1
     return editat, count
 
 end

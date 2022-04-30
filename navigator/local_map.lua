@@ -42,7 +42,9 @@ lmd.pf = { -- pathfinder
 lmd.pf.try_move_start = function(dir_x, dir_y)
     lmd.pf.last_x = lmd.x
     lmd.pf.last_y = lmd.y
-    lmd.pf.last_map = mem.get_map()
+    -- print("load map called in try_move_start")
+    lmd.pf.load_map()
+    lmd.pf.last_map = lmd.map_id
     lmd.pf.ismoving = true
     lmd.pf.move_x_dir = dir_x
     lmd.pf.move_y_dir = dir_y
@@ -72,179 +74,189 @@ lmd.pf.try_move = function() -- arguments are either (-1, 0), (0, -1), (0, 1) or
         joypad.set(0, dir)
     end
 
-    if lmd.pf.frame_counter % 3 == 0 then print(lmd.pf.frame_counter) end
+    -- if lmd.pf.frame_counter % 3 == 0 then print("frame counter", lmd.pf.frame_counter) end
 
     if lmd.pf.frame_counter > lmd.pf.frame_per_move then
-
-
-        -- if the character has moved 
-        if not same_pos then
-            -- if the map hasn't changed
-            
-            -- if (lmd.map_id == lmd.pf.last_map) then
-            if (lmd.map_id == mem.get_map()) then
-                lmd.pf.ismoving = false
-
-                -- set the last location to movable space
-                -- if old_x ~= nil then
-                --     lmd.local_map[old_y + lmd.y_offset + 1][old_x + lmd.x_offset + 1] = 1
-                -- end
-        
-                -- expand the map
-                print("expand map, not same pos, same map, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
-
-                -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
-                if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
-                    lmd.map_y_start = lmd.y + lmd.y_offset + 1
-                elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then
-                    lmd.map_y_end = lmd.y + lmd.y_offset + 1
-                end
-        
-                if (lmd.x + lmd.x_offset + 1 < lmd.map_x_start) then
-                    lmd.map_x_start = lmd.x + lmd.x_offset + 1
-                elseif (lmd.x + lmd.x_offset + 1 > lmd.map_x_end) then
-                    lmd.map_x_end = lmd.x + lmd.x_offset + 1
-                end
-                print(lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
-        
-                if (lmd.y ~= lmd.pf.last_y) then -- if the y changed
-                    if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then -- if the new row is nil
-                        lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
-                    end
-                    if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
-                        lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
-                        -- print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
-                    end
-                end
-        
-                if (lmd.x ~= lmd.pf.last_x) then -- if the x changed
-                    if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then
-                        print("error in update map, so reloading map")
-                        lmd.pf.load_map()
-                        return
-                    end
-                    if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
-                        lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
-                        -- print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
-                    end
-                end
-
-                return 0 -- indicate successfuly move
-            else
-
-                lmd.pf.ismoving = false
-
-                print("try_move: has warped")
-                lmd.wander_to = nil
-                lmd.gpf.current_path = nil
-
-                if lmd.map_id ~= nil then
-
-                    lmd.map_id = mem.get_map()
-                    -- set the last location to a warp
-
-                    -- expand the map
-                    print("expand map in try move after warp, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
-                    if (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 < lmd.map_y_start) then
-                        lmd.map_y_start = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
-                    elseif (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 > lmd.map_y_end) then
-                        lmd.map_y_end = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
-                    end
-
-                    if (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 < lmd.map_x_start) then
-                        lmd.map_x_start = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
-                    elseif (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
-                        lmd.map_x_end = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
-                    end
-                    print(lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
-
-                    -- if the new row is nil
-                    if lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] == nil then
-                        lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] = {}
-                    end
-
-                    lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x +
-                        lmd.pf.move_x_dir + 1] = 3
-
-                    if gmd.map[lmd.pf.last_map] == nil then
-                        gmd.map[lmd.pf.last_map] = {}
-                    end
-
-
-                    table.insert(gmd.map[lmd.pf.last_map], {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir,
-                    lmd.pf.last_y + lmd.pf.move_y_dir, lmd.x, lmd.y})
-
-                    -- gmd.map[lmd.pf.last_map] = {lmd.map_id, lmd.pf.last_x + lmd.pf.move_x_dir,
-                    --                             lmd.pf.last_y + lmd.pf.move_y_dir}
-
-                    -- saves the map to a file
-                    export_data = {
-                        map = lmd.local_map,
-                        map_x_start = lmd.map_x_start,
-                        map_x_end = lmd.map_x_end,
-                        map_y_start = lmd.map_y_start,
-                        map_y_end = lmd.map_y_end,
-                        y_offset = lmd.y_offset,
-                        x_offset = lmd.x_offset
-
-                    }
-                    table.save(export_data, string.format("./navigator/map_cache/%d.lua", (lmd.pf.last_map)))
-                    -- print("saved map data to: ", lmd.pf.last_map)
-                    -- print("saved map data was: ", export_data)
-
-                    lmd.pf.load_map()
-
-                end
-
-                return 4 -- indicate the player warped
-            end
-        else
-            -- print("try_move: move unsucessful:", lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
-                -- 1 + lmd.y + lmd.y_offset + lmd.pf.move_y_dir)
-            -- moved unsucessfully
-
-            print("failed to move from", lmd.pf.last_x, lmd.pf.last_y, "with velocity", lmd.pf.move_y_dir, lmd.pf.move_x_dir)
-
-            if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
-                lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
-
-                -- print("no npc found at: ", lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir,
-                --     lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
-
-                -- expand the map
-                print("expand map in try move, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
-
-                if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
-                    lmd.map_y_start = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
-                elseif (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir > lmd.map_y_end) then
-                    lmd.map_y_end = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
-                end
-
-                if (lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir < lmd.map_x_start) then
-                    lmd.map_x_start = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
-                elseif (lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
-                    lmd.map_x_end = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
-                end
-                print(lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
-
-                if (lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] == nil) then -- if the new row is nil
-                    lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
-                end
-
-                lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
-
-                return 2 -- indicate failed move
-            else
-                return 3 -- indicate npc interference
-            end
-
-
-        end
-
+        return lmd.pf.try_move_end(same_pos)
     end
 
     lmd.pf.frame_counter = lmd.pf.frame_counter + 1
     return 1 -- indicate move needs more time
+end
+
+lmd.pf.try_move_end = function(same_pos)
+    -- if the character has moved 
+    if not same_pos then
+        -- if the map hasn't changed
+        
+        if (lmd.map_id == lmd.pf.last_map and lmd.map_id == mem.get_map()) then
+
+            -- set the last location to movable space
+            -- if old_x ~= nil then
+            --     lmd.local_map[old_y + lmd.y_offset + 1][old_x + lmd.x_offset + 1] = 1
+            -- end
+
+            -- expand the map
+            print("expand map, not same pos, same map, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
+
+            -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
+            if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
+                lmd.map_y_start = lmd.y + lmd.y_offset + 1
+            elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then
+                lmd.map_y_end = lmd.y + lmd.y_offset + 1
+            end
+
+            if (lmd.x + lmd.x_offset + 1 < lmd.map_x_start) then
+                lmd.map_x_start = lmd.x + lmd.x_offset + 1
+            elseif (lmd.x + lmd.x_offset + 1 > lmd.map_x_end) then
+                lmd.map_x_end = lmd.x + lmd.x_offset + 1
+            end
+            print("new boundaries", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
+
+            if (lmd.y ~= lmd.pf.last_y) then -- if the y changed
+                if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then -- if the new row is nil
+                    lmd.local_map[lmd.y + lmd.y_offset + 1] = {}
+                end
+                if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
+                    lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+                    -- print("set to movable tile on y: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
+                end
+            end
+
+            if (lmd.x ~= lmd.pf.last_x) then -- if the x changed
+                if (lmd.local_map[lmd.y + lmd.y_offset + 1] == nil) then
+                    print("error in update map, so reloading map")
+                    lmd.pf.load_map()
+                    return
+                end
+                if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] ~= 3 then
+                    lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+                    -- print("set to movable tile on x: ", lmd.y + lmd.y_offset + 1, lmd.x + lmd.x_offset + 1)
+                end
+            end
+
+            return 0 -- indicate successfuly move
+        else
+            print("try_move: has warped")
+            lmd.wander_to = nil
+            lmd.gpf.current_path = nil
+
+            if lmd.map_id ~= nil then
+
+                -- lmd.map_id = mem.get_map()
+                -- set the last location to a warp
+
+                -- expand the map
+                print("expand map in try move after warp, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", mem.get_map(), lmd.x, lmd.y)
+                print("offsets:", lmd.x_offset, lmd.y_offset)
+                print("before", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
+                if (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 < lmd.map_y_start) then
+                    lmd.map_y_start = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
+                elseif (lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1 > lmd.map_y_end) then
+                    lmd.map_y_end = lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1
+                end
+
+                if (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 < lmd.map_x_start) then
+                    lmd.map_x_start = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
+                elseif (lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
+                    lmd.map_x_end = lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1
+                end
+                print("after", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
+
+                -- if the new row is nil
+                if lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] == nil then
+                    lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] = {}
+                end
+
+                lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x +
+                    lmd.pf.move_x_dir + 1] = 3
+
+                if gmd.map[lmd.pf.last_map] == nil then
+                    gmd.map[lmd.pf.last_map] = {}
+                end
+
+
+                g_map_has_warp = false
+                for i, warp in ipairs(gmd.map[lmd.pf.last_map]) do
+                    if 
+                        (
+                            warp[1] == mem.get_map() and 
+                            warp[2] == lmd.pf.last_x + lmd.pf.move_x_dir and 
+                            warp[3] == lmd.pf.last_y + lmd.pf.move_y_dir and 
+                            warp[4] == lmd.x and warp[5] == lmd.y 
+                        )
+                    then
+                        g_map_has_warp = true
+                    end
+                end
+                if not g_map_has_warp then
+                    table.insert(gmd.map[lmd.pf.last_map], {mem.get_map(), lmd.pf.last_x + lmd.pf.move_x_dir,
+                    lmd.pf.last_y + lmd.pf.move_y_dir, lmd.x, lmd.y})
+                end
+
+                -- gmd.map[lmd.pf.last_map] = {mem.get_map(), lmd.pf.last_x + lmd.pf.move_x_dir,
+                --                             lmd.pf.last_y + lmd.pf.move_y_dir}
+
+                -- saves the map to a file
+                export_data = {
+                    map = lmd.local_map,
+                    map_x_start = lmd.map_x_start,
+                    map_x_end = lmd.map_x_end,
+                    map_y_start = lmd.map_y_start,
+                    map_y_end = lmd.map_y_end,
+                    y_offset = lmd.y_offset,
+                    x_offset = lmd.x_offset
+
+                }
+                table.save(export_data, string.format("./navigator/map_cache/%d.lua", (lmd.pf.last_map)))
+                -- print("saved map data to: ", lmd.pf.last_map)
+                -- print("saved map data was: ", export_data)
+
+                -- print("load map called from try_move_end")
+                lmd.pf.load_map()
+
+            end
+
+            return 4 -- indicate the player warped
+        end
+    else
+        -- moved unsucessfully
+
+        print("failed to move from", lmd.map_id, lmd.pf.last_x, lmd.pf.last_y, "with velocity", lmd.pf.move_y_dir, lmd.pf.move_x_dir)
+
+        if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
+            lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
+
+            -- print("no npc found at: ", lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir,
+            --     lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir)
+
+            -- expand the map
+            print("expand map in try move, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
+
+            if (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir < lmd.map_y_start) then
+                lmd.map_y_start = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
+            elseif (lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir > lmd.map_y_end) then
+                lmd.map_y_end = lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir
+            end
+
+            if (lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir < lmd.map_x_start) then
+                lmd.map_x_start = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
+            elseif (lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1 > lmd.map_x_end) then
+                lmd.map_x_end = lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir
+            end
+            print("new boundaries", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
+
+            if (lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] == nil) then -- if the new row is nil
+                lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir] = {}
+            end
+
+            lmd.local_map[lmd.y + lmd.y_offset + 1 + lmd.pf.move_y_dir][lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir] = 2
+
+            return 2 -- indicate failed move
+        else
+            return 3 -- indicate npc interference
+        end
+    end
 end
 
 lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
@@ -304,7 +316,10 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 end
 
 lmd.pf.find_path = function(dest_x, dest_y)
-    -- print("find path, destination: ", dest_x, dest_y)
+    print("find path, destination: ", dest_x, dest_y)
+    print("starting stack:", {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}})
+    print("current boundaries: ", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
+    print("first neighbors: ", lmd.pf.evaluate_neighbors(dest_x, dest_y, {lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}))
     local stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack using current player position
     -- local example_node = { x, y, { -- previous nodes -- }, heuristic_cost }
 
@@ -377,7 +392,8 @@ lmd.pf.follow_path = function()
         dir_x = lmd.pf.path[#lmd.pf.path][1] - (lmd.x_offset + lmd.x + 1)
         dir_y = lmd.pf.path[#lmd.pf.path][2] - (lmd.y_offset + lmd.y + 1)
 
-        print(lmd.x_offset, lmd.x, "try_move_start with path: ", lmd.pf.path)
+        -- print(lmd.x_offset, lmd.x, lmd.y_offset, lmd.y, "try_move_start with path: ", lmd.pf.path)
+        print("direction: ", dir_x, dir_y)
 
         lmd.pf.try_move_start(dir_x, dir_y)
 
@@ -390,6 +406,7 @@ lmd.pf.follow_path = function()
         -- 4: player changed maps
 
         move_result = lmd.pf.try_move()
+        if move_result ~= 1 then print("about to clear frame_counter with move_result", move_result) end
         if move_result == 0 then
             lmd.pf.ismoving = false
             lmd.pf.frame_counter = 0
@@ -419,43 +436,51 @@ lmd.pf.follow_path = function()
 end
 
 lmd.pf.load_map = function()
-    lmd.map_id = mem.get_map()
-    lmd.wander_to = nil
+    -- print("called load_map() at map", lmd.map_id, "=>", mem.get_map())
+    if lmd.map_id~=mem.get_map() then
+        lmd.map_id = mem.get_map()
+        lmd.wander_to = nil
+    
+        -- first check to see if the map is already stored somewhere
+        print("changing offsets in load_map, before", lmd.x_offset, lmd.y_offset)
 
-    -- first check to see if the map is already stored somewhere
-    saved_map = io.open(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)), "r")
-    if saved_map ~= nil then
-        saved_map:close()
+        
+        saved_map = io.open(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)), "r")
+        if saved_map ~= nil then
+            saved_map:close()
+    
+            import_data = table.load(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)))
+    
+            lmd.local_map = import_data.map
+            lmd.map_x_start = import_data.map_x_start
+            lmd.map_x_end = import_data.map_x_end
+            lmd.map_y_start = import_data.map_y_start
+            lmd.map_y_end = import_data.map_y_end
+            lmd.y_offset = import_data.y_offset
+            lmd.x_offset = import_data.x_offset
+            
+            print("imported map data: ", import_data)
+        else
+            print("calling reset_map from load_map")
+            lmd.reset_map()
+        end
 
-        import_data = table.load(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)))
 
-        lmd.local_map = import_data.map
-        lmd.map_x_start = import_data.map_x_start
-        lmd.map_x_end = import_data.map_x_end
-        lmd.map_y_start = import_data.map_y_start
-        lmd.map_y_end = import_data.map_y_end
-        lmd.y_offset = import_data.y_offset
-        lmd.x_offset = import_data.x_offset
-
-        print("imported map data: ", import_data)
-    else
-        print("calling reset_map from load_map")
-        lmd.reset_map()
+        print("after", lmd.x_offset, lmd.y_offset)
     end
 end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
+
+    -- print("in manage_path_to")
     
     if #lmd.pf.path == 0 then
-
-        if lmd.map_id ~= mem.get_map() then
-            lmd.pf.load_map()
-        end
 
         if lmd.pf.is_warping then
             if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
                 lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
             else
+                -- print("called load_map from is_warping in manage_path_to")
                 lmd.pf.load_map()
                 lmd.pf.is_warping = false
             end
@@ -493,11 +518,21 @@ lmd.gpf = { -- global pathfinder
 }
 
 lmd.gpf.find_global_path = function(to_map, to_x, to_y)
+    if not lmd.pf.ismoving then 
+        -- print("called load map in find_global_path")
+        lmd.pf.load_map() 
+    end
+    -- print("finding global path from:", lmd.map_id, lmd.x, lmd.y)
     if lmd.map_id == to_map then
+            -- print("target same map as current, go to: ", to_x, to_y)
             lmd.gpf.current_path = {{to_x, to_y}}
         return true
     else
+        -- print("current map: ", lmd.map_id)
+        -- print("target map: ", to_map)
+        -- print("current g_map:", gmd.map)
         global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
+        -- print("path: ", global_pathfinding_res)
         if global_pathfinding_res then
             lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x, to_y}}
             return true
@@ -510,18 +545,14 @@ end
 lmd.wander_to = nil
 
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
-    -- print("wander to: ", lmd.wander_to)
     if lmd.wander_to == nil then
-        -- print("wander_to == nil")
+        -- print("wander to nil, gmd.fully_explored[lmd.map_id]", gmd.fully_explored[lmd.map_id])
         if gmd.fully_explored[lmd.map_id] == true then
-            -- print("implement navigation to new map")
-            -- print("current global map: ", gmd.map)
 
-            -- print(gmd.map, lmd.map_id)
             if gmd.map[lmd.map_id] ~= nil then
                 for _, warp in pairs(gmd.map[lmd.map_id]) do
-                    -- print("warp", warp)
                     if not (gmd.fully_explored[warp[1]]) then
+                        print("calling abs_manage_path_to from wander with args", warp[2], warp[3])
                         lmd.pf.abs_manage_path_to(warp[2], warp[3])
                         return
                     end
@@ -531,6 +562,12 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
             end
 
         else
+            if lmd.local_map[lmd.y + lmd.y_offset + 1] ~= nil then
+                print("lmd.local_map[", lmd.y + lmd.y_offset + 1, "][", lmd.x + lmd.x_offset + 1, "] =", lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1])
+                if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] == 3 then 
+                    return
+                end 
+            end
             local wander_time_start = os.clock()
             queue = {}
 
@@ -556,6 +593,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
 
                 -- if this neighbor is unknown
                 if (lmd.local_map[insert_y] == nil or (lmd.local_map[insert_y][insert_x] == nil)) then
+                    print("set wander to",{insert_x, insert_y})
                     lmd.wander_to = {insert_x, insert_y}
                     return 1
                 end
@@ -571,7 +609,7 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
 
             while #queue > 0 do
                 current_node = queue[1]
-                -- print("wander: current node: ", current_node)
+                -- print("wander, current node: ", current_node)
 
                 has_found_blank_tile = 0
 
@@ -741,46 +779,22 @@ end
 
 function lmd.update_map(debug_map) -- boolean debug_map decides whether or not to render map
 
-
-    -- old_x = lmd.x
-    -- old_y = lmd.y
-
     lmd.x, lmd.y = mem.get_pos()
     if lmd.map_id ~= mem.get_map() then -- if the map has changed
-
-        -- print("update map: map is wrong")
-
-        -- if lmd.map_id == nil or not lmd.is_moving then
-        --     lmd.reset_map()
-        -- end
-
         if lmd.map_id == nil then
-            -- lmd.reset_map()
-            lmd.pf.load_map()
             print("load_map called from update_map")
-        -- else
-            -- lmd.map_id = mem.get_map()
+            lmd.pf.load_map()
         end
-
-    -- elseif lmd.x ~= old_x or lmd.y ~= old_y then -- if the user moved
-        -- print("before map change: ", lmd.local_map)
-
-
-
-        
-
-        -- print("after map change: ", lmd.local_map)
-
     end
 
     if debug_map then
         lmd.debug_map_view()
         lmd.debug_npc_view()
         lmd.debug_player_view()
-        gui.text(1, 30, lmd.x + lmd.x_offset + 1)
-        gui.text(31, 30, lmd.y + lmd.y_offset + 1)
+        gui.text(1, 30, "rel:" .. tostring(lmd.x + lmd.x_offset + 1))
+        gui.text(46, 30, "rel:" .. tostring(lmd.y + lmd.y_offset + 1))
         gui.text(1, 50, lmd.x)
-        gui.text(31, 50, lmd.y)
+        gui.text(46, 50, lmd.y)
         gui.text(1, 70, string.format("Map ID: %s", lmd.map_id))
     end
 end

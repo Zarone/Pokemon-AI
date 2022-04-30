@@ -673,25 +673,20 @@ while true do
                 to_map, to_x, to_y = unpack(objective[2])
                 
                 if md.gpf.current_path == nil then
-                    local before_find_g_path = os.clock()
+                    -- print("find_global_path:", to_map, to_x, to_y)
                     if not md.gpf.find_global_path(to_map, to_x, to_y) then
-                        -- print("after find g path", os.clock()-before_find_g_path)
-                        -- print("not enough information to traverse global map: wander")
                         local before_wander = os.clock()
                         md.wander()
                         if (os.clock() - before_wander > 0.001) then
-                            -- print("wander ran in", os.clock() - before_wander)
                         end
-                        -- print(md.local_map)
                     else
-                        -- print("enough information to traverse global map")
                         output_manager.reset()
                     end
                 else
                     -- check the result of our path manager
+
+                    -- print("global path", md.gpf.current_path)
                     local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
-                    -- print("main: decided on path: ", md.gpf.current_path[1])
-                    -- print("main: result of path: ", local_path_response)
 
                     if local_path_response == 1 then -- if the destination has been reached
                         print("local destination reached")
@@ -724,7 +719,6 @@ while true do
                 end
 
             elseif objective[1] == 2 then
-                -- print({objective[2][1]}, 100)
                 if (output_manager.press({objective[2]}, 100)) then
                     goals.objective_complete()
                     output_manager.reset()
