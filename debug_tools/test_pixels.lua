@@ -13,7 +13,7 @@
 while true do
 
     -- 20 -150 => { 255, 255, 255 }    
-    r1, g1, b1 = gui.getpixel(20, -150)
+    r1, g1, b1 = gui.getpixel(27, -150)
 
     -- okay so a weird potential source of bugs in the future,
     -- I'm like 40% sure that this g value, the second color
@@ -30,11 +30,11 @@ while true do
     r4, g4 = gui.getpixel(120, 155)
 
     local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 115 and g3 == 0 and b3 == 24 and r4 == 123 and g4 == 123)
-    print(is_in_battle)
+    -- print(is_in_battle)
 
-    x = 120
-    y = 155
-    -- print( {gui.getpixel(x, y)} )
+    x = 27
+    y = -150
+    print( {gui.getpixel(x, y)} )
     -- gui.box(x, y, x+15, y+15, {255, 255, 255})
     -- gui.pixel(x, y, {0, 0, 255})
 

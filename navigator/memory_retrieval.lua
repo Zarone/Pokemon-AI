@@ -45,7 +45,7 @@ end
 
 function mem.is_in_battle()
     -- 20 -150 => { 255, 255, 255 }    
-    r1, g1, b1 = gui.getpixel(20, -150)
+    r1, g1, b1 = gui.getpixel(27, -150)
 
     -- okay so a weird potential source of bugs in the future,
     -- I'm like 40% sure that this g value, the second color
@@ -66,7 +66,7 @@ function mem.is_in_battle()
     r6, g6 = gui.getpixel(120, 125)
 
     local is_in_battle = (r1 == 255 and g1 == 255 and b1 == 255 and r2 == 255 and g2 == 174) or (r3 == 115 and g3 == 0 and b3 == 24 and r4 == 123 and g4 == 123) or (r5 == 57 and g5 == 8 and b5 == 16 and r6 == 66 and g6 == 66)
-    
+
     return is_in_battle
     -- return memory.readbyteunsigned(0x022D5C0B) ~= 0
     -- return memory.readbyteunsigned(0x02122DE6)    

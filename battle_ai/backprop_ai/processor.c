@@ -26,9 +26,9 @@
 // feedforward algorithm
 #define SPREAD 0.05
 
-#define TRIM_P2 4
+#define TRIM_P2 3
 #define TRIM_P2_CATCH 1
-#define TRIM_P1 5
+#define TRIM_P1 3
 #define TRIM_P1_CATCH 3
 
 #define START_DEPTH 2
@@ -36,17 +36,6 @@
 
 // boolean
 #define MULTITHREADED 1
-
-// struct Weights {
-//     double h_layer_1[L1][L2];
-//     double biases_1[L2];
-//     double h_layer_2[L2][L3];
-//     double biases_2[L3];
-// #if LAYERS == 4
-//     double h_layer_3[L3][L4];
-//     double biases_3[L4];
-// #endif
-// };
 
 struct Weights {
     double** weights[LAYERS-1];
@@ -459,7 +448,6 @@ int get_weights(lua_State *L, struct Weights *my_weights){
         my_weights->biases[i] = (double*)malloc(toLayerCount * sizeof(double));
     }
     parse_weights(L, &reader, 0, my_weights, blank_indexes);
-
     
     mpack_error_t error = mpack_reader_destroy(&reader);
     if (error != mpack_ok){
@@ -820,11 +808,6 @@ int checkLoss(int (*inputs)[L1]){
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
 
-    // print_weights(my_weights);
-    // for (int i = 0; i < L1; i++){
-    //     printf("input %i has val %i\n", i, (*inputs)[i]);
-    // }
-
     if (checkWin(inputs)) return 1.0f;    
     if (checkLoss(inputs)) return 0.0f;
 
@@ -834,16 +817,12 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
     zLayers[0] = malloc(L2*sizeof(double));
 
     for (int i = 0; i < L2; i++){ // i is the toNode
-        // printf("i: %i\n", i);
         zLayers[0][i] = 0;
         for (int j = 0; j < L1; j++){ // j is the fromNode
-            // printf("j: %i, += %f * %f\n", i, (*inputs)[j], ((double*)(my_weights->weights[0]))[j*L2 + i]);
             zLayers[0][i] += (*inputs)[j] * ((double*)(my_weights->weights[0]))[j*L2 + i];
         }
         zLayers[0][i] += my_weights->biases[0][i];
         activationLayers[0][i] = relu(zLayers[0][i]);
-        // printf("zLayers[0][%i] = %f\n", i, zLayers[0][i]);
-        // printf("activationLayers[0][%i] = %f\n", i, activationLayers[0][i]);
     }
 
     for (int i = 1; i < LAYERS-1; i++){
@@ -886,14 +865,11 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
                 errorLayers[i-1][j] = 0;
                 int nextLayerCount = getLayerSize(LAYERS-i);
                 for (int k = 0; k < nextLayerCount; k++){
-                    // printf("Layer: %i, fromNode: %i, toNode: %i\n", LAYERS-i, j, k);
 
                     double derivative1 = ((double*)(my_weights->weights[LAYERS-1-i]))[j*nextLayerCount + k];
                     double derivative2 = (i == 1) ? logistic_derivative( zLayers[LAYERS-1-i][k] ) : relu_derivative( zLayers[LAYERS-1-i][k] );
                     double derivative3 = (i == 1) ? 1 : errorLayers[i - 2][k];
-                    // printf("del z_l+1 / del a_l: %f\n", derivative1);
-                    // printf("del a_l+1 / del z_l+1: %f\n", derivative2);
-                    // printf("del V / del a_l+1: %f\n", derivative3);
+
                     errorLayers[i-1][j] += derivative1 * derivative2 * derivative3;
                 }
             }
@@ -918,6 +894,10 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
             }
         }
 
+        for (int i = 0; i < LAYERS-1; i++){
+            free(errorLayers[i]);
+        }
+
     }
 
     for (int i = 0; i < LAYERS-2; i++){
@@ -928,6 +908,10 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
     }
 
     /*
+
+        // this code, if implemented, would make the player tend towards attacking
+        // when the enemy only has one pokemon remaining.
+
         // number of enemy pokemon not fainted
         int enemyNum = 6;
         
@@ -936,10 +920,6 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
                 enemyNum--;
             }
         }
-
-        // look... this code is entirely cheating. But as I'm writing it, my alternative options is 
-        // to rework the network layer and train it with a greater layer count. That's pretty annoying, 
-        // and I'm tired.
 
         if (enemyNum == 1) {
             return activationLayers[LAYERS-2][0] + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
@@ -1049,23 +1029,24 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
     char process[] = "node ./battle_ai/showdown/pokemon-showdown simulate-battle -";
     strcat(process, stringKey);
 
-    system(process);
+    // easiest to debug, but pulls up new window
+    // system(process);
 
-    // STARTUPINFO si;
-    // PROCESS_INFORMATION pi;
+    STARTUPINFO si;
+    PROCESS_INFORMATION pi;
 
-    // ZeroMemory(&si, sizeof(si));
-    // si.cb = sizeof(si);
-    // ZeroMemory(&pi, sizeof(pi));
+    ZeroMemory(&si, sizeof(si));
+    si.cb = sizeof(si);
+    ZeroMemory(&pi, sizeof(pi));
 
-    // if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
-    // {
-    //     WaitForSingleObject(pi.hProcess, INFINITE);
-    //     CloseHandle(pi.hProcess);
-    //     CloseHandle(pi.hThread);
-    // } else {
-    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
-    // }
+    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    {
+        WaitForSingleObject(pi.hProcess, INFINITE);
+        CloseHandle(pi.hProcess);
+        CloseHandle(pi.hThread);
+    } else {
+        printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    }
 
 }
 
@@ -1327,7 +1308,7 @@ void *evaluate_switch(void *rawArgs){
 volatile int key = 0;
 
 // my_state is intended as a pointer to State object
-void *evaluate_move(void *rawArgs ){
+void *evaluate_move(void *rawArgs){
         
     // printLua_double(L, "Initial State Value: ", feedforward(my_weights, &(my_state->game_data)));
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
@@ -1694,10 +1675,10 @@ void *evaluate_move(void *rawArgs ){
         }
 
         free(allNewArgs);
-        free(my_states);
         *(args->outputPtr) = bestMove;
         return NULL;
     }
+    free(my_states);
 
 
     printf("\nreturn blank\n");
@@ -2218,11 +2199,11 @@ void *evaluate_move_catch(void *rawArgs){
         }
 
         free(allNewArgs);
-        free(my_states);
         *(args->outputPtr) = bestMove;
         if (args->depth == START_DEPTH_CATCH) printf("\nreturned bestMove %i with estimate %f\n", args->outputPtr->move, args->outputPtr->estimate);
         return NULL;
     }
+    free(my_states);
 
     printf("reached evaluate_move_catch\n");
     return NULL;
@@ -2346,6 +2327,10 @@ void run_evaluation(lua_State *L){
     args.outputPtr = &bestMove;
     
     evaluate_move(&args);
+    for (int i = 0; i < LAYERS-1; i++){
+        free(args.my_weights->weights[i]);
+        free(args.my_weights->biases[i]);
+    }
     lua_settop(L, 0);
     lua_newtable(L);
     lua_pushinteger(L, bestMove.move);
@@ -2480,6 +2465,10 @@ int run_evaluation_switch(lua_State *L){
     //     return -1;
     // }
     evaluate_switch_from_partial_start(&args);
+    for (int i = 0; i < LAYERS-1; i++){
+        free(args.my_weights->weights[i]);
+        free(args.my_weights->biases[i]);
+    }
     // printf("Best Switch, estimate: %f, move: %i\n", bestSwitch.estimate, bestSwitch.move);
 
     printLua_double(L, "Best Switch: ", bestSwitch.move);
@@ -2600,6 +2589,12 @@ void run_evaluation_catch(lua_State *L){
     args.outputPtr = &bestMove;
     
     evaluate_move_catch(&args);
+    
+    for (int i = 0; i < LAYERS-1; i++){
+        free(args.my_weights->weights[i]);
+        free(args.my_weights->biases[i]);
+    }
+
     lua_settop(L, 0);
     lua_newtable(L);
     lua_pushinteger(L, bestMove.move);
