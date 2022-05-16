@@ -94,7 +94,7 @@ end
 
 function mem.asking_nickname()
     str = {}
-    startChar = 0x22833F0
+    startChar = 0x227F2A8--0x22833F0
 
     -- gets ten characters
     endChar = startChar + 2 * 10 - 1

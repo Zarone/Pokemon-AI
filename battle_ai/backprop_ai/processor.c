@@ -1030,23 +1030,24 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
     strcat(process, stringKey);
 
     // easiest to debug, but pulls up new window
-    // system(process);
+    system(process);
 
-    STARTUPINFO si;
-    PROCESS_INFORMATION pi;
+    // doesn't render cmd window
+    // STARTUPINFO si;
+    // PROCESS_INFORMATION pi;
 
-    ZeroMemory(&si, sizeof(si));
-    si.cb = sizeof(si);
-    ZeroMemory(&pi, sizeof(pi));
+    // ZeroMemory(&si, sizeof(si));
+    // si.cb = sizeof(si);
+    // ZeroMemory(&pi, sizeof(pi));
 
-    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
-    {
-        WaitForSingleObject(pi.hProcess, INFINITE);
-        CloseHandle(pi.hProcess);
-        CloseHandle(pi.hThread);
-    } else {
-        printf( "CreateProcess failed (%ld)\n", GetLastError() );
-    }
+    // if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    // {
+    //     WaitForSingleObject(pi.hProcess, INFINITE);
+    //     CloseHandle(pi.hProcess);
+    //     CloseHandle(pi.hThread);
+    // } else {
+    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    // }
 
 }
 
@@ -1506,6 +1507,7 @@ void *evaluate_move(void *rawArgs){
         // printf("set estimate %f with key %i at address %p\n", p1moves[9].estimate, thisKey, (void *)(args->outputPtr));
         // frameSkip(args->L);
         pthread_mutex_unlock(&lock);
+        free(my_states);
 
         // pthread_exit(0);
         return 0;
@@ -1675,10 +1677,10 @@ void *evaluate_move(void *rawArgs){
         }
 
         free(allNewArgs);
+        free(my_states);
         *(args->outputPtr) = bestMove;
         return NULL;
     }
-    free(my_states);
 
 
     printf("\nreturn blank\n");
@@ -2037,9 +2039,9 @@ void *evaluate_move_catch(void *rawArgs){
 
     if (args->depth == 1){
         strcpy(p1moves[9].name, (*(my_states + 0*10*25 + p1moves[10].move*25 + 0) ).name);
-        // pthread_mutex_lock(&lock);
         *(args->outputPtr) = p1moves[10];
-        // pthread_mutex_unlock(&lock);
+        
+        free(my_states);
 
         return NULL;
     } else {
@@ -2199,11 +2201,11 @@ void *evaluate_move_catch(void *rawArgs){
         }
 
         free(allNewArgs);
+        free(my_states);
         *(args->outputPtr) = bestMove;
         if (args->depth == START_DEPTH_CATCH) printf("\nreturned bestMove %i with estimate %f\n", args->outputPtr->move, args->outputPtr->estimate);
         return NULL;
     }
-    free(my_states);
 
     printf("reached evaluate_move_catch\n");
     return NULL;
@@ -2327,10 +2329,6 @@ void run_evaluation(lua_State *L){
     args.outputPtr = &bestMove;
     
     evaluate_move(&args);
-    for (int i = 0; i < LAYERS-1; i++){
-        free(args.my_weights->weights[i]);
-        free(args.my_weights->biases[i]);
-    }
     lua_settop(L, 0);
     lua_newtable(L);
     lua_pushinteger(L, bestMove.move);
