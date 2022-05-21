@@ -24,8 +24,10 @@ lmd.map_y_end = 1
 lmd.x_offset = 0
 lmd.y_offset = 0
 
-lmd.debug_box_size = 3
-lmd.debug_box_margin = 8
+lmd.debug_box_size = 4
+lmd.debug_box_margin = lmd.debug_box_size * 2.5
+lmd.horizontal_limit = 10
+lmd.vertical_limit = 8
 
 lmd.pf = { -- pathfinder
     path = {},
@@ -38,6 +40,19 @@ lmd.pf = { -- pathfinder
     warp_frame_counter = 0,
     warp_frames_per_warp = 140
 }
+
+lmd.clear_neighbors = function()
+    if (lmd.local_map[lmd.y+lmd.y_offset+2]) then
+        lmd.local_map[lmd.y+lmd.y_offset+2][lmd.x+lmd.x_offset+1] = nil
+    end
+    if (lmd.local_map[lmd.y+lmd.y_offset]) then
+        lmd.local_map[lmd.y+lmd.y_offset][lmd.x+lmd.x_offset+1] = nil
+    end
+    if (lmd.local_map[lmd.y+lmd.y_offset+1]) then
+        lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset] = nil
+        lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset+2] = nil
+    end
+end
 
 lmd.pf.try_move_start = function(dir_x, dir_y)
     lmd.pf.last_x = lmd.x
@@ -287,6 +302,10 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                         new_node_path = {{insert_x, insert_y}}
                     else
                         -- print("given_node[3]:", given_node[3])
+                        if #given_node[3] > 50 then
+                            print("too many in given_node path")
+                            return
+                        end
                         new_node_path = {unpack(given_node[3])}
                         table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
                     end
@@ -705,44 +724,50 @@ function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
 end
 
 function lmd.debug_map_view()
+
     if lmd.pf.is_warping then
         return
     end
     -- print(lmd.map_y_start, lmd.map_y_end, lmd.map_x_start, lmd.map_x_end)
-    for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows 
-        for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
+    for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows
 
-            if lmd.local_map == nil then
-                print("debug_map: error in map, here's the map and the search coordinates: ", lmd.local_map, i, j)
-                lmd.pf.load_map()
-                return
-            end
-            if lmd.local_map[i] == nil then
-                lmd.local_map[i] = {}
-            end
-            node_type = lmd.local_map[i][j]
-            color = {}
-
-            if (node_type ~= nil) then
-                if node_type == 1 then
-                    color = {255, 255, 255, 255}
-                elseif node_type == 2 then
-                    color = {0, 0, 0, 255}
-                elseif node_type == 3 then
-                    color = {0, 0, 255, 255}
-                else
-                    print("strange nodetype detected: " .. node_type)
-                    color = {255, 192, 203, 255}
+        if math.abs(lmd.y + lmd.y_offset - (i - 1)) < lmd.vertical_limit then
+            for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
+                if math.abs(lmd.x + lmd.x_offset - (j - 1)) < lmd.horizontal_limit then
+                    if lmd.local_map == nil then
+                        print("debug_map: error in map, here's the map and the search coordinates: ", lmd.local_map, i, j)
+                        lmd.pf.load_map()
+                        return
+                    end
+                    if lmd.local_map[i] == nil then
+                        lmd.local_map[i] = {}
+                    end
+                    node_type = lmd.local_map[i][j]
+                    color = {}
+        
+                    if (node_type ~= nil) then
+                        if node_type == 1 then
+                            color = {255, 255, 255, 255}
+                        elseif node_type == 2 then
+                            color = {0, 0, 0, 255}
+                        elseif node_type == 3 then
+                            color = {0, 0, 255, 255}
+                        else
+                            print("strange nodetype detected: " .. node_type)
+                            color = {255, 192, 203, 255}
+                        end
+        
+                        y_alt = lmd.debug_box_margin * (lmd.y + lmd.y_offset - (i - 1))
+        
+                        if 90 - lmd.debug_box_size - y_alt > 0 then
+                            x_alt = lmd.debug_box_margin * (lmd.x + lmd.x_offset - (j - 1))
+                            gui.box(128 - lmd.debug_box_size - x_alt, 90 - lmd.debug_box_size - y_alt,
+                                128 + lmd.debug_box_size - x_alt, 90 + lmd.debug_box_size - y_alt, color, {255, 255, 255, 255})
+                        end
+        
+                    end
                 end
-
-                y_alt = lmd.debug_box_margin * (lmd.y + lmd.y_offset - (i - 1))
-
-                if 90 - lmd.debug_box_size - y_alt > 0 then
-                    x_alt = lmd.debug_box_margin * (lmd.x + lmd.x_offset - (j - 1))
-                    gui.box(128 - lmd.debug_box_size - x_alt, 90 - lmd.debug_box_size - y_alt,
-                        128 + lmd.debug_box_size - x_alt, 90 + lmd.debug_box_size - y_alt, color, {255, 255, 255, 255})
-                end
-
+    
             end
         end
     end

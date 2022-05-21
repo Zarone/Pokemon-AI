@@ -81,10 +81,16 @@ while true do
     
     if mem.asking_nickname() then
         output_manager.pressB()
+
     elseif was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
             print("battle ended")
+
+            print("before clear", md.local_map)
+            md.clear_neighbors()
+            print("after clear", md.local_map)
+
             enemy_pokemon1_types = {}
             was_in_battle = false
             battleState = nil
@@ -434,6 +440,8 @@ while true do
                     if action ~= 0 and last_battle_action ~= action then
                         
                         -- condition manages HP and status conditions
+                        print("condition pre", battle_weights.condition)
+                        print("action_info", action_info)
                         battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
                         print("condition", battle_weights.condition)
                         
