@@ -2,7 +2,6 @@ local md = require "./navigator/local_map" -- map data
 local goals = require "./navigator/goals"
 dofile("./navigator/table_helper.lua")
 local mem = require "./navigator/memory_retrieval"
--- local button_masher = require "button_masher"
 local output_manager = require "./navigator/output_manager"
 local BattleManager = require "./battle_ai/battle_manager"
 local json = require "lunajson"
@@ -53,6 +52,12 @@ local battle_weights = {
         0, 0, 0, 0, 0,
         0, 0, 0, 0, 0,
         0, 0
+    },
+
+    -- one for each player 1 pokemon
+    moves_used = {
+        {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, 
+        {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}
     }
 }
 local last_battle_action = nil
@@ -421,18 +426,32 @@ while true do
                 local initDelay = 10
                 local action_info = battleState:act()
                 local action
-                
-                -- print("action_info", action_info)
 
+                local active = battleState.game_reader.active
+                
                 if action_info ~= nil then 
                     action = action_info.move
                     if action ~= 0 and last_battle_action ~= action then
+                        
+                        -- condition manages HP and status conditions
                         battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
                         print("condition", battle_weights.condition)
+                        
+                        -- this manages which types the player wants to catch
                         for i = 1, 17 do
                             battle_weights.type_info[i] = (battle_weights.type_info[i] + action_info.type_info[i]) / 2
                             print(i, battle_weights.type_info[i])
                         end
+
+                        -- this manages which moves the player would delete next
+                        -- should they learn a new move
+                        if (action > 0 and action < 5) then
+                            print(active, action)
+                            battle_weights.moves_used[active+1][action] = 1 + battle_weights.moves_used[active+1][action]
+                        end
+                        print(battle_weights.moves_used)
+
+
                     end
                 end
 
