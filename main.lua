@@ -69,8 +69,9 @@ while true do
     if not is_in_battle then md.update_map(true) end
     controls = joypad.get(1)
     is_text_onscreen = mem.is_dialogue_onscreen()
+
     is_in_battle = mem.is_in_battle()
-    can_move = mem.can_move()
+    can_move = mem.can_move() -- this refers to battle, not actual player movement
     
         
     r1, g1, b1 = gui.getpixel(235, 172)
@@ -87,15 +88,12 @@ while true do
         if battle_clock > 240 then
             print("battle ended")
 
-            print("before clear", md.local_map)
-            md.clear_neighbors()
-            print("after clear", md.local_map)
+            -- md.clear_neighbors()
 
             enemy_pokemon1_types = {}
             was_in_battle = false
             battleState = nil
             mode = 0
-            -- md.pf.clear_neighbors()
         end
     elseif is_in_battle then
         if not was_in_battle then
@@ -691,7 +689,6 @@ while true do
             print("find nearing pokemon center")
         end
     elseif (mode == 1) then
-        -- print("main: can_move: ", can_move)
         objective = goals.attempt_goal()
         -- print(objective)
 

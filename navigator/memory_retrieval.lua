@@ -124,4 +124,8 @@ function mem.asking_nickname()
 
 end
 
+function mem.character_can_move()
+    return memory.readbyte(0x225260A) < 5
+end
+
 return mem

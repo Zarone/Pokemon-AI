@@ -29,6 +29,8 @@ lmd.debug_box_margin = lmd.debug_box_size * 2.5
 lmd.horizontal_limit = 10
 lmd.vertical_limit = 8
 
+local debug_key = joypad.get().debug
+
 lmd.pf = { -- pathfinder
     path = {},
     ismoving = false,
@@ -52,6 +54,7 @@ lmd.clear_neighbors = function()
         lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset] = nil
         lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset+2] = nil
     end
+    gmd.fully_explored[lmd.map_id] = false
 end
 
 lmd.pf.try_move_start = function(dir_x, dir_y)
@@ -239,7 +242,11 @@ lmd.pf.try_move_end = function(same_pos)
 
         print("failed to move from", lmd.map_id, lmd.pf.last_x, lmd.pf.last_y, "with velocity", lmd.pf.move_y_dir, lmd.pf.move_x_dir)
 
-        if not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
+        local can_player_move = mem.character_can_move()
+
+        print(can_player_move)
+
+        if can_player_move and not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
             lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
 
             -- print("no npc found at: ", lmd.x + lmd.x_offset + 1 + lmd.pf.move_x_dir,
@@ -269,7 +276,7 @@ lmd.pf.try_move_end = function(same_pos)
 
             return 2 -- indicate failed move
         else
-            return 3 -- indicate npc interference
+            return 3 -- indicate failed to move for reasons unrelated to map
         end
     end
 end
@@ -491,8 +498,6 @@ end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
 
-    -- print("in manage_path_to")
-    
     if #lmd.pf.path == 0 then
 
         if lmd.pf.is_warping then
@@ -599,7 +604,10 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 -- print("wander: insert node: ", {insert_x, insert_y})
 
                 -- if the computer has already visited this node
-                if visited_nodes[insert_x] ~= nil and visited_nodes[insert_x][insert_y] ~= nil then
+                if debug_key then
+                    print(insert_x, insert_y)
+                end
+                if visited_nodes[insert_x] ~= nil and visited_nodes[insert_x][insert_y] then
                     return 0
                 end
 
@@ -627,6 +635,12 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
             end
 
             while #queue > 0 do
+
+                if ( debug_key ) then
+                    print('queue', queue)
+                    print('visited nodes', visited_nodes)
+                end
+
                 current_node = queue[1]
                 -- print("wander, current node: ", current_node)
 

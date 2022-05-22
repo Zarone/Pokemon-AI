@@ -875,17 +875,21 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
             }
         }
 
+        int playerPokemon = 0;
+        int tempCondition = 0;
+
         for (int i = 65; i < 245; i+=30){
             // if there's a pokemon in this slot
             if ((*inputs)[i+1] > 0){
-                lastBackpropBatch.condition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
+                playerPokemon += 1;
+                tempCondition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
 
-                if (errorLayers[LAYERS-2][i+24] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+24]*((*inputs)[i+24]);
-                if (errorLayers[LAYERS-2][i+25] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+25]*((*inputs)[i+25]);
-                if (errorLayers[LAYERS-2][i+26] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+26]*((*inputs)[i+26]);
-                if (errorLayers[LAYERS-2][i+27] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+27]*((*inputs)[i+27]);
-                if (errorLayers[LAYERS-2][i+28] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+28]*((*inputs)[i+28]);
-                if (errorLayers[LAYERS-2][i+29] < 0) lastBackpropBatch.condition -= errorLayers[LAYERS-2][i+29]*((*inputs)[i+29]);
+                if (errorLayers[LAYERS-2][i+24] < 0) tempCondition -= errorLayers[LAYERS-2][i+24]*((*inputs)[i+24]);
+                if (errorLayers[LAYERS-2][i+25] < 0) tempCondition -= errorLayers[LAYERS-2][i+25]*((*inputs)[i+25]);
+                if (errorLayers[LAYERS-2][i+26] < 0) tempCondition -= errorLayers[LAYERS-2][i+26]*((*inputs)[i+26]);
+                if (errorLayers[LAYERS-2][i+27] < 0) tempCondition -= errorLayers[LAYERS-2][i+27]*((*inputs)[i+27]);
+                if (errorLayers[LAYERS-2][i+28] < 0) tempCondition -= errorLayers[LAYERS-2][i+28]*((*inputs)[i+28]);
+                if (errorLayers[LAYERS-2][i+29] < 0) tempCondition -= errorLayers[LAYERS-2][i+29]*((*inputs)[i+29]);
 
             } else {
                 for (int j = 7; j < 24; j++){
@@ -893,6 +897,10 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
                 }
             }
         }
+
+        // this is inversely proportion to player pokemon because if it wasn't
+        // then more pokemon in party would mean more dire condition
+        lastBackpropBatch.condition += tempCondition / playerPokemon;
 
         for (int i = 0; i < LAYERS-1; i++){
             free(errorLayers[i]);
