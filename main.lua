@@ -62,7 +62,7 @@ local battle_weights = {
 }
 local last_battle_action = nil
 local enemy_pokemon1_types
-local catch_threshold = -0.01
+local catch_threshold = 0.6
 local enemy_pokemon1_types = {}
 
 while true do
