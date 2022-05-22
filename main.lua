@@ -88,7 +88,7 @@ while true do
         if battle_clock > 240 then
             print("battle ended")
 
-            -- md.clear_neighbors()
+            md.clear_neighbors()
 
             enemy_pokemon1_types = {}
             was_in_battle = false
@@ -117,8 +117,8 @@ while true do
                 end
     
                 enemy_pokemon1_types = { BattleManager.type_id(enemy_pokemon1_types_raw[1]), BattleManager.type_id(enemy_pokemon1_types_raw[2]) }
-                print(enemy_pokemon1_types)
-                print(battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
+                print("enemy_pokemon1_types", enemy_pokemon1_types)
+                print("battle_weights.type_info", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
             else
                 output_manager.pressA()
             end
@@ -127,7 +127,9 @@ while true do
 
         -- print("catch decision", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ], catch_threshold)
 
-        text_end = battleState.game_reader:line_text():sub(-6, -1)
+        local this_line_text = battleState.game_reader:line_text()
+        text_end = this_line_text:sub(-6, -1)
+        learned_new_move = this_line_text:find(" learned ") ~= nil
 
         -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
 
@@ -208,6 +210,12 @@ while true do
             elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
                 print("exp gain or something")
                 output_manager.pressA()
+            elseif learned_new_move then
+                local active = battleState.game_reader.active
+                battle_weights.moves_used[active+1] = {0, 0, 0, 0}
+                output_manager.pressA()
+                print("learned new move")
+                print("")
             elseif can_move and #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
                 -- print("want to catch this \'mon")
                 -- print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
@@ -452,10 +460,10 @@ while true do
                         -- this manages which moves the player would delete next
                         -- should they learn a new move
                         if (action > 0 and action < 5) then
-                            print(active, action)
+                            print("active", "action", active, action)
                             battle_weights.moves_used[active+1][action] = 1 + battle_weights.moves_used[active+1][action]
                         end
-                        print(battle_weights.moves_used)
+                        print("battle_weights.moves_used", battle_weights.moves_used)
 
 
                     end
@@ -663,7 +671,7 @@ while true do
             mode = 1
         end
     elseif (mode == 2) then
-        if goals.current_goal < 10 then                
+        if goals.current_goal < 12 then                
             if md.gpf.current_path == nil then
                 -- this is the location of the player's mother
                 if not md.gpf.find_global_path(390, 6, 6) then
@@ -686,7 +694,27 @@ while true do
                 end
             end
         else
-            print("find nearing pokemon center")
+            if md.gpf.current_path == nil then
+                -- this is the location of the pokemon center
+                if not md.gpf.find_global_path(398, 7, 12) then
+                    md.wander()
+                else
+                    output_manager.reset()
+                end
+            else
+                -- check the result of our path manager
+                local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
+    
+                if local_path_response == 1 then -- if the destination has been reached
+                    print("local destination reached")
+    
+                    -- maybe check this spot if there's a bug in the future, I don't know why this was here
+                    -- table.remove(md.gpf.current_path, 1)
+                    md.gpf.current_path = nil
+                    output_manager.pressA()
+                    mode = 0
+                end
+            end
         end
     elseif (mode == 1) then
         objective = goals.attempt_goal()
@@ -698,12 +726,15 @@ while true do
                 
                 if md.gpf.current_path == nil then
                     -- print("find_global_path:", to_map, to_x, to_y)
-                    if not md.gpf.find_global_path(to_map, to_x, to_y) then
+                    local find_result = md.gpf.find_global_path(to_map, to_x, to_y)
+                    -- print("find_result", find_result)
+                    if not find_result then
                         local before_wander = os.clock()
                         md.wander()
                         if (os.clock() - before_wander > 0.001) then
                         end
                     else
+                        -- print("md.gpf.current_path[1]", md.gpf.current_path[1], "from map", mem.get_map())
                         output_manager.reset()
                     end
                 else

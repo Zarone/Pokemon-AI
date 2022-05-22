@@ -125,7 +125,11 @@ function mem.asking_nickname()
 end
 
 function mem.character_can_move()
-    return memory.readbyte(0x225260A) < 5
+    return memory.readbyte(0x20AA1D1) == 0
+
+    -- this would check the player's current rendered model, 
+    -- which could potentially work
+    -- return memory.readbyte(0x225260A) < 5
 end
 
 return mem

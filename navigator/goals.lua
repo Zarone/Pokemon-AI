@@ -14,11 +14,16 @@ goal_manager = {
         {0, {392, 6, 10}, {1, 1}},
         {0, {389, 777, 742}, {1, 1}},
         {2, {{A = true}, 100}, {1, 1}},
+
         {0, {389, 787, 739}, {1, 1}},
         {0, {317, 790, 678}, {1, 1}},
         {0, {397, 796, 659}, {1, 1}},
-        {2, {{Up = true}, 100}, {1, 1}},
+        {2, {{up = true}, 50}, {1, 1}},
         {2, {{A = true}, 100}, {1, 1}},
+        
+        {2, {{up = true}, 20}, {1, 1}},
+        {2, {{A = true}, 1}, {1, 1}},
+        {0, {397, 786, 658}, {1, 1}},
 
     }
 }
@@ -30,7 +35,7 @@ end
 
 goal_manager.objective_complete = function()
     print("")
-    print("goal complete", goal_manager.current_goal)
+    print("goal complete", goal_manager.current_goal, goal_manager.goals[goal_manager.current_goal])
     print("")
     goal_manager.current_goal = goal_manager.current_goal + goal_manager.goals[goal_manager.current_goal][3][1]
 end

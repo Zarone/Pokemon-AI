@@ -45,14 +45,22 @@ lmd.pf = { -- pathfinder
 
 lmd.clear_neighbors = function()
     if (lmd.local_map[lmd.y+lmd.y_offset+2]) then
-        lmd.local_map[lmd.y+lmd.y_offset+2][lmd.x+lmd.x_offset+1] = nil
+        if lmd.local_map[lmd.y+lmd.y_offset+2][lmd.x+lmd.x_offset+1] == 2 then
+            lmd.local_map[lmd.y+lmd.y_offset+2][lmd.x+lmd.x_offset+1] = nil
+        end
     end
     if (lmd.local_map[lmd.y+lmd.y_offset]) then
-        lmd.local_map[lmd.y+lmd.y_offset][lmd.x+lmd.x_offset+1] = nil
+        if lmd.local_map[lmd.y+lmd.y_offset][lmd.x+lmd.x_offset+1] == 2 then
+            lmd.local_map[lmd.y+lmd.y_offset][lmd.x+lmd.x_offset+1] = nil
+        end
     end
     if (lmd.local_map[lmd.y+lmd.y_offset+1]) then
-        lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset] = nil
-        lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset+2] = nil
+        if lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset] == 2 then
+            lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset] = nil
+        end
+        if lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset+2] == 2 then
+            lmd.local_map[lmd.y+lmd.y_offset+1][lmd.x+lmd.x_offset+2] = nil
+        end
     end
     gmd.fully_explored[lmd.map_id] = false
 end
@@ -309,7 +317,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                         new_node_path = {{insert_x, insert_y}}
                     else
                         -- print("given_node[3]:", given_node[3])
-                        if #given_node[3] > 50 then
+                        if #given_node[3] > 30 then
                             print("too many in given_node path")
                             return
                         end
@@ -834,7 +842,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         gui.text(46, 30, "rel:" .. tostring(lmd.y + lmd.y_offset + 1))
         gui.text(1, 50, lmd.x)
         gui.text(46, 50, lmd.y)
-        gui.text(1, 70, string.format("Map ID: %s", lmd.map_id))
+        gui.text(1, 70, string.format("Map ID: %s", mem.get_map()))
     end
 end
 
