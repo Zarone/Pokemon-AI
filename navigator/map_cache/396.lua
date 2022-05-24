@@ -7,7 +7,7 @@ return {
    ["x_offset"]=-3,
    ["map_y_start"]=1,
    ["map_x_start"]=1,
-   ["map_x_end"]=2,
+   ["map_x_end"]=1,
 },
 -- Table: {2}
 {
@@ -39,7 +39,6 @@ return {
 },
 -- Table: {8}
 {
-   3,
    3,
 },
 }

@@ -40,7 +40,9 @@ lmd.pf = { -- pathfinder
     frame_per_move = 50,
     is_warping = false,
     warp_frame_counter = 0,
-    warp_frames_per_warp = 140
+    warp_frames_per_warp = 140,
+	trying_to_warp_counter = 0,
+	trying_to_warp_limit = 100
 }
 
 lmd.clear_neighbors = function()
@@ -474,6 +476,7 @@ lmd.pf.load_map = function()
     if lmd.map_id~=mem.get_map() then
         lmd.map_id = mem.get_map()
         lmd.wander_to = nil
+		lmd.pf.trying_to_warp_counter = 0
     
         -- first check to see if the map is already stored somewhere
         print("changing offsets in load_map, before", lmd.x_offset, lmd.y_offset)
@@ -595,18 +598,30 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
 
         else
             if lmd.local_map[lmd.y + lmd.y_offset + 1] ~= nil then
-                print("lmd.local_map[", lmd.y + lmd.y_offset + 1, "][", lmd.x + lmd.x_offset + 1, "] =", lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1])
-                if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] == 3 then 
-                    return
+                print("standing on warp: lmd.local_map[", lmd.y + lmd.y_offset + 1, "][", lmd.x + lmd.x_offset + 1, "] =", lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1])
+                if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] == 3 then
+					
+					-- this means the warp failed
+					if lmd.pf.trying_to_warp_counter > lmd.pf.trying_to_warp_limit then
+						lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] = 1
+					else
+						lmd.pf.trying_to_warp_counter = lmd.pf.trying_to_warp_counter + 1
+					end
+                    
+					return
                 end 
             end
-            local wander_time_start = os.clock()
+            print("starting to find wander path")
             queue = {}
 
             -- gives starting node
             table.insert(queue, {lmd.x + lmd.x_offset + 1, lmd.y + lmd.y_offset + 1})
 
-            visited_nodes = {}
+			-- lists all nodes ever added to queue.
+			-- does not necessarily mean it's neighbors
+			-- have been have been added, which I
+			-- get is kind of misleading
+            visited_nodes = {} 
 
             function insert_node(insert_x, insert_y)
                 -- print("wander: insert node: ", {insert_x, insert_y})
@@ -636,18 +651,25 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 -- if it's not a warp or a unmovable tile
                 if ((lmd.local_map[insert_y][insert_x] ~= 2 and lmd.local_map[insert_y][insert_x] ~= 3)) then
                     table.insert(queue, {insert_x, insert_y})
-                    -- print("acceptable: ", insert_x, insert_y)
                 end
+
+				if (visited_nodes[insert_x] == nil) then
+                    visited_nodes[insert_x] = {}
+                end
+                visited_nodes[insert_x][insert_y] = true
 
                 return 0
             end
 
             while #queue > 0 do
 
-                if ( debug_key ) then
-                    print('queue', queue)
-                    print('visited nodes', visited_nodes)
-                end
+                -- if ( debug_key ) then
+					-- print("current_node", queue[1])
+                    -- print('queue', queue)
+                    -- print('visited nodes', visited_nodes)
+					-- print("")
+
+                -- end
 
                 current_node = queue[1]
                 -- print("wander, current node: ", current_node)
@@ -671,14 +693,13 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
                 end
 
                 if has_found_blank_tile > 0 then
-                    -- print("found wander path at time ", os.clock() - wander_time_start)
                     return
                 end
 
-                if (visited_nodes[current_node[1]] == nil) then
-                    visited_nodes[current_node[1]] = {}
-                end
-                visited_nodes[current_node[1]][current_node[2]] = true
+                -- if (visited_nodes[current_node[1]] == nil) then
+                --     visited_nodes[current_node[1]] = {}
+                -- end
+                -- visited_nodes[current_node[1]][current_node[2]] = true
 
                 table.remove(queue, 1)
             end
