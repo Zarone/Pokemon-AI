@@ -37,7 +37,7 @@ lmd.pf = { -- pathfinder
     move_x_dir = nil,
     move_y_dir = nil,
     frame_counter = 0,
-    frame_per_move = 50,
+    frame_per_move = 60,
     is_warping = false,
     warp_frame_counter = 0,
     warp_frames_per_warp = 140,
@@ -196,6 +196,7 @@ lmd.pf.try_move_end = function(same_pos)
                     lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1] = {}
                 end
 
+                print("lmd.local_map["..tostring(lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1).."]["..tostring(lmd.x_offset + lmd.pf.last_x + lmd.pf.move_x_dir + 1).."] = 3")
                 lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x +
                     lmd.pf.move_x_dir + 1] = 3
 
@@ -582,17 +583,48 @@ end
 lmd.wander_to = nil
 
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
+
+    if lmd.local_map[lmd.y_offset + lmd.y + 1] and lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] == nil then
+        lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] = 1
+    end
+
     if lmd.wander_to == nil then
         -- print("wander to nil, gmd.fully_explored[lmd.map_id]", gmd.fully_explored[lmd.map_id])
         if gmd.fully_explored[lmd.map_id] == true then
 
             if gmd.map[lmd.map_id] ~= nil then
-                for _, warp in pairs(gmd.map[lmd.map_id]) do
-                    if not (gmd.fully_explored[warp[1]]) then
-                        print("calling abs_manage_path_to from wander with args", warp[2], warp[3])
-                        lmd.pf.abs_manage_path_to(warp[2], warp[3])
-                        return
+                local queue = {lmd.map_id}
+                local added_to_queue = {lmd.map_id}
+
+                while #queue ~= 0 do
+                    
+                    -- print("")
+                    -- print("queue", queue)
+                    -- print("added_to_queue", added_to_queue)
+
+                    for _, warp in pairs(gmd.map[queue[1]]) do
+                        if not (gmd.fully_explored[warp[1]]) then
+                            -- print("calling abs_manage_path_to from wander with args", warp[2], warp[3])
+                            if (lmd.gpf.current_path == nil) then lmd.gpf.find_global_path(warp[1], warp[2], warp[3]) end
+                            lmd.pf.abs_manage_path_to(unpack(lmd.gpf.current_path[1]))
+                            return
+                        else
+                            local has_node_been_visited = false
+                            for _, visited_map in pairs(added_to_queue) do
+                                if visited_map == warp[1] then
+                                    has_node_been_visited = true
+                                    break
+                                end
+                            end
+                            
+                            if not has_node_been_visited then 
+                                table.insert(queue, warp[1])
+                            end
+                        end
                     end
+
+                    table.insert(added_to_queue, queue[1])
+                    table.remove(queue, 1)
                 end
             else
                 print("current map not found in global")
@@ -600,8 +632,8 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
 
         else
             if lmd.local_map[lmd.y + lmd.y_offset + 1] ~= nil then
-                print("standing on warp: lmd.local_map[", lmd.y + lmd.y_offset + 1, "][", lmd.x + lmd.x_offset + 1, "] =", lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1])
                 if lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1] == 3 then
+                    print("standing on warp: lmd.local_map[", lmd.y + lmd.y_offset + 1, "][", lmd.x + lmd.x_offset + 1, "] =", lmd.local_map[lmd.y + lmd.y_offset + 1][lmd.x + lmd.x_offset + 1])
 					
 					-- this means the warp failed
 					if lmd.pf.trying_to_warp_counter > lmd.pf.trying_to_warp_limit then

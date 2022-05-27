@@ -64,7 +64,7 @@ end
 
 local last_battle_action = nil
 local enemy_pokemon1_types
-local catch_threshold = 0.6
+local catch_threshold = 0.4
 local enemy_pokemon1_types = {}
 
 while true do
