@@ -28,7 +28,7 @@
 
 #define TRIM_P2 3
 #define TRIM_P2_CATCH 1
-#define TRIM_P1 3
+#define TRIM_P1 4
 #define TRIM_P1_CATCH 2
 
 #define START_DEPTH 2
@@ -1038,24 +1038,24 @@ void load_showdown_state(struct State *state, int localKey, int /* boolean */ fi
     strcat(process, stringKey);
 
     // easiest to debug, but pulls up new window
-    system(process);
+    // system(process);
 
     // doesn't render cmd window
-    // STARTUPINFO si;
-    // PROCESS_INFORMATION pi;
+    STARTUPINFO si;
+    PROCESS_INFORMATION pi;
 
-    // ZeroMemory(&si, sizeof(si));
-    // si.cb = sizeof(si);
-    // ZeroMemory(&pi, sizeof(pi));
+    ZeroMemory(&si, sizeof(si));
+    si.cb = sizeof(si);
+    ZeroMemory(&pi, sizeof(pi));
 
-    // if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
-    // {
-    //     WaitForSingleObject(pi.hProcess, INFINITE);
-    //     CloseHandle(pi.hProcess);
-    //     CloseHandle(pi.hThread);
-    // } else {
-    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
-    // }
+    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    {
+        WaitForSingleObject(pi.hProcess, INFINITE);
+        CloseHandle(pi.hProcess);
+        CloseHandle(pi.hThread);
+    } else {
+        printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    }
 
 }
 

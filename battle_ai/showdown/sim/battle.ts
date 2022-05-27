@@ -3345,7 +3345,7 @@ export class Battle {
 						this.importData[0][31];
 				}
 				if (this.importData[0][32] != 0) {
-					console.log(this.importData[4])
+					// console.log(this.importData[4])
                     this.sides[0].active[0].lastMove = {
 						id: this.importData[4] as ID,
 					} as ActiveMove;

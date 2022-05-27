@@ -183,6 +183,7 @@ class GameState:
             return None
 
         if player == 1:
+            print(p1_active, p1_bench, p2_active, p2_bench)
             return [
                 [
                     self.numberofweatherturns,
