@@ -21,30 +21,11 @@ local mode = 1
 local battleState = nil
 local was_in_battle = false
 
-function exit()
-    print("saving data")
-    -- saves global map data
-    table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal }, "./navigator/map_cache/global_map_cache.lua")
-end
-
--- runs exit function on close
-emu.registerexit(exit)
-
-loaded_saved_data = table.load("./navigator/map_cache/global_map_cache.lua")
-if loaded_saved_data ~= nil then
-    goals.current_goal = loaded_saved_data.current_goal
-    print("current_goal: ", goals.current_goal)    
-
-    md.set_global_map_data(loaded_saved_data.global_map_data)
-    loaded_saved_data = nil
-end
-
-
-
 -- so when the player is in battle, there's a chance the "is_in_battle"
 -- function returns false for a frame or two. This variable makes sure the battle 
 -- doesn't accidentally end prematurally
 local battle_clock = 0
+
 local battle_weights = {
     condition = 0,
     type_info = {
@@ -60,6 +41,27 @@ local battle_weights = {
         {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}
     }
 }
+
+function exit()
+    print("saving data")
+    -- saves global map data
+    table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal, mode = mode, battle_weights = battle_weights }, "./navigator/map_cache/global_cache.lua")
+end
+
+-- runs exit function on close
+emu.registerexit(exit)
+
+loaded_saved_data = table.load("./navigator/map_cache/global_cache.lua")
+if loaded_saved_data ~= nil then
+    goals.current_goal = loaded_saved_data.current_goal
+    print("current_goal: ", goals.current_goal)    
+
+    md.set_global_map_data(loaded_saved_data.global_map_data)
+    mode = loaded_saved_data.mode
+    battle_weights = loaded_saved_data.battle_weights
+    loaded_saved_data = nil
+end
+
 local last_battle_action = nil
 local enemy_pokemon1_types
 local catch_threshold = 0.6
@@ -665,18 +667,24 @@ while true do
         output_manager.pressA()
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
-        if (goals.current_goal > 3 and battle_weights.condition > 0.3) then
+        if (battle_weights.condition > 0.3) then
             mode = 2
         else
             mode = 1
         end
     elseif (mode == 2) then
-        if goals.current_goal < 12 then                
+        if goals.current_goal < 12 then
             if md.gpf.current_path == nil then
                 -- this is the location of the player's mother
                 if not md.gpf.find_global_path(390, 6, 6) then
+                    print("cant find mom's house")
+                    print(md.get_global_map_data())
                     md.wander()
                 else
+                    print("")
+                    print("low hp")
+                    print("found path home")
+                    print("")
                     output_manager.reset()
                 end
             else
@@ -690,6 +698,7 @@ while true do
                     -- table.remove(md.gpf.current_path, 1)
                     md.gpf.current_path = nil
                     output_manager.pressA()
+                    battle_weights.condition = 0
                     mode = 0
                 end
             end

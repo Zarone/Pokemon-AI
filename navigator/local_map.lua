@@ -42,7 +42,7 @@ lmd.pf = { -- pathfinder
     warp_frame_counter = 0,
     warp_frames_per_warp = 140,
 	trying_to_warp_counter = 0,
-	trying_to_warp_limit = 100
+	trying_to_warp_limit = 180
 }
 
 lmd.clear_neighbors = function()
@@ -319,10 +319,10 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                         new_node_path = {{insert_x, insert_y}}
                     else
                         -- print("given_node[3]:", given_node[3])
-                        if #given_node[3] > 30 then
-                            print("too many in given_node path")
-                            return
-                        end
+                        -- if #given_node[3] > 500 then
+                        --     print("too many in given_node path")
+                        --     return
+                        -- end
                         new_node_path = {unpack(given_node[3])}
                         table.insert(new_node_path, #new_node_path + 1, {insert_x, insert_y})
                     end
@@ -373,15 +373,16 @@ lmd.pf.find_path = function(dest_x, dest_y)
 
         -- get top element of stack
         local current_node = stack[#stack]
-        -- if (#current_node[3] < 30) then
-        --     print(current_node)
-        -- end
+
+        -- print("")
+        -- print("current_node", current_node)
+        -- print("stack", stack)
+        -- print("visited_nodes", visited_nodes_x, visited_nodes_y)
 
         if (current_node[4] < 0.01) then
             for i = #current_node[3], 1, -1 do
                 table.insert(lmd.pf.path, (current_node[3][i]))
             end
-            -- print("found path: ", lmd.pf.path)
             break
         end
 
@@ -415,6 +416,7 @@ lmd.pf.find_path = function(dest_x, dest_y)
         end
 
     end
+    print("found path", lmd.pf.path)
     print("loop in find path took", os.clock()-before)
 
 end
