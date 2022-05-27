@@ -407,7 +407,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		);
 
 		for (let i = 1; i < 6; i++) {
-			if (i < ((this.battle?.startTeam[1] as string[]).length as number)) {
+			if (i < ((this.battle?.startTeam[0] as string[]).length as number)) {
 				if (i == p1ActiveMon) {
 					for (let j = 0; j < 6; j++) {
 						if (

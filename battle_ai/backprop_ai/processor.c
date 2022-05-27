@@ -29,10 +29,10 @@
 #define TRIM_P2 3
 #define TRIM_P2_CATCH 1
 #define TRIM_P1 3
-#define TRIM_P1_CATCH 3
+#define TRIM_P1_CATCH 2
 
 #define START_DEPTH 2
-#define START_DEPTH_CATCH 3
+#define START_DEPTH_CATCH 4
 
 // boolean
 #define MULTITHREADED 1

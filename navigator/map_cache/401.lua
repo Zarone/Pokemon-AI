@@ -4,7 +4,7 @@ return {
    ["map"]={2},
    ["y_offset"]=-10,
    ["map_y_end"]=2,
-   ["x_offset"]=-6,
+   ["x_offset"]=-7,
    ["map_y_start"]=1,
    ["map_x_start"]=1,
    ["map_x_end"]=1,

@@ -137,8 +137,21 @@ function GameReader:new_active(name_active)
     -- # torment
 end
 
-function GameReader:new_enemy_active()
-    self.enemy_active = memory.readbyte(0x02273229) - 12
+function GameReader:new_enemy_active(enemy_active_name)
+
+    -- i don't know about this memory address, here are some others
+    -- 0x0214D386
+    -- 0x02273229
+    -- 0x021F44E6
+    -- 0x021F44E7
+    -- self.enemy_active = memory.readbyte(0x0214C1A6) - 12
+
+    for i = 1, 6 do
+        if enemy_active_name == self.nicknames_enemy[i] then
+            self.enemy_active = i-1
+            break
+        end
+    end
     -- print("new enemy active: ", self.enemy_active)
     self.enemy.disabled_move = ""
     self.enemy.last_move = ""
@@ -146,6 +159,9 @@ function GameReader:new_enemy_active()
 end
 
 function GameReader:process_line(line)
+
+    print(self.nicknames, self.active)
+    print(self.nicknames_enemy, self.enemy_active)
 
     player = nil
     hazard_change = false
@@ -167,7 +183,8 @@ function GameReader:process_line(line)
         self:new_active(line:sub(27, -2))
         print("new active on line: ", line)
     elseif line:find("sent out", 0) then
-        self:new_enemy_active()
+        local outLocation = line:find("out ")
+        self:new_enemy_active(line:sub(outLocation + 4, -2))
     elseif line:sub(0, #self.nicknames[self.active + 1] + 5) == self.nicknames[self.active + 1] .. " used" then
         self.player.last_move = move_to_id(line:sub(#self.nicknames[self.active + 1] + 7, -2))
     elseif line:sub(0, #self.nicknames_enemy[self.enemy_active + 1] + 14) == "The wild "..self.nicknames_enemy[self.enemy_active + 1].." used" then

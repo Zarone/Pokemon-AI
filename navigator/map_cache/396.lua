@@ -20,6 +20,7 @@ return {
 },
 -- Table: {3}
 {
+   1,
 },
 -- Table: {4}
 {
@@ -35,6 +36,7 @@ return {
 },
 -- Table: {7}
 {
+   1,
    1,
 },
 -- Table: {8}

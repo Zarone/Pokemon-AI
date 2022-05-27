@@ -64,7 +64,7 @@ end
 
 local last_battle_action = nil
 local enemy_pokemon1_types
-local catch_threshold = 0.4
+local catch_threshold = 0.3
 local enemy_pokemon1_types = {}
 
 while true do
@@ -84,6 +84,12 @@ while true do
     
     if mem.asking_nickname() then
         output_manager.pressB()
+        battle_weights.type_info = {
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 0
+        }
 
     elseif was_in_battle and not is_in_battle then
         battle_clock = battle_clock + 1
@@ -144,6 +150,7 @@ while true do
                 output_manager.pressA()
                 -- action = battleState:get_switch()
             elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
+                local initDelay = 10
                 print('forced switch')
                 is_forced_switch = true
                 action = battleState:get_switch()
@@ -151,13 +158,15 @@ while true do
                     print("reset output manager")
                     output_manager.reset()
                 elseif action == 1 then
-                    output_manager.press({{{}, 5}, {{
-                        A = true
-                    }, 5}, {{
-                        A = true
-                    }, 5}}, 25)
+                    output_manager.press(
+                        {
+                            {{}, initDelay},
+                            {{A = true}, 5},
+                            {{A = true}, 5}
+                        }, 25
+                    )
                 elseif action == 2 then
-                    output_manager.press({{{}, 5}, {{
+                    output_manager.press({{{}, initDelay}, {{
                         right = true
                     }, 5}, {{
                         A = true
@@ -165,7 +174,7 @@ while true do
                         A = true
                     }, 5}}, 25)
                 elseif action == 3 then
-                    output_manager.press({{{}, 5}, {{
+                    output_manager.press({{{}, initDelay}, {{
                         down = true
                     }, 5}, {{
                         A = true
@@ -173,7 +182,7 @@ while true do
                         A = true
                     }, 5}}, 25)
                 elseif action == 4 then
-                    output_manager.press({{{}, 5}, {{
+                    output_manager.press({{{}, initDelay}, {{
                         down = true
                     }, 5}, {{
                         right = true
@@ -183,7 +192,7 @@ while true do
                         A = true
                     }, 5}}, 25)
                 elseif action == 5 then
-                    output_manager.press({{{}, 5}, {{
+                    output_manager.press({{{}, initDelay}, {{
                         down = true
                     }, 5}, {{
                         down = true
@@ -193,7 +202,7 @@ while true do
                         A = true
                     }, 5}}, 25)
                 elseif action == 6 then
-                    output_manager.press({{{}, 5}, {{
+                    output_manager.press({{{}, initDelay}, {{
                         down = true
                     }, 5}, {{
                         down = true
@@ -224,6 +233,8 @@ while true do
                 -- print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])
 
                 -- print(battleState.game_reader.last_str)
+
+                battle_weights.condition = 0.3
 
                 local initDelay = 10
                 local action_info = battleState:act_catch()
@@ -667,7 +678,7 @@ while true do
         output_manager.pressA()
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
-        if (battle_weights.condition > 0.3) then
+        if (battle_weights.condition > 0.25) then
             mode = 2
         else
             mode = 1
@@ -720,7 +731,8 @@ while true do
                     -- maybe check this spot if there's a bug in the future, I don't know why this was here
                     -- table.remove(md.gpf.current_path, 1)
                     md.gpf.current_path = nil
-                    output_manager.pressA()
+                    output_manager.pressA_fast()
+                    battle_weights.condition = 0
                     mode = 0
                 end
             end

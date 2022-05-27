@@ -1,9 +1,164 @@
 using_test_data = false
 debug_data = false
 
-debug_state = {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 100, 24, 11, 10, 11, 11, 13, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 100, 17, 10, 8, 7, 8, 8, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
-debug_team1 = "Tepig||none|Blaze|tackle,tailwhip,,|Timid|0,0,0,1,0,1||4,23,3,19,16,29||6|79,,"
-debug_team2 = "Patrat||none|Keen Eye|tackle,leer,,|Careful|0,0,0,0,0,0||1,16,9,8,4,15||4|70,,"
+debug_state = {{
+
+-- 255, 0, 0, 0, 0, 
+
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 
+
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 0, 0, 
+-- 0, 0, 0, 
+
+-- 0, -1, 0, 0, 0, 0, 0, 
+-- 0, -1, 0, 0, 0, 0, 0, 
+
+-- 100, 
+-- 24, 11, 10, 11, 11, 13, 
+-- false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 0,
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 100, 
+-- 17, 10, 8, 7, 8, 8, 
+-- false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 0, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1, 
+
+-- 0, 
+-- 0, 0, 0, 0, 0, 0, 
+-- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+-- 0, 0, 0, 0, 0, 1
+
+
+255, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 
+
+0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 
+0, 0, 0, 
+
+0, -1, 0, 0, 0, 0, 0, 
+0, -1, 0, 0, 0, 0, 0, 
+
+100, 
+38, 20, 16, 18, 17, 20, 
+false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 0, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+100, 
+27, 14, 12, 15, 12, 12, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 
+0, 0, 0, 0, 0, 0, 
+
+100, 
+24, 13, 11, 11, 12, 15, 
+false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 0, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+0, 0, 0, 0, 0, 1, 
+
+0, 
+0, 0, 0, 0, 0, 0, 
+false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
+
+debug_team1 = "Tepig||none|Blaze|tackle,tailwhip,ember,odorsleuth|Timid|0,30,0,1,0,3||4,23,3,19,16,29||12|126,,"
+debug_team2 = "Oshawott||Oran Berry|Torrent|tackle,tailwhip,watergun,|Docile|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,]Purrloin||none|Unburden|scratch,growl,assist,|Careful|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,"
 
 params = {...}
 if params[1] == "debug" then
@@ -174,11 +329,15 @@ function BattleManager:act_open()
 
         if not using_test_data then
             team1, team2 = BattleManager.get_teams_packed(self.IGReader)
+
+            print(team1)
+            print(team2)
+
             if debug_data then print("team1", team1, "team2", team2) end
             -- print(team1, team2)
         else
-            team1 = "Tepig||none|Blaze|tackle,tailwhip,,|Timid|0,0,0,0,0,0||4,23,3,19,16,29||5|70,," 
-            team2 = "Snivy||none|Overgrow|tackle,leer,,|Bold|0,0,0,0,0,0||0,0,0,0,0,0||5|255,,"
+            team1 = debug_team1
+            team2 = debug_team2
         end
         Writer.saveTeams(team1, team2)
         self:get_action()

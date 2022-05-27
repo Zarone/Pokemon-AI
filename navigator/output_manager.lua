@@ -66,6 +66,16 @@ output_manager.pressA = function()
     }, 3)
 end
 
+-- this one is here for instances like the pokemon center, 
+-- where pressing A for too long will result in an infinite 
+-- loop
+output_manager.pressA_fast = function()
+    output_manager.current_sequence_index = 1
+    output_manager.press({
+        {{A = true}, 1}
+    }, 3)
+end
+
 output_manager.pressB = function()
     output_manager.current_sequence_index = 1
     output_manager.press({
