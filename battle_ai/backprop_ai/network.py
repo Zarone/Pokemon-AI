@@ -31,7 +31,7 @@ print("got data")
 # X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=1)
 # clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(100, 20)).fit(X_train, y_train)
 
-clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(200, 50, 20, 20, 10)).fit(X, y)
+clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(200, 100, 20, 20, 10)).fit(X, y)
 print("got finished training")
 
 file = open("./weights.txt", "wb")

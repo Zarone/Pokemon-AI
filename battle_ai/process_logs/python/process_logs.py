@@ -99,7 +99,7 @@ def get_log(log_name, file):
 
   for i in range(maxTurns):
     outputFile = open('../../state_files/processed_logs/'+file+"-"+str(i), 'wb')
-    print(i)
+    # print(i)
     output = new_game.get_output(1)
     if (output == None):
         return
@@ -113,6 +113,6 @@ def get_log(log_name, file):
     if not new_game.next_turn():
       lastTurn = True
 
-# get_all_logs()
+get_all_logs()
 # get_log("last.txt")
-get_log("../../../get_battle_data/old_logs/china-gen5nu-128908.txt", "china-gen5nu-128908.txt")
+# get_log("../../../get_battle_data/old_logs/china-gen5nu-128908.txt", "china-gen5nu-128908.txt")

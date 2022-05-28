@@ -16,7 +16,7 @@
 
 #define L1 425
 #define L2 200
-#define L3 50 
+#define L3 100 
 #define L4 20
 #define L5 20
 #define L6 10
