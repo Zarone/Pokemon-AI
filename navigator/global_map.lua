@@ -14,7 +14,7 @@ function distance(x1, y1, x2, y2)
     return math.sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2)
 end
 
-gmd.go_to_map = function(current_map, current_x, current_y, to_map) -- returns path
+gmd.go_to_map = function(current_map, current_x, current_y, to_map, secondary_to_map) -- returns path
     -- print("go to map: start")
     -- Dijkra's inspired algorithm, because there's no heuristic
 
@@ -93,7 +93,7 @@ gmd.go_to_map = function(current_map, current_x, current_y, to_map) -- returns p
 
                     local this_neighbor_path_length = checking_node[4] + cost_to_neighbor
     
-                    if neighbor[1] == to_map then 
+                    if neighbor[1] == to_map or (secondary_to_map ~= nil and neighbor[1] == secondary_to_map) then 
                         if (this_neighbor_path_length < best_path_length) then
                             best_path_length = checking_node[4] + cost_to_neighbor
                             best_path = new_path

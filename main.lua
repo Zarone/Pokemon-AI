@@ -138,6 +138,7 @@ while true do
         local this_line_text = battleState.game_reader:line_text()
         text_end = this_line_text:sub(-6, -1)
         learned_new_move = this_line_text:find(" learned ") ~= nil
+        replacing_move = this_line_text:find("Should a move ") ~= nil
 
         -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
 
@@ -221,6 +222,90 @@ while true do
             elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
                 print("exp gain or something")
                 output_manager.pressA()
+            elseif replacing_move then
+                local initDelay = 120
+                
+                local active = battleState.game_reader.active
+
+                local move_replacing = 0
+                local move_replacing_count = 10E10
+                for i = 1, 4 do
+                    if battle_weights.moves_used[active+1][i] < move_replacing_count then
+                        move_replacing = i
+                        move_replacing_count = battle_weights.moves_used[active+1][i]
+                    end
+                end
+
+                print(battle_weights.moves_used, move_replacing)
+
+                local done_with_output = false
+
+                if move_replacing == 1 then
+                    done_with_output = output_manager.press({
+                        {{}, initDelay},
+                        {{A = true}, 1}, 
+                        {{up = true}, 5}, 
+                        {{A = true}, 5}, 
+                        {{up = true}, 5}, 
+                        {{left = true}, 5},
+                        {{A = true}, 5}
+                    }, 25)
+                elseif move_replacing == 2 then
+                    done_with_output = output_manager.press(
+                    {
+                        {{}, initDelay},
+                        {{A = true}, 1}, 
+                        {{up = true}, 5},
+                        {{A = true}, 5},
+                        {{up = true}, 5},
+                        {{
+                        left = true
+                    }, 5}, {{
+                        right = true
+                    }, 5}, {{
+                        A = true
+                    }, 5}}, 25)
+                elseif move_replacing == 3 then
+                    done_with_output = output_manager.press({
+                        {{}, initDelay},
+                        {{A = true}, 1}, 
+                        {{
+                        up = true
+                    }, 5}, {{
+                        A = true
+                    }, 5}, {{
+                        up = true
+                    }, 5}, {{
+                        left = true
+                    }, 5}, {{
+                        down = true
+                    }, 5}, {{
+                        A = true
+                    }, 5}}, 25)
+                elseif move_replacing == 4 then
+                    done_with_output = output_manager.press({
+                        {{}, initDelay},
+                        {{A = true}, 1}, 
+                        {{
+                        up = true
+                    }, 5}, {{
+                        A = true
+                    }, 5}, {{
+                        up = true
+                    }, 5}, {{
+                        left = true
+                    }, 5}, {{
+                        down = true
+                    }, 5}, {{
+                        right = true
+                    }, 5}, {{
+                        A = true
+                    }, 5}}, 25)
+                end
+                if done_with_output then
+                    battle_weights.moves_used[active+1] = {0, 0, 0, 0}
+                end
+
             elseif learned_new_move then
                 local active = battleState.game_reader.active
                 battle_weights.moves_used[active+1] = {0, 0, 0, 0}
@@ -684,59 +769,35 @@ while true do
             mode = 1
         end
     elseif (mode == 2) then
-        if goals.current_goal < 12 then
-            if md.gpf.current_path == nil then
-                -- this is the location of the player's mother
-                if not md.gpf.find_global_path(390, 6, 6) then
-                    print("cant find mom's house")
-                    print(md.get_global_map_data())
-                    md.wander()
-                else
-                    print("")
-                    print("low hp")
-                    print("found path home")
-                    print("")
-                    output_manager.reset()
-                end
+        if md.gpf.current_path == nil then
+
+            local healing_destination = {}
+            if goals.current_goal < 12 then
+                -- mom's house
+                healing_destination = {390, 6, 6}
+            elseif goals.current_goal < 16 then
+                healing_destination = {398, 7, 12}
             else
-                -- check the result of our path manager
-                local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
-    
-                if local_path_response == 1 then -- if the destination has been reached
-                    print("local destination reached")
-    
-                    -- maybe check this spot if there's a bug in the future, I don't know why this was here
-                    -- table.remove(md.gpf.current_path, 1)
-                    md.gpf.current_path = nil
-                    output_manager.pressA()
-                    battle_weights.condition = 0
-                    mode = 0
-                end
+                healing_destination = {8, 7, 12}
+            end
+
+            if not md.gpf.find_global_path(unpack(healing_destination)) then
+                md.wander()
+            else
+                output_manager.reset()
             end
         else
-            if md.gpf.current_path == nil then
-                -- this is the location of the pokemon center
-                if not md.gpf.find_global_path(398, 7, 12) then
-                    md.wander()
-                else
-                    output_manager.reset()
-                end
-            else
-                -- check the result of our path manager
-                local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
-    
-                if local_path_response == 1 then -- if the destination has been reached
-                    print("local destination reached")
-    
-                    -- maybe check this spot if there's a bug in the future, I don't know why this was here
-                    -- table.remove(md.gpf.current_path, 1)
-                    md.gpf.current_path = nil
-                    output_manager.pressA_fast()
-                    battle_weights.condition = 0
-                    mode = 0
-                end
+            -- check the result of our path manager
+            local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
+
+            if local_path_response == 1 then -- if the destination has been reached    
+                md.gpf.current_path = nil
+                output_manager.pressA()
+                battle_weights.condition = 0
+                mode = 0
             end
         end
+
     elseif (mode == 1) then
         objective = goals.attempt_goal()
         -- print(objective)
@@ -752,8 +813,6 @@ while true do
                     if not find_result then
                         local before_wander = os.clock()
                         md.wander()
-                        if (os.clock() - before_wander > 0.001) then
-                        end
                     else
                         -- print("md.gpf.current_path[1]", md.gpf.current_path[1], "from map", mem.get_map())
                         output_manager.reset()
@@ -766,13 +825,16 @@ while true do
 
                     if local_path_response == 1 then -- if the destination has been reached
                         print("local destination reached")
+                        print(md.gpf.current_path[1])
 
-                        -- maybe check this spot if there's a bug in the future, I don't know why this was here
-                        -- table.remove(md.gpf.current_path, 1)
-
-                        md.gpf.current_path = nil
-
-                        goals.objective_complete()
+                        
+                        if #md.gpf.current_path > 1 then
+                            table.remove(md.gpf.current_path, 1)
+                        else
+                            md.gpf.current_path = nil
+    
+                            goals.objective_complete()
+                        end
 
                         if objective[3][1] == 0 then -- if the goal return control to main
                             mode = 0

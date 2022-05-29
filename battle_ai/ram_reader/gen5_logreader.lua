@@ -152,7 +152,7 @@ function GameReader:new_enemy_active(enemy_active_name)
             break
         end
     end
-    -- print("new enemy active: ", self.enemy_active)
+    print("new enemy active: ", self.enemy_active)
     self.enemy.disabled_move = ""
     self.enemy.last_move = ""
     self.enemy.volatiles = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, self.enemy.volatiles[11], 0, 0, 0}

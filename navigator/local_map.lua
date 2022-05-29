@@ -555,13 +555,16 @@ lmd.gpf = { -- global pathfinder
     current_path = nil
 }
 
-lmd.gpf.find_global_path = function(to_map, to_x, to_y)
+-- secondary_to_map is for pokemon centers, like 
+-- if we're okay with reaching either to_map or another
+-- map, whichever we find first
+lmd.gpf.find_global_path = function(to_map, to_x, to_y, secondary_to_map)
     if not lmd.pf.ismoving then 
         -- print("called load map in find_global_path")
         lmd.pf.load_map() 
     end
     -- print("finding global path from:", lmd.map_id, lmd.x, lmd.y)
-    if lmd.map_id == to_map then
+    if lmd.map_id == to_map or (secondary_to_map ~= nil and lmd.map_id == secondary_to_map) then
             -- print("target same map as current, go to: ", to_x, to_y)
             lmd.gpf.current_path = {{to_x, to_y}}
         return true
@@ -569,7 +572,7 @@ lmd.gpf.find_global_path = function(to_map, to_x, to_y)
         -- print("current map: ", lmd.map_id)
         -- print("target map: ", to_map)
         -- print("current g_map:", gmd.map)
-        global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
+        global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map, secondary_to_map)
         -- print("path: ", global_pathfinding_res)
         if global_pathfinding_res then
             lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x, to_y}}
