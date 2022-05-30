@@ -2,160 +2,82 @@ using_test_data = false
 debug_data = false
 
 debug_state = {{
+    255, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 
 
--- 255, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 0, 0, 
+    0, 0, 0, 
 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 
+    0, -1, 0, 0, 0, 0, 0, 
+    0, -1, 0, 0, 0, 0, 0, 
 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 0, 0, 
--- 0, 0, 0, 
+    100, 
+    38, 20, 16, 18, 17, 20, 
+    false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 0, 
 
--- 0, -1, 0, 0, 0, 0, 0, 
--- 0, -1, 0, 0, 0, 0, 0, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 100, 
--- 24, 11, 10, 11, 11, 13, 
--- false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 0,
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    100, 
+    27, 14, 12, 15, 12, 12, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 
+    0, 0, 0, 0, 0, 0, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    100, 
+    24, 13, 11, 11, 12, 15, 
+    false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 0, 
 
--- 100, 
--- 17, 10, 8, 7, 8, 8, 
--- false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 0, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
+    0, 0, 0, 0, 0, 1, 
 
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
-
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1, 
-
--- 0, 
--- 0, 0, 0, 0, 0, 0, 
--- false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
--- 0, 0, 0, 0, 0, 1
-
-
-255, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 
-
-0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 0, 0, 
-0, 0, 0, 
-
-0, -1, 0, 0, 0, 0, 0, 
-0, -1, 0, 0, 0, 0, 0, 
-
-100, 
-38, 20, 16, 18, 17, 20, 
-false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 0, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-100, 
-27, 14, 12, 15, 12, 12, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 
-0, 0, 0, 0, 0, 0, 
-
-100, 
-24, 13, 11, 11, 12, 15, 
-false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 0, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-0, 0, 0, 0, 0, 1, 
-
-0, 
-0, 0, 0, 0, 0, 0, 
-false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
-0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
+    0, 
+    0, 0, 0, 0, 0, 0, 
+    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
+    0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0
+}
 
 debug_team1 = "Tepig||none|Blaze|tackle,tailwhip,ember,odorsleuth|Timid|0,30,0,1,0,3||4,23,3,19,16,29||12|126,,"
 debug_team2 = "Oshawott||Oran Berry|Torrent|tackle,tailwhip,watergun,|Docile|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,]Purrloin||none|Unburden|scratch,growl,assist,|Careful|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,"
@@ -220,7 +142,10 @@ function BattleManager.new()
         instance_IGReader = PokeReader.new(4, 5)        
     end
     
-    
+    local team1
+    local team2
+
+    local wild_battle = false
     if (not using_test_data) then
         local wild_battle = not not (GameReader.line_text():find("A wild"))
         if wild_battle then print("is wild battle") end
@@ -245,8 +170,8 @@ function BattleManager.new()
         }
     end
 
-    names = {}
-    names_enemy = {}
+    local names = {}
+    local names_enemy = {}
     
     for i, v in pairs(team1) do
         table.insert(names, v.nickname)
@@ -254,6 +179,13 @@ function BattleManager.new()
     for i, v in pairs(team2) do
         table.insert(names_enemy, v.nickname)
     end
+
+    print("team1", team1)
+    print("team2", team2)
+
+    print("names", names)
+    print("names_enemy", names_enemy)
+
 
     instance_game_reader = nil
     if not using_test_data then
@@ -265,7 +197,8 @@ function BattleManager.new()
         IGReader = instance_IGReader,
         showdown_instance = nil,
         queued_move = nil,
-        queued_switch = nil
+        queued_switch = nil,
+        wild_battle = wild_battle
     }, BattleManager)
     return instance
 end
@@ -324,14 +257,24 @@ function BattleManager:act_open()
             -- self:saveState()
         -- end
 
-        team1 = nil
-        team2 = nil
+        local team1 = nil
+        local team2 = nil
 
         if not using_test_data then
             team1, team2 = BattleManager.get_teams_packed(self.IGReader)
 
-            print(team1)
-            print(team2)
+            if #self.game_reader.nicknames_enemy == 0 then
+
+                local _, team2_raw = BattleManager.get_teams(self.IGReader, self.wild_battle)
+
+                local names_enemy = {}
+                for i, v in pairs(team2_raw) do
+                    table.insert(names_enemy, v.nickname)
+                end
+                self.game_reader.nicknames_enemy = names_enemy
+            end
+            -- print(team1)
+            -- print(team2)
 
             if debug_data then print("team1", team1, "team2", team2) end
             -- print(team1, team2)

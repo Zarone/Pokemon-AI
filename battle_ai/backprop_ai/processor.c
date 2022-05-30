@@ -24,7 +24,7 @@
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
-#define SPREAD 0.05
+#define SPREAD 1
 
 #define TRIM_P2 3
 #define TRIM_P2_CATCH 1
@@ -808,8 +808,8 @@ int checkLoss(int (*inputs)[L1]){
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
 
-    if (checkWin(inputs)) return 1.0f;    
-    if (checkLoss(inputs)) return 0.0f;
+    // if (checkWin(inputs)) return 1.0f;    
+    // if (checkLoss(inputs)) return 0.0f;
 
     double* activationLayers[LAYERS-1]; // skip over input layer
     double* zLayers[LAYERS-1]; // skip over input layer

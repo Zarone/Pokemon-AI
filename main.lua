@@ -64,8 +64,10 @@ end
 
 local last_battle_action = nil
 local enemy_pokemon1_types
-local catch_threshold = 0.3
+local catch_threshold = 0.01
 local enemy_pokemon1_types = {}
+
+local replacing_move = false
 
 while true do
     if not is_in_battle then md.update_map(true) end
@@ -91,7 +93,7 @@ while true do
             0, 0
         }
 
-    elseif was_in_battle and not is_in_battle then
+    elseif was_in_battle and not is_in_battle and not replacing_move then
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
             print("battle ended")
@@ -101,9 +103,10 @@ while true do
             enemy_pokemon1_types = {}
             was_in_battle = false
             battleState = nil
+            md.gpf.current_path = nil
             mode = 0
         end
-    elseif is_in_battle then
+    elseif is_in_battle or replacing_move then
         if not was_in_battle then
             battleState = BattleManager.new()
             battle_clock = 0
@@ -136,8 +139,8 @@ while true do
         -- print("catch decision", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ], catch_threshold)
 
         local this_line_text = battleState.game_reader:line_text()
-        text_end = this_line_text:sub(-6, -1)
-        learned_new_move = this_line_text:find(" learned ") ~= nil
+        local text_end = this_line_text:sub(-6, -1)
+        local learned_new_move = this_line_text:find(" learned ") ~= nil
         replacing_move = this_line_text:find("Should a move ") ~= nil
 
         -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
@@ -223,7 +226,7 @@ while true do
                 print("exp gain or something")
                 output_manager.pressA()
             elseif replacing_move then
-                local initDelay = 120
+                local initDelay = 480
                 
                 local active = battleState.game_reader.active
 
@@ -236,8 +239,6 @@ while true do
                     end
                 end
 
-                print(battle_weights.moves_used, move_replacing)
-
                 local done_with_output = false
 
                 if move_replacing == 1 then
@@ -245,9 +246,8 @@ while true do
                         {{}, initDelay},
                         {{A = true}, 1}, 
                         {{up = true}, 5}, 
-                        {{A = true}, 5}, 
-                        {{up = true}, 5}, 
                         {{left = true}, 5},
+                        {{A = true}, 5},
                         {{A = true}, 5}
                     }, 25)
                 elseif move_replacing == 2 then
@@ -256,22 +256,14 @@ while true do
                         {{}, initDelay},
                         {{A = true}, 1}, 
                         {{up = true}, 5},
+                        {{left = true}, 5}, 
+                        {{right = true}, 5}, 
                         {{A = true}, 5},
-                        {{up = true}, 5},
-                        {{
-                        left = true
-                    }, 5}, {{
-                        right = true
-                    }, 5}, {{
-                        A = true
-                    }, 5}}, 25)
+                        {{A = true}, 5}
+                    }, 25)
                 elseif move_replacing == 3 then
                     done_with_output = output_manager.press({
-                        {{}, initDelay},
-                        {{A = true}, 1}, 
-                        {{
-                        up = true
-                    }, 5}, {{
+                        {{}, initDelay}, {{
                         A = true
                     }, 5}, {{
                         up = true
@@ -279,16 +271,15 @@ while true do
                         left = true
                     }, 5}, {{
                         down = true
+                    }, 5}, {{
+                        A = true
                     }, 5}, {{
                         A = true
                     }, 5}}, 25)
                 elseif move_replacing == 4 then
                     done_with_output = output_manager.press({
                         {{}, initDelay},
-                        {{A = true}, 1}, 
-                        {{
-                        up = true
-                    }, 5}, {{
+                        {{A = true}, 1}, {{
                         A = true
                     }, 5}, {{
                         up = true
@@ -300,10 +291,13 @@ while true do
                         right = true
                     }, 5}, {{
                         A = true
+                    }, 5}, {{
+                        A = true
                     }, 5}}, 25)
                 end
                 if done_with_output then
                     battle_weights.moves_used[active+1] = {0, 0, 0, 0}
+                    replacing_move = false
                 end
 
             elseif learned_new_move then
@@ -763,7 +757,8 @@ while true do
         output_manager.pressA()
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
-        if (battle_weights.condition > 0.25) then
+        if (battle_weights.condition > 0.01) then
+            print("mode set to find healing center")
             mode = 2
         else
             mode = 1
@@ -793,6 +788,7 @@ while true do
             if local_path_response == 1 then -- if the destination has been reached    
                 md.gpf.current_path = nil
                 output_manager.pressA()
+                print("healed")
                 battle_weights.condition = 0
                 mode = 0
             end
