@@ -900,7 +900,9 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
 
         // this is inversely proportion to player pokemon because if it wasn't
         // then more pokemon in party would mean more dire condition
-        lastBackpropBatch.condition += tempCondition / playerPokemon;
+        // lastBackpropBatch.condition += tempCondition / playerPokemon;
+
+        lastBackpropBatch.condition = tempCondition;
 
         for (int i = 0; i < LAYERS-1; i++){
             free(errorLayers[i]);

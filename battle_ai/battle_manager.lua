@@ -265,6 +265,8 @@ function BattleManager:act_open()
 
             if #self.game_reader.nicknames_enemy == 0 then
 
+                print("fix")
+
                 local _, team2_raw = BattleManager.get_teams(self.IGReader, self.wild_battle)
 
                 local names_enemy = {}
