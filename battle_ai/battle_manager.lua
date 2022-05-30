@@ -204,6 +204,24 @@ function BattleManager.new()
 end
 
 function BattleManager.act_catch(self)
+    if #self.game_reader.nicknames_enemy == 0 then
+
+        print("fix enemy nicknames")
+
+        local _, team2_raw = BattleManager.get_teams(self.IGReader, self.wild_battle)
+        print("team2_raw", team2_raw)
+
+        if #team2_raw == 0 then
+            return nil
+        end
+
+        local names_enemy = {}
+        for i, v in pairs(team2_raw) do
+            table.insert(names_enemy, v.nickname)
+        end
+        self.game_reader.nicknames_enemy = names_enemy
+    end
+    
     if self.game_reader:get_line() then
         self.queued_switch = nil
         return self:act_open_catch()
@@ -241,6 +259,25 @@ function BattleManager:act_open_catch()
 end
 
 function BattleManager.act(self)
+    print("BattleManager:act")
+    if #self.game_reader.nicknames_enemy == 0 then
+
+        print("fix enemy nicknames")
+
+        local _, team2_raw = BattleManager.get_teams(self.IGReader, self.wild_battle)
+        print("team2_raw", team2_raw)
+
+        if #team2_raw == 0 then
+            return nil
+        end
+
+        local names_enemy = {}
+        for i, v in pairs(team2_raw) do
+            table.insert(names_enemy, v.nickname)
+        end
+        self.game_reader.nicknames_enemy = names_enemy
+    end
+
     if self.game_reader:get_line() then
         self.queued_switch = nil
         return self:act_open()
@@ -249,6 +286,7 @@ function BattleManager.act(self)
     end
 
     -- either 0 for no action, 1 for moveslot 1... 4 for moveslot 4, 5 for switch to party slot 1, 10 for party slot 6 
+    return nil
 end
 
 function BattleManager:act_open()
@@ -263,18 +301,7 @@ function BattleManager:act_open()
         if not using_test_data then
             team1, team2 = BattleManager.get_teams_packed(self.IGReader)
 
-            if #self.game_reader.nicknames_enemy == 0 then
-
-                print("fix")
-
-                local _, team2_raw = BattleManager.get_teams(self.IGReader, self.wild_battle)
-
-                local names_enemy = {}
-                for i, v in pairs(team2_raw) do
-                    table.insert(names_enemy, v.nickname)
-                end
-                self.game_reader.nicknames_enemy = names_enemy
-            end
+            
             -- print(team1)
             -- print(team2)
 

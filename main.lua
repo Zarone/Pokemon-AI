@@ -154,7 +154,7 @@ while true do
                 output_manager.pressA()
                 -- action = battleState:get_switch()
             elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
-                local initDelay = 30
+                local initDelay = 60
                 print('forced switch')
                 is_forced_switch = true
                 local action = battleState:get_switch()
