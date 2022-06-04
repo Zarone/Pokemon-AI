@@ -40,7 +40,7 @@ lmd.pf = { -- pathfinder
     frame_per_move = 60,
     is_warping = false,
     warp_frame_counter = 0,
-    warp_frames_per_warp = 140,
+    warp_frames_per_warp = 340,
 	trying_to_warp_counter = 0,
 	trying_to_warp_limit = 180
 }
@@ -516,6 +516,7 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
 
         if lmd.pf.is_warping then
             if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
+                print("mid-warp")
                 lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
             else
                 -- print("called load_map from is_warping in manage_path_to")
