@@ -46,6 +46,9 @@ function exit()
     print("saving data")
     -- saves global map data
     table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal, mode = mode, battle_weights = battle_weights }, "./navigator/map_cache/global_cache.lua")
+
+    -- saves local map data
+    md.pf.save_map(md.map_id)
 end
 
 -- runs exit function on close

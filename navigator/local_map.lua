@@ -14,7 +14,7 @@ lmd.map_id = nil
 -- 2 is unmovable space -- black
 -- 3 is warp space -- blue
 -- 4 is NPC -- green
-lmd.local_map = {{1}}
+lmd.local_map = {{nil}}
 lmd.map_x_start = 1
 lmd.map_x_end = 1
 lmd.map_y_start = 1
@@ -40,7 +40,7 @@ lmd.pf = { -- pathfinder
     frame_per_move = 60,
     is_warping = false,
     warp_frame_counter = 0,
-    warp_frames_per_warp = 340,
+    warp_frames_per_warp = 390,
 	trying_to_warp_counter = 0,
 	trying_to_warp_limit = 180
 }
@@ -125,9 +125,6 @@ lmd.pf.try_move_end = function(same_pos)
             -- end
 
             -- expand the map
-            print("expand map, not same pos, same map, from", lmd.pf.last_map, lmd.pf.last_x, lmd.pf.last_y, "to", lmd.map_id, lmd.x, lmd.y)
-
-            -- print(lmd.x, lmd.y, lmd.x_offset, lmd.y_offset)
             if (lmd.y + lmd.y_offset + 1 < lmd.map_y_start) then
                 lmd.map_y_start = lmd.y + lmd.y_offset + 1
             elseif (lmd.y + lmd.y_offset + 1 > lmd.map_y_end) then
@@ -200,10 +197,10 @@ lmd.pf.try_move_end = function(same_pos)
                 lmd.local_map[lmd.y_offset + lmd.pf.last_y + lmd.pf.move_y_dir + 1][lmd.x_offset + lmd.pf.last_x +
                     lmd.pf.move_x_dir + 1] = 3
 
+
                 if gmd.map[lmd.pf.last_map] == nil then
                     gmd.map[lmd.pf.last_map] = {}
                 end
-
 
                 g_map_has_warp = false
                 for i, warp in ipairs(gmd.map[lmd.pf.last_map]) do
@@ -223,25 +220,8 @@ lmd.pf.try_move_end = function(same_pos)
                     lmd.pf.last_y + lmd.pf.move_y_dir, lmd.x, lmd.y})
                 end
 
-                -- gmd.map[lmd.pf.last_map] = {mem.get_map(), lmd.pf.last_x + lmd.pf.move_x_dir,
-                --                             lmd.pf.last_y + lmd.pf.move_y_dir}
-
-                -- saves the map to a file
-                export_data = {
-                    map = lmd.local_map,
-                    map_x_start = lmd.map_x_start,
-                    map_x_end = lmd.map_x_end,
-                    map_y_start = lmd.map_y_start,
-                    map_y_end = lmd.map_y_end,
-                    y_offset = lmd.y_offset,
-                    x_offset = lmd.x_offset
-
-                }
-                table.save(export_data, string.format("./navigator/map_cache/%d.lua", (lmd.pf.last_map)))
-                -- print("saved map data to: ", lmd.pf.last_map)
-                -- print("saved map data was: ", export_data)
-
-                -- print("load map called from try_move_end")
+                lmd.pf.save_map(lmd.pf.last_map)
+                
                 lmd.pf.load_map()
 
             end
@@ -290,6 +270,23 @@ lmd.pf.try_move_end = function(same_pos)
             return 3 -- indicate failed to move for reasons unrelated to map
         end
     end
+end
+
+lmd.pf.save_map = function(map_id)
+
+    print("saving local map data to "..string.format("./navigator/map_cache/%d.lua", (map_id)))
+
+    -- saves the map to a file
+    export_data = {
+        map = lmd.local_map,
+        map_x_start = lmd.map_x_start,
+        map_x_end = lmd.map_x_end,
+        map_y_start = lmd.map_y_start,
+        map_y_end = lmd.map_y_end,
+        y_offset = lmd.y_offset,
+        x_offset = lmd.x_offset
+    }
+    table.save(export_data, string.format("./navigator/map_cache/%d.lua", (map_id)))
 end
 
 lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
@@ -353,10 +350,10 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 end
 
 lmd.pf.find_path = function(dest_x, dest_y)
-    print("find path, destination: ", dest_x, dest_y)
-    print("starting stack:", {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}})
-    print("current boundaries: ", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
-    print("first neighbors: ", lmd.pf.evaluate_neighbors(dest_x, dest_y, {lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}))
+    -- print("find path, destination: ", dest_x, dest_y)
+    -- print("starting stack:", {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}})
+    -- print("current boundaries: ", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
+    -- print("first neighbors: ", lmd.pf.evaluate_neighbors(dest_x, dest_y, {lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}))
     local stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack using current player position
     -- local example_node = { x, y, { -- previous nodes -- }, heuristic_cost }
 
@@ -368,8 +365,6 @@ lmd.pf.find_path = function(dest_x, dest_y)
     -- Create a loop that goes through stack. Each iteration, look at the top node, 
     -- rank its available options using a cost function, then add those to the stack best nodes on top.
     
-    local before = os.clock()    
-    -- print("target", dest_x, dest_y)
     while #stack > 0 do
 
         -- get top element of stack
@@ -418,7 +413,6 @@ lmd.pf.find_path = function(dest_x, dest_y)
 
     end
     print("found path", lmd.pf.path)
-    print("loop in find path took", os.clock()-before)
 
 end
 
@@ -430,9 +424,6 @@ lmd.pf.follow_path = function()
         
         dir_x = lmd.pf.path[#lmd.pf.path][1] - (lmd.x_offset + lmd.x + 1)
         dir_y = lmd.pf.path[#lmd.pf.path][2] - (lmd.y_offset + lmd.y + 1)
-
-        -- print(lmd.x_offset, lmd.x, lmd.y_offset, lmd.y, "try_move_start with path: ", lmd.pf.path)
-        print("direction: ", dir_x, dir_y)
 
         lmd.pf.try_move_start(dir_x, dir_y)
 
@@ -516,7 +507,7 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
 
         if lmd.pf.is_warping then
             if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
-                print("mid-warp")
+                -- print("mid-warp", lmd.pf.warp_frame_counter)
                 lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
             else
                 -- print("called load_map from is_warping in manage_path_to")
@@ -588,7 +579,7 @@ lmd.wander_to = nil
 
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
 
-    if lmd.local_map[lmd.y_offset + lmd.y + 1] and lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] == nil then
+    if lmd.local_map[lmd.y_offset + lmd.y + 1] and lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] == nil and not lmd.pf.is_warping then
         lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] = 1
     end
 
@@ -681,7 +672,6 @@ lmd.wander = function() -- the point of this function is to expand the bot's kno
 
                 -- if this neighbor is unknown
                 if (lmd.local_map[insert_y] == nil or (lmd.local_map[insert_y][insert_x] == nil)) then
-                    print("set wander to",{insert_x, insert_y})
                     lmd.wander_to = {insert_x, insert_y}
                     return 1
                 end
