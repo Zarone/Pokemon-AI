@@ -40,7 +40,7 @@ lmd.pf = { -- pathfinder
     frame_per_move = 60,
     is_warping = false,
     warp_frame_counter = 0,
-    warp_frames_per_warp = 390,
+    warp_frames_per_warp = 410,
 	trying_to_warp_counter = 0,
 	trying_to_warp_limit = 180
 }
@@ -501,19 +501,21 @@ lmd.pf.load_map = function()
     end
 end
 
+local function manage_warp()
+    if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
+        lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
+    else
+        lmd.pf.load_map()
+        lmd.pf.is_warping = false
+    end
+end
+
 lmd.pf.manage_path_to = function(dest_x, dest_y)
 
     if #lmd.pf.path == 0 then
 
         if lmd.pf.is_warping then
-            if lmd.pf.warp_frame_counter < lmd.pf.warp_frames_per_warp then
-                -- print("mid-warp", lmd.pf.warp_frame_counter)
-                lmd.pf.warp_frame_counter = lmd.pf.warp_frame_counter + 1
-            else
-                -- print("called load_map from is_warping in manage_path_to")
-                lmd.pf.load_map()
-                lmd.pf.is_warping = false
-            end
+            manage_warp()
         else
             if lmd.x + lmd.x_offset + 1 == dest_x and lmd.y + lmd.y_offset + 1 == dest_y then
                 return 1 -- indicates player is at destination
@@ -579,7 +581,14 @@ lmd.wander_to = nil
 
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
 
-    if lmd.local_map[lmd.y_offset + lmd.y + 1] and lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] == nil and not lmd.pf.is_warping then
+    if lmd.pf.is_warping then
+        print("premature return from wander because is_warping")
+        manage_warp()
+        return nil
+    end
+
+    if lmd.local_map[lmd.y_offset + lmd.y + 1] and lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] == nil then
+        print("set", lmd.x_offset + lmd.x+1, lmd.y_offset + lmd.y + 1, "to 1")
         lmd.local_map[lmd.y_offset + lmd.y + 1][lmd.x_offset + lmd.x+1] = 1
     end
 

@@ -806,7 +806,6 @@ while true do
                     local find_result = md.gpf.find_global_path(to_map, to_x, to_y)
                     -- print("find_result", find_result)
                     if not find_result then
-                        local before_wander = os.clock()
                         md.wander()
                     else
                         -- print("md.gpf.current_path[1]", md.gpf.current_path[1], "from map", mem.get_map())
