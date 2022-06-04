@@ -308,22 +308,15 @@ while true do
                 print("learned new move")
                 print("")
             elseif can_move and #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
-                -- print("want to catch this \'mon")
-                -- print("type 1 weight: ", battle_weights.type_info[ enemy_pokemon1_types[1]])
-                -- print("type 2 weight: ", battle_weights.type_info[ enemy_pokemon1_types[2]])
-
-                -- print(battleState.game_reader.last_str)
-
                 battle_weights.condition = 0.3
 
                 local initDelay = 10
                 local action_info = battleState:act_catch()
-                -- print("action_info", action_info)
                 local action
+
                 if action_info ~= nil then
                     action = action_info.move
                 end 
-                -- print("action", action)
 
                 if action == 0 then
                     print("reset output manager")
@@ -561,7 +554,6 @@ while true do
 
                     end
                 end
-
 
                 if(action == nil) then
                     output_manager.current_sequence_index = 1

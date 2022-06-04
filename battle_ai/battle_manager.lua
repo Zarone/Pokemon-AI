@@ -259,7 +259,6 @@ function BattleManager:act_open_catch()
 end
 
 function BattleManager.act(self)
-    print("BattleManager:act")
     if #self.game_reader.nicknames_enemy == 0 then
 
         print("fix enemy nicknames")
