@@ -67,6 +67,8 @@ local enemy_pokemon1_types
 local catch_threshold = 0.01
 local enemy_pokemon1_types = {}
 
+local heal_threshold = 0.01
+
 local replacing_move = false
 
 while true do
@@ -148,12 +150,7 @@ while true do
         -- this check has to happen or else the professor showing the player how
         -- to catch pokemon would crash the game
         if ((not battleState.game_reader.wild_battle or #battleState.IGReader:get(5) > 0)) then
-            if battleState.game_reader.wild_battle and memory.readbyte(0x022DF58E) == 33 then -- if it's asking "switch or run"
-                -- print("if it's asking switch or run")
-                print("switch or run")
-                output_manager.pressA()
-                -- action = battleState:get_switch()
-            elseif r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
+            if r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
                 local initDelay = 60
                 print('forced switch')
                 is_forced_switch = true
@@ -308,7 +305,7 @@ while true do
                 print("learned new move")
                 print("")
             elseif can_move and #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
-                battle_weights.condition = 0.3
+                battle_weights.condition = heal_threshold + 1
 
                 local initDelay = 10
                 local action_info = battleState:act_catch()
@@ -516,31 +513,35 @@ while true do
                         output_manager.reset()
                     end
                     output_manager.press({
-                        {{A = true}, 5},
-                    }, 5)
+                        {{A = true}, 1},
+                    }, 120)
                 end
                 
             elseif can_move then
                 local initDelay = 10
                 local action_info = battleState:act()
                 local action
-
+                
                 local active = battleState.game_reader.active
                 
                 if action_info ~= nil then 
                     action = action_info.move
                     if action ~= 0 and last_battle_action ~= action then
                         
-                        -- condition manages HP and status conditions
-                        print("condition pre", battle_weights.condition)
-                        print("action_info", action_info)
-                        battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
-                        print("condition", battle_weights.condition)
+                        if (action_info.condition) then
+                            -- condition manages HP and status conditions
+                            print("condition pre", battle_weights.condition)
+                            print("action_info", action_info)
+                            battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
+                            print("condition", battle_weights.condition)
+                        end
                         
-                        -- this manages which types the player wants to catch
-                        for i = 1, 17 do
-                            battle_weights.type_info[i] = (battle_weights.type_info[i] + action_info.type_info[i]) / 2
-                            print(i, battle_weights.type_info[i])
+                        if (action_info.type_info) then
+                            -- this manages which types the player wants to catch
+                            for i = 1, 17 do
+                                battle_weights.type_info[i] = (battle_weights.type_info[i] + action_info.type_info[i]) / 2
+                                print(i, battle_weights.type_info[i])
+                            end
                         end
 
                         -- this manages which moves the player would delete next
@@ -556,10 +557,12 @@ while true do
                 end
 
                 if(action == nil) then
-                    output_manager.current_sequence_index = 1
+                    if output_manager.current_sequence_index > 1 then
+                        output_manager.reset()
+                    end
                     output_manager.press({
-                        {{A = true}, 5}
-                    }, 25)
+                        {{A = true}, 1},
+                    }, 120)
                 end
                 last_battle_action = action
 
@@ -750,7 +753,7 @@ while true do
         output_manager.pressA()
     elseif (mode == 0) then
         print("battle_weights.condition: ", battle_weights.condition)
-        if (battle_weights.condition > 0.01) then
+        if (battle_weights.condition > heal_threshold) then
             print("mode set to find healing center")
             mode = 2
         else
