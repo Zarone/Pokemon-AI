@@ -350,7 +350,7 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
 end
 
 lmd.pf.find_path = function(dest_x, dest_y)
-    -- print("find path, destination: ", dest_x, dest_y)
+    print("find path, destination: ", dest_x, dest_y)
     -- print("starting stack:", {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}})
     -- print("current boundaries: ", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
     -- print("first neighbors: ", lmd.pf.evaluate_neighbors(dest_x, dest_y, {lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}))
@@ -512,16 +512,17 @@ end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
 
+    -- print("manage path to", dest_x, dest_y)
     if #lmd.pf.path == 0 then
+        
+        if lmd.x + lmd.x_offset + 1 == dest_x and lmd.y + lmd.y_offset + 1 == dest_y then
+            return 1 -- indicates player is at destination
+        end
 
         if lmd.pf.is_warping then
             manage_warp()
         else
-            if lmd.x + lmd.x_offset + 1 == dest_x and lmd.y + lmd.y_offset + 1 == dest_y then
-                return 1 -- indicates player is at destination
-            end
-            lmd.pf.find_path(dest_x, dest_y)
-            
+            lmd.pf.find_path(dest_x, dest_y)    
         end
     else
         -- lmd.pf.follow_path can return:
@@ -542,6 +543,8 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
 end
 
 lmd.pf.abs_manage_path_to = function(dest_x, dest_y)
+    -- print("abs manage path to", dest_x, dest_y)
+
     return lmd.pf.manage_path_to(dest_x + lmd.x_offset + 1, dest_y + lmd.y_offset + 1)
 end
 
@@ -553,6 +556,7 @@ lmd.gpf = { -- global pathfinder
 -- if we're okay with reaching either to_map or another
 -- map, whichever we find first
 lmd.gpf.find_global_path = function(to_map, to_x, to_y, secondary_to_map)
+    print("to", to_map, to_x, to_y)
     if not lmd.pf.ismoving then 
         -- print("called load map in find_global_path")
         lmd.pf.load_map() 

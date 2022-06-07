@@ -16,6 +16,8 @@ end
 
 gmd.go_to_map = function(current_map, current_x, current_y, to_map, secondary_to_map) -- returns path
     -- print("go to map: start")
+    -- print("going to", to_map)
+    -- print("current global map", gmd.map)
     -- Dijkra's inspired algorithm, because there's no heuristic
 
     -- Create a queue
@@ -122,11 +124,9 @@ gmd.go_to_map = function(current_map, current_x, current_y, to_map, secondary_to
                 end
                 
             end
-        end
-        
-
-        
+        end        
     end
+    
     return best_path
 
 end
