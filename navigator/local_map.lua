@@ -235,7 +235,7 @@ lmd.pf.try_move_end = function(same_pos)
 
         local can_player_move = mem.character_can_move()
 
-        print(can_player_move)
+        -- print(can_player_move)
 
         if can_player_move and not (lmd.is_npc_at(lmd.x + lmd.x_offset + lmd.pf.move_x_dir + 1,
             lmd.y + lmd.y_offset + lmd.pf.move_y_dir + 1)) then
@@ -370,11 +370,6 @@ lmd.pf.find_path = function(dest_x, dest_y)
         -- get top element of stack
         local current_node = stack[#stack]
 
-        -- print("")
-        -- print("current_node", current_node)
-        -- print("stack", stack)
-        -- print("visited_nodes", visited_nodes_x, visited_nodes_y)
-
         if (current_node[4] < 0.01) then
             for i = #current_node[3], 1, -1 do
                 table.insert(lmd.pf.path, (current_node[3][i]))
@@ -384,9 +379,6 @@ lmd.pf.find_path = function(dest_x, dest_y)
 
         -- find neighbors of element
         local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
-        -- print(current_node, current_node_neighbors)
-
-        -- print("remove from stack: ", stack[#stack])
         
         -- remove top element of stack
         table.remove(stack)
@@ -407,13 +399,10 @@ lmd.pf.find_path = function(dest_x, dest_y)
                 table.insert(stack, #stack + 1, node)
                 table.insert(visited_nodes_x, #visited_nodes_x + 1, node[1])
                 table.insert(visited_nodes_y, #visited_nodes_y + 1, node[2])
-                -- print("add to stack: ", node)
             end
         end
 
     end
-    print("found path", lmd.pf.path)
-
 end
 
 lmd.pf.follow_path = function()
@@ -436,7 +425,6 @@ lmd.pf.follow_path = function()
         -- 4: player changed maps
 
         move_result = lmd.pf.try_move()
-        if move_result ~= 1 then print("about to clear frame_counter with move_result", move_result) end
         if move_result == 0 then
             lmd.pf.ismoving = false
             lmd.pf.frame_counter = 0
@@ -466,7 +454,6 @@ lmd.pf.follow_path = function()
 end
 
 lmd.pf.load_map = function()
-    -- print("called load_map() at map", lmd.map_id, "=>", mem.get_map())
     if lmd.map_id~=mem.get_map() then
         lmd.map_id = mem.get_map()
         lmd.wander_to = nil
@@ -512,7 +499,6 @@ end
 
 lmd.pf.manage_path_to = function(dest_x, dest_y)
 
-    -- print("manage path to", dest_x, dest_y)
     if #lmd.pf.path == 0 then
         
         if lmd.x + lmd.x_offset + 1 == dest_x and lmd.y + lmd.y_offset + 1 == dest_y then
@@ -543,8 +529,6 @@ lmd.pf.manage_path_to = function(dest_x, dest_y)
 end
 
 lmd.pf.abs_manage_path_to = function(dest_x, dest_y)
-    -- print("abs manage path to", dest_x, dest_y)
-
     return lmd.pf.manage_path_to(dest_x + lmd.x_offset + 1, dest_y + lmd.y_offset + 1)
 end
 
@@ -556,7 +540,6 @@ lmd.gpf = { -- global pathfinder
 -- if we're okay with reaching either to_map or another
 -- map, whichever we find first
 lmd.gpf.find_global_path = function(to_map, to_x, to_y, secondary_to_map)
-    print("to", to_map, to_x, to_y)
     if not lmd.pf.ismoving then 
         -- print("called load map in find_global_path")
         lmd.pf.load_map() 
@@ -586,7 +569,6 @@ lmd.wander_to = nil
 lmd.wander = function() -- the point of this function is to expand the bot's knowledge of the map
 
     if lmd.pf.is_warping then
-        print("premature return from wander because is_warping")
         manage_warp()
         return nil
     end

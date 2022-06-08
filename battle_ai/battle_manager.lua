@@ -203,6 +203,17 @@ function BattleManager.new()
     return instance
 end
 
+function BattleManager.update_fainted_in_log(self)
+    local team_health = StateReader.get_player_health(#self.IGReader:get(1))
+    
+    local new_fainted_info = {false, false, false, false, false, false}
+    for i = 1, 6 do
+        new_fainted_info[i] = team_health[i] < 1
+    end
+
+    self.game_reader:update_fainted(new_fainted_info)
+end
+
 function BattleManager.act_catch(self)
     if #self.game_reader.nicknames_enemy == 0 then
 
@@ -224,6 +235,7 @@ function BattleManager.act_catch(self)
     
     if self.game_reader:get_line() then
         self.queued_switch = nil
+        self:update_fainted_in_log()
         return self:act_open_catch()
     else
         self:act_close()
@@ -279,6 +291,7 @@ function BattleManager.act(self)
 
     if self.game_reader:get_line() then
         self.queued_switch = nil
+        self:update_fainted_in_log()
         return self:act_open()
     else
         self:act_close()

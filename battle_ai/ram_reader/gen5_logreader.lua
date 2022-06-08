@@ -17,6 +17,46 @@ function move_to_id(move)
     return move:gsub(" ", ""):gsub("-", ""):lower()
 end
 
+-- pokemon_info is array of six boolean values which tell
+-- whether or not the pokemon is fainted
+function GameReader:update_fainted(pokemon_info)
+    local fainted_in_update = 0
+    for i = 1, 6 do
+        if pokemon_info[i] then
+            fainted_in_update = fainted_in_update + 1    
+        end
+    end
+
+    local fainted_previously = 0
+    for i = 1, 6 do
+        if self.pokemon_order[i] == -1 then
+            fainted_previously = fainted_previously + 1
+        end
+    end
+
+    print("fainted_in_update", fainted_in_update)
+    print("fainted previously", fainted_previously)
+
+    if fainted_in_update > fainted_previously then
+        local new_pokemon_order = {}
+        for i = 1, 6 do
+            local this_pokemon_index = self.pokemon_order[i]
+
+            -- if the pokemon is not set to shouldn't be
+            if self.pokemon_order[i] ~= -1 and not pokemon_info[this_pokemon_index] then
+                table.insert(new_pokemon_order, self.pokemon_order[i])
+            end
+        end
+
+        for i = 1, fainted_in_update do
+            table.insert(new_pokemon_order, -1)
+        end
+
+        self.pokemon_order = new_pokemon_order
+        print("new order", self.pokemon_order)
+    end
+end
+
 function GameReader.new(nicknames, nicknames_enemy, p1_hp_array)
     instance = setmetatable({}, GameReader)
 
