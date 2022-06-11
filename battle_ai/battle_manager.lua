@@ -208,8 +208,11 @@ function BattleManager.update_fainted_in_log(self)
     
     local new_fainted_info = {false, false, false, false, false, false}
     for i = 1, 6 do
+        -- print("team_health[", tostring(i) ,"]", team_health[i])
         new_fainted_info[i] = team_health[i] < 1
     end
+
+    print("passing fainted info", new_fainted_info)
 
     self.game_reader:update_fainted(new_fainted_info)
 end

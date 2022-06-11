@@ -40,15 +40,18 @@ function GameReader:update_fainted(pokemon_info)
     if fainted_in_update > fainted_previously then
         local new_pokemon_order = {}
         for i = 1, 6 do
-            local this_pokemon_index = self.pokemon_order[i]
+            local this_pokemon_index = self.pokemon_order[i] + 1
+            print("checking pokemon index", this_pokemon_index)
 
-            -- if the pokemon is not set to shouldn't be
+            -- if the pokemon is not set to fainted shouldn't be
             if self.pokemon_order[i] ~= -1 and not pokemon_info[this_pokemon_index] then
+                print("insert for pokemon", i, "with value", self.pokemon_order[i])
                 table.insert(new_pokemon_order, self.pokemon_order[i])
             end
         end
 
         for i = 1, fainted_in_update do
+            print("blank insert #", i)
             table.insert(new_pokemon_order, -1)
         end
 
