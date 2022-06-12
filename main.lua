@@ -154,7 +154,7 @@ while true do
         -- to catch pokemon would crash the game
         if ((not battleState.game_reader.wild_battle or #battleState.IGReader:get(5) > 0)) then
             if r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
-                local initDelay = 60
+                local initDelay = 90
                 print('forced switch')
                 is_forced_switch = true
                 local action = battleState:get_switch()

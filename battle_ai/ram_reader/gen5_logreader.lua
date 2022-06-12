@@ -34,10 +34,12 @@ function GameReader:update_fainted(pokemon_info)
         end
     end
 
-    print("fainted_in_update", fainted_in_update)
-    print("fainted previously", fainted_previously)
-
+    
     if fainted_in_update > fainted_previously then
+        
+        print("fainted_in_update", fainted_in_update)
+        print("fainted previously", fainted_previously)
+
         local new_pokemon_order = {}
         for i = 1, 6 do
             local this_pokemon_index = self.pokemon_order[i] + 1

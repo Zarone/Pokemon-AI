@@ -200,6 +200,9 @@ function BattleManager.new()
         queued_switch = nil,
         wild_battle = wild_battle
     }, BattleManager)
+
+    instance:update_fainted_in_log()
+
     return instance
 end
 
@@ -238,7 +241,6 @@ function BattleManager.act_catch(self)
     
     if self.game_reader:get_line() then
         self.queued_switch = nil
-        self:update_fainted_in_log()
         return self:act_open_catch()
     else
         self:act_close()
@@ -294,7 +296,6 @@ function BattleManager.act(self)
 
     if self.game_reader:get_line() then
         self.queued_switch = nil
-        self:update_fainted_in_log()
         return self:act_open()
     else
         self:act_close()
@@ -413,6 +414,8 @@ function BattleManager:get_switch()
         local state = self:getState()
         local targetSwitchPokemon = processor.get_switch(frame, state)-4
         local thisMove = nil
+        print("targetSwitchPokemon",targetSwitchPokemon)
+        print("self.game_reader.pokemon_order",self.game_reader.pokemon_order)
         for i = 1, 6 do
             if self.game_reader.pokemon_order[i] == targetSwitchPokemon then
                 thisMove = i
