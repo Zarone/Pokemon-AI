@@ -74,13 +74,14 @@ local heal_threshold = 0.01
 
 local replacing_move = false
 
+local is_in_battle = false
+
 while true do
     if not is_in_battle then md.update_map(true) end
-    controls = joypad.get(1)
-    is_text_onscreen = mem.is_dialogue_onscreen()
+    local is_text_onscreen = mem.is_dialogue_onscreen()
 
     is_in_battle = mem.is_in_battle()
-    can_move = mem.can_move() -- this refers to battle, not actual player movement
+    local can_move = mem.can_move() -- this refers to battle, not actual player movement
     
         
     r1, g1, b1 = gui.getpixel(235, 172)
@@ -147,6 +148,19 @@ while true do
         local text_end = this_line_text:sub(-6, -1)
         local learned_new_move = this_line_text:find(" learned ") ~= nil
         replacing_move = this_line_text:find("Should a move ") ~= nil
+        local has_caught_this_pokemon = false
+        -- if (battleState.game_reader.wild_battle) then
+        if true then
+            local enemy_nickname = battleState.game_reader.nicknames_enemy[1]
+            print("enemy_nickname", enemy_nickname)
+            for i = 1, 6 do
+                if battleState.game_reader.nicknames[i] == enemy_nickname then
+                    has_caught_this_pokemon = true
+                    break
+                end
+            end
+        end
+        print("has caught this pokemon", has_caught_this_pokemon)
 
         -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
 
@@ -155,10 +169,9 @@ while true do
         if ((not battleState.game_reader.wild_battle or #battleState.IGReader:get(5) > 0)) then
             if r1 == 8 and g1 == 49 and b1 == 82 or is_forced_switch then -- if forced switch
                 local initDelay = 90
-                print('forced switch')
                 is_forced_switch = true
                 local action = battleState:get_switch()
-                print("action =", action)
+                print("forced switch, action =", action)
                 if action == 0 then
                     print("reset output manager")
                     output_manager.reset()
@@ -307,7 +320,12 @@ while true do
                 output_manager.pressA()
                 print("learned new move")
                 print("")
-            elseif can_move and #battleState.IGReader:get(1) < 6 and battleState.game_reader.wild_battle and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) and mem.has_ball() then
+            elseif can_move and #battleState.IGReader:get(1) < 6
+                and battleState.game_reader.wild_battle 
+                and not has_caught_this_pokemon
+                and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold) 
+                and mem.has_ball()
+            then
                 battle_weights.condition = heal_threshold + 1
 
                 local initDelay = 10

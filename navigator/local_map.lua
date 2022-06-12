@@ -303,11 +303,11 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
             (lmd.local_map[insert_y] ~= nil and lmd.local_map[insert_y][insert_x] ~= 2)) then
 
             -- if the neighbor is an npc
-            npc_bool = lmd.is_npc_at(insert_x, insert_y)
+            local npc_bool = lmd.is_npc_at(insert_x, insert_y)
 
             if not npc_bool then
 
-                h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
+                local h_cost = lmd.pf.find_heuristic_cost(insert_x, insert_y, dest_x, dest_y)
 
                 -- if it's not a warp
                 if lmd.local_map[insert_y] == nil or lmd.local_map[insert_y][insert_x] ~= 3 or h_cost < 0.01 then
@@ -326,9 +326,9 @@ lmd.pf.evaluate_neighbors = function(dest_x, dest_y, given_node)
                     end
 
                     -- the reason for this loop is to find the ideal place to insert neighbor
-                    -- you want the best nodes to have highest indexes on the stack
-                    i = 1
-                    while i < #neighbors + 1 and h_cost + #new_node_path < #neighbors[i][3] + neighbors[i][4] do
+                    -- you want the best (lowest cost) nodes to have lowest indexes on the priority queue
+                    local i = 1
+                    while i < #neighbors + 1 and h_cost + #new_node_path > #neighbors[i][3] + neighbors[i][4] do
                         i = i + 1
                     end
 
@@ -351,10 +351,10 @@ end
 
 lmd.pf.find_path = function(dest_x, dest_y)
     print("find path, destination: ", dest_x, dest_y)
-    -- print("starting stack:", {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}})
+    -- print("starting priority_queue:", {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}})
     -- print("current boundaries: ", lmd.map_x_start, lmd.map_y_start, lmd.map_x_end, lmd.map_y_end)
     -- print("first neighbors: ", lmd.pf.evaluate_neighbors(dest_x, dest_y, {lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}))
-    local stack = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create stack using current player position
+    local priority_queue = {{lmd.x_offset + lmd.x + 1, lmd.y_offset + lmd.y + 1, {}, 1}} -- create priority queue using current player position
     -- local example_node = { x, y, { -- previous nodes -- }, heuristic_cost }
 
     -- the x, y or node 1 would be visited_nodes_x[1], visited_nodes_y[1]
@@ -362,96 +362,97 @@ lmd.pf.find_path = function(dest_x, dest_y)
     local visited_nodes_x = {} -- tracks the visited x-coordinates
     local visited_nodes_y = {} -- tracks the visited y-coordinates
 
-    -- Create a loop that goes through stack. Each iteration, look at the top node, 
-    -- rank its available options using a cost function, then add those to the stack best nodes on top.
+    -- Create a loop that goes through priority queue. Each iteration, look at the top node, 
+    -- rank its available options using a cost function, then add those to the priority queue best nodes on top.
     
-    while #stack > 0 do
+    while #priority_queue > 0 do
 
         
-        -- get top element of stack
-        local current_node = stack[#stack]
-
+        -- get top element of priority_queue
+        local current_node = priority_queue[#priority_queue]
+        -- print("")
+        -- print("current node", current_node)
         
-        lmd.debug_map_view(current_node[1], current_node[2])
+        lmd.debug_map_view(current_node[1]-lmd.x_offset-lmd.x-1, current_node[2]-lmd.y_offset-lmd.y-1)
         lmd.debug_text()
 
         -- show player
         gui.box(
-            128 - lmd.debug_box_size + lmd.debug_box_margin * -current_node[1],
-            90 - lmd.debug_box_size + lmd.debug_box_margin * -current_node[2],
-            128 + lmd.debug_box_size + lmd.debug_box_margin * -current_node[1],
-            90 + lmd.debug_box_size + lmd.debug_box_margin * -current_node[2],
+            128 - lmd.debug_box_size - lmd.debug_box_margin * (current_node[1]-lmd.x_offset-lmd.x-1),
+            90 - lmd.debug_box_size - lmd.debug_box_margin * (current_node[2]-lmd.y_offset-lmd.y-1),
+            128 + lmd.debug_box_size - lmd.debug_box_margin * (current_node[1]-lmd.x_offset-lmd.x-1),
+            90 + lmd.debug_box_size - lmd.debug_box_margin * (current_node[2]-lmd.y_offset-lmd.y-1),
             {255, 0, 0, 255}, {255, 255, 255, 255}
         )
 
         -- show path to current node
         for i = 1, #(current_node[3])-1 do
             gui.box(
-                128 - lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][1] - current_node[1] - lmd.x - lmd.x_offset - 1),
-                90 - lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][2] - current_node[2] - lmd.y - lmd.y_offset - 1),
-                128 + lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][1] - current_node[1] - lmd.x - lmd.x_offset - 1),
-                90 + lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][2] - current_node[2] - lmd.y - lmd.y_offset - 1),
+                128 - lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][1] - current_node[1]),
+                90 - lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][2] - current_node[2]),
+                128 + lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][1] - current_node[1]),
+                90 + lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][2] - current_node[2]),
                 {234, 185, 16, 255} , {255, 255, 255, 255}
             )   
         end
 
         -- show current node
         gui.box(
-            128 - lmd.debug_box_size - lmd.debug_box_margin * (lmd.x + lmd.x_offset + 1),
-            90 - lmd.debug_box_size - lmd.debug_box_margin * (lmd.y + lmd.y_offset + 1),
-            128 + lmd.debug_box_size - lmd.debug_box_margin * (lmd.x + lmd.x_offset + 1),
-            90 + lmd.debug_box_size - lmd.debug_box_margin * (lmd.y + lmd.y_offset + 1),
+            128 - lmd.debug_box_size,
+            90 - lmd.debug_box_size,
+            128 + lmd.debug_box_size,
+            90 + lmd.debug_box_size,
             {134, 185, 196, 255} , {255, 255, 255, 255}
         )
         
         
-        print("")
-        -- for i = 1, #stack do
-        --     print(stack[i][1], stack[i][2], stack[i][4])
-        -- end
-
-        -- makes sure we haven't alrady checked this node
-        local has_been_visited = false
-        for check_index, checking_x in pairs(visited_nodes_x) do
-            if (checking_x == current_node[1] and visited_nodes_y[check_index] == current_node[2]) then
-                has_been_visited = true
-                break
-            end
-        end
-        print("current node", current_node[1], current_node[2], "visited", has_been_visited, "cost", current_node[4])
-
-        -- remove top element of stack
-        table.remove(stack)
-
-        if not has_been_visited then
-            -- if this node is the destination
-            if (current_node[4] < 0.01) then
-    
-                -- insert the path to this node
-                for i = #current_node[3], 1, -1 do
-                    table.insert(lmd.pf.path, (current_node[3][i]))
-                end
-                break
-            end
-    
-            -- find neighbors of element
-            local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
-            
-    
-            -- add neighbors to stack
-            for _, node in pairs(current_node_neighbors) do
-    
-                print("adding node", node[1], node[2], node[4])
-                table.insert(stack, #stack + 1, node)
+        -- remove top element of priority_queue
+        table.remove(priority_queue)
                 
-            end
-    
-            table.insert(visited_nodes_x, #visited_nodes_x + 1, current_node[1])
-            table.insert(visited_nodes_y, #visited_nodes_y + 1, current_node[2])
-        end
-        emu.frameadvance()
+        -- if this node is the destination
+        if (current_node[4] < 0.01) then
 
+            -- insert the path to this node
+            for i = #current_node[3], 1, -1 do
+                table.insert(lmd.pf.path, (current_node[3][i]))
+            end
+            break
+        end
+
+        -- find neighbors of element
+        local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
+
+        local new_items_for_queue = {}
+
+        local insert_index = #priority_queue + 1
+
+        -- add neighbors to priority queue
+        for _, node in pairs(current_node_neighbors) do
+            -- makes sure we haven't alrady checked this node
+            local has_been_visited = false
+            for check_index, checking_x in pairs(visited_nodes_x) do
+                if (checking_x == node[1] and visited_nodes_y[check_index] == node[2]) then
+                    has_been_visited = true
+                    break
+                end
+            end
+            -- print("node", node[1], node[2], node[4], "has visited", has_been_visited)
+            if not has_been_visited then
+
+                while insert_index > 1 and node[4] > priority_queue[insert_index - 1][4] do
+                    insert_index = insert_index - 1
+                end
+
+                table.insert(priority_queue, insert_index, node)
+                table.insert(visited_nodes_x, #visited_nodes_x + 1, node[1])
+                table.insert(visited_nodes_y, #visited_nodes_y + 1, node[2])
+            end
+            
+        end
+
+        emu.frameadvance()
     end
+
 end
 
 lmd.pf.follow_path = function()
@@ -838,10 +839,10 @@ function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
     return false
 end
 
-function lmd.debug_map_view(optional_view_offset_x, optional_view_offset_y)
+function lmd.debug_map_view(view_offset_x, view_offset_y)
 
-    local view_offset_x = optional_view_offset_x or 0
-    local view_offset_y = optional_view_offset_y or 0
+    local view_offset_x = view_offset_x or 0
+    local view_offset_y = view_offset_y or 0
 
     if lmd.pf.is_warping then
         return
@@ -849,9 +850,9 @@ function lmd.debug_map_view(optional_view_offset_x, optional_view_offset_y)
     -- print(lmd.map_y_start, lmd.map_y_end, lmd.map_x_start, lmd.map_x_end)
     for i = lmd.map_y_start, lmd.map_y_end do -- goes through all the rows
 
-        if math.abs(lmd.y + lmd.y_offset - (i - 1)) < lmd.vertical_limit then
+        if math.abs(view_offset_y + lmd.y + lmd.y_offset - (i - 1)) < lmd.vertical_limit then
             for j = lmd.map_x_start, lmd.map_x_end do -- goes through all the columns in the row
-                if math.abs(lmd.x + lmd.x_offset - (j - 1)) < lmd.horizontal_limit then
+                if math.abs(view_offset_x + lmd.x + lmd.x_offset - (j - 1)) < lmd.horizontal_limit then
                     if lmd.local_map == nil then
                         print("debug_map: error in map, here's the map and the search coordinates: ", lmd.local_map, i, j)
                         lmd.pf.load_map()
