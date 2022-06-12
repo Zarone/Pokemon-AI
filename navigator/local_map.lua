@@ -367,46 +367,89 @@ lmd.pf.find_path = function(dest_x, dest_y)
     
     while #stack > 0 do
 
-
-        print("")
-        print("stack", stack)
-        print("visited_nodes_x", visited_nodes_x)
-        print("visited_nodes_y", visited_nodes_y)
-
+        
         -- get top element of stack
         local current_node = stack[#stack]
 
-        if (current_node[4] < 0.01) then
-            for i = #current_node[3], 1, -1 do
-                table.insert(lmd.pf.path, (current_node[3][i]))
-            end
-            break
+        
+        lmd.debug_map_view(current_node[1], current_node[2])
+        lmd.debug_text()
+
+        -- show player
+        gui.box(
+            128 - lmd.debug_box_size + lmd.debug_box_margin * -current_node[1],
+            90 - lmd.debug_box_size + lmd.debug_box_margin * -current_node[2],
+            128 + lmd.debug_box_size + lmd.debug_box_margin * -current_node[1],
+            90 + lmd.debug_box_size + lmd.debug_box_margin * -current_node[2],
+            {255, 0, 0, 255}, {255, 255, 255, 255}
+        )
+
+        -- show path to current node
+        for i = 1, #(current_node[3])-1 do
+            gui.box(
+                128 - lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][1] - current_node[1] - lmd.x - lmd.x_offset - 1),
+                90 - lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][2] - current_node[2] - lmd.y - lmd.y_offset - 1),
+                128 + lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][1] - current_node[1] - lmd.x - lmd.x_offset - 1),
+                90 + lmd.debug_box_size + lmd.debug_box_margin*(current_node[3][i][2] - current_node[2] - lmd.y - lmd.y_offset - 1),
+                {234, 185, 16, 255} , {255, 255, 255, 255}
+            )   
         end
 
-        -- find neighbors of element
-        local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
+        -- show current node
+        gui.box(
+            128 - lmd.debug_box_size - lmd.debug_box_margin * (lmd.x + lmd.x_offset + 1),
+            90 - lmd.debug_box_size - lmd.debug_box_margin * (lmd.y + lmd.y_offset + 1),
+            128 + lmd.debug_box_size - lmd.debug_box_margin * (lmd.x + lmd.x_offset + 1),
+            90 + lmd.debug_box_size - lmd.debug_box_margin * (lmd.y + lmd.y_offset + 1),
+            {134, 185, 196, 255} , {255, 255, 255, 255}
+        )
         
+        
+        print("")
+        -- for i = 1, #stack do
+        --     print(stack[i][1], stack[i][2], stack[i][4])
+        -- end
+
+        -- makes sure we haven't alrady checked this node
+        local has_been_visited = false
+        for check_index, checking_x in pairs(visited_nodes_x) do
+            if (checking_x == current_node[1] and visited_nodes_y[check_index] == current_node[2]) then
+                has_been_visited = true
+                break
+            end
+        end
+        print("current node", current_node[1], current_node[2], "visited", has_been_visited, "cost", current_node[4])
+
         -- remove top element of stack
         table.remove(stack)
 
-        -- add neighbors to stack
-        for _, node in pairs(current_node_neighbors) do
-
-            -- makes sure we haven't alrady checked this node
-            has_been_visited = false
-            for check_index, checking_x in pairs(visited_nodes_x) do
-                if (checking_x == node[1] and visited_nodes_y[check_index] == node[2]) then
-                    has_been_visited = true
-                    break
+        if not has_been_visited then
+            -- if this node is the destination
+            if (current_node[4] < 0.01) then
+    
+                -- insert the path to this node
+                for i = #current_node[3], 1, -1 do
+                    table.insert(lmd.pf.path, (current_node[3][i]))
                 end
+                break
             end
-
-            if not has_been_visited then
+    
+            -- find neighbors of element
+            local current_node_neighbors = lmd.pf.evaluate_neighbors(dest_x, dest_y, current_node)
+            
+    
+            -- add neighbors to stack
+            for _, node in pairs(current_node_neighbors) do
+    
+                print("adding node", node[1], node[2], node[4])
                 table.insert(stack, #stack + 1, node)
-                table.insert(visited_nodes_x, #visited_nodes_x + 1, node[1])
-                table.insert(visited_nodes_y, #visited_nodes_y + 1, node[2])
+                
             end
+    
+            table.insert(visited_nodes_x, #visited_nodes_x + 1, current_node[1])
+            table.insert(visited_nodes_y, #visited_nodes_y + 1, current_node[2])
         end
+        emu.frameadvance()
 
     end
 end
@@ -795,7 +838,10 @@ function lmd.is_npc_at(grid_x, grid_y) -- x, y are indexes on local_map
     return false
 end
 
-function lmd.debug_map_view()
+function lmd.debug_map_view(optional_view_offset_x, optional_view_offset_y)
+
+    local view_offset_x = optional_view_offset_x or 0
+    local view_offset_y = optional_view_offset_y or 0
 
     if lmd.pf.is_warping then
         return
@@ -829,10 +875,10 @@ function lmd.debug_map_view()
                             color = {255, 192, 203, 255}
                         end
         
-                        y_alt = lmd.debug_box_margin * (lmd.y + lmd.y_offset - (i - 1))
+                        local y_alt = lmd.debug_box_margin * (lmd.y + lmd.y_offset - (i - 1) + view_offset_y)
         
                         if 90 - lmd.debug_box_size - y_alt > 0 then
-                            x_alt = lmd.debug_box_margin * (lmd.x + lmd.x_offset - (j - 1))
+                            local x_alt = lmd.debug_box_margin * (lmd.x + lmd.x_offset - (j - 1) + view_offset_x)
                             gui.box(128 - lmd.debug_box_size - x_alt, 90 - lmd.debug_box_size - y_alt,
                                 128 + lmd.debug_box_size - x_alt, 90 + lmd.debug_box_size - y_alt, color, {255, 255, 255, 255})
                         end
@@ -874,6 +920,14 @@ function lmd.debug_player_view()
 
 end
 
+function lmd.debug_text()
+    gui.text(1, 30, "rel:" .. tostring(lmd.x + lmd.x_offset + 1))
+    gui.text(46, 30, "rel:" .. tostring(lmd.y + lmd.y_offset + 1))
+    gui.text(1, 50, lmd.x)
+    gui.text(46, 50, lmd.y)
+    gui.text(1, 70, string.format("Map ID: %s", mem.get_map()))
+end
+
 function lmd.update_map(debug_map) -- boolean debug_map decides whether or not to render map
 
     lmd.x, lmd.y = mem.get_pos()
@@ -888,11 +942,7 @@ function lmd.update_map(debug_map) -- boolean debug_map decides whether or not t
         lmd.debug_map_view()
         lmd.debug_npc_view()
         lmd.debug_player_view()
-        gui.text(1, 30, "rel:" .. tostring(lmd.x + lmd.x_offset + 1))
-        gui.text(46, 30, "rel:" .. tostring(lmd.y + lmd.y_offset + 1))
-        gui.text(1, 50, lmd.x)
-        gui.text(46, 50, lmd.y)
-        gui.text(1, 70, string.format("Map ID: %s", mem.get_map()))
+        lmd.debug_text()
     end
 end
 
