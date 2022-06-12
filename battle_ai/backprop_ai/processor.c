@@ -11,6 +11,7 @@
 #include <Windows.h>
 #include <unistd.h>
 #include <time.h>
+#include <stdbool.h>
 
 #define LAYERS 7
 
@@ -34,8 +35,7 @@
 #define START_DEPTH 2
 #define START_DEPTH_CATCH 4
 
-// boolean
-#define MULTITHREADED 1
+#define MULTITHREADED true
 
 struct Weights {
     double** weights[LAYERS-1];
@@ -788,28 +788,36 @@ double logistic_derivative(double a){
     return logistic(a)*(1-logistic(a));
 }
 
-int checkWin(int (*inputs)[L1]){
+bool checkWin(int (*inputs)[L1]){
     for (int i = 245; i < 425; i+=30){
         if ((double)(*inputs)[i] > 1){
-            return 0;
+            return false;
         }
     }
-    return 1;
+    return true;
 }
 
-int checkLoss(int (*inputs)[L1]){
+bool checkLoss(int (*inputs)[L1]){
     for (int i = 65; i < 245; i+=30){
         if ((double)(*inputs)[i] > 1){
-            return 0;
+            return false;
         }
     }
-    return 1;
+    return true;
 }
 
-double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean */ tallyBackprop){
+double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBackprop){
 
-    // if (checkWin(inputs)) return 1.0f;    
-    // if (checkLoss(inputs)) return 0.0f;
+
+    // the reason this checks for tally backprop is that if
+    // we do want to backpropogate than we don't want to
+    // return early
+
+    bool didWin = checkWin(inputs);
+    bool didLose = checkLoss(inputs);
+
+    if (didWin && !tallyBackprop) return 1.0f;
+    if (didLose && !tallyBackprop) return 0.0f;
 
     double* activationLayers[LAYERS-1]; // skip over input layer
     double* zLayers[LAYERS-1]; // skip over input layer
@@ -898,10 +906,6 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
             }
         }
 
-        // this is inversely proportion to player pokemon because if it wasn't
-        // then more pokemon in party would mean more dire condition
-        // lastBackpropBatch.condition += tempCondition / playerPokemon;
-
         lastBackpropBatch.condition = tempCondition;
 
         for (int i = 0; i < LAYERS-1; i++){
@@ -936,6 +940,9 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], int /* boolean
         }
     */
 
+   if (didWin) return 1.0f;
+   if (didLose) return 0.0f;
+
     return activationLayers[LAYERS-2][0];
 
     
@@ -946,7 +953,7 @@ void frameSkip(lua_State *L){
     lua_getglobal(L, "frame");
 }
 
-void load_showdown_state(struct State *state, int localKey, int /* boolean */ firstCall){
+void load_showdown_state(struct State *state, int localKey, bool firstCall){
 
     // pthread_mutex_lock(&lock);
     // printf("save with key %i and state at %p\n", localKey, (void*)state);
@@ -1123,7 +1130,7 @@ void *evaluate_switch(void *rawArgs){
         for (int i = 0; i < 25; i++){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
                 // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), 0);
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
                 allEstimates[i] = thisEstimate;
                 accumulativeP2[(*(args->my_state + i) ).secondaryP2 - 5] += thisEstimate;
                 countP2[(*(args->my_state + i) ).secondaryP2 - 5]+=1;
@@ -1208,7 +1215,7 @@ void *evaluate_switch(void *rawArgs){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
 
 
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), 0);
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
                 accumulativeP1[(*(args->my_state + i) ).secondaryP1 - 5] += thisEstimate;
                 countP1[(*(args->my_state + i) ).secondaryP1 - 5]+=1;
             } else {
@@ -1265,7 +1272,7 @@ void *evaluate_switch(void *rawArgs){
         for (int i = 0; i < 25; i++){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
                 // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), 0);
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
                 accumulativeP2[(*(args->my_state + i) ).secondaryP2 - 5] += thisEstimate;
                 countP2[(*(args->my_state + i) ).secondaryP2 - 5]+=1;
             } else {

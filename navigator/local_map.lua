@@ -367,6 +367,12 @@ lmd.pf.find_path = function(dest_x, dest_y)
     
     while #stack > 0 do
 
+
+        print("")
+        print("stack", stack)
+        print("visited_nodes_x", visited_nodes_x)
+        print("visited_nodes_y", visited_nodes_y)
+
         -- get top element of stack
         local current_node = stack[#stack]
 
