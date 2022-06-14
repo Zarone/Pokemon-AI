@@ -152,7 +152,7 @@ while true do
         -- if (battleState.game_reader.wild_battle) then
         if true then
             local enemy_nickname = battleState.game_reader.nicknames_enemy[1]
-            print("enemy_nickname", enemy_nickname)
+            -- print("enemy_nickname", enemy_nickname)
             for i = 1, 6 do
                 if battleState.game_reader.nicknames[i] == enemy_nickname then
                     has_caught_this_pokemon = true
@@ -160,7 +160,7 @@ while true do
                 end
             end
         end
-        print("has caught this pokemon", has_caught_this_pokemon)
+        -- print("has caught this pokemon", has_caught_this_pokemon)
 
         -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
 
@@ -784,10 +784,10 @@ while true do
         if md.gpf.current_path == nil then
 
             local healing_destination = {}
-            if goals.current_goal < 12 then
+            if goals.current_goal < 17 then
                 -- mom's house
                 healing_destination = {390, 6, 6}
-            elseif goals.current_goal < 16 then
+            elseif goals.current_goal < 24 then
                 healing_destination = {398, 7, 12}
             else
                 healing_destination = {8, 7, 12}
