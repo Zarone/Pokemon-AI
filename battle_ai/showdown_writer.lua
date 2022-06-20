@@ -54,6 +54,16 @@ function values_to_string(nums)
 end
 
 function to_packed_pokemon(tbl)
+
+    -- item's aren't understood very well by neural network 
+    -- since they're not inputs
+
+    -- for example oran berry
+    -- the user won't use damaging moves because it thinks
+    -- the enemy is just gaining HP
+    
+    tbl.item = "" 
+
     if tbl == nil or tbl.nickname == nil then
         return ""
     else

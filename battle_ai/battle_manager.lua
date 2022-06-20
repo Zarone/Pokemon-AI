@@ -1,86 +1,10 @@
 using_test_data = false
 debug_data = false
 
-debug_state = {{
-    255, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 
+debug_state = {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 35, 21, 15, 16, 16, 18, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 14, 7, 6, 7, 5, 6, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 20, 12, 10, 7, 11, 11, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 19, 10, 9, 12, 9, 10, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 100, 27, 14, 12, 15, 12, 12, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 24, 13, 11, 11, 12, 15, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 0, 0, 
-    0, 0, 0, 
-
-    0, -1, 0, 0, 0, 0, 0, 
-    0, -1, 0, 0, 0, 0, 0, 
-
-    100, 
-    38, 20, 16, 18, 17, 20, 
-    false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 0, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    100, 
-    27, 14, 12, 15, 12, 12, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 
-    0, 0, 0, 0, 0, 0, 
-
-    100, 
-    24, 13, 11, 11, 12, 15, 
-    false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 0, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 
-    0, 0, 0, 0, 0, 1, 
-
-    0, 
-    0, 0, 0, 0, 0, 0, 
-    false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false,
-    0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0
-}
-
-debug_team1 = "Tepig||none|Blaze|tackle,tailwhip,ember,odorsleuth|Timid|0,30,0,1,0,3||4,23,3,19,16,29||12|126,,"
-debug_team2 = "Oshawott||Oran Berry|Torrent|tackle,tailwhip,watergun,|Docile|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,]Purrloin||none|Unburden|scratch,growl,assist,|Careful|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,"
+debug_team1 = "Tepig|||Blaze|tackle,tailwhip,ember,odorsleuth|Bashful|0,9,0,1,0,3||4,23,3,19,16,29||11|114,,]Patrat|||Run Away|tackle,,,|Naughty|0,0,0,0,0,0||24,23,7,30,17,8||2|75,,]Lillipup|||Pickup|leer,tackle,odorsleuth,|Careful|0,1,0,0,0,0||28,28,17,15,18,19||5|80,,]Purrloin|||Limber|scratch,growl,,|Quiet|0,0,0,0,0,0||8,17,24,22,15,15||5|70,,"
+debug_team2 = "Oshawott|||Torrent|tackle,tailwhip,watergun,|Docile|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,]Purrloin|||Unburden|scratch,growl,assist,|Careful|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,"
 
 params = {...}
 if params[1] == "debug" then
@@ -201,7 +125,7 @@ function BattleManager.new()
         wild_battle = wild_battle
     }, BattleManager)
 
-    instance:update_fainted_in_log()
+    if not using_test_data then instance:update_fainted_in_log() end
 
     return instance
 end

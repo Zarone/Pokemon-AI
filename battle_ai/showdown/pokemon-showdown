@@ -272,9 +272,9 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 		}
 		case "simulate-battle":
 			{
-                let logFile = fs.createWriteStream(
-					"./battle_ai/state_files/last_log.txt"
-				);
+                // let logFile = fs.createWriteStream(
+				// 	"./battle_ai/state_files/last_log.txt"
+				// );
 				sucraseBuild();
 				var BattleTextStream =
 					require("./.sim-dist/battle-stream").BattleTextStream;
@@ -299,7 +299,7 @@ if (!process.argv[2] || /^[0-9]+$/.test(process.argv[2])) {
 // 				battleStream.pipeTo(stdout);
 
 				
-				battleStream.pipeTo(logFile, { noEnd: true });
+				// battleStream.pipeTo(logFile, { noEnd: true });
 
 				let startup = fs.readFileSync(
 					"./battle_ai/state_files/startInfoForShowdown.json",

@@ -32,7 +32,7 @@
 #define TRIM_P1 4
 #define TRIM_P1_CATCH 2
 
-#define START_DEPTH 2
+#define START_DEPTH 3
 #define START_DEPTH_CATCH 4
 
 #define MULTITHREADED true
@@ -131,14 +131,19 @@ struct BackpropData lastBackpropBatch;
 void printLua_double(lua_State *L, const char *label, double value);
 void printLua_string(lua_State *L, const char *label, const char *value);
 
+
 // "struct Input" array merge sort functions
 
+// adapted from GeeksForGeeks code, because
+// I don't really feel like writing this
+// extremely common sorting algorithm only to find a 
+// bug and have to refactor it later
 void merge(struct Input arr[], int l, int m, int r) 
 { 
     int i, j, k; 
     int n1 = m - l + 1; 
     int n2 =  r - m; 
-    struct Input L[n1], R[n2]; 
+    struct Input L[n1], R[n2];
     for (i = 0; i < n1; i++) {
         for (int inc = 0; inc < 20; inc++){
             L[i].name[inc] = arr[l + i].name[inc]; 
@@ -226,7 +231,7 @@ void printAllErrors(struct Input A[], int size)
     }
 }
 
-
+// "struct PartialMove" array merge sort functions
 void merge_PartialMove(struct PartialMove arr[], int l, int m, int r) 
 { 
     int i, j, k; 
@@ -324,6 +329,7 @@ void printArr_PartialMove(lua_State *L, struct PartialMove A[], int size)
         printLua_double(L, "Estimate: ", A[i].estimate);
     }
 }
+
 
 // print functions for debugging
 
@@ -821,8 +827,8 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
 
     double* activationLayers[LAYERS-1]; // skip over input layer
     double* zLayers[LAYERS-1]; // skip over input layer
-    activationLayers[0] = malloc(L2*sizeof(double));
-    zLayers[0] = malloc(L2*sizeof(double));
+    activationLayers[0] = (double*)malloc(L2*sizeof(double));
+    zLayers[0] = (double*)malloc(L2*sizeof(double));
 
     for (int i = 0; i < L2; i++){ // i is the toNode
         zLayers[0][i] = 0;
@@ -839,8 +845,8 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
         int lastLayerCount = getLayerSize(i);
 
         // allocate mem for layer "i"
-        activationLayers[i] = malloc(thisLayerCount*sizeof(double));
-        zLayers[i] = malloc(thisLayerCount*sizeof(double));
+        activationLayers[i] = (double*)malloc(thisLayerCount*sizeof(double));
+        zLayers[i] = (double*)malloc(thisLayerCount*sizeof(double));
         
         // prop from layer "i" to layer "i+1"
         for (int j = 0; j < thisLayerCount; j++){ // j is the toNode
@@ -867,7 +873,7 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
             
             int thisLayerCount = getLayerSize(LAYERS-1-i); 
             
-            errorLayers[i-1] = malloc(thisLayerCount * sizeof(double));
+            errorLayers[i-1] = (double*)malloc(thisLayerCount * sizeof(double));
             
             for (int j = 0; j < thisLayerCount; j++){
                 errorLayers[i-1][j] = 0;
@@ -884,11 +890,13 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
         }
 
         int playerPokemon = 0;
-        int tempCondition = 0;
+        double tempCondition = 0;
 
         for (int i = 65; i < 245; i+=30){
             // if there's a pokemon in this slot
+            // printf("i = %i, max health: %i, health percent: %i\n", i, (*inputs)[i+1], (*inputs)[i]);
             if ((*inputs)[i+1] > 0){
+                // printf("difference in hp %f\n", (*inputs)[i]-100.0f);
                 playerPokemon += 1;
                 tempCondition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
 
@@ -906,7 +914,8 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
             }
         }
 
-        lastBackpropBatch.condition = tempCondition;
+        lastBackpropBatch.condition += tempCondition;
+        // printf("tempCondition %f\n", tempCondition);
 
         for (int i = 0; i < LAYERS-1; i++){
             free(errorLayers[i]);
@@ -1047,24 +1056,24 @@ void load_showdown_state(struct State *state, int localKey, bool firstCall){
     strcat(process, stringKey);
 
     // easiest to debug, but pulls up new window
-    // system(process);
+    system(process);
 
     // doesn't render cmd window
-    STARTUPINFO si;
-    PROCESS_INFORMATION pi;
+    // STARTUPINFO si;
+    // PROCESS_INFORMATION pi;
 
-    ZeroMemory(&si, sizeof(si));
-    si.cb = sizeof(si);
-    ZeroMemory(&pi, sizeof(pi));
+    // ZeroMemory(&si, sizeof(si));
+    // si.cb = sizeof(si);
+    // ZeroMemory(&pi, sizeof(pi));
 
-    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
-    {
-        WaitForSingleObject(pi.hProcess, INFINITE);
-        CloseHandle(pi.hProcess);
-        CloseHandle(pi.hThread);
-    } else {
-        printf( "CreateProcess failed (%ld)\n", GetLastError() );
-    }
+    // if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    // {
+    //     WaitForSingleObject(pi.hProcess, INFINITE);
+    //     CloseHandle(pi.hProcess);
+    //     CloseHandle(pi.hThread);
+    // } else {
+    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    // }
 
 }
 
@@ -1396,7 +1405,10 @@ void *evaluate_move(void *rawArgs){
         for (int l = 0; l < 17; l++){
             lastBackpropBatch.typeDesire[l] /= totalStatesEvaluated;
         }
+        // printf("lastBackpropBatch.condition before cut %f\n", lastBackpropBatch.condition);
         lastBackpropBatch.condition /= totalStatesEvaluated;
+        // printf("%i states\n", totalStatesEvaluated);
+        // printf("lastBackpropBatch.condition after cut %f\n", lastBackpropBatch.condition);
     }
 
     struct PartialMove p2moves[10];
@@ -1555,11 +1567,11 @@ void *evaluate_move(void *rawArgs){
         bestMove.estimate = 0.0;
 
         // struct PartialMove newEstimates[TRIM_P1][TRIM_P2];
-        struct PartialMove* newEstimates = malloc(sizeof(struct PartialMove)*TRIM_P1*TRIM_P2);
+        struct PartialMove* newEstimates = (struct PartialMove*)malloc(sizeof(struct PartialMove)*TRIM_P1*TRIM_P2);
 
         pthread_t threads[TRIM_P1][TRIM_P2];
         unsigned int argsSize = sizeof(struct EvaluateArgs);
-        struct EvaluateArgs* allNewArgs = malloc(argsSize * TRIM_P1 * TRIM_P2);
+        struct EvaluateArgs* allNewArgs = (struct EvaluateArgs*)malloc(argsSize * TRIM_P1 * TRIM_P2);
 
         int error;
 
@@ -2089,11 +2101,11 @@ void *evaluate_move_catch(void *rawArgs){
         bestMove.estimate = 0.0;
 
         // struct PartialMove newEstimates[TRIM_P1][TRIM_P2];
-        struct PartialMove* newEstimates = malloc(sizeof(struct PartialMove)*TRIM_P1_CATCH*TRIM_P2_CATCH);
+        struct PartialMove* newEstimates = (struct PartialMove*)malloc(sizeof(struct PartialMove)*TRIM_P1_CATCH*TRIM_P2_CATCH);
 
         pthread_t threads[TRIM_P1_CATCH][TRIM_P2_CATCH];
         unsigned int argsSize = sizeof(struct EvaluateArgs);
-        struct EvaluateArgs* allNewArgs = malloc(argsSize * TRIM_P1_CATCH * TRIM_P2_CATCH);
+        struct EvaluateArgs* allNewArgs = (struct EvaluateArgs*)malloc(argsSize * TRIM_P1_CATCH * TRIM_P2_CATCH);
 
         int error;
         int isMultithreaded = MULTITHREADED && args->depth == START_DEPTH_CATCH;
@@ -2366,6 +2378,7 @@ void run_evaluation(lua_State *L){
     }
     lua_setfield(L, -2, "type_info");
     lua_pushnumber(L, lastBackpropBatch.condition);
+    printf("condition: %f\n", lastBackpropBatch.condition);
     lua_setfield(L, -2, "condition");
 
     // deallocate memory from weights
@@ -2472,7 +2485,7 @@ int run_evaluation_switch(lua_State *L){
     args.L = L;
     args.my_state = &start_state;
     args.my_weights = &my_weights;
-    args.depth = 1;
+    args.depth = START_DEPTH+1;
     args.outputPtr = &bestSwitch;
 
     // if (pthread_mutex_init(&lock, NULL) != 0) {

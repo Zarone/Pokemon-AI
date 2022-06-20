@@ -149,10 +149,8 @@ while true do
         local learned_new_move = this_line_text:find(" learned ") ~= nil
         replacing_move = this_line_text:find("Should a move ") ~= nil
         local has_caught_this_pokemon = false
-        -- if (battleState.game_reader.wild_battle) then
-        if true then
+        if (battleState.game_reader.wild_battle) then
             local enemy_nickname = battleState.game_reader.nicknames_enemy[1]
-            -- print("enemy_nickname", enemy_nickname)
             for i = 1, 6 do
                 if battleState.game_reader.nicknames[i] == enemy_nickname then
                     has_caught_this_pokemon = true
@@ -160,9 +158,6 @@ while true do
                 end
             end
         end
-        -- print("has caught this pokemon", has_caught_this_pokemon)
-
-        -- print("catch conditions: ", #battleState.IGReader:get(1) < 6, battleState.game_reader.wild_battle, enemy_pokemon1_types[1] and enemy_pokemon1_types[2] and (battle_weights.type_info[ enemy_pokemon1_types[1]] > catch_threshold or battle_weights.type_info[ enemy_pokemon1_types[2] ] > catch_threshold), mem.has_ball())
 
         -- this check has to happen or else the professor showing the player how
         -- to catch pokemon would crash the game
@@ -581,6 +576,7 @@ while true do
                     if output_manager.current_sequence_index > 1 then
                         output_manager.reset()
                     end
+                    print("press A here")
                     output_manager.press({
                         {{A = true}, 1},
                     }, 120)
