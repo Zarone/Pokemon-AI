@@ -6,6 +6,7 @@ goal_manager = {
     -- 0: go to position {map, x, y}
     -- 1: go to position and warp {map, x, y}
     -- 2: press a button {{button = true}, how_long}
+    -- 3: go to position {map, x, y} and it overrides desire to heal
     -- second value is data for the first value
     -- third value states how the current_goal should change upon {completion, failure}
     goals = {
@@ -32,32 +33,39 @@ goal_manager = {
         {0, {397, 795, 658}, {1, 1}},
         {0, {397, 796, 659}, {1, 1}},
         {0, {397, 796, 658}, {1, 1}},
-        {0, {398, 7, 19}, {1, 1}}, -- go into Accumula town pokemon center
 
+        {0, {398, 7, 19}, {1, 1}}, -- go into Accumula town pokemon center
         {0, {397, 786, 658}, {1, 1}}, -- go to the team plasma monologue
+        {0, {319, 753, 647}, {1, 1}},
+        {0, {320, 14, 6}, {1, 1}}, -- try to get player to build warp between 320 and 397
+        {0, {320, 14, 4}, {1, 1}},
+        
+        {0, {320, 15, 5}, {1, 1}},
+        {0, {397, 769, 649}, {1, 1}},
         {0, {319, 786, 613}, {1, 1}},
         {0, {319, 786, 608}, {1, 1}},
         {2, {{up = true}, 50}, {1, 1}},
-        {0, {6, 782, 588}, {1, 1}}, -- in Stration City
 
-        {0, {6, 780, 588}, {1, 1}},
-        {0, {6, 781, 588}, {1, 1}},
-        {0, {8, 7, 19}, {1, 1}}, -- Stration city pokemon center
+        {3, {6, 782, 588}, {1, 1}}, -- in Stration City
+        {3, {6, 780, 588}, {1, 1}},
+        {3, {6, 781, 589}, {1, 1}},
+        {3, {6, 781, 588}, {1, 1}},
+        {3, {8, 7, 19}, {1, 1}}, -- Stration city pokemon center
+
         {0, {6, 774, 587}, {1, 1}}, 
         {0, {15, 8, 2}, {1, 1}},
-        
         {2, {{right = true}, 20}, {1, 1}},
         {2, {{A = true}, 1}, {1, 1}},
         {0, {6, 788, 588}, {1, 1}},
+
         {2, {{up = true}, 20}, {1, 1}},
         {2, {{A = true}, 1}, {1, 1}},
-
         {0, {6, 788, 587}, {1, 1}},
         {0, {7, 15, 36}, {1, 1}},
         {0, {7, 9, 26}, {1, 1}},
+
         {0, {7, 12, 16}, {1, 1}},
         {0, {7, 12, 4}, {1, 1}},
-        
         {2, {{A = true}, 1}, {1, 1}},
     }
 }

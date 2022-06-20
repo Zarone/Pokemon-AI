@@ -780,7 +780,7 @@ while true do
         else
             mode = 1
         end
-    elseif (mode == 2) then
+    elseif (mode == 2 and goals.attempt_goal()[1] ~= 3) then
         if md.gpf.current_path == nil then
 
             local healing_destination = {}
@@ -792,8 +792,21 @@ while true do
             else
                 healing_destination = {8, 7, 12}
             end
+            
+            local healing_destination_maps = {
+                -- mom's house, accumula pokemon center, stration pokemon center
+                   390,         398,                     8
+            }
 
-            if not md.gpf.find_global_path(unpack(healing_destination)) then
+            local healing_destination_x = {
+                6, 7, 7
+            }
+
+            local healing_destination_y = {
+                6, 12, 12
+            }
+
+            if not md.gpf.find_global_path(healing_destination_maps, healing_destination_x, healing_destination_y) then
                 md.wander()
             else
                 output_manager.reset()
@@ -811,12 +824,12 @@ while true do
             end
         end
 
-    elseif (mode == 1) then
+    elseif (mode == 1 or goals.attempt_goal()[1] == 3) then
         objective = goals.attempt_goal()
         -- print(objective)
 
         if objective ~= -1 then -- if we aren't out of goals to complete
-            if objective[1] == 0 or objective[1] == 1 then -- if the goal is to move to coordinates
+            if objective[1] == 0 or objective[1] == 1 or objective[1] == 3 then -- if the goal is to move to coordinates
                 to_map, to_x, to_y = unpack(objective[2])
                 
                 if md.gpf.current_path == nil then

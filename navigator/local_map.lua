@@ -589,29 +589,38 @@ lmd.gpf = { -- global pathfinder
 -- secondary_to_map is for pokemon centers, like 
 -- if we're okay with reaching either to_map or another
 -- map, whichever we find first
-lmd.gpf.find_global_path = function(to_map, to_x, to_y, secondary_to_map)
+lmd.gpf.find_global_path = function(to_map, to_x, to_y)
     if not lmd.pf.ismoving then 
         -- print("called load map in find_global_path")
         lmd.pf.load_map() 
     end
-    -- print("finding global path from:", lmd.map_id, lmd.x, lmd.y)
-    if lmd.map_id == to_map or (secondary_to_map ~= nil and lmd.map_id == secondary_to_map) then
-            -- print("target same map as current, go to: ", to_x, to_y)
-            lmd.gpf.current_path = {{to_x, to_y}}
-        return true
-    else
-        -- print("current map: ", lmd.map_id)
-        -- print("target map: ", to_map)
-        -- print("current g_map:", gmd.map)
-        global_pathfinding_res = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map, secondary_to_map)
-        -- print("path: ", global_pathfinding_res)
-        if global_pathfinding_res then
-            lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x, to_y}}
+    
+    if type(to_map) == "number" then
+        to_map = {to_map}
+    end
+    if type(to_x) == "number" then
+        to_x = {to_x}
+    end
+    if type(to_y) == "number" then
+        to_y = {to_y}
+    end
+
+    -- if we're at the right map, function should return here
+    for k, possible_destination in pairs(to_map) do
+        if lmd.map_id == possible_destination then
+            lmd.gpf.current_path = {{to_x[k], to_y[k]}}
             return true
-        else
-            return false
         end
     end
+
+    local global_pathfinding_res, found_map = gmd.go_to_map(lmd.map_id, lmd.x, lmd.y, to_map)
+    if global_pathfinding_res then
+        lmd.gpf.current_path = {unpack(global_pathfinding_res), {to_x[found_map], to_y[found_map]}}
+        return true
+    else
+        return false
+    end
+
 end
 
 lmd.wander_to = nil

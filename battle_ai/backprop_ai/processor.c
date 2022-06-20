@@ -16,9 +16,9 @@
 #define LAYERS 7
 
 #define L1 425
-#define L2 200
-#define L3 100 
-#define L4 20
+#define L2 400
+#define L3 150 
+#define L4 50
 #define L5 20
 #define L6 10
 #define L7 1

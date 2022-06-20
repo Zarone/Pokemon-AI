@@ -208,6 +208,7 @@ end
 
 function BattleManager.update_fainted_in_log(self)
     local team_health = StateReader.get_player_health(#self.IGReader:get(1))
+    print("team_health", team_health)
     
     local new_fainted_info = {false, false, false, false, false, false}
     for i = 1, 6 do

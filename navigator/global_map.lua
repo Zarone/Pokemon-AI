@@ -10,15 +10,30 @@ gmd.fully_explored = {
 
 }
 
-function distance(x1, y1, x2, y2)
+local function distance(x1, y1, x2, y2)
     return math.sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2)
 end
 
-gmd.go_to_map = function(current_map, current_x, current_y, to_map, secondary_to_map) -- returns path
-    -- print("go to map: start")
+gmd.go_to_map = function(current_map, current_x, current_y, to_map) -- returns path
+    
+    -- Dijkra's algorithm, because there's no heuristic
+
+    -- print("")
+    -- print("")
     -- print("going to", to_map)
+    -- print("go to map: start")
+    -- print("current map", current_map)
     -- print("current global map", gmd.map)
-    -- Dijkra's inspired algorithm, because there's no heuristic
+
+    if type(to_map) == "number" then
+        to_map = {to_map}
+    end
+
+    -- this is in situations where there are
+    -- multiple destinations which would be
+    -- acceptable. This variable tracks which
+    -- map ended up being found most efficient
+    local found_map_id
 
     -- Create a queue
     local queue = {}
@@ -95,22 +110,31 @@ gmd.go_to_map = function(current_map, current_x, current_y, to_map, secondary_to
 
                     local this_neighbor_path_length = checking_node[4] + cost_to_neighbor
     
-                    if neighbor[1] == to_map or (secondary_to_map ~= nil and neighbor[1] == secondary_to_map) then 
+                    local neighbor_is_target_destination = false
+
+                    for k, target_map in pairs(to_map) do
+                        if neighbor[1] == target_map then
+                            neighbor_is_target_destination = true
+                            found_map_id = k
+                        end
+                    end
+
+                    if neighbor_is_target_destination then 
                         if (this_neighbor_path_length < best_path_length) then
-                            best_path_length = checking_node[4] + cost_to_neighbor
+                            best_path_length = this_neighbor_path_length
                             best_path = new_path
                         end
                     end
     
-
-                    -- this if statement is triggers if this neighbor would be the longest length in the queue
-
+                    
                     -- add item to list of visited nodes
                     if visited_nodes[neighbor[1]] == nil then
                         visited_nodes[neighbor[1]] = {}
                     end
                     table.insert(visited_nodes[neighbor[1]], {neighbor[4], neighbor[5]})
+                    
 
+                    -- this if statement is triggers if this neighbor would be the longest length in the queue
                     if #queue == 0 or this_neighbor_path_length >= queue[#queue][4] then
                         table.insert(queue, {neighbor[1], neighbor[4], neighbor[5], this_neighbor_path_length, new_path})
                     else
@@ -127,7 +151,7 @@ gmd.go_to_map = function(current_map, current_x, current_y, to_map, secondary_to
         end        
     end
     
-    return best_path
+    return best_path, found_map_id
 
 end
 
