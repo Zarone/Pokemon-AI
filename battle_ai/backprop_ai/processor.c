@@ -16,8 +16,8 @@
 #define LAYERS 7
 
 #define L1 425
-#define L2 400
-#define L3 150 
+#define L2 200
+#define L3 100 
 #define L4 50
 #define L5 20
 #define L6 10
@@ -27,12 +27,15 @@
 // feedforward algorithm
 #define SPREAD 1
 
-#define TRIM_P2 3
+// #define TRIM_P2 3
+#define TRIM_P2 1
 #define TRIM_P2_CATCH 1
-#define TRIM_P1 4
+// #define TRIM_P1 4
+#define TRIM_P1 1
 #define TRIM_P1_CATCH 2
 
-#define START_DEPTH 3
+// #define START_DEPTH 2
+#define START_DEPTH 1
 #define START_DEPTH_CATCH 4
 
 #define MULTITHREADED true
@@ -889,16 +892,14 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
             }
         }
 
-        int playerPokemon = 0;
         double tempCondition = 0;
 
         for (int i = 65; i < 245; i+=30){
+            
             // if there's a pokemon in this slot
-            // printf("i = %i, max health: %i, health percent: %i\n", i, (*inputs)[i+1], (*inputs)[i]);
             if ((*inputs)[i+1] > 0){
-                // printf("difference in hp %f\n", (*inputs)[i]-100.0f);
-                playerPokemon += 1;
                 tempCondition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
+                // printf("health %i, errorLayers[LAYERS-2][%i] * 100 000 000 = %f\n", (*inputs)[i], i, errorLayers[LAYERS-2][i] * 100000000);
 
                 if (errorLayers[LAYERS-2][i+24] < 0) tempCondition -= errorLayers[LAYERS-2][i+24]*((*inputs)[i+24]);
                 if (errorLayers[LAYERS-2][i+25] < 0) tempCondition -= errorLayers[LAYERS-2][i+25]*((*inputs)[i+25]);

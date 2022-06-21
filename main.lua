@@ -314,7 +314,6 @@ while true do
                 battle_weights.moves_used[active+1] = {0, 0, 0, 0}
                 output_manager.pressA()
                 print("learned new move")
-                print("")
             elseif can_move and #battleState.IGReader:get(1) < 6
                 and battleState.game_reader.wild_battle 
                 and not has_caught_this_pokemon
@@ -576,7 +575,6 @@ while true do
                     if output_manager.current_sequence_index > 1 then
                         output_manager.reset()
                     end
-                    print("press A here")
                     output_manager.press({
                         {{A = true}, 1},
                     }, 120)
