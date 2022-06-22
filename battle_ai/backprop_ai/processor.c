@@ -27,15 +27,12 @@
 // feedforward algorithm
 #define SPREAD 1
 
-// #define TRIM_P2 3
-#define TRIM_P2 1
+#define TRIM_P2 3
 #define TRIM_P2_CATCH 1
-// #define TRIM_P1 4
-#define TRIM_P1 1
+#define TRIM_P1 4
 #define TRIM_P1_CATCH 2
 
-// #define START_DEPTH 2
-#define START_DEPTH 1
+#define START_DEPTH 2
 #define START_DEPTH_CATCH 4
 
 #define MULTITHREADED true
@@ -1126,8 +1123,8 @@ void *evaluate_move_catch(void *rawArgs);
 
 // args->my_state is intented as a pointer to to State array of length 25
 void *evaluate_switch(void *rawArgs){
-    // printf("\nIn evaluate_switch, Depth: %i\n", depth);
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
+    // printf("in evaluate_switch, depth: %i\n", args->depth);
 
     // if both players switched
     if ( args->my_state->secondaryP1 != 0 && args->my_state->secondaryP2 != 0 ){
@@ -1216,7 +1213,7 @@ void *evaluate_switch(void *rawArgs){
     } 
     // if only player 1 has a forced switch
     else if ((*(args->my_state)).secondaryP1 != 0){
-        pthread_mutex_lock(&lock);
+        // pthread_mutex_lock(&lock);
         double accumulativeP1[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
         int countP1[] = {0, 0, 0, 0, 0, 0};
 
@@ -1224,8 +1221,29 @@ void *evaluate_switch(void *rawArgs){
             // if the state occurs
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
 
+                struct PartialMove output;
 
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
+                double thisEstimate = 0;
+                if (args->depth == 1){
+                    thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
+                } else if (args->depth > 1) {
+                    struct EvaluateArgs newArgs;
+                    newArgs.L = args->L;
+                    newArgs.my_state = args->my_state + i;
+                    newArgs.my_weights = args->my_weights;
+                    newArgs.depth = args->depth-1;
+                    newArgs.outputPtr = &output;
+
+                    evaluate_move(&newArgs);
+                    thisEstimate = output.estimate;
+                } else {
+                    printf("depth of 0");
+                }
+                // printf("estimate state %i = %f\n", i, thisEstimate);
+                // printf("input state\n");
+                // for (int j = 0; j < L1; j++){
+                    // printf( "%i, ", (*(args->my_state + i)).game_data[j] );
+                // }
                 accumulativeP1[(*(args->my_state + i) ).secondaryP1 - 5] += thisEstimate;
                 countP1[(*(args->my_state + i) ).secondaryP1 - 5]+=1;
             } else {
@@ -1245,27 +1263,29 @@ void *evaluate_switch(void *rawArgs){
         }
 
         mergeSort_PartialMove(P1Moves, 0, 5);
-        // printLua_string(L, "", "");
-        // printLua_string(L, "5 Moves inside of evaluate switch", "");
-        // printArr_PartialMove(L, P1Moves, 6);
+        // printLua_string(args->L, "5 Moves inside of evaluate switch", "");
+        // printArr_PartialMove(args->L, P1Moves, 6);
+        
+        // pthread_mutex_unlock(&lock);
 
-        pthread_mutex_unlock(&lock);
         for (int i = 0; i < 25; i++){
             if ((*(args->my_state + i)).secondaryP1 == P1Moves[5].move+5){
                 P1Moves[5].move += 4;
-                if (args->depth != 1) {
-                    struct PartialMove output;
+                // printf("next layer: depth %i, state %i, move %i\n", args->depth, i, P1Moves[5].move);
+                // if (args->depth != 1) {
+                //     struct PartialMove output;
 
-                    struct EvaluateArgs newArgs;
-                    newArgs.L = args->L;
-                    newArgs.my_state = args->my_state + i;
-                    newArgs.my_weights = args->my_weights;
-                    newArgs.depth = args->depth-1;
-                    newArgs.outputPtr = &output;
+                //     struct EvaluateArgs newArgs;
+                //     newArgs.L = args->L;
+                //     newArgs.my_state = args->my_state + i;
+                //     newArgs.my_weights = args->my_weights;
+                //     newArgs.depth = args->depth-1;
+                //     newArgs.outputPtr = &output;
 
-                    evaluate_move(&newArgs);
-                    P1Moves[5].estimate = output.estimate;
-                }
+                //     evaluate_move(&newArgs);
+                //     P1Moves[5].estimate = output.estimate;
+                // }
+                // printf("resulting estimate: %f\n", P1Moves[5].estimate);
                 // printf("in evaluate_switch, outputPtr %p\n", (void *)args->outputPtr);
                 *(args->outputPtr) = P1Moves[5];
                 
@@ -1342,7 +1362,9 @@ void *evaluate_move(void *rawArgs){
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
     // print_weights(args->my_weights);
 
+
     if (args->depth != START_DEPTH){ pthread_mutex_lock(&lock); }
+    // printf("reached evaluate move with depth %i and key %i\n", args->depth, key);
     key++;
     int thisKey = key;
     if (args->depth != START_DEPTH){ pthread_mutex_unlock(&lock); }
@@ -1667,7 +1689,7 @@ void *evaluate_move(void *rawArgs){
                     if (k % 4 == 0) {
                         pthread_mutex_lock(&lock);
                         frameSkip(args->L);
-                        printLua_double(args->L, "k: ", k);
+                        printLua_double(args->L, "move-k: ", k);
                         pthread_mutex_unlock(&lock);
                     } else {
                         sleep(1);
@@ -1722,7 +1744,8 @@ void *evaluate_move(void *rawArgs){
 // pokemon is fainted
 void *evaluate_switch_from_partial_start(void *rawArgs){
     struct EvaluateArgs *args = (struct EvaluateArgs*)rawArgs;
-    int activePokemon[30] = {0};    
+
+    int activePokemon[30] = {0};
     struct State possibleStates[25];
 
     for (int i = 65; i < 95; i++){
@@ -1750,7 +1773,6 @@ void *evaluate_switch_from_partial_start(void *rawArgs){
         possibleStates[index].name[1] = '/';
         possibleStates[index].name[2] = 'A';
         
-        // I might need to add some way to track activePokemon1, IDK yet
         if (i == (*(args->my_state)).activePokemonP1){
             possibleStates[index].activePokemonP1 = 0;
         } else {
@@ -2186,7 +2208,7 @@ void *evaluate_move_catch(void *rawArgs){
                         if (isMultithreaded){
                             pthread_mutex_lock(&lock);
                             frameSkip(args->L);
-                            printLua_double(args->L, "k: ", k);
+                            printLua_double(args->L, "catch-k: ", k);
                             // printf("k: %i, value: %f, at %p\n", k, (newEstimates+i*TRIM_P2+j)->estimate, (void *)(newEstimates+i*TRIM_P2+j) );
                             pthread_mutex_unlock(&lock);
                         }
@@ -2313,7 +2335,12 @@ void run_evaluation(lua_State *L){
         lua_rawgeti(L, -1, i+1);
         // stack: [ exec_showdown_state, state, inputs, thisInput ]
         
-        start_state.game_data[i] = lua_tointeger(L, -1);
+        if (lua_isboolean(L, -1)){
+            start_state.game_data[i] = lua_toboolean(L, -1);
+        } else if (lua_isnumber(L, -1)){
+            start_state.game_data[i] = lua_tointeger(L, -1);
+        }
+
         // printLua(L, "i: ", i);
         // printLua(L, "Game State: ", start_state.game_data[i]);
 
@@ -2465,7 +2492,11 @@ int run_evaluation_switch(lua_State *L){
         lua_rawgeti(L, -1, i+1);
         // stack: [ exec_showdown_state, state, inputs, thisInput ]
         
-        start_state.game_data[i] = lua_tointeger(L, -1);
+        if (lua_isboolean(L, -1)){
+            start_state.game_data[i] = lua_toboolean(L, -1);
+        } else if (lua_isnumber(L, -1)){
+            start_state.game_data[i] = lua_tointeger(L, -1);
+        }
 
         lua_remove(L, -1);
         // stack: [ exec_showdown_state, state, inputs ]
@@ -2486,8 +2517,10 @@ int run_evaluation_switch(lua_State *L){
     args.L = L;
     args.my_state = &start_state;
     args.my_weights = &my_weights;
-    args.depth = START_DEPTH+1;
+    args.depth = START_DEPTH;
     args.outputPtr = &bestSwitch;
+
+    printf("starting estimate %f\n", feedforward(&my_weights, &(args.my_state->game_data), false));
 
     // if (pthread_mutex_init(&lock, NULL) != 0) {
     //     printLua_string(L, "mutex init has failed", "");
@@ -2577,7 +2610,11 @@ void run_evaluation_catch(lua_State *L){
         lua_rawgeti(L, -1, i+1);
         // stack: [ exec_showdown_state, state, inputs, thisInput ]
         
-        start_state.game_data[i] = lua_tointeger(L, -1);
+        if (lua_isboolean(L, -1)){
+            start_state.game_data[i] = lua_toboolean(L, -1);
+        } else if (lua_isnumber(L, -1)){
+            start_state.game_data[i] = lua_tointeger(L, -1);
+        }
         // printLua(L, "i: ", i);
         // printLua(L, "Game State: ", start_state.game_data[i]);
 

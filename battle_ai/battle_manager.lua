@@ -1,8 +1,42 @@
 using_test_data = false
-debug_data = false
+debug_data = true
 
-debug_state = {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 35, 21, 15, 16, 16, 18, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 14, 7, 6, 7, 5, 6, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 20, 12, 10, 7, 11, 11, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 19, 10, 9, 12, 9, 10, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 100, 27, 14, 12, 15, 12, 12, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 24, 13, 11, 11, 12, 15, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
+debug_state = {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+    0  , 35, 21, 15, 16, 16, 18, false, false, false, false, false, true , false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+    100, 14, 7 , 6 , 7 , 5 , 6 , false, false, false, false, false, false, false, false, false, false, false, true , false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+    100, 20, 12, 10, 7 , 11, 11, false, false, false, false, false, false, false, false, false, false, false, true , false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+    100, 19, 10, 9 , 12, 9 , 10, false, true , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+    0  , 0 , 0 , 0 , 0 , 0 , 0 , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+    0  , 0 , 0 , 0 , 0 , 0 , 0 , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1,
 
+  --100, 14, 7 , 6 , 7 , 5 , 6 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 1    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 0, 
+  --0  , 35, 21, 15, 16, 16, 18, 0    , 0    , 0    , 0    , 0    , 1    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1, 
+  --100, 20, 12, 10, 7 , 11, 11, 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 1    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 0, 
+  --100, 19, 10, 9 , 12, 9 , 10, 0    , 1    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 0, 
+  --0  , 0 , 0 , 0 , 0 , 0 , 0 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1, 
+  --0  , 0 , 0 , 0 , 0 , 0 , 0 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1, 
+  
+    60 , 27, 14, 12, 15, 12, 12, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true , 0, 0, 0, 0, 0, 0, 
+    100, 24, 13, 11, 11, 12, 15, false, true , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
+    0  , 0 , 0 , 0 , 0 , 0 , 0 , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+    0  , 0 , 0 , 0 , 0 , 0 , 0 , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+    0  , 0 , 0 , 0 , 0 , 0 , 0 , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
+    0  , 0 , 0 , 0 , 0 , 0 , 0 , false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1
+
+  --60 , 27, 14, 12, 15, 12, 12, 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 1    , 0, 0, 0, 0, 0, 0, 
+  --100, 24, 13, 11, 11, 12, 15, 0    , 1    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 0,
+  --0  , 0 , 0 , 0 , 0 , 0 , 0 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1, 
+  --0  , 0 , 0 , 0 , 0 , 0 , 0 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1, 
+  --0  , 0 , 0 , 0 , 0 , 0 , 0 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1,
+  --0  , 0 , 0 , 0 , 0 , 0 , 0 , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0    , 0, 0, 0, 0, 0, 1
+
+}, 'N/A_s', 0, 0, '', '', '', '', 0, 0}
+
+
+
+
+
+-- {{255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 21, 15, 16, 16, 18, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 100, 14, 7, 6, 7, 5, 6, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 20, 12, 10, 7, 11, 11, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 19, 10, 9, 12, 9, 10, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 60, 27, 14, 12, 15, 12, 12, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, 0, 0, 0, 0, 0, 0, 100, 24, 13, 11, 11, 12, 15, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1}, 'N/A_s', 3, 0, '', '', '', '', 0, 0}
 debug_team1 = "Tepig|||Blaze|tackle,tailwhip,ember,odorsleuth|Bashful|0,9,0,1,0,3||4,23,3,19,16,29||11|114,,]Patrat|||Run Away|tackle,,,|Naughty|0,0,0,0,0,0||24,23,7,30,17,8||2|75,,]Lillipup|||Pickup|leer,tackle,odorsleuth,|Careful|0,1,0,0,0,0||28,28,17,15,18,19||5|80,,]Purrloin|||Limber|scratch,growl,,|Quiet|0,0,0,0,0,0||8,17,24,22,15,15||5|70,,"
 debug_team2 = "Oshawott|||Torrent|tackle,tailwhip,watergun,|Docile|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,]Purrloin|||Unburden|scratch,growl,assist,|Careful|0,0,0,0,0,0||3,3,3,3,3,3||8|255,,"
 
@@ -340,11 +374,13 @@ function BattleManager:get_switch()
         local targetSwitchPokemon = processor.get_switch(frame, state)-4
         local thisMove = nil
         print("targetSwitchPokemon",targetSwitchPokemon)
-        print("self.game_reader.pokemon_order",self.game_reader.pokemon_order)
-        for i = 1, 6 do
-            if self.game_reader.pokemon_order[i] == targetSwitchPokemon then
-                thisMove = i
-                break
+        if not using_test_data then 
+            print("self.game_reader.pokemon_order",self.game_reader.pokemon_order)
+            for i = 1, 6 do
+                if self.game_reader.pokemon_order[i] == targetSwitchPokemon then
+                    thisMove = i
+                    break
+                end
             end
         end
         self.queued_switch = thisMove
@@ -517,6 +553,7 @@ if using_test_data then
     my_battle_manager:act_open()
     -- my_battle_manager:act_open_catch()
     my_battle_manager:act_close()
+    -- my_battle_manager:get_switch()
 end
 
 return BattleManager
