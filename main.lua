@@ -807,7 +807,7 @@ while true do
             end
         else
             -- check the result of our path manager
-            local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
+            local local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
 
             if local_path_response == 1 then -- if the destination has been reached    
                 md.gpf.current_path = nil
@@ -820,40 +820,63 @@ while true do
 
     elseif (mode == 1 or goals.attempt_goal()[1] == 3) then
         objective = goals.attempt_goal()
-        -- print(objective)
 
         if objective ~= -1 then -- if we aren't out of goals to complete
-            if objective[1] == 0 or objective[1] == 1 or objective[1] == 3 then -- if the goal is to move to coordinates
-                to_map, to_x, to_y = unpack(objective[2])
+            if objective[1] == 0 or objective[1] == 1 or objective[1] == 3 or objective[1] == 4 then -- if the goal is to move to coordinates
+                local to_map, to_x, to_y
+                
+                
+                if objective[1] ~= 4 then
+                    to_map, to_x, to_y = unpack(objective[2]) 
+                else
+                    to_map = objective[2][1]
+                    to_x, to_y = unpack( mem.get_npc_locations()[ objective[2][2] ] )
+                    to_x = to_x - 1
+                end
+
                 
                 if md.gpf.current_path == nil then
-                    -- print("find_global_path:", to_map, to_x, to_y)
                     local find_result = md.gpf.find_global_path(to_map, to_x, to_y)
-                    -- print("find_result", find_result)
                     if not find_result then
                         md.wander()
                     else
-                        -- print("md.gpf.current_path[1]", md.gpf.current_path[1], "from map", mem.get_map())
                         output_manager.reset()
                     end
                 else
                     -- check the result of our path manager
 
-                    -- print("global path", md.gpf.current_path)
-                    local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
+                    local local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
 
                     if local_path_response == 1 then -- if the destination has been reached
                         print("local destination reached")
-                        print(md.gpf.current_path[1])
+                        -- print(md.gpf.current_path[1])
 
                         
                         if #md.gpf.current_path > 1 then
                             table.remove(md.gpf.current_path, 1)
                         else
-                            md.gpf.current_path = nil
-    
-                            goals.objective_complete()
+                            if objective[1] == 4 then
+
+                                local output_result = output_manager.press(
+                                    {
+                                        {{right = true}, 3},
+                                        {{A = true}, 1}
+                                    }, 0
+                                )
+
+                                -- print("output_result", output_result)
+
+                                if output_result then
+                                    goals.objective_complete()
+                                    md.gpf.current_path = nil
+                                end
+                            else
+                                goals.objective_complete()
+                                md.gpf.current_path = nil
+                            end
+
                         end
+
 
                         if objective[3][1] == 0 then -- if the goal return control to main
                             mode = 0

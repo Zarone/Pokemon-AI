@@ -901,25 +901,21 @@ function lmd.debug_map_view(view_offset_x, view_offset_y)
     end
 end
 
-function lmd.debug_npc_view()
-    editat, count = mem.get_npc_mem()
+function lmd.debug_npc_view(view_offset_x, view_offset_y)
+    local npcs = mem.get_npc_locations()
 
-    for i = 0, count - 1 do
-        x_addr = editat + 227 * 0x24 - 2 + 16 * (14 + 16 * i)
-        -- y_addr = x_addr + 8
-
-        y_alt = lmd.debug_box_margin * (lmd.y - (memory.readword(x_addr + 8)))
-
+    for _, npc in pairs(npcs) do
+        local y_alt = lmd.debug_box_margin * (lmd.y - npc[2])
+        
         if 90 - lmd.debug_box_size - y_alt > 0 then
 
-            x_alt = lmd.debug_box_margin * (lmd.x - (memory.readword(x_addr)))
+            local x_alt = lmd.debug_box_margin * (lmd.x - npc[1])
             if (x_alt ~= 0 or y_alt ~= 0) then
                 gui.box(128 - lmd.debug_box_size - x_alt, 90 - lmd.debug_box_size - y_alt,
                     128 + lmd.debug_box_size - x_alt, 90 + lmd.debug_box_size - y_alt, {0, 255, 0, 255},
                     {255, 255, 255, 255})
             end
         end
-
     end
 end
 

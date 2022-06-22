@@ -7,6 +7,7 @@ goal_manager = {
     -- 1: go to position and warp {map, x, y}
     -- 2: press a button {{button = true}, how_long}
     -- 3: go to position {map, x, y} and it overrides desire to heal
+    -- 4: go to npc with {map, npc id}, and talk to them
     -- second value is data for the first value
     -- third value states how the current_goal should change upon {completion, failure}
     goals = {
@@ -52,10 +53,15 @@ goal_manager = {
         {3, {6, 781, 588}, {1, 1}},
         {3, {8, 7, 19}, {1, 1}}, -- Stration city pokemon center
 
+        {0, {6, 803, 580}, {1, 1}}, 
+        {0, {6, 804, 581}, {1, 1}}, 
+        {0, {6, 804, 581}, {1, 1}},
+        {4, {152, 1}, {1, 1}},
+
         {0, {6, 774, 587}, {1, 1}}, 
-        {0, {15, 8, 2}, {1, 1}},
-        {2, {{right = true}, 20}, {1, 1}},
-        {2, {{A = true}, 1}, {1, 1}},
+        {0, {15, 8, 2}, {1, 1}}, -- go battle Cheren
+        {2, {{right = true}, 20}, {1, 1}}, -- turn towards Cheren
+        {2, {{A = true}, 1}, {1, 1}}, -- start dialogue with Cheren
         {0, {6, 788, 588}, {1, 1}},
 
         {2, {{up = true}, 20}, {1, 1}},

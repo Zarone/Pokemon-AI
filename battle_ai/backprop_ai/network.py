@@ -32,11 +32,11 @@ def get_data(turn_minimum, max_datapoints):
                     y.append(int(val[1]))
     return x, y
 
-X, y = get_data(4, 1000)
+X, y = get_data(7, 1000000)
 print("got data")
 
-# clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(200, 100, 50, 20, 10), verbose=True).fit(X, y)
-clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(20, 10), verbose=True).fit(X, y)
+clf = MLPClassifier(random_state=1, max_iter=150, hidden_layer_sizes=(200, 100, 50, 20, 10), verbose=True).fit(X, y)
+# clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(20, 10), verbose=True).fit(X, y)
 print("got finished training")
 
 

@@ -26,10 +26,27 @@ function mem.get_pos()
 end
 
 function mem.get_npc_mem()
-    editat = 0x08 + 5 * 0x14 + ows
-    count = memory.readbyteunsigned(ows + 3 + mode) + 1
+    local editat = 0x08 + 5 * 0x14 + ows
+    local count = memory.readbyteunsigned(ows + 3 + mode) + 1
+    
     return editat, count
 
+end
+
+function mem.get_npc_locations()
+    local editat, count = mem.get_npc_mem()
+
+    local npcs = {}
+
+    for i = 0, count - 1 do
+        local x_addr = editat + 227 * 0x24 - 2 + 16 * (14 + 16 * i)
+        local y_addr = x_addr + 8
+
+        table.insert(npcs, {memory.readword(x_addr), memory.readword(y_addr)})
+
+    end
+
+    return npcs
 end
 
 function mem.is_dialogue_onscreen()
