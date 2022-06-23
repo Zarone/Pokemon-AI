@@ -13,21 +13,22 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define LAYERS 5
+#define LAYERS 8
 
 #define L1 425
-#define L2 300
-#define L3 150
+#define L2 200
+#define L3 100
 #define L4 50
-#define L5 1
+#define L5 25
 #define L6 10
-#define L7 1
+#define L7 5
+#define L8 1
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
 #define SPREAD 0.1
 
-#define TRIM_P2 3
+#define TRIM_P2 4
 #define TRIM_P2_CATCH 1
 #define TRIM_P1 5
 #define TRIM_P1_CATCH 2
@@ -68,6 +69,9 @@ int getLayerSize(int layer){
             break;
         case 6:
             return L7;
+            break;
+        case 7:
+            return L8;
             break;
         default:
             printf("triggered default in getLayerSize()\n");

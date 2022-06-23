@@ -1,4 +1,3 @@
-from tabnanny import verbose
 import msgpack
 import os
 import numpy as np
@@ -7,6 +6,8 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
 
 process_log_dir = "../state_files/processed_logs/"
+
+
 
 def get_data(turn_minimum, max_datapoints):
     x = []
@@ -28,16 +29,37 @@ def get_data(turn_minimum, max_datapoints):
                 fileRead = file.read()
                 if fileRead != b"":
                     val = msgpack.unpackb(fileRead)
+
+                    # reorder the bench pokemon
+                    # this reduces overfitting
+                    bench_order = np.array([1,2,3,4,5])
+                    np.random.shuffle(bench_order)
+
+                    new_value = val[0][95:245]
+
+                    for i in range(1, 6):
+                        if i != bench_order[i-1]:
+                            new_value[(i*30-30):(i*30)] = val[0][ (bench_order[i-1]*30+65):bench_order[i-1]*30+95 ]
+                            
+                    val[0][95:245] = new_value
+
+                    new_value = val[0][275:425]
+
+                    for i in range(1, 6):
+                        if i != bench_order[i-1]:
+                            new_value[(i*30-30):(i*30)] = val[0][ (bench_order[i-1]*30+65+180):bench_order[i-1]*30+95+180 ]
+                            
+                    val[0][275:425] = new_value
+
                     x.append(val[0])
                     y.append(int(val[1]))
     return x, y
 
-X, y = get_data(15, 1E7)
+X, y = get_data(3, 1E7)
 print("got data")
 
 
-clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(300, 150, 50), verbose=True).fit(X, y)
-# clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(20, 10), verbose=True).fit(X, y)
+clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(200, 100, 50, 25, 10, 5), verbose=True, tol=1E-6).fit(X, y)
 print("got finished training")
 
 
@@ -126,24 +148,30 @@ plt.show()
 
 file = open("./weights.txt", "wb")
 
-print("len(clf.coefs)", len(clf.coefs_))
-print("len(clf.intercepts_)", len(clf.intercepts_))
+print("len(clf.coefs_)",len(clf.coefs_))
+print("len(clf.intercepts_)",len(clf.intercepts_))
 
 file.write(
-    msgpack.packb( [ 
-        clf.coefs_[0].tolist(), 
-        clf.coefs_[1].tolist(), 
-        clf.coefs_[2].tolist(),
-        clf.coefs_[3].tolist(),
-        # clf.coefs_[4].tolist(),
-        # clf.coefs_[5].tolist(),
+    msgpack.packb( 
         [ 
-            clf.intercepts_[0].tolist(),
-            clf.intercepts_[1].tolist(),
-            clf.intercepts_[2].tolist(),
-            clf.intercepts_[3].tolist(),
-            # clf.intercepts_[4].tolist(),
-            # clf.intercepts_[5].tolist()
+            clf.coefs_[0].tolist(), 
+            clf.coefs_[1].tolist(), 
+            clf.coefs_[2].tolist(),
+            clf.coefs_[3].tolist(),
+            clf.coefs_[4].tolist(),
+            clf.coefs_[5].tolist(),
+            clf.coefs_[6].tolist(),
+            # clf.coefs_[7].tolist(),
+            [ 
+                clf.intercepts_[0].tolist(),
+                clf.intercepts_[1].tolist(),
+                clf.intercepts_[2].tolist(),
+                clf.intercepts_[3].tolist(),
+                clf.intercepts_[4].tolist(),
+                clf.intercepts_[5].tolist(),
+                clf.intercepts_[6].tolist(),
+                # clf.intercepts_[7].tolist()
+            ]
         ] 
-    ] )
+    )
 )
