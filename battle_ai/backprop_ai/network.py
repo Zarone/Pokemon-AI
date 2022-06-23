@@ -21,7 +21,7 @@ def get_data(turn_minimum, max_datapoints):
             turn_count = int(fileName.split(".txt-")[1])
             valid_turn = turn_count > turn_minimum
 
-            print("{0}/{1} valid turn: {2}".format(increment, fileCount, valid_turn), process_log_dir+fileName)
+            # print("{0}/{1} valid turn: {2}".format(increment, fileCount, valid_turn), process_log_dir+fileName)
             
             if valid_turn:
                 file = open(process_log_dir+fileName, "rb")
@@ -32,10 +32,11 @@ def get_data(turn_minimum, max_datapoints):
                     y.append(int(val[1]))
     return x, y
 
-X, y = get_data(7, 1000000)
+X, y = get_data(15, 1E7)
 print("got data")
 
-clf = MLPClassifier(random_state=1, max_iter=150, hidden_layer_sizes=(200, 100, 50, 20, 10), verbose=True).fit(X, y)
+
+clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(300, 150, 50), verbose=True).fit(X, y)
 # clf = MLPClassifier(random_state=1, max_iter=200, hidden_layer_sizes=(20, 10), verbose=True).fit(X, y)
 print("got finished training")
 
@@ -125,19 +126,22 @@ plt.show()
 
 file = open("./weights.txt", "wb")
 
+print("len(clf.coefs)", len(clf.coefs_))
+print("len(clf.intercepts_)", len(clf.intercepts_))
+
 file.write(
     msgpack.packb( [ 
         clf.coefs_[0].tolist(), 
         clf.coefs_[1].tolist(), 
         clf.coefs_[2].tolist(),
-        # clf.coefs_[3].tolist(),
+        clf.coefs_[3].tolist(),
         # clf.coefs_[4].tolist(),
         # clf.coefs_[5].tolist(),
         [ 
             clf.intercepts_[0].tolist(),
             clf.intercepts_[1].tolist(),
             clf.intercepts_[2].tolist(),
-            # clf.intercepts_[3].tolist(),
+            clf.intercepts_[3].tolist(),
             # clf.intercepts_[4].tolist(),
             # clf.intercepts_[5].tolist()
         ] 

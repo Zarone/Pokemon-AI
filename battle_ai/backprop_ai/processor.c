@@ -13,13 +13,13 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define LAYERS 7
+#define LAYERS 5
 
 #define L1 425
-#define L2 200
-#define L3 100 
+#define L2 300
+#define L3 150
 #define L4 50
-#define L5 20
+#define L5 1
 #define L6 10
 #define L7 1
 
@@ -893,6 +893,8 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
 
         for (int i = 65; i < 245; i+=30){
             
+            printf("errorLayers[LAYERS-2][%i] = %f\n", i, errorLayers[LAYERS-2][i]);
+
             // if there's a pokemon in this slot
             if ((*inputs)[i+1] > 0){
                 tempCondition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
