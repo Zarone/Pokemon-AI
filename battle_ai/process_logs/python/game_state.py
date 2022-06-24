@@ -405,6 +405,9 @@ class GameState:
                     self.player1boosts[stat_index] -= int(stage_string)
                 elif (player_string == "p2a"):
                     self.player2boosts[stat_index] -= int(stage_string)
+            elif self.log[i].startswith("|-clearallboost"):
+                self.player1boosts = [0 for _ in range(BOOSTS)]
+                self.player2boosts = [0 for _ in range(BOOSTS)]
             elif self.log[i].startswith("|-sidestart"):
                 split_line = self.log[i].split("|")
                 move_split = split_line[3].split(":")

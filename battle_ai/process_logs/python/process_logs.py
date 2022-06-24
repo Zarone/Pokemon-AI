@@ -80,11 +80,13 @@ raw_log_dir = "../../../get_battle_data/raw_logs/"
 
 def get_all_logs():
   process_files = 0
-  for file in os.listdir(raw_log_dir):
+  all_dirs = os.listdir(raw_log_dir)
+  dir_len = len(all_dirs)
+  for file in all_dirs:
       if file != ".DS_Store":
         print("file:",file)
         process_files+=1
-        print("number:",process_files)
+        print("number:",process_files,"/",dir_len)
         get_log(raw_log_dir+file, file)
 
 def get_log(log_name, file):
@@ -115,4 +117,4 @@ def get_log(log_name, file):
 
 get_all_logs()
 # get_log("last.txt")
-# get_log("../../../get_battle_data/old_logs/china-gen5nu-128908.txt", "china-gen5nu-128908.txt")
+# get_log("../../../get_battle_data/old_logs/china-gen5uu-342187.txt", "china-gen5uu-342187.txt")

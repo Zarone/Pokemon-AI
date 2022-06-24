@@ -1,3 +1,4 @@
+import random
 import msgpack
 import os
 import numpy as np
@@ -22,7 +23,7 @@ def get_data(turn_minimum, max_datapoints):
             turn_count = int(fileName.split(".txt-")[1])
             valid_turn = turn_count > turn_minimum
 
-            # print("{0}/{1} valid turn: {2}".format(increment, fileCount, valid_turn), process_log_dir+fileName)
+            print("{0}/{1} valid turn: {2}".format(increment, fileCount, valid_turn), process_log_dir+fileName)
             
             if valid_turn:
                 file = open(process_log_dir+fileName, "rb")
@@ -51,11 +52,30 @@ def get_data(turn_minimum, max_datapoints):
                             
                     val[0][275:425] = new_value
 
+                    if not not random.randrange(0, 2):
+                        val[1] = not val[1]
+
+                        temp_p1_hazards = val[0][5:14]
+                        val[0][5:14] = val[0][14:23]
+                        val[0][14:23] = temp_p1_hazards
+                        
+                        temp_p1_volatiles = val[0][23:37]
+                        val[0][23:37] = val[0][37:51]
+                        val[0][37:51] = temp_p1_volatiles
+
+                        temp_p1_boosts = val[0][51:58]
+                        val[0][51:58] = val[0][58:65]
+                        val[0][58:65] = temp_p1_boosts
+
+                        temp_p1_pokemon = val[0][65:245]
+                        val[0][65:245] = val[0][245:425]
+                        val[0][245:425] = temp_p1_pokemon
+
                     x.append(val[0])
                     y.append(int(val[1]))
     return x, y
 
-X, y = get_data(3, 1E7)
+X, y = get_data(5, 1E7)
 print("got data")
 
 
