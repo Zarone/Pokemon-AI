@@ -169,7 +169,7 @@ export class Battle {
 	clampIntRange: (num: any, min?: number, max?: number) => number;
 	toID = toID;
 	importData: any;
-	startTeam: string[][] = [[], []];
+	startTeam: number[][] = [[], []];
 	constructor(options: BattleOptions, key: number, importData: any) {
 		this.importData = importData;
 
@@ -3099,10 +3099,10 @@ export class Battle {
 				}
 
 				for (let i = 0; i < this.sides[0].pokemon.length; i++) {
-					this.startTeam[0].push(this.sides[0].pokemon[i].species.name);
+					this.startTeam[0].push(this.sides[0].pokemon[i].uniqueIndentifier);
 				}
 				for (let i = 0; i < this.sides[1].pokemon.length; i++) {
-					this.startTeam[1].push(this.sides[1].pokemon[i].species.name);
+					this.startTeam[1].push(this.sides[1].pokemon[i].uniqueIndentifier);
 				}
 
 				for (let i = 0; i < 12; i++) {

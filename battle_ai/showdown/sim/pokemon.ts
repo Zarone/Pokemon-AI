@@ -50,7 +50,12 @@ export const RESTORATIVE_BERRIES = new Set([
 	"oranberry",
 ] as ID[]);
 
+let identifierCounter = 0;
+
 export class Pokemon {
+
+    uniqueIndentifier: number;
+
 	readonly side: Side;
 	readonly battle: Battle;
 
@@ -282,6 +287,10 @@ export class Pokemon {
 	};
 
 	constructor(set: string | AnyObject, side: Side) {
+
+        this.uniqueIndentifier = identifierCounter;
+        identifierCounter++;
+
 		this.side = side;
 		this.battle = side.battle;
 

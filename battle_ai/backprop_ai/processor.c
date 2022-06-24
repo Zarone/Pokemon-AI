@@ -13,24 +13,24 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define LAYERS 8
+#define LAYERS 7
 
 #define L1 425
 #define L2 200
 #define L3 100
 #define L4 50
-#define L5 25
-#define L6 10
-#define L7 5
+#define L5 10
+#define L6 5
+#define L7 1
 #define L8 1
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
-#define SPREAD 0.1
+#define SPREAD 0.05
 
-#define TRIM_P2 4
+#define TRIM_P2 3
 #define TRIM_P2_CATCH 1
-#define TRIM_P1 5
+#define TRIM_P1 6
 #define TRIM_P1_CATCH 2
 
 #define START_DEPTH 2
@@ -896,9 +896,6 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
         double tempCondition = 0;
 
         for (int i = 65; i < 245; i+=30){
-            
-            printf("errorLayers[LAYERS-2][%i] = %f\n", i, errorLayers[LAYERS-2][i]);
-
             // if there's a pokemon in this slot
             if ((*inputs)[i+1] > 0){
                 tempCondition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
@@ -953,8 +950,8 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
         }
     */
 
-   if (didWin) return 1.0f;
-   if (didLose) return 0.0f;
+    if (didWin) return 1.0f;
+    if (didLose) return 0.0f;
 
     return activationLayers[LAYERS-2][0];
 
@@ -1060,24 +1057,24 @@ void load_showdown_state(struct State *state, int localKey, bool firstCall){
     strcat(process, stringKey);
 
     // easiest to debug, but pulls up new window
-    // system(process);
+    system(process);
 
     // doesn't render cmd window
-    STARTUPINFO si;
-    PROCESS_INFORMATION pi;
+    // STARTUPINFO si;
+    // PROCESS_INFORMATION pi;
 
-    ZeroMemory(&si, sizeof(si));
-    si.cb = sizeof(si);
-    ZeroMemory(&pi, sizeof(pi));
+    // ZeroMemory(&si, sizeof(si));
+    // si.cb = sizeof(si);
+    // ZeroMemory(&pi, sizeof(pi));
 
-    if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
-    {
-        WaitForSingleObject(pi.hProcess, INFINITE);
-        CloseHandle(pi.hProcess);
-        CloseHandle(pi.hThread);
-    } else {
-        printf( "CreateProcess failed (%ld)\n", GetLastError() );
-    }
+    // if (CreateProcess(NULL, (LPSTR)process, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &si, &pi))
+    // {
+    //     WaitForSingleObject(pi.hProcess, INFINITE);
+    //     CloseHandle(pi.hProcess);
+    //     CloseHandle(pi.hThread);
+    // } else {
+    //     printf( "CreateProcess failed (%ld)\n", GetLastError() );
+    // }
 
 }
 
@@ -1402,6 +1399,7 @@ void *evaluate_move(void *rawArgs){
                     // "i" is player2's move
                     // "j" is player1's move
 
+                    // printf("evaluating P1 %i, P2 %i, result %i\n", j, i, k);
                     double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH);
 
                     total_estimate+=estimate;

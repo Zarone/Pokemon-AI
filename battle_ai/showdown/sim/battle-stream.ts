@@ -313,7 +313,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		) {
 			if (
 				(this.battle as Battle).startTeam[side][i] ==
-				(this.battle as Battle).sides[side].active[0].species.name
+				(this.battle as Battle).sides[side].active[0].uniqueIndentifier
 			) {
 				return i;
 			}
@@ -407,11 +407,11 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		);
 
 		for (let i = 1; i < 6; i++) {
-			if (i < ((this.battle?.startTeam[0] as string[]).length as number)) {
+			if (i < ((this.battle?.startTeam[0] as number[]).length as number)) {
 				if (i == p1ActiveMon) {
 					for (let j = 0; j < 6; j++) {
 						if (
-							this.battle?.sides[0].pokemon[j].species.name ==
+							this.battle?.sides[0].pokemon[j].uniqueIndentifier ==
 							this.battle?.startTeam[0][0]
 						) {
 							benchP1.push(
@@ -425,7 +425,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				} else {
 					for (let j = 0; j < 6; j++) {
 						if (
-							this.battle?.sides[0].pokemon[j].species.name ==
+							this.battle?.sides[0].pokemon[j].uniqueIndentifier ==
 							this.battle?.startTeam[0][i]
 						) {
 							benchP1.push(
@@ -472,11 +472,11 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				);
 			}
 
-			if (i < ((this.battle?.startTeam[1] as string[]).length as number)) {
+			if (i < ((this.battle?.startTeam[1] as number[]).length as number)) {
 				if (i == p2ActiveMon) {
 					for (let j = 0; j < 6; j++) {
 						if (
-							this.battle?.sides[1].pokemon[j].species.name ==
+							this.battle?.sides[1].pokemon[j].uniqueIndentifier ==
 							this.battle?.startTeam[1][0]
 						) {
 							benchP2.push(
@@ -490,7 +490,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				} else {
 					for (let j = 0; j < 6; j++) {
 						if (
-							this.battle?.sides[1].pokemon[j].species.name ==
+							this.battle?.sides[1].pokemon[j].uniqueIndentifier ==
 							this.battle?.startTeam[1][i]
 						) {
 							benchP2.push(
