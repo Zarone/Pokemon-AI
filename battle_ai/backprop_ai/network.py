@@ -75,7 +75,7 @@ def get_data(turn_minimum, max_datapoints):
                     y.append(int(val[1]))
     return x, y
 
-X, y = get_data(45, 1E7)
+X, y = get_data(5, 1E7)
 print("got data")
 
 
