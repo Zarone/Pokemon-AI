@@ -589,6 +589,13 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 		let boostsP1 = this.getBoosts(this.battle?.sides[0].pokemon as Pokemon[]);
 		let boostsP2 = this.getBoosts(this.battle?.sides[1].pokemon as Pokemon[]);
 
+        // console.log("")
+        // console.log("")
+        // console.log(
+        //     activeP1[0], benchP1[0], benchP1[1*30], benchP1[2*30], benchP1[3*30], benchP1[4*30],
+        //     activeP2[0], benchP2[0], benchP2[1*30], benchP2[2*30], benchP2[3*30], benchP2[4*30],
+        // )
+
 		let returnVal = [
 			[
 				this.battle?.field.weatherState.duration || 0,

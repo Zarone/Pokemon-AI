@@ -6,7 +6,7 @@ BOOSTS = 7
 HAZARDS = 9
 
 def get_pokemon_data(pokemon):
-    pokemon_raw = open("../../gamedata/pokedex.json", "r")
+    pokemon_raw = open("../../pokedex/pokedex.json", "r")
     pokemon_data = json.load(pokemon_raw)
     pokemon_raw.close()
 
@@ -105,7 +105,7 @@ class GameState:
     def is_form_of(self, pokemon_form, pokemon_target):
         if pokemon_target == pokemon_form:
             return True
-        pokemon_raw = open("../../gamedata/pokedex.json", "r")
+        pokemon_raw = open("../../pokedex/pokedex.json", "r")
         pokemon_data = json.load(pokemon_raw)
         pokemon_raw.close()
 

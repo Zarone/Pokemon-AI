@@ -6,7 +6,7 @@ local output_manager = require "./navigator/output_manager"
 local BattleManager = require "./battle_ai/battle_manager"
 local json = require "lunajson"
 
-gamedata_file = io.open("./battle_ai/gamedata/pokedex.json", "r")
+gamedata_file = io.open("./battle_ai/pokedex/pokedex.json", "r")
 local gamedata = json.decode(gamedata_file:read())
 gamedata_file:close()
 
@@ -43,7 +43,7 @@ local battle_weights = {
 }
 
 function exit()
-    print("saving data")
+    -- print("saving data")
     -- saves global map data
     table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal, mode = mode, battle_weights = battle_weights }, "./navigator/map_cache/global_cache.lua")
 
@@ -57,7 +57,7 @@ emu.registerexit(exit)
 loaded_saved_data = table.load("./navigator/map_cache/global_cache.lua")
 if loaded_saved_data ~= nil then
     goals.current_goal = loaded_saved_data.current_goal
-    print("current_goal: ", goals.current_goal)    
+    -- print("current_goal: ", goals.current_goal)    
 
     md.set_global_map_data(loaded_saved_data.global_map_data)
     mode = loaded_saved_data.mode
@@ -102,7 +102,7 @@ while true do
     elseif was_in_battle and not is_in_battle and not replacing_move then
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
-            print("battle ended")
+            -- print("battle ended")
 
             md.clear_neighbors()
 
@@ -117,7 +117,7 @@ while true do
             battleState = BattleManager.new()
             battle_clock = 0
             was_in_battle = true
-            print("battle started")
+            -- print("battle started")
         end
 
         -- that last condition is only met in the battle where the professor
@@ -127,15 +127,15 @@ while true do
             -- this check has to happen or else the professor showing the player how
             -- to catch pokemon would crash the game
             if #battleState.IGReader:get(5) > 0 then      
-                print("changed to wild battle")
+                -- print("changed to wild battle")
                 local enemy_pokemon1_types_raw = gamedata[battleState.IGReader:get(5)[1].name].types
                 if #enemy_pokemon1_types_raw == 1 then
                     enemy_pokemon1_types_raw[2] = enemy_pokemon1_types_raw[1]
                 end
     
                 enemy_pokemon1_types = { BattleManager.type_id(enemy_pokemon1_types_raw[1]), BattleManager.type_id(enemy_pokemon1_types_raw[2]) }
-                print("enemy_pokemon1_types", enemy_pokemon1_types)
-                print("battle_weights.type_info", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
+                -- print("enemy_pokemon1_types", enemy_pokemon1_types)
+                -- print("battle_weights.type_info", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
             else
                 output_manager.pressA()
             end
@@ -166,9 +166,9 @@ while true do
                 local initDelay = 90
                 is_forced_switch = true
                 local action = battleState:get_switch()
-                print("forced switch, action =", action)
+                -- print("forced switch, action =", action)
                 if action == 0 then
-                    print("reset output manager")
+                    -- print("reset output manager")
                     output_manager.reset()
                 elseif action == 1 then
                     output_manager.press(
@@ -232,7 +232,7 @@ while true do
                     is_forced_switch = false
                 end
             elseif text_end == "oints!" or text_end == "nning!" then -- if battle is over and money or exp gains are happening
-                print("exp gain or something")
+                -- print("exp gain or something")
                 output_manager.pressA()
             elseif replacing_move then
                 local initDelay = 480
@@ -313,7 +313,7 @@ while true do
                 local active = battleState.game_reader.active
                 battle_weights.moves_used[active+1] = {0, 0, 0, 0}
                 output_manager.pressA()
-                print("learned new move")
+                -- print("learned new move")
             elseif can_move and #battleState.IGReader:get(1) < 6
                 and battleState.game_reader.wild_battle 
                 and not has_caught_this_pokemon
@@ -331,7 +331,7 @@ while true do
                 end 
 
                 if action == 0 then
-                    print("reset output manager")
+                    -- print("reset output manager")
                     output_manager.reset()
                 elseif action == 1 then
                     output_manager.press({
@@ -545,27 +545,27 @@ while true do
                         
                         if (action_info.condition) then
                             -- condition manages HP and status conditions
-                            print("condition pre", battle_weights.condition)
-                            print("action_info", action_info)
+                            -- print("condition pre", battle_weights.condition)
+                            -- print("action_info", action_info)
                             battle_weights.condition = (battle_weights.condition + action_info.condition) / 2
-                            print("condition", battle_weights.condition)
+                            -- print("condition", battle_weights.condition)
                         end
                         
                         if (action_info.type_info) then
                             -- this manages which types the player wants to catch
                             for i = 1, 17 do
                                 battle_weights.type_info[i] = (battle_weights.type_info[i] + action_info.type_info[i]) / 2
-                                print(i, battle_weights.type_info[i])
+                                -- print(i, battle_weights.type_info[i])
                             end
                         end
 
                         -- this manages which moves the player would delete next
                         -- should they learn a new move
                         if (action > 0 and action < 5) then
-                            print("active", "action", active, action)
+                            -- print("active", "action", active, action)
                             battle_weights.moves_used[active+1][action] = 1 + battle_weights.moves_used[active+1][action]
                         end
-                        print("battle_weights.moves_used", battle_weights.moves_used)
+                        -- print("battle_weights.moves_used", battle_weights.moves_used)
 
 
                     end
@@ -582,7 +582,7 @@ while true do
                 last_battle_action = action
 
                 if action == 0 then
-                    print("reset output manager")
+                    -- print("reset output manager")
                     output_manager.reset()
                 elseif action == 1 then
                     output_manager.press({
@@ -767,9 +767,9 @@ while true do
         -- print("there's on screen dialogue, time to button mash")
         output_manager.pressA()
     elseif (mode == 0) then
-        print("battle_weights.condition: ", battle_weights.condition)
+        -- print("battle_weights.condition: ", battle_weights.condition)
         if (battle_weights.condition > heal_threshold) then
-            print("mode set to find healing center")
+            -- print("mode set to find healing center")
             mode = 2
         else
             mode = 1
@@ -812,7 +812,7 @@ while true do
             if local_path_response == 1 then -- if the destination has been reached    
                 md.gpf.current_path = nil
                 output_manager.pressA()
-                print("healed")
+                -- print("healed")
                 battle_weights.condition = 0
                 mode = 0
             end
@@ -848,7 +848,7 @@ while true do
                     local local_path_response = md.pf.abs_manage_path_to(unpack(md.gpf.current_path[1]))
 
                     if local_path_response == 1 then -- if the destination has been reached
-                        print("local destination reached")
+                        -- print("local destination reached")
                         -- print(md.gpf.current_path[1])
 
                         

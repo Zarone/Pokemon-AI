@@ -8,8 +8,6 @@ from sklearn.model_selection import train_test_split
 
 process_log_dir = "../state_files/processed_logs/"
 
-
-
 def get_data(turn_minimum, max_datapoints):
     x = []
     y = []
@@ -75,8 +73,15 @@ def get_data(turn_minimum, max_datapoints):
                     y.append(int(val[1]))
     return x, y
 
-X, y = get_data(5, 1E7)
-print("got data")
+X, y = get_data(25, 1E8)
+
+# for i in range(len(X)):
+#     print("")
+#     print(X[i][65], X[i][95], X[i][125], X[i][155], X[i][185], X[i][215])
+#     print(X[i][245], X[i][275], X[i][305], X[i][335], X[i][365], X[i][395])
+#     print(y[i])
+
+# print("got data")
 
 
 clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=(200, 100, 50, 10, 5), verbose=True, tol=1E-8).fit(X, y)
@@ -180,8 +185,6 @@ file.write(
             clf.coefs_[3].tolist(),
             clf.coefs_[4].tolist(),
             clf.coefs_[5].tolist(),
-            # clf.coefs_[6].tolist(),
-            # clf.coefs_[7].tolist(),
             [ 
                 clf.intercepts_[0].tolist(),
                 clf.intercepts_[1].tolist(),
@@ -189,8 +192,6 @@ file.write(
                 clf.intercepts_[3].tolist(),
                 clf.intercepts_[4].tolist(),
                 clf.intercepts_[5].tolist(),
-                # clf.intercepts_[6].tolist(),
-                # clf.intercepts_[7].tolist()
             ]
         ] 
     )
