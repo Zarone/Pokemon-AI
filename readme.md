@@ -1,4 +1,4 @@
-# AI 1: Showdown Data and Backpropagation
+# Showdown Data and Backpropagation AI
 
 ## Training
 

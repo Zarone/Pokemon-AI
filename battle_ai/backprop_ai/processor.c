@@ -36,7 +36,7 @@
 #define START_DEPTH 2
 #define START_DEPTH_CATCH 4
 
-#define MULTITHREADED true
+#define MULTITHREADED false
 
 struct Weights {
     double** weights[LAYERS-1];
@@ -835,19 +835,19 @@ double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBack
     zLayers[0] = (double*)malloc(L2*sizeof(double));
 
     
-    // printf("Inputs[65] = %i\n", (*inputs)[65]);
-    // printf("Inputs[95] = %i\n", (*inputs)[95]);
-    // printf("Inputs[125] = %i\n", (*inputs)[125]);
-    // printf("Inputs[155] = %i\n", (*inputs)[155]);
-    // printf("Inputs[185] = %i\n", (*inputs)[185]);
-    // printf("Inputs[215] = %i\n", (*inputs)[215]);
+    printf("Inputs[65] = %i\n", (*inputs)[65]);
+    printf("Inputs[95] = %i\n", (*inputs)[95]);
+    printf("Inputs[125] = %i\n", (*inputs)[125]);
+    printf("Inputs[155] = %i\n", (*inputs)[155]);
+    printf("Inputs[185] = %i\n", (*inputs)[185]);
+    printf("Inputs[215] = %i\n", (*inputs)[215]);
 
-    // printf("Inputs[245] = %i\n", (*inputs)[245]);
-    // printf("Inputs[275] = %i\n", (*inputs)[275]);
-    // printf("Inputs[305] = %i\n", (*inputs)[305]);
-    // printf("Inputs[335] = %i\n", (*inputs)[335]);
-    // printf("Inputs[365] = %i\n", (*inputs)[365]);
-    // printf("Inputs[395] = %i\n", (*inputs)[395]);
+    printf("Inputs[245] = %i\n", (*inputs)[245]);
+    printf("Inputs[275] = %i\n", (*inputs)[275]);
+    printf("Inputs[305] = %i\n", (*inputs)[305]);
+    printf("Inputs[335] = %i\n", (*inputs)[335]);
+    printf("Inputs[365] = %i\n", (*inputs)[365]);
+    printf("Inputs[395] = %i\n", (*inputs)[395]);
 
     
 
@@ -1417,9 +1417,9 @@ void *evaluate_move(void *rawArgs){
                     // "j" is player1's move
 
                     // printf("\n");
-                    // printf("Evaluating P1 %i; P2 %i; Result %i\n", j, i, k);
+                    printf("Evaluating P1 %i; P2 %i; Result %i\n", j, i, k);
                     double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH);
-                    // printf("Estimate: %f\n", estimate);
+                    printf("Estimate: %f\n", estimate);
 
                     total_estimate+=estimate;
                     totalStatesEvaluated++;

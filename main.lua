@@ -43,7 +43,6 @@ local battle_weights = {
 }
 
 function exit()
-    -- print("saving data")
     -- saves global map data
     table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal, mode = mode, battle_weights = battle_weights }, "./navigator/map_cache/global_cache.lua")
 
@@ -57,7 +56,6 @@ emu.registerexit(exit)
 loaded_saved_data = table.load("./navigator/map_cache/global_cache.lua")
 if loaded_saved_data ~= nil then
     goals.current_goal = loaded_saved_data.current_goal
-    -- print("current_goal: ", goals.current_goal)    
 
     md.set_global_map_data(loaded_saved_data.global_map_data)
     mode = loaded_saved_data.mode
@@ -86,10 +84,6 @@ while true do
         
     r1, g1, b1 = gui.getpixel(235, 172)
 
-    -- okay so this section is to make sure that the
-    -- battle doesn't quit out if "is_in_battle" returns
-    -- false for a single frame
-    
     if mem.asking_nickname() then
         output_manager.pressB()
         battle_weights.type_info = {
@@ -98,12 +92,13 @@ while true do
             0, 0, 0, 0, 0,
             0, 0
         }
-
+        
+    -- okay so this section is to make sure that the
+    -- battle doesn't quit out if "is_in_battle" returns
+    -- false for a single frame    
     elseif was_in_battle and not is_in_battle and not replacing_move then
         battle_clock = battle_clock + 1
         if battle_clock > 240 then
-            -- print("battle ended")
-
             md.clear_neighbors()
 
             enemy_pokemon1_types = {}
@@ -117,7 +112,6 @@ while true do
             battleState = BattleManager.new()
             battle_clock = 0
             was_in_battle = true
-            -- print("battle started")
         end
 
         -- that last condition is only met in the battle where the professor
@@ -127,22 +121,17 @@ while true do
             -- this check has to happen or else the professor showing the player how
             -- to catch pokemon would crash the game
             if #battleState.IGReader:get(5) > 0 then      
-                -- print("changed to wild battle")
                 local enemy_pokemon1_types_raw = gamedata[battleState.IGReader:get(5)[1].name].types
                 if #enemy_pokemon1_types_raw == 1 then
                     enemy_pokemon1_types_raw[2] = enemy_pokemon1_types_raw[1]
                 end
     
                 enemy_pokemon1_types = { BattleManager.type_id(enemy_pokemon1_types_raw[1]), BattleManager.type_id(enemy_pokemon1_types_raw[2]) }
-                -- print("enemy_pokemon1_types", enemy_pokemon1_types)
-                -- print("battle_weights.type_info", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ])
             else
                 output_manager.pressA()
             end
 
         end
-
-        -- print("catch decision", battle_weights.type_info[ enemy_pokemon1_types[1]], battle_weights.type_info[ enemy_pokemon1_types[2] ], catch_threshold)
 
         local this_line_text = battleState.game_reader:line_text()
         local text_end = this_line_text:sub(-6, -1)
@@ -166,9 +155,7 @@ while true do
                 local initDelay = 90
                 is_forced_switch = true
                 local action = battleState:get_switch()
-                -- print("forced switch, action =", action)
                 if action == 0 then
-                    -- print("reset output manager")
                     output_manager.reset()
                 elseif action == 1 then
                     output_manager.press(
