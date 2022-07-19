@@ -10,6 +10,8 @@ import const
 
 import network_injection
 
+import math
+
 process_log_dir = "../../state_files/processed_logs/"
 
 def get_data(turn_minimum, max_datapoints):
@@ -37,7 +39,7 @@ def get_data(turn_minimum, max_datapoints):
         fainted_pokemon = [int(val[0][65+i*30] < 1) for i in range(12)]
         fainted_pokemon_count = sum( fainted_pokemon )
 
-        # chance of being skipped
+        # linear chance of being skipped
         # 11 fainted -->   0%
         # 10 fainted -->   9%
         #  9 fainted -->  18%
@@ -51,9 +53,26 @@ def get_data(turn_minimum, max_datapoints):
         #  1 fainted -->  91%
         #  0 fainted --> 100%
 
-        if fainted_pokemon_count < random.randrange(0, 12):
-            # print("fained pokemon: ", fainted_pokemon_count, ", exiting")
+        # if fainted_pokemon_count/11 < random.random():
+        #     continue
+
+        # exponential chances of being skipped
+        # 11 fainted -->   0%
+        # 10 fainted -->  39%
+        #  9 fainted -->  63%
+        #  8 fainted -->  78%
+        #  7 fainted -->  86%
+        #  6 fainted -->  92%
+        #  5 fainted -->  95%
+        #  4 fainted -->  97%
+        #  3 fainted -->  98%
+        #  2 fainted -->  99%
+        #  1 fainted -->  99%
+        #  0 fainted --> 100%
+
+        if math.exp( (fainted_pokemon_count-11)/2 ) < random.random():
             continue
+
 
         # print("")
         # print("before")
@@ -113,33 +132,33 @@ def get_data(turn_minimum, max_datapoints):
     return x, y
 
 
-# MLPClassifier._compute_loss_grad = network_injection._compute_loss_grad_injection
 MLPClassifier._backprop = network_injection._backprop_injection(MLPClassifier._backprop)
+MLPClassifier._init_coef = network_injection._init_coef_injection(MLPClassifier._init_coef)
 
-X, y = get_data(0, 1E2)
+X, y = get_data(3, 1E3)
 
 print("got data")
 
-clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=const.layers_tuple, verbose=True, tol=1E-8).fit(X, y)
+clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=const.layers_tuple, verbose=True, tol=-1).fit(X, y)
 print("got finished training")
 
-# file = open("../weights.txt", "wb")
+file = open("../weights.txt", "wb")
 
-# print("len(clf.coefs_)",len(clf.coefs_))
-# print("len(clf.intercepts_)",len(clf.intercepts_))
+print("len(clf.coefs_)",len(clf.coefs_))
+print("len(clf.intercepts_)",len(clf.intercepts_))
 
-# max = len(const.layers_tuple)+1
-# print("max", max)
+max = len(const.layers_tuple)+1
+print("max", max)
 
-# outputArr = [
-#     *[clf.coefs_[i].tolist() for i in range(max)],
-#     [clf.intercepts_[i].tolist() for i in range(max)]
-# ] 
+outputArr = [
+    *[clf.coefs_[i].tolist() for i in range(max)],
+    [clf.intercepts_[i].tolist() for i in range(max)]
+] 
 
-# print(len(outputArr))
+print(len(outputArr))
 
-# file.write(
-#     msgpack.packb( 
-#         outputArr
-#     )
-# )
+file.write(
+    msgpack.packb( 
+        outputArr
+    )
+)

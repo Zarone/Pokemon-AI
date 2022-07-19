@@ -1,25 +1,5 @@
-
-# from sklearn.neural_network._base import DERIVATIVES, LOSS_FUNCTIONS
-# from sklearn.utils.extmath import safe_sparse_dot
 import numpy as np
 import const
-
-# def _compute_loss_grad_injection(
-#         self, layer, n_samples, activations, deltas, coef_grads, intercept_grads
-#     ):
-#         """Compute the gradient of loss with respect to coefs and intercept for
-#         specified layer.
-
-#         This function does backpropagation for the specified one layer.
-#         """
-
-#         coef_grads[layer] = safe_sparse_dot(activations[layer].T, deltas[layer])
-#         coef_grads[layer] += self.alpha * self.coefs_[layer]
-#         coef_grads[layer] /= n_samples
-        
-#         print(len(coef_grads[layer][0]))
-
-#         intercept_grads[layer] = np.mean(deltas[layer], 0)
 
 def _backprop_injection(original):
     def newFunction(*args):
@@ -31,6 +11,11 @@ def _backprop_injection(original):
         ]
 
         for group in links:
+
+            # print("before")
+            # for link in group:
+            #     print(link, coef_grads[0][link+1][0:4])
+
             for i in range(30):
                 avg = np.zeros(np.shape(coef_grads[0][0]))
                 for el in group:
@@ -41,7 +26,28 @@ def _backprop_injection(original):
                 for el in group:
                     coef_grads[0][el+i] = avg
 
-        # print(len(coef_grads), len(coef_grads[0]), len(coef_grads[0][0]), coef_grads[0][0][0])
+            # print("after")
+            # for link in group:
+            #     print(link, coef_grads[0][link+1][0:4])
+
 
         return loss, coef_grads, intercept_grads
+    return newFunction
+
+def _init_coef_injection(original):
+    def newFunction(*args):
+        coef_init, intercept_init = original(*args)
+        if (args[1] == 425):
+            coef_init[125:155] = coef_init[95:125]
+            coef_init[155:185] = coef_init[95:125]
+            coef_init[185:215] = coef_init[95:125]
+            coef_init[215:245] = coef_init[95:125]
+
+            coef_init[305:335] = coef_init[275:305]
+            coef_init[335:365] = coef_init[275:305]
+            coef_init[365:395] = coef_init[275:305]
+            coef_init[395:425] = coef_init[275:305]
+
+        return coef_init, intercept_init
+
     return newFunction
