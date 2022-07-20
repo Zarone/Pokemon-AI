@@ -1,7 +1,10 @@
 
 from tkinter import *
 
-def manual_test(clf, network_input):
+from input_data import get_inputs
+
+def manual_test(clf):
+    network_input = get_inputs()
 
     def get_output():
         return f"{clf._forward_pass_fast([ network_input ])[0][0]:.8f}"

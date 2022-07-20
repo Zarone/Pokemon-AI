@@ -1,20 +1,20 @@
 import random
-import msgpack
 import os
-import numpy as np
+import math
 
+import numpy as np
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
-
-import const
+import msgpack
 
 import network_injection
-
-import math
+import const
+from export import export
+from graph import graph
 
 process_log_dir = "../../state_files/processed_logs/"
 
-def get_data(turn_minimum, max_datapoints):
+def get_data(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=0, skip_on_fainted_exp=0, re_order=False, occasional_swap=False):
     x = []
     y = []
     fileCount = len(os.listdir(process_log_dir))
@@ -28,7 +28,6 @@ def get_data(turn_minimum, max_datapoints):
         valid_turn = turn_count > turn_minimum
         if not valid_turn: continue
         
-        
         print("{0}/{1} valid turn: {2}".format(increment, fileCount, valid_turn), process_log_dir+fileName)
         file = open(process_log_dir+fileName, "rb")
         fileRead = file.read()
@@ -39,70 +38,42 @@ def get_data(turn_minimum, max_datapoints):
         fainted_pokemon = [int(val[0][65+i*30] < 1) for i in range(12)]
         fainted_pokemon_count = sum( fainted_pokemon )
 
-        # linear chance of being skipped
-        # 11 fainted -->   0%
-        # 10 fainted -->   9%
-        #  9 fainted -->  18%
-        #  8 fainted -->  27%
-        #  7 fainted -->  36%
-        #  6 fainted -->  45%
-        #  5 fainted -->  55%
-        #  4 fainted -->  64%
-        #  3 fainted -->  72%
-        #  2 fainted -->  82%
-        #  1 fainted -->  91%
-        #  0 fainted --> 100%
+        if skip_on_fainted_linear != 0:
+            if skip_on_fainted_linear*(fainted_pokemon_count-11)/11+1 < random.random():
+                continue
+        elif skip_on_fainted_exp != 0:
+            if math.exp( (fainted_pokemon_count-11)*skip_on_fainted_exp/2 ) < random.random():
+                continue
 
-        # if fainted_pokemon_count/11 < random.random():
-        #     continue
+        if re_order:
+            # reorder the bench pokemon
+            # this reduces overfitting
+            bench_order = np.array([1,2,3,4,5])
+            np.random.shuffle(bench_order)
 
-        # exponential chances of being skipped
-        # 11 fainted -->   0%
-        # 10 fainted -->  39%
-        #  9 fainted -->  63%
-        #  8 fainted -->  78%
-        #  7 fainted -->  86%
-        #  6 fainted -->  92%
-        #  5 fainted -->  95%
-        #  4 fainted -->  97%
-        #  3 fainted -->  98%
-        #  2 fainted -->  99%
-        #  1 fainted -->  99%
-        #  0 fainted --> 100%
+            new_value = val[0][95:245]
 
-        if math.exp( (fainted_pokemon_count-11)/2 ) < random.random():
-            continue
+            for i in range(1, 6):
+                if i != bench_order[i-1]:
+                    new_value[(i*30-30):(i*30)] = val[0][ (bench_order[i-1]*30+65):bench_order[i-1]*30+95 ]
+                    
+            val[0][95:245] = new_value
 
+            np.random.shuffle(bench_order)
 
-        # print("")
-        # print("before")
-        # print(val[0][65], val[0][95], val[0][125], val[0][155], val[0][185], val[0][215])
-        # print(val[0][245], val[0][275], val[0][305], val[0][335], val[0][365], val[0][395])
-        # print(val[1])
+            new_value = val[0][275:425]
 
+            for i in range(1, 6):
+                if i != bench_order[i-1]:
+                    new_value[(i*30-30):(i*30)] = val[0][ (bench_order[i-1]*30+65+180):bench_order[i-1]*30+95+180 ]
+                    
+            val[0][275:425] = new_value
 
-        # reorder the bench pokemon
-        # this reduces overfitting
-        bench_order = np.array([1,2,3,4,5])
-        np.random.shuffle(bench_order)
+        if occasional_swap and not not random.randrange(0, 2):
+            # print("start swap")
+            # print("result", val[1])
+            # for i in range(425): print(val[0][i])
 
-        new_value = val[0][95:245]
-
-        for i in range(1, 6):
-            if i != bench_order[i-1]:
-                new_value[(i*30-30):(i*30)] = val[0][ (bench_order[i-1]*30+65):bench_order[i-1]*30+95 ]
-                
-        val[0][95:245] = new_value
-
-        new_value = val[0][275:425]
-
-        for i in range(1, 6):
-            if i != bench_order[i-1]:
-                new_value[(i*30-30):(i*30)] = val[0][ (bench_order[i-1]*30+65+180):bench_order[i-1]*30+95+180 ]
-                
-        val[0][275:425] = new_value
-
-        if not not random.randrange(0, 2):
             val[1] = not val[1]
 
             temp_p1_hazards = val[0][5:14]
@@ -120,45 +91,42 @@ def get_data(turn_minimum, max_datapoints):
             temp_p1_pokemon = val[0][65:245]
             val[0][65:245] = val[0][245:425]
             val[0][245:425] = temp_p1_pokemon
-
-        # print("")
-        # print("after")
-        # print(val[0][65], val[0][95], val[0][125], val[0][155], val[0][185], val[0][215])
-        # print(val[0][245], val[0][275], val[0][305], val[0][335], val[0][365], val[0][395])
-        # print(val[1])
+            
+            # print("end")
+            # print("result", val[1])
+            # for i in range(425): print(val[0][i])
 
         x.append(val[0])
         y.append(int(val[1]))
     return x, y
 
-
 MLPClassifier._backprop = network_injection._backprop_injection(MLPClassifier._backprop)
 MLPClassifier._init_coef = network_injection._init_coef_injection(MLPClassifier._init_coef)
 
-X, y = get_data(3, 1E3)
-
-print("got data")
-
-clf = MLPClassifier(random_state=1, max_iter=300, hidden_layer_sizes=const.layers_tuple, verbose=True, tol=-1).fit(X, y)
-print("got finished training")
-
-file = open("../weights.txt", "wb")
-
-print("len(clf.coefs_)",len(clf.coefs_))
-print("len(clf.intercepts_)",len(clf.intercepts_))
-
-max = len(const.layers_tuple)+1
-print("max", max)
-
-outputArr = [
-    *[clf.coefs_[i].tolist() for i in range(max)],
-    [clf.intercepts_[i].tolist() for i in range(max)]
-] 
-
-print(len(outputArr))
-
-file.write(
-    msgpack.packb( 
-        outputArr
+def train_with_params(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=False, skip_on_fainted_exp=False, re_order=False, occasional_swap=False, rng_seed=1):
+    X, y = get_data(
+        turn_minimum=turn_minimum, 
+        max_datapoints=max_datapoints,
+        skip_on_fainted_exp=skip_on_fainted_exp,
+        skip_on_fainted_linear=skip_on_fainted_linear,
+        re_order=re_order,
+        occasional_swap=occasional_swap
     )
-)
+    # print("got data")
+
+    clf = MLPClassifier(random_state=rng_seed, max_iter=70, hidden_layer_sizes=const.layers_tuple, verbose=True, tol=-1).fit(X, y)
+    # print("got finished training")
+    
+    graph(clf, "./graphs/turnmin={0}; maxdata={1}; skipfaintexp={2}; skipfaintlinear={3}; reorder={4}; swap={5}; seed={6}.png".format(
+        turn_minimum, max_datapoints, skip_on_fainted_exp, skip_on_fainted_linear, re_order, occasional_swap, rng_seed
+        )
+    )
+
+baseline = 1E5
+
+train_with_params(skip_on_fainted_linear=1, max_datapoints=baseline, rng_seed=5, occasional_swap=True)
+train_with_params(skip_on_fainted_linear=2, max_datapoints=baseline, rng_seed=5, occasional_swap=True)
+train_with_params(skip_on_fainted_exp=1, max_datapoints=baseline, rng_seed=5, occasional_swap=True)
+train_with_params(skip_on_fainted_exp=2, max_datapoints=baseline, rng_seed=5, occasional_swap=True)
+
+# export(clf)
