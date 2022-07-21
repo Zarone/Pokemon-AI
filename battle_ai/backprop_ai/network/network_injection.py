@@ -1,5 +1,4 @@
 import numpy as np
-import const
 
 def _backprop_injection(original):
     def newFunction(*args):

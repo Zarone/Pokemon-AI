@@ -24,17 +24,26 @@ def graph(clf, dir):
 
             network_input = get_inputs()
             network_input[95+enemy_offset] = val
+            if val<1:
+                network_input[124+enemy_offset] = 1
             inputY1.append(clf._forward_pass_fast([ network_input ])[0][0])
 
             network_input = get_inputs()
             network_input[95+enemy_offset] = val
             network_input[125+enemy_offset] = val
+            if val<1:
+                network_input[124+enemy_offset] = 1
+                network_input[154+enemy_offset] = 1
             inputY2.append(clf._forward_pass_fast([ network_input ])[0][0])
             
             network_input = get_inputs()
             network_input[95+enemy_offset] = val
             network_input[125+enemy_offset] = val
             network_input[155+enemy_offset] = val
+            if val<1:
+                network_input[124+enemy_offset] = 1
+                network_input[154+enemy_offset] = 1
+                network_input[184+enemy_offset] = 1
             inputY3.append(clf._forward_pass_fast([ network_input ])[0][0])
             
             network_input = get_inputs()
@@ -42,6 +51,11 @@ def graph(clf, dir):
             network_input[125+enemy_offset] = val
             network_input[155+enemy_offset] = val
             network_input[185+enemy_offset] = val
+            if val<1:
+                network_input[124+enemy_offset] = 1
+                network_input[154+enemy_offset] = 1
+                network_input[184+enemy_offset] = 1
+                network_input[214+enemy_offset] = 1
             inputY4.append(clf._forward_pass_fast([ network_input ])[0][0])
             
             network_input = get_inputs()
@@ -50,6 +64,12 @@ def graph(clf, dir):
             network_input[155+enemy_offset] = val
             network_input[185+enemy_offset] = val
             network_input[215+enemy_offset] = val
+            if val<1:
+                network_input[124+enemy_offset] = 1
+                network_input[154+enemy_offset] = 1
+                network_input[184+enemy_offset] = 1
+                network_input[214+enemy_offset] = 1
+                network_input[244+enemy_offset] = 1
             inputY5.append(clf._forward_pass_fast([ network_input ])[0][0])
 
             network_input = get_inputs()
@@ -59,10 +79,19 @@ def graph(clf, dir):
             network_input[155+enemy_offset] = val
             network_input[185+enemy_offset] = val
             network_input[215+enemy_offset] = val
+            if val<1:
+                network_input[94+enemy_offset] = 1
+                network_input[124+enemy_offset] = 1
+                network_input[154+enemy_offset] = 1
+                network_input[184+enemy_offset] = 1
+                network_input[214+enemy_offset] = 1
+                network_input[244+enemy_offset] = 1
             inputY5Active.append(clf._forward_pass_fast([ network_input ])[0][0])
 
             network_input = get_inputs()
             network_input[65+enemy_offset] = val
+            if val<1:
+                network_input[94+enemy_offset] = 1
             inputYActive.append(clf._forward_pass_fast([ network_input ])[0][0])
 
         row = 0
