@@ -189,11 +189,18 @@ function StateReader.get_enemy_health(player_pokemon_count, enemy_pokemon_count)
 end
 
 function StateReader.get_weather()
-    return memory.readbyte(0x021F63F4)
+
+    local weather = memory.readbyte(0x021F63F4)
+    return weather
 end
 
 function StateReader.get_remaining_weather_turns()
-    return memory.readbyte(0x021F63F8)
+    local remaining_weather_turns = memory.readbyte(0x021F63F8)
+    if remaining_weather_turns == 255 then
+        return 0
+    else
+        return remaining_weather_turns
+    end
 end
 
 function types_in_battle_slot(num)
@@ -347,6 +354,7 @@ end
 function StateReader.get_enemy_pokemon_array(enemy_active, player_pokemon_count, enemy_pokemon_count)
     local Pokemon = {}
     local L_healths = StateReader.get_enemy_health(player_pokemon_count, enemy_pokemon_count)
+    print("L_healths", L_healths)
     local L_statuses = StateReader.get_enemy_status(player_pokemon_count, enemy_pokemon_count)
     local L_stats = get_enemy_stats(player_pokemon_count, enemy_pokemon_count)
     local L_types = get_enemy_types(player_pokemon_count, enemy_pokemon_count)

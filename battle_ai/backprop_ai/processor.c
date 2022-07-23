@@ -13,16 +13,16 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define LAYERS 7
-
+#define LAYERS 9
 #define L1 425
 #define L2 200
-#define L3 100
-#define L4 50
-#define L5 10
-#define L6 5
-#define L7 1
-#define L8 1
+#define L3 50
+#define L4 20
+#define L5 20
+#define L6 20
+#define L7 20
+#define L8 5
+#define L9 1
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
@@ -30,13 +30,13 @@
 
 #define TRIM_P2 3
 #define TRIM_P2_CATCH 1
-#define TRIM_P1 6
+#define TRIM_P1 7
 #define TRIM_P1_CATCH 2
 
 #define START_DEPTH 2
 #define START_DEPTH_CATCH 4
 
-#define MULTITHREADED false
+#define MULTITHREADED true
 
 struct Weights {
     double** weights[LAYERS-1];
@@ -72,6 +72,9 @@ int getLayerSize(int layer){
             break;
         case 7:
             return L8;
+            break;
+        case 8:
+            return L9;
             break;
         default:
             printf("triggered default in getLayerSize()\n");
@@ -1416,7 +1419,7 @@ void *evaluate_move(void *rawArgs){
                     // "i" is player2's move
                     // "j" is player1's move
 
-                    // printf("\n");
+                    printf("\n");
                     printf("Evaluating P1 %i; P2 %i; Result %i\n", j, i, k);
                     double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH);
                     printf("Estimate: %f\n", estimate);

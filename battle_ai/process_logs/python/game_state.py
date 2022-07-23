@@ -704,8 +704,8 @@ class GameState:
         self.player1hazards = [0 for _ in range(HAZARDS)]
         self.player2hazards = [0 for _ in range(HAZARDS)]
 
-        # weather: 0 => sun, 1 => rain, 2 => sand, 3 => hail
         self.numberofweatherturns = 0
+        # weather: 0 => sun, 1 => rain, 2 => sand, 3 => hail
         self.weathertype = [0 for _ in range(4)]
 
         turn_zero = False  # there's a period when the game has started but there's no active

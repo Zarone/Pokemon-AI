@@ -19,7 +19,6 @@ MLPClassifier._init_coef = network_injection._init_coef_injection(MLPClassifier.
 def get_data(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=0, skip_on_fainted_exp=0, re_order=False, occasional_swap=False):
     x = []
     y = []
-    z = []
     fileCount = len(os.listdir(process_log_dir))
     increment = 0
     for fileName in os.listdir(process_log_dir):
@@ -73,9 +72,6 @@ def get_data(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=0, skip_on
             val[0][275:425] = new_value
 
         if occasional_swap and not not random.randrange(0, 2):
-            # print("start swap")
-            # print("result", val[1])
-            # for i in range(425): print(val[0][i])
 
             val[1] = not val[1]
 
@@ -94,17 +90,13 @@ def get_data(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=0, skip_on
             temp_p1_pokemon = val[0][65:245]
             val[0][65:245] = val[0][245:425]
             val[0][245:425] = temp_p1_pokemon
-            
-            # print("end")
-            # print("result", val[1])
-            # for i in range(425): print(val[0][i])
 
         x.append(val[0])
         y.append(int(val[1]))
-        z.append(fileName)
-    return x, y, z
 
-X, y, z = None, None, None
+    return x, y
+
+X, y = None, None
 
 def train_with_params(
     turn_minimum=0, max_datapoints=0, 
@@ -112,11 +104,11 @@ def train_with_params(
     re_order=False, occasional_swap=False, rng_seed=1, max_iter=100,
     layers_tuple=(200, 100, 50, 20, 10), globalInput=False
 ):
-    if (globalInput): global X, y, z
-    else: X, y, z
+    if (globalInput): global X, y
+    else: X, y
 
-    if X == None:
-        X, y, z = get_data(
+    if X == None or not globalInput:
+        X, y = get_data(
             turn_minimum=turn_minimum, 
             max_datapoints=max_datapoints,
             skip_on_fainted_exp=skip_on_fainted_exp,
@@ -126,7 +118,7 @@ def train_with_params(
         )
     # print("got data")
 
-    clf = MLPClassifier(random_state=rng_seed, max_iter=max_iter, hidden_layer_sizes=layers_tuple, verbose=True, tol=-1, og_dataset=z).fit(X, y)
+    clf = MLPClassifier(random_state=rng_seed, max_iter=max_iter, hidden_layer_sizes=layers_tuple, verbose=True, tol=-1).fit(X, y)
     # print("got finished training")
     
     graph(clf, "./graphs/turnmin={0}; maxdata={1}; skipfaintexp={2}; skipfaintlinear={3}; reorder={4}; swap={5}; seed={6}.png".format(
@@ -136,13 +128,13 @@ def train_with_params(
 
     return clf
 
-baseline = 1E8
-baselayers = (70, 50, 20, 20, 20, 5)
+baseline = 1E7
+baselayers = (200, 50, 20, 20, 20, 20, 5)
 
 clfs = [
     train_with_params(
         max_datapoints=baseline, 
-        rng_seed=18, 
+        rng_seed=20, 
         occasional_swap=True, 
         max_iter=300, 
         layers_tuple=baselayers, 

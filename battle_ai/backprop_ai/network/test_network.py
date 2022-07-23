@@ -11,7 +11,7 @@ weight_text.close()
 
 weights = msgpack.unpackb(weight_bytes)
 
-layers_tuple = (200, 100, 50, 20, 10)
+layers_tuple = (200, 50, 20, 20, 20, 20, 5)
 
 clf = MLPClassifier(random_state=1, max_iter=1, hidden_layer_sizes=layers_tuple, tol=1E-6).fit( [[0 for i in range(425)]] , [1] )
 
