@@ -13,8 +13,9 @@ from graph import graph
 
 process_log_dir = "../../state_files/processed_logs/"
 
-MLPClassifier._backprop = network_injection._backprop_injection(MLPClassifier._backprop)
-MLPClassifier._init_coef = network_injection._init_coef_injection(MLPClassifier._init_coef)
+# MLPClassifier._backprop = network_injection._backprop_injection(MLPClassifier._backprop)
+# MLPClassifier._init_coef = network_injection._init_coef_injection(MLPClassifier._init_coef)
+MLPClassifier._update_no_improvement_count = network_injection._graph_injection(MLPClassifier._update_no_improvement_count)
 
 def get_data(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=0, skip_on_fainted_exp=0, re_order=False, occasional_swap=False):
     x = []
@@ -96,26 +97,22 @@ def get_data(turn_minimum=0, max_datapoints=0, skip_on_fainted_linear=0, skip_on
 
     return x, y
 
-X, y = None, None
-
 def train_with_params(
     turn_minimum=0, max_datapoints=0, 
     skip_on_fainted_linear=False, skip_on_fainted_exp=False, 
     re_order=False, occasional_swap=False, rng_seed=1, max_iter=100,
-    layers_tuple=(200, 100, 50, 20, 10), globalInput=False
+    layers_tuple=(200, 100, 50, 20, 10)
 ):
-    if (globalInput): global X, y
-    else: X, y
 
-    if X == None or not globalInput:
-        X, y = get_data(
-            turn_minimum=turn_minimum, 
-            max_datapoints=max_datapoints,
-            skip_on_fainted_exp=skip_on_fainted_exp,
-            skip_on_fainted_linear=skip_on_fainted_linear,
-            re_order=re_order,
-            occasional_swap=occasional_swap
-        )
+    
+    X, y = get_data(
+        turn_minimum=turn_minimum, 
+        max_datapoints=max_datapoints,
+        skip_on_fainted_exp=skip_on_fainted_exp,
+        skip_on_fainted_linear=skip_on_fainted_linear,
+        re_order=re_order,
+        occasional_swap=occasional_swap
+    )
     # print("got data")
 
     clf = MLPClassifier(random_state=rng_seed, max_iter=max_iter, hidden_layer_sizes=layers_tuple, verbose=True, tol=-1).fit(X, y)
@@ -129,18 +126,19 @@ def train_with_params(
     return clf
 
 baseline = 1E7
-baselayers = (200, 50, 20, 20, 20, 20, 5)
+baselayers = (100, 50, 50, 20, 20, 5)
 
 clfs = [
     train_with_params(
         max_datapoints=baseline, 
-        rng_seed=20, 
-        occasional_swap=True, 
-        max_iter=300, 
-        layers_tuple=baselayers, 
-        globalInput=True
+        rng_seed=23,
+        occasional_swap=True,
+        re_order=True,
+        max_iter=600, 
+        layers_tuple=baselayers,
     ),
 ]
 
-# export( clfs[int(input("Export Which Network? "))], baselayers )
-export( clfs[0], baselayers )
+# index = int(input("Export Which Network? "))
+# export( clfs[index], clfs[index].hidden_layer_sizes )
+export( clfs[0], clfs[0].hidden_layer_sizes )

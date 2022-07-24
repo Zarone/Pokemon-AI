@@ -4,7 +4,9 @@ from matplotlib import pyplot as plt
 from input_data import get_inputs
 
 def graph(clf, dir=None):
-    fig, ax = plt.subplots(nrows=2, ncols=2)
+    nrows = 2
+    ncols = 1
+    fig, ax = plt.subplots(nrows=nrows, ncols=ncols)
 
     def display_HP_versus_winrate(enemy=True, col=0, row=0, input_index=0):
         inputX = [i for i in range(100, -2, -1)]
@@ -92,21 +94,26 @@ def graph(clf, dir=None):
             network_input[65+enemy_offset] = val
             inputYActive.append(clf._forward_pass_fast([ network_input ])[0][0])
 
-        ax[row, col].plot(inputX, inputY1, label="1 pokemon")
-        ax[row, col].plot(inputX, inputY3, label="3 pokemon")
-        ax[row, col].plot(inputX, inputY5, label="5 pokemon")
-        ax[row, col].plot(inputX, inputYActive, label="active")
-        ax[row, col].plot(inputX, inputY1Active, label="1 pokemon + active")
-        ax[row, col].plot(inputX, inputY3Active, label="3 pokemon + active")
-        ax[row, col].plot(inputX, inputY5Active, label="5 pokemon + active")
-        ax[row, col].legend()
+        if ncols == 1:
+            loc = (row)
+        else:
+            loc = (row, col)
+
+        ax[loc].plot(inputX, inputY1, label="1 pokemon")
+        ax[loc].plot(inputX, inputY3, label="3 pokemon")
+        ax[loc].plot(inputX, inputY5, label="5 pokemon")
+        ax[loc].plot(inputX, inputYActive, label="active")
+        ax[loc].plot(inputX, inputY1Active, label="1 pokemon + active")
+        ax[loc].plot(inputX, inputY3Active, label="3 pokemon + active")
+        ax[loc].plot(inputX, inputY5Active, label="5 pokemon + active")
+        ax[loc].legend()
 
         if (enemy):
-            ax[row, col].set(xlabel='enemy hp (input index {0})'.format(input_index), ylabel='winrate')
+            ax[loc].set(xlabel='enemy hp (input index {0})'.format(input_index), ylabel='winrate')
         else:
-            ax[row, col].set(xlabel='hp (input index {0})'.format(input_index), ylabel='winrate')
+            ax[loc].set(xlabel='hp (input index {0})'.format(input_index), ylabel='winrate')
 
-        ax[row, col].grid()
+        ax[loc].grid()
 
     def display_Boosts_versus_winrate(enemy=True, col=0, row=0, input_index=0):
         inputX = [i for i in range(-6, 6, 1)]
@@ -169,19 +176,19 @@ def graph(clf, dir=None):
 
         ax[row, col].grid()
 
-    
-
     display_HP_versus_winrate(enemy=True, col=0, row=1, input_index=0)
     display_HP_versus_winrate(enemy=False, col=0, row=0, input_index=0)
     # display_HP_versus_winrate(enemy=True, col=1, row=1, input_index=1)
     # display_HP_versus_winrate(enemy=False, col=1, row=0, input_index=1)
-    display_Boosts_versus_winrate(enemy=True, col=1, row=0, input_index=0)
-    display_Boosts_versus_winrate(enemy=False, col=1, row=1, input_index=0)
+    # display_Boosts_versus_winrate(enemy=True, col=1, row=0, input_index=0)
+    # display_Boosts_versus_winrate(enemy=False, col=1, row=1, input_index=0)
     
     if dir:
         plt.gcf().set_size_inches(16, 12)
-        plt.savefig(dir, dpi=300)
+        plt.savefig(dir, dpi=40)
     else:
         plt.show()
+
+    plt.close(fig)
 
     

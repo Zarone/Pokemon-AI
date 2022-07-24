@@ -13,3 +13,4 @@ get_battle_data/old_logs/*
 get_battle_data/raw_logs/*
 get_battle_data/unused_logs/*
 navigator/map_cache/*
+battle_ai/backprop_ai/network/__pycache__/*.pyc

@@ -1,4 +1,13 @@
 import numpy as np
+from graph import graph
+
+def _graph_injection(original):
+    def newFunction(self, *args):
+        original(self, *args)
+        
+        graph(self, "./graphs/iter={0}.png".format(self.n_iter_) )
+
+    return newFunction
 
 def _backprop_injection(original):
     def newFunction(*args):
@@ -37,15 +46,27 @@ def _init_coef_injection(original):
     def newFunction(*args):
         coef_init, intercept_init = original(*args)
         if (args[1] == 425):
-            coef_init[125:155] = coef_init[95:125]
-            coef_init[155:185] = coef_init[95:125]
-            coef_init[185:215] = coef_init[95:125]
-            coef_init[215:245] = coef_init[95:125]
+            # coef_init[125:155] = coef_init[95:125]
+            # coef_init[155:185] = coef_init[95:125]
+            # coef_init[185:215] = coef_init[95:125]
+            # coef_init[215:245] = coef_init[95:125]
 
-            coef_init[305:335] = coef_init[275:305]
-            coef_init[335:365] = coef_init[275:305]
-            coef_init[365:395] = coef_init[275:305]
-            coef_init[395:425] = coef_init[275:305]
+            # coef_init[305:335] = coef_init[275:305]
+            # coef_init[335:365] = coef_init[275:305]
+            # coef_init[365:395] = coef_init[275:305]
+            # coef_init[395:425] = coef_init[275:305]
+
+            coef_init[95:125] = 0
+            coef_init[125:155] = 0
+            coef_init[155:185] = 0
+            coef_init[185:215] = 0
+            coef_init[215:245] = 0
+
+            coef_init[275:305] = 0
+            coef_init[305:335] = 0
+            coef_init[335:365] = 0
+            coef_init[365:395] = 0
+            coef_init[395:425] = 0
 
         return coef_init, intercept_init
 
