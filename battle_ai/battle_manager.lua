@@ -2,23 +2,7 @@ using_test_data = false
 debug_data = true
 
 debug_state = {
-    {
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 
-        
-        38, 35, 21, 15, 16, 16, 18, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-        100, 14, 7, 6, 7, 5, 6, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-        100, 20, 12, 10, 7, 11, 11, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-        100, 19, 10, 9, 12, 9, 10, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-        0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
-        0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
-        
-        9, 24, 14, 10, 13, 10, 13, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-        100, 24, 14, 10, 13, 10, 13, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 
-        0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
-        0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
-        0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 
-        0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1
-    }, 'N/A_s', 0, 0, '', '', '', '', 0, 0
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 49, 35, 21, 15, 16, 16, 18, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 14, 7, 6, 7, 5, 6, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 20, 12, 10, 7, 11, 11, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 100, 19, 10, 9, 12, 9, 10, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 24, 14, 10, 13, 10, 13, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 100, 24, 14, 10, 13, 10, 13, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, 0, 0, 0, 0, 0, 1}, 'N/A_s', 0, 0, '', '', '', '', 0, 0
 }
 
 debug_team1 = "Tepig|||Blaze|tackle,tailwhip,ember,odorsleuth|Bashful|0,9,0,1,0,3||4,23,3,19,16,29||11|114,,]Patrat|||Run Away|tackle,,,|Naughty|0,0,0,0,0,0||24,23,7,30,17,8||2|75,,]Lillipup|||Pickup|leer,tackle,odorsleuth,|Careful|0,1,0,0,0,0||28,28,17,15,18,19||5|80,,]Purrloin|||Limber|scratch,growl,,|Quiet|0,0,0,0,0,0||8,17,24,22,15,15||5|70,,"
@@ -458,6 +442,8 @@ function BattleManager:getState()
             returnTable[index+i] = pokemon_enemy[i+1]
         end
         index = index + 180
+
+        print(self.game_reader.active)
 
         if debug_data then 
             local this_state = io.open("./battle_ai/state_files/last_state.json", "w")

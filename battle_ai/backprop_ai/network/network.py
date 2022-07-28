@@ -115,7 +115,7 @@ def train_with_params(
     )
     # print("got data")
 
-    clf = MLPClassifier(random_state=rng_seed, max_iter=max_iter, hidden_layer_sizes=layers_tuple, verbose=True, tol=-1).fit(X, y)
+    clf = MLPClassifier(random_state=rng_seed, max_iter=max_iter, hidden_layer_sizes=layers_tuple, verbose=True, tol=-1, alpha=0.01).fit(X, y)
     # print("got finished training")
     
     graph(clf, "./graphs/turnmin={0}; maxdata={1}; skipfaintexp={2}; skipfaintlinear={3}; reorder={4}; swap={5}; seed={6}.png".format(
@@ -126,15 +126,15 @@ def train_with_params(
     return clf
 
 baseline = 1E7
-baselayers = (100, 50, 50, 20, 20, 5)
+baselayers = (100, 40, 40, 20, 10, 5)
 
 clfs = [
     train_with_params(
         max_datapoints=baseline, 
-        rng_seed=23,
+        rng_seed=24,
         occasional_swap=True,
         re_order=True,
-        max_iter=600, 
+        max_iter=300, 
         layers_tuple=baselayers,
     ),
 ]

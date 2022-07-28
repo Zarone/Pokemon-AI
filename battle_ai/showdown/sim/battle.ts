@@ -3159,6 +3159,31 @@ export class Battle {
 					}
 				}
 
+                let newSwitch1 = this.importData[2];
+                let newSwitch2 = this.importData[3];
+                if (this.sides[0].pokemon[newSwitch1].hp < 1){
+                    console.log("side 1 is dead")
+                    newSwitch1 = -1;
+                    for (let i = 0; i < 6; i++){
+                        if (this.sides[0].pokemon[i].hp > 0){
+                            newSwitch1 = i;
+                            break;
+                        }
+                    }
+                    if (newSwitch1 == -1) newSwitch1 = this.importData[2]; 
+                }
+                
+                if (this.sides[1].pokemon[newSwitch2].hp < 1){
+                    newSwitch2 = -1;
+                    for (let i = 0; i < 6; i++){
+                        if (this.sides[1].pokemon[i].hp > 0){
+                            newSwitch2 = i;
+                            break;
+                        }
+                    }
+                    if (newSwitch2 == -1) newSwitch2 = this.importData[3]; 
+                }
+
 				for (const side of this.sides) {
 					for (let i = 0; i < side.active.length; i++) {
 						if (!side.pokemonLeft) {
@@ -3170,12 +3195,12 @@ export class Battle {
 							this.actions.switchIn(side.pokemon[i], i);
 							if (side.id == "p1") {
 								this.actions.switchIn(
-									side.pokemon[this.importData[2]],
+									side.pokemon[newSwitch1],
 									i
 								);
 							} else if (side.id == "p2") {
 								this.actions.switchIn(
-									side.pokemon[this.importData[3]],
+									side.pokemon[newSwitch2],
 									i
 								);
 							}

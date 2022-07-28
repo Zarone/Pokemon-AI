@@ -439,36 +439,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				}
 			} else {
 				benchP1.push(
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 				);
 			}
 
@@ -504,36 +475,7 @@ export class BattleStream extends Streams.ObjectReadWriteStream<string> {
 				}
 			} else {
 				benchP2.push(
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 				);
 			}
 		}

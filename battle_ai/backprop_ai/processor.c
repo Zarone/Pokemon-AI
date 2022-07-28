@@ -13,16 +13,15 @@
 #include <time.h>
 #include <stdbool.h>
 
-#define LAYERS 9
+#define LAYERS 8
 #define L1 425
-#define L2 200
-#define L3 50
-#define L4 20
+#define L2 100
+#define L3 40
+#define L4 40
 #define L5 20
-#define L6 20
-#define L7 20
-#define L8 5
-#define L9 1
+#define L6 10
+#define L7 5
+#define L8 1
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
@@ -73,9 +72,9 @@ int getLayerSize(int layer){
         case 7:
             return L8;
             break;
-        case 8:
-            return L9;
-            break;
+        // case 8:
+            // return L9;
+            // break;
         default:
             printf("triggered default in getLayerSize()\n");
             return -1;
