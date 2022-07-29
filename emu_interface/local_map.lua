@@ -1,8 +1,8 @@
 local lmd = {} -- local map data
 
-mem = require "./navigator/memory_retrieval"
-local gmd = require "./navigator/global_map" -- global map data
-dofile("./navigator/table_helper.lua")
+mem = require "./emu_interface/memory_retrieval"
+local gmd = require "./emu_interface/global_map" -- global map data
+dofile("./emu_interface/table_helper.lua")
 
 lmd.x = nil
 lmd.y = nil
@@ -274,7 +274,7 @@ end
 
 lmd.pf.save_map = function(map_id)
 
-    print("saving local map data to "..string.format("./navigator/map_cache/%d.lua", (map_id)))
+    print("saving local map data to "..string.format("./emu_interface/map_cache/%d.lua", (map_id)))
 
     -- saves the map to a file
     export_data = {
@@ -286,7 +286,7 @@ lmd.pf.save_map = function(map_id)
         y_offset = lmd.y_offset,
         x_offset = lmd.x_offset
     }
-    table.save(export_data, string.format("./navigator/map_cache/%d.lua", (map_id)))
+    table.save(export_data, string.format("./emu_interface/map_cache/%d.lua", (map_id)))
 end
 
 lmd.pf.find_heuristic_cost = function(node_x, node_y, dest_x, dest_y)
@@ -513,11 +513,11 @@ lmd.pf.load_map = function()
         print("changing offsets in load_map, before", lmd.x_offset, lmd.y_offset)
 
         
-        saved_map = io.open(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)), "r")
+        saved_map = io.open(string.format("./emu_interface/map_cache/%d.lua", (lmd.map_id)), "r")
         if saved_map ~= nil then
             saved_map:close()
     
-            import_data = table.load(string.format("./navigator/map_cache/%d.lua", (lmd.map_id)))
+            import_data = table.load(string.format("./emu_interface/map_cache/%d.lua", (lmd.map_id)))
     
             lmd.local_map = import_data.map
             lmd.map_x_start = import_data.map_x_start

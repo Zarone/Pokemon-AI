@@ -1,8 +1,8 @@
-local md = require "./navigator/local_map" -- map data
-local goals = require "./navigator/goals"
-dofile("./navigator/table_helper.lua")
-local mem = require "./navigator/memory_retrieval"
-local output_manager = require "./navigator/output_manager"
+local md = require "./emu_interface/local_map" -- map data
+local goals = require "./emu_interface/goals"
+dofile("./emu_interface/table_helper.lua")
+local mem = require "./emu_interface/memory_retrieval"
+local output_manager = require "./emu_interface/output_manager"
 local BattleManager = require "./battle_ai/battle_manager"
 local json = require "lunajson"
 
@@ -44,7 +44,7 @@ local battle_weights = {
 
 function exit()
     -- saves global map data
-    table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal, mode = mode, battle_weights = battle_weights }, "./navigator/map_cache/global_cache.lua")
+    table.save({ global_map_data = md.get_global_map_data(), current_goal = goals.current_goal, mode = mode, battle_weights = battle_weights }, "./emu_interface/map_cache/global_cache.lua")
 
     -- saves local map data
     md.pf.save_map(md.map_id)
@@ -53,7 +53,7 @@ end
 -- runs exit function on close
 emu.registerexit(exit)
 
-loaded_saved_data = table.load("./navigator/map_cache/global_cache.lua")
+loaded_saved_data = table.load("./emu_interface/map_cache/global_cache.lua")
 if loaded_saved_data ~= nil then
     goals.current_goal = loaded_saved_data.current_goal
 

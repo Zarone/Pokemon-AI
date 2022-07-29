@@ -20,9 +20,9 @@ PokeReader = nil
 StateReader = nil
 GameReader = nil
 if not using_test_data then
-    PokeReader = require "./battle_ai/ram_reader/gen5_pokemonreader"
-    StateReader = require "./battle_ai/ram_reader/gen5_statereader"
-    GameReader = require "./battle_ai/ram_reader/gen5_logreader"
+    PokeReader = require "./emu_interface/ram_reader/gen5_pokemonreader"
+    StateReader = require "./emu_interface/ram_reader/gen5_statereader"
+    GameReader = require "./emu_interface/ram_reader/gen5_logreader"
 end
 
 package.cpath = ";./battle_ai/backprop_ai/processor/build/?.so"
