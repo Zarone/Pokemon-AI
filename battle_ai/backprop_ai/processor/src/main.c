@@ -12,16 +12,9 @@
 #include "luaconf.h"
 #include "mpack/mpack.h"
 #include "helper/helper.h"
-
-#define LAYERS 8
-#define L1 425
-#define L2 100
-#define L3 40
-#define L4 40
-#define L5 20
-#define L6 10
-#define L7 5
-#define L8 1
+#include "config.h"
+#include "datacontainers.h"
+#include "feedforward.h"
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
@@ -37,10 +30,6 @@
 
 #define MULTITHREADED true
 
-struct Weights {
-    double** weights[LAYERS-1];
-    double* biases[LAYERS-1];
-};
 
 int getLayerSize(int layer){
     if (layer > LAYERS) {
@@ -120,11 +109,6 @@ struct Input {
     double input_val;
 };
 
-// this is the data we update everytime we run the neural network
-struct BackpropData {
-    double condition; // tallies how much the AI wants to go to the pokemon center
-    double typeDesire[17]; // tallies how much the AI wants to catch pokemon of a certain type
-};
 
 pthread_mutex_t lock;
 struct BackpropData lastBackpropBatch;
@@ -800,183 +784,6 @@ double logistic_derivative(double a){
     return logistic(a)*(1-logistic(a));
 }
 
-bool checkWin(int (*inputs)[L1]){
-    for (int i = 245; i < 425; i+=30){
-        if ((double)(*inputs)[i] > 1){
-            return false;
-        }
-    }
-    return true;
-}
-
-bool checkLoss(int (*inputs)[L1]){
-    for (int i = 65; i < 245; i+=30){
-        if ((double)(*inputs)[i] > 1){
-            return false;
-        }
-    }
-    return true;
-}
-
-double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBackprop){
-
-
-    // the reason this checks for tally backprop is that if
-    // we do want to backpropogate than we don't want to
-    // return early
-
-    bool didWin = checkWin(inputs);
-    bool didLose = checkLoss(inputs);
-
-    if (didWin && !tallyBackprop) return 1.0f;
-    if (didLose && !tallyBackprop) return 0.0f;
-
-    double* activationLayers[LAYERS-1]; // skip over input layer
-    double* zLayers[LAYERS-1]; // skip over input layer
-    activationLayers[0] = (double*)malloc(L2*sizeof(double));
-    zLayers[0] = (double*)malloc(L2*sizeof(double));
-
-    
-    printf("Inputs[65] = %i\n", (*inputs)[65]);
-    printf("Inputs[95] = %i\n", (*inputs)[95]);
-    printf("Inputs[125] = %i\n", (*inputs)[125]);
-    printf("Inputs[155] = %i\n", (*inputs)[155]);
-    printf("Inputs[185] = %i\n", (*inputs)[185]);
-    printf("Inputs[215] = %i\n", (*inputs)[215]);
-
-    printf("Inputs[245] = %i\n", (*inputs)[245]);
-    printf("Inputs[275] = %i\n", (*inputs)[275]);
-    printf("Inputs[305] = %i\n", (*inputs)[305]);
-    printf("Inputs[335] = %i\n", (*inputs)[335]);
-    printf("Inputs[365] = %i\n", (*inputs)[365]);
-    printf("Inputs[395] = %i\n", (*inputs)[395]);
-
-    
-
-    for (int i = 0; i < L2; i++){ // i is the toNode
-        zLayers[0][i] = 0;
-        for (int j = 0; j < L1; j++){ // j is the fromNode
-            zLayers[0][i] += (*inputs)[j] * ((double*)(my_weights->weights[0]))[j*L2 + i];
-        }
-        zLayers[0][i] += my_weights->biases[0][i];
-        activationLayers[0][i] = relu(zLayers[0][i]);
-    }
-
-    for (int i = 1; i < LAYERS-1; i++){
-        
-        int thisLayerCount = getLayerSize(i+1);
-        int lastLayerCount = getLayerSize(i);
-
-        // allocate mem for layer "i"
-        activationLayers[i] = (double*)malloc(thisLayerCount*sizeof(double));
-        zLayers[i] = (double*)malloc(thisLayerCount*sizeof(double));
-        
-        // prop from layer "i" to layer "i+1"
-        for (int j = 0; j < thisLayerCount; j++){ // j is the toNode
-            zLayers[i][j] = 0;
-            for (int k = 0; k < lastLayerCount; k++){ // k is the fromNode
-                zLayers[i][j] += activationLayers[i-1][k] * ((double*)(my_weights->weights[i]))[k*thisLayerCount + j];
-            }
-            
-            zLayers[i][j] += ((double*)(my_weights->biases[i]))[j];
-            activationLayers[i][j] = (i == LAYERS - 2) ? logistic( zLayers[i][j] ) : relu( zLayers[i][j] );
-        }
-    }
-
-
-    if (tallyBackprop == 1){
-        // backpropagate to find ideal changes to inputs
-
-        // I'm also defining error as ( del V / del a ) where V 
-        // is the very last activation and a is any given activation value
-
-        double* errorLayers[LAYERS-1]; // excluding the output layer
-
-        for (int i = 1; i < LAYERS; i++){
-            
-            int thisLayerCount = getLayerSize(LAYERS-1-i); 
-            
-            errorLayers[i-1] = (double*)malloc(thisLayerCount * sizeof(double));
-            
-            for (int j = 0; j < thisLayerCount; j++){
-                errorLayers[i-1][j] = 0;
-                int nextLayerCount = getLayerSize(LAYERS-i);
-                for (int k = 0; k < nextLayerCount; k++){
-
-                    double derivative1 = ((double*)(my_weights->weights[LAYERS-1-i]))[j*nextLayerCount + k];
-                    double derivative2 = (i == 1) ? logistic_derivative( zLayers[LAYERS-1-i][k] ) : relu_derivative( zLayers[LAYERS-1-i][k] );
-                    double derivative3 = (i == 1) ? 1 : errorLayers[i - 2][k];
-
-                    errorLayers[i-1][j] += derivative1 * derivative2 * derivative3;
-                }
-            }
-        }
-
-        double tempCondition = 0;
-
-        for (int i = 65; i < 245; i+=30){
-            // if there's a pokemon in this slot
-            if ((*inputs)[i+1] > 0){
-                tempCondition -= errorLayers[LAYERS-2][i]*((*inputs)[i]-100.0f);
-                // printf("health %i, errorLayers[LAYERS-2][%i] * 100 000 000 = %f\n", (*inputs)[i], i, errorLayers[LAYERS-2][i] * 100000000);
-
-                if (errorLayers[LAYERS-2][i+24] < 0) tempCondition -= errorLayers[LAYERS-2][i+24]*((*inputs)[i+24]);
-                if (errorLayers[LAYERS-2][i+25] < 0) tempCondition -= errorLayers[LAYERS-2][i+25]*((*inputs)[i+25]);
-                if (errorLayers[LAYERS-2][i+26] < 0) tempCondition -= errorLayers[LAYERS-2][i+26]*((*inputs)[i+26]);
-                if (errorLayers[LAYERS-2][i+27] < 0) tempCondition -= errorLayers[LAYERS-2][i+27]*((*inputs)[i+27]);
-                if (errorLayers[LAYERS-2][i+28] < 0) tempCondition -= errorLayers[LAYERS-2][i+28]*((*inputs)[i+28]);
-                if (errorLayers[LAYERS-2][i+29] < 0) tempCondition -= errorLayers[LAYERS-2][i+29]*((*inputs)[i+29]);
-
-            } else {
-                for (int j = 7; j < 24; j++){
-                    if (errorLayers[LAYERS-2][i+j]) lastBackpropBatch.typeDesire[j-7] -= errorLayers[LAYERS-2][i+j];
-                }
-            }
-        }
-
-        lastBackpropBatch.condition += tempCondition;
-        // printf("tempCondition %f\n", tempCondition);
-
-        for (int i = 0; i < LAYERS-1; i++){
-            free(errorLayers[i]);
-        }
-
-    }
-
-    for (int i = 0; i < LAYERS-2; i++){
-        free(activationLayers[i]);
-    }
-    for (int i = 0; i < LAYERS-1; i++){
-        free(zLayers[i]);
-    }
-
-    /*
-
-        // this code, if implemented, would make the player tend towards attacking
-        // when the enemy only has one pokemon remaining.
-
-        // number of enemy pokemon not fainted
-        int enemyNum = 6;
-        
-        for (int i = 245; i < 425; i+=30){
-            if ((double)(*inputs)[i] < 1){
-                enemyNum--;
-            }
-        }
-
-        if (enemyNum == 1) {
-            return activationLayers[LAYERS-2][0] + 0.3*(1 - ( (double)(*inputs)[245] / 100.0f));
-        }
-    */
-
-    if (didWin) return 1.0f;
-    if (didLose) return 0.0f;
-
-    return activationLayers[LAYERS-2][0];
-
-    
-}
-
 void frameSkip(lua_State *L){
     lua_call(L, 0, 0);
     lua_getglobal(L, "frame");
@@ -1159,7 +966,7 @@ void *evaluate_switch(void *rawArgs){
         for (int i = 0; i < 25; i++){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
                 // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false, &lastBackpropBatch);
                 allEstimates[i] = thisEstimate;
                 accumulativeP2[(*(args->my_state + i) ).secondaryP2 - 5] += thisEstimate;
                 countP2[(*(args->my_state + i) ).secondaryP2 - 5]+=1;
@@ -1247,7 +1054,7 @@ void *evaluate_switch(void *rawArgs){
 
                 double thisEstimate = 0;
                 if (args->depth == 1){
-                    thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
+                    thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false, &lastBackpropBatch);
                 } else if (args->depth > 1) {
                     struct EvaluateArgs newArgs;
                     newArgs.L = args->L;
@@ -1324,7 +1131,7 @@ void *evaluate_switch(void *rawArgs){
         for (int i = 0; i < 25; i++){
             if ( (*(args->my_state + i) ).name[0] != '\0' ) {
                 // double thisEstimate = evaluate_move( L, (my_state + i), my_weights, depth-1 ).estimate;
-                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false);
+                double thisEstimate = feedforward(args->my_weights, &((*(args->my_state + i)).game_data), false, &lastBackpropBatch);
                 accumulativeP2[(*(args->my_state + i) ).secondaryP2 - 5] += thisEstimate;
                 countP2[(*(args->my_state + i) ).secondaryP2 - 5]+=1;
             } else {
@@ -1420,7 +1227,7 @@ void *evaluate_move(void *rawArgs){
 
                     printf("\n");
                     printf("Evaluating P1 %i; P2 %i; Result %i\n", j, i, k);
-                    double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH);
+                    double estimate = feedforward(args->my_weights, &((my_states + i*10*25 + j*25 + k)->game_data), args->depth == START_DEPTH, &lastBackpropBatch);
                     printf("Estimate: %f\n", estimate);
 
                     total_estimate+=estimate;
@@ -2540,7 +2347,7 @@ int run_evaluation_switch(lua_State *L){
     args.depth = START_DEPTH;
     args.outputPtr = &bestSwitch;
 
-    printf("starting estimate %f\n", feedforward(&my_weights, &(args.my_state->game_data), false));
+    printf("starting estimate %f\n", feedforward(&my_weights, &(args.my_state->game_data), false, &lastBackpropBatch));
 
     // if (pthread_mutex_init(&lock, NULL) != 0) {
     //     printLua_string(L, "mutex init has failed", "");
