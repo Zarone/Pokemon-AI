@@ -1,6 +1,23 @@
 cls
-@REM gcc -O2 -c -o "./battle_ai/backprop_ai/processor/build/mpack.o" "./battle_ai/backprop_ai/mpack/mpack.c"
-gcc -O2 -c -o "./battle_ai/backprop_ai/processor/build/processor.o" "./battle_ai/backprop_ai/processor.c" -I"./battle_ai/backprop_ai/processor/lua51"
-gcc -O -shared -o "./battle_ai/backprop_ai/processor/build/processor.so" "./battle_ai/backprop_ai/processor/build/mpack.o" "./battle_ai/backprop_ai/processor/build/processor.o" -L".\battle_ai\backprop_ai\processor\dll" -llua5.1 -pthread
+
+gcc -O2 -c ^
+    "./battle_ai/backprop_ai/processor/dep/mpack/mpack.c"^
+    -o "./battle_ai/backprop_ai/processor/build/mpack.o" 
+
+gcc -O2 -c^
+    "./battle_ai/backprop_ai/processor/src/main.c" ^
+    -o "./battle_ai/backprop_ai/processor/build/processor.o" ^
+    -I "./battle_ai/backprop_ai/processor/dep/lua51" ^
+    -I "./battle_ai/backprop_ai/processor/dep" ^
+    -Wall -Wextra -pedantic-errors
+
+gcc -O -shared ^
+    "./battle_ai/backprop_ai/processor/build/mpack.o" ^
+    "./battle_ai/backprop_ai/processor/build/processor.o" ^
+    -o "./battle_ai/backprop_ai/processor/build/processor.so" ^
+    -L ".\battle_ai\backprop_ai\processor\dep\dll" ^
+    -l "lua5.1" ^
+    -pthread
+
+
 node ./battle_ai/showdown/build
-@REM lua5.1 "./battle_ai/battle_manager.lua"

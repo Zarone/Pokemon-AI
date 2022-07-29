@@ -1,3 +1,8 @@
+## Prerequisites
+
+- This Lua script was only designed for Lua5.1.4 (<a href="https://sourceforge.net/projects/luabinaries/files/5.1.4/Tools%20Executables/lua5_1_4_Win64_bin.zip/download">Binaries Here</a>). This is the version currently supported by DeSmuME.
+- LunaJSON. A lua plugin to JSON data. This can be installed with `luarocks install lunajson`, building it yourself from <a href="https://github.com/grafi-tt/lunajson">the LunaJSON Github</a>
+
 # Showdown Data and Backpropagation AI
 
 ## Training

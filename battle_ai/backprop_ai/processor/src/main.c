@@ -1,17 +1,17 @@
-#include "lua.h"
-#include "lauxlib.h"
-#include "luaconf.h"
-#include "processor/mpack/mpack.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "processor/helper/helper.h"
 #include <string.h>
 #include <pthread.h>
 #include <Windows.h>
 #include <unistd.h>
 #include <time.h>
 #include <stdbool.h>
+#include "lua.h"
+#include "lauxlib.h"
+#include "luaconf.h"
+#include "mpack/mpack.h"
+#include "helper/helper.h"
 
 #define LAYERS 8
 #define L1 425
