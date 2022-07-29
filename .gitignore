@@ -3,7 +3,6 @@
 .vscode/*
 RAM analysis/states/*
 RAM analysis/predict.json
-battle_ai/state_files/*
 battle_ai/state_files/processed_logs/*
 battle_ai/state_files/battleStateForShowdown/*
 battle_ai/state_files/battleStatesFromShowdown/*

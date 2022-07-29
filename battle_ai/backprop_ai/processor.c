@@ -1,11 +1,11 @@
 #include "lua.h"
 #include "lauxlib.h"
 #include "luaconf.h"
-#include "mpack/mpack.h"
+#include "processor/mpack/mpack.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "helper/helper.h"
+#include "processor/helper/helper.h"
 #include <string.h>
 #include <pthread.h>
 #include <Windows.h>

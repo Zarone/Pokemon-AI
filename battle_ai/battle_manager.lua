@@ -25,7 +25,7 @@ if not using_test_data then
     GameReader = require "./battle_ai/ram_reader/gen5_logreader"
 end
 
-package.cpath = ";./battle_ai/backprop_ai/build/?.so"
+package.cpath = ";./battle_ai/backprop_ai/processor/build/?.so"
 processor = require "processor"
 
 BattleManager = {}
