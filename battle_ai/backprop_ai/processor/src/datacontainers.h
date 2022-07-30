@@ -7,9 +7,4 @@ struct BackpropData {
     double typeDesire[17]; // tallies how much the AI wants to catch pokemon of a certain type
 };
 
-struct Weights {
-    double** weights[LAYERS-1];
-    double* biases[LAYERS-1];
-};
-
 #endif

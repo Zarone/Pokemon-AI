@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <math.h>
 #include "config.h"
 #include "datacontainers.h"
+#include "weightmanager.h"
 #include "feedforward.h"
 
 bool checkWin(int (*inputs)[L1]){
@@ -22,6 +24,24 @@ bool checkLoss(int (*inputs)[L1]){
     }
     return true;
 }
+
+
+double relu(double a){
+    return (a > 0) ? a : 0;
+}
+
+double relu_derivative(double a){
+    return (a > 0) ? 1 : 0;
+}
+
+double logistic(double a){
+    return 1 / (1 + exp(-SPREAD*(double)a));
+}
+
+double logistic_derivative(double a){
+    return logistic(a)*(1-logistic(a));
+}
+
 
 double feedforward(struct Weights *my_weights, int (*inputs)[L1], bool tallyBackprop, struct BackpropData *lastBackpropBatch){
 

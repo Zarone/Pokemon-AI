@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <string.h>
 #include <pthread.h>
 #include <Windows.h>
@@ -11,14 +10,14 @@
 #include "lauxlib.h"
 #include "luaconf.h"
 #include "mpack/mpack.h"
-#include "helper/helper.h"
+#include "networkmapping.h"
 #include "config.h"
 #include "datacontainers.h"
+#include "weightmanager.h"
 #include "feedforward.h"
 
 // this effects the sigmoid curve for the
 // feedforward algorithm
-#define SPREAD 0.05
 
 #define TRIM_P2 3
 #define TRIM_P2_CATCH 1
@@ -30,46 +29,6 @@
 
 #define MULTITHREADED true
 
-
-int getLayerSize(int layer){
-    if (layer > LAYERS) {
-        printf("out of layer bounds\n");
-        return -1;
-    }
-    switch (layer){
-        case 0:
-            return L1;
-            break;
-        case 1:
-            return L2;
-            break;
-        case 2:
-            return L3;
-            break;
-        case 3:
-            return L4;
-            break;
-        case 4:
-            return L5;
-            break;
-        case 5:
-            return L6;
-            break;
-        case 6:
-            return L7;
-            break;
-        case 7:
-            return L8;
-            break;
-        // case 8:
-            // return L9;
-            // break;
-        default:
-            printf("triggered default in getLayerSize()\n");
-            return -1;
-            break;
-    }
-}
 
 struct State {
     int game_data[L1]; // the input to the neural network
@@ -767,22 +726,6 @@ int get_inputs(lua_State *L, struct State *my_states, int currentKey){
 
 // neural network stuff
 
-double relu(double a){
-    return (a > 0) ? a : 0;
-}
-
-double relu_derivative(double a){
-    return (a > 0) ? 1 : 0;
-}
-
-
-double logistic(double a){
-    return 1 / (1 + exp(-SPREAD*(double)a));
-}
-
-double logistic_derivative(double a){
-    return logistic(a)*(1-logistic(a));
-}
 
 void frameSkip(lua_State *L){
     lua_call(L, 0, 0);
